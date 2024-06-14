@@ -1,0 +1,2885 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La belle Lisimène , tragi-comédie de M. de Boisrobert,...</title>
+        <author>Boisrobert, François de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb301217186"/>
+          <author>
+            <persName>Boisrobert, François de</persName>
+          </author>
+          <title>La belle Lisimène , tragi-comédie de M. de Boisrobert,...</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1642" cert="high" resp="BNF">1642</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A
+<lb />NIONSIEVR
+<lb />IXIT VOIIC
+<lb />LIEVTENANT DE LA
+<lb />Compagnie de Cheuaux-Legers, de
+<lb />Monseigneur le Cardinar, Duc de
+<lb />RICHELIEV, &amp; son Lieutenant.
+<lb />aussi au Gouuernement du Pont de
+<lb />l’Arche.
+</p>
+<sp type="MainZone-Sp"><lb />ONSIEVR,
+<lb />Ce n'est ny vostre grande re<lb />&amp; putation, ny l’estime particuliere
+<lb />que le premier de tous les hommes fait de vo<lb />stre grande Vertu, qui m'obligé à vous dédier
+<lb />ce petit Ouurage, que tous mes Amys me de<lb />mandent. C’est ma pure inclination, qui m'y
+<lb />porte, et la paßion extréme que ie conserue
+<lb />inuiolablement, &amp; sans discontinuation au<lb />cune à vostre seruice, depuis quatorze ans
+<lb />entiers, que i’ay l’honneur d’estre conneu de
+<lb />Vous, &amp; l’auantage de vous bien connoistre.
+<lb />A qui, ie vous prie, pourrois-je plus iustement
+<lb />presenter mon PYRANDRE, qu'à Celuy
+<lb />qui le fait reviure aujourd’huypar ses actiõs,
+<lb />&amp; qui pour parler plus proprement, cache en
+<lb />quelque façon le sens moral de la Fable que
+<lb />j’inuente? l’espere, MONSIEVR, qu'elle
+<lb />sera encore mieux vn iour expliquée en vostre
+<lb />Personne, &amp; que vostre merite vous éleuera
+<lb />si haut, que vous ne changerez pas volontiers
+<lb />vostre condition à celle des Princes d'Alba<lb />nit. Arauie jenio mrrendre dauantage, voit
+<lb />pouuez, comme eux, fournir presentement de
+<lb />matiere aux plus beaux Romans, &amp; plus ad
+<lb />uantageusement en ce poinct, que nous serons
+<lb />bien asseurez qu’ils partiront d’vne source
+<lb />pure, &amp; qu’ils auront vn fondement verita;
+<lb />ble. Vous n’auez iamais rien entrepris, qui ne
+<lb />vous ait heureusement reüssy; Vous n'auez
+<lb />iamais fait aucun combat, où vous n'ayez eu
+<lb />tout l’auantage. Quelque modestie naturelle
+<lb />qui vous porte à cacher vos actions, vostre
+<lb />gloire est si manifeste, que personne ne l’ignore
+<lb />plus; Et qui ne sçait point aujourd’huy que
+<lb />vous estes le seul Autheur de la deliurance
+<lb />de Rhé, ne connoist pas le nom de Celuy qui en
+<lb />cette occasion, comme en beaucoup d'autres,
+<lb />s'est seruy de vostre courage, &amp; de vostre a<lb />dresse. Jl n’appartient qu’à luy, MON<lb />SIEVR, de faire de iustes elections, sans
+<lb />toucher à ses autres qualitez, que ie ne regar<lb />de qu’auec respect, &amp; que ie sçay mieux ad<lb />mirer que descrire. Il ne faut pas que ie vous
+<lb />cele, que me sentant obligé par ses bien-faits
+<lb />particuliers, &amp; par ceux dont il a comblé toute
+<lb />la France, à luy donner desormais toutes mes
+<lb />pensées, i’ay presque esté sur le point d’em<lb />prunter l’éclat de son Nom, pour mettre ce pe<lb />tit liure en lumiere. Mais parce qu’il n'y a
+<lb />aucune proportion entre sa condition, &amp; les
+<lb />galanteries que ie traitte, i'eusse veritable<fw><lb />Source gallica.bnf.fr (Bibliothèque nationale de Franc
+</fw><lb />ment eu honte de mandier sa faueur &amp; sa
+<lb />protection pour des Princes fabuleux, cepen<lb />dant qu’il en protege de veritables, &amp; que se<lb />rieusement toute l’Europe implore son aßi<lb />stance. A ce deffaut donc ie m'adresse à Vous,
+<lb />qui auez, cét honneur entre beaucoup d’au<lb />tres, de porter la qualité de son Lieutenant;
+<lb />&amp; ie veux bien que l’on sçache qu’où il ne me
+<lb />sera pas permis de ietter les yeux sur son
+<lb />Eminence, &amp; toutes les fois que quelque sorte
+<lb />de respect m'empeschera de luy adresser mes
+<lb />vœux directement, ie ne les adresseray iamais
+<lb />qu'à ses Creatures. Quand vous ne seriez
+<lb />pas vne des plus considerables, comme vous
+<lb />estes, il suffit que vous soyez le premier dans
+<lb />mon cœur, &amp; dans mon estime, pour m'obli<lb />ger à rendre ce témoignage public, que ie suis,
+<lb />&amp; que ie fais gloire d'estre,
+</sp>
+<sp type="MainZone-Sp"><lb />MONSIEVR,
+<lb />Vostre tres-humble, &amp; tres<lb />passionné seruiteur,
+<lb />OIS-ROBERT,
+<fw><lb />tai
+<lb />to
+<lb />le
+<lb />14
+<lb />ce
+<lb />pa
+<lb />da
+<lb />cl
+<lb />ta
+<lb />ri
+<lb />te
+</fw></sp>
+<p type="MainZone-Head"><lb />ARGVMENT
+<lb />Es guerres de Thrace estant ache<lb />uées par la valeur de Pyrandre, sol<lb />dat de fortune, qui s’estoit esleué
+<lb />par sa vertu iusques à la generalité
+<lb />de l’Armée, &amp; qui en plusieurs ba<lb />tailles heureusement terminées, auoit deffait
+<lb />tous les ennemis de l’Estat; Enfin le Roy se
+<lb />voyant tout à fait paisible, se resout de r’appel<lb />ler la Princesse Lisimene sa fille, qu’il auoit esté
+<lb />contraint d’enuoyer en Albanie, prés de la Prin<lb />cesse Orante, sa cousine germaine, ne croyant
+<lb />pas qu’elle fust en seureté dans ses Estats, pen<lb />dant la fureur des guerres. A cet effect il depes<lb />che le Prince Pyroxene son fils, en Ambassade
+<lb />vers le Roy d’Albanie son beau frere. Pyrandre,
+<lb />qui estoit secretement amoureux de cette belle
+<lb />Princesse, fille du Roy son maistre, obtient d’au<lb />tant plus aisément congé d’accompagner le
+<lb />Prince en cette Ambassade, qu’il n’y auoit plus
+<lb />rien à craindre du costé des Ennemis, qu’il auoit
+<lb />tous exterminez. Aussi-tost qu’ils sont arriuez à
+<lb />Croye, ville capitale d’Albanie, où le Roy tenoit
+<lb />sa Cour, la Princesse Orante sa fille deuient pas<lb />sionnément amoureuse de Pyrandre: &amp; comme
+<lb />elle ne cachoit rien à sa cousine Lisimene, dans la
+<lb />longue amitié qu’elles auoient contractée, elle
+<lb />luy declare franchement cette nouuelle passion.
+<lb />Lisimene, qui estoit plus retenuë, &amp; qui brûloit
+<lb />secretement en son ame, de la mesme affection
+<lb />pour ce Cheualier inconnu, qui auoit si digne<lb />ment seruy le Roy son pere, s’efforce de destour<lb />ner cette amour naissante de l’esprit de sa cousi<lb />ne; luy represente l’obscurité de la naissance de
+<lb />Pyrandre, la haine mortelle que le Prince Araxe
+<lb />son frere luy portoit, &amp; enfin la Fortune qu’el<lb />le couroit, s’il descouuroit iamais qu'elle s’aban<lb />donnast à des nopces si inégales. Toutes ces rai<lb />sons ne gaignent rien sur l’esprit d’Orante, qui
+<lb />se resout d’escrire à Pyrandre, &amp; de l’appeller dés
+<lb />la nuict mésme dans sa chambre, pour luy don<lb />ner la foy de Mariage, voyant qu’elle ne le pou<lb />uoir esperer autrement pour espoux, &amp; coniure
+<lb />sa chere cousine de luy estre fidele &amp; secrete. Li<lb />simene craignant que la libre declaration qu’v<lb />ne si belle &amp; grande Princesse alloit faire de son
+<lb />amour à celuy qu’elle aymoit plus que sa vie, ne
+<lb />fist d’abord quelque impression sur son esprit, el<lb />le se dispose, quoy qu’auec beaucoup de peine, e
+<fw><lb />Pr
+<lb />m
+<lb />te
+<lb />de
+<lb />m
+<lb />P
+<lb />tu
+<lb />se
+<lb />da
+<lb />to
+<lb />de
+<lb />he
+<lb />te
+<lb />p
+<lb />se
+<lb />ar
+<lb />et
+<lb />V
+<lb />se
+<lb />sa
+<lb />te
+</fw><lb />preuenir sa cousine; &amp; rencontrant sur ce bon
+<lb />mouuemenr Pyrandre, qui sans la voir s’entre<lb />tenoit de sa passion, elle la seconde discretement
+<lb />de la sienne, &amp; luy promet de luy en donner de
+<lb />meilleures preuues, quand la bien-seance le luy
+<lb />permertroit. Pyrandre rauy de eette bonne for<lb />tune, qu’il n’attendoit point, reçoit au milieu de
+<lb />ses transports la lettre d’Orante, qui l’appelloit
+<lb />dans sa chambre. Cela le surprend extremement:
+<lb />toutefois il cache son émotion au Page porteur
+<lb />de la lettre, auquel il ordonne de venir dans vne
+<lb />heure querir la responce: &amp; trouuant sur ce
+<lb />temps là le Prince Pyroxene, qui brusloit d’vne
+<lb />passion extreme pour Orante, il luy découure la
+<lb />secrette amour qu’elle auoit pour luy. Ce Prince
+<lb />amoureux, qui croyoit ne trouuer aucũ obstclee
+<lb />en ce violent desir, qui luyvenoit de naistre pour
+<lb />Orante, se trouue merueilleusemẽt estonné de la
+<lb />voir engagée pour vn autre, &amp; témoigne son de<lb />sespoir à son amy, qui le console de toute sa puis<lb />lance. Et parée que la letere de la liihcesse por<lb />toit, qu’il n’y auroit autre flãbeau dans sa chãbre
+<lb />que celuy d’Amour, Pyrandre luy persuade de
+<lb />l'aller trouuer en sa place à la faueur des tenebres,
+<lb />qu’il luy seroit bien aisé de la tromper. Pyroxene
+<lb />y resiste quelque temps: mais enfin vaincu de la
+<lb />violence de son amour, il croit le conseil de son
+<lb />amy, respond à la lettre de la Princesse sous le
+<lb />nom de Pyrandre, &amp; luy promet de l’aller trou<lb />uer au rendez-vous amoureux. Orante rauie de
+<lb />ioye de voir que son cher Amant respondoit à
+<lb />son desir, fait part aussi-tost de sa bonne fortune
+<lb />à Lisimene, qu’elle aimoit si cherement, &amp; crût
+<lb />que ses secrets ne sortiroient point de son cœur,
+<lb />encore qu’ils luy fussent reuelez, parce qu’elle la
+<lb />consideroit comme vne autre soy-mesme. Elle
+<lb />la cõiure de plus de luy ayder à attacher l’échelle
+<lb />de cordes, par laquelle son Amant deuoit venir.
+<lb />Lisimene troublée de cette lettre, qu’elle vid
+<lb />rescrite de la main de Pyrandre, &amp; qu’elle crût
+<lb />estre veritablement partie de son cœur &amp; de son
+<lb />esprit, voyant tant de preparatifs, entra en quel<lb />que soupçon de la fidelité de Pyrandre: &amp; parce
+<lb />que l’heure approchoit, dans laquelle il deuoit
+<lb />passer par le iardin &amp; la chambre d’Orante: pour
+<lb />estre esclaircie de ce doute, elle se cache derriere
+<lb />vne pallissade, &amp; voit passer Pyroxene, qui se
+<lb />couloit à la faueur de la nuict. D’abord elle le
+<lb />prend pour Pyrandre: vomit cõtre luy mille sor<lb />tes d’imprecations, &amp; se trouue tentée de le tirer
+<lb />par le manteau, pour luy reprocher sa perfidic.
+<lb />Mais n’en ayant pas le courage, elle le laisse aller
+<lb />dans les bras d’Orante. Alors desesperée du mes<lb />pris qu’il auoit fait de sa naissance &amp; de sa beau<lb />té, sans considerer qu’elle perdoir sa cousine, &amp;
+<lb />qu’elle estendoit sa vengeance sur des Innocens,
+<lb />dans l'ardeur de sa colere &amp; de son ressentiment,
+<lb />elle va trouuer Araxe, frere d’Orante, Prince mal<lb />né, brutal, &amp; malfaisant, &amp; luy découure le des<lb />honneur que Pyrandre imprimoit dans la mai<lb />son Royale. Araxe, qui haïssoit mortellement sa
+<lb />sœur, &amp; qui portoit enuie à la vertu de Pyran<lb />dre, est bien aise dans vne si belle occasion de se
+<lb />vanger del’vn &amp; de l’autre: se fait conduire de ce
+<lb />pas à la chambre de la Princesse, &amp; ouurant sa
+<lb />porte auec vn passe-par-tout, entre dedans, suiuy
+<lb />de six de ses Gardes. Pyroxene, qui n’estoit pas
+<lb />là pour d’ormir, s’escrie seulement qu’ils estoient
+<lb />trahis; &amp; ne faisant qu'vn saut du lict à la fene<lb />stre, se sauue par l’échelle de cordes, par laquelle
+<lb />il estoit monté. Araxe crie qu’on aille apres,
+<lb />qu’on le prenne viste, si l’on peut, afin qu’il soit
+<lb />chastié par la Iustice. Mais Pyroxene, sans se trou<lb />bler, ayant vne espée courte dans sa main, coupe
+<lb />deux ou trois des échellons, si bien que les sol<lb />dats ne trouuans point sur quoy asseurer le pied,
+<lb />tombent lourdement à terre, se rompent les bras
+<lb />&amp; les iambes, &amp; donnent tout loisir au pauureA<lb />mant de fuir, &amp; de gagner le logis. Les larmes
+<lb />de cette Princesse infortunée ne gagnent rien sur
+<lb />esprit de ce Prince brutal, qui la donne en garde
+<lb />à trois Archers: &amp; sentant que ceux qui auoient
+<lb />suiuy Pyroxene s’estoient estropiez par leur
+<lb />cheute, il en va prendre d’autres, pour inuestir la
+<lb />logis de celuy qu’il croyoit auoir deshonoré se
+<lb />maison. D’ailleurs Pyroxene, qui s’estoit sauué,
+<lb />va’promptement éueiller Pyrandre, luy dit que
+<lb />ses larcins amoureux estoient découuerts par A<lb />raxe, qui le cherchoit, comme seul autheur du
+<lb />crime, qu’il s’habillast en diligence, &amp; qu’apres
+<lb />qu’il se seroit mis en quelque lieu de seureté, i
+<lb />iroit conter au Roy comme l’affaire s’estoit pas<lb />sée, &amp; qu’il esperoit en ce faisant, obtenir sans
+<lb />difficulté la Princesse en mariage. Pyrandre ha<lb />billé à la haste, essaye de se sauuer: mais ceux qui
+<lb />estoient aux aguets le surprennent, &amp; le menent
+<lb />en prison, comme ils auoient desia fait la Prin<lb />cesse Orante. Pyroxene desesperé d’estre le seul
+<lb />autheur de l’infamie de sa maistresse, &amp; de la per<lb />te’infaillible de son amy, se resout de s’aller ietter
+<lb />aux pieds du Roy, &amp; de sauuer l’honneur de sa
+<lb />fille en la luy demandant en mariage. Mais aupa<lb />rauant il va voir la Princesse emprisonnée, se iet<lb />te à genoux deuant elle, &amp; luy demande pardon
+<lb />de sa supposition. Orante preoccupée de cette
+<lb />forte imagination, qu’elle auoit donnée de son
+<lb />amour au seul Pyrandre, reiette Pyroxene, &amp; se
+<lb />va figurer que c’estoit vne fourbe qu’il inuen<fw><lb />*
+<lb /></fw><lb />
+<lb />toit, pour essayer de sauuer la vie à son amy.
+<lb />D’autre-part, Lisimene faisant reflexion sur les
+<lb />seruices que Pyrandre auoit rendus au Roy son
+<lb />pere, &amp; sur l’affection qu’elle auoit euë pour luy,
+<lb />elle se repent de sa vengeance precipitée: &amp;
+<lb />quoy que veritablement elle le crût infidelle, el<lb />le ne se peut empescher de le plaindre, &amp; de l’al<lb />ler visiter dans la prison. Elle n’a pas esté vn quart
+<lb />d’heure auec luy, qu’elle ne découure son inno<lb />cénce, qui la comble de regrets &amp; de douleurs.
+<lb />Et comme elle est preste de témoigner son de<lb />sespoir à son cher Amant, &amp; de luy demander
+<lb />pardon de son iniuste &amp; brutale vengeance, elle
+<lb />en est empeschée par le Iuge criminel, qui vient
+<lb />prõnoncer l’arrest de mort à pyrandre. Ne pou<lb />uant faire autre chose pour cette heure, elle va
+<lb />trouuer le Roy, qui venoit non seulement d’estre
+<lb />desabusé par Pyroxene, mais qui auoit encore
+<lb />appris du Iuge criminel, que pyrandre estoit son
+<lb />propre fils. Araxe, qu’il auoit autrefois esleué
+<lb />ieune enfant, par le commandement de sa Maje<lb />sté, lors qu’il le fit cacher, &amp; feindre sa mort, pour
+<lb />fauoriser la recherche que sadite Majesté faisoit
+<lb />en secondes nopces de la Princesse de Thrace, la<lb />quelle auoit longuement resisté à ce mariage,
+<lb />parce que le Roy d’Albanie auoit vn enfant qui
+<lb />*
+<lb />plus rien à esperer pour ceux qu’elle mettroit au
+<lb />monde; Enfin il se découure qu’Araxe le brutal.
+<lb />fils de ce luge Criminel, auoit esté supposé en la
+<lb />place du veritable Araxe, qui s’estoit de srobé dés
+<lb />l’âge de dixans de la maison de son pere putatif,
+<lb />&amp; qui sous le nom de Pyrandre auoit tant signa<lb />lé son courage. Le Roy rauy de l’Heureuse trom<lb />perie de Pyrandre, &amp; de rencontrer en luy vn en<lb />fant vertueux &amp; magnanime, pour vu brutàl
+<lb />qu’il pensoit auoir, depesche sur l’heure mesme
+<lb />au Roy de Thrace son beau-frere, pour luy faire
+<lb />agréer les deux mariages de Pyrandte auec Lisi<lb />mene, &amp; de Pyroxene auec Orante. Le faux Ara<lb />xe se presente là dessus, qui fait mille imperti<lb />nences. Mais le Roy, pouribreipect du titre qu’il
+<lb />auoit porté, &amp; pour recompenser aussi les serui<lb />ces de son pere, luy donne la charge de Cheua<lb />lier d’honneur de la Princesse, &amp; Dorine, vne de
+<lb />ses filles d’honneur, en mariage.
+</p>
+<p type="MainZone-Head"><lb />TRIPILEGE DV ROY.
+</p>
+<p type="MainZone-P"><lb />OVIS par la grace de Dieu Roy de
+<lb />France &amp; de Nauarre, à nos amez &amp;
+<lb />feaux Conseillers tenans nos Cours de
+<lb />Parlemens, Baillifs, Seneschaux, &amp; à tous
+<lb />autres luges &amp; Officiers qu’il appartien<lb />dra, chacun endroit scy: Salut. Nostre
+<lb />cher &amp; bien amé le Sieur de BOIS ROBERT, nous a
+<lb />fait remonstrer, qu’il a composé vn liure intitulé, L’heu<lb />reuse Tromperie, Trage-comedie, lequel il desireroit faire
+<lb />imprimer, &amp; mettre en lumiere, s’il nous plaisoit luy en
+<lb />accorder la permission; requerant à ceste fin nos lettres
+<lb />sur ce necessaires. A CES CAVSES, voulant
+<lb />contribuer au loüable dessein dudit Sieur de BOIs<lb />ROBERT, luy auons permis &amp; permettons de faire
+<lb />imprimer ledit liure, par tel Libraire ou Imprimeur qu’il
+<lb />voudra choisir: faisons deffences à tous autres Libraires
+<lb />&amp; Imprimeurs, d’imprimer ou faire imprimer durant le
+<lb />temps &amp; espace de neuf ans, à compter du iour &amp; datte
+<lb />que ledit liure sera acheué d’imprimer, à peine de con<lb />fiscation des Exemplaires, qui se trouueront auoir esté
+<lb />imprimez, &amp; de quinze cens liures d’amende à celuy qui
+<lb />en sera trouué saisi, dont la moitié nous appartiendra, &amp;
+<lb />l’autre moitié à l’exposant; &amp; de tous despens, domma<lb />ges, &amp; interests. Voulons que ces presentes soient tenuës
+<lb />pour bien signifiées, en faisant mettre vn extraict som<lb />maire d’icelles au commencement ou à la fin de chacun
+<lb />exemplaire dudit liure. SI vovs mandons, &amp; en<lb />joignons, que du present Priuilege &amp; du contenu en ice<lb />luy, vous faites &amp; souffriez ledit exposant, &amp; ceux qui
+<lb />auront droict de luy, iouyr &amp; vser plainement &amp; paisi<lb />blement, &amp; à ce faire souffrir &amp; obeyr, en contraignant
+<lb />tous ceux qui pour ce seront à contraindre par toutes
+<lb />voyes deuës &amp; raisonnables. MANDONS &amp; comman<lb />dons au premier nostre Huissier, ou Sergent sur ce re<lb />quis, faire pour l’execution des presentes tous exploicts
+<lb />&amp; faisies necessaires, sans pour ce demander congé, visa,
+<lb />ne pareatis: car tel est nostre plaisir; nonobstant clameur
+<lb />de haro, chartre normande, &amp; autres lettres à ce con<lb />traires. A la charge toutesfois que ledit exposant sera te<lb />nu mettre deux exemplaires dudit liure en nostre Bi<lb />bliotheque. Donné à Paris, le vingt troisiesme iour d’A<lb />uril, l’an de grace mil six cents trente-trois, &amp; de nostre
+<lb />Regne le vingt-troisiesme. Signé, Par le Roy en son
+<lb />Conseil, DE LA TOVR. Et sellé du grand seau
+<lb />de cire jaune.
+<fw><lb />1148.
+</fw></p>
+<p type="MainZone-P"><lb />Edit sieur de BOIS-ROBERT a cedé &amp; transpor
+<lb />Eté à Toussainct Quinet, marchand Libraire à Parí,
+<lb />le susdit Priuilege, pour ledit liure intitulé, L’Heureuse
+<lb />Tromperie, Trage-comedie, afin de l’imprimer, ou faire
+<lb />imprimer, le vendre &amp; debiter pendant le temps porté par
+<lb />le suselit Priuilege, ainsi qu’il a esté accordé entr'eux par acte
+<lb />pessé pardeuant les Notaires, le dernier iour de May, mil sis
+<lb />vents trente-trois.
+<fw><lb />124
+</fw></p>
+<p type="MainZone-Head"><lb />EDSAIEVRO
+<lb />PYRANDRE, Amoureux de Lisimene.
+<lb />PYROXENE,
+<lb />ORANTE,
+<lb />LISIMENE,
+<lb />DORINE,
+<lb />Fils du Roy de Thrace, Amou<lb />reux d’Orante.
+<lb />Fille du Roy d’Albanie.
+<lb />Fille du Roy de Thrace.
+<lb />Fille d’honneur de Lisimene.
+</p>
+<p type="MainZone-Entry"><lb />LE SECOND EXEMPT.
+<fw><lb />I
+</fw></p>
+<p type="MainZone-Head"><lb />TIEEVREODE
+<lb />
+<lb />TROMPERIE.
+<lb />TRAGE-COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENE PREMIERE.
+<lb />ORANTE. LISIMENE.
+</p>
+<sp type="MainZone-Sp"><lb />20
+<lb />
+<lb />ORANTE.
+<lb />V perds temps de vouloir icy me se<lb />courir,
+<lb />Ma sœur, mon mal me plaist, ie n'en
+<lb />veux point guerir,
+<lb />A tes foibles raisons ie ne sçaurois me rendre:
+<lb />Ie confesse que i’ayme, &amp; veux aymer Pyrandre.
+<lb />Tu dis qu’il n'est point ne de parens releuez,
+<lb />Dont les vieux tiltres soient dans les Palais grauez;
+<lb />Mais qu'importe, dy moy, qu’il soit de sang illustre,
+<lb />Si de sa Vertu seule il tire tant de lustre?
+<lb />Ceux qui font esclatter leur Race, &amp; la valeur
+<lb />De leurs Ancestres morts, ne vantent rien du leur.
+<lb />A ses propres effects son ame est occupée,
+<lb />Et sa gloire en vn mot depend de son espée.
+<lb />Par elle il a vaincu des milliers d'ennemis,
+<lb />Par elle il a ton Pere en son throsne remis,
+<lb />Et faict le doux repos dans lequel il commande,
+<lb />Et tu luy veux chercher vne gloire plus grande?
+<lb />Iuge par ses beaux faits, dont tu m'as tant parlé,
+<lb />
+<lb />u’il est plus glorieux de se voir signalé
+<lb />Par le nombre des Roys soubmis à sa vaillance,
+<lb />Que par ceux dont sans gloire il auroit pris naissance.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Pyrandre est genereux, ie t'accorde ce poinct,
+<lb />Le bruit de sa valeur ne se conteste point:
+<lb />Mais ie dy qu’estant né subject du Roy mon pere,
+<lb />A tes desseins trop bas ie ne sçaurois complaire.
+<lb />Espouser vn sujet! toy ma sœur qui pourrois
+<lb />Assuiettir à toy les cœurs des plus grands Rois!
+<lb />Ah! tu t’exposerois par trop à l’infamie,
+<lb />Et tu deuiendrois bien de toy-mesme ennemie.
+<lb />Ie veux qu'auec honneur tu le peusses choisir,
+<fw><lb />L
+<lb />I
+<lb />M
+<lb />E
+<lb />L
+<lb />C
+<lb />E
+<lb />Ie
+<lb />A
+<lb />Ie
+<lb />C
+</fw><lb />L’interest de l’Estat doit regler ton desir.
+<lb />Le Roy qui met en toy sa plus chere esperance,
+<lb />Te destine sans doute à plus haute alliance,
+<lb />Et ne peut à ce choix donner consentement:
+<lb />Ton frere, d’autre part, te hait mortellement,
+<lb />Et de fes peuxe jatone nuict &amp;tour esclairée,
+<lb />Tu serois pour Pyrandre enfin deshonorée.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Ah! ie voy bien pourquoy tu rauales son pris,
+<lb />Ton frere asseurement a causé ce mespris:
+<lb />Mais ne t’ay-je pas dit que sa recherche est veine,
+<lb />Et qu’Orante iamais n’aymera Pyroxene?
+<lb />Depuis qu’il fait dessein d'estre mon possesseur,
+<lb />Tu vois bien qu'à regret ie t’appelle ma sœur;
+<lb />Cependant en ton cœur tu le soustiens encore,
+<lb />Et tu me plens glasmtr i prastaert que tudore?
+<lb />Ie croyois qu’en mon feu tu me deusses flater,
+<lb />Au lieu d’y contredire, au lieu d’y resister.
+<lb />Ie croyois qu'à mon mal, si grand, &amp; si durable,
+<lb />Contre tes interests tu serois secourable.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Les Dieux me sont tesmoins, Orante, que ton bien,
+<lb />Et ton contentement m'est plus cher que le mien:
+<lb />Mais ie n’auray iamais de complaisance lâche,
+<lb />Où ton honneur pourra souffrir la moindre tâche:
+<lb />Depuis que de ton cœur ie voy mon frere exclus,
+<lb />Tu sçais bien qu'en effect ie ne t'en parle plus.
+<lb />I'aymerois mieux mourir que de t’auoir forcée
+<lb />A cherir vn object contraire à ta pensée:
+<lb />Mais quant à l’Incogneu dont tu fais ton Amant,
+<lb />Tu l’aimes, ie l’auoue, vn peu trop ardamment;
+<lb />Pour monstrer combien peu ta paßion le touche,
+<lb />Il n’a deuant tis jemenmais emort la bouche,
+<lb />Marque certainement qu’il n’est point enflame,
+<lb />Ou plutost qu’il se sent indigne d'estre aymé.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Crois-tu que pour celama flame diminuë?
+<lb />Au contraire, i’ay droict d’aymer sa retenuë.
+<lb />Le respect que Py-ndre a pour ma qualité,
+<lb />Sans doute est l’argument de sa timidité:
+<lb />Apres toutie l’adore, &amp; sens bien que ma flâme
+<lb />Est plus digne d’honneur mille fois que de blâme,
+<lb />Recognoy que ie t’ayme infiniment, ma sœur,
+<lb />De ne te pas cacher le secret de mon cœur,
+<lb />Et de m’ouurir à toy dessus telle importance:
+<lb />Laisse là ton conseil, ie veux ton aßistance.
+<lb />Puis qu’il t’emmeine en Thrace, où ses illustres fais
+<lb />Ont en fin restably le repos &amp; la pais,
+<lb />Fay qu'il m'emmeine außi, permets que ie te suiue,
+<lb />Flate ma paßion, si tu veux que ie viue:
+<lb />Ou si tu ne peux pas m'emmener quand &amp; toy,
+<lb />Qu'auant qu’il parte au moins il me donne sa foy.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Sachant bien que mon frere est Chef de l'Ambassade,
+<lb />Cousine, en verité ton esprit est malade,
+<lb />De penser à nous suiure, &amp; de ne iuger pas,
+<lb />Que la honte seroit compagne de nos pas.
+<lb />Au reste, de ton chef fay ce qu'Amour t’ordonne,
+<lb />Puis qu’il n’approuue pas les conseils que ie donne.
+<lb />Quand ie te contredis, croy que c’est à regret,
+<lb />Sur tout ie te promets de garder le secret.
+</sp>
+<sp type="MainZone-Sp"><lb />DRANTE.
+<lb />Mon ame, il me suffit, c'est assez me promettre,
+<lb />Ie m'en vay descouurir mon cœur dans vne lettre,
+<lb />Et si tu ne m'es pas fauorable en ce poinct,
+<lb />Ma chere Lisimene, au moins ne me nuy point.
+</sp>
+<p type="MainZone-Other"><lb />A3
+<fw><lb />6
+</fw></p>
+<p type="MainZone-Head"><lb />SOENE SECONDE.
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE SEVLE.
+<lb />I tu me connoissois, tu serois plus discrette,
+<lb />GI’ay plus d’amour que toy, mais ie suis plus secrette:
+<lb />Pauure Orante abusée, à qui descouures tu
+<lb />Les sentiments confus de ton cœur abatu?
+<lb />Quel secours puis-ie icy te donner imprudente,
+<lb />Estant de ton amour riuale, &amp; confidente?
+<lb />Tu veux que ie t’aßiste, &amp; me sentant mourir,
+<lb />Ie cede au mesme mal, sans m'oser secourir.
+<lb />Tu veux que ie te serue en ce peril extreme,
+<lb />Et ie n’ay pas le cœur de me seruir moy mesme!
+<lb />Mon courage à mon feu ne sçauroit consentir.
+<lb />Si ie le cache mieux, ie le sçay mieux sentir:
+<lb />Depuis deux ans entiers que ie suis toute en flame,
+<lb />Vn seul trait de mes yeux n’a pas trahy mon ame:
+<lb />I’auois seulement honte auoüant à mon cœur
+<lb />Que l’aimable Pyrandre en estoit le vainqueur:
+<lb />Mais il faut condamner enfin ma retenuë,
+<lb />Ie meurs deja de peur de me voir preuenuë:
+<lb />Orante a fait dessein sur ce cœur genereux,
+<lb />Qui se voyant aimé sera tost amoureux.
+<lb />I'ay connu par ses yeux qu'en crainte il me caresse,
+<lb />Et sens bien que ie fuis doublement sa Maitresse:
+<lb />Mais il preferera, s’il n’est bien degousté,
+<lb />La franche humeur d’Orante à ma seuerité.
+<lb />Sus donc aimons Pyrandre, on ignore son estre,
+<lb />Mais par ses actions il s’est trop fait connestre.
+<lb />Quiconque voit ses mœurs ne peut iuger sinon
+<lb />Que son sang est illustre, außi bien que son nom.
+<lb />Ie sens qu’il est né Prince, &amp; i’ay ce tesmoignage,
+<lb />D'vn certain mouuement, qui part de mon courage.
+<lb />Il est trop glorieux, pour faire election
+<lb />D’vne flame inégalle à ma condition.
+<lb />Mais voy-ie pas venir cet Astre de mon ame,
+<lb />Solitaire &amp; pensif entretenant sa flame?
+<lb />Il est si diuerty du soin des ses amours,
+<lb />Qu'il ne m’aperçoit point, entendons ses discours.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />PYRANDRE. LISIMENE.
+</p>
+<sp type="MainZone-Sp"><lb />Ve vous sert-il, mes yeux, pour augmenter ma
+<lb />peine,
+<lb />De chercher en ce lieu l’ingrate Lisimene?
+<lb />ous sçauez que ie l’aime, autant que ie la crains:
+<lb />Ses apas sont tousiours gardez par ses dédains,
+<lb />Entr'eux on voit fleurir mille graces diuines,
+<lb />Comme boutons de rose au milieu des espines.
+<lb />Ie suis desesperé, lors que i'en suis absent:
+<lb />Et lors que ie la voy, mon cœur est languissant:
+<lb />De mille paßions mon ame est combatuë,
+<lb />Sa beauté me rauit, sa cruauté me tuë,
+<lb />Quand i’ay perdu ses yeux, ie suis dans les enfers,
+<lb />Et lors que ie les trouue, außi tost ie me perds.
+<lb />O Ciel! iniuste Ciel, qui me la fis si belle,
+<lb />Pourquoy m'as tu fait naistre au monde indigne d'elle,
+<lb />Puis qu’en effet ie l'aime, &amp; que tu l’as permis?
+<lb />Ie me suis fait l’effroy de tous ses ennemis,
+<lb />Qui m’ont consideré comme vn Dieu des batailles:
+<lb />I'ay brisé des rochers, i’ay forcé des murailles,
+<lb />Detenay pui foera taiere in mefpris seulement;
+<lb />De ses yeux que mon ame adore vainement!
+<lb />O Dieux! ie la voy seulle, &amp; ie tremble de crainte,
+<lb />Qu'elle n'ait entendu les accens de ma plainte.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Il suffit que pour moy ie le trouue constant,
+<lb />Retenons nous vn peu, n'en descouurons pas tant;
+<lb />Dequoy discourois-tu maintenant en toy-même
+<lb />Pyrandre? PYR. Ie pleignois l’impatience extrême,
+<lb />Que le Roy vostre pere aura de vous reuoir.
+</sp>
+<p type="MainZone-Other"><lb />LISIMENE:
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Nous irons dans deux iours luy rendre ce deuoir:
+<lb />Mais ie suis bien trompée, ou parlant d’vne flame,
+<lb />Que l'Amour a causée au profond de ton ame,
+<lb />T apretgnots feutement tapeinte, &amp; ter tourmens;
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Madame, excusez-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Tu sçais bien si ie mens,
+<lb />Ne rougy point, ton cœur est trahy par ta bouche,
+<lb />Ie veux sçauoir le nom de celle qui te touche:
+<lb />Ne me le cele point, dy le moy hardiment,
+<lb />Ie veux m'interesser en ton contentement.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Deesse dont les yeux lisant dans nos pensées,
+<lb />Sçauent mieux l’auenir que les choses passées;
+<lb />Puis que vous cognoissez le mal qu'Amour me fait,
+<lb />Deuinez en la cause außi bien que l’effect.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />On deuine aisément ce que l'on vient d'entendre:
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Si ne sçaurez vous pas le reste de Pyrandre.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Et si ie te sçauois? PYR. An que ie suis confus!
+<lb />Ie couperois ma langue, &amp; ne parlerois plus.
+<lb />E-
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ce seroit grand dommage, elle est trop eloquente,
+<lb />A depeindre pour moy le mal qui me tourmente.
+</sp>
+<sp type="MainZone-Sp"><lb />PYR. Madame? LIS. Que crains-tu?
+<lb />PYR. Pardonnez à mon sort:
+<lb />I'ay trahy le respect, ie merite la mort.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Pyrandre, leue toy, ie ne fais pas vn crime
+<lb />De la discrette ardeur d’vn cœur si magnanime:
+<lb />Il est vray que iamais ie ne t’en ay tant dit;
+<lb />Mais ta grande vertu, qui te met en credit,
+<lb />Et qu’en naissant, du Ciel tu receus en partage,
+<lb />Ne veut pas que mon cœur se cache dauantage.
+<lb />Nous sommes tous heureux, par l'effort de ton bras,
+<lb />I’offencerois le Ciel, si ie ne t'aimois pas:
+<lb />Perseuere en ta foy, soy constant, &amp; peut estre
+<lb />Que ie la sçauray mieux quelque iour reconnestre.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />O bonté sans exemple en l'Object le plus beau,
+<lb />Que iamais éclaira le celeste flambeau!
+<lb />Frincejje nonnem an monde, adorable merueille,
+<lb />Que ie suis glorieux, s'il est vray que te veille!
+<lb />Et que mes sens d’amour, &amp; d’aise transportez,
+<lb />Par vne illusion ne soyent point enchantez.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Va, tu n'es point trompé, quelque amour qui t'ap<lb />pelle,
+<lb />Souuien toy de m'atmer, &amp; de m'estre fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Arbitres souuerains du bon heur des mortels,
+<lb />Fauorables Destins, que ie vous doy d'Autels!
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />C’estassez, retien bien ce que ie te commande;
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE SEVL.
+<lb />O que mon sort est doux! que ma fortune est grande?
+<lb />Amour qui reconnois si dignement ma foy,
+<lb />En vois tu soubs ton Regne vn plus heureux que moy?
+<lb />I’ay bien acquis en Thrace vne gloire infinie,
+<lb />Mais ie suis plus-heureux encor en Albanie;
+<lb />Et ie n’attendois pas tant de felicité
+<lb />De ce rare succez de ma fidelité.
+<lb />A deux genoux Amour, ie te veux rendre hommage;
+<lb />Mais qui me vient troubler? que veut dire ce Page,
+<lb />Qui vers moy s'achemine, à trauers de ces fleurs?
+<lb />De la Princesse Orante il porte les couleurs,
+<lb />C’est à moy qu’il en veut;
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME,
+<lb />ARISTON. PYRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Onsieur ie vous apporte
+<lb />MVn bieninesperé, qui d'aise vous transparte,
+<lb />Qui vous comble d’honneurs, &amp; de contentements,
+<lb />Et qui vous rend hereux dessus tous les Amans
+</sp>
+<p type="MainZone-Head"><lb />ACTE I. SCENE IIII.
+</p>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />De quelle part? ARIS. d’Orante,
+<lb />PYR. A moy Page? ARIS. A vous même,
+<lb />Cette lettre en fait foy. PYR. La surprise est extrême:
+<lb />Mais lisons cet escrit, sans la desobliger,
+<lb />Contreingnons nous vn peu deuant son Messager.
+</sp>
+<p type="MainZone-Head"><lb />LETTRE D'ORANTE,
+<lb />A PYRANDRE.
+</p>
+<p type="MainZone-Lg"><lb />Vis que deuant mes yeux tu trembles,
+<lb />T Et que le respect que tu sembles
+<lb />Porter à ma condition;
+<lb />Me reduit à ce point extreme,
+<lb />De preuenir ta paßion,
+<lb />Scache Pyrandre que ie t’aime
+</p>
+<p type="MainZone-Lg"><lb />Perdant pour toy la grauité
+<lb />Du sexe, &amp; de ma qualité,
+<lb />Ie me declare ta Maistresse;
+<lb />Ta vertu te prefere à tous,
+<lb />Et fait qu'vne grande Princesse,
+<lb />Te prend aujourd huy pourespous.
+<lb />Passe au iardin, &amp; vien chez moy
+<lb />Cette nuit receuoir ma foy,
+<lb />Que ie te garde toute entiere;
+<lb />L’échelle est au pied de la tour,
+<lb />Ie t’attends, sans autre lumiere
+<lb />Que celle d’Hymen, &amp; d’Amour.
+<fw><lb />Page, au bon heurpresent, que le Destin m'enuoye,
+<lb />Laisse moy quelque tempr muner jur ma ioye;
+<lb />Et dans vne heure ou deux tu dresseras tes pas
+<lb />Vers nostre apartement, ARIS. Ie n’y manqueray pâs.
+</fw></p>
+<sp type="MainZone-Sp"><lb />PYRANDRE SEVL.
+<lb />O Dieux! quel coup mortel au cœur de Pyroxene,
+<lb />Quand il sçaura par moy que son amour est vaine
+<lb />Pour la Princesse Orante; &amp; que ce cher object
+<lb />Brusle, mais vainement, pour vn autre suject!
+<lb />Cet Amoureux discret n’a pas la hardiesse
+<lb />De descouurir sa flame, &amp; son depart le presse.
+<lb />Le Roy, qui sans nous trois ne peut viure content,
+<lb />Auec impatience en Thrace nous attend:
+<lb />Sans cesse dans les bois ce ieune Amant souspire,
+<lb />Les Arbres, les Rochers sçauent tous son martire;
+<lb />Et void ce premier feu dont il est embrasé
+<lb />Ignoré seulement des yeux qui l’ont causé.
+<fw><lb />Ie
+<lb />A
+<lb />Ie
+<lb />A
+<lb />E
+<lb />D
+<lb />A
+<lb />5
+<lb />8
+<lb />D
+</fw><lb />Ie m'en vay le chercher, pour soulager sa peine;
+<lb />Autant pourcontenter ma chere Lisimene,
+<lb />Que pource que ie l’aime, &amp; qu’estant mon Seigneur,
+<lb />Ie dois au Roy son pere, &amp; les biens, &amp; l’honneur,
+<lb />Mais le voicy qui vient; le mettray-ie en ceruelle,
+<lb />En luy contant d’aboru cette triste nonneile?
+<lb />Dieux qu’il me fait pitié! que ie preuoy de pleurs
+<lb />aru fentiment cruel de ses instes douleurs!
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />PYROXENE PYRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />My tucheris bien ces belles pallissades,
+<lb />AADont le verd gueriroit les yeux les plus malades.
+<lb />Tout seul depuis midy ie te cherche, &amp; pensois
+<lb />Que le chaud t’auroit fait retirer dans le bois.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />O Prince malheureux! à qui ie fais plus d’ombre,
+<lb />Que cette pallissade, &amp; ce bocage sombre!
+<lb />l vaudroit beaucoup mieux pour vous, estre priué.
+<lb />De me voir à iamais, que de m'auoir trouué.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />En quelle inquietude helas! me viens-tu mettre,
+<lb />Pyrandre, quedis tu? PYR. Consultez cette lettre,
+<lb />Et voyez que ie suis, pour engager ma foy,
+<lb />Cette nuit chez Orante appellé mal gré moy.
+<lb />PYRAN. Le pauure Amant se trouble:
+<lb />PYROX. O Dieux! est il poßsible?
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Il chancelle, il se pasme, il demeure insensible,
+<lb />Estrange effect d’Amour! ie trouue ce ruisseau
+<lb />Prés de nous à propos, pour luy ietter de l'eau.
+<lb />Monsieur, prenez courage, il reuient en luy mesme:
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Que ne me laissois-tu dans le riuage blesme,
+<lb />Apres m’auoir osté l’espoir de mon Amour?
+<lb />N'es-tu pas bien cruel de me rendre le iour?
+<lb />Ton zele est indiscret, ie blasme ton enuie,
+<lb />Tu conserues ma peine, en conseruant ma vie:
+<lb />C’est trahir l’amitié que de me secourir,
+<lb />Retire toy Pyrandre, &amp; me laisse mourir.
+</sp>
+<p type="MainZone-Other"><lb />PYRAI
+<fw><lb />Si
+</fw><fw><lb />Che
+</fw></p>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ie suis iusqu’au trespas resolu de vous suiure:
+<lb />Si vous voulez mourir, ie veux cesser de viure.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Que ce propos sied mal à toy, le plus heureux,
+<lb />Et le plus fauory de tous les Amoureux!
+<lb />Pyrandre, &amp; iouy de ta bonne fortune;
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Les Dieux me sont tesmoins qu'elle m'est impor<lb />tune,
+<lb />Que ie ne veux iamais Orante posseder,
+<lb />de que fete ta prents, eest pour vous la ceder.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Me dis-tu vray, Pyrandre? helas! est il poßsible,
+<lb />Cher Amy, que tu sois à mon feu si semsible?
+</sp>
+<sp type="MainZone-Sp"><lb />23
+<lb />RANDRE.
+<lb />vous voulez m’aider, &amp; me prester les mains,
+<lb />Ie vous rendray content dessus tous les humains
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE. Propose.
+<lb />PYRAN. Vous voyez que l’aimable Princesse,
+<lb />M'appelle cette nuit dans sa chambre, &amp; me presse
+<lb />De luy porter ma foy dans cet obscur sejour,
+<lb />Où ne doit esclairer que le flambeau d’Amour.
+<lb />Glissez-vous en ma place à la faueur de l’ombre:
+<lb />Qui vous descouurira? la nuit doit estre sombre,
+<lb />Nul ne sçait l’entreprise, &amp; vous pourrez partant
+<lb />Aller sans crainte aucune, où la Belle m'attend.
+<lb />Puis que vous vous sentez eslongné de sa grace;
+<lb />Que vous estes preßsé de retourner en Thrace,
+<lb />Et qu'il vous faudroit bien, &amp; du temps, &amp; des pleurs,
+<lb />Pour ramener son cœur, qui se destourne ailleurs,
+<lb />Prenez l’occasion que l’Amour vous presente;
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Mais tu seras perfide à l'amoureuse Orante?
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />I'ayme mieux la trabir, que manquer d'Amitié,
+<lb />Ie vous doy tous mes soins, &amp; toute ma pitié.
+<lb />Mais pourquoy la trahir, vous mettant en ma place?
+<lb />Au lieu de l’offencer ie croy luy faire grace;
+<lb />Outre que vous tenez au monde vn mesme rang,
+<lb />Que vous estes egaux de biens, d’âge, &amp; de sang,
+<lb />Ce que ie ne suis pas, vos qualitez plus belles,
+<lb />Capables de fleschir les cœurs les plus rebelles;
+<lb />Feront qu’vn iour Orante en vn sens plus rasis
+<lb />Prendra plaisir de voir vos desseins reüssis;
+<lb />don ejoant prus pout moy te aamout preoccupée,
+<lb />M’aimera de l’auoir heureusement trompée.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Ie le veux, ton conseil me plaist infiniment,
+<lb />Mais pour ne tromper pas Orante absolument,
+<lb />Ie m’en vay sous ton nom respondre à cette lettre,
+<lb />Et luy tiendray la foy que ie luy vay promettre.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />C'est bien dit, hastons-nous, ie voy finir le iour,
+<lb />Et le Page chez moy sera tost de retour.
+<lb />Ie copiray la lettre, &amp; puis ie l’iray rendre:
+<lb />Que si vous vous changez par amour en Pyrandre,
+<lb />Souuenez- vous, Monsieur, que les Dieux enflamez,
+<lb />Se sont bien autresfois en bestes transformez.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+<fw><lb />Source gallica bnt fr ( Bibliothèque nationale de Franct
+</fw></p>
+<p type="MainZone-Head"><lb />DLIEVREVDE
+<lb />TROMPERIE.
+<lb />TRAGE-COMEDIE.
+</p>
+<p type="MainZone-Other"><lb />Il est re<lb />prerente,
+<lb />dans la
+<lb />nuit, &amp;
+<lb />le troi<lb />siesme
+<lb />aussi.
+</p>
+<p type="MainZone-Head"><lb />ACTE SECOND.
+<lb />SCENE PREMIERE.
+</p>
+<p type="MainZone-Head"><lb />ORANTE SEVLE.
+</p>
+<sp type="MainZone-Sp"><lb />MTM
+<lb />Idelle confident de tous mes desplaisirs,
+<lb />A qui i’ay sans reserue ouuert tous mes
+<lb />desirs;
+<lb />Puis que tu sçais l’ardeur du feu qui me
+<lb />tourmente,
+<lb />Pourquoy fais tu languir mon amoureuse attente?
+<lb />Ariston, que ie souffre en l’estat ou ie suis!
+<lb />Et que l'impatience augmente mes ennuis:
+<lb />Depuis que ie t’attends, deux heures sont passées,
+<lb />Et le soupçon cruel, qui trouble mes pensées,
+<lb />Me dit que ton voyage aura mal reüßsy,
+<lb />Vers celuy que peut estre en vain i’appelle icy.
+<lb />Pyrandre auroit- il bien ma flame reiettée?
+<lb />L’ingrat m’auroit il bien indignement traitée,
+<lb />Pour les trop libres vœux de ce cœur enflamé,
+<lb />Coupable seulement de l’auoir trop aimé?
+<lb />Ahi ie ne le croy pas, son ame genereuse
+<lb />Doibt estre plus sensible à ma peine amoureuse.
+<lb />Sur ce doute ie pleure, &amp; ne m’en puis tenir:
+<lb />Il est nuit toute noire, &amp; ne voy rien venir
+<lb />La tune qui decroist desia ses feux eslance,
+<lb />Et son œil, qui par tout establit le silence,
+<lb />Et prend soin du repos de tous les animaux,
+<lb />Me void souspirer seule au milieu de mes maux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Vrandre a fait responce, &amp; tiendra sa promesse,
+<lb />E Voicy qui rauira l’esprit de ma maitresse.
+<lb />C iij
+<lb />Ie vole en luy portant ce gage precieux,
+<lb />Qu'elle doit plus cherir mille fois que ses yeux.
+<lb />Airueuunei O fenlt ceyaubrtt, mon Ariston m'apelle:
+<lb />Page, est-ce toy mon cœur? he bien, quelle nouuelle?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Bannissez vos soupçons, resueillez vos plaisirs,
+<lb />Madame, tout succede au gré de vos desirs.
+<lb />Pyrandre est tout à vous, &amp; tenez-vous certaine,
+<lb />Que dans vn heure ou deux icy ie vous l’ameine,
+<lb />Voyez ce qu’il vous mande.
+<lb />ORANTE. O bien heureux écrit,
+<lb />Qui viens pour adoucir l’aigreur de mon esprit!
+<lb />Auant que ie te lise, &amp; relise à mon aise,
+<lb />Il faut que mille fois ie te baise, &amp; rebaise.
+</sp>
+<p type="MainZone-Head"><lb />LETTRE DE PYROXENE
+<lb />RANTE,
+<lb />sous le nom de Pyrandre.
+</p>
+<p type="MainZone-Lg"><lb />Vis que vous me permettez
+<lb />T D’estre esclaue des beautez,
+<lb />Dont i’adore la puissance;
+<lb />Nymphe qui blessez les Dieux,
+<lb />Et qui brillez par vos yeux,
+<lb />Plus que par vostre naissance;
+</p>
+<p type="MainZone-Lg"><lb />Ie suis prest de receuoir
+<lb />Ce bien, en vous allant voir,
+<lb />Que la Fortune m'enuoye;
+<lb />Pourueu que trop amoureux,
+<lb />Eiree inoilelsselein sreireiney,
+<lb />Ie ne meure point de ioye.
+</p>
+<sp type="MainZone-Sp"><lb />N'vse pas de ces mots, Pyrandre, mon desir,
+<lb />C’est moy qui dois mourir d’vn excez de plaifir;
+<lb />C’est moy qui de nous deux me sens la plus heureuse,
+<lb />Comme la plus charmée, &amp; laplus amoureuse.
+<lb />Mes vœux impatiens ie ne puis retenir;
+<lb />Vien donc, ma chere vie, haste toy de venir.
+<lb />Ie prepare à ta flame vne gloire infinie,
+<lb />Auecque plus d’amour que de ceremonie.
+<lb />Page iras-tu querir ce tresor que i’attens?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Ouy, Madame, i'iray quandil ensera temps.
+<lb />I'ay la clef du iardin, il m'attend, &amp; ie pense,
+<lb />Que desia cét Amant languit d’impatience.
+<lb />Quand vous plaist il qu'il vienne?
+<lb />RAN. Il faut premierement,
+<lb />Cette eschelle de corde attacher seurement,
+<lb />Par où doit arriuer cet Astre que i'adore;
+<lb />Quelle heure peut-il estre?
+<lb />ARIST. Il est bonne heure encore.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Va donc, en attendant qu’il se face plus tard,
+<lb />Appeller ma Cousine, à qui ie feray part
+<lb />Du plus heureux succez que ie pouuois attendre;
+<lb />Va viste, &amp; me l’ameine; elle sçait que Pyrandre
+<lb />Est l’espoux seul auquel mon esprit se resout:
+<lb />Puis qu'elle m'est fidelle, il luy faut dire tout.
+<lb />Mes femmes sont des-ja de ce lieu separées;
+<lb />Et lors que par mon ordre elles sont retirées,
+<lb />Si ie ne les appelle, elles n’osent venir,
+<lb />Et scauent qu'Ariston peut seul m’entretenir,
+<lb />Et que ma Lisimene en l’amour qui nous lie,
+<lb />Seule ose m’aborder dans ma melancolie.
+<lb />Si ie ne l’appellois maintenant en ces lieux,
+<lb />Peut estre y viendroit-elle; &amp; partant il vaut mieux
+<lb />
+<lb />que ie luy face part de toute l’entreprise,
+<lb />ue si m'en desfiant, ie m'en trouuois surprise.
+<lb />Mais ie la voy venir. Bon soir ma chere sœur,
+<lb />Ace coup tu verras si ie t'aime du cœur.
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+</p>
+<p type="MainZone-Head"><lb />SCENE HISISIESME.
+<lb />LISIMENE. ORANTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />ISIMENE. Que sçais tu de nouueau?
+<lb />CORANTE. Regarde, &amp; considere.
+<lb />Si i'ay secret aucun que ie te veuïlle taire.
+</sp>
+<sp type="MainZone-Sp"><lb />BIOIMENE.
+<lb />Il donne cette lettre à l’importunité,
+<lb />Pour ne parestre pas plein d’inciuilité.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Et bien, Amour est-il à mes vœux fauorable?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Mais helas! sice feu qu’il peint est veritable?
+<lb />ty le sang tout glacé. ORA. Que murmures-tu tant?
+<lb />CISIM. Ie medite, ma sæur, sur ton esprit contant,
+<fw><lb />*6n67:
+</fw><lb />Mais tu risques beaucoup. Ie pariray ta perte
+<lb />Oi par cote frert cyt tont tes faits eft descouuerte.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />I'y donneray bon ordre; hors ce cher confident,
+<lb />Et toy, dont ie connoy le zele si prudent,
+<lb />Nul ne sçait que Pyrandre à mes desirs s’accorde;
+<lb />Ie te prie attachons cette eschelle de corde,
+<lb />Par où ce cher amant, ialoux de mon honneur,
+<lb />Doit venir dans vne heure asseurer mon bon-heur.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Quoy donc? à ma ruine il faut que ie trauaille?
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Page, va l’asseurer au pied de la muraille,
+<lb />Et quand ce sera fait reuien incontinent;
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />O le ioly mestier que ie fay maintenant!
+</sp>
+<sp type="MainZone-Sp"><lb />ORA
+<lb />TE.
+<lb />I'vse bien librement aujourd’huy de ta peine:
+<lb />Mais c'est pour t'aimer trop, machere Lisimene.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ie me passerois bien de ta sotte amitié:
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Ton bon office accroist mon heur de la moitié.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Il faut bien dire ainsi, ah! ie creue, i'enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Mais à quoy resues-tu? tugastes tout l'ouurage:
+<lb />Au lieu d’attacher ferme, &amp; faire plusieurs nœuds,
+<lb />Tutiens la corde lache. LISI. Atten, ie feray mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Tune fais rien qui vaille, ô fille maladrette:
+<lb />Oste, laisse moy faire.
+<lb />dare enas amportane, inaiscrette!
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Si i'eusse trauaillé d’vn esprit außi mou,
+<lb />Pyrandre asseurement se fust rompu le cou.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Que ie te hay!
+<lb />ARIST. Madame elle est bien asseurée.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Reuien, voila l'echelle à la fin preparée.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ie mourray, si ie reste en ce lieu plus long temps:
+<lb />Ie ne veux pas troubler deux espris si contens.
+<lb />Ma Cousine, il est temps que seule ie te laisse,
+<lb />Adieu, ie me retire. ORA. Adieu belle Princesse:
+<lb />Vn tiers est en effet inutile en ce lieu,
+<lb />Que ie te baise encor' en te disant Adieu.
+<lb />Page sors apreselle, &amp; sans bruit va te rendre
+<fw><lb />S.
+<lb />Il
+<lb />I
+<lb />A
+</fw><lb />Où tu dois faire en bref vn signal à Pyrandre.
+<lb />Emporte les flambeaux, sans faire l’estourdy,
+<lb />Dans l’antichambre, où sont mes femmes, &amp; leur dy
+<lb />Que ie veux reposer vn peu toute habillée;
+<lb />Prengarde à ton retour que ie ne sois veillée.
+<lb />Va, l’Amour te conduise, &amp; atesje bien tes pàs.
+<lb />ARIST. Ie vous rendray contente:
+<lb />ORANTE. Amour, n'y manque pas.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME.
+<lb />LISIMENE SEVLE.
+</p>
+<sp type="MainZone-Sp"><lb />L n'en faut plus douter, Orante est la plus fine,
+<lb />TTous ces preparatifs presagent ma ruïne.
+<lb />Pyrandre m'a trahie, &amp; ce leger esprit
+<lb />S'est rendu sans deffence aux charmes d’vn écrit,
+<lb />Sa main dans sa responce a secondé son ame;
+<lb />Il dit qu’il meurt pour elle; &amp; qu’il est tout de flame:
+<lb />Il dit vray le perfide, &amp; ce feu qu’il depeint
+<lb />Brille trop, pour seduire, &amp; pour n’estre que feint.
+<lb />En fin voila dequoy me sert ma retenuë;
+<lb />Ie l’auois bien iugé, me voila preuenuë,
+<lb />Mes sens par l’apparence ont tous esté deceus,
+<lb />Et la plus effrontée emporte le dessus.
+<fw><lb />prend
+</fw></sp>
+<p type="MainZone-Lg"><lb />Mais que dis-je, insensée? est ce vn grand auantage,
+<lb />Que posseder lecœur d’vn Amant si volage?
+<lb />Puis qu’il manque d’honneur en ce change euident,
+<lb />Ie fais tout au contraire vn gain en le perdant.
+<lb />Toutesfois, ie puis croire à tort qu’il m'a quittée;
+<lb />Et dans ce iugement m'estant precipitée
+<lb />Ie trouue qu’apres tout ie n’ay point d’argument,
+<lb />Pour conuaincre sa foy, qu'vn simple compliment.
+<lb />Que sçay-je si sa main a suiuy sa pensée?
+<lb />Son absolu mespris eust Orante offencée:
+<lb />Et sans doute il aura nourry d’vn vain espoir,
+<lb />Ce cœur, qui franchement s'est mis en son pouuoir.
+<lb />Ils engage pourtant, sa promesse l’accuse,
+<lb />Mais la ciuilité luy peut seruir d’excuse.
+<lb />Il a bien fait d’escrire, &amp; ie l’aurois blamé
+<lb />S’il n’eust pas respondu, se voyant tant aimé.
+<lb />Ah Dieux! que i’ay de peine en cette incertitude:
+<lb />Si faut-il que ie sorte en fin d’inquietude.
+<lb />Ie veux estre esclaircie, &amp; fust-ce à mes despens;
+<lb />Ne pouuant demeurer dauantage en suspens.
+<lb />Ie vay gueter Pyrandre au iardin, l’heure approche,
+<lb />Que ce cœur infidelle &amp; digne de reproche
+<lb />Doit passer chez Orante, &amp; s’il passe en effet
+<lb />Elle Ie n’en douteray plus, Amour, c'en sera fait.
+<fw><lb />vne de ses femmes auec elle, &amp; va dans le iardin.
+<lb />1
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />E
+<lb />TROXENE,
+<lb />sous le nom de Pyrandre.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Vit, fauorable nuit, qui regis le silence,
+<lb />NSi tuscais de mon feu l'extreme violence,
+<lb />Garde que par les tiens, si beaux, &amp; si diuers
+<lb />Mes larcins amoureux ne soient pas descouuers.
+<lb />Aide à ma tromperie, &amp; cachant tes estoilles
+<lb />Dessous l’obscurité de tes plus sombres voiles.
+<lb />Pour adresser mes pas en vn diuin sejour,
+<lb />Ne descouure à mes yeux que celle de l’Amour.
+<lb />Et toy, chaste Diane, arbitre de ma flame,
+<lb />Qui vois le bon dessein que ie porte en mon ame,
+<lb />Daigne l’authoriser vn moment, si tù veux
+<lb />Que i'ayme tes Autels, &amp; les comble de vœux.
+<lb />Tagrace en ton decours m'est desia manifeste,
+<lb />Acheue, &amp; voile encor la clarté qui te reste.
+<lb />En fin le Ciel se couure, &amp; ie suis exaußé,
+<lb />D'aucun visible feu ie ne suis trauerse;
+<lb />Centnuages espais fauorisans mastame;
+<lb />Chassent ceux que la peur formoit dedans mon ame,
+<lb />Que ce cher Ariston, que ie desire tant,
+<lb />Vienne quand il voudra, ie le suiuray contant.
+<lb />Le Page Ie l’entens, ie le voy, qui de pres me fait signe:
+<lb />O Ciel! si tu me crois de tant de grace digne,
+<lb />Trompe à ce coup les yeux de tous les clair-voyans:
+<lb />Fay taire en mon chemin tous les chiens aboyans,
+<lb />Et me charme si bien, que ie me puisse prendre
+<lb />En cette occasion, moy-mesme pour Pyrandre.
+<lb />Fay que mon conducteur soit le premier deceu;
+<lb />Avtais que dis-je? comment en serois-je apperceu?
+<lb />conese point Artsion de qui ie suy la route,
+<lb />C’est Amour qui me guide, &amp; ce Dieu ne voit goute.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />LISIMENE. DORINE,
+<lb />PYROXENE. ARISTON.
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Orine, que dis-tu de ce perfide tour,
+<lb />DQue le traistre Pyrandre a fait à mon Amour?
+<lb />Toy qui m'as de son nom tant battu les oreilles,
+<lb />Qui m'en as fait vn Dieu, qui m'en as dit merueilles;
+<lb />Tu
+<lb />Tu le vois, ma mignonne, il est homme en esset,
+<lb />Et de tous le plus lache, &amp; le plus imparfait.
+<lb />T’aimant, &amp; te voyant, en faire tant de conte,
+<lb />A la fin deuant toy i’ay perdu toute honte.
+<lb />Mais n’ay-ie pas eu tort, dy le moy franchement,
+<lb />De souffrir vn tel homme en qualité d'Amant?
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Madame, il n’est pas temps de l’accuser encore,
+<lb />Ie sçay bien que son cœur la trahison abhore;
+<lb />Et ie veux bien mourir, si de vos yeux bleßsé,
+<lb />A cherir autre objet iamais il a pensé.
+<lb />Ie ne m'en desdis point, il est vray, ie l’estime,
+<lb />Et ie soustiens encor, que ce cœur magnanime,
+<lb />Plustost que de changer esliroit le trespas;
+<lb />Vous quitter pour Orante? Ah! ne le croyez pas:
+<lb />Non, Madame, il n'est point de ce crime capable,
+<lb />Ie perirois pour luy, s’il en estoit coupable:
+<lb />Donnez vous patience, attendez vn moment,
+<lb />Vous vous esclaircirez.
+<lb />LISIM. Ie crains l’euenement:
+<lb />Plust au Ciel, qu'en cecy ie me fusse abusée!
+<lb />Mais las! le cœur me dit que ie suis mesprisée;
+<lb />Et ie t’ay fait venir pour le voir, ce trompeur,
+<lb />Plus que pour m'asseurer icy contre la peur.
+</sp>
+<p type="MainZone-Other"><lb />I ngle.
+<lb />Dans vne nuit si noire.
+</p>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Allons en embuscade,
+<lb />Derriere l'espesseur de cette pallissade,
+<lb />Qui respond sur l'alée.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />O Amour! à la fin
+<lb />Me voicy paruenu iusques dans le iardin;
+<lb />Ce m'est vn grandbon-heur que la huit soit si sombre,
+<lb />En l’estat où ie suis i’aurois, peur de mon ombre:
+<lb />Mais mon guide me perd.
+</sp>
+<sp type="MainZone-Sp"><lb />FIICISTON.
+<lb />Monsieur, vous allez bien,
+<lb />Suiuez tousiours à droite, &amp; ne craignez plus rien:
+<lb />A cette heure personne icy ne s'achemine;
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ie connoy cette voix, entens-tu bien Dorine?
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Ah Dieux! il est trop vray, Madame, asseurement
+<lb />C'est la voix d’Ariston, qui conduit cet Amant.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Et bien, n’auois-je pas l’esprit de Prophetie?
+<lb />Il passe, le voilà, ie suis trop esclaircie,
+<lb />te te voy cheminer te traistre, &amp; peuse aux Dieux,
+<lb />Comme ie pers le cœur, auoir perdu les yeux.
+<lb />Suiuons, allons apres.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Hé! que voulez-vous faire,
+<lb />Madame? LISI. Ie le veux de sa flame distraire:
+<lb />Ie luy veux demander si i’auois merité,
+<lb />Qu'il fit vn tel affront à ma fidelité;
+<lb />Ie luy veux reprocher vn si sanglant outrage:
+<lb />Mais le vouloir est vain, où manque le courage,
+<lb />Ie veux fuiure, &amp; mon pié ne veut pas obeïr,
+<lb />Ah! Dorine, l’Ingrat m’acheue de trahir:
+<lb />Il arriue à l'eschelle, il y monte, il y vole,
+<lb />Et me rauit l'espoir, le ceur &amp; la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Monsieur, ne craignez point, montez en seureté,
+<lb />Madame dans sa chambre est seule, &amp; sans clairté.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />I'estoufe, ie me meurs.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Ah le traistre! Ah l'infame!
+<lb />1 uuuin ja nonit enfcuettt sa flame.
+<lb />Ie vay manifester son crime aux yeux de tous,
+<lb />Ie suis plus en colere, &amp; le hay plus que vous:
+<lb />Ah Madame!
+</sp>
+<sp type="MainZone-Sp"><lb />LICIMENE.
+<lb />Ah Dorine! en ce mal qui m'oppresse,
+<lb />I'ay honte que tu sois tesmoin de ma foiblesse.
+<lb />Mais tu vois apres tout si i’ay quelque raison,
+<lb />D’auoir le cœur sensible à tant de trahison.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />I'ay par sa feinte esté la premiere attrapée:
+<fw><lb />1
+<lb />A
+<lb />1
+<lb />A
+</fw><lb />Courons apres, Madame, &amp; de sa propre espée,
+<lb />Allons deuant les yeux d’Orante l’esgorger:
+</sp>
+<p type="MainZone-Lg"><lb />LISIMENE.
+<lb />Non non, ne pensons plus à cest esprit leger,
+<lb />Nous le blâmons à tort de sa lâche inconstance:
+<lb />En fin ceste action respond à sa naissance,
+<lb />Et moy souffrant ce monstre infame, comme il est,
+<lb />De ma facilité ie paye l’interest:
+<lb />Ma peine m'est bien deuë, &amp; i'ay tort de me plaindre:
+<lb />I'enrage toutesfois, &amp; ne me puis contraindre,
+<lb />Iusqu'à te desguiser, qu'apres ce mauuais tour,
+<lb />Ie brûle de colere, où ie brûlois d’Amour.
+<lb />Quoy? d'vn tel Affronteur ie seray mesprisée?
+<lb />Quoy? ie luy seruiray de fable, &amp; de risée?
+<lb />Mes attrais adorez deuiendront impuissans?
+<lb />Mon zele, monardeur, &amp; mes vœux innocens,
+<lb />Seront le pis aler d'vne Ame desloyale?
+<lb />Ie verray de ma foy triomfer ma Riuale,
+<lb />Et tout ce deshonneur me sera procuré
+<lb />Par vn homme de peu, que i’ay tant honoré?
+<lb />G
+<lb />ue que ie m'en ressente? ah! i'ay trop de courage:
+<lb />Descharge toy, mon cœur, fais éclater ta rage,
+<lb />Fulmine, &amp; fay connoistre à ces Amans surpris,
+<lb />Que tusçais tout souffrir, excepté le mespris:
+<lb />Sois leur impitoyable, &amp; pour ton allegeance
+<lb />Medite vne mortelle, &amp; tragique vengeance.
+</p>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Moderez vous, Madame, &amp; retenez vn peu
+<lb />Vostre esprit, qui s’eschape; elle est toute de feu,
+<lb />Vn sanglant desespoir sur son visage éclatte;;
+<lb />Pour adoucir son mal il faut que ie le flatte.
+<lb />Ouy, vous auez raison, c'est bien fait, vangez vous,
+<lb />Aprai ne vous taissez pas vaincre à vostre courrous:
+<lb />N’espargnez pas Pyrandre en ce mespris extresme,
+<lb />Mais de grace, Madume, espargnez-vous vous mesme,
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Vien, suy moy chez le Prince, allons y promptement.
+<lb />Comme tu sçais, hnait ja sœur mortellement,
+<lb />Et porte à son Pyrandre, vne mortelle enuie:
+<lb />Allons à sa colere abandonner leur vie;
+<lb />Allons luy descouurir ces perfides Amans,
+<lb />Et nous interessons dans ses ressentimens.
+</sp>
+<p type="MainZone-Other"><lb />Fin du second Acte.
+</p>
+<p type="MainZone-Head"><lb />LIIENNEVSE
+<lb />TROMPERIE.
+<lb />TRAGE-COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />AleABEROGTEGME.
+<lb />SCENE PREMIERE.
+<lb />ARAXE, LES GARDES,
+<lb />ORANTE, PYROXENE.
+<fw><lb />Il est en<lb />core re<lb />presenté
+<lb />dans la
+<lb />nuit.
+</fw></p>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Rayment i'en suis d'auis, ma sœur sera
+<lb />la femme
+<lb />infame.
+<lb />D’vn suiuant inconneu, d'vn Roturier;
+<lb /> Il nous imprimera la honte sur le front,
+<lb />Et sans ressentiment ie porteray l’affront?
+<lb />Gardes, auancez vous, que sans bruit on l’aborde,
+<lb />Et qu'au lieu de ma sœur il espouse vne corde.
+<fw><lb />Source gallica.bntfr ( Bibliothèque nationale de Francé
+</fw><lb />Voicy par quel moyen nous en viendrons à bout;
+<lb />Quand auec le secours de ce passe par-tout,
+<lb />Nous serons dans la Chambre, où le Galandcaresse
+<lb />Sans peur, &amp; sans respect, sa nouuelle Maitresse;
+<lb />Vous pousserez la porte, &amp; i’auray le plaisir
+<lb />De vous voir tous ensemble au colet le saisir.
+<lb />Qui n'en sçauroit long temps differer le supplice.
+<lb />Ma cousine en cecy m'a bien fort obligé:
+<lb />nme tatue uefia que ie ne sois vangé
+<lb />2
+<lb />De l’insigne Affronteur, qui m'a fait cette injure;
+<lb />Approche le flambeau, i’ay trouue la serrure.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />I'oy du bruit à la porte:
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Entrons, suiuez moy tous.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Dieux! nous sommes trahis,
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Helas! c'est faict de nous.
+</sp>
+<p type="MainZone-Other"><lb />PYRO<fw><lb />Ce
+<lb />Pa
+<lb />L
+</fw></p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Madame, ie me sauue,
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Ais enjuii, ll seenape,
+<lb />Courez à la fenestre, &amp; que vif on l’atrape.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE,
+<lb />O dieux! qui vid iamais si grande trahison?
+<lb />Par ce moyen i'esquiue, &amp; gaigne la maison.
+<lb />Les parces fuiuent, qui ne pouuans asseurer leur pied
+<lb />sur l’Echelle couppée, tombent &amp; crient.
+</sp>
+<p type="MainZone-Other"><lb />Ahl le bras, L’AVTRE. Ah la iambe!
+<lb />L'AVTRE. Ah! la teste!
+</p>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />ui nous ostes l'honneur par ta flame lubrique,
+<lb />Infame, asseure-toy que deuant qu’il soit iour,
+<lb />Nostre pere sçaura ton crime, &amp; ton Amour.
+</sp>
+<sp type="MainZone-Sp"><lb />ORAN
+<lb />TE.
+<lb />Tigre desnaturé, qui sous le nom de frere
+<lb />Te monstres aujourd'huy mon cruel aduersaire:
+<lb />Brutal, qui ne vois pas que tu vas procurant
+<lb />Nostre honte commune en me deshonorant;
+<lb />Quel auantage as-tu de m'auoir descouuerte,
+<lb />Barbare? quel profit tires-tu de ma perte?
+<lb />Ense Ie t'empescheray bien d'en pouuoirtrionfer.
+<lb />moment
+<lb />elle saisit le poignard d’Araxe.
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Aidez moy, compagnons, arrachons-luy ce fer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTE.
+<lb />Arrache-moy le cœur, assouuy ta colere.
+<lb />Vn si malin esprit peut-il estre mon frere?
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Ah!
+<lb />Qu'on me lagarde bien. I'oy des cris élancez
+<lb />Du costé du iardin: mes gardes sont blessez;
+<lb />Enfans, qui vous a mis en ce triste equipage?
+<lb />Ce voleur de sa main vous a-t'il fait outrage?
+</sp>
+<sp type="MainZone-Sp"><lb />LES BLESSEZ.
+<lb />Il acoupé l'ejenoue; &amp; nons farpant tomber,
+<lb />Il a sceu finement de nous se derober.
+</sp>
+<p type="MainZone-Other"><lb />Ah!
+</p>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Ah le traistre! il mourra, ie le iure, &amp; proteste,
+<lb />On vous va secourir; ie laisse ce qui reste
+<lb />da la garat uOrante, &amp;ut en pay promptement
+<lb />De Pyrandre inuestir le proche apartement
+<lb />Auec nouuelle escorte. Amis, que l’on regarde
+<lb />Aux actions d’Orante, &amp; faites bonne garde.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />ORANTE, ET SES GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />oy donc ? injustes Cieux, vous sousrez dans
+<lb />- la Cour
+<fw><lb />Source gallica.bnffr ( Bibliothèque nationale de France
+</fw></sp>
+<p type="MainZone-Lg"><lb />Tant de persecuteurs d’vn si fidelle Amour?
+<lb />Leur rage impunement à la honte me liure,
+<lb />Ils me perdent d’honneur, &amp; vous les laissez viure?
+<lb />Pourquoy, foudres vangeurs, icy n’eclatez-vous?
+<lb />Les arbres innocens sont battus de vos cous,
+<lb />Et dessus les Rochers vous perdez vos tempestes,
+<lb />Pour laisser en repos de si coupables testes?
+<lb />Helas! ie suis perduë, &amp; dedans mes malheurs,
+<lb />Ie n’ay point de ressource auiourd'huy que les pleurs;
+<lb />Remedes impuissans pour vne ame abatuë,
+<lb />Que la douleur accable, &amp; que l’opprobre tuë.
+<lb />Helas! ie suis perduë, &amp; pour comble d’ennuis,
+<lb />Tout me fuit, tout me laisse en l’estat où ie suis.
+<lb />Ie tombe, en cet excez du mal qui me surmonte,
+<lb />Du haut feste de gloire, en l’abisme de honte.
+<lb />Soldats qui me voyez en cette extremité,
+<lb />Si vous auez encor la moindre humanité:
+<lb />Si quelqu’vn d’entre-vous conserue en sa pensée
+<lb />Vne ombre de respect à ma gloire passée;
+<lb />Si la pitié vous touche, helas' ouurez ce flanc,
+<lb />Et faites que mes maux se noyent en mon sang
+<lb />Deliurez de miseres vne ame langoureuse;
+<lb />Si ie ne puis mourir, ie suis bien mal heureuse.
+<lb />Quoy? vous me refusez ce secours Inhumains?
+<lb />Au moins fournissez moy de glaiue; &amp; de mes mains
+<lb />Ie me tueray, plutost que ce mal-heur m'arriue,
+<lb />–-174-*Q
+<fw><lb />E
+<lb />I
+<lb />M
+<lb />Et
+<lb />D
+<lb />Ie
+<lb />La
+<lb />La
+<lb />Etc
+</fw><lb />Qu'a la perte d'honneur vn moment ie surviue.
+<lb />De quel front, de quels yeux, Barbares, dites-moy
+<lb />Pourray-je soustenir la presence du Roy?
+<lb />Et comment fouffriray-ie en ma honte publique,
+<lb />Qu'il me traitte en courroux d’infame, &amp; d’impudique,
+<lb />Luy qui m'a tant aymée? ah! non, plustost ie veux
+<lb />Me battre l’estomach, m’arracher les cheueux,
+<lb />Et me meurtrir si bien, qu'apres m'estre outragée
+<lb />De mille coups mortels, ie perisse enragée.
+<lb />Vous croyez m'empescher, ah l’inmite ey ort?
+<lb />cesçuy mittecnemins pour aller a la mort:
+<lb />Ostez moy le poison, &amp; le fer, &amp; la flame,
+<lb />ay bien d’autres moyens pour accourcir ma trame,
+</p>
+<sp type="MainZone-Sp"><lb />PREMIER EXEMPT.
+<lb />Madame, retenez cet esprit furieux:
+<lb />La pitié fait monter les larmes dans mes yeux,
+<lb />Et de les retenir il ne m'est plus poßible:
+<lb />y n’employoit- on vn cœur plus insensible?
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Au moins, cœurs sans pitié, que ie sçache de vous
+<lb />qu'est en ce peril deuenu mon Espous;
+<lb />Et si ce doux objet, dont mon ame est rauie,
+<lb />Garde encor' en viuant la moitié de ma vie.
+<lb />Mais les vœux que ie fais pour luy sont superflus:
+<lb />Ie te reclame en vain, Pyrandre, tu n'es plus,
+<lb />Ou du moins, si tu n'es dedans la sepulture,
+<lb />Tu vis dans le cachot d’vne prison obscure.
+</sp>
+<p type="MainZone-Head"><lb />LES BLESSEZ.
+</p>
+<p type="MainZone-Other"><lb />Aht
+</p>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />D'où vient autour de moy cette mourante voix? Ah
+<lb />Si c’est toy que la mort a reduit aux abois,
+<lb />Pyrandre, &amp; dont la plainte à mon oreille arriue,
+<lb />Ne t’en va pas si tost, atten que ie te suiue;
+<lb />Mon cœur, permets que i’aille exaler doucement
+<lb />Vn souspir, dans les tiens meslé confusément.
+<lb />Permets qu'vn doux baiser encore ie te vole,
+<lb />Et puis que mon esprit dans tes levres s'enuole.
+<lb />Daigne icy recueillir mon ame qui te suit,
+<lb />Et l’adresse au chemin par où la tienne fuit.
+</sp>
+<sp type="MainZone-Sp"><lb />PREMIER EXEMPT.
+<lb />Bannissez ce soupçon, &amp; perdez cette crainte,
+<lb />Pyrandre s’est sauué, Madame, cette plainte
+<lb />Vient des soldats blessez, se iettans apres luy.
+<fw><lb />Ius
+<lb />2
+<lb />I
+</fw><lb />Mais ie m'esforce en vain d’adoucir son ennuy,
+<lb />Lapauurete se pâme en ce mal qui l’oppresse;
+<lb />Plût à Dieu la pouuoir laisser dans sa foiblesse;
+<lb />Sans mentir, à regret ie la viens secourir,
+<lb />Ce seroit charité de la laisser mourir.
+</sp>
+<p type="MainZone-Head"><lb />OENHTROISIESME
+<lb />ARAXE, ET SES GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />Ompagnons, gardez bien toutes ces aduenuës,
+<lb />LEt sur tout les recoins, &amp; routes peu connuës,
+<lb />Par où c'est affronteur qui nous a sceu tromper,
+<lb />Pour la seconde fois se pourroit eschaper.
+<lb />Que pris, dans la prison außi tost on l’ameine:
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND BAEMFT.
+<lb />Monsieur cela vaut fait, n'en soyez pointen peine,
+<lb />iusques dans les Enfers nous irons le trouuer:
+<lb />A moins qu'estre inuisible il ne se peut sauuer.
+<lb />Il est pris, autant vaut, ie n'en fais nulle doute.
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />S’il sort, à mon auis il prendra cette route.
+<lb />Ie vay de mon costé mettre ordre que ma sœur
+<lb />Soit mise en vn cachot, comme son rauisseur.
+</sp>
+<p type="MainZone-Head"><lb />SCENEQVATRIESME.
+<lb />PYROXENE. PYRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />My, n'en doute point, l’affaire est descouuerte:
+<lb />A IEs-tu tout habille? va t'en, ie crains ta perte.
+<lb />Araxe le brutal court encor apres moy:
+<lb />Mais il te croit coupable, &amp; ne cherche que toy.
+<lb />Sauue-toy ie te prie.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />O trahison estrange!
+<lb />Si i'en aprens l'Autheur, il faut que ie m'en vange.
+</sp>
+<p type="MainZone-Other"><lb />YR
+</p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Il est temps de s’enfuir, &amp; non de raisonner,
+<lb />Va viste:
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ie ne sçay de quel costé tourner.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Gaigne par ce destour le logis de Nicandre,
+<lb />Et va dans ce lieu seur mes nouuelles attendre.
+<lb />men gatue en ion tuemin que tu ne sois gueté:
+<lb />Si tu peux vne fois te mettre en seureté,
+<lb />iray conter au Roy comme l'affaire passe,
+<lb />Et sa fillé efporsame, tante y oten tost-ma grace.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Adieu donc, ie m'en vais, ô l'extrême malheurt
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEMPT.
+<lb />Sur tout, mes Compagnons, surprenons le Voleur
+<lb />Asseurez-vous qu'à moins que d’vser de surprise,
+<lb />Sa valeur nous fera manquer nostre entreprise.
+<lb />Cét homme est courageux iusques au dernier poinct,
+<lb />Cachez cette lanterne, &amp; ne paroissez point;
+<lb />Et quiconque en ce lieu passera sans lumiere,
+<lb />Prenez le tous ensemble außi tost par derriere;
+<lb />Et que nostre Galand sur tout n’esquiue pas:
+<lb />Chut, serrez-vous en haye, amis i'entens des pas,
+<lb />Qui viennent droit à nous, escoutez bien:
+</sp>
+<sp type="MainZone-Sp"><lb />Ie meure,
+<lb />Si ie sçay plus l'endroit, où Nicandre demeure.
+<lb />I'ay tort de n’auoir pris quelqu’vn pour me guider:
+<lb />Ie ne voy plus personne à qui le demander.
+<lb />Il est minuit paße, toutesfois ie me doute
+<lb />Qu'il faut passer la place, &amp; prendre cette route.
+</sp>
+<p type="MainZone-Other"><lb />PYRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />SECOND EXEMPT.
+<lb />Il est temps qu’on l’arreste amis, sans differer,
+<lb />Et ne luy donnons pas loisir de respirer.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />O Dieux à l’impourueuë on m'est venu sarprendre
+<lb />Qui vous fait si hardis?
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEMPT.
+<lb />Estes-vous pas Pyrandre?
+<lb />Compagnons, c'est luy mesme, il n'en jant plus douter.
+<lb />C'est le Prince, Monsieur, qui vous fait arrester:
+<lb />Vous en sçauez la cause.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ah! Voleurs que vous estes;
+<lb />Est-ce ainsi que de nuict vous faictes vos enquestes?
+<lb />Si jauois vn bras libre.
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEMPT
+<lb />Amis ne craignez rien:
+</sp>
+<sp type="MainZone-Sp"><lb />P
+<lb />PYRANDRE.
+<lb />oltrons ce fer icy vous escarteroit bien.
+<lb />Mais à m'en despetrer en vain ie me trauaille,
+<lb />Où me conduit en fin cette vile canaille?
+<lb />
+<lb />raistre souuienne toy, si i’en eschappe vn jour,
+<lb />Que tu me le païras:
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEMPT.
+<lb />Qu'on le meine à la tour:
+<lb />C’est à deux pas d’icy, s’il n’y va, qu’on l’y tresne,
+<lb />Et puis qu’il est mutin, qu'on luy baille vne chesne.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Dizarte effet au Sort: te malheureux Exempi
+<lb />M’adoroit ce matin, &amp; m’outrage à present:
+<lb />Suiuons, puis qu’il le faut, vne si belle escorte,
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND EXEMPT.
+<lb />Nous y voicy rendus, frapez fort à la porte:
+<lb />Esueillez le Geolier, il est bien endormy:
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />LE GEOLIER, L’EXEMPT, PYRANDRE,
+<lb />LES GARDES DV PRINCE.
+</p>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Vi vient fraper si tard?
+<lb />L’EXEMPT. Ouure moy mon Amy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Non, ie n’ouuriray point, car il est heure induë:
+<lb />Ie sçay bien mon mestier, vous me prenez pour gruë.
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEM
+<lb />Si tu n’ouures Coquin?
+<lb />I
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />24 (
+<lb />(
+<lb />Quel est ce mangeur d'Aux,
+<lb />Qui fait si peu d’honneur aux Concierges Royaux?
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND EXEMPT.
+<lb />Connois-tu ce baston?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Monsieur, ie vous demande
+<lb />Tres-humblement pardon, d'vne faute si grande,
+<lb />Ie n’eusse pas connu le Roy mefme à la voix:
+<lb />I’estois trop en coleres en dormant ie songeois,
+<lb />Que l'on cassoit mon verre, &amp; respandoit ma sausse:
+<lb />Quand vous auez frappé; Ie prens mon haut de chausse
+<lb />Et m'en viens vous ouurir.
+</sp>
+<sp type="MainZone-Sp"><lb />L’EXEMPT.
+<lb />Ce Geolier est plaisant:
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Et bien, que voulez- vous de moy, Monsieur l'Exempt?
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND EXEMPT.
+<lb />Que tugardes cet homme, &amp; m'en rendes bon conte:
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Approchez-vous, beau fils, &amp; n’ayez point de honte.
+<lb />C’est la maison du Roy, i'ay bien logé chez nous
+<lb />Des muguets, pour le moins außi frisez que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND EXEMPT.
+<lb />Allons, il est dedans, respons de sapersonne,
+<lb />Et prens garde aux prisons.
+<fw><lb />A
+<lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Monsieur, ie luy pardonne,
+<lb />Sil en sort sans congé, puis que l’y voilà mis;
+<lb />Non pas quand il auroit cent diables pour amis.
+<lb />Monsieur, ça de l’argent, payez la bien venuë,
+<lb />Vous aurez ce cachot qui respond sur la ruë.
+<fw><lb />14
+</fw></sp>
+<sp type="MainZone-Sp"><lb />RM
+<lb />Amy, ie le feray, tu t’en contenteras.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />A d'autres; i'aime vn tien plus que deux ta l'auras
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Mon valet a ma bourse;
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />&amp; le Diable m'emporte,
+<lb />Si le mien n’a la clef außi de cette porte.
+<lb />Vous pensez m'excroquer, mais prenez garde à vous:
+<lb />Ie vous mettray là bas auec quatre Filous,
+<lb />Qui danceront tantost dessous vne potence,
+<lb />Vous tautintpiupeurrop ue enomme d’importance.
+</sp>
+<sp type="MainZone-Sp"><lb />RANDRE.
+<lb />O l’homme deffiant! garde en attendant mieux
+<lb />Cette bague:
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Monsieur, voyez de ces deux lieux
+<lb />Lequel vous voullez prendre; à ce coup ie vous aime:
+<lb />Soyez seur d’estre icy traitté comme moy-mesme.
+<lb />le Thea- Ma foy c'est grand dommage, il a bonne façon,
+<lb />Et l’on iuge à le voir qu'le cye joty garçon,
+<lb />S’il doit estre branche, ie l’iray voir deffaire,
+<lb />Et priray de bon cœur le bourreau, mon compere,
+<lb />De secouër pour luy dextrement le iaret,
+<lb />M'en d’eust-il couster pinte apres au Cabaret.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troisiesme Acte.
+</p>
+<p type="MainZone-Other"><lb />L’HEVREVSE
+</p>
+<p type="MainZone-Head"><lb />DEIEVND V
+<lb />DE
+<lb />TROMPERIE.
+<lb />TRAGE-COMEDIE
+</p>
+<p type="MainZone-Head"><lb />RETE PPATRIESME.
+<lb />SCENE PREMIERE.
+<lb />PYROXENE SEVL.
+<fw><lb />
+</fw></p>
+<sp type="MainZone-Sp"><lb />C
+<lb />Mour, que ta faueur nous est mat af<lb />seurée!
+<lb />Que tes prosperitez sont de courte
+<lb />durée!
+<lb />2 90
+<lb />Que ceux qui sous ta loy viuent les plus contens
+<lb />Encourent de disgrace en vn moment de temps!
+<lb />2
+<lb />Que tu mesles, cruel, d'espines a tes Roses, 
+</sp>
+<p type="MainZone-Lg"><lb />Et que tu traittes mal les cœurs dont tu disposes!
+<lb />Ie l’eprouue aujourd’huy, mal-heureux que ie suis,
+<lb />Qui tombe de ta gloire en vn gouffre d’ennuis,
+<lb />Qui trouue en tes faueurs ma ruine apparente,
+<lb />Et qui perds tout en fin, en perdant mon Orante.
+<lb />Tu m’as bien-tost priué de ce tresor exquis;
+<lb />Ie le perds iustement, ie l’auois mal acquis.
+<lb />Außi ne plains-ie point ma perte déplorable.
+<lb />Ie pleins tant seulement la tienne irreparable;
+<lb />Princesse infortunée, &amp; ta iuste douleur,
+<lb />Me fait tout oublier, pour pleurer ton mal-heur.
+<lb />Ta honte, pauure Orante, à tant d’yeux manifeste,
+<lb />Plus que mes propres maux, à mon ame est funeste.
+<lb />Ta disgrace me tuë, &amp; le courroux brutal
+<lb />D’Araxe, m’est autant qu’à toy-mesme fatal.
+<lb />Helas! i’oste, surpris par cette ame traistresse,
+<lb />La vie à mon amy, l’honneur à ma maitresse.
+<lb />Ces deux cœurs innocens dans leur captiuité,
+<lb />Souffrent pour mes pechez, &amp; suis en liberté.
+<lb />Sus sus efforçons-nous de destourner l’orage:
+<lb />Il est encore temps, ne perdons point courage.
+<lb />I'entens par tout vn bruit espandu dans la Cour,
+<lb />Que Pyrandre accusé doit mourir dans ce iour;
+<lb />Et qu’estant conuaincu du crime, la Iustice
+<lb />N'en sçauroit plus long-temps differer le supplice.
+<lb />Allons trouuer le Roy pour le desabuser,
+</p>
+<p type="MainZone-Lg"><lb />Iettons nous à ses pieds, allons nous accuser;
+<lb />Il pourra condemner mon trop de hardiesse:
+<lb />Mais en fin excusant l’amour, &amp; la ieunesse,
+<lb />Orante sera mienne, &amp; i’auray ce bon-heur,
+<lb />De rendre à deux la vie, en luy rendant l’honneur.
+<lb />Celuy-là n'est pas sage au mal qui le possede,
+<lb />Qui d’abord a recours à l’extresme remede.
+<lb />Si ie ne pouuois pas secourir autrement
+<lb />Ceux que i’ayme, pour eux ie mourrois librement.
+<lb />Sus donc, allons au Roy descouurir le mystere;
+<lb />Mais pour m’asseurer mieux, auant que de rien faire,
+<lb />Ie vay voir mon Orante, &amp; diray que c’est moy,
+<lb />Qui sous le nom d’vn autre ay reconnu sa foy;
+<lb />I'espere en luy contant toute la tromperie,
+<lb />Que i’obtiendray pardon de mon effronterie,
+<lb />Dieux! pourray-ie bien voir dans la captiuité
+<lb />Ce chef-d’œuure parfait de la Diuinité?
+<lb />Auray-ie bien le cœur de voir emprisonnée
+<lb />Celle qui dans ses fers tient mon ame enchesnée?
+<lb />Que ie preuoy d’angoisse à ce funeste abordi
+<lb />Son beau visage peint d’vn pasle teint demort,
+<lb />Et ses yeux obscurcis d’vn orage de larmes,
+<lb />Pour me rauir encor n’auront que trop de charmes.
+<lb />Leurs attraits à mon ame éclaireront assez;
+<lb />Encor que la douleur les ait presque effacez,
+<lb />Ils garderont tousiours leur grace naturelle,
+</p>
+<p type="MainZone-Lg"><lb />Telle qu'elle sera ie bruleray pour elle;
+<lb />Et mon ardant amour attendry de pitié,
+<lb />Redoublera son feu d’vne iuste moitié.
+<lb />Quoy qu’il puisse arriuer, il faut que ie la voye;
+<lb />Et si son doux accueil ne promet point de ioye,
+<lb />I’espere à tout le moins que sa fiere rigueur,
+<lb />Par vne prompte mort guerira ma langueur.
+<lb />Mais insensiblement resuant sur cette idee,
+<lb />I'arriue à la prison où la Belle est gardée.
+<lb />Fauorise mes vœux, Amour, &amp; permets moy,
+<lb />De luy pouuoir icy renouueller ma foy,
+<lb />Sans qu'elle me rebute, &amp; sans qu'elle s’offence.
+<lb />Ie n’ose t’aborder, donne m'en la licence.
+<lb />Ie tremble à châque pas, ce mouuement peureux
+<lb />Ne promet rien de bon à mon cœur amoureux.
+<lb />Laissez vous voir, Madame, au Prince Pyroxene,
+<lb />Qui vient exprés icy, pour vous tirer de peine.
+<lb />Paroissez à la grille, &amp; ne veuïllez priuer
+<lb />De vos beaux yeux, celuy qui vient pour vous sauuer.
+<lb />Elle ne m'entend point. Madame?
+<lb />-
+</p>
+<p type="MainZone-Head"><lb />CENE DEVXIESME.
+<lb />ORANTE. PYROXENE.
+</p>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />i m'apelle?
+</sp>
+<sp type="MainZone-Sp"><lb />EINOXENE,
+<lb />Vn qui vous vient porter vne heureuse nouuelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Si c'est pour m'annoncer l’heure de mon trespas,
+<lb />Tu sois le bien venu, ie beniray tes pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Tants'en faut, ie vous viens de vostre deliurance,
+<lb />Et de vostre salut donner toute asseurance.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />C'est donc vous Py roxene?
+</sp>
+<p type="MainZone-Other"><lb />4
+<lb />iij
+</p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Ouy Madame, e'est moy,
+<lb />Qui promets d’appaiser la colere du Roy,
+<lb />De vous sauuer l’honneur, &amp; de vous rendre heureuse;
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Vous moquez-vous ainsi d’vne ame langoureuse?
+<lb />Et pensez-vous vanger par vn si lache tour,
+<lb />Le mespris qu’autre-fois i'ay fait de vostre Amour?
+<lb />C’est trop persecuter vne pauure affligée,
+<lb />Qui de son mauuais Sort est assez outragée.
+<lb />Considerez, Cruel, l’estat où ie me voy,
+<lb />Et vous serez vangé, sans vous moquer de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Ie voudrois que le Ciel m'exterminast, Madame,
+<lb />Si ce lâche penser m'estoit entré dans l'Ame,
+<lb />Helas! si vous sçauiez combien pour vos malheurs,
+<lb />I'ay poußé de sanglots, &amp; respandu de pleurs;
+<lb />Si vos yeux penetroyent iusques dans mon courage,
+<lb />Vous auriez en la bouche vn tout autre langage.
+<lb />Ie ne puis plus cacher mapeine, &amp; ma langueur,
+<fw><lb />Bel
+<lb />C'
+<lb />Oc
+<lb />Ta
+<lb />Et
+<lb />De
+<lb />Ie
+<lb />Tra
+<lb />Me
+<lb />I'ay
+<lb />Qui
+<lb />Ett
+<lb />Que
+</fw><lb />Belle Orante, il est temps de vous ouurir mon cœur;
+<lb />C'est moy que pour Espous vous auez daigné prendre,
+<lb />Occupant cette nuit la place de Pyrandre,
+<lb />Qui vous ay fait sentir en cette qualité
+<lb />Tant de marques d'Amour, &amp; de fidelité;
+<lb />Et qui viens humblement apres tant de licence,
+<lb />Otmanuer a genoux pardon de mon offence.
+<lb />Ie vous iure,
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Imposteur ne fais point de sermens:
+<lb />Traistre, cela n'estpoint, ie sçay bien que tu mens.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Ne soyez point icy d'Amour preoccupée,
+<lb />Madame, asfeurement ta nuit vous a trompée.
+<lb />ay cherché d’acquerir par adresse vn honneur,
+<lb />Que ie ne pouuois pas acquerir par bon-heur:
+<lb />Et l'Amour ne m’a mis en la place d’vn autre,
+<lb />2
+<lb />pour vostre salut, de qui depend le nostre.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Dl'infigne Affronteuri l'enorme trabison!
+<fw><lb />Source gallicabnffr ( Bibliothèque nationale de France
+</fw><lb />N’a ton pas pris Pyrandre: est il pas en prison?
+<lb />Ne me replique point, Ame double, &amp; traistresse:
+<lb />Ie lis dedans ton cœur, ie comprens ta finesse;
+<lb />Tu viens impudamment ces fables controuuer,
+<lb />Pour sauuer ton Amy, plus que pour me sauuer.
+<lb />Ce cruel de ma flame, &amp; de sa foy se iouë:
+<lb />De crainte de mourir, l’Ingrat me des-auouë;
+<lb />Et pour se garantir, il fait qu’vn Imposteur,
+<lb />S’accuse de son crime, &amp; s’en dise l’Autheur.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Madame, refrenez cet excez de colere
+<lb />Et r’entrez en vous mesme.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Effronté, temeraire,
+<lb />Voudrois-tu bien encor icy me soustenir,
+<lb />Que Pyrandre en son lieu chez moy t'afait venir?
+<lb />Le voudrois-tu iuger? si i’estois libre, Infame,
+<lb />Ie te ferois r'entrer ces propos dedans l'ame,
+<lb />Helas! ton Amy lache en cette extremité,
+<lb />Manque bien auiourd'huy de generosité!
+<lb />Pour euiter la mort le traistre me renie,
+<lb />Et veut suruiure encore à sagloire ternie.
+</sp>
+<p type="MainZone-Lg"><lb />Si nos crimes estoient traittez esgallement,
+<lb />Qu'à la mort i’ouurirois le chemin aisement!
+<lb />Et que luy tesmoignant ma genereuse enuie,
+<lb />Ie luy monstrerois bien à mespriser la vie!
+<lb />Les plus rudes assaux, &amp; les plus grands combas
+<lb />Ne l’ont pas seulement fait changer de visage;
+<lb />Et ce dernier peril esbranle son courage?
+<lb />Il veut viure, l’Infame, &amp; cherche vn suborneur,
+<lb />Qui se vante d’auoir dérobé mon honneur.
+<lb />Va, preste luy la main, poursuy ton auanture,
+<lb />Fay, si tu peux, au Roy croire cette imposture:
+<lb />Tirez le de prison, arrachez le des fers
+<lb />8
+<lb />Qu'il se moque des maux que pour luy i’ay souffers;
+<lb />Qu'il dedaigne le choix que i’ay fait de sa flame,
+<lb />Au mespris de deux Rois qui m’adoroient dans l’ame.
+<lb />Qu’il reiette mes vœux, qu’il viole sa foy,
+<lb />Que la terre &amp; tes Cieux je vandent contre moy;
+<lb />Que pere, frere, amis, &amp; parens m’abandonnent,
+<lb />Ie me resous à tout, puis que les Cieux l’ordonnent,
+<lb />Et cede à mon Destin, puis qu’il est arresté,
+<lb />Que ie meure de rage en ma captiuité.
+<lb />
+<lb />C
+</p>
+<p type="MainZone-Head"><lb />PYROXENE SEVL.
+</p>
+<p type="MainZone-P"><lb />Madame, escoutez moy, last elle est disparuë
+<lb />Et ie me pers außi sans l’auoir secourue;
+<lb />C'est fait d'elle, bons Dieux! sa honte &amp; sa prison
+<lb />Ont esgaré son ame, &amp; perdu sa rdison.
+<lb />Las! elle s’abandonne, &amp; ie veux qu'elle m'aide,
+<lb />Mon mal, comme le sien, est sans aucun remede.
+<lb />Il faut, il faut mourir priué de tout secours:
+<lb />A la mort seulement ie dois auoir recours;
+<lb />Et sans aller plus loin, en ce fer salütaire,
+<lb />Ie vay treuuer icy la fin de ma misere.
+<lb />Mais quoy? doy- ie en cherchant d’aleger mon tourment,
+<lb />Abandonner ainsi mes amis lachement?
+<lb />Doy-ie auoir dans mes maux la raison si peu seine,
+<lb />Que de laisser perir ceux que i’ay mis en peine?
+<lb />Sus, sus, pour les sauuer faisons tout nostre effort;
+<lb />Et s’il est inutile, allons droit à la mort.
+</p>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />LISIMENE. DORINE.
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Orine, que mon ame est d’ennuis abatuë?
+<lb />AQue i’ay le cœur outré du remors qui me tuë!
+<lb />Que ma vengeance, helas par son triste succez
+<lb />A produit en ce lieu de tragiques effets!
+<lb />Outre qu'on tient la mort de Pyrandre asseurée,
+<lb />Orante en sa prison d’eternelle durée
+<lb />Doit expier son crime, &amp; ie meurs de douleur
+<lb />De les auoir plongez tous deux en ce malheur.
+<lb />Dedans mon desespoir i'estois bien enragée:
+<lb />Plust au Ciel que sur moy ie me fusse vangée!
+<lb />Quoy que ce cœur ingrat par sa lâche action
+<lb />Ait mertie ma maine, &amp; sa punition,
+<lb />Ie pleins son infortnne, &amp; i’aurois mesme enuie
+<lb />Au pris de tout mon sang de racheter sa vie.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Que vous sert de le pleindre, &amp; de vous affliger,
+<lb />Madame? il est trop tard, il n’y faut plus songer.
+<lb />Ne pleurez point sa peine, il l’a bien meritée.
+<lb />Apres tout, c'en est fait, la pierre en est iettée;
+<lb />Et quand vous pleurerez tout le iour son trespas,
+<lb />Vos pleurs, ny vos soupirs ne le sauueront pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Dorine, tu dis vray: mais, ma fidelle amie,
+<lb />Ie ne pleure pas tant sa mort, que l’infamie
+<lb />De ma pauure coufine, hél que m'a t'elle fait,
+<lb />Pour sentir de ma rage vn si sanglant estet?
+<lb />La malheureuse eust creu m'auoir bien offencée,
+<lb />De cacher à mon ame vne seule pensée.
+<lb />Cependant i’ay trahy sans honte, &amp; sans pitié,
+<lb />Les fidelles respects deus à son amitié.
+<lb />An! que te suis conpavie, &amp; que lafrenesie
+<lb />Est à craindre en vn cœur outré de ialousie!
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Pous ne la pouüez pas plus que luy guarantir;
+<lb />Dessus d’autres objets allons noùs diuertir,
+<lb />Vous vous gesnez en vain, n’y pensez plus, Madame,
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Si ie les oubliois, ie serois bien Infame.
+<lb />Si tu m'aimes, tu dois approuuer mes dessains,
+<lb />Et me donner icy des conseils plus humains.
+<lb />Ie veux en les pleurant, de leur tragique histoire
+<lb />Tout le temps de ma vie affliger ma memoire.
+<lb />Ouy, Dorine, au deffaut de tout autre secours,
+<lb />Ie le veux regretter iusqu'au bout de mes iours.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Madame, cét ennuy plus que vous me possede,
+<fw><lb />.
+<lb />L
+</fw><lb />Mais ie cede aux malheurs qui n'ont point de remede.
+<lb />Retirons nous d’icy, ce funeste seiour
+<lb />Redoubleroit vos maux.
+<fw><lb />l-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Dans cette tour,
+<lb />Est l’obscure prison où Pyrandre demeure.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ie le voudrois bien voir auparauant, qu’il meure:
+<lb />Entrons, ma chere amie, &amp; dans ce triste lieu;
+<lb />Allons luy pour le moins dire vn dernier Adieu,
+<lb />Altons luy demander pardon de tant d’outrage:
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Pourriez-vous bien, Madame, en auoir le courage?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ouy Dorine, &amp; ie croy que mon cœur affligé,
+<lb />En le voyant jeru ta beuntoup allegé.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />I'apperçoy le Geolier aßsis dessus la ruë.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Parle à luy, fay si bien qu’il me donne la veuë
+<lb />Du malheureux Pyrandre, &amp; mets luy dans le poin
+<lb />Quelque piece d’argent, ie t’atens dans ce coin.
+</sp>
+<p type="MainZone-Head"><lb />DOENE CVATRIESME
+<lb />DORINE. LE GEOLIER.
+<lb />EISIMENE. TIRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Au, Monsieur le Concierge, vn mot ie vous
+<lb />H faplie</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Que voulez vous, Madame? ô Dieux! qu'elle est iolie:
+<fw><lb />T
+<lb />N
+<lb />Cu
+<lb />6
+<lb />2
+<lb />R
+<lb />
+</fw><lb />N’ayant pas bien esté disposé tout le iour,
+<lb />c'ay pent qu'eute me vienne icy prier d'Amour.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Ceieunt Canatter que pons anez en gurde,
+<lb />Ne se peut-il point voir?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Voyez qu'elle est mignarde:
+<lb />C'estoit son amoureux, &amp; sçait peut-estre außi,
+<lb />Que d’vn pied dans ce iour il doit estre accourcy.
+<lb />Non il ne se peut voir, si cela vous ameine,
+<lb />Retournez au logis; vous perdez vostre peine.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Voicy dix escus d’or, ie ne veux rien pourrien:
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Ma foy ie croy que c'est vne fille de bien:
+<lb />Elle est honneste, entrez; &amp; faites diligence
+<lb />De voir ce Criminel, vous sçauez la deffence.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Madame, approchez-vous, Monsieur en est content:
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Entrez, &amp; hastez-vous, ne caquetez pas tant:
+<lb />Pyrandre aura bien tost sentence criminelle,
+<lb />De peur du Iuge, icy ie fais la sentinelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />He bien cœur infidelle! he bien volage Amant!
+<lb />Estes- vous bien payé de vostre changement?
+<lb />Le Ciel n’est il pas iuste, Ame double, &amp; pariure,
+<lb />Auois -ie merité qu’on me fit cette iniure?
+<lb />Orante, qui vous fait violer vostre foy,
+<lb />Pour vous curesser plus, vaut elle mieux que moy?
+<lb />Donc pour estre de vous plus dignement traittée,
+<lb />Et pour vous sçauoir plaire, il faut estre effrontee?
+<lb />Ingrat, dans le dessain que pour vous i'auois pris,
+<lb />Ie n’attendois rien moins de vous, que ce mespris
+<lb />Et i'eusse plustost creu la clemence cruelle,
+<lb />Et tous les Dieux méchans, que Pyrandre infidelle.
+</sp>
+<p type="MainZone-Other"><lb />PYRA
+</p>
+<p type="MainZone-Head"><lb />ACTE IIII. SCENE IIII.
+</p>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Que vous faites, Madame, vn charitable esfort,
+<lb />Si vous parlez ainsi, pour auancer ma mort!
+<lb />Acheuant d’accabler ma constance abatuë,
+<lb />Et ne permettant pas que le bourreau me tuë
+<lb />Si i'auois à l’amour d’Orante consenty,
+<lb />Si i'auois d’vn seul point mon zele dementy,
+<lb />Cherchãt ailleurs qu’en vous ma gloire, &amp; ma fortune,
+<lb />Ie voudrois endurer dix mille morts, pour vne.
+<lb />Hé Madame, pour Dieu connoissez vos appas,
+<lb />Pour connoistre Pyrandre, &amp; ne l’outragez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Insensé, que dis tu? n’es-tu pas ridicule,
+<lb />De vouloir que ie sois, seulle au monde incredule?
+<lb />Ta fraude est manifeste, &amp; l’Astre qui nous luit,
+<lb />A descouuert par tout le crime de la nuit.
+<lb />Mais quand ie manquerois d’vne preuue si claire,
+<lb />oicy de bons tesmoins, cruel, ie t’ay veu faire;
+<lb />Et cette fille encor, qui soutenoit ta foy,
+<lb />L’attendoit au passage, &amp; t’a veu comme moy.
+<lb />Ie ne le cele point, l’extreme ialousi,
+<lb />Qu'à l'heure i'en conceu, troubla ma fantaisie;
+<lb />Et fit dessus mon ame vn si cruel effort,
+<lb />Que sans plus differer, ie coniuray ta mort,
+<lb />Interessant le Prince à faire la vengeance
+<lb />De ton lache mespris, &amp; de ton inconstance.
+<lb />Mais quoy que ton forfaict soit assez aueré,
+<lb />Ie me repens d’auoir ton malheur procure;
+<lb />Et viens la larme à l’œil, pleine d’inquietude,
+<lb />Te demander pardon de cette promptitude.
+<lb />Ie ne te puis haïr, nonobstant tes humeurs,
+<lb />Pyrandre, asseurément ie mourray, si tu meurs.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ie suis trop glorieux, Beauté plus que mortelle,
+<lb />De voir venir ma mort d’vne cause si belle;
+<lb />Et ie meurs trop content, puis que vous temoignez,
+<lb />Que mon malheur vous touche, &amp; que vous le pleignez
+<lb />Si ie puis en mourant obtenir la licence,
+<lb />De vous iustifier icy mon innocence.
+<lb />Que me seruiroit il d’estre des Dieux absous,
+<lb />Si ie restois coupable encore deuant vous?
+<lb />Madame, que ce Dieu, qui tient en main le foudre,
+<lb />M'extermine coupable, &amp; me reduise en poudre:
+<lb />Que ie sente creuer la terre sous mes pas,
+<lb />Que vaine Ombre ie sois precipité là bas,
+<lb />Sans vous reuoirau Ciel, nostre commune attente,
+<lb />Si i'adheray iamais à l’amitié d’Orante.
+<lb />A vostre object diuin i'estois trop arresté;
+<lb />Que sert de vous cacher icy la verité?
+<lb />Vostre frere, Madame, a causé ma disgrace;
+<lb />Touché de son amour, ie le mis en ma place,
+<lb />Appellé chez Orante, à qui ie fis ce tour,
+<lb />Pour la crainte que i’eus d’offencer nostre Amour.
+<lb />Cepandant la pauurete estant preoccupée,
+<lb />Ne le reconnut point, &amp; se trouua trompée:
+<lb />Araxe les suprit, comme vous auez sceu;
+<lb />l'yroxene echapa, sans en estre apperceu;
+<lb />Me fit sauuer en haste, &amp; fus si miserable,
+<lb />Que d'estre pris: voila comment ie suis coupable.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Helas! si tu dis vray, Pyrandre, qu'à grand tort,
+<lb />I'ay machiné ta perte, &amp; procuré tamort!
+<lb />Et que te descouurant innocent, &amp; fidelle,
+<lb />Tu me descouures bien perfide, &amp; criminelle!
+<lb />Mais comment suis-ie encore en doute de ta foy?
+<lb />Ie la lis dans tes yeux, Pyrandre, ie te croy:
+<lb />La pure verité sur ton visage est peinte,
+<lb />Et i’en sens dans mon ame vne mortelle atteinte.
+<lb />Si quand ie t'ay blamé, credule que i’estois,
+<lb />I'ay pour toy souhaité de mourir mille fois;
+<lb />Que faut-il que ie face auiourd’huy que i’epreuue
+<lb />Ton ame, &amp; qu'innocent deuant moy ie te treuue?
+<lb />O cœur plein de constance irreprochable Amant!
+<lb />Crois-tu que ie sur viue à ta perte vn momant?
+<lb />Crois tu que me bornant au remors qui me ronge,
+<lb />Ie cherche d’euiter le gouffre où ie te plonge?
+<lb />Non, non, si mon effort ne te peut secourir,
+<lb />Tu verras auiourd huy si ie sçay bien mourir.
+<lb />Il faut que pour ma gloire, autant que pour la tienne,
+<lb />Ie marche la premiere, &amp; que ie te preuienne.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Parlez mieux, ma Deesse, &amp; changez de propos;
+<lb />Si c’est vostre plaisir que ie meure en repos,
+<lb />Dedans mes yeux troublez n’excitez point de larmes,
+<lb />Au moment qui me reste à me plaire en vos charmes.
+<lb />Vous, mourir pour Pyrandre? eussay-je presumé,
+<lb />Qu'vne si belle bouche eust pour moy blasfemé?
+<lb />Viuez, si vous m’aimez, &amp; dans l’obscure riue,
+<lb />Souffrez qu'en vous encore apres ma mort ie viue.
+<lb />Viuez, &amp; prenez soin de prolonger vos iours,
+<lb />Ou mourant auiourd’huy, ie mourray pour tousiours.
+<lb />Viuez, puis qu’icy bas vous estes sans seconde,
+<lb />Conseruez-vous au moins pour la gloire du monde.
+<lb />Si pour l’amour de moy, vous ne vous conseruez,
+<lb />Et ne meprisez pas le siecle où vous viuez.
+<lb />Quel honneur auriez vous, ô Princesse adorable,
+<lb />De vous perdre pour moy? Ie suis tropmiserable:
+<lb />Le Ciel qui vous destine vn plus illustre Espous,
+<lb />Témoigne en me perdant, qu’il a grand soin de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Toy mesme parle mieux. Ah! tu m'as offencée,
+<lb />Pyrandre est le premier que i’eus en la pensée;
+<lb />Et ie luy puis iurer außi que desormais,
+<lb />Et sera le dernier que i'aimeray iamais.
+<lb />I'en donneray tantost vne preuue si belle,
+<lb />Qu'il n'en doutera plus.
+</sp>
+<sp type="MainZone-Sp"><lb />Injustice cruelle.
+<lb />Vous perseuerez donc encor en ce Destin?
+<lb />Ces mots me sont autant de poignars dans le sein.
+<lb />Dites moy seulement cestui-cy plein de flame,
+<lb />Et meslé de pitié; va-t’en en paix mon Ame.
+</sp>
+<p type="MainZone-Other"><lb />PYRANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />O Dieux! qui dans l’objet de si grandes douleurs,
+<lb />Seroit assez constant pour retenir ses pleurs?
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Madame, espargnez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />Si ie n’ay la berluë,
+<lb />Ie voy venir de loin le Iuge dans la ruë.
+<lb />Sans doute c'est luy-mesme, allons viste, sortez,
+<lb />Sortez de par le Diable, &amp; vous diligentez.
+<lb />Le Iuge vient icy prononcer la sentence
+<lb />Au pauure Criminel.
+</sp>
+<sp type="MainZone-Sp"><lb />YRANDRE.
+<lb />Ie pers toute esperance.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Helas! le cœur me fend au sortir de ce lieu;
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ie ne vous verray plus, receuez mon Adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Puis qu'vn mauuais Destin nos deux pertes assemble,
+<lb />Ne me dy point Adieu, nous partirons ensemble.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GEOLIER.
+<lb />S'il auoit sa lunette, il les verroit sortir;
+<lb />En tout cas, i’auois fauttf ja fonds pour mentir.
+</sp>
+<p type="MainZone-Other"><lb />Ein du quatriesme Acte.
+</p>
+<p type="MainZone-Head"><lb />RITEVNDVDE
+<lb />TROMPERIE.
+<lb />TRAGE-COMEDIE
+</p>
+<p type="MainZone-Head"><lb />ACTE CINQVIESME.
+<lb />SCENE PREMIERE.
+<lb />LE ROY ACCOMPAGNE'
+<lb />ARAXE.
+</p>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Ve peu d’hommes contens en ce mortel se<lb />jour,
+<lb />Doo Iouïssent en repos de la clarté du iour!
+<lb />Et que mille accidens font bien voir que nous sommes,
+<lb />Sujets
+</sp>
+<p type="MainZone-Lg"><lb />Sujets aux loix du Sort, comme les autres hommes.
+<lb />Quant à moy dessus tous ie le sens rigoureux,
+<lb />Le Soleil n’a point veu de pere mal-heureux,
+<lb />Qui plus que moy iamais en son infame race,
+<lb />Ait des Cieux irritez, esprouué la disgrace.
+<lb />N’estoit-ce point assez que mon fils mal faisant,
+<lb />Fust à tous mes sujets comme à moy desplaisant?
+<lb />Sans qu’encor ie perdisse au mal-heur de ma fille,
+<lb />Ce peu qui me restoit d’honneur en ma famille?
+<lb />Pauure fille, qui fus tout mon contentement,
+<lb />Et que du fonds du cœur i’aimay si tendrement!
+<lb />Ah! que tu respons mal à la belle esperance,
+<lb />Que toute l’Albanie auoit de ta naissance!
+<lb />Tu viuois pure &amp; chaste, auant qu’vn Suborneur
+<lb />Fut venu tendre icy le piege à ton honneur.
+<lb />Toutes tes actions ne butoient qu'à me plaire,
+<lb />Et tu me consolois des deffaux de ton frere.
+<lb />Mais le traistre Pyrandre a ton mal procuré;
+<lb />Pour le trop honorer, il m’a deshonoré:
+<lb />Ie me prens à moy seul de toute ta disgrace,
+<lb />Car mon trop de caresse a causé son audace.
+</p>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />Monsieur, nous l'en verrons punir tout maintenant:
+<fw><lb />L
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Retirez-vous d’icy, Brutal, impertinent.
+<lb />Ce sot qui de l’honneur ne fit iamais de conte,
+<lb />A creu faire vn chef-d’œuure, en procurant sa honte!
+<lb />Quoy que pour mes pechez le Ciel me l’ait donné,
+<lb />Ie ne le puis souffrir, car il est trop mal né.
+<lb />Par tout où ie le voy, mon chagrin il augmente:
+<lb />Voyez comme le mal de sa sœur le tourmente?
+<lb />Pauure fille perduë, helas! que ie te plains,
+<lb />Et que ton Affronteur, que ie tiens en mes mains,
+<lb />Pour rendre absolument ma vengeance assouuie,
+<lb />Et pour lauer son crime, a bien peu d’vne vie!
+<lb />Que pleurant pour iamais ce qu’il nous a volé,
+<lb />Ie seray de sa mort foiblement consolé!
+<lb />Atys luy doit auoir prononcé la sentence,
+<lb />Et i’attens son retour auec impatience,
+<lb />Car ce Monstre desia deuroit estre estouffé:
+<lb />Le voicy qui vers moy s’en vient fort eschauffé.
+<lb />Il aura descouuert quelque nouueau mistere,
+<lb />Car il parest émeu bien plus qu'à l’ordinaire.
+</sp>
+<p type="MainZone-Head"><lb />Μιπ ι hτη η τ ι η 
+<lb />CENE SECONDE.
+<lb />ATYS, IVGE CRIMINEL.
+<lb />LE ROY.
+</p>
+<sp type="MainZone-Sp"><lb />
+<lb />IRE, ie viens en haste, &amp; d’aise transporté,
+<lb />&amp; pomeran cus eferange u tojere cratgesté:
+</sp>
+<p type="MainZone-Head"><lb />Quel?
+<lb />LE ROY.
+</p>
+<sp type="MainZone-Sp"><lb />Ce vaillant Herôs, que Pyrandre on appelle,
+<lb />A qui i’ay prononcé la sentence mortelle,
+<lb />Est vostre fils Araxe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE
+<lb />OY.
+<lb />Araxe! te ris tu?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ah Sire, le remors dont ie suiscombate,
+<lb />Ne veut que plus long-tẽps ie vous cache vne histoire,
+<lb />Que d’vn autre que moy vous auriez peine à croire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+</sp>
+<p type="MainZone-Other"><lb />Despesche.
+</p>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Il vous souuient que recherchant vn iour
+<lb />La Princesse Doris, d'vne idolatre Amour;
+<lb />L’enfant que vous auiez de la defuncte Reine,
+<lb />Rendit absolument vostre recherche vaine:
+<lb />Parce qu'elle iugea qu'estant le premier né,
+<lb />L'Estat selon nos Loix luy seroit destiné;
+<lb />Et que ceux qui viendroient du second mariage,
+<lb />N'auroient outre ses biens, qu’vn petit appennage.
+<lb />Cela fit que l’Amour vous ienant en ses rets,
+<lb />Vous pristes le grand deuil cinq ou six mois apres,
+<lb />Et pour gaigner le cœur d’vne si belle Dame,
+<lb />Descouurant à moy seul le secret de vostre ame,
+<lb />Triste, &amp; dedans vn coin de ce Palais reclus,
+<lb />Vous fites croire à tous qu'Araxe n’estoit plus;
+<lb />Et fites enterrer vne buche en sa place,
+<lb />Feinte, qui vous acquit la Princesse de Thrace.
+<lb />Or de peur que ce Fils, qui vous estoit si cher,
+</sp>
+<p type="MainZone-Lg"><lb />Fust veu de vostre Espouse, &amp; le voulant cacher,
+<lb />Vous m’en chargeastes, Sire, &amp; la peine infinie,
+<lb />Que i’eus à l’esleuer aux confins d’Albanie,
+<lb />Dans ma douce famille, où nous viuions contens,
+<lb />Ne le fit pas chez moy demeurer plus long temps.
+<lb />Ce genereux Enfant gardé sans desfiance,
+<lb />Comme s’il eust senty son cœur en sa naissance,
+<lb />Dés l’âge de dix ans s’eschappa de mes mains;
+<lb />Nous courumes apres, mais nos pas furent vains.
+<lb />Cette perte effroya toute nostre famille,
+<lb />Et iugeay qu'en huit ans n’ayant eu qu’vne fille,
+<lb />Vous ne manqueriez pas de me redemander
+<lb />Ce gage, qu'en secret vous m’auiez fait garder.
+<lb />Me souuenant alors, grand &amp; iuste Monarque,
+<lb />Qu'au bras, du jus d’vn herbe il auoit vne marque,
+<lb />Qui ne s’effaçoit point par l’iniure du temps,
+<lb />I'en fis vne pareille à l’vn de mes Enfans,
+<lb />Qui luy ressembloit d’âge, &amp; de poil, &amp; de taille,
+<lb />Et c'est ce mal-heureux qui ne fait rien qui vaille,
+<lb />Et qui vous accablant de chagrin, &amp; d'ennuy,
+<lb />Passe bien faussement pour Araxe aujourd'huy.
+<lb />Ie fis, ie le confesse, vne faute bien grande:
+<lb />Mais, Sire, à deux genoux le pardon i'en demande.
+<lb />Si mon esprit confus ne se fust aduisé,
+<lb />De rendre pour Araxe vn Enfant supposé,
+<lb />Outre ma pension seul soustien de ma race,
+</p>
+<p type="MainZone-Lg"><lb />L ii
+<lb />I'eusse perdu l’honneur de vostre bonne grace.
+<lb />Pour monstrer ma candeur, &amp; ma sincere foy,
+<lb />Si tost que le vray Prince a parù deuant moy,
+<lb />I’ay couru deuers vous en telle diligence,
+<lb />ue ce seul procedé marque mon innocence.
+<lb />I'estois assez marry que mon Fils hebeté
+<lb />Causast tant de degoust à vostre Majeste.
+</p>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Si tu dis verité, cette histoire m'estonne;
+<lb />Mais quoy qu’il en puisse estre, Atys, ie te pardonne.
+<lb />Leue-toy, tu n’aurois icy rien témoigné,
+<lb />Si c’eust esté ton but que ton Fils eust regné.
+<lb />Mais comme as-tu connu le mien en ce Pyrandre?
+<lb />Pense à ce que tu dis, garde de te mesprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />YS.
+<lb />C’est luy, Sire, qui m'a le premier reconnu;
+<lb />Lors que dans la prison, vers luy ie suis venu
+<lb />Prononcer grauement sa sentence derniere,
+<lb />Arrestant fixement dessus moy sa paupiere;
+<lb />Mon Pere, m’a til dit, les Dieux trop irritez
+<lb />De mes presumptions, &amp; de mes vanitez,
+<lb />Sont iustes aujourd'huy, de vouloir que la vie,
+<lb />Par vostre iugement, me soit icy rauie.
+<lb />I'ay caché par orgueil le lieu d’où ie suis né:
+<lb />I'ay caché l'estre obscur que vous m'auez donné;
+<lb />I'ay dementi par tout mon nom, &amp; ma naissance,
+<lb />Et le Ciel vient par vous vanger mon arrogance.
+<lb />Il m’a tenu beaucoup de semblables discours;
+<lb />Tantost en sa misere implorant mon secours,
+<lb />Tantost vous accusant d’excez de Tirannie,
+<lb />Pour le punir d’vn rapt, qu’absolument il nie.
+<lb />Bref discernant ses trais, &amp; voyant son bras nu,
+<lb />Marqué du jus de l’herbe, en fin ie l'ay connu.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />N’en doutons plus, Amy: Pyrandre que i'estime
+<lb />Pour ses rares vertus, est mon fils legitime;
+<lb />Et c’est en quoy le Ciel, injuste, &amp; rigoureux,
+<lb />S’esforce de me rendre encor plus mal heureux.
+<lb />Sans connoistre sa sœur il a souïllé sa couche;
+<lb />Ie pense rencontrer vn Enfant vertueux,
+<lb />Et ie trouue außi-tost qu’il est incestueux.
+<lb />I'ay son crime en horreur, Atys, i'en desespere:
+<lb />As-tu veu de ta vie vn si mal-heureux Pere?
+<lb />Ie ne receus iamais vne faueur du Ciel,
+<lb />Qu'außi-tost sa rigueur n'entremeslast de fiel.
+<fw><lb />88
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Dienx! ie ne songeois pas à ce mal-heur extreme:
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />PYROXENE. LE ROY.
+</p>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Eut estre auec le temps Dieu fera qu'elle m’aime,
+<lb />I Trauaillons cependant pour Pyrandre &amp; pour
+<lb />Il est temps, ou iamais, de detromper le Roy,
+<lb />Ie ne veux plus qu’icy la crainte me surmonte:
+<lb />moy.
+<lb />Monsieur, ie viens confus de l’excez de ma honte,
+<lb />M’accuser à vos pieds d’vn damnable forfait,
+<lb />Donie fantonstre, &amp; que l’Amour a fait.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Mon Neueu qu'elle faute auriez vous bien commise?
+<lb />Telle qu'elle puisse estre, elle vous est remise.
+<lb />Leuez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />YROXENE.
+<lb />Voyez, Sire, où l’Amour m’a reduit:
+<lb />Ie suis
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Voyez, Sire, où l’Amour m'a reduit:
+<lb />Ie suis le seul Autheur du crime de la nuit.
+<lb />Pyrandre n’a failly qu’en me donnant l’audace,
+<lb />De monter chez Orante, &amp; d’aller en sa place.
+<lb />C'est moy qu’on poursuiuit, &amp; qui suis son Espous,
+<lb />Moderez, grand Monarque, icy vostre courrous;
+<lb />Et daignant accorder Orante à Pyroxene,
+<lb />Tirez-la de prison, &amp; mon amy de peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Si vous parlez sans feinte, au lieu de m'offencer,
+<lb />l'ay sujet, mon Neueu, de vous bien caresser:
+<lb />Car vous m’ostez du cœur vne espine mortelle;
+<lb />Mais vous pouuant bien mieux introduire chez elle,
+<lb />Que Pyrandre, pourquoy ne m'en parliez vous pas?
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />La Belle destournoit ailleurs tous ses appas:
+<lb />I'estois prest à partir, ie manquois d’asseurance,
+<lb />Et sans Pyrandre enfin, i'estois sans esperance.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Qu'on le face venir en ce lieu promptement;
+<lb />Dieux! s’il estoit ainsi, quel heureux changement!
+<lb />Que ie verrois de bien succeder à ma peine!
+<lb />Mais i’apperçoy venir vostre sœur Lisimene,
+<lb />Qui tesmoigne à ses yeux encor noyez de pleurs,
+<lb />Qu'elle cache en son cœur de secrettes douleurs.
+</sp>
+<p type="MainZone-Head"><lb />CRIESME.
+<lb />LISIMENE, LE ROY, PYRANDRE,
+<lb />PYROXENE, ORANTE, ATYS; &amp;c.
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Onsieur, pardonnez moy, si ie vous fais enten<lb />M ae.
+<lb />Qu'on ne peut iustement faire mourir Pyrandre.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />LE ROY.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Pource qu'il est innocenten effet;
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Feignez qu’il ne va rien icy de vostre fait.
+<lb />Ayons-en le plaisir, qui donc est le coupable?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />De tant de lacheté mon frere est il capable?
+<lb />Il ne dit mot du Rapt, voicy le seul Autheur:
+<lb />Pyroxene a tout fait, tu sous-ris, Affronteur?
+<lb />Et tu vois d’vn œil sec pour toy dans l’infamie
+<lb />La fleur de tes amis, &amp; ta meilleure amie:
+<lb />N'as-tu pas ce bon Prince encor desabusé?
+<lb />Ne t'es-tu pas encor à ses pieds accuse?
+<lb />Ie t’ay cherché par tout, Ingrat, fay moy responce,
+<lb />Tu ne vaux rien, pour frere icy ie te renonce.
+</sp>
+<sp type="MainZone-Sp"><lb />LE
+<lb />
+<lb />Si Pyrandre innocent, &amp; plein de liberté,
+<lb />Passe icy pourmon fils, au lieu d'vn hebeté,
+</sp>
+<p type="MainZone-Other"><lb />Il se
+<lb />tourne
+<lb />vers Py
+<lb />roxene.
+<lb />Dont à peine mon ame est encore guerie,
+<lb />Dues mey, ma Irignonne, en ferez-vous marrie?
+</p>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />S'il est tel en effet, &amp; qu’il soit mon mary,
+<lb />Dites-moy, grand Monarque, en serez-vous marry?
+<lb />Mais las! ce doux espoir m'a vainement flattée,
+<lb />Tu ris, ne me tiens point en suspens arrestée.
+<lb />Ne me fay plus languir, mon cher frere, dy moy,
+<lb />Si mon Pyrandre est libre, &amp; s’il est fils du Roy?
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Quoy? vous me cachez donc le fonds de la pensée?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Amour, ie connois bien que ie suis exaussée
+<lb />Voicy l'vnique obiet de ma sainte amitié,
+<lb />Que les Dieux ont daigné regurder en pitié.
+<lb />O Ciel! qui veux qu'encor icy ie le reuoye,
+<lb />Change mes pleurs d’angoisse en des larmes de ioye.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Approchez vous, Pyrandre, en toute seureté,
+<lb />Ie veux sģauoir de vous l’entiere verité.
+<lb />Parlez moy librement, ma fille infortunée
+<lb />S'est elle iointe à vous d'vn furtif Hymenée?
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ce Prince plus sortable à son Amourque moy,
+<lb />Sous mon nom receut d'elle, &amp; luy donna la foy.
+<lb />Ils sont d’âge, de mœurs, &amp; de naissance esgale;
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Et comme eux vous sortez de semence Royale,
+<lb />Vous auez esté fils d’Atys, iusqu’auiourd'huy;
+<lb />Ivrais vous estes te mien, &amp; mon vnique appuy.
+<lb />Puisque vous n’estes point coupable de l’inceste,
+<lb />Ie rends vostre naissance à chacun manifeste.
+<lb />Embrassez-moy, mon fils, paisez moy mon enfant:
+</sp>
+<sp type="MainZone-Sp"><lb />ETOIMENVE.
+<lb />O pere bien-heureux! ô Regne trionfant
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Qu'on m'ameine ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Est il vray que tu veilles,
+<lb />Pyrandre, croiras tu tes yeux &amp; tes oreilles?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Ouy, tu forces le Ciel de te combler de biens:
+<lb />Mon ame, croy mes yeux, si tu ne crois les tiens.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Non, ie ne veille point, ce seroit trop de croire,
+<lb />Que ma Princesse encor fust témoin de ma gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />EISIMENE.
+<lb />Si les illusions ont de si doux appas,
+<lb />Puissay-je ainsi dormir, iusques à mon trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Et si ie gouste en songe vne telle merueille,
+<lb />Et de si doux plaisirs, que iamais ie ne veille.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE
+<lb />Resueille toy, Pyrandre, &amp; regarde à quel point,
+<lb />Vn heur incomparable à ton merite est joint.
+</sp>
+<p type="MainZone-Head"><lb />ACTE V. SCENE IIII.
+</p>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Puis que vous m'éclairez, doux obiect de ma flame,
+<lb />Vn bon heur eternel accompagne mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />Pyrandre, fais au Roy ces obligeants rappors,
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />Ah! Sire, pardonnez à de si doux transpors,
+<lb />Causez d'vne Beaute, dont mon ame est rauie,
+<lb />Ie luy doy, comme à vous, &amp; l’honneur &amp; la vie.
+<lb />Mon cœur esgallement entre vous partagé,
+<lb />Doute auquel de vous deux il est plus obligé.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Vraiment ces doux transports, me transportent moy<lb />meme,
+<lb />D'vn plaisir incroyable, &amp; d’vn amour extréme;
+<lb />Et s’il ne tient qu'à moy, dedans fort pou de temps,
+<lb />Ensemble vous viurez, bien-heureux, &amp; contens.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />O grace nompareille:
+</sp>
+<sp type="MainZone-Sp"><lb />LISIMENE.
+<lb />O bonté sans exemple:
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE,
+<lb />Pouuoy-ie desirer vne gloire plus ample;
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Voicy ma pauure fille, ah! qu'elle fait pitié!
+<lb />Son visage en vn iour est changé de moitié.
+<lb />Consolez-vous, ma fille, &amp; tarissez vos larmes,
+<lb />Resueillez vos Amours, &amp; r’animez vos charmes,
+<lb />Tout rit à mes souhaits, mon ame, asseurez -vous,
+<lb />Qu'en toute liberté vous aurez vôtre Espous.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Helas! s’il est ainsi, d’ennuy ie me deliure,
+<lb />Et reprens de bon cœur la volonté de viure.
+<fw><lb />Mais,
+<lb />Se
+</fw><lb />Mais, Monsieur, à ces mots si pleins de paßion,
+<lb />Pyrandre ne temoigne aucune émotion?
+<lb />L’Ingrat destourne ailleurs, &amp; ses yeux, &amp; son ame,
+<lb />Comme s'il me sentoit indigne de saflame.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Il sçait, belle Princesse, en sa iuste froideur,
+<lb />Que vous vous deuez toute à ma fidelle ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Tu perseueres donc encor', Ame importune,
+<lb />A troubler en ce lieu mon aise, &amp; ma fortune?
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Au contraire, ie viens dans mes vœux redoublez,
+<lb />Rendre le calme entier à vos espris troublez.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Ab! ne m’afflige plus de ta peine amoureuse,
+<lb />Souffre qu’apres mes maux le Roy me rende heureuse:
+<lb />N’empesche point ma joye, &amp; ne diuerty pas,
+<lb />Vnbien, qui me peut seul garantir du trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />L'E ROY.
+<lb />Puißions-nous vous &amp; moy perdre plustost la vie,
+<lb />Que vostre volonté soit en ce point suiuie.
+<lb />Aiteftues upprenener le celeste courrous,
+<lb />Pyrandre est vostre frere, &amp; voicy vostre Espous.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! Sire.
+<lb />ORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Chassez moy cette humeur frenetique:
+<lb />Ie iure que Pyrandre est vostre frere vnique,
+<lb />Pyroxene en son lieu vous a donné la foy.
+</sp>
+<sp type="MainZone-Sp"><lb />ATICARDRCE.
+<lb />Croyez, ma chere sœur, ce que vous dit le Roy,
+<lb />Qui seul vous a parlé, se rapporte à la mienne.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Quand vous aurez le cœur, &amp; les yeux adoucis,
+<fw><lb />Et.
+<lb />Pe
+<lb />Ne
+<lb />Et
+<lb />C
+<lb />Qu
+<lb />I
+<lb />Sça
+<lb />Pus
+<lb />Et
+<lb />E
+<lb />
+</fw><lb />Et que vous m’entendrez parler d’vn sens raßis;
+<lb />I'espere, ma Deesse, à la fin que vostre ame,
+<lb />Ne desauoura point les preuues de ma flame;
+<lb />Et que vous permettrez que le iour qui nous luit,
+<lb />Responde à la faueur d’vne si douce nuit.
+<lb />Cognoissez vostre Espous, Beauté plus que mortelle,
+<lb />Qui vous iure à genoux vne Amour eternelle.
+<lb />Voyez ces pleurs témoins de la sincerité
+<lb />D'vn cœur inébranlable en sa fidelité.
+<lb />Sçachez-moy quelque gré de vous auoir trompée,
+<lb />Puis que Pyrandre auoit l’ame ailleurs occupée,
+<lb />Et que dedans la vostre vn feu pernicieux,
+<lb />Estoit prest d’offencer, &amp; la terre, &amp; les Cieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />O Dieux! qu’ay-je entendu? que ie suis esblouïe!
+<lb />Que l’on m'estonne l’ame, &amp; les yeux, &amp; l’oüe!
+<lb />Que Pyrandre est mon frere:
+</sp>
+<sp type="MainZone-Sp"><lb />LE RO
+<lb />Il est vray, mon desir.
+<lb />Et tu sçauras comment tantost tout à loisir.
+</sp>
+<sp type="MainZone-Sp"><lb />ORANTE.
+<lb />Aimable Pyroxene! en ce cas-là i'avoüe,
+<lb />Que i’ay mal reconneu ta flame, que ie loüe.
+<lb />Et puis qu’il plaist au Roy par mille bons effets,
+<lb />Amour reparera les torts que ie t’ay faits.
+</sp>
+<sp type="MainZone-Sp"><lb />PYROXENE.
+<lb />Que ce propos est doux! qu'il u penr moy de charmes!
+<lb />A te coup ie benis mes sanglots, &amp; mes larmes;
+<lb />Et ne me souuiens plus de mes trauaux passez,
+<lb />Puis que si dignement ils sont recompensez.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Ie m'en vay despescheren Thrace au Roy mon frere,
+<lb />Et l’inuiter icy, pour vos nopces parfaire.
+<lb />Viuez pleins d’allegresse, ô bien-heureux Amans;
+<lb />Ie vous respons à tous de vos contentemens.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEIE IERE.
+<lb />LE FAVX IARAXE.
+</p>
+<sp type="MainZone-Sp"><lb />LE ROY, &amp;c.
+<lb />Onsieur, tous ces Maraux destinez pour me<lb />VI suiure,
+<lb />nie piennent rire au nez, comme si i’estois yure:
+<lb />M’abandonnent tout seul, &amp; se mocquans de moy,
+<lb />Demandent si ie pense estre le fils du Roy
+</sp>
+<sp type="MainZone-Sp"><lb />LE
+<lb />O
+<lb />Toy-mesme qu'en crois tu? 41
+</sp>
+<sp type="MainZone-Sp"><lb />ARAXE.
+<lb />IBelle demande, Sire!
+<lb />Si ie ne l’estois pas, l’auriez-vous voulu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />E
+<lb />Y.
+<lb />Il est temps, mon amy, de te desabuser,
+<lb />Pour mon enfant perdu l’on te vint supposer:
+<lb />Voy si ce Prince icy, qui vers nous s’achemine,
+<lb />Nen apas mienx que toy te vijage, &amp; la mine.
+</sp>
+<sp type="MainZone-Sp"><lb />T ARAXE.
+<lb />C'est peut-estre, Monsieur, quelqu'vn de vos bastars,
+<lb />Qut pour s'estre trouué dans cinq ou six bazars,
+<lb />Vous en baille à garder, &amp; vous en fait accroire;
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />S.
+<lb />Pardonnez-luy, grand Prince, &amp; souffrez, en memoire
+<lb />Du beau titre d’honneur qu’il a jadis porté,
+<lb />Qu'ilait quelque bien fait de vostre Majesté.
+</sp>
+<sp type="MainZone-Sp"><lb />PYRANDRE.
+<lb />En ce cas il auroit Dorine pour Espouse;
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />C’est vn ioly party, Monsieur, entre autre chouse.
+</sp>
+<sp type="MainZone-Sp"><lb />LE ROY.
+<lb />Pour respect de son titre, &amp; pour connoistr e aussi
+<lb />Le seruice du pere en cette affaire icy;
+<lb />Ie le fais Cheualier d’honneur de la Princesse,
+<lb />Et luy donne de plus Dorine pour Maitresse.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Puis qu'il est honore de cette qualite,
+<lb />Sire, ie vous rends grace en toute humilité.
+</sp>
+<sp type="MainZone-Sp"><lb />Grand Roy, vous honorez par trop vos creatures:
+</sp>
+<sp type="MainZone-Sp"><lb />LE
+<lb />OY.
+<lb />Alons tout preparer pour les nopces futures.
+<lb />Le seruice du pere en cette affaire icy;
+<lb />Ie le fais Cheualier d’honneur de la Princesse,
+<lb />Et luy donne de plus Dorine pour Maitresse.
+</sp>
+<sp type="MainZone-Sp"><lb />DORINE.
+<lb />Puis qu'il est honore de cette qualite,
+<lb />Sire, ie vous rends grace en toute humilité.
+</sp>
+<sp type="MainZone-Sp"><lb />Grand Roy, vous honorez par trop vos creatures:
+</sp>
+<sp type="MainZone-Sp"><lb />LE
+<lb />OY.
+<lb />Alons tout preparer pour les nopces futures.
+</sp>
+    </body>
+  </text>
+</TEI>

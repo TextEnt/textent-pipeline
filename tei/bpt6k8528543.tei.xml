@@ -1,0 +1,2588 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Grand Magus, tragi-comédie</title>
+        <author>La Motte, de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb393250880"/>
+          <author>
+            <persName>La Motte, de</persName>
+          </author>
+          <title>Le Grand Magus, tragi-comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1656" cert="high" resp="BNF">1656</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />–
+<fw><lb />LE GRAND
+<lb />MAQ
+<lb />I
+<lb />4
+<lb />D
+<lb />TRAGTCOMEDIE.
+</fw></fw>
+<p type="MainZone-Head"><lb />A ORANGE,
+<lb />Chez EDOVARD RABAN, Imprimeur
+<lb />&amp; Libraire de son Altesse, de
+<lb />la Ville &amp; Vniversité.
+<fw><lb />M. DC. LVI.
+</fw></p>
+<p type="MainZone-Head"><lb />A MONSIE DE CITRADI,
+</p>
+<sp type="MainZone-Sp"><lb />Vostre tres-humble &amp; tres<lb />obeyssant serviteur,
+</sp>
+<p type="MainZone-P"><lb />M
+<lb />ONSIEVR,
+<lb />C’est avec juste raison que mon esprit a voulu
+<lb />s’occuper à trouver le moyen de vous plaire dans
+<lb />ce petit ouvrage, puis que sous vostre approbation
+<lb />il s’estime assez heureux pour se garantir de tou<lb />tes les injures qu’on luy pourroit attribuer; non
+<lb />seulement que je ne le sçaurois presenter à vne
+<lb />personne dont le merite fut plus grand, &amp; qui
+<lb />sçeut mieux flatter les fautes que je pourrois
+<lb />avoir commises. Car à la verité je croirois d'e<lb />stre le plus mal-heureux du monde, si ce que je
+<lb />mets en lumiere, ne donnoit quelque estincelle à
+<lb />vostre esprit; pour vous faire connoître que j’ay
+<lb />autant de Zele de vous servir, comme de gloire
+<lb />de vous en faire ressentir les effets, lors qu’il vous
+<lb />plairra me commander. Si j’en pouvois faire
+<lb />naître les occasions, j'effectuerois mon devoir
+<lb />mieux que je ne fais: mais croyant d’estre plus
+<lb />heureux pour le present, que je n’ay esté par le
+<lb />passé, je prendray la hardiesse de m'attribuer le
+<lb />titre de
+</p>
+<p type="MainZone-Other"><lb />DE LA MOTTE.
+<lb />VHER Lecteur, je crois que ce petit
+<lb />Seffet de mon esprit ne te sera pas
+<lb />moins agreable pour le divertissement de
+<lb />l’intrigue, que pour la suite du discours.
+<lb />Et comme il est permis à chacun de dire son
+<lb />sentiment, je crois que les beaux Esprits ju<lb />geront de ce qu’il y a de meilleur: Et les
+<lb />autres qui ne sont pas si capables, se con<lb />tenteront de lire le reste. Que si le Satyre
+<lb />veut prendre possession sur mon ouvrage,
+<lb />ils n’ont qu’à le bien regarder, ils trou<lb />veront autant de paroles grotesques pour
+<lb />se mocquer d’eux, qu’eux trouveront de
+<lb />moyens à se rendré ridicule.
+</p>
+<p type="MainZone-Head"><lb />Les Acteurs.
+<fw><lb />CLORIDOR, General d’Armée.
+<lb />FLORISTE, Fille d’Alebas.
+<lb />D’ALEBAS, Pere de Floriste.
+<lb />DOROTHEE, Suivante de Floriste.
+<lb />BRISE-FER, Valet de Cloridor.
+<lb />DV BALAIS, Gentilhomme estranger.
+<lb />ALEXANDRE, Le Roy.
+<lb />DE LOSELET, Page de Floriste.
+</fw></p>
+<p type="MainZone-Other"><lb />ACTE
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENE PREMIERE.
+<lb />CLORIDOR, BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />AIME, &amp; de tous costez je
+<lb />me sens combatu.
+<lb />C’est ce qui rend si tost mon
+<lb />esprit abatu.
+<lb />Si faut-il que l’amour soit vne
+<lb />rude chaine.
+<lb />ui reçoit du plaisir en a bien
+<lb />de la peine.
+<lb />Qui tombe entre ses mains au temps de sa rigueur,
+<lb />Gouste bien l’amertume, au lieu de la douceur.
+<lb />Et par ce changement tout se trouvant contraire,
+<lb />Rien dedans cet estat ne vous peut satisfaire.
+<lb />Il n’y a rien d’asseuré parmi la verité.
+<lb />Le mensonge a son lieu par vn masque emprunté.
+<lb />Mille &amp; mille discours qu’elle vous fait entendre,
+<lb />Ce sont des Cupidons qui vous vienent surprendre.
+<lb />Encor ne seroit rien si vous pouviez avoir
+<lb />Celle que vous aimez seule à vostre pouvoir.
+<lb />Mais il faut en vser avecque tant d’adresse,
+<lb />Que ce seul embarras me tourmente sans cesse.
+<lb />Floriste a bien pour moy quelque inclination,
+<lb />Et je la dois aimer dans cette intention.
+<lb />Ie ne me fonde pas à l’humeur de son pere:
+<lb />Car souvent ce fantasque irrite ma colere.
+<lb />Et de quelle façon qu’il déguise avec moy,
+<lb />Ie sçauray le ranger tousjours dessous ma loy.
+<lb />Ie témoigne d’avoir pour luy de complaisance:
+<lb />I'entre dans sa maison dedans l’indifference,
+<lb />Quoy qu’il ne sçache pas où sont nos rendez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />al cerene des song cemps pour sa nile vn époux:
+<lb />Mais il se trompe bien, il faut qu’elle y consente.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Il n’arrivera pas au bout de son attente:
+<lb />Et celuy qui voudra détruire nos ébats,
+<lb />Eprouvera bien tost la valeur de mon bras.
+</sp>
+<sp type="MainZone-Sp"><lb />aiyejere
+<lb />Tout vous estant acquis du costé de Floriste,
+<lb />Vous ne sçauriez trouver aucun qui vous resiste,
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Cela ne sert de rien, on sçait ce que je suis:
+<lb />Mon courage est logé sous de fermes appuis.
+<lb />Car tu n’ignores pas que les ames bien nées,
+<lb />de font connortre anen aux premneres années.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Lon vous conoit fort bien, vn peu moins de chaleur:
+<lb />Car tout le monde sçait que vous avez du cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Tout le monde le sçait; mais d’Alebas l’ignore.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Guime brets aujoura loy que rioritce rauore.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ie le connoy fort bien, &amp; j’en voy les effets.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Si l’affaire se fait, vous voila satisfaits.
+</sp>
+<sp type="MainZone-Sp"><lb />Tout
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Tu verras, Brise-fer, aujourd’huy si je l’aime,
+<lb />Tes yeux seront l’autheur d’vn tel stratageme:
+<lb />Tout perira fous moy, si l’on veut resister,
+<lb />Où je mourray plustot avant que la quitter.
+<lb />Ie sçauray ménager en façon mon affaire,
+<lb />Qu'on ne sçauroit trouver moyen de m’en distraires
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Son pere est assez fin, méfiez-vous de tout.
+</sp>
+<sp type="MainZone-Sp"><lb />Clorsuere,
+<lb />Qu’il soit ce qu’il voudra, j’en viendray bien à bout.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Vous avez le pouvoir autant que le merite?
+<lb />Enfin cela depend d’vne grande conduite.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ie puis certainement, ene ert a inon pouvoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Il ne vous manqueroit plus rien que de l’avoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Cette réponce est sotte, autant que temeraire:
+<lb />Vous-vous émancipez pour me trop satisfaire.
+<lb />Apprenez, apprenez vn peu mieux à parler.
+<lb />C’est avec vos egaun que vons pourenfanser.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ce discours à ce coup fait voir mon imprudence.
+<lb />Eacuiez mon elprit, ou bien ma complaisance.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />ouffit, vostre besoin fait pardonner tous deux:
+<lb />Vous pouvez bien parler; mais n’y retournez plus.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />I’ay tort, je le connois: mais vous aimez Floriste?
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ie l’estime d’autant: pourquoy donc ce propos?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie crois qu’il vient le temps qu’elle attend ma visite.
+<lb />Permettez, s’il vous plait, que je dise ces mots.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />'il luy dõne vne lettre.
+<lb />Ce qui me fait pester qu’il faille maintenant
+<lb />M’en aller exercer à faire vn compliment:
+<lb />Mon maistre sçait fort bien qu’il faut de la methode,
+<lb />Qu’on ne m’a point appris à parler à la mode:
+<lb />Depuis deux ou trois jours il mene tant du bruït,
+<lb />Que pour sa folle amour je ne dors jour ni nuict.
+<lb />Quoy que j’y aye d’interest, j’entretiens la servante
+<lb />Sous le nom d’vn Hymen, qui suivra mon attente.
+<lb />Aussi je ne le sers que pour cet effet-là:
+<lb />Ie sçay bien que Monsieur, l’autre jour m’en parla<lb />Car pour toutes les fois que je fais ces messages,
+<lb />Elle excroque tousjours de l’argent de mes gages.
+<lb />Il ne faut pas aussi qu’vn Maistre sçache tout.
+<lb />Il vous auroit bien tost privé de vostre goust.
+<lb />Mais j’apperçois quelqu’vn qui vient de cette allée,
+<lb />De vray c’est vn plumet qui traine son épée,
+<lb />Et il me semble encot voir vn autre qui suit.
+<lb />Cache-toy, Brise-fer, pour ne faire du bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Cette parole-la n’a plus pour moy de terme:
+<lb />Mon cœur se sent blessé de la flamme que j’aime,
+<lb />Et personne n’en peut juger, hormis les Dieux.
+<lb />Ces charmes sõt trop doux pour ne les point cõnêtre:
+<lb />Et le mal trop souffert qui nous cause ces feux,
+<lb />Deviẽt tousjours plus grãd quãd on le laisse accrêtre.
+<lb />Ne retardons donc plus, va t’en l’entretenir,
+<lb />Et ne perds point le temps pour bien tost revenir.
+<lb />Cependant je m’en vay donner ordre aux affaires,
+<lb />Et prendre des conseils qui me sont necessaires.
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+<fw><lb />-----------
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE SECONDE.
+<lb />DV DALAIS. DOROTHEE.
+<fw><lb />-
+<lb />–
+</fw></p>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />E suis aise aujourd’huy d’avoir eu ton rencontre,
+<lb />ISi faut-il que mon cœur à ce coup te le montre,
+<lb />Mon esprit à present n’est plus rempli d’ennuis.
+<lb />le t’aisle, tu le sçais. Approche-toy, tu fuis.
+<lb />Ne viens-tu point de voir, par hazard, ton amant.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Allez-vous promener, vous estes trop meschant.
+<lb />Ie le venois cercher: qu’en avez vous à faire?
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Il ne faut pas pourtant irriter ta coleres
+<lb />Ie vaux bien brile-fer, &amp; peut-estre vn peu plus,
+<lb />Que veut dire cecy? Depuis quand ce refus?
+<lb />N’ay-je plus bonne mine?
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous estes trop secret.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balao.
+<lb />Que ferons-nous de toy? Ne fais pas tant la fine.
+<fw><lb />–
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Brise-fer tout bas.
+<lb />Voicy l’homme discret.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous estes trop flatteur pour ne dissimuler,
+<lb />Et je ne le connois qu’à vostre seul parler. (dre.
+<lb />Vous promettez tousjours; mais l’on peut bien atten<lb />Ie ne veux plus de vous: allez-vous faire pendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ce reproche est galant pour t’avoir oublié.
+<lb />Mais cela ne doit pas separer l’amitié.
+<lb />Ie sens pour toy tousjours vne mesme tendresse.
+<lb />Prend ce petit anneau pour finir ma promesse.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />le nolerois, Monlieuri
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />L’estimes-tu pour toy de trop grande valeur?
+<lb />Ou tu ne le veux pas venant de ma petsonne?
+<lb />riend, iiny a fien de mieux acquis que ce qu’on
+<lb />Dorothée.
+<lb />(donne.
+</sp>
+<sp type="MainZone-Sp"><lb />Ie vous suis redcvable aples taist de bonte,
+<lb />Cela merite bien d’estre vn peu mieux traitté.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ie connois ton humeur, &amp; ton esprit me plait;
+<lb />Car tu t’en fais donner, tout le monde le sçait:
+<lb />Ce meitier ert fort con poutveu quon continue.
+<lb />On gagne d’avantage à se rendre connuë.
+<lb />Mais brisons ce discours, quãd pourrõs-nous te voin
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous croyez qu’au logis tout soit à mon pouvoir;
+<lb />Ie ne l’asseure pas: je vous dis bien peut-estre.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Il m’en faut asseurer.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorointe.
+<lb />Vous sçavez que désja vous en estes le maistre.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Quoy faite pour entrer?
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ne parlez pas si haut, la porte sera ouverte.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />On ne nous entend pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ie m’enfuis tout à l’heure, ou bien parlez plus bas.
+<lb />Car je tremble de peur de n’estre découverte.
+<lb />Mon malheur seroit grand si je n’avois l’esprit
+<lb />De sçavoir menager mon negoce sans bruit.
+<lb />Il m’en faut viste aller, de peur qu’on ne m'attende
+<lb />Voyez
+<fw><lb />n
+<lb />*2
+<lb />12
+<lb />2
+</fw><lb />Voyez-vous ce billet? i'raut que je le rende.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ie connois ton esprit, tu ne l’ignores pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous devriez par raison me mettre vn peu plus bas.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Fay-moy voir ce billet, a-t-il la signature.
+</sp>
+<sp type="MainZone-Sp"><lb />Doroipees
+<lb />Vous me dispenserez pour vn petit quart d’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ecoute encore vn mot, cela n’est pas pressé.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Cent drop ine deteniy irenteo vous pas lane
+<lb />D’avoir tant babillé? Vous parleriez sans cesse.
+<lb />i raut que je me trouve ou m'envoy ma maistresse.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Adieu donc, mon cher cœur, je m’en vay sans cõger.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />I’entende icy quelqu’vn, je crains quelque danger.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIEME.
+<lb />DOROTHEE. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />V Oire, quelqu’vn me suit.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />C’est moy, putain, c’est moy, tu t’és désja promise.
+<lb />Ce fer te fera bien cesser ta paillardise.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Elle se met à genoux.
+<lb />Pardon, mon cœur, jamais je n’y retourne plus.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Tous ce pardons, pour moy, ne sont que superflus.
+<lb />Pense qu’il faut mourir, c’en est fait de ta vie.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Et encore vn moment, mon cœur, je vous supplie.
+<lb />Aprés avoir esté si long temps sans vous voir,
+<lb />Et que je m’en allois vous donner le bon soir,
+<lb />Il s’est trouvé pour moy ce mal-heureux rencontre,
+<lb />Ie vous le dis sans fard, &amp; je vous le remontre.
+<lb />Ce miserable-là que j’avois veu autresfois,
+<lb />Mal-gre moy m'a menee tout au long de ce bois.
+<lb />Mais je vous puis jurer en bonne conscience.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Elle se mocque encor, voyez son arrogance.
+<lb />Et quand cesseras-tu de vuider ce discours?
+<lb />Mon bras impatient de finir tes amours,
+<lb />Ne pourra plus attendre.
+<lb />Dorothée tousjours à genoux, ouvre son sein.
+<lb />Percez d’vn fer si dur ce sein qui m’est si tendre.
+<lb />Percez-le sans regret, il a bien merité.
+<lb />Vos yeux verront mon sang, non pas sans cruauté.
+<lb />Achevez de finir le sujet de ma flamme.
+<lb />I’arrache ce discours du profond de mon ame.
+<lb />Ie moutray, Brise-fer, mais ce sera à vos pieds.
+<lb />Le Ciel sera témoin de nos inimitiez.
+<lb />De mon sang on verra la terre estre couverte.
+<lb />Mes amouts finiront au dernier de ma perte.
+<lb />Pourquoy retardez-vous? Quoy dõc, avez-vous peur?
+<lb />Puis que de mon trépas vous en estes l’autheur.
+<lb />Poursuivez, poursuivez aujourd’huy vostre rage.
+<lb />Si je meurs, je mourray du moins avec courage.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise fer.
+<lb />Mon bras flêchira-t-il sous le joug d’vne femme,
+<lb />Mesme pour vn affront qui me perce dans l’ame?
+<lb />Si je te laisse vivre, auray-je de l’honneur?
+<lb />Tout le monde croira que je n’ay point de cœur.
+<lb />Mon esprit balancé, ne se peut pas resoudre.
+</sp>
+<p type="MainZone-Other"><lb />Irrité
+<lb />Irrité craint encor, &amp; n’oze pas donner
+<lb />Pour ton dernier malheur, le dernier coup de foudre.
+<lb />Leve-toy, malin corps, j’oze te pardonner.
+<lb />Apprens que tes soûpirs s’armẽt contre moy-mesme.
+<lb />L’amour a plus de force, &amp; plus de stratageme.
+</p>
+<sp type="MainZone-Sp"><lb />Elle se releve.
+<lb />Tes yeux ont fait ceder à ce coup de tonnerre,
+<lb />Ou plustot à ce bras qui t’alloit mettre à terre,
+<lb />Qui à ce coup te vouloit dans ton sang submerger,
+<lb />Et qui ne demandoit qu’à se pouvoir vanger.
+<lb />Enfin dans vn moment tu me rends insensible.
+<lb />Et j’oublie vn affront qui m’estoit si visible.
+<lb />I’en laisse la vengeance aux Dieux pour te punir,
+<lb />Qui pourront mieux que moy garder le souvenir:
+<lb />Car maintenant si j’ay de toy quelque memoire,
+<lb />Ie me dois souvenir que tu tiens la victoire.
+<lb />Mon esprit suspendu, de l’vn à l’autre bout,
+<lb />A gousté de l’amet, n’ayant pas trouvé goust.
+<lb />Il a gousté ton charme, &amp; se laissant surprendre,
+<lb />Par la douceur qu’il aime, il a fallu se tendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Puis que vous-vous rendez pour moy si favorable,
+<lb />Ne dois-je pas quitter ce mal-heur qui m’accable.
+<lb />Non, non, c’est me traitter avec trop de douceur.
+<lb />Ie meritois de vous la premiere rigueur:
+<lb />Mais vn cœur genereux, quoy qu’offencé d’vn crime,
+<lb />Que la legereté nous fait voit legitime,
+<lb />A assez de pouvoir à tanger son esprit,
+<lb />Et assez de conduite à le souffrir sans bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ah! que je soufsre bien, &amp; ne l’oze celer,
+<lb />A celle à qui mon mal me permet de parler.
+<lb />Je connois ton humeur, tu connois ma franchise,
+<lb />Ce n’est pas là la foy que tu m’avois promise,
+<lb />Quand tu m’eus protesté tant de fidelité,
+<lb />Sous le nom d’vn Hymen que l’on avoit traitté:
+<lb />Ie croyois que ton cœur n’avoit point de partage,
+<lb />Voila pourquoy je mis le mien si tost en gage.
+<lb />Mais que tu m’as surpris par tes trompeurs appas!
+<lb />Puis-je t’aimer encor? Non, je ne le crois pas.
+<lb />Ie renonce à mes vœus; car je te le declare.
+<lb />Ie quitte ta prison, pour estre trop barbare.
+<lb />Va perfide, fay voir ton amoureux dessein,
+<lb />A celuy qui tantost te manioit le sein.
+<lb />L’ayant avantagé d’vn baiser de ta bouche,
+<lb />Le peux-tu refuser maintenant dans ta couche?
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ah! mon cher Brise-fer, ce n’est pas mon dessein
+<lb />De vous vouloir trahir, ce que tousjours j’ay crain.
+<lb />Ie declare ma faute, &amp; encor je m’estonne
+<lb />D’avoir tenu discours à cette humeur friponne.
+<lb />Ne croyez pas pourtant qu’asture j’y consente,
+<lb />Son visage à mes yeux donnera l’épouvante.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Pourquoy donc cet annean? Dites-m’en le sujet.
+<lb />Doruthee luy met t'anneau dans le doige.
+<lb />Il ne meritoit pas qu’on en fisse rejet,
+<lb />Puis que l’occasion se presentoit à l’offre,
+<lb />Et en aprés j’ay creu qu’il seroit pour vous propre:
+</sp>
+<sp type="MainZone-Sp"><lb />Brise fer.
+<lb />Apprens donc vn peu mieux à te sçavoir ranger:
+<lb />Car tu touches le bras qui a pensé me venger.
+<lb />Ton esprit trop flatteur, impudente, effrontée.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ie sçay que vous aimez vn peu trop Dorothée,
+<lb />Pour n’avoir pas voulu donner ce coup fatal,
+<lb />Vous n’aviez pas dessein de luy faire du mal.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie pardonneray bien ton insulte aujourd’huy,
+<lb />Pourveu que devant moy tu te mocques de luy.
+<lb />Mais tu m’entends fort bien, faut-il que je l’explique,
+<lb />Ce certain du Balais, cette bonne pratique.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />rtous suy serons la piect daiis se temps qui viendra,
+<lb />Si vous voulez.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Sinon, je sçay qu’il te perdra.
+<lb />Ie m’en doute fort bien que ce dessein est traistre?
+<lb />Mais tu n’y devez pas, pour bien faire promettre.
+</sp>
+<sp type="MainZone-Sp"><lb />Perviner.
+<lb />Ie vous declare tout, que sert de me cacher.
+<lb />Il faudra seulement tacher de l’empescher.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Le conseil en est pris, il faut mettre bon ordre,
+<lb />Nous empescherons bien ce paillard d’en démordre?
+<lb />Mais pour mieux y pourvoit, attens moy au logis.
+<lb />Regarde, souviens-toy de ce que je te dis.
+<lb />Cânineu mle fruuuois je juic en concience,
+<lb />Que mon bras n’auroit plus aucune resistance.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ie vous le dis sans fard, asseurez-vous de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Cependant je m’en vay où mon Maistre m’envoy,
+<lb />Pour donner ce billet à tu berte mralitreise.
+<lb />Il faut que je le fasse avecque grande adresse.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />I’en ay bien vn de mesme écrit au de dessus,
+<lb />Que ma Maistresse envoy' sãs doute à vostre Maistre.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie croy que nous aurons esté trop paresseux,
+<lb />Ie m’en vay vistement pour luy donner ma lettre.
+<lb />Va t’en donner la tienne, &amp; souvien-toy de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Croyez-le sur ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Mais la voicy venir à grands pas, il me semble.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Helas! mon Dieu, je tremble.
+<fw><lb />–
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Cache-toy vitement.
+<fw><lb />-
+<lb />
+<lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />SCLAE QLAIRIEME.
+<lb />FLORISTE. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />ET bien, mon brave ami, d’où viens-tu maintenát.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />
+<lb />Ie viens de recevoir, Madame, cette lettre,
+<lb />Que mon maistre m’a dit en main propre remettre.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Il ne tardera pas de se porter icy. Il lit la lettre.
+<lb />Ie ne suis pas de coux, à vous dire, aprés tout,
+<lb />Qui veulent de leurs cœurs vous en faire un partage.
+<lb />Ie craindrois d’en donner, ou moins, ou d’avantage;
+<lb />Et de peur de manquer, je vous le donne tout.
+<lb />Ton Maistre est obligeant, j’aime bien son humeur.
+<lb />Ie ne meritois pas de luy cette faveur,
+<lb />Quoy que je ne me puisse empescher de luy dire,
+<lb />Qu’il est bien liberal: c’est cela que j’admire.
+<lb />Mais tous les gens biẽ faits n’épargnẽt rien pour eux
+<lb />Dans les occasions, pour estre genereux.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Madame, vous pouvez beaucoup sur son esprit,
+<lb />Pour témoin de cela vous en avez l’écrit:
+<lb />Sa generosité ne se sçautoit pas taire,
+</sp>
+<p type="MainZone-Other"><lb />Tout
+</p>
+<sp type="MainZone-Sp"><lb />Tout le monde le sçait: mais il aime à vous plaire,
+<lb />Floriste.
+<lb />Ah! que je suis heureuse aprés ces tendres mots.
+<lb />Ce discours ne pouvoit venir mieux à propos;
+<lb />Car son esprit me plait autant que son courage.
+<lb />Il en porte la marque aux traits de son visage.
+<lb />Et crois-tu, Brise-fer, que dans son entretien,
+<lb />Ie me plais tellement, à ne te cacher rien,
+<lb />Que je voudrois tousjours jouyr de la presence,
+<lb />Et j’estime beaucoup d’avoir sa connoissance.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Vous le devez cherir, puis qu’il est si constant,
+<lb />Et que vous connoissez ce qu’il est maintenant.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ie le connois assez, pour dire que je l’aime.
+<lb />Que peut-il esperer d’vn amour plus extreme?
+<lb />Ie me suis dérobé aujourd’huy pour le voir.
+<lb />C’est bien marque qu’il a sur mon esprit pouvoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie m’en vay de ce pas luy portet la nouvelle,
+<lb />A le poulloit faeners.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste. Dequoy?
+<fw><lb />Brise-fer.
+<lb />D’avoir perdu l’occasion si belle.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />I’ay donné à ma servante vn billet à porter.
+<lb />le ne sçay ce que c’est qui la peut arrester.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Pour porter à mon Maistre?
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />(estre,
+<lb />Oüy, c’est pour luy-mesme, &amp; je crains bien peut<lb />Puis qu’elle tarde tant, qu’il n’y ait quelque malheur.
+<lb />Faisons mieux, Brise-fer, pour joüer au plus seur,
+<lb />De ce pas va sçavoir comme va cette affaire:
+<lb />Car je crains qu’il n’ait eu rencontre de mon pere,
+<lb />Qui pourroit bien, lans doute; avon pris ce billet.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie vous vay obeyr, voila ce qui me plait:
+<lb />Car mon Maistre m’attend, s’il a receu la vostre,
+<lb />Ou non, vous sçaurez tout, &amp; par sa bouche propre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIEME.
+</p>
+<sp type="MainZone-Sp"><lb /> Floriste seule.
+<lb />Nfin aprés avoir tant celé mon tourment,
+<lb />LIl faut luy declarer icy fidelement,
+<lb />Quoy que mon pere veut que j’en cherisse vn autre.
+<lb />Pourquoy je n’en veux point, Cloridor m’est plus
+<lb />Dans cette occasion j’oublie mon devoir, (propre.
+<lb />En me resouvenant de ce que je dois voir.
+<lb />Il ne me manquera jamais de la conduite.
+<lb />En quelques accidens que je me vis reduite,
+<lb />On n’empescheroit pas, jusques mesme à la mort,
+<lb />Que mon dernier soûpir ne fut pour Cloridor.
+<lb />Tout m’est indifferent, hors de cette personne,
+<lb />Et je le prise autant qu’vn Roy fait sa couronne.
+<lb />Mes parens ne sçauroient m’empescher de l’aimer,
+<lb />N’ayant pas jusqu’icy sujet de le blâmer.
+<lb />Au contraire il a fait tout ce qu’il devoit faire:
+<lb />Et par ses sentimens il a taché à me plaire.
+<lb />Que doit-on esperer d’vn plus genereux cœur,
+<lb />Qui par sa force abat, charme par sa douceur:
+<lb />Qui de mes ennemis en a détruit la rage,
+<lb />Par l’effort de son bras, &amp; de son grand courage?
+<lb />Aprés tant de faveurs que j’ay receu de luy,
+<lb />Qui me veut obliger à l’hayr aujourd’huy,
+<lb />Sans m’appeller ingrate, &amp; plus encor barbare?
+<lb />Ie ne le feray point, c’est ce que je declare.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIEME.
+<lb />CLORIDOR. FLORISTE.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />T’Loriste, mon devoir m’a fait haster le pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ah! vous me surprenez, je ne vous croyois pas
+<lb />Pour moy si vigilant, ce qui me fait connoître,
+<lb />Que lors qu’il faut servir, vous le faites paroître.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ie ne merite pas de vous ce souvenir.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Par voitte compiiment, vous me voulez punir.
+<lb />Vous sçavez, Cloridor, comme quoy je vous aime.
+<lb />Vous vouloir abaisser, c’est m’abaisser moy-mesme.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />S’il me faut comporter tout d’vne autre façon,
+<lb />Vous pouvez commander avec grande raison</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />I’obeyray tousjours apres vostre bonté:
+<lb />Car vous estes tout plein de generosité:
+<lb />Ie ne poutray jamais m’empescher de le dire,
+<lb />Aprés ce que je viens tout maintenant de lire:
+<lb />C’est beaucoup me donner, &amp; ne reservet rien:
+<lb />Ie merite beaucoup, en meritant ce bien.
+<lb />Mais vous m’avez vaincuë, &amp; je quitte les armes.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Vous ne le pouvez pas, hors de quitter vos charmes.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Vous en avez trouvé de plus avantageux,
+<lb />Et vous le déguisez, pout me le cacher mieux.
+<fw><lb />C 2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Vous sçavez.
+<lb />Cloridor.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Achevez, vous avez la prudence,
+<lb />Telle qu’il faut avoir, &amp; plus que je ne pense.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ie meurs lors que je voy qu’il faudra abandonner,
+<lb />Celle qui par honneur me pourra pardonnet.
+<lb />I’ay de l’amour pour l’vn, j’ay de l’amour pour l’autre:
+<lb />Et quoy que Cupidon &amp; Mars soient differens,
+<lb />Lvn dés ce mesme instant me fait estre tout vostre,
+<lb />Et l’autre me dit lache, &amp; puis je me reprens.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ce que je ne croy pas: vous faites trop d’estime
+<lb />De celle qui vous a creu tousjours magnanime.
+<lb />Vous avez trop d’esprit pour manquer en ce poinct,
+<lb />Et quoy que vous disiez, je ne le croiray point.
+<lb />Achevez, achevez, ce discours est pour rire.
+<lb />Lors que cela seroit, vous n’oseriez le dire.
+<lb />Enfin quoy qu’il en soit, par vn commun accord,
+<lb />Ie vous suivray par tout jusques mesme à la mort.
+<lb />Vous sçavez désja bien que je vous suis acquise,
+<lb />Et que s’il faut marcher.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />C’estoit mon entreprise.
+<lb />I’apprehendois si fort, que prest pour vous quitter,
+<lb />Ie tremblois, &amp; la peur qui m’a fait arrester.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Rudoy;
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />D'estre privé: mon dessein veut poursuivre.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />S’il ne tient qu’à cela, je vay par tout vous suivre.
+</sp>
+<sp type="MainZone-Sp"><lb />(Cloridor.
+<lb />Puis que vous le voulez, j’en suis plus que contant,
+<lb />Car je vous veux servit comme vn parfait amant.
+<fw><lb />es
+<lb />Ie
+</fw><lb />Ie retarderay bien trois jours de mon voyage:
+<lb />Si je pouvois, pour vous j’en ferois d’avantage.
+<lb />Mais j’apperçoy quelqu’vn.
+<fw><lb />*–
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIEME.
+<lb />DE LOSELET. FLORISTE. CIORIDOR.
+</p>
+<sp type="MainZone-Sp"><lb />De Lofelet.
+<lb />Adame, voitre pere
+<lb />(iere.
+<lb />MVous fait cercher par tout, il est bien en co</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />C’est assez, Cloridor, je connois vostre humeur,
+<lb />me je le a ves jeus que vougules du couis
+<lb />Ie vous laisse pourtant, pensez à vos affaires,
+<lb />Et cerchez les moyens qui seront necessaires.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor seul.
+<lb />Mon esprit barassé dans cette occasion,
+<lb />Rallume vn feu plus grand que fait ma passion.
+<lb />L’affaire est dangereuse, &amp; de mau ville ioite,
+<lb />Cecy depend pour moy d’vne grande conduire:
+<lb />Mais c’est trop y penter, vn elprit reveur,
+<lb />Pour marcher si profond, est lache, ou suborneur.
+</sp>
+<p type="MainZone-Head"><lb />ACTE II.
+<lb />SCENE PREMIERE.
+<lb />DOROTHEE. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />E
+<lb />Brise-fer.
+<lb />Nfin voicy le temps de l’assignation,
+<lb />Que je dois éclatter avecque passion:
+<lb />QEt que dans cet estat je dois faire parêtre,
+<lb />Que si l’on me connoit, l’on pourta me connêtre:
+<lb />Quand je devrois perir par vn bras invincible,
+<lb />Ie ne ferois qu’esteindre vn affront si sensible.
+<lb />Et je suppose encor, que touché du bon-heur,
+<lb />I’emporte le laurier dont je seray vainqueur.
+<lb />Ma personne en cecy n’est qu’à demi vengée,
+<lb />Il me faudroit laver du sang de Dorothée.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Tout beau, tout beau, c’est trop, moderez la chaleur
+<lb />De vostre esprit boüillant, avec plus de douceur.
+<lb />Appellez-vous vainqueur que de vaincre vne femme?
+<lb />Cette parole-la merite qu’on vous blâme:
+<lb />Et c’est estre genereux de donner le trépas,
+<lb />A celle qui vous aime, &amp; ne se defend pas?
+<lb />Par ma foy, s’il falloit tousjours ainsi combattre,
+<lb />vous ne manqueniez pas par tout de tout abatre.
+<lb />Vous estes fort vaillant, à ce que je puis voir.
+<lb />Vous soûmettrez bien tost tout à vostre pouvoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ah! ne me raillez pas, je sçay comme il faut vivie,
+<lb />Crains encor le revers du coup qui te peut suivre.
+<lb />Mon esprit sans repos demande à se venger.
+<lb />Il faut le contenter, pour le pouvoir changer,
+<lb />Tout m’est indifferent aprés ce coup funeste.
+<lb />I’en viendray bien à bout, &amp; je te le proteste.
+<lb />Qu’il viene seulement railler avecque toy,
+<lb />Tu le verras bien tost rangé dessous ma loy:
+<lb />Peut-estre cet anneau luy coutera la vie:
+<lb />S’il ne trompe aujourd’huy ma genereuse envie,
+<lb />Ie suis bien asseuré qu’il n’y manquera pas:
+<lb />Mais il perdra le jour pour tes trompeurs appas.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Il est à redouter, à ce qu’on fait entendre. 
+<lb />Pensez pour ne me perdre, à vous fort bien defendre:
+<lb />Car s’il a le dessus, il n’y a point de quartier,
+<lb />Ni pour moy, ni pour vous: il frappe volontier.
+<fw><lb />Il
+<lb />Vi
+<lb />E
+<lb />Cie
+<lb />Si
+<lb />De
+<lb />Et
+<lb />Po
+<lb />Pu
+<lb />It
+<lb />Et
+<lb />I
+<lb />Vo
+<lb />Acce
+<lb />N
+<lb />Vc
+<lb />A
+<lb />Po
+<lb />De
+<lb />Et
+<lb />le
+<lb />C
+<lb />le
+<lb />Da
+<lb />N
+<lb />Pe
+</fw><lb />Il en auroit raison le traittant de la sorte.
+<lb />Vous avez seulement à garder bien la porte.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />
+<lb />Ie feray mon devoir, &amp; je te le promets,
+<lb />Qu’il n’aura plus dessein de te voir desormais:
+<lb />Et je mênageray dans ce lieu mon affaire,
+<lb />
+<lb />Qu'on ne sçauroit trouver moyen de m’en distraire.
+<lb />Crois-tu bien que je craigne vn homme comme luy?
+<lb />S’il s’estime bourgeois, j’ay le titre aujourd’huy
+<lb />De soldat, qui vaut plus, dans le siecle où nous sõmes,
+<lb />Et qui traitte d’égal avec les Gentilshommes.
+<lb />Pour moy, j’estime mieux cette condition,
+<lb />Puis que mon diut uruin cetle de quilition.
+<lb />Il sçaura bien encor se rendre redoutable,
+<lb />Et accabler le mal aujourd’huy qui m’accable.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />La prudence fait voir dans cette occasion,
+<lb />Qu’il faut avoir le cœur, non la condition.
+<lb />Vous entreprenez bien vn dangereux affaire,
+<lb />Attendre vn homme au pas, c’est estre temeraire.
+<lb />N’avez-vous point de peur, tout vous est dangereux?
+<lb />Vous-vous precipitez, consultez vn peu mieux.
+<lb />A vous dire tout net, je n'ay pas bonne augure
+<lb />Pour ce rencontre icy, quoy que je vous asseure
+<lb />De ma fidelité, comme de mon pouvoir,
+<lb />Et vous le connoissez, à ce que je peux voir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie voy que ton esprit de temps en temps se change.
+<lb />C’est me traitter enfin d’vne façon estrange:
+<lb />le connoy ton humeur, à te dire aprés tout,
+<lb />De ce commencement, crains-en encor le bout:
+<lb />(Tous ces discours fardez qu’elle a de sa nature,
+<lb />Ne me convienent pas, si l’on ne m’en asseure.
+<lb />Pour mieux m’en asseurer, il faut l’interroger,
+<lb />Si d’attaquer cet homme il n’y a point de danger.)
+<lb />Di-moy, connois-tu bien ce cettain personnage?
+<lb />Est-il adroit sur tout? A-t-il bien du courage?
+<lb />Pourray-je mesurer mon épée avec luy,
+<lb />Sans me mettre en danger de perir aujourd’huy?
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Girfaut le declalei, jen clarlis encor la luite;
+<lb />Enfin cela depend d’vne grande conduite.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Parlez-moy sans farder, ne connois-tu rien plus?
+<lb />Ne m’amuse pas tant en discours superflus.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Pour ne vous rien celer, il faut que je vous die,
+<lb />Qu’il est vaillant en tout, qu’il hazarde sa vie:
+<lb />Car il s’expose aux coups plus ferme qu’vn rocher.
+<lb />L’hazard en est bien grand quand on le peut toucher.
+<lb />Son naturel est prompt, ne veut point de replique.
+<lb />Il tuë franchement vn homme qui le pique.
+<lb />Il ne veut rien souffrir des grands, ni des petits:
+<lb />Voila donc le ragout de tous ses appetits.
+<lb />Considetez vn peu, si l’on se peut defendre:
+<lb />Pour moys je ne sçaurois de quel costé le prendre:
+<lb />Lors qu’il est furieux, il vaincroit vn Lyon,
+<lb />Et personne ne peut dompter sa passion.
+<lb />Vous hazarder ainsi, c’est estre temeraire:
+<lb />vouoneseseren puorni vouo me courer craire.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ces discours ambigus ne me font point de peur,
+<lb />Puis qu’ils sont déguisez sous vne autre couleur.
+<lb />Mais tout cela n’est rien, poursuis-en d’avantage.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Tout vous denote enfin vn fort mauvais presage.
+<lb />Et si vous me croyez, pour le plus seur moyens
+<lb />De pacifier tout, vivre en homme de bien.
+<fw><lb />Brise
+</fw><fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />O qu’elle sçait bien faire à present l’hypocrite!
+<lb />Ne la prendriez-vous pas pour vne saincte Hermite?
+<lb />Di-moy sans rien cacher, qui t’en a tant appris?
+<lb />Tu cours vn grand hazard de remporter le prix:
+<lb />Mais pour cela pas moins, il faudra s’y resoudre.
+<lb />Dorothée.
+<lb />(dre,
+<lb />Et bien quand je sçaurois qu’on me mettroit en pou<lb />Qu’il fut ou ma Maistresse, ou plustot du Balais,
+<lb />Ma foy, dans ce peril ne vous lairra jamais:
+<lb />Et comme de tout temps elle vous est promise,
+<lb />Ma personne par tout vous sera toute acquise.
+<lb />L’heure s’approche bien de l’amoureux deduir,
+<lb />Ma Maistresse est au jeu, ne faisons point de bruit,
+<lb />Cependant je m’en vay donner ordre aux affaires
+<lb />Qu’elle m'a commande, qui sont bien necessaires.
+<lb />Dans vne neule diey trouven vous eu logts,
+<fw><lb />-
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SECONDE,
+</p>
+<sp type="MainZone-Sp"><lb />Brise-fer seul.
+<lb />E te suivray bien tost pour estre au temps precis.
+<lb />IEn vain, c’est trop souffrit, n’ay-je pas du courage?
+<lb />Pourveu qu’on ne me prene avecque l’avantage,
+<lb />Ie soûtiendray tousjours pour estre satisfait.
+<lb />Ie sçay soûmettre à moy celuy-là qui me plait.
+<lb />Et qui seul pourra bien resister à ma force,
+<lb />Sans ressentir l’effet d’vne terrible amorce?
+<lb />Qui sera ce Demon arraché de l’enfer,
+<lb />Qui n’aura point de peur auprés de Brise-fer?
+<lb />Mon bras, rasseurez-vous, pour mettre tout en pieces?
+<lb />Et de nouveau, mon cœur, enflez-vous d’hardiesse.
+<lb />Aptés avoir souffert tant de coups sur mon dos,
+<lb />Au milien des combats, sans demandet repos,
+<lb />Ie flechirois? Non, non, ma genereuse envie
+<lb />Veut recouvrer l’honneur, au dépens de ma vie.
+<fw><lb />
+<lb />-
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE TROISIEME.
+<lb />DV BALAIS, BRISE-FER. DOROTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />Brise-fer s’en va pour entrer.
+<lb />Brise-fer. Qu’est-ce que j’entends donc?
+<lb />Du Balais. C’est moy: me connois-tu?
+<lb />Brise-fer. Ie vous jure, que non.
+<lb />Du Balais. Que viens-tu faire icy?
+<lb />Diijeja le lal acaans maponee
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Cela n’est pas mon compte, &amp; à ce que je voïs.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-jer.
+<lb />Peut-estre vous sçavez, que qui compte sans l’hoste,
+<lb />Pourtoit compter deux fois.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ozes-tu bien, maraud, m’offencer de la sorte?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Que m’impotte.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ie te feray bien tost ranger dans le devoir,
+<lb />Et je croy que tu sçais que j’en ay le pouvoir,
+<lb />Brise-fer. La place est prise.
+<lb />Du Balais. I’ay peur d’vn entreprise.
+<lb />Brise-fer. Adieu, je ne puis m’arrester.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Il me sera permis, quand tu devrois pester,
+<lb />De te suivre par tout, pour avoir cette entrée.
+<lb />Ie suis bien comme toy, l’aimé de Dorothée.
+<lb />I'en ay payé ma part.
+</sp>
+<p type="MainZone-Other"><lb />nit.
+<lb />Brise-fer entre dans la maison de Dorothée, &amp; luy
+<lb />ferme la porte au nez.
+<lb />O vous n’entrerez point.
+<lb />Hormis que d’enfoncer la porte à coups de poing.
+</p>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />L’affront que tu me fais, u bien causer ta perte.
+</sp>
+<sp type="MainZone-Sp"><lb />Ooroinet u ta fenestre.
+<lb />O la grand peur que j’ay de n’estre découverte.
+</sp>
+<sp type="MainZone-Sp"><lb />Du balais a Doroinée:
+<lb />Tu me la payeras.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />C’est en vain, du Balais; car je ne vous crain pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer à la fenestre.
+<lb />Vous estes importun, le voulez-vous entendre?
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Tu le portes bien haut pour vn valet de chambre.
+<lb />Et n’as-tu point de peur, camarade des sots,
+<lb />Que les coups de baston ne marche sur ton dos?
+<lb />Le meilleur moyen est de me venir ouvrir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer descend met l’épée à la main.
+<lb />En vain, c’est trop souffrir.
+</sp>
+<sp type="MainZone-Sp"><lb />Doroihée.
+<lb />Au secours, qu’on se tuë.
+<fw><lb />SCENE QVATRIEME.
+<lb />FLORISTE. DOROTHEE. DVBALAIS. BRISE-FER.
+<lb />Floriste avec un Laquais, il appelle sa servante.
+<lb />se bat au devant ma maison,
+<lb />ODorothée.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Dorothée sort.
+<lb />Madame, de la feste j’en suë.
+<lb />Et à vous parler net, j’en ay grande raison.
+</sp>
+<p type="MainZone-Lg"><lb />D 2
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Fourquoy done ce delordie :
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Du Balais, Brise-fer, ont sujet d’en démordre.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Cecy ne provient rien que pour l’amout de toy.
+<lb />Tu te fais courtiser.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Ah! non pas, par ma foy.
+<lb />Floriste va les empescher, &amp; se tnet au milieu.
+<lb />Allons les separer au devant de ma porte.
+<lb />Brise-fer, qu’est cecy: c’est le respect qu’on porte
+<lb />A Floriste aujourd’huy?
+<lb />Du Balais. Ie me mocquois de luy.
+<lb />Floriste. C’est à tort, du Balais, que vous.
+<lb />Brise-fer. Ie le veux.
+<lb />Floriste à Brise-fer. Que quelqu’vn branle.
+<lb />Dorothée. Madame, encor j’en tremble.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Tu trembles, c’est encor avec juste raison,
+<lb />Tygresse, tu connois que c’est ta trahison
+<lb />Qui cause tout cecy: mais n’as-tu point de honte?
+<lb />Ou n’as-tu point de peur qu’vn jour je ne te dompte?
+<lb />Perfide, deloyale, ou Demon infernal,
+<lb />Que la peste te tuë: &amp; pour vn plus grand mal,
+<lb />Puis que de tout mon cœur je le dis de la sorte,
+<lb />Ie souhaite encor plus, que le Diable t’emporte.
+<lb />Ne se contenter pas de me vouloir dupper,
+<lb />Encor cercher moyen de me faire attraper
+<lb />Par vn couppe-jatret, est-ce vne perfidie,
+<lb />Ou non? Voulois-tu bien m’oster encor la vie?
+<lb />Celuy qui n’a cerché qu’à pouvoir t’obliger,
+<lb />Ingrate, l’exposer au milieu du danger?
+<lb />Ma foy, je pouvois bien vivre dans l’esperance,
+<lb />Aprés
+<fw><lb />ste?
+<lb />rés
+</fw><lb />Aprés m’avoir traitté de cette recompence?
+<lb />puis qu’vn torche-soulier est preferable à moy,
+<lb />peut-estre que ce rang est d’vn plus noble employ.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />O que je patiente!
+<lb />Ie n’agrée pas trop vostre humeur insolente.
+</sp>
+<sp type="MainZone-Sp"><lb />Da Dalars.
+<lb />Tu me répons fort mal.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-Jer.
+<lb />I’ay coûtume à parler d’vn sens tousjours égal.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste,
+<lb />C’est à toy, Brise-fei, e tuconter runaire,
+<lb />Ie t’en prie de grace, &amp; si tu veux me plaire:
+<lb />Et cependant.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Madame, c’est à tort, excusez, s’il vous plait,
+<lb />Donner tant d’avantage à vn mauvais valet.
+<lb />Vous sçavez que l’amour donne beaucoup de peine,
+<lb />Il faut que je dégorge la poison qui l’amene.
+</sp>
+<sp type="MainZone-Sp"><lb />erije Jura
+<lb />Vous ne le direz pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Pour vn maigre sujet, evite ton trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Quand j’en devrois mourir, il faut que je le die,
+<lb />Ie n’ay pas peur icy que vous m’ostiez la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Et tu n’en feras rien.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Croyez-vous de passer pour vn homme de bien:
+<lb />Que vous-vous trompez fort; car vous avez la mine,
+<lb />Et l’adresse aussi bien de dupper la plus fine.
+<lb />Mais vous-vous passerez, Monsieur, pour cette fois.
+<lb />Vostre Noblesse peut pour vn plus noble chois,
+<lb />Pourvon tanuis anleuis
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Vous sçavez, Brile-fer, que je hay les railleurs:
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Madame, c’est pour vous qu’on souffre de la sorte.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Que m’importe.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ne m'amulez pas donc en discours superflus.
+<lb />Racontez-moy l’affaire, ou ne m’en parle plus.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fet.
+<lb />Puis que vous demandez recit de cet histoire,
+<lb />Ie vous vay.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Garde, &amp; si tu veux me croire.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie la veux raconter,
+<lb />Mesme quand je sçaurois que vous devriez pester.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Tu ne le feras pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Oiije Jere
+<lb />Ie le feray plustot que de paroître lache.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée tout bas.
+<lb />I’ay peur que cette affaire aujour d’huy ne se sçache.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />De vous mettre d’abcoro jey troure le moyen,
+<lb />Pour contenter tout deux, que vous n’en direz rien.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />C’est pour estre plus court, j’en voy bien l’apparence,
+<lb />Que vous voulez si tost imposer le silence.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Dorothée, parlez, je voy que ce sujet
+<lb />Merite pas enfin qu’on en fasse rejet.
+<fw><lb />Dorot
+</fw><fw><lb />1.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Doroihée.
+<lb />Madame, il est fort clair, puis que cette personne
+<lb />Me veut forcer d’aimer, c’est tout ce qui m’estonne.
+<lb />Il est fort importun: je le voudroy bien voir
+<lb />A cent lieuës d’icy, s’il fut en mon pouvoir.
+<lb />Vous connoissez fort bien qu’il est hors d’apparence,
+<lb />Pour moy, je vous le dis en bonne conscience,
+<lb />Ie ne veux plus souffrir maintenant son humeur.
+<lb />I’ay souffert autresfois, qu’il me disoit, mon cœur,
+<lb />Comme te portes-tu? Que faut-il que je fasse?
+<lb />Que ses discours avoiẽt pout le moins quelque grace:
+<lb />Maintenant que je voy qu’il fait tout au rebours,
+<lb />Et que sa sotte humeur persecute tousjours:
+<lb />voneipiit violant, &amp; que de cent injures
+<lb />Qu’il crache contre moy, sont autant d’impostures,
+<lb />Ie ne veux plus l’aimer: n’ay-je pas bien raison?
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Tu ne racontes pas si c’est ta trahison
+<lb />Qui cause tout cecy, chiene, peste, Megere:
+<lb />Va, leve-toy devant l’effort de ma colere.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Monsieur, vous querellez devant moy ma servante?
+<lb />Croyez-vous de venir au bout de vostre attente?
+<lb />Croyez-vous pour aimer qu’il vous faut quereller
+<lb />Celle qui veut oüyr plus sagement parler?
+<lb />Pretendez-vous par là vous rendre redoutable?
+<lb />le trouve que cela n’est pas trop agreable.
+<lb />Ayant vn autre amant qu’il aime mieux que vous,
+<lb />Voulez-vous la priver aujourd’huy de ses gouts?
+<lb />Considerez donc mieux, mettez-vous à sa place:
+<lb />Car vous n’entendez rien. Permettez-moy, de grace,
+<lb />Que je dise cela, pour vous mieux persuader,
+<lb />Qu’en affaire d’amour, il faut sçavoir plaider.
+<lb />Si vous avez d’esprit, c’est sçavoir mal son conte.
+<lb />Pour moy, je n’en ay point: mais je mourois de
+<lb />Si je croyois avoir cõmis ce manquement. (honte,
+<lb />Ce n’est pas là l'effet d’vn veritable amant:
+<lb />En aprés c’est à moy que vous faites l’offence.
+<lb />M’estimez-vous si sotte aprés cette artogance,
+<lb />Que je n’aye l’esprit de m’en sçavoir venger?
+<lb />Ie vous apprendray bien à me desobliger.
+<lb />Apprenez, apprenez vn peu mieux le devoir,
+<lb />Qu'il raut que vous rendiez à ceux de mon pouvoir.
+<fw><lb />--
+</fw></sp>
+<p type="MainZone-Head"><lb />SCERE CINQIEME.
+<lb />CLORIDOR. FLORISTE. DV BALAIS. BRISEFER.
+</p>
+<sp type="MainZone-Sp"><lb />Ctoriuor.
+<lb />JOire done, qu’est cecy? Vous estes en colere?
+<lb />VIe suis venu d’vn pas plus que de l’ordinaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Vous sçaurez que Monsieur aime fort ma servante,
+<lb />Il ne peut pas venir au bout de son attente.
+<lb />Elle ne l’aime pas: que peut-il esperer
+<lb />D’vn coup si dangereux, qu’on ne peut point parer?
+<lb />Peut-on forcer d’aimer? Ie ne puis pas comprendre,
+<lb />Hors d’allumer ce feu qui meurt dessous la cendre.
+<lb />Il le pouvoit bien faire en changeant son humeur:
+<lb />Mais puis qu’il est du tout privé de ce bon-heur,
+<lb />Il faut cercher parti, tacher que l’on nous aime,
+<lb />D’vne condition quelle égale à nous-mesme.
+</sp>
+<sp type="MainZone-Sp"><lb />Ctorihor.
+<lb />Vous ne dites pas tout.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Que je dise le reste:
+<lb />De me taire si tost, c’est alors que je peste.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Que direz-vous de plus? voyons-le, s’il vous plait,
+<lb />Que
+<lb />Que vous vous queleiea avecque ce valet.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ah! Monsieur du Balais, accordons cette affaire:
+<lb />Nous aurons bien moyen de pouvoir satisfaire
+<lb />Vostre esprit offencé.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Il sera son ami, je l’avois bien pensé.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />Ce marand de Valet, l'autheur de ce desordre,
+<lb />Avoit bien grande envie à ce coup d’en demordre?
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Qu’entends-je de nouveau, que veut dire cecy?
+<lb />Brise-fer, &amp;.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Monsieur, je vous crie merci.
+<lb />Vous sçavez que depuis que j’aime Dorothée,
+<lb />Sous le nom d’vn Hymen, qui charge ma pensée,
+<lb />Ie n’y ay jamais pû voir des galands à l’entour:
+<lb />Enfin vous sçavez bien ce que c’est de l’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Mais tu ne penses pas; car ton ame est trop basses
+<lb />Qu’il te fait dans vn rien, vne fort grande grace,
+<lb />D'anoolir ton amour, &amp; que veux-tu de plus?
+<lb />Cela merite pas qu’on en fasse refus.
+<lb />Ce titre peut bien tost faire enfler ton courage.
+<lb />Croy-moy, tu ne peux pas aspirer d’avantage.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Monsieur, augmentez-moy de mes gages l’argent,
+<lb />Et je vous vay ceder cet anoblissement.
+</sp>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />le sçay comme en vser, pour en avoir vengeance.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SIXIEME.
+<lb />CLORIDOR. DRISE TERT TTORISTE.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />VEt homme fait bien voir encor son innocence.
+<lb />CIe n’avois jamais veu.
+<lb />Brise-fer. Que la peste le fou:
+<lb />Il croyoit d’en taster; mais.
+<lb />Cloridor. Ie te croy bien sou.
+<lb />Qui cause tout cecy, n’est-ce point la débauche?
+<lb />Ie te voy balancer, autant à droit qu’à gauche.
+<lb />rren gatde a tourre moms de te laisser tomber.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ce sont de complimens de la place Mauber.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste tout bas.
+<lb />C’est vn brave valet, s’il y en a en France:
+<lb />Nous en avons besoin, vsons de patience:
+<lb />Car vous n’ignorez pas qu’il aime estre flatté.
+<lb />Ie connoy cet esprit tout plein de vanité.
+</sp>
+<sp type="MainZone-Sp"><lb />brije Jera
+<lb />A ce que je puis voir, Madame me caresse.
+<lb />Ie vay avoir bien tost de lettres de Noblesse,
+<lb />Comme mon Maistre a dit.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ou je meure à ce coup, s’il n’a beaucoup d’esprit.
+<lb />Qu’en dites-vous, Floriste?
+<lb />Pouvez-vous bien ceder au coup qui vous resiste?
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Non, je vous le promets.
+<lb />Il merite que vous ne l’oubliez jamais.
+<lb />Il a de qualitez qui sont bien remarquables,
+<lb />Ne vous estonnez pas, si elles me sont aimables.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIEME.
+<lb />DE LOSELET. FLORISTE.
+</p>
+<sp type="MainZone-Sp"><lb />De Loselet.
+<lb />Adame, venez donc, pour vous aller cercher,
+<lb />M Vostre pere m’a fait tout aujourd’huy marcher.
+<lb />Au reste, je veux bien vous raite de prieres,
+<lb />Ie viens de recevoir pour vous des estrivieres,
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Peut-estre mon mal-heur se lassera bien tost.
+<lb />Cloridor, je ne puis vous dire plus vn mot.
+<lb />Mais pensez bien en moy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE HVICTIEME.
+<lb />CLORIDOR. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Rise-fer, je voudrois éclaircir ma pensée,
+<lb />A*Comne tu te crois oiei artne de norcince.
+<lb />Entens-tu quelque chose en matiere d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie suis le plus expert pour vn homme de Cour.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Mais pour cela pas moins, je sçay qui te doit vendre.
+<lb />Regarde aprés cela sur quoy peux-tu pretendre:
+<lb />le condois la pelonner ene mle ravoues
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Personne m’a vendu, je suis désja loüé
+<lb />Pour Monsieur Cloridor, ou pour vostre service.
+<lb />Ne croyez pas pourtant que je sois vn novice.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ton esprit me plait fort, à ce que je puis voir:
+<lb />Mais si tu desitois me servir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer. I’ay pouvoir.
+<lb />I’entens ce patricot, qu’est-ce qu’il faudra faire?
+<lb />Ie suis bien tousjours prest à vouloir satisfaire
+<lb />Les gens de vostre sorte, autant que mon esprit
+<lb />Pourra fournir pour vous, de ce que l’on m’apprit.
+<lb />Que il vous m’employez, mille tours de souplesse
+<lb />Vous pourtõt faire voir que j’ay beaucoup d’adresse.
+</sp>
+<sp type="MainZone-Sp"><lb />Etortuors
+<lb />Ferois-tu bien cela?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise fer.
+<lb />Si je le feray bien? Tout comme vous voila:
+<lb />Vous n’avez seulement que commander, &amp; dire
+<lb />Lanane tout au nett or je ne vous sap rire
+<lb />De la belle façon, je veux estre pendu.
+<lb />Permettez qu’en cecy je vous aye encendu.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Tu sçauras qu’aprés tout j’amene ma Maistresse.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Vous estes, je voy bien, vn homme de promesse.
+<lb />Ie sçay qu’elle a pour vous vne grande amitié,
+<lb />Vous sçavez plus que moy, voire de la moitié.
+<lb />Et la servante?
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor. Auffi.
+<lb />Brise-fer.
+<lb />Et la servante encor: ah! non pas, s’il vous plait:
+<lb />Ce morceau delicat appartient au valet.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />ie voulois dire encor, que comie Dorothée
+<lb />Sera dans sa maison, tu verras comme quoy.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Vous avez fort bien fait d’éclaircir ma pensée:
+<lb />Aussi vous ne sçauriez pas rien faire sans moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Allons cependant faire vn tour de promenade.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />En attendant le temps que nous battrons l’estrade.
+</sp>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />FLORISTE. DOROTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Nfin, c’est trop souffrir, il faut se declarer,
+<lb />Et il s’approche vn coup que je ne puis parer.
+<lb />Tu connois mieux mon mal que je ne fay
+<lb />moy-mesme,
+<lb />Puis que tu sçais fort bien depuis le tẽps que j’aime.
+<lb />Mon esprit engagé ne peut plus resister,
+<lb />5i Cloridor ne vient vite pour l’assister.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous l’aimez bien, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Oüy, je l’aime bien, &amp; ma secrete flamme,
+<lb />Se veut communiquer à toy pour ce sujet,
+<lb />Et ne merite pas qu’on en fasse rejet.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />C’est à toit, c’est à toit, vous m’imposez vn crime
+<lb />D'y penser, le sujet estant si legitime.
+<lb />Et si je pouvois estre en part de ce bon-heur,
+<lb />le voudrois ceder tout au prix de cet honneur.
+<lb />En aprés pour dupper ce fantasque de pere,
+<lb />Qui jaloux de soy-mesme, il vous tient solitaire:
+<lb />En depit qu’il en eut, l’on me feroit la cour:
+<lb />l'aurois sans qu’il sçeut rien, des galands à l’entour.
+<lb />Pouvez-vous esperer sinon que d’avantage?
+<lb />Que vous sert-il pour luy de faire tant la sage?
+<lb />Croyez-moy maintenãt, dõnez-vous du beau temps.
+<lb />Vne fille tousjours doit avoir des amans:
+<lb />Et puis de vostre rang, dans la fleur de vostre âge,
+<lb />Désja vous devriez estre aux liens du mariage.
+<lb />Pourroit-on bien trouver de plus riches que vous,
+<lb />Et puis que Cloridor veut estre vostre époux,
+<lb />N’est-il pas sans mépris, digne de ce merite,
+<lb />Pour vn homme d’esprit, &amp; de grande conduite?
+<lb />Vous agrée-t-il pas? Il n’en faut pas douter;
+<lb />Car il est trop bien fait pour ne vous contenter?
+<lb />Pour moy qui ne suis rien qu’vne povre servante,
+<lb />Ie tache bien d’avoir celuy qui me contente.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ta raison me plait fort: mais je crains l’advenir,
+<lb />Et mes sens sont troublez par ce seul souvenir.
+<lb />Ie tremble, Dorothée, &amp; je ne l’oze dire:
+<lb />Le merite en est gtand, pource que je soûpire.
+<lb />Le tourment que je souffre, est de mesme en effet.
+<lb />Rien ne peut rendre icy mon esprit satisfait:
+<lb />Car depuis l’avoir veu sur le bord d’vn rivage,
+<lb />Mes sens furent charmez, sans dire d’avantage.
+<lb />Il soûpiroit alors, mais voyant à ses yeux
+<lb />Qu’il aimoit, j’approcha pour le connoître mieux.
+<lb />De l’instant tout troublé, fit trois pas en arriere:
+<lb />Il alloit tout d’abord sauter dans la riviere,
+<lb />Ce qu’il executoit, s’il n’eut eu mon secours.
+<lb />C’est ce qui fut la cause aprés de nos amours.
+<lb />Mon bras qui le toucha, fit pour lors vn miracle,
+<lb />Et mes yeux evitarent vn cruel spectacle.
+<lb />Ce feu qui l’animoit, fut suffoqué d’abord,
+<lb />Et d’vn amour nouvelle, il évita la mort.
+<lb />Son esprit donc remis dans sa premiere place,
+<lb />Témoignoit d’avoir eu quelque grande disgrace.
+<lb />Ie demanda pour lors l’effet de son mal-heur,
+<lb />D'où pouvoit provenir vne si triste humeur.
+<lb />Madame, me dit-il, ma douleur est extreme,
+<lb />C’est que je n’oze pas vous dire quelle j’aime.
+<lb />Alors il éclatta contre ce povre objet
+<lb />Qu’il avoit delaissé, sans luy donner sujet:
+<lb />Qu’on ne doit pas traitter vne ame genereuse
+<lb />Pour rien si rudement, hormis qu’on en abuse.
+<lb />De ces discours surprise, &amp; tous mes sens charmez,
+<lb />Me firent prononcer: Qu’est-ce que vous aimez?
+<lb />Ces paroles estant aussi tost agreables
+<lb />A cet esprit, pour moy furent si favorables,
+<lb />Qu’il m’appella, son cœur, me prenant par la main?
+<lb />Et me dit, Ie vous veux declarer mon dessein.
+<lb />Nous avançons tous deux d’vn pas à l’ordinaire:
+<lb />Il témoigna m’aimer, pour tacher à me plaire.
+<lb />Mais comme il m’avoit dit, que son affection
+<lb />Estoit fondé ailleurs: toute la passion
+<lb />Qui pouvoit m’animer, c’estoit de le resoudre,
+<lb />Et du bruit de tonnerre, en eviter la foudre.
+<lb />Aprés avoir ouvert ainsi quelques discours,
+<lb />Et qu’il m’eut dirigé le pas de ses amours:
+<lb />9a Goilte le poita de me vouion conduite,
+<lb />Tant rempli de vertu que je voyoy reluire
+<lb />Dans ses yeux, qui charmerent aussi tost mes esprits,
+<lb />Et qui me firent voir la valeur de son prix.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />S’il vous faut raconter mes amours de la sorte,
+<lb />Le nombre en est si grand, qu’il faut fermer la porte.
+<lb />Car tout le monde m’aime, &amp; personne m’accuse
+<lb />D’avoir dit seulement, c’est toy que je refuse.
+<lb />Ceux qui vienent me voir, sont le tres-bien venus,
+<lb />Et dans ma bonne grace aussi tost devenus.
+<lb />Mon cœur autãt pour l’vn que pour l’autre a partage:
+<lb />lamais je ne le donne, hors de le mettre en gage.
+<lb />Mes discours sont fardez pour celuy qui me plait.
+<lb />Et je trouve qu’ainsi personne me déplait.
+<lb />I’agrée mon humeur, jamais je ne soûpire.
+<lb />I’aime jusqu’à la mort, de tousjours chanter, rire.
+<lb />Que sert de soûpirer, barrasser son esprit,
+<lb />Si vous n’avez pas eu d’vn amant son écrit:
+<lb />S’il demeure vn peu trop, s’il vous fait trop attendre?
+<lb />De tous ces discours-là, je n’en veux plus entendre.
+<lb />Voila pourquoy, Madame, épargnez tous ces pleurs.
+<lb />Epandez à propos ces témoins de mal-heurs.
+<lb />Ne sçavez-vous pas bien que vous estes aimée?
+<lb />Cette personne encor, n’est-elle pas preuvée?
+<lb />Laissez-moy ces soûpirs, fondez-vous au present,
+<lb />De loger vostre esprit dans le contentement.
+<lb />Ce sera mieux pour vous dans vn si bon rencontre.
+<lb />Mais qui vient pas à pas li toit nous interrompre.
+<lb />Il me semble à present que je le connois bien.
+<fw><lb />{
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SECONDE.
+<lb />DE LOSELET. FIORISTE. DOROTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />De Loselet.
+<lb />Adame, excusez-moy, si dans cet entretien,
+<lb />Mle romps vostre discours: mais puis que cecy
+<lb />Me dõner liberté, cõme estant ma Maistresse, (presse.
+<lb />De commettre à present cette incivilité:
+<lb />Vous excuserez bien cette temerité.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste. Poursuis.
+</sp>
+<sp type="MainZone-Sp"><lb />De bojétet.
+<lb />Le monde va voir partir vostre pere,
+<lb />Il faut croire qu’il est au Roy bien necessaire:
+<lb />Car ce depart si prompt, me doit faire juger,
+<lb />Que ces peuples mutins veulent s’avantager.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Tes desseins sont rompus, mal-heureuse Floriste,
+<fw><lb />e?
+<lb />se.
+</fw><lb />Et ll raudra cedei a ce qui te reiite.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Mais vn cœur genereux pour rien faut-il qu’il cede,
+<lb />Les moyens sont tres-grãds pour trouver du remede.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ah! vous ne penetrez que l’effet du present:
+<lb />Ie songe à l’advenir, qui m’est plus important:
+<lb />Car vous sçavez fort bien qu’vn General d’armée,
+<lb />Ne doit pas dans vn rien perdre sa renommée.
+<lb />Que si mon pere suit, il faut abandonner
+<lb />Celuy qui par honneur je pourray pardonner.
+</sp>
+<sp type="MainZone-Sp"><lb />Dorothée.
+<lb />Vous me surprenez bien aprés ces tendres mots.
+<lb />Quoy que ce que fay dit citoit nors de propos;
+<lb />Ie parle franchement, je ne suis pas credule,
+<lb />Ce qu’a dit vostre Page est du tout ridicule.
+</sp>
+<sp type="MainZone-Sp"><lb />De Loselet.
+<lb />Que vous le vouliez croire, ou ne le croire pas,
+<lb />Pour advertir tout deux, je n’ay pas plaint mes pas.
+<lb />Madame, vous devez pourvoir à ces affaires,
+<lb />Puis qu’elles vous appellent, elles sont necessaires,
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />C’est à tort maintenant, il n’en faut plus parler,
+<lb />Le sort en est jette, s’il faut le declarer.
+<lb />Mais c’est trop s’amuser pour plaire à ma paresse,
+<lb />Mon esprit trop flatteur, tu vois que cecy presse.
+<lb />Allons sans plus tarder, &amp; nous apprendrons mieux,
+<lb />S’il dit la verite, du temoin de nos yeux.
+<fw><lb />––
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE TROISIEME.
+<lb />CIORIDOR. BRISE-FER. FLORISTE.
+<lb />Cloridor. T Rise-fer.
+<lb />Brise-fer. I Monsieur, la voila donc.
+<lb />Cloridor. Si faut-il s’y resoudre,
+<lb />Quand je sçaurois pour vous d’estre reduit en poudre.
+<lb />Floriste. Ah! vous me surprenez.
+<lb />Cloridor. D’où vienent ces froideurs?
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Mon esprit, O mon cher! estoit occupe ailleurs.
+<lb />Et je vous promets bien, que mon ame troublée
+<lb />Pout vous, estort alors juiques dais la mélées
+<lb />Ie pensois de vous voir au milieu du combat.
+<lb />8
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Vous faites à present de moy trop peu d’estat.
+<lb />Quoy? seroit-ce la foy que je vous ay promise.
+<lb />Ma vie dés long temps vous est par tout acquise:
+<lb />Et l’hazarderois-je pour autre que pour vous?
+<lb />Que si cela arrivoit, j’embrasserois les coups.
+</sp>
+<sp type="MainZone-Sp"><lb />Florisle.
+<lb />Vous voulez déguiser d’vne humeur agreable,
+<lb />Ce qui, pleut-il aux Dieux, ne fut pas veritable.
+<lb />Quelqu’vn empesche icy de dire le dessein
+<lb />Que vous avez dans l’ame, &amp; qui m’est trop certain,
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Que veut dire ce Page?
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />C’est vn témoin pour moy d’vn fort triste message.
+<lb />Cloridor. Faites-le retirer.
+<lb />Floriste. Page, va de ce pas,
+<lb />l aileuter de falralle, &amp; ne fetalde pas.
+<fw><lb />
+<lb />--
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIEME.
+<lb />CLORIDOR. FLORISTE. DOROTHEE. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ourrons-bien parlet asture en asseurance,
+<lb />I Et dire sans regtet, quatre mots d’importance.
+<lb />Iragt- Comeaies
+<lb />Floriste. Vous le pouvez fort bien.
+<lb />Cloridor. Commandez de fermer,
+<lb />pour éviter tousjours ce qui se peut tramer.
+<lb />Floriste. Dorothée, fermez.
+<lb />Dorothée. Ie vay vous satisfaire:
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />C’est à ce coup qu’il faut vous declarer l’affaire,
+<lb />Vous ne l’ignorez pas: mais je ne puis tarder.
+<lb />Il n’y a plus de remise asture à demander.
+<lb />Floriste. Pourquoy?
+<lb />Cloridor. Vous le lçavez.
+<lb />Rienistel laucellsse eilrillaes
+<lb />Cloridor. Mon depart à ce coup demande vostre veuë.
+<lb />Floriste. Vous l’avez, achevez.
+</sp>
+<sp type="MainZone-Sp"><lb />ctonsdor.
+<lb />C’est qu’il faut s’y resoudre, &amp; ne me parler plus
+<lb />A present des discours qui me sont superflos.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Vous ne croyriez jamais comme j’en suis contente,
+<lb />Pour arriver bien tost au bout de mon attente.
+<lb />Car j’abandonne à vous mon honneur &amp; mon bien.
+<lb />Cloridor. Vostre honneur.
+<lb />Floriste. Ie di la verité, je ne vous cache rien.
+<lb />Vous tiendrez aujourd’huy la place de mon pere,
+<lb />Et tout ce que j’en fay, n’est que pour vous satisfaire.
+<lb />Ie vous aime, il est vray, je ne le puis celer:
+<lb />L’amour à tout moment me force de parler.
+</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas frappe à la porte.
+<lb />Cloridor. Qu’enten-je donc, Brise-fer?
+<lb />Brise-fer. Quelqu’vn frappe bien fort la porte.
+<lb />Dorothée. Ie vay voir ce que c’est.
+<lb />Floriste. Ie suis à demi morte.
+<lb />Mon pere asseurément.
+<lb />Dorothée. Nous sommes desolez.
+<lb />mipe jer α Etortuer. sroneur, qu'en uites cous? parlez,
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Mal-heureuse Floriste, à quoy peux-tu pretendre,
+<lb />Aprés tant de mal-heurs, enfin il faut se rendre?
+<lb />Qu'est-ce que nous ferons? car je ne connoy rien.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />S’il ne tient qu’à cela, j’ay trouvé le moyen,
+<lb />vous n'avez point d'elprit, mon Maistre, vne parole:
+<lb />Vous sçavez désja bien que je suis vn bon drole.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Il luy parle à l’oreille.
+<lb />En bonne verité, c’est vn garçon d’esprit.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Parlez-moy vitement, qu’est-ce qu’il vous a dit?
+<lb />Voila qui va fort bien, &amp; ce qu’il nous faut faire.
+<lb />Il parle à l’oreille de Floriste, &amp; elle luy donne vn
+<lb />pisiotet, &amp; Brije-Jer se catpe dertiere vne tapifferie.
+<lb />Cloridor. Nous eviterons la colere d’vn pere.
+<fw><lb />––-
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIEME.
+<lb />D'ALEBAS. FLORISTE. LE GRAND MAGVS.
+<lb />BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Ve veut dire cecy, ma fille? Quel fracas,
+<lb />QVoir dedans ma maison sortir de Fierabras?
+<lb />Floriste. Ie n’en puis plus.
+<lb />Le Grand Magus. Laissez remettre ses esprits.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Aptés ce mal-heur-là mes sens sont tous surpris.
+<lb />Vous sçaurez que la porte estoit à demi ouverte,
+<lb />Que mes yeux la pouvoient voir à la découverte.
+<lb />Qu’vn certain hardiment poursuivi d’vn Baron,
+<lb />A ce qu’il se nommoit, est entré à la maison.
+<lb />Moy qui trembloy de peur avecque ma servante,
+<lb />Nous
+<lb />Nous le laissons passer, ou jamais je ne mente.
+<lb />Le dernier qui suivoit, va fermer aptés luy,
+<lb />Et luy crie, Coquin, tu mourtas aujourd’huy.
+<lb />De ces rudes discours, enfin, tout estonnee,
+<lb />Empeschent mon esprit d’éclaircir sa pensée.
+<lb />te pertort contre moys mais entendant rapper.
+<lb />Brise-fer sort derriere la tapisserie, se met à genoux.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer à d’Alebas.
+<lb />Monsieur, pardon, je viens trop de m’émanciper:
+<lb />Mais estant poursuivi d’vne meschante teste,
+<lb />I’ay creu d’estre asseuré dedans cette retraitte.
+</sp>
+<sp type="MainZone-Sp"><lb />d dlescns.
+<lb />Ie suis fort satisfait qu’aujourd’huy ma maison
+<lb />ar exite vn nlar neus, peutecitre lans faiton.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ie vous suis obligé, vous le pouvez bien creire.
+</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Ma maison t’a servi d’vn rencontre de pere.
+<lb />Brise-fer. Adieu, Monsieur.
+<lb />D’Alebas. Adieu, mon bon ami,
+<lb />Pense de te venger contre ton ennemi.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIEME.
+<lb />D’ALEBAS. FLORISTE. LE GRAND MAGVS.
+</p>
+<sp type="MainZone-Sp"><lb />D'Alebas.
+<lb />Nfin il faut aller suivre aujourd’huy le Roy.
+<lb />LIe ne m’en puis dédire, ayant vn tel employ.
+<lb />le passe pour vaillant, &amp; veux bien qu’on le sçache.
+<lb />Et si je ne vay pas, je passeray pour lache.
+<lb />Il faut tout hazarder. La generosité
+<lb />Ne s’attribuë pas qu’à qui l’a merité.
+<lb />Et l’honneur est plus grand à toute nostre race,
+<lb />A le bien soûtenir, que d’avoir l’ame basse :
+<lb />Quoy que ces sentimens ne soient pas paternels,
+<lb />Lors qu’il te faut quitter, ils sont vniversels
+<lb />Aux plus braves guerriers, pour mõtrer leur courage:
+<lb />Ie ne t’en sçaurois dite aujourd’huy d’avantage:
+<lb />Car il m’en faut aller pour estre des premiers.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Et vous resterez bien peut-estre des derniers.
+</sp>
+<sp type="MainZone-Sp"><lb />D'Alebas.
+<lb />Ne me replique point, pour tacher de me plaire.
+<lb />Florisse. Permettez.
+<lb />D’Alebas. Et quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Que je dise vn discours que je ne sçaurois taire.
+<lb />Et que dés aujourd’huy.
+<fw><lb />D Aitoa, Henleven.
+<lb />Floriste.
+<lb />Ie me trouve sans pere, &amp; mesme sans appuy.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Que peut-on esperer d’vn cœur qui soit plus tendre?
+<lb />Cruel éloignement, je ne veux plus l’entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ha! ne m'ecoutez pas pour ouyr mes soûpirs.
+<lb />Ie ne demande point de tompre vos desirs.
+<lb />Poursuivez, poursuivez: si je pouvois vous suivre,
+<lb />I’essuyerois les coups qui viendroiẽt pour vous nuite.
+</sp>
+<sp type="MainZone-Sp"><lb />D'Alebas.
+<lb />Ie reconnoy mon sang entendant ce propos,
+<lb />Et je te dois aimer aprés ces tendres mots.
+<lb />Dure &amp; cruelle loy! pour se mettre en estime,
+<lb />Faudra-t-il voir flêchir vn cœut si magnanime?
+<lb />Non, non, c’est trop rêver: d’Alebas, où est-tu?
+<lb />Tu balances: je voy ton esprit abatu.
+<lb />C’est les derniers soûpirs qu’elle aura de mon ame.
+<lb />Floriste. Aprés cela, je pâme.
+<fw><lb />e
+<lb />ire
+</fw><lb />Le Grand Magus tout bas.
+<lb />Ne montrez pas icy que vous estes lans cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />l’ay remis mes esprits, autant que ma douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />D'Alebas.
+<lb />Que je n’entende pas soûpirer d’avantage.
+<lb />Il faut delaisser tout où l’honneur nous engage.
+<lb />Eil apres li Ie raut, puis que c’eit inon devoit;
+<lb />Car l’homme est parmi nous, ce qu’il se fait valoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Ce sont les gens bien faits qui recerchent la gloire,
+<lb />Et qui tachent d’avoir en tous lieux la victoires
+<lb />Vous avez pris naissance au milieu des combats.
+<lb />l’ay veu vostre grand pere, appellé d’Alebas,
+<lb />Dont vous portez le nom, qui n’aimoit que la guerre,
+<lb />Et que quand il marchoit, faisoit trembler la terres
+<lb />Les plus braves estoient heureux d’estre avec luy.
+<lb />Ce que le pere a fait, le fils fait aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Mais cependant, Floriste, aujourd’huy doit cõnoître,
+<lb />Que vous serez son pere, &amp; ensemble son maistre:
+<lb />Que vous gouvernerez ma maison comme moy.
+<lb />Qu'elle se soûmettra du tout sous vostre loy.
+<lb />Car je l’estime trop pour croire le contraire,
+<lb />Aussi elle a trop d’esprit pour me vouloir deplaire.
+<lb />le connoy son humeur, c’est tout dire aprés tout,
+<lb />De ce commencement bous en vertons ie bout.
+<lb />le ne tarderay pas aprés ces deux campagnes.
+<lb />Peut-estre nous irons du costé des montagnes.
+<lb />Mais comme le Roy cache aujourd’huy son dessein,
+<lb />Ie n’en puis pas juger, estant dans l’incertain.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />le vous suis tout acquis pour vn sujet semblable,
+<lb />Puis que pour cet effet vous me jugez capable.
+<lb />Laissez-moy gouverner, vous connoîtrez vn jour,
+<lb />Que je sçay mieux servir qu’on ne fait dans la Cour.
+<lb />Ie ne pretens de vous aucune recompence,
+<lb />Ie connoy les respects deus à vostre naissance:
+<lb />Et s’il falloit encor, pour vous mieux obliger,
+<lb />M’exposer avec vous au milieu du danger.
+<lb />Dana cetce cecuilai coue cennontae peut estre,
+<lb />Que lors qu’il faut servir, je le fais bien parêtre.
+</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Vous me l’avez fait voir quand il estoit besoin.
+<lb />Ie me contente assez d’en estre le témoin,
+<lb />Et je ne m’eu veux plus éclaircir d’avantage:
+<lb />Car ce seroit donter.
+</sp>
+<sp type="MainZone-Sp"><lb />ne euna da nu faen..
+</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Autant de vostre esprit, que de vostre courage.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Ces propos maintenant sont pour moy superflus,
+<lb />Ie vous prie aprés tout, de ne m’en parler plus,
+<lb />Puis que depuis long temps je vous suis redevable</sp>
+<sp type="MainZone-Sp"><lb />D’Alebas.
+<lb />Ie ne sçaurois cacher ce qu'on cioin veritable :
+<lb />Mais puis qu’il faut briser maintenant ce discours,
+<lb />Et qu’il faut s’en aller, sans plus autre recours,
+<lb />Ie vous laisse tous deux. Adieu, ma fille.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste. Adieu, mon pere.
+<lb />Parractie ce discours de moncour poar cods plaire.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIEME.
+<lb />FLORISTE. LE GRAND MAGVS.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />E crains avec raison, puis qu’vn injuste sort,
+<lb />IM’oste aujourd’huy mõ pere, &amp; l’amene à la mort.
+<lb />Mon
+<fw><lb />1e.
+<lb />ort.
+<lb />on
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Mon esprit balancé ne se peut pas resoudre:
+<lb />I'aime bien cet hõneur; mais j’en crains biẽ la foudre.
+<lb />Dans l’estat où je suis, rien ne me peut guerir:
+<lb />Mou mal est sans remede, il faut le découvrir.
+<lb />Cloridor, où est-tu, pour soulager mon ame,
+<lb />Ie ne puis plus celer vne secrete flamme?
+<lb />Vien-moy donc secourir, que retardes-tu tant?
+<lb />Fay voir que tu me sers en veritable amant.
+<lb />Ne me delaisse pas, puis que l’on me delaisse.
+<lb />Tu seras mon appuy, je t’aimeray sans cesse.
+<lb />Mais je connoy fort bien que tu rompras ta foy.
+<lb />Tu ne peux pas quitter avecque cet employ.
+<lb />Mon esprit sur ce poinct est tousjours dans le doute:
+<lb />Il me semble le voir qu’il a pris cette route.
+<lb />Que faut-il que j’espere aprés tant de tigueurs,
+<lb />Que de me voir vn jour comblée de mal-heurs.
+<lb />Mal-heureuse Floriste, à quoy peux-tu pretendre?
+<lb />Ton pere &amp; ton amant qui vont suivre Alexandre,
+<lb />Ne teviendront-jamais, ils mourront dans ces lieux,
+<lb />le jette ces soûpirs pour ces derniers adieux.
+<lb />Encor sice peinide dujourd noy içait connoître,
+<lb />Comme je l’aime assez, l’ayant bien fait paroître
+<lb />Devant que de partir: pour faire son devoir,
+<lb />Il viendra sans tarder dans ce lieu pour me voir.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />A ce que je connoy, vous estes amoureuse,
+<lb />Et vous avez cache juiqu iey voitte ruie.
+<lb />Mais pour vous soulager, nous le ferons venir,
+<lb />Il pourroit avec vous vn peu s’entretenit.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ah! ne me railles pas du sujet qui me trouble.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Qui se fache avec moy, n’espere que le double.
+<lb />Florisie. Et quoy? vous pretendez de me desobliger?
+<lb />Sçacnez que je luis iiile à in en içavois venger.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />N’estes-vous pas sous moy: voire, quelle arrogance?
+<lb />Depuis quand avez-vous perdu l’obeyssance?
+<lb />Vous -eus mecondoissez.
+</sp>
+<p type="MainZone-Other"><lb />Raiijlal mllclenare clcaneur
+</p>
+<p type="MainZone-Head"><lb />SCENE HVICTIEME.
+</p>
+<sp type="MainZone-Sp"><lb />Du Balais.
+<lb />E connoy son humeur, c’est vn esprit volage.
+<lb />Tle la langeray bien, tans parser d'avantage.
+</sp>
+<p type="MainZone-Head"><lb />ACTE IV.
+<lb />SCENE PREMIERE.
+<lb />ALEXANDRE. CLORIDOR.
+</p>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />V seul bruit de mon nom, tout tremblera
+<lb />d’effroy.
+<lb />&amp; Ie veux que tout se range aujourd’huy
+<lb />sous ma loy.
+<lb />Ceux qui resisteront, je leur veux bien apprendre,
+<lb />Que je suis plus qu’vn Roy, m’appellant Alexandre.
+<lb />Ie sçay ranger les bons, &amp; dompter les mutins.
+<lb />Les mutins par la moit, les bons pai les butins,
+<lb />Qu’on se doit abaisser au devant ma vertu,
+<lb />Autant que s’éloigner devant de mon épée:
+<lb />Et que je veux bastir ce qu’on a abatu,
+<lb />Par mon commandement, dessus ma renommée.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Tout est désja sous vous, &amp; vous avez rangé
+<lb />Chacun
+<lb />Chacun dans le devoir. Vous-vous estes vengé
+<lb />Des peuples mutines: &amp; par cette vengeance,
+<lb />Vous faites craindre ceux, qui remplis d’arrogance,
+<lb />Voudtoient choquer leur Roy, se croyant estre vnis.
+<lb />Mais vostre Majesté les aura tost punis.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Ie veux dés aujourd’huy que le plus grand courage,
+<lb />Apprene qu’Alexandre éprouvera sa rage:
+<lb />Et aprés tout cela, que les plus grands guerriers,
+<lb />Vienent couvrir ma teste à l’entour de lauriers.
+<lb />Mais c’est trop retarder dans le tẽps qui me trompe.
+<lb />Qu’on fasse publier par tout à son de trompe,
+<lb />Que tous les Officiers se tienent preparez,
+<lb />Et que quand je voudray je les trouve tous prests.
+<lb />Cependant vous irez ordonner ces affaires,
+<lb />Pout s’en aller bien tost punir ces temeraires.
+<fw><lb />---
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE SECONDE.
+</p>
+<sp type="MainZone-Sp"><lb />Alexandre avec deux Pages.
+<lb />'L faudra bien tost voir d’assembler mon Conseil,
+<lb />IQuoy que leurs sentimens soient bien au mien pa<lb />Mais cõme il faut regner avecque la prudence, (reil:
+<lb />Ie tiens le poids en main, le pouvoir la balance.
+<lb />L’vn fait connoître à tous que j’aime bien le droit,
+<lb />Et l’autre tient la bride à qui m’offenceroit.
+<lb />Tout le monde obeyt alors que je commande.
+<lb />Et j’ay dans vn moment tout ce que je demande,
+<lb />Puis que le Ciel propice a voulu par mes vœus,
+<lb />M’élever sans pareil par les tresors des Dieux.
+<lb />l’acheve ce discours poursuivant ma fortune,
+<lb />Et je demande encor qu’elle me soit commune:
+<lb />Car si je puis par elle abaisser tout sous moy,
+<lb />se pourray bien encor la ranger sous me loy.
+<lb />Si les Dieux aujourd’huy m’ont voulu faire naistre
+<lb />Au milieu des lauriers, pour me faire parêtre:
+<lb />Qu'ont-ils donc à se plaindre aprés tant de faveurs,
+<lb />Dont je me sent vaincu, qu’estre plus que vainqueurs?
+<lb />C’est suivre leur pouvoir, le Ciel me le propose:
+<lb />Cependanit atlons voir comme tout se dispose.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIEME.
+<lb />FLORISTE. ALEXANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste. T’Alebas, d’Alebas.
+<lb />Mon pere, où estes-vous?
+<lb />Alexandre. Quelle voix me surptend?
+<lb />Floriste Sire,
+<lb />Excusez ma douleur qui me force de dire.
+<lb />Alexandre. Madame, &amp; qu’est-ce?
+<lb />Floriste. Ce que je n’oze celer.
+<lb />La rage à tout moment me force de parler.
+<lb />Mon esprit tout troublé pense qu’à la vengeance
+<lb />D'vn crime, que les Dieux tienent pour vne offence.
+<lb />Alexandre. Qui vous a donc fait tort?
+<lb />Floriste. Ie deplore mon sort.
+<lb />S’il faut le declarer, j’ay bien dequoy me plaindre:
+<lb />Mon mal-heur est trop grand pour vous le pouvoir
+<lb />Pour témoins du sujet, j’en implore les Dieux (feindre,
+<lb />Alexandre. Expliquez-vous donc mieux.
+<lb />Floriste. S’il faut le raconter: L’absence en est sensible
+<lb />D'vn pere qui m’aimoit, &amp; qui dans l’impossible
+<lb />De quitter son honneur, pour suivre vostre loy,
+<lb />M’a laissé vn insolent, qui veut joüyt de moy.
+<lb />Mon esprit tourmenté d’vne façon estrange:
+<lb />S’il n’en tire raison, quel moyen qu’il se change?
+<lb />Il vous implore icy, comme le Conducteur,
+<lb />Et croid que vous aurez égard à son mal-heur.
+<fw><lb />ir
+<lb />e,
+<lb />le
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Vn esprit genereux pour rieu faut-il qu’il cede,
+<lb />Les moyens sont fort grãds pour trouver du remedes
+<lb />Qu’on le fasse venir, dites, que je l’ordonne,
+<lb />Et qu’on s’aille asseurer vite de sa personne.
+<lb />Ce sujet choque trop à present mon esprit.
+<lb />Linsolence est trop grande, à ce qu’elle a décrit.
+<lb />Cepeudant pourluivez, je veux en cette affaire,
+<lb />Vous servir promptement, &amp; en place de pere.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Mon ame qui désja pressentoit sa douleur,
+<lb />Craignoit depuis long temps l’effet de mon malheur.
+<lb />Mon destin qui suivoit pas à pas l’infortune,
+<lb />Faisoit connoître assez qu’elle m’estoit commune.
+<lb />Les Dieux pour m’éprouver, ont fait cesser leurs dõs,
+<lb />Et m’ont voulu punit pour de grandes raisons.
+<lb />La terre qui pour moy ne portoit que de roses,
+<lb />A voulu les tourner en de metamorphoses.
+<lb />Ce pere qui n’avoit que des yeux pour me voir.
+<lb />Ce Ciel qu’en me faisant ouvrit tout son pouvoir,
+<lb />Et qui pour me flatter me laissa tant de charmes,
+<lb />Ne devoit-il pas bien me venger de ses armes.
+<lb />lustes Dieux! je replique encor pour mon secours.
+<lb />Vengez, vengez l’affront de mes justes discours,
+<lb />Ou permettez du moins, qu’aprés cela je meure.
+<lb />Car je vis pour mourir, aux tourmens que j’endure.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Madame, fondez-vous sur mon intention,
+<lb />Sans suivre les transports de vostre passion:
+<lb />Et croyez que les Dieux avecque leur puissance,
+<lb />S’ils cerchent de tourmens pour punit cette offence,
+<lb />N’inventeront jamais pour luy plus de danger,
+<lb />Que m’on esprit pourra fournir pour vous venger.
+<lb />Appaisez librement cette juste colere.
+<lb />C’est moy, c’est moy, qui veux pour tout vous satis<lb />N’implorez point pour vous tant de Divinitez. (faire,
+<lb />S’ils s’estiment puissans, j’ay bien leurs vanitez.
+<lb />Reconnoissez donc mieux, cõme on me doit cõnêtre:
+<lb />Car lors qu’il faut servir, je le fay bien parêtre.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />C’est à tort que je sens mon esprit balancé,
+<lb />Ie voudrois par raison n’avoir jamais pensé.
+<lb />Vous estes, je sçay bien, trop juste &amp; raisonnable,
+<lb />Pour n’accabler le mal à present qui m’accable.
+<lb />Ce n’est pas d’aujourd’huy qu’on cõnoit vos valeurs,
+<lb />vortre erprie le cemoigne, ce cos predecesseurs.
+<lb />Ie ne sçaurois jamais m’expliquer d’avantage:
+<lb />Car ce sont les effets d’vn Roy de grand courage.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />A ce que je connois, vostre humeur me plait fort,
+<lb />Puis que cecy depend. Mais voicy Cloridor.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIEME.
+<lb />CLORIDOR. ALEXANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />E viens d’executer si promptement vostre ordre,
+<lb />IQue tout le monde est prest à ce coup d’en demor<lb />Mais qui trouble?
+<lb />Alexandre. Madame, agreez à present,
+<lb />(dre.
+<lb />De vous choisit vn lieu dans mon appartement.
+</sp>
+<p type="MainZone-Other"><lb />Alex
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Alexandre. Poursuivez.
+<lb />Cloridor. Mon esprit.
+<lb />Alexandre. Qui vous arreste?
+<lb />Cloridor. Sans doute cette.
+<lb />Alexandre. Cette.
+<lb />cloridor. Cette Dame.
+<fw><lb />S.
+<lb />2
+<lb />2
+<lb />8
+</fw><lb />atunurt. loorquoy: ia connomez-vous bien?
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Mon devoir me permet de ne vous cacher rien.
+<lb />L’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />L’amour vous doit faire paroître lâche.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Donnez à mon esprit quelque peu de relâche.
+<lb />L’excés de mon amour est si grand en ce poinct,
+<lb />Qu’à ne vous pas mentir, vous ne le croirez point?
+<lb />Cet object a charmé mon ame en telle sorte,
+<lb />Que si vous le sçaviez, vous me feriez escorte,
+<lb />Le dessein que j’avois pour le mettre eir repos.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Ie ne puis sans soupçon, comprendre bien ces mots,
+</sp>
+<sp type="MainZone-Sp"><lb />Clortaor.
+<lb />A vous advoüer tout, mon amour est extreme.
+<lb />Le rencontre est heureux pour celle-là que j’aime.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre tout bas.
+<lb />Ceci, sans point mentir, merite d’estre sçeu.
+<lb />L’intrigue en est fort bon, à ce que j’ay connu.
+<lb />entes moy, Cloridor, comme va cette affaire?
+<lb />Vous estes tout troublé. S’il estoit necessaire,
+<lb />rour vous mieux contenter, de la faire venir,
+<lb />Elle avec vous pourroit vn peu s’entretenir.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Son absence pourroit m’estre beaucoup sensible.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Le sujet en est clair: mais il est trop visible.
+<lb />Pourtant allez luy rendre à present le devoir
+<lb />D'vn veritable Amant, vous avez le pouvoir:
+<lb />Tâchez avec cela de la rendre contente,
+<lb />Et vous viendrez, peut-estre, au bout de vostre at<lb />tente.
+</sp>
+<p type="MainZone-Head"><lb />dCEIVBOIRZAEME.
+</p>
+<sp type="MainZone-Sp"><lb />Alexandre seul.
+<lb />Il faut le declarer, l’affront en est trop grand.
+<lb />DCecy choque le pere, &amp; encor plus l’amant.
+<lb />Quand Cloridor sçaura le sujet de l’affaire,
+<lb />Il ne manquera pas d’estre bien en colere.
+<lb />Allons cependant voir le dessein de nos gens,
+<lb />Ma presence pourra les rendre plus contens.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIEME.
+</p>
+<sp type="MainZone-Sp"><lb />Brise-fer seul.
+<lb />Hl mon Maistre, mon Maistre, où estes-vous
+<lb />A mon Maistre?
+<lb />Que pleut aux Dieux, jamais j’eusse pû vous cõnêtre.
+<lb />Aprés tant de malheurs, povre, que feras-tu?
+<lb />Ie ne donnerois pas de ta vie vn festu.
+<lb />Mais, mõ sort, pourquoy donc me traitter de la sorte?
+<lb />Iustes Dieux! au secours, je vous crie main forte.
+<lb />Quelle crainte panique a surpris mes esprits?
+<lb />Lutins, Diables d’enfer, vous estes mal appris.
+<lb />Vous voulez faire peur à vostre camarade.
+<lb />1
+<lb />Laissez-moy, s’il vous plait, faire ma promenade.
+<lb />I’en voy vn, j’en voy vn, qui sort de l’antre noire.
+<lb />De ce sujet-icy s’en feroit vne histoire.
+<lb />Voir des testes de mort, voir des demons en l’ait.
+<lb />Des écrits en Magus, d’autres en Lucifer.
+<lb />Et qui ne tomberoit bien tost en frenesie.
+<lb />Rien ne peut divertir ce coup, ma fantasie.
+<lb />Ces forgerons de feux qui veulent m’attaquer.
+<lb />Ah! la peur me surprend, j’ay peine à m’expliquers
+<lb />Hola, mon Maistre, hola.
+<fw><lb />I
+<lb />E
+<lb />N
+<lb />V
+<lb />8
+<lb />I
+<lb />
+<lb />I
+<lb />4
+</fw><fw><lb /></fw></sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIEME.
+<lb />CLORIDOR. BRISE-FER.
+</p>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />QVi fait du bruit? Qui crie?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Descendez, descendez vite, je vous en prie.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Qu’entens-je par icy: voy quel extravagant?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Qu'entens-je par icy? pleut aux Dieux non pas tant.
+<lb />Ie croy que mon esprit de temps en teinps le change:
+<lb />Enfin je suis traitté d’vne façon estrange.
+<lb />Cloridor. Explique-toy donc mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Mais n’entendez-vous pas ce bruit dedans les cieux?
+<lb />Ces Demons qui vous crient, cõme à son de trõpete.
+<lb />Ce forchu qui vous suit, qui devant vous tempeste.
+<lb />Vne voix. Rend cette fille, la perfide Cloridor.
+</sp>
+<sp type="MainZone-Sp"><lb />diije jer.
+<lb />N'entendez-vous pas donc? Ie suis à demi mort.
+<lb />Si par hazard le Diable aujourd’huy vous emporte,
+<lb />De peur qu’il se manquât, je luy vay faire escorte.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Mes sens sont tous surpris, &amp; à ce que je vois.
+<lb />Vne voix. Rend-la encore vne fois.
+</sp>
+<sp type="MainZone-Sp"><lb />Cloridor.
+<lb />Ho, je n’en feray rien, exerce ta magie:
+<fw><lb />Brise-fer.
+<lb />Ah! mon Maistre, cecy vous va couster la vie.
+<lb />Ne l’avoy-je pas dit? si faut-il que je pleure.
+<lb />Cettes je n’en puis plus, voyant mon avanture.
+<lb />Cloridor est empurté par deux Lutins.
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE HVICTIEME.
+<lb />LE GRAND MAGVS. BRISE-FER.
+<lb />ennise lt fatatre.
+</p>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />QVi ne tremble où je sais? Morveux, qu’est-ce
+<lb />Brije-Jers
+<lb />que c’est?
+<lb />Monfieur, Monsieur, pardõ: mais je n’ay pas rien fait
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Et ne sçais-tu pas bien que je metamorphose
+<lb />Les hommes, les rochers, que de tout je dispose?
+<lb />Que par mon seul pouvoir, j’ébranle tous les cieux,
+<lb />Que je mets les humains au rang des demi-Dieux.
+<lb />Qui peut bien surmonter icy mon art magique?
+<lb />Ie commande l’Arctique &amp; le Pole Antarctique.
+<lb />Mais n’as-tu point de peur alors que tu me vois.
+<lb />Ie suis le Grand Magus, renommé autresfois.
+<lb />Qui de mon soufle seul, ay fait trembler la terre.
+<lb />Ie domine pat tout, &amp; en paix &amp; en guerre.
+<lb />Ma baguette vaut plus que les thresors d’vn Roy.
+<lb />Personne peut nier de n'estre sous ma loy,
+<lb />Quoy que bien aise encor de te faire comprendre,
+<lb />Que je sçay dans vn rien teduire tout en cendre,
+<lb />Et que tous les guerriers me doivent leurs succés,
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />44
+<lb />Hé! Monsieur, hé! Monsieur, c’est assez, c’est assez.
+<fw><lb />Le Grand Magus.
+<lb />Ie te veux faire voir la teste de ton Maistre,
+<lb />A peine maintenant pourras-tu la connêtre.
+<lb />L’on tire vn rideau, &amp; il paroit vne teste de mort sur vnt
+<lb />table: la teste de mort parle par le moyen d’vn tuyau, le
+<lb />pied de la table troüé.
+</fw><fw><lb />H
+<lb />I
+<lb />I
+<lb />La
+<lb />E
+<lb />C
+<lb />Ec
+<lb />Et
+<lb />C
+<lb />Fa
+<lb />A
+<lb />L
+<lb />M
+<lb />Ie
+<lb />A
+<lb />M
+<lb />Far
+<lb />Ie
+<lb />M
+<lb />V.
+</fw><fw><lb />2
+<lb />2
+<lb />2.
+<lb />qne
+<lb />le
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />riola. je luis perdu, mal-neureus bilseriers
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Remarquez cette teste, elle vient de l’enfer,
+<lb />Des lieux où je commande, &amp; qui me font essence.
+<lb />Là sont tous tes parens de bonne souvenance.
+<lb />Elle te parlera de ta mere jadis,
+<lb />Chassé brusquement par moy du Paradis.
+<lb />Ecoute-la parler, pester contre Floriste,
+<lb />Et sçache qu’il n’y a rien qui contre moy resiste.
+<lb />C’est dõc à toy d’apprẽdre aujourd’huy mon pouvoir,
+<lb />Ce qu’à present je suis, ce qui me fait valoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Qui ne trembleroit pas prés de vostre Magie?
+<lb />Faites-la tost cesser, Monsieur, je vous en prie.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Grand Magus.
+<lb />Apprens, apprens par tout comme on le doit ranger.
+<lb />Qu'on peut bie ii attaquer, mais non pas sans danger.
+</sp>
+<p type="MainZone-Head"><lb />SCENE NEVFVIEME.
+</p>
+<sp type="MainZone-Sp"><lb />Brise-fer seul.
+<lb />E voila bien surpris, où croy-je que je suis?
+<lb />MIl me semble les jours me paroissent de nuicts?
+<lb />Mon esprit tout troublé ne sçait plus se conduire.
+<lb />le crain, non sans raison, que tout me doive nuire.
+<lb />A parler sagement, j’ay bien dequoy penser:
+<lb />Mais pour faire chemin, si faut-il s’avancer.
+<lb />O! c’est bien le moyen de se donner carriere,
+<lb />Faire vn pas en avant, &amp; vn autre en arriere.
+<lb />le ne pourray jamais aller dans ma maison.
+<lb />Mon corps trop hazardeux, est devenu poltron<lb />Voy-je pas derechef quelqu’vn autre parêtre?
+</sp>
+<p type="MainZone-Lg"><lb />H 2
+</p>
+<p type="MainZone-Head"><lb />SCENE DIXIEME.
+<lb />FLORISTES DRISETFER.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />I’Avois peine de loin à te pouvoir connêtre.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Levez-vous toit uiey, ne me tourmnentez plus.
+<lb />Ie ne veux plus oüyr, ni teste, ni Magus.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Tu rêves à present, connois-tu pas Floriste?
+<lb />Brise-fer. Est-ce vous?
+<lb />Pidiiar orgels iliey e
+<lb />Bise-fer. Vous allez estre triste.
+<lb />Floriste. Dequoy?
+</sp>
+<sp type="MainZone-Sp"><lb />Bnise-fer.
+<lb />De vostre Amant, qui par vn rude sort,
+<lb />A fini.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste. A fini.
+<lb />Brise-fer. Il est mort.
+<lb />Floriste. Il est mort!
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Ouy, Madame, il est mort, je viens de voir sa teste,
+<lb />Qui m’a fait tout trembler, qui contre vous tempeste.
+<lb />Qui parle des enfers, qui fait pleurer les vifs.
+<lb />N’avez-vous point de peur? car pour moy je m’en fuis.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Arreste, Brise-fer, vn peu de patience,
+<lb />A ce que je connois, ton proceder m’offence.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Pour me faire arrester, pleurez avecque moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Le grand fou.
+</sp>
+<p type="MainZone-Other"><lb />Brise
+<lb />Brise-fer.
+<lb />Parlez mieox &amp; ce lur voitle loy.
+</p>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Ne t’amuse plus donc à railler de la sorte:
+<lb />Car pour te frotter bien, ma main est assez forte.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Vous-vous imaginez que je parle à dessein:
+<lb />Croyez ce que je dis, tout est que trop certain,
+<lb />Deux Demõs sans raison ont emporté mon Maistre.
+<lb />Ie n’ay pas eu le temps de me bien reconnêtre.
+<lb />Que j’ay veu sur le champ au devant de mes yeux,
+<lb />Paroître vn qui disoit d’ébranler tous les cieux,
+<lb />Ou plustot diray-je l’autheur de cette piece.
+<lb />Gert iiiflomne d'erpeits d'vne grande nardiesse.
+<lb />Il commande par tout, sa baguette vaut plus
+<lb />Que ie tineior d'vn Roy, ennn c’eit le Magus.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Sur ta foy, Brise-fer, le pourray-je bien crere?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Sut ma foy, croyez-le, puis qu’il est necessaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Dernier de mes mal-heurs, achevez de poursuivre.
+<lb />N’estes-vous pas lassé de me laisser trop vivre?
+<lb />Que ferez-vous, Destins, que me causer la mort?
+<lb />Faites-la tost venir, je suis au bout du port.
+<lb />l’ay merité des Dieux cette juste colere.
+<lb />Ils punissent l’orgueil de la fille &amp; du pere.
+<lb />Cessez tous mes espoirs avec grande raison,
+<lb />Et mon ame fuyez cette obscure prison.
+<lb />C’est trop la detenir pour metiter du blâme?
+<lb />Sortez donc de mon corps: sortez, sortez, mon ame.
+<lb />Celle qui vous attend pourroit bien s’ennuyer.
+<lb />Vous avez trop tardé, mon corps, de l’envoyer.
+<lb />Elle tombe évanoüye entre les meins de Brise-fer.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Iuste Dieux! qu’est-ceci? remettez-vous, Madame.
+<lb />Ie tiens tout vostre corps, pour arrester vostre ame.
+</sp>
+<p type="MainZone-Head"><lb />SCENE ONZIEME.
+<lb />ALEXANDRE. BRISE-FER. FLORISTE.
+</p>
+<sp type="MainZone-Sp"><lb />Altxandre.
+<lb />QVe veut dire cecy? D’où vient ce déplaisit?
+</sp>
+<sp type="MainZone-Sp"><lb />Brise fer.
+<lb />I’ay retenu son ame, elle alloit s’enfuyr.
+<lb />Floriste. Ah! mon Amant est mort,
+<lb />Pourquoy vivray je donc?
+<lb />Alexandie vostre Amant?
+<lb />Floriste. Cloridor.
+</sp>
+<sp type="MainZone-Sp"><lb />Rappellez ses esprits.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Cloridor! que je sçache à present cette affaire.
+<lb />Ce ditcoute par fuiion irrite ma colere.
+</sp>
+<sp type="MainZone-Sp"><lb />Floriste.
+<lb />Son valet pourra bien vous en faire recit.
+<lb />Eclaircissez-vous-en, c’est luy qui me l’a dit.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise fer.
+<lb />Sire, c’est à regret que j’en diray l’issuë,
+<lb />Cet affront impuni meritoit vostre veuë.
+<lb />Lors que ce grand Magus, ce Maistre de faquins,
+<lb />A fait trainer ion sviaiitre en queique lieu du mõde?
+<lb />Ie n’en ay jamais veu sur la terre, ni sur l’onde,
+<lb />A ne vous celer rien, de plus malicieux.
+</sp>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Il faut pour ce sujet en implorer les Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Rien n’a pû resister, s’il faut que je le die:
+</sp>
+<p type="MainZone-Other"><lb />C’est
+<lb />Ceit vn terribie enet qu'a lait cette Magle.
+</p>
+<sp type="MainZone-Sp"><lb />Alexandre.
+<lb />Faut-il que mon pouvoir cede à de tels mortels,
+<lb />Qui selon nostre Cour, sont prescrits criminels?
+<lb />Helas! que dira-t-on de ce grand Alexandre,
+<lb />Vainqueur de l’Vnivers, qu’il se soit voulu rendre?
+<lb />Nonis hon.
+<fw><lb />-
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE DOVZIEME.
+<lb />PLVTON. BRISE-FER.
+<lb />Pluton Dieu des Enfers &amp; Cloridor, sur vn chariot,
+<lb />descendent.
+</p>
+<sp type="MainZone-Sp"><lb />Pluton.
+<lb />ARreste, arreste.
+<lb />C’est de moy, c’est de moy, que tu tiens ta conqueste,
+<lb />Ie m’appelle Pluton, prens garde à mon pouvoir.
+<lb />Ie te feray bien tost ranger dans le devoir.
+<lb />Cloridor, cependant je veux vous satisfaire.
+<lb />Vous avez bien servi Bacchus, feu vostre pere.
+<lb />Vous avez soûtenu tousjours aux meilleurs coups.
+<lb />Ie n’ay point de sujet de me plaindre de vous.
+<lb />Venez, charmant object, pour estre si fidele,
+<lb />le veux des sombres nuicts, vous faire l’estincelle.
+<lb />Approchez, approchez, que d’vn sacré lien,
+<lb />le vous fasse joüyr d’vn aimable entretien.
+<lb />Que reste-t-il de plus que vite je contente.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />Son valet Brise-fer, avecque la servante,
+</sp>
+<sp type="MainZone-Sp"><lb />Pluton.
+<lb />Chacun sera contant, &amp; sur tout, Brise-fer,
+<lb />Qui sera le premier des forgerons d’enfer.
+<lb />C’est Hymen pretendu, faut-il qu’il s’accomplisse,
+<lb />le veux que chacun aye aujourd’huy son office.
+</sp>
+<sp type="MainZone-Sp"><lb />Brise-fer.
+<lb />An: non pas, sir vous plait.
+</sp>
+<sp type="MainZone-Sp"><lb />Pluton.
+<lb />Prens garde à ces remarques:
+<lb />Ton Amante sera la premiere des Parques.
+<lb />Ce sera celle-là qui tirera le sort,
+<lb />Et qui pourra abreger la vie par sa mort.
+<lb />Alexandre, venez juger de cette affaire,
+<lb />Qui par quelques raisons pourra vous satisfaire.
+<fw><lb />3
+</fw></sp>
+<p type="MainZone-Other"><lb />I
+<lb />N.
+<fw><lb />4
+<lb /></fw><fw><lb />C
+</fw><fw><lb />C
+</fw></p>
+    </body>
+  </text>
+</TEI>

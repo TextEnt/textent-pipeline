@@ -1,0 +1,2600 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pompée, tragédie par P. Corneille</title>
+        <author>Corneille, Pierre</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb38650397k"/>
+          <author>
+            <persName>Corneille, Pierre</persName>
+          </author>
+          <title>Pompée, tragédie par P. Corneille</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1682" cert="high" resp="BNF">1682</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />22
+</fw>
+<p type="MainZone-Head"><lb />RVEI
+<lb />TRAGEDIE
+<lb />Par P. CORNEILLE.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />A
+<lb />RIS
+<lb />Au Palais. 
+</p>
+<sp type="MainZone-Sp"><lb />IIBERUME DE LUYNE, dans la Salle des
+<lb />Merciers sous la montée de la Cour des Aydes
+<lb />à la Justice.
+</sp>
+<p type="MainZone-P"><lb />la
+<lb />ENRE.
+<lb />LOYSON, au premier Pillier de
+<lb />grand' Salle proche les Consultations
+<lb />au Nom de Jesus.
+</p>
+<p type="MainZone-P"><lb />ERRE TRABOÜILLET, dans la Galerie des
+<lb />Prisonniers, à l’Image S. Hubert, &amp; à la Fortune
+<lb />proche le Greffe des Eaux &amp; Forests,
+</p>
+<p type="MainZone-Other"><lb />M. DC. LXXXII.
+<lb />Avec Privilege du Roy.
+<fw><lb />163
+</fw></p>
+<p type="MainZone-Head"><lb />ACTEURS.
+<lb />JULES CESAR.I
+<lb />MARCANTOINE.
+<fw><lb />MEPIDE.
+</fw></p>
+<p type="MainZone-Entry"><lb />CORNELIE, femme de Pompée.)
+</p>
+<p type="MainZone-Entry"><lb />PTOLOMPE, Roy d'Egypee.r.
+</p>
+<p type="MainZone-Entry"><lb />CLEOPATRE, sœur de Ptofomée. )
+</p>
+<p type="MainZone-Entry"><lb />PHOTIN, Chef du Conseil d’Egypte.)
+<fw><lb />2
+</fw></p>
+<p type="MainZone-Entry"><lb />ACHILLAS, Lieutenant général des Armées du
+<lb />ROJAESJPRRL
+</p>
+<p type="MainZone-Entry"><lb />SEPITME, Pribun Romain à la solde du Roy
+<lb />d’Egypte.
+</p>
+<p type="MainZone-Entry"><lb />CHARMIONN, Daiie d'noniear de Cléopatre.
+</p>
+<p type="MainZone-Entry"><lb />ACHOREE, Ecuyer de crcopuslors.
+</p>
+<p type="MainZone-Entry"><lb />PHILIPPE, Affranchy de Pompée. I
+</p>
+<p type="MainZone-Entry"><lb />TROUPEDE ROMAINS.
+</p>
+<sp type="MainZone-Sp"><lb />TROUPE D’EGYPTIENS.
+<lb />La Scéne est on Aléxandrie dans le Palais de
+<lb />Ptolomée.
+</sp>
+<p type="MainZone-Head"><lb />P
+<lb />AVIE
+<lb />TRAGEDIE.
+</p>
+<p type="MainZone-Head"><lb />ARre A1
+<lb />–
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />
+<lb />TOLOMEE
+<lb />,
+<lb />HOTIN,
+<lb />ACHILLAS, SEPTIME.
+</p>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />E Destin se déclare, &amp; nous venons
+<lb />d’entendre
+<lb />Ce qu’il a résolu du beau-pére &amp; du gen<lb />dre.
+<lb />Quand les Dieux étonuez sembloient se
+<lb />part ager,
+<lb />Pharsale a décidé ce qu’ils n’osoient juger;
+<lb />Ses fleuves teints de sang &amp; rendus plus rapides
+<lb />Par le débordement de tant de parricdes,
+<lb />Cet horrible débris d’Aigles, d’armes, de chars,
+<lb />Sur ses champs empestez confusément épars,
+</sp>
+<p type="MainZone-Lg"><lb />Ces montagnes de morts privez d’honneurs suprèmes
+<lb />Que la Nature force à se venger eux-mesmes,
+<lb />Et dont les troncs pourris exhalent dans les Vents
+<lb />Dequoy faire la guerre au reste des vivans,
+<lb />Sont les tîtres affreux dont le Droit de l’épée
+<lb />Justifiant César a condamné Pompée.
+<lb />Ce déplorable Chef du party le meilleur,
+<lb />Que sa Fortune lasse abandonne au malheur,
+<lb />Devient un grand éxemple, &amp; laisse à la mémoire
+<lb />Des changemens du Sort une éclatante histoire.
+<lb />Il fuit, luy qui toûjours triomphant &amp; vainqueur
+<lb />Vit ses prospéritez égaler son grand cœur;
+<lb />Il fuit &amp; dans nos Ports, dans nos murs, dans nos villes,
+<lb />Et contre son beau-pére ayant besoin d’aziles,
+<lb />Sa déroute orgueilleuse en cherche aux mesmes
+<lb />lieux
+<lb />Où contre les Titans en trouvérent les Dieux.
+<lb />Il croit que ce climat, en dépit de la guerre,
+<lb />Ayant sauvé le Ciel, sauvera bien la Terre,
+<lb />Et dans son desespoir à la fin se meslant
+<lb />Pourra préter l’épaule au Monde chancelant.
+<lb />Ouy, Pompée avec luy porte le sort du Monde,
+<lb />Et veut que nostre Egypte en miracles féconde
+<lb />Serve à sa liberté de sepulchre, ou d’appuy,
+<lb />Et reléve sa chûte, ou trébûche sous luy.
+<lb />C’est dequoy, mes amis, nous avons à résoudre,
+<lb />Il apporte en ces lieux les palmes, ou la foudre,
+<lb />S’il couronna le pére, il hazarde le fils,
+<lb />Et nous l’ayant donnée, il expose Memphis.
+<lb />Il faut le recevoir, ou haster son supplice,
+<lb />Le suivre, ou le pousser dedans le précipice:
+<lb />L’un me semble peu seur, l’autre peu généreux,
+<lb />Et je crains d’estre injuste, &amp; d’estre malheureux;
+<lb />Quoy que je fasse enfin, la Fortune ennemie
+<lb />M’offre bien des périls, ou beaucoup d’infamie,
+<lb />C’est à moy de choisir, c’est à vous d’aviser
+<lb />A quel choix vos conseils doivent me disposer.
+<lb />Il s’agit de Pompée, &amp; nous aurons la gloire
+<lb />D’achever de César, ou troubler la victoire,
+<lb />Et je puis dire enfin que jamais Potentat
+<lb />N’eut à déliberer d’un si grand coup d'Etat.
+</p>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Seigneur, quand par le fer les choses sont vuidées,
+<lb />La Justice &amp; le Droit sont de vaines idées,
+<lb />Et qui veut estre juste en de telles saisons
+<lb />Balance le pouvoir, &amp; non-pas les raisons.
+<lb />Voyez donc vostre force &amp; regardez Pompée,
+<lb />Sa fortune abatuë, &amp; sa valeur trompée.
+<lb />César n’est pas le seul qu’il fuye en cét état,
+<lb />Il fuit &amp; le reproche &amp; les yeux du Sénat,
+<lb />Dont plus de la moitié piteusement étale
+<lb />Une indigne curée aux vautours de Pharsale;
+<lb />Il fuit Rome perduë, il fuit tous les Romains
+<lb />A qui par sa défaite il met les fers aux mains;
+<lb />Il fuit le desespoir des Peuples &amp; des Princes,
+<lb />Qui vengeroient sur luy le sang de leurs Provinces,
+<lb />Leurs Etats &amp; d’argent &amp; d’hommes épuisez,
+<lb />Leurs trosnes mis en cendre, &amp; leurs sceptres brisez,
+<lb />Autheur des maux de tous, il est à tous en bute,
+<lb />Et fuit le Monde entier écrasé sous sa chûte.
+<lb />Le défendrez-vous seul contre tant d’ennemis?
+<lb />L’espoir de son salut en luy seul étoit mis,
+<lb />Luy seul pouvoit pour soy, cédez alors qu’il tombe,
+<lb />Soûtiendrez-vous un faix sous qui Rome succombe,
+<lb />Sous qui tout l’Univers se trouve foudroyé,
+<lb />Sous qui le grand Pompée a luy-mesme ployé?
+<lb />Quand on veut soûtenir ceux que le Sort accable,
+<lb />A force d’estre juste on est souvent coupable,
+<lb />Et la fidélité qu’on garde imprudemment
+<lb />Après un peu d’éclat traisne un long châtiment,
+<lb />Trouve un noble revers, dont les coups invincibles,
+<lb />Pour estre glorieux, ne sont pas moins sensibles.
+<lb />Seigneur, n’attirez point le tonnerre en ces lieux,
+<lb />Rangez-vous du party des Destins &amp; des Dieux,
+</sp>
+<sp type="MainZone-Sp"><lb />Et sans les accuser d’injustice, ou d’outrage,
+<lb />Puisqu’ils font les heureux, adorez leur ouvrage.
+<lb />Quels que soiẽt leurs decrets, déclarez-vous pour eux,
+<lb />Et pour leur obéïr, perdez le malheureux.
+<lb />Pressé de toutes parts des coléres célestes
+<lb />Il en vient dessus vous faire fondre les restes,
+<lb />Et sa teste qu’à peine il a pû dérober
+<lb />Toute preste de choir, cherche avec qui tomber,
+<lb />Sa retraite chez vous en effet n’est qu’un crime,
+<lb />Elle marque sa haine, &amp; non pas son estime,
+<lb />
+<lb />Il ne vient que vous perdre en venant prendre port,
+<lb />Et vous pouvez douter s’il est digne de mort!
+<lb />Il devoit mieux remplir nos vœux &amp; nostre attente,
+<lb />Faire voir sur ses nefs la victoire flotante;
+<lb />Il n’eust icy trouvé que joye &amp; que festins,
+<lb />Mais puisqu’il est vaincu qu’il s’en prẽne aux Destins.
+<lb />J’en veux à sa disgrace &amp; non à sa personne,
+<lb />J’éxécute à regret ce que le Ciel ordonne,
+<lb />Et du mesme poignard pour César destiné
+<lb />Je perce en soûpirant son cœur infortuné.
+<lb />Vous ne pouvez enfin qu’aux dépens de sa teste
+<lb />Mettre à l’abry la vostre &amp; parer la tempeste.
+<lb />Laissez nommer sa mort un injuste attentat,
+<lb />La Justice n’est pas une vertu d’Etat,
+<lb />Le choix des actions ou mauvaises ou bonnes
+<lb />Ne fait qu’anéantir la force des Couronnes,
+<lb />Le droit des Rois consiste à ne rien épargner.
+<lb />La timide équité détruit l’art de régner,
+<lb />Quand on craint d’estre injuste on a toûjours à crain<lb />dre,
+<lb />Et quiveut tout pouvoir doit oser tout enfraindre,
+<lb />Fuir comme un deshonneur la vertu qui le pert,
+<lb />Et voler sans scrupule au crime qui luy sert.
+<lb />C’est-là mon sentiment, Achillas &amp; Septime
+<lb />S’attacheront peut-estre à quelqu’autre Maxime,
+<lb />Chacun a son avis, mais quel que soit le leur,
+<lb />Qui punit le vaincu ne craint point le vainqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHILLAS.
+<lb />Seigneur, Photin dit vray, mais quoy que de Pompée
+<lb />Je voye &amp; la fortune &amp; la valeur trompée,
+<lb />Je regarde son sang comme un sang précieux,
+<lb />Qu’au milieu de Pharsale ont respecté les Dieux.
+<lb />Non qu’en un coup d’Etat je n’approuve le crime,
+<lb />Mais s’il n’est nécessaire, il n’est point légitime.
+<lb />Et quel besoin icy d’une extréme rigueur ?
+<lb />Qui n’est point au vaincu, ne craint point le vainqueur.
+<lb />Neutre jusqu’à present vous pouvez l’estre encore,
+<lb />Vous pouvez adorer César si l’on l’adore;
+<lb />Mais quoy que vos encens le traitent d’Immortel,
+<lb />Cette grande victime est trop pour son Autel,
+<lb />Et sa teste immolée au Dieu de la victoire
+<lb />Imprime à vostre nom une tache trop noire;
+<lb />Ne le pas secourir suffit sans l’opprimer.
+<lb />En usant de la sorte on ne vous peut blasmer.
+<lb />Vous luy devez beaucoup, par luy Rome animée
+<lb />A fait rendre le Sceptre au feu Roy Ptolomée?
+<lb />Mais la reconnoissance &amp; l’hospitalité
+<lb />Sur les ames des Rois n’ont qu’un droit limité.
+<lb />Quoy que doive un Monarque, &amp; dûst-il sa couronne,
+<lb />Il doit à ses Sujets encor plus qu’à personne,
+<lb />Et cesse de devoir, quand la dette est d’un rang
+<lb />A ne point s’acquiter qu’aux dépens de leur sang.
+<lb />S’il est juste d’ailleurs que tout se considére,
+<lb />Que hazardoit Pompée en servant vostre pére?
+<lb />Il se voulut par là faire voir tout puissant,
+<lb />Et vit croistre sa gloire en le rétablissant.
+<lb />Il le servit enfin, mais ce fut de la langue,
+<lb />La bourse de César fit plus que sa harangue,
+<lb />Sans ses mille talents Pompée &amp; ses discours
+<lb />Pour rentrer en Egypte étoient un froid secours.
+<lb />Qu’il ne vante donc plus ses mérites frivoles,
+<lb />Les effets de César valent bien ses paroles,
+<lb />Et si c’est un bien-fait qu’il faut rendre aujourd’huy,
+<lb />Comme il parla pour vous, vous parlerez pour luy.
+<lb />Ainsi vous le pouvez &amp; devez reconnoistre,
+<lb />Le recevoir chez vous c’est recevoir un maistre,
+<lb />Qui tout vaincu qu’il est bravant le nom de Roy
+<lb />Dans vos propres Etats vous donneroit la loy.
+<lb />Fermez-luy donc vos Ports, mais épargnez sa teste.
+<lb />S’il le faut toutefois ma main est toute preste,
+<lb />J’obéis avec joye, &amp; je serois jaloux
+<lb />Qu’autre bras que le mien portast les prémiers coups.
+</sp>
+<sp type="MainZone-Sp"><lb />EPTIME
+<lb />Seigneur, je suis Romain, je connoy l’un &amp; l’autre.
+<lb />Pompée a besoin d’aide, il vient chercher la vostre,
+<lb />Vous pouvez, comme maistre absolu de son sort,
+<lb />Le servir, le chasser, le livrer vif, ou mort.
+<lb />Des quatre le prémier vous seroit trop funeste,
+<lb />Souffrez donc qu’en deux mots j’éxamine le reste,
+<lb />Le chasser, c’est vous faire un puissant ennemy,
+<lb />Sans obliger par là le vainqueur qu’à demy,
+<lb />Puisque c’est luy laisser &amp; sur Mer sur Terre,
+<lb />La suite d’une longue &amp; difficile guerre,
+<lb />Dont peut-estre tous deux également lassez
+<lb />Se vengeroient sur vous de tous les malxx passez.
+<lb />Le livrer à César n’est que la mesme chose;
+<lb />Il luy pardonnera s’il faut qu’il en dispose,
+<lb />Et s’armant à regret de générosité,
+<lb />D’une fausse clémence il fera vanité;
+<lb />Heureux de l’asservir en luy donnant la vie,
+<lb />Et de plaire par là, mesme à Rome asservie,
+<lb />Cependant que forcé d’épargner son rival,
+<lb />Aussi-bien que Pompée il vous voudra du mal.
+<lb />Il faut le delivrer du péril &amp; du crime,
+<lb />Asseurer sa puissance, &amp; sauver son estime.
+<lb />Et du party contraire en ce grand Chef détruit
+<lb />Prendre sur vous le crime, &amp; luy laisser le fruit.
+<lb />C’est là mon sentiment, ce doit estre le vostre,
+<lb />Par là vous gagnez l’un, &amp; ne craignez plus l’autre,
+<lb />Mais suivant d’Achillas le conseil hazardeux,
+<lb />Vous n’en gagnez aucun, &amp; les perdez tous deux.
+<lb />
+</sp>
+<p type="MainZone-Other"><lb />PIOLO</p>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />N’éxaminons donc plus la justice des causes,
+<lb />Et cédons au torrent qui roule toutes choses.
+<lb />Je passe au plus de voix, &amp; de mon sentiment
+<lb />Je veux bien avoir part à ce grand changement.
+<lb />Assez &amp; trop long-temps l’arrogance de Rome
+<lb />A crû qu’estre Romain c’estoit estre plus qu’homme,
+<lb />Abatons sa superbe avec sa liberté,
+<lb />Dans le sang de Pompée éteignons sa fierté,
+<lb />Tranchons l’unique espoir où tant d’orgueil se fonde;
+<lb />Et donnons un Tyran à ces Tyrans du Monde,
+<lb />Secondons le Destin qui les veut mettre aux fers,
+<lb />Et prétons-luy la main pour venger l’Univers.
+<lb />Rome, tu serviras, &amp; ces Rois que tu braves,
+<lb />Et que ton insolence ose traiter d’esclaves,
+<lb />Adoreront César avec moins de douleur,
+<lb />Puisqu’il sera ton maistre aussi-bien que le leur,
+<lb />Allez donc, Achillas, allez avec Septime
+<lb />Nous immortaliser par cét illustre crime;
+<lb />Quir planoau cier, ou non, laissez-m'ent le soucy,
+<lb />Je croy qu’il veut sa mort puisqu’il l’améne icy.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHILLAS.
+<lb />Seigneur, je croy tout juste alors qu’un Roy l’ordonne.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Allez, &amp; liaitez-vous d'anseurer ma couronne,
+<lb />Et vous ressouvenez que je mets en vos mains
+<lb />Le destin de l’Egypte, &amp; celuy des Romains.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />PTOLOMEE, PHOTIN.
+<lb />PTOLOMEE.
+</p>
+<sp type="MainZone-Sp"><lb />Hotin, ou je me trompe, ou ma sœur est déceuë,
+<lb />T De l’abord de Pompée elle espére autre issuë;
+<lb />Sçachant que de mon pére il a le testament,
+<lb />Elle ne doute point de son couronnement,
+<fw><lb />.
+</fw><lb />10
+<lb />Elle se croit déja souveraine maîtresse
+<lb />D’un scéptre partagé que sa bonté luy laisse,
+<lb />Et se promettant tout de leur vieille amitié
+<lb />De mon trosne en son ame elle prend la moitié,
+<lb />Ou de son vain orgueil les cendres rallumées
+<lb />Poussent déja dans l’Air de nouvelles fumées.
+</sp>
+<sp type="MainZone-Sp"><lb />11
+<lb />PHOTIN.
+<lb />Seigneur, c’est un motif que je ne disois pas
+<lb />Qui devoit de Pompée avancer le trépas.
+<lb />Sans doute il jugeroit de la sœur &amp; du frére
+<lb />Suivant le testament du feu Roy vostre pére,
+<lb />Son hoste &amp; son amy, qui l’en daigna saisir,
+<lb />Jugez après cela de vostre déplaisir.
+<lb />Ce n’est pas que je veuille en vous parlant contre elle
+<lb />Rompre les sacrez nœuds d’une amour fraternelle,
+<lb />Du Trosne &amp; non du cœur je la veux éloigner,
+<lb />Car c’est ne régner pas qu’estre deux à régner.
+<lb />Un Roy qui s’y résout est mauvais Politique,
+<lb />I détruit son pouvoit quassa ii le comifiuriiqde,
+<lb />Et les raisons d’Etat... Mais, Seigneur, la voicy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />PTOLOMEE, CLEOPATRE, PHOTIN.
+<fw><lb />CLEOPATRE.
+<lb />Eigneur, Pompée arrive, &amp; vous étes icy!
+</fw></p>
+<sp type="MainZone-Sp"><lb />PIOLOMBE.
+<lb />l’attens dans mon Palais ce guerrier magnanime,
+<lb />Et luy viens d’envoyer Achillas &amp; Septime.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Quoy! Septime à Pompée! à Pompée Achillas!
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Si ce n’est assez d’eux, allez, suivez leurs pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Donc pour le recevoir c’est trop que de vous-mesme?
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ma sœur, je doy garder I'honneur du Dlaocme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Si vous en portez un, ne vous en souvenez
+<lb />Que pour baiser la main de qui vous le tenez,
+<lb />Que pour omfuire nomineege dun pruuu d’un si grand
+<lb />homme.
+</sp>
+<sp type="MainZone-Sp"><lb />TTOLOREE
+<lb />Au sortir de Pharsale est-ce ainsi qu’on le nomme?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Fust-il dans son malhenr de tous abandonné,
+<lb />Il est toûjours Pompée, &amp; vous a couronné.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Il n’en est plus que l’ombre, &amp; couronna mon pére,
+<lb />Dont l’Ombre, &amp; son pas iioy, luy doit ce qu’il
+<lb />Il peut aller, s’il veut, dessus son monument ( espére.
+<lb />Recevoir ses devoirs &amp; son remerciment.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Après un tel bien-fait, c’est ainsi qu’on le traite!
+</sp>
+<sp type="MainZone-Sp"><lb />E TO DO REH.
+<lb />Je m’en souviens, ma sœur, &amp; je voy sa défaite.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Vous la voyez de vray, mais d’un œil de mépris.
+</sp>
+<sp type="MainZone-Sp"><lb />PYOLOMEE.
+<lb />Le temps de chaque chose ordonne &amp; fait le prix.
+<lb />Vous qui l’estimez tant, allez luy rendre hommage,
+<lb />Mais songez qu’au Port mesme il peut faire naufrage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Il peut faire naurrage, &amp; melme dans le Port?
+<lb />Quoy? vous auriez osé luy préparer la mort?
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />J’ay fait ce que les Dieux m’ont inspiré de faire,
+<lb />Et que pour mon Etat j’ay jugé nécessaire.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Je ne le voy que trop, Photin &amp; ses pareils
+<lb />Vous ont empoisonné de leurs lasches conseils;
+<lb />Ces ames que le Ciel ne forma que de bouë.
+<fw><lb />B ij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Ce sont de nos conienis, ouy, Madame, &amp; j'avouë...
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Photin, je parle au Roy, vous répondrez pour tous,
+<lb />Quand je m’abaisseray jusqu’à parler à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE à Photin.
+<lb />Il faut un peu souffrir de cette humeur hautaine,
+<lb />je igay voitre iinocence &amp; je cormioy la faine;
+<lb />Après tout c’est ma sœur, oyez sans repartir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Ah, s’il est encor temps de vous en repentir,
+<lb />Affranchissez-vous d’eux, &amp; de leur tyrannie,
+<lb />Rappelez la vertu par leurs conseils bannie,
+<lb />Cette haute vertu, dont le Ciel &amp; le sang
+<lb />Enflent toûjours les cœurs de ceux de nostre rang.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Quoy! d’un frivol espoir déja préoccupée
+<lb />Vous me parlez en Reine en parlant de Pompée,
+<lb />Et d’un faux zéle ainsi vostre orgueil revétu
+<lb />Fait agir l’intêrest sous le nom de vertu !
+<lb />Confessez-le, ma sœur, vous sçauriez vous en taire,
+<lb />N’étoit le testament du feu Roy nostre pére,
+<lb />Vous sçavez qu’il le garde.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE. Et vous sçaurez aussi
+<lb />Que la seule vertu me fait parler ainsi,
+<lb />Et que si l’intérest m’avoit préoccupée,
+<lb />J’agirois pour César, &amp; non-pas pour Pompée.
+<lb />Apprenez un secret que je voulois cacher,
+<lb />Et cessez desormais de me rien reprocher.
+<lb />Quand ce peuple insolent qu’enferme Alexandrie
+<lb />Fit quitter au feu Roy son Trosne &amp; sa Patrie,
+<lb />De que jusque dans Rome il alla du Sénat
+<lb />Implorer la pitié contre un tel attentat,
+<lb />Il nous mena tous deux pour toucher son courage,
+<lb />Vous, assez jeune encor, moy, déja dans un âge,
+<lb />Où ce peu de beauté que m’ont donné les Cieux
+<lb />D’un assez vif éclat faisoit briller mes yeux.
+<lb />César en fut épris, &amp; du moins j’eus la gloire
+<lb />De le voir hautement donner lieu de le croire;
+<lb />Mais voyant contre luy le Sénat irrité,
+<lb />Il fit agir Pompée &amp; son authorité.
+<lb />Ce dernier nous servit à sa seule priére,
+<lb />Qui de leur amitié fut la preuve derniére,
+<lb />Vous en sçavez l’effet, &amp; vous en joüissez:
+<lb />Mais pour un tel Amant ce ne fut pas assez.
+<lb />Après avoir pour nous employé ce grand homme
+<lb />Qui nous gagna soudain toutes les voix de Rome,
+<lb />Son amour en voulut seconder les efforts,
+<lb />Et nous ouvrant son cœur, nous ouvrit ses tresors.
+<lb />Nous eusmes de ses feux encore en leur naissance;
+<lb />Et les nerfs de la guerre, &amp; ceux de la puissance,
+<lb />Et les mille talents qui luy sont encor dûs
+<lb />Remirent en nos mains tous nos Etats perdus.
+<lb />Le Roy qui s’en souvint à son heure fatale
+<lb />Me laissa comme à vous la Dignité Royale,
+<lb />Et par son testament il vous fit cette loy,
+<lb />Pour me rendre une part de ce qu’il tint de moy.
+<lb />Cert uiir eja ignolanle d ou vinece bon office
+<lb />Vous appelez faveur ce qui n’est que justice,
+<lb />Et l’osez accuier d’une aveug le amitie,
+<lb />Quand du tout qu’il me doit il me rend la moitié.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Certes, ma sœur, le conte est fait avec adresse.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />César viendra bien-tost &amp; j’en ay lettre expresse,
+<lb />Et peut-estre aujourd’huy vos yeux seront témoins
+<lb />De ce que vostre esprit s’imagine le moins.
+<lb />Ce n’est pas sans sujet que je parlois en Reine,
+<lb />Je n’ay receu de vous que mépris &amp; que haine,
+<lb />Et de ma part du Scepte indigne ravisseur,
+<lb />Vous m’avez plus traitée en esclave qu’en sœur;
+<lb />Mesme pour éviter des effets plus sinistres,
+<lb />Il m’a fallu flater vos insolens Ministres,
+<lb />Dont j’ay craint jusqu’icy le fer, ou le poison;
+<lb />Mais Pompée ou César m’en va faire raison,
+<lb />Et quoy qu’avec Photin Achillas en ordonne,
+<lb />Ou l’une ou l’autre main me rendra ma Couronne.
+<lb />Cependant mon orgueil vous laisse à démesler
+<lb />Quier ctort l'antercre queiile rerrore peerrer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />PTOLOMEE, PHOTIN.
+<fw><lb />PIOLOMEE.
+<lb />Ue dites-vous, amy, de cette ame orgueilleuse?
+</fw></p>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Seigneur, cette surprise est pour moy merveilleuse,
+<lb />Je n’en sçay que penser, &amp; mon cœur étonné
+<lb />Dui secret que jamais iii auroit roupģonne,
+<lb />Inconstant &amp; confus dans son incertitude,
+<lb />Ne se resout a rien qu'avec inquietude.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Sauverons-nous Pompée?
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN. Il faudroit faire effort,
+<lb />Si nous l’avions sauvé, pour conclurre sa mort.
+<lb />Cieopatre votis fare, ente ert fere; elle est belle,
+<lb />Et si l’heureux César a de l’amour pour elle,
+<lb />La teste de lompec eit l'’unsque preient
+<lb />Qui vous fasse contr’elle un rempart suffisant.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ce dangereux esprit a beaucoup d’artifice.
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN,
+<lb />Son artifice est peu contre un si grand service.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Mais si, tout grand qu’il est, il céde a ses appas?
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Il la faudra flater, mais ne m’en croyez pas,
+<lb />Et pour mieux empescher qu’elle ne vous opprime,
+<lb />Consultez-en encor Achillas &amp; Septime.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Allons donc les voir faire, &amp; montons à la Tour,
+<lb />Et nous en résoudrons ensemble à leur retour.
+<lb />Fin du prémier Acte.
+<lb />2
+</sp>
+<p type="MainZone-Head"><lb />ACTE II
+</p>
+<p type="MainZone-Head"><lb />SGENE PREM IERE.
+<lb />CLEOPATRE, CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />E l’aime, mais l’éclat d’une si belle fia<lb />me,
+<lb />Quelque brillant qu’il soit, n’ébloüit
+<lb />point mon ame,
+<lb />Et toûjours ma vertu retrace dans mon
+<lb />cœur
+<lb />Ce qu’il doit au vaincu, bruslant pour le vainqueur.
+<lb />Auis qui l'olc ailliel porte une ame tiop naûte,
+<lb />I'out souffrir seulement le soupçon d’une faute,
+<lb />Et je le traiterois avec indignité,
+<lb />Si j’aspirois à luy par une lascheté.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />Quoy! vous aimez César, &amp; si vous étiez creuë,
+<lb />L’Egypte pour Pompée armeroit à sa veuë,
+<lb />En prendroit la défense, &amp; par un prompt secours
+<lb />Du destin de Pharsale arréteroit le cours!
+<lb />L’Amour certes sur vous a bien peu de puissance.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Les Princes ont cela de leur haute naissance.
+<lb />Leur ame dans leur sang prend des impressions
+<lb />Qui dessous leur vertu rangent leurs passions,
+<lb />Leur générosité soûmet tout à leur gloire,
+<lb />Tout est illustre en eux, quand ils daignent se croire,
+</sp>
+<sp type="MainZone-Sp"><lb />B iiij
+<lb />Et si le Peuple y voit quelques déréglemens,
+<lb />C’est quand l’avis d’autruy corrompt leurs sentimens.
+<lb />Ce malheur, de Pompée achéve la ruïne,
+<lb />Le Roy l’eust secouru, mais Photin l’assassine,
+<lb />Il croit cette ame basse &amp; se montre sans foy,
+<lb />Mais s’il croyoit la sienne il agiroit en Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHurlen PO Fu.
+<lb />Ainsi donc de César l’Amante &amp; l’ennemie....
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Je luy garde ia naine exempte d’infamie,
+<lb />Un cœur digne de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />Vous possédez le sien?
+</sp>
+<sp type="MainZone-Sp"><lb />CEno lnlRE.
+<lb />Je croy le posséder.
+<lb />CHARMION. Mais le sçavez-vous bien?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Apprén qu’une Princesse aimant sa Renommée.
+<lb />Quand elle dit qu’elle aime, est seure d’estre aimée,
+<lb />Et que les plus beaux feux dont son cœur soit épris,
+<lb />N’oseroient l’exposer aux hontes d’un mépris.
+<lb />Nostre séjour à Rome enflama son courage,
+<lb />Là j’eus de son amour le prémier témoignage,
+<lb />Et depuis, jusqu’icy chaque jour ses courriers
+<lb />M’apportent en tribut ses vœux &amp; ses lauriers.
+<lb />Par tout, en Italie, aux Gaules, en Espagne,
+<lb />La Fortune le suit, &amp; l’Amour l’accompagne;
+<lb />Son bras ne dompte point de Peuples ny de lieux,
+<lb />Dont il ne rende hommage au pouvoir de mes yeux,
+<lb />Et de la mesme main dont il quitte l’épée
+<lb />Fumante encor du sang des amis de Pompée,
+<lb />Il trace des soûpirs, &amp; d’un stile plaintif
+<lb />Dans son champ de victoire il se dit mon captif.
+<lb />Ouy, tout victorieux il m’écrit de Pharsale,
+<lb />Et si sa diligence à ses feux est égale,
+<lb />Ou plûtost si la mer ne s’oppose à ses feux,
+<lb />L’Egypte le va voir me presenter ses vœux.
+<lb />Il vient, ma Charmion, jusque dans nos murailles
+<lb />Chercher auprès de moy le prix de ses batailles,
+<lb />M’offrir toute sa gloire, &amp; soûmettre à mes loix
+<lb />Ce cœur &amp; cette main qui commandent aux Rois,
+<lb />Et ma rigueur meslée aux faveurs de la guerre
+<lb />Feroit un malheureux du maistre de la Terre.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />J’oserois bien jurer que vos charmans appas
+<lb />Se vantent d’un pouvoir dont ils n’useront pas,
+<lb />Et que le grand César n’a rien qui l’importune,
+<lb />Si vos seules rigueurs ont droit sur sa fortune.
+<lb />Mais quelle est vostre attente &amp; que prétendez<lb />vous,
+<lb />Puisque d'une autie fenime irert deja Iepoux,
+<lb />Et qu’avec Calphurnie un paisible Hyménée
+<lb />Par des liens sacrez tient son ame enchaisnée ?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Le Divorce aujourd’huy si commun aux Romains
+<lb />Peut rendre en ma faveur tous ces obstacles vains;
+<lb />Celar en iģait i'aiage &amp; la cérémonie,
+<lb />Un divorce chez luy fit place à Calphurnie.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMON.
+<lb />Par cette mesme voye il pourra vos quitter.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Peut-estre mon bon-heur sçaura mieux l’arréter,
+<lb />Peut-estre mon amour aura quelque avantage
+<lb />Qui sçaura mieux que moy ménager son courage.
+<lb />Mais laissons au hazard ce qui peut arriver,
+<lb />Achevons cet Hymen, s’il se peut achever,
+<lb />Ne durast-il qu’un jour ma gloire est sans seconde
+<lb />D’estre du moins un jour la maîtresse du Monde.
+<lb />J’ay de l’ambition, &amp; soit vice, ou vertu,
+<lb />Mon cœur sous son fardeau veut bien estre abatu,
+<lb />J’en aime la chaleur, &amp; la nomme sans cesse
+<lb />La seule passion digne d’une Princesse.
+<lb />Mais je veux que la gloire anime ses ardeurs,
+<lb />Qu’elle méne sans honte au faiste des grandeurs,
+<lb />Et je la desavouë, alors que sa manie
+<lb />Nous presente le Trosne avec ignominie.
+<lb />Me t’étonne donc plus, Charmion, de me voir
+<lb />Défendre encor Pompée &amp; suivre mon devoir.
+<lb />Ne pouvant rien de plus pour sa vertu séduite,
+<lb />Dans mon ame en secret je l’exhorte à la fuite,
+<lb />Malgré luy l’enlevast aux mains de ses bourreaux.
+<lb />Mais voicy de retour le fidelle Achorée
+<lb />Par qui j’en apprendray la Nouvelle asseurée.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CLEOPATRE, ACHOREE,
+<lb />CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPAIRE.
+<lb />N est-ce déja fait, &amp; nos bords malheureux
+<lb />L Sont-ils déja souillez d’un sang si généreux ?
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Madame, j’ay couru par vostre ordre au rivage,
+<lb />J’ay veu la trahison, j’ay veu toute sa rage,
+<lb />Du plus grand des Mortels j’ay veu trancher le sort,
+<lb />J’ay veu dans son malheur la gloire de sa mort,
+<lb />Et puisque vous voulez qu’icy je vous raconte
+<lb />La gloire d’une mort qui nous couvre de honte,
+<lb />Ecoutez, admirez, &amp; plaignez son trépas.
+<lb />Ses trois vaisseaux en rade avoient mis voile bas,
+<lb />Et voyant dans le Port préparer nos galéres,
+<lb />Il croyoir que le Roy touché de ses miséres,
+<lb />Par un beau sentiment d’honneur &amp; de devoir,
+<lb />Avec toute sa Cour le venoit recevoir.
+<lb />Mais voyant que ce Prince ingrat à ses mérites
+<lb />N’envoyoit qu’un esquif remply de satellites.
+<lb />14
+<lb />Il soupçonne aussi-tost son manquement de foy,
+<lb />Et se laisse surprendre à quelque peu d’effroy.
+<lb />Enfin voyant nos bords &amp; nostre Flote en armes,
+<lb />Il condamne en son cœur ces indignes alarmes,
+<lb />Et réduit tous les soins d’un si pressant ennuy
+<lb />A ne hazarder pas Cornélie avec luy.
+<lb />N’exposons, luy dit-il, que cette seule teste,
+<lb />A la réception que l’Egypte m’apreste,
+<lb />Et tandis que moy seul j’en courray le danger,
+<lb />Songe à prendre la fuite afin de me venger.
+<lb />Le Roy Iuba nous garde une foy plus sincére,
+<lb />Chez luy tu trouveras, &amp; mes fils, &amp; ton pére,
+<lb />Mas quand tu les verrois descendre chez Pluton,
+<lb />Ne desespére point du vivant de Caton.
+<fw><lb />Tandis que leur amour en cét Adieu conteste,
+<lb />Achillas à son bord joint son esquif funeste,
+<lb />Septime se presente, &amp; luy tendant la main
+<lb />Le saluë Empereur en langage Romain,
+<lb />Et comme député de ce jeune Monarque.
+</fw><fw><lb />Passez, Seigneur, dit-il, passez dans cette barque,
+<lb />Les sables &amp; les bancs cachez dessous les eaux
+<lb />Rendent l’accès mal seur à de plus grands vaisseaux.
+<lb />Ce Héros voit la fourbe, &amp; s’en mocque dans l’ame,
+<lb />Il reçoit les Adieux des siens &amp; de sa femme,
+<lb />Leur défend de le suivre, &amp; s’avance au trépas
+<lb />Avec le mesme front qu’il donnoit les Etats.
+<lb />La mesme Majesté sur son visage empreinte
+<lb />Entre ces assassins montre un esprit sans crainte,
+<lb />Sa vertu toute entiére à la mort le conduit;
+<lb />Son affranchy Philippe est le seul qui le suit,
+<lb />C’est de luy que j’ay sçeu ce que je viens de dire,
+<lb />Mes yeux ont veu le reste, &amp; mon cœur en soûpire,
+<lb />Et croit que César mesme à de si grands malheurs
+<lb />Ne pourra refuser des soûpirs &amp; des pleurs.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />N’épargnez pas les miens, achevez, Achorée,
+<lb />L’histoire d’une mort que j’aydéja pleurée.
+<lb />B vj
+<fw><lb />.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />On l’améne, &amp; du Port nous le voyons venir,
+<lb />Sans que pas-un d’entr’eux daigne l’entretenir.
+<lb />Ce mépris luy fait voir ce qu’il en doit attendre.
+<lb />Si-tost qu’on a pris terre, on l’invite à descendre.
+<lb />Il se leve, &amp; soudain pour signal Achillas
+<lb />Derriére ce Héros tirant son coutelas,
+<lb />Septime &amp; trois des siens, lasches enfans de Rome,
+<lb />Percent à coups pressez les flancs de ce grand homme,
+<lb />landis quAchillas mesme épouvanté d’horreur
+<lb />De ces quatre enragez admire la fureur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Vous qui livrez la Terre aux discordes civiles,
+<lb />Si vous vengez sa mort, Dieux, épargnez nos villes,
+<lb />le limpucen fien aux neua, Iecoinoliiez les mains
+<lb />Le crime de l’Egypte est fait par des Romains.
+<lb />Mais que fait, &amp; que dit ce généreux courage?
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />D’un des pans de sa robbe il couvre son visage,
+<lb />A son mauvais destin en aveugle obéït,
+<lb />Et dédaigne de voir le Ciel qui le trahit,
+<lb />De peur que d’un coup d’œil contre une telle offense
+<lb />Il ne semble implorer son aide ou sa vengeance.
+<lb />Aucun gémissement à son cœur échapé
+<lb />Ne le montre en mourant digne d’estre frapé;
+<lb />Immobile à leurs coups, en luy-mesme il rappelle
+<lb />Ce qu’eut de beau sa vie, &amp; ce qu’on dira d’elle,
+<lb />Et tient la trahison que le Roy leur prescrit
+<lb />Trop au dessous de luy pour y préter l’esprit.
+<lb />Sa vertu dans leur crime augmente ainsi son lustre,
+<lb />Et son dernier soûpir est un soûpir illustre,
+<lb />Qui de cette grande ame achevant les destins
+<lb />Etale tout Pompée aux yeux des assassins.
+<lb />Sur les bords de l’esquif sa teste enfin panchée,
+<lb />Par le traistre Septime indignement tranchée,
+<lb />Passe au bout d’une lance en la main d’Achillas,
+<lb />Ainsi qu’un grand trophée après de grands combats.
+</sp>
+<p type="MainZone-Lg"><lb />On descend, &amp; pour comble à sa noire avanture,
+<lb />On donne à ce Héros la Mer pour sépulture,
+<lb />Et le tronc sous les flots roule doresnavant,
+<lb />Au gré de la Fortune, &amp; de l’Onde &amp; du Vent,
+<lb />La triste Cornélie à cét affreux spectacle
+<lb />Par de longs cris aigus tasche d’y mettre obstacle,
+<lb />Défend ce cher époux de la voix &amp; des yeux,
+<lb />Puis n’espérant plus rien, léve les mains aux Cieux,
+<lb />Et cédant tout à coup à la douleur plus forte,
+<lb />Tombe dans sa galére évanoüye, ou morte.
+<lb />Les siens en ce desastre à force de ramer
+<lb />L’éloignent de la rive, &amp; regagnent la Mer,
+<lb />Mais sa fuite est mal seure, &amp; l’infame Septime
+<lb />Qui se voit dérober la moitié de son crime,
+<lb />Afin de l’achever prend six vaisseaux au Port,
+<lb />Et poursuit sur les eaux Pompée après sa mort.
+<lb />Cependant Achillas porte au Roy sa conqueste,
+<lb />Tout le Peuple tremblant en détourne la teste,
+<lb />Un effroy général offre à l’un sous ses pas
+<lb />Des abîmes ouverts pour venger ce trépas,
+<lb />L’autre entend le tonnerre, &amp; chacun se figure
+<lb />Un desordre soudain de toute la Nature,
+<lb />Tant l’excès du forfait troublant leurs jugemens
+<lb />Presente à leur terreur l’excès des châtimens.
+<lb />Philippe d’autre part montrant sur le rivage
+<lb />Dans une ame servile un généreux courage,
+<lb />Examine d’un œil &amp; d’un soin curieux
+<lb />Où les vagues rendront ce dépost précieux, (rendre,
+<lb />Pour luy rendre, s’il peut, ce qu’aux morts on doit
+<lb />Dans quelque Urne chetive en ramasser la cendre,
+<lb />Et d’un peu de poussiére élever un tombeau
+<lb />A celuy qui du Monde eut le sort le plus beau.
+<lb />Mais comme vers l’Afrique on poursuit Cornélie,
+<lb />On voit d’ailleurs César venir de Thessalie,
+<lb />Une Flote paroit qu’on a peine à conter....
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />C’est luy-mesme, Achorée, il n'en faut pont douter.
+<lb />Tremblez, tremblez, méchans, voicy venir la foudre,
+<lb />Cléopatre a dequoy vous mettre tous en poudre,
+<lb />César vient, elle est Reine, &amp; Pompée est vengé,
+<lb />La tyrannie est bas, &amp; le Sort a changé.
+<lb />Admirons cependant le destin des grands hommes,
+<lb />Plaignons-les, &amp; par eux jugeons ce que nous sommes.
+<lb />Ce Prince d’un Sénat Maistre de l’Univers,
+<lb />Dont le bonheur sembloit au dessus du revers,
+<lb />Luy que sa Rome a veu plus craint que le tonnerre
+<lb />Triompher en trois fois des trois parts de la terre,
+<lb />Et qui voyoit encor en ces derniers hazards
+<lb />L’un &amp; l autre Consul suivre ses étendarts,
+<lb />Si-tost que d’un malheur sa fortune est suivie,
+<lb />Les Monstres de l’Egypte ordonnent de sa vie;
+<lb />On voit un Achillas, un Septime un Photin,
+<lb />A rbitres souverains d’un si noble destin;
+<lb />Un Roy qui de ses mains a receu la Couronne
+<lb />A ces pestes de Cour laschement l’abandonne;
+<lb />Ainsi finit Pompée, &amp; peut-estre qu’un jour
+<lb />César éprouvera mesme sort à son tour.
+<lb />Rendez l’augure faux, Dieux qui voyez mes larmes,
+<lb />Et secondez par tout &amp; mes vœux &amp; ses armes.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />Madame, le Roy vient qui pourra vous oüir.
+</sp>
+<p type="MainZone-Head"><lb />DCENH III
+<lb />PTOLOMEE, CLEOPATRE,
+<lb />CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Cavez-vous le bon-heur dont nous allons joüir,
+<lb />S Malœur?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Oüy, je le sçay, le grand César arrive,
+<lb />Sous les loix de Photin je ne luis plus captive.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Vous haïssez toûjours ce fidelle Sujet,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Non, mais en liberté je ry de son projet.
+</sp>
+<sp type="MainZone-Sp"><lb />TIODOMED.
+<lb />Quel projet faisoit-il cont vous pûssiez vous plaindre?
+</sp>
+<sp type="MainZone-Sp"><lb />GLEOPATRE.
+<lb />J’en ay souffert beaucoup &amp; j’avois plus à craindre.
+<lb />Un si grand Politique est capable de tout,
+<lb />Et vous donnez les mains à tout ce qu’il tésout,
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Si je suy lescomenis, j en cortlie y la prudence.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Si j’en crains les effets, j’en voy la violence.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Pour le bien de l’Etat tout est juste en un Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />CETOPATRE.
+<lb />Ce genre de justice est à craindre pour moy.
+<lb />Après ma part du Sceptre à ce tître usurpée,
+<lb />Il en coûte la vie, &amp; la teste à Pompée.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Jamais un coup d’Etat ne fut mieux entrepris,
+<lb />De omiant secourir, César nous eust surpris,
+<lb />Vous voyez sa vistesse, &amp; l’Egypte troublée
+<lb />Avant qu’estre en défense, en seroit accablée.
+<lb />Mais je puis mailiteliant à cet neureux vainqueur
+<lb />Offrir en seureté mon trosne, &amp; vostre cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPAFRE.
+<lb />Je feray mes presens, n’ayez soin que des vostres,
+<lb />Et dans vos intérests n’en confondez point d’autres.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE
+<lb />Les vostres sont les miens, étant de mesme sang.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Vous pouvez dire encor étant de mesme rang,
+<lb />Etant Rois l’un &amp; l’autre; &amp; toutefois je pense
+<lb />Que hos deux mtercits ont queique dmierence.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ouy, ma sœur, car l’Etat dont mon cœur est con<lb />tent
+<lb />Sur quelques bords du Nil à grand peine s’étend:
+<lb />Lrais Cerur de vos foiiouinececense foindourage,
+<lb />Vous va faire régner sur le Gange &amp; le Tage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />J’ay de l’ambition, mais je la sçay régler,
+<lb />Elle peut m’ébloüir &amp; non-pas m’aveugler;
+<lb />Ne parlons point icy du Tage, ny du Gange,
+<lb />yuoonepa pot, &amp; ne prens point le change.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />L otcanon vouoilt, e vougen dicieo.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Si je n’en ule bien, vous m’en accuserez.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />J’en espére beaucoup, veu l’amour qui l’engage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Vous la craignez peut-estre encore davantage;
+<lb />arais queique occasson qui me lie aufourd nuy,
+<lb />N’ayez aucune peur, je ne veux rien d’autruy,
+<lb />je ne garde pour vous ny haine ny colère,
+<lb />Et je suis bonne sœur, si vous n’étes bon frére.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Vous montrez cependant un peu bien du mépris.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Le tempste chaque choie ordome &amp; rair le prix.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Vostre façon d’agir le fait assez connoistre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE. 
+<lb />Le grand César arrive, &amp; vous avez un maistre.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Il l’est de tout le Monde, &amp; je l’ay fait le mien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Allez luy rendre hommage &amp; j’attendray le sien.
+<lb />Allez, ce n’est pas trop pour luy que de vous-mesme,
+<lb />Je garderay pour vous l’honneur du Diadème.
+<lb />Photin vous vient aider à le bien recevoir,
+<lb />Consultez avec luy quel est vostre devoir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />PTOLOMEE, PHOTIN,
+</p>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ay suivy tes conseils, mais plus je l’ay flatée,
+<lb />J Et plus dans l’insolence elle s’est emportée,
+<lb />Si bien qu’enfin outré de tant d’indignitez
+<lb />Je m’allois emporter dans les extrémitez;
+<lb />Mon bras dont ses mépris forçoient la retenuë
+<lb />N’eust plus considéré César, ny sa venuë,
+<lb />Et l’eust mise en état malgré tout son appuy
+<lb />De s’en plaindre à Pompée auparavant qu’à luy.
+<lb />L’arrogante, à l’oüir elle est déja ma Reine,
+<lb />Et si César en croit son orgueil &amp; sa haine,
+<lb />Si, comme elle s’en vante, elle est son cher objet,
+<lb />De son frére &amp; son Roy je deviens son Sujet.
+<lb />Non, non, prévenons-la, c’est foiblesse d’attendre
+<lb />Le mal qu’on voit venir sans vouloir s’en défendre,
+<lb />Ostons-luy les moyens de nous plus dédaigner,
+<lb />Ostons-luy les moyens de plairc &amp; de régner,
+<lb />Et ne permettons pas qu’après tant de bravades
+<lb />Mon sceptre soit le prix d’une de ses œillades.
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Seigneur, ne donnez point de prétexte à César
+<lb />Pour attacher l’Egypte aux pompes de son char.
+<lb />Ce cœur ambitieux qui par toute la Terre
+<lb />Ne cherche qu’à porter l’esclavage &amp; la guerre,
+<lb />Enflé de sa victoire &amp; des ressentimens
+<lb />Qu’une perte pareille imprime aux vrais Amans,
+<lb />Quoy que vous ne rendiez que justice à vous mesme,
+<lb />Prendroit l’occasion de venger ce qu’il aime
+<lb />Et pour s’assujettir &amp; ves Etats &amp; vous,
+<lb />Imputeroit à crime un si juste couroux.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Si Cléopatre vit, s’il la voit, elle est Reine.
+</sp>
+<sp type="MainZone-Sp"><lb />RIROERRC,
+<lb />Si Cléopatre meurt, vostre perte est certaine.
+</sp>
+<sp type="MainZone-Sp"><lb />PIOLOMEE.
+<lb />Je perdray qui me perd, ne pouvant me sauver.
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Pour la perdre avec joye il faut vous conserver.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Quoy: poul von iui la terte celacerinia couronne?
+<lb />Sceptre, s’il faut enfin que ma main t’abandonne,
+<lb />Passe, passe plûtost en celle du vainqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Vous l’arracherez mieux de celle d’une sœur.
+<lb />Quelques feux que d’abord il luy fasse paroistre,
+<lb />Il partira bien-tost, &amp; vous serez le maistre.
+<lb />L’Amour à ses pareils ne donne point d’ardeur
+<lb />Qui ne céde aisément aux soins de leur grandeur:
+<lb />Il voit encor l’Afrique &amp; l’Espagne occupées
+<lb />Par Juba, Scipion, &amp; les jeunes Pompées,
+<lb />Et le Monde à ses loix n’est point assujetty,
+<lb />Tant qu’il verra durer ces restes du Party.
+<lb />Au sortir de Pharsale un si grand Capitaine
+<lb />Sçauroit mal son métier s’il laissoit prendre ha<lb />leine,
+<lb />Et s’il donnoit loisir à des cœurs si hardis
+<lb />De relever du coup dont ils sont étourdis.
+<lb />S’il les vainq, s’il parvient où son desir aspire,
+<lb />Il faut qu’il aille à Rome établir son empire,
+<lb />Joüir de sa fortune, &amp; de son attentat,
+<lb />Et changer à son gié la forme de l’Etat:
+<lb />Jugez durant ce temps ce que vous pourrez faire.
+<lb />Seigneur, voyez Céiar, forcez-vous à luy plaire,
+<lb />
+<lb />Et luy déférant tout veuillez vous souvenir
+<lb />Que les événemens régleront l’avenir.
+<lb />Remettez en ses mains, Trosne, Sceptre, Couronne,
+<lb />Et sans en murmurer souffrez qu’il en ordonne.
+<lb />Il en croira sans doute ordonner justement
+<lb />En suivant du feu Roy l’ordre &amp; le testament;
+<lb />L’importance d’ailleurs de ce dernier service
+<lb />Ne permet pas d’en craindre une entiére injustice:
+<lb />Quoy qu’il en fasse enfin, feignez d’y consentir,
+<lb />Loüez son jugement, &amp; laissez-le partir.
+<lb />Après, quand nous verrons le temps propre aux ven<lb />geances,
+<lb />Nous aurons, &amp; la force, &amp; les intelligences:
+<lb />Jusque-là reprimez ces transports violens
+<lb />eu'eacicene a auelour les incpris Mroren,
+<lb />Les bravades enfin sont des discours frivoles,
+<lb />Et qui songe eux effets néglige les paroles.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ah! tu me rens la vie, &amp; le sceptre à la fois,
+<lb />Un sage Conseiller est le bon-heur des Rois.
+<lb />cner appay de mon Trosne, allons sans plus attendre
+<lb />Offrit tout à César afin de tout reprendre,
+<lb />Avec toute ma l'iote arlons le fecevoir,
+<lb />Et par ces vaitis fionieurs féduire son pouvoir.
+</sp>
+<p type="MainZone-Other"><lb />Fin du second Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE IHI.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />CHARMION, ACHOREE.
+</p>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />Uy, tandis que le Roy va luy-mesme
+<lb />en personne
+<lb />Jusqu’aux pieds de César prosterner sa
+<lb />couronne,
+<lb />Cléopatre s’enferme en son apparte<lb />ment,
+<lb />Et sans s’en émouvoir attend son compliment.
+<lb />Comment nommerez-vous une humeur si hautaine?
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Un orgueil noble &amp; juste, &amp; digne d’une Reine,
+<lb />Qui soûtient avec cœur &amp; magnanimité
+<lb />L’honneur de sa naissance &amp; de sa Dignité.
+<lb />Luy pourray-je parler?
+</sp>
+<sp type="MainZone-Sp"><lb />CHARMION.
+<lb />Non, mais elle m’envoye
+<lb />Sçavoir a cet abord ce qu'on a veu de joye,
+<lb />Ce qu’à ce beau present César a témoigné,
+<lb />S’il a paru content, ou s’il l’a dédaigné,
+<lb />S’il traite avec douceur, s’il traite avec empire,
+<lb />Ce qu’à nos assassins enfin il a sçeu dire.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />La teste de Pompée a produit des effets
+<lb />Dont ils n’ont pas sujet d’estre fort satisfaits.
+<lb />Je ne sçay si César prendroit plaisir à feindre,
+<lb />Mais pour eux jusqu’icy je trouve lieu de crain<lb />dre;
+<lb />S’ils aimoient Ptolomée, ils l’ont fort mal servy.
+<lb />Vous l’avez veu partir, &amp; moy je l’ay suivy.
+<lb />Ses vaisseaux en bon ordre ont éloigné la ville,
+<lb />Et pour joindre César n’ont avancé qu’un mille.
+<lb />Il venoit à plein voile, &amp; si dans les hazards
+<lb />Il éprouva toûjours pleine faveur de Mars,
+<lb />Sa Flote qu’à l’envy favorisoit Neptune
+<lb />Avoit le vent en poupe ainsi que sa fortune.
+<lb />Dès le prémier abord nostre Prince étonne
+<lb />Ne s’est plus souvenu de son front couronné,
+<lb />Sa frayeur a paru sous sa fausse allegresse,
+<lb />Toutes ses actions ont senty la bassesse,
+<lb />J’en ay rougy moy-mesme, &amp; me suis plaint à moy
+<lb />De voir là Ptolomée, &amp; n’y voir point de Roy,
+<lb />Et César qui lisoit sa peur sur son visage
+<lb />Le flatoit par pitié pour luy donner courage.
+<lb />Luy d’une voix tombante offrant ce don fatal,
+<lb />Seigneur, vous n’avez plus, luy dit-il, de Rival;
+<lb />Ce que n’ont pu les Dieux dans vostre Thessalie,
+<lb />Ie vay mettre en vos mains Pompée &amp; Cornélie,
+<lb />En voicy déja l’un, &amp; pour l’autre, elle fuit,
+<lb />Mais avec six vaisse aux un des miens la poursuit.
+</sp>
+<p type="MainZone-Lg"><lb />A ces mots Achillas découvre cette teste.
+<lb />Il semble qu’à parler encor elle s’apreste,
+<lb />Qu’à ce nouvel affront un reste de chaleur
+<lb />En sanglots mal formez exhale sa douleur.
+<lb />Sa bouche encor ouverte &amp; sa veuë égarée
+<lb />Rappellent sa grande ame à peine séparée,
+<lb />Et son couroux mourant fait un dernier effort
+<lb />Pour reprocher aux Dieux sa défaite &amp; sa mort.
+<lb />César à cét aspect comme frappé du foudre,
+<lb />Et comme ne sçachant que croire ou que résoudre,
+<lb />Immobile, &amp; les yeux sur l’objet attachez,
+<lb />Nous tient assez long-temps ses sentimens cachez,
+<lb />Et je diray, si j’ose en faire conjecture,
+<lb />Que par un mouvement commun à la Nature,
+<lb />Quelque maligne joye en son cœur s’élevoit,
+<lb />Dont sa gloire indignée à peine le sauvoit.
+<lb />L’aise de voir la Terre à son pouvoir soûmise
+<lb />Chatoüilloit malgré luy son ame avec surprise,
+<lb />Et de cette douceur son esprit combatu
+<lb />Avec un peu d’effort rasseuroit sa vertu.
+<lb />S’il aime sa grandeur, il hait la perfidie,
+<lb />Il se juge en autruy, se taste, s’étudie,
+<lb />Examine en secret sa joye &amp; ses douleurs,
+<lb />Les balance, choisit, laisse couler des pleurs,
+<lb />Et forçant sa vertu d’estre encor la maîtresse,
+<lb />Se montre généreux par un trait de foiblesse.
+<lb />En suite il fait oster ce present de ses yeux,
+<lb />Léve les mains ensemble &amp; les regards aux Cieux,
+<lb />Lasche deux ou trois mots contre cette insolence,
+<lb />Puis tout triste &amp; pensif il s’obstine au silence,
+<lb />Et mesme à ses Romains ne daigne repartir
+<lb />Que d’un regard farouche, &amp; d’un profond soûpir.
+<lb />Enfin ayant pris terre avec trente Cohortes,
+<lb />Il se saisit du Port, il se saisit des portes,
+<lb />Met des Gardes par tout, &amp; des ordres secrets,
+<lb />Fait voir sa défiance ainsi que ses regrets,
+<lb />Parle d’Egypte en maistre, &amp; de son adversaire,
+<lb />Non plus comme ennemy, mais cõme son beau-pére.
+<lb />Voilà ce que j’ay veu.
+</p>
+<sp type="MainZone-Sp"><lb />CHANMTONV.
+<lb />Voilà ce qu’attendoit,
+<lb />Ce qu’au juste Osiris la Reine demandoit.
+<lb />Je vay bien la ravir avec cette Nouvelle,
+<lb />Vous, continuez-luy ce service fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Qu’elle n’en doute point. Mais César vient, allez,
+<lb />Peignez-luy bien nos gens pasles &amp; desolez,
+<lb />Et moy, soit que l’issuë en soit douce, ou funeste,
+<lb />J’iray l’entretenir, quand j’auray veu le reste.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+<lb />CESAR, PTOLOMEE, LEPIDE.
+<lb />PHOTIN, ACHOREE,
+<lb />Serdats Romains, Soldats
+<lb />Egy ptiens.
+</p>
+<sp type="MainZone-Sp"><lb />TIOBOMEE.
+<lb />Eigneur, montez au trosne &amp; commandez icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Connoissez-vous César de luy parler ainsi ?
+<lb />Que m’offriroit de pis la Fortune ennemie,
+<lb />A moy qui tiens le trosne égal à l’infamie?
+<lb />Certes Rome à ce coup pourroit bien se vanter
+<lb />D’avoir eu juste lieu de me persécuter,
+<lb />Elle qui d’un mesme œil les donne &amp; les dédaigne,
+<lb />Qui ne voit rien aux Rois qu’elle aime, ou qu’elle
+<lb />craigne,
+<lb />Et qui verse en nos cœurs avec l’ame &amp; le sang
+<lb />Et la haine du nom, &amp; le mépris du rang.
+<lb />C’est ce que de Pompée il vous falloit apprendre;
+<lb />S’il en eust aimé l’offre, il eust sçeu s’en défendre,
+<lb />Et le trosne &amp; le Roy se seroient ennoblis,
+<lb />A soûtenir la main qui les a rétablis.
+<lb />Vous eussiez pû tomber, mais tout couvert de gloire,
+<lb />Vostre chûte eust valu la plus haute victoire,
+<lb />Et si vostre destin n’eust pû vous en sauver,
+<lb />César eust pris plaisir à vous en relever.
+<lb />Vous n’avez pû former une si noble envie;
+<lb />Mais quel droit aviez-vous sur cette illustre vie?
+<lb />Que vous devoit son sang pour y tremper vos
+<lb />mains,
+<lb />Vous qui devez respect au moindre des Romains?
+<lb />Ay-je vaincu pour vous dans les champs de Pharsale;
+<lb />Et par une victoire aux vaincus trop fatale,
+<lb />Vous ay-je acquis sur eux en ce dernier effort
+<lb />La puissance absoluë &amp; de vie &amp; de mort?
+<lb />Moy qui n’ay jamais pû la souffrir à Pompée,
+<lb />La souffriray-je en vous sur luy-mesme usurpée,
+<lb />Et que de mon bonheur vous ayez abusé,
+<lb />Jusqu’à plus attenter que je n’aurois osé?
+<lb />De quel nom après tout pensez-vous que je nomme
+<lb />Ce coup où vous tranchez du Souverain de Rome,
+<lb />Et qui sur un seul Chef luy fait bien plus d’affront,
+<lb />Que sur tant de milliers ne fit le Roy de Pont?
+<lb />Pensez-vous que j’ignore, ou que je dissimule
+<lb />Que vous n’auriez pas eu pour moy plus de scrupule,
+<lb />Et que s’il m’eust vaincu, vostre esprit complaisant
+<lb />Luy faisoit de ma teste un semblable present?
+<lb />Graces à ma victoire, on me rend des hommages
+<lb />Où ma fuite eust receu toutes sortes d’outrages,
+<lb />Au vainqueur, non à moy, vous faites tout l’honneur,
+<lb />Si César en joüit, ce n’est que par bonheur.
+<lb />Amitié dangereuse, &amp; redoutable zéle,
+<lb />Que régle la Fortune &amp; qui tourne avec elle.
+<lb />Mais parlez, c’est trop estre interdit &amp; confus.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Je le suis, il est vray, si jamais je le fus,
+<lb />Et vous-mesme avoûrez que j’ay sujet de l’estre.
+<lb />Etant né Souverain je voy icy mon maistre,
+<lb />Icy dy-je, où ma Cour tremble en me regardant,
+<lb />Où je n’ay point encor agy qu’en commandant,
+<lb />Je vois une autre Cour sous une autre puissance,
+<lb />Et ne puis plus agir qu’avec obeïssance.
+<lb />De vostre seul aspect je me suis veu surpris :
+<lb />Jugez si vos discours rasseurent mes esprits,
+<lb />Jugez par quels moyens je puis sortir d’un trouble
+<lb />Que forme le respect, que la crainte redouble,
+<lb />Et ce que vous peut dire un Prince épouvanté
+<lb />De voir tant de colére, &amp; tant de majesté.
+<fw><lb />Dans
+</fw><lb />Dans ces étonnemens dont mon ame est frapée
+<lb />De rencontrer en vous le vengeur de Pompée,
+<lb />Il me souvient pourtant que s’il fut nostre appuy,
+<lb />Nous vous dûmes dessors autant &amp; plus qu’à luy.
+<lb />Vostre faveur pour nous éclata la prémiére,
+<lb />Tout ce qu’il fit après fut à vostre priére:
+<lb />Il émût le Sénat pour des Rois outragez,
+<lb />Que sans cette priére il auroit négligez.
+<lb />Mais de ce grand Sénat les saintes ordonnances
+<lb />Eussent peu fait pour nous, Seigneur, sans vos fi<lb />nances,
+<lb />Par là de nos mutins le feu Roy vint à bout,
+<lb />Et pour en bien parler nous vous devons le tout.
+<lb />Nous avons honoré vostre amy, vostre gendre,
+<lb />jusqu à ce qu.a vous-memne nait ore le prendre:
+<lb />Mais voyant son pouvoir de vos succès jaloux
+<lb />Passer en tyrannie &amp; s’armer contre vous....
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Tout beau que vostre haine en son sang assouvie
+<lb />N’aille point à sa gloire, il suffit de sa vie,
+<lb />N’avancez rien icy que Rome ose nier,
+<lb />Et justifiez-vous sans le calomnier.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Je laisse donc aux Dieux à juger ses pensées,
+<lb />Et diray seulement qu’en vos guerres passées,
+<lb />Où vous fustes forcé par tant d’indignitez,
+<lb />Tous nos vœux ont été par vos prospéritez:
+<lb />Que comme il vous traitoit en mortel adversaire,
+<lb />J’ay crû sa mort pour vous un malheur nécessaire,
+<lb />Et que sa haine injuste augmentant tous les jours,
+<lb />Jusque dans les Enfers chercheroit du secours,
+<lb />Ou qu’enfin, s’il tomboit dessous vostre puissance,
+<lb />Il nous falloit pour vous craindre vostre clémence,
+<lb />Et que le sentiment d’un cœur trop généreux
+<lb />Usant mal de vos droits vous rendist malheureux.
+<lb />J’ay donc considéré qu’en ce péril extrème (me,
+<lb />Nous vous devions, Seigneur, servir malgré vous-mes<lb />4
+<lb />Et sans attendre d’ordre en cette oecafion,
+<lb />Mon zèle ardent l’a prise à ma confusion.
+<lb />Vous m’en desavoüez, vous l’imputez à crime,
+<lb />Mais pour servir César rien n’est illégitime,
+<lb />J’en ay souillé mes mains pour vous en préserver,
+<lb />Vous pouvez en joüir &amp; le desapprouver,
+<lb />Et j’ay plus fait pour vous, plus l’action est noire,
+<lb />Puisque c’est d’autant plus vous immoler ma gloire,
+<lb />Et que ce sâcriflce ofert par mion devorr
+<lb />Vous asseure la vostre avec vostre pouvoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />
+<lb />Vous cherchez, Ptolomée, avecque trop de ruses
+<lb />De mauvaises couleurs, &amp; de froides excuses!
+<lb />Vostre zèle étoit faux, si seul il redoutoit
+<lb />Ce que le Monde entier à pleins vœux souhaitoit,
+<lb />Et s’il vous a donné ces craintes trop subtiles,
+<lb />Qui m’ostent tout le fruit de nos guerres civiles,
+<lb />Où l’honneur seul m’engage, &amp; que pour terminer,
+<lb />Je ne veux que celuy de vaincre &amp; pardonner;
+<lb />Où mes plus dangereux &amp; plus grands adversaires,
+<lb />Si-tost qu’ils sont vaincus, ne sont plus que mes
+<lb />fréres,
+<lb />Et mon ambition ne va qu’à les forcer,
+<lb />Ayant dompté leur haine, à vivre, &amp; m’embrasser.
+<lb />O combien d’allegresse une si triste guerre
+<lb />Auroit-elle laissé dessus toute la Terre,
+<lb />Si Rome avoit peu voir marcher en mesme char
+<lb />Vainqueurs de leur discorde &amp; Pompée &amp; César!
+<lb />Voilà ces grands malheurs que craignoit vostre zèle.
+<lb />O crainte ridieule autant que criminelle!
+<lb />Vous craignez ma clemence! ah! n’ayez plus ce
+<lb />soin,
+<lb /> u unurd
+<lb />Souhaitez-la plûtost, vous en avez besoin.
+<lb />Si je n’avois égard qu’aux loix de la justice,
+<lb />Je m’appaiserois Rome avec vostre supplice,
+<lb />Saus que ny vos respects, ny vostre repentir,
+<lb />Ny vostre Dignité vous purtele gerai,
+<lb />Vostre trosne luy-mesme en seroit le Théatre:
+<lb />Mais voulant épargner le sang de Cléopatre,
+<lb />l’impute à vos flateurs toute la trahison,
+<lb />Et je veux voir comment vous m’en ferez raison.
+<lb />Suivant les sentimens dont vous serez capable,
+<lb />Je sçauray vous tenir innocent, ou coupable.
+<lb />Cependant à Pompée élevez des Autels,
+<lb />Rendez-luy les honneurs qu’on rend aux Immortels,
+<lb />Par un prompt sacrifice expiez tous vos crimes,
+<lb />Et sur tout pensez bien aux choix de vos victimes.
+<lb />Allez-y donner ordre, &amp; me laissez icy.
+<lb />Entretenir les miens sur quelque autre soucy.
+</sp>
+<p type="MainZone-Head"><lb />SCRMIIX
+<lb />CESAR, ANTOINE, LEPIDE.
+</p>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Ntoine, avez-vous veu cette Reine adorable?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTOINE.
+<lb />Ouy, Seigneur, je l’ay veuë elle est incomparable,
+<lb />Le Ciel n’a point encor par de si doux accords
+<lb />Uny tant de vertus aux graces d’un beau corps,
+<lb />Une majesté douce épand sur son visage
+<lb />Dequoy s’assujettir le plus tobre courage,
+<lb />424
+<lb />Ses yeux sçavent ravir, son discours sçait charmer,
+<lb />Et si j’étois César, je la voudrois aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />comme a-t esle receu les offres de ma flame?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTOINE.
+<lb />Comme n’osant la croire, &amp; la croyant dans l’ame;
+<lb />Par un refus modeste &amp; fait pour inviter,
+<lb />Elle s’en dit indigne, &amp; la croit mériter.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />En pourray-je estre aimé?
+<fw><lb />C ij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />AN TOINE.
+<lb />Douter qu’elle vous aime,
+<lb />Elle qui de vous seul attend son Diadème,
+<lb />Qui n’espére qu’en vous! Douter de ses ardeurs,
+<lb />Vous qui pouvez la mettre au faiste des grandeurs!
+<lb />Que vostre amour sans crainte à son amour prétende,
+<lb />Au vainqueur de Pompée il faut que tout se rende,
+<lb />Et vous l’éprouverez. Elle craint toutefois
+<lb />L’ordinaire mépris que Rome fait des Rois,
+<lb />Et sur tout elle craint l’amour de Calphurnie:
+<lb />Mais l’une &amp; l’autre craint à vostre aspect bannie,
+<lb />Vous ferez succéder un espoir assez doux,
+<lb />Lors que vous daignerez luy dire un mot pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Alloiis uonc i'alferinir dc ces firvoles craflstes,
+<lb />Luy montrer de mon cœur les sensibles atteintes,
+<lb />Allons, ne tardons plus.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTOINE.
+<lb />Avant que de la voir
+<lb />Sçachez que Cornélie est en vostre pouvoir,
+<lb />Jepeme vous l'ainene org derrseux de loit ciime,
+<lb />Et pense auprès de vous se mettre en haute estime.
+<lb />Dès qu’ils ont abordé, vos Chefs par vous instruits
+<lb />Sans leur rien témoigner les ont icy conduits.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Qu’elle entre. Ah, l’importune &amp; fascheuse Nou<lb />velle !
+<lb />Qu'à mon impatience elle semble crüelle!
+<lb />O Ciel! &amp; ne pourray-je enfin à mon amour
+<lb />Donner en liberté ce qui reste du jour?
+</sp>
+<p type="MainZone-Head"><lb />SCENE I
+<lb />V
+<lb />CESAR, CORNELIE, ANTOINE,
+<lb />LEPIDE, SEPTIME.
+</p>
+<sp type="MainZone-Sp"><lb />Eigneur...
+<lb />SEPTIME.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Allez, Septime, allez vers vostre maistre,
+<lb />César ne peut souffrir la presence d’un traistre,
+<lb />D’un Romain laiene atiez pour fervir sous un Roy,
+<lb />Après avoir servy sous Pompée, &amp; sous moy.
+<lb />Septime rentre.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />César, car le Destin que dans tes fers je brave
+<lb />Me fait ta prisonniére, &amp; non pas ton esclave,
+<lb />Et tu ne pretens pas qu’il m’abate le cœur
+<lb />Jusqu’à te rendre hommage &amp; te nommer Seigneur.
+<lb />De quelque rude trait qu’il m’ose avoir frapée,
+<lb />Vefve du jeune Crasse &amp; vefve de Pompée,
+<lb />Fille de Scipion, &amp; pour dire encor plus,
+<lb />Romaine, mon courage est encor au dessus,
+<lb />Et de tous les assauts que sa rigueur me livre,
+<lb />Rien ne me fait rougir que la honte de vivre.
+<lb />J’ay veu mourir Pompée, &amp; ne l’ay pas suivy,
+<lb />Et bien que le moyen m’en aye été ravy,
+<lb />Qu’une pitié crüelle à mes douleurs profondes
+<lb />M’aye osté le secours, &amp; du fer, &amp; des ondes,
+<lb />Je doy rougir pourtant après un tel malheur
+<lb />De n’avoir pû mourir d’un excès de douleur.
+<lb />Ma mort étoit ma gloire, &amp; le Destin m’en prive
+<lb />Pour croistre mes malheurs, &amp; me voir ta captive.
+<lb />Je doy bien toutefois rendre graces aux Dieux
+<lb />De ce qu’en arrivant je te trouve en ces lieux,
+<lb />
+<lb />Que César y commande, &amp; non pas Ptolomée
+<lb />Hélas! &amp; sous quel astre, ô Ciel, m’as-tu formée,
+<lb />Si je leur doy des vœux de ce qu’ils ont permis
+<lb />Que je rencontre icy mes plus grands ennemis,
+<lb />Et tombe entre leurs mains plûtost qu’aux mains d’un
+<lb />Prince
+<lb />Qui doit à mon époux son trosne &amp; sa Province?
+<lb />César, de ta victoire écoute moins le bruit,
+<lb />Elle n’est que l’effet du malheur qui me suit.
+<lb />Je l’ay porté pour dot chez Pompée &amp; chez Crasse,
+<lb />Deux fois du Monde entier j’ay causé la disgrace,
+<lb />Deux fois de mon Hymen le nœud mal assorty
+<lb />A chassé tous les Dieux du plus juste party.
+<lb />Heureuse en mes malheurs, si ce triste Hyménée
+<lb />Pour le bonheur de Rome à César m’eust donnée,
+<lb />Et si j’eusse avec moy porté dans ta maison
+<lb />D’un astre envenimé l’invincible poison.
+<lb />Car enfin n’atten pas que j’abaisse ma haine,
+<lb />Je te l’ay déja dit, César, je suis Romaine,
+<lb />Et quoy que ta captive un cœur comme le mien
+<lb />ne peul de o odorler ne tedemande rlene.
+<lb />Ordonne, &amp; sans vouloir qu’il tremble ou s’humi<lb />lie,
+<lb />Souvien-toy seulement que je suis Cornélie.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />O d’un illustre époux noble &amp; digne moitié,
+<lb />Dont le courage étonne, &amp; le sort fait pitié!
+<lb />Certes vos sentimens font assez reconnoistre
+<lb />Qui vous donna la main &amp; qui vous donna l’estre,
+<lb />Et l’on juge aisément au cœur que vous portez
+<lb />Où vous étes entrée &amp; de qui vous sortez.
+<lb />L’ame du jeune Crasse &amp; celle de Pompée,
+<lb />L’une &amp; l’autre vertu par le malheur trompée,
+<lb />Le sang des Scipions protecteur de nos Dieux,
+<lb />Parlent par vostre bouche, &amp; brillent dans vos yeux,
+<lb />Et Rome dans ses murs ne voit point de famille,
+<lb />Qui soit plus honorée, ou de femme, ou de fille.
+<lb />Pleust au grand Jupiter, pleust à ces mesmes Dieux,
+<lb />Qu’Annibal eust bravez jadis sans vos ayeux,
+<lb />Que ce Héros si cher dont le Ciel vous sépare
+<lb />N’eust pas si mal connu la Cour d’un Roy Barbare,
+<lb />Ny mieux aimé tenter une incertaine foy,
+<lb />Que la vieille amitié qu’il eust trouvée en moy;
+<lb />Qu’il eust voulu souffrir qu’un bonheur de mes armes
+<lb />Eutt vaincu ses soupçons, dissipé ses alarmes,
+<lb />Et qu’enfin m’attendant sans plus se défier
+<lb />Il m’eust donné moyen de me justifier.
+<lb />Alors foulant aux pieds la Discorde &amp; l’Envie,
+<lb />Je l’eusse conjuré de se donner la vie,
+<lb />D’oublier ma victoire, &amp; d’aimer un rival
+<lb />Heureux d’ayoir vaincu pour vivre son égal.
+<lb />J’eusse alors regagné son ame satisfaite,
+<lb />Jusqu’à luy faire aux Dieux pardonner sa défaite,
+<lb />Il eust fait à son tour en me rendant son cœur
+<lb />Que Rome eust pardonné la victoire au vainqueur.
+<lb />Mais puisque par sa perte à jamais sans seconde
+<lb />Le Sort a dérobé cette allegresse au Monde,
+<lb />César s’efforcera de s’acquiter vers vous
+<lb />De ce qu’il voudroit rendre à cêt illustre époux.
+<lb />Prenez donc en ces lieux liberté toute entière,
+<lb />Seulement pour deux jours soyez ma prisonniére,
+<lb />Afin d’estre témoin comme après nos debats
+<lb />Je chéris sa mémoire &amp; venge son trépas,
+<lb />Et de pouvoir apprendre à toute l’Italie
+<lb />Dè quel orgueil nouveau m’enfle la Thessalie.
+<lb />Je vous laisse a vous-meifie &amp; vous quitte un moment.
+<lb />Choisissez-luy Lépide, un digne apartement,
+<lb />Et qu’on l’honore icy, mais en Dame Romaine,
+<lb />C’est à dire un peu plus qu’on n’honore la Reine.
+<lb />Commandez, &amp; chacun aura soin d’obéïr.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />O Ciel! que de vertus vous me faites haïr.
+<lb />Fin du troisiême Acte.
+</sp>
+<p type="MainZone-Lg"><lb />o nij
+</p>
+<p type="MainZone-Head"><lb />ACTE IV
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />AROEOMDE, ACIIIELAS.
+<lb />PHOTIN.
+</p>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Uoy de la mesme main &amp; de la melme
+<lb />épée
+<lb />( Pompée,
+<lb />Dont il viẽt d’immoler le malheureux
+<lb />Septime par César indignemẽt chassé,
+<lb />Dans un tel desespoir à vos yeux a
+<lb />passé?
+</sp>
+<sp type="MainZone-Sp"><lb />ACHILLAS.
+<lb />Ouy, Seigneur, &amp; sa mort a dequoy vous apprendre
+<lb />La honte qu’il prévient &amp; qu’il vous faut attendre.
+<lb />Jugez quel est Céfar à ce couroux si lent.
+<lb />Un moment pousse &amp; rompt un transport violent,
+<lb />Mais l’indignation qu’on prend avec étude
+<lb />Augmente avec le temps, &amp; porte un coup plus rude<lb />Ainsi n’espérez pas de le voir moderé,
+<lb />Pal adrense Ille falcne apres s’estre asieure,
+<lb />Sa puissance établie, il a soin de sa gloire,
+<lb />Il poursuivoit Pompée, &amp; chérit sa mémoire,
+<lb />Et veut tirer à soy par un couroux accort
+<lb />L’honneur de sa vengeance &amp; le fruit de sa mort.
+<lb />10
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Ah? si je t’avois crû je n’aurois pas de maistre,
+<lb />Je seroisdans le trosne où le Ciel m’a fait naistre;
+<lb />Mais c’est une imprudence assez commune aux Rois,
+<lb />D’écouter trop d’avis, &amp; se tromper au choix.
+<lb />Le Destin les aveugle au bord du précipice,
+<lb />Ou si quelque lumiére en leur ame se glisse,
+<lb />Cette fausse claité dont il les ébloüit
+<lb />
+<lb />Les plonge dans un gouffre, &amp; puis s’évanoüit.
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN
+<lb />J’ay mal connu César, mais puisqu’en son estime
+<lb />Un si rare service est un énorme crime,
+<lb />Il porte dans son flanc dequoy nous en laver,
+<lb />C’est là qu’est nostre grace, il nous l’y faut trouver.
+<lb />Je ne vous parle plus de souffrir sans murmure,
+<lb />D’attendre son départ pour venger cette injure;
+<lb />Je sçay mieux conformer les remédes au mal.
+<lb />Justifions sur luy la mort de son rival,
+<lb />Et nostre main alors également trempée
+<lb />Et du sang de César &amp; du sang de Pompée,
+<lb />Rome, sans leur donner de tîtres differens,
+<lb />Se croira par vous seul libre de deux Tyrans.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />PTOLOMEE.
+<lb />Ouy, par là seulement ma perte est évitable,
+<lb />C’esttrop craindre un Tyran que j’ay fait redouta<lb />ble,
+<lb />Montrons que sa fortune est l’œuvre de nos mains,
+<lb />Deux fois en mesme jour disposons des Romains,
+<lb />Faisons leur liberté comme leur esclavage.
+<lb />César, que tes exploits n’enflent plus ton couragé,
+<lb />Considére les miens, tes yeux en sont témoins,
+<lb />Pompée étoit mortel, &amp; tu ne l’ès pas moins,
+<lb />Il pouvoit plus que toy, tu luy portois envie,
+<lb />Tu n’as, non plus que luy, qu’une ame &amp; qu’une vie,
+<lb />Et son sort que tu plains te doit faire penser
+<lb />Que ton cœur est sensible, &amp; qu’on peut le percer.
+<lb />Tonne, tonne à ton gré, fay peur de ta justice;
+<lb />C’est à moy d’appaiser Rome par ton supplice,
+<lb />C’est à moy de, punir ta crüelle douceur,
+<lb />Qui n’épargne en un Roy que le sang de sa sœui,
+<fw><lb />.7V
+<lb />4
+</fw><lb />Je n’abandon ne plus ma vie &amp; ma puissance
+<lb />Au hazard de sa haine, ou de ton inconstance;
+<lb />Ne croy pas que jamais tu puisses à ce prix
+<lb />Récompenser sa flame, ou punir ses mépris,
+<lb />J’emploiray contre toy de plus nobles Maximes.
+<lb />Tu m’as prescrit tantost de choisir des victimes,
+<lb />De bien penser aux choix, j’obéïs, &amp; je voy
+<lb />Que je n’en puis choisir de plus dignes que toy,
+<lb />Ny dont le sang offert, la fumée, &amp; la cendre
+<lb />Puissent mieux satisfaire aux Manes de ton gendre.
+<lb />Mais ce n’est pas assez, amis, de s’irriter,
+<lb />Il faut voir quels moyens on a d’éxécuter;
+<lb />Toute cette chaleur est peut-estre inutile,
+<lb />Les ioidats du Iylan ient manties de la virie,
+<lb />Que pouvons-nous contr’eux, &amp; pour les prévenir,
+<lb />Quel temps devons-nous prendre, &amp; quel ordre tenir?
+<lb />ACHILLAS. (sommes.
+</sp>
+<sp type="MainZone-Sp"><lb />Nous pouvons tout, Seigneur, en l’état oû nous
+<lb />A deux milles d’icy vous avez six mille hommes,
+<lb />Que depuis quelques jours craignant des remûmens
+<lb />Je faisois tenir prests à tous événemens.
+<lb />Quelques soins qu’ait César, sa prudence est déceuë,
+<lb />Cette ville a sous terre une secrette issuë,
+<lb />Par où fort aisement on les peut cette nuit
+<lb />Jusque dans le Palais introduire sans bruit.
+<lb />Car contre sa fortune aller à force ouverte,
+<lb />Ce seroit trop courir vous-mesme à vostre perte;
+<lb />Il nous le faut surprendre au milieu du festin,
+<lb />Enyvré des douceurs de l’Amour &amp; du vin.
+<lb />Tout le Peuple est pour nous, tantost à son entrée
+<lb />l’ay remarqué l’horreur que ce Peuple a montrée,
+<lb />Lors qu’avec tant de fast il a veu ses Faisceaux
+<lb />Marcher ar rogamment, &amp; braver nos Drapeaux.
+<lb />Au spectacle insolent de ce pompeux outrage,
+<lb />Ses farouches regards étinceloient de rage,
+<lb />je voyois sa fureur à peine se dompter,
+<lb />Et pour peu qu’on le pousse, il est prest d’éclater.
+<lb />Mais sur tout les Romains que commandoit Septime,
+<lb />Pressez de la terreur que sa mort leur imprime,
+<lb />Ne cherchent qu’à venger par un coup généreux
+<lb />Le mépris qu’en leur Chef ce superbe a fait d’eux.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Maloqur poaru de dieuouppreener la perrollie;
+<lb />Si durant le festin sa Garde l’environne?
+</sp>
+<sp type="MainZone-Sp"><lb />PHOTIN.
+<lb />Les gens de Cornélie entre qui vos Romains
+<lb />Ont déja reconnu des fréres, des germains,
+<lb />Dont l’aspre déplaisir leur a laissé paroistre
+<lb />Une soif d’immoler leur Tyran à leur maistre.
+<lb />Ils ont donné parole, &amp; peuvent mieux que nous
+<lb />Dans les flancs de César porter les prémiers coups.
+<lb />Son faux art de clémence, ou plûtost sa folie
+<lb />Qui pense gagner Rome en flatant Cornélie,
+<lb />Leur donnera sans doute un assez libre accès,
+<lb />Pour de ce grand dessein asseurer le succès.
+<lb />Mais voicy Cléopatre, agissez avec feinte,
+<lb />Seigneur, &amp; ne montrez que foiblesse &amp; que crainte,
+<lb />Nous allons vous quitter, comme objets odieux
+<lb />Dont l’aspect importun offenseroit ses yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Allez, je vous rejoins.
+<fw><lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />I
+<lb />PTOLOMEE, CLEOPATRE,
+<lb />ACHOREE, CHAR MTON.
+<lb /> CLEOPATRE.
+</p>
+<sp type="MainZone-Sp"><lb />1i1
+<lb />
+<lb />J’Ay veu César, mon frêre,
+<lb />Et de tout mon pouvoir combatu sa colère,..
+<lb />
+<lb />V
+<fw><lb />!
+</fw><lb />PTOLOMEE.
+<lb />Vous étes généreuse, &amp; j’avois attendu
+<lb />Cette office de sœur que vous m’avez rendu.
+<lb />Mais cét illustre Amant vous a bien-tost quittée.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Sur quelque brouillerie en la ville excitée,
+<lb />Il a voulu luy-mesme appaiser les debats,
+<lb />Qu’avec nos Citoyens ont eu quelques soldats;
+<lb />Et moy, j’ay bien voulu moy-mesme vous redire
+<lb />Que vous ne craigniez rien pour vous ny vostre Em<lb />pire,
+<lb />Et que le grand César blasme vostre action
+<lb />Avec moins de couroux que de compasfion.
+<lb />Il vous plaint d’écouter ces lasches Politiques,
+<lb />Qui n’inspirent aux Rois que des mœurs tyranniques;
+<lb />Ainsi que la naissance ils ont les esprits bas,
+<lb />En vain on les éléve à régir des Etats,
+<lb />Un cœur ne pour servir sçait mal comme on com<lb />tncaldo y
+<lb />
+<lb />Sa puissance l’accable alors qu’elle est trop grande,
+<lb />Et sa main que le crime en vain fait redouter
+<lb />Laisse choir le fardeau qu’elle ne peut porter.
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Vous dites vray, ma sœur, &amp; ces effets sinistres
+<lb />Me font bien voir ma faute au choix de mes Ministres.
+<lb />Si j’avois écouté de plus nobles conseils,
+<lb />Je vivrois dans la gloire où vivent mes pareils,
+<lb />Je mériterois mieux cette amitié si pure
+<lb />Que pour un frére ingrat vous donne la Nature,
+<lb />César embrasseroit Pompée en ce Palais,
+<lb />Nostre Egypte à la Terre auroit rendu la Paix,
+<lb />Et verroit son Monarque encor à juste tître
+<lb />Amy de tous les deux, &amp; peut-estre l’arbitre.
+<lb />Mais puisque le passé ne peut se révoquer,
+<lb />Trouvez bon qu’avec vous mon cœur s’oje expliquet.
+<lb />Je vous ay maltraitée, &amp; vous étes si bonne
+<lb />Que vous me conservezau tie ee in Eouronne;
+<lb />Vainquez-vous tout-à-fait, &amp; par un digne effort
+<lb />Arrachez Achillas &amp; Photin à la mort.
+<lb />Elle leur est bien deuë, ils vous ont offensée?
+<lb />Mais ma gloire en leur perte est trop intéressée:
+<lb />Si César les punit des crimes de leur Roy,
+<lb />Toute l’ignominie en réjallit sur moy,
+<lb />Il me punit en eux, leur supplice est ma peine.
+<lb />Forcez en ma faveur une trop juste haine,
+<lb />Dequoy peut satisfaire un cœur si généreux
+<lb />Le sang abjet &amp; vil de ces deux malheureux?
+<lb />Que je vous doive tout, César cherche à vous plaire,
+<lb />Et vous pouvez d’un mot desarmer sa colére.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />CLEOPATRE.
+<lb />Je les méprise assez, pour ne m’en venger pas,
+<lb />Mais sur le grand César je puis fort peu de chose.
+<lb />Quand le sang de Pompée à mes desirs s’oppose.
+<lb />Je ne me vante pas de pouvoir le fléchir,
+<lb />J’en ay déja parlé, mais il a sçeu gauchir,
+<lb />Et tournant le discours sur une autre matiére,
+<lb />nna 5nj rerure, ny iounert inte prlere.
+<lb />Je veux bien toutefois encor m’y hazarder,
+<lb />Mes efforts redoublez pourront mieux succéder,
+<lb />Et j’ose croire....
+</sp>
+<sp type="MainZone-Sp"><lb />PTOLOMEE.
+<lb />Il vient, souffrez que je l’évite,
+<lb />Je crains que ma presence à vos yeux ne l’irrite,
+<lb />Que son couroux émeu ne s’aigrisse à me voir,
+<lb />Et vous agirez seule avec plus de pouvoir.
+<fw><lb />i--
+</fw><fw><lb />11
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+<lb />CESAR, CLEOPATRE, ANTOINE,
+<lb />LEPIDE, CHARGITSN,
+<lb />ACHOREE, Romains.
+</p>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Eine, tout est paisible, &amp; la ville calmée
+<lb />R Qu’un trouble assez leger avoit trop alarmée,
+<lb />N’a plus à redouter le divorce intestin
+<lb />Du soldat insolent &amp; du Peuple mucin.
+<lb />Mais, ô Dieux! ce moment que je vous ay quittée
+<lb />D’un trouble bien plus grand a mon ame agitée,
+<lb />Et ces soins importuns qui m’arrachoient de vous
+<lb />Contre ma grandeur mesme allumoient mon couroux!
+<lb />Je luy voulois du mal de m’estre si contraire,
+<lb />De rendre ma presence ailleurs si nécessaire;
+<lb />Mais je luy pardonnois au simple souvenir
+<lb />Du bonheur qu’à ma flâme elle fait obtenir.
+<lb />C’est elle dont je tiens cette haute espérance
+<lb />Qui flate mes desirs d’une illustre apparance,
+<lb />
+<lb />Et fait croire à César qu’il peut former des vœux,
+<lb />Qu’il n’est pas tout-à-fait indigne de vos feux,
+<lb />Et qu’il peut en prétendre une juste conqueste,
+<lb />N’ayant plus que les Dieux au dessus de sa teste:
+<lb />Ouy, Reine, si quelqu’un dans ce vaste Univers
+<lb />Pouvoit porter plus haut la gloire de vos fers;
+<lb />S’il étoit quelque Trosne où vous pûssiez paroistre
+<lb />Plus dignement assise en captivant son maistre;
+<lb />J’irois, j’irois à luy, moins pour le luy ravir,
+<lb />Que pour luy disputer le Droit de vous servir,
+<lb />Et je n’aspirerois au bonheur de vous plaire,
+<lb />Qu’après avoir mis bas un si grand adversaire.
+<lb />C’étoit pour acquérir un Droit si précieux
+<lb />Que combatoit par tout mon bras ambitieux,
+<lb />Et dans Pharsale mesme il a tiré l’épée
+<lb />Plus pour le conserver, que pour vaincre Pompée,
+<lb />Je l’ay vaincu, Princesse, &amp; le Dieu des combats
+<lb />M’y favorisoit moins que vos divins appas,
+<lb />Ils conduisoient ma main, ils enfloient mon courage,
+<lb />Cette pleine victoire est leur dernier ouvrage,
+<lb />C’est l’effet des ardeurs qu’ils daignoient m’inspirer;
+<lb />Et vos beaux yeux enfin m’ayant fait soûpirer,
+<lb />Pour faire que vostre ame avec gloire y réponde,
+<lb />M’ont rendu le prémier, &amp; de Rome, &amp; du Monde.
+<lb />C’est ce glorieux tître à present effectif
+<lb />Que je viens ennooi pai celuy de cupeis 5
+<lb />Heureux, si mon esprit gagne tant sur le vostre,
+<lb />Qu’il en estime l’un, &amp; me permette l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Je sçay ce que je dois au souverain bonheur (neur,
+<lb />Dont me comble &amp; m’accable un tel excès d’hon<lb />Je ne vous tiendray plus mes passions secrettes,
+<lb />Je sçay ce que je suis, je sçay ce que vous étes,
+<lb />Vous daignastes m’aimer dès mes plus jeunes ans,
+<lb />Le sceptre que je porte est un de vos presens,
+<lb />Vous m’avez par deux fois rendu le Diadème;
+<lb />J’avouë après cela, Seigneur, que je vous aime,
+<lb />Et que mon cœur n’est point à l’épreuve des traits
+<lb />Ny de tant de vertus, ny de tant de bien-faits.
+<lb />Mais, hélas! ce haut rang, cette illustre naissance,
+<lb />Cét Etat de nouveau rangé sous ma puissance,
+<lb />Ce sceptre par vos mains dans les miennes remis,
+<lb />A mes vœux innocens sont autant d’ennemis.
+<lb />Ils me font méprisable, alors qu’ils me font Reine,
+<lb />Et si Rome est encor telle qu’auparavant,
+<lb />Le trosne où je me sieds m’abaisse en m’élevant,
+<lb />Et ces marquos d’honneur, comme tîtres infames,
+<lb />Me rendent à jamais indigne de vos flâmes.
+<lb />J’ose encor toutefois, voyant vostre pouvoir,
+<lb />Permettre à mes desirs un généreux espoir.
+<lb />Après tant de combats, je sçay qu’un si grand homme
+<lb />A droit de triompher des caprices de Rome,
+<lb />Et que l’injuste horreur qu’elle eut toûjours des Rois
+<lb />Peut céder par vostre ordre à de plus justes loix.
+<lb />Je sçay que vous pouvez forcer d’autres obstacles,
+<lb />Vous me l’avez promis, &amp; j’attens ces miracles,
+<lb />Vostre bras dans Pharsale a fait de plus grands
+<lb />coups;
+<lb />Et je ne les demande à d’autres Dieux qu’à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Tout miracle est facile où mon amour s’applique,
+<lb />Je n’ay plus qu’à courir les costes de l’Afrique,
+<lb />Qu’à montrer mes Drapeaux au reste épouvanté
+<lb />Du party malheureux qui m’a persécuté.
+<lb />Rome n’ayant plus lors d’ennemis à me faire
+<lb />Par impuissance enfin prendra soin de me plaire,
+<lb />Et vos yeux la verront par un superbe accueil
+<lb />Immoler à vos pieds sa haine &amp; son orgueil.
+<lb />Encor une défaite, &amp; dans Alexandrie
+<lb />Je veux que cette ingrate en ma faveur vous prie,
+<lb />Et qu’un juste respect conduisant ses regards
+<lb />A vostre chaste amour demande des Césars.
+<lb />C’est l’unique bonheur où mes desirs prétendent,
+<lb />C’est le fruit que j’attens des lauriers qui m’attendent,
+<lb />Heureux, si mon destin encor un peu plus doux
+<lb />Me les faisoit cueillir sans m’éloigner de vous.
+<lb />Mais, las! contre mon feu mon feu me sollicite,
+<lb />Si je veux estre à vous, il faut que je vous quitte,
+<lb />En quelques lieux qu’on fuye, il me faut y courir,
+<lb />Pour achever de vaincre; de de vous conquerif.
+<lb />Permettez cependant qu’à ces donces amorces
+<lb />Je prenne un nouveau cœur, &amp; de nouvelles forces,
+<lb />Pour faire dire encor aux Peuples pleins d’effroy,
+<lb />Que venir, voir, &amp; vaincre, est mesme chose en
+<lb />moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />C’est trop, c’est trop, Seigneur, souffrez que j’en abuse,
+<lb />Vostre amour fait ma faute, il fera mon excuse.
+<lb />Vous me rendez le sceptre &amp; peut-estre le jour:
+<lb />Mais si j’ose abuser de cét excés d’amour,
+<lb />Je vous conjure encor par ses plus puissans charmes,
+<lb />Par ce juste bonheur qui suit toûjours vos armes,
+<lb />Par tout ce que j’espére, &amp; que vous attendez,
+<lb />De n’ensanglanter pas ce que vous me rendez.
+<lb />Faites grace, Seigneur, ou souffrez que j’en fasse,
+<lb />Et montre à tous par là que j’ay repris ma place.
+<lb />Achillas &amp; Photin sont gens à dédaigner,
+<lb />Il sont assez punis en me voyant régner.
+<lb />Et leur crime...
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Ah! prenez d’autres marques de Reines
+<lb />Dessus mes volontez vous étes souveraine,
+<lb />Mais si mes sentimens peuvent estre écoutez,
+<lb />Choisissez des sujets dignes de vos bontez,
+<lb />Ne vous donnez sur moy qu’un pouvoir légitime,
+<lb />Et ne me rendez point complice de leur crime.
+<lb />C’est beaucoup que pour vous j’ose épargner le
+<lb />Roy;
+<lb />Et si mes feux n’étoient....
+</sp>
+<p type="MainZone-Head"><lb />AEIV
+<lb />CESAR, CORNELIE, CLEOPATRE,
+<lb />ACHOREE, ANTOINE, LEPIDE,
+<lb />CHARMION, Romains.
+<fw><lb />CORNELIE.
+<lb />9
+<lb /> Esar, prens garde à toy.
+</fw><lb />Ta mort est résoluë, on la jure, on l’apreste.
+<lb />A celle de Pompée on veut joindre ta teste,
+<lb />Prens-y garde, César, ou ton sang répandu
+<lb />Bien-tost parmy le sien se verra confondu.
+<lb />Mes esclaves en sont, appren de leurs indices
+<lb />L’auteur de l’attentat, &amp; l’ordre, &amp; les complices.
+<lb />Je te les abandonne.
+</p>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />O cœur vraiment Romain,
+<lb />Et digne du Héros qui vous donna la main!
+<lb />Ses Manes, qui du Ciel ont veu de quel courage
+<lb />Je préparois la mienne à venger son outrage,
+<lb />Mettant leur haine bas, me sauvent aujourd’huy
+<lb />Par la moitié qu’en Terre il nous laisse de luy,
+<lb />Il vit, il vit encor en l’objet de sa flame,
+<lb />Il parse par sa bouche, il agit dans son aille,
+<lb />Il la pousse, &amp; l’oppose à cette indignité,
+<lb />Pour me vaincre par elle en générosité.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Tu te flates, César, de mettre en ta croyance
+<lb />Que la haine ait fait place à la reconnoissance;
+<lb />Ne le présume plus, le sang de mon époux
+<lb />A rompu pour jamais tout commerce entre nous.
+<lb />J’attens la liberté qu’icy tu m’as offerte,
+<lb />Afin de l’employer toute entiére à ta perte,
+<lb />Et je te chercheray par tout des ennemis,
+<lb />Si tu m’oses tenir ce que tu m’as promis.
+<lb />Mais avec cette soif que j’ay de ta ruïne
+<lb />Je me jette au devant du coup qui t’assassine,
+<lb />Et forme des desirs avec trop de raison,
+<lb />Pour en aimer l’effet par une trahison.
+<lb />Qui la sçait &amp; la souffre à part à l’infamie,
+<lb />Si je veux ton trépas c’estten juste ennemie;
+<lb />Mon époux a des fils, il aura des neveux.
+<lb />Quand ils te combatront, c’est là que je le veux,
+<lb />Et qu’une digne main par moy-mesme animée
+<lb />Dans ton champ de bataille, aux yeux de ton Armée,
+</sp>
+<sp type="MainZone-Sp"><lb />T’immole noblement &amp; par un digne effort
+<lb />Aux Manes du Héros dont tu vanges la mort.
+<lb />Tous mes soins, tous mes vœux hastent cette ven<lb />geance,
+<lb />Ta perte la recule &amp; ton salut l’avance;
+<lb />Quelque espoir qui d’ailleurs me l’ose ou puisse offrir,
+<lb />Ma juste impatience auroit trop à souffrir.
+<lb />La vengeance éloignée est à demy perduë,
+<lb />Et quand il faut l’attendre elle est trop cher venduë,
+<lb />Je n’iray point chercher sur les bords Afriquains
+<lb />Le foudre souhaitté que je vois en tes mains,
+<lb />La teste qu’il menace en doit estre frapée.
+<lb />J’ay pû donner la tienne au lieu d’elle à Pompée,
+<lb />Ma haine avoit le choix, mais cette haine enfin
+<lb />Sépare son vainqueur d’avec son assassin,
+<lb />Et ne croit avoir droit de punir ta victoire,
+<lb />Qu’après le châtiment d’une action si noire.
+<lb />Rome le veut ainsi, son adorable front
+<lb />Auroit dequoy rougir d’un trop honteux affront,
+<lb />De voir en mesme jour après tant de conquestes
+<lb />Sous un indigne fer ses deux plus nobles testes.
+<lb />Son grand cœur qu’à tes loix en vain tu crois soûmis
+<lb />En veut aux criminels plus qu’à ses ennemis.
+<lb />Et tiendroit à malheur le bien de se voir libre,
+<lb />Si l’attentat du Nil affranchissoit le Tybre.
+<lb />Comme autre qu’un Romain n’a pû l’assujettir,
+<lb />Autre aussi qu’un Romain ne l’en doit garantir.
+<lb />Tu tomberois icy sans estre sa victime,
+<lb />Au lieu d’un châtiment ta mort seroit un crime,
+<lb />Et sans que tes pareils en conçeussent d’effroy,
+<lb />L’éxemple que tu dois périroit avec toy.
+<lb />Venge-la de l’Egypte à son appuy fatale,
+<lb />Et je la vengeray, si je puis, de Pharsale.
+<lb />Va, ne perds point de temps, il presse. Adieu, tu peux
+<lb />Te vanter qu’une fois j’ay fait pour toy des vœux.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />CESAR, CLEOPATRE, ANTOINE,
+<lb />LEPIDE, ACHOREE,
+<lb />CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />On courage m’étonne autant que leur audace,
+<lb />O Reine, voyez pour qui vous me demandiez grace.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Je n’ay rien à vous dire, allez, Seigneur, allez
+<lb />Venger sur ces méchans tant de droits violez.
+<lb />On m’en veut plus qu’à vous, c’est ma mort qu’ils
+<lb />respirent,
+<lb />C’est contre mon pouvoir que les traistres conspirent,
+<lb />Leur rage pour l’abatre attaque mon soûtien,
+<lb />Et par vostre trépas cherche un passage au mien.
+<lb />Mais parmy ces transports d'une juste colere
+<lb />Je ne puis oublier que leur Chef est mon frére.
+<lb />Le sçaurez-vous, Seigneur, &amp; pourray-je obtenir
+<lb />Que ce cœur irrité daigne s’en souvenir?
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Ouy, je me souviendray que ce cœur magnanime
+<lb />Au bonheur de son sang veut pardonner son crime.
+<lb />Adieu, ne craignez rien, Achillas, &amp; Photin
+<lb />Ne sont pas gens à vaincre un si puissant Destin.
+<lb />Pour les mettre en déroute, eux &amp; tous leurs com<lb />plices,
+<lb />Je n’ay qu’à déployer l’appareil des supplices,
+<lb />Et pour soldats choisis envoyer des bourreaux,
+<lb />Qui portent hautement mes Haches pour Drapeaux.
+<lb />César rentre avec les Romains.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Ne quittez pas César, allez, cher Achorée,
+<lb />Repousser avec luy ma mort qu’on a jurée,
+<lb />Et quand il punira nos lasches ennemis,
+<lb />Faites-le souvenir de ce qu’il m’a promis,
+<lb />njez lœil sur le Roy dans la chaleur des armes,
+<lb />Et conservez son sang pour épargner mes larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Madame, asseurez-vous qu’il ne peut y périr,
+<lb />Si mon zêle &amp; ines foiis peu vent le secourir.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatrième Acte.
+</p>
+<p type="MainZone-Head"><lb />AEFE
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />CORTCEEIE, senunt une petite Urne
+<lb />en sa main, PHILIPPE.
+</p>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Es yeux, puis-je vous croire, &amp; n’est<lb />ce point un songe
+<lb />Qui sur mes tristes vœux a formé ce
+<lb />mensonge?
+<lb />Te revoy-je, Philippe, &amp; cét époux
+<lb />si cher
+<lb />A-t’il reçeu de toy les honneurs dubûcher!
+<lb />Cette Urne que je tiens contient-elle sa cendre?
+<lb />O vous, à ma douleur objet terrible &amp; tendre,
+<lb />Eternel entretien de haine &amp; de pitié,
+<lb />Reste dugrand Pompée, écoutez sa moitié.
+<lb />N’attendez point de moy de regrets ny de larmes,
+<lb />Un grand cœur à ses maux applique d’autres charmes
+<lb />Les foibles déplaisirs s’amusent à parler,
+<lb />Et quiconque se plaint cherche à se consoler.
+<lb />Moy, je jure des Dieux la puissance suprème,
+<lb />Et pour dire encor plus, je jure par vous-mesme,
+<lb />Car vous pouvez bien plus sur ce cœur affligẽ
+<lb />Que le respect des Dieux qui l’ont mal protegé;
+<lb />Je jure donc par vous, ô pitoyable reste,
+<lb />Ma Divinité seule après ce coup funeste,
+<lb />Par vous, qui seul icy pouvez me soulager,
+<lb />De n’éteindre jamais l’ardeur de le venger.
+<lb />Prolomée à César par un lasche artifice,
+<lb />Rome, de ton Pompée a fait un sacrifice,
+<lb />Et je n’entreray point dans tes murs desolez,
+<lb />Que le Prestre &amp; le Dieu ne luy soient immolez.
+<lb />Faites-m’en souvenir &amp; soûtenez ma haine,
+<lb />O cendres, mon espoir aussi-bien que ma peine,
+<lb />Et pour m’aider un jour à perdre son vainqueur,
+<lb />Versez dans tous les cœurs-ce que ressent mon cœur.
+<lb />Toy, qui l’as honoré sur cette infame rive
+<lb /> une freit pieuse autant comme chétive,
+<lb />Dy-moy quel bon Démon a mis en ton pouvoir
+<lb />De rendre à ce Héros ce funébre devoir. 
+</sp>
+<sp type="MainZone-Sp"><lb />HILIPPE.
+<lb />1
+<lb />Tout couvert de son sang &amp; plus mort que luy-mes<lb />Après avoir cent fois maudit le Diadème, (me,
+<lb />Madame, j’ay porté mes pas &amp; mes sanglots
+<lb />11
+<lb />Du costé que le vent poussoit encor les flots.
+<lb />Ie cours long-temps en vain, mais enfin d’une roche
+<lb />J’en découvre le tronc vers un Sable assez proche,
+<lb />Où la vague en couroux sembloit prendre plaisir
+<lb />A feindre de le rendre &amp; puis s’en ressaisir.
+<lb />Je m’y jette &amp; l’embrasse, &amp; le pousse au rivage,
+<lb />Et ramassant sous luy le débris d’un naufrage,
+<lb />Je luy dresse un bucher à la haste, &amp; sans art,
+<lb />A
+<lb />Tel que je pûs sur l’heure, &amp; qu’il plût au hazard.
+<lb />A peine brusloit-il, que le Ciel plus propice
+<lb />M’envoye un compagnon en ce pieux office,
+<lb />Cordus, un vieux Romain qui demeure en ces lieux
+<lb />Retournant de la ville y détourne les yeux,
+<lb />Et n’y voyant qu’un tronc dont la teste est coupée,
+<lb />A cette triste marque il reconnoit Pompée.
+<lb />Soudain la larme à l’œil, ó toy, qui que tu sois,
+<lb />A qui le Ciel permet de si dignes emplois,
+<lb />Ton sort est bien, dit-il; autre que tu ne penses,
+<lb />Tu crains des châtimens, atten des récompenses,
+<lb />César est en Egypte, &amp; venge hautement
+<lb />Celuy pour qui ton zéle a tant de sentiment.
+<lb />Tu peux faire éclater les soins qu’on t’en voit prendre,
+<lb />Tu peux mesme à sa vefve en reporter la cendre,
+<lb />Son vainqueur l’a reçeuë avec tout le respect
+<lb />
+<lb />Achéve, je reviens. Il part &amp; m’abandonne,
+<lb />Et rapporte aussi-tost ce vase qu’il me donne,
+<lb />Ou la main &amp; la mienne enih'ont renfermé
+<lb />Ces restes d’un Héros par le feu consumé.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />O que sa piété mérite de loüanges!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPE.
+<lb />En entrant j’ay trouvé des desordres étranges,
+<lb />Je veu fuir tout un Peuple en foule vers le Port,
+<lb />Où le Roy, disoit-on, s’étoit fait le plus fort:
+<lb />Les Romains poursuivoient, &amp; César dans la Place
+<lb />Ruissélante du sang de cette populace,
+<lb />Montroit de sa justice un éxemple si beau,
+<lb />Faisant passer Photin par les mains d’un bourreau.
+<lb />Aussi-tost qu’il me voit il daigne me connoistre,
+<lb />Et prenant de ma main les cendres de mon maistre,
+<lb />Restes d’un Demydieu dont à peine je puis
+<lb />Egaler le grand nom, tout vainqueur que j’en suis,
+<lb />De vos traistres, dit-il, voyez punir les crimes,
+<lb />Attendant des Autels recevez ces victimes,
+<lb />Bien d’autres vont les suivre, &amp; toy, cours au Palais
+<lb />Morter a ja muine te non qne jetay juts,
+<lb />Porte à ses déplaisirs cette foible allégeance,
+<lb />Et dy luy que je cours achever sa vengeance.
+<lb />Ce grand homme à ces mots me quitte en soûpirant,
+<lb />Et baise avec respect ce vase qu’il me rend.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />O soûpirs! ô respect! ô qu’il est doux de plaindre
+<lb />Le sort d’un ennemy, quand il n’est plus à craindre!
+<lb />Qu’avec chaleur, Philippe, on court à le venger,
+<lb />Lors qu’on s’y voit forcé par son propre danger,
+<lb />Es
+<lb />Et quand cét intérest qu’on prend pour sa mémoire
+<lb />Fait nostre seureté comme il croist nostre gloire?
+<lb />César est généreux, j’en veux estre d’accord,
+<lb />Mais le Roy le veut perdre, &amp; son rival est mort.
+<lb />Sa vertu laisse lieu de douter à l’Envie
+<lb />De ce qu’elle feroit, s’il le voyoit en vie,
+<lb />Pour grand qu’en soit le prix, son péril en rabat,
+<lb />Cette ombre qui la couvre en affoiblit l’éclat,
+<lb />L’amour mesme s’y mesle, &amp; le force à combatre,
+<lb />Quand il venge Pompée il défend Cléopatre.
+<lb />Tant d’intérests sont joints à ceux de mon époux,
+<lb />Que je ne dévrois rien à ce qu’il fait pour nous,
+<lb />Si comme par soy-mesme un grand cœur juge un autre,
+<lb />je n'aioio iileux juger sa vertu par la nostre,
+<lb />Et croire que nous seuls armons ce combatant,
+<lb />parce qu'au pont qu’il eit j'en voudrois lanle autant.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CLEOPATRE, CORNELIE,
+<lb />PHILIPPE, CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />E ne viens pas icy pour troubler une plainte
+<lb />Trop juste à la douleur dont vous étes atteinte,
+<lb />Je viens pour rendre hommage aux cẽdres d’un Héros
+<lb />Qu’un fidelle Affranchy vient d’arracher aux flots,
+<lb />Pour le plaindre avec vous, &amp; vous jurer, Madame,
+<lb />Que j’aurois conservé ce maistre de vostre ame,
+<lb />Si le Ciel qui vous traite avec trop de rigueur
+<lb />M’en eust donné la force aussi-bien que le cœur.
+<lb />Si pourtant à l’aspect de ce qu’il vous renvoye
+<lb />Vos douleurs laissoient place à quelque peu de joye,
+<lb />Si la vengeance avoit dequoy vous soulager,
+<lb />Je vous dirois aussi qu’on vient de vous venger.
+<lb />niatanmtinerert. voup de rȩavez, peut-estre?
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />uy, Iimecne, je Içay qu'on a puny ce traistre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />On si prompt châtiment vous doit estre bien doux.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />S’il a quelque douceur, elle n’est que pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />lous les cœnis trouvent doux le fueces qu’ils espé<lb />rent.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Comme nos intérests nos sentimens différent.
+<lb />Si César à sa mort joint celle d’Achillas,
+<lb />Vous étes satisfaite, &amp; je ne la suis pas.
+<lb />Aux Manes de Pompée il faut une autre offrande,
+<lb />La victime est trop basse, &amp; l’injure est tropgrande,
+<lb />Et ce n’est pas un sang que pour la reparer
+<lb />Son ombre &amp; ma douleur daignent considérer.
+<lb />L’ardeur de le venger dans mon ame allumée
+<lb />En attendant César demande Ptolomée,
+<lb />Tout indigne qu’il est de vivre &amp; de régner,
+<lb />Je sçay bien que César se force à l’épargner;
+<lb />Mais quoy que son amour ait osé vous promettre,
+<lb />Le Ciel plus juste enfin n’osera le permettre,
+<lb />Et s’il peut une fois écouter tous mes vœux,
+<lb />Par la main l’un de l’autre ils périront tous deux.
+<lb />Mon ame à ce bonheur, si le Ciel me l’envoye,
+<lb />Cabilla les doureuts pour s'ouriil à la joye,
+<lb />Mais si ce grand souhait demande trop pour moy,
+<lb />Si vous n’en perdez qu’un, ô Ciel, perdez le Roy
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Le Ciel sur nos souhaits ne régle pas les choses.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Le Ciel régle souvent les effets sur les causes,
+<lb />Et rend aux criminels ce qu’ils ont mérité.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Comme de la justice il a de la bonté.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Ouy, mais il fait juger à voir comme il commence
+<lb />Que sa justice agit, &amp; non-pas sa clémence.
+</sp>
+<sp type="MainZone-Sp"><lb />CLBOPATRE.
+<lb />Souvent de la justice il passe à la douceur.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELFE.
+<lb />Reine, je parle en vefve, &amp; vous parlez en sœur,
+<lb />Chacune a son sujet d’aigreur, ou de tendresse,
+<lb />Qui dans le sort du Roy justement l’intéresse,
+<lb />Apprenons par le sang qu’on aura répandu,
+<lb />A quels souhaits le Ciel a le mieux répondu,
+<lb />Voicy vostre Achorec.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CORNELIE, CLEOPATRE,
+<lb />ACHOREE, PHILIPPE,
+<lb />CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />HElas! sur son vifage
+<lb />Rien ne s’offre à mes yeux que de mauvais présage.
+<lb />Ne nous déguisez rien, parlez sans me flater,
+<lb />Qu’ay-je à craindre, Achorée, ou qu’ay-je à regret<lb />ACHOREE.
+<lb />(ter.
+<fw><lb />Aussi-tost que César eust sçeu la perfidie....
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Ce ne sont pas ses soins que je veux qu’on me die.
+<lb />Je sçay qu’il fit trancher &amp; clorre ce Conduit
+<lb />Qu’il manda tous les siens pour s’asseurer la Place
+<lb />Où Photin a receu le prix de son audace,
+<lb />Que d’un si prompt supplice Achillas étonnẽ
+<lb />S’est aisément saisi du Port abandonné,
+</sp>
+<p type="MainZone-Lg"><lb />D ij
+<lb />Que le Roy l’a suivy, qu’Antoine a mis à terre
+<lb />Ce qui dans ses vaisseaux restoit de gens de guerre,
+<lb />Que César l’a rejoint, &amp; je ne doute pas
+<lb />Qu’il n’ait sçeu vaincre encor, &amp; punir Achillas.
+</p>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Ouy, Madame, on a veu son bon-heur ordinaire....
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Dites-moy seulement s’il a sauvé mon frére,
+<lb />e il in à tend promenc.
+<lb />ACHOREE. Ouy, de tout son pouvoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />C’est là l’unique point que je voulois sçavoir.
+<lb />Madame, vous voyez, les Dieux m’ont écoutée.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />aio n'ont que dinere la peine ieritee.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />vous la vouliez sur l’heure, ils l’en ont garanty.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Il faudroit qu’à nos vœux il eust mieux consenty.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Que disiez-vous n’aguére, &amp; que viens-je d’entendre?
+<lb />Accordez ces discours que j’ay peine à comprendre?
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Aucuns ordres ny soins n’ont pû le secourir,
+<lb />Malgré César &amp; nous il a voulu périr;
+<lb />Mais il est mort, Madame, avec toutes les marques
+<lb />Que puissent laisser d’eux les plus dignes Monarques,
+<lb />Sa vertu rappelée a soûtenu son rang,
+<lb />Et sa perte aux Romains a coûté bien du sang.
+<lb />Il combatoit Antoine avec tant de courage,
+<lb />Qu’il emportoit déja sur luy quelque avantage,
+<lb />Mais l’abord de César a changé le Destin !
+<lb />Aussi-tost Achillas suit le sort de Photin,
+<lb />Il meurt, mais d’une mort trop belle pour un traistre,
+<lb />Les armes à la main en défendant son maistre.
+<lb />Le vainqueur crie en vain qu’on épargne le Roy,
+<lb />Ces mots au lieu d’espoir luy donnent de l’effroy;
+<lb />Son esprit alarmé les croit un artifice
+<lb />Pour réserver sa teste à l’affront d’un supplice.
+<lb />Il pousse dans nos rangs, il les perce, &amp; fait voir
+<lb />Ce que peut la vertu qu’arme le desespoir,
+<lb />Et son cœur emporté par l’erreur qui l’abuse
+<lb />Cherche par tout la mort que chacun luy refuse.
+<lb />Enfin perdant haleine après ces grands efforts,
+<lb />Près d’estre environné, ses meilleurs soldats morts,
+<lb />Il voit quelques fuyards sauter dans une barque,
+<lb />Il s’y jette, &amp; les siens qui suivent leur Monarque
+<lb />D’un si grand nombre en foule accablent ce vaisseau,
+<lb />Que la mer l’engloutit avec tout son fardeau.
+<lb />C’est ainsi que sa mort luy rend toute sa gloire,
+<lb />A vous toute l’Egypte, à César la victoire,
+<lb />Il vous proclame Reine, &amp; bien qu’aucun Romain
+<lb />Du sang que vous pleurez n’ait veu rougir sa main,
+<lb />Il nous fait voir à tous un déplaisir extrème,
+<lb />Il soûpire, il gémit: mais le voicy luy-mesme,
+<lb />Qui pourra mieux que moy vous montrer la douleur
+<lb />Que luy donne du Koy l'invincible malneur.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />CESAR, CORNELIE, CLEOPAT RE
+<lb />ANTOINE, LEPIDE, ACHOREE,
+<lb />CHARMION, PHILIPPE.
+</p>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Esar, tien-moy parole, &amp; me rens mes galéres,
+<lb />C Achillas &amp; Photin ont receu leurs salaires,
+<lb />Leur Roy n’a pû joüir de ton cœur adoucy,
+<lb />Et Pompée est vengé ce qu’il peut l’estre icy.
+<lb />Je n’y sçaurois plus voir qu’un funeste rivage
+<lb />Qui de leur attentat m’offre l’horrible image,
+<lb />D iij
+<lb />Ta nouvelle viotoire, &amp; le bruit éclatant ( constant.
+<lb />Qu’aux changemens de Roy pousse un Peuple in<lb />Et parmy ces objets ce qui le plus m’afflige,
+<lb />C’est d’y revoir toûjours l’ennemy qui m’oblige,
+<lb />Laisse-moy m’affranchir de cette indignité,
+<lb />Et souffre que ma haine agisse en liberté.
+<lb />A cét empressement j’adjoûte une requeste.
+<lb />Voy l’Urne de Pompée, il y manque sa teste,
+<lb />Ne me la retien plus, c est l'unique faveur
+<lb />Dont je te puis encor prier avec honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Il est juste, &amp; César est tout prest de vous rendre
+<lb />Ce reste où vous avez tant de droit de pretendre:
+<lb />Mais il est juste aussi qu’après tant de sanglots
+<lb />A ses Manes errans nous rendions le repos,
+<lb />Qu’un bucher allumé par ma main &amp; la vostre
+<lb />Le venge pleinement de la honte de l’autre,
+<lb />Que son Ombre s’appaise en voyant nostre ennuy,
+<lb />Et qu’une Urne plus digne &amp; de vous &amp; de luy,
+<lb />Après la flame éteinte &amp; les pompes finies,
+<lb />Renferme avec éclat ses cendres réünies.
+<lb />De cette mesme main dont il fut combatu
+<lb />Il verra des Autels dressez à sa vertu,
+<lb />Il recévra des vœux, de l’encens, des victimes,
+<lb />Sans recevoir par là d’honneurs que légitimes.
+<lb />Pour ees justes devoirs je ne veux que demain,
+<lb />Ade llle feidiee pasce Doiniculiourerain,
+<lb />Faites un peu de force à vostre impatience,
+<lb />Vous étes libre après, partez en diligence,
+<lb />Portez à nostre Rome un si digne tresor,
+<lb />Portez....
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Non-pas, César, non-pas à Rome encor.
+<lb />Il faut que ta défaite &amp; que tes funérailles
+<lb />A cette cendre aimée en ouvrent les murailles,
+<lb />Et quoy qu’elle la tienne aussi chére que moy,
+<lb />Elle n’y doit rentrer qu’en triomphant de toy.
+<lb />Je la porte en Afrique, &amp; c’est là que j’espére
+<lb />Que les fils de Pompée &amp; Caton &amp; mon pére,
+<lb />Secondez par l’effort d’un Roy plus généreux,
+<lb />Ainsi que la Justice auront le Sort pour eux.
+<lb />C’est là que tu verras sur la Terre &amp; sur l’Onde
+<lb />Le débris de Pharsale armer un autre Monde,
+<lb />Et c’est là que j’iray pour haster tes malheurs
+<lb />Porter de rang en rang ces cendres &amp; mes pleurs.
+<lb />Je veux que de ma haine ils reçoivent des régles,
+<lb />Qu’ils suivent au combat des Urnes au lieu d’Aigles,
+<lb />Et que ce triste objet porte en leur souvenir
+<lb />Les soins de le venger &amp; ceux de te punir.
+<lb />Tu veux à ce Héros rendre un devoir suprème,
+<lb />L’honneur que tu luy rens réjallit sur toy-mesme;
+<lb />Tu m’en veux pour témoin, j’obéïs au vainqueur,
+<lb />Mais ne présume pas toucher par là mon cœur.
+<lb />La perte que j’ay faite est trop irréparable.
+<lb />La source de ma haine est trop inépuisable,
+<lb />A l’égal de mes jours je la feray durer,
+<lb />Je veux vivre avec elle, avec elle expirer.
+<lb />Je t’avoûray pourtant, comme vraîment Romaine,
+<lb />Que pour toy mon estime est égale à ma haine,
+<lb />Que l’une &amp; l’autre est juste, &amp; montre le pouvoir,
+<lb />L’une de ta vertu, l’autre de mon devoir:
+<lb />Que l’une est généreuse, &amp; l’autre intéressée,
+<lb />Et que dans mon esprit l’une &amp; l’autre est forcée.
+<lb />Tu vois que ta vertu qu’en vain on veut trahir
+<lb />Me force de priser ce que je doy haïr,
+<lb />Juge ainsi de la haine où mon devoir me lie,
+<lb />La vefve de Pompée y force Cornélie.
+<lb />J’iray, n’en doute point au sortir de ces lieux
+<lb />Soûlever contre toy les hommes &amp; les Dieux,
+<lb />Ces Dieux qui t’ont flaté, ces Dieux qui m’ont trom<lb />pée,
+<lb />Ces Dieux qui dans Pharsale ont mal servy Pompée,
+</sp>
+<sp type="MainZone-Sp"><lb />Qui la foudre à la main l’ont pû voir égorger;
+<lb />Ils connoistront leur faute, &amp; le voudront venger.
+<lb />Mon zèle à leur refus aidé de sa mémoire
+<lb />Te sçaura bien sans eux arracher la victoire,
+<lb />Et quand tout mon effort se trouvera rompu,
+<lb />Cléopatre fera ce que je n’auray pû.
+<lb />Je sçay qu’elle est ta flame, &amp; quelles sont ses forces,
+<lb />Que tu n’ignores pas comme on fait les divorces,
+<lb />Que ton amour t’aveugle, &amp; que pour l’épouser
+<lb />Rome n’a point de loix que tu n’oses briser:
+<lb />Mais sçache aussi qu’alors la jeunesse Romaine
+<lb />Se croira tout permis sur l’époux d’une Reine,
+<lb />Et que de cét Hymen tes amis indignez
+<lb />Vengeront sur ton sang leurs avis dédaignez.
+<lb />J’empesche ta ruïne empeschant tes caresses.
+<lb />Adieu, j’attens demain l’effet de tes promesses.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />OBOITTeS CLLOTATRE, AIRTOINE,
+<lb />LEPIDE, ACHOREE,
+<lb />CHARMION.
+</p>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Lûtost qu’à ces périls je vous puisse exposer,
+<lb />&amp; Gors,muuiy pormonen moj ee quiles peue cauier,
+<lb />Sacrifiez ma vie au bonheur de la vostre,
+<lb />Le mien sera trop grand, &amp; je n’en veux point d’autre,
+<lb />Indigne que je suis d’un César pour époux,
+<lb />Que de vivre en vostre ame étant morte pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CESAR.
+<lb />Reine, ces vains projets sont le seul avantage
+<lb />Qu’un grand cœur impuissant a du Ciel en partage:
+<lb />Cemme il a peu de force il a beaucoup de soins,
+<lb />Et s’il pouvoit plus faire, il souhaiteroit moins.
+<lb />Les Dieux empescheront l’effet de ces augures,
+<lb />Et mes félicitez n’en seront pas moins pures,
+<lb />Pourveu que vostre amour gagne sur vos douleurs
+<lb />Qu’en faveur de César vous tarissiez vos pleurs,
+<lb />Et que vostre bonté sensible à ma priére,
+<lb />Pour un fidelle Amant oublie un mauvais frére.
+<lb />On aura pû vous dire avec quel déplaisir
+<lb />J’ay veu le desespoir qu’il a voulu choisir,
+<lb />Avec combien d’efforts j’ay voulu le défendre
+<lb />Des Paniques terreurs qui l’avoient pû surprendre;
+<lb />Il s’est de mes bontez jusqu’au bout défendu,
+<lb />Et de peur de se perdre, il s’est enfin perdu.
+<lb />O honte pour César, qu’avec tant de puissance,
+<lb />Tant de soins de vous rendre entiére obéïssance,
+<lb />Il n’ait pû toutefois en ces événemens
+<lb />Obëïr au prémier de vos commandemens!
+<lb />Prenez-vous-en au Ciel, dont les ordres sublimes
+<lb />Malgre tous nos enorts Içavent punir les einnes;
+<lb />Sa rigueur envers luy vous ouvre un sort plus doux,
+<lb />Puisque par cette mort l’Egypte est toute à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEOPATRE.
+<lb />Je sçay que j’en reçois un nouveau Diadéme.
+<lb />Qu’on n’en peut accuser que les Dieux, &amp; luy-melme;
+<lb />Mais comme il est, Seigneur, de la fatalité
+<lb />Que l’aigreur soit meslée à la felicité,
+<lb />Ne vous offensez pas si cét heur de vos armes
+<lb />Qui me rend tant de biens me coûte un peu de larmes,
+<lb />Et si voyant sa mort deuë à sa trahison
+<lb />je uontie u la Frature ainsi qu’à la raison.
+<lb />Je n’ouvre point les yeux sur ma grandeur si proche,
+<lb />Qu’aussi-tost à mon cœur mon sang ne le reproche,
+<lb />J’en ressens dans mon ame un murmure secret,
+<lb />Et ne puis remonter au trosne sans regret.
+</sp>
+<sp type="MainZone-Sp"><lb />ACHOREE.
+<lb />Un grand peuple, Seigneur, dont cette cour est plei<lb />ne
+<lb />Par des cris redoublez demande à voir sa Reine,
+<lb />Et tout impatient déja se plaint aux Cieux
+<lb />Qu’onluy donne trop tard un bien si précieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ESAR.
+<lb />Ne luy refusons plus le bonheur qu’il desire,
+<lb />Princesse, allons par là commencer vostre Empire.
+<lb />Fasse le juste Ciel propice à mes desirs.
+<lb />Que ces longs cris de joye étouffent vos soûpirs,
+<lb />Et puissent ne laisser dedans vostre pensée
+<lb />Que l’image des traits dont mon ame est blessée.
+<lb />Cependant, qu’à l’envy ma suite &amp; vostre Cour
+<lb />Préparent pour demain la pompe d’un beau jour,
+<lb />Où dans un digne employ l’une &amp; l’autre occupée
+<lb />Couronne Cléopatre, &amp; m’appaise Pompée,
+<lb />Eléve à l’une un Trosne, à l’autre des Autels,
+<lb />Et jure a tous les deux des Iespects iinmortels.
+</sp>
+<p type="MainZone-Other"><lb />Ein du cinquième &amp; dernier Aste,
+</p>
+<p type="MainZone-Head"><lb />Extrait du Privilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR grace &amp; Privilege du Roy, don<lb />T né à S. Germain en Laye, le 17. jour
+<lb />d’Avril, l’an de grace 1679. Signé, Pat le
+<lb />Roy en son Conseil, D’ALENCE', Il est per<lb />mis à GUILLAUME DE LUYNE, Libraire
+<lb />Iuté de nostre bonne ville de Paris, d’im<lb />primer les Oeuvres de Theatre des Sieurs
+<lb />Corneille freres, pendant le temps de dix
+<lb />années entieres &amp; accomplies: Et défenses
+<lb />sont faites à qui que ce soit de les imprimer
+<lb />sans le consentement dudit de Luyne,
+<lb />à peine de trois mille livres d’amande, de
+<lb />tous dépens, dommages, &amp; interests, com<lb />me il est plus amplement porté par lesdites
+<lb />Letttes.
+</p>
+<p type="MainZone-Entry"><lb />Registré su le Livre de la Communauté, le 28.
+<lb />Avril 1679. Signé, Cour EROT Syndic.
+</p>
+<sp type="MainZone-Sp"><lb />Achevé d’imprimer, le 7. Février 1682.
+<lb />Et ledit de Luyne a fait part du Privilege cy dessus
+<lb />à Estienne Loyson, &amp; Pierre Traboüillet, suivant
+<lb />l'accord fait entre eux.
+<fw><lb />
+</fw><fw><lb />
+<lb />Αιαοορ οφος.
+<lb />
+</fw><fw><lb />6
+<lb />1
+<lb />x
+<lb />
+<lb />
+</fw><fw><lb />2
+<lb />
+<lb />2
+<lb />1
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />2
+<lb />ana
+<lb />1
+<lb />
+<lb />
+<lb />1
+<lb />
+<lb />2
+<lb />2
+<lb />
+<lb />1
+<lb />
+<lb />7
+</fw><fw><lb />2
+<lb />de France
+</fw><fw><lb />7
+<lb />3
+</fw></sp>
+<p type="MainZone-Head"><lb />de France
+</p>
+<p type="MainZone-Head"><lb />de France
+</p>
+    </body>
+  </text>
+</TEI>

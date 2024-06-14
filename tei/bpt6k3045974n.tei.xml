@@ -1,0 +1,1537 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Ballet extravagant . Comedie</title>
+        <author></author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb332549505"/>
+          <author>
+            <persName></persName>
+          </author>
+          <title>Le Ballet extravagant . Comedie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1694" cert="high" resp="BNF">1694</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />Extrait du Privilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Privilege du Roy, donné à Paris
+<lb />T le 30. Janvier 1693. Signé, Par le Roy en son
+<lb />Conseil, GAMART. Il est permis à THOMAS
+<lb />GUILLAIN de faire imprimer, vendre &amp; de<lb />biter les Oeuvres de Theâtre du Sieur P** pen<lb />dant le temps de six années, à compter du jour
+<lb />qu’elles seront imprimées pour la premiere fois,
+<lb />pendant lequel temps tres-expresses inhibitions &amp;
+<lb />deffenses sont faites à toutes personnes de quelque
+<lb />qualité &amp; condition qu’elles soient, de faire im<lb />primer, vendre ni debiter lesdites Pieces de Theâ<lb />tre d’autre Edition que de celle de l’exposant ou
+<lb />de ceux qui auront droit de lui, à peine de trois
+<lb />mille livres d’amende, de confiscation des Exem<lb />plaires contrefaits, &amp; de tous depens, dommages
+<lb />&amp; interests, &amp; autres peines portées plus au
+<lb />long par lesdites Lettres de Privilege.
+</p>
+<p type="MainZone-P"><lb />Registré sur le Livre de la Communauté des Li<lb />braires &amp; Imprimeurs de Paris, le 4. d’Avril 1693.
+</p>
+<p type="MainZone-Head"><lb />Signé, P. AUBOUYN, Syndic.
+</p>
+<p type="MainZone-P"><lb />Achevé d’imprimer pour la premiere fois, le
+<lb />27. Juin 1694.
+</p>
+<p type="MainZone-Head"><lb />EDLIEEEE
+<lb />EXTRAVAGANT.
+<lb />COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />SOENA IRBAREACE.
+<lb />ORONTE, CHRISALTE.
+</p>
+<sp type="MainZone-Sp"><lb />ORONTE en habit d’Armenien.
+<lb />N un mot, Monsieur mon cher
+<lb />Chrisalte, depuis deux ans que
+<lb />vous n’avez reçu de mes nou<lb />velles, &amp; que je passe pour mort
+<lb />dans ma Famille, l’entêtement que ma
+<lb />Femme a toujours eu pour les spectacles
+<lb />a dégeneré en folie.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Pourquoi donc la tant ménager? pour<lb />quoi ce déguisement, &amp; que ne faites<lb />vous l’éclat qu’elle merite?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Un éclat feroit évader ces deux favoris,
+<lb />dont elle est la vache à lait depuis long<lb />temps, &amp; dont je veux mé saisir aujour<lb />d’hui, si je puis.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Et de quel droit vous en saisir?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Comment de quel droit? il y a plus d’un
+<lb />mois qu’ils sont logez &amp; nourris ceans
+<lb />comme de grands Seigneurs pour leurs
+<lb />pretenduës qualitez, l’un de Maistre à
+<lb />danser, l’autre de Musicien &amp; de Poëte.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Peut-être le sont-ils veritablement.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Point du tout. Il y en a un au contraire
+<lb />que l’on soupçonne de n’être qu’un mise<lb />rable valet de quelque malheureux Offi<lb />cier de Cavallerie, qui cherche peut-être
+<lb />des duppes pour faire sa Compagnie, &amp;
+<lb />vous voulez que je souffre que cette folle
+<lb />ruine mes filles.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Est-ce les ruiner que de les faire bier
+<lb />clever, que de leur donner des Maiitres...
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Mais ces Maistres suposez, luy ont mis<lb />dans la teste d’entreprendre un Opera,
+<lb />pour l’aller promener dans les Provinces.
+</sp>
+<sp type="MainZone-Sp"><lb />CIIRCIONETE.
+<lb />Ho certes.....
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />N’est-ce pas le grand chemin de dissi<lb />per en moins d’une année le peu de bien
+<lb />que mes travaux &amp; mes voyages m’ont
+<lb />fait amasser dans l’esperance de marier
+<lb />avantageusement mes mies? Helas! vous
+<lb />connoissez la Famille de Clitandre &amp; de
+<lb />Dorante.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Comme la vôtre, pourquoi?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ils recherchoient mes filles, j’en étois
+<lb />ravi, &amp; sans mon malheureux voyage...
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Je vois bien..... Mais vous voila de
+<lb />retour à propos, vous y serez encore en
+<lb />temps.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Je ne sçai.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Mais qui vous en a déja tant appris, &amp;
+<lb />comment sçavez-vous que vôtre femme
+<lb />fait des dépenses &amp; des dissipations?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Il y a deux ou trois jours qu’à la faveur de
+<lb />mon déguisement je loge dans cet Hôtel
+<lb />avec elle, j’ai gagné un certain domestique
+<lb />de la maison qui me raporte, pour mon
+<lb />argent, tout ce qu’elle fait, &amp; Toinette
+<lb />même sa fille de chambre qui ne m’avoit
+<lb />jamais vû, &amp; qui est malicieuse, mocqueuse
+<lb />&amp; plaisante, jugeant par la curiosité que
+<lb />j’ai de m’informer de ce qui se passe chez
+<lb />ses Maistresses que je suis amoureux de
+<lb />quelqu’une d’elle, me dit de son côté pour
+<lb />ie divertit de mor seuienient, des choses
+<lb />qu’elle croit sans consequence, &amp; dont je
+<lb />ne laisse pas d’en tirer de fortes.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALIE.
+<lb />Toinette aime à rire, &amp; ce valet vous
+<lb />trompe peut-être.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Il est trop ingenu; il m’a même averti
+<lb />que ces fripons ont quelques desseins d’en<lb />lever mes filles, c’est pourquoi ma reso<lb />lution est prise, &amp; je vous prie de me ser<lb />vir en ami.
+</sp>
+<sp type="MainZone-Sp"><lb />OR en d do
+<lb />Quand la charge de Commissaire que
+<lb />j’ai achetée depuis que nous ne nous som<lb />mes veus, ne m’auroit produit que cette
+<lb />occasion, je m’estimerois trop heureux...
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Je vous suis obligé, voila pourquoi j’ai
+<lb />souhaité que vous vinssiez ici pour recon<lb />noître les lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />CMRICFOIEIE.
+<lb />Cela est tout vû.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Cette salle est commune à deux ou trois
+<lb />apartemens.
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Tant mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />OIONTE.
+<lb />Voila celui de ma femme &amp; de mes
+<lb />niies.
+</sp>
+<sp type="MainZone-Sp"><lb />CHISALTE.
+<lb />Fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Voila la chambre des deux fourbes en
+<lb />question, ils ne sçauroient nous échaper.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRTSALIE.
+<lb />Assurément, &amp; vous pouvez, mon cher
+<lb />Oronte, vous reposer entierement sur mes
+<lb />soins.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Phanuus lailfenillor feuil Iiillo femble
+<lb />que j’entens Toinette, elle aura peut être
+<lb />quelque nouveauté à m’apprendre, re<lb />tirez-vous, c’est elle-même. Si j’ai besoin
+<lb />de vous, je sçai bien où vous retrouver.
+</sp>
+<p type="MainZone-Head"><lb />1O LE BALLET EXTRAVAG.
+<lb />CHRISALTE.
+<fw><lb />Canqueurr.
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />TOINETTE, ORONTE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />H, ah, je vous retrouve toujours»
+<lb />d de vous ne bougez donc de ccans?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Vous voyez.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Hé bien, ne cesserez-vous jamais d’être
+<lb />taciturne? il y a pourtant dequoi se diver<lb />caniiirecie dtene hotre teurraunouig, que
+<lb />dans toute vôtre Armenie.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Je le crois.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Courage, Seigneur Dom Japhet le te<lb />nebreux, faites comme nous qui n’avons
+<lb />en teste que joye, allegresse, réjoüissance,
+<lb />argent &amp; bonne chere.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Tout le monde est-il devenu fou chez
+<lb />vous?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous l’estes bien davantage, d’aller cou<lb />rir les mers pour quelque petit profit tres<lb />incertain, nous allons nous gagner de l’ar<lb />gent sans danger, &amp; en terre ferme.
+</sp>
+<sp type="MainZone-Sp"><lb />ORCONTE.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />En riant, chantant &amp; dansant.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Mais, Toinette....
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je vous trouve bien famillier de m’ap<lb />peller Toinette, donnez-moi s’il vous
+<lb />plaist de la Damoiselle gros comme le bras.
+<lb />J’aspire à devenir Danseuse de l’Opera,
+<lb />&amp; si cela arrive, j’espere que nous ferons
+<lb />parler de nous comme les autres.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Vous vous mocquez.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Non serieusement. Madame Julie a fait
+<lb />societé avec Messieurs de la Riviere &amp; des
+<lb />Rondeaux, ils vont au premier jour met<lb />tre un Opera sur pied, &amp; le voiturer de
+<lb />contrée en contrée. Dés ce soir elle leut
+<lb />avance pour cela mille pistoles.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quoi, elle donnera mille pistoles?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vrayment c’est pour s’enrichir, la peste
+<lb />qu’elle est fine. Que croyez-vous, elle ne
+<lb />fait si bien apprendre à chanter &amp; à dan<lb />ser à ses filles, que dans la veuë de leur
+<lb />raite faire les premiers roolles dans son
+<lb />Opera?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />C’est une adroite, vous dis-je, elle en
+<lb />sçait bien plus long que nôtre pauvre
+<lb />deffunt Monsieur Oronte; on dit que
+<lb />c’étoit un bon homme, mais petit genie.
+<lb />Pour elle, ha, ha, elle ne veut que des
+<lb />Danseurs &amp; des Chanteurs pour gendres.
+<lb />e cent tera joli de voir une Accademie
+<lb />composée presque d’une seule famille!
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE bas.
+<lb />Je l’en empescherai bien.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Qu’avez-vous? estes-vous jaloux de la
+<lb />fortune que nous allons faire? Vous y au<lb />rez vôtre part si vous voulez, j’ai assez
+<lb />de credit dans nôtre Accademie pour vous
+<lb />y faire vendre du caffé.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Je vous remercie.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />I'y ferai joindre encore les livres &amp; la
+<lb />bougie, les arboutans de nôtre Opera
+<lb />ne me sçauroient rien refuser.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Vous pouvez donc toute cnore iur l’es<lb />prit de Julie?
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Qu’est-il besoin? quoi vous croyez que
+<lb />ce soit elle qui soit la Maistresse?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Eh qui donc?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Qui : Messieurs des Rondeaux &amp; de la
+<lb />Riviere. Enfin Madame Julie sera la Maî<lb />tresse pour payer seulement, mais pour
+<lb />le reste, je crois franchement que nous le
+<lb />relalieo coucs
+</sp>
+<sp type="MainZone-Sp"><lb />RONTE.
+<lb />Quel aveuglement! &amp; que fait Julie à
+<lb />l’heure qu’il est?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Elle est avec Monsieur Rondeaux qui
+<lb />lui parle de Philosophie, de Metamor pho<lb />se, de vers; mais je m’arreste trop, &amp; je
+<lb />dois aller dans l’apartement de Monsieur
+<lb />de la Riviere; adieu Monsieur de la
+<lb />Chocolatiere.
+</sp>
+<p type="MainZone-Head"><lb />OCIREREITO
+</p>
+<sp type="MainZone-Sp"><lb />ORONTE seul.
+<lb />Uste Ciel! que dois-je faire? suivrai<lb />e le transport qui m’agite? Non, sus<lb />pendons mon ressentiment, &amp; puisque je
+<lb />me suis contraint jusques ici, allons retrou<lb />ver Chrisalte, &amp; prenons avec lui les me<lb />sures necessaires pour empescher ce de<lb />testable projet. Mais que veulent ces
+<lb />gens ?
+</sp>
+<p type="MainZone-Head"><lb />
+<lb />CENE IV.
+<lb />DEUX TROMPETTES, ORONTE.
+</p>
+<sp type="MainZone-Sp"><lb />I. TROMPETTE.
+<lb />Erviteur, Seigneur Armenien, estes
+<lb />O vous François ?
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />Selon.
+<lb />ORONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />II. TROMPETTE.
+<lb />C’est à dire si vous entendez nôtre lan<lb />gue ?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quelquefois.
+</sp>
+<sp type="MainZone-Sp"><lb />L. TROMPETTE.
+<lb />Connoinez-vous quelqu’un dans ce
+<lb />logis?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Peut-estre.
+</sp>
+<sp type="MainZone-Sp"><lb />II. TROMPETTE.
+<lb />N’est-ce pas ici que demeure une femme
+<lb />qui n'eit pas illal foile:
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Pourquoi?
+</sp>
+<sp type="MainZone-Sp"><lb />II. TROMPETTE.
+<lb />C’est qu’ils ont à leurs trousses deux Ca<lb />vanlela qui les couenent en joue.
+</sp>
+<sp type="MainZone-Sp"><lb />I. TROMPETTE.
+<lb />Et ce sont ces deux Cavaliers que nous
+<lb />cherchons.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE voyant paroître la Riviere
+<lb />&amp; Toinette.
+<lb />Tenez, je crois que ce Monsieur vous en
+<lb />pourra dire des nouvelles. Bas C’est assuré<lb />ment un de mes fourbes, retirons-nous,
+<lb />&amp; faisons observer au tour du logis ce
+<lb />qui se passera.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LA RIVIERE, TOINETTE,
+<lb />LES DEUX TROMPETTES.
+</p>
+<sp type="MainZone-Sp"><lb />I. TROMPETTE.
+<lb />Ous te trouvons à la fin, mon Prin</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Pour vous lervir, mes enfans.
+</sp>
+<sp type="MainZone-Sp"><lb />II. TROMPETTE.
+<lb />Il y a long-temps que nous te cherchons.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Il y a long-temps que je vous attend.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Qui sont ces gens-là?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ce font nos deux Trompettes que je
+<lb />fais venir ici, pour nous prester main forte
+<lb />en cas de besoin; nous pouvons nous con<lb />fier à eux, ils sont resolus &amp; discrets.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Bon, des Trompettes discrets.
+</sp>
+<sp type="MainZone-Sp"><lb />I. TROMPETTE.
+<lb />Sont-ce-là tes amours?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />N’en vaut-elle pas bien la peine? que
+<lb />t’en semble?
+</sp>
+<sp type="MainZone-Sp"><lb />Il. TROMPETTE.
+<lb />Allons, Camarade.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIENE.
+<lb />Que voulez-vous faire?
+</sp>
+<sp type="MainZone-Sp"><lb />L.IROMPETIE.
+<lb />Sonner une petite fanfare.
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />J’ai bien affaire d’estre trompettée.
+</sp>
+<sp type="MainZone-Sp"><lb />Il TROMIEIIL.
+<lb />Ce sera à la sourdine, &amp; la serenade ne
+<lb />lui coûtera que bouteille.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />J’aime mieux vous en payer six une
+<lb />autrefois, &amp; que vous ne fassiez point
+<lb />de bruit presentement. Voila ma chambre,
+<lb />allez-y tous deux, vous y trouvez vos
+<lb />Capitaines; vous Içaurez à quoi vous leur
+<lb />serez necessaire. Dites-leur que nous al<lb />lons travailler pour eux Toinette &amp; moi,
+<lb />&amp; qu’ils ne s’impatientent pas.
+</sp>
+<sp type="MainZone-Sp"><lb />TROMPETTE.
+<lb />C’est assez.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LA RIVIERE, TOINETTE,
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Os amoureux sont donc bien in<lb />Y V quiets ?
+</sp>
+<sp type="MainZone-Sp"><lb />EN RIVIERL.
+<lb />Ma foi sans ma rethorique, je crois
+<lb />qu’ils se seroient jettez par les fenestres.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Qu’ils s’en gardent bien, ils gâteroient
+<lb />ois affaires.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Et encore plus leur taille; mais parlons
+<lb />serieusement, que fait Madame Julie?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Faut-il le demander; elle est avec Mon<lb />sieur des Rondeaux qui l’enjole, &amp; qui
+<lb />gagne bien, je t’assure, l’argent que tu lui
+<lb />as promis.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />N’est-il pas vrai que c’est une homme
+<lb />universel?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ce n’est pas d’aujourd’hui que je le con<lb />nois, nous nous sommes veus en Langue<lb />doc.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Tigures-tor done ce que c’est qu’un
+<lb />Normand, nourriture de Gascogne.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETIE.
+<lb />Diantre!
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Mais que dirai-je à nos Amans? ils sons
+<lb />diablement pressez.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Qu'ils le donnent patience, iis ne peu<lb />vent voir mes jeunes Maistresses que leur
+<lb />mere ne soit sortie.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />C’est ce que j’ai tâché de leur faire en<lb />tendre.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Les voila bien malades de se contrain<lb />dre un moment pour leur propre interest,
+<lb />nous nous contraignons bien pour leur
+<lb />rendre service depuis un mois.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />LA RIVIERE.
+<lb />Voila à peu prés les termes dont je me
+<lb />suis servi pour les persuader.
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Les beaux esprits se rencontrent com<lb />me tu vois.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Tu n’en manque pas, mais tu n’en a
+<lb />pas tant que moi.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ce ier pue ddajualunuxque je le
+<lb />sçais.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />reu de gens m'egallent en vivacité,
+<lb />&amp; si sans vanité je n’en fais pas trophée.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />En prenant la figure d’un Maistre à
+<lb />daliter, (ous iren aren pas pris tous les
+<lb />apanages, &amp; l’on void bien que la mo<lb />deitie est une de vos bonnes qualitez.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Mais vous ironisez la belle.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Moi? point du tout, je dis ce que je
+<lb />pense.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Malgré vôtre raillerie trouvez encore
+<lb />dans Paris un valet, qui pour servir son
+<lb />Mraiitre s'mtrouune aupres de là Maï<lb />tresse en qualité de Maître à danser, &amp;
+<lb />qui puisse soûtenir pendant un mois ce
+<lb />noble curdeccre. un
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Oh tant de presomption me fait perdre
+<lb />patience. Diroit-on pas à t’entendre par<lb />ler que tu sçais la magie noire? Je m’en
+<lb />vais parier moi, que si j’étois vêtuë en
+<lb />homme, je ferois.... je ferois aussi bien que
+<lb />toi ton personnage.
+</sp>
+<sp type="MainZone-Sp"><lb />EIERRERERE.
+<lb />Qui, toi? je voudrois bien t’y voir.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Et qu’y a-t-il en cela de difficile? En<lb />trer familierement à toute heure chez de
+<lb />jolies personnes, leur faire faire deux ou
+<lb />tée, leur prendre les bras, leur mettre la
+<lb />main tantôt sous le menton, &amp; tantôt sur
+<lb />l’épaule, marmotter un air, se dandiner,
+<lb />friser un pied; faire un sault, une gamba<lb />de, une pirouëte, une profonde reveren<lb />ce; dire doucereusement deux ou trois fot<lb />tises, &amp; prendre en s’en allant negligem<lb />ment ses billets. Car franchement tu n’est
+<lb />Maître à danser que pour les billets.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Que tu es peste. Mais au fonds crois-tu
+<lb />que je sois le seul de la profession qui me
+<lb />mêle de ce petit negoce?
+</sp>
+<sp type="MainZone-Sp"><lb />13.
+<lb />Hé que non; &amp; que ces Messieurs se<lb />roient moins dorez qu’ils ne le sont, s’il
+<lb />ne leur étoit jamais passé par les mains
+<lb />d’autres billets, que ceux qui servent de
+<lb />marques pour leurs leçons. Crois-moi,
+<lb />ne te vante pas tant, des Rondeaux fait
+<lb />encore plus que toi, &amp; Julie jureroit qu’il
+<lb />est grand Musicien &amp; grand Poëte.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Belle comparaison. Pour paroître Poëte
+<lb />ou Musicien, il n’y a qu’à être fou, &amp;
+<lb />quand on veut paroître tous les deux en<lb />semble, il faut un peu redoubler la dose;
+<lb />mais pour la danse, il faut payer de sa
+<lb />personne; il faut estre bien faits, belles
+<lb />jambes, beaux bras, bel estomach, bon
+<lb />air; enfin il faut avoir mille belles qua<lb />litez qui se rencontrent en moi.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Eh laissons ces bagatelles pour des cho<lb />ses plus importantes. Clitandre &amp; Doran<lb />te sont arrivez d’hier au soir ?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIENL.
+<lb />Ouï, d’hier au soir, dans l’esperance
+<lb />d’enlever leurs Maîtresses comme nous
+<lb />leur avons mandé.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Sur; mhais je ne crois pas qu’elles soient
+<lb />d’aussi bonne volonté que nous. Le mot
+<lb />d’enlevement les effarouche, &amp; la pudeur
+<lb />leur fait faire des reflexions qui ne sont pas
+<lb />à nôtre avantage.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Elles n’ont pourtant point de meilleur
+<lb />parti à prendre, &amp; tu dois être la premiere
+<lb />cies yrerbudre, si tu veux conserver quel<lb />que esperance de me posseder.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />On si haut prix me ferost entreprendre
+<lb />des choses encore plus perilleuses.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />La presence de leurs Amans poura les
+<lb />déterminer.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je n’attens pour cela que la sortie de leut
+<lb />mere. La voici heureusement avec des
+<lb />Rondeaux; amusez-la tous deux ici, je
+<lb />vais cependant mener ton Maître &amp; Cli<lb />tandre chez mes Maîtresses, &amp; me joindre
+<lb />à eux pour tâcher de les persuader. Faites
+<lb />milles contes à dormir de bout à Julie,
+<lb />étourdissez-la de vos balivernes; voyez
+<lb />en quel danger je serois, si elle venoit à
+<lb />rentrer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />ULIE, DES RONDEAUX,
+<lb />LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />'Avois impatience de vous revoit, Mon<lb />phrcurrde lle ferviere, je veux fedvoir de
+<lb />vous, si vous pouvez avoir toutes choses
+<lb />prestes pour partir dans trois jours.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Tout est prest, Madame, &amp; il ne nous
+<lb />manque plus rien que de l’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />J’attens mon Procureur pour aller rece<lb />vor minie piloies, que je vous mettrai
+<lb />aussi-tost entre les mains; mais avez-vous
+<lb />tous vos danseurs, vos chanteurs, &amp; vos
+<lb />simphonistes?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />J’ai mes principales voix. Vous avez
+<lb />paru satisfaite de toutes celles que je vous
+<lb />ai fait entendre, quant aux chœurs les
+<lb />Provinces ne nous fourniront que trop de
+<lb />sujets pour les remplir, &amp; pour des vio<lb />lons
+<lb />lons, &amp; autres instrumens, il se pre<lb />sente à moi tous les jours dequoi peupler
+<lb />cinq ou six Orchestres.
+</sp>
+<sp type="MainZone-Sp"><lb />Et les habits?
+<lb />ULIE..
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Je crois que nous aurons assez de ceux
+<lb />qui sont déja dans ma chambre, on ne se
+<lb />pique pas aujourd’hui qu’ils soient entie<lb />rement neufs.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Nous venons presentement Monsieur des
+<lb />Rondeaux &amp; fior de drener les afticles
+<lb />de nôtre societé, je vais vous les querir
+<lb />afin que vous les examiniez.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />cetce pemre, je teu fgnerar cantot aveu<lb />glément aprés que je vous aurai donné un
+<lb />plat de mon mêtier, &amp; que vous aurez
+<lb />vù le Ballet que vous souhaitez.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Quelque remplie que je sois des belles
+<lb />choses que Monsieur vient de me lire, je
+<lb />m’appreste encore à vous admirer.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ah! Madame, pour Monsieur, vous ne
+<lb />pouvez m’en rien dire que je ne connoisse
+<lb />à fond. C’est le premier homme du mon<lb />de pour la composition, aussi bien que pour
+<lb />les paroles, &amp; le plus beau morceau d’O<lb />pera que j’aye jamais vû de ma vie; c’est
+<lb />sans doute son Dialogue de Pierre de Pro<lb />vence avec la belle Maguelonne.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Parlez de vous, Monsieur de la Riviere,
+<lb />parlez de vous. Ouï, Madame, voila le
+<lb />premiet des genies pour donner une ca<lb />dance, des attitudes, &amp; des mouvemens à
+<lb />toutes choses; il n’est pas jusques aux plus
+<lb />abstraites qu’il ne rende sensibles, quand
+<lb />il les expose sur le theâtre. Par exemple,
+<lb />y a-t-il rien de plus surprenant que ce
+<lb />qu’il a esté inventer pour mon Opera de
+<lb />Clelie dans toutes les ingenieuses en<lb />trées des habitans de Tendre, dont j’a<lb />vois tout à l’heure l’honneur de vous en<lb />tretenir? C’est bien autre chose vrayment
+<lb />que des sauts de lutins, que des trico<lb />tez de Dieux des eaux, ou des passecailles
+<lb />de divinitez champestres. Grace à la su<lb />blimité de l’imagination de Monsieur,
+<lb />nouvelle amitié, jolis vers, billets doux,
+<lb />petits soins, respects, empressemens, soû<lb />pirs &amp; desirs temeraires, tout cela danse,
+<lb />Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Quand il seroit vrai que j’aurois quel<fw><lb />2
+</fw><lb />que talent pour cela, encore seroit-ce l’u<lb />nique; mais vous, Monsieur, vous joignez
+<lb />l’excellence de la magique au cromatique
+<lb />de la Poësie.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />je ie iele de trop de cirores pour
+<lb />réüssir à pas une.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Eh fy, à quoi sert cette modestie? Il ne
+<lb />faudra pour preuve de ce que je dis, que
+<lb />voir vôtre Opera d’Alemene. Figurez<lb />vous, Madame, qu’il la fait accoucher
+<lb />sur le theâtre. Jusques ici on n’a fait chan<lb />ter que des amans, des furieux, des geans,
+<lb />&amp; des damnez tout au plus; mais que di<lb />ra-t-on quand on entendra une femme
+<lb />en travail d’enfant exprimer par son chant
+<lb />ses douleurs &amp; ses tranchées? Y a-t-il
+<lb />qu’un des Rondeaux au monde qui peut
+<lb />mettre en musique les cris d’une femme
+<lb />qui accouche.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Ce n’est rien au prix de ce que vous a
+<lb />fourni vôtre invention dans mon divertis<lb />sement des sectes de Philosophes, &amp; vous
+<lb />en jugerez, Madame, quand vous verrez
+<lb />qu’il y fait danser les idées de Platon, &amp;
+<lb />les ombres de Pitagore.
+</sp>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />Hé mon Dieu, je suis toute ravie de
+<lb />vous entendre. Vous mettez donc toutes
+<lb />choses en Opera?
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Je le crois bien, Madame. Je ne veux
+<lb />pas qu’on sorte vuide de mes spectacles,
+<lb />&amp; je pretens qu’on en rapporte autre cho<lb />se que des chansons.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Il est vrai que rien n’affadit le cœur
+<lb />comme d’entendre un tas de jeunes éva<lb />porez &amp; de femmes étourdies, qui ne font
+<lb />autre chose en sortant d’un Opera que
+<lb />bourdonner, je vais partir, belle Hermio<lb />ne..... &amp; quelque tronçon de chant qu’ils
+<lb />auront retenu.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />La Comedie se vantera d’instruire, &amp;
+<lb />l’Opera n’aura pas cette avantage? Je
+<lb />prétens former l'eiprit &amp; les mœurs dans
+<lb />les miens, &amp; qu’on y apprenne Fable,
+<lb />Histoire, Science, Arts, Philosophie,
+<lb />Astrologie, Mathematiques &amp; Morale.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Oh que cela sera beau, &amp; d’une grande
+<lb />utilité!
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Vous mocquez-vous; par tout où nous
+<lb />établirons nôtre Accademie, on poura, si
+<lb />l’on veut, supprimer les Colleges.
+</sp>
+<sp type="MainZone-Sp"><lb />Est-il possible?
+<lb />ULIE.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Ouï, Madame, je vous soutiens qu’on
+<lb />n’apprend rien dans les Colleges qu’on
+<lb />n’apprenne plus agreablement dans nôtre
+<lb />Opera.
+</sp>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />Quel plaisir pour la Jeunesse!
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />En un mot, Madame, j’ai raffiné sur tout
+<lb />ce qui a esté fait jusqu’à present dans ce
+<lb />genre, &amp; pour l’interest &amp; pour la gloire.
+<lb />Dans cette double vûë, je n’ai point fait
+<lb />d’Opera qui dure moins de six jours : j’ai
+<lb />remarqué qu’il y a plusieurs personnes
+<lb />assez ménageres pour se contenter de voir
+<lb />chaque Opera une seule fois.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />On sera obligé de venir aux nostres six
+<lb />fois pour le moins, si l’on les veut voir
+<lb />tous entiers.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Nous en donnerons le Prologue le Lun<lb />dy, le Mardy le premier Acte, &amp; ainsi du
+<lb />reste.
+<fw><lb />C 1ij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />TOINETTE, JULIE, DES RONDEAUX,
+<lb />LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Asmin est de retour Madame, &amp; vostre
+<lb />Procureur est là bas dans le carosse.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Je vais descendre, &amp; luy épargner la
+<lb />peine de monter; je vous prie, Messieurs,
+<lb />que tout soit prest à mon retour pour le
+<lb />Ballet; je brûle d’envie de voir cet essay
+<lb />de voitre capacite, enuitte je vous met<lb />trez entre les mains les mille pistoles que
+<lb />je vals touener.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />DES RONDEAUX, LA RIVIERE,
+</p>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />L me semble que nous allons insensi<lb />Iblement nous engager dans une mé<lb />chante affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />As-tu peur.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Moy, non ?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Mais tu tremble, n’est-ce pas; cela n’est
+<lb />pas extraordinaire. Les Muses ne sont pas
+<lb />courageuses, &amp; qui en possede deux com<lb />me toy, doit avoir peur à proportion; ce<lb />pendant nous sommes trop avancez pour
+<lb />reculer.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Je ne dis pas qui faille reculer, mais au
+<lb />moins ne devrions-nous rien entrepren<lb />dre à la legere, &amp; il seroit bon que nous
+<lb />fussions bien accompagnez.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ah, poltron, je ne t’ay jamais reconnu
+<lb />si Poëte: Va, va, j’ay pourveu à tout; Et
+<lb />nos deux Trompettes.
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />TOINETTE, DES RONDEAUX
+<lb />LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />A crainte &amp; ses précautions sont inu<lb />De tlles.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ces innocents ne veulent point, à
+<lb />quelque prix que ce soit, consentir à l’en<lb />levement; mais les voicy tous ensemble,
+<lb />taschons encore de les convertis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />MARIANE, ANGELIQUE, CLITAN<lb />DRE, DORANTE, LA RIVIERE,
+<lb />DES RONDEAUX, TOINETTE.
+</p>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />On, Dorante, je n’y consentiray
+<lb />AV jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Belle Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />AARIANE.
+<lb />maloioottiturtijamais de moy cez
+<lb />aveu Clitandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CETTANDRE,
+<lb />Charmante Mariane.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Vous m’allez desesperer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je vous imiteray.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Vous me ferez mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />MARIANE.
+<lb />Je ne vous survivray pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Voila ce qui s’appelle une entrée par<lb />lante.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Voila ce qui s’appelle des sottises; hé
+<lb />mort de vie, il sied bien à des Officiers de
+<lb />soûpirer comme des benets, vous merite<lb />riez d’estre cassez: Allez, vous deshonno<lb />rez les trouppes; &amp; vous, pouvez-vous en<lb />tendre tous deux tant de sottise sans rien
+<lb />dire.
+</sp>
+<sp type="MainZone-Sp"><lb />D1 le nranleno
+<lb />Que veux-tu que nous disions, pour
+<lb />moy les bras me tombent.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Moy, je songeois que l’on feroit une
+<lb />belle Scene de ce desespoir amoureux.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Perte toit du peete de riidoient, &amp; des
+<lb />amoureux transis; je void qu’il faut que
+<lb />je me meise un peu de tout cecy: ç’a de<lb />quoy s’agit-il?
+</sp>
+<sp type="MainZone-Sp"><lb />LES 4. AMANS ensemble.
+<lb />Ne le suis-tu pas.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Quoy! tous ensemble?
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />C’en seroit assez pour un chœur d’O<lb />pera.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Parlons l’un aprés l’autre, dequoy vous
+<lb />plaignez-vous, je vous choisis, vous, pour
+<lb />porter la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Du peu d’estime &amp; de confiance qu’elle
+<lb />nous marquent en ne vonlant pas nous
+<lb />suivre.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Elles n’ont pas raison; Et vous quels
+<lb />sont vos griefs, répondez-nous qui estes
+<lb />l’aisnée.
+</sp>
+<sp type="MainZone-Sp"><lb />ANOLLIQUE.
+<lb />Ils ont l’indiscretion de nous proposer
+<lb />un enlevement.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ils ont tort? est-ce qu’on propose des
+<lb />enlevemens aux personnes qui nous ai<lb />ment ; cependant lainez-moy faire, je
+<lb />tascheray d’accomoder tout cecy, venons
+<lb />au fait: N’aimez-vous point cette De<lb />moiselle.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />En peux-tu douter?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Non assurément, n’estimez-vous pas
+<lb />beaucoup ces Messieurs.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Juges-en par nostre chagrin.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Cela se voit, ne feriez-vous pas tout
+<lb />vostre bon-heur de les posseder.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Celt cout ce que noue lounceretons au
+<lb />monde.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Fort bien, &amp; vous ne seriez-vous pas
+<lb />bien aise de les avoir pour époux.
+</sp>
+<sp type="MainZone-Sp"><lb />O
+<lb />Ouy par toute autre voye que celle de
+<lb />l’enlevement.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Oh! il n’y faut plus songer; mais si je
+<lb />vous propose quelqu’autre expedient hon<lb />neste, me promettez-vous de faire ce que
+<lb />je vous diray.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />De tout noltte ceur
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />An! volla qui va bien, il faut commen<lb />cer pour sortir d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ne vous allarmé pas, il faut sortir d’i<lb />cy, aller se promener aux Tuilleries, &amp;
+<lb />delà nous irons où nostre destinée nous
+<lb />conduira.
+</sp>
+<sp type="MainZone-Sp"><lb />MARIANE.
+<lb />Et quelle difference fais-tu de cette pro<lb />menade à un enlevement?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Et quelle ressemblance trouvez-vous
+<lb />d’un enlevement à une promenade; sor<lb />tons d’icy, vous dis-je, &amp; tout-à-l’heure:
+<lb />Vostre mere ne nous a donné que ce temps<lb />cy pour songer à nos affaires, profitons-
+<lb />en; &amp; quand nous nous serons promenez
+<lb />uir jour bu deux, nour trouverons bien
+<lb />des expediens pour avoir son consente<lb />illent de force ou de gle.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais où irons-nous ?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />N’avez-vous pas icy vostre tante, Mon<lb />stetirli dat il pas la mere: au pis aller, le
+<lb />monde n’est-il pas plein de Convents, ne
+<lb />perdons point de temps en paroses inuti<lb />les: La Riviere va chercher des carosses.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />J’y cours?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Attendez, où courez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Si vous ne profitez de cette occasion,
+<lb />vous courez risque de vous voir quelques
+<lb />jours conjointe à quelque dies is, &amp; vô<lb />tre sœur à quelque piroüete à six tours; &amp;
+<lb />dailleurs, ne suivez-vous pas les inten<lb />tion de vostre pere, qui estoit mille fois
+<lb />plus raisonnable que vostre mere.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />rour ne pome peture de temps, je vais
+<lb />faire ma male.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Rien ne te presse, l’equipage d’un Poë<lb />te est bien-tost fait.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XII.
+<lb />MARIANE, ANGELIQUE,
+<lb />CLITANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ouc leguarren puus sortir, vostre
+<lb />IV mere est là bas, elle ne s’arreste
+<lb />qu’à donner en passant quelques ordres
+<lb />pour le Balet de ce soir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Quel revers:
+</sp>
+<sp type="MainZone-Sp"><lb />10
+<lb />TOINETTE.
+<lb />Que ferons-nous?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Je ne sçais: Voila ce que c’est que de
+<lb />perdre du temps en paroles.
+</sp>
+<sp type="MainZone-Sp"><lb />RCEEIIE.
+<lb />N’en perdons point encore en reflexions.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE s’en allant.
+<lb />Sortez Dorante.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Mon pauvre la Riviere :
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Tirez-nous de ce mauvais pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Attendez, si leur mere a tant d’envie de
+<lb />voir le Balet, il faut le luy donner tant
+<lb />bien que mal, &amp; nous servir de cette oc<lb />casion; c’est precisément ce que des Ron<lb />deaux me comptoit l’autre jour. Les Ro<lb />mains..... la guerre des Sabins.... la figure
+<lb />&amp; la taille de nos Trompettes, ils sont
+<lb />gros &amp; pesans, jamais vous n’en pourrez
+<lb />venir à bout.... Mais allez viste dans ma
+<lb />chambre, vous y trouverez tout ce qu’il
+<lb />faut, &amp; au signal que je vous donneray
+<lb />vous ferez.... M’entendez-vous au moins?
+<lb />allez promptement; &amp; dés que vous serez
+<lb />prests envoyez-moy des Rondeaux, il
+<lb />amenera ces violons que vous sçavez, &amp;
+<lb />nous avertira de tout ce que vous aurez
+<lb />concerte. Partez.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIII.
+<lb />TOINETTE, LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />IE t’admire?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ah parbleu, mon enfant, je vais faire
+<lb />pour nos amans &amp; pour nous un grand ef<lb />fort de memoire &amp; de bel esprit: Vivat
+<lb />Toinette, tu vais voir un échantillon du
+<lb />sçavoir faire de son futur époux: C’est à
+<lb />vous, mon genie, a qui je m’abandonne,
+<lb />retracez moy fidellement tous les mor<lb />ceaux d’histoire, dont des Rondeaux &amp;
+<lb />ion virgile traveit y ni ont si souvent em<lb />broüillé la cervelle, &amp; venez m’aider à
+<lb />renverser par un pompeux galimatias celle
+<lb />de Maistre Julie.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Prends garde à toy, la voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Fais revenir tes Maîtresses.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE XIV.
+<lb />JOLIE, LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />E reviens plûtôt que je ne m’estois pro<lb />I mis, mon homme est à la Campagne,
+<lb />&amp; je ne sçaurois toucher de l’argent au<lb />jourd nuy; ce qui me contole, c’est que
+<lb />je joüiray plutôt du plaisir de vostre Ba<lb />let.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />J'avois fait appeller Mesdemoiselles vos
+<lb />filles pour en faire une repetition avant
+<lb />vostre venuë; mais puisque vous voicy,
+<lb />nous commencerons tout de bon dés que
+<lb />Monsieur des Rondeaux nous amenera
+<lb />nostre monde: Je vais cependant vous en
+<lb />dire le dessein.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XV.
+<lb />MARIANE, ANGELIQUE, JULIE,
+<lb />TOINETTE, LA RIVIERE.
+</p>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />Llons, mes filles, preparons. nous à
+<lb />E Xadmirer :
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Toute l’hiitoire Romaine est le sujet de
+<lb />l’Opera dont le Balet que vous allez voir
+<lb />fait un divertissement.
+</sp>
+<sp type="MainZone-Sp"><lb />U-LIE.
+<lb />Voila ce qu’on appelle de grands sujets;
+<lb />crelt lee qu'il y curu du mertenieux &amp; du
+<lb />sublime.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Oh, oh?
+</sp>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />Quoy! vous representerez tout combats,
+<lb />triomphes, sacrifices.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />En doutez-vous, il me tarde que vous
+<lb />entendiez le chœur des Oyes qui sauve<lb />rent le Capitole.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />J’avoüe que voila qui est inouy.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ah, ah, voyez donc, je vous prie, Ma<lb />dame, de quels spectacles, de quels diver<lb />tissements, de quelles machines, &amp; de
+<lb />quelles decorations surprenantes un pareil
+<lb />sujet est susceptibles.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Vous m’enchantez.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Quel Orvietan.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />I’histoire d’Enée en fera le prologue
+<lb />d’abord, le Theatre representera la ville
+<lb />de Troye en flames: Enée paroistra por<lb />tant son pere sur ses épaules, tenant son
+<lb />mie Mrcagne par la main, ce peruent dans
+<lb />la confusion sa femme.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Voila le plus bel endroit de sa vie.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ensuite il s’embarquera, il y aura une
+<lb />tempeste, mais une tempeste à faire dres<lb />ser les cheveux. Les vents, les éclairs, une
+<lb />nuit, un tonnerre bourouloulou, bourou<lb />lou, la tempeste finira par une entrée d’Al<lb />cions; C’est dequoy on n’a pas encore
+<lb />ouy parler sur le Theatre, &amp; où sans vani<fw><lb />té je me suis surpassé: Point de tretous
+<lb />point de sirenes, cela est trivial, mais des
+<lb />monstres les plus singuliers, parmy les<lb />quels je ne laisseray pas de mesler une
+<lb />danse galante de petits poissons, jusques
+<lb />aux marquereaux &amp; aux solles,
+<lb />Afin qu'Enoas le pieux,
+<lb />Re gardant tristement les Cieux,
+<lb />Lasche ces piteuses paroles,
+<lb />Je seray donc mangé des solles.
+<lb />Je ne vous parle point de la chasse des
+<lb />cerfs, des harpies, de sa descente aux En<lb />fers; car un Opera sans lutins, sans om<lb />bres, sans furies &amp; sans Enfers, ne vaut
+<lb />pas le Diable; mais sautons le reste du
+<lb />Prologue, premier Acte, la fondation de
+<lb />Rome. Romulus l’a fait bastir, trouppes
+<lb />de Maçons &amp; de Charpentiers; il établit
+<lb />le Senat, on verra paroistre avec de lon<lb />gues barbes, &amp; de larges robbes fourrées
+<lb />cent hommes venerables a qui je fais dan<lb />se des Rigondons; ce sera une danse grave
+<lb />&amp; majestueuse celle-là; mais la plus va<lb />riée à mon gré, &amp; que j’ay choisi sur toutes
+<lb />pour vous faire voir aujourd’huy, c’est
+<lb />celle qui represente l’enlevement des Sa<lb />bines; Vous y verrez un Romulus, dont
+<lb />j’ose me flatter que vous serez contente,
+<lb />&amp; que vous avoüerez que tout ce que
+</fw><lb />l’art peut produire.... Mais Monsieur des
+<lb />Rondeaux paroist; c’est à moy de me
+<lb />tance;
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVI.
+<lb />DES RONDEAUX, LES AMANS
+<lb />habillez en Romain. LES TROMPET
+<lb />TES en Sabines. JULIE,ANGELIQUE,
+<lb />MARIANE, LA RIVIERE,
+<lb />TOINETTE.
+</p>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />JOus voyez, Madame, des personnes
+<lb />V qui vont faire tous leurs efforts pour
+<lb />vous plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />OIIVENTES
+<lb />Ah! mon Dieu, quels Caresmes prenants.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Tais-toy, veux-tu tout gaster.
+</sp>
+<sp type="MainZone-Sp"><lb />JLIE.
+<lb />Il est vray que voila des figures extraor.
+<lb />dinaires.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Vous jugez bien, Madame, que ce sont
+<lb />des hommes, tous les Operas du monde
+<lb />ont commencé ainsi.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Hé bien masles ou femelles, pourquoy
+<lb />diantre estes-vous allez prendre de ces
+<lb />pensées entripaillées.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Pour entrer dans l’esprit du Poëte, ma
+<lb />mie, mais j’ay tort de répondre à une
+<lb />ignorante; c’est Monsieur qui me presse
+<lb />tous les jours d’imiter la Narure.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />N’ay-je pas raison.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Pour une danse de Nymphes &amp; de Ber<lb />geres, je choisis des personnes effillées,
+<lb />de belle taille, de modeste embonpoint,
+<lb />là entre gras &amp; maigre; Mais pour expri<lb />mer la grossiereté des Sabines, il falloit
+<lb />pour le moins des creatures de cette cor<lb />pulence; mais ne perdons point de temps,
+<lb />Monsieur des Rondeaux, faites com<lb />mencer.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Messieurs les Violons apprestez-vous,
+<lb />vous serez peut-estre surprise d’entendre
+<lb />de Fureeees.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Du Gascon dans un Opera.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Ouy, Madame, dans le dessein où nous
+<fw><lb />
+</fw><lb />sommes de courir toute la France, j’ay
+<lb />crû que je devois faire quelques Scenes
+<lb />dans le langage particulier de chaque Pro<lb />vince; &amp; il y aura dans mes Operas du
+<lb />Gascon, du Normand, du bas Breton, &amp;
+<lb />du Basque; Mais avant que je chante,
+<lb />Monsieur de la Riviere, ayez la bonté de
+<lb />disposer vostre monde.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Allons, Messieurs, gay, plantez-vous
+<lb />bien les mains sur les rognons, un costé
+<lb />de perruque sur l’épaule, ferme là, gour<lb />mandez le Theatre, point d’air emba<lb />rassé, beaucoup de Noblesse ou d’impu<lb />dence, pas mal, pas mal; &amp; vous, Mes<lb />demoiselles, a vous courage, rengorgez<lb />vous, souvenez-vous du moins de partir
+<lb />de bon pied, &amp; dés le premier coup d’ar<lb />chet racourcissez-moy d’abord un bras, &amp;
+<lb />estendez l’autre avec un petit tour de poi<lb />gnet en dedans , déhanchez-vous gracieu<lb />sement, &amp; que la teste panche langou<lb />reusement du costé du bras, que vous
+<lb />estendrez, ces airs tendres vous gagne<lb />ront mille cœurs; fort bien, fort bien, à
+<lb />vous le dez, Monsieur des Rondeaux.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Joüez Messieurs les Violons.
+<lb />Ou danse.
+<lb />Fases m’un bralle de sourtido,
+<lb />Cadun am bostre pastou,
+<lb />E se bostro mero crido,
+<lb />La Pasimaren sut ton,
+<lb />Tou rou, lou lou lou, lou rou, lou lou.
+<lb />on recommence à danser, &amp; les Romains font des ef<lb />foxs pour enlever les Sabins.
+<lb />Quand l’amour fa tout per nous plaire,
+<lb />Aurion tort d’y resista,
+<lb />L’ouca siou nou tourno gaire,
+<lb />Coviten nou den proufita,
+<lb />Ta ra, ra, ra, la la, la, ra la, la.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Courage, mes enfans, hep! voulez<lb />vous boire un coup pour avoir plus de
+<lb />force encore: hep, en voila assez, en
+<lb />voila assez, si vous alliez faire quelqu’ef<lb />forts, vous ne vaudriez plus rien pour le
+<lb />métier où l’on vous destine: Madame,
+<lb />Monsieur des Rondeaux, voila une chose
+<lb />que nous n’avons pas preveuë, jamais
+<lb />nos Romains ne pouront enlever ces Sa<lb />bines.
+</sp>
+<p type="MainZone-Other"><lb />JULIE.
+</p>
+<sp type="MainZone-Sp"><lb />LIE.
+<lb />Quelles masses de chair estes-vous aller
+<lb />prendre.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />TOINETTE.
+<lb />On leur a fare aunt des cecunio qui les
+<lb />assomment.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />LA RIVIERE.
+<lb />Vous ne pensez donc pas aux grands
+<lb />hommes, dont ils representent les Nour<lb />rices? pouvoit-on faire jamais les mamel<lb />les, qui doivent allaiter les Maistres de
+<lb />toute la terre; vouliez-vous qu’on en prit
+<lb />le modelle sur la maigre Nourrice de Ca<lb />dimire: tenez voila une Sabine que j’ay
+<lb />choisie exprés pour porter les trois He<lb />rauts d’une ventrée.
+</sp>
+<sp type="MainZone-Sp"><lb />JULIE.
+<lb />
+<lb />
+<lb />Il faut pourtant, à quelque prix que ce
+<lb />soit, voir la fin de ce Ballet.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />A dlen aa Be
+<lb />
+<lb />0
+<lb />Faite enlever les Romains par les Sa<lb />bines, la moindre d’elle lles emporteroit
+<lb />toutes deux.
+</sp>
+<sp type="MainZone-Sp"><lb />DES RONDEAUX.
+<lb />Comme vous y allez, la belle, il ne faut
+<lb />pas faire de ces anacronismes dans l’hi<lb />stoire.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Nous perdons le plus bel endroit, de<lb />mandez-le à cette Damoiselle, a qui j’en
+<lb />ay montré les pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Mariane &amp; Angenque en sçavent les
+<lb />pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Ouy, Madame?
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />el fueut qu'elrcs les ateriresit.
+</sp>
+<sp type="MainZone-Sp"><lb />MARIANE.
+<lb />Nous, ma mere?
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />ULIE.
+<lb />Ouy, vous, &amp; tout-à-l’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARUALIQUE.
+<lb />Nous n’oserions.
+</sp>
+<sp type="MainZone-Sp"><lb />Il faut l’oser?
+<fw><lb />JULIE..
+</fw></sp>
+<sp type="MainZone-Sp"><lb />MARIANE.
+<lb />Dispensez-nous-en, je vous supplie.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE.
+<lb />Non pas, s’il vous plaist.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Allez en repasser deux ou trois fois les
+<lb />pas dans la chambre prochaine, &amp; dépes<lb />chez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Vous allez voir, vous allez voir une fin
+<lb />de Ballet, à laquelle vous ne vous atten<lb />dez, &amp; qui vous surprendra assurément.
+</sp>
+<sp type="MainZone-Sp"><lb />pe dru..
+<lb />Je n’en doute point?.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />C’est mon chef-d’œuvre au moins que
+<lb />cette fin; &amp; il y a plus d’un mois que
+<lb />travaille.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />ORONTE, CHRISALTE, JULIE,
+<lb />LARIVIERE, DESRONDEAUX, &amp;c.
+<fw><lb />CHRISALTE laissant tomber sa
+<lb />robbe de Commissaire.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Rrestez Messieurs les Romains, les
+<lb />TAarmes doivent ceder à la Robbe,
+<lb />c’est une Sentence d’un de vos Consuls;
+<lb />Vostre enlevement n’ira pas, s’il vous
+<lb />plaist, plus loin.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Que vient chercher ce diable d’homme
+<lb />icy?
+</sp>
+<sp type="MainZone-Sp"><lb />CHRISALTE.
+<lb />Quoy ! vous vous deffendez contre
+<lb />un Commissaire: hola faites monter le
+<lb />Guet.
+</sp>
+<sp type="MainZone-Sp"><lb />CIINReNIas.
+<lb />Feray-je aussi monter le Guet à cheval.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE se démasquant
+<lb />&amp; Clitandre.
+<lb />Hé bien, Monsieur, puisqu’il faut le<lb />ver le masque, apprenez.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Que vois-je?
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Que c’est l’injuste caprice de Mademoi<lb />selle qui nous impose cette dure necessité.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />C’est Clitandre, c’est Dorante.
+</sp>
+<sp type="MainZone-Sp"><lb />CETTANDRE.
+<lb />Que nous ne faisons que suivre la vo<lb />sonte de leur pere, &amp; que si Oronte estoit
+<lb />envie....
+</sp>
+<sp type="MainZone-Sp"><lb />Le voicy.
+<lb />ORONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ULIE s’enfuyant.
+<lb />Hay, mon mary.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Le Ciel me rend tout à-propos à ma
+<lb />famille.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />O Dieux ! Oronte.
+</sp>
+<sp type="MainZone-Sp"><lb />MARIANE &amp; ANGELIQUE,
+<lb />Mon pere.V
+</sp>
+<sp type="MainZone-Sp"><lb />POTRDITE. IV
+<lb />Nostre Maistre.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RIVIERE.
+<lb />Voicy bien un autre bransle.
+</sp>
+<sp type="MainZone-Sp"><lb />DES NONDEAOA.
+<lb />Il nous faudra changer de ton.
+</sp>
+<sp type="MainZone-Sp"><lb />MARIRRE C ANORENQUE.
+<lb />Mon pere ce n’est qu’en nous jettant à
+<lb />IE SURENIT.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Monsieur vous devez nous pardonner.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Levez-vous, Messieurs, je suis informé
+<lb />de tout ce qui se passe, &amp; je voy que vous
+<lb />conser vez pour mes filles des sentimens
+<lb />que j’approuve depuis trop long-temps,
+<lb />pour m'y oppoier aujourd nuy : Allons
+<lb />chercher un endroit plus commode que
+<lb />cette farre 3eetiuicechrenrioie aux
+<lb />moyens de nous mettre tous en repos.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Monsieur, pour vostre bien-venuë, or<lb />donnez, s’il vous plaist, à quelqu’un qu’il
+<lb />m’enleve, &amp; je continuëray mes prieres
+<lb />pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />A RIVIERE.
+<lb />Vien, je suis ton homme.
+<fw><lb />
+<lb />N.
+<lb />XUI AdMON 210
+<lb />
+<lb />
+<lb />V14
+</fw></sp>
+<p type="MainZone-Head"><lb />ECES
+<lb />Contenués en ce Volume.
+</p>
+<p type="MainZone-Entry"><lb />LE GRONDEUR.
+<fw><lb />LE MUET.
+<lb />LE CONCERT RIDICULE.
+<lb />LE BALLET EXTRAVAGANT.
+<lb />L’IMPORTANT DE COUR.
+</fw><fw><lb />0CO MMT I
+</fw></p>
+    </body>
+  </text>
+</TEI>

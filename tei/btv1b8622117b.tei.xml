@@ -1,0 +1,3000 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Celie ou Le Vice-roy de Naples, tragi-comedie. Par Monsieur de Rotrou.</title>
+        <author>Rotrou, Jean de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb31251858n"/>
+          <author>
+            <persName>Rotrou, Jean de</persName>
+          </author>
+          <title>Celie ou Le Vice-roy de Naples, tragi-comedie. Par Monsieur de Rotrou.</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1646" cert="high" resp="BNF">1646</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A
+<lb />PARIS,
+<lb />Chez AVGVSTIN
+<lb />SOVRDE, dans
+<lb />la Galerie du Palais, à la Palme.
+</p>
+<p type="MainZone-Head"><lb />M. DC. XLVI.
+<lb />AVEC PRIVILEGE DV ROY.
+<fw><lb />4
+<lb />d l ta l 
+<lb />Muna a
+<lb />1
+<lb />
+<lb />
+<lb />71
+<lb />
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />EXTRAICT DV PRIVILEGE
+<lb />du Roy.
+</p>
+<p type="MainZone-P"><lb />DAR grace &amp; Priuilege du Roy en datte du
+<lb />I dix-neufiéme Feburier 1646. signé par le Roy
+<lb />en son Conseil le BRVN: Il est permis à Tous<lb />sainct Quinet, Marchand Libraire à Paris, d’Im<lb />primer ou faire Imprimer vne piece de Theatre
+<lb />dela Composition de Monsieur de Rotrou, inti<lb />tulée CELIE, ou le Vice-Roy de Naples, Et ce
+<lb />durant le temps de cinq ans; auec deffences à tous
+<lb />autres de contrefaire ladite piece, ny en vendre de
+<lb />contrefaictes, sur peine de tous despens, domma<lb />geo de intercres, ce arrrersde arbitraire, aisisi qu’il est
+<lb />contenu plus au long esdites lettres dudit Pri<lb />uilege.
+</p>
+<p type="MainZone-P"><lb />Et ledit Quinet a associé au susdit Priuilege An<lb />toine de Sommauille, &amp; Augustin Courbé, aussi
+<lb />Marchands Libraires à Paris, suiuant l’accord fait
+<lb />entr’eux.
+<fw><lb />Acheué d’imprimer le 20. Iuiller 2646.
+</fw><fw><lb />ACTEVRS.
+<lb />D. ALVARE Nepueu du Vice-Roy.
+<lb />D. FLAMINIE Nepueu du Vice-Roy.
+<lb />CELIE Fille d’Euphraste.
+</fw></p>
+<p type="MainZone-Entry"><lb />ToRrurem eme aeupianer
+</p>
+<p type="MainZone-Entry"><lb />EVPHRASTE Gentil-homme Napolitain.
+</p>
+<p type="MainZone-Entry"><lb />ARGANTE Valet de Chambre de D. Aluare.
+</p>
+<p type="MainZone-Entry"><lb />EGYSTE Valet de Chambre de D. Flaminie.
+</p>
+<p type="MainZone-Entry"><lb />LVCINDE Fille de Chambre.
+</p>
+<p type="MainZone-Entry"><lb />D. RODRIGVE Vice-Roy de Salerne.
+</p>
+<p type="MainZone-Entry"><lb />ERGASTE Valet d’Euphraste.
+</p>
+<p type="MainZone-Entry"><lb />GARDES du Vice-Roy.
+</p>
+<p type="MainZone-Other"><lb />CELIE
+</p>
+<p type="MainZone-Head"><lb />AXT
+<lb />TAMUICOMEDIE.
+</p>
+<p type="MainZone-Head"><lb />ACIE I
+<lb />SCERE IREMIERE.
+<lb />D. ALVARE ARGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Dieu! Quelle longueur! est-il poßible, Ar<lb />gante,
+<lb />Que ton affection soit si froide, &amp; si lente,
+<lb />Que t’ayant tant prié de presser ton retour,
+<lb />I'aye apres ta response, attendu tout le iour?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Il faut bien que le temps aux seruices responde;
+<lb />Vous;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Puureis futet depuis, tc toar ut tout te monde,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ouy bien, auec l’Esprit, mais ie marchois du corps,
+<lb />Qu'on ne faict pas mouvoir, par de si prompts ressorts;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Enm'alleguant encor ceste deffense vaine,
+<lb />Tu ioins à la premiere, vne seconde peine;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />I'ay veu, vostre tailleur;
+</sp>
+<sp type="MainZone-Sp"><lb />D. HEVARE.
+<lb />Et c’est de touts mes soings,
+<lb />Celuy que tu sçays bien, Qui m’importe le moins;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ie commenceray donc, par vn, qui vous doibt plaire,
+<lb />Apres vostre tailleur, i’ay cherché vostre frere,
+<lb />Pour sçauoir si le Comte approuue vostre amour,
+<lb />Et s’il tombe d’accord &amp; du dot, &amp; du iour.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />A quoy peus-tu iuger, que ce dessein me touche!
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />A la confeßion de vostre propre bouche,
+<lb />Qui sans cesse, d'Elise exalte les appas,
+<lb />Quels soings, &amp; quels deuoirs, ne luy rendés-vous
+<lb />pas:
+<lb />N'eut-elle pas le prix de la derniere feste,
+<lb />Quanu oons meipees te mort terte espre juble beste e
+<lb />N'en fus-ie pas porteur, le pouués vous nier?
+</sp>
+<sp type="MainZone-Sp"><lb />D. AEVARE.
+<lb />Ce poinct m’importe moins encor que le premier.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Dieux! I’ay cherché Luscinde;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et bien!
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ie ne l’ay veuë,
+<lb />Aux halles, à la place, à l’eau, ny dans la ruë;
+<lb />Où, ne la treuuant point, i’ay, veritablement,
+<lb />Pour presser mon retour, passé legerement;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et voila, malheureux, le seul poinct qui m’importe;
+<lb />que n’as tu tout laissé, pour l’attendre à la por<lb />te?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />O ciel! puis-ie iuger quel est vostre dessein?
+<lb />Si vous m’auiés appris à lire en vostre sein,
+<lb />Ie vous obeirois auec vn soing extréme,
+<lb />Et i’executerois auant vostre ordre mesme,
+<lb />Mais n’estant pas sçauant en l’art de deuiner,
+<lb />Si c’est à moy d’agir, c’est à vous d’ordonner;
+<lb />Vous me fiés vostre or, vos ioyaux, vostre bource,
+<lb />nu reposdes morteis te jousiien &amp; ta fouirce,
+<lb />Et vous me denies vn penser, vn secret,
+<lb />Ie passe pour fidelle &amp; non pas pour discret.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />L’or, au pris d’vn secret, n’est ny riche, ny rare,
+<lb />Et c’est de ce bien seul, qu’il sied bien d’estre
+<lb />auare,
+<lb />Mais ie cognois en fin, que par neceßité,
+<lb />Ie doibs tout confier à ta fidelité,
+<lb />Autant pour consulter ton art, &amp; ton adresse,
+<lb />Mon vnique recours au besoing qui me presse,
+<lb />Que pour me soulager, &amp; pour mettre dehors
+<lb />Les sensibles ardeurs de mes brutanis tramports;
+<lb />Mais traictant auec toy de ceste confidence,
+<lb />Tu tiendras ce secret, sous la clef du silence.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ouy, ie vous le promets, &amp; si fidellement,
+<lb />aemomeceunutes mon fetmmesr pus purs feurement.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Sçache donc, que ie vis dans le plus beau seruage,
+<lb />Qui de la liberté pouuoit m’oster l’vsage;
+<lb />Et pour n’obmettre rien, ie veux par ce discours,
+<lb />T’en apprendre la source, außi bien que le cours.
+<lb />Quand le fameux Ferrand, ce Grand foudre de guerre,
+<lb />Vint les armes en main, conquerir cette terre,
+<lb />Des foules de Seigneurs vinrent de toutes parts,
+<lb />Moissonner des lauriers, dessous ses estendars;
+<lb />Rodrigue de Mendoce, vn des plus grands d’E<lb />spagne,
+<lb />Fut en riche appareil, des premiers en campagne,
+<lb />Et nous ses deux Neueux, la mesme ardeur au sein,
+<lb />Partismes auec luy, pour ce noble dessein,
+<lb />Naples en fut le prix, &amp; lors que ce Grand Prince,
+<lb />Eut au ioug de ses loix sousmis ceste Prouince,
+<lb />Il versa ses bien-faicts sur nostre oncle &amp; sur nous,
+<lb />Couuerts egalement de lauriers, &amp; de coups,
+<lb />Dom Rodrigue fut faict Viceroy de Salerne;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Mais vos amours, passons à ce qui les concerne;
+<lb />Car à quoy ce discours, si ie suiuois vos pas,
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />A te declarer mieux, ce que tu ne sçays pas;
+<lb />Dom Rodrigue voulant auec magnificence,
+<lb />Dans son Gouuernement, establir sa puissance,
+<lb />Et s’acquerir du peuple, &amp; les cœurs, &amp; les vœus,
+<lb />Au carnaual dernier, nous ordonna des Ieux;
+<lb />Le Combat des taureaux, fut le plus magnifique,
+<lb />Tu sçays quel ordre on veid, en la place publique,
+<lb />Quels pompeux ornements, quels riches appareils,
+<lb />Et combien vn Soleil éclaira de Soleils.
+<lb />Mais, entre autres, deux sœurs, viues sources de
+<lb />flames,
+<lb />Deux viuantes prisons des libertés des ames,
+<lb />D'vn offuscant éclair, de rayons éclatants,
+<lb />Esblouyrent les yeux de touts le Aßistants;
+<lb />Quoy qu’à bien comparer ces aymables merueilles,
+<lb />Et leur grace, &amp; leur gloire, à peu pres soient pareilles,
+<lb />Si i’en croys toutesfois le rapport de mes sens,
+<lb />La cadette a des traicts, vn peu plus languissants.
+<lb />L’autre a ie ne sçay quoy, qui tient plus de la Reyne,
+<lb />Et son authorité semble plus souueraine;
+<lb />C’est le plus grand effort que nature ayt fait voir,
+<lb />Et laterre, &amp; le Ciel, marquent moins son pouuoir;
+<lb />Mais toutes deux enfin nont rien que de teleste,
+<lb />Et soit en leurs discours, en leur rire, en leur geste,
+<lb />Iamais rien de si beau, ny de si gracieux,
+</sp>
+<sp type="MainZone-Sp"><lb />Ne satisfeist l’oreille, &amp; n’enchanta les yeux;
+<lb />Chacun se souhaitta tout d’yeux, &amp; tout d’oreilles,
+<lb />Pour mieux ouyr, &amp; voir ses charmantes merueilles,
+<lb />Ce spectacle animé de grace, &amp; de beauté,
+<lb />Aux plus indifferents rauit la liberte,
+<lb />Dans les cœurs les plus froids mist des flames secretes,
+<lb />Interdit les esprits, tint les langues muettes,
+<lb />Et feist à tous les yeux, perdre le Mouuement,
+<lb />Pour les laisser ouuerts, en ce rauissement;
+<lb />Ie n’eus pour opposer à ces aymables charmes,
+<lb />Ny de meilleurs Conseils, ny de plus fortes armes,
+<lb />Ma confuse raison ne me seruit pas mieux,
+<lb />Et ie fus comme vn autre, indulgent à mes yeux;
+<lb />Mais mon cœur paya bien le plaisir de ma veüe,
+<lb />La place en fut si foible, &amp; si mal deffendue,
+<lb />Qu'il ne tint pas longtemps, &amp; fut bien-tost sousmis
+<lb />A la discretion de ces beaux ennemys.
+<lb />Au profit du butin, Celie eut l’aduantage,
+<lb />Au moins, ma liberté tomba dans son partage,
+<lb />Et mon bonheur fut tel, dans mes nouueaux liens,
+<lb />Que cent fois mes regards, rencontrerent les siens,
+<lb />Comme si contemplant mes vainqueurs auec ioye,
+<lb />Ils eussent pris plaïsir à voir außi leur proye,
+<lb />Et me solliciter, par leur aymable aspect,
+<lb />Acroistre mon amour, autant que mon respect.
+<lb />Enfin, pour n'estre pas obserué de mon frere,
+<lb />Ie faicts-contre moy. mesme vn effort necessaire,
+<lb />Et le meine en la lice, attendre le combat.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Et qu'apprehendies toous?
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Son ordinaire esbat
+<lb />De se monstrer tousiours jaloux de mon estime,
+<lb />A la danse, au manége, à la course, à l’Escrime,
+<lb />Mais sur tout en amour, où nous auons tousiours,
+<lb />Des desseins l’vn de l’autre, interrompu le cours;
+<lb />Et naturellement, plus que par entreprise,
+<lb />Dessous mesmes obiects rangé nostre franchise;
+<lb />Ce qui se rencontrant en ceste occasion,
+<lb />Semeroit parmy nous tant de confusion,
+<lb />Que la mort d’vn de nous, &amp; de touts deux peut<lb />estre,
+<lb />Seroit le triste fruict, qui nous en pourroit naistre;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Qu'arriua til, enfin?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Außi-tost les taureaux
+<lb />Soufflans auec fureur le feu par les naseaus,
+<lb />Et prests de nous donner vn sanglant exercice,
+<lb />A sauts precipités, bondirent dans la lice;
+<fw><lb />Alors,
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Alors, ( sans vanité,) si dans vn noble sein,
+<lb />Vn Grand cœur fut i’amais picqué d'vn grand
+<lb />dessein;
+<lb />Ce fut ce mesme cœur qui s’estoit laissé prendre,
+<lb />Ce glorieux captif qui venoit de se rendre;
+<lb />D’abord, pour exciter sa Generosité,
+<lb />Ie tournay mes regards vers ce Ciel de beauté,
+<lb />D'où ces astres brillants, ces estoilles viuantes,
+<lb />Ces yeux, ces beaux autheurs de mes araeurs nais<lb />santes
+<lb />M'influerent au sein des trarsports si puissants,
+<lb />Que ma valeur passa la croyance des sens;
+<lb />Ie sçeus auec tant d’art, de vigueur, &amp; de feintes
+<lb />Assaillant les taureaux, euiter leur atteintes,
+<lb />Que loing d’apprehender, qu’aucun me pust heurter.
+<lb />Ie deueins insolent iusqu'a les exciter;
+<lb />La mort de cinq, ou six, dont ie ionchay la terre,
+<lb />Dans vne mer de sang, acheua ceste guerre;
+<lb />Enfin, en ce combat, ie demeuray vainqueur,
+<lb />Cependant que l’amour triomphoit de mon cœur;
+<lb />Mais qui via ma cicione, ignora ma deffaicte,
+<lb />Car l’vne fut publique, &amp; l'autre fut secrette;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Et vostre frere, enfin?
+</sp>
+<p type="MainZone-Other"><lb />D. ALVARE.
+</p>
+<sp type="MainZone-Sp"><lb />Il eut moins de bon-heur
+<lb />Et sortit du combat, pourtant auec honneur,
+<lb />Mais, non sans quelque atteinte, &amp; legere blessure,
+<lb />D'où voyant quelque sang, luy couler d’aduanture,
+<lb />Et craignant que d’ailleurs luy vinssent d’autres
+<lb />coups.
+<lb />Ie pris occasion de l’emmener chez nous,
+<lb />Ayant auparauant commis l’vn mes pages,
+<lb />A sçauoir à quels dieux s’adressoient mes homma<lb />Ie me couchay le soir, penfif, inquieté,
+<lb />Les yeux, l’ame, &amp; le cœur, pleins de cette beauté,
+<lb />Et passay cette nuict auecques plus de peine,
+<lb />Que n'en feit à Paris, la conqueste d’Helene.
+<lb />Le ieune homme commis à seruir mon amour,
+<lb />Se rendit en ma chambre, außi-tost que le iour,
+<lb />Et m’abordant m'apprit, que ces sœurs estoient fil<lb />les
+<lb />De parens vertueux, &amp; de nobles familles,
+<lb />Mais pauures, pour auoir aux troubles du pays,
+<lb />Auecques leur party, veu leurs desseins trahys;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Si iusques à ce poinct, ceste amour vous engage,
+<lb />A quoy bon proposer vn autre mariage,
+<lb />Et faire à vostre frere employer tant de pas,
+<lb />A poursuiure vn obiect, où vousn aspireZ pas?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Comme les medecins sçauent auec adresse,
+<lb />Detourner les humeurs des lieux où le mal presse;
+<lb />Pourempescher le cours de ses soupçons ialoux,
+<lb />Ie feints adroictement (mais ce mot entre nous)
+<lb />Pour la fille du Comte, vne amour infinie,
+<lb />Et dans ceste recherche, engage Flaminie;
+<lb />Heureux, st m'y seruant il trauailoit pour soy,
+<lb />Et si portant mes veux, il engageoit sa foy!
+</sp>
+<sp type="MainZone-Sp"><lb />ARCANIE.
+<lb />Mais à quel but enfin, aspire vostre flamme?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />A posseder Celie, en qualité de femme,
+<lb />Sçachant que son honneur, est vn ferme rocher,
+<lb />D'où l’espoir, sans briser, ne sçauroit approcher.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Mais vostre oncle, qu’icy tant d’éclat accompagne,
+<lb />Vous pouuant allier chez des plus grand d’Espagne,
+<lb />Pourra t’il consentir, &amp; voir sans desplaisir,
+<lb />Qu'vn party si chetif borne vostre desir?
+<lb />Et comme l’imprudence, en faict de mariage,
+<lb />Est d’extreme importance, &amp; grand desaduantage,
+<lb />Pour le bien, le repos &amp; l’honneur des maisons,
+<lb />Croyés vous qu’il n’ayt pas de solides raisons,
+<lb />Pour vous dissuader vn hymen si contraire,
+<lb />Ou pourse desister du bien qu’il vous veut faire?
+<lb />Soyés bon mesnager de son affection,
+<lb />C est vn aymable obiect que sa succeßion.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />C’est vn aymable nœud que celuy qui me lie,
+<lb />Son bien ne m'est pas cher, à légal de Celie,
+<lb />2
+<lb />Ce qui nous vient du sort, est trompeur comme luy,
+<lb />Ce qu’on auoit hier, se peut perdre auiourd’huy;
+<lb />Vn honneur inuincible, vne vertu sublime,
+<lb />L'Esprit, les bonnes mœurs, sont les biens que i’esti<lb />me;
+<lb />Des autres i'en possede, &amp; pour elle, &amp; pour moy;
+<lb />Mais ie crains de la voir plus tard, que ie ne doy,
+<lb />mi que me preuenant, mon frere, qui dans l'ame
+<lb />Porte desia, peut estre, vne pareille flame,
+<lb />N'obtienne sur ses vœux, l’effect que i’y pretends;
+<lb />On tire de grands fruicts du menage du temps.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Et principalement en semblable entreprise,
+<lb />Mais le voila.
+</sp>
+<sp type="MainZone-Sp"><lb />D. AEVITRE.
+<lb />Viens tost, fuyons qu’il ne m'aduise.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />D. FLAMINIE.
+<lb />V'a dit Ergaste, enfin?
+</p>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />D. FLAMINIE, EGYSTE.
+</p>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Que Celie auiourd’huy,
+<lb />Quelque effort qu’il ayt faict, n’a pu parler à luy;
+<lb />Qu' Euphraste l’obseruoit, que sa tante est venuë,
+<lb />Qu'elle deuoit sortir, mais qu'on la retenuë,
+<lb />Qu'il épiera ce soir, le temps de luy parler;
+<lb />Et tout cela du vent, &amp; des propos en tair;
+<lb />C’est vn fourbe à payer vos effets de parolles,
+<lb />Vos solides raisons, d’esperances friuoles,
+<lb />A cherir vostre table, &amp; non pas vostre bien,
+<lb />A vous promettre tout, &amp; ne vous tenir rien.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Quand il me repaistroit d’vne esperance vaine,
+<lb />N'importe, ce plaisir au moins flatte ma peine,
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />eut onfaux reconsort, qu'en pou-itur apparent.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Aux pauures (comme moy) le moindre bien est grand.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Aux hommes comme vous, d’amour, &amp; de merite,
+<lb />La plus grande faueur, deuroit estre petite;
+<lb />Depuis le vain espoir, que vous auez conçeu,
+<lb />Quel regard seulement en auez vous reçeu?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Pas vn (ie le confesse) ou des regards de glace,
+<lb />Mais elle m’a charmé, que veux tu que ie fasse?
+<lb />Si l’heur que i'en attend, ne répond à mes vœus,
+<lb />Vn autre n'en a pas le succes que ie veux;
+<lb />A touts ses pretendants ses rigueurs sont commu<lb />nes,
+<lb />Et ce ieune enuieux de mes bonnes fortunes,
+<lb />Qui treuue tant de gloire à courir sur mes pas,
+<lb />Si ie n’y reußis, n'y succedera pas.
+<lb />C’est vn hazard bien rare, &amp; contre sa coustume,
+<lb />Qu'il ne se plaigne pas à en jen farmt consume,
+<lb />N'espere pas mon bien, ne sente pas mon mal,
+<lb />Et me laisse vne fois, sans trouble, &amp; sans riual.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Vous en presumés trop, si c’est de vostre frere,
+<lb />S’il ne vous a troublé, c’est qu’il ne l’a pû faire,
+<lb />Et qu’il trouue lettiou uej penibionecés,
+<lb />ue vous n’en deuës point esperer de succés.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Simple, en cette recontre à mon repos funeste,
+<lb />I'obseruay desi prés ses regards, &amp; son geste,
+<lb />Toutes ses actions, ses paroles, ses pas,
+<lb />Que ie m'apperçeus bien, qu’il ne l’apperceut pas;
+<lb />Il parut, à le voir, la place encore pleine,
+<lb />Au sortir du combat, se retirer sans peine,
+<lb />Qu'outre l’extreme honneur, qu’il auoit emporté,
+<lb />Il remportoit chés nous encor sa liberté.
+<lb />Et quand ie te chargeay du soingde recognoistre
+<lb />Là cause du beau mal qui me venoit de naistre,
+<lb />Sa famille, son nom, les moyens de la voir,
+<lb />Ce fut auec tant d’art, qu’il n'en pût rien sçauoir.
+<lb />Ioinct qu'Ergaste, qui vole auecques diligence,
+<lb />Et qui dans la famille, atant d’intelligence;
+<lb />S’il l’auoit recogneu pretendre à ce party,
+<lb />Comme il me l’a promis, m’en auroit aduerty.
+<lb />Mesme, outre ces raisons, ne sçays tu pas qu'Elize,
+<lb />A de nœuds si serrés engagé sa franchise,
+<lb />Qu'il passe à sa recherche, &amp; les nuicts, &amp; les jours?
+<lb />Que mesme il m'a commis le soing de ses amours,
+<lb />Et qu’obtenant encor du Comte de Tarente,
+<lb />Les dix mille ducats, i’accomply son attente;
+<lb />Qui doute, que l’amour, le possedant si fort,
+<lb />Pour peu que tespre trotsse, tts ne tomtotut d'accords
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Vous sçaués qu’en amour, Aluare a trop d’vsage,
+<lb />Pour se pouuoir picquerà moins d’vn beau visage,
+<lb />Et qu'Elyse, n'apas des traicts assez puissants,
+<lb />Pour s'acquerir vn cœur, par l’estime des sens.
+<lb />C’est vn monstre incogneu, qu'vn amoureux auare;
+<lb />L’amour, est de l’amour le thresor le plus rare;
+<lb />Croyés que l’interest de dix mille ducats,
+<lb />S’il l’aymoit à ce poinct, ne l’arresteroit pas.
+<lb />Il vous trompe, en vnmot, &amp; vous parle d'Elyse,
+<lb />Pour mieux couurir l’ardeur, dont son ame est épri<lb />Mais croyés, que Celie est l’obiect de ses soings,
+<lb />Et i'en citerois bien de flaenes tesmoings.
+</sp>
+<sp type="MainZone-Sp"><lb />Quels encore?
+<lb />D. FLAMINIE.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Mes yeux, qui ne me trompent guieres;
+</sp>
+<p type="MainZone-Other"><lb />D. FLA
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ha, si iusqu’à ce poinct les Dieux m’estoient contrai<lb />res!
+<lb />Il me seroit cent fois, amy, frere, &amp; parent,
+<lb />Qu'il faudroit que la mort vuidast ce different.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Si vout n’y remarqués vn changement extrême,
+<lb />Et combien il s’est faict different de luy mesme,
+<lb />C’est qu'il se sçait contraindre, &amp; se garder de
+<lb />vous;
+<lb />Mais, ce que ie vous dis, paroist aux yeux de touts.
+<lb />Il vit dans vne sombre &amp; profonde tristesse,
+<lb />Ne rit de quoy qu'on die, &amp; souspire sans cesse,
+<lb />Et ie l’ay veu cent fois pour derniere raison,
+<lb />Tyen, &amp; vepajerpar aenani ja mayerte
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ie ne l'y vis iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Non car il vous espie,
+<lb />Et sçait bien mesnager le temps de sa sortie,
+<lb />Mais pour moy, que (sans doute) il ne soupçonne
+<lb />pas,
+<lb />Ie n’y passe iamais, sans l’y voir sur mes pas.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Enfin, par ces raisons vainement combatuës,
+<lb />Tu me mets en soupçon, tu me perds, tu me tuës;
+<lb />Tu passes trop auant, &amp; ie reste confus;
+<lb />Mais comment me pourray-ie éclaircir la dessus?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Luy faisant esperer la somme qu’il souhaitte,
+<lb />Pourueu que dés ce soir l’alliance se traicte,
+<lb />Et s’il ne cherche alors à prolonger le temps,
+<lb />Mesprisez cet aduis, &amp; reprouués mon sens;
+</sp>
+<sp type="MainZone-Sp"><lb />D. PEIAMIRIE.
+<lb />L’aduis doibt estre bon, puisqu’il part de ton zele;
+<lb />Ie luy vays de ce pas porter cette nouuelle.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Tesmoignés luy d’abord, vn extreme plaisir,
+<lb />De voir que le succés réponde à son desir,
+<lb />Puis, obseruez son teint, sa parole, son geste,
+<lb />Ils rendront de sa peine vnsigne manifeste,
+<lb />Et s’il n’est bien adroict, ne vous mentiront point.
+<lb />Et puisque cet amour vous trauaille à ce poinct,
+<lb />Et qu'au prix du compat, costre nonneur vous en<lb />Mettons toute industrie, &amp; toute œuure en vsage.
+<lb />Il n’est si ferme foy, dont on ne vienne à bout;
+<lb />Auecques des clefs d’or, onpeut entrer par tout;
+<lb />D'vn fidelle espion l’industrieuse audace,
+<lb />Aux Grecs, apres dix ans, seule liura la place.
+<lb />Engagés vous, Ergaste, auec des nœuds si forts,
+<lb />Que son dessein concourre auecques nos efforts.
+<lb />Les offres d’amitié, la table, les caresses,
+<lb />Des gens de son étoffe, obtiennent des promesses;
+<lb />Mais, pour les captiuer l’or a bien plus d’attraits,
+<lb />Et ce moyen solide en obtient des effects.
+<lb />Cet espion gaigné, rien n’est plus inuincible,
+<lb />La vrestne est commentee, (e tupinee uocessible.
+<lb />Qui veut tout acquerir, ne doibt rien épargner,
+<lb />Il faut tout hazarder, affin de tout gagner.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Voy le, mon cher Egyste, &amp; tentons cette voye;
+<lb />Qui perd l’ame, &amp; le cœur, donne tout auec joye.
+<lb />Pour peu qu’il soit sensible à des charmes si dous,
+<lb />Ne t’en mets point en peine, &amp; croy qu’il est à nous.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />II
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />D. ALVARE ARGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />E perdois patience à si long-temps attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />D1.
+<lb />ARGANTE.
+<lb />Le seruice important que ie viens de vous rendre,
+<lb />Me sera sçauoir gre de mon retardement.
+</sp>
+<sp type="MainZone-Sp"><lb />Dy donc tost.
+<lb />D. ALVARE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />En deux mots; écoutés seulement.
+<lb />I'ay proche du Palais, rencontré vostre frere,
+<lb />Qui vous cherche (dit-te) pour ont tnpantt affaire,
+<lb />Dont (m'estant informé) ie n’ay pù rien sçauoir,
+<lb />Sinon qu’il m'a monstré grand desir de vous voir,
+<lb />Et dit qu’en ce bonheur tout vostre espoir consiste.
+<lb />I'ay (peu de temps apres) faict rencontre d'Egyste,
+<lb />Qui d’vne mesme ardeur s’est informè de vous.
+<lb />Quel party (disoit-il) &amp; que son sort est doux!
+<lb />Et moy l’interogeant, quel party ce peut estre,
+<lb />Elyse, m'a t’il dit, est acquise à ton maistre.
+<lb />Le Comnejuis premtnui juu a souhaitté,
+<lb />Pourueu que dés ce soir l’hymen soit arresté.
+</sp>
+<sp type="MainZone-Sp"><lb />QLTeR.
+<lb />Que dis-tu? malheureux!
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Lors pensant en moy-mesme,
+<lb />D'où leur naissoit ce zele, &amp; cette ardeur extrême,
+</sp>
+<sp type="MainZone-Sp"><lb />Et bien?
+<lb />D. ALVARE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ie n'en ay pû iuger d’autre raison,
+<lb />Sinon qu’ils pretendoient par ceste trahison,
+<lb />Lire dans vos secrets, sonder vostre pensée,
+<lb />Et voir si quelque obiect a vostre ame blessée.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ce penser merueilleux marque ton iugement.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Pour m’éclaircir enfin sur ce raisonnement,
+<lb />Ie cours d’vne vistesse heureuse, autant que prompte,
+<lb />(Comme inspiré du Ciel,) en la maison du Comte,
+<lb />Où ie n’ay point d’abord rencontré l’appareil,
+<lb />Qui marque l’allegresse en vn dessein pareil;
+<lb />Nul ne s’offre à mes yeux, ie vays de place en place,
+<lb />La cuisine est deserte, &amp; le foyer de glace.
+<lb />Ie cours du bas en haut, descends du haut en bas,
+<lb />Et le concierge en fin, rencontré sur mes pas,
+<lb />M’a iuré, que d’vn mois il n’a veu Flaminie,
+<lb />Qu'il croit de vos amours la memoire bannie,
+<lb />Qu'il ne s’en parle plus, &amp; que depuis huict iours,
+<lb />Le Comte est à Tarente.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />O bien-heureux discours!
+<lb />Dont l’agreable fin me redonne la vie,
+<lb />Que son commencement m’auoit presque rauie!
+<lb />Argante (adroictamy) qui te peut egaler?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Quand vostre frere donc viendra pour vous parler,
+<lb />Et vous entretenir de ce feint hymenée,
+<lb />Benissez en le Ciel, &amp; vostre destinée,
+<lb />Et les vœux à la bouche, &amp; l’allegresse au front,
+<lb />Dittes luy que l’instant n’en peut estre trop prompt;
+<lb />Comme l’occasion, n'en peut estre meilleure;
+<lb />S’il presse pour ce soir, pressés pour tout à l’heure;
+<lb />Priés le, hastés le: c'est de cette façon,
+<lb />Que vous luy leuerés tout suiet de soupçon,
+<lb />Et que si pour Celie, il sent la mesme flame,
+<lb />Vous le diuertirés de la prendre pour femme.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />S'agist-il de mes iours, ie suiuray tes aduis.
+</sp>
+<sp type="MainZone-Sp"><lb />dele olllclEs
+<lb />1ts n'ont tamais jaici iort à qui les a suiuis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />D. ALVARE, LVSCINDE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />à Las<lb />Tten, voicy Luscinde, &amp; tu sçays sa promesse; cinde.
+<lb />AEt bien obtiendrons nous l’heur de voir ta
+<lb />maitresse?
+<lb />Ou me denieras tu ce bien heureux moment,
+<lb />Qui me faict tant souffrir par son retardement?
+<lb />Luscinde, au nom d’amour, presse ton aßistance,
+<lb />Le mesnage du temps, m'est d’extréme importance,
+<lb />du ne ten pale afferure 1e uui dietin promis.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />Il vous estoit besoing d’estre de mes amys;
+<lb />Et ie n'eusse apres vous, entrepris pour personne,
+<lb />En cette occasion le soing que ie me donne.
+<lb />I’auois iusqu'au iourd’huy, vainement combattu,
+<lb />Cette si rigoureuse &amp; seuere vertu;
+<lb />L’honneur est vn bizearre, &amp; scrupuleux fantosme,
+<lb />Qu'vne mousche épouuante, &amp; qui craind vn atos<lb />me;
+<lb />Mais, comme vn autre monstre, on l’appriuoise en<lb />fin,
+<lb />Et nous auons eu d’elle vn bon mot, ce matin.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Que i'entende à genoux, cette aymable parole,
+<lb />Tu me retiens monbien, ton silence me vole;
+<lb />Ne me faicts point languir, tire la de ton sein.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />S’il m’ayme (a t'elle dit) auec mauuais dessein,
+<lb />Il se peut épargner cette inutile peine,
+<lb />Cette amour ne luy peut acquerir que ma hayne;
+<lb />Mais s’il me recherchoit d’vn dessein innocent;
+<lb />La honteuse (à ce mot) s’est teüe, en rougissant.
+</sp>
+<p type="MainZone-Other"><lb />D. ALVARE.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Aurore de mon iour celeste messagere,
+<lb />Aymable Confidente, vnique en qui i’espere,
+<lb />Puis-ie d’assés de soings, de deuoirs, de trauaux,
+<lb />Te payer ce cher mot enchanteur de mes maux
+<lb />Ouy, Luscinde, le feu dont ie brusle pour elle,
+<lb />Est außi pur qu'ardent, außi sainct que fidelle.
+<lb />Il n'a rien de contraire à son honnesteté,
+<lb />Sa vertu me l’allume, autant que sa beauté.
+<lb />Ie souffrirois la mort, plutost qu’vne pensée,
+<lb />On sa candeur sousfrit, &amp; pust estre offensée.
+<lb />Mes desirs les plus chers, &amp; mes vœux les plus doux
+<lb />Tendent à meriter le nom de son espoux.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />C’est assez, ayés l’œil, dessus cette fenestre,
+<lb />Et bien-tost si ie puis, vous l’y verrés paroistre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />D. ALVARE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />JN importun respect commence à me saisir,
+<lb />V Et ie tremble de crainte, enbrulant de desir.
+<fw><lb />D
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Dieux! faut il que l'amour ne dispense personne?
+<lb />Quel trouble il vous excite! &amp; quel mal il vous
+<lb />donne!
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Quel mal peut-on, helas! souffrir plus dignement,
+<lb />Qu'en l’acquisition d’vn thresor si charmant?
+<lb />L’or que toute la terre enferme dans ses veines,
+<lb />A-t’il des qualités si dignes de mes peines?
+<lb />Desia l’air s’éclaircit, desia de ses beaux yeux,
+<lb />Les rayons enflammés s’epandent en ces lieux.
+<lb />Voys tu sa belle main hausser la jalousie?
+<lb />Ha de quel trouble, Argante, est mon ame saisie!
+<lb />Sa maiesté m'impose vn respect si profond,
+<lb />Que ma raison s’egare, &amp; ma voix se confond.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME,
+<lb />CELIE,
+<lb />A la fenestre
+<lb />RGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Vr la foy de Luscinde, &amp; sur vostre requeste,
+<lb />OQu'elle m'a protesté n’auoir qu’vn but honneste,
+<lb />Sçachant vostre merite, assés cogneu de touts,
+<lb />Ie viens icy, Seigneur, que me commandés vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Moy, que ie vous commande, adorable Celie!
+<lb />Craignés-vous qu’à ce poinct, vn esclaue s’oublie?
+<lb />Moy que ie vous commande, à vous dont les beaux
+<lb />yeux
+<lb />Pourroient de l’Vniuers oster l’Empire aux dieux!
+<lb />Moy, que ie vous commande, à vous ma souueraine!
+<lb />A vous de ma fortune &amp; l’arbitre &amp; la Reyne!
+<lb />Moy l’indigne butin de ces charmes vainqueurs!
+<lb />A vous belle meurtriere &amp; des yeux &amp; des cœurs,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Nostre peu de loisir m’interdit la deffense,
+<lb />Et ie n’oZe pas prendre vne longue dispense.
+<lb />Hastés vous donc, Seigneur, de me dire en deux mots,
+<lb />Ce que ie puis pour vous, &amp; pour vostre repos.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Me donner plus qu’aux Roys la fortune ne donne,
+<lb />Fire june mespriser leur sceptre, &amp; leur Couronne,
+<lb />Et de mon sort (enfin) faire les dieux jaloux,
+<lb />Me donnant seulement, le nom de vostre espoux.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Vous (Seigneur) mon espoux ! hé sur quelle apparence,
+</sp>
+<sp type="MainZone-Sp"><lb />Et quelle egalité, fonder ceste esperance!
+<lb />Vous, pour qui la fortune a des desseins si grands,
+<lb />Voudriés vous dementir l’espoir de vos parens?
+<lb />L’attente de la Cour en vanités feconde,
+<lb />Celle de vos amys, celle de tout lemonde,
+<lb />En vous abandonnant à ce ieune transport,
+<lb />Et prenant vn party-si peu chery du sort?
+<lb />Peut-estre que voyant qu’il nous est si contraire,
+<lb />Et qu’il respond si mal aux desseins de mon pere,
+<lb />Vous croyez par l’eclat d’vn discours suborneur,
+<lb />M’éblouyssant l’Esprit, surprendre mon honneur;
+<lb />Mais ce riche thresor, ce cher dot qui me reste,
+<lb />Non d’vn pere mortel, mais d’vn pere celeste,
+<lb />Contre qui vous tentés cet inutile effort,
+<lb />N'est pas incompatible auec le mauuais sort.
+<lb />Faictes donc vos Grandeurs l'Esperance d'vne au<lb />Ae3
+<lb />Et n'entreprenés point ma ruine ou la vostre.
+<lb />Vne austere vertu dedans vn noble sang
+<lb />Suffit pour vostre amour; mais non pour vostre rang.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ha! ce mespris, Madame, est vne adroicte excuse;
+<lb />Vostre ciuilité m'exaltant me refuse;
+<lb />Et ne me voyant rien, qui soit digne de vous,
+<lb />Me deffend d’esperer le nom de vostre espoux.
+<lb />En effect cagnoissant vostre merite insigne,
+<lb />Ie desespererois d’en estre iamais digne,
+<lb />Plus different de vous, que la nuict n’est du iour,
+<lb />Et riche seulement de respect &amp; d’amour:
+<lb />Si ie ne m’asseurois qu’auec ceste richesse,
+<lb />Il n'est gloire, beauté, ny vertu, ny noblesse,
+<lb />Rien enfin qu'vn mortel doiue tant reuerer,
+<lb />Dont l’acquisition ne se puisse esperer.
+<lb />Cet amour est tout pur, il n’a rien de profane,
+<lb />Et nature sirare, &amp; si sage artizanne,
+<lb />Ne m’a pas sans dessein, faict si tendre à vos coups,
+<lb />Non plus que sans dessein, faict vos charmes si doux.
+<lb />Vostre premiere veüe excita mon martyre,
+<lb />Vn seul de vos regards establist vostre Empire.
+<lb />Ne puis-ie pas tirer vn espoir euident,
+<lb />De la neceßité d’vn si prompt accident?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie ne puis opposer que des termes friuoles,
+<lb />Au torrent animé de ces belles paroles.
+<lb />I'ayme mieux auoüer qu’il me souuient du iour
+<lb />Qui vous combla de gloire, &amp; m’acquist vostre
+<lb />amour;
+<lb />Et que si vostre cœur, y receut quelque atteinte,
+<lb />Mon repos n'y fut pas, sans trouble, &amp; sans con<lb />traincte.
+<lb />Ce discours vous surprend, autant qu’il me confond,
+<lb />Il m'arreste la voix, mais mon cœur vous répond.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Si ce thrône animé de corail &amp; de roses,
+<lb />Me dit que vous m’aymés, qu’il dit de belles cho<lb />r!
+<lb />Ouy i’oze l’esperer! ce bel œil, mon vainqueur,
+<lb />Confirme d’vn sousris le langage du cœur;
+<lb />vreba. Mais si vous le voulés confirmer dauantage,
+<lb />Receués de ma foy cet immuable gage,
+<lb />Et croyés que le temps, ce Dieu du changement,
+<lb />Peut moins sur mon amour, que sur ce diamant.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Sans la prendre.
+<lb />Et de vous &amp; de moy, ce don sans doute est digne,
+<lb />Et comme le donneur, il est d’vn prix insigne;
+<lb />Mais prendre des presens, est vne liberté,
+<lb />Qui repugne à la loy de nostre honnesteté.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Si vous faictes ce tort à mon amour extréme,
+<lb />Ie croiray ce reffus, vn reffus de moy mesme;
+<lb />Que vous reiectés moins le don, que le donneur,
+<lb />Et que vous reuoqués l’arrest de mon bon-heur.
+<lb />Helas! s’il est ainsi, prononcés en mesme heure,
+<lb />Celuy de mon trepas; ordonnez que ie meure,
+<lb />Que ie vous tienne lieu de victime, ou d'Espoux,
+<lb />Puisque ie ne puis estre, &amp; n’estre pas à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />La prenant.
+<lb />Donnés puisqu’en effect, i’accepte vostre hommage,
+<lb />Ie me deffends à tort, d’en accepter le gage,
+<lb />Iugés, par ce baiser, a quel poinct il m'est doux,
+<lb />Et pour moy, n'ayant rien de si digne de vous,
+<lb />Ny dont le prix réponde à sa valeur extréme,
+<lb />A faute d’autre bien, ie me donne moy mesme.
+<lb />Et pour vous tesmoigner, que ie n’excepte rien,
+<lb />Ie veux, que cet anneau qui maintenant est mien,
+<lb />Et dont la pierre marque vn cœur &amp; ferme &amp; sta<lb />ble,
+<lb />Vous soit de mon amour vn gage irreuocable;
+<lb />Mais ie passe le temps, que ie m'estois prescrit,
+<lb />Ie ne vous quitte point, ie vous suy de l'Esprit.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />En vous laissant le mien, i’oZe esperer la gloire,
+<lb />D'occuper quelque lieu dedans vostre memoire;
+<lb />Attendant l’heureux iour, qui doibt à nos desirs,
+<lb />Permettre apres les faux, les solides plaisirs.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />Se retirant.
+<lb />Adieu souuenés-vous, que ie suis toute ou i’ayme,
+<lb />Et qu'en vous oubliant, ie m’oublieray moy mesme;
+<lb />Aymés moy seulement d’vn cœur pareil au mien.
+</sp>
+<p type="MainZone-Head"><lb />D. ALVARE.
+<lb />Tbien, qu’en iuges tu?
+</p>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />D. ALVARE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Que vous en iugés bien;
+<lb />Que son prix est sans prix; qu'entre toutes les Da<lb />mes,
+<lb />Cette vnique merueille est digne de vos flames,
+<lb />Qu'en effect, le dedans est conforme au dehors,
+<lb />Et les graces de l’ame, aux ornements du corps.
+<lb />Auez vous remarqué l’adresse de vous rendre
+<lb />de cion qu ette mo on tiy refeisentis prendre?
+<lb />Certes si le present estoit riche &amp; Royal,
+<lb />I'en treuue le reffus encor plus liberal.
+<lb />Et n’ay iamais qu’en elle admiré la prudence
+<lb />De faire d’vn refus, vne magnificence;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Si ie brulois tantost, c’est maintenant trop peu,
+<lb />Pour me bien exprimer, que le terme de feu.
+<fw><lb />Ie
+</fw><lb />Ie faicts pour m’expliquer, vn effort inutile,
+<lb />L’exces de mon amour, rend la langue sterile,
+<lb />Et son expreßion dépend du sentiment;
+<lb />Mais dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Songès à vous, feignés adroictement.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />D. FLAMINIE D. ALVARE, ARGANTE,
+<lb />LVSCINDE, EGYSTE.
+</p>
+<sp type="MainZone-Sp"><lb />LVSCINDE
+<lb />Tenant vn rabat.
+<lb />A plus modeste fille, &amp; la moins affetée,
+<lb />EPour peu qu'elle ayt d’amour, ayme d’estre a<lb />iustée;
+<lb />Ie marche incessamment, ie cours dés le matin,
+<lb />Et mes commißions n’ont iamais d’autre fin<lb />Les voyant, elle se retire dans vne poste.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />à D. Ala.
+<lb />Que me donnerés vous, pour la bonne nouuelle?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Rien. car tout est a vous; man entor quelle est-elle?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Paiffes cofert truispon siomnese pus eissee prompt;
+<lb />Ie vous devrois desia voir l’allegresse au front;
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE
+<lb />Cachée.
+<lb />Aluare asseurement communique à son frere,
+<lb />L’heur qu’il vient d’obtenir, &amp; l’hymen qu’il espere,
+<lb />Apprenons s’il se peut, son aduis là dessus.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Qu'est-ce donc, parlés tost, ne me le celés plus.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Cesses vos déplaisirs, la cause en est cessée,
+<lb />Vostre hymen est conclu.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />muiiee pusma pensée?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Comment auec Elise, helas! c’est vn espoir,
+<lb />Que ce cœur affligé ne peut plus conceuoir;
+<lb />Et quoy qu'elle soit deüe à ma perseuerance,
+<lb />Le malheur qui me suit, m'en deffend l’esperance;
+<lb />L’auarice du Comte est vn reffus couuert,
+<lb />Au desir enflammé que i’en auois ouuert.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ie ne vous flatte point d’vne attente friuole,
+<lb />at ese urmvoruheiint; (huymequt sa parole,)
+<lb />Et tient nostre alliance à singulier honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE Embrastant lon frere.
+<lb />O dieux! quelle fortune egale mon bon-heur!
+<lb />Rare &amp; syncere amy, cher &amp; genereux frere,
+<lb />Pauorable instrument a vn destin si prospere!
+<lb />Vous puis-ie rien offrir, qui ne soit au dessous,
+<lb />Du sensible plaisir que ie reçoy de vous?
+</sp>
+<sp type="MainZone-Sp"><lb />Dieux!
+<lb />LVSCINDE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Mais vous treuuerés peut -estre mal-aysée,
+<lb />Vne condition qui vous est proposee.
+</sp>
+<sp type="MainZone-Sp"><lb />Quelle?
+<lb />D. ALVARE.
+</sp>
+<p type="MainZone-Other"><lb />I
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />D'y renoncer, &amp; d’en perdre l’espoir,
+<lb />Si vous auez dessein d'epouser dès ce soir;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie ne puis l’obseruer.
+</sp>
+<sp type="MainZone-Sp"><lb />D IAIAMINTH.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Cette alliance,
+<lb />M’excite trop d’ardeur, &amp; trop d’impatience;
+<lb />Vn instant m’est vne heure, vne heure m'est vn
+<lb />iour;
+<lb />Comment iusqu’à ce soir, contenir mon amour!
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />O fourbe! ô trabison, qui n’ont point de pareilles!
+<lb />Vous m'abusés mes yeux, vous mentez mes oreil<lb />les.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Son Pere à souhaitté ceste condition,
+<lb />Pour éprouuer-ardeur de vostre affection;
+<lb />Ayant appris, dit-il, qu’vne autre vous possede.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Quoy que le mal soit faux, i’en beny le remede;
+<lb />I'ay poussé quelques vœux, mais friuoles &amp; feintes,
+<lb />C’estoient des passe-temps, plutost que des desseins.
+<lb />Comme on se plaist par fois, d’en imposer aux
+<lb />dames)
+<lb />Elle seule a causé mes veritables flames;
+<lb />Et ce sein pour toute autre enferme des glaçons.
+<lb />Mais pour guerir bien-tost ma peine &amp; ses soupçons,
+<lb />Noüez dez à present cette heureuse alliance;
+<lb />Il tarde à mon amour, plus qu'à sa deffiance;
+<lb />Voyons si leur ardeur à la mienne répond,
+<lb />Pressons les, vn moment à quibrule, est bien long.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Il feint auec esprit, &amp; d’vne adresse extreme,
+<lb />Le trompeur pourroit bien se voir trompé luy mes<lb />me.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />C'est peut-estre vn loisir qu’il se reserue expres,
+<lb />Pour mettre l’ordre à tout, &amp; dresser les aprets;
+<lb />La surprise rebute; vn peu de patience,
+<lb />Vous tirera de peine, &amp; luy de deffiance.
+</sp>
+<p type="MainZone-Lg"><lb />E I.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Mtau ont neure a attente, est vnsiecle d’ennuy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Que sçait-on s’il repose, ou s’il sera chés luy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Il y faut enuoyer; Argante?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Non, vous disie,
+<lb />Ie prendray tout le soing où l’affaire m’oblige,
+<lb />tortant. I'y retourne moy mesme; attendés moy chez nous.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Sortant. O l’importune attente! à quoy m’obligez vous?
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIESME.
+<lb />D. FLAMINIE, ARGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Auois-ie pas raison, que les yeux de Celie,
+<lb />I N N'estoient pas les obiects de sa melancholie?
+<lb />Voy quelle impatience est iointe à son espoir,
+<lb />Ei queite peint is fonsfre envurtente dut soir.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Ce Dedale est obscur, ses routes mal-aysées,
+<lb />Mais nos inuentions ne sont pas épuisées,
+<lb />L'Esprit tire souuent des forces du besoing.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />N'espere rien de moy, i'attends tout de ton soing;
+</sp>
+<p type="MainZone-Other"><lb />n ioit.
+</p>
+<p type="MainZone-Head"><lb />SCENE HVICTIESME.
+<lb />LVSCINDE
+<lb />Seule.
+</p>
+<sp type="MainZone-Sp"><lb />Tpuis, fions nous y, chetifues que nous sommes,
+<lb />EVoila la fermeté, voila la foy des hommes;
+<lb />Voila ces vœux ardents, &amp; ces brulants desirs,
+<lb />Que nous marquoient tantost ses pleurs, &amp; ses
+<lb />souspirs.
+<lb />Ne nous deffions plus du pouuoir de nos armes,
+<lb />Ecoutons leurs discours, rendons nous à leurs lar<lb />mes,
+<lb />Faisons leur voir les feux qu’elles auront produits,
+<lb />Croyons à leurs serments, en voila de beaux fruicts.
+<lb />Comment se peut des rets de ces perfides ames.
+<lb />Sans le secours diuin, sauuer l’honneur des Dames?
+<lb />Qui n'eust esté trompé, &amp; n’eust creu (comme moy)
+<lb />Qu’il luy donnoit son ame, en luy donnant sa foy?
+<lb />Pauure Celie, helas! quel ennuy ie t'apreste!
+<lb />Tu n’auras pas longtemps conserué ta conqueste.
+<lb />Par quel aueugle zele, ay-ie esté l’instrument
+<lb />Des fausses paßions de ce perfide amant?
+</sp>
+<p type="MainZone-Head"><lb />SCERE NEVTVIESME,
+<lb />EVPHRASTE, D. ALVARE.
+</p>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Eigneur, l’experience est vn des fruicts de l’aage,
+<lb />OIe sçay quel est l’amour en vn ieune courage;
+<lb />C’est vn Dieu furieux, ardent, precipité;
+<lb />Mais, comme sans Conseil, außi sans fermeté;
+<lb />Son feu, comme le foudre, éclattant se consume,
+<lb />Vn seul moment l’éteint, comme vn moment l’allume;
+<lb />A peine ses defirs precedent ses refus,
+<lb />Il n’ayme presque pas, qu’il n’ayme desia plus;
+<lb />Außi-tost qu'à Salerne, vn hymen se propose,
+<lb />Le bruict &amp; le succés passent pour mesme chose;
+<lb />Et puis s’il n’est faisable, &amp; si l’effect n'est prompt,
+<lb />C’est
+</sp>
+<sp type="MainZone-Sp"><lb />C’est au foible party qu’en demeure l’affront;
+<lb />Vn mauuais bruict en reste à l’honneur d’vne fille,
+<lb />Faict croire des defaux, décrie vne famille,
+<lb />Détourne des desseins de partis plus égaux,
+<lb />Enfin c’est vne source &amp; d’afronts, &amp; de maux.
+<lb />Vous autres, qui du sort épuisés les largesses,
+<lb />Aux pauures comme nous, vous vendez vos caresses;
+<lb />Et vous nous estimez payer peu ce bon-heur,
+<lb />S’il nous en couste moins que la vie, &amp; l’honneur.
+<lb />Mais moy, qui satisfaict de ma basse fortune,
+<lb />Tiendrois vostre faueur, à ce prix importune,
+<lb />Et qui sçay quel peril à cet honneur est ioinct,
+<lb />Vous m'obligereZ plus, de ne m’obliger point.
+<lb />Mesurez, comme moy vos desseins a vos forces,
+<lb />Les inegalitez sont meres de diuorces.
+<lb />L’amour du soir à peine atteint le lendemain,
+<lb />Le dédain tuy satcede, &amp; la pafnt au dcuuin,
+<lb />D'ou le trouble außitost naist entre les famllles:
+<lb />Moy ie veux d’autres fruicts de l’hymen de mes
+<lb />filles.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Plust au ciel, sceußieZ vous, combien sensiblement,
+<lb />Ce discours touche au cœur d’vn veritable amant.
+<lb />I'ay lieu de bien hayr &amp; mon sort &amp; mon age,
+<lb />Qui m'acquierent les noms de traistre, &amp; de volage,
+<lb />Et de bien souhaitter vos incommodités,
+<lb />Qui me deliureroient de ces deux qualitez;
+<lb />Ha! Seigneur ceste pure &amp; veritable flame,
+<lb />Est vne vieille amour, dedans vne ieune ame.
+<lb />Ce n'est pas cet amour, qu’on dit estre vn enfant,
+<lb />C’est vn puissant vainqueur, c’est vn Dieu triomphant,
+<lb />I'ay combattu longtemps le pouuoir de Celie,
+<lb />I'ay longtemps refusé la chaisne qui me lie;
+<lb />Mais malgré mes efforts, ses yeux l’aymant des
+<lb />cœurs,
+<lb />Ces foudres animez sont demeurés vainqueurs,
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Tenés vn peu la bride à ce transport extreme,
+<lb />Et durant quelques mois, éprouuez vous vous mesme.
+</sp>
+<sp type="MainZone-Sp"><lb />D.ALVARE.
+<lb />Quelques mois sans Celie; auecques tant d’amour!
+<lb />Ha! plutost quelques mois, sans la clarté du iour!
+</sp>
+<sp type="MainZone-Sp"><lb />AVPHRASTE.
+<lb />Peut-estre ignorés vous la misere importune,
+<lb />en not treuotes derniers ont reduit ma fortune;
+<lb />Et que d’assez de biens dont i’auois herité,
+<lb />Hors la gloire &amp; l’honneur, il ne m’est rien resté.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ne comptez vous pour rien, ces beautés si charmantes,
+<lb />Ces deux filles sans prix, ces richesses viuantes,
+<lb />Ces thresors animés de vertus, &amp; d’appas?
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />C’est vn bien qui despense, &amp; qui ne nourrit pas,
+<lb />Et puis, esperez vous, que de vostre franchise,
+<lb />Cu cisspefaiton cons donnt estre permnise?
+<lb />Et que de vos parents;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ne retenez ma foy.
+<lb />Qu'en vous iustifiant, l’adueu du Vice-Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Si me laissant gaigner à vostre ardeur extrême,
+<lb />t our cons ent tepenres, prurgnios con ce vous mesme.
+<lb />Cet heur me sera cher, mais encor vne fois,
+<lb />En sa seule vertu consistent touts ses droicts,
+<lb />C’est son dot, c’est son bien.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ce m'est prut qu’vn Empire,
+<lb />Son acquisition est tout l’heur où i’aspire;
+<lb />Mais il est imparfaict, si l’effect n'en est prompt.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Demain si vous voulés.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />C’est vn terme bien lon<lb />Mais, outre les apprests, la nuict desia prochaine,
+<lb />Ordonne à mon amour, ceste derniere peine,
+<lb />Demain donc.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Cependant, consultés vos parents,
+<lb />Voyez le Vice-Roy;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />De ce pas, ie my rends.
+</sp>
+<p type="MainZone-Head"><lb />NETE IIX
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+</sp>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />D. IEAMINIE, EGISIE.
+</p>
+<sp type="MainZone-Sp"><lb />VAND ie supposerois vne lettre du
+<lb />Comte,
+<lb />Ce n'est que u'on moment ;m en retarder
+<lb />la honte:
+<lb />Car dans l’impatience, où tu vois son amour
+<lb />Luy pouuõs-nous long-temps couurir ce mauuais tour?
+</sp>
+<sp type="MainZone-Sp"><lb />EGISTE.
+<lb />Dom Aluare est adroict, &amp; cette impatience,
+<lb />Loing de diminuer, accroist ma deffiance;
+<lb />Pensant l’auoir surpris, peut-estre il nous surprend.
+</sp>
+<sp type="MainZone-Sp"><lb />O dieux!
+<lb />D. FLAMINIE.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Et cognoissant ta sourbe, noua la rend.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />I'en suis pris à tel poinct, &amp; mon ardeur est telle,
+<lb />Que si ie découurois qu’il esperast rien d’elle,
+<lb />Peut-estre qu'vn dessein &amp; iuste, &amp; genereux,
+<lb />Iusqu'aux loix de l’hymen pourroit porter mes
+<lb />vœux;
+<lb />Mais ie veux reietter cette crainte importune,
+<lb />Et me promettre plus de ma bonne fortune.
+<lb />L’honneur qu’au mauuais sort la nature a commis,
+<lb />Est vn beau fort, qu’vn Roy fie à ses ennemis,
+<lb />Vn thresor qu'on neglige vn, depost qu’on hasarde,
+<lb />Dont le depositaire est de mauuaise garde;
+<lb />Et contre sa deffense, vn seruice, vn present,
+<lb />Vne offre, vne promesse, est vne secours puissant.
+</sp>
+<sp type="MainZone-Sp"><lb />EGISIE.
+<lb />Auec leur pauureté, le bruict est que l’enuie,
+<lb />Auroit peine elle mesme à mordre sur leur vie;
+<lb />L’honneur quitte auec peine vne illustre maison.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />L’hymen au pis aller, m'en feroit la raison.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />ERGASIE, D. FLAMINIE, EGYSTE.
+</p>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Ay regret, qu'engagé par de si fortes chaisnes,
+<lb />IA vous sacrifier &amp; mes soings, &amp; mes peines,
+<lb />Vne triste nouuelle en soit le premier fruict,
+<lb />Et qu'auec vostre espoir, mon effort soit destruict,
+<lb />Ie viens d’estre aduerty d’vn hymen qui se lie.
+</sp>
+<p type="MainZone-Other"><lb />D. FLAMINIE.
+</p>
+<sp type="MainZone-Sp"><lb />Quel?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Il vous surprendra; d'Aluare, &amp; de Celie,
+<lb />Opposés la constance à ce ressentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />O de mes longs trauaux funeste euenement!
+<lb />Tu m'as percé le cœur, tu m'as trauersé l’ame,
+<lb />Et ce reste de vie est vn reste de flame;
+<lb />Qui me suruit moy mesme, &amp; qui ne s’esteint pas,
+<lb />Pour me la faire aymer, mesme apres le trespas.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Il vous faut declarer toute la maladie,
+<lb />Affin qu'on s’y prepare, ou qu’on y remedie,
+<lb />Ils recueillent demain le fruict de leurs amours.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />D’autant moins tardera le terme de mes iours.
+<lb />Ie reste sans Conseil, en ce desordre extréme,
+<lb />Et moy mesme auiourd’huy me deffauts à moy mes<lb />me.
+<lb />Ingrat &amp; mal-faisant, autant qu’audacieux,
+<lb />Qui n’as iamais dessein, qu'où ie porte les yeux!
+<lb />Frere denaturé, monstre bouffy d’enuie,
+<lb />Comme tu m'es riual, en l’amour de ma vie;
+<lb />Vien ie cherche à mourir, medite vn mesme effort,
+<lb />Et deuiens mon riual en l’amour de la mort.
+<lb />Helas! depuis le iour qui veid naistre ma flame,
+<lb />I'ay tousiours mal-heureux, eu ce soupçon dans l’ame,
+<lb />Pareil au criminel, qui sçachant son arrest,
+<lb />Voit des yeux de l’esprit l’echaffaut desia prest;
+<lb />Et croit si quelqu'vn passe, ou s’il s’ouure vne porte,
+<lb />Sentir desia le coup que le bourreau luy porte.
+<lb />Telvn pas de ce traistre, vn mot, vn mouuement,
+<lb />Sembloit de mon mal-heur m'estre vn pressentiment.
+<lb />Iamais ma paßion ne fut si violente,
+<lb />Que depuis ce mal-heur qui m'en deffend l’attente.
+<fw><lb />Quand
+</fw><lb />Quand vn bien est facile, il nous est à mespris,
+<lb />Et par sa seule perte, on en cognoist le prix;
+<lb />Mon mal contre mon mal, mon vnique remede,
+<lb />Despeche, acheue moy, tu n’as pas besoing d’ayde,
+<lb />Me faut-il de mon bras seconder ton effort?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE
+<lb />Le retenant.
+<lb />Seigneur de touts les maux, le plus grand est la mort;
+<lb />On ne sent point les fruicts de ce remede extréme,
+<lb />C’est vn mauuais moyen, d’acquerir ce qu'on ayme.
+<lb />Il ne nous sauue pas, pour briser nos liens,
+<lb />Car en ostant les maux, il oste außi les biens.
+<lb />Nous treuuerons peut-estre vn fil à ce Dedale;
+<lb />Mais l'Esprit s’allentit, quand le cœur se rauale;
+<lb />L'extreme desespoir n'est pas ingenieux,
+<lb />Vn peu d’espoir restant vous conseillera mieux.
+<lb />Apres auoir tenté toute l’adresse humaine,
+<lb />On en souffre la mort, auecques moins de peine;
+<lb />Venés; certain rayon commence à m'eclairer,
+<lb />Qui me deffend encor de rien desesperer;
+<lb />Et toy preste la main, à ce dernier office,
+<lb />Tu peus plus que personné, ayder nostre artifice,
+<lb />Suy nous;
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ordonne, agy, tout dépend de ton soing,
+<lb />Contre vn frere auiourd’huy, sois moy frere au besoing
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />CELIE, LVSCINDE,
+<lb />Adame;
+<lb />LVSCINDE.
+<lb />Dans vne chambre,
+</p>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />Pleurant.
+<lb />Ah! ie ne puis contraindre ma foiblesse;
+<lb />L’affront que ie reçoy, la honte qui me presse,
+<lb />Ce vif ressentiment, ce sensible transport,
+<lb />Ne sont pas à mon sexe, vn supportable effort;
+<lb />Hetey, stat imprudente, &amp; toy qui ne faicts estre,
+<lb />Le rebut d’vn Ingrat, &amp; le ioüet d’vn traistre;
+<lb />Quel fruict m'acquiert ta peine, &amp; de quel œil voys tu,
+<lb />A cette perfidie accabler ma vertu?
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE
+<lb />De l’œil dont ie verrois ouurirsous moy la terre,
+<lb />Creuer sur moy la nuë, &amp; tomber le tonnerre,
+<lb />C'est mal dépeindre encor, l’ennuy que i’en reffents.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />Mais, l’as tu bien oüy?
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />Comme ie vous entends;
+<lb />Et trop bienrecogneu, de quelle impatience,
+<lb />Le perfide respire apres cette alliance;
+<lb />Le contract, des ce soir, en doibt estre arreste.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Et puis vien me vanter cette fausse beauté,
+<lb />Non non ne croyons pas, chetifues que nous sommes,
+<lb />Prendre en ces foibles rets, les libertés des hommes.
+<lb />Le pouuoir des attraicts, sur l’esprit des Amants,
+<lb />Estoit bon pour Helene, &amp; du temps des Romants.
+<lb />Mais du siecle qui court, il n'est plus en vsage:
+<lb />Les attraicts sont au Coffre, &amp; non pas au visage.
+<lb />As tu bien pour le moins, pendant nostre ententien,
+<lb />Obseruè que ma sœur n'en pust entendre rien,
+<lb />Et ne peus tu iuger, qu'elle m'ayt apperceuë?
+<lb />Car ie mourrois d’ennuy, si ma honte estoit sçeuë.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />Ie ne l’estime pas, mais craignant ce malheur,
+<lb />Contenés vn peu mieux vostre iuste douleur:
+<lb />Et pour ne luy permettre, aucune deffiance,
+<lb />Relaschés vn peu moins de vostre patience.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME.
+<lb />CELIE, LVSCINDE, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />E demande à mon cœur ny force ny vertu,
+<lb />I NSous le faix des ennuys dont il est abatu;
+<lb />Vn malheur de cegenre, &amp; de cette importance,
+<lb />Surprenant la raison, desarme la consi ahce,
+<lb />Nous estonne l’esprit, le trouble le confond,
+<lb />Et cause au plus égal, vn desordre si prompt,
+<lb />Qu’il faict de la foiblesse vn mal ineuitable,
+<lb />Vne excusable honte, vn deffaut suportable.
+<lb />Pourquoy t’auois-ie, helas! inacceßible cœur,
+<lb />Conserue si longtemps, auec tant de rigueur,
+<lb />Pour te perdre si-tost, auecques tant de honte,
+<lb />Et voir de ce butin faire si peu de conte?
+<lb />Combien lasche, combien, t’eust sauué de mespris,
+<lb />L'honneur de tousiours prendre, &amp; n'estre iamais pris?
+<lb />Et combien differoit l’estat de ta franchise,
+<lb />De celuy de tes fers, que ton vainceur mesprise?
+<lb />Soustien moy; sous le faix des enuuys que ie sents,
+<lb />La force &amp; la lumiere abandonnent mes sens.
+</sp>
+<sp type="MainZone-Sp"><lb />Se montrant.
+<lb />ISMENE Se
+<lb />djede Eifeinuo. O uneniouut ou nuest cette foiblesse?
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />O surprise importune! Aucun mal ne la presse,
+<lb />N'en soyez point en peine; ô ciel qu'elle feint bien!
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Ce mystere est obscur, &amp; ie n’y comprends rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />Elle a bien deffendu, que ie ne vous le die;
+<lb />Mais pourquoy s’en cacher? c’est vne Comedie.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />ISMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />Qu'vn de ces soirs, on doibt representer;
+<lb />Elle en apprend son roole, &amp; ie l’oy repeter;
+<lb />Mais la honteuse, encor n'y peut souffrir personne,
+<lb />De peur de dementir l’espoir que ie luy donne,
+<lb />Et vous aués causé cette intermißion.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Ne sçaurois-ie, (ma sœur) estre de l’action?
+</sp>
+<p type="MainZone-Lg"><lb />3
+</p>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Comme la piece est triste, &amp; le suiet tragique,
+<lb />Le diuertissement en est melancholique,
+<lb />Et vous pouues auoir des passetemps plus doux.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />De maiiscir an fuier, ne passe pas en noas;
+<lb />Et comme la douleur, la tristesse enest feinte.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />On s’en acquitte mal, si l’on n’est bien atteinte.
+<lb />Pour moy, qui veux bien faire, ou ne m'en mesler pas,
+<lb />Et qui crains vn affront, à l’égal du trépas,
+<lb />Le suiet m'en excite vne tristesse extréme;
+<lb />I'en sents la fiction, comme la chose mesme,
+<lb />Et lors que i’y doibs feindre vn manquement de cœur,
+<lb />I'en demeure en effect sans force, &amp; sans vigueur;
+<lb />Cejten quejue rrreteur la science consiste;
+<lb />Außi mon personnage est extremement triste,
+</sp>
+<sp type="MainZone-Sp"><lb />Quel encor?
+<lb />ISMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />On m’engage à receuoir la foy
+<lb />D'vn ieune Caualier, parent d’vn Vice-Roy,
+<lb />Et presque au mesme instant de l’espoir qu’il me
+<lb />donne,
+<lb />Pour vn nouuel obiet, le traistre m’abandonne:
+<lb />I'en reçois tout l’ennuy, qui s’en peut conceuoir;
+<lb />Vne sœur me surprend, dedans ce desespoir,
+<lb />I'y veux remedier: i’ay recours à la ruse,
+<lb />Et feignant que ie feints, en effect ie l’abuse:
+<lb />C’est l’endroict de mon roole, où i’en suis à present.
+</sp>
+<sp type="MainZone-Sp"><lb />Le suiet en est beau;
+<lb />OineRee.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Mais, il n'est pas plaisant.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Non ce commencement marque vn succés funeste;
+<lb />Qu'arriue t’il enfin?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie n’ay pas veu le reste;
+<lb />Mais, ie croy que la mort doit suiure cet ennuy.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />L'ouurage est-il nouueau?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />La piece est d’auiourd’huy;
+<lb />Ie crains bien a y mal-faire;
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />O la crainte friuole!
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Et plüst aux dieux, (ma sœur) y feißiés vous mon
+<lb />roole.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Ie ne promettrois pas de m'en acquitter bien;
+<lb />Ie craindrois; mais c’est trop, brisons cet entretien,
+<lb />Et hastés vous vn peu, mon pere vous demande.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Que seroit ce, Luscinde? helas! Que i’apprehende!
+<lb />Auroit il eu le bruict de ce qui s’est passé?
+</sp>
+<sp type="MainZone-Sp"><lb />LVSCINDE.
+<lb />I'en ay bien peur.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />O dieux, tout mon sang est glacé!
+<lb />SCENE
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />D. ALVARE, ARGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />I'Oyes en queue peine, &amp; dans quel precipice,
+<lb />V Le trompeur est tombé, par son propre artifice.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ton esprit sans pareil, m’a conserué le iour,
+<lb />Et ie te doibs Celie, autant qu'à mon amour.
+<lb />Ie ne me flatte plus d’vne attente incertaine,
+<lb />I'ay faict, au Vice-Roy, quoy qu'auec quelque peine,
+<lb />Consentir à la fin, cet Hymen bien-heureux,
+<lb />Qui porte ma fortune au comble de mes vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />En ce consentement, tout, vostre espoir consiste,
+<lb />Car vout luy deués tout; mais que nous veut Ecyste?
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />D.ALVARE, EGYSTE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />EGYSTE
+<lb />Tenant vnelettre.
+<lb />Ciel! i'ay tant couru, que i’en suis toute lassé;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVANE.
+<lb />Qui cherches tu?
+</sp>
+<sp type="MainZone-Sp"><lb />de roId.
+<lb />Mon maistre; où l’aués vous laissé?
+<lb />Ie le deurois trouuer en vopre compagiie.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Il sit.
+<lb />D'où luy vient ce paquet? donne: A Dom Flaminie.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />C’est de la part du Comte;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALIY IARE.
+<lb />Il n'est donc pas chés luy?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Ie croy qu’il esperoit de s’y rendre auiourd’huy,
+<lb />Mais il est à iuger par ce second message,
+<lb />que quelque empeschement retarde son voyage.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Qucique mannais demon, qui payt nostre repos,
+<lb />Nous va rembarrasser dans cepremier cahos.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Quoy, le Comte est absent? comment auec mon frere.
+<lb />A t'ildonc ce matin, pù terminer l’affaire?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Par vn autre pacquet, que mon maistre a receu;
+<lb />S’il ne vous en souuient, vous l’aués mal conceu,
+<lb />Voyes, comme des sens l’amour oste l’vsage!
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Quoy qu’il en soit, l’affaire a changé de visage,
+<lb />Et dans l’opinion de quelque mauuais tour,
+<lb />Qu'on me voulust tramer, en brassant ceste amour;
+<lb />Ayant apris l’absence &amp; du Comte, &amp; d'Elise,
+<lb />I'ay dessous d’autres loix engagé ma franchise.
+<lb />Celie vn abregé des merueilles des cieux,
+<lb />Et leur plus bel ouurage, au iugement des yeux,
+<lb />Rencontrée au Palais, m’a treuué sans deffense,
+<lb />A changé mes liens, &amp; forcé ma constance.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Qui, la plle a Euphraste?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ouy ce naissant Soleil,
+<lb />Ce miracle d’amour, à nul autre pareil.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Adioustes, cette sitte en vertu fans feconde;
+<lb />Et si riche, &amp; si sage, en l’estime du monde.
+<lb />Ha Dieu!
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />La cognois-tu? tire moy de soucy.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE
+<lb />Riant, &amp; s'en allant.
+<lb />Ie la cognois fort bien; &amp; vostre frere außi.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIESME.
+<lb />D. ALVARE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Rgante, qu'entend-il par cette cognoissance?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Peut-estre, d’vn faux bruict taxer son innocence;
+<lb />Comme peut-estre außi, de quelque verité.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ha! ce soupçon faict tort à son honnesteté.
+<lb />Vn scrupule contre elle, est vne enorme iniure,
+<lb />Et le feu n'est pas pur, comme Celie est pure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Dans vostre aueuglement, suiués vn peu de iour;
+<lb />Ecoutés la raison, außi-bien que l’amour;
+<lb />Ie ne sçay pas, pour moy, quel mystere se passe;
+<lb />Mais, ce qu’il nous a dit, en effet m'embarrasse.
+<lb />Cet éclaircissement, met en quelque façon,
+<lb />Vostre frere à couuert, contre nostre soupçon,
+<lb />Et leue le suiet de nostre deffiance;
+</sp>
+<p type="MainZone-Lg"><lb />H ii
+<fw><lb />
+</fw><lb />Le Comte a pû par lettre agreer l’alliance,
+<lb />Et la plume auoir faict l’office de la voix.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Enfin i'allegueray le soupçon que i’auois;
+<lb />Car de m’imaginer dedans ceste belle ame,
+<lb />Rien qui puisse alterer, ny rebuter ma flame;
+<lb />C’est;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Callsre ses ajjants ae iu neteoile,
+<lb />La plus ferme vertu, n’apoint de seureté.
+</sp>
+<p type="MainZone-Head"><lb />SCENE HVICTIESME.
+<lb />D. FLAMINIE, D. ALVARE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ieux! qu’vne longue attente est vne longue
+<lb /> peine;
+<lb />Et la peine fascheuse, à qui l’attente est vaine;
+<lb />Ie croyois que le Comte, auant la fin du iour,
+<lb />Comme il m'auoit mandé, dûst estre de retour;
+<lb />Mais il faut que depuis, quelque affaire importante
+<lb />Ayt remis son depart, &amp; l’arreste à Tarente.
+<lb />E-
+<fw><lb />di t3
+</fw></sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et moy, que ceste absence auoit preoccupé,
+<lb />Du probable soupçon, que vous m’eußiés trompé,
+<lb />(Comme vne ieune amour prend bien-tost de l’om<lb />brage,
+<lb />Ie me suis engagé sous vn autre seruage,
+<lb />Et n'ay creu que moy mesme, en ce nouueau deffein.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ne pouuant croire en vous qu'vn iugement bie
+<lb />sain,
+<lb />Il ne peut autrement, que ce choix ne responde,
+<lb />Aynsi qu’à vostre sens, au gré de tout le monde:
+<lb />Mais vous me tesmoignés, par ceste impreßion,
+<lb />Beaucoup de deffiance, &amp; peu d’affection.
+<lb />Qu'ay-ie de si suspect, qu'vn frere s’en deffie?
+<lb />Mais peut-estre, ay-ie encor ce qui me iustifie;
+<lb />Voyés si i’ay pas lieu de l'attendre ce soir,
+<lb />Et si ie vous flattois d’vn inutile espoir,
+</sp>
+<p type="MainZone-Head"><lb />SCENE NEVFVIESME.
+<lb />ERGASTE, D. FLAMINIE, D. ALVARE.
+<lb />ARGANTE.
+<lb />ERGASTE
+<lb />A D. Flaminie.
+<lb />E vous cherchois, Seigneur;
+</p>
+<sp type="MainZone-Sp"><lb />L
+<lb />D. FLAMINIE
+<lb />Re ccuant la lettre.
+<lb />O rart iesmoignage,
+<lb />Des soings continuels, où mon amour t’engage!
+<lb />Mais dy moy, ie te prie;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Ayant leu la lettre.
+<lb />Importuns mouuements!
+<lb />Funestes messagers! tristes pressentiments!
+<lb />Que vous me menaces d’vne extreme disgrace!
+<lb />Plus ie veux m'éclaircir, &amp; plus ie m'embarrasse,
+<lb />Cognois-tu ce valet? tire moy de soucy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ouy, ie croy le cognoistre.
+</sp>
+<p type="MainZone-Other"><lb />D. ALVA</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Il me le semble außi,
+<lb />Et l'auoir ven sortir au iogis de Celte.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE
+<lb />Embrassant en Ergaste.
+<lb />Adieu, c’est vn serment, c’est vn nœud qui me lie,
+<lb />2ar la peas aijenrer a elit plucairez
+<lb />omt iicemple, comme elle, &amp; comme sa beauté.
+</sp>
+<p type="MainZone-Head"><lb />OCENE DIXIESME.
+<lb />D. FLAMINIE, D. ALVARE, ARGANTE,
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />V’est-ce, estes vous tousiours dans les bonnes
+<lb />fortunes?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Par hazard quelquesfois, il m'en viẽt quelques-vnes.
+<lb />Mais qui ne valent pas d’en faire vn entretien;
+<lb />Et bien qu'auez vous veu? vous auançois-ie rien?
+<lb />Et vous ay-ie flatté d’vne fausse esperance?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />I'auois, quoy qu’il en soit, mal conçeu cette absence,
+<lb />Et ne suis plus au poinct d’entendre à ce party.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />On peut manquer l’accord, comme on l’a consenti,
+<lb />Si vous le desirés, vostre excuse est aysée,
+<lb />En la condition qui vous est proposee,
+<lb />D'en perdre l’esperance, ou d’espouser ce soir;
+<lb />Mais ou v'adresse encor voostre nouuel espoir:
+<lb />N'en puis-ie auecques vous partager l’allegresser?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />I'espouse peu de bien, mais beaucoup de noblesse,
+<lb />La vertu mesme aureste, &amp; la mesme beauté.
+</sp>
+<sp type="MainZone-Sp"><lb />D THMINIE.
+<lb />Ce sont trois grands appas à vostre liberté;
+<lb />Et des nœntis tiom tion, cien aysement nous lie.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie l'esprouue, en effect.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Vous l’appellés?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+</sp>
+<p type="MainZone-Other"><lb />Celie?
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />D'vn caualier, dont Euphraste est le nom;
+<lb />Pauure quant aux moyens, mais d’illustre maison;
+<lb />D'ou naist cette surprise, &amp; cette violence?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />A mon étonnement, pardonnés mon silence;
+<lb />Certes il est bien vray;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />uoy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Que l’opinion,
+<lb />Faict les prix &amp; les choix, bienplus que la raison;
+<lb />Quoy ne sçaués vous rien de l'infame commerce,
+<lb />Que la neceßité chez ces filles exerce:
+<lb />Et que leur reuenu ne consiste qu'au fruict,
+<lb />Que leur lasciueté, touts les iours, leur produit.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie pardonne à mon sang, mais tout autre qu'vn frere,
+</sp>
+<p type="MainZone-Head"><lb />D. TLAMINIE.
+</p>
+<sp type="MainZone-Sp"><lb />Si vous vous conseillés auecques la cholere,
+<lb />Vous donnerés bien moins a la raison qu’aux sens,
+<lb />Et vostre aueuglement vous durera long-temps;
+<lb />Mais ce que ie vous dis, n’est point vne imposture,
+<lb />La verité vous parle auecques la nature.
+<lb />Et puisque pour tenir la bride à vos desirs,
+<lb />Il me faut renoncer, à mes propres plaisirs;
+<lb />Tenés par cet escrit, que vous m’aués veu rendre,
+<lb />Cunqu'umne ec uesconis,tuuots peint atomprendre,)
+<lb />Apprenés le suiet de mon estonnement,
+<lb />Et voyés ma franchise, &amp; vostre aueuglement.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Lit lalestre.
+<lb />C’est auiourdhuy, mon cher Flaminie, que i’a<lb />prendray, si m’ayant tant de fois iuré vostre foy,
+<lb />vous me tiendrés vostre parole, &amp; me reparerés
+<lb />mon honneur. Vn hõme de merite, qui vous touche
+<lb />de pres &amp; qui vous est égal en tout, m’hônore de sa
+<lb />recherche, &amp; i’ay bien voulu l’entretenir d’espe<lb />rance, pour vous faire voir que vous n’estes pas
+<lb />seul qui m’aymés; venez me dire ce soir, si vous
+<lb />estes assez perfide, pour m’oster l’vn &amp; l’autre, &amp;
+<lb />si ayant parole de tous deunsie nie dois rien es<lb />perer de pas vn.
+<fw><lb />Vostre Seruante, Celie.
+</fw><fw><lb />Il dit en soitte.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Dieux! est-ie plus d’éceuil fatal à la franchise,
+<lb />Ny plus d’estonnement, apres ceste surprise!
+<lb />Mais qui ne blasmera cette credulité,
+<lb />De trop de confiance, &amp; de legereté?
+<lb />Ie semble conuaincu: cette lettre est expresse,
+<lb />Mais il faut donc douter, de la foy de Lucrece,
+<lb />Et croire la vvertu susceptible du mal;
+<lb />Mon frere est mon autheur, mais souuent mon riual,
+</sp>
+<sp type="MainZone-Sp"><lb />D. FEAMINIE.
+<lb />D'autres authorités vous appuyront la nostre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Si i'en doute de vous, le croiray-ie d’vn autre?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />N'en croyés donc personne, &amp; croyés à vos yeux;
+<lb />Ce soir vers la minuict, rendons nous sur les lieux;
+<lb />Et quand vous apprendrés, par vostre propre veuë,
+<lb />De quelle impatience elle attend ma venuë,
+<lb />Layssés blasmer alors vostre credulité,
+<lb />De trop de confiance &amp; de legereté.
+<lb />Pour vous estre loyal, ie luy seray perfide;
+<lb />Mon amour est muet, où mon honneur preside.
+<lb />Vostre interest, le mien, celuy du Vice-Roy,
+<lb />ui nous doibt imposer vne seuere loy,
+<lb />Me deffend d’immoler aux faueurs d’vne fille,
+<lb />L’interest &amp; l’honneur d’vne illustre famille.
+<lb />Si i’ay dans vos amours, excité quelque ennuy,
+<lb />I'estois riual alors, ie suis frere auiourdhuy;
+<lb />El 'vous retognoistrez te jauoravle ossite,
+<lb />Quand vous aurés de l’œil touché le precipice.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Immobile, interdit, priué de sentiment,
+<lb />Sans conseil, sans lumiere, &amp; sans raisonnement,
+<lb />Dans le trouble impreueu de ce desordre extreme,
+<lb />Comme tombé des cieux, ie m'ignore moy-mesme;
+<lb />Ha! que ce sexe, Argante, est au nostre fatal,
+<lb />Et que le nom de femme, est celuy d’vn grand mal!
+</sp>
+<p type="MainZone-Head"><lb />ACFET
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />ARGANTE, D. ALVARE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Voy, Seigneur! ces fureurs ne vous sont
+<lb />pas passées?
+<lb />Ie croyois que la nuict, nourrice des pensées,
+<lb /> Vous feroit voir plus clair, en vous fer<lb />mant les yeux,
+<lb />Et contre vostre espoir, vous conseilleroit mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Elle a de mes fureurs desia trop allumées,
+<lb />Faict des feux deuorants, des rages confirmées.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ie crains quelque accident, si la discretion,
+<lb />Lasche vne fois la bride, à vostre paßion.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie ne garantis rien, d’vne fureur extréme,
+<lb />Ie l’aymois dans l’excés, &amp; ie le hay de mesme;
+<lb />L'amour a du respect, la hayne n'en a point.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Lec oous empones pas tuj qu'a te aernier poinct;
+<lb />Ne cognoissés vous pas l’esprit de vostre frere?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Comment voudrois tu voir laverité plus claire?
+<lb />Si-tost que sur le seüil, il aduança ses pas,
+<lb />La porte au mesme instant, ne s’ouurit elle pas?
+<lb />Ne fut il pas reçeu, par l’vn des domestiques,
+<lb />Et croys tu que le pere ignore ces pratiques,
+<lb />Et qu'on osast chez luy, sans son consentement,
+<lb />A telle heure, de nuict, introduire vn amant.
+<lb />Ie donnay trop deslors, au respect de mon frere,
+<lb />Trop à ma retenuë, &amp; trop à ta priere:
+<lb />Deslors, ma paßion, ie deuois t'écouter,
+<lb />Deslors, iuste transport, tu deuois éclatter.
+<lb />Ie fus trop circonspect, i’eus trop de reuerence,
+<lb />Et i'ay trop, d’vne nuict, nourry son esperance.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME
+<lb />EVPHRASTE, D. ALVARE, ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />EVPHRASTE
+<lb />Triste.
+<lb />TEcroiray-ie, Luscinde? ouy, ce geste confus,
+<lb />I Sans besoing d’autre voix, marque assés son
+<lb />refus.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Euphraste, il est bien vray, que les yeux d’vne Dame,
+<lb />Sont des peintres flatteurs, de faux miroüers de l’ame;
+<lb />Et qui figurent mal les mouuements du sein,
+<lb />Nous nous cherchons touts deux, pour different des<lb />sein.
+<lb />Vous croyés que ie vienne en qualité de gendre,
+<lb />Sommer vostre promesse, &amp; ie vous la viens rendre,
+<lb />I'ay sçeu qu’auec raison, vous m'auiés aduerty,
+<lb />Que ie me proposois vn indigne party,
+<lb />I'en viens, sur cet aduis, dégager ma parole.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />I'ay bien creu me flatter d’vne attente friuole,
+<lb />Et ne m'estonne pas de voir rompre l’accord
+<lb />D’vne heureuse fortune, auec vn mauuais sort;
+<lb />Mais qu'on change si-tost, &amp; que si-tost on passe
+<lb />De l’amour au mespris, de la ame à la glace,
+<lb />Et d’vne aueugle ardeur, à ce raisonnement,
+<lb />C est sans doute vn suiet de iuste estonnement
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ce m’est bien vn suiet d’estonnement plus iuste,
+<lb />Que ce maintien ape, eyuoijuge auguste,
+<lb />Capables d’imprimer vne si bonne odeur,
+<lb />Cachent vn cœur soüillé d’vne impudique ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Ne taxés pas, Seigneur, en l’honneur de ma fille,
+<lb />L’estime &amp; la vertu d’vne illustre famille;
+<lb />Et laissés nous au moins, dans nostre pauureté,
+<lb />Le seul bien que le sort ne nous a pas osté;
+<lb />Sçachés qu'à vostre corps, l’ame est plus étrangere,
+<lb />Les ombres à la nuict, au Soleilla lumiere,
+<lb />La pompe a vos grandeurs, l’éclat à vostre rang,
+<lb />Que l’honneur à Celie, &amp; la gloire à mon sang.
+<lb />Ie preuis iustement, quanu uutrunt uinstance,
+<lb />Vostre obstination vainquit ma resistance,
+<lb />Que vostre amour seroit vn de ces feux volants,
+<lb />Si prompts à s’allumer, si clairs, si violents;
+<lb />Mais qui portent la mort, si tost qu’ils se produisent,
+<lb />Et pour oster la vie, eux mesmes se dêtruisent.
+<lb />Sans couurir vos refus d’vn pretexte si faux,
+<lb />Vous auiës en ma fille, assez d’autres deffaux:
+<lb />Celuy de sa fortune &amp; ceux de son visage,
+<lb />Vous deffendoient assez cet indigne seruage,
+<lb />Et vous authorisoient d’en rompre le lien,
+<lb />Sans besoing d’offencer son honneur &amp; le mien;
+<lb />De quoy dit on encor, qu'elle ayt soüillé sa gloire?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />D'vn commerce honteux, que i’eusse eu peine à croire.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Tousiours quelque enuieux, ou quelque esprit mal
+<lb />sain,
+<lb />Tasche à rompre le cours d’vn honneste dessein,
+<lb />Et iit paruonnte parimupile cont aie.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie n’ay creu que mes yeux, exempts de cette enuie.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />C’est souuent trop encor que de croire ses yeux,
+<lb />Et la terre n'est pas plus distante des Cieux,
+<lb />Que ce vice eloigné de l’honneur de ma fille,
+<lb />Et de la bonne odeur, où l’on tient ma famille,
+<lb />Quel œil atteint si loing, &amp; voit si clairement,
+<lb />Qui ne pûst s'abuser par cet eloignement?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Où nous sommes portés d’vn interest extréme,
+<lb />Il est bien malaysé de se tromper soy-mesme,
+<lb />I'en ay trop veu (vous disie) &amp; plûst, &amp; plûst aux
+<lb />dieux,
+<lb />Pour n'auoir rien pû voir, auoir esté sans yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Vos regards enla nuict, n’ont ils point eu d’obstacle?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Iay, comme ie vous voy, veu ce honteux spectacle.
+</sp>
+<sp type="MainZone-Sp"><lb />Dieux!
+<lb />EVPHRASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et pour l’auoir veu trop &amp; trop clairement,
+<lb />I'en restay dans Vnorronns &amp; aun l'aueuglement.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />I'apprends, sur mes vieux ans, vne estrange nou<lb />uelle.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />On ne vous feist iamais de rapport plus fidelle;
+<lb />Allés &amp; pour adieu, dites luy, de ma part,
+<lb />Que ie l’aymois d’vn cœur, &amp; sans crime &amp; sans fard,
+<lb />Et faisois vanité d’vne si belle flamme,
+<lb />Auant qu'estre aduerty de ce commerce infame;
+<lb />Mais qu'estant trop instruict de ses deportements,
+<lb />Elle peut épouser celuy de ses amants,
+<lb />A qui de son amour elle a (ces nuicts passées,
+<lb />Et ia dermere entor y les prennes auancées.
+<lb />Ie ne mets plus d’obstacle à leur affection,
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE
+<lb />Desespere.
+<lb />Ie vays executer vostre comißion,
+<lb />Et pour ne rendre pas vos bons aduis friuoles,
+<lb />Luy faire iusqu ais cœur penetrer ces paroles.
+<lb />BJEJT
+<lb />Pourquoy t’ay-ie faict naistre? ou pourquoy suis-ie né!
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />D.ALVARE,
+<lb />Comme immobil
+<lb />ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />JOus voyés à quel poinct il ressent cet outrage,
+<lb />V Sa patience en vain, dißimuloit sa rage:
+<lb />I’ay trop veu dans songeste, &amp; trop leu dans ses yeux,
+</sp>
+<p type="MainZone-Lg"><lb />K ii
+<lb />Les mouuements contraincts d’vn esprit furieux.
+<lb />Vn affront que reçoit vn genereux courage,
+<lb />Dedans le mauuais sort, le heurte dauantage;
+<lb />Il souffre d’autant plus, qu’il croit sa pauureté
+<lb />Seruir comme d’amorce à cette indignité;
+<lb />Vous en verrés l’effect, si ma crainte n'est vaine,
+<lb />Oyés vous la rumeur, dont la maison est pleine?
+<lb />Ie vous ay bien predit ce funeste accident.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />O tragique succés d’vn courroux trop ardent!
+<lb />Cours en faueur du sexe, Argante, ie te prie,
+<lb />Opposer ta deffense, au cours de sa furie;
+<lb />Va retenir le bras, qui luy porte la mort,
+<lb />Ma fureur ne vas pas à ce dernier effort;
+<lb />Ne laisse pas fletrir ces roses animées,
+<lb />A qui les a faict naistre, &amp; qui les asemées,
+<lb />Ne faisons rien pour elle, &amp; seruons ses appas;
+<lb />Cours, rends leur ce deuoir;
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Ne m’arestés donc pas;
+</sp>
+<sp type="MainZone-Sp"><lb />Attend;
+<lb />D. ALVARE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Le moinare insiant est de grand preiudice.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie la veux obliger de ce dernier office,
+<lb />C’est à moy d’arrester le brat que i'ay poußé,
+<lb />A moy de retenir le traict que i’ay lancé;
+<lb />Mon feu n’est plus si vif, mais helas! s’il ne brule,
+<lb />Il n'est pas bien éteint, quoyque ie dißimule;
+<lb />Et s’arracher du cœur vne si forte amour,
+<lb />N'est pas, quoy qu’on endie, vn ouurage d’vn iour.
+<lb />Ie hay Celie infame, &amp; Celie infidele,
+<lb />Mais la vertu n’est pas tout ce que i’aymois d’elle,
+<lb />Elle conserue encor, auecques sa beauté.
+<lb />L'empire qu’elle auoit dessus ma liberté;
+<lb />Suiuons ce furieux, detournons son enuie:
+<lb />La main qui la tueroit, m'arracheroit la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANTE.
+<lb />Vous deliberés trop, &amp; desia la saison.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Mais lasche souueraine, imbecille raison,
+<lb />Laisses-tu de la sorte ébranler ton Empire,
+<lb />Au premier mouuement que la pitié t’inspire?
+<lb />Ton seruage est finy, le veux tu prolonger?
+<lb />En desarmant le bras armé pour te vanger.
+<lb />Que t’ay-ie dit, Argante, helas! le peux tu croire,
+<lb />Qu'encor ce lasche obiect occupe ma memoire?
+<lb />Qu'elle meure l’infame, &amp; qu’auecques ses iours,
+<lb />S’eteignent dans son sang ses lasciues amours.
+<lb />Releue toy, mon cœur, repren sur ta franchise,
+<lb />L’iniuste authorité, qu’elle s’estoit acquise.
+<lb />Elle t’a pù trahir, elle a pù t’affronter,
+<lb />Et t'est tout te regret, qu'ecte te aoiot touster.
+<lb />ins s'en vont.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME,
+<lb />D. FLAMINIE, EGYSTE.
+</p>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />La fin, l'Esperance a la crainte étouffée,
+<lb />A Dressés à l’artifice vn superbe trofée,
+<lb />Vn colosse au mensonge, à la fourbe vn autel,
+<lb />Et comblés en l’autheur d’vn renom immortel.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Il est vray que tes soings, contre toutte apparence?
+<lb />A mon bon-heur mourant, ont rendu l’esperance,
+<lb />Que de touts ces détours, toy seul fus l’inuenteur,
+<lb />Qu'Ergaste
+</sp>
+<sp type="MainZone-Sp"><lb />Qu' Ergaste, comme moy, n’en fut qu'executeur;
+<lb />Que m'auoir introduit au logis de son Maistre,
+<lb />Feint le mot de signal, entrouuert la fenestre,
+<lb />Et si bien secondé toute l’inuention,
+<lb />N’estoient que des effets de ton instruction.
+<lb />Enfin par ton moyen ie me treuue à la veille,
+<lb />De pouuoir posseder cette aymable merueille,
+<lb />Et rauir ses faueurs, aux yeux de mon riual;
+<lb />Ie ne sçay, toutesfois, par quel instinct fatal,
+<lb />Si prés de satisfaire à l’ardeur qui me presse,
+<lb />Il semble, que mon cœur repugne à l’allegresse,
+<lb />Et que l’heur qui m’arriue, en naissant se détruit,
+<lb />Ie n’ay iamais paßé de plus fascheuse nuict.
+<lb />L’aube a sur l’orison ramené la lumiere,
+<lb />Auant que le sommeil m'eust fermé la paupiere;
+<lb />Si peu que i’ay dormy, Celie à tout propos,
+<lb />Venoit en souspirant trauerser mon repos,
+<lb />Et d’vne triste voix, me reprocher le crime
+<lb />Duuoitrany ses cteux, &amp; fouitit son estime;
+<lb />Et ie trouue en effet, que cette trahison
+<lb />Repugne aux bonnes mœurs, au sang, à la raison,
+<lb />Que mon frere aura lieut ue euiger son offense;
+<lb />Et que ceste action n’admet point de defense.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Et moy, i'appelle vn traict de cette qualité,
+<lb />Vne ruse, vn bon tour, vne subtilité;
+<lb />Alors qu'on recognoist ses forces inutiles,
+<lb />On a recours à l’art &amp; l’on surprend les villes;
+<lb />En toute guerre en fin la ruse est de saison,
+<lb />Y feindre, est stratagéme, &amp; non pas trahison.
+<lb />Et comme d’vne ville, ainsi d’vne maistresse,
+<lb />N'importe qui l’acquiere, ou la force, ou l’adaresse;
+<lb />Les nœuds de vostre hymen repareront assés,
+<lb />Et l’espoir, &amp; l’honneur que vous luy rauißés.
+</sp>
+<p type="MainZone-Head"><lb />SCENE CIIQQ V IESME.
+<lb />ERGASTE, D. FLAMINIE, EGYSTE.
+</p>
+<sp type="MainZone-Sp"><lb />ENGASIE
+<lb />Comme pleurant.
+<lb />Oignez vostre tristesse à ma melancholie,
+<lb />IEt prenez part Seigneur, en la mort de Celie,
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />En la mort de Ceue! Ergaste, que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Helas! si vous l’aimiés, armés vous de vertu;
+<lb />Cette ieune beauté de tant d’yeux adorée,
+</sp>
+<sp type="MainZone-Sp"><lb />Est morte?
+<lb /><lb />D. FLAMINIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Er pia entor:
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Deshonorée.
+<lb />Voila l'heureux succés qu'ont produit nos rapports;
+<lb />Nous auons tué l’ame, &amp; son pere le corps.
+</sp>
+<sp type="MainZone-Sp"><lb />2 FLAMINIE.
+<lb />Et cette malheureuse, &amp; funeste nouuelle,
+<lb />Fait vn troisiéme meurtre, &amp; me tuë apres elle;
+</sp>
+<sp type="MainZone-Sp"><lb />EGISIE.
+<lb />De l’esprit, &amp; du corps également perclus,
+<lb />Ie demeure interdit, &amp; ne me cognois plus.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Ie luy parlois de vous, quand ce pere barbare,
+<lb />Apres quetques propos omeus auec Aluare,
+<lb />Dont il abien paru qu’il estoit irrité,
+<lb />Entrant en la maison, d’vn pas precipité,
+<lb />Furieux, le teint mort, l’œil ardent, &amp; farouche,
+<lb />Le poignard à la main, &amp; l’écume à la bouche,
+<lb />Lessus cette innocente ayant leué le bras,
+<lb />Va (dit-il) prendre ailleurs tes infames ébats,
+<lb />Lasciue, desbordée, &amp; detestable fille,
+<lb />Prodige de mon sang, monstre de ma famille,
+<lb />Atten dans les enfers, la resolution
+<lb />Du ieune suborneur, à qui ta paßion
+<lb />A cette nuict encor mis ton honneur en proye:
+<lb />Voila le compliment que ton amant t’enuoye.
+<lb />A peine il acheuoit, que d’vn effort brutal,
+<lb />Il a dans son beau sein porté le coup fatal:
+<lb />Sa fureur trop ardente, &amp; sa main trop agile,
+<lb />Ont rendu sa deffence, &amp; la mienne inutile,
+<lb />Le coup l’a preuenuë, &amp; l’ouuerture a faict
+<lb />Sourdre vn ruisseau de sang, sur vn fleuue de laict;
+<lb />Il vouloit redoubler, mais l’innocente Dame
+<lb />Est tombée à ses pieds, sans couleur, &amp; sans ame,
+<lb />Et des ombres, dés-ia, croissoit le triste rang.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />monituiuutes mejmerememy de ton sang!
+<lb />Helas! il est bien vray, que la puissance humaine,
+<lb />Contre celle du ciel, est impuissante &amp; vaine!
+<lb />Que produira ma haine, apres que mon amour,
+<lb />A la mesme innocence a pù couster le iour?
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE.
+<lb />Depuis que la fortune a iuré nostre perte,
+<lb />La plus subtile adresse est la plus inexperte,
+<lb />Et pour rendre nos soings, vn friuole soucy,
+<lb />VVGJO,
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Laisse aux mal-heurs communs, cette plainte com<lb />mune,
+<lb />Tes conseils m’ont perdu, bien plus que la fortune;
+<lb />Ton aide, est ma ruine; vn iugement bien sain,
+<lb />Ne donne point d’aduis, pour vn mauuais dessein.
+<lb />Auant que de te suiure, ô ma douleur extréme!
+<lb />Rendons, en m’accusant, l’honneur à l’honneur méme.
+</sp>
+<sp type="MainZone-Sp"><lb />EGYSTE
+<lb />s'enfuyant.
+<lb />Fuyons, voicy son frere, &amp; ie crains son courroux, il an</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Et de mon sang, apres;
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />D. ALVARE, D. FLAMINIE.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />On frere qu’aués vous?
+<lb />L iij
+</sp>
+<p type="MainZone-Head"><lb />MIIMEERAIIVRE
+<lb />A genoux.
+</p>
+<sp type="MainZone-Sp"><lb />Aluare (car d’oser vous appeller mon frere,)
+<lb />Mon crime est à ce nom vn acte trop contraire,
+<lb />Soüillé de la plus lasche &amp; plus noire action,
+<lb />Qui me puisse priuer de vostre affection,
+<lb />Le plus indigne obiet du seiour où nous sommes,
+<lb />Le plus perfide esprit, le plus meschant des hommes
+<lb />I'allois solliciter vostre ressentiment,
+<lb />Non pas de mon pardon, mais de mon chastiment.
+<lb />C’est par ma trahison &amp; par mon imposture,
+<lb />Que le plus pur obiet qu'ait formé la nature,
+<lb />Faussement accuse d'illicites amours,
+<lb />Par l’autheur de sa vie a veu borner ses iours;
+<lb />Cijuuenoime notton, que puuois cous apprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Parlez plus clairement, ie ne vous puis comprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Celie (en peu de mots) triompha de mon cœur,
+<lb />Le iour que des taureaux le vostre fut vainceur.
+<lb />I'aymois secrettement cette ieune merueille,
+<lb />Et depuis apprenant que d'vn ardeur pareille,
+<lb />Mais auec vn succés bien prin uauant ageux,
+<lb />A la mesme beauté vous adreßiez vos vœux,
+<lb />Sensiblement atteint d’vn ver de ialousie,
+<lb />Par l’aueugle conseil de cette frenesie,
+<lb />Et l’insolente ardeur d’vne amour sans respect,
+<lb />Ie vous ay faussement fait son honneur suspect,
+<lb />Vn valet corrompu, cette fausse escriture,
+<lb />Et l’adresse d’Egyste ont aidé l’imposture;
+<lb />Et quunu pour comnnepemtuy fait cesser vos vœux,
+<lb />Vne sanglante mort l’a rauie à tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Interdit.
+<lb />Est-il poßible, ô Dieux!que dans le cœur d’vn homme,
+<lb />Quelque sensible amour dont le feu le consomme,
+<lb />Tombe vn si detestable, &amp; damnable dessein?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ouy, puis qu’il est tombé dans ce coupable sein!
+<lb />Tenés, n'épargnés point, qui vous fut si barbare,
+<lb />Il s’agit de l’honneur de Celie &amp; d’Aluare:
+<lb />I’ay diffamé, trahy, rauy d’entre vos bras,
+<lb />ue cerefre aure gorue oeitlis &amp; d'appas.
+<lb />Vangés vous, son honneur interesse le vostre,
+<lb />Souffrant vne infamie, on en contracte vne autre.
+<lb />Qui ne se vange est lasche, &amp; qui souffre vn affront,
+<lb />Par cette impunité s’en produit vn second.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Monstre, indigne du iour, traïstre, non pas mon frere,
+<lb />Mais prodige conceu dans le sein de ma mere!
+<lb />Acheue par ma mort, tes damnables desseins.
+<lb />Il faut encor mon sang à tes profanes mains;
+<lb />Tu n’as pas aßés faict; ioins ce reste de vie,
+<lb />A la triste moitié, que tu m'en as rauie.
+<lb />Apres l’ame, cruel, n'epargne pas le corps;
+<lb />Traistre, dés-ia le tien, croistroit le rang des morts,
+<lb />aviais te jaug me dessend teile itiste allegeance,
+<lb />A son pere qui vient, i'en laisse la vengeance,
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Voyons, si i’obtiendray de son iuste courroux,
+<lb />Plus de compaßion, que ie ne faicts de vous.
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIESME.
+<lb />EVPHRASTE, D.ALVARE, D. FLAMINIE.
+</p>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />ve voules vous cruels? par quelque aduis
+<lb />2funeste,
+<lb />Couster encor la vie, à celle qui me reste,
+<lb />Car l’autre a satisfait vostre ressentiment,
+<lb />Et va dans les enfers attendre son amant.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Enuoyés y moy donc; c'est moy, ie suis ce traistre,
+<lb />Cét
+<lb />Cét amant non aymé, qui me vantay de l’estre,
+<lb />Et qui depuis six mois charmé de sa beauté,
+<lb />Mais beaucoup plus encor de son honnesteté,
+<lb />Mle la voyant rauie, &amp; promise à mon frere,
+<lb />Ay de tous les desseins que la rage peut faire,
+<lb />Et que peut conceuoir vn esprit amoureux,
+<lb />Suiuy le plus damnable, &amp; le plus malheureux;
+<lb />Egalement atteint, &amp; d’amour &amp; d’enuie,
+<lb />A cel peureux riual ie diffamay sa vie,
+<lb />Et le secours d'Ergaste aida ma trabison.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Au soing de qui, vous Dieux! commets-ie ma maison!
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Moy seul i’en fus l’autheur, n’enpunissez point d’autre,
+<lb />Prenés dessus mon sang la vengeance du vostre;
+<lb />Ne paroissez pas lasche en vostre mauuais sort,
+<lb />Celie, &amp; vostre honneur, vous demandent ma mort;
+<lb />Croire pour mon pardon, la pitié legitime,
+<lb />Seroit de la vertu faire vn bouclier au crime.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ie ne merite pas vn plus heureux destin,
+<lb />S’il est vostre affronteur, ie suis vostre assaßin;
+<lb />Si je ne fus l’esprit, ie fus le bras du traistre,
+<lb />Le forfait est commun, le chastiment doibt l’estre,
+</sp>
+<p type="MainZone-Lg"><lb />M
+<lb />Ioint qu'estant l’vn &amp; l’autre issu d’vn mesme flanc,
+<lb />De fon faiig &amp;haintun, ue cens ferunt qu'vn sang.
+</p>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />O nouuelle, ô discours, qui meurtrit iusqu’à l’ame!
+<lb />Me voila son bourreau, i’estois tantost infame,
+<lb />Et par vos repentirs trop iustement fondés,
+<lb />Vous me donnés la mort que vous me demandés;
+<lb />M’apprenãt vos forfaicts, vous m’apprenés mon crime,
+<lb />Vous offencés le sang, pour reparer l’estimé,
+<lb />Car s’il n'est plus infame, &amp; si ie le cognoy
+<lb />Innocent en ma fille, il est coupable moy:
+<lb />O mal-heureuse fille! à mes vieux ans si chere,
+<lb />Le conseil, la conduite, &amp; l’appuy de ton pere,
+<lb />Par ta mort malheureux, ie me priue aulourd’huy.
+<lb />De force, de conseil, de conduite &amp; d’appuy,
+<lb />Ie détruis mon support &amp; du coup qui te tuë,
+<lb />Ruine mon espoir &amp; m'arrache la veuë.
+<lb />Orgueilleuse beauté, triste present des cieux,
+<lb />Butte des medisants, appuy des vicieux,
+<lb />Que ta posseßion est indigne d’enuie!
+<lb />Qui couste à l’innocence &amp; l’honneur &amp; la vie,
+<lb />Qui détruit tout respect, qui force toute loy,
+<lb />Et qui porte le sang à s’armer contre soy.
+<lb />O funeste present, triste don d’Hymenée,
+<lb />u'vn poignard dans le sein de cette infortunée!
+<lb />Qu'ay-ie fait, malheureux! suiuons, suiuons ses pas,
+<lb />Rien ne peut que ma mort reparer son trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />It sussit que par vous mon sang tuy fatisfasse.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et le mien, mais Euphraste, écoutés moy de grace.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Que gaigne d’écouter qui n’espere plus rien?
+<lb />Tout ce qui peut lauer son honneur &amp; le mien,
+<lb />Si de vostre forfait quelque remords vous touche,
+<lb />Est que vous accusant de vostre propre bouche,
+<lb />Vous nous iustifiés deuant le Vice-Roy,
+<lb />Et que toute la Cour l’approuue comme moy:
+<lb />Apres timploreray contre mon parrneide,
+<lb />Le bras de la iustice, à qui le sien preside;
+<lb />Et ie tiendray la mort à souuerain bon-heur,
+<lb />Si ie faicts en mourant reuiure mon honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ouy, i’iray sans contraincte en ce remords extreme,
+<lb />Pour luy rendre l’honneur, me diffamer moy-mesme,
+<lb />Et publier ma honte &amp; ma brutalité.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et moy mon imprudence e ma credulité.
+</sp>
+<p type="MainZone-Lg"><lb />M ii
+</p>
+<p type="MainZone-Head"><lb />AROEE
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />DOM RODRIGVE
+<lb />Vice Roy de Salerne.
+<lb />EVPHRASTE, D. FLAMINIE, D. ALVARE.
+<lb />EGYSTE, ARGANTE, LES GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />
+<lb />D. RODRIGVE
+<lb />Bot
+<lb />Dans vne Salle du Palais.
+<lb />VEC queut tontratnit &amp; quelle violence,
+<lb />Tiens-ie, ô fille du Ciel, auiourd’huyta balance!
+<lb />Qu’il faille en la splendeur de cêt auguste rang,
+<lb />Estre iniuste au bon droict, ou barbare à mon sang,
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Seigneur, qui n’est pas iuste en ce degré supréme,
+<lb />Et qui ne se sçait pas commander à soy-mesme,
+<lb />Mette en son tribunal vn plus iuste que luy,
+<lb />Et ne se s’ingere pas de gouuerner autruy.
+<lb />Vne vertu sincere, vne ame droicte &amp; pure,
+<lb />Ne doiuent pas aux loix preferer la nature;
+<lb />Comme oncle plaignés les, mais comme Vice-Roy,
+<lb />Vous deués estre égal &amp; pour eux pour moy.
+<lb />Ie ne demande pas qu’ordonnant leur supplice,
+<lb />Vous retiriez pour moy le bras de la iustice;
+<lb />Ie n’euiterois pas celuy de la douleur,
+<lb />Mon chastiment est iuste außi bien que le leur,
+<lb />Et pour vanger mon sang ma main encor humide,
+<lb />Ne refuseroit pas vn second parricide,
+<lb />Si le respect des Loix, &amp; la crainte des Dieux,
+<lb />Contre mon desespoir ne me conseilloient mieux
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Ie ne changeray point à vostre preiudice,
+<lb />Au vandeau de l'amonr ,ceiny ne la iufite,
+<lb />Ie n’admets aux forfaicts aucune impunité,
+<lb />Et dispense les prix auec égalité.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Donc, non plus mon parent, mais mon Prince &amp;
+<lb />mon Iuge,
+<lb />Equitable ennemy plutost que mon refuge,
+<lb />Monstrés qu’a vos pareils les images des dieux,
+<lb />Mesme en leur propre sang le crime est odieux.
+<lb />I’ay faict vn pere autheur du meurtre de sa fille,
+<lb />I'ay taché d’vn faux bruit vne illustre famille,
+<lb />Purgés sa bonne odeur du sang qui la corrompt,
+<lb />Et perdés l’affronteur pour reparer l’affront.
+</sp>
+<p type="MainZone-Lg"><lb />M ni.
+<fw><lb />de all y aliaun
+</fw></p>
+<sp type="MainZone-Sp"><lb />I'eux plus de part qu’eux deux en ce triste mystere,
+<lb />Trop credule à l’amant, &amp; trop croyable au pere,
+<lb />Ie fus de ce faux bruit le funeste porteur,
+<lb />Punißés l’instrument außi bien que l’autheur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />A ceux à qui la mort est vn obiet d’enuie,
+<lb />Il faut pour les punir leur ordonner la vie;
+<lb />Quand le iour nous desplaist, ou nous est à mépris,
+<lb />Au lieu de chastiment, la mort nous est vn prix.
+<lb />Ce forfait à tous trois, fut vne erreur commune,
+<lb />Au premier de l’amour, à luy de la fortune:
+<lb />44 cons de ter fature, en que te fanx n'u pit,
+<lb />Souffrir d’impreßion contraire à la vertu;
+<lb />Le merite de tous est d’aßés d’importance,
+<lb />Pour en faire auec soing balancer la sentence.
+</sp>
+<sp type="MainZone-Sp"><lb />EVTMRASTE.
+<lb />Si la punition s’en refuse en ces lieux,
+<lb />Son sang criera vengeance au tribunal des Dieux;
+<lb />A qui donne la mort, la mort est legitime.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Mais on ne punit pas l’erreur comme le crime,
+<lb />Le tort où le merite est en l’intention;
+<lb />C’est elle que l’on pese &amp; non pas l’action.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Pour faire au chastiment purger son innocence,
+<lb />Il doibt estre public außi bien que l’offence.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ie n’y recule pas;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et mon dessein est tel.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Il peut estre public &amp; n’estre pas mortel.
+</sp>
+<sp type="MainZone-Sp"><lb />EVFIIRASTE.
+<lb />Imaginés le donc, &amp; m’imposés silence,
+<lb />Vous à qui la iustice a commis sa balance.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />I'en vais proposer vn dont peut-estre l’effet,
+<lb />Vous peutrendre &amp; l’honneur &amp; l’esprit satisfait;
+<lb />Ce coup n’a pas détruit toute vostre famille,
+<lb />Elle subsiste encore en vne illustre fille,
+<lb />Qu'on dit ne deuoir rien aux charmes de sa sœur,
+<lb />Et qui peut en l’vn d’eux vous faire vn successeur,
+<lb />Auquel vous plaira mieux choisißés vostre gendre,
+<lb />Et qu’il vous paye en luy ce qu’il ne vous peut rendre.
+<lb />Si par vn doux supplice ou plutost ce bon-heur,
+<lb />Il ne vous rend Celie, il vous rendra l’honneur,
+<lb />Fera taire l’enuie, &amp; par cette alliance,
+<lb />Au peuple de Salerne imposera silence.
+<lb />Mes presens &amp; les biens qu’il tient de ses ayeux,
+<lb />Chasseront de chés vous vn monstre furieux,
+<lb />L’horrible pauureté, cette larue au teint blesme,
+<lb />Cét obiet de mespris infame de soy-mesme.
+<lb />Mais, qui, pour s'attaquer à vostre noble sang,
+<lb />N’en peut en mon estime amoindrir vostre rang.
+<lb />Laißsés à ces raisons vaincre vostre furie,
+<lb />Le Vice-Roy l’ordonne, &amp; Rodrigue vous prie,
+<lb />Apres que ie m'oblige en l’vn &amp; l’autre nom,
+<lb />A cherir &amp; seruir vous &amp; vostre maison.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Ha, Seigneur, excusés la douleur violente,
+<lb />Qui d’ordinaire aueugle, importune, insolente,
+<lb />M a pu faire passer les pornes du respect,
+<lb />Vous m'en accordés trop pour vn iuge suspect.
+<lb />Vne fille en vn fils est vn heureux eschange,
+<lb />Et par qui mon honneur vtilement se vange,
+<lb />Si leur consentement souscrit à cét arrest.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />I'en meurs d’impatience.
+</sp>
+<p type="MainZone-Other"><lb />D. ALVA</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et n Javortu tout prest.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Ioignés à la premiere vne seconde grace,
+<lb />Ordonnés moy celuy qu’il vous plaist que i’embrasse,
+<lb />Et que de vostre main, ma fite att son espoux,
+<lb />Il luy sera plus cher, en le tenant de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Puis qu’il s’agit icy d’vn acte de iustice,
+<lb />Il faut au plus coupable ordonner le supplice;
+<lb />Flaminie est autheur de cette trahison,
+<lb />Destinons luy les feux, ouurons-luy la prison,
+<lb />Et metions fur ses vius tes tuutpoies chaisnes,
+<lb />De qui tant de douceurs accompagnent les peines;
+<lb />Si ce choix se rencontre au gre d'elle &amp; de vous,
+<lb />Il n’appellera pas d’vn iugement si doux.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Il me rauit autant que ie m’en sens indigne.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE
+<lb />Sortant.
+<lb />Ie vais la preparer à cet honneur insigne,
+<lb />Et l’ameine à vos pieds, receuoir de vos mains,
+<lb />Vn beur tant au dessus d'elle &amp; de ses desseins.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Euphia e funortiote urrest, fuppiite tegitime.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Sous ombre de supplice offrir vn prix au crime,
+<lb />Eje comie tesunte renurt on urtest pour luy,
+<lb />ui porte preiudice aux interests d’autruy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />A qui par cet arrest, faicts-ie ce preiudice?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />A moy qui l’esperois auec plus de iustice,
+<lb />Et qui pretends Ismene auec plus de raison,
+<lb />Que le perfide autheur de cette trahison;
+<lb />C’est à celuy de nous qui fist l’affront au pere,
+<lb />D'en reparer l’iniure, &amp; de luy satisfaire,
+<lb />Par ces feux &amp; ces fers que vous luy destinés,
+<lb />Et vous m’ostés mon droict, si vous l’y condamnés.
+<lb />Apres que par sa fourbe il m'a rauy l’aisnée,
+<lb />Voudroit-il m'enuier ce second hymenée?
+<lb />Et pour perpetuer son crime &amp; mon malheur,
+<lb />Disputer ce remede, à ma iuste douleur;
+<lb />Ie n’ay faict que l’erreur, il a commis l’offence,
+<lb />Et i’auray le supplice, &amp; luy la recompense.
+<lb />Vous le croyés punir, &amp; sa punition
+<lb />Seroit vn digne prix d’vne bonne action;
+<lb />L’assaßin d’vne sœur sera l’espoux de l’autre,
+<lb />A ce raisonnement, Seigneur, ioignés le vostre;
+<lb />Ei tommon cos suiets, non comme à cos neueux,
+<lb />Rendez également la Iustice à tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Ie ne pounois, mon jiis, preuoir vostre querelle,
+<lb />Ignorant le dessein que vous auiés pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Ayant perdu Celie à qui mieux qu’à sa sœur,
+<lb />Conuiennent son Empire &amp; sa place en mon cœur?
+</sp>
+<sp type="MainZone-Sp"><lb />ElIARARARASAMO
+<lb />Ie n’osois l’esperer, mais puis qu’on me l’ordonne,
+<lb />Voicy qui maintiendra l’arrest qui me la donne.
+<lb />Et.......
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Tant qu’il soit signé du sang de l’vn des deux,
+<lb />Vous en pouués tenir le succés hazardeux;
+<lb />Si la fourbe aux combats fait plus que le courage,
+<lb />Vous vous pouuës vanter d’vn notable aduantage;
+<lb />Mais il peut arriuer que l’adresse du bras,
+<lb />Et celle de l’esprit ne se respondent pas.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Vous sçaués qui ie suis;
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Vn'imposteur, vn traistre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Mais d’vn genre, où l’on sçait qu’õ fait gloire de l’estre,
+<lb />oi ia fourne en amour est tone tranijon,
+<lb />Ce bras dont vous doutés, vous en fera raison.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Quelle furie, ô Dieux! est-ce ainsi qu’on reuere
+<lb />L’authorité d’vn iuge, &amp; l’amitié d’vn pere?
+<lb />Car mon âge &amp; le soing que vous m’auez cousté,
+<lb />Peuuent bien m’honorer de cette qualité;
+<lb />Est-ce là le respect, que le sang, la nature,
+<lb />Ma tendre affection, &amp; mon rang me procure?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Est-ce auec equité reparer vn affront,
+<lb />Qu'obliger l’offencé d’en souffrir vn second;
+<lb />Que de ioindre à la vieille vne nouuelle iniure,
+<lb />Et tenir le party d’vn traistre &amp; d’vn pariure?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Vn peril euident menaceroit mes iours,
+<lb />Si vos armes tranchoient comme vostre discours;
+<lb />Et ma mort laisseroit Ismene bien tost vefue.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Sortons, &amp; furte tnamp nons en ferons l'épreuue.
+</sp>
+<p type="MainZone-Head"><lb />Seigneur!
+<lb />ARGANTE
+<lb />L d 1o Iu
+<lb />C’est vostre frere.
+<lb />Retenant D. Aluare,
+<lb />Retenant D. Flaminie.
+</p>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE
+<lb />Les arrestant.
+<lb />Arrestés inhumains,
+<lb />Quel sang veulent verser vos parricides mains?
+<lb />Pouués vous sans horreur les sentir animées,
+<lb />Contre le mesme sang dont elles sont formées;
+<lb />Qui dans vn telcombat voudroit estre vainqueur,
+<lb />Si pour le souhaitter il faut manquer de cœur?
+<lb />Et si vous ne pouués d’vne telle victoire,
+<lb />Qu'au prix de vostre sang vous achepter la gloire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVAIESME.
+<lb />EVPHRASTE, D. RODRIGVE, D.ALVARE.
+<lb />D. FLAMINIE, EGYSTE, ARGANTE.
+<lb />LES GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Voulant sortir.
+<lb />Ais d’vn sang qui nous nuit.
+</sp>
+<p type="MainZone-Other"><lb />N
+<lb />ii
+</p>
+<p type="MainZone-Head"><lb />CELIE
+<lb />D. FLAMINIE.
+<lb />Et quit faut mettre hors.
+</p>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Moderés, ô mes fils, moderés ces transports!
+<lb />Vos interests sont miens, vous perdre est me détruire,
+<lb />Et sans me faire tort, vous ne vous pouués nuire:
+<lb />Pareille affection m’interesse à tous deux,
+<lb />Ie vous veux Flaminie, Aluare ie vous veux;
+<lb />Et quitonque de vous tuerou fon aauersaire,
+<lb />Me priueroit d’vn gendre en se priuant d’vn frere,
+<lb />Tous deux de vos trauaux vous receurés le prix.
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Frerendes vous qu'Ismene espouse deux maris?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Et d’vne seule fille esperés vous deux gendres?
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Les Dieux de son aisnée ont ranimé les cendres?
+<lb />Et renoüans le fil de son heureux destin,
+<lb />M’effacent le regret d’estre son assaßin;
+<lb />La mort a refusé cette chasté victime,
+<lb />Et pieuse vne fois n'a pù souffrir mon crime:
+<lb />Et vous cherchez cruels à respandre le san
+<lb />2
+<lb />Que vous auës puisé dedans vn mesme flanc.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />Si vous ne m’abusés, s’il est vray que ie veille,
+<lb />S'il est vray que i’entends cette rare merueille,
+<lb />O Dieux qui me combles de tant d’heur &amp; de bien,
+<lb />p opert fort uans te ciet egaie-t'il le mien?
+<lb />Mais helas si cet heur se trouuoit vn mensonge!
+</sp>
+<sp type="MainZone-Sp"><lb />D. TLAMINIE.
+<lb />Ie doute si ie dors, ou si veillant ie songe.
+</sp>
+<sp type="MainZone-Sp"><lb />EVPHRASTE.
+<lb />Ie ne m’asseurois pas au rapport de mes yeux,
+<lb />Que la terre eust rendu ce depost precieux,
+<lb />I'ay creu voir vn fantosme auant que sa parole,
+<lb />M'eust osté de l’esprit vn soupçon si friuole;
+<lb />Mais i’ay bien recogneu qu’ils ne m'ont point menty;
+<lb />qle truigport enfin que ven ay regjenty,
+<lb />M'a fait d’vn pas preßé, suiuy d’Ismene &amp; d’elle,
+<lb />Venir vous annoncer cette heureuse nouuelle,
+<lb />Sans me donner le temps d’apprendre par quel sort,
+<lb />Elle a peu s’affranchir du pouuoir de la mort.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Le Ciel, heureux vieillard, comblant vostre vieillesse,
+<lb />De ceiuste suiet de ioye &amp; d’allegresse,
+<lb />Et vous restituant ce precieux thresor,
+<lb />Rend à vostre vertu moins qu’il ne doit encor,
+<lb />Et fait voir que ce coup fut vn genereux crime,
+<lb />A qui la gloire est tuste &amp; le prix legitime.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Voulant aller au deuant.
+<lb />AAttοrutς moy; begnann iium ues-ia de ses yeux,
+<lb />La brillante clarté se répand en ces lieux.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />CELIE, ISMENE, LVSCINDE, D. RODRIG.
+<lb />D. ALVARE, D. PEIMINIE,
+<lb />EVPHRASTE, EGYSTE, ARGANTE,
+<lb />LES GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Continuë.
+<lb />E perds tout sentiment &amp; mon ame rauié,
+<lb />TSemble m’abandonner au retour de ma vie;
+<lb />Attendons à ses pieds en cet heureux transport,
+<lb />L’arrest de mon pardon ou celuy de ma mort;
+<lb />Sous ses pas, mon espoir, abbaisse ton audace,
+<lb />Mes larmes, mes souspirs, obtenés y ma grace,
+<lb />Trouuons y le cercueil, ou sortons en vainqueur,
+<lb />Et laissons y la vie, ou touchons y son cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Quand de tous vos malheurs la trame est accomplie,
+<lb />Quand vostre hymen se traicte, agreable Celie;
+<lb />g.3.hcniinenoue canterteisse&amp; oons vostre amans
+<lb />Languir a vos genoux, palle, &amp; sans mouuement?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />Regardant dedaigneusement Aluare.
+<lb />Qui, Seigneur, mon amant? vnperfide, vn pariure,
+<lb />Qui loing de reprimer &amp; vanger mon iniure,
+<lb />Comme i'esperois tout de sa fidelité,
+<lb />Luy mesme a pû douter de mon honnesteté?
+<lb />Qui, Seigneur, mon amant, vn mortel aduersaire?
+<lb />Qui d’vn si faux soupçon preoccupant mon pere,
+<lb />L’a malgré sa bonté, pù resoudre auiourd’huy,
+<lb />A reprendre en mon sein, le sang qu’il tient de luy?
+<lb />Ie suis noble, Seigneur, &amp; sensible à l’outrage,
+<lb />Autant qu’il est credule, autant qu’il est volage,
+<lb />Et sans estre sans cœur &amp; sans ressentiment,
+<lb />Ne puis souffrir vn traistre en qualité d’amant;
+<lb />Le sein qu’il veut flechir, saigne encore de son crime.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE
+<lb />Tirant son épée.
+<lb />Vous me souffrirés donc en celle de victime;
+<lb />Et mon sang criminel par ma credulité,
+<lb />Reparera celuy que ie vous ay cousté;
+<fw><lb />O
+</fw><lb />Puisque i’ay merité vostre iuste cholere,
+<lb />Et que cons arpratjum tetont ne me peut plaire,
+</sp>
+<sp type="MainZone-Sp"><lb />Ma sœur!
+<lb />ISMENE
+<lb />Le retenant,
+</sp>
+<sp type="MainZone-Sp"><lb /> RODRIGVE.
+<lb />Arrestés le.
+</sp>
+<sp type="MainZone-Sp"><lb />EVFIIRASIE.
+<lb />Que faites-vous, Seigneur
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />I'efface vostre crime, &amp; vous rends vostre honneur;
+<lb />LaisseZvouler mon sang, souffrez vn facrifice,
+<lb />Qu'à mes Dieux irrités ie rends auec iustice;
+<lb />Ces Dieux des libertés, ces yeux maistres des cœurs,
+<lb />Et souffrét moy plutost la mort, que leurs rigueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Croyés vous reparer leur peine &amp; vostre crime,
+<lb />Pour leur sacrifier vne impure victime?
+<lb />Non non, &amp; puis, ingrat, i’ay trop d’humanité,
+<lb />Pour vous souffrir encore en cette qualité;
+<lb />Mais accepterés vous, si ie vous la propose,
+<lb />Celle que ie desire &amp; que ie vous impose?
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />It n'en puis resuser que ne oienne de vous,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE
+<lb />Le releuant &amp; l'embrassant,
+<lb />Ie vous veus (cher Aluare) en qualité d’espoux;
+<lb />Puis qu’en celle d’Amant vous blessez mon estime,
+<lb />Et que ie vous perdrois en celle de victime.
+<lb />Il faut bien vous souffrir en vne qualité,
+<lb />Où l’vn ny l’autre bien ne me puisse estre osté.
+<lb />Où sauuant mon honneur, ie conserue en Aluare,
+<lb />Vn thresor qui m’est cher autant que l’autre est rare,
+<lb />I'ay voulu par ce traict d’vne feinte fureur,
+<lb />Vanger ma renommée &amp; punir vostré erreur;
+<lb />Mais vostre chastiment non plus que ma vengeance,
+<lb />Ne doiuent pas durer plus longrtip. que loffence,
+<lb />Et si le Vice-Roy m’ordonne vn sort si beau,
+<lb />Qu'auiourd’huy nostre hymen allume son flambeau;
+<lb />Qu’il nous tire de crainte, en nous tirant de peine,
+<lb />Et qu’il ne laisse plus nostre attente incertaine.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ALVARE.
+<lb />O Ciel! l’heur sans pareil dont: tu combles mes iours,
+<lb />Ne se peut exprimer auecques le discours.
+<lb />Ie ne vous responds rien, le silence, Madame,
+<lb />En de pareils transports est la langue de l’ame.
+<lb />Qu'vn refus si courtois me trompe heureusement,
+<lb />Et que ce prix m'est doux apres ce chastiment!
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />Ne punißés que moy, c’est moy, belle inhumaine,
+<lb />Qui vous ay fait l’offence &amp; merite la peine;
+<lb />Mais de vostre beauté vostré iniure est l’effect,
+<lb />Et l’amour seulement m'inspira ce forfait;
+<lb />Vangés vous toutesfois, si vostre honneur l’exige,
+<lb />On attire cent maux par vn que l’on neglige;
+<lb />I'offre mon propre bras contre mon propre flanc.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Aluare m’épousant ie deuiens vostre sang;
+<lb />Et dans vostre malheur chercher de l’allegeance,
+<lb />Seroit contre moy-mesme exercer ma vangeance;
+<lb />L’amour fait tout commettre, &amp; fait tout excuser,
+<lb />La grace au repentir ne se peut refuser;
+<lb />Si ce remords pourtant presse encore ma iustice,
+<lb />Luymon. Eenes, puitipoo cuns, conn oofrte jupplice;
+<lb />Vous en aués receu l’arrest du Vice-Roy,
+<lb />Mon pere en est d’accord &amp; souscrit à sa loy,
+<lb />Et nous tiendrons tous cher l’heur de cette alliance;
+<lb />N'y consentés vous pas?
+</sp>
+<sp type="MainZone-Sp"><lb />D. FLAMINIE.
+<lb />I'en meurs d’impatience,
+<lb />Si mes vœux sont reçeus de cet obiet charmant,
+<lb />Et si i’ose esperer vn si beau chastiment.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Qu'on l’ordonne pour peine, ou bien pour recompense,
+<lb />Onpent tont gperer de mon oresjlainces
+</sp>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Ie vous rends grace, ô Dieux! du succès fortuné,
+<lb />Par qui leur different est enfin terminé;
+<lb />Et ie beny le Ciel de l’heureuse disgrace,
+<lb />Qui de ce double hymen honore nostre race;
+<lb />Au deffaut de vos biens, ie m’offre à leur besoing:
+<lb />Ma fortune est la vostre, &amp; leur dot est mon soing;
+<lb />Euphraste vostre espoir ne reçoit plus d’obstacle;
+<lb />Cependant apprenons par quel heureux miracle,
+<lb />Pour l’heur commun de tous, la mort sur ce beau sein
+<lb />Contre vostre croyance a manqué son dessein.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Seule dessus ce poinct ie vous puis satisfaire.
+<lb />Mson pere transporté d’vne aueugle cholere,
+<lb />Apres quelque reproche, étrange à reciter,
+<lb />Et qui marquoit l’affront qui deuoit l’exciter,
+<lb />Croyant d’vn vain effort executer sa rage,
+<lb />Nature interessée a détourné l’outrage,
+<lb />Et rendant vain l’effet d’vn mouuement si prompt.
+</sp>
+<p type="MainZone-Lg"><lb />O ii
+<lb />A fait couler le coup qu’il a creu bien profond;
+<lb />De l’effroy toutes fois ma sœur tomba pasmée,
+<lb />Sans couleur, sans vigueur comme desanimée,
+<lb />Outre que de son sein quelque sang a ially;)
+<lb />I’ay creu ses iours éteints, mon pere en est pally,
+<lb />Et trop tendre à son sang, pour gouster l’allegeance,
+<lb />ue dans vn grand courroux apporte la vangeance,
+<lb />Frappant du pied la terre, &amp; se plaignant des cieux,
+<lb />Est sorty le teinublesme, &amp; les larmes aux yeux,
+<lb />Iugez quelle douleur ie puis auoir reçeuë;
+<lb />Mais par mes soings enfin, ma sœur est reuenuë,
+<lb />Et sans autre secours que de l’eau de mes pleurs
+<lb />I’ay rallumé ses iours, &amp; noyé mes douleurs;
+<lb />Continuant mes soings i’ay fait voir sa blessure,
+<lb />Dont peu d’art &amp; de temps nous promettent la cure,
+<lb />L'accident en fut grand, mais le coup si leger,
+<lb />lu'il ne nous permet pas d’en craindre aucun danger.
+</p>
+<sp type="MainZone-Sp"><lb />D. RODRIGVE.
+<lb />Le Ciel aßiste enfin, lors que moins on l’estime,
+<lb />Il presse la vertu, mais tamais ne l’opprime;
+<lb />Euphraste, mon credit vous obtiendra du Roy,
+<lb />Plus qu’il ne vous fit perdre, &amp; de biens &amp; d'employ,
+<lb />Venés, allons fermer auecques la iournée,
+<lb />Le glorieux traicté de ce double Hymenée;
+<lb />Et puis qu’en fin le sort est fauorable à tous,
+<lb />Celie oubliés tout, mes fils embrassés vous;
+<lb />ue chacun fasse grace, &amp; que chacun la rende,
+<lb />te sur Ergaste encor cette grace s’estende,
+<lb />Pour meriter du Ciel aprés tant de bontés,
+<lb />Vn siecle de plaisirs &amp; de prosperités.
+</sp>
+    </body>
+  </text>
+</TEI>

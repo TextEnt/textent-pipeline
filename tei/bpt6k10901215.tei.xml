@@ -1,0 +1,2139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Coriolan, tragédie</title>
+        <author>Chevreau, Urbain</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729556t"/>
+          <author>
+            <persName>Chevreau, Urbain</persName>
+          </author>
+          <title>Coriolan, tragédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1662" cert="high" resp="BNF">1662</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />APARIS
+<lb />Chez AVGVSTIN COVRBE’, dans
+<lb />petite Salle du Palais, à la Palme
+</p>
+<p type="MainZone-Head"><lb />M. DC. LATI.
+</p>
+<p type="MainZone-Head"><lb />ADVERTISSEMENT
+<lb />au Hecteuk
+</p>
+<p type="MainZone-P"><lb />AY changé dans ce suiet vne chose
+<lb />Tassez connuë pour la mort de Coriolan
+<lb />qui ariua chez les Uolsques; mais il faut
+<lb />considerer qu’il estoit imposible de mettre la
+<lb />Tragedie dans la seuerité des regles, &amp; dans
+<lb />celle qu’on tient auiourd’huy si necessaire, qui
+<lb />est l’vnité du lieu, si ie ne l’eusse fait mourir
+<lb />prés de Rome. Ce changement ne doit point
+<lb />tellemẽt alterer l’esprit qu’on doiue m'acuser
+<lb />d’auoir violé quelque notable incident de
+<lb />l’histoire, puisque Coriolan ne mourut pas
+<lb />autrement chez les Uolques que ie le fais
+<lb />mourir chez les Romains. C’est vn lieu
+<lb />-
+<lb />E -
+<lb />que ie mets pour vn autre afin de n'emba<lb />rasser point la memoire, &amp; de ne pas faire
+<lb />treuuer vne Scene à Rome, &amp; l’autre chez
+<lb />les Antiates. Pour le reste i’ay tellement
+<lb />uiuy Plutarque &amp; ceux qui ont parle de
+<lb />Coriolan, que ie ne m'en suis iamais éloi<lb />mné. Uoila ce que i’auois à vous dire de
+<lb />eur que vous me prißiez pour autre que
+<lb />our Historien, &amp; que vous me soupçon
+<lb />aßiez d’auoir fait par ignorance, ce que ie
+<lb />ay fait que par vne subtilité necessaire.
+<lb /> D. ---
+</p>
+<p type="MainZone-Head"><lb />LES ACIEVRS.
+<lb />CORIOLAN.
+<lb />a do de len le vieus.
+<lb />SICINIE, Irioun du peupie.
+</p>
+<p type="MainZone-Entry"><lb />SANCINE, amy de Coriolan.
+</p>
+<p type="MainZone-Entry"><lb />AVFIDIE, Capitaine des Volsques.
+</p>
+<p type="MainZone-Entry"><lb />VERGINIE, fame de Coriolan.
+</p>
+<p type="MainZone-Entry"><lb />VELVMNIE, mere de Coriolan.
+</p>
+<p type="MainZone-Entry"><lb />CAMILLE, suiuante de Verginie.
+</p>
+<p type="MainZone-Entry"><lb />VN LIEVTENANT DES VOLSQVES,
+<fw><lb />N AVTRE LIEVTENANT DES
+<lb />OLSQVES.
+<lb />N SOLDAT DES VOLSQVES
+</fw></p>
+<p type="MainZone-Head"><lb />1A1
+<lb />RXEOL
+<lb />2
+<lb />E
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />I
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />VN SENATEVR.
+<lb />OVS nous sommes punis en le voulant
+<lb />punir,
+<lb />Nous fismes nostre perte en le pensant
+<lb />bannir;
+<lb />out le peuple Romain dãs ce mal-heur extréme
+<lb />n s’armant contre luy, s’arma contre soy méme
+<lb />t croyant tout d’vn coup irriter son destin
+<lb />forma des projets dont la mort est la fin.
+<lb />ous auez allumé le feu qui nous consomme,
+<lb />oꝯ noꝯ auez perd9 pour vouloir perdre vn hõme
+<lb />ais le pis que ie treuue en cette extremité,
+<lb />C’est de prier encore vn esprit irritè.
+<lb />Tous cherchâtes jadis les moyens de luy nuire,
+<lb />ous entreprîtes tout afin de le destruire.
+<fw><lb />–---
+</fw><lb />L’auez vous pas traitté cent fois honteusement
+<lb />Vous estes les autheurs de son banissement;
+<lb />Rome par eét exil &amp; par cette infamie
+<lb />S’est fait voir par mal-heur sa pl9 grãde ennemi
+<lb />Cependant vous pensez moderer son courrous
+<lb />Et receuoir des biens qu’il n’obtint pas de vous
+<lb />Dequoy Coriolan n’estoit-il point capable
+<lb />Quãd vos mauuais soupçons le rẽdirẽt coupabl
+<lb />Pouuoit-il pas finir l’excez de vostre ennuy,
+<lb />Et releuer l’Estat qu’il ruine auiourd’huy?
+<lb />Sa valeur esloignoit les plus fieres tempestes;
+<lb />Il n’employoit ses mains qu’à cõseruer vos test
+<lb />Et ie treuue qu’en fin vous l’auez obligé
+<lb />De vanger vn affront qu’il n’auoit pas vangé
+</sp>
+<sp type="MainZone-Sp"><lb />VN AVTRE SENATEVR.
+<lb />Tout nous presse pourtant dans cét estat funel
+<lb />Nous sommes combatus de famine &amp; de peste:
+<lb />Ne nous atrestons pas à répandre des pleurs.
+<lb />Et n’espargnõs plus riẽ pour finir nos mal-heu
+<lb />Nous venons d’enuoyer à cette ame cruelle
+<lb />Des Sacrificateurs en pompe solennelle:
+<lb />Mais quoy ce grand éclat, &amp; cét insigne hõneu
+<lb />N’ont pû nous procurer le plus simple bon-heu
+<lb />Il a conside ré leurs pleurs sans en tépandre,
+<lb />Et les a méprisez au lieu de les entendre.
+<lb />Renuoyons toute-fois, &amp; ne nous lassons pas
+<lb />De chercher s’il se peut vn plus noble tré pas.
+<lb />Allez-y Sicinie, &amp; faites par vos larmes
+<lb />Que pour l’amour des Dieux il mette bas lesarmes
+<lb />Remontrez-luy sur tout pour son banissement
+<lb />Que nous auons pleuré ce triste éloignement;
+<lb />Que nous sommes en dueil;que le peuple le prie
+<lb />De cesser ses rigueurs, de sauuer sa Patrie;
+<lb />D’apaiser auiourd’huy des Volsques triomphãs,
+<lb />Et de considerer sa femme &amp; ses enfans;
+<lb />Que de dans nos mal-heurs, sa mere le coniure
+<lb />De n’auoir plus égard à cette estrange iniure,
+<lb />Et que pour tout paye ment de l’auoir mis au tout
+<lb />Elle ne veut de luy que cét acte d’amour:
+<lb />Qu’il entende les cris de cette pauure ville,
+<lb />Lun y doit tencontres Mirecerneratiie .
+<lb />Bref, sans vous retenir, qu’il y doit commãder
+<lb />C’est tout ce qu’à plus prés on luy peut demãder
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Dans ma commission ie feray mon possible
+<lb />Pour le rẽdre biẽ tost plus doux &amp; pl9 sensible
+<lb />Ie n’épargneray rié qui puisse l’émouuoir: (Bas
+<lb />Dieux! i’y vais á regret, &amp; ie crains de le voir
+<lb />Son camp pourra-t’il bien me seruir de retraitt
+<lb />l’ay procuré sa honte, &amp; conclu sa défaite.
+<lb />Mais il est trop vangé de nous auoir soubmis,
+<lb />Et de punit ainsi ses plus grands ennemis:
+<lb />Peut-estre que nos maux ont assouuy sa rage,
+<lb />Que sa triste patrie a touché son courage,
+<lb />qu’il tarira nos pleurs, &amp; qu’en fin la pitie
+<lb />Fera plus sur son cœur que n’a fait l’amitié.
+<lb />C’e st tenir trop long tẽps ce conseil en balarce
+<lb />Sans doute sa fureus perdra sa violance:
+<lb />A quelques accidens que m’engage le sort,
+<lb />e ne puis en tout cas endurer quvne mort
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II0
+<lb />COROLAN.
+</p>
+<sp type="MainZone-Sp"><lb />*OVS voyez auiourd huy que sõ inquietude
+<lb />V Est vn tragique effect de son ingratitude:
+<lb />Cette lasche Patrie eut peur de mon credit,
+<lb />Me releua d'vn coup, &amp; d’vn coup me perdit,
+<lb />Moy de voꝯ auiourd’huy i’épreuue le contraire
+<lb />l semble que mon mal ait produit son salaire,
+<lb />Employant contre vous &amp; le fer &amp; le feu
+<lb />e creu n’agir pas bien pour nagir que trop peu.
+<lb />Voꝯ n'ẽ eustes jadis que des marques trop ãples.
+<lb />’ay bruslé vos maisõs i’ay prophané vos Tẽples
+<lb />en fin ie fis be aucoup quãd voꝯ vistes ces mains
+<lb />'aire vostre defaite &amp; le bien des Romains.
+<lb />Cependant ma misere a receu l’allege ance
+<lb />De ceux dont ie deuois attendre la vangeance.
+<lb />ces Volsques itritez d’vn pareil traittement
+<lb />Ont vangé ma querelle &amp; mon bannissement:
+<lb />ls m’ont plaint aussi tost dãs mon iniuste peine,
+<lb />it pour aller contr’eux m’õt fait leur Capitaine
+<lb />Oû ma Patrie ingratte apres mille bien-faits
+<lb />I tiré vanttè des maux qu’elle m'a faits,
+<lb />A forgé des soupçons pour me rendre coupable,
+<lb />A ciû par mnon exil non destin miserable;
+<lb />Et pour luy demander l’honneur du Consulat
+<lb />M'a iugé criminel en dépit du Senat.
+<lb />Mais ceux qui pat mal-heur souhaiterẽt ma perte
+<lb />se treuuent languissans dans leur ville deserte.
+<lb />Confessent maintenant que leut espoir fut vain,
+<lb />Et meurent attaquez &amp; de peste &amp; de faim.
+<lb />Mais c’est punir trop peu leut insolente vie,
+<lb />Quoy qu’ils soiẽt affligez ils sont dignes d’enuie
+<lb />Onpeutcroît re aisemẽt lesmaux qu’ils õt soufferts
+<lb />Et leur faire souffuir ce qu’ou souffre aux Enfers
+<lb />Ie feray mon pouuoir pour la donner en proye;
+<lb />On en fera bien tost ce qu’on a fait de Troye,
+<lb />le veux rendre par là mes exploits immortels,
+<lb />Dé nolir leur re nparts, &amp; brizer leurs Autels
+<lb />Et faire en fin que l’air deuienne si faneste
+<lb />Que mesme les corbeaux y meurent de la peste.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Voꝯ n’estes pas l’autheur de tout ce qui leur nuit
+<lb />Eux mesmes ont causé le mal heur qui les suit;
+<lb />Vostre vangeance est iuste &amp; leur mal legitime
+<lb />Le Ciel qui les punit a rougi de leur crimè,
+<lb />Et leur fera souffeir des tourmens eternels
+<lb />Par les mesmes esprits qu’ils ont fait criminels.
+<lb />Ils ont à vos dépens esleué des trophées,
+<lb />Rallumé par vois seul leurs flammes estoufées,
+<lb />Mis à bout lés desseins qu’ils auoient machinez
+<fw><lb />B
+</fw><lb />Et par vous mesme aussi seront-ils ruinez.
+<lb />Le sort fait voir souuent de ces metamorphoses
+<lb />Nous estonne par fois par de pareilles choses,
+<lb />Fait sortir d’vn suiet deux effets differens,
+<lb />Et rabat à la fin le pouuoir des Tyrans.
+<lb />Atnuid la vangcatice cnconii dupeut ertre assouuie
+<lb />C’est auiourd’huy trop peu que la fin de leur vie
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Laissons-en pour monstrer qu’on les a sçeu punir
+<lb />Vne fidelle marque aux siecles á venir:
+<lb />Rendons à nos nepueux nos vãgeances visibles,
+<lb />Noꝯ noꝯ en deuons prẽdre aux choses insẽsibles,
+<lb />Ruiner leur Palais, destruire tous leurs forts,
+<lb />Et qu’il ne reste pas vn membre de ce corps:
+<lb />Ou si leur Tybre en reste il faudra par son onde
+<lb />En declarer la perte aux yeux de tout le monde;
+<lb />P'reuuer que ces Tyrans ont treuué leur tõbeau,
+<lb />Et que Rome a passé comme passe son eau.
+<lb />Mais vn Romain s’aproche; estrange patience!
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Vous pouuez librement luy donner audience.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />
+<lb />Il ne trouuerra pas dequoy se consoler;
+<lb />Voyons-le toute-fois, &amp; l’entendons parler.
+</sp>
+<p type="MainZone-Head"><lb />uu a lu.
+<lb />
+</p>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />ANS les ressentimens d’vne peine ibfinie,
+<lb />DEt parmy les remords.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />C’est donc toy, Sicinie?
+<lb />Dans mes premiers regrets tu m’as abandonné,
+<lb />Et dedans le dernier m’as tu pas condamnè?
+<lb />Crois-tu bien me surprendre? as-tu l’effronterie
+<lb />De procurer le bien d’vne ingratte Pattie?
+<lb />Et toy le plus méchant de ceux qui sont aù iour.
+<lb />Veux-tu tirer de moy quelque marque d’amour?
+<lb />Apres tes lâchetez doi-ie benir ta peine?
+<lb />Faut-il que ma pitié recompense ta haine!
+<lb />N’espete plus de moy que de honteux refus;
+<lb />Ie sçay ce que ie suis &amp; ce que tu me fus.
+<lb />Seditieux Tribun infame sanguinaire,
+<lb />Tu croyois iustement mon trépas necessaire;
+<lb />En eff ct vostre sort eust este bien plus dous
+<lb />De m’èloigner plutost du monde que de vous.
+<lb />Mais que me veux-tu dire? &amp; quelle Rethorique
+<lb />Me doit faire cherir la liberte publique?
+<lb />Parle que ie t’entende. &amp; que sur tes propos
+<lb />le vous fasse esperer la mort, ou le repos.
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Helas! noꝯ cõfessõs quãd noꝯ formõs nos plaintes
+</sp>
+<sp type="MainZone-Sp"><lb />Que nos naux sõt legers au respe &amp;t le nos craĩtes
+<lb />Que noꝯ n’attendions pas de si doux trait emens
+<lb />Et que nous meritions de plus grãds châtimens.
+<lb />Nous auons fait vos maux &amp; voꝯ faites les nôtres
+<lb />Ou nous fismes plutost &amp; les vns &amp; les autres
+<lb />Mais ne redoutez plus nostre infi delité,
+<lb />Ne considerez point Rome à l’extremité.
+<lb />Regardez vostre mere &amp; languisante &amp; blesme,
+<lb />Regretter son païs, vostre fame, &amp; vous mesme
+<lb />Et vos pauures enfans que péut-estre demain
+<lb />Vous vetrez massacrez de vostre propre mein.
+<lb />Que si vous ne rendez nostre sort plus prospere
+<lb />Ayez pitié du moins d’vne innocente mere,
+<lb />Soulagez vostre fa ne &amp; dans nos maux puissans
+<lb />Perdant les criminels, sauuez les innocens.
+<lb />Aussi tost que le peuple eut donné la sentence,
+<lb />Le Ciel s’arma pour voꝯ &amp; prit vôtre défence,
+<lb />Nous punit d’vn exil que le Senat craignoit.
+<lb />Que nous sollicitions, &amp; que chacun plaignoit.
+<lb />Mais rẽtrez dedãs Rome &amp; pour vostre salaire
+<lb />Regnez-y grãdGuerrier cõme vn Dieu tutelaire
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Traistres, dissimulez pour fléchir mon courrous
+<lb />Vous me venez offrir ce qui n’est plus à vous
+<lb />Dú sõt toꝯ vos rẽparts? qu’auez vous à deffendre
+<lb />Que mes gẽs en vn iour ne puissẽt biẽ vous prẽdre.
+<lb />Von ne me parlez plus; ie veux donner des lois
+<lb />a celle qui ne veut ttio npher que des Roys,
+</sp>
+<sp type="MainZone-Sp"><lb />IRAGEDIE.
+<lb />Qui ioint l’ingratitude à ses mauuais ofices,
+<lb />Et qui prend du plaisir á punir les seruices.
+<lb />Est-ce pas de moy seul qu’elle tient tout sõ bien
+<lb />Pour épargner son sang i’ay prodigué le mien;
+<lb />sur tout dãs ce cõbat dont i’emportay la gloire,
+<lb />Aoec combien d’efforts gagnay-ie là victoire?
+<lb />Nous estions sur la mer, redoutant en tous lieux
+<lb />Les vagues les rochers &amp; la terre &amp; les Cieux,
+<lb />Pource que tout d'vn coup vne horrible tẽpeste
+<lb />Esclata sous nos pieds &amp; dessus nostre teste;
+<lb />La gresle nous attaque &amp; la foudre la suit,
+<lb />qui nous fait voir du iour au milieu de la nuit?
+<lb />Chacun cõmẽce à craindre &amp; dãs ce triste orage
+<lb />Aussi bien que la mer nous escumons de rage;
+<lb />Le desordre est par tout par vn effet nouueau,
+<lb />La met est toute en flame &amp; le Ciel tout en eau
+<lb />Mais c’est peu que lamer que lafoudre &amp; la gresle
+<lb />On voit les Elemens confondus, pesle mesle;
+<lb />La nauire esleuée, &amp; preste d’abismer,
+<lb />Se treuue suspenduë entre l’air &amp; la mer;
+<lb />Les vents ebranlent tout excepté mon courage
+<lb />Et la foudre en tõbãt rõpt mast voile &amp; cordage
+<lb />Ces luges immortels le moquent de nos vœux,
+<lb />stous fomes dus tescuui cenous craignõs les feux
+<lb />Le Ciel à nos mal-heurs se rend opiniastre
+<lb />L’eau paroist à nos yeux blãche noire &amp; bleüâtre
+<lb />Nous touchons vn rocher tout se perd à l instãt;
+<lb />Btef tout nôtre vaisse au n’est plus qu’vn ais flotãt
+<lb />Ie me sauue dessus, ma fureur endormie
+<lb />Se reveille &amp; poursuit nostre troupe ennemie,
+<lb />En fin i’ateins mes gens: car dãs cét Element
+<lb />Nous vismes tout perit mon vaisseau seulement
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Seigneur ie suis témoin de vôtre grãd courage
+<lb />le vis vostre conduitte aussi bien que l’orage.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Nous vinsmes tout d’vn coup par vn subit éfort
+<lb />Des approches aux mains &amp; des mains à la mort
+<lb />Bief sans vous raconter ces funestes batailles
+<lb />La pluspart dãs la mer firẽt leurs funerailles,
+<lb />Ce fer vous fit douter quand il perça leur flanc
+<lb />Si vous nagiez sur mer ou bien dessus du sang.
+<lb />Vous fustes tous sorpris d’vn si triste spectacle
+<lb />Et crûtes que les Dieux auoient fait vn miracle.
+<lb />Mais à quoy raconter tant de combats diuers,
+<lb />Qui les peut ignorer dans tout cét Vniuers?
+<lb />Dans mon premier essay pour vostre Re publiqu
+<lb />Vn Dictateur m’offrit la Couronne Ciuique,
+<lb />Quand Tarquin le superbe assisté des Latins
+<lb />Employa son pouuoir pour forcer vos destins.
+<lb />Que n’ai-ie point tẽté dans la plus grãde guerre
+<lb />Et que n’ai-ie point fait. &amp; sur mer &amp; sur terre
+<lb />Cependant i’ay receu l’infamie en payement,
+<lb />Ie me ressouuiens bien de mon banissement.
+<lb />Allez dire aux Romains que tout leur est funeste;
+<lb />Que c’est peu que la faĩ que la guerre &amp; la peste
+<fw><lb />Qu
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />qu’ils n’ont encore veu leur mal-heur qu’á demy
+<lb />Que ie suis leur plus grãd &amp; leur pire enhemy;
+<lb />Que ie boiray leur sãg que i' auray l’esprit libre
+<lb />Si i'ẽ puis voir vn fleuue aussi grãd que le Tybre
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Bas.
+<lb />Ruiner son païs, &amp; tuer ses parens,
+<lb />N’a rien de genereux; c'est le rait des Tyrans.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+</p>
+<sp type="MainZone-Sp"><lb />AVPIDIE.
+<lb />VE vouloit ce Romain?
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIe.
+<lb />qu’au fort de nos tempestes
+<lb />Il voꝯ plût d’écouter nos tres-humbles requestes
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Vous estes des aigne aux mais dãs vostre courroꝯ
+<lb />Vous auez la coustume &amp; la rage des loups.
+<lb />Vous n’excusez iamais vous n’exceptez persõne,
+<lb />Et vos sanglãtes mains vont iusqu’à la Courõne.
+<lb />Vous voulez triompher des plus belles vertus;
+<lb />Les Sceptres sous vos pieds demeurent abatus;
+<lb />Les Romains sõt subiets si les Rois ne les seruẽt,
+<lb />Et quetre les nourrit les crimes les conseruents
+<lb />Tous les plus noirs pensers que suggere l’Enfer,
+<lb />Les meurtres les Poisons, &amp; la flame &amp; le fer,
+<lb />Vous semblent auiourd’huy des ébats ordinaites
+<lb />Et pour vous maintenir des actes necessaires.
+</sp>
+<sp type="MainZone-Sp"><lb />Vostre orgueil vous déceut, mais vous estes rãgez
+<lb />Vous nous auez punis, &amp; nous sommes vangez.
+<lb />Lors que l’occasion vous fut tant oportune,
+<lb />Vous vsates du temps, du lieu, de la fottune;
+<lb />Vous népargastes rien; vos soldats glorieux
+<lb />Ne pardonnerẽt pas seulement à nos Dieux;
+<lb />Et si vous leur rendez de si parfaits hommages
+<lb />Vous pouuiez en tout cas respecter leuts images
+<lb />Conseruer nos Saints lieux &amp; du moins deferer
+<lb />Quelque respect à ceux qu’on deuoit adorer.
+<lb />Mais vos Religions vont dans l’hypocrisie;
+<lb />On voit biẽ que vos Dieux sõt tous de fantasie;
+<lb />hhieiluiiromceant dune vous ieipcrez iicij
+<lb />Et que vous reuerez ceux qui vous font du bien.
+<lb />Qu’a dit Coriolan? vous aime-t’il encote?
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Nous le supplions tous &amp; tous il nous abhorre
+<lb />Il parle contre nous auecque passion.
+<lb />C’est ce qui me confond dans ma Commission.
+<lb />muml gulal pruilau olelau port que le vo' prie
+<lb />Que mon sang épargnast celuy de ma Patrie!
+<lb />Ie suis bien asseure que i’en viendrois à bout,
+<lb />le me ferois ouurir pour le répandre tout.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />l'estime vos bontez: vous estes charitable,
+<lb />Mais vous courez danger de mourir miserable.
+<lb />Qu’on ne rencõtre plus de Romains dãs ce lieu,
+<lb />Dites nous maintenant vn eternel adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />Nous entrerõs dãs Rome &amp; quoy qu’elle machine
+<lb />Le moindre d’entre nous a iuré sa ruine:
+<lb />Ne viuez plus ainsi d’esperance &amp; de peur.
+<lb />Car nous voulons à tous vous arracher le cœur;
+<lb />ir raut jae re mouriez, que Rome toute entiere
+<lb />Et pour elle &amp; pour vous serue de cimetiere.
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Dieux nous sõmes perdus! n’esperõs plus de biẽ
+<lb />Nostre meilleure attente est de n’attendre rien
+</sp>
+<p type="MainZone-Head"><lb />A
+<lb />TE
+<lb />1 I
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />VN SENATEVR.
+<lb />ICINIE est-il vray? seroit-il bien croyabl
+<lb />O que l’ingrat á nos maux parût impitoyable
+<lb />Qu’il nous voulust vãger des maux qu’il a soufer
+<lb />Et nous fatre souffrir les flimmes &amp; les fers.
+<lb />Ah!quelles cruautez dãs ces nouueaux supplices
+<lb />Il n’en veut pas punir seulement les complices
+<lb />Les bons &amp; les méchans pâtissent à la fois,
+<lb />Il veut en tous les lieux signaler ses exploits,
+<lb />Nous apprester bien tost de mesmes funerailles
+<lb />Ou dedans nos maisons ou dessoꝯ nos muraille:
+<lb />Destruire son païs de l’vn à lautre bout,
+<lb />En allumant vn feu qui le consomme tout.
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />N’attendõs iamais riẽ du secours de nos larmes,
+<lb />Esperôs tout du Ciel, &amp; du succez des armes,
+</sp>
+<sp type="MainZone-Sp"><lb />VN SECOND SENATEVR.
+<lb />Nos Sacrificateurs ont senty son courous,
+<lb />Et ne l’ont pas treuué plus sensible que vous.
+<lb />Il est dans le dessein de vanger son iniure,
+<lb />D’irriter cõtre nous les Dieux, &amp; la Nature;
+<lb />D’aigrir de plus en plus nostre mal-heureux sort
+<lb />Et de nous procurer vne honteuse mort.
+<lb />Rome en fit autre-fois sa meilleure esperance
+<lb />Alors que sa valeur la mit en asseurance,
+<lb />Et que nos ennemis treuuoient sans son secours
+<lb />Le terme de sa gloire &amp; celuy de nos iours:
+<lb />Mais le peuple animé d’vne iniuste rancune
+<lb />Bannit auecque luy nostre bonne fortune,
+<lb />Treuua par cét exil les bords de son cercueil,
+<lb />Et le couurant de honte il nous couurit de due il
+<lb />A quoy dõc maintenãt noꝯ pouuõs no9 resoudre?
+<lb />Vous auons dessus nous attiré cette foudre,
+<lb />t pensant l’éloigner de l’Empire Romain,
+<lb />Vous luy mismes d’abord les armes à la main.
+<lb />cependant on l’acuse, &amp; de nostre misere
+<lb />'ous estes les autheurs. &amp; la cause premiere.
+<lb />Il dit cecy à Sicinie.
+<lb />ostre acusation le faisant condannet
+<lb />cheua le dessein qu’on n’ozoit terminer;
+<lb />t nous ne doutons pas qu’vne haine ancienne
+<lb />Separoit seulement vostre ame de la sienne.
+<lb />Et de fait confessez pour le voir trop puissant
+<lb />Que vous ne crûtes pas qu’il deust estre innocẽt:
+<lb />Voscraintes vos soupçõs vos demãdes vos termes
+<lb />Ebranlerent bien tost les esprits les plus fermes;
+<lb />Vos Conseils dangereux où chacun s’est remis
+<lb />Firent lors des boureaux de ses plus grãds amis.
+<lb />Exerçastes vous pas vne rigueur extréme?
+<lb />En le croyant Tyran vous le fustes vous mesme.
+<lb />Le Senat qui voyoit son innocence au iour
+<lb />Ne pût à son desir luy montrer son amour.
+<lb />Voꝯ l’ẽpelchâtes seul d’y pouruoir de bõne heure
+<lb />Vous pensiez que l’Enfer deust estre la demeure,
+<lb />Ou qu’estant contre luy par vn iuste courous
+<lb />Il perdroit son eredit s’il estoit contré nous,
+<lb />Vous voyez maintenant mal-heureux Sicinie
+<lb />Quels fruits nous recueillons de vostre tyranie,
+<lb />Et de quelle façon vous nous auez traittez
+<lb />Par vostre jalousie, &amp; par vos laschetez.
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Ie ne m’excuse point: ie n’en suis pas capable
+<lb />Ie ne suis toute-fois innocent ny coupable;
+<lb />Ou si l’on me punit d’vne telle action
+<lb />Tous les Romains auront mesme punition.
+<lb />Vous me confesserez que Rome toute entiere
+<lb />Treuua pour le conuaincre assez ample matiere
+<lb />Ou bien si par mal-heur vous ne conceuez pas
+<lb />Qu’il meritast l’exil, ou plustost le trépas:
+</sp>
+<sp type="MainZone-Sp"><lb />Considerez, Seigneurs, sans blâmer Sicinie,
+<lb />Qu’il a souuente-fois briguè la Tyranie,
+<lb />Qu’il a vendu nos bleds sans nous en aduertir
+<lb />Au lieu qu’il les deuoit au peuple départir,
+<lb />Et qu’en ces faits derniers le guain d’vne victoire
+<lb />Le rendoit trop cruel pour le combler de gloire
+<lb />Lors que n’a-t’il point fait cõtre tãs de Romains
+<lb />Il pensa mille fois ensanglanter ses mains,
+<lb />Et par ses cruautez il sembla nons contraindre
+<lb />D’empescher les mal-heurs qu’on auoit droit de
+<lb />craindre,
+<lb />Quand la pluspart troublez de ses coups insolẽs
+<lb />a arareut deuant diay lanten ea voledor
+<lb />On me loüa tout haut d’vne telle entreprise,
+<lb />Oú ie n’eus d’interest que pour nostre franchise
+</sp>
+<sp type="MainZone-Sp"><lb />VN AVTRE SENATEVR.
+<lb />Mais lors qu’on veut punir vn puissant ennemy
+<lb />On ne le doit choquer ny punir à demy.
+<lb />On doit chercher sa mort alors qu’il la merite,
+<lb />Ou si l'on ne le fait, le châtiment l’irrite,
+<lb />Et l’oblige à vanget par d’autres cruautez (ter
+<lb />Les moindres maux qu’il croit n’auoir pas meri<lb />Et s’il vous obligeoit à cette violence, ( lance
+<lb />Pourquoy donc mettiez vous son trépas en ba<lb />Outre que le Senat n’apreuua nullement
+<lb />Ny vostre procedé, ny son banissement.
+</sp>
+<sp type="MainZone-Sp"><lb />SICINIE.
+<lb />Il falloit recourir à cette medecine,
+</sp>
+<sp type="MainZone-Sp"><lb />Puis qu’on deuoit couper le mal dans sa racines
+<lb />Le féu qui le bruloit nous alloit consumer,
+<lb />Vne iuste fureur le pouuoit anime;
+<lb />Et nous voyons en fin que cét homme indocile
+<lb />Treuuoit à ses souhaits vn succez trop facile.
+<lb />Il s’att aquoit à nous par les mesmes efforts,
+<lb />Il destruisoit bien tost ce venerable corps.
+<lb />Et si l’on n’eust finy ses desseins par les nostres
+<lb />Il nous alloit destruire &amp; les vns &amp; les autres.
+<lb />Brute ayant rabatu le pouuoit de nos Rois
+<lb />Fut estimé dans Rome, &amp; beny mille fois;
+<lb />Quãd l’éprit des Tarquins par vn sort déplorablẽ
+<lb />Ne faisoit point de vœux sans faire vn miserable
+<lb />Qu’on souspiroit pat tout que l’Empire abatu
+<lb />Perissoit tous les iours par sa propre vertu,
+<lb />Et que ces factieux noꝯ forçoiẽt de noꝯ plaindre
+<lb />Des maux que tout vnpeuple auoit sujet de crain<lb />Tullie à mon aduis est presente à vos yeux, (dre
+<lb />Vous vous ressouuenez de son crime odieux;
+<lb />Lucresse vous en est vne preuue assez ample
+<lb />De qui la mort honteuse est vn si bel exemple:
+<lb />Bref ces superbes Rois furent tous abhorrez,
+<lb />Et loun poricedeeurs furent presque adorez.
+<lb />Qu’ay-ie fait apres tout qui merite censure?
+<lb />I’ay vangé par l’exil vne commune iniure.
+<lb />Et centre vn qui vouloit la qualité de Roy
+<lb />I’ay tenté ce que Brute a tenté deuant moy.
+</sp>
+<sp type="MainZone-Sp"><lb />VN SENATEVR.
+<lb />Lors qu’ils furent chassez tout estoit legitime;
+<lb />Tarquin nous haïssoit, le fils commit vn crime,
+<lb />Et depuis leur exil qu’ils ont voulu vanger,
+<lb />Coriolan sans doute a bien sçeu les ranger.
+<lb />Quand ils furent banis leur rage fut extréme:
+<lb />Mais comme leur grandeur leur pouuoir fut de
+<lb />mesme;
+<lb />Toute-fois nous perdons le temps à raisonner,
+<lb />Eloignons le mal-heur qui nous vient talonner,
+<lb />Inuoquõs toꝯ nos Dieux, courons aux Sacrifices
+<lb />Il dit cecy á SICINIE.
+<lb />ntciuonis nous pirre peut les Astres plꝯ propices
+<lb />Sur tout asseurez voꝯ que de dans nos mal-heurs
+<lb />Vous versetez du sang si nous versons des pleurs
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+<lb />VERGINIE.
+</p>
+<sp type="MainZone-Sp"><lb />LLONS, Madame, allõs; &amp; que ce nõ de mere
+<lb />A Noꝯ fasse rẽcõtrer vn destin moins cõtraire
+<lb />Sortons viste de Rome, &amp; pour nostre salut
+<lb />Espreuuons desormais s’il sera ce qu’il fut.
+<lb />Nous auons trop soufert pour foufrir dauantage
+<lb />Moderons auiourd’huy l’ardeur de son courage.
+<lb />Qu’il succõbe au recit de nos moindres douleurs;
+<lb />N’épargnons ny respects ny prieres ny pleurs.
+<lb />Que ce deuoir de mere &amp; cette amour de fame
+<lb />Imptiment
+</sp>
+<sp type="MainZone-Sp"><lb />INHOTDIE.
+<lb />Impriment viuement la pitié dans son ame;
+<lb />Que ces pauures enfans implorent son secours;
+<lb />Qu’il n’accourcisse pas la longueur de leurs iours
+<lb />Et qu’en fin sa rigueur qui feroit sans seconde
+<lb />Ne fasse pas mourir ceux qu’il a mis au monde.
+<lb />Ie l’aduoüe à ce coup qu’vne iuste pitiè
+<lb />M'anime pour le moins autant que la mitié,
+<lb />Et que m’imaginant Rome toute deserte
+<lb />le regrette à tous coups cette sensible perte;
+<lb />Que c’est bien iustement que ie suis dans le dueil
+<lb />Puis qu’õ met toꝯ les iours mes parẽs au cercueil,
+<lb />Et que dans cette triste &amp; funeste auanture
+<lb />Le sang a mille fois démenty sa nature.
+<lb />Le desie de vengeance &amp; sa boüillante ardeur
+<lb />Ont chasse le respect &amp; l’amonr de son cœur.
+<lb />Il croiroit faite mal s’il fotmoit vne enuie
+<lb />Qui tegardast vn iour le bien de nostre vie,
+<lb />Et qui le fist resoudre à fioir son couroux
+<lb />De peur que nôtre sort fût trop libre &amp; trop doux
+<lb />Auãt qu’il fut bany noꝯ n’auions rié qu’vne ame
+<lb />Nos esprits en tous lieux ne sẽtoiẽt qu’vne flame
+<lb />Nos cœurs se répẽdoiẽt; &amp; puis de tous les Dieux
+<lb />L’amour estoit celuy que nous seruiõs le mieux
+<lb />Mais vrayement la fortune a bien chãgé de fac
+<lb />Sa faueur seulement précedoit sa disgrace.
+<lb />Ainsi qu’vn temps serain précede bien souuent
+<lb />Quelque grãde tẽpeste, &amp; quelque horible vẽ
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.
+<lb />'auois eu cy-deuant vne esperance haute,
+<lb />Aais j’ay donné la vie à celuy qui me l'este,
+<lb />Et qui dedans ce mal dont il nous peut guerir
+<lb />obstine le premier à nous faire mourir.
+<lb />A parler sainement son exil fut infame;
+<lb />Mais le voulant vanger il neglige sa fame,
+<lb />Et nous traîne auiourd’huy dãs le meme mal-heur
+<lb />Qui nous priue du iour &amp; le comble d’honneur,
+<lb />’il doit à tout le moins emporter quelque gloire
+<lb />O vne si mal-heureuse &amp; si triste victoire.
+<lb />delas! s’il ne perdoit que ceux qui l’ont perdu;
+<lb />Mais il détruit des gens qui l’auoient défendu
+<lb />Et de qui les Conseils ioints à son grãd courage
+<lb />Le jettoient dans le port en dépit de l’orage.
+<lb />Cét Auguite Senat qui soustint sa grandeur,
+<lb />Et qui benit cent fois sa genereuse ardeur.
+<lb />Lors que nos ennemis dans leur honteuse fuitte
+<lb />Redoutoient sa valeur &amp; loüoient sa conduite;
+<lb />Est prest de succomber dans ces aduersitez,
+<lb />Et de porter le dueil de ses prosperitez.
+<lb />Que diray-ie de plus? dãs sa rigueur extréme
+<lb />Attaquant son païs il s’attaque luy mesme,
+<lb />Et montre clairement qu’il veut s’abandonnet
+<lb />A dessein de nous nuire &amp; de nous ruiner:
+<lb />Imitant à plus prés ces fatales ruines
+<lb />Qui tombãt quelque-fois sut les places voisines
+<fw><lb />S'enfoncent d’ordinaire auec beaucoup de bruit
+<lb />–C-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Dedãs les mêmes lieux qu’elles ont tout détruit
+</sp>
+<sp type="MainZone-Sp"><lb />220
+<lb />VERGINIE.
+<lb />Il est bien vray Madame, &amp; dans son entfeprise
+<lb />Au point qu’il perd l’honneur nous perdons la
+<lb />franchise;
+<lb />Celuy qui perd l'honneur n’a plus rien à garde?
+<lb />Et dedans nostre mort qu’il craint de retarder
+<lb />l’ay bien peur iustemẽt qu’vn esprit si farouche
+<lb />Nous oblige de eraindre &amp; de fermer la bouch
+<lb />Au moment que nos y eux luy preuueront assez
+<lb />Nos plaintes à venir &amp; nos mal-heurs passez.
+<lb />Aussi ne veux ie point vne longue harangue;
+<lb />Mes veux noyez de pleurs feront mieux que m
+<lb />langue
+<lb />Et cette eau consonduë auecque mes sonspirs
+<lb />Parlera seulement de nos iustes desies
+<lb />Miis quel regret aussi me reste-t’il dans l’ame
+<lb />S il perd le souuenir de sa premiere flame?
+<lb />Et si vangeant ses maux par va commun trépas
+<lb />Il rougissoit le Tybre &amp; n’en pâlissoit pas?
+<lb />En fin se rendroit.il Tyran de sa Patrie
+<lb />Qu'il deuroit regarder auec idolatrie;
+<lb />Feroit-il ruinant ceux qui l’ont éleué
+<lb /> qre torr memis n’auoient pas acheué?
+<lb />Se seruiroit-il bien dedans cette auanture
+<lb />Des pierres de nos Dieux pour nostre sepultus
+<lb />Les voudroit-il détruire? &amp; dãs ses cruautez
+<lb />Se pourroit-il porter à ces impietez?
+</sp>
+<sp type="MainZone-Sp"><lb />D ij
+<lb />Madame ce penser met mon ame à la geine,
+<lb />et ce point seulement renouuelle ma peine,
+<lb />'il a desia sa mere &amp; sa fame en horreur
+<lb />l peut iusques aux Cieux estendre sa fureur.
+<lb />l faut donc preuenir vn si triste speétacle.
+<lb />Vos pleurs &amp; nos sãglots y mettront vn obstacle
+<lb />Du si nos propres maux ne le peuuent ranger
+<lb />ious vãgerons sur nous l’aftõt qu’il veut vãger.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+</p>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />'OSTRE gloire sut tout trouble sa fantaisie
+<lb />7 Et vostre grand credit le met en jalousie.
+<lb />Ion, ne vous flattez point d’vne si douce erreur
+<lb />peut la conuertir desormais en fureur.
+<lb />renez donc tousiours garde à cêt ame insensée;
+<lb />ar des propos fi doux démentent sa pensée,
+<lb />ufidie est vn traistre &amp; le ressentiment
+<lb />e son premier mal-heur trouble son iugement
+<lb />es Volsques sõt d’humeur à garder vne iniure;
+<lb />’est vn peuple méchãt lasche ingrat &amp; pariure;
+<lb />vous aime, il vous craint; mais vous ne songez
+<lb />pas
+<lb />u’il auoit cy-deuant cherché vostre trépas:
+<lb />ue cette perte en fin nous peut estre commune
+<lb />uis qu’il peut ruiner nostre bonne fortune;
+</sp>
+<sp type="MainZone-Sp"><lb />Et que vous craignant trop pour vous voir trop
+<lb />puissant
+<lb />
+<lb />Il peut se releuer en vous afoiblissant.
+<lb />Le méprisez donc pas les Conseils de Sancine
+<lb />Qui n’a ia nais eu peur que de vostre ruine.
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />COR OLAN.
+<lb />Icy la preuoyance est vne lascheté
+<lb />Cont e vn peuple qui craint ma generosité.
+<lb />Sancine espere tout i’ay treuué dés delices
+<lb />Aux lieux oú ie deuois attendre des suplices:
+<lb />Il est vray qu'Aufidie est eruel &amp; jaloux
+<lb />mraid le ii'ay paolajemamelaidoretan codroux;
+<lb />Ie suy ses interests &amp; songe ie te prie
+<lb />Que pour les conseruer ie détruis ma Patrie,
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Donc si vous m’en croyez triõphons prõptemẽt
+<lb />Pour ne luy pas laisser vn soupçon seulement.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />l'y suis bien resolo ; la chose est déja preste,
+<lb />Mon fort eit gror ieua d'vne tene conqueste.
+<lb />Et ie meurs trop content en ce que i’ay soubmis
+<lb />boubmettãt les Romains mes pl9 grãds ennemis
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+</p>
+<p type="MainZone-Head"><lb />AVFIDIE.
+</p>
+<sp type="MainZone-Sp"><lb />Quoy reseruons nous la force de nos armes
+<lb />AA Leur sagseroit-il biẽ épargnéparleurs larmes
+<lb />Vsons viste du temps; allons fameux Guerrier
+<lb />Parmy tant de Cyprez recueillir des Lauriers.
+<lb />Et vous Coriolan de qui les faits celebres
+<lb />Fõt auiourd huy de Rome vn seiour de tenebres
+<lb />Auez vous des remords de sa calamité?
+<lb />Qu’auez vous à songer dans cette extremité?
+<lb />D truisons sans rougir &amp; les vns &amp; les autres
+<lb />Ce sout mes enne nis, ils ont esté les vostres;
+<lb />Cependãt voꝯ réuez sur leur prochain mal-heut
+<lb />Il semble que leur mort cause vostre douleur,
+<lb />Vous ont-ils pas bany?
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Genereux Aufidie
+<lb />Ne me soupçonnez point d’aucune perfidie;
+<lb />Ie garderay ma foy, rien ne me peut changer,
+<lb />Ie vous dois satisfaire, &amp; ie me doy vanger :
+<lb />Sçay-ie pas maintenir ce qu’il faut qu’on main
+<lb />tienne,
+<lb />
+<lb />Leur mort reparer a vostre iniure &amp; la miennt
+<lb />Puis qu’auec iniustice ils m’ont voulu bannir,
+<lb />de lȩay que morrcan ent encore a pumir.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Digne Autheur de mon bien &amp; de ceste victoirt
+<lb />Conbien dans ce desseiire portez voꝯ de gloir
+</sp>
+<sp type="MainZone-Sp"><lb />Il l’embrasse.
+<lb />Ie vous dois embrasser &amp; pour tant de bien fait
+<lb />Loüer vostre constance, &amp; benir vos éfets.
+<lb />Sus donc, l’occasion nous est trop fauorable,
+</sp>
+<sp type="MainZone-Sp"><lb />TRAGEDIE.
+<lb />cherchons leur fur le soit vne fin déplorable,
+<lb />Apaisons par leur sang nos esprits itritez.
+<lb />Et ne diferons plus des tour mnens meritez.
+</sp>
+<sp type="MainZone-Sp"><lb />014
+<lb />CORIOLAN.
+<lb />
+<lb />e serois mal-heureux s'ils ne le pouuoient estre:
+<lb />Mais dans mes cruautez ie leur feray connestre
+<lb />que i’eus des mon exil toute Rome en horreur;
+<lb />que ie la fis l'obiet de toute ma fureur,
+<lb />t que le Ciel deuoit me fournir vne foudre
+<lb />ui dans vne heure ou deux la va reduire en pou<lb />dre.
+<lb />Hbu 5
+<lb />
+</sp>
+<p type="MainZone-Head"><lb />L MSO
+<lb />DT
+<lb />SCENE PREMIERE.
+<lb />4
+<lb />M
+<lb />8
+<lb />D
+<lb />CORIOLAN dans son Camp
+<lb />leuant sa fame qui est à genoux,
+<lb />
+<lb />ADAME en cét estat ie ne puis vous parler
+<lb />VERGINIE
+<lb />Mais aurai-ie autrement dequoy me consoler?
+</p>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Esperez tout de moy, considerez, Madame,
+<lb />Dans ces confusions que vous estes ma fame?
+<lb />I’ay velcu nuit &amp; iour dans vne égale ardeur,
+<lb />Et dedans ma basiesse, &amp; dedans ma grandeur.
+</sp>
+<sp type="MainZone-Sp"><lb />Dans la peur que i’auois qu’on fist perir vos char<lb />mes.
+<lb />I’ay poussé des soupirs, &amp; i’ay versé des larmes,
+<lb />Et vous seule autre-fois auez pù dans ce cœur
+<lb />Imprimer pour iamais &amp; l’amour &amp; la peur.
+<lb />Non mon ame, ce luy qui détruit toutes choses
+<lb />Et qui cause chez nous tant de metamorphoses;
+<lb />Le tẽps qui peut changer les plus fermes esprits
+<lb />N’a pû changer l’ardeur dont ie me sens épris.
+<lb />Mon mal ne fut pas grand estant bany de Rome:
+<lb />Mais chere Verginie au feu qui me conso me
+<lb />Ie treuuay que mon sort ne pouuoit estre dous;
+<lb />Car m’éloignant de Rome on m’éloignoit de vo
+<lb />Dans ce départ sanglant i’eus mille fois enuie
+<lb />De finir par le fer ma miserable vie
+<lb />Si l’amour qui console, &amp; qui garde vn Amant
+<lb />Ne m’eust fait esperer quelque contentemant.
+<lb />Ie me flattois ainsi dans ceste douce attente
+<lb />Afin qu’en ce mal-heur mon ame fust contente,
+<lb />Et que mes cèplaisirs fussent tous enchantez
+<lb />Par l’espoir seulement de reuoir vos beautez.
+<lb />Maintenãt que le Ciel soufrant que ie voꝯ voy
+<lb />Dissipe ma tristesse, &amp; me comble de ioye,
+<lb />Ie doy m’imaginer que c’est bien à ptopos
+<lb />Que ie vous dois chercher desormais du repos.
+<lb />Parlez donc librement mais auant que i’entende
+<lb />Dé vostre propre bouche vne telle demande,
+<lb />Asseurez vous d’auoir de ma tendre amitié
+<fw><lb />Tous
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Tous les bons sentimens qu’on doit à la pitié;
+<lb />Pourueu que l’interest de la race Romaine
+<lb />Ne se confonde point auecque vostre peine.
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Pour qui croyez vous donc que ie puisse parler?
+<lb />Hé quoy nostre interest doit-il pas se messet?
+<lb />Verroi-ie mes parens prés de la sepulture
+<lb />Endurer des tourmens qu’abhorte la Nature,
+<lb />Sçachant que leur esprit est tout prest de sortit
+<lb />Sans soulager leurs maux, ou sans y compâtir.
+<lb />Lors qu'on fera de Rome vne ville deserte
+<lb />Voulez vous que ie fois insensible à sa perte?
+<lb />Et que pour vn serment fatal &amp; solennel
+<lb />L’innocent solt puny comme le criminel?
+<lb />O Cielloú treuuez vous ces iniustes maximes,
+<lb />Qu’il faille reparer vn afront par des crimes?
+<lb />S’en prendre sut son sang massacrer ses amis,
+<lb />Et violer la foy que l’on leur a promis:
+<lb />Ruiner son païs, craindre de s’en distraire,
+<lb />Et prendre contre nous nostre party contraire.
+<lb />Mon chef Coriolan, tant de meres en dueil
+<lb />Verront-elles sans pleurs leurs maris au cercueil
+<lb />Et les pauures enfãs qui sõt dãs leurs entrailles
+<lb />Y doiuent-ils ainsi faite leurs funerailles?
+<lb />Leur refuserez vous le moindre acte d’amour?
+<lb />Mourrõt-ils par vos mains sãs auoir veu le iour?
+<lb />Et massacrerez vous dans cette hortible enuie
+<lb />Ceux qui peut-estte encor n’ont pas receu la vie
+<lb />Conseruerez vous biẽ ce penser plein d’horreur
+<lb />Sans étoufer dés l’heure vne telle fureur?
+<lb />Mon tout qu’est deuenu ce loüable cout age?
+<lb />Peut-il bien demeurer oú prefide la rage?
+<lb />Et la raison qui fait que nous craignõs les Dieux
+<lb />Peut-elle s’acorder auec les furieux?
+<lb />Dequoy m’acusez vous? de quelle ingratitude
+<lb />Pour me faire sentir vn traittement si rude?
+<lb />Et que vous ay-ie fait pour me reduire au point
+<lb />De craindre tout de vous &amp; de n’esperer point
+<lb />Peut-estre croyez voꝯ que parmy tãt de plaintes
+<lb />Ie pousse des soupirs qui sont meslez de feintes;
+<lb />Que i’ay fauorisé vostre banissement
+<lb />Sans auoir soupiré de cét éloignement.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOIAN.
+<lb />Ah! Madame, ce mot me met à la torture,
+<lb />Vous auez soupirè dans ma triste auanture,
+<lb />Et ie iuge aisément par tout ce que ie voy
+<lb />Que vous auez soufert du moins autãt que moy.
+<lb />mapraioeitomus preuisaont se fiequet usage
+<lb />Vous a noyé les yeux, &amp; changé le visage:
+<lb />Et ie suis si confus de causer vos douleurs
+<lb />Qu’á peine deuãt vous retiendray-ie mes pleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.
+<lb />sensible cruauté, fatale destinée!
+<lb />le demande la vie à qui ie l’ay donnée,
+<lb />it par vn accident que ie ne connois pas
+<lb />Celuy que i’ay fait nasstre auance tuon ercpas.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />O Dieux! n’acheuez poĩt; quelque chose qu’õ die
+<lb />Ie ne sçaurois tremper dans cette perfidie;
+<lb />La Nature &amp; le Ciel m’imposent cette Loy
+<lb />De vous rendre ce bien puis que ie vous le doy;
+<lb />Seroit-ce vne faueur dont ie deusse estre auare?
+<lb />Madame, croyez vous que ie sois vn Barbare?
+<lb />Et que ce cœut pour vous ne garde desormais
+<lb />Les meilleurs sentimens qu’il gardera iamais?
+<lb />Ay-ie oublié les soins qu’vn fils doit à sa mere?
+<lb />Est-ce moy qui vous rend la fortune contraire?
+<lb />Hé iugez-en Madame, autrement s’il vous plaist
+<lb />Considerez tousiours la chose comme elle est.
+<lb />Si i’ay tantost failly vous me pouuez reprendre:
+<lb />Mais ne me blâ nez pas auant que de m’entẽdre.
+<lb />Voyez que mon exil est encor tout recent;
+<lb />Que par là mon païs ne peut estre inocent,
+<lb />Et que mne pronosant vne fin miserable
+<lb />Il s’est fait criminel en me rendant coupable.
+<lb />Ne l’ayant point forcé de me desobliger,
+<lb />Son mauuais traittement me force à me vanger.
+<lb />En ce cas I’ay voulu chercher vne retraitre
+<lb />Chez ceux de qui i’auois commencé la déf aitte;
+<lb />Si bien qu’ils m’ont dõné pour finir mon ennuy
+<lb />Ce que dãs mon mal-heur ie n’obtins pas de luy
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.
+<lb />On ne vous peut loüer de ceste tyrannie
+<lb />Dont l’effet vous aporte vne ioye infinie.
+</sp>
+<sp type="MainZone-Sp"><lb />E5
+<lb />Quand voꝯ aurez détruit tous ces lieux d’alẽtour
+<lb />Que tous les Citoyens seront priuez du iour,
+<lb />Et qu’on aura forcè tant de Dames Romaines,
+<lb />Serez vous plus vangé qu’en finissant nos peines
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Commẽt! verriez vous biẽ des Volsques triõphãs
+<lb />D’vn païs d’vne mere &amp; de vos chers enfans?
+<lb />Le soufririez vous biẽ &amp; qu’au de la du Tybre
+<lb />On me trainast esclaue &amp; que vous fussiez libre
+<lb />Que ie vinsse prier ces barbares esprits
+<lb />Dont ie serois peut-estre, &amp; l’amour &amp; le prix?
+<lb />Que sans considerer mon rang ny ma naissance
+<lb />Le vice par la forcs oprimast l’innocence?
+<lb />Et pour le dernier trait de mõ mal-heureux sort
+<lb />Que i’eusse de Lueresse &amp; la honte &amp; la mort?
+<lb />Si vous restez ingrat de quoy que ie vous prie,
+<lb />Ie ne suruiuray pas à ma triste Patrie.
+<lb />Ainsi i’auray moy-mesme á moy-mesme recours
+<lb />Ils n’auront pas l' honneur de terminer mes iours
+<lb />Cette main préuiendra leur furieuse enuie,
+<lb />le les contenteray par la fin de ma vie:
+<lb />coriolan la failit par la mal &amp; luy oite le poignard
+<lb />Ce fer leur aprendra que ie ne fuyois pas
+<lb />Les plus rudes chemins qui meinent au trépas.
+<lb />Ma mort est vn exemple.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Ah, Madame ie tremble!
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.
+<lb />Mon fils que de mal-heurs vous causerez ensẽble
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />C’est par là seulement qu’il se faut secourir,
+<lb />Ie sçay cõme on doit viure, &amp; comme on peut
+<lb />mourir,
+<lb />Et ie ne puis manquer dans ce dessein tragique,
+<lb />Voꝯ me prétez la maĩ pour le mettre en pratique
+<lb />Ou si vous desirez qu’on sçache à l’auenir
+<lb />Que vostre tendre amour m’en a pû retenir,
+<lb />Voyez nostre païs sans dessein de luy nuire,
+<lb />Ne le détruisez pas de peur de me détruite,
+<lb />Pour ne me tien nier acordez luy ce bien,
+<lb />Et soulagez son mal pour apaiser le mien.
+<lb />Au nõ de tous les Dieux au nom de vostre fame
+<lb />Et d’vne mere en pleurs dõt voꝯ arrachez l’ame,
+<lb />Estoufez maintenant vostre premier projet,
+<lb />Quittez cette fureur dont nous sommes l’obiet;
+<lb />Et sans nous arrester prononcez de bõne heure
+<lb />Qu'il raut que Rome cure, où quirfaut que ie
+<lb />meure;
+<lb />Car vous deuez sçauoir que mon destin est tel
+<lb />Qu’on ne luy donne coup qui ne me soit mortel
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN
+<lb />Vos propos tout d’vn coup viẽnẽt de me cõfõdre
+<lb />Et dedans cét estat ie ne vous puis répondre.
+<lb />Mon esprit est confus dans cét estonnement;
+<lb />Madame accordez moy s’il voꝯ plaist vn momẽt:
+<lb />Donnez ce peu de temps à cette grande afaire
+<lb />Car ie n’ay de pensers que pour vous satisfaire
+<lb />Et si quelque raison me preuuent desormais
+<lb />Que l’iniustice regne en tout ce que ie fais;
+<lb />Ie feray mes efforts pour vous rendre contente
+<lb />Et contre l’aparence, &amp; contre vostre atente.
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Durant ce peu de temps ie vais prier les Dieux
+<lb />Qu’ils veillent voꝯ ouurir &amp; l’esprit &amp; les y eux
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+<lb />AVFIDIE.
+</p>
+<sp type="MainZone-Sp"><lb />ANCINE i’ay biẽ peut qu’ẽ fin tãt de paroles
+<lb />ONe rẽdẽt tout d’vn coup mes attẽtes friuoles;
+<lb />S’il se donne long temps le soin de l’écouter,
+<lb />Sçiche que son pouuoir est bien à redouter.
+<lb />Ie n’ay point de party qui ne luy soit contraire
+<lb />Puis qu’il a maintenant à combatre vne mere;
+<lb />Sa fame en ce dessein peut si bien l’émouuoir
+<lb />Que ie crains de tenter ce que ie veux sçauoir.
+<lb />Ouy ded ans ce momẽt ie voy tomber ses armes
+<lb />Aussi tost qu’il verra leurs veritables larmes.
+<lb />Si ce fameux Guerrier combatu de pitié
+<lb />Fait succeder la grace à son inimitié,
+<lb />Nos afaires vont mal:pour moy i’en desespere,
+<lb />Puis qu’il a maintenant à combatte vne mere.
+<lb />Et sans doute il eraindra de noꝯ voir triomphãs
+<lb />e remettant aux yeux sa fame &amp; ses enfans.
+<lb />l est pourtant encore á vanger sa querelle,
+<lb />l doit exterminer cette race infidelle;
+<lb />Toute nostre entreprise est proche de sa fin,
+<lb />Nous ne sçaurions perit ny changer de destin,
+<lb />Et bien tost i’en aurois tout ce que i’en espere:
+<lb />Mais il a toute-fois à combatre vne mere.
+<lb />Il me semble la voir embrasser ses genoux,
+<lb />Pousser mille sanglots pour fléchir son courroux
+<lb />Noyer ses yeux de pleurs &amp; se ietter par terre
+<lb />Pour luy faire abhorrer cette derniere guerre;
+<lb />Et puis luy proposer mille conditions
+<lb />our changer en vnrien tes inennations :
+<lb />'ay biẽ peur que le sort ne noꝯ soit pas prôpere
+<lb />Car ie voy des enfans, vne fame, vne mere.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Non non dãs ce dessein Rome doit succomber,
+<lb />Coriolan sçait bien qu’elle est preste à tomber,
+<lb />Ny païs ny parens ne le peuuent contraindre
+<lb />Dedifferer lesmaux qu'elle auoit droit de craĩdre
+<lb />Puis qu’il la doit punir auec iuste raison
+<lb />Ne le soupçonnez point d’aucune trahison :
+<lb />le l’ay tenté souuent pour le mettre en balance;
+<lb />Mais il ne veut agit que dans la violence,
+<lb />Et ie croy que leurs pleurs y seruiront si peu
+<lb />Qu’il ne leur parlera que de sang &amp; de feu.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Contente moy Sancine &amp; pour m’oster la erainte
+<lb />Forme luy de ma part quelque suiet de plainte
+<lb />Va le voir de ce pas &amp; pour tout compliment
+<lb />Dy luy que ie l’attens qu’il vienne prontement
+<lb />qn’il differe long temps à vanger son outrage;
+<lb />Et que tout nostre bien dépend de son courage
+<lb />Que ie ne puis attendre &amp; que dans cette nuit
+<lb />Il faut que son pais soit tout à fait detruit.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+<lb />CORIOLAN seul dans son Camp.
+</p>
+<sp type="MainZone-Sp"><lb />NSATIABLE faim de gloire
+<lb />Parens qui flattez ma memoire
+<lb />Dans l’espoir de vous soulager;
+<lb />Quand eesserez vous ces contraintes?
+<lb />Mon dessein se doit-il changer
+<lb />En faueur de vos iustes plaintes?
+<lb />Ne me doy-ie iamais vanger
+<lb />De peur d’entretenir vos craintes?
+<lb />Et ne sçaurois-ie pas dedans vn mesme iour
+<lb />Conseruer mon honneur ny garder mon amour?
+<lb />Traistres
+<fw><lb />
+</fw><lb />Traistres Tyrans de ma pensée
+</sp>
+<p type="MainZone-Lg"><lb />Qui tendez mon ame insensée
+<lb />Quand vous venez m’entretenit,
+<lb />Dans cette funeste auanture
+<lb />Si ie tasche à vous retenir
+<lb />Ie fais horreur à la Nature;
+<lb />Païs honneur, ressouuenir
+<lb />Qui me mettez à la torture
+<lb />Sentiray-ie tousiours mille nouueaux trépas
+<lb />En suiuant vos aduis ou ne les suiuant pas?
+<lb />2
+<lb />Ie treuue vne mere affli; èe
+<lb />Qui ne peut estre soulagée
+<lb />Que par moy qui la doy guerir:
+<lb />Mais si ma rage est assouuie
+<lb />Quand ie croiray la secourir
+<lb />Le sort punira mon enuie;
+<lb />Les coriques me feriine mourir
+<lb />Si ie luy veux donner la vie:
+<lb />Et dedans ce desse in que ie treuue si beau,
+<lb />Ie ne puis y courir qu’en courant au tombeau.
+<lb />Helas! si ie me rends contraire
+<lb />Aux vœux d’vne si bonne mere
+<lb />Ie me sens indigne du iour;
+<lb />
+<fw><lb />
+<lb />
+</fw></p>
+<sp type="MainZone-Sp"><lb />Eb aueus estoufant ma rage
+<lb />Que ie témoigne de l’amour
+<lb />A qui m’a fait vn tel outrage,
+<lb />Que Rome, &amp; les lieux d’alentour
+<lb />Ne maudissent point mon courage;
+<lb />Et qu’en fin son païs apres mes maux soufers
+<lb />Meurent dedans la gloire &amp; son fils dans les fers
+</sp>
+<p type="MainZone-Lg"><lb />Ce dessein est-il legitime?
+<lb />Et peut-elle bien par vn crime
+<lb />Conseruer ces gens mal-heureux?
+<lb />Le mien est-il digne de blâme?
+<lb />Auiourd’huy ie me vange d’eux
+<lb />Pour m’auoir priué de mon ame:
+<lb />O Ciel !ôdestins rigoureux!
+<lb />Chere mere que ie reclame.
+<lb />sõgez dans ces trãsports que par tout voꝯ suiuez
+<lb />Que ie voꝯ doy le iour mais que voꝯ m’en priuez
+<lb />10
+<lb />Maudite &amp; coupable Patrie
+<lb />Faut-il encor que ie te prie
+<lb />De pardonner mes mouuemens?
+<lb />Recouureras-tu tes delices?
+<lb />Et pour de rudes châtimens
+<lb />
+<lb />Dont on doit punir tes complices;
+<lb />Oubliray-ie tous mes tourmens?
+<lb />Retarderay-ie tes suplices?
+<lb />Et erois-tu depuis peu m’auoir feiocta. ij biens
+<lb />que pour brizer tes ruis Paine loiger les mens?
+<lb />Race ingratte &amp; dénaturée
+<lb />Qui n’as qu’vn moment de dutée,
+<lb />La mort finira ta douleur;
+<lb />Ta ville doit estre deserte.
+<lb />Aussi bien apres ce mal-heur
+<lb />Et la peine que i’ay souferte,
+<lb />L’honneur oblige ma valeur
+<lb />De ne plus diferer ta perte,
+<lb />Puis qu’il me ressouuient que tu m’as pû banit
+<lb />le te rendraj rhoraounacinueresà venir.
+<lb />Sancine vient icy que luy pourray-ie dire!
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+</p>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />IL se peut cher amy, soulage mon martir
+<lb />DEt tasche à consoler mon esprit abatu,
+<lb />Où bien par tes bontez, ou bien par ta vertu.
+<lb />1e de la puis ecier yir taut que le teule
+<lb />Qu’vne mere vne fame, &amp; sur tout Aufidie
+<lb />Liurent à mon esprit de si puissans combats
+<lb />Que ie n’ore accordet ny finir leur debats.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Quoy vous suiuez encore vne route incert ain
+<lb />Ce dernier procedé nous a tous mis en peine;
+<lb />Nous auons contre nous de puissans ennemis
+<lb />Si nous ne leur tenons ce qu’on leur a promis.
+<lb />2 6
+<lb />8
+<lb />i'
+<lb />Ils parlent déja mal voyant bien qu’on retarde
+<lb />Mais ne balancez plus la chose vous regarde.
+<lb />N’allez plus oposer ny païs ny parens,
+<lb />Vous estes obligé de punir ces Tyrans;
+<lb />Il y va de la vie, &amp; sur tout d’vne gloire
+<lb />Gunleld queiduulcur Pornement de lasitoire;
+<lb />que pouuez vous réuer?
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Non, ie ne rèue plus;
+<lb />Car ces empeschemens seront tous superflus,
+<lb />Ie suiurois de bon cœur leur legitime enuie:
+<lb />Mais ie doy conseruer mon honneur &amp; ina vie,
+<lb />ainono, le veun vier den pouuonl ablolu,
+<lb />Les Romains periront i’y suis trop résolu.
+<fw><lb />111
+</fw></sp>
+<p type="MainZone-Head"><lb />IIO
+<lb />TE
+<lb />A
+<lb />
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />l’EsT ainsi qu’il faut prẽdre vn si bel auãt age,
+<lb />O Pout nous faire loüer vôtre noble courage.
+<lb />de vous laissez dõc pas emporter à leuts pleurs;
+<lb />õseruez vôtre gloire &amp; plaignez leurs mal-heurs
+<lb />uittez ces mouuemens combatez ces chimeres
+<lb />t sõgez que l’hõneur noꝯ est plꝯ que nos meres.
+<lb />es Romaïs n’õt qu’vne heure à respirer le iour
+<lb />t noꝯleur produiriõsquelques marquesd’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />Est-ce pour les biens-faits qu’ils ont voulu vous
+<lb />rendre,
+<lb />qu’auiourd’huy vos bõtez taschẽt de les défẽdre
+<lb />Et leur deuez vous tãt que vous soyez contraint
+<lb />De soulager les maux dont ce peuple se plaint?
+<lb />A quoy nous seruiroit d’esperer dans nos armes
+<lb />Si nous ne les iugions à l’espreuue des larmes?
+<lb />L a gloire nous suiutoit desormais rarement
+<lb />S’il falloit contre nous des fames seulement.
+<lb />Balancez vous encor cette entreprise aisée?
+<lb />Vostre iuste fureur doit-elle estre apaisée?
+<lb />On pèche à pardonner aussi bien qu’à punir,
+<lb />Consultez la raison; car il faut s’en munir.
+<lb />Oposez à leurs pleurs vostre premiere honte,
+<lb />De crainte qu’à la fin la pitié vous surmonte,
+<lb />Et leur representerez vostre banissement
+<lb />Puis qu’elles n’en sçauroiẽt blâmer le châtimẽt.
+</sp>
+<sp type="MainZone-Sp"><lb />COROLAN.
+<lb />Ie vous dois confesser que leur triste visage
+<lb />Auoit pour quelque temps suspẽdu mon courage
+<lb />Vne tendre pitié par vn éfort foudain
+<lb />Combatit mon esprit, &amp; me retint la main.
+<lb />Mais apres tãt de pleurs qu’elles ôt sçeu répãdre
+<lb />et cœur trop glorieux n’a point voulu se rendre
+<lb />Si bien que leurs torrẽs dõt ie restay vainqueur
+<lb />Me moüillerent les yeux sãs m’atẽdrit le cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Ne les tenez donc plus si long tẽps en haleine
+</sp>
+<sp type="MainZone-Sp"><lb />Vostre retardemẽt les pourroit mettre en peint
+<lb />Allez leur asseurer que Rome doit perir,
+<lb />Et qu’en disterant trop vous me faites mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN en s’en allant.
+<lb />Allons, Coriolan, treuuons toutes nos forces
+<lb />Ne noꝯ laissõs pas vaïcre à leurs douces amorce
+</sp>
+<sp type="MainZone-Sp"><lb />Il dit cecy bas.
+<lb />Artifice, courage, honneur, vangeance foy,
+<lb />Ne m'abandonnez pas, &amp; combatez pour moy
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+</p>
+<sp type="MainZone-Sp"><lb />AVRIDIE.
+<lb />ANCINE tout va bien ie voy l’afaire preste.
+</sp>
+<sp type="MainZone-Sp"><lb />S
+<lb />SANCINE.
+<lb />Ie m’en tiens asseuré, i’en répons de ma teste,
+<lb />Ie l’y voy disposé par ces derniers propos,
+<lb />Il regarde de prés nostre commun repos.
+<lb />Mais il seroit cruel autant que temeraire
+<lb />S’il refusoit d’entendre vne fame, vne mere,
+<lb />Et des enfans si beaux que leurs moindres regart
+<lb />Font fendre de pitié son cœur de toutes pars.
+<lb />Et ie c'oy sans mentir qu’il seroit impossible
+<lb />Qu’il les vist endurer, &amp; rester insensible:
+<lb />Et si pour son delay cét Estat n’est pery
+<lb />Songez bien qu’il est fils, qu’il est pere &amp; mary
+<lb />Et qu’il doit a diger comme il nous fait parestre
+<lb />Celle qui l’a fait viure &amp; ceux qu’il a fait naistre?
+<lb />Son dessein ne peut nuire il craint d’abandõner
+<lb />Ce qu’on a iamais eu dessein de ruiner,
+<lb />Et son esprit subtil les flate en aparence,
+<lb />Ou de quelque plaisir ou de quelque esperance
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Ie l’en estime plus en ce qu’il va les voir,
+<lb />Afin de se soubmettre à ce dernier deuoir.
+<lb />La cruauté me plaist quand elle est legitime;
+<lb />Maislors qu'elle estiniuste elle tiẽt lieude crime
+<lb />Coriolan fait bien de rendre à ses parens
+<lb />De veritables biens ou du moins aparens.
+<lb />Ils ne cognoissent pas qu’en tout il dissimule.
+<lb />Qu’il flutte doucement leut esprit trop credule;
+<lb />Que dãs l’ustat present il peut leur commander,
+<lb />Et qu’il promet beaucoup pour ne rien acorder.
+<lb />Il conserue tousiours vne si forte ennie
+<lb />D’oster à tout ce peuple &amp; l’honneur &amp; la vie;
+<lb />D’abatre ses maisons de ruiner ses fors,
+<lb />D'y voir en vn moment enseuelir leurs corps;
+<lb />D’afliger ce païs d’vn châtiment extréme.
+<lb />Et de le brusler tout que i’en brusle moy-méme
+<lb />le ne me connois plus songeant à la rigueur
+<lb />Dont il nous punissoit quand il estoit vainqueur.
+<lb />Nous auons veu souuent nos maisons embrazées
+<lb />Nos temples abatus &amp; nos villes razées,
+<lb />2
+<lb />Nos meilleurs sold ats morts à nos pieds estẽdus;
+<lb />Nos enfans estoufez. &amp; tous nos biens perdus.
+<lb />Maintenant que le sort nous donne l’aduantage
+<lb />Sçache que la raison doit ceder à la rage;
+<lb />Que ie me veux vãger des maux que i’ay soufets
+<lb />Qu’ils sentirõt les feux; qu’ils seront dãs les fers
+<lb />Et que de tous les maux dont on punit vne ame
+<lb />Le moindre qu’ils auront est le fer &amp; la flame.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />LIE
+</p>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Y resue bien encore &amp; ie ne puis treuuer
+<lb />Iaue ie me doiue perdre afin de les sauuer.
+<lb />Ie sçay quelle est leur peine elle est assez visible
+<lb />Et ce n’est pas aussi que i’y sois insensible.
+<lb />Mais cõnoissez voꝯ pas qu’õ me cõtraint en tout?
+<lb />Qu o veut que mes dencius aislet iuques au bout,
+<lb />Et qu’en fin pour conclutre, en cette Tragedie
+<lb />Le premier personnage est celuy d’Aufidie?
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Vous vous estes acquis par vos soins diligens,
+<lb />Et par vos actions du pouuoir sur ses gens,
+<lb />Et les ayãt tous mis dãs l’estat de vous craindre.
+<lb />Malgté tout autre aduis voꝯ les pouuez cõtraĩdre
+<lb />is seueront le nege &amp; feiteront vangez,
+<lb />cependant nous verrons les Romains soulagez,
+<lb />ous serez satisfait, &amp; ie seray contente
+<lb />’auoit mis en vous seul vne si douce attente.
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.
+<lb />
+<lb />ous pouuez irriter le mal &amp; le guerir;
+<lb />Forcez
+</sp>
+<sp type="MainZone-Sp"><lb />TRAGEDIE.
+<lb />Forcez noꝯ dõc de viure ou nous faites mourir.
+<lb />Deux mots y suffiront pronõcez-les sans crainte
+<lb />Finissez prontement, ou ma vie ou ma plainte
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Certes mal-aisément vous puis-ie consoler;
+<lb />C’est pourquoy ie soupire &amp; ie crains de parler
+<lb />Mon ame en cestramports cit ance fritec .
+<lb />Mais Rome doit perir, la chose est arrestée.
+</sp>
+<sp type="MainZone-Sp"><lb />VELVMNIE.U
+<lb />Quoy Rome doit perir! tu veux donc triõpher?
+<lb />Toy que dés le berceau ie deuois ètoufer?
+<lb />Aurois-tu bien preuenu dedans cette victoire
+<lb />Que la honte des tiens deust seruir à ta gloire
+<lb />Enfant dénaturé, dont l’aueugle fureur
+<lb />Va iusques à ta mere, &amp; la remplit d’horreur?
+<lb />Ingrat Coriolan t’ay-ie donné la vie
+<lb />Afin que par toy-mesme elle me soit rauie?
+<lb />Et ne t’ay ie esleué dans ce comble d’honneur
+<lb />Qu’afin de me priuer de tout autre bon-heur?
+<lb />Insatiable fils, dangereuse vipere;
+<lb />Execrable serpent qui fais mourir ta mere;
+<lb />Miserable vautour dont la seule rigueur
+<lb />Vient m’afliger sans cesse &amp; me percer le cœur
+<lb />Quãd est-ce que les Dieux par vn soin necessaire
+<lb />Changerõt pour mon biẽ ton humeur sãguinaire
+<lb />Tu veux donc seulement finir le triste cours
+<lb />De si pressans ennuis. par celuy de mes iours?
+<lb />Helas! ay-ie autre-fois failly de telle sorte
+</sp>
+<sp type="MainZone-Sp"><lb />Que ie deusse endurer vne chaisne si forté.
+<lb />Ouy car si c’est faillir que d’aimer par excez
+<lb />’en deuois seulement atendre ce succez,
+<lb />Tu punis ton païs d’vn châtiment si rude
+<lb />Qu’il a be aucoup d'horteur de son ingratitude,
+<lb />Et ceux dont tu faitois nagueres tant de cas
+<lb />Ne sont persecutez que comme des ingrats.
+<lb />Puis qu’apres les bontez que tu luy fis parestre
+<lb />On ne t’a pû garder ny moins te reconnestre.
+<lb />Cependant tout d’vn coup ie te voy succomber,
+<lb />Tu veux punir vn crime, &amp; ie t’y voy tomber.
+<lb />Que ne t’ay-ie point fait dans tes tendres années
+<lb />l’ay tant soufert pour toy de peines obstinées,
+<lb />Et dans le seul regret de ne te suiure pas,
+<lb />I’ay pleurè i’ay pâ y i’ay senty le trépas.
+<lb />Et tu restes ingrat à ma inste priere,
+<lb />Tu défends á mes yeux le bien de la lumiere.
+<lb />T’ay-ie pas esleué? t’ay-ie pas mis au iour?
+<lb />Et peux tu iustement douter de mon amour?
+<lb />Lors que nôtre ennemy dãs ces dernieres gue rres
+<lb />Vint creuser sõ cereueil dess9 nos propres terres
+<lb />Vn chacun benissoit la force de tes mains
+<lb />Pource qu’on te croyoit le suport des Romains.
+<lb />L’Estat en esperoit des choses nompareilles
+<lb />I’en auois atendu moy-mesme des merueilles,
+<lb />Tes seules act ons nous sembloient enseigner
+<lb />L’art de nous bien conduire &amp; celuy de regnet.
+<lb />Cependant ton esprit trop subtil à lioud nuire,
+</sp>
+<sp type="MainZone-Sp"><lb />Cherche nos ennemis afin de nous détruire,
+<lb />Fait son party du leur, &amp; se ioint auec eux,
+<lb />Excite leur vangeance, &amp; rallume leurs feux.
+<lb />Mõ fils, s’il m’est permis dedãs ma craĩte extreme
+<lb />De traiter auec vous &amp; de parler de mesme:
+<lb />Helas' ie vous suplie à genoux humblement
+<lb />D’oubliet commue moy vostre banissement;
+<lb />De laisler les Romains dans vn Estat paisible,
+<lb />Et de finir mes maux si vous estes sensible.
+<lb />Non non, ie veux mourir embrassant vos genoux
+<lb />Il veut la leuer.
+<lb />Ie mourray doucement si ie meurs prés de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Ah! mere trop eredule aurez voꝯ quelque gloir
+<lb />De rempotter ainsi cette triste victoire?
+<lb />V ctoire mal-heureuse &amp; pour vous &amp; pour mo
+<lb />Ttiomphe sans combat qui me remplis d’éfroy
+<lb />Oú voy-ie maintenant ma fortune soubmise?
+<lb />Vous auez étoufé ma plus noble entreprise:
+<lb />Mais vous aurez regret de m’auoir combatu;
+<lb />Vous en acuserez vostre propre vertu,
+<lb />Et vous condãnerez tous les iours vostre langue
+<lb />Qui n’a seduit mõ cœur que par cette harangue
+<lb />Puis vous me blâ nerez n’ayant pas resisté
+<lb />A ces derniers souspirs qui m’ont si bien tenté.
+<lb />Vos pleurs vous õt trahie &amp; par la mes ne vo
+<lb />Que ie finis vos maux vous finissez ma ioye;
+<lb />le l’aprehende au moins car peut-estre d’abo
+<lb />Gij
+</sp>
+<sp type="MainZone-Sp"><lb />Tous les Volsques troublez arresteront ma mot
+<lb />Ils vangetont sur moy cette iniure commune,
+<lb />Eux qui m’õt crû l’autheur de toute leur fortune
+<lb />Les ay-ie pas deceuz: i’ay trahy leur dessein,
+<lb />Ils m’ont donné le fer qui leur ouure le sein
+<lb />Et ie ne me sers plus que de leur industrie
+<lb />Pour les perdre d’vn coup en sauuãt ma Patrie.
+<lb />Mais n’importe, Madame, étoufez vostre peut,
+<lb />Puis que vous le voulez ie me pers de bon cœur
+<lb />Il faut leuer le siege à dessein de vous plaire,
+<lb />Et ie veux desormais obeïr &amp; me taire;
+<lb />Ie ne rendray iam ais ce mouuement secret
+<lb />Si l’on me fait mourit ie mourray sans regret;
+<lb />Et de quelque rigueur qu’on menasse ma vie
+<lb />Parmy tous les tourmens i’auray la méme enuie
+<lb />Ie vous en fais, Madame, vn serment solennel
+<lb />Quãd tous mes ennemis me tiẽdroient criminel;
+<lb />Quãdieserois l’horreurparmy toꝯ les grãds hõmes
+<lb />Et du temps à venir &amp; du siecle oú nous sõmes
+<lb />Et qu’en fin l’ennemy me perceroit de coups
+<lb />Pour assouuir sur moy son plus iuste couroux.
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Mon cher Coriolan que faut-il que ie fasse?
+<lb />soufrez que ie voꝯ baise &amp;que ie vous embrasle?
+<lb />t qu’apres les mal-heurs dõt voꝯ bornez lecours
+<lb />e m’exprimé en faueur de mes chastes amours.
+<lb />Aais puis que maitenãt vous voulez que ie viue
+<lb />ermettez moy dumoĩs quepar tout ie voꝯ suiue
+<lb />Et que nous partagions dans nos ardens desirs,
+<lb />Et les mesmes douleurs, &amp; les mesmes plaisirs.
+<lb />Les chemins les cõbats &amp; les horreurs des armes
+<lb />Auront alors pour moy d’ineuitables charmes;
+<lb />Ie vous verray tousiours dans vn dessein si beau,
+<lb />l’iray mesme auec vous iusques dans le tombeau
+<lb />Si par vn coup fatal les tristes destinées
+<lb />N’estendent pas plus loin le cours de vos annèes
+<lb />Et ie treuue aussi bien que dans ce mesme iour
+<lb />Mon courage s’acorde auecque mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Ouy ie vous le permets &amp; ie vous le demande:
+<lb />Mais ie treuue pour vous cette entreprise grãde
+<lb />Songez-y bien Madame, &amp; croyez s’il voꝯ plaist
+<lb />que ie ne viuray plus que pour vostre interest;
+<lb />Et que puis que nos cœurs s’vnissent de la sorte
+<lb />Dans cét effet d’amour dont l’excez les trãsporte
+<lb />Nous gousterons des biens si fermes &amp; si doux
+<lb />Que les plus fortunez en deuiendront jaloux.
+<lb />Mais sans plus arrester publiez dedans Romne
+<lb />Que i’esteindray bien tost le feu qui la consome
+<lb />Faites leur esperer des traiteméns meilleurs,
+<lb />Dites que ma fureur se conuerrist ailleurs;
+<lb />que le leue le siege en faueur de vos larmes,
+<lb />Et qu’elles m’ont forcé de mettre bas les armes
+<lb />VERGINIE. Elles s’en vont
+<lb />Ouy i’y vais de bon cœur, &amp; demain du matit
+<lb />le vous suiuray par tout oú voadra mon destin
+</sp>
+<p type="MainZone-Head"><lb />Reidl 2
+<lb />IV.
+</p>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />AY bien peur qu’à la fin la pitié ne le tente,
+<lb />Y Sancine, il est long tẽps ce delay me tourmẽte
+<lb />Qui le peut retenir de la sorte en ce lieu?
+<lb />Il n’estoit question que de leur dire adieu,
+<lb />Et de leur faire voir que toutes leurs amorces
+<lb />Nous deuoient irriter &amp; ceder à nos forces.
+<lb />Cependant ie languis dedans ce souuenir,
+<lb />Il me semble à tous coups qu’il craint de reuenir
+<lb />Sancine, qu’en crois-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Qu’il vous fera parestre (traistre
+<lb />Qu’il hait ce peuple ingrat, &amp; qu’il n’est pas vn
+<lb />Qu’il sçait executer tout ce qu’il a promis,
+<lb />Et qu’il voit les Romains comme ses ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />
+<lb />eu prenerau ieccuro a mon aile auneue,
+<lb />Ie voy tousiours sa mere &amp; c’est ce qui me tuë;
+<lb />Sa fame ses enfans leurs souspirs &amp; leurs pleurs
+<lb />Me font par fois soufrir de sensibles douleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Aprenez donc aussi que vostre crainte est vaine,
+<lb />Je connois dés longtemps ce vaillant Capitaine
+<lb />Dans ce qu’il entreprend rien ne le peut chãger
+<lb />Outre que son humeur le porte à se vanger.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />CORIOLAN
+<lb />a Aundie.
+</p>
+<sp type="MainZone-Sp"><lb />LLES rentrent dans Rome, &amp; sans aucu<lb />P
+<lb />ne enuie
+<lb />De me solliciter de leur donner la vie,
+<lb />Et ma mere &amp; ma fame auront le mesme sort
+<lb />De ce peuple obstiné, s’il doit soufrir la mort.
+<lb />N’aprehendez plus tant, mon ame est satisfaitt
+<lb />Ie feray là dedans ma plus douce retraite;
+<lb />Ce itomains me verront vn esprit resolu,
+<lb />Ie me tiens dés cette heure à ce que i’ay conclu
+<lb />Ma fame en portera la premiere nouuelle,
+<lb />Et vous verrez par là si ie leur suis fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />O Dieux Coriolan ie meurs dans ces transport
+<lb />re ne redoute plus tous les plus grands éforts.
+<lb />Si vous auez pû vaincre vne fame, vne mere,
+<lb />Ie voy bien que ma crainte est moins qu’vne ch
+<lb />Et dedãs cét espoir dõt ie me sens flater, (me
+<lb />Ie m’en vais donner ordre à ce qu’il faut tentr
+<fw><lb />e d na d.
+<lb />VI.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN auec Sancine.
+<lb />3L n’a pas bien compris ce que ie viens de dire
+<lb />I Il veut les ruiner, cette perte l’attire;
+<lb />Mais i’ay perdu pourtant le soin de me vanget,
+<lb />Ma parole est donnée, il n’y faut plus songer:
+<lb />Ie pardonne aux Romains.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Ce pardon m’épouuante,
+<lb />Gardez bien que le sort ne trõpe vostre attente;
+<lb />Ne nous abusez pas de semblables propos,
+<lb />S’ils sont en liberté, vous serez sans repos
+<lb />Remarquez, Aufidie &amp; dessus toutes choses,
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />enle m’attacne pas à ce que tu propoies.
+<lb />L’afaire est déja faite, il ne peut l’empescher.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Son, non son interest vous doit estre plus cher.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN
+<lb />vant mal commencé, ie doy finir de mesme:
+<lb />Aais suy moy seulement si tu veux que ie t’aime
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />I
+<lb />de
+</p>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />IY, ie vous en asseure, il pardonne aux
+<lb />O Romains,
+<lb />Mes pleurs ont fait tomber les armes de ses
+<lb />mains. 
+<lb />Vous ne pouuez tenir son amitié suspecte;
+<lb />Car maigre ion cant le-chor quir voue lespecte,
+<lb />Et qu’auant que le iour vienne fraper nos yeux,
+<lb />Il doit leuer le siege &amp; sortir de ces lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />VN SENATEVR.
+<lb />Nos Sacrificateurs ont moins fait que voꝯ autres,
+<lb />Et vos pleurs en éfet ont essuyé les nostres.
+<lb />Madame vous pouuez vous vanter desormais
+<lb />Puisque Rome vous doit ce qu’elle aura iamais;
+<lb />Que nostre libetté sans vous estoit rauie,
+<lb />Et qu’auec ce thresor vous nous rendez la vie.
+<lb />Venez donc prontement en receuoir l’honneur
+<lb />D'vn peuple qui n’atẽd que ce dernier bõ-heur.
+<lb />Il vons doit honorer car voꝯ pouuez bien croire
+<lb />Que le triophe au moins suiura cette victoire
+<lb />Et que tons les Romains vous restent obligez
+<lb />Apres tant de tourmens dont vous les soulagez.
+</sp>
+<p type="MainZone-Head"><lb />A
+<lb />E
+<lb />L
+<lb />SCENE IREMIENL.
+</p>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />VOY! le siege est leué? voulez vous qu’Au<lb />fidie
+<lb />Trenpe si lâchement dans cette perfidie?
+<lb />Qu’il acorde sa haine auec vostre pitié?
+<lb />Que nous bornions le cours de nostre inimitié?
+<lb />Et qu’en fin les Romains dedans nostre aduãt age
+<lb />Nous acusent de crainte &amp; de peu de courage.
+<lb />Les Volsques vous auoient acordé du secours
+<lb />Tors que vous en faisiez vostre dernier recours:
+<lb />Ils auoient méprisé les plus fortes alarmes
+<lb />Afin de seconder la force de vos armes,
+<lb />Et le moindre de nous s’aprestoit à punir
+<lb />Ceux de qui l’insolence auoit pû vous banir,
+<lb />Et puis voꝯ relaschez au point qu'õ doit cõbatre,
+<lb />Lors qu’õ doit triõpher vous vous laissez abatre;
+<lb />Et dedans le moment que vous estes vair queur
+<lb />Il ne faut qu’vne fame à vous gaigner le cœur.
+<lb />Sõgez que depuis peu Rome est vostre ennemie;
+<lb />Qu’elle vous a bany; mais auec infamie,
+<lb />Et que les ennemis qu’on vous voit negliger
+<lb />Vous ont presté leur orus unit de vous vanger.
+</sp>
+<sp type="MainZone-Sp"><lb />TRAGEDIE.
+<lb />Cependãt vous trẽblez alors qu’on vous reclame
+<lb />Et pour vous retenir ii ne raut qu'vne rame!
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Ouy dites contre moy tout ce que vous pensez
+<lb />Ie demeure muet lors que vous m’ofencez:
+<lb />Mais ne vous troublez pas, ou mon cœur vou
+<lb />conture,
+<lb />Si vous parlez de moy de parler sans iniure.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Dedans cette action, lors qu’on parle de vous
+<lb />Il est bien mal-aisé de parler sans courous.
+<lb />Vous nous auez trahy vous nous faites cõnestr
+<lb />Que vous estes ingrat &amp; que vous estes traistre
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Ne vous emportez plus, ces mots iniurieux
+<lb />Treuueroient contre vous vn esprit furieux,
+<lb />I’eusse rendu bien tost vostre sort plus prospere
+<lb />Mais doi-ie m’obstiner à combatre vne mere?
+<lb />Ma fureur á ses pleurs a décreu de moitié,
+<lb />Et ie n’ay pû la voir sans en auoir pitié.
+<lb />Contr’elle i’ay tenté ce qui m’estoit possible:
+<lb />Mais pouuois-ie la vaincre &amp; rester insensible
+<lb />Et voir dedans ce iour ma fame &amp; mes enfans
+<lb />Suiure les volontez des Volsques triomphans?
+<lb />Vous m’auez obligé de vanger ma querelle:
+<lb />Mais Rome est mõ païs luy pui-ie estre infidell
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Vous nous engagiez tous dans ce triste party,
+<lb />Hij
+<lb />Et i’en voy maintenant vostre esprit diuerty:
+<lb />Nous auons secondé vos desseins &amp; vos armes,
+<lb />Et pour vous surmõter il ne faut que des larmes!
+<lb />On sçaura qu’vne femme a sauué les Romains;
+<lb />On dira que ses yeux ont plus fait que vos mains
+<lb />Et qu’il ne falloit plus pour finir leur tristesse,
+<lb />Et pour nous ruiner que la mesme foiblesse;
+<lb />voyez à quel estat voitre nonneur eit ioubmis
+<lb />D’auoir ainsi traité vos plus forts ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />Tous direz, s’il vous plaist quelque chose de pire
+<lb />Mais ie vois à plus prés ce qu’on en poura dire:
+<lb />Tous me reprocherez que ie vous ay trahis;
+<lb />nais t'auois vne tucte; rnciamecenpas;
+<lb />Et l’on ne peut blâner ma pitié naturelle
+<lb />Qui veut que ie sois lâche en leur estant fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />AVFIDIE.
+<lb />Ve vous excusez plus; cette fidelité
+<lb />est vn visible éfet de vostre lâcheté;
+<lb />ne ran. a gagné l’honneur d’vne victoire
+<lb />Qui vãgeoit vostre hõte &amp; nous cõbloit de gloire.
+<lb />l ne vous restoit plꝯ pour marquer vos douleurs
+<lb />t pour bien l’imiter que de verser des pleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />t pour vous bien vãger d’vn si sensible outrage
+<lb />ne vous reste plus qu’à tenter mon courage:
+<lb />l’allez pas plus auant.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Peut-estre que les Dieux
+<lb />Reconnétront bien tost vos soins officieux.
+<lb />Il s’en va.
+<lb />CORIOLAN
+</sp>
+<sp type="MainZone-Sp"><lb />le poursuy mes desseins &amp; mal-gté toꝯ les vôtres
+<lb />Ie me puls oien fautier irle rauue les autres.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+<lb />VERGINIE.
+</p>
+<sp type="MainZone-Sp"><lb />PRES tous ces honneurs il faut le visiter.
+<lb />a ae Camittie ciudiaii que tu voun m’arrester
+<lb />Nous nous sommes iurez vne foy mutuelle,
+<lb />Et si ie ne le suy ie me treuue infidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Les guerres desormais seront donc vos èbats?
+<lb />Vous irez auec luy dans les plus grãds cõbats?
+<lb />Et suiuãt tous les iours les ardeurs de vostre ame
+<lb />Vous ferez dãs le sang vous serez dans la flame.
+<lb />Tous les dãgers pour vous auront quelques apas
+<lb />Enfin vostre valeur brauera le trépas;
+<lb />Vous l’acompagnerez en quelque lieu qu’il aille
+<lb />Sans vous Coriolan ne peut voir de bataille;
+<lb />Pource que c’est en voꝯ que son cœur s’est remis
+<lb />Vous donnerez la fuitte à tous ses ennemis;
+<lb />Voꝯ le suiurez par tout: hé sõgez vous Madame,
+<lb />Que le peril est grand, &amp; que vous estes fame,
+<lb />Et que par vos atraits vous pourez surmonter
+<lb />Tous ceux que par la force on ne sçautoit dõter.
+<lb />Madame, ie sçay biẽ que vos yeux õt des charmes
+<lb />Capables de forcer &amp; les cœurs &amp; les armes;
+<lb />Mais vous temarquerez
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Camille tout va bien,
+<lb />Auec Coriolan ie n’aprehende rien.
+<lb />Ce point seul me soulage, &amp; le luis anlurec
+<lb />De gouster des plaisirs d’vne longue durée
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Non non vous n’aurez pas ce que vous en pensez
+<lb />L’esperance vous flatte, &amp; vous vous ofensez.
+<lb />Proposez vous encote vne fin plus facile
+<lb />A coinbatre vne ariec a foicet vne vine;
+<lb />Mais nostre sexe est foible, &amp; voꝯ ne sõgez pat
+<lb />Qu’vn peril l’épouuante &amp; qu’il cr aint le trépas
+</sp>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />Sçache que de bõ cœur ie m’éloigne de Rome
+<lb />I’ay les mains d’vne fame, &amp; i’ay le cœur d’vn
+<lb />homme;
+<lb />Ie ne puis estre lâche en voyant deuant moy
+<lb />Vn mary qui m’anime &amp; qui cõbat pour soy:
+<lb />Et quand ie ne serois iamais victorieuse,
+<lb />Ie treuue que ma mort doit estre glorieuse,
+<lb />Puis qu’on ne me sçauroit iustement reprocher
+<lb />De ce que i’ay suiuy ce que ie tiens si cher.
+<lb />I’espere auecque luy de faire des miracies;
+</sp>
+<sp type="MainZone-Sp"><lb />je forceray pour luy toutes sortes d’obstacles,
+<lb />Et si dans les combats ie le voyois perir
+<lb />Ayant si bien vescu ie sçaurois bien mourir.
+<lb />Mais ne me quitte point si tu veux que ie viue,
+<lb />Dy moy qu’il faut le voir quelque mal qui m’a<lb />riue,
+<lb />que le le uois aimer, &amp; que maigre le iort.
+<lb />Nous deuons partager vne semblable mort
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Madame ie le veux ie vous suy sans contrainte:
+<lb />Mais pourtãt ce dessein me fait trẽbler de crainté
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+</p>
+<sp type="MainZone-Sp"><lb />O
+<lb />AVFIDIE.
+<lb />BSERVEZ mes amis le tout de point en
+<lb />point,
+<lb />Cherchez-le sans tarder, &amp; ne me trõpez point
+<lb />Punissez prontement cette ame criminelle.
+<lb />Ie vous en sollicite, &amp; c’est vostre querelle;
+<lb />Vous estes obligez de marcher &amp; d’agir
+<lb />Contre vn de qui la peur nous force de rougit
+<lb />Et vous ne sçauriez plus suspendre vostre rage
+<lb />Si vous considerez iusqu’oú va cét outrage.
+<lb />Nous l’auons soulagé dans ses maux infinis,
+<lb />Afin de le vanger nous nous sommes vnis;
+<lb />Nous auons hazardé nos thresors &amp; nos vies,
+<lb />Nos armes cependant luy seront asseruies;
+<lb />Et lors que vous deuiez vous vãger des Romains
+<lb />Cét esprit criminel a retenu vos mains,
+<lb />Il ne pouuoit treuuer vn destin fauorable,
+<lb />Et sans vostre assistance il estoit miserable.
+<lb />Nagueres les Romains l’auoient-ils pas puny?
+<lb />Vous vint-il pas prier apres qu’il fut banhy?
+<lb />Et moy malgrè le Ciel qui luy fut si contraire,
+<lb />L’auois-ie pas traitté comme mon propte frere.
+<lb />Et l’ingrat apres tout ne vint s’abandonner
+<lb />Qu’à fin de nous surprendre &amp; de nous ruiner.
+<lb />Détruisons ses desseins auecque sa fortune,
+<lb />Cette iniure me touche elle vous est commune,
+<lb />Et nous ne deuons pas auiour d’huy negliger
+<lb />Le temps de le conuaincre &amp; de nous bien vãger
+</sp>
+<sp type="MainZone-Sp"><lb />LIEVTENANT DES VOLS QVES.
+<lb />De tant de lâchetez ce sera la derniere,
+<lb />Pour nous auoir trahis. il perdra la lumiere.
+<lb />Nous suiurons vos cõseils car nous les apreuuõs,
+<lb />Nous ne soupçõnions pas ce que nous épreuuons,
+<lb />Le traistre perira, sa perte est coniurée,
+<lb />Et malgté son pouuoir sa mort est assurée.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Ie setay satisfait si vous executez
+<lb />Apres vn tel afront, ce que vous prométez
+<lb />ie ne vous retiens plus allez-y de bonne heure,
+<lb />Ne l’entretenez point sur tout faites qu’il meure
+<lb />Et iamais rien de vous ne me sera suspect
+<lb />Si vous n’auez pour luy ny pitié ny respect.
+<fw><lb />Ne
+</fw><lb />Ne luy donnez donc pas loisir de vous entendre,
+<lb />Il auroit des raisõs qui voꝯ pouroiẽt surprẽndre
+<lb />Il vous engageroit dans vn party nouue au
+<lb />Que son elprit subtil vous feroit treuuer beau;
+<lb />nepar destrahisõs qu’il sçait mettre en pratique,
+<lb />Il pouroit euiter vne fin si tragique.
+</sp>
+<sp type="MainZone-Sp"><lb />VN AVTRE L'EVTENANT DES
+<lb />VOLS IVES.
+<lb />Apres sa trahison il peut bien s’excuser:
+<lb />Mais il est mal-aisé qu’il nous puisse abuser:
+<lb />Outre que pour vãger nos douleurs sãs pareilles
+<lb />Nous preparõs nos mains &amp; non pas nos oreilles
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE
+<lb />vagez nous doc lans peur de tat de maux passez
+<lb />L’afaire est importante, &amp; nous sõmes pressez.
+<lb />Courez-y sans regret, rien ne vous épouuante.
+</sp>
+<sp type="MainZone-Sp"><lb />VN SOLDAT DES VOLSQVES.
+<lb />coitre eme en vn moment se treuuera contente.
+<lb />Nous nous pouuons vanger auec iuste raison
+<lb />Puis qu’on ne le punit que de sa trahison.
+<lb />Ils s’en vont.
+</sp>
+<sp type="MainZone-Sp"><lb />AVFIDIE.
+<lb />Ne desesperons plus puis qu’on vange Aufidie
+<lb />Du lâche &amp; traistre autheur de cette pe fidie.
+<lb />Tant de Volsques vnis ne l’épargneront pas
+<lb />Il ne peut desormais euiter le trépas;
+<lb />Et ie m’en vais le voit auec fort peu de conte
+<lb />Aussi couuert de sang qu’il nous couure de hõte.
+</sp>
+<p type="MainZone-Head"><lb />e co d dau
+<lb />IV.
+</p>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />AIS ce que ie te dis si tu veux m’obliger,
+<lb />TC’est toy seul de sormais qui me dois soulager
+<lb />N’y recule plus tant, va querir Verginie,
+<lb />Son absence me cause vne peine infinie;
+<lb />Iure luy de ma part que son eloiguement
+<lb />Retarde mon départ &amp; mon contentement.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />Que son éloignement auiourd’huy vous retarde:
+<lb />Mais voyez s’il vous plaist vn point qui vous re<lb />garde;
+<lb />Les Volsques sont trahis, &amp; vous ne voyez plus
+<lb />Qu’apres auoir rendu leurs desseins superflus,
+<lb />De quelque faux espoir que l’on les entretiennt
+<lb />Ils pouront procurer vostre mort &amp; la mienne.
+<lb />Apres tous leurs biẽ-faits vous leur estes soumis
+<lb />Et vous en auez fait vos plus grands ennemis.
+<lb />Vous voulez que le sort ne vous soit plus propice
+<lb />Car vous voꝯ endormez au bord d’vn precipice,
+<lb />Et méprisant leur feinte auecque leur pouuoit,
+<lb />Vous vous rendez aueugle afin de ne pas voir.
+<lb />Considerez vn peu qu’Aufidie est vn traistre,
+<lb />Ou s’il ne le fut pas, qu’il le fera paraistre,
+<lb />Et qu’il est obligé de vanger deslus nous
+<lb />Vn afront qui nous perd, &amp; qui les touche tou
+</sp>
+<sp type="MainZone-Sp"><lb />Que si vostre pitie se treuue legitime,
+<lb />Executant si peu vous auez fait vn crime.
+<lb />Dãs leurs premiers projets leurs cõbats furẽt vaĩs
+<lb />Lors que vous sousteuiez le party des Romains:
+<lb />Mais dedans ce dernier afin de vous défendre,
+<lb />Vostre necessité leur fit tout entreprendre,
+<lb />Ils ont abandonné leurs villes &amp; leurs forts,
+<lb />Et pour vous soustenir ils ont fait tant d’éforts;
+<lb />Cependant vostre feu n’est plus qu’vne fumée,
+<lb />Vous demeurez ingrat, vous laissez leur armée,
+<lb />Et bien loin de leur plaire &amp; de les contenter
+<lb />Les Romains auec vous les ont pû surmonter.
+<lb />Estes vous ennemy de vostre propre gloire?
+<lb />Ie le voy neantmoins, &amp; ie ne le puis croire.
+<lb />Auec vous i’ay couru les païs estr angers,
+<lb />Et ie vous ay suiuy dans les plus grands dangers
+<lb />Rome fut mon païs, mais apres vostre perte
+<lb />Ie crû qu’on en feroit vne ville deserte,
+<lb />Et qu’eupruntant les bras de tous nos ennemis
+<lb />Vous feriez pour le moins ce qui leur fut promis
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />va cours parle à ma fame, &amp; si tu me l’ameines
+<lb />Tu te pouras vanter d’auoir finy mes peines.
+<lb />Si tu veux m’obliger tu n’as rien qu’à courir,
+<lb />Et tu n’as qu’àtarder pour me faire mourit.
+</sp>
+<sp type="MainZone-Sp"><lb />SANCINE.
+<lb />I’ay suiuy vos desseins sans regret &amp; sãs crainte
+<lb />Et ie vous obis encore sans contrainte.
+<lb />13
+</sp>
+<p type="MainZone-Head"><lb />Oe d la e
+</p>
+<sp type="MainZone-Sp"><lb />CORIOLAN.
+<lb />L est vray que i’ay tort, &amp; ie dois l’aduoüer,
+<lb />IObligeant des ingrats on ne m’en peut loüer.
+<lb />Ce peuple m’a bany, ie soustiens sa querelle;
+<lb />Il fut impitoyable. &amp; ie luy suis fidelle:
+<lb />Mais pourtãt vne mere engageoit par ses pleurs
+<lb />Mon esprit furieux á finir ses mal heurs.
+<lb />Ma fame &amp; mes enfans est oient-ils capables
+<lb />De procurer le bien de ces ames coupables?
+<lb />Et pouuois-ie à bon droit refuser la pitié,
+<lb />A celle dont mon cœur honore l’amitié?
+<lb />Non ie n’ay point regret de ce bien-fait estrãge
+<lb />Cette faueur sans doute est digne de loüange,
+<lb />Et ie seray trop cher à la posterité
+<lb />D’auoir seruy des gens qui m’auoient irrité.
+<fw><lb />10
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VI.
+<lb />V LIEVTEMNT DES VDEONVES.
+</p>
+<sp type="MainZone-Sp"><lb />L est tout á propos nostre entreprise est belle
+<lb />Tsuiuez moy seulement ie vous seray fidelle,
+<lb />Allons executer nostre dernier dessein,
+<lb />Enfonçõs luy d’abord nos poignards dãs le se in<lb />Prenons-le prontement; mais d’vne telle sorte
+<lb />Qu’il ne puisse aporter de resistance forte:
+<lb />Autrement sa valeur se deferoit de nous,
+<lb />Et luy seul suffiroit contre les bras de tous.
+<lb />Cependant qu’il medite vsons de l’auantage,
+<lb />Ree fay cerons pee sieu d’épreuuer son courage.
+<lb />rrir cralitre: ta mourras, c’est vn arrest du sort.
+</sp>
+<sp type="MainZone-Sp"><lb />CORIOLAN en tombant.
+<lb />O Dieux! ie suis blessé, ie tombe ie suis mort!
+<lb />Ils se iettent sur Coriolan.
+</sp>
+<sp type="MainZone-Sp"><lb />VN VOLS JVE.
+<lb />Encore vn coup perfide, il est mort l’infidelle,
+<lb />L’Enfer va receuoir son ame criminelle.
+<lb />Mais ne demeurons pas dauantage en ces lieux
+<lb />De peur de voir tousiours cet objet odieux;
+<lb />Aufidie en doit estre aduerty de bonne heure,
+<lb />Et la fuitte pour nous est icy la meilleure.
+</sp>
+<p type="MainZone-Head"><lb />SORRE
+<lb />6E40
+</p>
+<sp type="MainZone-Sp"><lb />VERGINIE.
+<lb />AMILLE attẽs moy lá, ie reuiẽs prõtemẽt
+<lb />Afin de luy parler ie ne veux qu’vn momẽt;
+<lb />Et lors tu connetras juiqu'ou va ma rranchise,
+<lb />Et iusqu’oú peut aller toute nostre entreprise.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie vous attens, Madame, il faut vous obeïr:
+<lb />atadie louger apres tout à ne vous pastranir.
+<lb />Camille rentre derriere le Theatre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />VERGINIE.
+</p>
+<sp type="MainZone-Sp"><lb />'AMOVR, Coriolan, me force de te suiure
+<lb />LPuisque le Ciel sans toy ne me peut faire vi<lb />ure.
+<lb />Mon cœur, déja ma ioye est sans compar aison,
+<lb />Et mon impatience ofence ma raison.
+<lb />Elle voit icy Coriolan estendu,
+<lb />Mais sont-ce encore icy les restes de la guerre,
+<lb />Quelques goutes de sang paroissent sur la terre;
+</sp>
+<sp type="MainZone-Sp"><lb />ARAGEDIE.
+</sp>
+<p type="MainZone-Lg"><lb />Vn corps mort estendu me vient d'épouuanter:
+<lb />Iustes Dieux, c’est luy mesme on n’en sçauroit
+<lb />douter?
+<lb />( vrayes;
+<lb />Ouy, ouy. tout est perdu mes douleurs sõt trop
+<lb />Quelle barbare main a fait ces larges playes?
+<lb />Et qui s’est pû porter sans crainte &amp; sans éfroy
+<lb />A massacrer vn cœur que ie croyois á moy?
+<lb />Mon cher Coriolan, si tu n’as rendu l’ame,
+<lb />Pousse au moins pour me plaire vn petit trait de
+<lb />flame;
+<lb />Reprens vn peu tes sens, ah! discours superflus.
+<lb />La vie est vne mer qui n’a point de reflus;
+<lb />Nos iours sont des ruisseaux que les Parques re<lb />tiènnent,
+<lb />Qui s’écoulent tousiours &amp; iamais ne reuienent;
+<lb />Et depuis que la mort en arreste le cours
+<lb />Tous les Dieux n’y sçauroiẽt aporter du secour
+<lb />Coriolan est mort! la cause de ma vie
+<lb />Sans qu’on m’ait fait mourir m’a donc esté rauie
+<lb />Quoy donc, on a détruit ce miracle d’amour,
+<lb />Et ie me plais encore á respirer le iour?
+<lb />Mon cœur est massacré par vn coup trop funeste
+<lb />Pout tascher desormais d’en conseruer le reste.
+<lb />I’aurois mauuaise grace en sçachant son trepas
+<lb />De ménager vn corps oú l’esprit ne vit pas.
+<lb />Meurs donc subitement ingratte Verginie;
+<lb />Ton esperance est morte, &amp; ta ioye est finie.
+<lb />N’atens plus rien du sort, voy que tout est per
+</p>
+<p type="MainZone-Lg"><lb />Et que tu n’as plus rien n’ayant plus de mary.
+<lb />Ha! ne t’arreste plus á ces discours friuoles,
+<lb />Pour mourir apres luy faut-il tant de paroles?
+<lb />Ton extréme douleur ne veut rien t’acorder,
+<lb />Mais tes mains au besoin te peuuent seconder;
+<lb />Ne recule donc plus á ta fin mal-heureuse,
+<lb />Va chercher á mourir en fame genereuse;
+<lb />Ne prens point les conseils d’vn foible iugemẽt,
+<lb />N’entend plus ta raison foy ton aueuglement,
+<lb />Execute sans peur ce qu’inspite la rage.
+<lb />Mets le feu, les poisons &amp; le fer en vsage.
+<lb />Sãs le secours des Dieux tu peux treuuer la mort
+<lb />Ta main t’y seruira, meurs en dépit du sort;
+<lb />Fais-toy dans ce dessein toutes choles propices,
+<lb />Inuoque les fureurs, cherche les precipices,
+<lb />Va chercher vn poignard qui te perce le flanc,
+<lb />Qui tire de ton corps ce qui reste de sang.
+<lb />Ou si tu peux treuuer vne mort plus cruelle
+<lb />Soufre-la sans horreur, tu la dois treuuer belle.
+<fw><lb />*
+</fw></p>
+<p type="MainZone-Lg"><lb />Et que tu n’as plus rien n’ayant plus de mary.
+<lb />Ha! ne t’arreste plus á ces discours friuoles,
+<lb />Pour mourir apres luy faut-il tant de paroles?
+<lb />Ton extréme douleur ne veut rien t’acorder,
+<lb />Mais tes mains au besoin te peuuent seconder;
+<lb />Ne recule donc plus á ta fin mal-heureuse,
+<lb />Va chercher á mourir en fame genereuse;
+<lb />Ne prens point les conseils d’vn foible iugemẽt,
+<lb />N’entend plus ta raison foy ton aueuglement,
+<lb />Execute sans peur ce qu’inspite la rage.
+<lb />Mets le feu, les poisons &amp; le fer en vsage.
+<lb />Sãs le secours des Dieux tu peux treuuer la mort
+<lb />Ta main t’y seruira, meurs en dépit du sort;
+<lb />Fais-toy dans ce dessein toutes choles propices,
+<lb />Inuoque les fureurs, cherche les precipices,
+<lb />Va chercher vn poignard qui te perce le flanc,
+<lb />Qui tire de ton corps ce qui reste de sang.
+<lb />Ou si tu peux treuuer vne mort plus cruelle
+<lb />Soufre-la sans horreur, tu la dois treuuer belle.
+<fw><lb />*
+</fw></p>
+    </body>
+  </text>
+</TEI>

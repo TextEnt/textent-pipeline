@@ -1,0 +1,4600 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pastorale et tragi-comedie de Janin</title>
+        <author>Millet, Jean</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729496s"/>
+          <author>
+            <persName>Millet, Jean</persName>
+          </author>
+          <title>Pastorale et tragi-comedie de Janin</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1692" cert="high" resp="BNF">1692</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<sp type="MainZone-Sp"><lb />Par J. MII.
+<lb />Dernicre Euition, revt
+<lb />par l’Auteur.
+<lb />3e
+</sp>
+<sp type="MainZone-Sp"><lb />M. D C. XCII.
+</sp>
+<p type="MainZone-Head"><lb />A MONSEIGEVR,
+<lb />MONSEIGNEURMESSIRE
+<lb />SEBASTIEN DE POURROY,
+<lb />Chevalier, Conseiller du Roy en ses
+<lb />Conseils d’Etat &amp; Privé, &amp; President
+<lb />en sa Cour de Parsement de Duephine.
+</p>
+<p type="MainZone-P"><lb />MONSEIGNEVR.
+<lb />Ces Bergers, dans le dessein qu’ils ont fait de rendre
+<lb />leurs avantures connuës de tous ceux de cette Province, &amp;
+<lb />même encore plus loin, ont creu que vostre protection leur
+<lb />est tellement necessaire, que sans elle ils ne peuvent l’en<lb />treprendre qu’ayec temcrité. Leur naissance basse, leur
+<lb />vie chetive, leurs exercices rudes, &amp; leur entretien gros<lb />siet vous pouroient empêther d’en faire quelque estat; si
+<lb />par l'Eminente qualité que vous possedez dignement dans
+<lb />le Temple de la luslice, vous n’ériez porté à départir vostre
+<lb />faveur, particu lierement à la foiblesse de ceux de cette
+<lb />condition: Et si l’inclinatlon naturelle que vous avez à la
+<lb />douce passion, qui les fait aigr, ne vous émouvoit à les
+<lb />assister : Outre que tels que vous les voyez ils se promet<lb />tent (sous vostre autorité) inspiré de la Muse Grenobloife,
+<lb />de representer toutes les gentillesses de cestems.
+<lb />C’est pout ce sujet, Monseigneur, qu’ils vous ont offe
+<lb />les premiers soupirs de leur amour, afin que d’un co
+<lb />estant à couvert sous vostre nom, de l’autre ils vous pui
+<lb />sant assurer que leur Auteur ne desire que de s’acqueri
+<lb />titre de
+<lb />0
+</p>
+<sp type="MainZone-Sp"><lb />MONSEIONEUR
+<lb />Vostre tres-humble &amp; tre
+<lb />obeïssant serviteur,
+<lb />J. MIELET.
+</sp>
+<sp type="MainZone-Sp"><lb />SONNET.
+<lb />DAre du bon meina, à qui je tecommando
+<lb />I Lo motet de Tratloutra, &amp; tou sou compagnon,
+<lb />Marchié à vostron ombra, ou cuvré mou rognon
+<lb />De vostra coiffi, eyet tout ce que je demando.
+<lb />Ne refusa pa ren le flou que je vo mando.
+<lb />Inco qu’elle ne sont fille du ven mignon.
+<lb />Mais puisque lo brut court d’ici en Avignon,
+<lb />Que ma Musa per vo fat ce que je commando
+<lb />Faites-en un bouquet à tou vostrouz ami,
+<lb />Et je prieray Dieu que vostrouz ennemi
+<lb />Devenon rebuti comme soular de mougi:
+<lb />Que vo pizi longtem lez eypicie u mortié,
+<lb />Et que chacun aprés vostra grand rauba rougi
+<lb />Coreize comme dindo à l’honou du meytié.
+</sp>
+<p type="MainZone-Other"><lb />J. MILLET.
+</p>
+<p type="MainZone-Head"><lb />A L’AVTEVR.
+</p>
+<sp type="MainZone-Sp"><lb />SONNET.
+<lb />Oy qui remets sur pied la Muse Grenobloise,
+<lb />I Plus belle que du tems de ce banquet fameux,
+<lb />Auquel les invitez s’estimerent heureux
+<lb />De manger des crezets cuits à la Villageoise.
+<lb />Ou du tems du caquet qu’une troupe Bourgeoise
+<lb />Fit chez une accouchée, où, lors d’un cœur joyeux
+<lb />Chaque femme parla de ce qu’elle aimoit mieux,
+<lb />Et des subtils moyens de paroitre courtoise.
+<lb />Toy (dis je) dont les vers en leur naisveté
+<lb />Representent si bien ce que peut la beauté
+<lb />D’une jeuue bergere eslevée au village:
+<lb />Reçois le verd laurier qui doit servir de pris,
+<lb />Au plus riche travail de tous les bons esprits
+<lb />Qu’ont jamais vécu &amp; vivent en nostt’âge.
+</sp>
+<p type="MainZone-Head"><lb />A LVT-MESME.
+</p>
+<sp type="MainZone-Sp"><lb />QUATRAIN.
+<lb />Illet en nostre langue on ne peut mieux écrire
+<lb />M Que ce que tu as fait, &amp; tes Vers ravissans
+<lb />Ont tellement charmé mon esprit &amp; mes sens,
+<lb />Que plus je les relis, &amp; plus je les admire.
+<lb />S. D. P.
+</sp>
+<p type="MainZone-Head"><lb />A LVT-MESME.
+</p>
+<sp type="MainZone-Sp"><lb />HUITAIN.
+<lb />Illet, faut pa menti, dedin ta Pastorella
+<lb />MAyan fat deveni la Lhauda Dameisella,
+<lb />Tu fa teni le fille ore pe lou cinq sou,
+<lb />Car chacuna se cret avey autant de graci,
+<lb />Et d’estre autant que ley, &amp; d’aussi bonna raci,
+<lb />Per fare qu’un Monsieu en devene amoitou;
+<lb />Si ben que lou meyna lont forcia u villageo,
+<lb />V lieu de folata d’être toujour ben lageo.
+</sp>
+<p type="MainZone-Head"><lb />A LVY-MESME.
+</p>
+<sp type="MainZone-Sp"><lb />QUATRAIN.
+<lb />Illet lisan tou Ver, j’ai prei un grand plaisi:
+<lb />MAssi j'avin toujour eu envey de lou lire,
+<lb />Car tan mey je lou liso cyplet, ou à leisi,
+<lb />Tan mey j’uvro le lore, &amp; m’eyclatto de rire.
+</sp>
+<p type="MainZone-Other"><lb />S.D.P.
+</p>
+<sp type="MainZone-Sp"><lb />STANCES.
+<lb />Antoüe vante son Virgile,
+<lb />MComme Paris son Theophile,
+<lb />Et Homere tout l’Univers.
+<lb />On dit qu’il n’y eut jamais homme,
+<lb />Plus expert qu’Ovide dans Rome,
+<lb />Pour sçavoir faire des beaux Vers.
+<lb />Millet lisant ta Pastorelle,
+<lb />Je trouve ta Muse plus belle,
+<lb />Que celle de ceux que j’ay dit:
+<lb />Au langage des Allobroges,
+<lb />Tu merités tous reuis eloges,
+<lb />Et parmi nous plus de credit.
+<fw><lb />V.H.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />A LVT-MESME.
+<lb />SONNET.
+<lb />Uses Grecque, Latine, Toscane &amp; Françoise,
+<lb />N Qui par la Comedie acquerez du renom;
+<lb />Voicy le tems venu qu’il faut que vostre nom
+<lb />Humble, cede à celuy de nostre Grenobloise.
+<lb />Comme le Rossignol plus doucement dégoise,
+<lb />Que le Chardonneret, le Linot, le Pinson,
+<lb />Sur un verd arbrisseau son aimable chanson,
+<lb />Racontant aux Forests son amour &amp; son aise.
+<lb />Aussi lorsque Millet luy fait dire les feux,
+<lb />Qui consument les cœurs des Bergers amoureux:
+<lb />La veine de ses Vers est si claire &amp; si pure,
+<lb />Que ce qui est en vous de plus docte &amp; subtil,
+<lb />Ne sçauroit égaler ce qu’elle a de gentil:
+<lb />Ainsi que l’ait ne peut égaler la natute.
+</sp>
+<sp type="MainZone-Sp"><lb />C. D.R.
+<lb />...
+<lb />A iiij
+</sp>
+<sp type="MainZone-Sp"><lb />DIXAIN.
+<lb />Renoblo, ne fay pa inco tan de cancan,
+<lb />ODe ceu qu’at deitoba la graci de Racan.
+<lb />Le fene, louz efan, tout jusqu’à le muraille
+<lb />Presche, qu’u mondo gnat personna que lo vaille
+<lb />Et prou bartavela, qu’eyzi te soulamen,
+<lb />Comma din un chastel d’amour &amp; de plaisanci
+<lb />La chait de la perdry n’ét qu’un po de pidanci,
+<lb />Ceteu petit sourpi d’un amoirou jailliet
+<lb />V pri de ce qu’u scat n’ét qu’un gran de millet.
+</sp>
+<p type="MainZone-Other"><lb />Sur la Bergerie du Sieur Millet.
+<fw><lb />C.L. L.
+</fw></p>
+<sp type="MainZone-Sp"><lb />DIXAIN.
+<lb />Illet les divertissemens
+<lb />M De ta follastre Poësie
+<lb />Portent dans des ravissemens
+<lb />Si doux à nostre fantaisie,
+<lb />Qu’aprés avoit oüi tes Vers,
+<lb />Et veu les meslanges divers,
+<lb />Dont tu pares ta scene avec tant de merveilles,
+<lb />Nos sens d’aize ravis doutent quel vaut le mieux,
+<lb />Ou te praint de nos oreisles
+<lb />Ou le contentement, qu’en reçoivent nos yeux.
+<lb />B.F.B.
+<lb />Au mesme, sur la Dedicace de sa Bergerie.
+</sp>
+<sp type="MainZone-Sp"><lb />SIXAIN.
+<lb />Edans le desespoir, où ton berger se jette,
+<lb />DMillet tu dois cherit son mal &amp; sa défaite,
+<lb />Puisque l’on voit qu’aprés son amoureux transport
+<lb />Il révit plus heureux, par le soin debonnaire
+<lb />B. F. B.
+<lb />De ton Dieu tutelaire,
+<lb />Qui sauve ses amours, &amp; tes Vers de la mort.
+</sp>
+<p type="MainZone-Head"><lb />INEVNDEM.
+</p>
+<sp type="MainZone-Sp"><lb />EPIGRAMMA.
+<lb />N Cassum renuit latiis dare præmia linguæ
+<lb />Græcia, vel graijs tradere Roma manus;
+<lb />Nec non hesperiis vult tollere Gallia palmam:
+<lb />Milleti comico carmine cuncta silent.
+<lb />Nam si depromat vernacula carmine linguæ
+<lb />Allobrogum, est cunctis protinus illa lepos.
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />
+<lb />F.M.
+<lb />2x9
+<lb />CidesSSDSLSSLSDSS SERESESES
+</sp>
+<p type="MainZone-P"><lb />ARGVMENT.
+<lb />DIERO &amp; Thievena mariez, villageois, voisins de
+<lb />I Grenoble, ont une fille nommée Lhauda bergere,
+<lb />dont la beauté acompagnée des graces, contraint les
+<lb />cœurs les plus glacez à soupirer, &amp; particulierement
+<lb />celuy de Janin le berger; dés leur enfance leur amitié
+<lb />se trouve reciproque. Mais l’indiscretion de ce Ber<lb />ger ruine dans un moment l’esperance de leur maria<lb />ge, parce qu’avant icelui il lui demande ce que l’hõ<lb />neur de la Bergere ne luy peut accorder, dequoy of<lb />fencée elle le fuit, &amp; son dépit n’est pas si-tôt con<lb />çû, qu’il arrive que deux gentilshommes, Amidor &amp;
+<lb />Floridon freres, allant à la chasse avec Thono, &amp; Lo<lb />ren bergers, ils découvrent au coin d’un bois Lhauda
+<lb />gurduutresagneadAyde s'iifiag hant d’abord que c’est
+<lb />Diane déguisée en Bergere, ils desirent l’approchet
+<lb />pour lui rendre hommage, mais à leur anproche elle
+<lb />s’enfuit; ce que voïant Amidor s’informe d’elle envers
+<lb />ces bergets, qui lui asseurent que c’est une Bergere
+<lb />leur voisine capable d’estre aimée, dont Amidor en<lb />flammé, resout de la servit comme maitresse de son
+<lb />cœur. Thono connoissant son envie, luy promet de
+<lb />luy faire parler le lendemain matin: Ce que conclu,
+<lb />ils cõtinuent leur dessein de la chasse, à laquelle Flo<lb />ridon tuë un Sanglier qui le blesse à la cuisse. Au re<lb />tour de la chasse Amidor n’ayant dans son esprit que
+<lb />les idées des beautez de sa nouvelle maitresse, ne
+<lb />peut trouver aucun repos, &amp; court la nuit sur les ro<lb />chers, attendant le jour &amp; l’heure assignée que Tho<lb />no par son entremise le doit faire joüir de la presence
+<lb />de sa Bergere: à quoy étant parvenu Amidor, aprés
+<lb />plusieurs sermens &amp; protestations de son amour, il
+<lb />obtient d’elle la faveur de ses bonnes graces: De sotte
+<lb />qu’avant que se quitter, ils se passent reciproquement
+<lb />promesse de mariage. Ce que venant à la notice de
+<lb />Ianin, il ne peut retenir ses pleurs, ni moins les éforts
+<lb />de sa jalousie: car à l’instant il delibere de proceder
+<lb />aux effets de son juste ressentimenr. Cependant Piero
+<lb />&amp; Thievena, pere &amp; mere de la Bergere, avertis de la
+<lb />recherche d’Amidor, entrent en dissention, le pere
+<lb />pour sourenir le parti de Janin, &amp; la mere celuy
+<lb />d’Amidor, parce que comme les femmes ne demor<lb />dent jamais à leut opiniâtreté, elle persiste en son in<lb />clination pour Amidot, ambitieuse des honneurs,
+<lb />dont Piero irrité, menace la mere &amp; la fille, &amp; les fra<lb />pe:si bien que Iappetta &amp; Pernetta leurs proches voi<lb />lijeo yuovoureutsqui teuauuat le déplaisir de Thie<lb />vena, lui promettent de faire condescendre Piero à sa
+<lb />volonté touchant ce mariage: &amp; pour la divertir,
+<lb />noyent le souci dans la liqueur de Baccus avec elle,
+<lb />&amp; se réjcüissefit aux dépens du public. Et Amidor
+<lb />ARGUMENT.
+<lb />&amp; la Bergere affligez de l’opposition de Piero, se
+<lb />laissent gagner au déplaisir, dont Amidor tombe
+<lb />évanoür, ce qui mût la Bergete à pitié, elle le releve,
+<lb />&amp; lui donne avis de se déguiser en berger pour trom<lb />per son pere; faisant telle proposition fort agreable à
+<lb />Amidor assis dessous un arbre. Janin caché dans le
+<lb />bois, les voyant, les en chasse à coups de pierres, &amp;
+<lb />delibere de s’addresser à une Sorciere pour ruiner
+<lb />leurs amours. Cependant Piero tourmenté par ces
+<lb />femmes, ne sçachant que faire pour avoir paix chez
+<lb />luy, va prendre conseil de Gondran. Chacune des
+<lb />parties fait tout ce qu’il peut pour avoir l’avantage.
+<lb />Janin implore l’assistance de la Sorciere. Amidor de<lb />guisé en berger, tâche de gagner le cœur du Pere de
+<lb />la Bergere: &amp; sa mere couvre si bien leur stratagême
+<lb />qu’ils viennent tous à bout de leur dessein, hormis Ja<lb />nin, qui perd toutes ses peines. Amidor donc fiance
+<lb />Lhauda au contentement de tous ces villageois, &amp;
+<lb />particulierement de Mathia tante de la Bergere: car
+<lb />elle jette à tous ceux du village des poignées de dra<lb />gée. Les fiançailles faites, Janin avec le flajollet de la
+<lb />Sorciere (lequel a la vertu de faire danser tous ceux
+<lb />qui l’entendent) joüe d’icelui par vengeance, croiïant
+<lb />de faire beaucoup de mal à ces Amans. Mais voyant
+<lb />que son entreprise ne peut reussir, il se dépite, &amp; pre<lb />pare pour leur nouer l’éguillette, lorsque le Prestre
+<lb />les épousera: à quoi prevoyant les parties, ils font
+<lb />en sorte que les nopces &amp; consommation du maria<lb />ge s’ensuivent avec toute sorte de réjouissance, aus<lb />quelles Chambet ne manque se trouvet avec un pa<lb />nier de raviolles: &amp; le pauvre Janin, à qui le regret
+<lb />demeure, se laisse transportet au desespoir, &amp; se pre<fw><lb />cipite d’un rocher en bas.
+</fw></p>
+<p type="MainZone-Head"><lb />LES ACTEURS.
+<lb />LA FAYE DE DIIOCOTATMIGE,
+<fw><lb />LHAUDA,
+<lb />A
+<lb />
+<lb />N
+<lb />ETTA,
+<lb />ETTA, 
+</fw></p>
+<p type="MainZone-List"><lb />AN
+<lb />N,
+<fw><lb />IONO,
+<lb />LOREN,
+<lb />I
+<lb />IERO,
+<lb />HIEVENA,
+<lb />MATHIA,
+<lb />AMIDOR,
+</fw></p>
+<sp type="MainZone-Sp"><lb />Bergere.
+<lb />Bergete.
+<lb />Bergere
+<lb />Berger amoureux de
+<lb />Berger.
+<lb />Berger.
+<lb />(Lhauda.
+<lb />Pere de Lhauda.
+<lb />Merc de Lhauda.
+<lb />Tante de Lhauda.
+<lb />Gentilhomme amoureux
+<lb />de Lhauda.
+<lb />Frere d’Amidor.
+</sp>
+<p type="MainZone-Head"><lb />FLORIDON,
+<lb />LA SORCIERE.
+<lb />LE NOTAIRE.
+<lb />LE CUISINIER.
+<lb />CHAMBET.
+</p>
+<p type="MainZone-Head"><lb />PROLOGUE DE LA FAIE
+</p>
+<sp type="MainZone-Sp"><lb />DE SASSONNAGE.
+<lb />E la Rochi Crotta où j’ai fat ma meison
+<lb />P'Et le tine per vey que porton le seison,
+<lb />(Grenoblo renoma un jardin de pleisanci)
+<lb />Ie veno t’averti de la rejoüissanci
+<lb />Que font lou paiïsan u brut qu’on fat couri,
+<lb />Que lo Cadastro n’ét que per lou secouri,
+<lb />Louz unou en prenant de Baccus la tiracla,
+<lb />Chanton que lou Soudar ne porton plos la racla;
+<lb />Louz autro veyant tout abonda per treiz an,
+<lb />Se tenon su lou flan comme lou courtizan,
+<lb />Et generalement (deu que Brosse bataille
+<lb />Per ellou tant qu’u pot) se moquon de le taille,
+<lb />Perce que la seison en terte labourey
+<lb />Et plena comm’estion me tine lou trey rey.
+<lb />No no deypeu lo tem que dedin Sassonnageo
+<lb />I’ay saya (vesitan le gisen u meynageo)
+<lb />Louz efan avec ceu baston barricola,
+<lb />L’on n’a trouva sujet de se repicola
+<lb />
+<lb />Comm’ore que la pey porte per tout la branchi
+<lb />D’olivié, comme fit una colomba blanchi
+<lb />Din l’archi de Noé, car egnat que repo
+<lb />Din lou cham, jusqu’u fon de boey de Bonrepo
+<lb />Le Nimphe de l’Izera à qui louz yeu son troublo,
+<lb />Et lou Satire qui venon du Drac lo Doublo,
+<lb />S’en beison jour &amp; not, eycoutan la vocy ranci
+<lb />Du tey de la Percyri à la porta de Franci,
+</sp>
+<sp type="MainZone-Sp"><lb />Ne se parle plu ten du malheur qu’ont eyta.
+<lb />Lou bovié deigagea commenson de preita,
+<lb />Et trop dru du bon tem, ne penson à ren fare
+<lb />Que ce que vostrou pare ont fat à vostre mare,
+<lb />Particulierimen Janm lo fantimou:
+<lb />Car u repose moin qu’un molen quand u mou,
+<lb />Sito qu’u la perdu de veua sa bergciti
+<lb />La Lhauda, qui n'ét pa à l’amour eytrangeyri.
+<lb />Mais incore qu’u sont a l’amout petit bot,
+<lb />Qu’on cret lourz amitié mieu fondey que Rabot,
+<lb />I se deirochiron comme vieille muraille;
+<lb />Car le nopce de leu saron de funeraille.
+<lb />Et ley ne pensan plu qu’u pri de sa biauta,
+<lb />Prendrat l’escarlatin signo de cruauta,
+<lb />Puis qu’un Gentilhomin moin sujet u Cadastro
+<lb />Qu’à l’amour, quittarat de la Cour tou louz Astro
+<lb />Per ley, &amp; se feindrat bergié per l’eiposa,
+<lb />Tout eyrat à la fin comme j’ai disposa:
+<lb />Cat j’ay faya la Lhauda à estre Dameisella,
+<lb />Et Ianin à porta la mort den sa forcella,
+<lb />Perce que quand j’ali vey sa mare Gisen,
+<lb />D’ordura ver chié ley je ne trovi nensen.
+<lb />E perce que fassan ché Janin lo semblablo,
+<lb />Lour maison estiet plu paillousa qu’un eytablo.
+<lb />Veiqui l’heur duz efan devan que batteya,
+<lb />Sito qu’emmalhota je louz ay pateya.
+<lb />110 A1
+<lb />Voz autre joeyne fene à qui lo ventre consse
+<lb />Du venin que l’amour dotne quaiiu etlacun ronfle,
+<lb />Prenez garda que quand vo sari accouchié,
+<lb />Que chié vo set si net que n’y pœisso gouchié
+<lb />Eycrachat, vilani, borda, ni ren de salo,
+<lb />Autramen feimen (que je ne vo dei falo)
+</sp>
+<sp type="MainZone-Sp"><lb />Prendrat voustrouz efan comme j’ordonnarey,
+<lb />Sellon que vo fari per mi, je lour farey.
+<lb />Vo sçavez, &amp; nengun n’ignori la puissanci
+<lb />Que j’ay sur louz efan lo jour de lour naissanci,
+<lb />Celou que j’ay faya à ben, sont ben heirou,
+<lb />Et tou celou qu’u sont à ma, sont malheirou,
+<lb />Cele qu’u sont à fare un pot à tout’ urina,
+<lb />Sont de la confrati de la gran Catharina.
+<lb />Et cele qui fayé sont à la challeta,
+<lb />D’autro que de lour home un popel n’ont testa.
+<lb />I'ay faya Gelibert l’efan du Capiteino,
+<lb />De tou lou gro vioulion legié comme futeino,
+<lb />A sçavey vioulonna mieu que sou compagnon,
+<lb />Assi son violon fat creva lou roussignon.
+<lb />J’ay faya Rossignon qui sa serou confesse,
+<lb />A estre trou de chou, ba jatret, ba de fesse,
+<lb />Et sou fiate, assi u sont de marmozet.
+<lb />I’ay faya Pamponin, gro migeou de crozet,
+<lb />A estre plu ventru que n’estiet Brisibarra,
+<lb />Assi u lat un biel aussi gro qu’una barra.
+<lb />I’ay faya dou marchan à adora l’argen,
+<lb />Assi u sont esclavo &amp; n’ont point d’entregen.
+<lb />I’ay faya Ridelet u renom de Chaudeire,
+<lb />Assi u fat parla de leu le buandeire.
+<lb />I’a faya lo Boumien à fare lou gro rot,
+<lb />Assi Baccus lo fat treina din son barrot. 
+<lb />I’ay faya la Catin à estre liberala,
+<lb />Assi y ne refuze à personna sa grala,
+<lb />A prende sou plaisi j’ay faya la Françon,
+<lb />Assi que qu’on disey elhen pren du garçon.
+<lb />I’ay faya l’Izabel à estte una gromanda,
+<lb />Assi y mige crua la chair de recommanda.
+<lb />
+<lb />191
+<lb />J’ay faya à changié de jour en jour dami,
+<lb />Le fille du quartié de Megar l’endormi,
+<lb />Essa vont pratiquan d’amourette nouvelle,
+<lb />Veyqui perque Besson contr’elle s’eycervelle.
+<lb />J’ay faya à charchié perqui ley paradi
+<lb />Le fille du quartié de Gerento l’hardi,
+<lb />Assi ne povon pa choma à la Pereiri,
+<lb />Inco ben que Dupon brame per la charreiri.
+<lb />I’ay faya à bonheur, &amp; pleisi quotidien,
+<lb />Le fille du quartié de Marnais lo gardien,
+<lb />Asfi dedin lour cour lo feu d’amour s’attise,
+<lb />Puis que Piarre Michié jour &amp; not le courtise.
+<lb />I’ay faya à ploura lo morcel delicat,
+<lb />Le fille du quartié de Bernard l’Advocat,
+<lb />Assi de n’avey point d’home lou groin se moille,
+<lb />Et lo petit Patron sen rit tant qu’u l’eiboille.
+<lb />J’ay faya à malheur &amp; veuva de Darbon,
+<lb />Le fille du quartié de Charancy lo bon,
+<lb />Assi en lourz amour elle sont malheyrouse
+<lb />A veuglei &amp; partia fene devant qu’eipouse.
+<lb />I’ay faya à joyé comme lou Cascarin
+<lb />Le fille du quartié du Procureur Perrin,
+<lb />Assi font de l’amour un jeu de carabassa,
+<lb />Et font que lourz aman prenon l’alleuta bassa.
+<lb />J’ay faya à avey lo corsageo mignon
+<lb />Le fille du quartié du bravo Calignon,
+<lb />Assi i sont mignonne &amp; rendon de lou tailli
+<lb />Amoirou lou Segnou jusqu’à la refatailli.
+<lb />I’ay faya à couri aprés lou bon meina
+<lb />Le fille du quartié de Basser lo bien na,
+<lb />Assi duz amoirou elle sont follinelle,
+<lb />Et lou couton aprés afin qu’on le fornelle.
+</sp>
+<p type="MainZone-Other"><lb />l'ar
+<lb />I'ay faya à sçavey dansié &amp; bricola
+<lb />Le fille du cartié du re mi fa ço la,
+<lb />Assi à tou lou bal couron celle casiotte,
+<lb />Se viron cey &amp; ley, danson comme mariotte.
+<lb />I’ay faya un gro Esleu qui porte un gro salat,
+<lb />A fare jour &amp; not branda lou mey solar,
+<lb />Aussi quand u fat dieta, &amp; qu’un Medecin réves
+<lb />V minge tant de gnot &amp; de crozet qu’u crève.
+<lb />Enfin j’en ai faya set à ben set à ma,
+<lb />Mille que je n’ai pa leyzi de vo nomma.
+<lb />2
+<lb />Puisque per un vioulet où gnat piera ni crotta,
+<lb />Et me faut retourna du coustié de ma crotta
+<lb />Afin d’y assema un banquet à mon tour 
+<lb />A le Faye qui sont u rochié d’alentour.
+<lb />E vo susfira donq que ce que je prononso
+<lb />Arrive à la façon que je voz u annonso,
+<lb />Afin que vo pœissi recougneutre qui gnat
+<lb />Magicien, feiturié, livro ni armagnat
+<lb />Qu’en sçache tant que mi, &amp; qu’aprés la natura
+<lb />L’on veye que je seu meitrà de l’aventura. 
+<fw><lb />OLEOHNOLIIII
+</fw></p>
+<sp type="MainZone-Sp"><lb />CHANSON.
+<lb />J'Eicy lo Mey que tout cambade,
+<lb />V Comme lou Chourot &amp; Lapin,
+<lb />Et que dessu louz Aubepin
+<lb />Lo Rossignon donne d’aubade:
+<lb />Car sen sommeillié not ni jour
+<lb />V charmele de l’amour.
+<lb />3
+<lb />¶ Lo tem ét si dou que tout chante
+<lb />La graci de cesteu Printem,
+<lb />Et savore lo passatem 5101
+<lb />V boey où la Lhauda m’enchante:
+<fw><lb />2
+<lb />4114
+<lb />D
+<lb />4
+<lb />3
+</fw></sp>
+<p type="MainZone-Lg"><lb />ront lo inondo lui lo vetdou
+</p>
+<sp type="MainZone-Sp"><lb />Se sçat beisié ormi nou dou.
+<lb />Tou lou izeyu en lour ramageo,
+<lb />De dou en dou &amp; bec à bec,
+<lb />S’accordon mieu que lo rebec,
+<lb />En se sempeillan lo plumageo,
+<lb />Mais la Lhauda que j’amo tan
+<lb />Ne vou pas que j’en fasse autan.
+<lb />¶ Eilli vou pro que je la danso
+<lb />V son de quoque flajolet,
+<lb />Mais quand je foey lo marjolet,
+<lb />I ne vou pas que je pidanso
+<lb />Sou beisié dou per respira,
+<lb />Inco que m’enten soupira.
+<lb />Quoque fey à la deyrobada
+<lb />Ie luy en attrapo quoqu’un,
+<lb />Lou garçon ( comme dit chacun)
+<lb />Ne font jamey l’amour debada;
+<lb />Ineo qu’un beisié gasconna
+<lb />N’ét pas si dou que lou donna.
+<lb />Vau mieu s’eybaudi à la coursa
+<lb />Que de demoura rebeuti,
+<lb />Ceu ét tout à fat abruti,
+<lb />Qui mort de sey prés de la soursa,
+<lb />Iamay, jamay lou vergognou
+<lb />En amour ne sont grand Seignou.
+<lb />I Et vau ben mieu prendre per forci
+<lb />Lou beisié, que ne beisié pa,
+<lb />Louz hontou y perdon lout pa,
+<lb />Et comme l’abro sen eycorcy.
+<lb />Devenon sec, quand la tosa
+<lb />Refuse de louz arrosa.
+<lb />J E faut donqua que je solageo
+<lb />Mon amour de mille beisié;
+<lb />Et quand i debvriet m’eygruysié,
+<lb />I'eybrandarey son pucelageo;
+<lb />Aussi ben lo chatel moin fort
+<lb />Ne se rend jamey qu'a l'cyrort.
+</sp>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENEPREMIENE.
+<lb />JANIN. LHAUDA.
+</p>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />At bon fare l’amour ore que lou rosié
+<lb />I Rogeon tout de rose, &amp; que lou cireysié
+<lb />Sont deyja tou claffi de bouchet de cireyse:
+<lb />Ore pe lou vergié tout lo mondo se beise.
+<lb />Lou meyna &amp; le fille aussi chau qu’un mey d’Ou,
+<lb />Ont moyen de se vey soulet de dou en dou :
+<lb />Et s’u lont quoqu’envey de faire la besougni,
+<lb />Lou boisson sont foilla per cachié lour vergougni.
+<lb />Personna ne lou vet, louz abro solamen
+<lb />Provon estre téinoin de lour contentamen.
+<lb />Que fat bon folata dessu l’herba nouvella,
+<lb />2
+<lb />Tandi que le gen vieu se tompon la cervella,
+<lb />Lon taste du pleisi que fat virié lou eyu,
+<lb />2
+<lb />Et pœisse l’on s’endort sur lo chant duz izeyu.
+<lb />Mais qui ne voudtiet to estr’à cellouz affare,
+<lb />Ore que l’on ne pot se chateni du fare:
+<lb />Ceu iqui sariet ladte &amp; four du jugimen,
+<lb />Qui n’auriet de l’amour quoque ressentimen,
+<lb />Veyre lo passerat affichou per coll’oura
+<lb />E fariet eytirié una poura manora.
+<lb />Quand sariet un Hermita u sarier si tenta
+</sp>
+<sp type="MainZone-Sp"><lb />Qu'u se deyfraquariet, per un po folata.
+<lb />Pet mi je seu si dru, que sito qu’una filli
+<lb />M’approche, un limason en sort de sa coquilli,
+<lb />Comm’un joeine poillen à poin de travaillié,
+<lb />Pet me fare ginga me faut pa gatillé:
+<lb />Ne seu pa eictivain, &amp; si porto la pluma:
+<lb />Ne seu pa mareicha, &amp; si fiero l’encluma:
+<lb />Ne seu pa pellatié, &amp; si sçavo fourta:
+<lb />E ne seu pa bastié, &amp; sçavo rembourra:
+<lb />Comme nostron fournié segon Sardanapala,
+<lb />Ie sçavo ben mena lo mancho de la pala,
+<lb />Ie n’entrepreno ren que n’en veneyso about,
+<lb />Inco qué je n’ay ren apprey je sçavo tout.
+<lb />La Thoni, la Margot, la Bertha, la Lorenci,
+<lb />Ont desja eysaya la maita de ma scienci,
+<lb />Et je lour ay si bien apprey bedinbedot,
+<lb />Qu’elle volon toûjour fichié dedin lo pot.
+<lb />Elle volon toûjour lo fu à lour colagmi,
+<lb />Ren ne lour fache tant que lo tour &amp; l’eychagni,
+<lb />Plestadieu que la Lhauda à qui ét tout mon cour
+<lb />Et à qui je voudrin fate semblablo tour,
+<lb />Volusse sen tarda sçavey ce que je sçavo,
+<lb />Ie moyro si son corp du men je n’appeysavo,
+<lb />A mon avi fariet bon couchié aver ley,
+<lb />Parce que lhat louz eyu aussi clat qu’un solley,
+<lb />Lo na, lo front, lou peyu biau sur toute le fille,
+<lb />Eilli nat ren de nier que le deu suressille,
+<lb />Son tein ét aussi fraiz qu’un ilo qui florit,
+<lb />Eillat en chaque jauta un pertu quand i rit.
+<lb />Sou dou tetet son du, &amp; ron comm’una bola,
+<lb />(Ce qu’ayde à gitta lo muresson din lola.)
+<lb />Eill’ér de la grandou per jaugié lo gojon,
+</sp>
+<p type="MainZone-Lg"><lb />Son corp que j’amo tant ét aussi dret qu’un jon,
+<lb />Vl’et dou comm’un gan, &amp; net comma veissella,
+<lb />Ensin ét afeyta comm’una Dameisella.
+<lb />N’ai-je pa donq reison si j’en seu amoirou,
+<lb />Si je povin l’avey que je sarin heirou;
+<lb />Lo Rey qu’ét grand Monsien sariet pa mon comparc
+<lb />Et pui ne faudriet pa que mon revou de pare
+<lb />Me commandisse ren, car je n’u farin pa,
+<lb />I’amarin mey cen fey avey lou bra couppa.
+<lb />Et que je manquarin à si bella maistraissa?
+<lb />Non pa quand tout fariet en la plus granda pressa:
+<lb />Ni mesme quand lou lou qui vont courant per tout
+<lb />Debvrion migié me boye &amp; me chieure à tour.
+<lb />I’amo mey mou pleisi que tout lo ben du mondo.
+<lb />Mais n’ét-il pa iley? je veyo sou peyu blondo:
+<lb />Eyet mon arma ley, car veiqui souz agneu,
+<lb />Que bien ame de loing sez amour recogneu,
+<lb />Voih je m’eytiro ben dou vinto que je bado
+<lb />E't signo que je seu de son amour malado.
+<lb />Comman pourrai-j’alla luy dire Dieu seyset
+<lb />Et faut que l’approcheyzo hazar set queyque set.
+<lb />Vn amoirou hontou n’a jamay bell’amia.
+<lb />La veiqui assetta eilli set endormia.
+<lb />Debvo-je l’yveillié ou la leissié dormi,
+<lb />No no é luy faut fare icy un tour d’ami,
+<lb />La leissié reposa puisqu’eillet à son eiso.
+<lb />Pamoin qu’ey qu’arrivey é faut que je la beiso
+<lb />Que la lat bon beitie; que sou beisié son dou,
+<lb />Vo diria que l’on toche un morcel de velou.
+<lb />Que je me pleiso ben à cesteu badinageo,
+<lb />Quand je la beiso ben m’ét avi que je nageo.
+<lb />Ah! que je seu conten de vey que son tetet
+<lb />Tremblon per rendre hardi lo plus lacho mottet,
+<lb />Et que son tein vermey du sommey devin palo,
+<lb />Pet me tepresenta qu’eillat fauta du malo,
+<lb />I’en seu ben si joyoù, que je ne voudrin pa
+<lb />Per quand je ne sçay que, ne l’avey arrapa.
+<lb />Car eyet pleisi de lur teni la testa,
+<lb />Tandi que lou dessout ét uprés de sa festa
+<lb />neiieme donq unla Lhauda, embrassimi mon cour,
+<lb />Et me leissi tata du pleisi de l’amour.
+</p>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Hay, hay, quieto iqui?
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Eyet mi siiia beigritit
+</sp>
+<sp type="MainZone-Sp"><lb />»juata faniii;
+<lb />LHAUDA.
+</sp>
+<sp type="MainZone-Sp"><lb />Oey.
+<lb />JANIN.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ah! la testa legeiri,
+<lb />Coman vozi alla, eyto comme celley,
+<lb />Que me fauocigtogme ?vai soa titi-te ley.
+</sp>
+<sp type="MainZone-Sp"><lb />IANIN.
+<lb />E le faut ben beisté ou lou fare autre choze
+<lb />Tandi qu’ell’on lo flat &amp; lo tein de le roze.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Quocy maistre gallao, eito de la fasson
+<lb />Qu’on le prend, quand i sont atterei de la som?
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Se faut servi du tem quand l’occasion ét bella,
+<lb />Sur touz quand una filli à l’amour ét rebella,
+<lb />Fauꝯ prendre ce qu’on pot, j’ay donq fat mon devey
+<lb />Le t’avei ben beisiat, puisqu’on ne pot avey
+<lb />Vn lacet de ta testa, ou galon de te robe.
+<lb />Ni lo moindro bestie qu'oir ne te io deirobe,
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie n’amo ren donna, ma mare trop souven
+<lb />Me dit, que per donna una filli se ven.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Ta mare, que louz an font deveni barbara,
+<lb />N’a pa toûjour eita à l’amour si avara.
+<lb />V tem de sa jeunesla ell’estiet reverdia,
+<lb />Et comme girofleiïa à chacun eibandia,
+<lb />V son du flajolet jour &amp; not i dansave,
+<lb />E ne pouiet choma que quand on la beisave,
+<lb />Mais ore que lo feu en son corpét eitin,
+<lb />Ne pouvai fajeutrani que fat l’éytin,
+<lb />I voudriet que l’amour comme ley deifaillisse,
+<lb />Et que de sa verdou chacun se deipollisse.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAADA.
+<lb />V contrairo tu sça qu’eillame pateta
+<lb />Aver le joine gen qui sorton de tetta,
+<lb />Et principalemen quand i lou vet en danci,
+<lb />Souz eyu incessamment vont suivan la cadanci,
+<lb />Témoignan que son cour s’accommode toûjour
+<lb />A lhonesto pleisi, Vi tu pa l’autro jour
+<lb />Aprés nostron banquet de gnot &amp; de raviole,
+<lb />Commi' se deimenave u brando de le viole?
+<lb />16ii di. à la vey à son tour viroillet,
+<lb />Que son prin tem n’aviet inco viria foillet.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Mais lhat de cou de pié comm'una vachi rougi,
+<lb />Perce que ne t’appren qu’à fate la farougi.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Maudamageou Monsieu, quand i me commande.
+<lb />B iii.
+<lb />De lare contia ce que iaquou recommande.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />I te det commanda d’imita lou colom,
+<lb />
+<lb />Qui l’amour bec à bec pratiquon tout deu lon.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Mais plusto d’imita la luna blanchinella,
+<lb />Qui fat en cheminan contr’amour sentinella;
+<lb />Car rucieine pa s appioeme du lotey,
+<lb />Incoque jour &amp; not u rode u tour de ley.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Voudria-tu que de mesme u tour je te rodisso,
+<lb />Et que sen te touchié de prés je te perdisso?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie voudrin ne jamay noz approchié plus prés,
+<lb />Que ię roue d'un enat, qurie couron aprés
+<lb />S’en pouvey s’atrrapa, qui jamey ne s’abordon,
+<lb />Et qui pamoin en tout ce qu’elle font s’accordon.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />
+<lb />Douz aman qui ne sont u ben d’amour ey char,
+<lb />Ne se vont pa fuyant comme roüe d’un char,
+<lb />Mais se vont approchan &amp; joignan lour approche,
+<lb />de farton tant que run desfout l’autre deiroclie.
+</sp>
+<sp type="MainZone-Sp"><lb />4
+<lb />LHAUDA.
+<lb />3
+<lb />Les honnêtez amour ne vont pa u galop,
+<lb />Et trouvon qu’un beisié ne s’approche que ttop.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Lez amour sen beisié ne son ren que fraidura,
+<lb />Sont de jardin sen flou, sont de pra sen verdura:
+<lb />Sont champ sen eypi, de vigne sen reisin:
+<lb />Sont d’abro sen folliat, sont couve sen pusin;
+<lb />Sont roche sen fontane, &amp; plane sen rigole.
+<lb />Enfin si nna bouchi à l’autra ne se cole,
+<lb />Et ne sont que deu teste en un doublo ducat,
+<lb />Qui ne Iç avon tata du piei dencutr
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Le teste d’un ducat se regardon sen cessa,
+<lb />Se payon de regard, ne font autra caressa.
+<lb />riiir ioue amoirou devon modestamen
+<lb />Prendre den lour regard tout lour contentamen,
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Rebollié sen tata te pomme galatane,
+<lb />Eyet mori de sey u bord de le fontane.
+<lb />Vey qui perque vaut mieu que te fasso accula,
+<lb />Que irje te perdin per avey recula,
+<lb />Puisque je te fœy vey qu’amour sen joüissanci
+<lb />E't un arbro sen frut, un vergié sen pleisanci.
+</sp>
+<sp type="MainZone-Sp"><lb />LAAUDA.
+<lb />I’amarin mey qu’amour perdisse son matrat,
+<lb />Que si per sou pleisi, je devenin fatrat.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Si l’amour se perdiet, gnariet ren que gaburgeo,
+<lb />Et de l’autro coustié lo mondo sariet turgeo,
+<lb />Tu sça que sen l’amour tout charriet à rever,
+<lb />Comme foille sito qu’elle veyon l’hyver.
+<lb />Amour fat reveillié tout cesteu pay sageo,
+<lb />De tou bien de la terra u no donne l’usageo.
+<lb />Amour fat accorda tou meichen animau,
+<lb />E sou plaisi guarit toute sorte de mau.
+<lb />2
+<lb />Amour sçat appeisié tou lou plu grand ravageo,
+<lb />Viçat appirveme tout ce qu’ét plu sauvageo,
+<lb />Amour fat badina lo ven aver la flou,
+<lb />E sauta lou mouton sen pourassi du lou,
+<lb />V fat que lou peisson frayon dedin lez onde,
+<lb />Et que tout louz izeyu gergognon sur le bronde.
+<lb />E si n’estiet l’amour tout eiriet à tebour:
+<lb />Ne demla pa douq la perta de l'amnour.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Je ne desiro pa la fin de la natura,
+<lb />Ni de l’amour, de qui tout pren sa nourritura:
+<lb />Mais ben que lez amour poisson toûjour nichié.
+</sp>
+<sp type="MainZone-Sp"><lb />yaiirir.,
+<lb />Ne tecula pa donq quand se faut approchié.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />E faut per mieu sauta que chacun se recule,
+<lb />Car qui s’approche trop de la flama se brule.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Vou tu comme lou chambro alla de reculon,
+<lb />me u iate deutuie qui nton tou deu lon
+<lb />De quoque chanet, non pa à una filli
+<lb />Que det toujour planta u pertu la chavilli.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Qu’appelle-tu planta la chavilli u pertu?
+</sp>
+<sp type="MainZone-Sp"><lb />IANIN.
+<lb />Eyet furga ou ben fichié un fu pointu
+<lb />Dedin una boubilly, afin de davoida,
+<lb />Si j’entendo cellay n’u fau pa demanda.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Voih, queyto que tu dit? si le gen de Doumena
+<lb />V sçavion, aussito u te dirion jean fena,
+<lb />Et te farion changié te braye en cottilluil.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />E me chau d’elle autant que de iour petillon,
+<lb />Comman se vollié set, qu’u m’appelleison Giena,
+<lb />De celey ne me chau ma que tu seye miena.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Personna ne m’aurat que ne sçacho comman,
+<lb />Et que noittou eula n'j aye mey la man.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Pot-estre que tu crei que je ieu quoque charle?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />N’en sarat jamey ren que lo papié ne parle.
+<lb />Lou meina d’eujourdeu sont de vrai affrontou,
+<lb />Prenes-lou attenen, vo lou trouvari tou
+<lb />Feru d’un mesmo coin, u sont si miserablo
+<lb />Qu’u sandeyon toûjour, &amp; se donon u diablo
+<lb />Per trompa una filli, à qui lo jogimner
+<lb />Manque per l’aveni, comme lo pessamen.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Lou meina ne sont pa tou tara de la sorta,
+<lb />Signat un qu’aye moin d’arma qu’un ayga motta,
+<lb />Ou de conscienci autan qu’un chival eipala,
+<lb />Gnat cen &amp; autro cen qu’on pou de sen alla
+<lb />En Enfer, où l’on bet le serpen u vineigro,
+<lb />Commn’un eicumingea ceu iqui devin maigro
+<lb />Qui fat tau seirimen, per estre pui daña.
+<lb />Quant à mi je volo ore estre deigoumina,
+<lb />Si je n’amaiin fliar filoir ceir iriltro viagco,
+<lb />Que d’avey suborna la meindra du villageo.
+<lb />Ne t’imagina donq que je seyo trompou,
+<lb />Du mau jappolimen j’ai mey que ti de pou.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />rapporiey qui voudra é ne cregno personna,
+<lb />En ben fassan l’on pot porta una couronna
+<lb />De laurié, qui ne crain l’hyver, ni lo chautem.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />En tout ben, tout honou l’on pot passa lo tem.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Qui vir duiet autramen ne perdriet que sa pena?
+<lb />Car per me garanda j’ay apprey d’una fena,
+<lb />Que ne se faut pa fia u garçon qu’at leisi
+<lb />De feindre l’amoirou, per avey sou pleisi,
+<lb />Et qui per vo trompa vo donne quoque chosa.
+<lb />Tu sça ben que l’honou ét una bella rosa.
+<lb />Que personna ne pot montra aver lo dey,
+<lb />Cella qui pot garda de flou ceu beau cordey.
+<lb />I pot porta lo front uvert comm’un imagi,
+<lb />Chacun la vou versi, perce qu’ell’ét bien sagi.
+<lb />V conttario sito qu’eilli set eysibla,
+<lb />L’on chasse per tout comm’un cayon du bla,
+<lb />La miserabla pœisse a si granda vergougni,
+<lb />De porta su lo fron una si laida rougni,
+<lb />Qu’eilli beisse toûjour louz eyu devant chacun.
+<lb />Si louz meyna u sçavon, é n’en faut pui ren qu’un
+<lb />Per luy fare d’affron autant qu’eille merite,
+<lb />Ce que montt’à le grande, &amp; à le plu petite,
+<lb />Qu’elle ne devon pa fare cela foli,
+<lb />Inco qu’elle sarion tentey du plu jouli.
+<lb />Per mi je tindrey bon que qu’un garçon fasseise,
+<lb />De tout autro mal’heur lo bon Dieu me gardeise.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Creitu que set mau fat de fare corteysi
+<lb />A un garçon qui t’at sur lez autre chusi.
+<lb />Tout celley sariet bon, si fat u badinageo,
+<lb />Ie ne me voulin pa rangié à ton meinageo.
+<lb />Mais puisqu’à ti je seu corp, tripez &amp; boudin,
+<lb />Laissi me solamen fat’un po lo badin.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Vn garçon qu’ame ben ne tin pa tau langageo
+<lb />A cela que l’amour luy donne per tout gageo,
+<lb />En ce que fat &amp; dit u se sçat reteni,
+<lb />Celley son de propo que tu debvria teni
+<lb />A le malavisey, qui rompon lour eytache,
+<lb />Afin de se viouta ainsi que font le vache:
+<lb />Non pa a mi qui n’ay jamey fat un fau bon,
+<lb />Ie veyo que je seu d’un naturel for bon.
+<lb />Car puisque ta foli à mon honon s’attaque,
+<lb />Ie te debvrin haï, comm’un chin quand u raque.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Vna filli quand l’iame &amp; qui tin eytacha
+<lb />Son servitou, per leu i n’atren de cacha :
+<lb />I n’at jamey deipit de ce qu’on luy demande,
+<lb />Quand faut executa ce que l’amour commande,
+<lb />I leisse fournela son petit fournelet,
+<lb />Ren-te donq à l’amour per sçavey ce qu’u let.
+<lb />Haha si je navin volonta de te prendre,
+<lb />Ie te conseillirin de jamey ne te rendre,
+<lb />Mais mauvaisi tu véy que cen lieu je farin
+<lb />Per amena violon, musetta, taborin,
+<lb />Hasesi; &amp; flajolet u devan de ta porta,
+<lb />Te ne devria pa donq me traita de la sorta</sp>
+<sp type="MainZone-Sp"><lb />DIPARBA.
+<lb />Qui me voudrat avey parlarat autramen.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Lo parla n’ét pa tout, beisi-me soulamen.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUBA.
+<lb />Tu te fen pia fachou qu’un ven qui se deborde
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Hela! je voey muri, si tu ne m’u accorde.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Viah, vial, adieu, fi, fi de tau propo.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Me fu pa per iquen, atten inco un po,
+<lb />Cruella que mon cour a plassia la premeiri;
+<lb />Vou tu sito cachié à mouz cyu ta lumeiri?
+<lb />No no mon petit cour tu ne t’enfures pa,
+<lb />Maugra-non set de mi eilli m’at cichappa.
+<lb />Son pa fuyon, s’en von plu visto qu’un eilœido;
+<lb />Ie la perdo de veüa, &amp; je demoro vœido.
+<lb />Seu je pa deigracia, &amp; de sen deipourveu,
+<lb />De n’avei retenu ley, qui den son chaveu
+<lb />Enfrange ma reison, mar-non je me repinto
+<lb />Quand je ne l’ay gitra dedin ceu labetinto,
+<lb />Per mieu l’enfercola, &amp; teni plu long-tem,
+<lb />Que ne l’ai-je forcia, deifloran son prin-tem.
+<lb />Et ben ben tu m’appren à n’être plu si aze,
+<lb />Tu me fu, mais san-non je volo qu’on m’einaze,
+<lb />Si ton corp ne recet du men ce que faudrat,
+<lb />E n’ét mieu trafora que l’lzera du Drac
+<lb />Si jamey je te trovo endormia à l’abada,
+<lb />Tu verres que lanin ne languit pa debada.
+<fw><lb />–-
+</fw></sp>
+<p type="MainZone-Head"><lb />ACIE PREMIER.
+<lb />SCENE SECONDE.
+<lb />AhiDole, ITIONO, LOREIN, FEORIDON.
+</p>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Llons enfans grimpons la coste du rocher.
+<lb />AXAux sauvages détroits il se faut embucher.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ne vo coita pa tan, Monsieu, gnat ren que presse,
+<lb />E faut per ben chassié pvendre ben lez addresse:
+<lb />Noz autrou du païs sçavon tou louz endret
+<lb />Où la chassi se tin, noz i allon tout dret;
+<lb />Mais faut premeirimen que chacun à trer bale
+<lb />Chargeise comme faut, à fin que tout ben ale.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Chargeons n'a ptopos quenous ne maquions point.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ie ne volo porta ni braye ni pourpoin,
+<lb />Si l’on ne vet mieu, ba, qu’un cayon à la souta,
+<lb />Lo serf ou lour sanglar si me passon ajouta.
+</sp>
+<sp type="MainZone-Sp"><lb />DOREN.
+<lb />Que de bestie (Monsieu) on passa per icy.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIDON.
+<lb />Mon frere, venez voir que veut dire cecy.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Veyqui lo pio d’un our, ou ben celle d’un oursa,
+<lb />Un serf &amp; una bichi on fat icy lour coursa.
+</sp>
+<sp type="MainZone-Sp"><lb />Eni o n or.
+<lb />Que le piey sont eipesse, egnat un gro tropel,
+<lb />Si j’en tuo quoqu’un je reteno la pel.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Outre la peau je veux que le tout se partage,
+<lb />racirone tant seulement de prendre l’avantage,
+<lb />Il est tard, nous devrions estre déja logez.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIDON.
+<lb />Les limiers sont encor à l’attache engagez.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />N’importe, vous sçavez qu’il ne faut pas attendre
+<lb />Car si-tost que le Cerf entend quelques abois,
+<lb />Des cornes &amp; des pieds il écarte le bois.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />E't vray Monsieu, chacun det estre din sa cachi,
+<lb />Devant que l’on lachey lou chin de lour eytachi.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Allons donc mes amis, chacun en son quartier,
+<lb />Ou bien il ne faut pas se mesler du métier.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Monsieu alla voz en dessout cella pivola;
+<lb />Herissia tout u dret de cella grand nievola
+<lb />Et vo dessout ceu pin, qu’ét u fin biau mitan
+<lb />D’un gro boisson de boi, ne vo coita pa tan
+<lb />Quand vindrat à tirié, mais d’una mina fraida
+<lb />Si l’Our vint contra vo, teny la chamba reida.
+<lb />Quant à no noz alson u lieu plu dangeirou,
+<lb />Et où ne faudriet pa mettre de gen pourou.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIBOR.
+<lb />6
+<lb />Quel astre voyons-nous autour de la fongere?
+<lb />Seroit-ce point Diane en forme de bergere?
+<lb />Mon frete, je ne sçay si nous devons passer.
+</sp>
+<sp type="MainZone-Sp"><lb />LORIDON.
+<lb />Si c’est Diane, il faut avant que de chasser
+<lb />Luy rendte nos devoirs autrement l’entreprendre,
+<lb />Nous nous trouverions pris quand nous croirions
+<lb />de prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />AM-IDOR.
+<lb />Vous dites bien, sçachons si cette Deité
+<lb />Elt la Reine des bois.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORRIDON. I0V GuOqG)
+<lb />Approchons sa béauté.
+<lb />Voyez elle s’enfuit le long de cette toche.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOIR..
+<lb />C’est qu’ule ne veut pas que personne l’approche.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIDON.O
+<lb />Ainsi le jout se cache, &amp; nous laisse la nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ne connoissez-vous point celle-là qui s’enfuit?
+<lb />LOREN.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Qui cella qui s’en vat? eyet nostra veysina,
+<lb />A qui je voudrin ben avey chata l’eymna.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vous estes son voisin? quoy ce ne seroit pas
+<lb />Celle qui fit aux chiens de leur maître un repas?
+<lb />Eile pouloit oner len prin ditieme
+<lb />Dites en bonne foy, est-ce vostre voisine?
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Oey, Monsieu, per la fey que me faite jura,
+<lb />Tout u prés de chié no l’hat toujour demoura,
+<lb />Son pare lo meillou homme de la perrochi,
+<lb />La leisse courrata u tour de cetta rochi,
+<lb />Per garda souz agneu u prés de ceu contour,
+<lb />Louz meyna lon tou jour &amp; not à rentour,
+<lb />Et venon per la vey de trey lieu à la ronda,
+<lb />Ma fey la fat bon vey car eill’et bella blonda,
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />C’est l'ouvrage plus beau, que la nature ait fait.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIDON.
+<lb />Son vilage en les tiaits montre qu'n ert parrdit,
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />I sariet ben inco à vostrou eyu plu bella,
+<lb />Si l’estiet pinpona comm’una Dameisella.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ie vous jure ma foy que jamais à la Cout
+<lb />Dame ne me toucha si vivement d’amour,
+<lb />I’ay esté pris si-tost que je l’ay veu si belle,
+<lb />Ell emporte mon cœur, mais poutquoy me fuit-elle?
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />I ne fut que de pou qu’eill’at duz eytrangié,
+<lb />Si voz osse connu l’ossia pa veu bougié.
+<lb />Mais (lasset) de tou ten liat eyta si pourouza,
+<lb />Que quand i noz at veu porta un’arquebouza,
+<lb />Liat creu que noz estion de sondar affama,
+<lb />Et que no ne venion que per l’abasima.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Nostre dessein n’est pas tel qu’elle se figure,
+<lb />J’aimerois mieux oüir de mon tombeau l’augure;
+<lb />Que d’avoir provoqué au moindre déplaisir
+<lb />Celle-là qui d’apas peut nourrir mon desir.
+<lb />Mais comme pourra-t’elle apprendre que mon ame
+<lb />Conçoit pour sa beauté une nouvelle flâme?
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Monsieu si vo l’ama comme voz u conta,
+<lb />Et si tan solamen vo volé l’accouta,
+<lb />Attendé à dema, qui det dessout ceu chano
+<lb />Retourna, per garda souz agneu, &amp; son asno.
+<lb />Je vindrei aver vo, per tisenna son cour,
+<lb />Et alluma son feu du ven de mon discour:
+<lb />I farat mey per mi, que non pa per son pare,
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR
+<lb />Si par vostre moyen, j’ay part à l’amitié,
+<lb />Qu’elle doit conserver à sa chere moitié,
+<lb />J’en seray moins ingrat qu’un amoureux prodigue.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />J’amarin mey cen fay vey jala nostre figue,
+<lb />Et vey nostrou vergié ravagea d’un gro rut,
+<lb />Que d’avey prey de volo vaillen d’un perut,
+<lb />Per un petit ben fat que j’espero vo rendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />car ce qu’u vo debt ne lhu faut pa apprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />AMIDOR.
+<lb />Demain nous apprendrons ce qu’elle a dans le-sein,
+<lb />Poursuivons cependant nostre premser denein.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />V pensaret plusto à l’amour qu’à la chassi,
+<lb />Et mi à voyanta ce qu’ét dedin ma biassi.
+<lb />raion, irie prenion quoque Ceif bien calliot;
+<lb />Quoqu’un de mouz ami en aurat un pelliot.
+<fw><lb />6
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CHANSON.
+<lb />Uitte, quitte ce païsage,
+<lb />Bergere qui de ton visage,
+<lb />Enbellis des champs le séjour,
+<lb />Laisse le soin des fleurs à Flore,
+<lb />Et viens comme une belle Aurore
+<lb />Donnet à Grenoble le jour.
+<lb />( Grenoble bona meynageiri
+<lb />N’a pa besoin d’una bergeyri
+<lb />Per garda se feye du lou.
+<lb />I sarre quand i vou se porte,
+<lb />Et pui ne faut pa qu’on y porte,
+<lb />Lo cordiliat prés du velou.
+<lb />
+<lb />ς Elle t’appelle dans son lustre,
+<lb />Pour estre par toy plus illustré,
+<lb />En changeant ta condition
+<lb />A celle d’une Damoiselle:
+<lb />Belle viens donc loger chez elle,
+<lb />Pour goûter son affection.
+<lb />¶ La gloyri ne me farat prendre
+<lb />Si grandez ale, per comprendre
+<lb />La vola contra lo Soley.
+<lb />.
+<lb />le me contento de l'offranda
+<fw><lb />C ij
+</fw></sp>
+<p type="MainZone-Lg"><lb />De quoque petite garlanda,
+<lb />D’un bergeirot de bonna ley.
+<lb />J L’offrande qu’un Berger te donne
+<lb />N’est que des fleurs, qui l’Automne
+<lb />Ne peuvent enrichit de fruit,
+<lb />Qui sont sujettes à l’orage,
+<lb />Enfle donc belle ton courage,
+<lb />Et fuis ces bois pleins de la nuit.
+<lb />Si je prenin dessout l’eyssela
+<lb />Lo ven de quoque Dameisella,
+<lb />Comm’un pavon se miraillan,
+<lb />Qui ne pot pa cachié se tare,
+<lb />Ie m’irin cachié chié mon pare,
+<lb />Veyant mon fondamen roullian.
+<lb />Le Soleil fort joyeux de l’onde,
+<lb />Pour se montrer à tout le monde,
+<lb />Ainsi ta dois te faire voir:
+<lb />Une beauté comme la tienne,
+<lb />Ne doit souffrir qu’un Berger tienne
+<lb />Le bien que la Cour doit avoir.
+<lb />J’ay trop pou de qhoque talochi.
+<lb />I’amo mieu tendre ma filochi,
+<lb />Et demoura dedin ma pel,
+<lb />Que si per me mordre la lora,
+<lb />Comme celle qui cregnon l’ora,
+<lb />I’abandonnavo mon tropel.
+</p>
+<p type="MainZone-Head"><lb />ACTE SECOND.
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />I jamei fille fut en pena, j’u seu ore,
+<lb />OCar je feu eybranda comm’un boei de lez ore,
+</sp>
+<sp type="MainZone-Sp"><lb />Ie seu si attaqua per devan &amp; derrié,
+<lb />Que je ne sçavo plu de quau flan me virié.
+<lb />Sur tout pro de meina que je n’amo pa gueiro,
+<lb />Me rodon mieu d’entour, que lou chiet du armeiro.
+<lb />Vo diria per ma fey à vey celou fachou,
+<lb />Qu’u me devon berfi, tant u sont asfichou.
+<lb />V volon per grand force avey la joüissanci
+<lb />De ce qu’on n’at jamai que per grand’amitanci.
+<lb />Vna filli (lasset) per dedin lou meina,
+<lb />At ore prou affare à se ben gouverna.
+<lb />Son honou jour &amp; not tramble comme le foille,
+<lb />Quand l'un la vou beisié, l’autro la tiripoille,
+<lb />L’un luy vou maneyé lou tetet si sont du, i
+<lb />L’autro cherche dessout ce qu’u n’a pa perdu.
+<lb />Crei que ne faut pa ren qu’eilli seye creitura,
+<lb />Autramen sa sarrailli auriet to l’ouvertura.
+<lb />Je regardo mi mesma à traver du dangié,
+<lb />Que j’ai toûjour pro u pena à me ben revengié,
+<lb />Car l’un per me trompa me promet mille chose,
+<lb />L’autro tou lou matin m’enbouquette de rose,
+<lb />L’un me tire decey, l’autre me vou deley,
+<lb />Iusqu’à me demanda si je vollo celey.
+<lb />Et tout per me beisié m’eiguiron ma calleta,
+<lb />Iamei je n’ai repo que quand je seu soletta.
+<lb />E't un terriblo fat du meina d'eujourdeu,
+<lb />V se prometton tou ce qu’ét à veüa d’eyu.
+<lb />Veye-vo ceu Ianin la testa sen cervella?
+<lb />V cret de tout perci avec sa taravella,
+<lb />Toujour aprés le fille u vat vey s’u pourrat
+<lb />Dedin quoque pertu fureta comm’un rat.
+<lb />Mais un tau deiverga (incora que jo landro,
+<lb />Me trouvarat toûjour plu fraida qu’un jalandro,
+<fw><lb />C iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Je sçave (Dieu marci) ma lission de pecour,
+<lb />Car de tant d’aigarcy, lo mauves brut que cour,
+<lb />Ma fat marchié de dret; Dieu me farat la graci,
+<lb />Que personna per mi, de touta nostra raci,
+<lb />Ne sarat entacha du moindré deizonou,
+<lb />Qu’u ne venay pa donq me tenta à l’honou.
+<lb />Ou je lo euvritay tout assi-to d’outrageo,
+<lb />Voudrin-je devan cop perdre mon pucelageo!
+<lb />Non pa quand je debvrin comm’un arma dana,
+<lb />J'ati en ma jeunessa, &amp; quand infortuna,
+<lb />Ie lo debvrin avey quand j’arai à le crosse,
+<lb />Ie lo gardo lasset, per lo jour de me nopce,
+<lb />Mais perque nostre gen ne me marion-t il?
+<lb />Revon-ti, ou qui font? ceci ét a trop pati,
+<lb />Veyon ti pa toûjour que lou tetet me creisson?
+<lb />Qu’uttendon-ti donc plu, que lou meina me lęisson?
+<lb />Cellei ét trop forsat, qué faille tant eita,
+<lb />Prour de moindre que mi, qui n’ont pa la meita,
+<lb />Du coursageo que j’ai, ont chacune lour home,
+<lb />Et mi n’aurai jamey pot. estre qu’un fantome.
+<lb />Veyqui perque lo cour de deitressi me bat,
+<lb />Veyan que gnat qui sont neire comm’un courbat.
+<lb />De grosse mauperey qui n’ont ny gout ni graci,
+<lb />Et qui ont de retet una plena paillassi
+<lb />Ben matiei à lour eise, &amp; ben à lour gogo,
+<lb />Que joyon alenjan, &amp; vendo lo bigo,
+<lb />V prés du feu, tandi que je tiro me pene,
+<lb />Hela! quand sarat-to, que faudra que le feng
+<lb />Me metteyson couchié, per migié la routia,
+<lb />E sarat quand playrat à ma tanta Mathia,
+<lb />Et principalemen à mon pare &amp; ma mare,
+<lb />Qui se debvrion coita pas ui n Bun gaarce
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Mais je cogneusso prou à lour patolliemen,
+<lb />Qu'u ne se chaillon pa de mon contentameh,
+<lb />Car s’u l’avion envey de me vey en meinageo,
+<lb />V n’eirion pa disan que je ne seu pa d’iageo,
+<lb />Non seu pa ( lou vieu sac) pa ne seu pro agea,
+<lb />Y at mey de trey an que je sarin logea,
+<lb />Si m’ossion accorda ceu que m’estiet fidello
+<lb />Mais elouz entrat ben de me teni chiez ello,
+<lb />Per chara ley eicuelle, &amp; coivié la meison,
+<lb />De me fare si joyena on-ti quoque reison?
+<lb />Iay quinz’an sur le coste, &amp; quand je dirin seize,
+<lb />Ie ne mentirin pa, car seu nassa lo treize,
+<lb />Du mey que l’on entend chanta lo rossignou,
+<lb />I’ay donqua proù de ten de par nostron Seignou,
+<lb />Que volon ti donq fare? attendre ma trantena,
+<lb />Ha! je ne vola pa qu’u me gardon per grana,
+<lb />Lo premié que vindrat, ma qu’u set à mon gra,
+<lb />Sarat ceu que m’arat, autramen per lou pra,
+<lb />Ie fatei per deipit izela nostre boye,
+<lb />I’uvriray lo jardin à toute noutre troye,
+<lb />Ie ne passerey ren lo lacet u colou,
+<lb />Ie laissirey migié nostrou mouton u lou.
+<lb />A tou nostrou toreu j’outaray la sonailla,
+<lb />Ie laissiray mouri de sey nostre polaille.
+<lb />I’oustarey tou lo not l’asno du ratelié,
+<lb />Ie farey barrula tout per louz eschalié.
+<lb />I'eycarabossiray touta nostra veissela,
+<lb />Ie flanidenay tout jusqu’à la moindra sella.
+<lb />Lez ole, lou peiret, lou pot, j’eiclaperey
+<lb />Nostron veiro, &amp; tout ce que j’attraparey.
+<lb />I’attrassiray lo fi, j’aiguiriray lo lingeo,
+<lb />Enfin je lou farai mey de ma qu’un vieu cingeo.
+<fw><lb />C iiij
+</fw><lb />V ni gagniron ren de fure mon parti,
+<lb />Car dedin quoque tem je lou farey senti,
+<lb />Que je ne debvo pa, si je seu filli leyma,
+<lb />Racla nostrou naveu, inco cetta careyma.
+</sp>
+<p type="MainZone-Head"><lb />ACTE DEUXIEME.
+<lb />SCENE SECONDE.
+<lb />AMIDOR. THONO. LHAUDA.
+</p>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Oute la nuit amour m’a fait d’un feu nouveau.
+<lb />I Monter par des souspirs la fumée au cerveau,
+<lb />Si bien que mon esprit touché d’inquietude,
+<lb />A marqué de mes pas toute la solitude.
+<lb />I'ay parmy les Forests, esloignées du bruit,
+<lb />Pour trouver mon repos couru toute la nuit,
+<lb />Car ni les doux efforts des charmes de Morphée,
+<lb />Ni les douces chansons des heritiers d’Orphée,
+<lb />Ne m’ont pu artester, tant les peines d’amour,
+<lb />M’ont rendu vagabond en attendant le jour.
+<lb />Que cette nuit m’afait languir parmy ces ombres,
+<lb />Que ce lieu a tardé d’éclairer ces lieux sombres.
+<lb />L’un &amp; l’autre contraire au bien qui m’est si cher,
+<lb />M’ont contraint de monter au sommet du rocher,
+<lb />Pour sçavoir quel malheur pouvoit coller encore,
+<lb />Les baisers du vieillard aux lévres de l’Aurore.
+<lb />Si-tost que je l’ay veu de honte rougissant,
+<lb />Elle m’a témoigné que son cœur languissant,
+<lb />Ne pouvoit respiter que l’amour de Cephale,
+<lb />Car pour le contenter, sa beauté sans égale,
+<lb />A deployé ses raiz avec beaucoup de pleurs,
+<lb />Qu'elle a à mesme tems versé dessus les fleurs.
+<lb />Son visage vermeil, &amp; sa petruque blonde,
+<lb />Figuroit l’Orian, que j’adore en ce monde,
+<lb />D’où j’estois si ravi, qu’il sen bloit qu’un transport,
+<lb />Faisoient que mes desirs atrivoient à bon port.
+<lb />En ce contentement je prenois le mensonge,
+<lb />Pour le vray, mais ce bien a passé comm’un songe.
+<lb />Pourquoy ne venez-vous plaisir avec effet,
+<lb />De l’ombre mon esprit est trop peu satisfait?
+<lb />Pourquoy ne venez-vous cause de cét image,
+<lb />Qui tirez de mon cœur le plus devot homage?
+<lb />Peut-estre dans les bras de quelque paiïsan,
+<lb />Vous laissez moissonner les biens d’un courtisan.
+<lb />Ah! vous ne sçavez pas de vos yeux la puissance,
+<lb />Non non vous n’avez pas de mon mal connoissance,
+<lb />Ni moy de vos desirs puis que tant seulement,
+<lb />Mes yeux sur vos beautez eurent hier un moment.
+<lb />Helas quand sçaurez-vous l’amour qui me possede,
+<lb />Du Berger qui pour moi lâchement intercede;
+<lb />n sible son esprit travaillé des impos,
+<lb />Ou plutost dans le lict assommé du repos,
+<lb />Ne penrse plus à niorni a rheure assignée,
+<lb />Mais où est sa parole &amp; sa foy consignée.
+</sp>
+<sp type="MainZone-Sp"><lb />TΠONO.
+<lb />Me veicy ben, Monsieu.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ha, ha! vous estes-là.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Et vo voz este iqui, tout deitartavela,
+<lb />Vo parla de per vo, eyto de nostra chassi,
+<lb />Ou si vo-vo grusa de la grand' eigruisassi,
+<lb />Que lo Senglar a fat à vostron frare anot
+<lb />A la coeissi, sito qu’u l’eut lacha son cop.
+<lb />-V
+<lb />Ceney nerten, u uls de mon compare Cicienne.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIBOR.
+<lb />La playe de mon frere est moindre que la mienne
+<lb />Son mal est à la cuisse, &amp; le mien est au cœur,
+<lb />S’il est blessé, du moins il demeure vainqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ah qu’u l’atteignit ben u darrié de l’ispala,
+<lb />Mais d’una de se den largi comm’una pala,
+<lb />Et feita comm’un crot, ceu vilain dentaru,
+<lb />Si-to qu’u se sentit d’una bala feru,
+<lb />V venit, en passan, lui baillié la nazarda,
+<lb />V n’autro viageo faut porta un alabarda.
+<lb />Pamoin, u n’alit pa mouti douze pa loin,
+<lb />Aprés qu’u l’aguit fat ceu meichen cop de groin.
+</sp>
+<sp type="MainZone-Sp"><lb />AMID,OR.
+<lb />Cela ne sera rien, un bon maistre le pense,
+<lb />Moins pour la guerison que pour la recompense.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Lou Barbié font duta una plaïe long-tem,
+<lb />Per avey mey d’argen, lo ma lou ren conten,
+<lb />V l’amon cen fey mieu vey prou de chambe route,
+<lb />Et de bra estropia que cellou qu’ont le goute.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />De mesme les beautez sont contentes de voir,
+<lb />Souffrir ceux qu’elles ont rangé sous leur pouvoir.
+<lb />Ie n’en espere moins de la belle Bergere,
+<lb />A qui ma volonté, s’est renduë homagere.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />De la Lhauda (Monsieu) que sçat ben son patel,
+<lb />Si je parlo per vo voz auri lo gatel.
+<lb />Creyé qu’eilli n’est pa de cette gloriouse
+<lb />De la Villa, qui font de prou de ma jouyouse.
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />
+<lb />AMIDOR.
+<lb />Croyez-vous qu’elle vienne au lieu où je pretens,
+<lb />Rendre dans ses faveurs mes beaux desits contens.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />E on n’enten pa chanta sito lez irondelle,
+<lb />Qu’eilli cey vin enchan.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Quand serons-nous prés d’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO..
+<lb />Noz i saron ben-to, suiye me solamen,
+<lb />Chut, chut, ne dite mot, faut alla jolamen;
+<lb />Veyé la den ceu bœi u prés d’una fontana,
+<lb />Qui guarit prou de gen de la fiévra quartana.
+</sp>
+<sp type="MainZone-Sp"><lb />AM IDOR.
+<lb />An !je la vois, eil eit aupres d’un aupebin,
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Voz i cogneussé ben, egnat ren que de pin.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Quoy que ce soit je vois confusément la grace,
+<lb />La beaute de latnour diliy dunaula face?
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />THONO.
+<lb />Qu’en dite-vo Monsieu n’ét-i pa en bon poin,
+<lb />Quittaria vo per ley le braye &amp; Io pourpoin?
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />I our elle à mon amour qu’y a-t’il d’impossible?
+<lb />Elle sçaüra bien-tost ce qui m’est plus sensible.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Leissié m’alla premié ou eilli s’enfurat,
+<lb />De pot, comm’i fit hier, sito qui vo verrat.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />C’est bien preyeu, allez, pour assurer sa crainte,
+<lb />O Dieu ! qui ne voudroit avoir l’ame contrainte,
+<lb />Des aymables liens d’une telle beauté,
+<lb />Puisqu’amour dans les yeux est luy-mesme arresté,
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Bonjour Lhauda, bonjour.
+</sp>
+<sp type="MainZone-Sp"><lb />L'HAUDA.
+<lb />Bonjour nostron veisin.
+<lb />Volevo deyjuna de pan &amp; de raisin.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ie ne foey que sorti de la couchi tout ore.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Voz ayez deyjuna, se vet à vostre lore.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />E't vray j’ai beu trey cou devan que de sorti.
+</sp>
+<sp type="MainZone-Sp"><lb />EHAUDA.
+<lb />Quin ven vo mene-to? vou nez pa adverti
+<lb />De veni per ici. Quiat-to, dite veyre?
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Gnat ren que ben per ti, si sou te me vou creyre.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />A tout ce que l'on dit, je n’adjousto pa fey,
+<lb />Gnat que trop qui me font bouquet de cheurafey.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Tu po creire qu’un jour tu sares ben heirousa,
+<lb />Car un Monsieu per qui je porto l’arquabousa,
+<lb />E't amoirou de ti, je te dio talamen,
+<lb />Qu’u l’en pert lo migié &amp; lo bouvoillimen.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ne veni pa ver mi per conta cella bauda.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Iamey je ne couvi din lo cour talla frauda.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Alla, alla mocquou, vor eit uil peniouidie,
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />I’amarey mey cen fey de branche d’un cordié
+<lb />Pe le man, pe lou bra, &amp; d’una corda longi
+<lb />Estre bien enfrangea, que dite una mensongi.
+<lb />Crei me donc si tu vou, ceu Monsieu t’ame tan,
+<lb />Que l’arma din lo corp luy vat toujour battan,
+<lb />V jette de souspi qui font branda louz abro,
+<lb />Qui farion apida un cour plu dur que marbra,
+<lb />V let si eichaufa, qu’u brule de te vey,
+<lb />Mais devan que veni, de ti u vou sçavey,
+<lb />Si t’y prendres pleisi, regarda de bon hora,
+<lb />o1 natura per leu a fat meura la mora.
+<lb />Di me ta volonta, deiclara-mi ton cout,
+<lb />Vou-tu qu'u venr iey par te fare la cour?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Me sariet trop d’honou, mais à to bonna mina?
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Autra que ton Ianin tutou de la bovina,
+<lb />Egnat pa un si brave en tout nostron canton,
+<lb />La barba solamen luy piquet u menton.
+<lb />Vo diria per ma fey, quand u saute qu’u vole,
+<lb />Et quand u danse, u fat millante cabriole:
+<lb />En tout u l’et toûjour lo plu genti de tou,
+<lb />V n’ét pa ren boussu, ny borlio, ny boitou,
+<lb />V chante comm’un Ange, &amp; parle comm’un livto,
+<lb />vret fobro; mco que d’amour u set yvro.
+<lb />V bet quasi tout d’eyga, &amp; en chaque morcel,
+<lb />Vo diria, per ma fey, qu’u l’ét inco pucel.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie lo voudrin ben vey, fo pa que voz u cacho.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Lo vet tu pauiley, umbragea d’un plumacho.
+</sp>
+<sp type="MainZone-Sp"><lb />.04
+<lb />LHAUDA.
+<lb />le lo teyo vein, io veyqui qui s’en vat.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ne fat ren, u l’atten que je torncizo avat.
+</sp>
+<sp type="MainZone-Sp"><lb /> LHAUDA.
+<lb />Sopa-lo vey, que to je sçacho qu’u desite.
+</sp>
+<sp type="MainZone-Sp"><lb /> Rn o Ro.
+<lb />Monsieu, venez icey, la Lhauda m’u fat dire.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Bergere à qui les fleurs prodiguent leur odeur,
+<lb />Après que vos beaux yeux (agreable splendeur)
+<lb />Les ont rempli d’amont, &amp; sorti de la terre,
+<lb />Voici le prisonnier de vostre doute guerre,
+<lb />Qui vous sacrifiant son cœur &amp; sa raison,
+<lb />A fait vœu de jamais ne rompre sa prison.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LHAUBA.
+<lb />N’entendo pa, Monsieu, celle belle parole.
+<lb />Car l’on ne parle pa dinsi du flan de Crole.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Si mes paroles n’ont de persuasion
+<lb />Capable de vous faire oüir ma passion,
+<lb />2
+<lb />Mes yeux &amp; mes soûpirs, prophetes de ma slame,
+<lb />ricenent auez ie vray de ce que j’ay dans l’ame.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Excusa-me, Monsieu, sçavo pa francilié,
+<lb />Car j’ay un esperit aussi gro qu’un paillié,
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Puisque vous possedez les qualitez d’un Angei
+<lb />Vostre esprit arresté merité de loüange,
+<lb />Avant que vos beautez, de qui je suis captif,
+<lb />Ne me faites pas donc un compliment craintif.
+<lb />Mais si par vos apas mon ame est asservie,
+<lb />Dites-moi si j’aurai le bien de mon envie.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Babilley qui voudra é n’ét pa mon meitié,
+<lb />Vna colagni vin ben mieu à mon coustié,
+<lb />Et je l’amo ben mey, que mena l’entivella,
+<lb />Celley ét bon à fare a quoque Dameisella,
+<lb />Qui per patireia at io bee ania,
+<lb />Non pa à mi qui n’ai ren apprey qu’à fila.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vostre ramage dont le doux accent me charme,
+<lb />Prononcé par la voix qui la mienne desarme,
+<lb />Est plus doux que le leur. Outre que le maintien
+<lb />De vos beautez louime paus querles d’entretien.
+<lb />Preferez donc mon offre à tout autre service,
+<lb />Et voyez que mon cœur ne catne point de vice.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />
+<lb />Qu'en povo je sçavey, je ne seu pa dedin.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />De cette belle fleur, mon cœur est le jardin,
+<lb />Car je vous ay choisi au parterre de Flort,
+<lb />Pour adorer l’encens qui tout autre devore.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ma fey n’en creyo ren, car é n’et pa reison,
+<lb />Que vo pensi en mi, &amp; pui vostra meison,
+<lb />Ne voudriet pa changié son fromen en aveina,
+<lb />Vo merita (Monsieu) de prendre quoque Reina,
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Voila pourquoi amour (pour se montrer vainqueur)
+<lb />Vous a fait à l’instant la Reine de mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Vo vo mocqua de mi, j’u cogneusso ben ore.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />nla contrarre, de plus en plus je vous adore.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie ne merito pa tant en vostron endret.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Eill'ét prou ben appreisa, y parle ben à dret;
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />mons meriterez pius n'vonte cœur te laisse
+<lb />Blesser du même trait que celuy qui me blesse.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie m’en gardatey ben de me blessié lo cour,
+<lb />Perce que j’en mourrin (pot-estre) sen secour.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vous ne sçauriez moutir en me domant la vie,
+<lb />Ni vivre, si l’amour ne vous remplit d’envie;
+<lb />Car c’est mourir que d’estte insensible à ses traits,
+<lb />vous ne devez point donc dementir vos attraits,
+<lb />Qui ne peuvent souffrir que vous soyez rebelle,
+<lb />Mais vous montrer autant amoureuse que belle.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Si je ne seu pa bella é n’en seu que meillou.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Mais vous avez le cœur aussi dur qu’un caillou,
+<lb />Et à tous mes doux offres, vous estes trop farouche:
+<lb />Car vous ne voulez pas que mõ amour vous touche.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Mousieu, si voz estia quoque po mon parcy,
+<lb />Ie voz amatin mey que mi-mesma socrey.
+<lb />Mais celley ne se pot: car voz este trop bravo,
+<lb />I’en aurin quoque dan si en vo j’esperavo.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Si mes desirs estoient d’une flamme conceus,
+<lb />Vostre
+<lb />Vostre espoir, ny le mien, ne seroient point deceus,
+<lb />Rien ne refroidiroit nos amours naturelles,
+<lb />Iamais l’inimitié entre les torterelles,
+<lb />Ne produisit ses maux: ainsi sera de nous
+<lb />Si vous estes à moy, comme je suis à vous:
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />ltiais vo lle vouutia pa dna poula ocigeyta,
+<lb />Veyant que je n’ai pa per vo prou de vercheyri:
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ie ne veux rien de vous qu’une chaste amitié,
+<lb />Soyez tant seulement de mon cœur la moitié.
+<lb />Rien ne vous manquera; car puis qu’à vous je cede;
+<lb />Vous pourre dispofer de ce que je possede.
+<lb />Ie vous feray changer de jour en jour d’habits,
+<lb />Vous ne sanguirez pius autour de vos prebis.
+<lb />Notamment quand l’hyver décoiffe les campagnes;
+<lb />Parce que vous aurez les Dames pour compagnes.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />I’amo mey demoura soletta din lou boey,
+<lb />Entendre tullura le flutte, &amp; lou auboey:
+<lb />Et chanta de per my, u pié de quoque rochi,
+<lb />Que d’estte accompagna de le Dame en carochi.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Quoy? vous ne voudriez pas abandonner ces bois,
+<lb />Ny moins vous retirer des charmes des aubois,
+<lb />Pour un parti qui doit vous rendre plus contente?
+<lb />Ce seroit rebuter le bonheur qui vous tente.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie n’u voud-in que trep, mais n’ét pa mon eitat,
+<lb />D’avei, ny de porta l’habit de tafatat,
+<lb />Ny de m’accompara à celle Dameiselle,
+<lb />le ne focy pa si ben la prima hoûchi qu’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIBOR.
+<lb />Elles n’ont rien d’égal en leurs inventions,
+<lb />Au moindre échantillon de vos perfections.
+<lb />Partant, si la pitié de vos douceurs ne m’ayde,
+<lb />A mon mal, je n’auray que la mort pour remede.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />nil. que ve fgure bem aplagie lo inron,
+<lb />Comme cettou sripon du coustié de Voyron.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Mon discours est naif, car l’amour qui m’opptime
+<lb />Est encore plus vray que je ne vous l’exprime.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb /><lb />Vo m’en diri ben tant, qu’à la fin me faudrat
+<lb />Creire que lou satin ét plu dou que lo drat.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vous croirez à la fin, que je porte dans l’ame
+<lb />L’amitié d’un Leandre, &amp; la foy d’un Pyrame.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie ne sçavo qu’en dire, y at prou à brogié,
+<lb />Lou plu grou izeyu sont quasi tou passagié,
+<lb />Pot-estre, vo vene me baillié un’attaqua,
+<lb />Per m’engagié, &amp; pui per me fare la gnaqua.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />I'en atteste le Ciel, de son foudre je veux
+<lb />Eprouver le courtoux, si je farde mes vœux:
+<lb />Mon inclination ne les offre ni donne,
+<lb />Qu’afin de recevoir d’un Hymen la couronne.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />I'u creiray quand celley sarat à bon eycien.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Elle ne peut encor croite que je sois sien.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ma fey non: car ne seu pa filli si creandeiri,
+<lb />I’ai trop pou d’enrouta en si granda brandeiri.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR. 
+<lb />Les sermens que je fais ne pourront-ils bannir
+<lb />Vostre incredulité? Ou si pour obtenir
+<lb />De vous cette laveur, it fauura que je treuve
+<lb />Quelqu’autre expedient, dans la mort pour ma
+<lb />LHATDA.
+<lb />[preuve.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais quey-to, sen jura, ce que vo desira.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIBOR.
+<lb />vii ouiret diirouitan, qui nos cœuts unira.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Toblau, toblau (Mer neujoit te pensavo d’estre.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Au lieu où ma raison n’a que l’amour pour maistre.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Per forci vo n’ari que quoque deiplaisi,
+<lb />Lessié-me donq alla, faite-me ceu pleisi!
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />L'exces de inion amour vous doit fane tans crainte
+<lb />Condescendre aux efforts d’une douce contrainte.
+<lb />Puisque pour moderer un peu ma passion,
+<lb />Ie n’entreprens sur vous, qu’une conjonction.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />vous mi eipourarr donq devant que je vo beiso,
+<lb />Autramen ne faut pa pensa que j’u voleiso,
+<lb />Lou Monsieu (comme vo) sont que trop adops.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />I vou sçavey comman i mettra lo cu ba.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ma chaste volonté releve de la vostre,
+</sp>
+<sp type="MainZone-Sp"><lb />D ij
+<fw><lb />
+</fw><lb />Mais afin qu’aucun bien ne surpasse le nostre,
+<lb />Promettons un lien éternel à nos corps,
+<lb />La conjonction est la reine des accords.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ore sur ceu propo tou mon amour je fondo,
+<lb />I’amo mey estr’à vo qu’à personna du mondo,
+<lb />Puisque vou n’aves pa la mina d’un grondou,
+<lb />Per en veni à bot, ne faut qu’un demandou.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Favorable réponse, ô qu’elle me contente!
+<lb />Puisque vous promettez ce bien à mon attente:
+<lb />Ie tiens qu’il n’y a rien de doux que mon tourment,
+<lb />I’en benis ce beau lieu, paradis d’un Amant,
+<lb />Auquel tous mes esprits s’enyvrent d’ambroisie,
+<lb />Et où mon bonheur doit donner de jalousie
+<lb />Au ciel qui nous regarde, &amp; à ce Cupidon,
+<lb />Qui ne peut succomber que sous vostre brandon.
+<lb />Je benis le lien qui nostre cœur engage,
+<lb />Pour le rendre plus fort acceptez donc pour gage
+<lb />Cét anneau emmaillé, qui tiré de mes doigts
+<lb />Aux vortionportelu la toy que je vous dois.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />E gramarci (Monsieu) ceci vaut ben lo prendre,
+<lb />Dieu voille que bien-to j’ayo deque vo rendre.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Veiqui qu’ét prou parla, é ne faut que dou mot,
+<lb />Per mettre l’un dessu &amp; l’autre per aerrot.
+<lb />Si vous avez envey d’enfila la garlanda,
+<lb />Dite m’u solamen, je farei la demanda.
+<lb />Si ben que vou pourri de plu prés vo tochié,
+<lb />En talou bonz affare é se faut deipachié.
+<lb />Vostre conseil est bon, sçachez donc de son Pere,
+<lb />S’il voudra que je sois son fils, comme j’espere.
+<lb />Mais representez luy tant mon affection,
+<lb />Et mes commoditez, que mon extraction:
+<lb />r rejvar de lu verte fougvre,
+<lb />Iusqu’à la fin du jour, je suivray ma bergere.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Je voëy fare si ben que vo fari conten.
+<lb />Adieu (Monsieu) adieu, la Lhauda voz atten.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Où voulez-vous aller, bȩau Soleil de mon ame,
+<lb />Attendant que le Ciel favorise ma flame?
+</sp>
+<sp type="MainZone-Sp"><lb />EMAADA..
+<lb />Garda mouz agnelon de la gorgi du lou,
+<lb />Et per lou mettr’à l’ombra u gro de la chalou.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Allons donc souspirer en quelque frais ombrage,
+<lb />Les delices futurs de nostre mariage.
+</sp>
+<p type="MainZone-Head"><lb />ACTE SECOND.
+<lb />OCENVETROTDIEME.
+<lb />THONO. JANIN.
+</p>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />N-te courtu Ianin, t’es ben eisarvagea?
+</sp>
+<sp type="MainZone-Sp"><lb />2 Ieie llle
+<lb />Ie voey cherchié la Lhauda u boey de la bourgea.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />N’y va pa solamen, un autro tin ta placi,
+<lb />Si ben que gnat per ti ren que sa mala graci.
+</sp>
+<sp type="MainZone-Sp"><lb />IANIN.
+<lb />Coman, un autro vot cella qu’at tout mon cour?
+<fw><lb />D iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />I se vat maria, per te coupa plu cou.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />T'u di por me fourra la puzi din l’auteilly.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />T’amarin mey ballié bere din ma boteilly.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Ne vin donq affeloli de mon cout ta vigou,
+<lb />Si un autto l’aviet j’en mourtin de langou.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Sçachi donc que jamey tu ne sares son home,
+<lb />Et que sara plûto un bravo Gentilhome,
+<lb />Que luy fara leva lo na &amp; lou talon,
+<lb />Porta d’habillemen de seya tout deulon,
+<lb />Teni quand i voudrat lo cu dessu la cella,
+<lb />Avey tou sou pleisi comm’una Dameisella.
+<lb />V luy farat chougnié de pan blan tou lou jout.
+<lb />A bouchi que vou-tu, elli sarat toûjour,
+<lb />I sarat ben ver leu, faut pa que je te mento,
+<lb />La fruta ne sarat que bella d’un tau hento,
+<lb />Perce qu’u l’ét quasi aussi bravo qu’un Rey,
+<lb />En tout ce qu’on lo vou, u n’at pa son parey.
+<lb />Et l’ey d’autro coustié tessemblo una popousa,
+<lb />Que la farat bon vey, quand i sarat eipousa,
+<lb />Et sou paren u tour d’una soupa de ri?
+<lb />Eill’en sarat joyousa, &amp; ti lo plu marri:
+<lb />Mais perque ploure-tu, é se faut ben resoudre,
+<lb />L’affara ben cosu ne se pot pa deicoudre;
+<lb />Cat leu luy at donna una bagua à la fey,
+<lb />Queill’at tout aussi-to ficha dedin son dey.
+<lb />Qu’y fatia-tu, chacun charche son avantageo,
+<lb />I monte du plu ba jusqu’u plu hau eitageo.
+<lb />Insi la Luna pren sa clarta du Soley,
+<lb />Duon la verita, eilli fat ben per ley.
+<lb />Ie sçavo que la perta en ce qu’on ame veyre,
+<lb />E't un fey sur lo cour plu gro qu’on ne pot creire:
+<lb />Mais qu’y fare, faut ben volley ce que Dieu vou,
+<lb />Tourna-ten donq avermi, &amp; ne fay plu lo fou</sp>
+<sp type="MainZone-Sp"><lb />D ie le lne.
+<lb />Laissi-me tou solet regretta ma deigraci!
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Lo bon Dieu te console, &amp; te fasse la graci
+<lb />D’oublié tez amour, &amp; à mi d’obligé
+<lb />Celleu qu’at mieu que ti deque s’en revengié.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Fauto que contra mi l’ora de la traversa,
+<lb />Souffleise jout &amp; not, fauto qu’à la renversa,
+<lb />Je chayo tout à fat, quand se faut abochié,
+<lb />E’t un grand crevacour que me faille machié,
+<lb />Ou plûto avala tant de perut d’angoeisse:
+<lb />Hela n’ét que trop vray que la Lhauda me leisse,
+<lb />La grossa pley vi d’or endort son jugimen,
+<lb />Véyqui perque le fille amon lo changimen.
+<lb />Et comme per porta toûjour de belle ore,
+<lb />I charchon lo Monsieu, incore qui sont pore.
+<lb />L’infidela que trop, s’est donqua perjura.
+<lb />Où eyto cella fey qu’eilli ma tant jura?
+<lb />Où son lou seyrimen qui me fassiet sur l’herba
+<lb />Dessout cellou gran pin, mireu de la superba?
+<lb />Qui comme mez amour sont sen flou &amp; sen frut,
+<lb />Lo songeo que j’ai fait à l’hora que lo brut
+<lb />Leisse tou reposa, n’ét que trop veritablo,
+<lb />Car dorman renversa u fon de mon eitablo,
+<lb />’ay songea que la Lhauda avec son parpaillon,
+<lb />D iiij
+</sp>
+<sp type="MainZone-Sp"><lb />Sariet una tortua din larpa d’un ayglon,
+<lb />Qui chatrat à la fin avecque fa carrochi,
+<lb />Celley luy avindrat si quitte la perrochi.
+<lb />Car tou ce que l’orgueil fat monta chat aba.
+<lb />Mais la porra infensa qu’at veu souven tomba
+<lb />De l’air, en son plain chan la petita alloüetta,
+<lb />Ne debvriet pa en hau fare la giroüetta,
+<lb />I debvriet s’abbeissié, u lieu de s’eileva,
+<lb />Puisque la vanita du ven ét enleva.
+<lb />Mais perque quitte-te lo rochat de constanci,
+<lb />Pet estre si sujetta à l’ora d’inconstanci?
+<lb />I sat que den lo tem que noz estion enfan,
+<lb />Que sou eyu de mon cour se firon triomphan :
+<lb />Autra filli que ley n’at receu mes offrande,
+<lb />V soin de son tropel j’ay usa mille frande.
+<lb />Sur lou abro per ley j’ay fat lo picorou.
+<lb />Noz estion famillié comme frare &amp; serou.
+<lb />Qu’ay-je fat per avey merita qui me change;
+<lb />Ie ne sçavo d’avey amoindri se loüange,
+<lb />Pot-estre que voulan tata la veneison,
+<lb />Eill’ay ptey en deipit me folastre reison,
+<lb />Toutéfey je n’en pouvo accusa que la tara
+<lb />Queill’at, comme celleu qui dedin l’eyga clara
+<lb />Se neit, miraillan l’ombra de son printem.
+<lb />La vanita la pert. Hela! deipeu lo tem
+<lb />Que no joüavon tant à d’extella bombella,
+<lb />Ie lui ai que trop dit qu’ell’hestiet la plu bella.
+<lb />I n’at, i n’at de ley que trop bonn'opinion:
+<lb />Mais (lasset) per ploura ne me faut point d’ignon.
+<lb />Lou dou rut de me plou neyon touta ma veuua,
+<lb />Per ne veyre ceu tort inco que la reveuua
+<lb />Dun million de souspi (lou soudat de mon cour)
+<fw><lb />2
+</fw><lb />Se fasse per dressié lo combat à l’amour,
+<lb />Et vengré lo mespri que de ley je recevo.
+<lb />No, no, puis qu’en ceoi un deipit je concevo,
+<lb />Et que j’ai lo sujet d’un vray ressentimen,
+<lb />De sa legereta é faut que promptamen
+<lb />l'aleiso decoifié cella Nympha qui l’onda
+<lb />Etcoute murmura de sa coiffura blonda.
+<lb />Ie lui re prochirey jusqu’u moindre presen
+<lb />Que je luy ai donna, per porta sur lo sen :
+<lb />Que que disey l’ingrataté faut que lou luy raclo.
+<lb />I me toutnarat tou, ou je farey miraclo,
+<lb />Et pui quand l’on debvrit machura lou papié,
+<lb />Celleu qui m’at coupa l’herba dessou lou pié
+<lb />En aurat to ou tard, ou je morrey ben jœyno:
+<lb />Si n’ét ben troqua, lo feu de Saint Anthœ yno
+<lb />Bruleise ma cabane, œy je luy bailharey
+<lb />Vn tau cop per darrié, que je l’assoquarey.
+<lb />Et pui quand je l’aurey accapa de ma borna,
+<lb />Ie m’en irey cachié din quoque calaborna.
+</sp>
+<sp type="MainZone-Sp"><lb />COMPLAINTE DE IANIN.
+<lb />Ue farey-je pouret,
+<lb />&amp; Puisque l’amour m’ét aygto,
+<lb />Comm’on aren souret
+<lb />Ie vœy devani maigro:
+<lb />Mon arma deisola
+<lb />Ne se pot consola.
+<lb />V ven de mou souspi,
+<lb />Perdan ma tourtourella,
+<lb />Mon groin vat mieu flappi
+<lb />Que flou brisia de gresla :
+<lb />Et mon cout marfondu,
+<lb />Vat estre tou fondu<fw><lb />U
+</fw></sp>
+<p type="MainZone-Lg"><lb />Je seu dezeretta
+<lb />De touta l’esperanci,
+<lb />Gnat point de pouretta,
+<lb />Ni mesme de sonffranci
+<lb />Si granda sur lo cour
+<lb />Que la perta en amour.
+<lb />L’air debvriet s’embrunchié
+<lb />De ma mina malada,
+<lb />Et tou cettou rochié
+<lb />Qui ont prey la pelada,
+<lb />Debvrion plein de chalou
+<lb />Fendre de ma doulou.
+<lb />Muis l’air s’en éclaircit,
+<lb />Et fat rire sa faci
+<lb />Et lou rochié massit
+<lb />Ne me montron que glaci.
+<lb />Tout jusqu’u animau
+<lb />Se mocquon de mou mau.
+<lb />J V lieu de fare un rut
+<lb />De me plou, qui sen cessa
+<lb />Colisse avec un brut
+<lb />V pied de ma maitressa.
+<lb />La terra apra defour
+<lb />Le bet comm’un rafour.
+<lb />Puisque de tout secour
+<lb />L’esperanci m’est adverse,
+<lb />Faut que j’ayo recour
+<lb />A la mort qui tou renverse,
+<lb />Aussi ben je seu là
+<lb />D’avey tant barrula.
+<lb />O mort que j’ay chusi
+<lb />Per ma granda medailli,
+<lb />Et qui fat tout musi,
+<lb />Vin seye de ta dailli,
+<lb />Lo fi prin de mou jour,
+<lb />Vengi-me de ramgur.
+</p>
+<p type="MainZone-Head"><lb />–
+<lb />ACTE TROISIEME.
+<lb />SCENE PREMIERE,
+<lb />THIEVENA. PIERO.
+</p>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />JIero reposa-vo eyet mezeu lo tem,
+<lb />4 Veyan que vostron cop ét defour du chautem,
+<lb />Et qu’u ne sert plu ren qu’à le goutte dey pongi,
+<lb />voz aves (Dieu matci) un baston de veillongi.
+<lb />Nostra Lhauda que vet se matia ben-to
+<lb />A ceu Monseu que l’at acçompagna tanto.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Nostra filli n’ét pa per ceu grand Gentilhome.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />La vodtia-vo baillié à quoque creytin d’home.
+</sp>
+<sp type="MainZone-Sp"><lb />TDENCO.
+<lb />Je la volo baillié à quoque travaillou.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Eill’aurat (si Dieu plaisi) quoque sen de meillou.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />E que tu pensaria que celleu qui travaille
+<lb />Ne vaut pa mey que ceu qui ne fat ren qui vaille?
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Celleu qu’at ben dequei viyre sen se pena,
+<lb />E't mey que ceu qui vit du jour à la journa.
+<lb />Quand un home sariet lo plu vallien du mondo,
+<lb />S’u n’at que son travey u l’ét ( je vo tépondo)
+<lb />Mepreisia de chacun, si ben que vo ben mey
+<lb />Lt sogie fenetien, ou n'y penia jamney,
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ie veyo que Ianin lo moyet de Guillaume
+<lb />E't pro riche per ley, car u l’at quatro saume,
+<lb />Quatto peire de vache, &amp; trei peire de bo:
+<lb />V l’at un grand eysar environna d’arbo.
+<lb />V l’at un bon torel per empli nostra mougi,
+<lb />Vn ano per cuvri nostra cavala rougi,
+<lb />Vn monton aprés qui le feye vont belan.
+<lb />V pren de bla, de vin per se nourri tout l’an:
+<lb />Enfin que luy faut-to u l’et fat à la pena,
+<lb />E ne lui faut plu ren que la Lhauda per fena.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Qu'u fasse sou semblan de s’en alla defour,
+<lb />Car ener pa perieu que lo pan cot u four.
+<lb />Nostra Lhauda en vou un qu’at un po meillou mina,
+<lb />Et qu’aurat mieu deque la garda de famina.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Sarat pa son voley, mais ce que me pleirat,
+<lb />Ie volo que Ianin seye ceu qu’eill’arat.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ame-tes sou pingeon, veiqui per leu un’ala,
+<lb />Penses-tes de l’avey, ma filli n’ét pa foala,
+<lb />De s’alla jitta pur u plu biau de souz an,
+<lb />Eill'arat un Monsieu, non pa un païsan.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ah! je ne volo pa un Monsieu per filliatro,
+<lb />Ma filsi ne satiet pui aprés qu’un emplatro,
+<lb />Eilli voudriet toûjour dormi jusqu’à dina,
+<lb />I ne fariet plu ren quo me branda lo na
+<lb />Quand lui commandarin d’abada nostra boi,
+<lb />Et pui i levariet la testa comm’un oi,
+<lb />Perce que ceu Monsieu lui fariet meipreisié
+<lb />Tout ce qu’eill’at apprey dessout louz alisié.
+<lb />Ne me parla pa donq de fare cella pachi,
+<lb />l’amarin mey avei perdu ma meillou vachi.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />E faut que cellei set quand vou ne voudria pa,
+<lb />Ie sçavo mieu que vo où se faut arrapa.
+<lb />Lon trouve ben plûto lou ben de la fortuna
+<lb />Din una grand maison, que din una cabuna.
+<lb />Iamey en petit’eyga l’on ne pren gro peisson,
+<lb />Veiqui perque veyé qu’u tour de ceu garçon,
+<lb />La Lhauda mau nourtia devindret una grola,
+<lb />Puisqu’u n’at pa deque fare ben builli l’ola.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Di ce que tu voudres, quand i debvriet avey
+<lb />Fauta du bien du mondo é ne volo point vey
+<lb />De Monsieu verchié no, car u volon (Thievena)
+<lb />Estre l’hulo per tout &amp; n’avei point de pena,
+<lb />V ne font ren tandi qu’un home se marfont
+<lb />Apprés una charroi, se vet prou qu’u ne font
+<lb />Pa mey un jour ouré qu’un jour de Pentecoute.
+<lb />V mingeon tou lou bla sen sçavey ce qu’u coute.
+<lb />S’y a un bon morcel é lo lour faut baillié,
+<lb />Autramen u vo font fare lo cupellié,
+<lb />E faut tout per Monsieu, ou voz aves la guerra,
+<lb />Veiqui d’où vin que ceu qui labore la terta
+<lb />E't lo plu mau nurri, &amp; lo plu meiprisia,
+<lb />Insi lo Cordanié ét lo plu mau choussia,
+<lb />Insi louz Avocat preuon prou pen’à fare,
+<lb />
+<lb />Comme lou Procurou du public louz affare:
+<lb />Mais en lou propre fat ne prenon conclusion,
+<lb />Et se laisson fouven fleutta per forclusion.
+<lb />Ne me parla pa donq d’ellou, ni de lour gloeiri,
+<lb />Ie ne volo pa vey porta una barbœ iri
+<lb />A la Lhauda, qui det lo chautem &amp; l’hyver,
+<lb />Comm’una filli sagi avey lo fron uver.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Voz aves biau parla, faut que celley se fasse.
+</sp>
+<sp type="MainZone-Sp"><lb />RLERO
+<lb />Ie tu montrarey ben devan que lo jour se passe.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Que me montrari-vo, voz estes sen reison.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />T’apprendray que je seu maitre din ma meison.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />En ce quecietoit vo de tert pu ihantte.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Voz auri fat sen mi quoque fourba pot-estre.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Apparillon de pia, fasson de pallaissieu,
+<lb />Nostra filli ét promeisa à ceu bravo Monsieu,
+<lb />Eilli porte deyja la bagua de fromaille,
+<lb />E no faudrat ben to seina nostre polaille.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Coman, sen m’averti, sen mon consentimen,
+<lb />Voz auria sarra pachi en un tau Sacramen?
+<lb />Vo m’auria meiprisia en si grande remarque,
+<lb />Per le sannon quoqu’un porterat de me marque.
+<lb />Terra! sarat-to dit devan que de mori,
+<lb />Que je ne sçacho pa incora ben feri?
+<lb />Per la mar, per la san, je vo romprey la testa,
+<lb />Devan que seye not vo maudiri la festa:
+<lb />Car quand tout sariet fat tout se deiboillirat,
+<lb />Et de vostra folli lo mondo parlarat.
+<lb />Ont ey-ti l’eifronta, aussi ben que sa mare?
+<lb />Ie suy volo montra à meiprisie lon pare.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ce l’home vat sorti cella filli du sen,
+<lb />La pesta crevey ceu qui noz at mei ensen.
+<lb />Maugra sét du révou, u ne sat qu’u vou dire,
+<lb />Si la Lhauda at promei ei ti per se deidire?
+<lb />Ei-ti per refusa son parti quand u vin?
+<lb />Celeu trafanayou ne sçat ce qu’u devin,
+<lb />V ne sçat ce qu’u mache, u ne sçat ce qu’u bave,
+<lb />Si je parlo de pey, u me répond de fave.
+<lb />Non, je ne creyo pa que quoque feitutié
+<lb />N’aye fat quoque ren per lo fare virié,
+<lb />Per ce qu’u vou baillié plûto à un manoura
+<lb />Qu’à un richo Monsieu, nostra Lhauda qu'ét poura,
+<lb />Et qu’u ne vet n’engun que set mieu à son gra,
+<lb />Que Ianin lo vachié qui ét un malagra:
+<lb />N’et tu pa four du sen? tin-te pa de la luna,
+<lb />De vouley renversa una bona fortuna?
+<lb />Ie creyo qu’u l’ét fou, &amp; qu’u ne guarirat
+<lb />De ceu ma que lo jour que l’on l’enterrarat.
+<lb />Qui n’enragiriet-tou tour de souz affare.
+<lb />Quant à mi aver leu je ne sçavo que fare,
+<fw><lb />-
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTE TROISIEME.
+<lb />SCENE SECONDE.
+<lb />IAPPETTA. THIEVENA. PERNETTA.
+</p>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Omare qu’y a-to? voz estes corrassia,
+<lb />&amp; Piero vostron revou voz at-te rabussia?
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />V m’osse ben feru s’u m’osse poi atteigne.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />v ne pot plu (lo crey jui feri neuipeigne.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />No l’avon rencontra sur lo carro davat
+<lb />Marmotant de pet leu, je ne sçay ont u vat.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />y vat enferente la Eiruuuu d buet dulla communa;
+<lb />Per couppa sen teison lez ale à sa fortuna.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />La vou-tes recula u lieu de l’avancié?
+<lb />Vl'ét donq lo plu fou que set dessout lo Cié,
+<lb />Et plu deinatura qu’una vray besti brutta.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />le ne direnteno pa au vea se pleranpata,
+<lb />Puisqu’u l’ét sen reison, &amp; qu’u vat menassan
+<lb />De malheur cell' qui qu’ét sortia de son san.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />D’estr’empacha de leu ma fey jen ai gran honto;
+<lb />V me fat enragié, e faut que voz u conto.
+<lb />Comare vo sçavez que Dieu noz at donna
+<lb />Vna filli que fat ce qu’on vous sen rena,
+<lb />Que ne ploure jamey, que jamcy ne deipite,
+<lb />Que donne de bon cour, &amp; que de bon cour preité,
+<lb />Tout lo mondo sçat prou qu’eill’ét de bonna ley,
+<lb />Ie gagirin mon pia, que dessout lo Soley
+<lb />Lon ne trouvariet pa pot-estre sa semblabla.
+<lb />I'ne dit jamey mot quand eill’ét à la tabla,
+<lb />Toûjour dreita de poude prendre lo cu plat,
+<lb />I ne bete jamey la man dedin lo plat.
+<lb />Je vo juro ma fey qu’eill’ame mieu la danci
+<lb />Ou autro passa-tem, qu’un morcel de pidanci.
+<lb />Per forci de chacun eilli se far ama,
+<lb />Nengun
+<lb />Nengun á mon avi ne lui vou point de ma
+<lb />I voz ét si cossien, eill’at si bonna graci
+<lb />Qu’eillat rafla lo cour d’un grand Seignou de placi,
+<lb />Ie vo dio talamen que ceu Monsieu la vou,
+<lb />Et à quin pri que set, mais nostron vieu revou
+<lb />Ne la vou accorda qu’à quoqu’un de sa sotta.
+<lb />O granda fachati, je voudtin estre morta,
+<lb />Ore je n’aurin pas cela melanconi.
+<lb />Comare je ne sçay quinta mina teni,
+<lb />Veyan qu’u ne vou pa lo ben de nostra filli,
+<lb />Se vet ben qu’u n’ét pa bon Pare de familli:
+<lb />Car si de souz efan u l’aviet quoque soin,
+<lb />V lour témoignerit son amout u besoin.
+<lb />Mais de ren ne lui chau, u vout qu’y set vacheiti,
+<lb />V la vou hazarda, eytrassan sa vercheiri.
+<lb />I’en ai lo cour ben gro, j’en seu ben irrita;
+<lb />Dite me vey un po, qu’ariet-tes merita?
+<lb />D’eicagnié ceu Monsieu, qui ame tant la Lhauda?
+<lb />D’avcy contra lo groin un bassin d’eiga chauda.
+<lb />V fariet son devey d’apprendre à ceu revou
+<lb />Que de voley sa filli u lui fat trop d’honou.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />raut que din lo cervel u l’aye quõque tara,
+<lb />Puisque son jugimen court insi la tantara,
+<lb />Et qu’u ne cogneu pa que per vostron repo
+<lb />Ceu mariageo vin du Cié ben à prepo.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />E sariet lo vray ca per emmanda la pena,
+<lb />Si un Monsieu perniet vostra Lhauda pet fena.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Noz en vivrion tou dou davantageo dix an,
+<lb />Perce que lo pleisi noz iriet amusan,
+<fw><lb />E
+</fw><lb />Et que sen couti plu aprés ce qu’on affane,
+<lb />No laissition passa per un mey cinq semane.
+<lb />Que no manquariet-to? toûjour nostron dina
+<lb />Sariet prest aussi-tost aprés lo deyjuna.
+<lb />No ne pidansirion que de bona volailli,
+<lb />De builli, de ruti, de chappon, de palalli.
+<lb />Dieu sçat, si lou patié, &amp; si la veneison
+<lb />Manque jamey dedin celle bonne meison.
+<lb />(La bon eiga toujour se trouve ver la soursa)
+<lb />No ne metrrion jamey la man dedin la boursa,
+<lb />Comme font en tou tem lou pouro meinagié,
+<lb />Quand faudriet achita quoque ren per migié.
+<lb />E noz entrairiet ben, mais ceu fou ad verseiro
+<lb />Ne se vou pa servi du bonheur necesseiro.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Ne faut pa endura tella fantasquari,
+<lb />E sariet à noz autre una vray mocquari.
+<lb />E lo faut chapitra, &amp; fare de la sorta
+<lb />Qu'u l’entende reison, ou qu’u passe la porta.
+<lb />No lo faron virié noudieu comm'un tortel,
+<lb />Laissié no solamen gouverna lo batel.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />v l’aurat lo cervel aussi dur que la testa,
+<lb />Si u ne compren to qu’un peisson sen aresta
+<lb />Que vin de bon endret, ét un frian morcel
+<lb />Per una filli qu’at besoin du couversel.
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Si vo faites si ben que nostron Piero voillie
+<lb />Fare ce que j’ai pou que la foli deibollie,
+<lb />Ie m’en rivengiray (si Dieu plaist) à mon tour,
+<lb />Tour ainsi que gnat point de feyri sen retour.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Ne vo eichaufa donq quand faut qu’on se refteiche,
+<lb />Qu’ei-to ce que maintin toute le flou si fteiche?
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Quoque pleivi ben douci, ou pluto la rosa,
+</sp>
+<sp type="MainZone-Sp"><lb />PERNEI FI.
+<lb />Di pou de flappi donq é no faut arrosa,
+</sp>
+<sp type="MainZone-Sp"><lb />TATEVENA.
+<lb />Ie voey queri de vin du meillou de la cava,
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />I sçat ce que nofaut, que cela fena ét brava,
+<lb />Vna couva n’a pa si soin de sou puzin,
+<lb />Que cella bonna fena at de tou sou veizin,
+<lb />I ne regarde ren una personna dorchi,
+<lb />Quand imge lon ben, perce qui n’et ren porchi,
+<lb />I n’at ren que set seu, comme nostron garçon,
+<lb />Sa filli la tertat en toute se façon.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />E't ben vray ce qu’on dit, du pied, ou de l'eipala<lb />Ou du groin, lo pollien ressemble la cavala.
+<lb />da nuii ne latat jamney laira patat,
+<lb />La mare de chacun a toûjour fat eitat.
+<lb />La filli fat avoey à chacun bonna mina,
+<lb />Ma fey fat bon avey una tala veisina.
+<lb />14
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Asseton-no Comare, &amp; beuvon entretan
+<lb />Que lo bon esperit no vindrat u mitan</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Veyci nostron vray ca per fare de chicole.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Je voy prendre cetteu, de pou qu’u ne s’envole.
+<fw><lb />E i.
+</fw><fw><lb />2-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Non, vo ne mourri pa eujourdeu ni deman,
+<lb />Car voz aves lo soufso aussi bon que la man.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Per vivre plu long-tem faut que dinsi je passo
+<lb />Toute ma fachari, &amp; que ce que j’amasso
+<lb />Per ala verchié no, passe per avalon.
+<lb />Lo bon vin fat teni chacun sur sou talon.
+<lb />V revicolariet una personna morta.
+<lb />Ie trovo qu’u me rend de jour en jour plu forta.
+<lb />V me fat eicrachié, u fat mouri lou ver
+<lb />Que me piquon lo cour, &amp; jamey à rever
+<lb />V ne me fat tomba, incora que jen bevo
+<lb />Mey que fena que set d’icy à Saint-Eygrevo.
+<lb />Et je creyo que quand j’en chicholarin mey
+<lb />Qu’un portafey ne fat, je ne charrin jamey.
+<lb />Comare vo sçavé que je ne migeo gueiro,
+<lb />Mais à chaque bocon é men faut un plen veiro.
+<lb />I’amo mey migié po, &amp; bere plu soven,
+<lb />Maque ne let paren d eiga nuc coten.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />En bevan, ucviion (vo vene de la virla)
+<lb />Que dion ti de nouvel chié la dana Sibilla?
+</sp>
+<sp type="MainZone-Sp"><lb />TAPPETTA.
+<lb />Que noz avon la pey pot-estre per cent an.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Tant mieu, eyet tanto prou brut du patantan.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Lez arme sont u crot, lou soudar ont la cassi,
+<lb />Et le gen en repo, voyanton la cocassi,
+<lb />Chacun se regaudit, gnat petit meinagié
+<lb />Qui din lo passatem ne voleize nagié,
+<lb />Lon n’y ot que chanson, que violon, que sonnette,
+<lb />Lo mondo ne s’y plait qu’à conta de sornette,
+<lb />Et lou gallabontem n’y font que lenterna.
+<lb />Gnat catro ni canton que sur la verpeina
+<lb />Ne set plen de le gen qui sont de trop de resta.
+<lb />Et se cogneu entant que parren de la pesta,
+<lb />Ilico qu'errii foun de raera a ena millié,
+<lb />Car ley boulique tout ainsi qu’un firmioulié.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />A mon avi le gen i fon pro de fanfare.
+</sp>
+<sp type="MainZone-Sp"><lb />IARPETTA.
+<lb />Iamcy u grand jamcy ne s’en ét veu tant fare,
+<lb />Per place ion ne cee renque de Datelou,
+<lb />Qui farceyon si ben, que gnat nengun qui poeisse
+<lb />y engarda de pime (de nej iur lecoene.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Celley me fat gro ben du entendre conta.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />De grand Dame se font jour &amp; not charronta
+<lb />A la charreiri nova en tirant vers Traclourra.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Celle Dame parey sinton-ti ben la pourra?
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Si lour habillimen n’aviet bonna cintou<lb />Lour estafeire qu’ont souven u cu la tou,
+<lb />Et qui de pou de brut eitranglon le vicine,
+<lb />Pendrion tout aussi-to le gen per le narrine</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ie creyo quand i sont ensen que tout tralut.
+</sp>
+<sp type="MainZone-Sp"><lb />IARPETTA.
+<lb />Tala porte sur ley mey de mille culut.
+</sp>
+<sp type="MainZone-Sp"><lb />E2.
+<lb />Et s’eiparpallié tant, per montra qu’eillét blanchi
+<lb />Que la bouchi du cour et defour touta franchi.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Le mouche &amp; lou tavan le debvon ben piqua.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />V sont dessu lour pel jour &amp; not appliqua.
+</sp>
+<sp type="MainZone-Sp"><lb />TAIEVERn.
+<lb />Ne se parle plu ren de quoque biau mariageo?
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Faut ben que lou Monsieu se marieison un viageo
+<lb />Mais de prou egnat qu’un que poisseiz’emporta
+<lb />La Dameisella qu’at lo groin ben chapota.
+<lb />Ceu iqui que l’aurat chantarat ben goguette,
+<lb />Veyant u prés de leu se bellez amouretre.
+<lb />Louz autro jitarion (comme fille attrapey.
+<lb />De latima duz eyu grosse commé de pey.
+<lb />Ie voudrin de bon cour per lou tirié de pena,
+<lb />Que gnosse (comme ley) una demi douzena.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Den la villa gnat prou per lou défeceyou.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Prou d’autre belle flou contenon lou seyou,
+<lb />Aprés qu’on a cusli u mey de May la rosa:
+<lb />Mais talou amoirou ne pouvon avey posa,
+<lb />Aprés qu’u l’ont perdu una si bella flou;
+<lb />Car u ne trovon ren de biau ni de meillou.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Qui fa-to mieu chanta lo cocu din la Villa?
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Tala qu’on cret que set la fena plu abila,
+<lb />Qui s’en vat u Sermon, ou ben à l’Hospita,
+<lb />Aprés qu'à son honou eill’at prou repita.
+<lb />Tala cuvre son sen d’una tela d’Holanda,
+<lb />Qu’at de gran chapelet plu long qu’una gailanda,
+<lb />N’et pa defour du lieu où lon se pot meila,
+<lb />Qu’avet souz amoirou, y vire la peila.
+<lb />Tala devan le gen fa la saincta cifogni,
+<lb />Qu’engreisse son archet de bona galafogni.
+<lb />Et tala cret avoey d’estre ben à cachon,
+<lb />Que tout lo mondo montre u dey son banichon.
+<lb />Ie vo dio ben que gnat qui sauton sur le couche,
+<lb />Qui sont eicerveley comm’un patié de mouche,
+<lb />Qu’on cret que lour trafit ne va pa sagimen,
+<lb />Et son sage pamoin, selon mon jugimen.
+<lb />Ie pensarin pluro ma de lez eigue-morte,
+<lb />Qe de cene qui vont courant defour le porte.
+<lb />Toutefey je me penso un ca que se verrat,
+<lb />Qui ben farat u mondo un jour u tiou varat</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Perque de Ridelet parlon-ti à Grenoblo?
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Perce qu’u l’ét en tout vilain comme Deunoblo.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Eyet un Procurou je n’u osso pa dit.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Per ne payé jamey u pren tout à credit,
+<lb />Egnat pa cabatet qu’u n’y set à la tailli:
+<lb />Son nom &amp; son renom sont per tout en batailli.
+<lb />Vcyé chié Perit qu’at bonna mina bon jeu.
+<lb />Chié la Clochi qui met sa fena tout’en feu.
+<lb />Chié lo petit Bonnet que vou fare lo Cossio,
+<lb />Qui fat toute se sausse amare comme tossio.
+<lb />Chié la Grilhada qu’ét un recagni meyjour,
+<lb />Qui rechagne che leu tout lo sen cor du jour.
+<lb />E iiij
+</sp>
+<sp type="MainZone-Sp"><lb />Chié Lhaudo lo Vilain, où son nevou qu’icoute
+<lb />Le chanson, quand ché leu l’argen plot ou deigoute,
+<lb />Chié maistre Barselet rey du petit patié.
+<lb />Chié Pistolet qui ét bon drollo en son meitié.
+<lb />Chié la Gueina, à qui una gandola raza
+<lb />Vin mieu qu’un abit de cadit ou de raza.
+<lb />Chié René, qui n’at pou de mouri de sey,
+<lb />Insi que font trey fille u ban de mauconsey.
+<lb />Et chié la Tiri-vin qui per creitre se vente
+<lb />Tin u gra du meyna le plu jouillié servente.
+<lb />Chié Payerna qui fat à la tabla ronfla
+<lb />Tou cellou qui Tané volon écornifla.
+<lb />Chié Lhaudo de Pari qui tin defour son vaudo
+<lb />L’eipeya deigueina per menassié lean Lhaudo.
+<lb />Chié Giraud qui n’ét pa à la tabla gauchié.
+<lb />Chié Rivet qui ne pot avala sen machié.
+<lb />Chié Estienne qui ét u jeu de l’arc lo maistre.
+<lb />Chié Sainctonge qu’at pou de l’aspergci du Prestre.
+<lb />Chié Na de Pistolet, qui s’ét brula lo na,
+<lb />Et qui contra le gen ne fat ren que rena.
+<lb />Chié maistr’Ambroy qui tin lo pogeo à la centuri,
+<lb />Tandi que l’apprentif pique de la larduri.
+<lb />Chié lo Richo, qui fat un dieu de sou eicu.
+<lb />Chié Gabriel qui tin lo poignard sur lo cu.
+<lb />Chié Iaque du Fessou, qui voudriet vey sa tossi
+<lb />Dedin quoque pertu, où d’edin quoque bossi,
+<lb />Chié Guillet qu’at tou jour l’appetit ben euver.
+<lb />Chié Molard, qui n’at pa besoin de malhiver.
+<lb />Chié Abran l’eiguenau, qui voide ben la tassa.
+<lb />Et qui fat de Careyma una Dimenchi grassa,
+<lb />Chié l’Hosto du Murié, qui avec grand honou
+<lb />Retire lou juyou berlandié chicanou.
+<fw><lb />2
+</fw><lb />Chié l’Hosto de la Vachi, à qui la Peyronnella
+<lb />Chante qu’u l’at ben fat, de not en sentinella.
+<lb />Chié Saumur, qui la not dedin un tombatel
+<lb />Fat charunta souz hosto u fond de Merdarel.
+<lb />Chié Cormié qui souven s’endor sur sa chichola.
+<lb />Et chié Deschans qui ét duz hosto la pichola.
+<lb />Euir ceu feideiet ; eeu maleytru gonel
+<lb />E't machura per tout comm’un raclafornel.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />E son dam perqu’eytes toujour din le taverne.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA,
+<lb />viriou qu'et eibruda se cache din le verne,
+<lb />De mesme leu, à qui chacun fat la bayar,
+<lb />Caclla u cabaret; bet cotaiirda Savoyar.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />v fat ben inco pi quand u l'et à Valanci.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Laisson-lo donq alla à quatro pied sen lanci.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />A perpo, gnat-to poin inco d’auliamen.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Tout at eita si chier, qu’on n’aviet solamen
+<lb />Per cinquante-cinq sou la quarta de la segla.
+<lb />En ceu tem malheirou falliet vivre de regla.
+<lb />Mais lo tem ét venu que no faut jour &amp; not
+<lb />Fare lou plen peyret de crozet &amp; de gnot,
+<lb />Et per de gro torteyu aiflora la farina.
+<lb />Ne faut pa l’eitarba comme la Catharina,
+<lb />Puisque la flou du bla ne coute que vingt sou,
+<lb />Banquetton souqua ben, briffon à nostron sou.
+<lb />Laisson à nostron chin reste de nostre groute,
+<lb />Quand u vin ne faut pa regarda ce qu’u coute.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Quand lo pot du meillou contatiet un florin,
+<lb />Per en bere à mon sou-je me deichaussarin,
+<lb />I'engagirin mon pia, mon fouda, &amp; ma cotâ.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />I’en aurin à cachon toûjour quoque picota.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />naa que lo mauvey ten ne lane piu de ina,
+<lb />Per quoque po d’a gen se porrat pro chima.
+</sp>
+<sp type="MainZone-Sp"><lb />ERNETTA.
+<lb />Que qu’u coutei faudrat que dinsi je m’eichaudo,
+<lb />Lon trove per d’argen de siblet à saint Lhaudo.
+<lb />Laisson lo pensamen u dattié que mourrat,
+<lb />Et bevon solamen tandi qu’u duratat.
+</sp>
+<sp type="MainZone-Sp"><lb />TAIEVENA.
+<lb />Allon-noz-en ensen, levon ben lo cu, hauta,
+<lb />Fasson toute si ben que gnaye point de fauta.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Comare quiat-to? vo ne ditte plu ren,
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Comare ét prou parla, faut pa tant de parole,
+<lb />Quand faut fatc d'esponge ou pluto de chicole.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Chicola ben comare, afin que vo disi
+<lb />Son ca à ceu tuppin, qui me fat deipleisi.
+</sp>
+<sp type="MainZone-Sp"><lb />APPETTA.
+<lb />Deipachon, avalon iiee cetta piroula,
+<lb />Per no chassié du eyu tout à fat la nievola.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Allon ore sçavey que dirat ceu veillar,
+<lb />Tandi que noz avon l’esperit ben gaillar.
+</sp>
+<p type="MainZone-Head"><lb />ACTE TROISIEME.
+<lb />SCENE TROISIEME.
+<lb />AMTDOR. LHAODA. JANIN.
+</p>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vel triste changement vois-je sur vostre face?
+<lb />OD’eù vient que sous les pleurs vôtre clarté
+<lb />s’efface?
+<lb />De grace, dites-moy (Bergere) d’où ces pleurs
+<lb />Procedent, pour ternir de vos jouës les fleurs.
+<lb />Vous ne répondez rien: Quel accident s’oppose
+<lb />A la felicité que l’amour nous propose?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Me fache ben, Monsieu, mon Pare at resolu
+<lb />De inle donna a ceu ramd io ueilloiu.
+<lb />Mais autant que toutou, j’amarin mey per home
+<lb />Iean de Lali qui presche u four ont’u s’eytrome.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />La navire où je suis flotte bien loin du port,
+<lb />O Dieux! que je ressens de maux par ce rapport,
+<lb />Vostre Pere veut donc qu’on malheur nous separe,
+<lb />Cela se pourra-t’il çontr’un amour si rare?
+<lb />Non, je ne le crois pas; car nous serons plus forts
+<lb />Que luy, pour repousser ses injustes efforts:
+<lb />Si vostre foy se rend un rocher aussi ferme,
+<lb />Que mon amour constant qui n’aura point de terme.
+</sp>
+<sp type="MainZone-Sp"><lb />dii al d lns
+<lb />Tenisse-to qu’à mi, ce que voz ay promey
+<lb />Sariet tot, mais (lasset) je n’en povo pa mey,
+<lb />Mon Pare ne vou pa que vo seye tout mieno,
+<lb />V ne sçat ce qu’u vou per leu, ni per lou sieno.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vostre Pere ne peut bannir mon amitié,
+<lb />Car vous tenez mon cœur, mais pourquoi sans pitié
+<lb />Défend-il à vos yeux de m’estre favorables?
+<lb />Si les maux que je sens, sans vous sont incurables?
+<lb />Pourquoy ne veut-il pas que je sois vostre époux?
+<lb />Doute-t’il que je n’aye assez dequoy pour vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />No ten, mais je ne sçay ce que ce l’home broge,
+<lb />D’un soufflet u ma fat veni le jaute roge,
+<lb />Comme si j’avin fat quoque foli du corp,
+<lb />Perce qu’on lui a dit que noz estion d’accord.
+<lb />V me fat mey pati qu’un forsat de gallera,
+<lb />Ma mare contra leu s’en confle de collera,
+<lb />Et per l’amour de no le fene d’ici prés,
+<lb />Tout lo sen cor du jour lui ont eita aprés.
+<lb />Mais dedin son cervel teitu &amp; opiniatro,
+<lb />On ne pot imprima un Monsieu per filliatro.
+<lb />V l’ame mei quoqu’un qui sçache de l’euillon
+<lb />Ben piqua lo grivel, lo jay, lo parpaillon,
+<lb />Et champeyé lou lou ben loin de nostre feye,
+<lb />Monsieu, j’ay grand doulou que tout lo mõdo veye
+<lb />La foli de mon Pare, &amp; que per vo quitta
+<lb />Ma faille (maugra mi) estr’à sa volonta.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />O malheur sans pareil, faut-il que d’un tel Pere
+<lb />I’épreuve le mépris sur le point que j’espere
+<lb />D’estre felicité de quelque bon accucil?
+<lb />Faut-il qu’un desespoir me te. eu cercueil.
+<lb />Belle, voulez-vous bien m’abandonner aux larmes,
+<lb />Aux sanglots, aux tegrets, &amp; aux dures alarmes
+<lb />De la mort, pour souffrir tel injuste courroux
+<lb />D'un Pere, qui pour nous n’exerce rien de doux.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie ne voudrin pa sou que la moindra larima
+<lb />Vo tombisse duz cyu, je chayo de la cima
+<lb />De quoqu’abro pluto, que si lo moindre ma
+<lb />Vo veniet solamen per m’avey trop ama.
+<lb />Me fache mey qu’à vo de perdre ce que j’amo,
+<lb />Mais vo sçavez( Monsieu) qu’aprés celeu qu’ét l’amo,
+<lb />Mon pare et lo premié que je debvo servi.
+<lb />Je ne povo donq ren fare sen son advi,
+<lb />M'ét forci quand u criet de jugne lez eipale.
+<lb />Outra celey veyan que j’ai trop courtez ale
+<lb />Per m’envola si haut, é m’y fat ben songié,
+<lb />r ieitadies de bon cour, que vo fussia bergié,
+<lb />Mon pare incontinen voz iriet à l'encontra,
+<lb />Et sarion tou pet no cellou que no sont contra.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ie voudrois d’un troupeau estre le vray tuteur,
+<lb />Pour emporter le prix d’un loyal lerviteur.
+<lb />Mais ma condition n’est du destin l’ouvrage,
+<lb />Que pour estre sans fin exposé à l’orage.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />E ne faut pa pensa, que iou peu pendoida,
+<lb />Ie sorto de chié no devant la fin de l’an,
+<lb />Que per quoque Bergié qui gagnirat mon Pare:
+<lb />Mais qu’au que set, de mi u n’aurat pa topare.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Mais cepchdant je vois mon espoir condamné,
+<lb />He dieux ne suis je pas moins heureux qu’un dãné
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ne voz metta pa tant celley din la cervella,
+<lb />Gnat ren de bon guari qu’una playi nouvella.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Me parler de guerir c’est m’oster le secours,
+<lb />le n'en puis plus, le mal me tranche le discours.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie creyo que ceci ne sarat pa de moque,
+<lb />V l’ét evanaüy lo deipleisi l’assoque:
+<lb />V l'at de forci autant qu’una pata molliat,
+<lb />Luy faut vito jita d’eyga avec un folliat.
+<lb />Volé-vo ben (Monsieu) afin que je tombeiso,
+<lb />Mori entre me man ore que je vo beiso?
+<lb />Parla-me donq un po? eyet pro souspira,
+<lb />Voz auri à la fin ce que vo desira.
+</sp>
+<sp type="MainZone-Sp"><lb />AMTDOR.
+<lb />Voulez-vous à la mort disputer la victoire,
+<lb />Ce seroit me ravir la plus insigne gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ne parla ren de mort, j’amo mieu vey lou vi,
+<lb />Baillié-me sou la man, &amp; allon prendre avi
+<lb />V pied de ceu fayar tout frizonna de moussa,
+<lb />Comme no chassiron de nostrouz eyu la poussa.
+<lb />Asseton-no icy, &amp; prenon la freichou,
+<lb />Tandi que lo Soley bucle tou jusqu’u chou.
+<lb />Ie me seu avisa (inco que mal appreisa,)
+<lb />Que per veni à bout de nostron entrepreisa,
+<lb />E faudriet que veitu comm’un genti bergié,
+<lb />Vo venissia deman dedin nostron vergié,
+<lb />A l’hora que mon pare eicoute sur son agi
+<lb />L’izel que je vodrin tem deum ina cagl,
+<lb />I qui fassan semblan de cherchié qu’oquare y
+<lb />Eigara du tropel, qui n’at pa son parey.
+<lb />Et pui de poà po de parol’en parola,
+<lb />Vo mettant plu en trein qu’un borlio sur sa viola,
+</sp>
+<sp type="MainZone-Sp"><lb />Vo ventaria souven tou ce qu’u l’at planta,
+<lb />Lou pommié, lou perié qu’u l’at si ben enta.
+<lb />Sou prunié qui n’ont pa una meichanta rama,
+<lb />Et sou biau cireisié, sen deisala la gama.
+<lb />Adonqua de plaisi vo lo faria sauta
+<lb />Comm’un joeino mouton, qu’at envey de jouta.
+<lb />V l’auriet si grand joey de vostra cogneussanci,
+<lb />Que luy sariet avi qu’u reprendriet naissanci.
+<lb />Vostron francillimen (langageo ben pigna)
+<lb />Lo fariet jaqueta, insi qu’un geay deigna.
+<lb />V voz entrétindriet du siego de la Mura,
+<lb />Du ma que lou Carvin firon à nostra Cura.
+<lb />Duz Suisse grosse gen qu’ont la testa d’un vel,
+<lb />Qui furon tout deifat entre Euriageo &amp; Revel.
+<lb />Et de la pou avoey que firon le chatagne,
+<lb />V tem que l’ennemi couriet per le montagne.
+<lb />V voz attiteriet, &amp; vo l’enjoularia,
+<lb />Quand à son taborin vo voz accordaria.
+<lb />mla mare d’autro flan ben fait'u badinageo
+<lb />Ioüiriet comme faut per no son personageo,
+<lb />Si oen que no portion ien pra granda chanson
+<lb />No prendre, &amp; jita lo froc sur lo boisson.
+</sp>
+<sp type="MainZone-Sp"><lb />AMTDOR.
+<lb />Salutaire conseil tu restablis ma force,
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />I’entend’ilay quoqu’un qui de parla s’eiforce.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Belle de vostre avis je suis trop satisfait,
+<lb />Car vostre volonté ne doit rien à l’effet.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Per le matnon eyet ceu qu’embrasse la Lhauda,
+<lb />Tu t’en mordres lou dey vileina china chauda.
+<lb />Ma que vo deguisi lo ca de vostron flan,
+<lb />Per marchie pul per tout noz auron lou pied blant
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ie suivray cét espoit que vous faites renaistre,
+<lb />Plus joyeux qu’un captif qui trouve sa fenestre,
+<lb />Aani que vouu vejeo, en quittant les vergers,
+<lb />Que ma feinte n’estoit qu’en l’habit des bergers.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />L’affare eirat prou ben, prenes souqua courageo.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Ie crevo de deipit, de collera j’enrageo.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Le courage est à ceux qui se voyent secourir,
+<lb />Lors qu'ils font fur se point de vamnere ou de mourit?
+<lb />Ainsi sous vos faveurs, dont mon ame est ravie,
+<lb />Ie vaincray le malheur, ou je perdray la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Quey-to ce que me tin que je n’alo d’un cop
+<lb />Eicervela ceu bougro, ou luy rompre lo cot?
+</sp>
+<sp type="MainZone-Sp"><lb />DAnaBne
+<lb />Egnarat que Janin que troubleize le nopce.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />S’il y penle à mes pieds il trouvcra sa fosse.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Faquin qu’at lo courageo aussi fret que lo glat,
+<lb />Ie te farey senti ma franda ou mon eyglat.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />D'où vient ce coup de pierte, y a-tu. fuer qu'ebuche?
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Sen douta ceu Janin cacha derrié le ruche,
+<lb />A frandaya ceu cop de mala jalousi.
+</sp>
+<p type="MainZone-Other"><lb />JANIN
+<fw><lb />v oition pan à la nn le trouvarat lhai</fw></p>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Où est-il ce pendart, oseroit-il paroitte,
+<lb />Ie crois qu’il est hardy cõm’un Moine en son cloitre.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />VC.
+<lb />Ie creigno son eipéa autant que son fourrel,
+<lb />Et je me chau de leu autant que du Borrel.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />
+<lb />Le feu de mon courroux me rend la face rouge.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />10r DOI.
+<lb />Tomon-noz assetta gnat personna que bouge.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />1VELIO.
+<lb />Vo voz accoubla ben, mais testa d’un linot,
+<lb />Ie vo decoublarey devant que seyé not.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />DIOV:
+<lb />Maraud, qui que tu sois, tu conspires ta perte,
+<lb />Où es-tu, viens à moy, ma poitrine est ouverte.
+<lb />Coquin, tu n’oserois soutenir cét affront,
+<lb />Ton courage est caché aussi bien que ton front.
+<lb />Iaioux, puiique le mar de Pentiu te presse,
+<lb />Tu devrois avoir peur d’offenser ma maitresse.
+<lb />Attache-toy à moy, sors de ce lieu suspect,
+<lb />Si ta rage ne peut obeir au relpect.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Retiron-no d’icy de pou de quoque piera,
+<lb />Vn meschen cou abat l’audaci la plus fiera.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />AM I DOR.
+<lb />Ie n’apprehende rien qu’un sinistre accident,
+<lb />Dont vos beaux yeux pourtoient pancher à l’occidõt
+<lb />Car d’un coup inhumain vous pourriez estre attein
+<lb />Retirons-nous avant que la terre soit peinte
+<lb />D'une même couleur, i’espere que demain
+<lb />Ce rustre sentira le fardeau de ma main.
+</sp>
+<sp type="MainZone-Sp"><lb /> JANIN.
+<lb />Vo vené per lou bœy que la mana afrose,
+<lb />Mais voz i trovari d’eurtié mey que de tose.
+<lb />Vostrez amour faron comme mi petafin,
+<lb />Et comme lou peisson qui suivon lou Dauphin.
+<lb />Ie farey, je farey en tant de lieu de trape,
+<lb />Que faudrat qu’en passan l’un de vou dou s’atrape.
+<lb />Vo ne trovari ren de sado ni de dou,
+<lb />4
+<lb />Me crevarei un eyu per voz en creva dou.
+<lb />I’eimussiray lou chin contra vou ( leyda coubla)
+<lb />La fontana per vo sarat à la fin troubla.
+<lb />Je farey en façon que vo vo quittari,
+<lb />Ie volo contra vo usa d’enchantari.
+<lb />Ie vœy de cetteu pa trova la feitureiri,
+<lb />Qui u petiz efan fat pou per le charreiri,
+<lb />Qui fat pissié le gen contra la traveison,
+<lb />Et qui fat de per ley tou lou jour reveison.
+<lb />111
+<lb />431
+</sp>
+<sp type="MainZone-Sp"><lb />CHANSON.
+<lb />Ergere, je suis si content
+<lb />D
+<lb />O De voir dans un’ame nos ames,
+<lb />1eXuol
+<lb />Que mon cœur n’est point repentant
+<lb />De l’avoir preferé aux Dames,
+<lb />Puisque tes regards amoureux
+<lb />Veulent, quę les miens soient pour eux.
+<lb />[ Inco ben que vo me flatta,
+<lb />Monsieu, en vostton amitanci
+<lb />Vo ne sari pa barata,
+<lb />-
+<lb />Car j’aurey per vo de constanci,
+<lb />Mey que le Dame qui d’amour
+<lb />N’ont solamen que pet un jour.
+<lb />siastal<lb />121
+<lb />102
+<lb />12OV3HOC
+<lb />211
+<lb />4
+<fw><lb />.36
+<lb />2
+</fw></sp>
+<p type="MainZone-Lg"><lb />*La constancé n’a point d’autels
+<lb />Que pour l’offrande des fidelles,
+<lb />Iamais les amours immortels
+<lb />Ne sortent de ses citadelles;
+<lb />Ainsi mon amour &amp; ma foy
+<lb />Seront toûjours fermes pour toy.
+<lb />I Comme lou dou dey de la man
+<lb />Vivon louz amoirou fidello.
+<lb />Et comme lo fer &amp; l’eyman,
+<lb />Iamey u ne se groson d’ello,
+<lb />Ni ne povon se vey de loin,
+<lb />Tant l’un at de l’autro lo soin.
+<lb />Hamais la separation
+<lb />Ne fait deux vies de leur vie,
+<lb />L’un perd la tespiration
+<lb />Quand l'autre meurt, car leur envie
+<lb />Ne s’allume que d’un flambeau,
+<lb />Et ne s’esteint qu’en un tombeau.
+<lb />Amour de dou cour en fat un,
+<lb />Mais d’un u ne pot fare coubla:
+<lb />Entre louz vraiz Aman nengun
+<lb />N’a dou vouley, ni l'arma doubla:
+<lb />L'un fat tout ce que l’autro vou,
+<lb />Car uene sont qu’un ellou-dou.
+<lb />Ainsi ton desir est le mien,
+<lb />Et dé tes soupirs je soupire,
+<lb />Tu es à moy, &amp; je suis tien,
+<lb />Parce qu’amour tient sont empire
+<lb />Au milieu de ce cœur parfait,
+<lb />Que nostre volonté s’est fait.
+<lb />( Beison-no donq sen fare ma
+<lb />Comme l’honou no tecolhmande,
+<lb />Hau
+<lb />
+<lb />4 1111
+<fw><lb />M
+<lb />12010
+<lb />Ha1
+<lb />41
+<lb />OORC.
+<lb />1ds
+<lb />OVIl114
+<lb />90
+<lb />2b
+</fw><lb />Et nostron amour affama
+<lb />Auta lo pleisi qu’u demande;
+<lb />Lo baisié à l’amour souzrit,
+<lb />et Pamnoul de leu le nouine
+</p>
+<p type="MainZone-Head"><lb />ACTE QUATRIEME.
+<lb />SCENE PREMIERE,
+</p>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ve sarat-to cécy, tout lo mondo me piche,
+<lb />Ma fena contra mi de mal en pi s’affiche,
+<lb />I brut mey qu’un molen qui ne pot tempora,
+<lb />Ma filli d’autro flan ne fat ren que ploura.
+<lb />D’un flan l’on n’ot que brut de la Dana Pernetta,
+<lb />De l’autro que caquet de la Dana Iappetta.
+<lb />Maugra non de le fene, i me font enragié,
+<lb />1
+<lb />L’una me romp la testa, à poin de m’outragié:
+<lb />L’autro ne cherche ren qu’a m’eimoda querella,
+<lb />Ma fille maugra mi vou estre Dameisella,
+<lb />Et u lieu qu’y devriet en estre marcora,
+<lb />Ie crey qu’y se treirat lou douz eyu de plora.
+<lb />I’ei biau la menassié, à toute fine force,
+<lb />Eilli vou ceu Monsieu, que per l’avey s’eiforce.
+<lb />Ii ne sçay que cecy sarat quand sarat cot,
+<lb />Egnat pa plu moyen d’endura ceu tricot.
+<lb />Vo diria que chié mi y at quoque miraclo,
+<lb />Ou que quoque enragea y fat lo demoniaclo.
+<lb />De tou flan tiquetac, patati, patatau:
+<lb />Lo brut d’un Martinet ne pot pa estre tau.
+<lb />Egnat qu’enfer u prés de celle japparelle,
+<lb />Ne se vet-to pa ben qu’elle sont farfarelle,
+<lb />Voley qu’un pouro set biau pare d’un Seignou,
+<lb />Qui u Graisivodan n’at pa son compagnou,
+<lb />Qui me meiprisiriet &amp; cellon de ma raci,
+<lb />Si tot que m’avindriet quoque moindra deigraci.
+<lb />Queque j’en ayo dit i volon gouverna,
+<lb />Lour carcavelamen me fat deicreitina :
+<lb />Ma fena qui devriet m’estre la plu paisibla,
+<lb />E't cella que se rend contra mi plu terribla,
+<lb />I dit que si je foey à ceu Monsieu refu,
+<lb />Iamey à sa colagni i n’attachirat fu.
+<lb />Que jamey à dina i ne me farat soupa,
+<lb />Qu’y ne versarat vin, ni eiga din ma coupa.
+<lb />Marmotarat toujour son benedicité,
+<lb />Qui fatat per deipit tout à rebucité.
+<lb />Qu’y ne m’apprestarat ren de bon ni de sado,
+<lb />Et qui me laissirat quand je saray malado.
+<lb />Celley me fat pensa à ce que je faray
+<lb />Per avei verchié mi la pey quand j’y sarey.
+<lb />Ie vito comm’un sou qu’on jette à croy ou pila,
+<lb />Me faut prendre consey de quoqu’un de la Villa.
+<lb />Cnacun dit que Gondran ét un home qui sçat,
+<lb />Per conseillie le gen, de Latin un plen sac,
+<lb />Ie m’en vocy lo trova, pet sçavey de la scienci,
+<lb />Si je sarey contrain de prendie pacienen
+</sp>
+<p type="MainZone-Head"><lb />ACTE QVATRIEME.
+<lb />SCENE SECONDE.
+</p>
+<sp type="MainZone-Sp"><lb />.
+<lb />AMIDOR.
+<lb />Aintenant sous l’habit d’un Berger amoureux,
+<lb />MIe trouve que les chãps n’õt rien de rigoureux.
+<lb />Et que ce beau tapis (dont la terre se couvre)
+<lb />N’a rien de laid que lors que l’Hyver la découvre,
+<lb />Dans ce lieu bigarré, les amoureux Zephirs,
+<lb />Pour éventer les fleurs empruntent mes soupirs,
+<lb />dEij ui
+<fw><lb />e10E
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Les arbres sont gatnis des feüilles maquerelles,
+<lb />Pour couvrir les baisers des chastes torterelles.
+<lb />Icy les rossignols, linottes &amp; pinsons
+<lb />Ne parlent de l’amour qu’avec mille chansons.
+<lb />Et de tous ces ruisseaux les ondes sont discrettes,
+<lb />Car elles parlent bas de leurs amours secrettes.
+<lb />Icy tout est si doux, qu’il semble que le temps
+<lb />A reservé ce lieu pour l’honneut du Printemps.
+<lb />Les Bergers sont heureux, qui dans cette demeure,
+<lb />Au bien qu’elle produit ne perdent pas une heure.
+<lb />Et ceux qui ne seroient jaloux de leur plaisir
+<lb />Setoient (comm’un rocher) sans ame &amp; sans desir.
+<lb />Toutefois quoy qu’icy mon esprit se delecte,
+<lb />Ie n’y ay point changé mon épée en houlette,
+<lb />Afin d’y savourer les plaisirs d’un séjour:
+<lb />Mais pour plaire au Soleil qui me donne le jour.
+<lb />Ce n’est point pour chasser sur les bords de l’Izere
+<lb />Les loups, qu’un bon pasteur reduit à la misere,
+<lb />Mais pour y moissonner les fleurs avec le fruit,
+<lb />Et le contentement d’une nopciere nuit,
+<lb />D’autant que mon rival se brule à la chandelle,
+<lb />Me-voicy donc Berger hypocrite &amp; fidelle,
+<lb />Mon habit &amp; ma foy le témoignent assez,
+<lb />Amour trop inhumain autheur de cét excez,
+<lb />A quel point reduis-tu ceux qui te font hommage?
+<lb />Tes loix n’en fõt que trop la preuve à mon domage.
+<lb />Mais pourquoy murmurer contre le beau dessein
+<lb />De ce Dieu que je porte au centte de mon sein?
+<lb />9’il faut que Iupiten sous ses loix se transforme
+<lb />En eigne, &amp; en taureau, ou en quelqu’autre forme.
+<lb />C’est se montrer ingrat sous la temerité:
+<lb />Amout, pardonne moy, si je t’ay irrité,
+<lb />214
+<lb />Puisque par ton moyen ma raison est perduë,
+<lb />La grace au re pentir n’est jamais deffenduë.
+<lb />Sois-moi si bon Pilote en cette longue mer,
+<lb />Que je puisse gouter le doux aprés l’amer.
+<lb />Il est temps de voguer, le malheur ni l’orage
+<lb />Ne peuvent empêcher l’effet de mon courage.
+<lb />Il n’y a qu’un vieillard qui se puisse opposer
+<lb />Au port de mes desirs, mais pour le disposer
+<lb />A me tirer des flots cruels à mon martyre,
+<lb />Ie vay lè voir au lieu où le charme l’attire.
+</sp>
+<p type="MainZone-Head"><lb />MCTT QVATRIEME.
+<lb />SCENE TROISIEME.
+<lb />JANIN. LA SORCIERE.
+</p>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Ana qui devina cé que se dit &amp; fat,
+<lb />D) Qui faites deveni prou de gen contrafat:
+<lb />Qui aprés lou meina faites couri le fille:
+<lb />Qui conjura serpen, cocoarez &amp; chanille?
+<lb />Qui lantes tenversa tout sen-dessu dessout,
+<lb />Et qui faites dansié lou cayon à la sout;
+<lb />Aida-me à mes amour, ou je courray fortuna
+<lb />De fare comm’un chin qui jappet à la Luna.
+</sp>
+<sp type="MainZone-Sp"><lb />LASORCIERE.
+<lb />Mon efan je farey per ti tant d’oreison,
+<lb />Que tu ne perdres pas lo sen ni la reison,
+<lb />Quand je devrin gasta mou chandelon, mou ciergee
+<lb />Et dedin mon crusieu tout mon bon huilo viergeo
+<lb />Conta me solamen touta ta fachari:
+<lb />Quin morcel sur lo cour po-tu pa digeri?
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Ce que j’ay à vo dire ét chosa qui m'ellance,
+<lb />R niij
+</sp>
+<p type="MainZone-Lg"><lb />Et qui me pese mey que plomb à la balance.
+<lb />Vo remarquari donq qu’y at cinq an entié
+<lb />Que mon cour ét breya din un mêmo mortié,
+<lb />Que je seu amoirou d’una qu’ét fricandella
+<lb />Autant que gratiousa, &amp; bella qu’infidella.
+<lb />Qui u commenciment que noz estion solet,
+<lb />Ne me cachave ren lo dessout du collet.
+<lb />Sito qu’y me veyet y perdiet contenanci:
+<lb />I ne pouviet avei dedin sa sou venanci
+<lb />Autro garçon que mi, ni mi autra que ley,
+<lb />Nez estion plus souven ensen que cey ni ley.
+<lb />Nostrouz eyu se miran d'ellou le contentavon,
+<lb />Comme nostrou beisié quand no louz applatavon.
+<lb />No n’alavon jamey en chan sen no sonna,
+<lb />En chan no no pleision tou dou à chensonna,
+<lb />Comme sur lou brondeyu lo malo &amp; le femele,
+<lb />Ie fasin se virié, je fasin se parmele.
+<lb />Ie lui aidavo en tout, ormi à l’eipusié,
+<lb />Vray ét qui me payave aussito d’un baisié.
+<lb />I'estin lo ben venu, son Pare maitre Piero
+<lb />Bon homo, qu’at un pié dedin lo cementiero,
+<lb />Preniet si grand plesi à m’y vey addonna
+<lb />Qu’u n’aviet autr’envei que de me la donna.
+<lb />Quand j’allavo chié leu tout estiet per eicuelle,
+<lb />Sa Mare qui de mi fut ore le nouvelle,
+<lb />N’aviet repo que quand i me veyet teni
+<lb />Sa filli, qui chié ley me sçaviet reteni.
+<lb />Ceu bon tem at dura jusqu’u jour que lez ore
+<lb />M’ont tracassia comm’un malado qui s’eisore:
+<lb />Car deipeu qu’un Monsieu, mistodin de la Cour
+<lb />Lez at emburilla avec son biau discour,
+<lb />I'ai apprey que la filli, &amp; la fausse de Mare
+<lb />Ne tenon plu per mi que de parole amare.
+<lb />Veiqui tout lo sujet qu’ét su mon estomat,
+<lb />D’où je seu plu boudra que la paita en la mat.
+</p>
+<sp type="MainZone-Sp"><lb />LA SORCIERE.
+<lb />Ne se faut pa fachié per chosa si legeiri
+<lb />Veyan que ta maittessa est una messongeiri:
+<lb />Mais ben di ouuegimen fur ourtre ro deiss,
+<lb />Crey-me, leissi couri l’eiga avat per son fi.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Lo changimen ne plaist qu’uz esperit volageo,
+<lb />Qui von patricotan de vilageo en vilageo
+<lb />De nouvellez amour, mais un garçon rassi
+<lb />Queque vo lui diiij queque vo lui fassi,
+<lb />Quand u l’ét comme mi coiffia de l’amitanci,
+<lb />V l’ame mey mori qu’eiberchié sa constanci.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SORCIERE.
+<lb />Ama sen estre ama, &amp; sena sen culli,
+<lb />E't un grand deipleisi qui ne pot pa failli.
+<lb />Ne te metta pa donq en plu granda deipensa,
+<lb />Car de talles amour veiqui la recompensa.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />I'espero de l’aver de diet ou de traver,
+<lb />Car son Pare, de qui je me teno cuver
+<lb />M’a jura sur la foi qui den son arma trotte
+<lb />Qu’à la fin ceu Monsieu y brularat se botte.
+</sp>
+<sp type="MainZone-Sp"><lb />LASORCIERE.
+<lb />Per te deisabusié je te volo montra
+<lb />Que t’en aures lo dam que je t’ay remontra,
+<lb />Regarda donq de prés dedin cella fontana
+<lb />Où se vin miraillié la Dana Sarbatana.
+<lb />Vey-tu pa ceu Monsieu de qui t’es si jalou,
+<lb />Qui n’ét pa ren Bergié per champeye lou lou:
+<fw><lb />2
+</fw><lb />Mais pluto per planta u pettu son houletta,
+<lb />Et fare lo pouset, apres ceila pouretta.
+<fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />Ie n’y veyo que trop celleu na de groman,
+<lb />Et lo Pare de ley qui se tochon la man.
+<lb />ut vou-to-dire iquen, sarron-ti ren la pachi
+<lb />D’un matiageo maudit dont je creigno l’eitachi
+</sp>
+<sp type="MainZone-Sp"><lb />LA SORGIERE.
+<lb />Autant ventariet-to, car tu v y que celleu
+<lb />Qu’at eita tout per ti, ét ore tout per leu.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Ah, poro malheirou! seu-je pa miserablo,
+<lb />Comme cellou qui sont esclavo duz Arablo?
+<lb />Hela! je seu perdu, si vo no deipachié
+<lb />De fare quoquaren per louz en empachié,
+</sp>
+<sp type="MainZone-Sp"><lb />LA SORCIERE.
+<lb />Tou lou Mariageo sont de meichente deiferr,
+<lb />Ce qu’ét eicrit u cié s’accomplit sur la terra.
+<lb />L’on at biau marmota, l’on at biau patela,
+<lb />Quand lou Mariageo sont u cié tout eitela
+<lb />Eicrit en lettra d’or, qui jamey ne s’eicafe,
+<lb />E faut que l’opposan dedin lo golliar gaffe.
+<lb />Ie n’y povo donq per enfeituramen :
+<lb />Mais per lou fare haï, é faut fare autramen:
+<lb />Lo jour que lo Cura recevrat lour billetta
+<lb />Et qu’u l’eipousaron, lour faut noa l’arguilletta.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Si la piera eimoda ne se pot reteni,
+<lb />Si faut laissié alla ce qu’on ne pot teni,
+<lb />Et si faut que chacun me bailleize lo sauzo,
+<lb />E faut louz attrapa, é faut que je lour causo
+<lb />Autant de deipleisi qu’u m’en on procura,
+</sp>
+<sp type="MainZone-Sp"><lb />LA SORCIERE.
+<lb />Vn jour u maudiron l’eitachi du Cura,
+<lb />V couchiron ensen, mais jamey l’arbareita
+<lb />Ne tirirat matrat, ni flesche qui set dreita.
+<lb />Vin-me souqua trouva tanto dessu lo tard,
+<lb />Ie t’apprendrey de mot qu’empachon qu’un petard
+<lb />Ive pot paenioncie una porta quecnova,
+<lb />En terra d’ennemi tu en fares l’eiprova.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Ce qui det eipelli ne det gueiro couva,
+<lb />Tanto donq sen failli je voz iray trouva,
+<lb />Per apprendre à charma du bassinet la moursa,
+<lb />Et planta lo courié à l’entra de sa coursa.
+<lb />Cependant bonna Mare à qui je seu tenu,
+<lb />Comm’à cella qui m’at mey u mondo tout nu,
+<lb />Si la pida vo pot rendre l’arma sensibla
+<lb />V deipleisi que j’ai, presta me vostra sibla
+<lb />Qui fat dansié chacun per lou fare eigruisié,
+<lb />Quand uiaton aptes de quoque gro rondé.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SORCIERE.
+<lb />La veiqui, garda ben d’en fare ton dommageo,
+<lb />Adieu, n’eisibla pa de madute un fromageo.
+</sp>
+<sp type="MainZone-Sp"><lb />ANIN.
+<lb />J’eisiblarey pluto de bere à mon dina.
+<lb />Ie seu ore prou fort, cat je povo ruina
+<lb />La battari de ceu qui cret de fare breschi,
+<lb />Et d’entra u chastel u premié coup de fleschi.
+<lb />La corda de son arc n’ét que de fi retort,
+<lb />I romprat en bendan. V païrat lo tort
+<lb />Qu'u l’at fat à mouz eyu qu’eition trop idolatro,
+<lb />Ettant pare que mare, &amp; filli que filliarro
+<lb />Danfiron tandi tan lo brando dũ Sabat,
+<lb />Qu'u fumaron de chau comm’un feu de tabat.
+</sp>
+<p type="MainZone-Head"><lb />ACTE QVATRIEME.
+<lb />SCENE QVATRIEME.
+<lb />THIEVENA. LHAUDA. THONO. PIERO
+<lb />AMIDOR. BABOLIN. MATHIA,
+<lb />IANIN. PERNETTA.
+</p>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />A filli faut venta tandi que lo ven vente,
+<lb />MMaque tan solamen la ruza ne s’eivente,
+<lb />Faut fare en ceci comme lou mareichau,
+<lb />Battre lo fer eiplet cependan qu’u l’ét chau,
+<lb />Ton Pare &amp; ceu Monsieu, bergié per compleisanci,
+<lb />Sont entra ben avan dedin la cogneussanci,
+<lb />V se sont embrassia, bra dessout, bra dessu,
+<lb />En se courban plu ba que ne fat un bossu,
+<lb />Et per mieu devisa de ce que lou pertoche,
+<lb />V se sont mey dessout nostron noye qu’aboche.
+<lb />vo diria aiou vey en tren à caqueta,
+<lb />Qu’u regardon lo jour qu’u faudrat banqueta.
+<lb />Veiqui perque tanui que ton t'asc et en dansi,
+<lb />E faut que nostron brando alle ben en cadanci.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />De pou que n’ale dret j’en vœy touta tremblan.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Devan le gen n’en faut poin fare de semblan.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Du feu lo plu profond en sort una fumeiri,
+<lb />Toutte lez ombre sont sujett' à la lumeiri.
+<lb />I’ai pou que lo patié ne seye deicouver
+<lb />Devan qu’u seye cot, car ce qu'ét plu couver
+<fw><lb />tene din
+</fw><lb />te deisale toujour à Saint lean &amp; Saint Pierre
+<lb />cujotirdeu tout ec qu'et paite jurqu'a le pierre.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Qui deisalariet-to chosa qu’ét si cacha,
+<lb />Lo bocon passarat, puis qu’u l’ét ben macha,
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Gnat que nou trey, &amp; leu, qu’ayon part à la leichi,
+<lb />Mon Thono garda ben de gasta nostra peichi.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ne me pren pa icy per un rapporta pet,
+<lb />Tu sça que je ne voey jamey à pied couplet;
+<lb />Ne faut pa que de pou la vicina t’eimosse,
+<lb />Car l’affare eirat mieu que taborin à nopce.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Si quittan lo rocsat, se prunie, roni talon,
+<lb />Ie veyo mou desi un jour à chivalon,
+<lb />Iamey à ton endret je ne sarey ingrata.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Lhauda, j’amarin mieu estre tout plen de glata,
+<lb />Que si per mi t’estia trompa en ceu secret,
+<lb />De ce que tu m’a dit n’ayi point de regret.
+<lb />Qn0
+<lb />1*210
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Veiqui que vat prou ben, tenon tou boinia mina,
+<lb />Lo plu difficil’at passa per l’eitamina:
+<lb />Ltr approche sont feite, egnat plu ren qu’un sau
+<lb />110
+<lb />A fare, per intra din lo fort sen assau.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Voz est'en biau chamin, gnat que de ben s’entendre,
+<lb />Tout vin (comme se dit) à poin qui pot attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie ne sçavo (lasset) que sarat tout ison<lb />Vna clochi de fonda at toùjour mêmo son,
+<lb />Perqu’a-tu si grand pou ore que l’asseuranci
+<lb />re dent fare avei mey que jamey d’espéranci,
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Ie sen comm’un peichou qui sur l’eiga raman
+<lb />Ne tin pa asseura l’enguila den sa man:
+<lb />Toutefey ne pot pa m’arriva lo semblablo,
+<lb />Oui uioiieu Hiidor beigie qu’et tant aimablo,
+<lb />Montre que son amour ét sen compareison.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ore je veyo ben que t’a quoque reison:
+<lb />Car en cecy se vet chosa qu’ét remarquabla,
+<lb />Que son amour n’ét pa fonda dessu la sabla;
+<lb />V ne se fat Bergié que per te retirié
+<lb />Du bocy , ou 1o vacille de pot pru tattirié.
+<lb />E ne pot donq fally que la fourba qu’u joye
+<lb />Ne fass’entra ton cour en se plu grande joye.
+</sp>
+<sp type="MainZone-Sp"><lb />IERO.
+<lb />Ie ne sçavo, Bergié, ce que vo m’aves fat,
+<lb />Ie voudrin de bon cour n’avei autro preyfat
+<lb />Que de voreteni dedin ma maisonneta,
+<lb />Car voz estes marqua d’una bona planeta.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />bon Pere, dont les ans touchent mes sentimens,
+<lb />La faveur que j’attens de vos commandemens,
+<lb />Fait que je leur promets autant d’obeïssance,
+<lb />Que de respect, selon ma petite puissance,
+</sp>
+<sp type="MainZone-Sp"><lb />IERO.
+<lb />Bergié, vo me creva lo cour d’honesteta,
+<lb />Ie ne sçaurin, veyan la bonna volonta
+<lb />Que voz avez per mi, sen vo migié ni beré,
+<lb />ren pleno pertemuirio ose qui tout abbere.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Ie suis confus de tant de protestations,
+<lb />Que je n’ay merité de vos affections.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Leisson cellei à part, je vo juro per m’arma,
+<lb />Que si nostron Seignou qui ne crain ni gendarme,
+<lb />Nt canon, ni petard, ni coup de coutelard,
+<lb />Et qui toute le gen tin dedin son filard,
+<lb />
+<lb />Me donave un biau fils, comme vo qui seubisse,
+<lb />M’engarda que frippon jamey ne m’attrapisse,
+<lb />Et garda ma meison de l’harpa du latron,
+<lb />Ie sarin plu conten que lo Rey de Carron.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Vostre fill' a d’attraits, des beautez &amp; des charmes,
+<lb />Qui des mains d’il dieu Mais ierolet tober les armes
+<lb />Vn Seigneur la recherche, &amp; meurt en ses appas,
+<lb />Vn berger comme moi y perdroit donc ses pas.
+</sp>
+<sp type="MainZone-Sp"><lb />AI PIERO. 
+<lb />Ceu Monsieu qui ben loin sa Seigneuri arrente,
+<lb />(inco que lou cayon n’ont pa migea se rente)
+<lb />At blau l’emburiie toujour a coniemon,
+<lb />
+<lb />I ne portarat pa d’ale de parpaillon.
+<lb />Si souqua vo voles touchié sur cella corda,
+<lb />le voz autarei tot de devan l’eyu la borda.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR. GVE.
+<lb />Je serois trop heureux de traiter de ce point,
+<lb />Mais un pareil bon-heur ne m’artivera point.
+</sp>
+<sp type="MainZone-Sp"><lb />1 PIERO. I TOY
+<lb />Personna ne l’aurat que vo, s’y voz agrade.
+<fw><lb />
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />AMOIDOR.
+<lb />Mon desir ne sçauroit monter au plus haut grade,
+<lb />Et de vostre faveur je suis si fort lié,
+<lb />
+<lb />Que quand je ne pourrois estre vostr’allié,
+<lb />Ny moins par mon service estre reconnu d’elle,
+<lb />Ie ne derogeray au devoir d’un fidesse.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />I ne sarat qu’à vo, u vollet-i ou non,
+<lb />I ne pot ren sen mi: &amp; pui per le marnon
+<lb />Quinte reison que l’aye, &amp; quintou gey qu’y fasse,
+<lb />E faut que per iqui eille passe &amp; repasse.
+<lb />Si ne fat mon voley i vertat d’un rever,
+<lb />4
+<lb />Que je sçavo metta mon chapel de traver.
+<lb />I s’engardarat ben d’eimoucié ma collera, 
+<lb />I sçat que je seu Piero, &amp; non pa un Jean lera,
+<lb />Creyé que sagimen elle se condurat.
+<lb />Allon-la donq trouva per vey s’i vo durat.
+<lb />Vo verri qu’eill'ét ben jolietta &amp; ben sana,
+<lb />Et qu’eill’ét prou jentia per una païsana:
+<lb />
+<lb />Qu’eill’at de jugimen mey que d’un plein panié,
+<lb />Et qu’eill’ét eiveillat comm’un rat de granié:
+<lb />I n’at que trop de sen. La veici per rencontro.
+<lb />
+<lb />Lhauda, eicouta ben ce que je te remontro: 
+<lb />Ie volo que cetteu qui montre en se vertu
+<lb />Qu’u n’at pa regarda toujour per un pertu,
+<lb />Set ton eipou, vouz-u? montra- te sen pareilli,
+<lb />Parla li, ne fay pa te tirié per l’aureilli.
+<lb />Et ti fena vin cey, leisson lou caqueta,
+<lb />M'éi avi eujourdeu que je torno teta.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />40 CII
+<lb />Vo montra ben, Monsieu, que voz estes lo trompho,
+<lb />Car de perei à vo egnat pa à regonfo.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Tu vois que je me rens sous tes beaux yeux, mes rois;
+<lb />Agreable
+<lb />Agreable à ton pere, &amp; conforme à tes loix,
+<lb />Lt du en nuclite tout auue je lurpant.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Vat prou ben, parlon ba de tout ce que se passe.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Vey-tu ben ceu mottet, u n’at pa toûjour prey
+<lb />Sa via d’un mémo pan, u l’ét trop bien apprey.
+<lb />V n’ét pa de cellou qui ni mousquet ni lata
+<lb />N’ont porta, ni passa doley la Boisserata.
+<lb />V l’at eita pet tout ormy à Saint Bardos
+<lb />Onte lou Savoyar sont prey per de bedot.
+<lb />V ne laissiriet pa ren migié sa soupa :
+<lb />Quand u moyen u l’at de mouton una troupa,
+<lb />Et d’autte chose à tout que je ne sçavo pa,
+<lb />Si j’avin lo leisi de tefare mou pa,
+<lb />Ou te dire pluto, sen fare grand harengua,
+<lb />Ce que din lo vetgié j’ay approy de sa lengua:
+<lb />De miraclo de leu je te recontarin.
+<lb />Mais suffit qu’u me plai mieu que ceu tartarin
+<lb />Quic ouempramidout a una grettd setgi largi.
+<lb />Autto que leu n’arat de ma grangi la chargi :
+<lb />V l’aurat nostra Lhauda, eyet prou remena,
+<lb />Et pui que ceu Monsieu s’aleise promena.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ie seu de vostron flan, car se vet à sa mina
+<lb />Qu’u ne se laisse pas migié à la vermina.
+<lb />V se tin reblanchi, se geste, se façon
+<lb />Montton qu’u ne debt ren à un bravo garçon.
+<lb />Vo devé sare donq ceu Mariageo à la coita,
+<lb />Perce que vo sçavé que dedin una boita
+<lb />Lon ne la pot teni, un pou de migeison
+<lb />Fet quoque fey flappi la flou en sa seison.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ie n’ay pou que diquen: veyqui perque je volo
+<lb />Deinichié ceu Monsieu, qu’at la mina d’un drolo,
+<lb />Que luy voudriet preita un pan sur sa fourna:
+<lb />Mais je luy farcy tout avei un pan de na.
+<lb />Ore je vocy du pied me tirié l’eipina,
+<lb />Lhauda tu ne po plu fare de la tupina:
+<lb />Ne t’ay je pa trova lo secoyou que faut,
+<lb />Tu vey au moin qu’u n’at ni tara m derfaut,
+<lb />Qu’en di-tu? lo vou-tu? cyét ton avantageo.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Qna filli n’ét pa deigouta en fruitageo,
+<lb />V voley de son Pare i se remet toûjour,
+<lb />De vo doncqua depen lo plu biau de mou jour,
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Veiqui bien répondu, ét vo que je souhaitto,
+<lb />Volle. vo que per ley avecque vo je traitto?
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />te iruitens que cela de vostre volonté,
+<lb />Tout mon espoir consiste en l’extrême bonté,
+<lb />Dont vous me départez une grace infinie,
+<lb />Disposez des accords, &amp; de leur harmonie.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ne volo pa seissié ceu affare su pié,
+<lb />Thono, vey me queri quoque grata-papié:
+<lb />Convei mou paren, mou cousin, me coufine,
+<lb />La Mathia ma serou, &amp; veysin &amp; veisine.
+<lb />Deipachi-te, cour donq, vito, ne tarda pa,
+<lb />Lou bon morceu sont prey si-tot qu’u sont coupa.
+</sp>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />En nos adversitez les graces sont écloses,
+<lb />Ainsi l’on peut cueillit aux épines les roses,
+<lb />Nous embellirons tost nos cheveux &amp; nos mains
+<lb />Au parterre d’Hymen, paradis des humains;
+<lb />Car voicy le chemin de la rejoüissance,
+<lb />A la fin l’un de l’autre aura la joüissance.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Malhiver à la fin ne pourrat pa dura,
+<lb />E faudrat ben aprés avei prou endura,
+<lb />
+<lb />Aver quoque bon tem, maque iouque ne faille
+<lb />Demoura deiposa gueiro aprés le fianç aille.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ah courageo, veicy lo Gresfié Babolin,
+<lb />Heritié du papié de maitre Repelin.
+</sp>
+<sp type="MainZone-Sp"><lb />O R O.mlN.
+<lb />Eicrivon, deipachan, fasson valey la pluma
+<lb />Afin que lo martel batte tot sur l’encluma.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />PIERO.
+<lb />Asseton-no un po tandi qu’u l’eicrirat,
+<lb />Parlon ba autramen u s’eichibuchirat,
+<lb />Comme fit lo Balot dedin son eicritura,
+<lb />Quand vindrat à parla de l’eipousa futura.
+<fw><lb />9
+<lb />EH
+</fw></sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Ceu Monsieu Babolin, gro migeou d’alloyau,
+<lb />A prey contra la Mort de grand lettre royau:
+<lb />Lo veiqui releva de la fossa cindrousa,
+<lb />Per fare enchavillé l’eipou aver l’eipousa.
+<lb />Dedin lo cementeiro où la Mort se norrit,
+<lb />Y n’at coucha qu’afin d’avei prou d’esperit,
+<lb />Assi, u l’ét sçavan, &amp; lo Paley l’empleye,
+<lb />Iamey dessou lo fey duz affare u ne pleye.
+<lb />Eyet leu qui toujour fat emmatricula
+<lb />Cellou qui de lour pa font, chacun recula.
+<lb />Eyet leù qui dou sou sur chaque procés deime.
+</sp>
+<p type="MainZone-Lg"><lb />Et qu’et mieu empressa qu’un asno de vendeime.
+<lb />Eyet leu qu’at bailla lo consei à Caillat
+<lb />De teni sou papié &amp; son vin à foillar.
+<lb />A Rivoyri lo clerc, qui chacun eipelaille,
+<lb />De se couchié de jour comme sont le polaille.
+<lb />Et à prou de truande à se metti’à cachet,
+<lb />De pou qu’on le contteigne à passa lo guichet
+<lb />Du Conven de Madama, ou gnat reo que chabuclo
+<lb />Mais n’at tes pa biau na per porta de beruclo;
+<lb />Et dez aureille avoey per porta de pendan,
+<lb />Se deu moustache vont montan &amp; deicendan;
+<lb />L’una contra lo cié, l’autra conna la terra.
+<lb />V bet comm’un carron en deipit de la guerra:
+<lb />Se den comm’un ratel sont toute deicharney.
+<lb />V fat sa provision toute le matincy
+<lb />De bon fromageo gra de la Dana Bureiri
+<lb />Qu'u vat toûjour chougnan de charteiri en charteiri
+<lb />Lo na din son mantel, comme louz eicolié,
+<lb />Qui comme lou mulet porton lour ratelié.
+<lb />V ne chante jamey avecque sa camusa
+<lb />Quand ben son vente ét plen comm’una cornamusa.
+<lb />Quoquefey quand u l’et sur ley bien appoya,
+<lb />Pette comm’un rossin qui monte à la poya.
+<lb />Enfin chacun sçat prou qu’en tout u l’ét abila,
+<lb />Et qu’en son corp u n’at que la quoa de deibila,
+</p>
+<p type="MainZone-Head"><lb />Contrat de Mariage, reçeu par
+<lb />Maistre Babolin.
+</p>
+<sp type="MainZone-Sp"><lb />V nom de Pan, Dieu de nos bois,
+<lb />Sçachent tous les joüeurs d’aubois.
+</sp>
+<p type="MainZone-Lg"><lb />De flajolets &amp; de musertes,
+<lb />Qu’aux lieux garnis de violettes,
+<lb />Amour, des Bergers seul vainqueur,
+<lb />A si bien niché dans le cœur
+<lb />De ces Amans, qu’on leur prepare
+<lb />(Afin que rien ne les separe)
+<lb />La presente conjonction,
+<lb />Pour la multiplication 
+<lb />Du genre humain, puisque leur âge
+<lb />Est propre pour le Mariage.
+<lb />C’est pourquoy en ce joli mois,
+<lb />L’an mille six cens trente-trois,
+<lb />Et le huitiéme des Kalendes,
+<lb />Que de l’Arcadie les bandes
+<lb />Ne sont pas toutes au molin :
+<lb />Pardevant moy Iean Babolin,
+<lb />Du lieu de Coblavit Notaire,
+<lb />Tabellion hereditaire,
+<lb />A la forme que sont plusieurs,
+<lb />En presence de vous, Messieurs,
+<lb />Qui prenez tout ce qu’on vous donne,
+<lb />Se sont establis en personne
+<lb />Le gentil Berger Amidor,
+<lb />Dont l’âge tient du siecle d’or:
+<lb />Et Lhauda, Bergere adorable,
+<lb />Dont la beauté incomparable
+<lb />Donne le Printemps aux coupeaux,
+<lb />Lesquels pour joindre leurs troupeaux:
+<lb />De l’avis des Parties contentes,
+<lb />Pere, mere, oncles &amp; tantes
+<lb />Respectivement ont promis
+<lb />Au conspect de tous leurs amis,
+</p>
+<p type="MainZone-Lg"><lb />G iij
+</p>
+<p type="MainZone-Lg"><lb />S’épouser l’un l’autre au Temple
+<lb />Du Dieu Hymen qui les contemple,
+<lb />A la requeste du premier
+<lb />Qui sentira comme un limier
+<lb />La venaison, à peine d’estre
+<lb />Indignes de la main du Prestre,
+<lb />Despens, dommages, interests,
+<lb />Suivant les Status des Forests.
+<lb />Et parce que c’est la coutume
+<lb />Auparavant que l’on consume
+<lb />Les Mariages, de doter
+<lb />Les filles, pour mieux supporter
+<lb />Les charges d’un nouveau ménage,
+<lb />Tandis que l’un sur l’autre nage:
+<lb />Se constitue meurement,
+<lb />Et du tout volontairement,
+<lb />Piero pere de la Bergere,
+<lb />Laboureur, voisin de l’Izere,
+<lb />Qui pour rendre ce couple tel,
+<lb />Que jadis le couple immortel
+<lb />Estoit auparavant le crime,
+<lb />Donne à sa fille legitime
+<lb />Vn verger dont les arbres verds
+<lb />Ne craignent jamais les hyvers:
+<lb />Et auquel, quoy que l’Esté tonne
+<lb />N’y a que Printemps &amp; qu’Automne,
+<lb />Environné de ses ruisseaux,
+<lb />Et peuplé d’un million d’oyseaux:
+<lb />Contenant une belle treille,
+<lb />Sous laquelle Baccus sommeille.
+<lb />Vn poirier qui jaunit son fruit,
+<lb />Comme l’œil contraire à la nuit.
+<fw><lb />
+</fw></p>
+<p type="MainZone-Lg"><lb />Vn pommier chargé de ses pommes,
+<lb />Dont les femmes tentent les hommes,
+<lb />Vn cerizier qui fait des vers
+<lb />Plus que Poëte en l'Vnivers.
+<lb />Vn bon griottier pour la fiévre
+<lb />De ceux qui ont la peur d’un liévre.
+<lb />Et un prunier, qui les tailleurs
+<lb />Rafraichit au mois des chaleurs,
+<lb />Avec ses autres contenances,
+<lb />Vrais confins &amp; appartenances,
+<lb />A la charge que le cocu
+<lb />Levant sur ces arbres le cu,
+<lb />Ne chante point, à cause d’elle,
+<lb />Le déplaisir de son fidelle.
+<lb />Item, en contemplation
+<lb />De leur propte conjonction,
+<lb />Thievena, bonne menagere,
+<lb />Mere de ladite Bergere,
+<lb />Lui donne un lit couvert de fleurs,
+<lb />Pout y esteindre ses chaleurs:
+<lb />A la charge que bien apprise,
+<lb />Elle n’y lasche point sa prise.
+<lb />Item, sa tante qui souvent
+<lb />Souffle mieux du cu que le vent,
+<lb />Luy donne un fout pour sonusage,
+<lb />A la charge qu’en son ménage
+<lb />Elle mette bien le levain,
+<lb />Et ne petrisse point en vain.
+<lb />Item, l’épousée future,
+<lb />Suivant les loix de la nature,
+<lb />Se cobstituë ses moutons,
+<lb />Sa bouche, ses yeux, ses tetons,
+<fw><lb />G iiij
+</fw></p>
+<p type="MainZone-Lg"><lb />Et ce qu’ell’a dessous sa cotte,
+<lb />Que pour supplement de sa dotte
+<lb />Elle exhibera dans la nuit
+<lb />Que l’un à l’autre doit sans bruit
+<lb />Tirer quelques coups d’estocade,
+<lb />Pour enfoncer la barricade.
+<lb />Item, ledit futur époux,
+<lb />Pour mourir entre deux genoux,
+<lb />Et rendre son ame assouvie
+<lb />Au lien où chacun prend la vie,
+<lb />Se constituë tous ses biens,
+<lb />Autant pour luy, que pour les siens
+<lb />A la forme de l’Inventaire
+<lb />Fait ci- devant par moi Notaire.
+<lb />Item, outre un de ses boyaux,
+<lb />Donne à l’épouse pour joyaux,
+<lb />Deux perles en rondeur égales:
+<lb />Et pout ses robes nuptiales
+<lb />Cent florins, qui croîtront l’amas
+<lb />Du Marchand Rosseau Iean Thomas.
+<lb />Item, en cas qu’il leur arrive,
+<lb />Qu’ell’en ce monde le sutvive,
+<lb />L’époux luy donne pour augment
+<lb />Tout ce qu’il a par testament
+<lb />De son pere, qui l’onde noire
+<lb />A passé, pour n’avoir sçeu boiré,
+<lb />Avec cinq cens écus d’or sol,
+<lb />Plus charmans qu’u re mi fa sol,
+<lb />Item, en cas qu’elle decede
+<lb />Avant celuy qui la possede,
+<lb />Du paternel consentement,
+<lb />Elle luy donne pour augment
+</p>
+<sp type="MainZone-Sp"><lb />Deux cens cinquante écus de France,
+<lb />A prendre pour toute asseurance
+<lb />Au pré de Mollinet, où sont
+<lb />Payez ceux qui les belles ont.
+<lb />Lequel augment aprés la vie
+<lb />Du possesseur de la survie,
+<lb />A leurs enfans appartiendra.
+<lb />Et cas avenant qu’il faudra
+<lb />Restituer ladite dote,
+<lb />Ainsi que l’Ordonnance note
+<lb />A faute de prodũction
+<lb />
+<lb />Du fruit de leur conjonction,
+<lb />Les parens d’elle aprés l’obseque,
+<lb />Comme premiers en hy poibeque,
+<lb />S’en pourront saisit sans excez,
+<lb />Et sans figure de procez.
+<lb />Promettans toutes les Parties,
+<lb />Du droit deüement averties,
+<lb />Avoir ce qui est contenu
+<lb />Au present contrat, soutenu
+<lb />Par moy Notaire veritable,
+<lb />Fort agreable, ferme &amp; stable,
+<lb />Tant à present qu’à l’avenit,
+<lb />Et jamais n’y contrevenir:
+<lb />Sont toutes clauses necessaires,
+<lb />Renonçons à tous droits contraires.
+<lb />Soumettans pour ce leurs brebis,
+<lb />Et le dessout de leurs habits,
+<lb />A toutes Cours, hormis à celle
+<lb />Des Gtippeminos qui chancelle,
+<lb />Obligeans enfin leurs beaux corps
+<lb />A tous les amouteux accords,
+<lb />Et à la prison d’une couche,
+<lb />Pour y mette bouche sur bouche.
+<lb />Fait &amp; publié dans ce lieu,
+<lb />De ce monde le vray milieu,
+<lb />Presens Thono de la Gonnelle,
+<lb />Et Loren de la Pyronnelle,
+<lb />Témoins appellez &amp; requis,
+<lb />Lesquels n’ont sçeu signèr, requis,
+<lb />Ny les Parties qu’on void rire,
+<lb />Parce qu’ils ne sçavent écrire:
+<lb />Ainse vous, à ce que j’ay fait,
+<lb />Promettez la foy à l’effet.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Parertoler to ben que to papie je tocho?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Oey, bouta, tochi-lo, vi toujour sen reprocho.
+</sp>
+<sp type="MainZone-Sp"><lb />LHAUDA.
+<lb />Mare vo plairat-to que je tireilo avan?
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Icleuemperquenlep icen ton de van.
+</sp>
+<sp type="MainZone-Sp"><lb />MATHIA.
+<lb />C’à c’à à la dragea, à la pilly, Comare,
+<lb />Lou pereizou icy trovon le figue amare.
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Le fiançaille sont feite, y donnon la dragea,
+<lb />Comm’un desespera j’en devono enragea.
+<lb />En mon ma je n’auray jamey point e'allegenci,
+<lb />Sinon que mon siblet en fasse la vengenci.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Ie danso de pleisi de veire tout cecy,
+<lb />L'o cour me tit de vey tout sauta per icy? (
+<lb />Et je creyo qu’isson devine qu’à le nopce
+<lb />Prou de bon mouchitioi voyantaron me bosse.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />De la joey que j’en ay lon me vet larima.
+</sp>
+<sp type="MainZone-Sp"><lb />MATHIA.
+<lb />De dansié tant à cop lo ventre me fat ma,
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Ahlje n’en povo piu, cetta dante memsipe,
+<lb />Ie seu dessu lo point de voyanta me tripe.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Outon-no tou d’icy, je seu tou eigruisia
+<lb />De ceu tonsié où; ay maugra-mi trop dansia,
+</sp>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />De ragi, de deipit j’ai lo cervel tout troublo,
+<lb />Veyant que je n’ay point fat de ma à ceu coblo,
+<lb />Vo n’estes pa inco eichapa de me man,
+<lb />Iamey viribroquin ne pertuisit diaman,
+<lb />Insi vo ne porri passa per la sarailli
+<lb />La cla, vo ne fari queigruisié la murailli,
+<lb />Cciicey met ren d’avei dansia lo mostachin,
+<lb />Je vo farey hai comme lou chiet &amp; chin.
+<lb />Vostre caresse un jour ne saron que querelle,
+<lb />Quand je devrin tirié d’Enfer le sauterelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CHANSON.
+<lb />Prés un Baccus &amp; Cerés,
+<lb />A L’Amour est la meillou pidansi:
+<lb />Chacun dit per son interets
+<lb />Qu’aprés la pansi vin la dansi;
+<lb />A jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+</sp>
+<p type="MainZone-Lg"><lb />I Sen cellou dou bon norrissié
+</p>
+<sp type="MainZone-Sp"><lb />Lez amour ne sarion qu’Idole;
+<lb />Ne se nourri que de beisié,
+<lb />Tont aussi-to lo cont pendole:
+<lb />A jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+<lb />Toute le plu chaudes amour
+<lb />Ialarion comme pata reida,
+<lb />Si tant solamen per un jour
+<lb />La cuisina deveniet freida:
+<lb />A jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+<lb />I Amour en sariet triomphan
+<lb />Si ceu coblo ne lui aidave,
+<lb />L’amoirou maudiriet l’efan
+<lb />Si d’un po de fam u badave.
+<lb />A jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+<lb />¶ La Muzetta ne pot chanta
+<lb />S’y n’ét plena jusqu’à la gorgi:
+<lb />Insi l’amour est enchanta
+<lb />Si gnat deque souffla la forgi.
+<lb />A jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+<lb />Lo mariageo devin creitin
+<lb />Si guat deque coiffie la tubra,
+<lb />Veiqui perque lo mondo tin
+<lb />Per chousa la plu veritabla,
+<lb />Qu’a jeun lon ne pot badina,
+<lb />Vive l’amour aprés dina.
+</sp>
+<p type="MainZone-Head"><lb />ACTE QUATRIEME.
+<lb />SCENE PREMIERE.
+<lb />AMTDOR. PIERO.
+</p>
+<sp type="MainZone-Sp"><lb />AMIDOR.
+<lb />Nfin le Dieu Hymen, espoir des amoureux,
+<lb />ETient mon cœur dans les nœuds, mais son miel
+<lb />savoureux 
+<lb />Est encor à gouter, Soleil que ta lumiere
+<lb />Me va faire l’amour, cat je vois ta paupiere
+<lb />Ouverte pour long-tems: mais quoique tu sois beau,
+<lb />Que tu fasse cacher les ombres au tombeau,
+<lb />Et que tu rendes l’air serain jusqu’à la terre,
+<lb />Pout voir nostre festin au milieu d’un partette.
+<lb />Si tu ne vas tost rafraichir dans la mer,
+<lb />Je croiray que ça bas (où tu ne dois aimer)
+<lb />Ton ardeur n’est qu’un feu d’extrême jalousié.
+<lb />
+<lb />Ah! tu trouv’en ce lieu plus qu’au ciel d’ambroisie:
+<lb />Ton char est arresté. Pretens-tu de voir l’œil
+<lb />De celle que je ciens pour le plus beau Soleil?
+<lb />Si tu desires voir qui de vous est plus blonde,
+<lb />Sçache que tu l’es moins, &amp; te cache dans l’onde.
+<lb />Et si de ses faveurs tu attens la douccut,
+<lb />Tu dois apprendre aussi que j’en suis possesseur:
+<lb />Toutefois si tu veux en emporter quelque aise,
+<lb />Ie permets seulement que ton rayon la baise.
+<lb />Mais aussi-tost que dans ces baisers innocens
+<lb />Tu auras moissonné le miel avec l’encens,
+<lb />Retranche ton amour, &amp; ta course importune:
+<lb />Va baiser ta Daphné au Palais de Neptune.
+<lb />Cours aprés ta fuyarde, &amp; me laisse joüit
+<lb />Du plaisir que le Ciel ne doit voir ni oüir,
+</sp>
+<sp type="MainZone-Sp"><lb />Ie ne puis souhaiter plus rien que ton absence:
+<lb />Car je ne puis souffrir des Astres la presence,
+<lb />Ni moins pour compagnon le plus puissant des
+<lb />Dieux.
+<lb />2
+<lb />Ie ne veux pour témoin qu’amour qui n’a point
+<lb />d’yeux.
+<lb />O quel contentement reçois je de mon ame!
+<lb />De voir qu’amour est prest d’obeïr à ma flame:
+<lb />Se peut-il exprimer un plaisir si parfait,
+<lb />Que celui qui m’attend au lit que l’on me fait?
+<lb />Non; car les courtisans en seroient incapables:
+<lb />Les Bergers seront donc punis comnme coupables,
+<lb />Qui oseront compter nos baisers de Nectar.
+<lb />Mais nuit, ô douce nuit, tu ne viendras que tard,
+<lb />Tu devrois te haster d’enyvrer de tes charmes
+<lb />Les esprits pour me voir dans tes douces alarmes,
+<lb />Puisque tu ne pretends autre gloire ça-bas.
+<lb />Viens donc favoriser mes amoureux combats
+<lb />Tout present, hors la nuit celebre cette feste.
+<lb />Ie n’entens que concerts des oyseaux sur ma teste,
+<lb />Que flajolets, qu’aubois, &amp; que doux chalumeaux,
+<lb />Les chemins sont ornez de fleurs &amp; de rameaux,
+<lb />Pout honorer les pas de ma belle conjointe:
+<lb />La voicy, car j’entens la voix d’Orphée jointe
+<lb />A celle des violons: ô Dieux que je me sens
+<lb />Emporter doucement aux plaisirs ravissans.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Que mon cour ét joyou d’oüi cettez aubade,
+<lb />Et de ce que pet vey l’espousa tout s’abade.
+<lb />Su donq fillatro allon, sen gueiro pavana,
+<lb />Fare court’oreison, per fare long dina.
+</sp>
+<p type="MainZone-Head"><lb />ACTE CINQVIEME.
+<lb />SCENE SECONDE.
+</p>
+<sp type="MainZone-Sp"><lb /> LE CUISINIER.
+<lb />Go doctissimus, témoin nostre voitine,
+<lb />LC’est à dire Messieurs, qu’en l’art de la cuisine
+<lb />Ie suis des mieux expers, car dés que le berceau
+<lb />M’a relasché, je sçay ce qu’est un bon morceau.
+<lb />Ie sçay tres-bien donner le goust à toutes viandes,
+<lb />Les lardons au pasté sont bons pour les friandes,
+<lb />Aux femmes l’atrelet est un peu trop petit,
+<lb />Vne langue de bœuf leur donne l’appetit.
+<lb />Les cervelats sont bons pour les plus degoutées,
+<lb />Toutes sausses, pourveu qu’elles soient apprestées
+<lb />Au beurre frais, avec le jus de deux citrons,
+<lb />Rendent tous les esprits aux femmes des poltrons,
+<lb />Aussi-tost que je vois une femme malade,
+<lb />Ie lui donne un renfort avec l’huile en salade.
+<lb />Ie vens detres bon vin, je donne de bonn’eau.
+<lb />Ie perce pour ma soif le plus joli tonneau.
+<lb />Et quand je tiens de nuit la bouteille vermeille,
+<lb />Ie la baise six fois avant que je sommeille:
+<lb />Ell’est toute pour moy cependant que je bois:
+<lb />Car pour me contentet jusqu’au dernier abois,
+<lb />Elle leve cul, elle baisse la teste,
+<lb />Quand je bouche son trou, c’est ma plus grãde feste.
+<lb />Suis-je pas plus heureux que le Roy Guillemeau,
+<lb />Puis qu’aprés le repas j’ente bien le rameau
+<lb />Qu'un cerf a sur le front, sur les plus dures testes
+<lb />Si l’on le pouvoit voir, l’on ne verroit que bestes,
+<lb />Soit chez le courtisan, soit parmy le gavost,
+<lb />La vie que je tiens ne craint point le Prevost,
+</sp>
+<p type="MainZone-Lg"><lb />Je laisse le debat aux Plaideurs volontaires,
+<lb />La peine aux Procureurs, le remors aux Notaires,
+<lb />L’estude aux Avocats, la peur aux Treforiers,
+<lb />L’avarice aux Marchands, la rage aux Vsuriers,
+<lb />Le soin &amp; le souci aux gens de la Police,
+<lb />La médisance aux Clercs, aux bages la malice,
+<lb />L’insolence aux Loquais, l’envie aux Courtisans,
+<lb />Et les larmes enfin aux pauvres Artisans.
+<lb />Qu’on saccage les bourgs, qu’on pille les villages
+<lb />Qu’on ravisse aux assauts cent mille pucelages,
+<lb />Qu’on raze Montmeillan, qu’on chasse l’Espagnol,
+<lb />Que Casal soit privé du chant du rossignol,
+<lb />Que toute l’Italie au jourd’huy s’associe
+<lb />A tous nos ennemis, d’eux je ne me soucie;
+<lb />Pourveu qu’en ce pa’ïs, &amp; lieux circonvoisins,
+<lb />La tempeste ne fasse un affront aux ra sins,
+<lb />Et pourveu que la paix tienne icy son empire,
+<lb />Ce n’est qu’an doux tepos que mon desir ispite.
+<lb />Je n’aime que le bruit des verres &amp; des pots.
+<lb />Ie n’aime point oüir parler de tant d’impors,
+<lb />Ni de tant de procez que le Palais embrasse.
+<lb />I’aime mieux sans plaider plumer la poule grasse.
+<lb />I’aime mieux le parfum d’un festin nuptial,
+<lb />Que le plus verd laurier d’un exploit martial.
+<lb />Mon humeur se plait bien à voir tourner la broche;
+<lb />Mon appareil ne craint censure ni reproche.
+<lb />Voila pourquoy ceux qui d’un superbe repas,
+<lb />Veulent flairet l’odeur &amp; savourer l’apas,
+<lb />Me prient d’appefie, avec l’eau en la bouche,
+<lb />De leur fournir de mets, &amp; du jus de la souche.
+<lb />Ie sois donc dãs l’emploi d’un festin dont les Cieux.
+</p>
+<sp type="MainZone-Sp"><lb />Odoreront le goust des plats delicieux,
+<lb />Et auquel ces Bergers aprés leur saint homage,
+<lb />Oublieront l’ennuy du beurre &amp; du fromage.
+<lb />Ie les veux bien traiter, afin que mon renom
+<lb />Ensevelisse tost de Payerne le nom.
+<lb />Cependant valete vos, cela signifie,
+<lb />Qu'a vos commandemens mon cœur se sacrifie.
+</sp>
+<p type="MainZone-Head"><lb />ACTE CINQVIEME,
+<lb />SCENE TROISIEME.
+<lb />IAPPETTA. THONO. LE CVISINIER.
+<lb />LOREN. AMIDOR. PIERO. THIEVENA.
+<lb />PERNETTA. CHAMBET.
+</p>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Ommençon d’eitrena l’eipousa, bonne gen,
+<lb />C Dieu gardey cettou plat de le man du Sergen,
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />E ventatiet mieu vey cent chin à la cuisina,
+<lb />Qu’un Sergen ou Recor avecque son oussina,
+<lb />Perce que lou Sergen qui se payon de tout,
+<lb />Qui forrageon lou plat, &amp; lez eicuell’atout,
+<lb />Comme cura-bufet, lou gageon, louz emporton,
+<lb />mais iou ehin ne iou ront que lichie, &amp; pui lorton</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />T’a raison, é vaut mieu donna u chin de pan,
+<lb />Et jita d’aigu’u groin de talouz arrapan.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CUISINIER.
+<lb />Brusquet, croque lardon, à la viande, à la viande.
+<lb />Canailles, faites donc ce que je vous commande.
+<lb />Vertubleu qu’est cecy? me connoissez-vous pas,
+<lb />Sçavez-vous pas qu’il faut estre prompt au repas:
+<lb />Ie vous feray courir: sus donc que l’on m’apporte
+<lb />Les plats bien ordonnez, ou qu’on passe la porte.
+<lb />Allons donc, donnez. moy ce plat de pigeonnaux:
+<lb />Laissez les ourtolans pour des petits moineaux
+<lb />A Guigues de la Cloche: hâtez-vous sans desordre,
+<lb />Parce que ces Bergers ont envié de mordre.
+<lb />Apportez ce jambon, ce levreau, ce poulet,
+<lb />Ce membre de mouton couvert de serpolet:
+<lb />Ce plat de saussissons pour la belle épousée,
+<lb />Et pout le jeune époux cette sausse épissée.
+<lb />Et pensez au dessert, car je les veux traittet
+<lb />Selon leur qualité. Ah! qu’il fait bon goutter
+<lb />De ce morceau friand, je voudrois que mon pouce
+<lb />rut toujours au dedans d’une sausle si douce.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Lavon-no tou le man, hauta, tout d’un accord,
+<lb />Donnon la joey à l’arma, &amp; lo profit u corp.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />D’eyga, d’eyga, meyna, versa dessu le plaute
+<lb />De Monsieu Babolin, que vou confla se jaute.
+</sp>
+<sp type="MainZone-Sp"><lb />AM IDOR.
+<lb />Prenons d’eau ma Bergere, &amp; parmi le repas,
+<lb />venenenttetenit ines jeul de vos appas.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />S’assetay qui voudrat, je vœy prendre ma placi,
+<lb />Et frippa comme si je venin de la chassi.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Eyet prou devisa vene voz asseta,
+<lb />Voz auri enca not leysi de jacqueta.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Tandi qu'on filarat la rita la plu prima,
+<lb />E faut l’eipou u pied, &amp; l’eipousa à la cima.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Commençon de branda lo menton &amp; le den,
+<lb />coane ni noz ertion jatta de ver deden.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Ie voey elcrapiouna cetta bonna polalli.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Et mi je voey bocca tout ore cetta jalli.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Lle de lon cour, comtne farut dinssou lensieu
+<lb />L’eipou, quand u mettrat son faret u crusieu.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Lhauda, quand tu vertes approchié lo gendarma,
+<lb />S’u l’ét bon Chivalié ne cria ren alarma.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Quand u voudrat tirié un cop de pistolet,
+<lb />Per gagnié lo combat, saisi-lo u colet.
+</sp>
+<sp type="MainZone-Sp"><lb />TAPPECIA.
+<lb />Sça-tu que tu fares, ne di mot, fa la morta,
+<lb />Quand quoqu’un per intra chaplarat à la porta</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />S’u l’intre verchié ti, leissi-lo deiconfla.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />ne te rend que quand tu ne portes plu soufsa</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Afin qu’u se souvene un jour de cetta festa,
+<lb />Deifen-te contra leu &amp; de cu &amp; de testa.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />ortuepoit, sen gueiro demoura,
+<lb />Per mieu rire fay-lo toutta la not ploura.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Quand tu commensires quoque po de lo prendre,
+<lb />Garda de lo lachié qu’u ne se volle rendre.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />V ne se rendrat ren tant u l’ét aragnou,
+</sp>
+<sp type="MainZone-Sp"><lb />H ii
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Vn arc ne po pa tant benda qu’u ne deibende,
+<lb />quand u n'en pourrat plu faudrat ben qu’u se rende,
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Inco qu’u se sarat rendu, tu n’aures pa
+<lb />Lo lachat, qu’u voudrat tourna mey t’arrapa,
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />rtepouila lo toujour per aver l’avantageo,
+<lb />Vna bonna rutia te ballirat courageo.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Vo luy faites vergogni, alla-vo promena,
+<lb />Laissié l’eita maclat, eyet prou jasonna.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />murtire lou tejourma çomalc Pernetta.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />P'alisariimey our quoque brava fornetta.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Ce l’eipousa joint ben le lore quand y bet.
+</sp>
+<sp type="MainZone-Sp"><lb />IERO.
+<lb />Ha, ha, voz este iqui, d’où vene vo Chambet?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Du Sapey ou toujour plot, ou neit, où nivole,
+<lb />Et vœy chié Monseignou deibita me raviole.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Coman aves-vo sçeu que cey-at un banquet?
+</sp>
+<sp type="MainZone-Sp"><lb />CRAMBET.
+<lb />Le gen de perquiamon n’en font autro caquet.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Tout lo mondo sçat prou, que l’eipou à l'eipousa
+<lb />Vat tirié d’un billard tout dret din la beloufa.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Ah! chietta voz alla choqua lo muresson,
+<lb />Et vo far’encanot d’una lanci un tronson.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Pot-estre quoqu’envei din vostron cour s’eilance?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Si j’avin tant d’eicu, que j’ay rompu la lance,
+<lb />Ma Thoni portariet la rauba de dama:
+<lb />Si je dio lo vray, ne m’en voles pa ma.
+<lb />Ie sçavo comme faut piqua una montura,
+<lb />Quand je curo la bagua, ét una chosa seura,
+<lb />Qu’eill’ét preisa aussi-to que je seu à chivat:
+<lb />aa Isrom içat n'ben me porta quand y vat,
+<lb />Que sen gueiro trotta, comme ley je m’alleigeo,
+<lb />Eilli sçat mieu ginga qu’un chivat de maneigeo.
+</sp>
+<sp type="MainZone-Sp"><lb />LOREN.
+<lb />Voz estes à chivat disposa comm’un fagot.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Preita-me solamen l’eipou sa cetta nor.
+<lb />Si je ne la fœy ben galloppa, croi de pailli,
+<lb />Ie ne volo jamey avei denié ni mailli,
+<lb />Si per vo fare vey deman ce que je seu,
+<lb />Ie ne couro aver ley douze poste mezeu:
+<lb />Et si deman y n’ét la meita plu joyousa,
+<lb />Ie volo avei lo groin emplatra d’una bouza,
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Vo n’avez que de bet, voz est’un chau lancié,
+<lb />Vo ne povez plu ren fare que carcassié.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Ie ne carcasso pa comme ti, vieilli soiri,
+<lb />Vieu bacon, qui n’at plu lo got de la sarmoiti,
+<lb />H iij
+<lb />Vieilli sempiternella, &amp; plu deigoumina,
+<lb />Qu’at quatro dey de lore, &amp; demy pied de na?
+<lb />Vicu courbat, peicharet, vieu chavan, vieilli grola,
+<lb />Vieilli qui fat u mondo eujourdeu sa revola.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Vay, vay, vieu enrena, vieu gambio, vicu toursit,
+<lb />Tu ne pot plu souffla comm’un chivat poussit.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />Ne vo reprochié ren, ne vo ditte plu rosse,
+<lb />Si l’un vat u baton, l’autro vat à le crosse.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Ie seu comme lou pour, ma verdou ne flêchit,
+<lb />I’ay la quoa verd' inco que ma barba blanchit.
+<lb />Me veyci aussi prest à secourre la bolli,
+<lb />Qui à la bouchari ne charche que virolli,
+<lb />Que j’estin quand j’avin me premeire chalou.
+<lb />L’on ne me sçauriet donq fate plu grand doulou,
+<lb />Que quand on dit que j’ai perdu toutta poissanci.
+</sp>
+<sp type="MainZone-Sp"><lb />THIEVENA.
+<lb />avy feutenviu, parton de la tejcuianler.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Bevon à la santa tout ore de l’eipou,
+<lb />Et leisson de mori u plu richo la pou.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />De vin, de vin, meyna à vostra bonna graci,
+<lb />le m’en vœy, lo bon Dieu me gardey de deigraci.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Adieu vo coman donq, mais faites-no sçavey
+<lb />Bien-to vostro retoûr; adieu jusqu’u revey.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMBET.
+<lb />Me veyci de retour per porta la novella
+<lb />A cetta compagni, que je la manqui bella
+</sp>
+<sp type="MainZone-Sp"><lb />Quand je me marij: car vollan maneyé
+<lb />Ma Thoni, din un rut je pensi me neyé:
+<lb />Ie tombi à bochou, tanto je virolliavo
+<lb />Dedin un virolliet, tanto je gabolliavo
+<lb />V fon de l’eiga, inco que je sçavin nagié.
+<lb />I ne seu pa soulet qu’at couru ceu dangié,
+<lb />Gnat prou d’autro trompa à celleu pa d’eicola,
+<lb />Qui trovon un grot rut u lieu d’una rigola.
+<lb />I’en cogneusso que trop, qui à lour arriva
+<lb />Ont trouva lo pertu de l’eiga si chava,
+<lb />Que si-to qu’u l’estion uprés de le baragne,
+<lb />V l’enfondravon tout u mey de diu montagna.
+<lb />Tau pense quoque fey (comme j’ay recontra)
+<lb />D’estre ben appoya, qu’ét trompa à l’intra.
+<lb />Tau pense de sa fena avey lo pucelageo,
+<lb />Que ne fat que glana le soute du villageo:
+<lb />Car tala que l’on cret n’avey fat lo trantran,
+<lb />E’t cella qui at mey vana caramentran.
+<lb />Eyet mey de banu, que non pa de cocoare,
+<lb />Qui en pot eichapa é fils de bonna mare.
+<lb />L’home ne se det fia (inco qu’u l'en set foa)
+<lb />A la besti qui at dou pertu sou la quoa.
+<lb />E gnat poin de Fiat u Pater de le fene,
+<lb />La fena (comm'un char) s’y n’ét greysia i rene:
+<lb />On n’en pot pa joüi, ni moin la fare alla,
+<lb />Ni chara, ni peta, ni couse, ni fila :
+<lb />Insi toute le gen d’una granda perrochi,
+<lb />rie paron ten Battey fare sonna la clochi.
+<lb />L’on ne pot fare alla sen rama lo batel.
+<lb />Vna gucina de cur ne vaut ren sen cotel.
+<lb />Ni mortié sen pison, ni oula sen culleiri,
+<lb />Ni satrailli sen cla, ni sauma sen basteiri.
+</sp>
+<sp type="MainZone-Sp"><lb />H iiij
+<lb />La fena ne vaut ren (comm’un poy sen poisou)
+<lb />S’y n’ét ben frequenta, &amp; s’y n’ét à son sou
+<lb />Eitreilla du baston qui porte medecina:
+<lb />I n’at bon tem que quand eilli sin cellosina.
+<lb />I’u sçavo de ma Thoni, à qui un ravioulié
+<lb />Plait mieu qu’un gro bouquet de rose ou de violié:
+<lb />Veiqui perqu’y se tin u goust de le ravlola,
+<lb />Comm’un borlio u baston, ou u son de sa viola.
+<lb />Veye-vo ben l’eipousa, eilli m’at la fasson,
+<lb />De fare perdr’à leu l’eitrieu &amp; louz arson:
+<lb />Car toutta reverdia, eill’ét de la vray tailli
+<lb />De celle qu’ont toujour victoeiri en batailli,
+<lb />Poe’ïsse-ti longimen, &amp; toutta la trabla,
+<lb />Vey reculu en pay Pabondanci du bla.
+<lb />Cependan je vo laisso à la tabla per gageo,
+<lb />Et m’en voey gambettan achevi mon voyageo,
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Ah! lo faut vilanat, u fat ben lo coquar,
+<lb />Per avei la pistolla u vat baillié lo quar.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />V s’en vat plu joyou qu’un uzel qui s’abade,
+<lb />Tandi que no trovon cette viande ben sade.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CUISINIER.
+<lb />Ces drolles de Bergers n’ont pas la rampe aux dens,
+<lb />Aucun d’eux ne parie ici pour les perdans:
+<lb />Croyez qu’il ne faut pas qu’un Maitre de la forge,
+<lb />Pour les faire manger les saigne dans ia goige,
+<lb />Vertubleu qu’ils font bien, voyez ces dégoutez,
+<lb />L’on diroit à les voir frapper de tous côtez,
+<lb />Que ce sont des soldats à la petite guerre:
+<lb />Ce sont les plus vaillans combattans de la terre.
+<lb />Car ils tirent tous bien de prés à l’ennemi:
+<lb />Il ne fait pas bon estre auprés d’eux endormi:
+<lb />Car leurs habiles mains decoiffent bien la table.
+<lb />Tout est pris, je ne vois plus rien de souhaitable.
+<lb />Hola hey! au dessert, ne perdons point le temps,
+<lb />Découvrons dans ces plats le tresor du Printemps:
+<lb />Dépêche duue brurquee; la foit tiie deserpere,
+<lb />Voicy qui est fort bon pour le fils de mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />Coman ceu Cuisinié tarifle ceu platel.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />Per couppa sou boucoi luy faut point de cotel.
+</sp>
+<sp type="MainZone-Sp"><lb />IAPPETTA.
+<lb />1 jue un bon moicer, u passe din sour goula.
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA.
+<lb />V l’eicumon lou plat, &amp; le servente l’oula.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />Cecy ét prou migea, eyet tem de dansié,
+<lb />le veyo que l’eipou at coita de pissié.
+<lb />Meneitrié mouz ami, touchié-me un biau brando,
+<lb />E't per pizié louz aüil que je vo lo demando:
+<lb />coenie-me ceu qu’endort l’esperit &amp; la chait,
+<lb />Que Gilibert a fat u bœy de Buchicher.
+<lb />Chauda, vin-cey dansié, attendan que te faille
+<lb />are l’ouvra, de pou que lo mondo deifaille.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERO.
+<lb />Allon-noz eibaudi ore que no som sou,
+<lb />t leisson deimena cetto jœino dansou.
+</sp>
+<sp type="MainZone-Sp"><lb />THONO.
+<lb />cela dansi qu’on vire, à perpo una volta,
+<lb />qui de pou de chey l’on fat la virivolta,
+</sp>
+<sp type="MainZone-Sp"><lb />PERNETTA
+<lb />L’on emporte l’eipousa, eyet tout u pillageo?
+<lb />Adieu bâton de rosa, adieu biau pucelageo:
+<lb />Ie ne te plegno ren, car se faut sempellié,
+<lb />Quand la noin ét ben cergni é la faut eichallié.
+<lb />O que nostron eipousa ét ore ben de preisa,
+<lb />I n'et pa ren marria d’avey eita surpreisa:
+<lb />Prou de fille voudrion estr’à son passamen,
+<lb />I'en veyo qui d’envey sonpiron grossamen.
+<lb />Ile voudrin sen oüi tant bordonna l’avilli,
+<lb />Que tout cenlou perta trorinon iour chavilli.
+</sp>
+<p type="MainZone-Head"><lb />ACTÈ CINQVIEME.
+<lb />SCENE QVATRIEME,
+</p>
+<sp type="MainZone-Sp"><lb />JANIN.
+<lb />Eu-je pa malheirou sur tou lou malheirou,
+<lb />O De vey qu’à mou desi tout ét si contreirou,
+<lb />Que je ne seyo pa intra din la Chapella,
+<lb />Quand nostron Chapelan, qu’at l’arma tortipella,
+<lb />Eita chave sen corda un Mariageo subit:
+<lb />Quee le gen ayon mey de vervella en l’habit
+<lb />De l’eipousa, de pou du nou de l’arguilleta:
+<lb />Qu’omn fasse à mou deipen de le flou la culletta<lb />Pover-je sen mori tant de mau avala,
+<lb />Veire? qu’un étrangié m’aye deicavala:
+<lb />Qu’u l’aye lo pleisi, &amp; mi ren que l’ombrageo:
+<lb />La tr istessa (lasset) me jale lo courageo.
+<lb />Hela, veicy lo tem que de mille baisié,
+<lb />La Lh auda fat tomba le tole du lonle!
+</sp>
+<p type="MainZone-Lg"><lb />DE LA LHAUDA.
+<lb />Veicy l’hora qu’y tin din sa nassi la totha,
+<lb />Et que mon ennemi luy deibreye sa cota.
+<lb />Quei-to que j’ay perdu? mat j’eifartillarey
+<lb />Lou jardin, &amp; tout ce que je rencontraray,
+<lb />Puis qu’en cetta contra, que je trovo si laida,
+<lb />Tout m’at viriat lo cu quand j’ai eu besoin d’aida.
+<lb />Pelaillard du Thouvet, rougnou de Gonselin.
+<lb />Tacolié de Charneclo, épinglié de Tulin.
+<lb />Eicharpi de Tensin, nargou de Saint Haleyro.
+<lb />Chambaru de Lancey, gobio de Saint Nazeyto.
+<lb />Truan de la Terrassi, oyro de Monbonon.
+<lb />Trolliandié de Doumena, entena de Venon.
+<lb />Aragnou de Lumbin, teitu de la Buisseiri.
+<lb />Tignou de Saint Martin, eigue morte de Geyri.
+<lb />Renoüillard de Moyren, peichou de Noyarey.
+<lb />Glouriou de Saint Quentin, reneyou de Veurey.
+<lb />Ventaire de Seisin, mocquou de Sassonageo.
+<lb />Cocoare de Revel, opiniatro d’Euriageo.
+<lb />Berlaude de Voreppo, orgueillou de Bernin.
+<lb />Sensuë de Buvié, morgan de Fontanin.
+<lb />Chassou de Saint Humié, boutacié de ver Crole.
+<lb />Mal avisa d’Eyben, fagotié d’Eychirole.
+<lb />4
+<lb />Fromagié de Chatrousa, &amp; du Villard de Lan<lb />Canaille du Sapey, chicanou de Meylan.
+<lb />Machura du Canton prés de l’eiga de Venci,
+<lb />Qui alla mieu chatgea qu’un Ano de Provenci.
+<lb />Golu de Clai, poussit de Varce &amp; de Risset.
+<lb />Goitru de Vaunavey, mâtin de Patiset.
+<lb />Arablo du paï qu’aborde la Romanchi,
+<lb />Qui tenes la conscienci, &amp; l’arma din la manchi.
+<lb />Gippié du lieu de Champs, rachet de Mont-Eynaid.
+<lb />Picarnou de Saint Georgeo, eimuiti de Sinar.
+</p>
+<sp type="MainZone-Sp"><lb />124
+<lb />Gro Miron de la Mura, &amp; de la Mateisina,
+<lb />Qui chassié tou lou rat de la terra veisina,
+<lb />Gro degou de Barrau haï du bigarra.
+<lb />Bracamau d’Allevar, pourou de Ponchara.
+<lb />Galabontem de Vif, gouttou de Saint-Eygrevo.
+<lb />Griffon de Montagnar qui vivés le renevo.
+<lb />Creytin de Tavernole, &amp; de tout l’aviron.
+<lb />Vigneron de Vourey, coquatié de Voiron.
+<lb />Coquan de Campagnié, qui n’ont ni pan ni pata,
+<lb />Ladre de Saint Robert, &amp; de la Buissarata.
+<lb />Baconié de Iarria, poutagié du Versou.
+<lb />Eicrussi du Bachet qui ne sont jamey sou.
+<lb />Saquette de la Tronchi, &amp; de tou ceu vignoblo,
+<lb />Berlandié de la Grange, inconstant de Garnoblo.
+<lb />Galliofe du paï que je n’ay pa nomma,
+<lb />Voz estes de vauren qu’on devriet assomma:
+<lb />Ne m’avei pa aida à fare de saccageo:
+<lb />Vo ne merita pa d’intra din lou boccageo:
+<lb />Car vo ne sçaves pa y garanda le flou:
+<lb />Vo devria rogi d’honto, &amp; palli de doulou.
+<lb />Veire qu’un eitrangié aye, sen payé loqua,
+<lb />De toute nostre noin prey la plu bella croqua.
+<lb />Mais à qui parle je? personna ne se chau,
+<lb />Chacun se rejoüit, &amp; mi je me tormento.
+<lb />L’eiga rit ondeyan de ce que je gomento.
+<lb />Lou jalabro, lou jay, lou merlo, lou gro pit,
+<lb />Et lou petit grivet chanton mieu per deipit
+<lb />V devrion (comme rat quand u font lour cratole)
+<lb />Se cachié, &amp; leissié chantona le nietole,
+<lb />Et lou tristo chavan, ore que faut passa
+<lb />V paï de Darbon, comme lou trépassa.
+</sp>
+<p type="MainZone-Lg"><lb />Courageo, l’on verrat, ben tot me funeraille,
+<lb />I’entende croaqua lou courbat &amp; le graille.
+<lb />Ah! je veyo virié louz abro d’alentour,
+<lb />La terra dessout mi fat un million de tour:
+<lb />le veyo que lo Cié tombe dessu le roche.
+<lb />le veyo que su mi la rochi se deiroche.
+<lb />Que je veyo de gen que de l’air sont tomba,
+<lb />Comme d’eitell’u Cié tout tralut iqui ba.
+<lb />on-to d’Ange? ou que sont? je veyo de visageo
+<lb />Lapablo d’arteita tout lo mondo u passageo:
+<lb />a-moin gna point iqui d’alliqua, comme ceu
+<lb />je la Lhauda de qui je seu lo mau receu.
+<lb />h! Lhauda, qu’a tu fat, de causa tant de perta,
+<lb />a vieutenanci rend cetta terra deiserta,
+<lb />enat ren plu que d’eurtié, &amp; que de ratabo,
+<lb />pre que t’a quitta lou mouton &amp; lou bo:
+<lb />e ne trovo plu ren à mon pa que d’arcoussa,
+<lb />e ne sinto plu ren que lo flat de la moossa.
+<lb />ue fœy-je donq icy per dedin lou chardon,
+<lb />que ser-to de lachié de mouz eyu lo bondon.
+<lb />erqu’attendo-je tant de fare peteitrasse
+<lb />e la petita via que mon gro corp embrasse.
+<lb />’ay-je pa la vigou d’alla m’enrochassié
+<lb />rochat où nengun ne pot alla chassié;
+<lb />er seuta u fin fond d’un abimo effroyablo?
+<lb />ley, oey, que je farei la fin d’un miserablo,
+<lb />grippilliray tant que j’y atteigniray,
+<lb />t que d’un deisola lu via jerteigiiiray:
+<lb />llourageo me veicy u bord du precipicio,
+<lb />le veicy tout à poin de fare sacrificio
+<lb />ple mon corp u corbeau. Adieu mond o perver,
+<lb />londo qu’at la conscienci &amp; l’arma de traver.
+<lb />Adieu maudit paï que l’Izera partage,
+<lb />Coulan insi que fat la serpen din lez age.
+<lb />Adieu
+<lb />entil troupel, que j’ay ben perbocha.
+<lb />Adieu Lhauda su qui un aze ét abocha.
+<lb />Adieu à tout jamey volagi sen cervella,
+<lb />Tu n’aures de ma mort ni de mon corp novella,
+</p>
+<p type="MainZone-Other"><lb />P
+<lb />Adieu maudit paï que l’Izera partage,
+<lb />Coulan insi que fat la serpen din lez age.
+<lb />Adieu
+<lb />entil troupel, que j’ay ben perbocha.
+<lb />Adieu Lhauda su qui un aze ét abocha.
+<lb />Adieu à tout jamey volagi sen cervella,
+<lb />Tu n’aures de ma mort ni de mon corp novella,
+</p>
+<p type="MainZone-Other"><lb />P
+</p>
+    </body>
+  </text>
+</TEI>

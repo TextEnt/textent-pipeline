@@ -1,0 +1,2619 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oreste et Pylade : tragédie / [par La Grange-Chancel]</title>
+        <author>La Grange-Chancel, François-Joseph de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb33521741t"/>
+          <author>
+            <persName>La Grange-Chancel, François-Joseph de</persName>
+          </author>
+          <title>Oreste et Pylade : tragédie / [par La Grange-Chancel]</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1699" cert="high" resp="BNF">1699</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />PREFACE.
+</p>
+<p type="MainZone-P"><lb />Ly a long-temps qu’on auroit vis
+<lb />paroître sur la Scene ce sujet, qui
+<lb />cej est un des plus grands &amp; des plus
+<lb />a.i beaux de l’antiquité, si nos meil<lb />leurs Autheurs avoient crit pouvoir en strmon<lb />ter les difficulteZ: mais quand on est jeune on
+<lb />est toujours temeraire. &amp; l’on est quelquefois
+<lb />heureux. D’ailleurs comme l’on sçait asseZ
+<lb />que la qualité d’Autheur n’est pai celle qui
+<lb />m’honnore le plus, j’ay voulu traiter un sijet
+<lb />dont la reussite me déterminast à travailler
+<lb />pour le Theatre, ou à employer mes momens
+<lb />de loisir à quelque occupation qui me fust
+<lb />pliis convenable. Madame la Princesse de
+<lb />Conty, chez qui j’ay ou l’honneur d’estre éle<lb />vé, me choisit elle-meme ce sujet préferable<lb />ment à beaucoup d’autres. Ty ay donné tous
+<lb />mes soins; &amp; ce qui me confirme encore dans
+<lb />la bonne opinion que j’en ay, c’est qu’on le
+<lb />voit encore paroistre tous les jours sir la Scene
+<lb />avec autant de plaisir &amp; d’applaudissemens
+<lb />que dant les premieres representaations, je puir
+<lb />dire que cet Ouvrage a este si gercralement
+<lb />approisvé de tout 't monde, que je ne répon<lb />dray pas seulcmenr à la mauvaise critique de
+<lb />ceux qui out condamé Thoas &amp; Thomiris:
+<lb />Cun est dans Euripide, saus lequel il n’y au<lb />roit point de Piece, &amp; je me suis asseZ bien
+<lb />trouvé de l'autre pour ne m'en pas repentir.
+<lb />La perte que fit le Theatre, en perdant Ma<lb />demoiselle de Champmesle, m'avoit empesché
+<lb />de faire imprimer cette Picce: mais depuis
+<lb />qu’une jeune Aclrice, qui a parit ces jourt
+<lb />passeZ, nous en a rafraîchy la memoire, je me
+<lb />suis laisse vaincre par les pressantes sollicita<lb />tions de mes amis, qui, avec mes autres Ou<lb />vraget, m’ont persuadé de donner encore celuy<lb />cy ait public, mne flattant que la lecture ne liy
+<lb />en fera pas moins de plaisir que la represen<lb />tation.
+</p>
+<p type="MainZone-Other"><lb />EXTRAIT
+<fw><lb />---
+</fw></p>
+<p type="MainZone-Head"><lb />EXTRAIT DO PRIVILEGE
+<lb />du Roi.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Privilege du Roy, donné à Ver<lb />Il sailles le douziéme Fevrier 1699. Signé, Par
+<lb />le Roy en son Conseil, LE FEVRE. Il est per<lb />mis à PIERRE RIBOu Marchand Libraire
+<lb />à Paris, de faite imptimet le Recueil des Tragedies
+<lb />du Sieur de la Grange, pendant le temps de huit
+<lb />années, à compter du jour que chaque Tragedie
+<lb />sera achevée d’imprimer pour la premiere fois;
+<lb />Pendant lequel temps faisons tres-expresses dé<lb />fenses à toutes personnes de quelque qualité &amp;
+<lb />condition qu’elles soient, de faire imprimet, ven<lb />dre ny debiter d’autre Edition que de celle de
+<lb />l’Exposant, ou de ceux qui autont droit de
+<lb />luy, à peine de quinte cens livres d’amende,
+<lb />payables sans deport par chacun des contrevenans,
+<lb />de de tous depens, dommages &amp; interests, &amp; au<lb />tres peines portées plus au long par lefdites
+<lb />Lettres de Privilege.
+</p>
+<p type="MainZone-P"><lb />Registré sur le Livre de le Communauté des
+<lb />Imprimeurs &amp; Marchands Libraites de Paris le
+<lb />26. Fevrier 1699.
+<lb />Signé, C. BALLARD, syndit.
+</p>
+<p type="MainZone-P"><lb />Achevé d’imprimer pour la preraiere fois le 2o.
+<lb />Mars 1699.
+</p>
+<p type="MainZone-Head"><lb />AYOADOIeO.
+<fw><lb />THOAS, Roy des Tauro-Scyches.
+</fw></p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE, Fille d’Agamemnon, grande
+<lb />ORESTE.
+<lb />Prestresse de Diane.
+<lb />Frere d’Iphigenie.
+<fw><lb />PILADE.
+<lb />THOMIRIS,
+<lb />Prince, amy d’Oreste,
+<lb />Amant d’Iphigenie.
+<lb />Princesse du sang Royal des
+<lb />Scythes.
+<lb />ANTHENOR, ( Ministres d’Etat, &amp; les prin<lb />RIDASPE,
+<lb />CYANE,
+<lb />ERINE,
+<lb />TAXIS,
+<lb />cipaux d’entre les Scy<lb />thes.
+<lb />Prestresse de Diane, &amp; con<lb />fidente d’Iphigenie.
+<lb />Confidente de Thomiris.
+<lb />Capitaine des Gardes de
+<lb />Thoas.
+<lb />La Scene est à Anicire, aans le Palais
+<lb />de Thoas.
+</fw></sp>
+<p type="MainZone-Other"><lb />ORESTE
+<fw><lb />:
+<lb />-co<lb />–
+</fw></p>
+<p type="MainZone-Head"><lb />ORESTE ET PILADE,
+<lb />TPHIGENIE EN TAURIDE.
+<lb />TRAGEDIE.
+</p>
+<p type="MainZone-Head"><lb />AOTE
+<lb />
+<lb />SCENE PREMIERE.
+<lb />THOAS, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />EIGNEUR, voicy le jour si long<lb />temps souhaité,
+<lb />Où cenduit par l’hymen à la felicité,
+<lb />Thoas, l’heureux Thoas, épouse ce
+<lb />qu’il aime.
+<lb />C’estoit peu qu’éloigné de la grandeur suprê</sp>
+<sp type="MainZone-Sp"><lb />me,
+<lb />Par vos seules vertus, sans le secours du sang.,
+<lb />Vous eussiez pû monter à cet auguste rang:
+<lb />C’estoit peu que de voir les Scythes indompta<lb />bles,
+<lb />Vous soûmettre à l'envy leur rives redoutables,
+<lb />Pour vous faire un destin digne de vos exploits.
+<lb />Et donner une, épouse au plus grand de nos Rois.
+<lb />Nous avons vû Diane en ces lieux adorée,
+<lb />Dans un éclat pompeux, par la route azurée,
+<lb />Vous amener, Seigneur, cette auguste beauté,
+<lb />De qui vostre constance a vaincu la fierté.
+<lb />Tout vous rit: la splendeur qui dans ces lieux
+<lb />éclate,
+<lb />Est relevee encor par celle du Sarmate,
+<lb />Dont les Ambassadeurs honorent vostre Cour.
+<lb />Enfin pour vous combler de gloire ce grand jour...
+</sp>
+<sp type="MainZone-Sp"><lb />HOAS.
+<lb />A-t-on-tout préparé? verray-je la Princesse,
+<lb />Hidaspe?
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Elle est encore aux pieds de-la Deesse.
+<lb />«Tandis que de ce Grec à la mort destiné,
+<lb />On couronne de fleurs le front infortuué.
+<lb />Pleine d’un feu divin dans l’enceinte sacrée,
+<lb />Au fond du Sanctuaire elle s’est retitée:
+<lb />Où son cœur attentif semble se préparer,
+<lb />Au mystere sanglant qu’elle va celebrer.
+<lb />Mais que vois-je! en ce jour de gloire &amp; d’alle<lb />gresse,
+<lb />Qui n’attend que ce sang qu’éxige la Deesse,
+<lb />Pour faire que sans crime un Roy victorieux
+<lb />Possede enfin un cœur rese. vé pour les Dieux:
+<lb />Lors qu’à ces nœuds sacrez il n’est rien qui s’oppo<lb />De ce sombre chagrin qui peut être la cause?
+<lb />Me seroit-il permis, sans sortir du devoir,
+<lb />D’oser m’en informer? Ne le puis-je sçavoir?
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Fieureux qui tans seniorus, portaist un Diadême,
+<lb />N’a point à redouter la vangeance suprême,
+<lb />Et n’est point obligé de conserver ce rang,
+<lb />Par des droits violez, &amp; des fleuves de sang.
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Qu'entens-je? quel discours, Seigneur, qui vous
+<lb />l'inspire?
+<lb />Je n’ay pas oublié qu’en acceptant l’Empire,
+<lb />Vous jurâtes d’abord d’épouser Thomiris.
+<lb />Que son pere en mourant mit le Sceptre à ce prix.
+<lb />Pour acquerir un Trone on ole touit promettre.
+<lb />Mais sur le Trône assis on se peut tout permettre:
+<lb />Tranquile Souverain, &amp; Vainqueur tant de fois,
+<lb />vous n’avez qu’à parler, tout fléchit sous vos loix.
+<lb />Oans fuu senentimens i nomsis n’est qu’à plain<lb />dre.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Dans ses ressentimeus Thomiris est à craindre.
+<lb />Quelque trouble pourtant qu’elle puisse exciter;.
+<lb />De plus cruels chagrins viennent m’inquieter:
+<lb />Elle n’est pas la seule icy que je iedo:¬.
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Et quel autle ehnemy pouvez-vous craindre?
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ecoûte.
+<lb />Quand le feu Roy, parmy tant de Scythes fameux,
+<lb />Daigna tourner sur moy ses regards &amp; ses vœux,
+<lb />Et me faire en mourant l’appuy de sa famille,
+<lb />En m'accordant le Sceptre, &amp; me donnant sa fille:
+<lb />Guidé par mon devoir plusque par mes sermens,
+<lb />Je voyois chaque jour dans mes empressemens,
+<fw><lb />A
+</fw><lb />T homiris s’applaudir d’augmenter ma tendresse.
+<lb />Helas.! je n'avois point encor vû la Prestresse.
+<lb />Le jout qui l’amena dans toute sa splendeur,
+<lb />Eclaira son triomphe ensemble, &amp; mon malheur.
+<lb />Mes yeux ne furent plus atrachez que sur elle.
+<lb />Perfide à Thomiris, à ma gloire infidelle.
+<lb />Pour m’assurer le Trône, &amp; regner sans effroy,
+<lb />De tous ceux que j’en crus aussi dignes que moy,
+<lb />Hidaspe, j'étouffay l’espoir ayec la vie.
+<lb />Mes ennemis domptez, la Thauride asservie,
+<lb />Parez de ces grands noms, de ces fameux exploits,
+<lb />Que la v:ctoire ajoûte à la pourpre des Rois,
+<lb />le parlay de mes feux en Amant seur de plaire.
+<lb />Quel revers! la Prestresse inconne, étrangere.,
+<lb />Ne crut pas mon amour digne d’estre écoûté.
+<lb />Quue dis-je? Elle poussa son injuste sierté
+<lb />Jusqu’à me refuser; soit mépris, soit prudence,
+<lb />De m’apprendre son nom, son païs, sa naissance.
+<lb />Cet orgueil imprévû ne fit que m’irriter.
+<lb />Pour fléchir sa rigueur on me vit tout tenter:
+<lb />Mais en vain: je ne fis qu’augmenter son audace:
+<lb />Des Dieux, toutes les nuits, éprouvant la menact,
+<lb />Je voulus de mon sort sçavoir la -verité.
+<lb />Voicy nar Ap-llen, ve qui me fut dicté.
+<lb />Tu joüiras du Sceptre &amp; de la vis,
+<lb />Tant quon jeras possesseur
+<lb />Du simulachre de ma Sœur:
+<lb />Mais crains d’un Grec la main impie.
+<lb />La Statuë enlevée expiant sa fureur,
+<lb />Te menace d’un sort funeste.
+<lb />Tremble, Thous, au nom d’Oreste.
+</sp>
+<sp type="MainZone-Sp"><lb />Quel Oracle!
+<lb />HIDASPE..
+</sp>
+<sp type="MainZone-Sp"><lb />HOAS.
+<lb />En secret m’ayant esté rendu,
+<lb />R'appellant aussi-tôt mon esprit éperdu,
+<lb />Pour assurer mes jours contre ce coup funeste,
+<lb />Je crus que je devois cacher le nom d’Oreste;
+<lb />Rejetter.sur les Grees ma crainte, &amp; mon cou<lb />roux,
+<lb />Et dans ce crime affreux les envelopper tous.
+<lb />Pour engager mon peuple à cet arrest sinistre,
+<lb />Je fis parler des Dieux le plus zelé Ministre.
+<lb />Les Scythes à sa voix tremblerent pour l’Etat.
+<lb />Tous s’armerent de cris contre cet attentat.
+<lb />De tous les Etrangers la perte fut jurée.
+<lb />Leurs jours furent proscrits à Diane implorée..
+<lb />Que de sang a depuis artosé son Autel!
+<lb />Que d’innocens punis pour un seul criminel!
+<lb />Ces meurtres redoublez, ces sanglantes victimes,
+<lb />Sans adoucir mes maux multiplioient mes crimes.
+<lb />Rapellant ma raison dans ces obscuritez:
+<lb />Voulant de cet Oreste avoir quelques clartez.
+<lb />Anthenor dont tu sçais la prudence &amp; l'adresse,
+<lb />Instruit de mon secret fit voile pour la Grece.
+<lb />Depuis un an entier qu’il a quitté ce port,
+<lb />Il ne m’a point encor informé de son sort:
+<lb />Le mien traîne par tout le chagrin qui m’accable<lb />Ce jour même, ce jour qu’un hymen favorable,
+<lb />Va mettre dans mon lit cette siere beauté,
+<lb />Ce prix de ma constance, &amp; qui m’a tant coûté;
+<lb />Je n’ay de mon bonheur qu’une joye inquiete.
+<lb />Etonné, traversé d’une erainte secrete,
+<lb />Sans relâche... Ah-! grand Dieux, que vois-je!
+<lb />est-ce Anthenor?
+</sp>
+<p type="MainZone-Head"><lb />e.aMeMAI.
+<lb />THOAS, HIDASPE, ANTHENOR,
+</p>
+<sp type="MainZone-Sp"><lb />T.HOAS.
+<lb />Mel! il m'est donc permis de te revoir encor.
+<lb />CAmy, de ton retour que faut-il que j’augute?:
+<lb />Qu’as-tu dévelopé de ma triste avanture?
+<lb />Parle:ay-je à craindre encor le celeste courroux?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Soufftes qu’auparavant j’embrasse vos genoux,
+<lb />Seigneur, que j’ay de fois tremblé pour vôtre vie!
+<lb />Quand par la trahison je la croyois ravie.
+<lb />Qu’heureusement, grands Dieux! vous calmez.
+<lb />mon effroy;
+<lb />Vous me rendez icy mon cher Maistre, mon Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Qui peut t’avoir causé cette crainte funeste?
+<lb />Qu’as-tu vû? que sçais-tu? connois-tu cet Oreste??
+</sp>
+<sp type="MainZone-Sp"><lb />ANTENOR:
+<lb />Je me suis vainement empressé pour le voir;
+<lb />Mais son sort dans la Grece est facile à sçavoir..
+<lb />Le grand Agamemnon luy donna la naissance.
+<lb />Mycene est sous ces loix, Argos sous sa puissances
+<lb />J'aborday son païs; il yenoit d’en sortir.
+<lb />Un horrible dessein l'en avoit fait partir.
+<lb />J’appris que pour vanger le trépas de son pere,
+<lb />Ayant trempé ses mains dans le sang de sa mere:;;
+<lb />Tourmenté, déchiré de ce crime odieux.
+<lb />Egalement hay des hommes, &amp; des Dieux,
+<fw><lb />7.
+</fw><lb />Il en traînoit par tout l'idée épouvantable;
+<lb />Et que pour expier ce meurtre détestable,
+<lb />Avec uu teur vaiueau, guie pat la fureur,
+<lb />Pòrtant dans vos Etats la rage, &amp; la terreuz,
+<lb />D'une ame au sacrilege instruite &amp; parvenuë,
+<lb />Il venoit de Diane enlever la Statuë?:
+</sp>
+<sp type="MainZone-Sp"><lb />11On3.
+<lb />Letemeraire! Aprés d’innombrables travaux::
+<lb />Si son pere en dix ans avec mille vaisseaux,
+<lb />Vit à peine. illion soûmis au sang Attride,
+<lb />Croit-il avec un seul étonner la-Tauride?:
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Ne vous y trompez pas, il y vient inconnu:
+<lb />Mais quand avec son nom jusqu’à vous parvenu;,
+<lb />Vous auriez connoissance encor de son visage,
+<lb />Vostre aspect ne feroit qu’augmenter son coura<lb />si sur la foy des Grees on en croit son renom,
+<lb />Ce Prince, de la peur, ne connoist que le nom.
+<lb />Ses sermens solemnels ont juré vostre perte :
+<lb />Et soit par la surprise, ou par la force ouverte;
+<lb />Il vient, quelque peril qu’il y puisse courir,
+<lb />Enlever la Statuë, ou vous perdre, ou perir.
+<lb />Ah! Seigneur, quel devins-je à ce recit funeste?
+<lb />Que ne tentay-je point pour prévenir Oreste?
+<lb />Je combattis leng-tems &amp; les vents &amp; les mers,.
+<lb />Et cependant heureux que ces mêmes revers,
+<lb />Des projets du barbare ayent suspendu la rage:
+<lb />Plus heureux si tous deux nous avions fait nau<lb />frage.
+<lb />S’il m’avoit devancé qu’auroit-ce été, grande
+<lb />Dieux :
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Il n’en faut point douter, ce Prince est en ceg<lb />lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />Luy ?
+<lb />ANTHENOR.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />C’est ce même Gree dont j’attens le supplice,,
+<lb />Et qu’aujour d’huy Diane accepte en sacrisice.
+<lb />Son front où d’un beau sang se tépand la fierté.
+<lb />Cet orgueil qu’il oppose à mon authorité;
+<lb />Sur tout son nom qu’il cache, &amp; qu’il s’obstine à
+<lb />taire,
+<lb />Confirme le tecit que tu viens de m’en faire.
+<lb />Des vagues en fureuts seul des siens échapé,
+<lb />Sans espoit de secouts, dans ses projetstrompé:
+<lb />A l’aspect d’une mort dont l’horteur est extiême;
+<lb />Il voit sans s’étonner ses malheurs. C'est luy<lb />même.
+<lb />Dieux justes! Dieux paissans! je reconnois vos<lb />traits.
+<lb />Vostre prudence a mis un prix à vos bienfaits.
+<lb />Elle en fait aux mortels achetter l’allegresse.
+<lb />Je pers mon ennemy, j’épouse la Prestresse.
+<lb />Quoy qu’il m’en ait coûté pour avoir attendu,
+<lb />Ce bonheur ne m’est point encore assez vendu.
+<lb />Cher amy que je suis redevable à ton zele.
+<lb />Allons, courons au Temple en porter la nouvelle:
+<lb />Informons la Prestresse... On ouvre, la voicy.
+</sp>
+<p type="MainZone-Head"><lb />THOAS,IPHIIGENIE,ANTHENOR,.
+<lb />HIDASPE,CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />H! Madame, le sort ensin s’est adoucy!
+<lb />A Nous allons l’eprouver par l’hymen :qui s’a<lb />preste:
+<lb />L’ordrc....
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Atteste Thoas.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Hé quo
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Thoas, arreste.
+<lb />nes Dieuu nepprourent ponse ton hymen avec
+<lb />moy.
+<lb />Diane a prononcé. Je ne puis estre à toy:
+<lb />Ce n’est pas tout. De sang la Deesse se lasse::
+<lb />Devant son Tribunal ce Grec a trouvé grace:
+<lb />Elle s’en fait l’appuy.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ciel!
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Au pied de l’Autel,
+<lb />Mon bras alloit sur luy porter le coup mortel.
+<lb />Un prodige inouy me surprend, &amp; m’arreste.
+<lb />ls saciez ornemens sout tombez de sa teste.
+<lb />Le Temple sous mes pas a paru s’ébrauler.
+<lb />La Statuë, &amp; l’Autel ont semblé reculer.
+<lb />Sur mes sens interdits la nuit s’est tépanduë.
+<lb />Diane à mes regards est alors apparuë.
+<lb />J’ay lû, j’ay reconnu dans ses yeux irritez,
+<lb />Que formant des projets contre ses volontez,
+<lb />Tu vas sur tes Etats attirer sa colere,
+<lb />Si d’en presser l’effet ton ame persevere.
+<lb />Cesse d’estre rebelle aux menaces des Dieux.
+<lb />Ne verse plus du sang qui te rend odieux :
+<lb />Etcin de ton amour l’ardeur desavoüée:
+<lb />Laisse en paix une fille aux Autels devoüée,
+<lb />Et songe bien-plûtost, détestant tes rigueurs,
+<lb />A gagner les esprits qu’a’contraindre les cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Où se replonge, ô Ciel! mon ame épouvantée?
+<lb />Toujours entte la crainte &amp; l’espoir agité,
+<lb />Ne peut-elle entrevoir un avenir certain?
+<lb />Et vous qui m’accablez par un zele inhomain,
+<lb />Mes malheurs, mes chagrins n’ont-ils rien qui
+<lb />vous touche?
+<lb />En seray-je sans-cesse instruit par vôtre bouche ?
+<lb />Madame, ouvrez les yeux, quand on le pousse
+<lb />about,
+<lb />Rien n’est plus dangereux qu’un Amant qui peu:
+<lb />tout.
+<lb />Prevenez-en l’éclat, c’est trop vous le redire:
+<lb />Un peu de sang verse voas assure un Empire.
+<lb />Ces refus outrageans ne vous sont plus permis.
+<lb />Vous devez estre à moy. Vous me l’avez promis.
+<lb />La parole a ses loix qu’on ne doit point enfrain<lb />dr
+<lb />Qui le souffre est indigne...
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Est-ce à toy. de t’en plaindre?
+<lb />Toy qui ne dois ce rang dont tu fais vanité,
+<lb />Qu’à ton manque de foy, qu’à ton impieté:
+<lb />Aux ordres du feu Roy cesse de faire injure.
+<lb />Epouse Thomiris, ou crains pour ton parjure.
+<lb />Mais la prosperité te tend souid à ma voix.
+<lb />Un Tytan couronné ne connoît plus de loix.
+<lb />Tu veux par mon hymen combler tes injustices,
+<lb />Tu n’as plus de raison que pour slater tes vicez.
+<lb />Tu te-crois revêtu d’un pouvoir qui peut tout;
+<lb />Voyons ce qu’il destine à qui te pousse à bout.
+<lb />D’une odieuse main instruite dans le crime,
+<lb />Va toy-même à l’Autel immoler la victime;
+<lb />Et pour braver un cœur ferme a te refuser,
+<lb />Aux yeux de la Deesse ose, viens m’épouser,
+<lb />Je vais t’attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Hé bien, je vous suis, ma vangeance...
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />TFIOAS, IPEIGENIE, ANTENOR,
+<lb />HIDASPE, TAXIS, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb />E Sarmate, Seigneur, vous demande audian<lb />ce,
+<lb />Et de cette entreveuë il presse le moment.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ie vais l’entendte, &amp;̃ plein de mon ressentiment,
+<lb />Je reviens à l’Autel, sans que rien m’épouvante,
+<lb />Immoler la v.ctume, &amp; d’une main tanglante,
+<lb />Vouz épouser malgré vôtre audace, &amp; vos Dieux.
+<lb />Mais pour vous détester, &amp; vous estre odieux.
+<lb />Vous le voulez, cruelle, attendez-moy.
+</sp>
+<p type="MainZone-Head"><lb />SEENE V.
+<lb />IPHIGENIE, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />CYANE.
+<lb />MAdims.
+<lb />Quel est l’affreux desscin où s’emporte son ame!
+<lb />Que seroit-ce, grands Dieux! s’il venoit à sçavoir
+<lb />Quuce prouige neie que pour le décevoir:
+<lb />Que ce n’est qu’un mensonge inventé par vous<lb />même.
+<lb />Que ne permettra-t-il à sa colere extrême?
+<lb />Affermy dans ses feux par cette fausseté,
+<lb />Je crois déja le voir furieux, irtité,
+<lb />Potter sur vôtre teste....
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Il n’oseroit Cyane.
+<lb />Consacrée aux Autels, Prestresse de Diane,
+<lb />Quelque audace qu’il eût ce frein l’arrestetoit.
+<lb />Il a beau menacer Cyane, il n’oscroit.
+<lb />Toy qui d’Iphigenie as penetré la feinte,
+<lb />Qui connois de mon cœur, &amp; le trouble, &amp; la
+<lb />crainte.
+<lb />Diane, montre à tous, te declarant pour moy,
+<lb />Que le sang de ton pere est protegé partoy.
+<lb />Si ma fierté se porte à des dématches vaines,
+<lb />C’est l’orgueil de ce sang qui coule dãs mes veires.
+<lb />Voudrois<lb />Voudrois-tu qu’un Tyran soüillast sa pureté,
+<lb />Et poutrois-je descendte à cette indignité.
+<lb />Portomnc aune; Seeite; a ia pieute estiine,
+<lb />Que la pitié m’a fait prendre pour ta victime.
+<lb />L’appuy de l’innocence est l’ouvrage des Cieux::
+<lb />Et c’est une vertu que d’imiter les Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />CYANE.
+<lb />Mais quand vous renoncez au devoir de Prestresse,
+<lb />N’apprehendez-vout point d’irriter la Deesse.
+<lb />Le sang de tous les Grecs à la vangeance est dû.
+<lb />Jusqu’icy, sans fremir, vous l’avez répandu.
+<lb />Une sainte ferveur animoit ce beau zele.
+<lb />D’où vient pour ce Grec seul que vôtre main
+<lb />chancele?
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Me le demandes-tu? tes yeux furent témoins
+<lb />Du déplorable état qui l’offrit à mes soins:
+<lb />Quitte de mes devoirs, j’allois sur le rivage
+<lb />Soúpirer mes malheurs, pleurer mon esclavage.
+<lb />Les vents impetueux obscurcissoient les airs,
+<lb />Troubloieut les Elemens, faisoient mugir les
+<lb />Mers:
+<lb />Quand sur des mats brisez la vague épouvanta<lb />table 2
+<lb />Jetta ce malheureux étendu sur le sable:
+<lb />La pitié m’inspira de conserver ses jours:
+<lb />Dans nos emptessemens il trouva du secouts.
+<lb />N’aurois-je pris le soin de le rendre à la vie,
+<lb />Qu’afin que pat moy-même elle luy fût ravie.
+<lb />Noñ, si je me portois à cet excés d’horreur,
+<lb />Diane en puniroit la barbare fureur.
+</sp>
+<sp type="MainZone-Sp"><lb />CYANE.
+<lb />Et songez-vous pour qui vôtre ame s'interesse?
+<lb />Pout qui vous offensez Thoas, &amp; la Deesse.
+<lb />Ce Grec, dont la pitié vous fait prendre l’appuy,
+<lb />Répond-il aux bontez que vous avez pour luy?
+<lb />Veus a-t-il dit quel sang l’a transmis à la vie?
+<lb />Lorsque de le sçavoir vous témoignez l’envie,
+<lb />Le visage interdit, les yeux pleins d’embarras:
+<lb />Il soûpire, Madame, &amp; ne vous répond pas.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />D’un sang illustre, &amp; grand voila le caractere,
+<lb />Et c’est ce même orgueil qui me force à me taire.
+<lb />Tu sçais, quand de Calchas l’Oracle rigoureux,
+<lb />Eût prononcé la fin de mes jours malheureux,
+<lb />Et qu’aux feux du bucher par Diane enlevée,
+<lb />A servir ses Autels je me vis reservée,
+<lb />Que l'horreur de me voir chez les Scythes cruels!
+<lb />Rougir, tremper mes mains dans le sang des mor<lb />tels,
+<lb />M'a fait ensevelir le nom d'Iphigenie.
+<lb />Je: n’ay conté qu’à toy les malheurs de ma vic.
+</sp>
+<sp type="MainZone-Sp"><lb />Madame...
+<lb />CYANE.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />De ce nom le fier ressentiment,
+<lb />Déteste cet indigne, &amp; lâche abaissement.
+<lb />Il yeut briser un joug dont sa gloire est flêtrie.
+<lb />Je brûle de revoir la Grece, ma patrie,
+<lb />D’admirer, d’adorer couyert de tant d’exploits,
+<lb />Ce grand-Agamemnon Chef des Grecs, Roy des
+<lb />Rois:
+<lb />D'entendre, d'embrasser-Clitemnestre ma mere,
+<lb />Les Princesses mes sœurs, Oreste mon cher frere.
+<lb />Quels transports à me voir ne sentiroient-ils pas?
+<lb />Mon pere, qui long-temps a pleuré mon trépas,
+<lb />Retrouvera sa joye à l’aspect d’une fille,
+<lb />Qui n’a point démenty son auguste famille.
+</sp>
+<sp type="MainZone-Sp"><lb />Pour cet heureux moment, qui fait tous mes sou<lb />haits :
+<lb />Ce Gree m ent important; de paus cher que jamais;
+<lb />Je vais le délivrer, le charger d’une lettre,
+<lb />Qu’aux mains d’Agamemnon il jure de remettre.
+<lb />Quand mon pere sçaura..
+</sp>
+<sp type="MainZone-Sp"><lb />N
+<lb />E.
+<lb />Madame, y pensez-vout?
+<lb />Comment le dérober à Thoas en courroux?
+<lb />Quand même à vôtre femte il donneroit croyan<lb />Pensez-vous d’un Tyran tromper la prévoyance?
+<lb />Quel vaisseau recerra l’Etranger sur son bord?
+<lb />Sans l’ordre de Thoas, on ne sort point du port.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Cyane, il partira de l’aveu du Barbare;
+<lb />Il ne sçait pas le coup que ma main luy prépare.
+<lb />Des volontez du Ciel incertain, &amp; troublé,
+<lb />Le peuple, autour du Temple, est encor assemblé.
+<lb />Je vais le soûlever contre le Tyran même:
+<lb />Viens me voir, empruntant une audace supréme,
+<lb />Confondre, épouvanter le superbe Thoas,
+<lb />Diane, en ce dessein ne m’abandonne pas.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Other"><lb />A'ij
+</p>
+<p type="MainZone-Head"><lb />ACTE II.
+<lb />SUEEMIERE.
+<lb />THOMIRIS, ANTHENOR;
+<lb />ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />NTHENOR, vous sçavez mes mal<lb />heurs, mon injure,
+<lb />Thoas est un impie, un perfide, ur
+<lb />parjure,
+<lb />Qui retient vôtre bras quand il faut
+<lb />le punir;
+<lb />Mon pere n’est-il plus dans vôtre souvenir?
+<lb />Ingrat, à ses bienfaits perdez-vous la memoire?
+<lb />De ce que vous devez à sa fille, à sa gloire?
+<lb />Au point où le Tyran se plaît à l’outrager,
+<lb />Thomiris n’attendoit que vous pour se vanger..
+<lb />Vous estes de retour, vous voyez ma disgrace,
+<lb />Et quand il faut agir vôtre cœur est de glace.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Je sçay ce que je dois, Madame, à vos malheurs:
+<lb />Estimé du feu Roy, comblé de ses faveurs,
+<lb />Je n’ay pas oublié qu’à son heute derniere,
+<lb />Il attacha sur moy sa confiance entiere;
+<lb />qu'éblouy du serment par Thoas attesté,
+<lb />Il n’en prii pour garant que ma fidelité.
+<lb />Il mourut. Si depuis, contre sa foy donnée,
+<lb />Thoas, de vôtre hymen, differoit la journée:
+<lb />J’imputois ces delais, Madame; à son grand cœur,
+<lb />Qui pour vous affermir sur le Trône en Vain<lb />queur,
+<lb />Voulois que vous deussiez à sa propre victoire,
+<lb />La paix de vos Etats, l’abondance, &amp; la gloire.
+<lb />L’Oracle d’Apollon qui menaçoit ses jours,
+<lb />Dè vos prosperirez vint traverser le cours.
+<lb />Pour bannir de ces lieux la crainte, &amp; la tristesse,
+<lb />A ses ordres pressans je partis pour la Grece.
+<lb />Jugez de ma douleur, Madame, à mon retour,
+<lb />Lorsque j’apprens qu'épris-d’un malheureux
+<lb />amour,
+<lb />Thoas, sans respecter les Dieux; ny fa promesse;
+<lb />Veut d’une main impie épouser la Prestresse,
+<lb />Et l’élever au Trône au mépris de vos droits,
+<lb />A ce triste recit interdit, &amp; sans voix....
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Il faut d'autres efforts pour laver mon offence.
+<lb />C’est la mort du Tyran qu’éxige ma vangeance.
+<lb />La Prestresse aujourd’hus le verroit son époux.
+<lb />Prevenons...:
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOP.
+<lb />Suspendez un moment ce courroux:
+<lb />Tout semble s’opposer au sort qui vous menace.
+<lb />Tout semble présager qu’il va changer de face:
+<lb />Ce Grec dont le trépas est encore incertain,
+<lb />De quelque heureux retour flate vôtre destin.
+<lb />J’allois, pour détourner le malheur qui vous presse,
+<lb />Au pied de ses Autels implorer la Deesse.
+<lb />Son Temple étoit fermé, j’ay vû de toutes parts
+<lb />Le peuple pour entrer s’offrir à mes regards:,
+<lb />B3
+</sp>
+<sp type="MainZone-Sp"><lb />Lors qu’avec un grand bruit la porte s’est ouverte.
+<lb />Aussi-tost la Prestresse à nos yeux s’est offerte.
+<lb />Pasle, sans appareil, ses voiles déchirez;
+<lb />Les cheveux herissez, les regards égarez::
+<lb />Elle a fait voir à tous par son maintien farouche,
+<lb />Que la Deesse alloit s’expliquer par sa bouche.
+<lb />A son aspect, tremblant, interdit, consterné,
+<lb />Tout ce peuple à genoux est tombé prosterné:
+<lb />Une sainte terreur qu’imprimoit sa presence,.
+<lb />A sur les assistans répandu le silence.
+<lb />Scythes, a-t-elle dit, tremblez tous; fremissez.
+<lb />Des maux dont en ce jour vous estes menacez: :
+<lb />Diane de ce Grec protege l’infortune:
+<lb />Elle ménage un sang qu’a conservé Neptune.
+<lb />Attache vostre sort au salut de ses jours.
+<lb />Vous deffend par me voix d’en abreger le cours::
+<lb />Marquez-luy vos respects par vostre obeissance:
+<lb />Imitez son exemple, ou craignez sa vangeance.
+<lb />A ces mots, pour jurer, de maintenir ses loix,,
+<lb />Tout ce peuple assemblé n'a formé qu’une voix.
+<lb />Surpris d’un tel spectacle, &amp; pressé par mon zele,
+<lb />yaj couru enez le Roy porter cette nouvelle.
+<lb />Je l’ay trouvé sortant d’avec l’Ambassadeur;
+<lb />Mon recit sur son front a porté la terreur;
+<lb />Aprés s’estre affranchy du trouble de son ame,,
+<lb />le l’ay vû s’empresser à vous parler, Madame.
+<lb />Il va venir. Les Dieux l’ont peut-estre touché:
+<lb />Peut-estre à son devoir desormais attaché,
+<lb />Qu’il vous raporte un Sceptre....
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Aprés sa perfidie,
+<lb />Aprés l'impunité de son audace impie,
+<lb />Vous eroyez qu’aux remords il se laisse ébranler a<lb />Et qu’il n’ait fait.ce pas qu’afin de reculet,
+<lb />Nòn, non, plus de pitié quand sa mort est jurée.
+<lb />Des plus grands de l’Etat la foy m’est assurée.
+<lb />Par la voix ue euis Cltis,les Scythes mécontenta.
+<lb />Excitent ma vangeauce, en preslent les instans.
+<lb />L'Ambassadeur Sarmate est dé l’intelligence.
+<lb />Tous contre le Tyran vont....
+</sp>
+<sp type="MainZone-Sp"><lb />AlTHENOR.
+<lb />Madame, il s’avance:
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />THOAS,THOMIRIS,ANTHENOR,
+<lb />ERINE, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />JE ne viens point, Madame; orné de vains dis<lb />cours,
+<lb />D'une frivole excuse emprunter les détours;.
+<lb />A regner avec moy vous estes destihée,
+<lb />Je dois m’unir à vous par un saint hymenée:
+<lb />Mais ce setoit vous faite un present odieux,
+<lb />Que l’hommage d’un Roy brûlant pour, d’autres
+<lb />yeux:
+<lb />Toutefois les transports d’un aveugle caprice,
+<lb />N’ont jamais. de mon cœur écarté la justice:
+<lb />Je me souvieus toujours qu’un Trône vous est dûr<lb />Par de plus dignes mains il vous sera rendu.
+<lb />Charmé de vos vertus, le vaillant Merodate,
+<lb />Vous offre, avec sa foy, l’Empire du Sarmate;
+<lb />Avide, impatient de m’acquiter vers vous,
+<lb />J’ay reçù sa demaude;; il sera vôtre epoux.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Aux ordres de mon pere est-co ainsi que vôtre
+<lb />amc.....
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Il'regnoit? A sa voix tout fléchissoit, Madame::
+<lb />J’obéïssois. Son Sceptre a passé sous mes loix.
+<lb />Je regne. Obéïssez pour la derniere fois.
+</sp>
+<sp type="MainZone-Sp"><lb />T-HOMIRIS.
+<lb />Vous regnez! sans nul titre, &amp; de race commune,
+<lb />A-qui le devez-vous, Seigneur?
+</sp>
+<sp type="MainZone-Sp"><lb />THHOAS.
+<lb />A la fortune.
+<lb />Destiné pour remplir le Trône où je me vois,
+<lb />Au feu Roy vôtre pere elle impola son choix.
+<lb />C’est d’elle, &amp; non de luy, que je tiens ma Cou<lb />ronne.
+<lb />Arbitre des Etats qu'elle ôte, ou qu'elle donne:<lb />Efle éleve &amp; détruit l’ouvrage de ses mains,
+<lb />Parune intelligence inconnuë aux humains.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS...
+<lb />Quoy! loin de respecter les manes de mon pere....
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Je vous estime encor, Madame, &amp; vous revere.
+<lb />N’allez point, rapellant d’inutiles clartez;.
+<lb />Soûlever mon dépit, irriter mes bontez.
+<lb />J’ay dit. De Merodate acceptez l'hymenée<lb />A ses Ambassadeurs ma parole est donnée;
+<lb />Son Sceptre vous attend. Allez le recevoir. 
+<lb />Tout est prest: l’heure est prise; &amp; vous partez<lb />ece soir.:.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Perfide, car enfin je ne puis plus me taïre;
+<lb />Tu veux par trop d’endroits meriter ma colere;
+<lb />Et je me seus forcée à perdre malgré moy,
+<lb />Ce reste de respect qur je gardois pour co
+<lb />D’où te vient tant d’orgueil, &amp; par quelle puis<lb />sance;
+<lb />De promettre ta Reine, as-tu pris la licence?
+<lb />Merodate m’épouse, &amp; va me couronner;
+<lb />Mais quelle dot, Tyran, penses-tu me donner?
+<lb />Souveraine en naissant des lieux où je respire;
+<lb />J’irois sous d’autres Cieux-mandier un Empire:
+<lb />Et ma fuite approuvant tes lâches attentats,
+<lb />Te laisseroit paisible occuper mes Etats.
+<lb />Non, ne présume pas, quelque espoir qui te flatte:
+<lb />Que je coure si loin pour trouver-un Sarmate.
+<lb />s’il me veut obtenir, qu’il vienne me chercher::
+<lb />Que d’un ioug tyrannique il vienne m’arracher,
+<lb />Je le reçois alors, ma main est toute preste,
+<lb />Pour qu’avec la sienne il m'apporte ta teste:
+<lb />Voila. par quels efforts il me pent meriter,
+<lb />Et ce n’est qu’à ce prix que je puis l’accepter:
+<lb />Adieu.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />THOAS, ANTHENOR, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS à- Hidaspe.
+<lb />F'Aites venir ce Grec.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Quelle surprise?
+<lb />Avez-vous pû, Seigneur, former cette entre<lb />prise?:
+<lb />Songez-veus bien à qui vous livrez Thomfric?
+<lb />Au Sarmate, au plus grand de tous vos ennemis:
+<lb />Nætpetez de ces nœdas qu'une guerre immortelse:
+<lb />Supetbe, armé des droits qu’elle porte avec elle,
+<lb />Il joindra tost ou tard vostre Sceptre, &amp; le sien.
+<lb />Vous le voyez, Scigneur, jamais....
+</sp>
+<sp type="MainZone-Sp"><lb />T’HOAS.
+<lb />Je ne vois rien.
+<lb />Dans les divers transports dont mon trouble m'a<lb />nime;
+<lb />Quand j’entends que les Dieux protegent ma
+<lb />victime,
+<lb />Quand je vois que mon peupse interdit, effrayé,
+<lb />S’opposc à ma fureur, me tient le bras lié,
+<lb />Examiner ce Grec, éprouver la Prestresse,
+<lb />Penetrer la pitié qui pour luy s’interessé;
+<lb />Eclaitcir des soupçons dont mon cœur est frapée
+<lb />Voila l’unique soin dont ie suis occupé.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Prenez-garde, Seigneut, les suprêmes Puissancez
+<lb />Ne sont pas à l’abry dés celestes vangeances:
+<lb />Les Dieux tendent souvent un piege à nôtre or<lb />gueil;
+<lb />L'hymen de la Prestresse est peut-estre l'écueil ,<lb />Où pour faire échoüer vôtre ame chancelante.a.
+</sp>
+<p type="MainZone-Head"><lb />CENE IV.
+<lb />THOAS, ANTHENOR, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Uoy! sans ce Grec Hidaspe à mes yeux se
+<lb />presente!
+<lb />Qui l’arreste? Ose-t-il méconnoistre ma veix?
+<lb />Est-ce que la Prestresse est rebelle à mes loix?
+<lb />Ne le verray-je pas?
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASP.E.
+<lb />Seigneur, on vous l’ameine:
+<lb />Mais je ne l'ay du Peuple obtenu qu’avec peine:
+<lb />Inspiré par Diane à s’en faire l’appuy,
+<lb />Son zele, contretous, se déclare pour luy;
+<lb />A me l’abandonner il marquoit sa contrainte.
+<lb />Par les Dieux attestez j’ay dissipé sa crainte,
+<lb />JJ’ay promis son retour.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />HOAS.
+<lb />Qu’il vienne.
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+</sp>
+<p type="MainZone-Other"><lb />Le voicy.
+</p>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />THOAS, PILADE, ANTHENOR,
+<lb />HIDASPE, TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />U'on cherche la Prestresse, &amp; qu'on l’amei<lb />ne icy.
+<lb />Appioche. Ce n’est plus ton nom, ny ta naissance
+<lb />Dont je veux par ta bouche avoir la counoissance.
+<lb />La Prestresse t’arrache à mon inimitié,
+<lb />Je veux sauver des jours dont elle prend pitié:
+<lb />Le Sarmate est chargé du soin de te conduire;
+<lb />Tu suivras Thomitis jusques dans leur Empire.
+<lb />Dela sur un vaisseau qu’iss doivent te donner,
+<lb />Dans ton païs natal tu pourras retourner:
+<lb />Mais s’il te reste encor quelque amour pour la vie,
+<lb />Si de la prolonger tu conserves l’envie,
+<lb />Prens garde qu’en ces lieux cet Astre que tu vois,
+<lb />Ne te retrouve pas une seconde fois.
+<lb />Tu peux partir.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Le sang dont le Ciel m'a fait naistre:
+<lb />Dans ce vaste Univers ne connoist point de maî<lb />Son sort independant en tout temps, en tous lieur,
+<lb />Ne reçoit ny de loix, ny d’ordres que des Dieux.
+<lb />Je venois en ces lieux animer par la gloire,
+<lb />J’y devois remporter une illustre victoire.
+<lb />Janais
+<lb />Jamais projet ne fut plus dignement formé,
+<lb />Lez Cieux armoient mon bras, les Mers l’ont
+<lb />desarmé.
+<lb />De tes indignes mains si j’acceptois la vie,
+<lb />Je ne la traînetois qu’avec ignominie;
+<lb />Supprime tes bontez, &amp; puisque tes Etats
+<lb />N’ont point vû mon triomphe, ils verront mon
+<lb />trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />JA
+<lb />3
+<lb />Quel trouble à ce discours jette-t-il dans mon
+<lb />ame!
+<lb />Seroit-ce l’ennemy...
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />THOAS, IPHIGENIE, PILADE:
+<lb />ANTHENOR, HIDASPE, CYANE,
+<lb />l icicPov.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />VEnez, venez, Madame.
+<lb />Ce malbeureux mortel se déclare aujourd’buy,
+<lb />Indigne des bontez que vous avez pour luy:
+<lb />Il mourra, rien ne pent tetenir ma vangeance.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Diane, par ma voix, t’en a fait la deffense:
+<lb />Oses-tu t’opposer aux volontez des Cieux ?
+</sp>
+<sp type="MainZone-Sp"><lb />HOAS.
+<lb />Non, ne vous en prenez qu’à cet audacieux;
+<lb />Ardent à satisfaire au desir qui veus presse,
+<lb />J’ouvrois à cet ingrat le chemin de la Grece.
+<lb />Quoy que je m’apprestasse un cruel repentir,
+<lb />Je ne longcois qu’à vous. Je le faisois partir.
+<lb />On voit par ses refus ce qu’il cache en son ame,
+<lb />Et quelqu’autre interest l’arresle icy, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Et quel motif le peut reteuir en des lieux?
+<lb />Où sans cesse la mort est presente à ses yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />AS.
+<lb />Le volla, je vous laisse; il pourra vous l’appren<lb />dre;
+<lb />our tout j'impiteeriaj ie paity qu'il doit prendre.
+<lb />Madame, il est encor l’atbitre de son sort.
+<lb />S’il part, j'oubliray tout; sil demeure, il est mort:
+<lb />Dût Jupiter sur moy faire tomber la foudre,
+<lb />Je ne vous donne plus qu’une heure à le resoudre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />APATGENTE,, PILADE, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Alheureux étranger, où vous engagez-vous?
+<lb />IVll Quelle temerité vous retient parmy nous?
+<lb />D’une sanglante mott elle sera suivie.
+<lb />Avez-voustant de haine, &amp; d’horteur pour la vies
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Triste joüet du sort, abandonné des Dieux,
+<lb />Brûlant d’un vain desit, le jour m’est odieux,
+<lb />Je n’avois qu’un amy. La colere celeste
+<lb />Se plût à le former sous no Astre funeste.
+<lb />Telle fut de son sort l'affreuse cruauté,
+<lb />Qu’il luy sit des forfaits une necessité.
+<lb />De l'horrible ascendant qui l’entrainoit au crime,
+<lb />Aprés l’avoir commis, il deviut la victime.
+<lb />Quoy que juste, il n’en cût pour fruit que le re<lb />mords:
+<lb />Tourmenté, déchiré de furieux transports;
+<lb />Il venoit en Tauride expier son offense,
+<lb />Il y devoit trouve:, le repos, l'innocence.
+<lb />L’Oracle l’assuroit, j’accompagnois ses pas.
+<lb />N’estoit-ce, malheureux, que pout voir son tré<lb />pas
+<lb />J'ay perdu mon amy: témoin de son naufrage,
+<lb />Il ne me reste plus sur ce triste rivage,
+<lb />Privé de llembrasser, &amp; de l'ensevelir,
+<lb />Que d’appaiser ses Dieux, le p’euter, &amp; moutir.
+</sp>
+<sp type="MainZone-Sp"><lb />BLIITGERIE.
+<lb />D'un si pieux devoit nul ne peut vous reprendre:
+<lb />Mais n’en avez-vous point encor quelqu’autre à
+<lb />rendre?
+<lb />Et ne peut-on de vous esperer un secours,
+<lb />Pour prix de tous les soins qu’on a pris de vos
+<lb />jours.?
+</sp>
+<sp type="MainZone-Sp"><lb />TLADE
+<lb />De ces jours malheureux que pouvez-vous pre<lb />tendre?
+<lb />Madame, &amp; quel secours en devez-vous attendret
+<lb />Cependant cet espoir dont vous m’osez flater,
+<lb />Au jour que je fuyois peut encor m’arrester.
+<lb />Commandez, je suis prest. Pour vous que puis-je
+<lb />faire?
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Plusque vous ne croyez vous m'estes necessaire.
+<lb />Née au sein de la Grece, où brillent mes ayeux,
+<lb />Je me vois, comme vous Etrangere en ces lieux:
+<lb />ij
+<lb />Un Tytan m’y retient. Ministre de ses crimes,
+<lb />Je rougis nos Autels d’innocentes victimes.
+<lb />Que die je Phuepocrern ponte là fureur,
+<lb />Détivrez-moy d’un joug barbare &amp; plein d’hor<lb />reur.
+<lb />Vous pouvez de ces lieux m’applanir la sortie.
+</sp>
+<sp type="MainZone-Sp"><lb />ILADE.
+<lb />Armez mon bras, Madame, &amp; vous serez servie.
+<lb />Redevable à vos loins de mes mallieureux jours,
+<lb />Heureux en vous servant d’en signaler le cours,
+<lb />Auimé par vous-même. &amp; pour vostre deffense...
+<lb />D'un zele plus ardent que la reconnoissauce,
+<lb />J’iray porter le fer dans le sein de Thoas.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Non, ce seroit vous perdre, &amp; ne me sauver pas.
+<lb />Sans ex poser vos jours, vous pouvez m’estre utile,
+<lb />Le Tyran vous en ouvre un chemin plus facile;
+<lb />Puisqu'n vous le perinet pressez votre depart !
+<lb />Portez dans vostre Gtece un écrit de ma part:
+<lb />Contez mon infortune à ceux qui m’ont fait nal<lb />Ils me viendront chetcher, &amp; se feront connoistre,
+<lb />Suivis de plus de Rois, de Chefs, &amp; de soldats,
+<lb />Qu’Helene n’en a fair armer par Menelas.
+</sp>
+<sp type="MainZone-Sp"><lb />PILA DE.
+<lb />Contre vostre Tyran prompt à tout entreprendre,
+<lb />Avec mes seuls Vaisseaux je viendrois vous re<lb />prendre:
+<lb />Dans ce monde où mon nom sans tache est par<lb />venu,
+<lb />Je ne suit point entré, Madame, en inconnu.
+<lb />Ma naissance est d’un rang respecté dans la Grece;.
+<lb />Mais si je pars, quel est l’état où je vous laisse!
+<lb />Un Tyran odieux.... Je fremis d’y penser,.
+<lb />A recevoir sa main osera vous forcer.
+<lb />O Ciel! je pourrois voir au pouvoir d’un barbare
+<lb />Ce que jamais les Dieux ont formé de plus rare,
+<lb />Pour qui d’un feu secret je me sens dévorer....
+<lb />Que iais-je? Ou na fatton va teelle s’égarer:
+<lb />Mes discours, mes regards, &amp; mon trouble, Ma<lb />dame,
+<lb />Trahissent, malgré moy, le secret de mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Qu'entens-je ? Ma pitie daignoit vous secou<lb />rir,
+<lb />Je voulois vous sauver, mais vous voulez mourir:
+<lb />Vous ajoûtez l’audace au sort qui vous opprime.
+<lb />Ciel! Ciane à l’Autel remenez la victime.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Vous ne m’étonnez point, j'ay prévû vôtre Ar<lb />rest.
+<lb />Quay jeuitatte du joariemonteu tous déplaist ?:
+<lb />R la rigueur du coup que votse bras m’appreste,
+<lb />Soûmis, sans murmurer, je vais porter ma teste.
+<lb />Trop heureux: que ma mort remplisse vos defirs,
+<lb />Et plus heureux encor, que mes derniers soûpit:
+<lb />Vous redisent cent fois, par un aveu sincere,
+<lb />Tont ce que le respect me force de vcu- taire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE seule.
+<lb />Ue dit-il? je l'entends? je le laisse parler,
+<lb />Je sens à ses discours mon devoir chanceler:
+<lb />Qui suis-je? Iphigenie aurois-tu la foiblesse....
+<lb />Que veux-je penetrer? Dans quel trouble... O
+<lb />Deesse !.
+<lb />C-iiji
+<lb />Je connois ta vangeance au malheur qui me<lb />suit.
+<lb />De ma lâche pitié voila quel est le fruir:
+<lb />Tu me punis d’avoir épargné ta victime,
+<lb />Ne porte pas plus loin la peinc de ton crime.
+<lb />Tu n’auras pas long-temps à me le reprocher.
+<lb />Je vais percer son cœur. Je vais sur le bucher
+<lb />Eteindre dans son sang son ardeur orgueilleuse.
+<lb />Où vas-tu? Qu’oses-tu promettre, malheureuse!:
+<lb />Quelque loy que t’impose un fier devoir, helas!:
+<lb />Esclave de ton cœur, répons-tu de ton bras?
+<lb />J’entens quelqu’un, cachons le trouble de mon.
+<lb />amo.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />IPHIGENIE, HIDASPE..
+</p>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />N autre Grec se livre entre nos mains,
+<lb />7 Madame.
+<lb />Malgré tous ses efforts, en ces lieux arrivez...
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Comment? en quel état, où l’avez-vous trouvé??
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />On alloit ramasser les débris d'un naufrage,
+<lb />Lors qu’entre les écueils qui bordent le rivage,
+<lb />Qu'un mortel sans frayeur n’oseroit approcher.
+<lb />On en voit un, Madame, à l'abry d’un rocher.
+<lb />Sa veuë est égarée, &amp; bien loin de se rendre,
+<lb />Contre un peuple sans nombre, il ose se défendre
+<lb />Il rompt, il perce, il frappe, il combat fierement.
+<lb />L’on dit même, &amp; ce bruit n’est pas sans fonde<lb />ment:
+<lb />Qu'on a vû devant luy les fieres Eumenides,
+<lb />Promener leurs flambeaux, vangeurs des homi<lb />cides,
+<lb />L'inciter au carnage: &amp; pour comble d’horreur,.
+<lb />Luy soufler le venin de leur noire fureur.
+<lb />Cependant de cent cris les Echos retentissent.
+<lb />On court de toutes parts: ses forces s’affoiblise.
+<lb />sent.
+<lb />J’arrive, je le vois privé de sentiment:
+<lb />On vient de l’apporter dans cet appartement...
+<lb />voila de quoy le Roy par moy vous fait instruire</sp>
+<sp type="MainZone-Sp"><lb />PHIGENIE.
+<lb />Je feray mon devoir. Hidaspe, allez luy dire,
+<lb />Que j’attens sa victime, &amp; vais tour préparer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE seule.
+<lb />E Ciel a fait mon crime, il va le reparer;:
+<lb />Il' Dans le sang de ce Grec expions ma foiblesse:
+<lb />Allons par son trépas appaiser la Deesse<lb />Tâchons d’engager l’autre à quelque repentir:
+<lb />Sauvons ce malheureux, &amp; le faisons partir.
+</sp>
+<p type="MainZone-Other"><lb />Fin dis second Acte,
+</p>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />SCENE FREMIERE.
+<lb />THOMIRIS, ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ERIN'E.
+<lb />ADAME, quel dessein em ces lieux
+<lb />vous rapelle?
+<lb />Qui vous porte à revoir encore un<lb />infidelle?
+<lb />Une seconde fois par d'inutiles cris,
+<lb />Venez-vous-essuyer ses superbes mépris?
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Fsutque tous mes mameurs, je deteste sa veuë:
+<lb />Mais, Erine, aujourd’huy ma vangeance est:
+<lb />perduë;
+<lb />Cet Etranger qui vient d'arriver sur nos bords,.
+<lb />De mes secrets desseins renverse les efforts.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Qu'à de commun son sort, Madame, avec le vô<lb />tre?
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Son abord m'est funeste. Il nous perd l'un &amp; l'au<lb />re
+<lb />Thoas va l’exposer à la rigueut des loix.
+<lb />La Prestresse y consent, elle a donné sa voix;
+<lb />Sa main va l'immoler, &amp; dés ce moment même
+<lb />Elle épouse Thoas, &amp; prend le Diadême:
+<lb />Si ce fatal hymen s’acheve avant la nuit,
+<lb />De ma vangeance, ô Ciel: le projet est détruit,
+<lb />Le peuple qui redoute &amp; cherit la Prestresse,
+<lb />s'il la voit sur le Trône,oubliant sa Princesse,
+<lb />De la Religion se faisant une loy,
+<lb />Respectueux pour elle, osera moins pour moy.
+<lb />De l’hymen du Tyran troublons le sactifice.
+<lb />Avant que l’Etranger soit conduit au supplice,
+<lb />Par l’ordte de Thoas on va faire un effort,
+<lb />Pour appsenure son non, ia naisance, son sort,
+<lb />Je viens, par mes avis, l’exhorter à se taire,
+<lb />S’il obtient que par là sa peine se differe,
+<lb />Si jusques à demain il peut gagner du temps,
+<lb />Mon entreprise est seure, &amp; mes desirs contens,,
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />THOMIRIS, ANTHENOR
+<lb />ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />J'Erray-je l’Etranger Anthenor?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Ouy, Madame::
+<lb />Mais toujonrs agité des troubles de son ame,
+<lb />Je viens de le laisser pasle &amp; sans mouvement;;
+<lb />Attendez pour le voir dans cet appartement,
+<lb />Que rappellant ses sens, &amp; sa raison captive,
+<lb />Il preste à vos discours une oreille attentive.
+<lb />Nul ne peut en ces lieux traverser vos souhaits:
+<lb />On garde seulement les dehors du Palais.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />C'est assez. Pour sa vie, ô Ciel! fay qu’il m'écoûte.
+<lb />Mais avec le Tyran prenons une autre route.
+<lb />Allez, pour l’abuser, luy faire concevoit,
+<lb />Que sur ses volontez je regle mon devoir.
+<lb />Mais jusqu’à mon départ, de l’hymen qu’il apprête,
+<lb />Anthenor, dites-luy qu’il suspende la feste.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Je vais vous obéïr; mais je n’obtiendray rien;
+<lb />N’esperez pas fléchir un cœur comme le sien.
+<lb />Il est pour cet hymen trop plein d’impatience,
+<lb />Une pareille ardeur anime sa vangeance.
+<lb />Il croit que l’Etranger que l’on vient d’arrester,
+<lb />Est celuy dont l'Oracle a sçû l'épouvanter.
+<lb />Pensez-vous l’engager à la moindre contrainte,
+<lb />Qui suspende sa joye, &amp; prolonge sa crainte?
+<lb />Déja par mes discours que n’ay-je point tenté::
+<lb />L’ingrat n’écoûte plus que son iniquité.
+<lb />De ses plus chers amis il s’attire la haine:
+<lb />Madame, c’est à nous d’avancer nos projets,
+<lb />Pour pouvoir de sa rage empescher les effets.
+<lb />Obligez l’Etranger à garder le silence,
+<lb />Quand on viendra sçavoir son nom &amp; sa naissance,
+<lb />Et que Thoas par là differant son arrest.....
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Il suffit. Anthenor faites: que tout soit prest.
+<lb />Voyez Thoas, vous dis-je, &amp; luy faîtes connoistre,
+<lb />Que je pars cette nuit. Que demain: il est maistre:
+<lb />Le delay n’est pas long. Allez.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />THOMIRIS, ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />QU'ay- je entendu:
+<lb />Quoy! vous renoncez donc au rang qui vons est
+<lb />En faveur de Thoas, vostre haine affoiblie...
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Non, non, je ne suis pas Erine encor partie.
+<lb />Si je feins du Tyran d’approuver le dessein,
+<lb />C’est pour mieux luy plonger un poignard dans le
+<lb />sein.
+<lb />Au piege qu’il me tend j’oppose l’artifice.
+<lb />Des voiles les plus noirs couvrant son injustice,
+<lb />Il a pris cette nuit pour cacher mon départ;
+<lb />De cette même nuit me faisant un rempart,
+<lb />Peuple, Sarmate, amis animez d’un beau zele,
+<lb />A l’ennemy commun la rendront éternelle.
+<lb />Tous ont juré sa mort, m’en ont donné leur foy:
+<lb />Le reste de ce jour est à craindre pour moy.
+<lb />Tâchons donc à ce Grec d'imposer le:silence.
+<lb />Que jusques à demain... Je l’entens. Il s’avancc?
+<lb />Ses regards sont encor égarez, furieux.
+<lb />Le trouble de ses sens nous dérobe à ses yeux.
+<lb />Dissipe, juste Ciels le voile qui les couvre.
+</sp>
+<p type="MainZone-Head"><lb />DOSNETVC
+<lb />ORESTE, THOMIRIS, ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />QOus mes pas chancelans quel abîme s’entr’on<lb />vre!
+<lb />De tenebres, de feux je suis envelopé;
+<lb />De troubles, de terteurs. mon esprit est frapé:
+<lb />Noires filles du Styx, implacables Deesses,
+<lb />Souffriray-je toujours vos fureurs vangeresses?
+<lb />Ne vous lassez-vous point, ô destins ennemis!
+<lb />De punir ldes forfaits que vous avez permis?
+<lb />Grace aa Cierje reipne, &amp; je vois la lumiere:
+<lb />Où suis-je? Quel Palais! quelle pompe étran<lb />s'offre de toutes parts à mes reparde surpris:
+<lb />Que vois-je? quel objet vient fraper mes esprits?
+<lb />Ce portmajolcuedie, cocdagante cisage,
+<lb />D’une Divinité me presente l’image.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Etranger, rends le calme à tes sens agitez.
+<lb />Remetsdans leur repoz tes esprits irritez.
+<lb />Le malheur qui te livre aux Deesses terribles,
+<lb />Dans ces funestes lieux trouve des cœurs sensi<lb />bles,
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />En est-il qui pour moy se laissent attendrir?
+<lb />O vous! dont la pitié daigne me secourir,
+<lb />Qui jettez sur mes jours un regatd favorable,
+<lb />Achevez d’adoucir le sort d’un miserable.
+<lb />Où suis-je? sous quel Ciel me vois-je par venu?
+<lb />Cominent, &amp; par quel ordre y suis-je retenu?
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Quel Astre t’a conduit dans ce climat baibare?
+<lb />Malheureux! je fremis du sort qu’on t’y prépare.
+<lb />L’Enfer est un sejour moins à craindre pour toy:
+<lb />Si tu veux l’éviter, prens confiance en moy.
+<lb />Fier devant tes bourreaux, dans un profond si<lb />lence,
+<lb />Enscvelis ton nom, &amp; cache ta naissance.
+<lb />C’est l’unique moyen de conserver tes jours.
+<lb />On tremble pour tã vie, on vole à ton secours:
+<lb />D'une noble pitié seconde l’entreprise;
+<lb />Le temps presse d’agir. Je crains d’estre surprise.
+<lb />Pour t’affranchit du sort qui t’attend en ce lieu,
+<lb />Obeis à ma voix, ou crains la mort. Adieu.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+</p>
+<sp type="MainZone-Sp"><lb />ORESTE seul.
+<lb />U'entens-je? A mes mallieurs elle paroist
+<lb />sensible,
+<lb />Mon nom doit m'attiter une mort infaillible:
+<lb />Le supplice le suit, &amp; pour m’en arracher,
+<lb />Sa bouche par pitié m’invite à le cacher.
+<lb />Du malheureux Oreste auroit-on connoissance?
+<lb />Le sang de Jupiter m’a donné la naissance.
+<lb />Quelque éclat qu’à ma vieattache un sang si beau?
+<lb />Que ne m’a-t-il esté ravy dés le berceat?
+</sp>
+<p type="MainZone-Lg"><lb />Mes yeux n’ont point en paix jouy de la lumie<lb />Ils ne se sont ouverts quel pour voir ma miserc.
+<lb />Le crime a sans relâche investy tous mes pas.
+<lb />Dés l’enfance étranger dans mes propres Etats,
+<lb />Un adultere affreux m’ôta le Diadême:
+<lb />Un meurtte détesté me l’a rendu de même:
+<lb />Mais ce qu’ont de charmant ses fastueux dehors.,
+<lb />Ne mettent point une ame à l’abry des remords.
+<lb />Pour rendre à mes esprits le calme, &amp; l’innocence,
+<lb />J’imploray d’Apollon la celeste puissance.
+<lb />Son Prestre m’ordonna, que sidelle à sa voix,
+<lb />J’allasse où de Diane on respecte les loix;
+<lb />Que la tranquilité ne me seroit renduë,
+<lb />Qu’aprés avoir du Temple enlevé sa Statuë.
+<lb />Je pars pour la Tauride avec ce doux espoir:
+<lb />Son rivage à mes yeux déja se faisoit voir,
+<lb />Quand tout à coup surpris par un cruel orage,
+<lb />Brisé contre un rocher mon Vaisseau fit naufra<lb />J’ay vû perit amy, soldats, &amp; matelots;
+<lb />Moy-même enveloppé dans l’abîme des flots,
+<lb />J’ignore par quel sort la clarté m’est renduë.
+<lb />Furieux, il ne reste à mon ame éperdut,
+<lb />Qu'un triste souvenir de mes crimes passez,
+<lb />Qui, sur la foy du Ciel, alloient estre effacez:
+<lb />Mais il s’est repenty. Grands Dieux! puisque ma
+<lb />De forfaits inoüis devoit estre suivie?
+<lb />Pourquoy,! dans les remords dont je suis com<lb />bactu,
+<lb />:Ae laissez-vous un cœur sensible à la vertu!
+<lb />De ton orgueil, Oreste, étouffe l’imprudence,
+<lb />Le destin veut ta mort, meurs, meurs,avec constan<lb />ce,
+<lb />Et versant noblement le sang qu’il t’a donné,
+<lb />Fais rougir Jupiter de t’avoir condamné.
+<lb />Ne va point de ce sang avilir ce qui teste,
+<lb />Dans la nuit du tombeau'cache le nom d’Oreste,
+<lb />Qu’il ne devienne point l’opprobre de ces lieux.
+<lb />Allons! Quel autre objet se presente à mes yeux?
+<lb />Quel trouble à son abord me saisit : je l’admire!
+</p>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />IPHTGENIE, ORESTE, CYANE,
+<lb />D 2322 R03
+</p>
+<sp type="MainZone-Sp"><lb />IFIIGENIE.
+<lb />Loignez-vous, Cy:ne; &amp; vous qu’onse retire.
+</sp>
+<sp type="MainZone-Sp"><lb />STE.
+<lb />Querte gracers jguenas Gieux? querle noble fierté:
+</sp>
+<sp type="MainZone-Sp"><lb />PHIGENIE.
+<lb />De crainte, en l’abordant, mon cœur est agité.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />D’où vient, en la voyant, que ma fureur me qui</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />D’où vient, qu’à son aspect, je me sens interdite ?
+</sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />T
+<lb />E
+<lb />Etonné de me voir sut ce bord étranger,
+<lb />Madame, de quels yeux vous dois-je envisager ?.
+<lb />Quel sort m’annonce icy vostre auguste presence?
+<lb />Ne le puis-je sçavoit?
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Armez-vous de constance.
+<lb />Montrez de vostre cœur toute la fermeté.
+<lb />C’est icy de Thoas l’Empire tedouté.
+<lb />Nul Grec ne met le pied sur ce fatal rivage,
+<lb />Fut-il du sang des Dieux, qu’il n’imiole à sa rage.
+<lb />A vous porter le coup mon bras est destiné:
+<lb />Le sacrisice est prest, l’appareil ordonné:
+<lb />Sur l’Autel de Diane, où vous allez me suivre,
+<lb />Avant la fin du jour vous cesserez de vivre.
+</sp>
+<sp type="MainZone-Sp"><lb />EST
+<lb />E,
+<lb />Grace au Ciel mon destin ne m’est plus inconnu;
+<lb />Au port tant desiré je suis donc parvenu.
+<lb />O mort! heureuse mort! tu sinis ma misere.
+<lb />Vous qui sur moy des Dieux épuisez la colere,
+<lb />Levez le bras; ftapez, je m’abandonne à vous,
+<lb />Et déja mon cœur vole au devant de vos coups.
+<lb />Me voila prest, marchons.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Je demeure immobile:
+<lb />Que vois-je? Que la Grece en Heros est fertile!
+<lb />L'arrest du coup mottel qui les doit accabler,
+<lb />N'a rien d’assez affreux pour les faite trembler.
+<lb />Magnanime Etranger, ne pourray-je connoistre
+<lb />Quel nomn vous fut donné, quel sang vous a fait
+<lb />Maiite *
+</sp>
+<sp type="MainZone-Sp"><lb />E
+<lb />Ah! que ce nom fatal, dans un profond oubly,
+<lb />Madame, avec mon sang n’est-il ensevely.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Où vistes-vous le jour? Estes-vous de Trezene?
+<lb />De Thebes, ou d’Elis, de Sparte, ou de Mycene?
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />O de tes sacrez murs, de ton riche Palais,
+<lb />Mycene, le destin m’éloigne pour jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE
+<lb />Vous estes de Mycene? ô Ciel! quelle est ma joye!
+<lb />De quel œil y voit-on le destructeut de Troye?
+<lb />Que fait dans ses Etats le giand Agamemnon?
+</sp>
+<sp type="MainZone-Sp"><lb />ORELTE.
+<lb />Ah! sans cesse, &amp; par tout, entendray-je ce nom.
+<lb />Terre, pour le cacher n’as-tu point de conttée?
+<lb />Source de tant d’horreur, malheureux sang d’A<lb />trée,
+<lb />Parmy tant de Heros ne pourra-t-on jamais
+<lb />Publier ta splendeur, saes conter tes forfaits?
+</sp>
+<sp type="MainZone-Sp"><lb />lIGENIE.
+<lb />Chef de la Grece, issu d’une source divine,
+<lb />Son nam ne dement point lon auguste origine.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Contre la perfidie, ô titres superflus!
+<lb />Agamemnon.
+</sp>
+<sp type="MainZone-Sp"><lb />TPMIOENIE.
+<lb />Hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Madame, il ne vit plus:
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Il ne vit plus ! Jaloux d'une si belle vie,
+<lb />Dieux! avez-vous permis qu’elle luy fust ravie??
+</sp>
+<sp type="MainZone-Sp"><lb />DRESTE.
+<lb />Les Dieux n’écoûtent plus quand ils sont irritez.
+<lb />Sur son Tiône, au miiieu de ses ptosperitez,
+<lb />Chargé d’ans &amp; d’honneurs, ce. Monarque intre<lb />pide
+<lb />A vû, dans un festin, une main parricide,
+<lb />Soüiller, par sontrépas, la plus sainte des loix,
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Quelle main?
+</sp>
+<sp type="MainZone-Sp"><lb />RESTE.
+<lb />Ason nom, cielt étousse ma voix</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENLE.
+<lb />Quel eit ce monstre? ah Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Saus commettre un blasphême
+<lb />Puis-je le prononcer! c’est sa femme elle-même.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Clitemnestre!
+</sp>
+<sp type="MainZone-Sp"><lb />ONEJ E. Lr<lb />Ouy, Madame. Horrrible souvenir!:
+<lb />Ne puisses-tu jamais penetrer l’avenir.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Déplorable famille! ô triste Iphigenie!
+</sp>
+<sp type="MainZone-Sp"><lb />OREST.E.
+<lb />Heureusement pour elle, elle a perdu la vie:
+<lb />Des Grecs par son ticpas aslarant le départ.
+<lb />Aux crimes de sa race elle n’eut point de part,
+<lb />E de tous ses parans n’a point vû la misere;-
+<lb />Mais helas! que sa mort coûta cher à son pere.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?.
+<lb />IPHIGENIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Agamemnon vainqueur de tant de Rois',
+<lb />Revenon trionphant jouir de Jesexploits.
+<lb />Egiste en son ableuce ayant seduit la Reine,
+<lb />De ses amours fartifs appreheudant la peine,
+<lb />Au sein de ce grand Roy, digne d’un sort plus<lb />beau,
+<lb />Iuspira Cliremnestre à porter le coûteau,.
+<lb />Ptotestant, pour couvrit sa lâche perfidie,
+<lb />Quelle vangeoit sur luy le sang d’Iphigenie.
+</sp>
+<sp type="MainZone-Sp"><lb />TPHIGENIE.
+<lb />Malheureuse! à quel meurtre as-tu presté ton
+<lb />nom ?
+<lb />Oreste aura suivy le sort d’Agamemnon:
+<lb />Il n’aura pû survivre à l’offcont de son pere,
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Oreste traîne encor sa honte, &amp; sa misere.
+<lb />Craint des hommes, chasle de leur societé
+<lb />Prophane, exclus des droits. de l'hospitalité:
+<lb />Banuy des laints Autels, &amp; des sacrez Mysteres,.
+<lb />Privé des feux divins, &amp; des eaux salutaires,
+<lb />Des vagues, de des vents depiorable joüet,
+<lb />Il cherche à fuir le jour qu’il ne voit qu’à regrer.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Funestes châtimehs des crimes d’une mere!
+<lb />Femme, oses-tu joü't du Soleil qui t’éclaire!
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE..
+<lb />On bras determine, pat la lage conduit,
+<lb />A plongé la coupable en l’éternelle nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />O crime! qui surpasse, encor le crime même,.
+<lb />Souverains protecteurs du sacré Diadéme,
+<lb />A-t-on pû lesoüiller? l’avez-vous approuvé?
+</sp>
+<sp type="MainZone-Sp"><lb />TESTE.
+<lb />Non. Mais le châtiment vous en est reservé.
+<lb />Vous voyez devant vous le criminel.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE
+<lb />Impie,
+<lb />As-tu pû, sans fremir, attenter à sa vie?
+<lb />Diff-mé par un meurtre hortible à reciter?
+<lb />Aprés l’avoir commis oses-tu t’en vanter.
+<lb />Sensible à ton abord, je pleurois ta disgrace;
+<lb />Je loüois da s mon cœur ta genereuse audace,
+<lb />Je plaignois la rigueut qui t’alloit accabler:
+<lb />Ce n’estoit qu’à regret que j’allois t’immoler:
+<lb />Mais l’horrible feifait avoüe par ta bouche,
+<lb />Cruel, va dissiper la pitié qui me touche
+<lb />Avec des yeux vangeuts sur tes crimes ouverts;,
+<lb />Je vais d’un monstie affieux délivrer l’Univers,
+<lb />Avant la fin du jour ton ame détestable,
+<lb />Verra dans les Enfers son Juge épouvantable.
+<lb />Recetis siont ortire,
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />ORESTE seul.
+</p>
+<sp type="MainZone-Sp"><lb />OU vont ces transports furieux ::
+<lb />Guel interest prend-elle au sort de mes ayeux?
+<lb />Ciel! Mais pourquoy vouloir en penetrer la cause:
+<lb />Elle m’offie la mott. demanday-je autre chose?
+<lb />Voicy de mon bon-heur le moment fortuné,
+<lb />Dieux! reprenez le sang que vous m’avez donné.
+<lb />Qu’il expie en coulant mon crime, &amp; vôtre haine.
+<lb />Et toy, dont l’amitié compagne de ma peine,
+<lb />A voulu, malg:é moy, partager mes malheurs:
+<lb />Pur te rejoindre enfin, cher Pilade, je meurs.
+<lb />Né pour un sort plus beau, vertueux, magna<lb />nime,
+<lb />D’un amy plus heureux tu meritois l’estime,
+<lb />Ta mort... La mienne approche. On vient,
+<lb />J'entens du bruit.
+<fw><lb />..
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />ORESTE, PILADE, HIDASPE,
+<lb />TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Se nie demander vous r où m’avez-vous
+<lb />conduit?
+<lb />Croit-on m’épouvanter de menaces pareilles?
+</sp>
+<sp type="MainZone-Sp"><lb />RESTE
+<lb />Qu'entens-je! quelle voix vient fraper mes oreil</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE à Pilads.
+<lb />Voyez ce Grec: domptez ses farouches esprits:
+<lb />ojuontt jael est son nom:vos jours sont à ce prix.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />ORESTE, PILADE.
+</p>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />H! pour moy le trépas n’a plus rien de fu<lb />A neste.
+</sp>
+<sp type="MainZone-Sp"><lb />c’est Pilade, grands Dieux!
+<lb />E.
+</sp>
+<sp type="MainZone-Sp"><lb />PPLADE.
+<lb />Que vois-je! c’est Oreste.
+</sp>
+<sp type="MainZone-Sp"><lb />ESTE.
+<lb />Pilade entre mes bras, qui l’auroit pû penser?
+</sp>
+<sp type="MainZone-Sp"><lb />ILADE.
+<lb />Quel bonnieur de vous von, &amp; de vousembrasser!
+</sp>
+<sp type="MainZone-Sp"><lb />E
+<lb />Fortune accable-moy, cesse de te contraindre,
+<lb />Tu me rens mon amy, je n’ay plus à me plaindre,
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Quel Dieu nous a rejoint? o fortuné moment!
+<lb />Mais quel chagrin s’oppose à mon ravissement:
+<lb />De vos prochains malheurs je sens mon ame
+<lb />émeuë,
+<lb />Je fremis du bonheur qui vous offre à ma veuß.
+<lb />Destin, où ton eour toux-nous fait-il parvenir?
+<lb />Ne nous rassembles-tu que pour nous desunir.
+<lb />Sans cesse fatiguez d’éternelles allarmes,
+<lb />Nos yeux ne s’ouvrent plus que pour verser des
+<lb />larmes.
+<lb />Quelles rigueurs encor allons-nous éprouver:
+<lb />Ah Prince! sous quels Cieux venez-vous d’arriver.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />J'y-vay trouver la mort, c’est ce que je desire.
+<lb />Une Prestresse, amy, vient de me la prescrire.
+<lb />Quelque loin qu’elle ait pris à me remplir d’ef<lb />froy
+<lb />Le trépas de sa main est un bonheur pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />IADE,
+<lb />J’entens. Elle a soudiin adoucy vos allarmes;
+<lb />Vous avez dans ses yeux trouvé les mêmes char<lb />mes....
+<lb />Qu’Agamemnon trouva dans ceux de Briscïs.
+</sp>
+<sp type="MainZone-Sp"><lb />OR.E.S-TE:
+<lb />Que me dis-tu? Chargé de crimes inouïs,
+<lb />Detesté, meritant la celeste disgrace,
+<lb />Ay-je e cœur où l’amour puisse encor. trouves
+<lb />p lac.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Quel effort d'avoir pû resister à ses coups?
+<lb />Cher Prince, que Pilade est encor loin de vousa
+<lb />Seduit par les attraits de la même Prestresse,
+<lb />Mon cœur a succombé... Mais où va ma tendresse,
+<lb />'Est-ce à de tels pensers que je dois recourir,
+<lb />Quand je vois vos perils, quand nous allons mou<lb />rir?
+</sp>
+<sp type="MainZone-Sp"><lb />PRESTE.
+<lb />Toy mourir! Que mon cœur consente à cette
+<lb />ou cile.2
+<lb />N'ajoûte point ta mort aux crimes de ma vie:
+<lb />Le trépas que j’attens ne demande que moy;
+<lb />La douceur qui me reste, est de revivre en toy.
+<lb />Vy, mon cœur t’en conjure, au nom de la
+<lb />Prestresse.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Ah! ne me faites plus rougir de ma foiblesse.
+<lb />Son image en mon ame a pû vous balancer:
+<lb />vous ciriereu vange y nion mug va l’effacer.
+<lb />Mourons, n’attendons plus nulle pitié des hommes.
+<lb />Mourons, mais en mourant declarons qui nous
+<lb />sommes.
+<lb />Que les Scythes cruels, que ees fiers inhumains,
+<lb />Connoissent dans quel sang ils vont tremper leurs
+<lb />mains.
+<lb />Allons, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Amy, que vas-tu faire? arreste.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Du coup qui va tombet suspendons la tempeste.
+<lb />Qu’au nom d’Agamemnon étonnez, &amp; surpris,
+<lb />Ils retiennenc le bras qui va fraper son fils:
+<lb />Ou qu’au moins l’immolant au milieu de leur
+<lb />Ils craignent plus de maux que n’en a souffert
+<lb />Troye.
+<lb />On vient.
+</sp>
+<p type="MainZone-Head"><lb />DED X.
+<lb />ORESTE, PILADE, HIDASPE,
+<lb />TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />NjOus estes-vous acquité de l'employ.....
+</sp>
+<sp type="MainZone-Sp"><lb />ILADE.
+<lb />Pour en estre informé, qu’on nous conduise an
+<lb />Roy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troisiéme Acte.
+</p>
+<p type="MainZone-Other"><lb />ACTE
+</p>
+<p type="MainZone-Head"><lb />AUAE IVIe.
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE seule.
+<lb />Répondre à mes vœux que Cyane est
+<lb />tardive:
+<lb />Qu'en un cœur outragé la vangeance
+<lb />est active:
+<lb />Quoy qu’indigne du jour, Clitem<lb />nestre au tombeau,
+<lb />Interesse sa fille à punir son bourreau.
+<lb />En vain, pour assouvir le courroux qui m’anime,
+<lb />Des yeux, de toutes parts, je cherche la victime.
+<lb />Qui la retient; contraire à mes ressentimens,
+<lb />Le Ciel a-t-il des cœurs éteint les mouvemens?
+<lb />De ces retardemens cherchons la certitude:
+<lb />Mais où va le torrent de ton inquietude?.
+<lb />As-tu bien démesse dans le fond de ton cœur,
+<lb />Ce qui donne naissance à cette vive ardeur?
+<lb />Pour couvrir autrefois les amours de ta mere,
+<lb />Tu servis de prétexte à la mort de ton pere.
+<lb />Pour l'un de ces captifs ayant pris ce poison,
+<lb />N’immole-tu point l’autre par la même raison.
+<lb />Ah !.... Qu’ils meurent tous deux, ma bouche
+<lb />le prononce.
+</sp>
+<p type="MainZone-Head"><lb />SGANVE II.
+<lb />IPHIGENIE, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Ue vous tatdez, Cyane, à me rendre réponse;
+<lb />OThoas sçait-il mon ordre, en est-il informe?
+</sp>
+<sp type="MainZone-Sp"><lb />YANE,
+<lb />Thoas avec les Grecs, Madame, est enfermé.
+<lb />Hidaspe irresolu, quand je me suis montrée,
+<lb />De son apartement m’a defendu l’entrée:
+<lb />En vain à les rerus jay voulu rentter;
+<lb />Il a reçû vostre ordre, &amp; l’est allé porter.
+<lb />I’esperois de Thoas une prompte audiance;
+<lb />Mais sans vouloir répondre à mon impatience,
+<lb />Le Roy m’a fait sçavoir que dans quelques mo<lb />* mens,
+<lb />On vous informeroit de ses commandemens,
+</sp>
+<sp type="MainZone-Sp"><lb />PHIGENIE.
+<lb />Le sacrifice est prest, la pompe est avancée.
+<lb />Que veut-il? Attend-il que l'heure en soit passée?
+<lb />S çait-il que ces delais sont des momens perdus?
+<lb />Que l’ardeur qu’il avoit ne retrouvera plus?
+<lb />Allons, Cyane, allons haster nostre vangeance
+<lb />Mais qui vient s’opposer à mon impatience?
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />THOMIRIS, IPHIGENIE, CYANE,
+<lb />ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />E bruir qui se répand par vostre oidre en ces
+<lb />L ieux
+<lb />Madame, m’a contraint à paroistre à vos yeux.
+<lb />Quoy que la certitude en toit par tout semce,
+<lb />J’ay crù que je devois, pour en estre informée,
+<lb />De mon destin par vous sçavoir la verité.
+<lb />Je vous vois un visage interdit, agité;
+<lb />Vous paroissez contrainte, étonnée, inquiete,
+<lb />Madame, ma venuë est peut-estre indiscrete.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Madame, à vostre rang je sçay ce que je doy;
+<lb />Mais, je vous l’avoüray, je ne suis pas à moy.
+<lb />Diane en ce moment m’ordonne un sacrifice :
+<lb />Elle en attend l’offrande, en presse la justice;
+<lb />Cet ordre souverain ne laisse en mon pouvoir
+<lb />Que le temps qu’il me faut pour remplir mon
+<lb />devoir.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Il est donc vray, Madame, &amp; ce Grec qu’on op<lb />prime,
+<lb />De divers interests déplorable victime,
+<lb />Sur ces funestes bords est à peine arrivé,
+<lb />Que du jour, par vos mains, il se va voir privé
+<lb />Avez-vous pronoucé cet Arrest sauguinaire?
+<lb />Madame, il est bien prompt pour estre lans myste<lb />re.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Ce qu’il a de profoud &amp; de mysteri eux,
+<lb />Est un compte que j’ay, Madame, à rendre aux
+<lb />Dieux
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />On abuse souvent des suprêmes sagesses,
+<lb />Souz ces voiles pompeux nous cachons nos foi<lb />blesses;
+<lb />Ce u’est qu’à ces dehors que nous sacrifions,
+<lb />Et quelquefois nos Dieux ce sont nos passiont.
+<lb />Je prens sut nos vettus unc assurance entiere,
+<lb />De ce Trône usurpé legitime heritiere.
+<lb />Pour me laisser tranquile en mes propres Etats,
+<lb />J’ay vù vostre grand cœur resister à Thoas:
+<lb />Vous avez dédaigné l’hymen qu’il vous propose,
+<lb />Charmée à ces refus, j’en admire la cause.
+<lb />Les Scythes étonnez vous loüoient avec moy;
+<lb />Mais lors qu’enfin soûmise aux volontez du Roy,
+<lb />Vous allez de ce Grec trancher la destinée.
+<lb />Que Thoas sur sa mort fonde vostre hymenée.
+<lb />Le peuple qui sçait mal juger du fond des cœurs,
+<lb />Sur vostre changement présage ses malheurs.
+<lb />Vous le ditay-je enfin, Madame, on vous soup<lb />çonne
+<lb />De vouloir, par sa perte, usurper la Couronne.
+<lb />J’ay crû, de ce qu’on craint, devoir vous informer,
+<lb />Quelque soit ce soupçon vous pouvez le calmer.
+<lb />Differez cette moit où Thoas vous engage,
+<lb />Par là vous ferez taire un bruit qui vous outrage.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Souvent sur l’apparence on tombe dans l’erreur;
+<lb />Mais par l’évenement on connoistra mon cœur.
+<lb />Ce n'est pas loin des lieux où je fus élevée,
+<lb />Qu’on me tendra le rang dont le sort m’a privée.
+<lb />Celuy qu’on m’offre encor, malgré tous mes mé<lb />ris
+<lb />Pour vous le disputer n’est pas d’assez haut prix;
+<lb />Et si pout moy ce Trône avoit eu quelques char<lb />mes
+<lb />Je n’autois pas si tard-confirmé vos allarmes.
+<lb />Dianc &amp; mon devoir m'appellent à l’Autel;
+<lb />Je vay sur l’Etranger porter le coup mortel :
+<lb />On ne peut l’artacher à la mott qu’il merite:
+<lb />Le remps presse: on m’attend: souffrez que je
+<lb />vous quitte.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Madame sur le sang que vous allez verser,
+<lb />Je ne dis plus qu’un mot, c’est à vous d’y penser.
+<lb />obiis liia protectiott j ay prre voltre victime,
+<lb />Suspendez la rigueur du destin qui l’opprime,
+<lb />Sans empruntet des Dieux d’inutiles détours,
+<lb />Accordez ma priere, ou tremblez pour vos jours.
+</sp>
+<p type="MainZone-Head"><lb />CENE IV.
+<lb />IPHIGENTE, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE
+<lb />Uoy donc! elle menace, &amp; de ce Grec im<lb />Elle prend la deffense, &amp; protege la vie.
+<lb />Quand de justes raisons n’armeroient point mon
+<lb />bras,
+<lb />Quand mon cœur n’auroit point resolu son trépas,
+<lb />Son audace, la peur qu’elle prétend me faire,
+<lb />Hasteroient cette mort qu’elle veut qu’on differe.
+<lb />Rien ne peut m’ébranler. Allons, Cyanc, allons.
+</sp>
+<sp type="MainZone-Sp"><lb />La justice à toujouts guide vos passions.
+<lb />De tous leurs mouvemens elle est inséparable,
+<lb />Tantost pout l’un des Grecs vous étiez équitable;
+<lb />Quel interest pour l’autre arme vostre rigueur?
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Ah! ne rappelle point ce qui me fait horteur.
+<lb />Contre luy mon courroux à chaque instant s’aug<lb />mente<lb />Il a tué ma mere, il l’avouë, il s’en vante:
+<lb />Il me l’a dit, Cyane. A cette impieté
+<lb />Oses-tu m’acculer de trop de cruauté.
+</sp>
+<sp type="MainZone-Sp"><lb />YANE.
+<lb />Je demeure interdite &amp; muette à ce crime:
+<lb />Vostre fureur est juste, &amp; sa mort legitime.
+<lb />Il ne sçautoit trop tost expirer sous vos coups.
+<lb />Mais, ô Ciel! que la suite est à craindre pour vous.
+<lb />Le Roy de cette mort attend sa destinée,
+<lb />Et vous s'en potirtez plus fetarder l’hymenée.
+</sp>
+<sp type="MainZone-Sp"><lb />PHIGENIE.
+<lb />Pour resister, Cyane, aux transports de Thoas,
+<lb />Mon courage, les Dieux ne me manqueront pas.
+<lb />Bravons la tyrannie où mon malheur m’expose,
+<lb />Aux cœurs comme le mien la vie est pen de chose.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy vous....
+<lb />CYANE.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Allons sçavoir par quel soudain appuy
+<lb />Ce Grec....
+</sp>
+<sp type="MainZone-Sp"><lb />CYANE.
+<lb />Hidaspe vient, vous l’apprendrez de luy.
+</sp>
+<p type="MainZone-Head"><lb />SOSNE V.
+<lb />IPHIGENIE, HIDASPE, CYANE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />U donc est l’Etranger, &amp; par quelle injusti<lb />Thoas recule-t-il ce fatal sacrifice?
+<lb />Ne craint-il point sur luy que les Dieux irritez...
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Le Roy plusque jamais a besoin de clartez.
+<lb />Rien n’égale l’horreur du trouble qu’il éprouve,
+<lb />Dans l’un de ces deux Grecs son ennemy se trou<lb />Il le voit, &amp; ne peut discerner quel il est;
+<lb />Il le cherche avee soin, chacun d’eux le paroist:
+<lb />Et tous deux pour mourir prennaut ce nom im<lb />pie
+<lb />Aucun ne veut celuy qui l’attache à la vie.
+<lb />Dans ce trouble mortel... Mais les voicy tous
+<lb />deux.
+<lb />Sçachez quel est celuy...
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Qu'on me laisse avee eux.
+</sp>
+<p type="MainZone-Head"><lb />OENDVI.
+<lb />IPHIGENIE, ORESTE, PILADE.
+</p>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />J'Ous vous obstinez donc à refuser ma grace,
+<lb />V Toujours dans vos regards je voy la même
+<lb />audace,
+<lb />Et que vous preferez une sanglante mort,
+<lb />Au soin que ma pitié prenoit de vostre sort.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Que mon destin, Madame, a bien changé de face.
+<lb />Cet amy, dont tantost je pleurois la disgrace,
+<lb />Echapé de Neptune &amp; d’Eole en coutroux,
+<lb />Suivy de ses malheurs, Madame, est devant vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHIGENIE.
+<lb />Qu’entens-je? où cet aveu porte-t-il mon idée?
+<lb />Pitié mal reconnuë, où m’aviez-vous guidée?
+<lb />Je plaignois un mortel, qui co: te pour amy,
+<lb />Un monstre furieux que l’Enfer a vomy.
+<lb />Indigne que mon bras, au deffaut du tonnerre,
+<lb />Soit choisi par les Dieux pour en purger la terre.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Madame, cet amy ne vous est pas connu.
+<lb />Si dans quelques honneurs mon nom est parvenu,
+<lb />Et si pa:my les Grecs je suis recommandable,
+<lb />C'est à son amitié que j’en suis redevable:
+<lb />L’un à l’autre liez par le plus saint des nœuds,
+<lb />Ou nous vivrons ensemble, ou nous mourrons
+<lb />tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />N’attens pas que ma main te joigne à ce perfide :
+<lb />Je vais devant tes yeux punir son parrieide,
+<lb />Dans les flots de son sang éteindie mon courroux.
+<lb />Tu le verras tomber sous l’effort de mes coups,
+<lb />Sans que ton lâche cœur, present au sacrifice,
+<lb />Puisse obtenir la mort par grace, ou par supplice.
+<lb />Venez.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Craignez vous-même, &amp; tremblez d'y penser.
+<lb />C'est le pur sangdes Lieux que vous allez verser.
+<lb />Son bras, à vos desseins, peut servir mieux qu’un
+<lb />autre:
+<lb />Sa haine, pour l'hoas, est égale à la vôtre;
+<lb />Et ce motif m’oblige à ne vous plus cacher,
+<lb />Ce que tous les tourmens ne sçauroient m’arra<lb />cher.
+<lb />Du grand Agamemnon respectez ce qui reste,
+<lb />Heritier de son rang, c’est son sils, c’est Oreste.
+</sp>
+<sp type="MainZone-Sp"><lb />Oreste!
+<lb />IPHIGENIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />A cet amy n’ajoûtez point de foy,
+<lb />Il vous peint des vertus qui ne sont point en moy:
+<lb />Ce n’est que par pitié que la bouche me louë.
+<lb />Je suis du sang des Dicux, il est vray, je l’avouë.
+<lb />Mais que ce même sang des mortels reveré,
+<lb />Par mes cruels ayeux s’est vû des honoré.
+<lb />Leur rage a fiit fremir jusqu’aux Astres celestes,
+<lb />Meurtres, impietez, adulteres, incestes,
+<lb />Sout de ce saug imput les crimes les plus doux;
+<lb />Né parmy leurs fotfaits, je les surpasse tous:
+<lb />Parricide alteré d’une soif sanguinaire,
+<lb />J’ay poussé le poignard dans le sein de ma mere;
+<lb />J’ay soü lle sans respect les flancs quiim'ont porté,
+<lb />Et j’en ay retité mon bras ensanglanté:
+<lb />re ceouter tur iia iuote ny pitie, sy priere,
+<lb />Ouy, je vous la demande à genoux.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Ah mon frere:
+</sp>
+<sp type="MainZone-Sp"><lb />REOIL.
+<lb />Juste Ciel! de quel nom vient-on de m’honorer!
+<lb />L’ay-je bien entendu, dois-je m’en assurer!
+<lb />Moy. vostre frere! moy, quel Dieu, quel sang
+<lb />nous lie?
+</sp>
+<sp type="MainZone-Sp"><lb />PYAANGENTE.
+<lb />Voyez, reconnoissez la triste Iphigenie,
+<lb />Que son pete en aulide a livrée au trépas?
+<lb />Que Diane sauva des fureurs de Calchas.
+<lb />C’est cette mêms sœur qui s’offre à vôtre veuë:
+<lb />auais nelas: catis a'ler te ips vous est-elle renduë?
+</sp>
+<sp type="MainZone-Sp"><lb />O miracle étonnant! ò turprenant bon-heur!
+<lb />Iphigenie icy retrouvé: ah ma sœur!
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Surpris d’étonnement, de surprise, &amp; de joye,
+<lb />Je prens part au bonheut que le Ciel vous envoye.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Où nous emportez-vous, mouvemens imprevûs?
+<lb />Plût au Ciel que jamais nous ne nous fussions vûs.
+<lb />Le Tyran à mon bras impose un sacrilege.
+<lb />Où tombera mon choix, &amp; sur qui fraperay-je?
+<lb />Sut mon frere; à ce nom je tremible, je fremis:
+<lb />Sur son amy, quel crime, ô Ciel! a-t-il commis?
+<lb />Pour sauver à mon bras cet affreux parricide,
+<lb />Que la mort m’eût esté savorable en Aulide.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Entre ce frere &amp; moy pouvez-vous balancer.
+<lb />Ignorez-vous le sang que vous devez verser.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous connoissez mon cœur, du feu qui le devote,
+<lb />J’estois tantôt coupable, &amp; je le suis encore.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />IPHIGENIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Il n’est plus temps de répandre des pleurs,
+<lb />A l’espoir dont le Ciel nous flate, ouvrons nos
+<lb />cœurs:
+<lb />Je me sens inspiré par ses vives lumieres,
+<lb />Et dans l’évenement de ses profonds mysteres,
+<lb />Le destin qui se cache à nos sens aveuglez,
+<lb />Ne nous a point icy vainement rassemblez.
+<lb />Armous-nous d’une noble &amp; sainte confiance,
+<lb />L’image de Diane est en vôtre puissance.
+<lb />Pour expier l’horreur dont mon nom est taché,
+<lb />A son enlevement mon sort est attaché.
+<lb />Livrez-la moy. Comblez de gloire &amp; d’allegresse,
+<lb />Prenant heureusement les chemins de la Grece,
+<lb />Où mon crime par là doit enfin s’effacer.
+<lb />Ma Sœur, parmy nos Dieux nous irons la placer.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Loin de blâmer en vous certe ardeur empressée,
+<lb />J’approuverois, mon frere, une telle pensée,
+<lb />Si je voyois assez la faveur des destins,
+<lb />De l’Empire d’Argos nous tracer les chemins:
+<lb />Mais seuis &amp; desarmez, sans vaisseaux, sans dé<lb />fense
+<lb />Croyez-vous d’un Tyran tromper la vigilance.
+<lb />Combattre &amp; traverser un monde d’ennemis,
+<lb />Vous ouvrir un passage à ses oidres soûmis.
+<lb />Du Temple &amp; de l’Autel enlever la Statuë,
+<lb />Où sa fottune attache &amp; ses loins, &amp; sa vûë.
+<lb />Contre taut de perils qu’oserez-vous tenter?
+<lb />Quel miracie! quel Dieu pourroient les surmiou<lb />ter
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Madame, n’ayez point ces indignes allarmes,
+<lb />Livrez-nous seulement la Statuë, &amp; des armes,
+<lb />Les Dieux de ce peril sçauront nous dégager:
+<lb />Qui ne craint point la mort surmonte le danger:
+<lb />Enflamez du desir qu'inspire la victoire,
+<lb />Le fer nous ouvrira les sentiers de la gloire,
+<lb />u’ie tupicine nomeul d’unle eciatante mort.
+<lb />1.
+<lb />Souffrez, au nom des Dieux, que l’un ou l’autre
+<lb />sort,
+<lb />Epargne à vôtre main l’horreur d’un sacrilege,
+<lb />Qu’aux ordres de Thoas....
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Et moy que deviendray-je?
+<lb />Sanglant, enorgueilly d’un triomphe inhumain,
+<lb />Je verray le Tyran vos testes à la main,
+<lb />M’imposer un hymen que mon ame déreste,
+<lb />Tombe plûtost sur moy la colere celeste.
+<lb />Esperons toutefois, maistresse de vos jours,
+<lb />Je puis, de quelque temps, en prolonger le cours.
+<lb />Quoy que T’hoas, avide &amp; de sang &amp; de crimes,
+<lb />N’ait pour Religion que ses fieres maximes,
+<lb />Il n’ose, aux yeux du peuple, avec impunité,
+<lb />Découvrir tout l’excés de son impieté.
+<lb />Ma presence, le frein du sacré ministere,
+<lb />Abaisse ses regards, :rouble son front severe.
+<lb />Du temps que j’obtiendray par mes retardemens,
+<lb />Songeons à ménager les precieux momens.
+<lb />Allons lever au Ciel nos yeux baignez de larmes,
+<lb />Pour fléchir sa rigueur ce sont nos seules armes:
+<lb />Que si toujours severe au sang d’Agamemnon,
+<lb />Pour ce malheureux reste il n’est plus de pardon,
+<lb />Fermant, sans murmurer les yeux sur nos myste<lb />Descendons au tombeau, victimes de nos Peres;
+<lb />Mais
+<lb />Mais vous, qui n’avez point de part à leurs for<lb />Balio
+<lb />Vivez, Prince, étouffez d'inutiles souhaits.
+<lb />Sans la haine des Dieux, croyez qu’Iphigenie,
+<lb />Pour estre unie à vous, auroit aimé la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Que je Mre, Madame, de seipile laus vous?
+<lb />Ah! plûtost tout mon sang.
+</sp>
+<sp type="MainZone-Sp"><lb />IPMIGENIE.
+<lb />Le Tyran vient à nous.
+</sp>
+<p type="MainZone-Head"><lb />OBRDII.
+<lb />THOAS, IPHIGENIE, ORESTE,
+<lb />PILADE, ANTHENOR,
+<lb />HIDASPE, TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />4I1On 3.
+<lb />(E bien, Madame, Oreste enfin va-t-il pa<lb />ET roistre;
+<lb />S’obstinent-ils encor tous deux à vouloir l’estre?
+<lb />Avez-vous dévoilé cette funeste erreur,
+<lb />Qui le montre à mes yeux, &amp; le cache à mon
+<lb />cœur?
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />N’espere pas par moy voir ton erreur cessée,
+<lb />Autant, &amp; plus que toy, je suis embarassée.
+<lb />Mon ame est suspenduë entre ces deux amis,
+<lb />Tous deux d’un saint devoir également épris,
+<lb />De mourit l’un pour l’autre ont la perseverence,
+<lb />Aucun ne veut devoit la vie à ta clemence.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Cette comaitou coninionce me llasser,
+<lb />Madame, c’est à vous de la faire cesser.
+<lb />Faites-moy voir Oreste, &amp; me livrez sa teste,
+<lb />Ou pour tomber sur eux la foudre est toute prête.
+</sp>
+<sp type="MainZone-Sp"><lb />PILADE.
+<lb />Faut-il te le redire, Oreste est devant toy,
+<lb />Il ne se cache point: frape. Tyran, c’est moy.
+<lb />C’est moy, qui devoré d’une noble furie,
+<lb />Venois pour t’enlever &amp; tes Dieux, &amp; ta vie;
+<lb />Et qui pour assouvir ces transports immortels,
+<lb />Irois percer ton cœur jusques sur les Autels:
+<lb />Si tu veux t’obstiner dans ton erreur extrême,
+<lb />Aprés un tel aveu ne t’en prend qu’à toy-même.
+</sp>
+<sp type="MainZone-Sp"><lb />ORESTE.
+<lb />Admire d’un grand cœur les nobles mouvemens:
+<lb />Connois la verité dans ses empressemens!
+<lb />Dépoüillé quelque temps des transports de ta rage,
+<lb />Voy jusqu’où l’amitié porte un noble courage.
+<lb />Il veut, preuant mon nom, blasphemant contre
+<lb />S’attirer une mort qui ne cherche que moy:
+<lb />Mais si tu veux joüir du fruit de ta vangeance,
+<lb />Dans ton aveuglement discerne l’innocence..
+<lb />Sur le coupable seul fais tomber ta fureur,
+<lb />Ou des Dieux offencez crains le foudre vangeur:
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ah! c’est trop devant moy respirer l’imposture,
+<lb />Madame, il faut vanger nostre commune injure:
+<lb />Qu’à l’instant vostre bras les immole tous deux:
+<lb />Mon rang, ma seureté l’exigent: je le veux.
+<lb />Que de leurs Dieux aprés la fureur se déploye,
+<lb />La Tauride verra ce qu’on vit devant Troye.
+<lb />Ils se partageront en ce commun effroy
+<lb />Et s’il en est pour eux, il en sera pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />IPHIGENIE.
+<lb />Quel es-tu pour tenir ce superbe langage?
+<lb />Oses-tu commander à qui tu dois hommage?
+<lb />Plus haut que ton pouvoir n’éleves point ta voix,
+<lb />C’est du Ciel, non de toy, que j’écoûte les loix,
+<lb />Luy seul peut prononcer des decrets legitimes;
+<lb />je vais; pour decser du fort de ces victimes,
+<lb />Sçavoir ses volontez, atbitre entre-eux &amp; toy.
+<lb />Thoas, attens mon ordre: &amp; vous Grecs, suivez<lb />moy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />THOAS, HIDASPE, ANTHENOR,
+<lb />TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />AS.
+<lb />Ui suis je? est-ce à Thoas qu’un tel discours
+<lb />Os’adresse;
+<lb />A quoy m’exposes-tu malheureuse rendresse?
+<lb />Je puis tout, &amp; malgré mon nom, ma dignité,
+<lb />Une simple Prestresse étonne ma fierté.
+<lb />Quand d’un ton plein d’audace elle ose me con<lb />fondre,
+<lb />Ma bouche est interdite, &amp; ne sçait que répondre.
+<lb />Ah! c’est trop abuser de mes indignes feux,
+<lb />Ses Grecs sont mes captifs, que le Ciel soit pour
+<lb />eux:
+<lb />Ils recevront demain la mort qu'elle rerarde;
+<lb />Taxis autour du Temple allez ranger ma Garde:
+<lb />Observez avec elle un silence profond,
+<lb />Veillez mes ennemis, vostre teste en répond.
+</sp>
+<p type="MainZone-Head"><lb />SCLNE IA.
+<lb />THOAS, ANTHENOR, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Vostre seureté cet ordre est necessaire,
+<lb />A Seigneur; mais d’un peril qu’on ne peut plus
+<lb />vous taite,
+<lb />V. stre Peuple allarmé semble vous menacer:
+<lb />Il ctoit pour Thomiris devoir s’interesser:
+<lb />De son départ furtif il se fait une injure,
+<lb />Il y veut mettre obstacle, il s’assemble, il mur<lb />mure,
+<lb />Et si l'on ne s’oppose à cette émotion.
+<lb />Elle pourra causer quelque sedition.
+</sp>
+<sp type="MainZone-Sp"><lb />OAS.
+<lb />Non, il ebëïra. Je suis seut de sou zele,
+<lb />Anthenor, la iincesle à mes vœux moins rebelle.
+<lb />Ne verta point l’hymen qui trahit son espoir,
+<lb />Vous pouvez de ma patr le luy faire sçavoir.
+<lb />Allez.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Jusques au Temple, où son tele s’empresse
+<lb />D’allet pour son voyage implorer la Deesse,
+<lb />Je vais de vos bontez, Seigneur, luy faire patt.
+</sp>
+<sp type="MainZone-Sp"><lb />Dites-luy que sur tout elle songe au départ.
+</sp>
+<p type="MainZone-Head"><lb />SENBA.
+<lb />THOAS, HIDASPE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />T toy, favorisé de l'ombre &amp; du silence,
+<lb />LAu peuple adroitenient dérobe sa presence;
+<lb />J’atteudray tou retour dans cet appartement.
+<lb />Va, cours tout préparer pour son embarquement,
+<lb />Et songe, en ménageant cette importante suite,
+<lb />Que mon sort cette nuit dépend de ta conduite.
+</sp>
+<p type="MainZone-Head"><lb />AORE
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS seul.
+<lb />IEUX! que l’impatience est un cruel
+<lb />tourment?
+<lb />Qu’Hidaspe répond mal à mon em<lb />pressement!
+<lb />Hidaspe à mes tegards ne paroît point
+<lb />encore,
+<lb />Luy qui dans ce Palais doit devancer l’Aurore?
+<lb />Qu'une nuit inquiete est cruelle à passer?
+<lb />Que de tristes objets viennent la traverser?
+<lb />Mon cœur, dans l’embarras qui le trouble, l’agi<lb />Cherche ce qui le fuit, trouve ce qu’il évite.
+<lb />La crainte, la terreur me suivent en tous lieux,
+<lb />Et toujours le sommeil se refuie a mes yeux.
+<lb />Mortels ambitieux dont les desirs rapides
+<lb />N’ont que vos passions pour objets, &amp; pour gui<lb />des
+<lb />Qui de l’amour du Trône avidement épris,
+<lb />N’envisagez la gloire &amp; l’honneur qu’à ce prix,
+<lb />Et qui des plus grands noms enveloppant vos cri<lb />mes,
+<lb />Ne suivez, pour regner, que d’injustes maxime:
+<lb />Temeraires tremblez, &amp; craignez d’obtenir
+<lb />Ce qui vous est donné des Dieux pour vous punir.
+<lb />Le seul empressement d’éloigner la Princesse,
+<lb />De perdre mes captifs, d’épouser la Prestresse,
+<lb />Tyrannise mon ame avec tant de pouvoir,
+<lb />Que je n’écoûte plus ny raison, ny devoir.
+<lb />Mille fâcheux objets roulent dans ma pensée.
+<lb />Hidaspe ne vient point, la nuit est avancée.
+<lb />Qui le retient? Le peuple à mon ordre opposé,
+<lb />Pour en troubler l’effet est-il assez ose?
+<lb />Je ne puis demeurer dans cette incertitude,
+<lb />Elle augmente ma peine &amp; mon inquietude.
+<lb />Allons... Mais je le vois.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />THOAS, HIDASPE.
+<fw><lb />THOAS.
+</fw></p>
+<sp type="MainZone-Sp"><lb />PAr quels retardemens....
+</sp>
+<sp type="MainZone-Sp"><lb />HIDASPE.
+<lb />Tout suecede, Seigneur, à vos empressemens.
+<lb />La Princesse livrée au pouvoir du Sarmate,
+<lb />Ne mettra plus d’obstacle à l’hymen qui vous flate,
+<lb />Ie l’ay trouvée au Temple, où du pied de l’Autel
+<lb />Eile s’est imposée un exil éteruel,
+<lb />Muette, &amp; pour cacher ou sa honte, ou sa rage,
+<lb />De ses voiles baissez se couvrant le visage,
+<lb />Elle a suivy mes pas sans contrainte, &amp; sans btuit,
+<lb />Par de secret, détours dans l’ombre de la nuit.
+<lb />Alors l’Ambassadeur, &amp; sa nombreuse suite,
+<lb />Que menoit Anthenor, chargé de leur conduite,
+<lb />Traversant un grand Peuple assemblé sut le Port,
+<lb />Sans obstacle, avec elle, ont passe sur leur bord.
+<lb />Le Pilote attentif au devoir qui le guide,
+<lb />N’attend plus que le vent pour quitter la Tauride:
+<lb />Mais craignaut que le jour qui va tout déclarer,
+<lb />Ne retrouvast un peuple ardent à murmurer:
+<lb />J’ay laissé sur le port une garde fidelle,
+<lb />Et vous viens annoncer cette heureuse nouvelle.
+</sp>
+<sp type="MainZone-Sp"><lb />H
+<lb />Ah! je respire, Hidaspe, &amp; j’en rends grace aux
+<lb />Dieux,
+<lb />Thomiris suspendoit mon pouvoir en ces lieux.
+<lb />Quoy que fortifié de la toute-puissance,
+<lb />Mon genie étonné trembloit en sa presence:
+<lb />Mais retourne au rivage, &amp; ne quitte son bord,
+<lb />Qu’aprés que le Vaisseau sera party du port;
+<lb />Qu’aprés que tu l’auras long-temps perdu de
+<lb />veuë:
+<lb />Et si dans sa fureur le peuple continuë,
+<lb />Montrant pour sa Princesse un front seditieux,
+<lb />N’épargne point le sang des plus audacieux.
+<lb />va, cours, te dis-je. Et moy pour rompre cec<lb />obstacle,
+<lb />Ie m’en vais l’actirer par un autre spectacle</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS seul.
+<lb />Eja l’Astre naissant, qui luit sur mes desseins,
+<lb />Du Temple, en m’éclairant, me montte les
+<lb />ir0.
+<lb />Aaironio y contmiencer certe neureuse journée:
+<lb />Et pat un sacrifsee, &amp; par un hymenée,
+<lb />Mes peuples attirez par cette nouveauté
+<lb />Viendront... Mais que me veut Taxis épouvanté?
+</sp>
+<p type="MainZone-Head"><lb />CENE IV.
+<lb />2M101b3 PAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb />H! Seigneur, quels malheurs menacent vô<lb />Atte Empire!
+<lb />Quels troubles... Sans horteur je ne puis vous le
+<lb />dite.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Dieux! qu’ay-je à craindre encor, Taxis, expli<lb />que toy.
+</sp>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb />Je remplissois les soins confiez à ma foy.
+<lb />Vostre garde fidelle imitoit mon exemple,
+<lb />Le silence avec nous regnoit autout du Temple,
+<lb />Déja la nuit obscure alloit se dissiper,
+<lb />Quand un biuit étonnant est venu nous fraper.
+<lb />On n’entend que des cris dans l’enceinte sacrée,
+<lb />J’en approche en tremblant, on m’en livre l’enttée.
+<lb />Quels spectacles, grands Dieux: que d’affreuses
+<lb />douleuis!
+<lb />Les Minsitres contus, les Prestresses en pleurs,
+<lb />Ont tristement fait voir à mon ame abatue,
+<lb />Qu'on avoit de Diane enlevé la statuë.
+</sp>
+<sp type="MainZone-Sp"><lb />enir
+<lb />THOAS.
+</sp>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb />Accusant les Grecs de cette impieté,
+<lb />A les chercher par tout mon zele m’a porté.
+<lb />y'iaiseutendre en vaiti par toue ieur nom funeste,
+<lb />Aucun ne me répond quand je demande Oreste.
+</sp>
+<sp type="MainZone-Sp"><lb />IOAS.
+<lb />Peut-on donner azile à ces noirs attentats?
+<lb />On menace mes jours, mon Peuple, mes Etats,
+<lb />Et mon lâche ennemy trouve qui le protege<lb />Quer monitre dals ma Cour.. .
+</sp>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb />Seigneur, vous le diray-je,
+<lb />Une impie, une ingrate, une fiere beauté,
+<lb />Se vante, sans fremir, de cette impieré:
+<lb />Elle ose aux yeux de tous avoüer son offense.
+<lb />Dépoüillé du respect qu’on doit à sa naissance;
+<lb />Je viens de l’amener dans vostre apartement.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Quelle entre! A ce forfait commis impunément,
+<lb />Je connois ton audace, infidelle Prestresse:
+<lb />Mais tu mourras. Que vois-je? ô Ciel! c’est la
+<lb />Princesse.
+</sp>
+<p type="MainZone-Head"><lb />D E Euiv.
+<lb />THOAS, THOMIRIS, TAXIS.
+<lb />Gardes.
+</p>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />y perfide, c’est moy, dissipe ton erreut,
+<lb />OC'est moy qui viens joüir de ta vaine fureur:
+<lb />C’eit moy, c’est cette main que les Dieux ont
+<lb />choisie
+<lb />Pour former le tissu des malheurs de ta vie,
+</sp>
+<sp type="MainZone-Sp"><lb />AOAS.
+<lb />Hidaspe. Ah: malheureux, tu m’as manqué de
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Si tu te vois trahy n’en accuse que toy.
+<lb />Ton artificieuse &amp; coupable conduite,
+<lb />Ta lâche politique à dérober ma fuite,
+<lb />Ce sont les mêmes traits que j’ay sçû ménager,
+<lb />Pour te percer le cœur, Tyran, &amp; me van<lb />ger.
+<lb />Aprés t’estre emparé du Sceptre de ta Reine,
+<lb />Aprés que tes mépris ont merité ma haine,
+<lb />As-tu pû concevoir que soûmise à ta voix,
+<lb />J’accepterois ailleurs un Empire à ton choix.
+<lb />Et que de tes forfaits volontaire victime,
+<lb />Je te ferois du mien possesseur legitime.
+<lb />Cette nuit, ptofitant de son obseurité,
+<lb />Sur mon départ ta haine avoit déja conté.
+<lb />Mais loin de consentir à ta coupable envie,
+<lb />Je l’avois consacrée à t’arracher la vie.
+<lb />Lors qu’au Temple, où ma bouche alloit se dé<lb />clarer,
+<lb />Un plus noble transport est venu m’inspirer.
+<lb />Ton sang, que l’on devoit m’offrit en sacrifice;
+<lb />Ne me paroissoit point un assez grand supplice.
+<lb />Pour t’en faire un, Tyran, où ton cœur inhu<lb />main,
+<lb />Sentist du desespoir le plus cruel venin.
+<lb />Leur ouvrant jusqu'au port une secrete issuë,
+<lb />Entre les mains des Grecs j’ay remis la Statuë.
+<lb />J’ay d’une même ardeur, m’opposant à tes vœux,
+<lb />Arrache la Preitrefte à tes indignes feux.
+<lb />J’ay fait que sous mon nom, favorisant sa fuite,
+<lb />Au Vaisseau du Sarmate Hidaspe l’a conduite,
+<lb />Lt qu'ene vay ruj ant la Couromie &amp; ta foy,
+<lb />Vivre sous d’autres Cieux pour un autre que toy
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Gardes, qu’on la poursuive, allez. Ettoy, bar<lb />bare...
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Penses-te que pour toy le destin se declare?
+<lb />Penses-tu que le Ciel, qui conduit ses desseins,
+<lb />D’Argos en ta faveur, luy ferme les chemins.
+<lb />Fille d’Agamemnon, c’est cette Iphigenie,
+<lb />Que l’on croit en Aulide avoir perdu la vie.
+<lb />De ces Grecs que j’arrache à ton ardent cour<lb />roux:
+<lb />L’un est son frere Oreste,&amp; l’autre est son époux.
+<lb />L’hymen les a liez d'une chaîne éternelle:
+<lb />Je viens d’estre témoin de leur foy mutuelle.
+</sp>
+<p type="MainZone-Other"><lb />Quel
+<lb />Quel spectacle à mes yeux! quel triomphe pour
+<lb />moy!
+<lb />D'avoir forgé les trairs qui me vangent de toy.
+<lb />Le Ciel, en ce grand jour, met le comble à ma
+<lb />De tourmens infinis tu vas estre la proye.
+<lb />Sur ce Trône où ton cœur se croyoit affermy,
+<lb />le te verray toujours craindre ton ennemy;
+<lb />Je verray le venin de la plus noire envie;
+<lb />Te montrer ton Rival aimé d’Iphigenie,
+<lb />Et dans ton cœur jaloux répandre les remorde,
+<lb />Qu'Oteste en s’enfuyant t’a laissé sur ces bords.
+<lb />Ouy, ce m’est un plaisir qui flatte ma disgrace,
+<lb />D’avoir sçû par mes soins coufondre ton audace.
+</p>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ah! je t’épargneray ce funeste plaisir.
+<lb />Si bien-tost dans l’horreur dont je me sens saisirs
+<lb />Je ne vois ces captifs partis sous ta conduite,
+<lb />Ta mort sera le prix d’avoir tramé leur fuite.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Aprés ce que j’ay fait je brave ta fureur.
+<lb />Je ne crains rien cruel, frape.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />THOAS,THOMIRIS, TAXIS.
+<fw><lb />TAXIS.
+</fw></p>
+<sp type="MainZone-Sp"><lb />VEnez, Seigneur,
+<lb />Le jour nous a fait voir la troupe fugitive,
+<lb />Qu’un orage imprévû retient prés de la rive.
+<lb />Hïdaspe par les vents les voyant arrestez,
+<lb />Entoure leur Vaisseau, les prend de tous côrez:
+<lb />Mais le peuple à grand cris suspend vôtre van<lb />geance,
+<lb />Le perfide Anthenor embrasse leur deffence,
+<lb />A leur perte prochaine il prétend s’opposer,
+<lb />Et sans vostre presence ils peuvent tout oser.
+</sp>
+<sp type="MainZone-Sp"><lb />THOAS.
+<lb />Ah! courons dans leur sang éteindre leur furie,
+<lb />Et toy dans ce Palais garde mon ennemie.
+</sp>
+<p type="MainZone-Head"><lb />DOEND VII.
+<lb />THOMIRIS, TAXIS.
+</p>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Ieux! est-ce l’innocence à qui vous en vou<lb />D ia:
+<lb />Aprés tant de sermens &amp; de droits violez,
+<lb />N’ayant dans ses transports aucune retenuë,
+<lb />Parmy tant de forfaits commis à vostre veuë,
+<lb />Un Tyran trouve-t’il la faveur des destius,
+<lb />Contre des malheureux qui vous levent les mains.
+<lb />Ah! courons empêcher le sort qui les menace.
+<lb />Courcherrr. Quoy ihaieureux d’où te viens
+<lb />cette audace? -
+<lb />Oses-tu m’arrester, &amp; ton zele obstiné...
+</sp>
+<sp type="MainZone-Sp"><lb />TAXIS.
+<lb /> . ..
+<lb />Madame, vous sçavez ce qui m’est ordonné.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Ne te souvient-il plus du sang qui m'a fait naî<lb />tre.
+<lb />En faveur de Thoas m'oses-tu méconnoître.
+<lb />Attens-tu que sur moy son bras ensanglanté
+<lb />Vienue... Mais c’est-trop craindre en cette ex<lb />trémité.
+<lb />Tu me retiens en vain, ta lâche obéïssance...
+<fw><lb />–
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENEVIII.
+<lb />ACIOMTRIO, FAILIO, ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Adame, de Thoas fuyez la violence.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />De ces Grecs malheureux, Erine est-il vainqueur?
+<lb />Les a-t-on immolez à sa noire fureur?
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Ne me demandez rien. Etonnée, interdite,
+<lb />Je ne puis revenir du trouble qui m’agite,
+<lb />Le tumulte, le fer, le desordre, les cris;,
+<lb />Delcrainte, de terreur glacent tous les esprits.
+<lb />Parmy tous ces objets dont mon ame est émeuë;
+<lb />Le Tyran en fureur a seul frapé ma veuë;
+<lb />Son iutreprnte m'arait trembler pour vous:
+<lb />Fuyez, fuyez, Madame, évitez son courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Que je fuye. Ah! plûtôt courons sur le rivage,
+<lb />Des Scythes, par ma veuë, animer le courage
+<lb />C’est aujourd’huy le Sceptre, ou la mort que j’at<lb />tens.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE<lb />Ah! prévénez... Que dis-je? on vient. Il n’est
+<lb />plus temps.
+<fw><lb />
+<lb />. :
+<lb />...
+</fw><fw><lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />THOMIRIS, ANTHENOR.
+<lb />ERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Nl Ous erompner, mauame, ce le Ciel équi<lb />table,
+<lb />A l’innocence enfin s’est montré favorable.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Dieux! que viens-je d’entendre, &amp; que me dites<lb />vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Que les Dieux hautement se déclarent pour nous.
+<lb />Jamais jour aux mortels ne parut plus funeste,
+<lb />Et plus propre à marquer la colere celeste.
+<lb />On'eut dit que les Dieux contre nous animez,
+<lb />S’opposoient aux desseins que nous avions for<lb />mez.
+<lb />Les flats impetueux, &amp; les vents en futie,
+<lb />Du Sarmate &amp; des Grecs empeschoient la sortie.
+<lb />Hidaspe dans ce trouble informé de leur sort,
+<lb />S’approche du Vaisseau l’atraque avec transport,
+<lb />Re demande à grands cris les Grecs, &amp; la Statuë.
+<lb />Oreste fierement se presente à sa veuë,
+<lb />Au courage du Seythe oppose sa valeur,
+<lb />Il fait face par tout, par tout il est vainqueur:
+<lb />J’atrive accompagné d’une escorte fidelle,
+<lb />De l’innocence, alors j’embiasse la querelle,
+<lb />Le Peuple autour de moy courant de toutes parts,
+<lb />Quand Thoas artivé sur le fatai rivage,
+<lb />Aux siens épouvantez rameint le courage..
+<lb />Dans toute son horreur la mort se montre à tous
+<lb />Pilade fait tomber Hidaspe sous ses coups.
+<lb />Le l'yran qui du Bord voit ce trépas funeste,
+<lb />Sans songer qui le suit s’avance vers Oreste,
+<lb />Il le joint; mais bien-tost il a le même sort,
+<lb />Sous le fer de ce Prince il ex pire.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Il est mort.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Ouy, Madame, &amp; la mer jusqu’alors soûlevée,
+<lb />De son sang qui s’écoule est à peine abreuvée,
+<lb />Que les vens, dans les airs, ne sont plus déchaî<lb />nez:
+<lb />Les flots impetueux ne sont plus mutinez.
+<lb />Le Ciel devient tranquille,, &amp; les Grecs pleins de
+<lb />gloire,
+<lb />Vont joüir dans Argos du fruit de leur victoi<lb />Tandis que remontant au rang de vos ayeux,
+<lb />Vous allezcommander dans ces paisibles lieux,
+<lb />Et qu’un peuple enuemy des sanglantes maxi<lb />mes
+<lb />brule de recetoistos ordres legitimes.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Ciel! pour perdre un Tyran quelle est ton équi<lb />Mais allons dans le Temple adorer sa bonté;
+<lb />Sur là rebellion que ma elemence éclate,
+<lb />Et de nostre bonheur faisons paraan sarmate.
+<lb />·
+</sp>
+<sp type="MainZone-Sp"><lb />11
+<lb />VS:
+<lb />is e
+<fw><lb />L.:
+</fw><lb />Quand Thoas artivé sur le fatai rivage,
+<lb />Aux siens épouvantez rameint le courage..
+<lb />Dans toute son horreur la mort se montre à tous
+<lb />Pilade fait tomber Hidaspe sous ses coups.
+<lb />Le l'yran qui du Bord voit ce trépas funeste,
+<lb />Sans songer qui le suit s’avance vers Oreste,
+<lb />Il le joint; mais bien-tost il a le même sort,
+<lb />Sous le fer de ce Prince il ex pire.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Il est mort.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTHENOR.
+<lb />Ouy, Madame, &amp; la mer jusqu’alors soûlevée,
+<lb />De son sang qui s’écoule est à peine abreuvée,
+<lb />Que les vens, dans les airs, ne sont plus déchaî<lb />nez:
+<lb />Les flots impetueux ne sont plus mutinez.
+<lb />Le Ciel devient tranquille,, &amp; les Grecs pleins de
+<lb />gloire,
+<lb />Vont joüir dans Argos du fruit de leur victoi<lb />Tandis que remontant au rang de vos ayeux,
+<lb />Vous allezcommander dans ces paisibles lieux,
+<lb />Et qu’un peuple enuemy des sanglantes maxi<lb />mes
+<lb />brule de recetoistos ordres legitimes.
+</sp>
+<sp type="MainZone-Sp"><lb />THOMIRIS.
+<lb />Ciel! pour perdre un Tyran quelle est ton équi<lb />Mais allons dans le Temple adorer sa bonté;
+<lb />Sur là rebellion que ma elemence éclate,
+<lb />Et de nostre bonheur faisons paraan sarmate.
+<lb />·
+</sp>
+<sp type="MainZone-Sp"><lb />11
+<lb />VS:
+<lb />is e
+<fw><lb />L.:
+</fw></sp>
+    </body>
+  </text>
+</TEI>
