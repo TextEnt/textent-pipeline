@@ -1,0 +1,4479 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Joueur</title>
+        <author>Regnard, Jean-François</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb386527944"/>
+          <author>
+            <persName>Regnard, Jean-François</persName>
+          </author>
+          <title>Le Joueur</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1697" cert="high" resp="BNF">1697</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A PARIS
+<lb />Chez THOMAS GUILLAIN, proche
+<lb />les Auguſtins, à la deſcente du Pont-neuf,
+<lb />à l’Image S. Loüis,
+<fw><lb />V
+</fw></p>
+<p type="MainZone-Head"><lb />TRMEEL
+</p>
+<sp type="MainZone-Sp"><lb />ETTE Comedie a eû
+<lb />beaucoup plus de ſuccés
+<lb />que l’Auteur &amp; les Ac<lb />teurs n'avoient oſé l’eſperer. Il y
+<lb />avoit contr’elle une caballe tres-
+<lb />forte, et d’autant plus à crain<lb />are qu’elle étoit compoſée des plus
+<lb />ſeditieux frondeurs des Specta<lb />cles, &amp; ſuſcitée par les injuſtes
+<lb />plaintes d’un Plagiaire qui pro<lb />duiſoit une autre Piece en Proſe
+<lb />ſous le meſme titre, &amp; qui la li<lb />ſoit tous les jours dans les Caffe
+<lb />de Paris. Les Perſonnes qui s'in<lb />tereſſent à la réiſſite de cette ſe<lb />conde Comedie du Joüeur ont pu<lb />blié d’abord que la premiere étoit
+<lb />tres-mauvaiſe, la Cour, &amp; la
+<lb />Ville en ont jugé plus favorable<lb />ment, &amp; il ſeroit à ſouhaiter
+<lb />pour eux que l'Ouvrage qu’ils
+<lb />protegent eût une deſtinée auſſi
+<lb />heureuſe.
+<fw><lb />I
+<lb />4d
+<lb />10
+<lb />Coi
+<lb />N
+<lb />44
+<lb />ver
+<lb />M
+<lb />e
+<lb />Att
+<lb />a1
+<lb />IO1
+<lb />18
+<lb />M
+<lb />ri
+<lb />n6
+</fw></sp>
+<p type="MainZone-Head"><lb />EATRAIT DV PRIVILEGE
+<lb />an Ry.
+</p>
+<p type="MainZone-P"><lb />DAR Grace &amp; Privilege du Roy, donné à Paris
+<lb />T le vingt-huitiéme Aouſt 1695. Signé, Par le
+<lb />Roy en ſon Conſeil, LE FEVRE. Il eſt permis
+<lb />à THOMAS GUILLAIN, Marchand Li<lb />braire à Paris, de faire imprimer le Recueil des
+<lb />Comedies du Sieur D*** pendant le temps de
+<lb />ſix aunées, à compter du jour qu’elles ſeront
+<lb />achevées d’imprimer pour la premiere fois, en
+<lb />vertu des preſentes, pendant lequel temps tres<lb />expreſſes inhibitions &amp; defenſes ſont faites à toutes
+<lb />perſonnes de quelque qualité &amp; condition qu’elles
+<lb />ſoient, de faire imprimer, vendre ny debiter deſ<lb />dites Comedies, d’autre Edition que celles de
+<lb />l’Expoſant, ou de ceux qui auront droit de luy,
+<lb />à peine de quinze cens livres d’amende, payable
+<lb />lans depoit par chacun des Contrevenans, &amp; de
+<lb />tous dépens, dommages &amp; intereſts, &amp; autres pei<lb />nes portées plus au long par leſdites Lettres de
+<lb />Privilege.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Livre de la Communauté des Im<lb />primeurs &amp; Libraires de la Ville de Paris, le pre<lb />mier Septembre 1695.
+<lb />Signé P. AUBOUYN, Syndic.
+</p>
+<p type="MainZone-P"><lb />Achevé d’imprimer pour la premiere fois le
+<lb />11. Fevrier 1697.
+</p>
+<p type="MainZone-P"><lb />Le prix eſt vingt ſols.
+</p>
+<p type="MainZone-Head"><lb />CCHEGRS.
+</p>
+<p type="MainZone-Entry"><lb />GERONTE, Pere de Valere.
+</p>
+<p type="MainZone-Entry"><lb />VALERE, Amant d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />ANGELIQUE, Amante de Valere.
+</p>
+<p type="MainZone-Entry"><lb />LA COMTESSE, Sœur d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />du dien de rui
+</p>
+<p type="MainZone-Entry"><lb />DORANTE, Amant d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />NERINE, Servante d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />HECTOR, Valet de Valere.
+</p>
+<p type="MainZone-Entry"><lb />Mr TOUTABAS, Maiſtre de Trictrae.
+</p>
+<p type="MainZone-Entry"><lb />Mr GALONIER, Tailleur.
+</p>
+<p type="MainZone-Entry"><lb />Me ADAM, Selliere.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt à Paris, dans un Hôtel
+<lb />Garny.
+</p>
+<p type="MainZone-Other"><lb />LE
+</p>
+<p type="MainZone-Head"><lb />AE SOCECR
+<lb />COMIEBIL.
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENE PREMIERE.
+<fw><lb />HECTOR ſeul dans un fauteüil prés
+<lb />d’une Toilette.
+</fw></p>
+<sp type="MainZone-Sp"><lb />L eſt parbleu grand jour. Déja de leur
+<lb />ramage
+<lb />Les Coqsiont éveillé tout noſtre voi<lb />ſinage.
+<lb />Que ſervir un Joüeur eſt un maudit métier!
+<lb />Ne ſeray-je jamais Laquais d’un Soufermier,
+<lb />Je ronflerois mon ſou la graſſe matinée,
+<lb />Et je m’enyvrerois le long de la journée,
+<lb />Je ferois mon chemin; j’aurois un bon employ,
+<lb />Je ſerois dans la ſuite un Conſeiller du Roy,
+<lb />Rat de cave ou Commis; &amp; que ſçait-on? peut-eſtre
+<lb />Je deviendrois un jour auſſi gras que mon maiſtre,
+<lb />J’aurois un bon caroſſe à reſſorts bien lians,
+<lb />De ma rotondité j’emplirois le dedans;
+<lb />Il n’eſt que ce métier pour bruſquer la fortune,
+<lb />Et tel change de meuble &amp; d’habit chaque Lune,
+<lb />Qui Jaſmin autrefois d’un drap du ſeau couvert
+<lb />Bornoit ſa garde-robe à ſon juſtau-corps vert.
+<lb />Quelqu’un vient. Si matin Nerine qui t’envoye?
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />NERINE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />QUe fait valere?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il dort.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Il faut que je le voye.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Va, mon Maiſtre ne voit perſonne quand il dort.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Je veux luy parler.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Paix, ne parle pas ſi fort.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Oh j’entreray, te dis-je?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Icy je ſuis de garde,
+<lb />Et je ne puis t’ouvrir que la porte bâtarde.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Tes ſots raiſonnemens ſont pour moy ſuperflus.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Voudrois-tu voir mon Maiſtle in naturalibus.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Quand ſe levera-t’il ?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR
+<lb />Mais avant qu’il ſe leve,
+<lb />Il faudra qu’il le couche, &amp; franchement....
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Acheve.
+</sp>
+<sp type="MainZone-Sp"><lb />li d e la la
+<lb />Je ne dis mot.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Oh parle, ou de force ou de gré....
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mon Maiſtre en ce moment n’eſt pas encor rentré.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Mhen parantie;
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Non, il ne tardera guere.
+<lb />Nous n’ouvrons pas matin. Il a plus d’une affaire
+<lb />Ce garçon là.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />J’entens autour d’un tapis vert,
+<lb />Dans un maudit brelan ton Maiſtre joüe &amp; pert,
+<lb />Ou bien reduit à ſec, d’une ame familiere,
+<lb />Peut-eſtre il parle au Ciel d’une étrange maniere.
+<lb />Par ordre tres-ex prés d’Angelique aujourd’huy,
+<lb />Je viens pour rompre icy tout commerce avec luy.
+<lb />Des ſermens les plus forts appuyant ſa tendreſſe,
+<lb />Tu ſçais qu’il a cent fois promis à ma Maîtreſſe
+<lb />De ne toucher jamais cornet, carte ny dé,
+<lb />Par ſueique erpon de gan dot fon eœur fut guidés
+<lb />Cependant....
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Je voy bien qu’un Rival domeſtique
+<lb />Conſigne entre tes mains pour avoir Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Et quand cela ſeroit, n’aurois-je pas raiſon?
+<lb />Mon cœur ne peut ſouffrir de lâche trahiſon,
+<lb />Angellque entre nous ſeroit ex travagante,
+<lb />De rejetter l’amour qu’a pour elle Dorante,
+<lb />Luy, c’eſt un homme d’ordre &amp; qui vit congrument
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />L’Amour ſe plaiſt un peu dans le déreglement.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />onhinant lalt, a meur.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Les filles d’ordinaire
+<lb />Ayment mieux le fruit vert.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />D’un fort bon caractere,
+<lb />Qui ne ſceut de ſes jours ce que c’eſt que le jeu</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mais mon Maiſtre eſt aimé.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Dont j’eurage, morbleu,
+<lb />Ne verray-je jamais les femmes détrompées
+<lb />De ces colifichets, de ces fades poupées,
+<lb />Qui n’ont pour impoſer qu’un grand air débraillé,
+<lb />Un nez de tous coſtez de tabac barboüillé,
+<lb />Une lévre qu’on mord pour rendre plus vermeille
+<lb />Un chapeau chifonné qui tombe ſur l’oreille,
+<lb />Une longue Stinxerque a replis tortueux,
+<lb />Un haut de chauſſes bas preſt à tomber ſous eux,
+<lb />Qui fallant le gros dor ia muln dans la ceinture,
+<lb />Viennent pour tout merite étaler leur figure.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />C’eſt le gouſt d’apreſent, tes cris ſont luperſſus
+<lb />Mon enfant.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Je veux moy reformer cet abus,
+<lb />Je ne ſouffriray pas qu’on trompe ma Maîtreſſe,
+<lb />Et qu’on profite ainſi d’une tendre foibleſſe,
+<lb />Qu’elle épouſe un Joüeur, un petit brelandier,
+<lb />Un franc diſſipateur, &amp; dont tout le métier
+<lb />Eſt d’aſſer de cent lieux lalte l'uecouraite,
+<lb />Ou de jeux &amp; d’amour ontient boutique ouverte,
+<lb />Et qui le conduiront tout droit à l’Hoſpital.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ton ſermon me paroiſt un tant ſoit peu brutal;
+<lb />Mais tant que tu voudras parle, preſche, tempeſte,
+<lb />Ta Maîtreſſe eſt coeffée.
+</sp>
+<sp type="MainZone-Sp"><lb />NIRINE.
+<lb />Et crois-tu dans ta teſte
+<lb />Que l’amour ſur ſon cœur ait un ſi grand pouvoir,
+<lb />Elle eſt fille d’eſprit, peut-eitre des ce Ioir
+<lb />Dorante par mes ſoins l’épouſera.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Elle eſt dans nos filets.
+<lb />Tarare,
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Et moy je te decla re
+<lb />Que je l'en tireray dés aujourd’huy.
+<lb />A iij
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR
+<lb />Bon, bon</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Que Dorante a pour luy Nerine &amp; la raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Et nous avons l’Amour; tu ſçais que d’ordinaire
+<lb />Qualid l’Amour veut pai ſer ia lanſon doit ſe taire
+<lb />Dans les femmes s’entend.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Tu verras que chez nous
+<lb />Quand la raiſon agit, l’Amour a le deſſous.
+<lb />ron Maitre en un Amant d’une eſpece plaiſante,
+<lb />Son amour peut paſſer pour fiévre intermitante;
+<lb />Son feu pour Angenque ent un nus &amp; reflus.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Elle eſt aprés le jeu ce qu’il aime le plus.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Ouy. C’eſt la paſſion qui ſeule le devore.
+<lb />1 ja mu de raigene lon amour s’évapore.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mviais en revancne aum quand il n’a pas un ſou,
+<lb />Tu m’avouras qu’il eſt amoureux comme un fou.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Oh j’empeſcheray bien...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nous ne te craignons guere,
+<lb />Lt ta Maſtrencencor mel promit a valere,
+<lb />De luy donner dans peu pour prix de ſon amour,
+<lb />Son portrait enrichy de brillans tout au tour,
+<lb />Nous l’attendons ma chere avec impatience,
+<lb />Nous aimons les bijoux avec concupiſcence.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Le portrait eſt tout preſt, mais ce n’eſt pas pour luy,
+<lb />Et Dorante en ſera poſſeſſeur aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />A d’autres.
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />N’eſt-ce pas une honte à Valere,
+<lb />Eſtant fils de famille, ayant encor ſon Pere,
+<lb />Qu’ii vive comme n’iale, ce que commt un banny
+<lb />Depuis un an il loge en cet hoſtel garny.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Et vous y logez bien, &amp; vous &amp; voſtre clique.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Eſt-ce de meſme dis! ma Maîtreſſe Angelique,
+<lb />Et la veuve ſa ſœur ne ſont dans ce Pays
+<lb />Que pour untemps, &amp; n’ont point de Pere à Paris.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Valere a deſerté la maiſon paternelle,
+<lb />Mais ce n’eſt point à luy qu’il faut faire querelle;
+<lb />Et ſi Monſieur ſon Pere avoit voulu ſortir,
+<lb />Nous y ſerions encor à ne t’en point mentir;
+<lb />Ces peres bien ſouvent ſont obſtinez en diable.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Il a tort en effet d’eſtre ſi peu traitable;
+<lb />Quoy qu’il en ſoit, enfin, je ne t’abuſe pas,
+<lb />Je fais la guerre ouverte, &amp; je vais de ce pas
+<lb />Dire ce que je vois, avertir ma Maîtreſſe
+<lb />Que Valere toujours eſt faux dans ſa promeſſe,
+<lb />Qu’il ne ſera jamais uigne de ſes amours
+<lb />Qu’il a joüë, qu’il jouë, &amp; qu’il joüera toujours,
+<lb />Adieu.
+</sp>
+<p type="MainZone-Other"><lb />A iiij
+</p>
+<p type="MainZone-Head"><lb />edalam llle
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR ſeul.
+<lb />DOnjour: autant que je m’y peux connoître
+<lb />Cetre Nerine cy n’eſt point trop pour mon Maître,
+<lb />A-t’elle grand tort? non. C’eſt un panier percé,
+<lb />Qui.... Mais je l’aperçois. Qu’il a l’air haraſſé;
+<lb />On ſoupçonne jaiſément à ſa triſte figure
+<lb />Qu’il cherche en vain quelqu’un qui preſte à triple
+<lb />uſure.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />VALELEJ HECTOR.
+<lb />Valere paroiſt en deſordre comme un homme qui a
+<lb />joüé toute la nuit.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />QUelle heure eſt-il?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il eſt... Je ne m’en ſouviens pas.
+<fw><lb />De
+<lb />M
+<lb />H
+<lb />1
+<lb />S
+<lb />A
+</fw></sp>
+<sp type="MainZone-Sp"><lb />YALERE.
+<lb />Tu ne t’en ſouviens pas?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Non, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ſuis las
+<lb />De tes mauvais diſcours, &amp; tes impertinences...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR à part.
+<lb />Ma foy la verité répond aux apparences.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />nia loce de eſamole,ean .
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il jure entre les dents.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Hé bien, me faudra-t’il attendre encor long-temps?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Hé la voila, Monſieur.
+<lb />VALERE. Valere ſe promene &amp; Hector le ſuit
+<lb />tenant ſa robe de chambre toute
+<lb />déployée.
+<lb />Une Ecole maudite,
+<lb />Me coûte en un moment douze trous tout de ſuite.
+<lb />Que je ſuis un grand chien. Parbleu je te ſçauray
+<lb />Maudit jeu de Trictrac, ou bien je ne pourray,
+<lb />Tu peux me faire perdre: ô fortune ennemie:
+<lb />Mais me faire payer, parbleu je t'en deffie,
+<lb />Car je n’ay pas un ſou.
+</sp>
+<p type="MainZone-Other"><lb />HECROR tenant toujours la robe.
+<lb />Vous plairoit-il, Monſieur...
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je me ris de tes coups, j’incague la fureur.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Voſtre robe de chambre eſt, Monſieur, toute preſte
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Va te coucher maraut, ne me romps point la teſte,
+<lb />Va-t'en.
+</sp>
+<sp type="MainZone-Sp"><lb />HBOTOR.
+<lb />Tant mieux.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />VALERE ſeul ſe mettant dans le fauteüil.
+</p>
+<sp type="MainZone-Sp"><lb />JE veux dormir dans ce fauteüil.
+<lb />Que je ſuis malheureux, je ne puis fermer l’œil,
+<lb />Je dois de tous corter; tans erpoir; ſans reſſource,
+<lb />Et n’ay pas, grace au Ciel, un écu dans ma bourſe.
+<lb />Hector. ... Que ce coquin ent neureux de dormir,
+<lb />Hector?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HECTOR derriere le Theatre.
+<lb />Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Hé bien bourreau veux-tu venir,
+<lb />N’es-tu pas las encor de dormir, miſerable,
+</sp>
+<p type="MainZone-Head"><lb />SCENEVI.
+<lb />VALERE, HECIOR.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR à moitié deshabillé.
+<lb />nis de uorihir, Monnenr: Hé je me donne au
+<lb />D diable
+<lb />Je n’ay pas eu le temps d’oſter mon juitau-corps.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Tu dormiras demain.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il a le diable au corps.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Eſt-il venu quelqu’un?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il eſt ſelon l’uſage
+<lb />Venu maint Creancier, de plus un gros viſage,
+<lb />Un Maiſtre de Trictrac qui ne m’eſt pas connu,
+<lb />de Mantie de Munquecicencele vena l
+<lb />Ils reviendront bien-toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Bon, pour cette autre affaire
+<lb />M’as-tu déterré....
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Qui? cette honneſte uſuriere,
+<lb />Qui nous preſte par heure à vingt ſous par écu.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Iuſtement elle-même.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur, j’ay tout vû,
+<lb />Qu’on vend cher maintenant l’argent à la jeuneſſe;
+<lb />Mais enfin j’ay tant fait avec un peu d’adreſſe,
+<lb />qu ene ma ieconduit d’un air fort oorigeant.
+<lb />Et vous aurez, je crois, au plutoſt voſtre argent.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />J’aurois les mille écus, ô Ciel! quel coup de grace,
+<lb />Hector, mon cher Hector, viença que je t’embraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Comme l’argent rend tendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et tu crois qu’en effet,
+<lb />Je n’ay pour en avoir qu’à donner mon billet.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Qui le refuſeroit ſeroit bien difficile,
+<lb />Vous eſtes auſſi bou que Banquier de la Ville:
+<lb />rour la reddire au pomt où vous la ſouhaitez;
+<lb />Il a falu lever bien des difficultez,
+<lb />Elle eſt d’accord de tout, du temps, des arrerages,
+<lb />Il ne faut maintenant que luy donner des gages.
+</sp>
+<sp type="MainZone-Sp"><lb />Des gages.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />al da Te las
+<lb />Ouy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais y penſes-tu bien,
+<lb />Où les prendray-je, dis?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ma foy je n’en ſçais rien.
+<lb />Pour nipes nous n’avons qu’un grand fond d’eſ<lb />perance,
+<lb />Sur les produits trompeurs d’une réjoüiſſance,
+<lb />Et dans ce ſiecle-cy Meſſieurs les uſuriers
+<lb />Sur de pareils effets preſtent peu volontiers.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais quel gage, dis-moy, veux-tu que je luy donne.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Elle viendra tantôt elle-meſme en perſonne,
+<lb />Vous vous ajuſterez enſemble en quatre mots:
+<lb />Mais, Monſieur, s’il vous plaiſt, pour changer de
+<lb />propos,
+<lb />Aimeriez-vous toujours la charmante Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />ui je ramet An ee uoute &amp; m’outrage &amp; me
+<lb />pique,
+<lb />Je l’adore.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Tant pis. C’eſt un ſigne fâcheux,
+<lb />Quand vous eſtes ſans fond vous eſtes amoureux.
+<lb />Et quand l’argent renaiſt voſtre tendreſſe expire.
+<lb />vonle bourſe ent, Monneur, puilqu’il faut vous
+<lb />le dire,
+<lb />Un Thermometre ſeur, tantoſt bas, tantoſt haut,
+<lb />Marquant de voſtre cœur ou le froid, ou le chaud.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ne crois pas que le jeu, quelque ſort qu’il me
+<lb />donne,
+<lb />Me faſſe abandonner cette aimable perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Oüy; mais j’ay bien peur moy qu’on ne vous plan<lb />te-là.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et ſur quel fondement peux-tu juger cela?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nerine ſort d’icy qui m’a dit qu’Angelique
+<lb />Pour Dorante vôtreOncle en ce momẽt s’explique.
+<lb />Que vous joüez toujours malgré tous vos ſermens.
+<lb />Et qu’elle abjure enfin ſes tendres ſentimens.
+<fw><lb />22i14
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Dieux! que me dis-tu-là?
+</sp>
+<sp type="MainZone-Sp"><lb />hle rola
+<lb />Ce que je viens d’entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Bon, cela ne ſe peut, on ta voulu ſurprndre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous eſtes aſſez riche en bonne opinion,
+<lb />A ce qu’il me paroît.
+</sp>
+<sp type="MainZone-Sp"><lb />a diElis
+<lb />Point, ſans preſomption
+<lb />On ſçait ce que l’on vaut.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mais ſi ſans vouloir rire,
+<lb />Tout alloit comme j’ay l’honneur de vous le dire,
+<lb />Dt qu'Angenque enfin pût changer...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE,
+<lb />En ce cas,
+<lb />Je prens le party, mais cela ne ſe peut pas.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Si cela ſe pouvoit qu’une paſſion neuve...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />En ce cas je pourrois rabatre ſur la veuve,
+<lb />La Comteſſe ſa Sœur.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ce deſſein me plaît fort,
+<lb />J’aime un amour fondé ſur un bon cofre fort.
+<lb />Si vous vouliez un peu vous aider avec elle,
+<lb />Cette veuve, je croy, ne ſeroit point cruelle.
+<lb />Ce ſeroit une éponge à preſſer au beſoin.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Cette éponge entre-nous ne vaudroit pas ce ſoin.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />C’eſt dans ſon caractere une eſpece parfaite;
+<lb />Un ambigu nouveau de prude &amp; de coquette,
+<lb />Quperole mettre les cœdis e contribution,
+<lb />Et qui veut épouſer, c’eſt là ſa paſſion.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />HECTOR.
+<lb />Un Marquis de même caractere,
+<lb />Grand épouſeur auſſi la galope &amp; la flaire.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et quel eſt ce Marquis?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />C’eſt à vous parler net
+<lb />Un Marquis de hazard fait par le lanſquenet,
+<lb />Fort brave, à ce qu’il dit, intrigant, plein d’affaires,
+<lb />Qui croit de ſes appas les Femmes tributaires,
+<lb />&amp;i gagne au jeu beaucoup, &amp; qui, dit-on, jadis
+<lb />Eſtoit Valet de chambre avant d’eſtre Marquis :
+<lb />Mais ſauvons-nous, Monſieur, j’aperçois vôtre
+<lb />auit
+</sp>
+<p type="MainZone-Head"><lb />SCENE VTT.
+<lb />GERONTE, VALEDE, HECTOR,
+</p>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />JOucement, j’ay deux mots à vous dire, Va<lb />D lere:
+<lb />Pour toy j’ay quelques coups de canne à te preſter.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Excuſez-moy, Monſieur, je ne puis m’arreſter.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Demeure-là maiaut.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR,
+<lb />Il n’eſt pas temps de rire.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Pour la derniere fois, mon Fils, je viens vous dire,
+<lb />Que vôtre train de vie eſt ſi fort ſcandaleux,
+<lb />Que vous m’obligerez à quelque éclat fâcheux;
+<lb />Je ne puis retenir ma bile davantage,
+<lb />Et ne ſçaurois ſouffrir vôtre libertinagc,
+<lb />Vous eſtes pilier né de tous les lanſquenets,
+<lb />Qui ſont pour la jeuneſſe autant de trébuchets:
+<lb />on bois piein de voieurs ent un prus ieur paſſage,
+<lb />Dans ces lieux jour &amp; nuit ce n’eſt que brigandage.
+<lb />Il faut opter des deux, eſtre dupe, ou fripon.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Tous ces jeux de hazard n’artirent rien de bon;
+<lb />J’aime les jeux galands où l’eſprit ſe déploye,
+<lb />C’eſt Monſieur, par exemple, un joly jeu que l’oye.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Tay toy. Non à preſent le jeu n’eſt que fureur,
+<lb />On jouë argent, bijoux, contracts, honneur,
+<lb />Et c’eſt ce qu’nne femme en cette humeur à crain<lb />dre,
+<lb />Riſque plus volõtiers, &amp; perd plus ſans ſe plaindre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Oh nous ne riſquons pas, Monſieur, de tels bijoux.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Vôtre conduite enfin m’enflame de courroux,
+<lb />je ne puis vous ſouffrir vivre de cette ſorte,
+<lb />Vous m’avez obligé de vous fermer ma porte,
+<lb />J’eſtois las, attendant chez moy vôtre retour,
+<lb />Qu'on fiſt du jour la nuit, &amp; de la nuit le jour.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />C’eſt bien fait: Ces Joüeurs qui courent la fortune,
+<lb />Dans leurs déreglemens reſſemblent à la Lune,
+<lb />Se couchant le matin, &amp; ſe levant le ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Vous me pouſſez à bout, mais je vous feray voir,
+<lb />Que ſi vous ne changez de vie &amp; de maniere,
+<lb />je ſçauray me ſervir de mon pouvoir de Pere,
+<lb />Et que de mon courroux vous ſentirez l’effet.
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />VôtreſPere a raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Comme le voila fait.
+<lb />Débraiſle, mal peigne, l’œn hagaid, a ſa mine
+<lb />On croiroit qu’il viendroit dans la foreſt voiſine
+<lb />De faire un mauvais coup.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />On croiroit vray de luy,
+<lb />Ila lait trente lols coupegoige dajoura huy.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Serez-vous bien-tôt las d’une telle conduite,
+<lb />Parlez, que dois-je enfin eſperer dans la ſuite.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je reviens aujourd’huy de mon égarement,
+<lb />Le ne reun plus joüer, mon Pere, jabſolument.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Voila du fruit nouveau dont ſon Fils le regale.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONIE.
+<lb />Quand ils n’ont pas un ſou voila de leur morale.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />J’ay de l’argent encore, &amp; pour vous contenter),
+<lb />De mes dettes je veux aujourd’huy m’acquiter.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />S’il eſt ainſi, vraîment j’en ay bien de la joye.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR à part.
+<lb />Vous acquiter, Monſieur, avec quelle monnoye?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Te taïras-tuy mon Oncle aſpire dans ce jour
+<lb />A m’oſter d’Angelique &amp; la main &amp; l’amour;
+<lb />vous içavez que pour ene lla rame bleſſée,
+<lb />Et qu’il veut m’enlever...
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Ouy je ſçay la penſée,
+<lb />Et je ſeray ravy de le voir confondu.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous n’avez qu’à parler, c’eſt un homme tondu</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Je voudrois bien déja que l’affaire fut faite.
+<lb />Angelique eſt fort riche, &amp; point du tout coquete,
+<lb />Maîtreſſe de ſon choix, avec ce bon deſſein,
+<lb />Va te mettre en état de meriter ſa main.
+<lb />Payer tes Creanciers.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />y vais, j’y cours... Mon Pere...
+</sp>
+<sp type="MainZone-Sp"><lb />Hé, plaît-il?
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Pour ſortir entierement d’affaire
+<lb />Il me manque environ quatre ou cinq mille francs.
+<lb />Sr Ious (Ourler, aronnedr..
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Ah, an, je vous entens,
+<lb />Vous m’avez mille fois bercé de ces ſornettes:
+<lb />Non, comme vous pourrez allez payer vos dettes.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais mon Pere, croyez...
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />A d’autres, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Preſtez-moy mille écus.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Au denier un.
+<lb />Nous payrons l’intereſt
+</sp>
+<sp type="MainZone-Sp"><lb />VALRNE.
+<lb />Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />GERONIE.
+<lb />Je ne puis vous entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ne veux point mon Pere aujourd’huy vous ſur<lb />plendic,
+<lb />Et pour vous faire voir quels ſont mes bõs deſſoins,
+<lb />Retenez cet argent, &amp; payez par vos mains.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah parbleu pour le coup c’eſt eſtre raiſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Et de combien encor eſtes-vous redevable
+</sp>
+<sp type="MainZone-Sp"><lb />VAEEIen*
+<lb />La ſomme n’y fait rien.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />La ſomme n’y fait rien?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Non, quand vous le verrez vivre en homme de bien,
+<lb />rous le regreterez nullement la dépenſe,
+<lb />Et nous ferons, Monſieur, la choſe en conſcienee.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Ecoûtez, je veux bien faire un dernier effort;
+<lb />Mais aprés cela, ſi...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Moderez ce tranſport.
+<lb />Que ſur mes ſentimens vôtre ame ſe repoſe,
+<lb />Je vay voir Angelique, &amp; mon cœur ſe propoſe
+<lb />D’arreſter ſon courroux déja preſt d’éclater.
+<lb />B.iiij Ilſort.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Je m’en vay travailler moy pour vous contenter.
+<lb />A vous faire en raiſons claires &amp; poſitives,
+<lb />Le memoire ſuccint de nos dettes paſſives,
+<lb />mu que juuraj lhomeunde touo mnontrer dans
+<lb />peu.
+<lb />Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE ſeul,
+<lb />Mon frere en ſon amour n’aura pas trop beau jeu.
+<lb />Non, quand ce ne ſeroit que pour le contredire,
+<lb />Je veux rompre l’hymen où ſon amour aſpire,
+<lb />Et j’auray deux plaits à la ldis; nje puis,
+<lb />De chagriner mon Frere, &amp; marier mon Fils.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />Mr TOUTABAS, GERONTE.
+</p>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Vec tous les reſpects d’un cœur vraîment ſin<lb />Acere,
+<lb />je viens pour vous onii mon petit immtere,
+<lb />Je ſuis, pour vous ſervir, Gentilhomme Auvergnac,
+<lb />Docteur dans tous les jeux, &amp; Maiſtre de Trictrac:
+<lb />Mon nom eſt Toutabas, Vicomte de la Caſe,
+<lb />Et voſtre ſerviteur, pour terminer ma phraſe.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Un Maiſtre de Trictrac, il mé prend pour mon Fils.
+<lb />Quoy vous montrez, Monſieur, un tel Art daus
+<lb />Paris?
+<lb />Et l’on ne vous a pas fait preſent en galere
+<lb />D’un brevet d’Eſpalier?
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />A quel homme ay-je affaire?
+<lb />Comment? Je vous ſoûtiens que dans tous les Etats
+<lb />On ne peut de mon Art aſſez faire de cas,
+<lb />Qu’un enfant de famille, &amp; qu’on veut bien inſtrui<lb />re,
+<lb />Devroit ſçavoir joüer avant que ſçavoir lire.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Monſieur le Profeſſeur avecque vos raiſons
+<lb />Il faudroit vous loger aux petites Maiſons.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />De quoy ſert, je vous prie, une foule inutile
+<lb />De Chanteurs, de Danſeurs qui montrent par la
+<lb />ville;
+<lb />Un jeune homme en eſt-il plus riche quand ilſçait
+<lb />Chanter re mi fa ſol, danſer un Menuet,
+<lb />Payera-t’on de Marchands la cohorte preſſante,
+<lb />Avec un Vaudeville, ou bien une Courante;
+<lb />Ne vaut-il pas bien mieux qu’un jeune Cavalier
+<lb />Dans mon Art au plutoſt ſe faſſe initier,
+<lb />Qu’il ſçache, quand il perd, d’une ame non com<lb />mune,
+<lb />A force de ſçavoir rappeller la fortune.
+<lb />ll appremte di flieitier quipar de ſeurs ſecrets
+<lb />En le divertiſſanr l’enrichiſſe à jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Vous eſtes riche à voir.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Le jeu fait vivre à l’aiſe,
+<lb />Nombre d’honneſtes gens, Fiacres, Porteurs !
+<lb />Chaiſe,
+<lb />Mille uſuriers fournis de ces obſcurs brillans,
+<lb />Qui vont de doigts en doigts tous les jours circu<lb />Ians.
+<lb />Des Gaſcons, à ſouper dans les brelans fidelles,
+<lb />Des Chevaliers ſans ordre, &amp; tant de Demoiſelles,
+<lb />Qui ſans le Lanſquenet, &amp; ſon produit caché,
+<lb />De leur foible vertu feroient fort bon marché,
+<lb />Et dont tous les Hyvers la cuiſine ſe fonde,
+<lb />Sur l’impoſt étably d’une infaillible ronde.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />S’il eſt quelque Joüeur qui vive de ſon gain,
+<lb />Quen vuie tous les jours mime mourirde faim,
+<lb />qui forcez à garder une longue abſtinence,
+<lb />Pleurent d’avoir trop mis à la réjoüiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Et c’eſt de là que vient la beauté de mon Art.
+<lb />En ſuivaur mes leçons on court peu ce hazard,
+<lb />Je ſçais quand il le faut, par un peu d’artifice,
+<lb />D’un ſort injurieux corriger la malice,
+<lb />Je ſçais dans un Trictrac quand il faut un ſonnez,
+<lb />Gliſſer des dez heureux, ou chargez, ou pipez,
+<lb />Et quand mon plein eſt fait gardant mes avantages,
+<lb />J’en ſubſtituë auſſi d’autres prudens &amp; ſages,
+<lb />Qui n’offrant à mon gré que des as à tous coups,
+<lb />Me font en un inſtant enfiler douze trous.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRONTE.
+<lb />Et Monſieur Toutabas vous avez l’inſolence,
+<lb />De venir dans ces lieux montrer vôtre ſcience.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Ouy, Monſieur, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Et vous ne craignez pas
+<lb />Que j’arme contre vous quatre paires de bras,
+<lb />Qui le long de vos reins...
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Monſieur, point de colere,
+<lb />Je ne ſuis point venu icy pour vous déplaire.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE le pouſſe.
+<lb />Maiſtre juré filou ſortez de la maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />TOCPFBAS.
+<lb />Non, je n’en ſors qu’aprés vous avoir fait leçon</sp>
+<sp type="MainZone-Sp"><lb />A moy leçon:
+<lb />GERONIE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Je veux par mon ſçavoir extrême,
+<lb />Que vous eſcarmotiez un dé comme moy-même.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Je ne ſçais qui me tient, tant je ſuis animé,
+<lb />Que quelques bons ſouflets donnez à point fermé...
+<lb />Va-t’en.
+<lb />Il le prend par les épaules.
+</sp>
+<sp type="MainZone-Sp"><lb />TOGTIBAS
+<lb />Puiſqu’aujourd’huy vôtre humeur petulante
+<lb />Vous rend l’ame aux leçons un peu fecaieitrante,
+<lb />Je reviendray demain pour la ſeconde fois.
+</sp>
+<sp type="MainZone-Sp"><lb />Revien.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUTABAS.
+<lb />Vous plairoit-il de m’avancer le mois.
+<lb />GERONTE le pouſſant tout-à-fait denors.
+<lb />Sortiras-tu d’icy vray gibier de potence,
+<lb />Je ne puis reſpirer, &amp; j’en mourray je penſe.
+<lb />Heureuſement mon Fils n’a point vû ce fripon,
+<lb />Il me prenoit pour luy dans cette occaſion,
+<lb />Sçachons ce qu’il afait, &amp; ſans plus de miſtere,
+<lb />Concluons ſon hymen, &amp; finiſſons l’affaire.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE II.
+<lb />SCENE PREMIERE.
+<lb />ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />V
+<lb />ANGELIQUE.
+<lb />ON cœur ſeroit bien lâche aprés tant
+<lb />de ſermens,
+<lb />D’avoir encor pour luy de tendres
+<lb />mouvemens;
+<lb />Nerine, ç’en eſt fait, pour jamais je
+<lb />Ioubjie,
+<lb />Je ne veux ny l’aimer, ny le voir de ma vie,
+<lb />Ie ſens la liberté de retour dans mon cœur,
+<lb />Je me viens pas au moins parler en ſa faveur.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE<lb />Moy parler pour Valere, il faudroit eſtre fole,
+<lb />Que piutoit à jamais je perde la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGÉLIQUE.
+<lb />Ne viens point deſormais, pour calmer mon dépit,
+<lb />Rapeller à mes ſens ſon air &amp; ſon eſprit,
+<lb />Car tu ſçais qu’il en a.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />De l’eſprit, luy Madame,
+<lb />Il eſt plus journalier mille fois qu’une femme.
+<fw><lb />Il
+</fw><lb />Il rêve à tout moment, &amp; ſa vivacité
+<lb />Dépend preſque toujours d’une carte, ou d’un dé.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mon cœur eſt maintenant certain de ſa victoire.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Madame, croyez-moy, je connois le gimoire,
+<lb />Souvent tous ces dépits ſont des hoquets d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE..
+<lb />Non, l’amour de mon cœur eſt banny fans retour.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Cet hoſte dans un cœur a bien-toſt fait ſon giſte;
+<lb />Mais il ſe garde bien d’en déloger ſi viſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ne crains rien de mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />S’il venoit à l’inſtant
+<lb />Avec cet air flateur, ſoumis, inſinuant,
+<lb />Que vous luy connoiſſez, que d’un ton pathetique
+</sp>
+<sp type="MainZone-Sp"><lb />Elle ſe met à ſes pieds.
+<lb />Il vous dit à vos pieds, non charmante Angelique,
+<lb />Je ne veux oppoſer à tout vôtre courroux,
+<lb />Qu’un ſeul mot, je vous aime, &amp; je n’aime que vous.
+<lb />Vôtre ame en ma faveur n’eſt-elle point émeuë,
+<lb />Vous ne me dites rien, vous détournez la veuë,
+</sp>
+<sp type="MainZone-Sp"><lb />Elle ſe releve.
+<lb />Vous voulez donc ma mort, il faut vous contenter;
+<lb />Peut-eſtre en ce moment pour vous épouvanter,
+<lb />Il ſe ſoufletera d’une main mutinée,
+<lb />Se donnera du front contre une cheminée,
+<lb />S’arrachera de rage nn toupet de cheveux,
+<lb />Qui ne ſont pas à luy; mais de ces airs fougueux.
+<lb />Ne vous étonnez pas; contez qu’en ſa colere
+<lb />Il ne ſe fera pas grand mal.
+<fw><lb />e
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Laiſſe-moy faire.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Vous voila, grace au Ciel, bien inſtruite ſur tout,
+<lb />Ne vous démentez point, tenez bon juſqu’au bout.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />En COMIESSE, ANGELIQUE,
+<lb />NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />N dit par tout, ma Sœur, qu’un peu moins
+<lb /> Trevulde.
+<lb />Vous épouſez Dorante.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ouy, j’y ſuis reſoluë.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Mon cœur en eſt ravy, Valere eſt un vray fou,
+<lb />Qui joüroit vôtre bien juſques au dernier ſou.
+</sp>
+<sp type="MainZone-Sp"><lb />D’accord.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />J’aime à vous voir vaincre vôtre tendreſſe,
+<lb />Cet amour, entre-nous, étoit une foibleſſe,
+<lb />Il faut ſe dégager de ces attachemens,
+<lb />Que la raiſon condamne, &amp; qui flatent nos ſens.
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vray.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Rien n’eſt plus à craindre dans la vie,
+<lb />Qu’un époux qui du jeu reſſent la tyrannie.
+<lb />J’aimerois mieux qu’il fuſt gueux, avaricieux,
+<lb />Coquet, fâcheux, mal-fait, brutal, capricieux,
+<lb />Y vrogne, lans eſprit, depauene, iot, colere,
+<lb />Que d’eſtre un emporté joüeur comme eſt Valere.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je ſçay que ce défaut eſt le plus grand de tous.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Vous ne voulez donc plus en faire vôtre époux?
+</sp>
+<sp type="MainZone-Sp"><lb />MieLENQen.
+<lb />Moy, non. Dans ce deſſein nos humeurs ſont con<lb />formes.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Il a ma foy receu ſon congé dans les formes.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />C’eſt bien-fait. Iuis qu'emin rous fenoncez à luy,
+<lb />Je vay l’épouſer moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELTGUE.
+<lb />l’épouſer!
+</sp>
+<sp type="MainZone-Sp"><lb />LACOMTESSE.
+<lb />Aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGEDIQE.
+<lb />Ce Joüeur qu’à l’inſtant...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Je ſçauray le reduire,
+<lb />On ſçait ſur les Maris ce que l’on a d’empire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Quoy vous voulez, ma Sœur, avec cet air ſi doux,
+<lb />Ce maintien reſervé, prendre un nouvel époux.
+<fw><lb />LA COMTESSE.
+<lb />Tcrime,
+<lb />Et pourquoy non, ma Sœur, fais-je donc un grand
+<lb />De ralumer les feux d’un amour legitime:
+<lb />c ii
+</fw><lb />J’avois fait vœu de fuïr tout autre engagement.
+<lb />Pour garder du deffunt le ſouvenir charmant,
+<lb />Je portois ſon portrait, &amp; cette vive image
+<lb />Me ſoulageoit un peu des chagrins du veuvage;
+<lb />Mais qu’eſt-ce qu’un portrait quand on aime bien
+<lb />Tole 3
+<lb />C’eſt un époux vivant qui conſole d’un mort.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Madame n’aime pas les Maris en peinture.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Cela raquite-t’il dune perte aum dure?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />C’eſt irriter le mal au lieu de l’adoucir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE,
+<lb />Connoiſſeuſe en Maris vous deviez mieux choiſir;
+<lb />Vous unir à Valere !
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Oujjina bœurj a idy-même.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais vous n’y penſez pas, croyez-vous qu’il vout
+<lb />aime?
+</sp>
+<sp type="MainZone-Sp"><lb />LACOMTESSE.
+<lb />S’il m’aime, luy s’il m’aime, ah quel aveuglement!
+<lb />On a certains attraits, un certain enjoument,
+<lb />Que perſonne ne peut me diſputer, je penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Apres un n’iong-temps de pleine jouiſſance,
+<lb />Vos attraits ſont à vous ſans conteſtation.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Et je puis en uſer à ma diſcretion.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Sans doute, &amp; je voy bien qu’il n’eſt pas impoſſible,
+<lb />Que Valere pour vous ait eu le cœur ſenſible,
+<fw><lb />(ore
+<lb />ce me
+<lb />En va
+<lb />Lame
+<lb />Mais
+<lb />Etja
+<lb />Mes!
+<lb />I4
+<lb />Un
+<lb />Dol
+<lb />Ma
+</fw><lb />L’or eſt d’un grand ſecours pour achetter un cœur,
+<lb />Ce métal en amour eſt un grand ſeducteur.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />En vain vous m’inſultez avec un tel langage,
+<lb />La moderation fut toujours mon partage;
+<lb />Mais ce n’eſt point par l’or que briſlẽt mes attraits,
+<lb />Et jamais en aimant je ne fis de faux frais:
+<lb />Mes ſentimens, ma Sœur, ſont differens des vôtres,
+<lb />Si je connois l’amour ce n’eſt que dans les autres.
+<lb />J’ay beau m’armer de fier, je vois de toutes parts
+<lb />Mille cœurs amoureux ſuivre mes étendards:
+<lb />Un Conſeiller de robe, un Seigneur de finance,
+<lb />Dorante, le Marquis, briguent mon alliance:
+<lb />Mais ſi d’un nouveau nœu je veux bien me lier,
+<lb />Je prétens à Valere offrir un cœur entier,
+<lb />Je fais profeſſion d’une vertu ſevere.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTGHHIQUE.
+<lb />Qui peut vous aſſurer de l’amour de Valere?
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Qui peut m’en aſſurer? Mon mernte je crois.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />D’autres ſur luy, ma Sœur, auroient les mêmes
+<lb />droits.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Il n’eut jamais pour vous qu’une eſtime ſterile,
+<lb />Un petit feu leger, vagabond, volatile.
+<lb />Quand on veut inſpirer une loiſde amour,
+<lb />Il faut avoir vêcu, ma Sœur, bien plus d’un jour,
+<lb />Avoir un certain poids, une beauté formée,
+<lb />Par l’uſage du monde, &amp; des ans confirmée:
+<lb />Vous n’en eſtes pas-là.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Jattendray bien du temps.
+<lb />C iij
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Madame eſt prévoyante, elle a pris les devants;
+<lb />Mais on vient.
+</sp>
+<sp type="MainZone-Sp"><lb />Olv en a clrro
+<lb />Le Marquis, Madame, eſt là qui monte.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Le Marquis! hé non, non, i! n’eſt pas ſur mon
+<lb />compte.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LE MARQUIS, LA COMTESSE.
+<lb />ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS ſe rajuſtant.
+<lb />E ſuis tout en deſordre, un maudit embarras
+<lb />J'Ma fait quitter ma chaiſe à deux ou trois cens
+<lb />pas,
+<lb />Et j’y ſerois encor dans des peines mortelles,
+<lb />Si l’amour pour vous voir ne m’eût prêté ſes aîles.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Que Monſieur le Marquis eſt galant ſans fadeur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Oh point du tout, je ſuis vôtre humble ſervi<lb />teur;
+<lb />Mais à vous parler net ſans que l’eſprit fatigue,
+<lb />Prés du ſexe je ſçais me démeſler d’intrigue:
+<lb />Ah juſte Ciel! quel eſt cet admirable objet.
+<fw><lb />ceſt!
+<lb />101
+<lb />(om
+<lb />gu’i
+<lb />Hlon
+<lb />H
+<lb />I'eſ
+<lb />51-t
+<lb />Vou!
+<lb />22
+<lb />Et
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />C’eſt ma Sœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Vôtre Sœur! Vraîment c’eſt fort bien fait.
+<lb />je vous fȩais gre d'avon une sœur aum celle,
+<lb />On la prendroit parbleu pour vôtre Sœur jumelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Comme à tout ce qu’il dit il donne un joly tour,
+<lb />Qu’il eſt ſincere; on voit qu’il eſt homme de Cour.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS
+<lb />Homme de Cour; moy: non. Ma foy la Cour
+<lb />m’ennuye,
+<lb />L’eſprit dans ce païs n’eſt qu’en ſuperficie;
+<lb />Si-toſt que vous voulez un peu l’aprofondir,
+<lb />Vous rencontrez le tuf: J’y pourrois m’agrandir,
+<lb />J’ay de l’eſprit, du cœur, pluſque Seigneur de
+<lb />Clance 5.
+<lb />Je jouë, &amp; j’y ferois fort bonne contenance;
+<lb />Mais je n’y vais jamais que pal necemte,
+<lb />Et pour y rendre au Roy quelque civilité.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Il vous eſt obligé, Monſieur, de tant de peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Je n’y ſuis pas plutôt, ſoudain je perds haleine,
+<lb />Ces fades complimens ſur de grands mots montez,
+<lb />Ces proteſtations qui ſontrurmter,
+<lb />Ces ſerremens de main dont on vous eſtropie,
+<lb />Ces grands embraſſemens dont un flateur vous lie,
+<lb />M’oſtent à tout moment la reſpiration,
+<lb />On ne s’y dit bon jour que par convulſion.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Les Dames de la Cour ſont bien mieux vôtre af<lb />faire.
+<fw><lb />pe
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Point. Il faut eſtre au moins gros Fermier pour
+<lb />leur plaire.
+<lb />Leur ſotte vanité croit ne pouvoir trop haut.
+<lb />A des faveurs de Cour mettre un injuſte tau<lb />Moy, j’aime à pourchaſſer des beautez mitoyenes.
+<lb />L’Hyver dans un fauteüil avec des citoyenes,
+<lb />Les pieds ſur les chenets étendus ſans façons,
+<lb />Je pouſſe la fleurette, &amp; conte mes raiſons.
+<lb />Là, toute la maiſon s’offre à me faire feſte,
+<lb />Valets, Fille de chambre, Enfans, tout eſt honneſte;
+<lb />L’Epoux même diſcret quand il entend minuit,
+<lb />Mie iame avec Madamne, &amp; va coucher ſans bruit.
+<lb />Voila comme je vis, quand par fois dans la Ville
+<lb />Je veux bien déroger...
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />La maniere eſt facile,
+<lb />Et ce commerce-là me paroiſt aſſez doux.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />C’eſt ainſi que je veux en uſer avec vous:
+<lb />Je ſuis tout naturel, &amp; j’aime la franchiſe,
+<lb />Ma bouche ne dit rien que mon cœur n’authoriſe,
+<lb />Et quand de mon amour je vous fais un aveu,
+<lb />Madame, il eſt trop viay que je fuiotout en feu.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />a juone petit baum, un peu de fetemue,
+<lb />Vous me parlez, Marquis, une langue inconnuë,
+<lb />Le mot d’amour me bleſſe &amp; me fait trouver mal.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />L’effet n’en ſeroit pas peut-eſtre ſi fatal.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Elle veut qu’en détours la choſe s’envelope,
+<lb />Et ce mot dit à crû luy-cauſe une fincope.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Dans la bouche d’un autre il deviendroit plus
+<lb />doux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Comment? qu’eſt-ce? plaiſt-il? parlez, expliquez<lb />vous,
+<lb />Parlez donc, parlez donc, apprenez, je vous prie,
+<lb />Que mortel quel qu’il ſoit ne me dit de ma vie,
+<lb />Un mot douteux qui puiſſe effleurer mon honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Cronoit on qu'une veuve auroit tant de pudeur?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais Valere vous aime, &amp; ſouvent...
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Qu’eſt-ce à dire
+<lb />Valere? Un autre icy conjointement ſoupire:
+<lb />Ah ſi je le ſçavois je luy ferois morbleu...
+<lb />Où loge-t’il
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />LE MARQUIS. Il fait ſemblant de s'en
+<lb />aller, &amp; reviont.
+<lb />Nous nous verrons dans peu.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Mais quel droit avez-vous ſur moy?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQ
+<lb />BA.
+<lb />Quel droit, ma Reine?
+<lb />Le droit de bien-ſeance avec celuy d’aubaine.
+<lb />Vous me convenez fort, &amp; je vous conviens mieux.
+<lb />Sur vous l’on ſçait aſſez que je jette les yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Vous eſtes fou Marquis de parler de la ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Je ſçais ce que je dis ou le diable m’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Sommes-nous donc liez par quelque engagement?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Non pas autrement... Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />Parlez.
+<lb />LA COMTESSE.
+<lb />qu'eit-ce à dire? Comment...
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />je ne ſçay point prendre en main des trompettes.
+<lb />Pour publier par tout les faveurs qu’on m’a faites.
+</sp>
+<sp type="MainZone-Sp"><lb />Eh ma Sœur!
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Des faveurs !
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Suffit, je ſuis diſcret,
+<lb />Et ſçais quand il le faut oublier un ſecret.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />On ne connoiſt que trop ma retenuë auſtere,
+<lb />Il veut rire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEMANQOIS.
+<lb />Ah parbleu je ſçauray de Valere
+<lb />Quel eſt en vous aimant le but de ſes denrs,
+<lb />Et de quel droit il vient chaſſer ſur mes plaiſirs.
+<fw><lb />SCENE IV.
+<lb />1. LAQUAIS, rendant un billet au Marquis.
+<lb />onſieur, c’eſt de la
+<lb />Mreſ<lb />part de laîgroſſe Com</fw></sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS le mettant dans ſa poche,
+<lb />Je le liray tantôt.
+</sp>
+<sp type="MainZone-Sp"><lb />2. LAQUAIS.
+<lb />Cette jeune Ducheſſe
+<lb />Vous attend à vingt pas pour vous mener au jeu.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Quelle attende.
+</sp>
+<sp type="MainZone-Sp"><lb />3.LAQUATS.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Encore: ah palſanbleu
+<lb />Il faut que de la Ville enfin je me dérobe.
+</sp>
+<sp type="MainZone-Sp"><lb />LAQUAIS.
+<lb />Je viens de voir, Monſieur, cette femme de robe,
+<lb />Qui dit que cette nuit ſon mary couche aux
+<lb />champs,
+<lb />Et que ce ſoir ſans bruit...
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Il ſuffit, je t’entens,
+<lb />Tu prendras ce manteau fait pour bonne fortune,
+<lb />De couleur de muraille, &amp; tantoſt ſur la brune,
+<lb />Va m’attendre en ſecret où tu fus avant-hier,
+<lb />Là...
+</sp>
+<sp type="MainZone-Sp"><lb />3. LAQUAIS.
+<lb />Je ſçais.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MAROUIS.
+<lb />Il faudroit avoir un corps de fer
+<lb />Pour reſiſter à tout. J’ay de l’ouvrage à faire,
+<lb />Comme vous le voyez, mais je m’en veux diſtraire,
+<lb />Vous ferez deſormais tous mes ſoins les plus doux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Si mon cœur eſtoit libre, il pourro:t eſtre à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Adieu charmant objet, à regret je vous quitte,
+<lb />C’eſt un peſant fardeau d’avoir un gros merite
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LA COMTESSE, ANGELIQUE,
+<lb />NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />AERINE.
+<lb />Et nomine-la vous aime épouvantablement.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je ne vous croyois pas un tel engagement,
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vif.
+<lb />LA COMTESSE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />il voas amme, d ion ardeur eſt belle.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />L’amour qu’il a pour moy luy tourne la cervelle,
+<lb />Il ne m’a pourtant veuë encore que deux fois.
+</sp>
+<sp type="MainZone-Sp"><lb />RINE.
+<lb />Il en a donclbien fait la premiere... Je crois
+<lb />voir Valere.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />VALERE, LA COMTESSE,
+<lb />ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />L’Amour auprés de moy le guide.
+<lb />NERINE à Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />Il tremble en approchant.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />j'agne an fimiam dmide,
+<lb />Cela marque un bon fond. Aprochez, aprochez,
+<lb />OOuvrez de vôtre cœur les ſentimens cachez.
+<lb />Vous allez voir, ma Sœur?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE à la Comteſſe.
+<lb />Ah! quel bonheur, Madame,
+<lb />Que vous me permettiez d’ouvrir toute mon ame:
+<lb />à Angelique.
+<lb />Et quel plainr de aie en des trantports n'doux,
+<lb />Que mon cœur vous adore, &amp; n’adore que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />L’amour le trouble. Hé quoy, que faites-vous,
+<lb />Valere?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ce que vous-même icy m’avez permis de faire.
+</sp>
+<sp type="MainZone-Sp"><lb />N
+<lb />ERINE.
+<lb />Voicy du qui pto quo</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que je ſerois heureux.
+<lb />S’il vous plaiſoit encore de recevoir mes vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Vous vous méprenez.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Non. Enfin belle Angelique,
+<lb />Entre mon Oncle &amp; moy que vôtre cœur s’expli<lb />ue,
+<lb />Le mien eſt tout à vous, &amp; jamais dans un cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />miigdidues
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />On ne vit une plus noble ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Ce n’eſt donc pas pour moy que vôtre cœur ſoû<lb />pire?
+</sp>
+<sp type="MainZone-Sp"><lb />a len an,
+<lb />Madame, en ce moment je n’ay rien à vous dire;
+<lb />Regardez vôtre Sœur, &amp; jugez ſi ſes yeux
+<lb />Olit laiſie dans mon cœur de place à d’autres feux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE,
+<lb />Quoy d’aucun feu pour moy vôtre ame n’eſt épri<lb />ſe?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quelques civilitez que l’uſage authoriſe...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Comment...
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Il ne faut pas avec ſeverité
+<lb />Exiger des Amans trop de ſincerité.
+<lb />Ma Sœur, tout doucement avalez la pilule.
+</sp>
+<sp type="MainZone-Sp"><lb />LACOMTESSE.
+<lb />Taiſez-vous, s’il vous plaiſt, petite ridicule.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Vous avez cent vertus, de l’eſprit, de l’éclat,
+<lb />Vous eſtes belle, riche...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Et vous eſtes un fat.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />La moderation qui fut votre partage,
+<lb />Vous ne la mettez point, ma Sœur, trop en uſage.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Monſieur vaut-il le ſoin qu’on ſe mette en cour<lb />Toux ,
+<lb />C’eſt un extravagant, il eſt tout fait pour vous.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />VALERE, ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />ELle connoît ſes gens.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ouy pour vous je ſoûpire,
+<lb />Et je voudrois avoir cent bouches pour le dire.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Allons, Madame, allons, ferme voicy le choc,
+<lb />Point de foibleſſe au moins, ayez un cœur de roc.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ne m’abandonne poinr.
+</sp>
+<sp type="MainZone-Sp"><lb />RINE.
+<lb />Non, non, laiſſez-moy faire.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais que me ſert helas! que mon cœur vous pre<lb />fére,
+<lb />Que ſert à mon amour un ſi fincere aveu,
+<lb />Vous ne m’écoûtez point, vous dédaignez mon feu,
+<lb />De vos beaux yeux pourtant, cruelle il eſt l’ouvra<lb />Je ſçay qu’à vos beautez c’eſt faire un dur outrage,
+<lb />De nourrir dans mon cœur des deſirs partagez,
+<lb />Que la fureur du jeu ſe mêle où vous regnez;
+<lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Cette paſſion eſt trop forte en vôtre ame,
+<lb />rour croire que l’amour d’aucun feu vous enflame;
+<lb />Suivez, ſuivez l’ardeur de vos emportemens;
+<lb />Mon cœur n’en aura point de jaloux ſentimens.
+</sp>
+<sp type="MainZone-Sp"><lb />Optimè.
+<lb />NERINE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Deſormais plein de vôtre tendreſſe,
+<lb />Nulle autre paſſion n’a rien qui m’intereſſe,
+<lb />Tout ce qui n’eſt point vous me paroît odieux
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE d’un ton plus tendre.
+<lb />Non, ne vous preſentez jamais devant mes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous molliſſez.
+<lb />NERINE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Jamais! quelle rigueur extrême!
+<lb />Jamais: ah que ne mot eſt cruel quand on aime,
+<lb />Hé quoy ! rien ne pourra fléchir vôtre courroux,
+<lb />Vous voulez donc me voir mourir à vos genoux.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je prens peu d’intereſt, Monſieur, à vôtre vie.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Nous allons bien-toſt voir jouer la Comedie.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ma mort ſera l’effet de mon cruel dépit.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Qu’un Ainant Mrt pour nous nous mettroit en
+<lb />crédit.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Vous le voulez: hé bien il faut vous ſatisfaire
+<lb />Cruelle, il faut mourir.
+<lb />Il veut tirer ſon épée.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE l’arreſtant.
+<lb />Que faites-vous, Valere?
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Hé bien! ne voila pas vôtre tendre maudit
+<lb />Qui vous prend à la gorge, euh...
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Tu ne m’as pas dit,
+<lb />Ncrine, qu'ir Miendront le percer uma taue,
+<lb />Et je tremble de peur quand une épée eſt nuë.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Que les Amans ſont ſots.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Puiſqu’un ſoin genereux
+<lb />vous fterene encoraui jouis d’un malheureux,
+<lb />Non, ce n’eſt point aſſez de me rendre à la vie,
+<lb />Mfaut que pal l’amour ueiarince, attendrie,
+<lb />Vous me rendiez encor ce cœur ſi precieux,
+<lb />Ce cœur ſans qui le jour me devient odieux.)
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Nerine, qu’en dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Je dis qu’en la mêlée
+<lb />Vous avez moins de cœur qu’une poule moüillée.
+<lb />D iij
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Madame, au nom des Dieux, au nom de vos at<lb />traits.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Si vous me promettiez...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ouy, je vous le promets,
+<lb />Que la fureur du jeu ſortira de mon âme,
+<lb />Et que j’auray pour vous la plus ardente flame...
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Pour faire des ſermens il eſt toujours tout preſt.
+</sp>
+<sp type="MainZone-Sp"><lb />AiuduRoB.
+<lb />Il faut encor, ingrat, vouloir ce qui vous plaiſt;
+<lb />Ouy, je vous fends moncœur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE luy baiſant la main
+<lb />Ah quelle joye extrême!
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUÉ.
+<lb />Et pour vous faire voir à quel point je vous aime,
+<lb />je joins a ce preiene cerdy de mon Portrait.
+<lb />Elle luy donne ſon Portrait enrichy de diamans.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Helas de mes ſermons voila quel eſt l’effet!
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quel excés de faveurs!
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Gardez-le, je vous prie:
+</sp>
+<sp type="MainZone-Sp"><lb />VALEN E te vaijant.
+<lb />Que je le garde! ô Ciel! le reſte de ma vie.
+<lb />Que dis-je, je pretens que ce Portrait ſi beau
+<lb />Soit mis avecque moy dans le même tombeau;
+<lb />Et que même la mort jamais ne nous ſepare.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Que l’eſprit d’une fille-eſt changeant &amp; bi<lb />rarre</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ne me trompez donc plus Valere, &amp; que mon cœur.
+<lb />Rae le fepente point de ſa facile ardeur.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Fiez-vous aux ſermens de mon ame amoureuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Ah que voila pour l’Oncle une epoque facheuſe.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE,
+<lb />Ent fruans l’univers de mortel plus heureux,
+<lb />Elle me rend ſon cœur, eſle comble mes vœux,
+<lb />M’accable de faveurs...
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />VALERE, HECTOR.
+<fw><lb />HECTOR.
+<lb />NTOnſieur je viens vous dire.
+</fw></p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ſuis tout tranſporté: voy, conſidere, admire<lb />Angelique m’a fait ce genereux preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Que les brillans ſont gros, pour eſtie plus content
+<lb />Je vous amene encor un lenitif de bourſe,
+<lb />Une uſuriere.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et qui?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Madame la Reſſources
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />Me LA RESSOURCE, VALERE,
+<lb />HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />VALEJRE l'embraſſant.
+<lb />Dipoujour, mon emant, tu ne peux concevoir
+<lb />I TJuſqu’où va dans mon cœur le plaiſir de te
+<lb />Voil.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Je vous ſuis obligée, on ne peut davantage.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Elle eſt jolie encor; mais quer lomore cquipage,
+<lb />Vous voila ſans mentir auſſi noire qu’un four.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ne vois-tu pas Hector que c’eſt un deüil de Cour</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Oh, Monſieur, point du tout, je ſuis une bourgeoiſe,
+<lb />Qui ſçais me meſurer juſtement à ma thoiſe,
+<lb />J’en connois bien pourtant qui ne me valent pas,
+<lb />Qui ſe font teindre en noir du haut juſques en bas;
+<lb />Mais pour moy je n’ay point cette lotte manie,
+<lb />Et ſi mon pauvre époux eſtoit encor en vie...
+<lb />L
+<lb />Elle pleure.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy! Monfieur la Reſſource eſt mort?
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Subitement.
+<fw><lb />12t
+<lb />8
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HECTOR pleurant.
+<lb />Subitement helas! j’en ſuis fâché vraîment
+<lb />Au fait.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />jaurois beloin Madame la Reſſource
+<lb />De mille écus.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSUORCE.
+<lb />Monſieur diſpoſez de ma bourſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je fais, bien entendu, mon billet au porteur.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Et je veux l’endoſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />me Di lenss GNos
+<lb />Avec les gens d’honneur
+<lb />On ne perd jamais rien.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je veux que tu le prennes,
+<lb />Nous faiſons iey bas des routes intertaines,
+<lb />Je pourrois bien mourir; ce maraut m’avoit dit
+<lb />Que ſur des gages ſeurs tu prétois à crédit.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Sur des gages Monſieur? c’eſt une médiſance,
+<lb />Je ſçay que ce ſeroit bleſſer ma conſcience
+<lb />Pour des nantiſſemens qui vaillent bien leur prix,
+<lb />De la vieille vaiſſelle au poinçon de Paris,
+<lb />Des diamiana dien, de qu'on ne içaurois endre,
+<lb />Sans riſquer mon honneur je croy que j’en puis
+<lb />prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />je huj pour te donner vaiſſelle ny bijoux.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Oh parbleu nous marchons ſans crainte des filoux.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Hé bien nous attendrons, Monſieur, qu’il vous en
+<lb />vienne.
+</sp>
+<sp type="MainZone-Sp"><lb />VALFRE.
+<lb />Compte ma pauvre enfant que ma mort eſt cer<lb />taine,
+<lb />Si je n’ay dans ce jour mille écus.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Ah, Monſieur,
+<lb />Je voudrois les avoir, ce ſeroit de grand cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ma charmante, mon cœur, ma Reyne, mon ai<lb />mable,
+<lb />Ma belle, ma mignonne, &amp; iuu toute adorable.
+</sp>
+<sp type="MainZone-Sp"><lb />auiruta
+<lb />HECTOR à genoux.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Je ne puis.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR
+<lb />Ah que nous ſommes foux,
+<lb />Tous ces gens-là, Monſieur, ont des cœurs de
+<lb />cailloux;
+<lb />Sans des nantiſſemens, il ne faut rien pretendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Dy moy donc li tu veux, où je les pourray prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Attendez... mais comment, avec un cœur d’airain,
+<lb />Refuſer un billet endoſſé de ma main
+</sp>
+<sp type="MainZone-Sp"><lb />Mais voy donc!
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Laiſſez-moy, je cherche en ma boutique
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ecoute... nous avons le portrait d’Angelique,
+<lb />Dans le temps difficile il faut un peu s’aider.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah que dites-vous là, vous devez le garder.
+<fw><lb />Dac
+<lb />Idie
+<lb />Attet
+<lb />Nay
+<lb />fort
+<lb />Ileſt
+<lb />Dec
+<lb />Adie
+<lb />lefe
+<lb />Que
+<lb />9
+<lb />Que
+<lb />Dar
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />D’accord, honneſtement je ne puis m’en défaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Adieu, quelqu’autrefois nous finirons l’affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />LALERE.
+<lb />Attendez donc. Iu Içais juiqu'ou vot mes beſoins,
+<lb />N’ayant pas ſon portrait l’en aimeray-je moins.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Fort bien, mais voulez-vous que cette perfidie...
+</sp>
+<sp type="MainZone-Sp"><lb />JALERE.
+<lb />Il eſt vray. J’ay tantoſt cette groſſe partie
+<lb />De ces joueurs en fonds qui doivent s anembler.
+</sp>
+<sp type="MainZone-Sp"><lb />Adieu<lb />Me LA RESSOURCE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Demeurez done, ou vouiez-vous aller.
+<lb />Je feray de l’argent, ou celuy de mon pere,
+<lb />Quoy qu’il puiſſe arriver nous tirera d’affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Que peut dire Angelique alors qu’elle apprendra
+<lb />Que de ſon cher Portrait...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et qui le luy dira?
+<lb />Dans une heure au plus tard nous irons le re<lb />prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Dans une heure.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ouy vrayment:
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Je commence à me rendre?̀
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je me mettrois en gage en mon beſoin urgent.
+</sp>
+<sp type="MainZone-Sp"><lb />48
+<lb />HECTOR le conſiderant
+<lb />Sur cette nipe là vous auriez peu d’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />On ne perd pas toujours, je gagneray ſans doute
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Voſtre raiſonnement inet le men en deroute,
+<lb />Je ſçay que ce micmac ne vaut rien dans le fond.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je m’en tireray bien Hector, je t’en rêpond.
+<lb />Peut-on ſur ce bijou ſans trop de complaiſance...
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Ouy je puis maintenant preſter en conſcience,
+<lb />je voy des diamans qui repondent du preſt,
+<lb />Et qui peuvent porter un modeſte intereſt,
+<lb />Voila les mille écus comptez dans cette bourſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je vous ſuis obligé Madame la Reſſource;
+<lb />Au moins ne manquez pas de revenir tantoſt.
+<lb />Je pretens retirer mon portrait au plutoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Volontiers: nous aimons a changer de la ſorte,
+<lb />Plus noſtre argent fatigue, &amp; plus il nous raporte:
+<lb />Adieu Meſſieurs, je ſuis toute à vous à ce prix.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Adieu Juif, le plus Juif qui ſoit dans tout Paris,
+<lb />Vous faites-là, Monſieur, une action inique.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Aux maux deſeſperez il faut de l’hemetique,
+<lb />Et cet argent offert par les mains de l’amour,
+<lb />Me dit que la fortune eſt pour moy dans ce jour.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Other"><lb />ACTEIII.
+</p>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />SCENE PREMIERE.
+<lb />DORANTE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />UEL eſt donc le ſujet pourquoy ton
+<lb />cœur ſoûpire?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />ruouo huvons pue, moumbar, tous
+<lb />deux ſujet de rire.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANIE.
+<lb />Dis-moy donc, ſi tu veux, le ſujet de tes pleurs?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Il faut aller, Monſieur, chercher fortune ailleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Chercher fortune ailleurs? As-tu fait quelque
+<lb />piece,
+<lb />Qui t’auroit fait ſi-toſt chaſſer de ta Maîtreſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE pleurant plus fort.
+<lb />Non, c’eſt de vôtre ſort dont j’ay compaſſion.
+<lb />Et c’eſt à vous d’aller chercher condition.
+</sp>
+<sp type="MainZone-Sp"><lb />Que dis-tu!
+<lb />DORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Qu’Angelique eſt une ame legere,
+<lb />Et s’eſt mieux que jamais rengagée à Valere.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Quoy que pour mon amour ce coup ſoit aſſom<lb />mant,
+<lb />Je ne ſuis point ſurpris d’un pareil changement,
+<lb />Je ſçay que cet Amant toute entiere l’occupe,
+<lb />De ſes ardeurs pour moy je ne ſuis point la dupe;
+<lb />Et lorſque de ſes feux je ſens quelque retour,
+<lb />Ie dois tout au dépit, &amp; rien à ſon amour:
+<lb />Je ne veux point, Nerine, éclater en injures,
+<lb />Ny rapeller iey ſes ſermens, ſes parjures,
+<lb />Ainſi que mon amour je calme mon courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINVLI
+<lb />Si vous ſçaviez, Monſieur, ce que j’ay fait pour
+<lb />vous...
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Tien, reçoy cette bague, &amp; dis à ta Maîtreſſe,
+<lb />Que malgré ſes dédains elle aura ma tendreſſe,
+<lb />ne que lu tommumituſe eſt mon plus grand bon<lb />heur.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE prenant la bague en pleurant.
+<lb />Ah! ahl je n’en puis, plus, vous me fendez le cœur.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />GERONTE, HECTOR, DORANTE,
+<lb />NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Iy, Monſieur, Angelique épouſera Valere,
+</sp>
+<sp type="MainZone-Sp"><lb />OIIs ont ſigné la pai
+<lb />GEROI
+<lb />Tant mieux.
+<lb />Bon jour, mon frere,
+<lb />Qu’eſt-ce? hé bien? qu’a
+<lb />tout changé?
+<lb />TE.
+<lb />ez-vous: vous eſtes
+<lb />Allons gay; vous a-t’on donné vôtre congé ?
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Vous eſtes bien inſtruit des chagrins qu’on me
+<lb />donne,
+<lb />On ne me verra point violenter perſonne;
+<lb />Et quand je pers un cœur qui cherche à s’éloigner,
+<lb />mon Tiere, je preteno moms perdre que gâgner.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Voila des ſentimens d’un Heros de Caſſandre:
+<lb />Entre-nous vous aviez fort grand tort de prétẽdre
+<lb />Que ſur vôtre Neveu vous puſſiez l’emporter.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Non, je ne ſceus jamais juſques-là me flatter:
+<lb />La jeuneſſe toujours eut des droits ſur les belles,
+<lb />L’amour eſt un enfant qui badine avec elles,
+<lb />Et quand à certain âge ou veut ſe faire aimer,
+<lb />C’eſt un ſoin indiſcret qu’on devroit reprimer.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Je ſuis en verité ravy de vous entendre,
+<lb />Et vous prenez la choſe ainſi qu’il la faut prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Si l’on m’en avoit crû tout n’en iroit que mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Ma preſence eſt aſſez inutile en ces lieux,
+<lb />je vais de mon amour tâcher à me défaire.
+<lb />Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Allez, conſolez-vous, c’eſt fort bien fait, mon Frere?
+<lb />muieu. Le pauvre cerant, ion fort-me fait pitié.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE s’en allant.
+<lb />J’en ay le cœur ſaiſi.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Moy, j'en pleure a moitié,
+<lb />Le pauvre homme.
+<fw><lb />LLAN
+<lb />GERONTE, HECTOR.
+<lb />HECTOR tirantun papier roulé avee
+</fw></sp>
+<sp type="MainZone-Sp"><lb />pluſieurs autres papiers.
+<lb />VOila, Monſieur, un perit rôle,
+<lb />Des dettes de mon Maître, il vous tient ſa parole,
+<lb />Comme vous le voyez, &amp; il croit qu’en tout cecy,
+<lb />Vous voudrez bien, Monſieur, tenir la vôtre auſſi</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Ca voyons, expedie au plûtoſt ton affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />J’auray fait en deux mots. L’honneſte homme de
+<lb />Pere!
+<lb />Ah! qu’à nôtre ſecours a propos vous venez,
+<lb />Encor un jour plus tard nous étions ruinez.
+</sp>
+<sp type="MainZone-Sp"><lb />Je le crois.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />N’allez pas ſur les points vous debattre,
+<lb />Foy d’honneſte garçon je i'en puis rien rabattre:
+<lb />Ies choſes ſont, Mouſieur, tout au plus juſte prix,
+<lb />De plus, je vous promets que je n'ay ren obmis.
+</sp>
+<sp type="MainZone-Sp"><lb />Finy donc.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />ii faut bien re mettre rarieegardes:
+<lb />Memoire juſte &amp; bref de nos dettes criardes,
+<lb />Que Maturin Geronte aurcit tantoſt promis,
+<lb />Et promet maintenant de payer pour ſon riis.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Que je les paye ou non, ce n’eſt pas ton affaire.
+<lb />Lis toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Cents menneur, ce que je mam tals faire:
+<lb />Item, doit à Richard cinq cens livres dix ſous
+<lb />Pour gages de cinq ans, frais, miſes, loyaux ceuts.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Quel eſt ce Richard?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Moy, fort à voſtre ſervice:
+<lb />Ce nom n’eſtant point fait du tout à la propice:
+<lb />E iij
+<lb />D’un valet de joüeur, mon Maître de nouveau,
+<lb />M’a mis celuy d’Hector, du valet de carreau.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Le beau nom! Il devoit appeller Angelique
+<lb />Pallas, du nom connu de la Dame de pique.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Secanuement ll Moit A jeremte Marone
+<lb />Uſurier de meſtier, fuif de Religion.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Tout beau, n’embroüillons point, s’il vous plaiſt,
+<lb />les affaires,
+<lb />Je ne veux point payer les dettes uſuraires.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Hé bien ſoit. Plus il doit à maints particuliers
+<lb />Ou quidams, dont les noms, qualitez &amp; meſtiers
+<lb />S'ont déduits plus au long avecque les paities,
+<lb />Es aſſignations dont je tiens les copies,
+<lb />Dont tous leſdits quidams, ou du moins peut s’en faut,
+<lb />Ont obtenu déja Sentence par defaut;
+<lb />La ſomme de dix mille, une livre, une obole,
+<lb />Pour l’avoir ſans relâche un an ſur ſa parole,
+<lb />Habillé, voituré, coeffé, chauſſé, ganté,
+<lb />Atimenté, raſé, deſalteré, porté.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Deſalteré, porté, que le diable t’emporte,
+<lb />Et ton iaudit Memoire ecrit de telle ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Si vous ne m’en croyez demain pour vous trouver
+<lb />J’envoyeray les Quidams tous à voſtre lever.
+</sp>
+<sp type="MainZone-Sp"><lb />La belle cout!
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />De plus à Margot de la Plante,
+<lb />Perſonne de ſes droits uſante &amp; joüiſſante,
+<lb />Ept dû loyalement deux cens cinquante écus,
+<lb />Pour ſes apointemens de deux quuriiers écheus.
+</sp>
+<sp type="MainZone-Sp"><lb />Oeiee l Ra
+<lb />Quelle eſt cette Margot?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Monſieur... C’eſt une fille...
+<lb />Chez laquelle mon Maître... Elle eſt vraiment
+<lb />beltme
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Deux cens cinquante écus!
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ce n’eſt ma foy pas cher,
+<lb />Demandez, c’eſt, Monſieur, un prix fait en Hyver.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Et tu prétens bourreau...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR tournant le rôle.
+<lb />Monſieur point d’invectives:
+<lb />Voicy le contenu de nos dettes actives,
+<lb />Et vous allez bien voir que le compte ſuivant,
+<lb />Payé fidellement ſe monte à preſque autant.
+</sp>
+<sp type="MainZone-Sp"><lb />Voyons.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Premierement Ijaut detn dens.
+<lb />Il eſt connu de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Et de toute la terre;
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nous ne vous donnons pas de ces effets iver<lb />reux,
+<lb />E iiij
+<lb />Cela ſent comme baûme: Or donc ce de la Serre,
+<lb />Si bien connu de vous &amp; de toute la terre,
+<lb />Ne nous doit rien.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mais un de ſes parens,
+<lb />Mort aux champs de Flerus nous doit dix mille
+<lb />francs.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Voila certainement un effet fort bizare.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />On s'irn eſtont pas mort ceſtoit de l’or en barre.
+<lb />Plus à mon Maiſtre eſt dû du Chevalier Fijac
+<lb />Les droits hipotequez ſur un tour de Trictrac.
+</sp>
+<sp type="MainZone-Sp"><lb />Que dis-tu?
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />AMCRERI.
+<lb />La partie eſt de deux cens piſtoles,
+<lb />C’eſt une dupe, il fait en un tour vingt écoles.
+<lb />Il ne faut plus qu’un coup.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE luy donnant un ſouflet.
+<lb />Tien maraut, le voila,
+<lb />Pour m’offrir nn memoire égal à celuy-là,
+<lb />Va porter cet argent à celuy qui t’envoye.
+</sp>
+<sp type="MainZone-Sp"><lb />IIECTOR
+<lb />Il ne voudra jamais prendre cette monnoye.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Impertinent, maraut, va, je t’aprendray bien
+<lb />Avecque ton Trictrac.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il a dix trous, à riens
+</sp>
+<p type="MainZone-Head"><lb />Se l.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR ſeul.
+<lb />A main eſt à fraper, non à donner legere,
+<lb />OEt mon Maître a bien fait de faire ailleurs af<lb />faire;
+<lb />Mais le voicy qui vient poune d’un neuleux vent,
+<lb />Il a les yeux ſereins &amp; l’accueil avenant.
+</sp>
+<p type="MainZone-Head"><lb />SCEREV
+<lb />VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR. Valere entre en comptant
+<lb />beaucoup d’argent dans
+<lb />ſon chapeau
+<lb />DAr vôtre ordre, Monſieur, j’ay vû Monſieur
+<lb />Geronte,
+<lb />Qui de nôtre Memoire a fait fort peu de conte,
+<lb />Sa monnoye eſt frapée avec un vilain coin,
+<lb />Et de pareil argent nous n’avons pas beſoin :
+<lb />J’ay vû chemin faiſant auſſi Monſieur Dorante,
+<lb />Morbleu qu’il eſt fâché:
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE comptant toujours.
+<lb />Mille deux cens cinquante.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />La flore eſt arrivée avec les Galions,
+<lb />Cela va diablement hauſſer nos actions.
+<lb />'ay veu pareillement par voſtre ordre Angelique;
+<lb />Elle m’a dit...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE frapant du pied.
+<lb />Morbleu ce dernier coup me pique,
+<lb />Sans les cruels revers de deux coups inouis.
+<lb />J’aurois encor gagné plus de trois cens Louis:
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Cette llle monneur de roitre amour eſt folle.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE à part.
+<lb />Damon m’en doit encor deux cens ſur ſa parole.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR Ie tirant par la munche.
+<lb />Monſieur écoutez-moy: calmez un peu vos ſens,
+<lb />Je parle d’Angelique, &amp; depuis fort long-temps.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ah d’Angelique, hé bien commẽt ſuis-je avec elle,
+</sp>
+<sp type="MainZone-Sp"><lb />TIECTON.
+<lb />On n’y peut eſtte mieux; ah, Monſieur, qu’elle eſt
+<lb />oene,
+<lb />Et que j’ay de plaiſir à vous voir racroche.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />A te dire le vray, je n’en ſuis pas fâché.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Cominene. quene Homdeur s'empare de vôtre ame;
+<lb />Quelle glace! tantoſt vous eſtiez tout de flame:
+<lb />Ay-je tort, quand je dis que l’argent de retour
+<lb />Vous fait faire toujours banqueroute à l’amour:
+<lb />Vous vous ſentez en fond Ergo, plus de maîtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERÉ.
+<lb />Ah juge mieux Hector de l’Amour qui me preſſe,
+<lb />l’ayme autant que jamais; mais ſur ma paſſion
+<lb />J’ay fait en te quirtant quelque reflexion!
+<lb />Je ne ſuis point du tout né pour le mariage,
+<lb />Des parens, des enfans, une femme, un ménage,
+<lb />Tout cela me fait peur, j’aime la liberté.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Et le libertinage.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Hector en verité;
+<lb />Il n’eſt point dans le monde un état plus aimable.
+<lb />Que celuy d’un Joüeur, ſa vie eſt agreable,
+<lb />Ses jours ſont enchaînez par des plaiſirs nouveaux,
+<lb />Comedie, Opera, bonne chere, cadeaux,
+<lb />Il traîne en tous les lieux la joye &amp; l’abondance,
+<lb />On voit regner lur luy l’an de magnificence,
+<lb />Tabatieres, bijoux, ſa poche eſt un treſor,
+<lb />Sous ſes heureuſes mains le cuivre devient ax.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Et l’or devient à rien.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Chaque jour, mille belles
+<lb />Luy font la cour par lettre, &amp; l’invitent chez elle.
+<lb />La porte à ſon aſpect s’ouvre à deux grands battãs,
+<lb />Là vous trouvez toujours des gens divertiſſans
+<lb />Des femmes qui jamais n’ont pû fermer la bouche,
+<lb />Et qui ſur le prochain vous tirent à cartouche
+<lb />Des oiſifs de métier, &amp; qui toujours ſur eux
+<lb />Portent de tout Paris le lardon ſcandaleux
+<lb />Des Lucreces du temps, la, de ces ſilles veuves,
+<lb />Qui veulent impoſer &amp; ſe donner pour neuves,
+<lb />De vieux Seigneurs roujours preſts à vous cajoler,
+<lb />Des plaiſans qui font rire avant que de parler,
+<lb />Plus agreablement peut-on paſſer la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />D’accord, mais quand on perd tout cela vous en<lb />nuye.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Le jeu r’aſſemble tout, il unit à la fois
+<lb />Le turbulent Marquis, le paiſible Bourgeois,
+<lb />La femme du Banquier dorée &amp; triomphante,
+<lb />Coupe orgueilleuſement la Ducheſſe indigente;
+<lb />Là, ſans deſtinction on voit aller depair
+<lb />Le Laquais d’un Commis avec un Duc &amp; Pair;
+<lb />Et quoy qu’un ſort jaloux nous ait fait d’injuſtices
+<lb />De ſa naiſſance ainſi l’on vange les caprices.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />A ce qu’on peut juger de ce diſcours charmant,
+<lb />veus vona done engrate avec l’argent comptant;
+<lb />Tant mieux, pour ſe conduire en bonne politique,
+<lb />Il faudroit retirer le portrait d’Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />Nous verrons.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />AAGTOR.
+<lb />Vous ſçavez.
+</sp>
+<sp type="MainZone-Sp"><lb />N HEERE.
+<lb />Je dois joüer tantoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Tirez-en mille écus.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Oh non, c’eſt un depoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />MELe le l
+<lb />Pour mettte quelque choſe à l’abry des orages,
+<lb />S’il vous plaiſoit du moins de me payer mes gages.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy je te dois...
+</sp>
+<sp type="MainZone-Sp"><lb />An i e le le
+<lb />Depuis que je ſuis avec vous
+<lb />Je n’ay pas en cinq ans encor receu cinq ſols.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE,
+<lb />Mon. Pere te payra, l’article eſt au memoire.
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Voſtre Pere? Ah, Monſieur, c’eſt une mer à boire,
+<lb />Son argent n’a point cours quoy qu’il ſoit bien
+<lb />de poids.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />La jexummeraj ton compte unc autrerois,
+<lb />J’entens venir quelqu’un.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Elle a flairé l’argent.
+<lb />Je vois voſtre ſelliere,
+</sp>
+<sp type="MainZone-Sp"><lb />VAL’ERE mettau prompitment ſon
+<lb />argent dans ſa poche.
+<lb />Il faut nous en défaire.
+</sp>
+<sp type="MainZone-Sp"><lb />HIECIOR.
+<lb />Et Monſieur Galonier voſtre honneſte Tailleur.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />Me ADAM, Mr GALONIER,
+<lb />VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />jVel contre-temps! je luis, voitre humble
+<lb />7 ſerviteur:
+<lb />Bonjour, Madame Adam, quelle joye eſt la mienne
+<lb />Vous voir !' c’eſt du plus loin parbleu qu’il me
+<lb />ſouvienne.
+</sp>
+<sp type="MainZone-Sp"><lb />Me A DAM.
+<lb />Je viens pourtant icy ſouvent faire ma cour,
+<lb />Mais vous joüez la nuit, &amp; vous dormez le jour.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />C’eſt pour cette caleche à velours à ramage.
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />Ouy s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ſuis fort content de l’ouvrage
+<lb />Il faut vous la payer... Songe par quel moyen
+<lb />Tu pourras me tirer de ce triſte entretien.
+<lb />Vous Monſieur Galonier quel ſujet vous ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />GALONTEE
+<lb />oe viens vonsuemamden.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous prenez trop de peine:
+</sp>
+<sp type="MainZone-Sp"><lb />Vous...
+<lb />GALONIER.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous faites toujours mes habits trop étroits.
+</sp>
+<sp type="MainZone-Sp"><lb />Si...
+<lb />GHEOMER.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ma culote s’uſe en deux ou trois endroits.
+</sp>
+<sp type="MainZone-Sp"><lb />Je...
+<lb />GALONIER.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous couſez ſi mal...
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />Nous marions ma fille.
+</sp>
+<sp type="MainZone-Sp"><lb />VALARE.
+<lb />Quoy vous la mariez? Elle eſt vive &amp; gentille,
+<lb />Er ſon époux futur doit en eſtre content.
+</sp>
+<sp type="MainZone-Sp"><lb />Me A DAM.
+<lb />Nous aurions grand beſoin d’un peu d’argent
+<lb />comptant.
+<fw><lb />
+<lb />L
+<lb />Ia
+<lb />M
+<lb />De
+<lb />Et
+<lb />fa
+<lb />De
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VA LERE.
+<lb />Je veux Madame Adam mourir à voſtre veuë,
+<lb />Si j’ay...
+</sp>
+<sp type="MainZone-Sp"><lb />MCADIM.
+<lb />Depuis long-temps cette ſomme m’eſt duë,
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que je ſois en maraut deshonore cent lois,
+<lb />Si l’on m’a vû toucher un ſou depuis ſix mois.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy nous avons tous deux par pieté profonde
+<lb />Fait vœu de pauvreté, nous renonçons au monde.
+</sp>
+<sp type="MainZone-Sp"><lb />GALONIER.
+<lb />Que vôtre cœur pour moy le lame un peu toucher,
+<lb />Nôtre femme eſt Mõſieur ſur le point d’accoucher:
+<lb />Donnez-moy cent écus ſur étant moins des dettes.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Et dequoy Diable auſſi du métier dont vous eſtes,
+<lb />vous avnerrvous ia de lane deuenfans,
+<lb />Faites-moy des habits.
+</sp>
+<sp type="MainZone-Sp"><lb />GALONIER.
+<lb />Seulement deux cens francs.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Eh mais.. ſi j’en avois... comptez que dans la vie
+<lb />Perſonne de payer n’eut jamais tant d’envie,
+<lb />Demandeh..
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />S’il avoit quelques deniers comptans,
+<lb />Ne me payroit-il pas mes gages de cinq ahs;
+<lb />Vôtre dette n’eſt pas meilleure que la mienne.
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />Mais quand faudra-t’il donc, Monſieur, que je
+<lb />revienne.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais quand il vous plaira, dés demain que ſçait-on</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />je vous avertiray quand il y fera bon.
+</sp>
+<sp type="MainZone-Sp"><lb />GALONIER.
+<lb />uſgonu lollupoine dieyqu’on ne m’en
+<lb />chaſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HILCTON
+<lb />Non, je ne vis jamais d’animal ſi tenace.
+</sp>
+<sp type="MainZone-Sp"><lb />A LERE.
+<lb />Ecoutez, je vous dis un ſecret qui je croy
+<lb />vous plaira dans la ſuite autant &amp; prus qu’à moy:
+<lb />Je vay me marier tout à fait, &amp; mon Pere
+<lb />Avec mes creanciers doit me tirer d’analre.
+</sp>
+<sp type="MainZone-Sp"><lb />Pour le coup:
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />Il me faut de l’argent cependant.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Cette raiſon vaut mieux que de l’argent comptant;
+<lb />Montrez-nous jes taforis.
+</sp>
+<sp type="MainZone-Sp"><lb />GALONIER.
+<lb />Se fera-t’il bien-toſt?
+<lb />Monſieur ce mariage
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Tout au plutoſt, j’enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />sela cedamee jour.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nous l’eſperons, adieu,
+<lb />Sortez, nous attendons la future en ce lieu.
+<lb />Si l’on vous trouve icy vous gâterez l’affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Me ADAM.
+<lb />Vous me promettez donc...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Allez laiſſez-moy faire.
+<fw><lb />Me ADAM &amp; GALONIER enſemble.
+<lb />Mais Monſieur...
+</fw></sp>
+<p type="MainZone-Other"><lb />HECTOR les mettant dehors.
+<lb />Que de bruit, oh parbleu détallez.
+</p>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR riant.
+<lb />yOila des Creanciers aſſez bien regalez;
+<lb />V Vous devriez pourtant, en fond comme vous
+<lb />eſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Rien ne porte malheur comme payer ſes dettes.
+</sp>
+<sp type="MainZone-Sp"><lb />CTOR.
+<lb />Ah je ne dois donc plus m’étonner deſormais,
+<lb />Si tant d’honneſtes gens ne les payent jamais:
+<lb />Mais voicy le Marquis, ce heros de tendreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />C’eſt là le ſoûpirant ?...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy de nôtre Comteſſe.
+</sp>
+<p type="MainZone-Other"><lb />F iij
+</p>
+<p type="MainZone-Head"><lb />SCENEVII.
+<lb />LE MARQUIS, VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ue ma chaiſe ſe tienne à deux cens pas d’icy;
+<lb />Et vous mes trois Laquais éloignez-vous
+<lb />auſſi,
+<lb />Je ſuis incognitò.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Que pretent-il donc faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE RRRSIS.
+<lb />N’eſt-ce pas vous, Monſieur, qui vous nommez
+<lb />Valere.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ouy, Monſieur, c’eſt ainſi qu’on m’a toujours
+<lb />deminer
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Juſques au lond du cœur j’en ſuis parbleu charmé,
+<lb />Faites que ce Valet à l’écart ſe retire.
+</sp>
+<sp type="MainZone-Sp"><lb />Va-t’en.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Reenncar
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Va-t’en, faut-il te le redire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />LE MARQUIS.
+</p>
+<sp type="MainZone-Sp"><lb />Scavez-vous qui je ſuis?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je n'ay pas cet honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Courage, allons Marquis montre de la vigueur;
+<lb />Il craint. Je ſuis pourtant foit connu dans la Ville,
+<lb />Et ſi vous l’ignorez ſçachez que je faufile
+<lb />Avec Ducs, Archiducs, Princes, Seigneurs, Mar<lb />quis,
+<lb />Et tout ce que la Cour offre de plus exquis,
+<lb />Petits Maiſtres de robe à courte &amp; longue queuë,
+<lb />J’évante les beautez &amp; leur plais d’une lieuë,
+<lb />Je m’érige aux repas en Maiſtre Architiclin,
+<lb />I’y ſuis le Chanſonnier &amp; l’ame du feſtin :
+<lb />Je ſuis parfait en tout; ma valeur eſt connuë,
+<lb />Je ne me bats jamais qu’auſſi-toſt je ne tuë,
+<lb />De cent jolis combats je me ſuis démeſte.
+<lb />J’ay la botte trompeuſe, &amp; le jeu tres-bioüillé;
+<lb />Mes ayeux ſont connus, ma race eſt ancienne,
+<lb />Mon triſayeul eſtoit Vice-Baillif du Maine;
+<lb />j ay levol du chapon, ailn des le berceau
+<lb />Vous voyez que je ſuis Gentilhomme Manceau.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />On le voit à vôtre air.
+</sp>
+<sp type="MainZone-Sp"><lb />LE. MARQUIS.
+<lb />J’ay ſur certaine femme
+<lb />Jetté ſans y ſonger quelque amoureuſe flame,
+<lb />J’ay trouvé la matiere aſſez ſeche de ſoy,
+<lb />Mais la belle eſt tombée amoureule de moy.
+<lb />Vous le croyez ſans peine, on eſt fait d’un modele
+<lb />A pretendre hypoteque à fott bon droit ſur elle,
+<lb />Et vouloir faire obſtacle à de telles amours,
+<lb />C’eſt pretendre arreſter un torrent dans ſon cours.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ie ne croy pas, Monſieur, qu’on fuſt ſi temeraire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />On m’aſſure pourtant que vous le voulez faire.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Que ſans reſpecter ny rang, ny qualité
+<lb />vous nourrilez dans laine une vencite
+<lb />De me barrer ſon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />C’eſt pure médiſance,
+<lb />Je ſçay ce qu’entre nous le ſort mit de diſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />EL MARQUIS.
+<lb />Il tremble. Sçavez-vous Monſieur du lanſquenet
+<lb />Que j’ay dequoy rapattle Iey voitre caquet.
+</sp>
+<sp type="MainZone-Sp"><lb />Je le ſçais.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Vous croyez en vôtre humeur cauſtique,
+<lb />En agir avec moy comme avec l’as de pique.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE<lb />Moy, Monſieur.
+<fw><lb />LE MARQUIS.
+<lb />Il me craint. Vous faites le plongeon,
+<lb />Petit noble à nazarde, enté ſur ſauvageon.
+<lb />Valere enfonce ſon chapeaut
+<lb />Je croy qu’il a du cœur; je retiens ma colere:
+<lb />Aialo.. .
+</fw></sp>
+<p type="MainZone-Other"><lb />VALERE mettant la main ſur ſon épée.
+<lb />Vous le voulez donc, il faut vous ſatisfaire.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Bon, bon, je ris.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Vos ris ne ſont point de mon goût,
+<lb />Et vos airs inſolens ne plaiſent point du tout.
+<lb />Vous eſtes un faquin.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Cela vous plaiſt à dire.
+<lb />Un fat, un malheureux.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Monſieur, vous voulez rire.
+<lb />VALERE mettant l’épée à la main.
+<lb />Il faut voir ſur le champ ſi les Vice-Baillifs
+<lb />Sont ſi francs du collier que vous l’avez promis.
+</sp>
+<sp type="MainZone-Sp"><lb />Da uianeenos
+<lb />Mais faut-il nous broüiller pour un ſot point de
+<lb />gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Oh le vin eſt tiré, Monſieur il le faut boire:
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS criant.
+<lb />Mn iCh, je ſuis bleſſé.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IA.
+<lb />HECTOR, VALERE, LE MARQUIS.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />QUels deſſeins emportez..:
+<lb />LE MARQUIS mettant l’épée à la main.
+<lb />Ah c’eſt trop endurer.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah! Monſieur, arreſtez.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Laiſſez-moy donc.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Tout beau.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ceſſe de le contraindre,
+<lb />va, e eſt un malneureux qui n’eſt pas bien à crain<lb />dre.
+</sp>
+<sp type="MainZone-Sp"><lb />Quel ſujet...
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS fierement.
+<lb />Vôtre Maître a certains petits airs,
+<lb />Doucement.
+<lb />Et prend mal à propos les choſes de travers.
+<lb />On vient civilement pour s’éclaircir d’un doute,
+<lb />Et Monſieur prẽd la chévre, il met tout en déroute,
+<lb />Fait le petit mutin: oh cela n’eſt pas bien.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />alal encei quel lajet.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Quel ſujet? moins que rien:
+<lb />L’amour de la Comteſſe auprés de luy m’apelle.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah diable! c’eſt avoir une vieille querelle.
+<lb />Quoj pouo dier, momneuij d'un cœurambitieux,
+<lb />Sur nôtre patrimoine ainſi jetter les yeux,
+<lb />Attaquer la Comteſſe, &amp; nous le dire encore.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Bon, je ne l’aime pas, c’eſt-elle qui m’adore.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Oh vous pouvez l’aimer autant qu’il vous plaira,
+<lb />C’eſt un bien que jamais on ne vous enviera;
+<lb />Vous eſtes en effet un Amant digne d’elle,
+<lb />Je vous cede les droits que j’ay ſur cette belle.
+<fw><lb />Se1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy les droits ſurile cœur, mais ſur la bourſe non.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />juie içavois bien moy que j’en aurois raiſon:
+<lb />Et voila comme il faut ſe tirer d’une affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />N’auriez-vous point beloin d'un peu d’eau vulne<lb />raire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Je ſuis ravy de voir que vous ayez du cœur,
+<lb />Et que le tout le lou panodans la douceur.
+<lb />Serviteur, vous &amp; moy nous en valons deux autres,
+<lb />Je ſuis de vos amis.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ne ſuis pas des vôtres.
+</sp>
+<p type="MainZone-Head"><lb />SCLNE X.
+<lb />VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />JOila donc ce Marquis, cet homme dange<lb />V reux.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur, le voila.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />C’eſt un grand malheureux:
+<lb />Je crains que mes Joüeurs ne ſoient ſortis du
+<lb />giſte,
+<lb />Ils ont trop attendu, j’y retourne au plus viſte;
+<lb />’ay dans le cœur, Hector, un bon preſſentiment.
+<lb />Et je dois aujoard’huy gagner aſſurément.
+</sp>
+<sp type="MainZone-Sp"><lb />ECTOR.
+<lb />Vôtre cœur eſt, Monſieur, toujours inſatiable
+<lb />Guo impirations viemene louvent du diable:
+<lb />Je vous en avertis, c’eſt un futé matois.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Elles m’ont réuſſi déja plus d’une fois.
+</sp>
+<sp type="MainZone-Sp"><lb />ECTOR.
+<lb />Tant va la cruche à l’eau...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Paix: Tu veux contredire,
+<lb />A mon âge crois-tu m’aprendre à me conduire.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous ne me parlez point, Monſieur, de vôtre
+<lb />amour.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />BUTOR.
+<lb />Il m’en parlera peut-eſtre à ſon reteur.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE IV
+<lb />SCENE PREMIERE.
+<lb />ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />N vain vous m’oppoſez une indigne
+<lb /> tendreſſe,
+<lb />Je n’ay veu de mes jours avoir tant de
+<lb />molleſſe
+<lb />je ne puis fur ce pome i uecorderavec vous;
+<lb />Valere n’eſt point fait pour eſtre vôtre époux,
+<lb />Il reſſent pour le jeu des fureurs nompareilles,
+<lb />Et cet homme perdra quelque jour ſes oreilles.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Le temps le guerira de cet aveuglement.
+</sp>
+<sp type="MainZone-Sp"><lb />IERINE.
+<lb />Le temps augmente encor un tel attachement.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE
+<lb />Ne combats plus Nerine, une ardeur qui m’en<lb />chante,
+<lb />Tu prẽdrois pour l’éteindre une peine impuiſſante;
+<lb />Il eſt des nœuds formez ſous des aſtres malins,
+<lb />Qu’on cherit malgré ſoy: Je cede à mes deſtins
+<lb />La raiſon, les conſeils, ne peuvent m’en diſtraire,
+<lb />Je voy le bon party, mais je prens le contraire.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Hé bien Madame, ſoit, contentez vôtre ardeur,
+<lb />y conſens, acceptez pour époux un joüeur,
+<lb />Qui pour porter au jeu ſon tribut volontaire,
+<lb />Vous laiſſera manquer meſme du neceſſaire.
+<lb />Toujours triſte ou fougueux, peſtant contre le jeu,
+<lb />Ou d’avoir perdu trop, ou bien gagné trop peu;
+<lb />Quel charme qu’un époux qui flatant ſa manie,
+<lb />Fait vingt mauvais marchez tous les jours de ſa
+<lb />vie,
+<lb />Prend pour argent comptant d’un uſurier fripon
+<lb />Des ſinges, des pavez, un chantier du charbon,
+<lb />Qu’on voit à chaque inſtant preſt à faire querelle
+<lb />Aux bijoux de ſa femme, ou bien à ſa vaiſſelle,
+<lb />Qui va, revient, retourne, &amp; s’uſe à voyager
+<lb />Chez l’uſurier, bien plus qu’à donner à manger,
+<lb />Quand aprés quelque temps d’intereſt ſurchargée,
+<lb />Il la laiſſe, ou d’abord elle fut engagée,
+<lb />Et prend pour remplacer ſes meubles écartez
+<lb />Des diamans du Temple &amp; des plats argentez.
+<lb />Tant que dãs ſa fureur, n’ayant plus rien à vendre,
+<lb />Empruntant tous les jours, &amp; ne pouvant plus ren<lb />dre
+<lb />Sa femme ſigne enfin, &amp; voit en moins d’un an
+<lb />ses terres en decret, &amp; ſon lit à l’encan.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je ne veux point icy m’affliger par avance,
+<lb />L’evenement ſouvent confond la prevoyance,
+<lb />Il quittera le jeu.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Quiconque aime, aimera,
+<lb />Et quiconque a joüé, toujours joüe, &amp; joüera,
+<lb />Quelque docteur l’a dit, ce n’eſt point menterie.
+<lb />Et ſi vous le voulez contre vous je parie
+<lb />Tout ce que je poſſede, &amp; mes gages d’un an,
+<lb />Qa riedre que je parle il eſt dans un Brelan.
+<lb />Nous le ſçaurons d'Hector, qu'iey je voy paroître.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HECTOR, ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />ANGLLIQUE.
+<lb />TTE voila bien ſouflant: En quels lieux eſt t’on
+<lb />X Maitre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR embaraſſé.
+<lb />En queique leu qu'il foit je lepons de ſon cœur...
+<lb />Il ſent toujours pour vous la plus ſincere ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Ce n’eſt point là, maraut, ce que l’on te demande.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR voutant setnaper.
+<lb />Maraut! je vois qu’icy je luis de comiebande.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Non, demeure un moment:
+</sp>
+<sp type="MainZone-Sp"><lb />TECTOR.
+<lb />Le temps me preſſe, adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />RINE.
+<lb />Tout doux: n’eſt-il pas vray qu’il eſt dans quel<lb />que lieu,
+<lb />Où courant le hazard...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Parlez mieux, je vous prie,
+<lb />Mon Maître n’a hanté de tels lieux de ſa vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Pienr pona diine poulo et te me mens pas, dy moy
+<lb />S’il n’eſt pas vray qu’il joüe à preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il eſt bien revenu de cette folle rage,
+<lb />Oh ma foy
+<lb />Et n’aura pas de gouſt pour le jeu davantage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ajee tes laux foupçons reerine, hé bien tu vois?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Iis en donne aujourd huy pour la derniere fois.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Il joüeroit donc?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il joüe, à dire vray Madame.:
+<lb />Mais ce n’eſt proprement que par nobleſſe d’ame,
+<lb />Mil voit qu’i le uerait de lon argelit expres,
+<lb />Pour n’eſtre plus touché que de vos ſeuls attraits..
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Hé bicn, ay-je raiſon?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Donmaurai iort; vous dis-je,
+<lb />Mieux que tous vos diſcours aujourd’huy le cor<lb />rige.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy...
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR
+<lb />N’admirez-vous pas cette fidelité?
+<lb />Perdre exprés ſon argent pour n’eſtre plus tenté:
+<lb />Il ſçait que l’hõme eſt foible.. Il ſe met en defence;
+<lb />Pour moy je ſuis charmé de ce trait de prudence.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Quoy ton Maître joüeroit au mépris d’un ſer<lb />ment...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />C’eſt la derniere fois, Madame, abſolument,
+<lb />On peut le voir encor ſur le champ de bataille,
+<lb />Il frape à droit à gauche &amp; d’eſtoc, &amp; de taille:
+<lb />Il ſe deffend, Madame, encor comme un lion,
+<lb />Je l’ay veu dans l’effort de la convulſion,
+<lb />Maudiſſant les hazards d’un combat trop funeſte,
+<lb />De ſa bourſe ex pirante il ramaſſoit le reſte;
+<lb />Et paroiſſant encor plus grand dans ſon malheur,
+<lb />Il vendoſt cher ion lang &amp; la vie au-vamqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Pourquoy l’as-tu quitté dans cette décadence?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />comme dn Ayde de Camp, je viens en diligence
+<lb />Apeller du ſecours, il faut faire aprocher
+<lb />Ivoſtte curps de feferve; de jementuie enercher
+<lb />Deux cens Louis qu’il a laiſſez dans ſa caſſette.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Hé bien Madame, hé bien, eſtes-vous ſatisfaite.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />nes partis font aux mains, à deux pas on ſe bat,
+<lb />Et les momens ſont chers en un jour de combat.
+<lb />Nous allons nous ſervir de nos armes dernieres,
+<lb />Et des Troupes qu’au jeu ſon nomme auxiliaires.
+<lb />Il ſort
+<fw><lb />G ij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ANGELIQUE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />yOus l’entendez, Madame, aprés cette action
+<lb />V Pour Valere, armez-vous de belle paſſion;
+<lb />Cedez à vôtre etoſſe, epouiez-le, j’enrage
+<lb />Lors que j’entens tenir ce diſcours à vôtre âge;
+<lb />Mais Dorante qui vient..
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />All fortons de ees lieux,
+<lb />Je ne puis me reſoudre à paroiſtre à ſes yeux.
+<lb />Elle s’en va
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV..
+<lb />
+<lb />DORANTE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />E' quoy vous me fuyez: daignez au moins
+<lb />H m’aprendre..
+<lb />Et toy Nerine auſſi, tu ne veux pas m’entendre,
+<lb />Veux-tu de ta Maîtreſſe imiter la rigueur?
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Non, Monſieur, je vous ſers toujours avec vigueur,
+<lb />Laiſſez-moy faire.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />O Ciel! ce trait me deſeſpere,
+<lb />Je veux aproronan un Ireruel mmtere.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LA COMTESSE, DORANTE.
+</p>
+<sp type="MainZone-Sp"><lb />LA COMTESSE,
+<lb />Oetourer vous Dorante?
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />O contre-temps fâcheux,
+<lb />Cherchons à l’éviter.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Demeurez en ces lieux,
+<lb />J’ay deux mots à vous dire, &amp; vôtre ame contente;
+<lb />mlais lons retiren tous; dirdomme m’épouvante,
+<lb />L’ombre d’un teſte à teſte, &amp; dedans &amp; dehors
+<lb />Me fait meſme en Eſté friſſonner tout le corps.
+<fw><lb />1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />J’obeïs...
+<lb />DORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Revenez. Quelque eſpoir qui vous guide,
+<lb />Le reſpect à l’amour ſçaura ſervir de bride,
+<lb />N’eſt-il pas vray?
+<lb />3
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />En ce temps les Amans
+<lb />Prés du ſexe d’abord ſont ſi geſticulans.
+<lb />Quoy qu’on ſoit vettueuſe, il faut telle paroiſtre,
+<lb />Et cela quelquefois coute bien plus qu’à l’eſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />Madame...
+<lb />DoRn lux E..
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />En verité j’ay le cœur douloureux,
+<lb />Qu’Angelique ſi mal reconnoiſſe vos feux:
+<lb />Et ſi je n’avois pas une vertu ſevere,
+<lb />Quime lait fenrermer dans un veuvage auſtere,
+<lb />Je pourrois bien... mais non je ne puis vous ouïr.
+<lb />si vous continuel, je vais mevanouir.
+</sp>
+<sp type="MainZone-Sp"><lb />Madame...
+<lb />DORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Vos diſeours, vôtre air ſoûmis &amp; tendre
+<lb />Ne feront que m’aigrir au lieu de me ſurprendre;
+<lb />Baniſſons la tendreſſe, il faut la ſuprimer,
+<lb />je ne puis en un mot me reloudre d’aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Madame... en verité je n’en ay nulle envie,
+<lb />Et veux bien avec vous n’en parler de ma vie.
+</sp>
+<sp type="MainZone-Sp"><lb />LA CONTESSE.
+<lb />Voila, je vous l’avoüe, un fort ſot compliment,
+<lb />Me trouvez-vous, Monſieur, femme à manquer.
+<lb />d’amant;
+<lb />J’ay mille adorateurs qui briguent ma conqueſte,
+<lb />Et leur encens trop fort me fait mal à la teſte.
+<lb />Ah vous le prenez là ſur un fort joly ton,
+<lb />En verité.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Et je vous trouve bon.
+</sp>
+<sp type="MainZone-Sp"><lb />Le reſpect...
+<lb />DORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Le reſpect eſt là mal en ſa place,
+<lb />Et l’on ne me dit point pareille choſe en face,
+<lb />Si tous mes ſoûpirans pouvoient me negliger,
+<lb />Je ne vous prendrois pas pour m’en dédomager.
+<lb />Du reſpect! du reſpect! ah le plaiſant viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />J’ay crũ que vous pouviez l’iphrer a votre âge;
+<lb />Mais Monſienr le Marquis qui paroiſt en ces lieux,
+<lb />Ne ſera pas peut-eſtre auſſi reſpectueux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Je ſuis au deſeſpoir, je n’ay veu de ma vie
+<lb />Iant de relacneinene dans la sulaneerle .
+<lb />Le Marquis vient, il faut m’aſſurer un party,
+<lb />Et je n’en pretens pas avoir le démenty.
+</sp>
+<p type="MainZone-Head"><lb />SCENEVI.
+<lb />LE MARQUIS, LA COMTESSE.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Mon bonheur enfin, Madame, tout conſpire,
+<lb />A Vous eſtes toute à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Que voulez-vous donc dire
+<lb />Marquis?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MAIRQUIS.
+<lb />Que mon amour n’a plus de coucurent,
+<lb />Que je ſuis &amp; ſeray vôtre ſeul conquerant;
+<lb />Que ii vous ne bater au plutoſt la chamade,
+<lb />Il faudra vous reſoudre à ſouffrir l’eſcalade.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Moy que l’on m’eſcalade?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Entre nous ſans façon,
+<lb />A Valere de prés j’ay ſerré le bouton,
+<lb />Al mi à ceue les droits qu’n avont fur votre amc.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Hé le petit poltron.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Oh palſanbleu Madame,
+<lb />Il ſeroit un Achile, un Pompée, un Ceſar,
+<lb />Je vous le conduirois points liez à mon char.
+<lb />Il ne faut point avoir de moleſſe en ſa vie,
+<lb />Je ſuis vert.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Dans le fond j’en ay l’ame ravie.
+<lb />Vous ne connoiſſez pas Marquis tout vôtre mal,
+<lb />Vous avez u comnutie encorpius dui rival.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Le don de vôtre cœur couvre de trop de gloire,
+<lb />Pour n’eſtre que le prix d’une ſeule victoire,
+<lb />Vous n’avez qu’à nommer...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Non, non, je ne veux pas
+<lb />Vous expoſer ſans ceſſe à de nouveaux combats.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Eſt-ce ce Financier de nobleſſe mineure,
+<lb />Qui s’eſt fait depuis peu Gentilhomme en une
+<lb />heure,
+</sp>
+<sp type="MainZone-Sp"><lb />Qui bâtit un Palais, ſur lequel on a mis
+<lb />Dans un grand marbre noir, en or, l’hoſtel Damis,
+<lb />Luy qui voyoit jadis imprimé ſur ſa porte
+<lb />Bureau du Pied-fourché, chair ſalée &amp; chair
+<lb />morte,
+<lb />Qui dans mille portraits expoſe ſes yeux,
+<lb />Son pere, ſon grand pere, &amp; les place en tous lieux,
+<lb />En ſa maiſon de Ville, en celle de Campagne,
+<lb />Les fait venir tout droit des Comtes de Cham<lb />Pandes
+<lb />Et de ceux de Poitou, dautant que pour certain,
+<lb />L'un s appemon Cnampagne, ce Pautre Poiccvin.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />A vos tranſports jaloux un autre ſe dérobe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />C’eſt donc ce Senateur, cet Adonis de Robe,
+<lb />Ce docteur en ſoupez, qui ſe taiſt au palais,
+<lb />Et ſçait ſur des ragouts prononcer des arreſts:
+<lb />Qui juge ſans appel ſur un vin de Champagne,
+<lb />S’il eſt de Reims, du Clos, ou bien de la Montagne,
+<lb />Qui de livres de droit toujours debaraſſé,
+<lb />Porte cuiſine en poche, &amp; poivre concaſſé,
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Non Marquis, c’eſt Dorante, &amp; j’ay ſceu m’en
+<lb />défaire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Quoy Dorante! cet homme a maintien debon<lb />naire,
+<lb />Ce croquant qu’à l’inſtant je viens de voir ſortir.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />C’eſt luy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Eh parbleu vous devez m’avertír,
+<lb />Nous nous ſerions parlez ſans ſortir de la ſale;
+<lb />Je ne ſuis pas méchãt, mais ſans bruit, ſans ſcãdale
+<lb />Sans luy donner le temps ſeulement de crier,
+<lb />Pour luy vôtre feneſtre eut ſervy d’eſcalier.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Vous eſtes turbuſent. Si vous ertiez plus ſage,
+<lb />On pourroit...
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />La ſageſſe eſt tout mon apanage.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Quoy qu'un engagement miult toujours fait hor<lb />reur,
+<lb />On auroit avec vous quelque affaire de cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ah parbleu volontiers. Vous me chatoüillez l’ame,
+<lb />Par affaire de cœur qu’entendez-vous Madame?
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Ce que vous entendez vous-meſme aſſurément.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQ eRS.
+<lb />Eſt-ce pour mariage, ou bien pour autrement.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Quoy vous pretendriez, ſi j’avois la foibleſſe...
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ah ma foy l’on n’a plus tant de delicateſſe,
+<lb />On s’aime pour s’aimer tout autant que l’on peut,
+<lb />Le mariage ſuit &amp; vient aprés s’il veut.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMIESSE.
+<lb />Je pretens que l’hymen ſoit le but de l’affaire,
+<lb />Et ne donne mon cœur que pardevant Notaire,
+<lb />Je veux un bon Contract ſur de bon parchemin,
+<lb />Et non pas un hymen qu’on rompt le lendemain.
+</sp>
+<sp type="MainZone-Sp"><lb />L'E MARQUIS.
+<lb />Vous aimez chaſtement; je vous en felicite,
+<lb />Et je me donne à vous avec tout mon merite;
+<lb />Quoy
+<lb />Quoy que cent fois le jour on me mette à la main
+<lb />Des partis à fixer un Empereur Romain.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />je croy que nos deun cours ſeront toujours l<lb />delles.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Oh parbleu nous vivrons comme deux Tourte<lb />relles.
+<lb />Pour vous porter, Madame, un cœur tout dégagé,
+<lb />Je vais dans ce moment ſignifier congé
+<lb />A des beautez ſans nõbre à qui mon cœur renonce,
+<lb />Et vous aurez dans peu ma derniere réponſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Adieu, faſſe le Ciel, Marquis, que dans ce jour
+<lb />Un hymen ſoit le ſceau d’un ſi parfait amour.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS ſeul.
+<lb />IE' bien, Marquis, tu vois, tout rit à ton me<lb />H rite,
+<lb />Le rang, le cœur, le bien, tout pour toy ſollicite,
+<lb />Tu dois eſtre content de toy par tout païs,
+<lb />On le ſeroit à moins, allons, ſaute Marquis:
+<lb />Quel bonheur eſt le tien! Le Ciel à ta naiſſance
+<lb />Répandit ſur tes jours ſa plus douce influence;
+<lb />Tu fus, je croy, paiſtry par les mains de l’Amour:
+<lb />N’es-tu pas fait à peindre? Eſt-il homme à la Cour
+<lb />Qui de la teſte aux pieds porte meilleure mine,
+<lb />Une jambe mieux faite, une taille plus fine,
+<lb />Et pour l’eſprit parbleu tu l’as des plus exquis:
+<lb />Que te manque-t’il donc? Allons, ſaute Marquis
+<lb />La Nature, le Ciel, l’Amour, &amp; la Fortune
+<lb />De tes proſperitez font leur cauſe commune:
+<lb />Tu ſoûtiens ta valeur avec mille hauts faits,
+<lb />Tu chantes, danſes, ris, mieux qu’on ne fit jamais
+<lb />Les yeux à fleur de teſte, &amp; les dents aſſez belles,
+<lb />Jamais en ton chemin trouvas-tu de cruelles?
+<lb />Prés du ſexe tu vins, tu vis, &amp; tu vainquis,
+<lb />Que ton ſort eſt heureux? Allons ſaute Marquis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />HECTOR, LE MARQUIS.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Itendez un moment. Quelle ardeur vous
+<lb />I tranſporte?
+<lb />ne quoy, Monneur, tout feur vous ſautez de la
+<lb />ſorte?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />C’eſt un pas de banet que je veux fepaſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mon Maiſtre qui me ſuit vous le fera danſer,
+<lb />Monſieur, ſi vous voulez.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Que dis-tu là, ton Maiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur, à l’inſtant vous l’allez voir pa<lb />roiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />En ces lieux je ne puis plus long-temps m’arreſter,
+<lb />Pour cauſe nous devons tous deux nous éviter;
+<lb />Quand ma verve me prend je ne ſuis plus traitable;
+<lb />Il eſt brutal, je fuis emporté comme un diable,
+<lb />Il manque de reſpect pour les Vice-Baillifs,
+<lb />Et nous aurions du bruit. Allons ſaute Marquis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+</p>
+<sp type="MainZone-Sp"><lb />HECTOR ſeul,
+<lb />Llons ſaute Marquis. Un tour de cette ſorte
+<lb />AEſt volé d’un Gaſcon où le diable m’emporte.
+<lb />Il vient de la Garonne. Oh parbleu dans ce temps
+<lb />Je n’aurois jamais cru les Marquis ſi prudents.
+<lb />Je vis: &amp; cependant mon Maiſtre à l’agonie
+<lb />Cede en un lanſquenet à ſon mauvais genie.
+<lb />Le voicy, ſes malheurs ſur ſon front ſont écrits,
+<lb />Il a tout le viſage &amp; l’air d’un premier pris.
+<fw><lb />88
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />On l’Enfer en courroux &amp; toutes ſes furies
+<lb />NN’ont jamais exercé de telles barbaries,
+<lb />Je te louë ô deſtin de tes coups redoublez,
+<lb />Je n’ay plus rien à perdre, &amp; tes vœux ſont com<lb />blez;
+<lb />Pour aſſouvir encor la fureur qui t’anime,
+<lb />Tu ne peux rien ſur moy, cherche une autre victi<lb />me.
+</sp>
+<sp type="MainZone-Sp"><lb />I'eſt lec.
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />De ſerpens mon cœur eſt devoré,
+<lb />Tout ſemble en un moment contre moy conjuré:
+</sp>
+<sp type="MainZone-Sp"><lb />Il prend Hector à la cravate.
+<lb />Parle, as-tu jainais vu le ioit &amp; ion caprice,
+<lb />Accabler un mortel avec plus d’injuſtice,
+<lb />Le mieux aſſaſſiner, perdre tous les partis,
+<lb />Vingt fois le coupe-gorge, &amp; toujours premier pris.
+<lb />Repond moy donc bourreau.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Mais ce n’eſt pas ma faute.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />As-tu vû de tes jours trahiſon auſſi haute.
+<fw><lb />4
+</fw><lb />Sort cruel! ta malice a bien ſçû triompher
+<lb />Et tu ne me flattois que pour mieux m’étouffer.
+<lb />Dans l’état où je ſuis je puis tout entreprendre,
+<lb />Confus, deſeſperé, je ſuis preſt à me pendre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Heureuſement pour vous vous n’avez pas un ſou,
+<lb />Dont vous puiſez, Momeur, acneter un ircou.
+<lb />Voudriez-vous ſouper?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que la foudre t’écraſe:
+<lb />Ah charmante Angelique en l’ardeur qui m’em<lb />braſe,
+<lb />A vos ſeules bontez je veux avoir recours,
+<lb />Je n’aimeray que vous, m’aimeriez-vous toujours?
+<lb />Mon cœur dans les tranſports de la fureur extrême
+<lb />N’eſt point ſi malheureux, puis qu’enfin il vous
+<lb />aime.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Noſtre bourſe eſt à fond, &amp; par un ſort nouveau,
+<lb />Noitre ailoul ictommence a reveni ſur l’eau.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Calmons le deſeſpoir où la fureur me nvre,
+<lb />Aproche ce fauteüil, va me chercher un Livre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Quel Livre voulez-vous lire en vôtre chagrin?
+</sp>
+<sp type="MainZone-Sp"><lb />VABHRE.
+<lb />Celuy qui te viendra le premier ſous la main.
+<lb />Il m’importe peu, prens dans ma bionoeneque.
+</sp>
+<sp type="MainZone-Sp"><lb />Voila Seneque.
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Lis.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Que je liſe Seneque?
+<lb />I iij
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Oüy, ne ſçais-tu pas lire ?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Hé vous n’y penſez pas.
+<lb />Je n’ay lû de mes jours que dans des Almanachs
+</sp>
+<sp type="MainZone-Sp"><lb /> ALERE,
+<lb />Ouvre, &amp; lis au hazard.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Je vay le mettre en pieces.
+</sp>
+<sp type="MainZone-Sp"><lb />Lis donc.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR lit.
+<lb />CHAPITRE VI. Du mépris des ricbeſſes.
+<lb />La Fortune offre aux yeux des brillans menſongers,
+<lb />Tous les biens d’icy-bas ſont faux &amp; paſſagers
+<lb />Leur poſſeſſion trouble, &amp; leur perte eſt legere,
+<lb />Le jage gagne aſſez quand il peut s'en deffaire.
+<lb />Lorſque Seneque fit ce Chapitre éloquent,
+<lb />Il avoit comme vous perdu tout ſon argent.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE ſe levant.
+<lb />Vingt fois le premier pris! Dans mon cœur il s’é<lb />leve
+<lb />Il s’aſſied
+<lb />Des mouvemens de rage. Allons, pourſuis, acheve.
+</sp>
+<sp type="MainZone-Sp"><lb />ECTOR.
+<lb />L’or eſt comme une femme, on n’y ſçauroit toucher
+<lb />qule tau par amour ne sy taiſſe Atiâcher,
+<lb />L’un &amp; l’autre en ce temps ſi-toſt qu’on les manie
+<lb />Sont deux grands remoras pour la Philoſophie.
+<lb />N’ayant plus de Maiſtreſſe, &amp; n’ayant pas un ſou
+<lb />Nous philoſopherons maintenant tout le ſou.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />De mon ſort deſormais vous ſerez ſeule arbitre,
+<lb />Adorable Angelique. Acheve ton Chapitre.
+</sp>
+<sp type="MainZone-Sp"><lb />Que faut-il...
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je benis le ſort &amp; ſes revers,
+<lb />Punquanmananmameur me rẽgage en vos fers.
+<lb />Finy donc.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Que faut-il à la nature humaine
+<lb />Moins on a de richeſſe, &amp; moins on a de pelne,
+<lb />C’eſt poſſeder les biens que ſçavoir s’en paſſer.
+<lb />Que ce mot eſt bien dit! &amp; que c’eſt bien penſer!
+<lb />Ce Seneque, Monſieur, eſt un excellent homme,
+<lb />Eſtoit-il de Paris;
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Non, il eſtoit de Rome.
+<lb />Dix fois à carte triple eſtre pris le premier.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah, Monſieur, nous mourrõs un jour ſur un fumier.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERÉ.
+<lb />Hraut que de ines inaux emn je me denvre,
+<lb />J’ay cent moyens tous preſts pour m’empeſcher de
+<lb />vivre,
+<lb />La riviere, le feu, le poiſon &amp; le fer.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />o vous vounez, Monſieur, chanter un petit air,
+<lb />Voſtre Maiſtre à chanter eſt icy, la Muſique
+<lb />Peut-eſtre calmeroit cette numeurrienetique.
+</sp>
+<sp type="MainZone-Sp"><lb />Que je chante!
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que je chante bourreau,
+<lb />Je veux me poignarder; la vie eſt un fardeau
+<lb />Qui pour inoy delommars devient Inſuportable.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Vous la trouviez pourtant tantôt bien agreable.
+<lb />Qu’un Joüeur eſt heureux! ſa poche eſt un tréſor.
+<lb />ſous ſes heureuſes mains le cuivre devient or,
+<lb />Diſiez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ah! je ſens redoubler ma colere.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Monſieur contraignez-vous, j’aperçois vôtre Pere.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />GERONTE, VALERE, HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />DOur quel ſujet, mon Fils, criez-vous donc ſi
+<lb />I fort?
+<lb />Eſt-ce toy malheureux, qui eauſe ſon tranſport?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Non pas, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />XLCTOR.
+<lb />Ce ſont des vapeurs de morale,
+<lb />Qui nous vont à la teſte, &amp; que Seneque exhale.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Qu’eſt-ce à dire Seneque?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur, maintenant
+<lb />Que nous ne joüons plus nôtre unique aſcendar
+<fw><lb />1
+<lb />Et
+<lb />Co
+<lb />H
+</fw><lb />C’eſt la Philoſophie, &amp; voila nôtre Livre,
+<lb />C’eſt Seneque.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Tant mieux, il aprend à bien vivre,
+<lb />Sui Livie eſt aumfrauie, e pren ditrdetions;
+<lb />Et rend l’homme brutal maiſtre des paſſions.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ah ſi vous aviez lû ſon traité des Richeſſes,
+<lb />Et le mépris qu’on doit faire de ſes Maîtreſſes,
+<lb />Comme la femme icy n’eſt qu’un vray Remora,
+<lb />Et que lorſqu’on y touche... on en demeure là...
+<lb />Qu'on gagne quand on perdunque l’amour dans
+<lb />nos ames...
+<lb />An que ce Livre la connomoit bien les lemmes.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Hector en peu de temps eſt devenu Docteur.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur, je ſçauray tout Seneque par cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Je vous cherche en ces lieux avec impatience,
+<lb />Pour vous dire, mon fils, que vôtre hymen s’avance:
+<lb />Je quitte le Notaire, &amp; j’ay vû les parens,
+<lb />Qui d’une &amp; d’autre part me paroiſſent contens;
+<lb />Vous avez vû je crois Angelique, &amp; j’eſpere
+<lb />Que ſon conſentement...
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Non pas encor, mon Pere,
+<lb />Certaine affaire m’a..
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Vraiment pour un Amant
+<lb />Vous faites voir, mon Fils, bien peu d’empreſſe<lb />ment :
+<lb />Courez-y, dites-luy que ma joye eſt extrême,
+<lb />Que charme de ce nœud dãs peu j’iray moy-même
+<lb />Euy ſaire compliment, &amp; l’embraſſer...
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Tout doux,
+<lb />Monſieur fera cela tout auſſi bien que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />renetre des bontez de celuy qui in envoye,
+<lb />Je vais de cet employ m’acquitter avec joye.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Il vous plaira toujours d’eſtre memoratif,
+<lb />D’un papier que tantôt d’un air rebarbatif,
+<lb />Et mé̂me avec ſcandale...
+</sp>
+<sp type="MainZone-Sp"><lb />dE RonIE.
+<lb />Ouy da, laiſſe-moy faire,
+<lb />Le mariage fait, nous verrons cette affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />J’iray donc ſur ce pied vous viſiter demain.
+<lb />Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Graces au Ciel mon Fils eſt dans le bon chemin,
+<lb />Par mes ſoins paternels il ſurmonte la pente
+<lb />Où l’entraînoit du jeu la paſſion ardente:
+<lb />Ah qu’un Pere eſt heureux qui voit en un moment
+<lb />Un cher Fils revenir de ſon égarement.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />V
+<lb />SCENE PREMIERE.
+<lb />DURANTE, ANGEDAQ UE,
+<lb />NERINE,
+</p>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />H, Madame, ceſſez d’éviter ma pre<lb />ſence,
+<lb />Je ne viens point armé contre vôtre
+<lb />inconſtance,
+<lb />Faire éclater ici mes ſentimens jaloux,
+<lb />Ny par des mots piquants exhaler mon courroux.
+<lb />Pluſque vous ne penſez mon cœur vous juſtifie,
+<lb />Voſtre legereté veut que je vous oublie:
+<lb />Mais loin de condamner vôtre cœur inconſtant,
+<lb />Je ſuis aſſez vangé ſi j’en puis faire autant.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Que vôtre emportement en reproches éclate.
+<lb />Je merite les noms de volage, d’ingrate:
+<lb />Mais enfin de l’amour l’imperieuſe loy,
+<lb />A l’hymen que je crains m’entraîne malgré moy,
+<lb />J’en prévoy les dangers; mais un ſort tyrannique..
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Vôtre cœur eſt hardy, genereux, heroïque:
+<lb />Vous voyez devant vous un abîme s’ouvrir,
+<lb />Et vous ne laiſſez pas, Madame d’y courir.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Quand j’en devrois mourir je ne puis plus me
+<lb />taire,
+<lb />Je vous empeſcheray de terminer l’affaire,
+<lb />Ou ſi dans cet amour vôtre cœur engagé
+<lb />Perſiſte en ſes deſſeins, donnez-moy mon congé:
+<lb />Je ſuis fille d’honneur, je ne veux pas qu’on diſe
+<lb />Que vous ayez ſous moy fait pareille ſottiſe;
+<lb />Valere eſt un indigne, &amp; malgré ſon ſerment,
+<lb />Vous voyez tous les jours qu’il jouë impunément.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />En faveur de mon foible il faut luy faire grace;
+<lb />De la fureur du jeu veux-tu qu’il ſe défaſſe.
+<lb />Helas! quand je ne puis me défaire aujourd’huy
+<lb />Du lâche attachement que mon cœur a pour luy.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Ces feux ſont trop charmans pour vouloir les étein<lb />dre,
+<lb />Je ne ſuis point, Madame, icy pour vous con<lb />traindre,
+<lb />Mon Neveu vous épouſe, &amp; je viens ſeulement
+<lb />Donner à vôtre hymen un plein conſentement.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />MADAME LA RESSOURCE,
+<lb />ANGELIQUE, DORANTE,
+<lb />NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Adame la Reſſource icy! qu’y viens-tu
+<lb />M faire?
+</sp>
+<sp type="MainZone-Sp"><lb />Me LARESSOURCE.
+<lb />Je cherche un Cavalier pour finir une affaire.,.
+<lb />Ontacne autant qu'on peut duns ton petnt eraſic
+<lb />A gagner ſes dépens en ſervant le public.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Cette Nerine là connoiſt toute la France.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Pour vivre il faut avoir plus d’une connoiſſance.
+<lb />C’eſt une illuſtre au moins, &amp; qui ſçait en ſecret
+<lb />Couler adroitement un aſoureux pouret.
+<lb />Habile en tous métiers, intrigante parfaite,
+<lb />Qui preſte, vend; revend, brocante, troque, achete,
+<lb />Met à perfection un hymen ébauché,
+<lb />Vend ſon argent bien cher, marie à bon marché.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Voſtre bonté pour moy toujours ſe renouvelle,
+<lb />Vous avez ſi bon cœur...
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Il fait bon avec elle,
+<lb />Je vous en avertis. En bijoux &amp; brillans;
+<lb />En poche elle a toujours plus de vingt mille francs.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />mais ne craiguer tous point qu'un ſoir dans le
+<lb />ſilence..,
+</sp>
+<sp type="MainZone-Sp"><lb />LERINE.
+<lb />Bon, bon, tous les Filoux ſont de ſa connoiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Nerme ne toujoure.
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Montrez-nous voſtre écrain.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Volontiers J’ay toujours quelque hazard en main,
+<lb />Regardez ce rubis; je vais en faire affaire
+<lb />Avec &amp; pardevant un Conſeiller Notaire,
+<lb />rour tertaine Chanteuſe, on dit qu’il en tient-là,
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Le arone veut paner queique acte a TOpera :
+<lb />Mais voicy la Comteſſe...
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESS.OURCE.
+<lb />On m’attend, je vous quitte.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Non, non, ſur vos bijoux j’ay des droits de vi<lb />ſite.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LA COMTESSE, ANGELIQUE,
+<lb />DORANTE, NERINE,
+<lb />Me LA RESSOURCE.
+</p>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />roſtre choix eſt-il fait? peut-on enfin ſçavoir
+<lb />V A qui vous pretendez vous marier ce ſoir?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Cuj jia sœur; n'eftrait, &amp; ce choix doit vous
+<lb />plaire,
+<lb />Puis qu’avant moy, pour vous, vous avez ſçû le
+<lb />faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Aparemment Monſieur eſt ce mortel heureux,
+<lb />Ce fidelle aſpirant dont vous comblez les vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />Do RiM HE.
+<lb />A ce bonheur charmant je n’oſe pas pretendre.
+<lb />Si Madame eut gardé ſon cœur pour le plus tens
+<lb />dre,
+<lb />Plaſque tout autre Amant j’aurois pû l’eſperer.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />La perte n’eſt pas grande, &amp; ſe peut reparer.
+<fw><lb />ii
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LE MARQUIS, LA COMTESSE.
+<lb />ANGELIQUE, DORANTE,
+<lb />Me LA RESSOURCE, NERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Harmé de vos beautez je viens enfin, Madame,
+<lb />CIey mettre à vos pieds &amp; mon corps, &amp; mon
+<lb />ame,
+<lb />Vous ſerez par ma foy ma quile cette fois,
+<lb />Et j’ay ſur vous enfin laiſſé tomber mon choix.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Cet homme m’eſt connu.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Monſieur je ſuis ravie
+<lb />De m’unir avec vous le reſte de ma vie,
+<lb />Vous eſtes Gentilhomme, &amp; cela me ſuffit.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ie le ſuis, du déluge.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LARESSOURCE.
+<lb />Ouy, c’eſt luy qui le dit.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUÏS.
+<lb />En faiſant avec moy cette heureuſe alliance,
+<lb />Vous pourrez vous vanter que Gentilhomme en
+<lb />France
+<lb />Ne tirera de vous, ſi vous me l’ordonnez,
+<lb />Des enfans de tout point mieux conditionnez.
+</sp>
+<sp type="MainZone-Sp"><lb />à Me la Reſſourte:
+<lb />Vous verrez ſi je ments: Ah vous voila, Madame,
+<lb />Et que faites-vous donc icy de cette femme?
+</sp>
+<sp type="MainZone-Sp"><lb />ERINE.
+<lb />Vous la connoiſſez!!
+</sp>
+<sp type="MainZone-Sp"><lb />LE MAROTS.
+<lb />Moy! je ne ſçay ce que c’eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Ah je vous connois troplmoy pour mon intereſt.
+<lb />Quand vous reſoudrez-vous, Monſieur le Gentil<lb />noniine 3
+<lb />Fait du temps du déluge, à me payer ma ſomme,
+<lb />Mes quatre cens ecus preſtez depuis emfans.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Pour me les demander vous prenez bien le temps:
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Je veux aun jeux de tous vous en faire avanie,
+<lb />A toute heure, en tous lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Eh! vous révez ma mie....
+</sp>
+<sp type="MainZone-Sp"><lb />Ms LA RESSOURCE.
+<lb />Voila le grand-mercy, d’obliger des ingrats.
+<lb />Apres lavoir tire d’un auin vilam pas...
+<lb />Laſte...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Parlel, parlez
+</sp>
+<sp type="MainZone-Sp"><lb />MePi RESSOURGE.
+<lb />Non, non. Il eſt trop rude<lb />D’aller de ſes parents montrer la turpitude.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Comment donc !
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ah je grille.
+<lb />Liij
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE,
+<lb />Au Chaſtelet, ſans moy<lb />On le verroit encor, vivre aux dépens du Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Quoy, Monſieur le Marquis?
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Luy Marquis! c’eſt l’Epine.
+<lb />je luis Marquiſe donc, moy qui luis la Couſine.
+<lb />Son Pere eſtoit Huiſſier à Verge dans le Mans.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Vous en avez menty. Maugrébleu des parens.
+</sp>
+<sp type="MainZone-Sp"><lb />Me l'h RiidRr
+<lb />Mon Oncle n’eſtoit pas Huiſſier, qu’il t’en ſouvien<lb />ne.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Son nom eſtoit connu dans le haut &amp; bas Maine.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Voſtre Pere eſtoit donc un Marquis exploitant?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Vous aviez là, ma Sœur, un fort illuſtre Amant.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOORCE.
+<lb />C’eſt moy qui l’ay nourry quatre mois ſans repro<lb />che,
+<lb />Quand il vint à Paris en gueſtres par le Coche.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />D’accord, puiſqu’on le ſçait, mon Pere eſtoit
+<lb />Huiſſier,
+<lb />Mais Huiſſier à Cheval, c’eſt comme Chevalier:
+<lb />Cela n’empeſche pas que dans ce jour, Madame,
+<lb />Nous ne mettions afin une ſi belle flame;
+<lb />Jamais ce feu pour vous ne fut ſi violent,
+<lb />Et jamais tant d’appas...
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Taiſez-vous, inſolent,
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Inſolent! Moy qui dois honorer voſtre couche,
+<lb />Et par qui vous devez quelque jour faire ſouche.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Sors d’icy malheureux, porte ailleurs ton amour.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARQUIS.
+<lb />Ouy ? L’on agit de même avec les gens de Cour:
+<lb />On reconnoiſt ſi mal le rang &amp; le merite,
+<lb />Jen ſuis parbleu ravy, pour le coup je vous quite,
+<lb />J’ay pour briller ailleurs mille talents acquis,
+<lb />Le Ciel vous tienne en joye; allons ſaute Marquis:
+<lb />Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMTESSE.
+<lb />Je n’y puis plus tenir, ma Sœur, &amp; je vous laiſſe,
+<lb />Avec qui vous voudrez finiſſez de tendreſſe;
+<lb />Coupez, taillez, rognez, je m’en lave les mains,
+<lb />Deſormais pour toujours je renonce aux humains.
+</sp>
+<p type="MainZone-Other"><lb />Elle s’en va.
+</p>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />DORANTE, ANGELIQUE,
+<lb />NERINE, Me LA KESSOURCEO</p>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />ILs prennent leur party.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />La rencontre eſt plaiſante,
+<lb />Je l’ay démarquiſé bien loin de ſon atrente,
+<lb />J’en voudrois faire autant à tous les raux Marquis.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Vous auriez par ma foy bien à faire à Paris.
+<lb />Il eſt tant de Traittaus qu’on voit depuis la guerre
+<lb />En modernes Seigneurs ſortir de deſſous terre:
+<lb />Qu'on ne s'etonne plus qu'un laquais, un pied-plat,
+<lb />De ſa vieille mandille achette un Marquiſat.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Vous avez découvert icy bien du miſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />De quoy s’aviſe-t’il de me rompre en viſiere;
+<lb />Mais aux granus mouvemene qu'en de ſed je puis
+<lb />voir,
+<lb />Madame ſe marie?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Ouy, vrayment, dés ce ſoir.
+<lb />Me LA RESSOURCE foüillant dant ſu poche.
+<lb />J’en ay bien de la joye. Il faut que je luy montre
+<lb />Deux pendants de brinans que j’ay là de rencontre;
+<lb />J’en feray bon marché. Je croy que les voila.
+<lb />Ils ſont des plus parfaits Non ce n’elt pas cela,
+<lb />C’eſt un Portrait de prix, mais il n’eſt pas à vendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Faites-le voir.
+<lb />NERINE.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Non, non, on doit me le reprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE luy arrachant.
+<lb />Oh je ſuis curieuſe, il faut me montrer tout:
+<lb />Que les brillans ſont gros, ils ſont fort de mon goût;
+<lb />Mais que vois-je, grands Dieux!quelle ſurpriſe ex<lb />trême,
+<lb />Aurois-je la berluë, hé ma foy c’eſt luy-même.
+<lb />Ah!..12
+<lb />Elle fait un grand cij.
+<fw><lb />Vo
+<lb />M1
+<lb />fa
+<lb />R
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Qu’as-tu donc, Nerine, &amp; te trouves-tu mal?
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Voſtre Portrait, Madame, en propre original.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGEERQCE.
+<lb />Mon Portrait, es-tu folle.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE pleurant.
+<lb />Ah ma pauvre Maîtreſſe,
+<lb />Faut-il vous voir ainſi durement mis en preſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Que veuunece:
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Iu te trompes, voy mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Regardez donc vous-même, &amp; voyez par vos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Tu ne te trompes point, Nerine, c’eſt luy-même.
+<lb />C eit mon Portrait, nerds. qu'en mon ardeur ex<lb />trême,
+<lb />Je viens de luy donner pour prix de ſes amours,
+<lb />Et qu’il m’avoit juré de conſerver toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Voſtre Portrait, il eſt à moy ſans vous déplaire,
+<lb />Et j’ay preſté deſſus mille ecus à Valere.
+</sp>
+<sp type="MainZone-Sp"><lb />juite ciel.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Le fripon !
+<lb />DORANTE prenant le Portrait.
+<lb />Je veux auſſi le voir.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Ce Portrait m’appartient, &amp; je prétens l’avoir.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE prenant le portrait..
+<lb />Laiſſez-le moy garder un moment, je vous prie,
+<lb />C’eſt la ſeule faveur qu’on m’ait faite en ma vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’en eſt fait, pour jamais je le veux oublier.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />S’il met voſtre Portrait ainſi chez l’uſurier,
+<lb />Eſtant encor Amant, il vous vendra, Madame,
+<lb />A beaux deniers comptans quand vous ſerez ſa
+<lb />femme.
+<fw><lb />à Me la Reſſource.
+<lb />Mais le voicy qui vient. A trois ou quatre pas
+<lb />De grace éloignez-vous, &amp; he rous moutrez pas.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Me LARESSOURCE.
+<lb />Mais pourquoy...
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Du Portrait ne ſoyez point en peine.
+<lb />Me LA RESSOURCE ſe mettant derriere.
+<lb />Lorſque je le verray j’entuu, pret vertaine.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />VALERE, ANGELIQUE, DORANTE,
+<lb />NERINE, Me LA RESSOUCE,
+<lb />HECTOR.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Uel bonheur eſt le mien: enfin voicy le jour,
+<lb />Madame, où je dois voir triompher mon
+<lb />amour,
+<lb />Mon cœur tout penetré... Mais Ciel, quelle triſteſſe,
+<lb />Nerine, a pû ſaiſir ta charmante Maiſtreſſe,
+<lb />Eſt-ce ainſi que tantoſt....
+<fw><lb />9
+<lb />41
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUIE.
+<lb />Bon, ne ſçavez-vous pas,
+<lb />les filles ſont, Monſieur, tantôt haut, tantôt bas.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Hé quoy changer ſi-toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ne craignez point Valere,
+<lb />Les funeſtes retours de mon humeur legere,
+<lb />Le Portrait dont ma main vous a fait poſſeſſeur,
+<lb />tous ent un feur garant que tous avez mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que ce tendre dilcours me chame, &amp; me iaſſure.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Tu ne ſeras heureux par ma foy qu’en peinture.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />(iconque a hon Portrait, ſans crainte de Rival,
+<lb />Doit avec la copie avoir l’original.
+</sp>
+<sp type="MainZone-Sp"><lb />VALENE.
+<lb />Madame en ce moment que mon ame eſt contente.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ne conſentez-vous pas à ce party, Dorante?
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />je teux te qui vous plait, vos ordres ſont pour
+<lb />moy
+<lb />les decrets reſpectez d’une fupreme ioy :
+<lb />Voſtre bouche, Madame, a prononcé ſans feindre,
+<lb />Et mon cœur ſubira voſtre arreſt ſans ſe plaindre.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />De l’Arreſt tout du long il va payer les frais.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Valere vous voyez pour vous ce que je fais.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Jamais tant de bontez...
+</sp>
+<sp type="MainZone-Sp"><lb />IANGELIQUE.
+<lb />Montrez donc ſans attendre
+<lb />Le Portrait que de moy vous avez voulu prendre,
+<lb />Et que voſtre Rival ſçache à quoy s’en tenir.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE fouillant dans ſa poche.
+<lb />Soit... Mais permettez-moy de vous deſobéir,
+<lb />C’eſt mon Oncle, en voyant de voſtre amour ce
+<lb />ga
+<lb />e,
+<lb />Il jouëroit à vos yeux un mauvais perſonnage,
+<lb />Vous ſçavez bien qui l’a.
+</sp>
+<sp type="MainZone-Sp"><lb />Midal.
+<lb />Vous pouvez le montrer,
+<lb />Il verra mon Portrait ſans ſe deſeſperer.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Le triomphe eſt trop beau pour n’en pas fairs
+<lb />gloire,
+<lb />VALERE fouillant toujours dans ſa poche.
+<lb />Puiſque vous le voulez il faut vous le chercher;
+<lb />Mais je n’auray du mois rien a me reprocher,
+<lb />Vous voulez un témoin, il faut vous ſatlsfaire,
+<lb />HECTOR apercevant Me la Reſſource.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah nous ſommes perdus, j’aperçois l’uſuriere.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE à Hector.
+<lb />C’eſt voſtre faute, ſi... qu’as-tu fait du Portrait?
+</sp>
+<sp type="MainZone-Sp"><lb />Du Portrait?
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Oüy maraut, parle, qu'en as-tu fait?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR tournant la main par derriere
+<lb />à Me la Reſſource.
+<lb />Madame la Reſſource un moment ſans paroiſtre,
+<lb />Preſtez-nous noſtre gage.
+</sp>
+<sp type="MainZone-Sp"><lb />Tu l’as perdu.
+<lb />VALERE.
+<lb />Ah chien! ah double traiſtre,
+<lb />HECTOR.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />il faut que ton trépas..
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR à genoux.
+<lb />Ah, Monſieur arreſtez, &amp; ne me tuez pas,
+<lb />Voyant dans ce Portrait Madame ſi jolie,
+<lb />Je l’ay mis chez un Peintre, il m’en fait la copie.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Iu l'as mis ches um Femtre?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Ouy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />y REBIea.
+<lb />Ah maraut,
+<lb />Va, cours me le chercher, &amp; reviens au plutoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE montrant le Porirait.
+<lb />Epargnez-luy ces pas. Il n’eſt plus temps de feindre.
+<lb />Le voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nous voila bien achevez de peindre:
+<lb />Ah carogne!
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Le Peintre...
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Avec de vains detours,
+<lb />Ingrat, ne croyez pas qu’on m’abuſe toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />Madame, en verité de telles epithetes
+<lb />Ne me vont point du tout.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Perfide que vous eſtes,
+<lb />Ce Portrait que tantoſt je vous avois donné,
+<lb />Pour le gage d’un cœur le plus paſſionné,
+<lb />Malgré tous vos ſermens, parjure, à la meſme
+<lb />nedre,
+<lb />Vous l’avez mis en gage.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ah qu’à vos yeux je meure...
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ah ceſſez de vouloir plus long-temps m’outrager,
+<lb />Cœur lâche !
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Nous devions tantoſt le dégager,
+<lb />Et contre mon avis vous avez fait la choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />De tous vos debats, moy, je ne ſuis point la
+<lb />cauſe,
+<lb />Et je prétens avoir mon Portrait, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Laiſſez-le moy garder, j’en payray l’intereſt
+<lb />Si fort qu’il vous plaira.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />GEERONTE, ANGELIQUE,
+<lb />VALERE, DORANTE, NERINE,
+<lb />Me LA RESSOURCE, HECTOR,
+<fw><lb />GERONTE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />QUe mon ame eſt ravie,
+<lb />De voir qu’avec mon Fils un tendre hymen vous
+<lb />lie,
+<lb />J’attens depuis long-teips ce fortune moment,
+</sp>
+<sp type="MainZone-Sp"><lb />RINE.
+<lb />Son cœur reſſent, je croy, le meſme empreſſe<lb />ment.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />De tous trouver teyje lux ravy, mon Frere,
+<lb />Vous prenez, croyez-moy, comme il faut cette
+<lb />affaire,
+<lb />Et l’hymen de Madame, à vous en parler net,
+<lb />N’eſtoit en verité point du tout voſtre fait.
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vray.
+<lb />D'ORANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Le Notaire en ces lieux va ſe rendre,
+<lb />Avec luy nous prendrons le party qu’il faut pren<lb />dre.
+</sp>
+<sp type="MainZone-Sp"><lb />NERINE.
+<lb />Oh par ma foy, Monſieur, vous ne prendrez qu’un
+<lb />rat,
+<lb />Et le Notaire peut remporter ſon Contract.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Comment donc?
+</sp>
+<sp type="MainZone-Sp"><lb />4
+<lb />ANGELIQUE.
+<lb />Autrefois mon cœur eut la foibleſſe,
+<lb />De rendre à voſtre Fils tendreſſe pour tendreſſe,
+<lb />Mais la fureur du jeu dont il eſt poſſede,
+<lb />Pour mon Portrait enfin ſon lâche procedé,
+<lb />Me font ouvrir les yeux, &amp; contre mon attente,
+<lb />En ce moment, Monſieur, je me donne à Dorante.
+<lb />Acceptez-vous ma main?
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Ah je ſuis trop heureux,
+<lb />Que vous vouilez encor...
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE à Hector.
+<lb />Explique ce miſtere.
+<lb />Parle toy, ſi tu veux,
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Oh par ma foy je noſe,
+<lb />Ce recit eſt trop triſte en vers ainſi qu’en proſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Parle donc.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Pour avoir mis ſans reflexion
+<lb />Le Portrait de Madame une heure en penſion,
+<lb />Chez cette chienne-là, que Lucifer confonde,
+<lb />On nous donne un congé le plus cruel du mon<lb />de.
+<lb />GERONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />GERONTE.
+<lb />Sans vouloir davantage icy l’interroger,
+<lb />Sa folle paſſion m’en fait aſſez juger,
+<lb />J’ay peine à retenir le courroux qui m’agite,
+<lb />Fils indigne de moy, va je te desherite,
+<lb />Je ne veux plus te von apres cette detioni
+<lb />Et te donne cent fois ma malediction.
+</sp>
+<sp type="MainZone-Sp"><lb />HECIOR.
+<lb />Le beau preſent de Noce.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE donnant la main à
+<lb />Dorante.
+<lb />A jamais je vous laiſſe.
+<lb />Si vous eſtes heureux au jeu comme en Maî<lb />treſſe,
+<lb />Et ſi vous conſervez auſſi mal ſes preſens,
+<lb />Vous ne ferez je croy fortune de long-temps.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE.
+<lb />Et mon Portrait, Monſieur, vous plaiſt-il me le
+<lb />rendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Me LA RESSOURCE faiſant la reveren<lb />ce à Valere.
+<lb />En toute occaſion ſoyez ſeur de mon zele.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />DORANTE.
+<lb />Vous n’aurez rien perdu dans ces lieux pour at<lb />tendre,
+<lb />Ny toy Nerine auſſi. Suivez-moy toutes deux.
+<lb />à Valere.
+<lb />Quelqu’autrefois, Monſieur, vous ſerez plus heu<lb />reux.
+<lb />Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />Adieu tiſon d’enfer, feſſe matieu femelle.
+</sp>
+<sp type="MainZone-Sp"><lb />NER INE s’en allant fait la reverence.
+<lb />Grace au Ciel ma Maîtreſſe a tiré ſon enjeu<lb />Vous épouſer, Monſieur, c’eſtoit joüer gros jeu.
+</sp>
+<sp type="MainZone-Sp"><lb />ininmieiu Heuen quue en vn auſſi.
+<lb />Où vas tu donc?
+</sp>
+<sp type="MainZone-Sp"><lb />HECTOR.
+<lb />je vais à la Bibliotheque,
+<lb />Prendre un Livre &amp; vous lire un traité de Seneque.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE,
+<lb />Va, va, conſolons-nous, Hector, &amp; quelque jour,
+<lb />De jeu m'aquitera des pertes de l’amour.
+<fw><lb />1
+</fw></sp>
+    </body>
+  </text>
+</TEI>

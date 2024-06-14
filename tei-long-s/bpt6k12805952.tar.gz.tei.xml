@@ -1,0 +1,4881 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Malade imaginaire, comédie meslée de musique et de dance, par Mr de Molière</title>
+        <author>Molière</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb309586801"/>
+          <author>
+            <persName>Molière</persName>
+          </author>
+          <title>Le Malade imaginaire, comédie meslée de musique et de dance, par Mr de Molière</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1674" cert="high" resp="BNF">1674</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />
+<lb />2
+<lb />md dii
+<lb />11
+<lb />–
+<lb />12
+<fw><lb />ra
+</fw><fw><lb />21
+<lb />4
+<lb />1. L.
+<lb />2
+</fw></fw>
+<p type="MainZone-Head"><lb />AU LECTEUR.
+</p>
+<sp type="MainZone-Sp"><lb />A Trouppe de Moliere ayant vou<lb />lu borner la gloire de cét illuſtre
+<lb />A Auteur, &amp; la ſatisfaction du pu<lb />blic dans la ſeule repreſentation du Mala<lb />de Imaginaire, ſans en laiſſer imprimer la
+<lb />coppie, quelques gens ſe ſont adviſez de
+<lb />compoſer une piece à laquelle ils ont donné
+<lb />Ie meſme titre dont on a fait pluſieurs im<lb />preſſions, tant dedans que dehors le Royau<lb />me, qui ont eſté debitées, &amp; ont abuſé bien
+<lb />du monde: Mais les memoires ſur leſ<lb />quels ces gens-là avoient travaillé, ou
+<lb />l’idée qu’ils croyoient avoir conſervé de la
+<lb />Piece, lors qu’ils l’avoient veu repre<lb />ſenter, ſe ſont trouvez ſi éloignez de la
+<lb />conduite de l’Original, &amp; du ſujet meſme,
+<lb />qu’au lieu de plaire, ils n’ont fait qu’in<lb />ſpirer des deſirs plus preſſans de voir celle
+<lb />de Moliere imprimée; Cette impreſſion
+<lb />que je donne aujourd’huy ſatisfera à cêt
+<lb />empreſſement, &amp; quoy qu'elle ne ſoit qu'un
+<lb />effort de la memoire d’une perſonne qui en
+<lb />a veu pluſieurs repreſentations, elle n'en
+<lb />eſt pas moins correcte, &amp; les Scenes en
+<lb />ont eſté tranſcriptes avec tant d’exactitude,
+<lb />&amp; le jeu obſervé ſi regulierement où il eſt
+<lb />neceſſaire, que l’on ne trouvera pas un
+<lb />mot obmis ny tranſpoſé, &amp; je ſuis per<lb />ſuadé que ceux qui liront cette coppie, a<lb />vouëront à la gloire de Moliere, qu’il a<lb />voit trouvé l’art de plaire auſſi bien ſur le
+<lb />papier que ſur le Theâtre.
+</sp>
+<p type="MainZone-Other"><lb />LE
+</p>
+<p type="MainZone-Head"><lb />LE MALADE
+<lb />IMAGINAIRE,
+<lb />Comedié,
+<lb />MESLE’E DE MUSIQUE
+<lb />DI En BlNeM.
+</p>
+<sp type="MainZone-Sp"><lb />LE PROLOGVE.
+<lb />RES les glorieuſes fatigues, &amp; les
+<lb />Exploits victorieux de noſtre Auguſte
+<lb />A Y Monarque: Il eſt bien juſte que tous
+<lb />ceux qui ſe meſlent d’écrire, travaillent ou à
+<lb />ſes Loüanges, ou à ſon Divertiſſement. C’eſt ca
+<lb />qu’icy l’on a voulu faire, &amp; ce Prologue eſt un
+<lb />eſſay des zoüanges de ce grand Prince, qui
+<lb />donne Entrée à la Comedie du Malade Imagi<lb />uuire, dont le projet a eſté fait pour le délaſſez
+<lb />de ſes nobles travaux.
+</sp>
+<sp type="MainZone-Sp"><lb />La Decoration repreſente un Lieu Champeſtes
+<lb />fert agreable.
+<fw><lb />A
+</fw><fw><lb />E
+</fw></sp>
+<p type="MainZone-Head"><lb />EGLOGUE
+<lb />En Muſique, &amp; en Dance.
+<lb />FLORE, PAN, CLIMENE, DAPHNE', TIRCIS,
+<lb />DORILAS, DEUX ZEPHIRS, TROUPE
+<lb />DE BERGERES, ET DE BERGERS.
+</p>
+<sp type="MainZone-Sp"><lb />FLORE.
+<lb />Vittez, quittez vos Troupeaux,
+<lb />Venez Bergers, venez Bergeres,
+<lb />Accourez, accourez ſous ces tendres Ormeaux,
+<lb />Ie viens vous annoncer des nouvelles bien cheres,
+<lb />Et réjoüir tous ces Hameaux;
+<lb />Quittez, quittez vos Troupeaux,
+<lb />Venez Bergers, venez Bergeres,
+<lb />AebbureE yactouree,jout bes tendres Ormeaux.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE, &amp; DAPHNE'.
+<lb />Derger taiſſonsein tes jenx,
+<lb />Voilà Flore qui nous appelle.
+</sp>
+<sp type="MainZone-Sp"><lb />TIRCIS, &amp; DORILAS.
+<lb />Mais au moins dy-moy, cruelle,
+</sp>
+<sp type="MainZone-Sp"><lb />TIRCIS.
+<lb />Uiu un pemummompujeus mes vœux?
+</sp>
+<sp type="MainZone-Sp"><lb />DORILAS.
+<lb />&amp;l in feras ſenfivle u mon urueui peutue.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE, &amp; DAPHNE'.
+<lb />Voild Flore qui nous appelle.
+</sp>
+<sp type="MainZone-Sp"><lb />TIRCIS, &amp; DORILAIS.
+<lb />Ce n'eſt qu’un mot, un mot, un ſeul mot que je veux,
+</sp>
+<sp type="MainZone-Sp"><lb />IRCIS.
+<lb />Languiray-je toûjours dans ma peine mortelle,
+<lb />Puis-je eſperer qu'un jour tu me renuras heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE, &amp; DAPHNE’.
+<lb />Voilà Flore qui nous appelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Toute la Troupe des Bergers &amp; des Ber<lb />geres, va le plater en cauenee autour de
+<lb />Flore.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE.
+<lb />Quelle nouvelle parmy nous,
+<lb />Déeſſe, doit jetter tant de réjoüiſſance?
+</sp>
+<sp type="MainZone-Sp"><lb />DITDEEN
+<lb />Nous brûlons d’apprendre de vous
+<lb />Certe nouveile u imponunce.
+</sp>
+<sp type="MainZone-Sp"><lb />DORILAS.
+<lb />D'ardeur nous en ſoûpirons tous.
+</sp>
+<sp type="MainZone-Sp"><lb />TOUS.
+<lb />Nous en mourons d’impatience.
+<fw><lb />-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />FLORE..
+<lb />La voicy, ſilence; ſilence.
+<lb />Vos vœux ſont exaucez, LOVIS eſt de retour,
+<lb />Il ramene en ces lieux les Plaiſirs &amp; l’Amour,
+<lb />Et vous voyez finir vos mortelles alarmes,
+<lb />Par ſes vaſtes Exploits ſon bras voit tout ſoûmis,
+<lb />Il quitte les armes
+<lb />Faute d’ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />US.
+<lb />Ah quelle douce nouvelle,
+<lb />Qu'elle eſt grande, qu’elle eſt belle,
+<lb />Que de plaiſirs, que de ris, que de jeux,
+<lb />Que de ſuccez heureux,
+<lb />Et que le Ciel a bien remply nos vœux.
+<lb />Ah quelle douce nouvelle,
+<lb />Qu'elle eſt grande, qu’elle eſt belle:
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Tous les Bergers &amp; Bergeres, expriment pax
+<lb />des dances les tranſports de leur joye.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORE.
+<lb />De vos Flutes bocageres
+<lb />Réveillez les plus beaux ſons,
+<lb />LOVIS offre à vos Chanſons
+<lb />La plus belle des matieres,
+<lb />Apres cent combats,
+<lb />Où cuëille ſon bras
+<lb />Vne ample victoire:
+<lb />Foimee entreavon¬.
+<lb />Cent combats plus doux,
+<lb />Pour chante ſa gloire.
+<fw><lb />I
+</fw></sp>
+<sp type="MainZone-Sp"><lb />S.
+<lb />Formons entre-nous
+<lb />Cent combats plus doux,
+<lb />Pour chanter ſa gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORE.
+<lb />Mon jeune Amant dans ce bois,
+<lb />Des preſens de mon empire
+<lb />Prepare un prix à la voix,
+<lb />Qui ſçaura le mieux nous dire
+<lb />Les vertus &amp; les Exploits
+<lb />Du pins Angujee nes Rois.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE.
+<lb />Si Tircis a l'avantage,
+</sp>
+<sp type="MainZone-Sp"><lb />DAPHI
+<lb />1
+<lb />E'.
+<lb />Si Dorilas eſt vainqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE.
+<lb />A le cherir je m’engage.
+</sp>
+<sp type="MainZone-Sp"><lb />A P
+<lb />H
+<lb />Q
+<lb />E'.
+<lb />Ie me donne à ſon ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />TIRCIS.
+<lb />O nop tnere eperante,
+</sp>
+<sp type="MainZone-Sp"><lb />DORILAS.
+<lb />O mot plein de douceur,
+</sp>
+<sp type="MainZone-Sp"><lb />TOUS DEUX.
+<lb />Plus beau ſujet, plus belle récompenſe
+<lb />Peuvent-ils animer un cœur.
+<lb />Les Violons joüent un Air pour animer les
+<lb />deux Bergers au combat, tandis que Flore
+<lb />comme Juge va ſe placer au pied de l’arbre
+<lb />avec deux Zephirs, &amp; que le reſte comme
+<lb />Spectateurs va occuper les deux coins du
+<lb />Theâtre.
+</sp>
+<sp type="MainZone-Sp"><lb />RCIS.
+<lb />Quand la neige fonduë enfle un torrent fameux,
+<lb />Contre l’effort ſoudain de ſes flots écumeux
+<lb />Il n’eſt rien d’aſſez ſolide;
+<lb />Digues, Chaſteaux, Villes, &amp; Bois,
+<lb />Hommes, &amp; Troupeaux à la fois,
+<lb />Tout cede au courant qui le guide,
+<lb />Tel, &amp; plus fier &amp; plus rapide,
+<lb />Marche LOVIS, dans ſes Exploits.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />tes Bergers &amp; Bergeres de ſon coſté dan<lb />cent autour de luy ſur une Ritornelle, pour ex<lb />primer leurs applaudiſſemens.
+</sp>
+<sp type="MainZone-Sp"><lb />DORILAS.
+<lb />Le foudre menaçant qui perce avec fureur
+<lb />L’affreuſe obſcurité de la nuë enflammée,
+<lb />Fait d’épouvante &amp; d’horreur
+<lb />Trembler le plus ferme cœur;
+<lb />Mais à la teſte d’une armée
+<lb />LOVIS jette plus de terreur.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Les Bergers &amp; Bergeres de ſon coſté, font de
+<lb />meſme que les autres.
+</sp>
+<sp type="MainZone-Sp"><lb />CIS.
+<lb />Des fabuleux Exploits que la Grece a chantez,
+<lb />Par un Brillant amas de belles veritez
+<lb />Nous voyons la gloire eſſacée,
+<lb />Et tous ces fameux demy-dieux,
+<lb />Que vante l’Hiſtoire paſſée,
+<lb />Ne Jont poinr à noſtre penjée,
+<lb />Ce que LOVIS eſt à nos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Les Bergers &amp; Bergeres de ſon coſté, fout
+<lb />encore la meſme choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />DORILAS.
+<lb />LOVIS fait à nos temps par ſes faits inoüis
+<lb />Croire tous les beaux faits que nous chante l’hiſtoire
+<lb />Des Siecles eſvanoüis:
+<lb />Mais nos Neveux dans leur gloire,
+<lb />N’auront rien qui faſſe croire
+<lb />Tons lesveaux fais uumo, e8.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Les Bergeres de ſon coſté font encore de meſ<lb />me, aprés quoy les deux partis ſe meſlent,
+</sp>
+<sp type="MainZone-Sp"><lb />PAN, ſuivy de ſix Faunes.
+<lb />Laiſſez, laiſſez Bergers, ce deſſein temeraire,
+<lb />He, que voulez-vous faire?
+<lb />Chanter ſur vos chalumeaux,
+<lb />Ce qu’Appollon ſur ſa Lyre
+<lb />Avec ſes chants les plus beaux,
+<lb />N’entreprendroit pas de dire;
+<lb />C’eſt donner trop d’eſſor au feu qui vous inſpire,
+<lb />C’eſt monter vers les Cieux ſur des aiſles de cirs,
+<lb />Pour tomber dans le fonds des eaux.
+<fw><lb />23
+</fw><lb />Conſacrez d’autres ſoins à ſa pleine Victoire.
+<lb />Vos louanges n’ont rien qui flatte ſes deſirs,
+<lb />Laiſſez, laiſſeZ-ta ja gioire
+<lb />Ne ſongez qu’à ſes plaiſirs.
+<lb />Four chanter de LOVIS, l’intrepide courage
+<lb />Il n’eſt point d’aſſez docte voix.
+<lb />Peint de mots aſſez grands pour en tracer l’Imagt à
+<lb />Le ſilence eſt le langage
+<lb />Qui doit loüer ſes Exploits.
+</sp>
+<sp type="MainZone-Sp"><lb />DUS.
+<lb />Laiſſons, laiſſons là ſa gloire
+<lb />Ne ſongeons qu’à ſes plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />LORE.
+<lb />Bien que pour eſtaler ſes vertus immortella
+<lb />La force manque à vos eſprits,
+<lb />Ne laißez-pas tous-deux de recevoir le prix,
+<lb />Dans les choſes grandes &amp; belles
+<lb />Il ſuffit d’avoir entrepris.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Les deux Zephirs dançent avec deux Couron<lb />nes de fleurs à la main, qu’ils viennent donner
+<lb />enſuite aux deux Bergers.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIMENE &amp; DAPHNE
+<lb />en feur domant la main.
+<lb />Dans les choſes grandes &amp; belles
+<lb />Ib ſuſſit à avoir entrepris.
+</sp>
+<sp type="MainZone-Sp"><lb />TIRCIS &amp; DORILAS.
+<lb />Ha, que d’un doux ſuccez noſtre audace eſt ſuivie.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORE &amp; PAN.
+<lb />Ce qu’on fait pour LOVIS, on ne le perd jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />LES QUATRE AMANS.
+<lb />Au ſoin de ſes plaiſirs donnons-nous deſormais.
+<lb />Heuneux, heureux, qui peut luy conſacrer ſa vies
+<fw><lb />.
+<lb />Joignons tous dans ces bois
+<lb />Nos flutes &amp; nos voix,
+<lb />Ce jour nous y convie,
+<lb />Et faiſons aux Echos redire mille fois,
+<lb />LOVIS eſt le plus grand des Rois.
+<lb />Heureux, heureux, qui peut luy conſacrer ſa vie.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Faunes, Bergers &amp; Bergeres tous ſe meſlent,
+<lb />&amp; il ſe fait entr’eux des jeux de dance, apres
+<lb />quoy lis le tont preparer pour la Comedie.
+</sp>
+<p type="MainZone-Head"><lb />DERNIERE ET GRANDE ENTRE'E
+<lb />DE BALLET.
+</p>
+<p type="MainZone-Head"><lb />AUHE FIOOLOGUE.
+</p>
+<p type="MainZone-Lg"><lb />TOſtre plus haut ſçavoir n’eſt que pure chimere.
+<lb />Vains &amp; peu ſages Medecins,
+<lb />Vous ne pouvez guerir par vos grands mots Latim
+<lb />En douleur qui me deſeſpere
+<lb />Voſtre plus hautſçavoir n’est que pure chimere, &amp;
+</p>
+<p type="MainZone-Lg"><lb />Helas, helas, ie n’oſe deſcouvrir
+<lb />Mon amoureux martyre,
+<lb />Au Berger pour qui je ſoûpire,
+<lb />Et qui ſeul me peut ſecourir.
+<lb />Ne pretendez pas le finir,
+<lb />Ignorans Medecins vous neſçauriez le faire,
+<lb />Voſtre plus haut ſçavoir n’eſt que pure chimere.
+</p>
+<p type="MainZone-Lg"><lb />Ces remedes peu ſeurs dont le ſimple vulgaire
+<lb />Croit que vous connoiſſez l’admirable vertu,
+<lb />Pour les maux que je ſens n’ont rien de ſalutaire,
+<lb />Et tout voſtre caquet ne peut eſtre reçeu,
+<fw><lb />Que d’un MALADE IMAGINAIRE.
+<lb />Voſtre plus haut ſçavoir n’eſt que pure chimere.
+<lb />Vains &amp; peu ſages, &amp;c.
+</fw></p>
+<p type="MainZone-P"><lb />Le Theûtre change &amp; repreſente une Chams
+<lb />bre.
+</p>
+<p type="MainZone-Head"><lb />ACTEURS.
+</p>
+<p type="MainZone-Entry"><lb />AAnIe, Mamuue Paghalice
+</p>
+<p type="MainZone-Entry"><lb />BELINE, Ieconde lemine d’Argan.
+</p>
+<p type="MainZone-Entry"><lb />ANGELIQUE, Fille d’Argan, &amp;
+<lb />Amante de Cleante.
+</p>
+<p type="MainZone-Entry"><lb />LOUISON, petite Fille d’Argana
+<lb />ſœur d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />BERALDE, Frere d’Argan.
+</p>
+<p type="MainZone-Entry"><lb />OEDimlny Ainmme uiiug lique.
+</p>
+<p type="MainZone-Entry"><lb />M. D IAFOIRUS, Medecin.
+</p>
+<p type="MainZone-Entry"><lb />THOMAS DIAFOIRUS, ſon
+<lb />Fils, &amp; Amant d’Angelique.
+</p>
+<p type="MainZone-Entry"><lb />M. PURGON, Medecin d’Argan.
+</p>
+<p type="MainZone-Entry"><lb />MI DOURANT, Apotiquaire d’Argan</p>
+<p type="MainZone-Entry"><lb />M.BONNEFOT, Notaire.
+</p>
+<p type="MainZone-Entry"><lb />TOINETTE, ſervante d’Argan.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt à Paris.
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENE PREMIERE.
+<fw><lb />ARGAN dans une chaiſe avec une table devant
+<lb />luy, compte des Parnies a Apouiquuire
+<lb />avec des jettons.
+</fw></p>
+<p type="MainZone-P"><lb />a Rois &amp; deux font cinq, &amp; cinq ſont dix,
+<lb />&amp; dix font vingt. Trois &amp; deux font
+<lb />cinq. Plus, du vingt-quatriéme un petit
+<lb />Clyſtere inſinuatif, preparatif, &amp; remollent,
+<lb />pour amollir, humecter, &amp; rafraiſchir les en<lb />trailles de Monſieur, trente ſols. Ce qui me
+<lb />plaiſt de Monſieur Fleurant mon Apotiquaire,
+<lb />c’eſt que ſes Parties ſont toûjours fort civiles.
+<lb />Les entrailles de Monſieur, trente ſols! Ouy:
+<lb />mais, Monſieur Fleurant, ce n’eſt pas tout que
+<lb />d’eſtre civil, il faut eſtre auſſi raiſonnable, &amp;
+<lb />ne pas écorcher les malades. Trente ſols un La<lb />vement! Je ſuis voſtre Serviteur, je vous l’ay
+<lb />déja dit. Vous ne me les avez mis dans les au<lb />ties Parties qu’à vingt ſols: &amp; vingt ſols en lan<lb />gage d’Apotiquaire, c’eſt a dire, dix ſols. Les
+<lb />voila. Plus, dudit jour un bon Clyſtere déter<lb />ſif, compoſé avec Catholicon double, Rhubar<lb />be, Miel roſat, &amp; autres, ſuivant l’Ordonnan<lb />ce, pour balayer, laver, &amp; nettoyer le bas ven<lb />tre de Monſieur, trente ſols. Avec voſtre per<lb />miſſion, dix ſols. Plus, dudit jour, le ſoir, un
+<lb />Julep hepatique, ſoporatif &amp; ſomnifere, com<lb />poſé pour faire dormir Monſieur, trente-cins
+<lb />ſols. Je ne me plains pas de celuy-là, car il me
+<lb />fit bien dormir. Dix, quinze, ſeize &amp; dix<lb />ſept ſols ſix deniers. Plus, du vingt-cinquiéme,
+<lb />une bonne Medecine purgative &amp; corroborative,
+<lb />compoſée de Caſſe recente, avec Sené Levantin,
+<lb />&amp; autres, ſuivant l’Ordonnance de Monſieur
+<lb />Purgon, pour expulſer &amp; évacuer la Bile de
+<lb />Monſieur, quatre livres. Ah, Monſieur Fleu<lb />rant, c’eſt ſe mocquer, il faut vivre avec les
+<lb />Malades, Monſieur Purgon ne vous a pas or<lb />donné de mettre quatre livres. Mettez, met<lb />tez trois livres, s’il vous plaiſt. Vingt, &amp; tren<lb />te ſols. Plus, dudit jour, une potion anodine &amp;
+<lb />aſtringente, pour faire repoſer Monſieur, tren<lb />te ſols. Bon-Dix &amp; quinze ſols. Plus, du vingt-
+<lb />ſixiéme, un Clyſtere carminatif, pour chaſſer
+<lb />les vents de Monſieur, trente ſols. Dix ſols. Mon<lb />ſieur Fleurant. Plus, le Clyſtere de Monſieur
+<lb />reïteré le ſoir, comme deſſus, trente ſols. Mon<lb />ſieur Fleurant, dix ſols. Plus, du vingt-ſeptié<lb />me, une bonne Medecine compoſée pour hâter
+<lb />d’aller &amp; chaſſer dehors les mauvaiſes humeurs
+<lb />de Monſieur, trois livres. Bon. Vingt, &amp; tren<lb />te ſols. Je ſuis bien aiſe que vous ſoyez raiſon<lb />nable. Plus, du vingt-huitiéme, une priſe de pe<lb />tit Lait clarifié &amp; dulcoré, pour adoucir, leni<lb />fier, temperer &amp; rafraîchir le ſang de Mon<lb />ſieur, vingt ſols. Bon. Dix ſols. Plus, une Po<lb />tion cordiale &amp; preſervative, compoſée avec
+<lb />douze grains de Bezoard, Sirop de Limon &amp;
+<lb />Grenade, &amp; autres, ſuivant l’Ordonnance, cinq
+<lb />Iivres. Ah, Monſieur Fleurant, tout doux, s’il
+<lb />vous plaiſt, ſi vous en uſez comme cela, on ne
+<lb />voudra plus eſtre malade. Contentez-vous de
+<lb />quarante ſols. Vingt, &amp; quarante ſols. Trois, &amp;
+<lb />deux font cinq, &amp; cinq font dix, &amp; dix font vingr.
+<lb />Soixante &amp; trois livres quatre ſols ſix deniers. Si
+<lb />bien donc que de ce mois j’ay pris un, deux, trois,
+<lb />quatre, cinq, ſix, ſept, huit, neuf, dix, onze, &amp;
+<lb />douze Lavemens; &amp; l’autre mois il y avoit douze
+<lb />Medecines &amp; vingt ravemens. Je ne m’étonne pas
+<lb />ſi je ne me porte pas ſi bien ce mois-cy que l’autre.
+<lb />Je le diray à Monſieur Purgon, afin qu’il mette or<lb />dre à cela. Allons, qu’on m’oſte tout cecy. Il n’y a
+<lb />perſonne. J’ay beau dire, on me laiſſe toûjours ſeul.
+<lb />Il n’y a pas moyen de les arreſter icy. Ils n’enten<lb />dent point, &amp; ma Sonnette ne fait pas aſſez de bruit.
+<lb />Drelin, drelin, drelin. Point d’affaire. Drelin, dre<lb />lin, drelin. Ils ſont ſourds. Toinette. Drelin, dre<lb />lin, drelin. Tout comme ſi je ne ſonnois point.
+<lb />Chienne, Coquine, Drelin, drelin, drelin. J’enra<lb />ge. Drelin, drelin, drelin. Carogne à tous les dia<lb />bles. Eſt-il poſſible qu’on laiſſe comme cela un
+<lb />pauvre malade tout ſeul. Drelin, drelin, drelin.
+<lb />Voila qui eſt pitoyable. Dieim, dieim, drelin,
+<lb />Ah, mon Dieu, ils me laiſſeront icy mourir.
+<lb />Drelin, drelin, drelin.
+</p>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />TOINETTE, ARGAN.
+<lb />ON y va<lb />TOINETTE.
+<lb />ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />Ah Chienne, ah Carogne......
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Diantre ſoit fait de voſtre impatience! Vous
+<lb />preſſez ſi foit les perſonnes, que je me ſuis donné
+<lb />di pruid coup de la teſte contre la carne d’un volet,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />AR traitrene....
+</sp>
+<sp type="MainZone-Sp"><lb />Ha.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Il y a....
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Ha.
+<lb />POIETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Il y aune heure....
+</sp>
+<sp type="MainZone-Sp"><lb />Ha.
+<lb />POINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ham as lamedle
+</sp>
+<sp type="MainZone-Sp"><lb />I1a.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tay-toy donc, Coquine, que je te querelle.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />gainon jmafoy , j'en imoduris, apres ce que
+<lb />je me ſuis fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tu m’as fait égoſiller, Carogne.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Et vous m’avez fait, vous caſſer la teſte. L’un
+<lb />vaut bien l’autre. Quitte à quitte, ſt vous voulez,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Quoy, Coquine.....
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Si vous querellez, je pleureray.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Me laiſſer, Traitreſſe.....
+<fw><lb />Ha,
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Chienne, tu veux.....
+</sp>
+<sp type="MainZone-Sp"><lb />Ha,
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Quoy, il faudia cheore que je n'aye pas le plaiſir
+<lb />de quereller.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINEIID.
+<lb />Querellez tout voſtre ſoû, je le veux bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tu m’en empeſches, Chienne, en m’interrom<lb />pant à tous coups.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Si vous avez le plaii de queſenier; ilfaut bien
+<lb />que de mon coſté j’aye le plaiſir de pleurer. Cha<lb />cun le ſien ce n’eſt pas trop. Ha.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allons, il faut en paſſer par là. Oſte-moy cecy,
+<lb />Coquilie, oite ioy écej Mon Lavement d’aujour<lb />d’huy a-t’il bien operé?
+</sp>
+<sp type="MainZone-Sp"><lb />TOTNVDITNO
+<lb />Voſtre Lavement.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy. Ay-je bien fait de la bile?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ma foy, je ne me meſle point de ces affaires-là.
+<lb />C’eſt à Monſieur rleurant à y mettre le nez, puis
+<lb />qu’il en a le profit.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Qu’on ait ſoin de me tenir un boüillon preſt pour
+<lb />l'autre que je dois tantoſt prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ce Monſiour rleurant-là, &amp; ce Monſieur Pur<lb />gon, s’egayent bien ſur voſtre Corps. Ils ont en
+<lb />vous une bonne vache à lait; &amp; je voudrois bien
+<lb />leur demander quel mal vous avez, pour vous faire
+<lb />tant de remedes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Taiſez-vous, ignorante, ce n’eſt pas à vous à
+<lb />controller les Ordonnances de la Medecine.
+<lb />Qu on me lanle vem ma Hine Angenque, j’ay
+<lb />à luy dire quelque choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />La voicy qui vient d’elle-meſſe; elle a deviné
+<lb />vonle penice,
+</sp>
+<p type="MainZone-Head"><lb />SCENE III
+<lb />ANGELIQUE, IUINETTE.
+<lb />ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN
+<lb />e proenenj'hngenque, tous tenez a propos,
+<lb />TX je voulois vous parler.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Me voila preſte à vous oüir,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Attendez. Donnez-moy mon Baſton. Je vay re<lb />venir tout-à-l’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Allez viſte, Monſieur, allez. Monſieur rleurant
+<lb />nous donne des affaires.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />ANGELIQUE, TOINETTE.
+<lb />TOinette.
+<lb />ANGELIQUE.
+</p>
+<sp type="MainZone-Sp"><lb />quoy?
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />iMUUHNQUE.
+<lb />Regarde-moy un peu.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />He bien je vous regarde.
+</sp>
+<sp type="MainZone-Sp"><lb />roinette.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />ne bien, quoy, Toinette.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE,
+<lb />Ne devines-tu point dequoy je veux parler?
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Je men doute aſſez, de voſtre jeune Amant;
+<lb />car c’eſt ſur luy depuis ſix jours que roulent tous
+<lb />vos entretiens; &amp; vous n’eſtes point bien, ſi vous
+<lb />n’en parlez à tout heure.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Puis que tu connois cela, que n’es-tu donc La
+<lb />premiere à m’en entretenir, &amp; que ne m’épargnes<lb />tu la peine de te jetter ſur ce diſcours?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous ne m’en donnez pasle temps, &amp; vous avez
+<lb />des ſoins là-deſſus, qu’il eſt difficile de prevenir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je t’avoüe, que je ne ſçaurois me laſſer de te parler
+<lb />de luy, &amp; que mon cœur pipnte atee enmeer de
+<lb />B iij
+<lb />tous les momens de s’ouvrir à toy. Mais dy-moys-
+<lb />condamnes-tu, Toinette, les ſentimens que j’ay
+<lb />pour luy?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je n’ay garde.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ay-je tort de m’abandõner à ces douces impreſſiõs.
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Ie ne dis pas cela.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Et voudrois-tu que je fuſſe inſenſible aux tendres
+<lb />proteſtations de cette paſſion ardente qu’il témoi<lb />qile pour moy !
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />A Dieu ne plaiſe,
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Dy-moy un peu, le tiouve tu pas comme moy,
+<lb />quelque choſe du ciel, quelque effet du deſtin,
+<lb />dans I’avanture mopinée de nontle counonfance.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGEIIQUE.
+<lb />ne trouves-tu pas que cette action d’embraſſer
+<lb />ma uerenie fans mle comioitie; eit toue u fait d’un
+<lb />honneſte homme?
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />que l’on ne peut pas en uſer plus genereuſement?
+</sp>
+<sp type="MainZone-Sp"><lb />D’accord.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />et qu’il fait tout cela de la meilleure grace du
+<lb />da monde?
+</sp>
+<sp type="MainZone-Sp"><lb />endaye
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGE LIQUE.
+<lb />Ne trouves-tu pas, Toinette, qu’il eſt bien faït
+<lb />de ſa perſonne?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Aſſeurément.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />qu’il a l’air le meilleur du monde?
+</sp>
+<sp type="MainZone-Sp"><lb />Sans doute.
+<lb />FOIRELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />que ſes diſcours, comme ſes actions, ont quel<lb />que choſe de noble?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Cela eſt ſeur.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELTQUE.
+<lb />qu’on ne peut rien entendre de plus paſſionné
+<lb />que tout ce qu’il me dit ?
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vray.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Et qu'iln'eit rien de plus fâcheux, que la con<lb />trainte où l’on me tient, qui bouche tout commer<lb />ce aux doux empreſſemens de cette mutuelle ar<lb />deur que le Ciel nous inſpire.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous avez raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais, ma pauvre Toinette, crois-tu qu’il m’aime.
+<lb />autant qu’il me le dit?
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Eh, ch, ces choſes-là par fois ſont un peu ſujettes
+<lb />à caation. Les grimaces d’amour reſſemblent forr
+<lb />à la verité; &amp; j’ay veu de grands Comediens là<lb />delus.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ah, roinette, que dis-tu là? Helas, de la façon qu’il
+<lb />parle, ſeroit-il bien poſſible qu’il ne me diſt pas
+<lb />vray ?
+</sp>
+<sp type="MainZone-Sp"><lb />TOIENTTE.
+<lb />en tout cas vous en ſerez bien tôt éclaircie, &amp; la re<lb />ſolution où il vous écrivit hier, qu’il étoit de vous
+<lb />faire demander en mariage, eſt une prompte mar<lb />que de vous faire connoiſtre s’il dit vray, ou non.
+<lb />C’en ſera là la bonne preuve.
+</sp>
+<sp type="MainZone-Sp"><lb />LNGELIQUE.
+<lb />Ah, roinette, ſi celuy-là me trompe, je ne croi<lb />ray de ma vie aucun homme.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Voilà voſtre pere qui revient.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V.
+<lb />ARGAN, ANGELIQUE.
+<lb />TOINETTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ça, ma rille, je vay vous dire une nouvelle,
+<lb />Coù peut-eſtre ne vous attendez-vous pas. On
+<lb />vous demande en mariage. qu’eſt-ce que cela?
+<lb />vous riez. Cela eſt plaiſant, oüy, ce mot de maria<lb />ge. Il n’y a rien de plus drôle pour les jeunes ril<lb />les. Ah, Nature, Nature. A ce que je puis voir, ma
+<lb />rille, je n’ay que faire de vous demander ſi vous
+<lb />voulez vous marier,
+<fw><lb />n
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je dois faire, mon pere, tout ce qu’il vous plai<lb />ta de m’ordonner.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ſuis bien aiſe d’avoir une rille ſi obeïſſante.
+<lb />La choſe eſt donc concluë, &amp; je vous ay promiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’eſt à moy, mon pere, à ſuivre aveuglement
+<lb />toutes vos volontez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ma remme, voſtre nelle-Mere, avoit envie que
+<lb />e rous iiſſe Religieuſe, &amp; voſtre perites œur Loüi<lb />ſon auſſi, &amp; de tout temps elle a eſté aheurtée à
+<lb />tcla.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />La bonne neſte a ſes raiſons.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Elle ne vouloit point conſentir à ce mariage, mait
+<lb />jo Paj emporté, &amp; ma parole eſt donnée.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ah, mon Pere, que je vous ſuis obligée de toutes
+<lb />vos bontez.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />En verité je vous ſçay bon gré de cela, &amp; voila
+<lb />l’action la plus ſage que vous ayez faite de voſtre
+<lb />vie.
+</sp>
+<sp type="MainZone-Sp"><lb />IRGIN.
+<lb />Je n’ay point encore veu la perſonne; mais on
+<lb />m’a dit que j’en ſerois content, &amp; toy aun.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Aſſeurément, mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Comment l’a-tu veu ?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Euis que voſtre conſentement m’autoriſe à vous
+<lb />pouvoir ouvrir mon cœur, je ne feindray point de
+<lb />vous dire que le hazard nous a fait connoiſtre il y
+<lb />a ſix jours; &amp; que la demande qu’on vous à faite,
+<lb />eſt un effet de l’inclination que dés cette premiere
+<lb />veuë nous avons priſe l’un pour l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ils ne m’ont pas dit cela, mais j’en ſuis bien ai<lb />ſe, &amp; c’eſt tant mieux que les choſes ſoient de la
+<lb />ſorte. Iis diient que ceſt un grand jeune Garçon
+<lb />bien fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Oüy, mon Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />me berle tullles
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Saſis doute.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Agreable de ſa perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Aſſurément.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />De bonne phiſionomie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Tres-bonne.
+</sp>
+<sp type="MainZone-Sp"><lb />Sage &amp; bien né.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Lauca dles
+</sp>
+<sp type="MainZone-Sp"><lb />Tort honneſte.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Le plus honneſte homme de monde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Qui parle bien Latin &amp; Grec.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’eſt ce que je ne ſçay pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />nt qui lelu feteu medeem dans trois jours.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Luy, mon Pere ?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy, eſt-ce qu’il ne te l’a pas dit?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Non vrayment. Qui vous l’as dit à vous?
+</sp>
+<sp type="MainZone-Sp"><lb />hRBAIO.
+<lb />Monſieur Purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />aſt-ce que Monſieur Purgon le connoiſt,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />La belle demande. Il faut bien qu’il le connoiſ<lb />R, fun quecelt dennereus
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Cleante Neveu de Monſieur Purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />quel Cleante, Nous parlons de celuy pour qui
+<lb />l’on t’a demandée en mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />Hé oüy.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Hé bien, c’eſt le Neveu de Monſieur Pur<lb />gon, qui eſt le Fils de ſon Beaufrere le Mede<lb />cin Monſieur Dyafoirus, &amp; ce rils s’appelle rho<lb />miuo Djafoirus, &amp; non pas Cleante, &amp; nous avons
+<lb />conclu ce mariage-là ce matin, Monſieur Purgon,
+<lb />Monſieur rleurant, &amp; moy; &amp; demain ce Gendre
+<lb />pletendu doit m'eſtre ainene pal ſon Pele. qu’eſt<lb />ce, vous voila toute ébaubie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’eſt, mon Pere, que je connois que vous avez
+<lb />parlé d’une Perſonne, &amp; que j’ay entẽdu une autre.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />quoy, Monſieur, vous aurlez faitre denen ber<lb />Jeſque, &amp; avec tout le bien que vous avez, vous
+<lb />voudilez malſei vortie rhiouted un meuecin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy. De quoy te meſles-tu, Coquine, Impu<lb />dente que tu es.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Mon Dieu, tout-doux. Vous allez d’abord aux
+<lb />invectives. Eſt-ce que nous ne pouvons pas raiſon<lb />ner enſemble ſans nous emporter. Là, parlons de
+<lb />lanig llolui queneeit voitie ranon, s n'vous plaiſt,
+<lb />pour un tel mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />'Ma raiſon eſt, que me voyant infirme &amp; malade
+<lb />comme je ſuis, je veux me faire un Gendre, &amp; des
+<lb />Alliez Medecins, afin de m’appuyer de bon ſecours
+<lb />contre ina maladle, d'avoir dals la rainille les
+<lb />ſources des Remedes qui me ſont neceſſaires, &amp; d’é<lb />tre à méme des Conſultations &amp; des Ordonnances.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Hé bien, voilà dire une raiſon, &amp; il y a plaiſir
+<lb />à ſe répondre doucement les uns aux autres. Mais
+<lb />Monſieur, mettez la main à la conſcience. eſt-ce
+<lb />que vous eltes maiade.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Comment, Coquine, ſi je ſuis malade. Si je ſuis
+<lb />malade, impudente!
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />TOINETTE.
+<lb />Hé bien oüy, Monſieur, vous eſtes malade, n’ayons
+<lb />point de querelle là-deſſus. Oüy, vous eſtes fort
+<lb />malade, jen demenle d’accoid, &amp; plus mala<lb />de que vous ne penſez. Voilà qui eſt fait: Mais
+<lb />voſtre rille doit épouſer un Mary pour elle, &amp; n’é<lb />tant point malade, il n’eſt pas neceſſaire de luy
+<lb />donner un Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />C’eſt pour moy que je faj uome ce iurucein, &amp;
+<lb />une
+<fw><lb />le
+<lb />es
+<lb />es
+<lb />I.
+<lb />ſit
+<lb />ais
+<lb />4
+<lb />ns
+<lb />Q
+<lb />ne
+</fw><lb />une fille de bon naturel doit eſtre ravie d’épouſer
+<lb />Re quiele denca la fante de leu leles.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ma foy, Monſieur, voulez-vous qu’en amie je
+<lb />vous donne un conſeil ?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN,
+<lb />quel eſt-ce conſeil.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />De ne point ſonger à ce mariage-là.
+</sp>
+<sp type="MainZone-Sp"><lb />né la raiſon.
+<lb />ARORN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />La raiſon? C’eſt que voſtre fille n’y conſentira
+<lb />pomtes
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ellen y confentila pome.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Ma fille.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINTTTE.
+<lb />Voſtre fille. Elle vous dira qu’elle n’a que fai<lb />re de Monſieur Dyafoirus, ny de ſon fils Thomas
+<lb />Dyafoirus, ny de tous les Dyafoirus du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />A RGAN.
+<lb />J’en ay affaire, moy; outre que le party eſt plus
+<lb />avantageux qu’on ne penſe. Monſieur Dyafoirus
+<lb />m a que ce nio la pour tout heritier; &amp; de plus,
+<lb />Monſieur purgon qui n’a ny femme, ny enfans,
+<lb />luy donne tout ſon bien, en faveur de ce mariage;
+<lb />&amp; Monſieur purgon eſt un homme qui a huit mille
+<lb />bonnes livres de rente.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE,
+<lb />Il faut qu’il ait tué bien des gens, pour s’eſtre
+<lb />fait ſi riche.
+<fw><lb />C
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Huit mille livres de rente ſont quelque choſe,
+<lb />Ians compter le bien du pele.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Monſieur, tous cela eſt bel &amp; bon; mais j’en re<lb />viens toûjours là. Je vous conſeille entre nous de
+<lb />luy choiſir un autre mary, &amp; elle n’eſt point faite
+<lb />pour eſtre Madame Dyafoirus.
+</sp>
+<sp type="MainZone-Sp"><lb />DN.
+<lb />Et je veux, moy, que cela ſoit.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Eh fy, ne dites pas cela.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />comient, que je ne diſe pas cela.
+</sp>
+<sp type="MainZone-Sp"><lb />He non.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Et pourquoy ne le diray-je pas.
+</sp>
+<sp type="MainZone-Sp"><lb />POINETIE;
+<lb />On dira que vous ne ſongez pas à ce que vous
+<lb />diteos
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN,
+<lb />On dira ce qu'on voudia; mais je vous dis que
+<lb />je veux qu’elle execute la parole que j’ay donnée.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Non, je ſuis ſeûre qu’elle ne le fera pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ly lolcclay drens
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Elle ne le feſa pas, vous dy-je.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Elle le fera, ou je la metteray dans un Convent.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy.
+<lb />ARGAN.
+<fw><lb />ue
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Bon.
+<lb />ARGAN.
+<lb />Comment, bon.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous ne la mettrez point dans un Convent.
+</sp>
+<sp type="MainZone-Sp"><lb />A R OxM.
+<lb />Je ne la mettray point dans un Convent.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />O dais! voicy qui eſt plaiſant. Je ne mettray
+<lb />pas ma fille dans un Convent, ſi je veux.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Non, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />NGAN.
+<lb />qui m’en empeſchera.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous-meſme.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Oüy. Vous n’aurez pas ce cœur-là.
+</sp>
+<sp type="MainZone-Sp"><lb />Je l’auray.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous vous mocquez.
+<fw><lb />C ij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ne me mocque point.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />La tendreſſe paternelle vous prendra,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Elle ne me prendra point.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Une petite larme ou deux, les bras jettez au coû,
+<lb />un mon petit papa mignon prononcé tendrement,
+<lb />ſera aſſez pour vous toucher.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tout cela ne ſera rien.
+</sp>
+<sp type="MainZone-Sp"><lb />eus nves;
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ye vous dis que je n'en ueſordray point,
+</sp>
+<sp type="MainZone-Sp"><lb />Bagatelles.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />lena Mae rema dhe sugarencar
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Mon Dieu je vous connois; vous eſtes bon natu<lb />reſlement.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ne ſuis point bon, &amp; je ſuis méchant quand
+<lb />je veux.
+</sp>
+<sp type="MainZone-Sp"><lb />TOTNEIVE.
+<lb />Doucement, Monſieur; vous ne ſongez pas que
+<lb />vous eſtes malade.
+<lb />Je luy commande abſolument de ſe preparer à
+<lb />prendre le mary que je dis.
+</sp>
+<sp type="MainZone-Sp"><lb />Ar ememdiM
+<lb />ut moy je luy défens abſolument d’en faire rien<lb />Où eſt-ce donc que nous ſommes? &amp; quelle au<lb />dace eſt-ce-là à une coquine de Servante, de par<lb />ler de la ſorte devant ſon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />quand dir maiſtre ne ſonge pas à ce qu’il fait, une
+<lb />Servante bien ſenſée eſt en droit de le redreſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />Ta ea a de avo
+<lb />Ah inſolente, il faut que je t’aſſommes.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Il eſt de mon devoir de m’oppoſer aux choſes
+<lb />qui vous peuvent des-honnorer.
+</sp>
+<sp type="MainZone-Sp"><lb />AKGAN.
+<lb />Vien, vien, que je t’apprenne à parler.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINEITE.
+<lb />Je m’intereſſe, comme je doy, à ne vous point
+<lb />laiſſer faire de fone.
+</sp>
+<sp type="MainZone-Sp"><lb />Chienne.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Non, je ne conſentiray jamais à ce mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />Pendafde.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je ne veux point qu’elle épouſe voſtre Thomas
+<lb />Dyafoirus.
+</sp>
+<sp type="MainZone-Sp"><lb />Carogne.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Et elle m’obeïra plûtoſt qu’à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Angelique, tune veux pas m’arreſter cette Co<lb />quine-là.
+<fw><lb />–2
+</fw><lb />C iij
+<fw><lb />En inon pere, ne vous laites pomt Mndiudo</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Si tu ne me l’arreſte, je te donneray ma male<lb />diction.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Et moy je la des-heriteray, ſi elle vous obeït.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, ah, je n’en puis plus. Voila pour me faire
+<lb />mourir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />BEEINE, ANGELIQUE,
+<lb />OINETTE, ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />AAH ma Femme, approchez.
+</sp>
+<sp type="MainZone-Sp"><lb />DECAMET
+<lb />qu’avez-vous, mon pauvre mary.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Venez-vous-en icy à mon ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ravit te que c’eſt donc qu’il y a, mon petit fils,
+</sp>
+<sp type="MainZone-Sp"><lb />Ma mie
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Mon amy.
+<lb />BELINE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />On vient de me mettre en colere.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Helas pauvre petit mary! comment donc, mon
+<lb />amy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voſtre Coquine de Toinette eſt de veuuë plus im
+<lb />lolente que jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ne vous paſſionnez donc point.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Elle m’a fait enrager, ma mie.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Doucement, mon fils.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />elle a contrequarre uile neure durant lès choſes
+<lb />que je veux faire.
+</sp>
+<sp type="MainZone-Sp"><lb />BELTNE.
+<lb />La, là, tout-doux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />et a eu l’effronterie de me dire que je ne ſuis
+<lb />point malâde.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />C’eſt une impertinente.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous ſçavez, mon cœur, ce qui en eſt</sp>
+<sp type="MainZone-Sp"><lb />D
+<lb />DDINE.
+<lb />Oüy, mon cœur, elle a tort.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGAI.
+<lb />Ma mour, cette coquine-là me fera mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />ch la, ch la.
+<lb />BELINE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ille eſt cauſe de toute la bile que je fais.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ne vous fâchez point tant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />et il-y-aje ne ſçay combien que je vous dis de me
+<lb />la chaſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Mon Dieu, mon fils, il n’y a point de Serviteurs
+<lb />&amp; de Servantes qui n’ayent leurs defauts. On eſt
+<lb />contraint par fois de ſouffrir leurs mauvaiſes qua<lb />litez à cauſe des bonnes, celle-cy eſt adroite, ſoi<lb />gneuſe, diligente, &amp; ſur tout fidelle, &amp; vous ſça<lb />vez qu’il faut maintenant de grandes précautions
+<lb />pour les gens que l’on prend. Hola, Toinette.
+</sp>
+<sp type="MainZone-Sp"><lb />Madame.
+<lb />AONNVEAEE.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Pourquoy donc eſt-ce que vous mettez mon
+<lb />mary en colere?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Moy, Madairie! Helas je ne ſçay pas ce que vous
+<lb />me voulez dire, &amp; je ne ſonge qu’à complaire à
+<lb />Monſieur en toutes choles.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah la traitreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />F Il nous a dit qu’il vouloit donner ſa fille en ma<lb />nage au llis de Monneur Dyaioirus: Je luy ay ré<lb />pondu que je trouvois le party avantageux pour el<lb />le; mais que je croyois qu’il feroit mieux de la met<lb />tre dans un Convent.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Il n’y a pas grand mal à cela, &amp; je trouve qu’elle
+<lb />a raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah ma mour, vous la croyez, c’eſt une Scelera<lb />te: elle m’a dit cent inſolences.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Hé bien je vous crois, mon amy. La, remettez-
+<lb />vous. Ecoutez. Toinette, ſi vous fâchez jamais
+<lb />mon mary, je vous mettray dehors. Cà, donnez<lb />moy ſon manteau fourré &amp; des oreillers, que je
+</sp>
+<sp type="MainZone-Sp"><lb />I'accommode dans ſa chaiſe. Vous voilà je-ne<lb />ſçay-comment, enfoncez bien voſtre bonnet juſ<lb />ques ſur vos oreilles. Il n’y a rien qui enrhume
+<lb />tant que de prendre l’air par les oreiries.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah ma mie, que je vous ſuis obligé de tous les
+<lb />ſoins que vous prenez de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Levez-vous que je mette cecy ſous vous. Met<lb />tons celuy-cy pour vous appuyer; &amp; celuy-là de
+<lb />l’autre coſté. Mettons celuy-cy derriere voſtre dos,
+<lb />&amp; cét autre-là pour ſouſtenir voſtre teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE luy met un oreiller ſur la teſte.
+<lb />ne celojepuurtou gaider duſerain.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah Coquine, tu veux i'etouffer.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Eh la, eh la, qu’eſt-ce que c’eſt donc.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />hii; uit ran, Je n’en puis plus.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Pourquoy vous emporter ainſi, elle a crû faire
+<lb />bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous ne connoiſſez pas, ma mour, là malice de
+<lb />la pendarde. Ah, elle m’a mis tout hors de moy;
+<lb />&amp; il faudra plus de huit medecines, &amp; de douze
+<lb />na vemensy pour lepurer tout cecy.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />La, la, mon petit ainy, appanez-vous un peu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ma mie; vous eſtes toute ma conſolation.
+</sp>
+<sp type="MainZone-Sp"><lb />Pauvre petit fils.
+<lb />BELINE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />pour tâcher de reconnoiſtre l’amour que vous
+<lb />me portez, je veux, mon cœur, comme je vous
+<lb />ay dit, ralle mon teitamenee.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ah mon amy, ne parlons point de cela, je vous
+<lb />prie, je ne ſçaurois ſouffrir cette penſée; &amp; le ſeul
+<lb />mot de teſtament me fait traiſſaillir de douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />je vous avois dit de parier pour cela a voſtre
+<lb />Notaire.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINF.
+<lb />Le voicy dans voſtre antichambre, &amp; je l’ay fait
+<lb />venir tout exprez.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGAN.
+<lb />palteo le entiesymameul.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VII.
+<lb />M.BONNETOE,BELINE,
+<lb />ARGAN.
+<fw><lb />214
+</fw></p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />u bon jour M. Bonnefoy, je veux faire mon
+<lb />TI teſtament; &amp; pour cela dites-moy, s’il vous
+<lb />plaiſt, comment je dois faire pour donner tout
+<lb />mon bien à ma femme, &amp; en fruſtrer mes en<lb />fans.
+</sp>
+<sp type="MainZone-Sp"><lb />M.BONNETOT.
+<lb />Monſieur, vous ne pouvez rien donner à voſtre
+<lb />femme par voſtre teſtament.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Et par quelle raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BONNEFOY.
+<lb />parce que la Couſtumne jienite yeela ferore bon
+<lb />par tout ailleurs &amp; dans le pays de proit écrit:
+<fw><lb />tre
+<lb />DOR
+</fw><lb />mais à Paris &amp; dans les pays Couſtumiers, cela ne
+<lb />ſe peut; tout avantage qu’homme &amp; femme ſe
+<lb />peu vent faire reciproquement l’un à l’autre en fa<lb />veur de mariage, n’eſt qu’un avantage indirect, &amp;
+<lb />qu’un don mutuel entre vifs, encore faut-il qu’il
+<lb />n’y ayt point d’Enfans d’eux ou de l’un d’iceux
+<lb />avant le deceds du premier mourant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voilà une Couſtume bien impertinente, de dire
+<lb />qu’un mary ne puiſſe rien donner à une femme qu’il
+<lb />aime, &amp; qui prend tant de ſoin de luy; j’ay envie
+<lb />de conſulter mon Advocat, pour voir ce qu’il y a
+<lb />à faire pour cela.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BONNEFOY.
+<lb />Ce n’eſt pas aux Advocats à qui il faut s’addreſ<lb />ſer, ce ſont gens fort ſcrupu leux ſur cette matiere,
+<lb />qui ne ſçavent pas diſpoſer en fraude de la Loy, &amp;
+<lb />qui ſont ignorans des tours de la conſcience, c’eſt
+<lb />noſtre affaire à nous autres, &amp; je ſuis venu à bout
+<lb />de bien plus grandes difficultez; il vous faut pour
+<lb />cela auparavant que de mourir donner à vôtre fem<lb />me tout vôtre argent comptant, &amp; des billets paya<lb />bles au porteur ſi vous en avez: Il vous faut outre
+<lb />ce, contracter quantité de bonnes Obligations
+<lb />ſous-main avec de vos intimes amis, qur aprés
+<lb />voſtre mort les remettront entre les mains de vo<lb />ſtre femme ſans luy rien demander, qui prendra
+<lb />enſuite le ſoin de s’en faire payer.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vrayment, Monſieur, ma femme m’avoit bien
+<lb />dit que vous eſtiez un fort habile &amp; fort honneſte
+<lb />homme. J’ay, mon cœur, vingt mille francs
+<lb />dans le petit coffret de mon alcove en argent com<lb />ptant, dont je vous donneray la clef, &amp; deux bil<lb />lets payables au porteur, l’un de ſix mil livres, &amp;
+<lb />l'autre de quatre, qui me ſont deus; le premier
+<lb />par Monſieur Damon, &amp; l’autre par Monſieur Ge<lb />xalite, que jorous mettray entre les mains.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ne me parlez point de cela, je vous prie, vous me
+<lb />faites mourir de frayeur..... Combien dites-vous
+<lb />qu’il y a d’argent comptant dans voſtre alcove.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vingt mille francs, mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Tous les biens de ce monde ne me ſont rien en
+<lb />comparaiſon de vous..... De combien ſont les deux
+<lb />biliets.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />L’un de ſix, &amp; l’autre de quatre mil livres.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Ah! mon nis, ſa ſeule pentée de vous quitter
+<lb />me met au deſeſpoir, vous mort je ne veux plus
+<lb />reſter au monde: ah, ah.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BONNEFOY.
+<lb />Pourquoy pleurer, Madame? les larmes ſont hors
+<lb />de ſaiſon, &amp; les choſes, graces à Dieu, n’en ſont
+<lb />pas encore là.
+</sp>
+<sp type="MainZone-Sp"><lb />DELINL.
+<lb />Ah Monſieur nonnefoy, vous ne ſçavez pas ce
+<lb />que c’eſt qu’eſtre toûjours ſeparée d’un Mary que
+<lb />I’on aime tendrement.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce qui me fâche le plus, ma mie, auparavant de
+<lb />mourir, c’eſt de n’avoir point eu d’enfans de vous;
+<lb />Monſieur purgon m'avoit piomis qu’im en feroit
+<lb />faire un.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BONNEFOY.
+<lb />Voulez-vous que nous procedions au teſta<lb />ment.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy, mais nous lerons ilifeux daiſs inion petit
+<lb />cabinet
+<fw><lb />le
+<lb />
+<lb />*
+</fw><lb />cabinet qui eſt icy prés; allons-y, Monſieur, ſoû<lb />tenen moy yma mour.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Allons, pauvre petit mary.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />TOINLITE, ANOLEIQUE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ntrez, entrez, ils ne ſont plus icy, j’ay une
+<lb />Linquietude prodigieuſe, j’ay veu un Notaire
+<lb />avec eux, &amp; ay entendu parler de teſtament; vô<lb />tre belle mere ne s’endort point, &amp; veut ſans dou<lb />te plonter de la colcie ou rouou rentantolt mis vo<lb />tre pere; elle aura pris ce temps pour nuire à vos
+<lb />intereſts.
+</sp>
+<sp type="MainZone-Sp"><lb />AN GELIQUE.
+<lb />qu’il diſpoſe de tout mon bien en faveur de qui
+<lb />friuy plalra, pourveu qu’il ne diſpoſe pas de mon
+<lb />cœur; S’il ne me contraint point d’accepter pour
+<lb />époux celuy dont il m’a parlé, je me ſouele fort
+<lb />peu du reſte, qu’il en faſſe ce qu’il voudra.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Voſtre belle-mere tâche par toutes ſortes de
+<lb />promeſſes de m’attirer dans ſon party; mais elle
+<lb />a beau faire, elle n’y reüſſira jamais, &amp; je me
+<lb />ſuis toûjours trouvé de l’inclination à vous ren<lb />dre ſervice; cependant comme il nous eſt neceſ<lb />ſaire dans la conjoncture preſente de ſçavoir ce
+<lb />qui ſe paſſe, afin de mieux prendre nos meſures,
+<lb />&amp; de mieux venir à bout de noſtre deſſein, j’ay
+<lb />envie de luy faire croire par de feintes complai<lb />ſances que je ſuis entierement daiis les meereſes,
+<lb />j’envie qu’elle a que j’y ſois, ne’manquera pas de
+<lb />la faire donner dans le panneau, c’eſt un ſeur
+<lb />moyen pour deſcouvrir ſes intrigues, &amp; cela nous
+<lb />Iervira de beaucoup.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais comment fairepour rompre ce coup terri<lb />ble dont je ſuis menacée.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Il faut en premier lieu avertir Cleante du
+<lb />deſſein de voſtre pere, &amp; le charger de s’aquit<lb />ter auj plûtoſt de la parole qu’il vous a donnée;
+<lb />il n’y à point de temps a peldle, Il faut qu’il ſe
+<lb />determine.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />As-tu quelqu’un propre à faire ce meſſage.
+</sp>
+<sp type="MainZone-Sp"><lb />OINETTE.
+<lb />Il eſt aſſez difficile, &amp; je ne trouve perſonne
+<lb />plus propre à s’en acquitter que le vieux Uſurier
+<lb />Polichinelle mon amant, il m’en coûtera pour
+<lb />cela quelques faveurs, &amp; quelques baiſers que
+<lb />je veux bien dépenſer pour vous; Allez, repo<lb />ſez- vous ſur moy, dormez ſeulement en repos,
+<lb />il eſt tard, je crains qu'on ait affaire de moy;
+<lb />j’entends ju oi m’appelle, retirez-vous, adieu
+<lb />bon ſoir, je vais ſonger à vous.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<sp type="MainZone-Sp"><lb />Le Theâtre change, &amp; repreſente une
+<lb />Ville.
+</sp>
+<p type="MainZone-Head"><lb />TREMHIRE INTERMEDE,
+</p>
+<p type="MainZone-P"><lb />I
+<lb />DOlichinelle dans la nuit vient pour donner une
+<lb />ſerenade à ſa maiſtreſſe. Il eſt interrompu d’a<lb />bord par des Violons, contre leſquels il ſe met en
+<lb />coicie; &amp; enſuite par le Guet, compoſé de Muſi<lb />ciens &amp; de Danceurs.
+</p>
+<p type="MainZone-P"><lb />POLICHINELLE.
+<lb />Amour, amour, amour, amour! pauvre Po<lb />Ulichinelle, quelle diable de fantaiſie t’es-tu allé
+<lb />mettre dans la cervelle? A quoy t’amuſes-tu, miſe<lb />rable inſenſé que tu es. Tu quittes le ſoin de ton ne<lb />goce, &amp; tu laiſſes aller tes affaires à l’abandon. Tu
+<lb />ne mange plus, tu ne bois preſque plus, tu pers le repos
+<lb />de la nuit, &amp; tout cela pour qui? Pour une dragonne,
+<lb />franche dragonne; une diableſſe qui terembarre, &amp;
+<lb />ſe mocque de tout ce que tu peux luy dire. Mais il n’y
+<lb />a point à raiſonner là-deſſus: Tu le veux, amour; il
+<lb />faut eſtre fou comme beaucoup d’autres. Cela n’eſt pas
+<lb />le mieux du monde à un homme de mon âge, mais
+<lb />qu’y faire? On n’eſt pas ſage quand on veut, &amp; les
+<lb />vieilles cervelles ſe démontent comme les jeunes.
+<lb />Je viens voir ſi je ne pourray point adoucir ma ti<lb />greſſe par une ſerenade. Il n’y a rien par fois qui ſoit
+<lb /> touemimiqu'u amant qui vient chanter ſes do<lb />leances aux gonds &amp; aux verroux de la porte de ſa
+<lb />maiſtreſſe. Voicy dequoy accompagner ma voix. O
+<lb />nuit, ô chere nuit, porte mes plaintes amoureuſes juſ<lb />ques dans le lit de mon inflexible.
+</p>
+<p type="MainZone-Other"><lb />Il chante ſes parole.
+</p>
+<p type="MainZone-Lg"><lb />Otte'e di v’amo'e v'adoro
+<lb />Cerco’un ſi per mio riſtoro,
+<lb />Mà ſevoi dite di nò
+<lb />bel ingihiajo moraies
+</p>
+<p type="MainZone-Lg"><lb />Fra la ſperanza
+<lb />S’afflige’ il cuere,
+<lb />In lontananza
+<lb />Conſum a l’hore;
+<lb />Si dolce’ inganno
+<lb />Che mi figura
+<lb />Breve l’affanno,
+<lb />Ahi troppo dura,
+<lb />Coſi per trop'amar lauguiſcoe muero
+<lb />Notte e div’amo’e v’adoro
+<lb />Cerco'ùn ſi per mio riſtoro,
+<lb />Mà ſervoi dite di nò
+<lb />Bell’ingrata jo meritò.
+</p>
+<p type="MainZone-Lg"><lb />Se non dormite,
+<lb />Al men penſute
+<lb />Alle ferite
+<lb />Ch’al cuor mifate,
+<lb />Deh almen fingete
+<lb />Permio conforto,
+<lb />Se m’uccidete,
+<lb />D’haver il torto:
+<lb />Voſtra pieta mi ſcemera' il martore
+<lb />Nott’e di v’amo’e vadoro,
+<lb />Cerco’un ſi per mio riſtoro,
+<lb />Mà ſevoi dite di nò
+<lb />Bell’ingrata jo morirò
+</p>
+<p type="MainZone-P"><lb />Une vieille ſe preſente à la feneſtre, &amp; répond
+<lb />au Seignor Polichinelle en ſe mocquant de luy.
+</p>
+<p type="MainZone-Lg"><lb />*7 Erbinetti ch’ogn’hor confintiſguardi,
+<lb />LMentiti deſiri,
+<lb />Fallaci ſoſpiri,
+<lb />Accenti buggiardi,
+<lb />Difede vi preggiate;
+<lb />Ah che non mingannate.
+<lb />Che gia sò per prova,
+<lb />Ch’in voi non ſi trova
+<lb />Coſtanza ne fede;
+<lb />Oh quanto'è pazza colei che vi crede.
+</p>
+<p type="MainZone-Lg"><lb />Quei ſguardi languidi
+<lb />Non minnamorano,
+<lb />Quei ſoſpir fervidi
+<lb />Più non m’infiammane
+<lb />Vel giuro' a fe.
+<lb />Zerbino miſero
+<lb />Del voſtro piangere
+<lb />Il mio cor libero
+<lb />Vvol ſempre ridere
+<lb />Crede t’à mè
+<lb />Chegiasò per prova,
+<lb />Chie voi non ſi trova
+<lb />Conſtanza ne fede;
+<lb />Oh quanto' è pazza colei che vi crede.
+</p>
+<sp type="MainZone-Sp"><lb />VIOIOIIJ.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Quelle impertinente harmonie vient interrompre
+<lb />icy ma voix.
+<fw><lb />Violons.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Paix-là, taiſez-vous, Viotons. Luiſſez-moy-me
+<lb />Plaindre à mon aiſe des cruautez de mon inexoralils,
+<lb />j
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Taiſez-vous, vous dis-je. C’eſt moy qui veux chanter.
+<lb />VIOIOIIS.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Paix donc.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />Obhh.
+<lb />POLICHINELLE.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />Ahy.
+<lb />POLICHINELLE.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Eſt-ce pourrire?
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICAINELLE.
+<lb />Ha, que de bruit.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELIE.
+<lb />Le diable vous emporte.
+<lb />a leſcuor,
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />Penrage.
+<lb />POLICHINELLE.
+<fw><lb />Violoris.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />POLIGHINELIE.
+<lb />Vous ne vous tairez pas? Ah Dieu ſoit loüé,
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />Encore?
+<lb />POLICHINELLE.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Peſte des violons.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />La ſotte Muſique que voilà.
+<lb />v Iolons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />La, la, la, la, la, la.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />OLICHINELLE.
+<lb />Ei ia, ini da, a, int
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLIGHINELLE.
+<lb />La, la, la, la, la, la.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />La, la, la, la, la, la.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />OLICHINELLE.
+<lb />La, la, la, la, la, la.
+<lb />Violons.
+</sp>
+<sp type="MainZone-Sp"><lb />OLICHINELLE.
+<lb />Par ma foy cela me divertit. Pourſuivez, Meſ<lb />fieurs les Violons, vous me ferez plaiſir. Allons donc,
+<lb />continuez. Je vous en prie. Voilà le moyen de les faire
+<lb />taire. La Muſique eſt accouſtumée à ne point faire ce
+<lb />qu’on veut. Ho ſus à nous- Avant que de chanter il
+<lb />faut que je prelude un peu, &amp; joüe quelque piece
+<lb />afin de mieux prendre mon ton. Plan, plan, plan.
+<lb />Plin, plin, plin. Voilà un temps facheux pour met<lb />tre un Luth d’accord. Plin, plin, plin. Plin, tant
+<lb />plan. Plin, plin. Les cordes ne tiennent point par ce
+<lb />temps-là. Plin: plan. J'entens du bruit, mettens
+<lb />mon Luth contre la porte.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Qi bhin yquen lne
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Qui diable eſt cela? eſt-ce c’eſt que la mode de parler
+<lb />en Muſiqne.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Qui va-là, qui va-là, qui va-là,
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Qui va-là, qui va-là, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Moy, moy, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />d maagje maqe
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />OLICHINELLE,
+<lb />Moy, mey, moy, moy, moy, may.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Dy ton nom, dy ton nom, ſans davantage attendre,
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />din nom esi, da lejaire penure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Icy camarade, icy.
+<lb />Saiſiſſons l’inſolent qui nous répond ainſi.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Tout le Guet vient qui cherche Polichinelle dans
+<lb />Ia nuit.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />æ
+<lb />PPOLICHINELLE.
+<lb />Qui va-là.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />PPOLICHINLLE.
+<lb />Qui ſont les coquins que j’entens.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Vioions &amp; Dançeurs.
+</sp>
+<p type="MainZone-Other"><lb />Euh.
+</p>
+<p type="MainZone-Entry"><lb />POLICHINELLE.
+<lb />Hola mes Laquais, mes gens.
+<lb />Violons &amp; Dançeurs.
+</p>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />amiaierrs
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />Par la ſan
+<lb />POLCHINELLE.
+<lb />T.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />J'en jetteray par terre.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Champagne, Poitevin, Picard, Baſque, Breton.
+<lb />Violons &amp; Dançeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Donnez-moy mon Mouſqueton.
+<lb />v iololis et Dangeulo.
+</sp>
+<sp type="MainZone-Sp"><lb />Pouë.
+<lb />POLICHINELLE.
+<lb />Ils tombent tous par terre.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Ah, ah, ah, ah, comme je leur ay donné l’épouvan<lb />te. Voilà de ſottes gens d’avoir peur de moy qui ay peur
+<lb />des autres. Ma foy il n’eſt que de joüer d’adreße en ce
+<lb />monde. Si je n’avois tranché du grand Seigneur, &amp;
+<lb />n’avois fait le brave, ils n’auroient pas manqué de
+<lb />me haper. Ah, ah, ah.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Nous le tenons, à nous camarades à nous.
+<lb />Dépechez, de la lumiere.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Tout le Guet vient avec des lanternes,
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Ah traitre, ahfripon, c’eſt donc vous
+<lb />Faquin, maraut, pendart, impudent, temeraire,
+<lb />Inſolent, effronté, coquin, fitou, voleur,
+<lb />Vous oſez nous faire peur.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIGHINELLE.
+<lb />Meſſieurs, c’eſt que j’eſtois yvre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Non, non; non poini ne raiſon.
+<lb />Il faut vous apprendre à vivre,
+<lb />En priſon, viſte, en priſon.
+</sp>
+<sp type="MainZone-Sp"><lb />OLICHINELLE,
+<lb />Meſſieurs je ne ſuis point veleur.
+</sp>
+<sp type="MainZone-Sp"><lb />En priſon.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />POLTCAINELLE.
+<lb />Je ſuis un Bourgeois de la Ville.
+</sp>
+<sp type="MainZone-Sp"><lb />un priſon.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />&amp;l Ieinie
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />En prijon, viſte en prijon.
+</sp>
+<sp type="MainZone-Sp"><lb />LICHINELLE.
+<lb />Meſſieurs, laiſſez-moy aller.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />je vous prie.
+<lb />POLTOHIMALLE.
+</sp>
+<sp type="MainZone-Sp"><lb />Eh.
+<lb />POLICHINELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />De grace.
+<lb />POLICHINELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, non.
+<lb />le caEiS
+</sp>
+<sp type="MainZone-Sp"><lb />Meſſieurs.
+<lb />POLICHINELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Non, non, non.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Qu del Fraist.
+</sp>
+<sp type="MainZone-Sp"><lb />Ren, non.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />Par chari té
+<lb />POLICHINELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, non.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICAINELLES
+<lb />Au nom du Ciel.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, non.
+<lb />ARCHERS.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Miſericorde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Non, non, non, point de raiſon,
+<lb />Il faut vous apprendre à vivre,
+<lb />En priſon viſte, en priſon.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINLLE.
+<lb />Eh n’eſt-il rien, Meſſieurs, qui ſoit capable d’at<lb />tenuin cosaide
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Il eſt aiſé de nous toucher,
+<lb />Et nous ſommes humains plus qu’on ne ſçauroit croire,
+<lb />Domnee nom houcement ſix piſtoles pour boire
+<lb />Nous allons vous lâcher.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Helas, Meſſteurs, je vous uſſearé que je n’ay pas uu
+<lb />ſoû ſur moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Au deffaut de ſix piſtoles,
+<lb />Ononjfoouonc fans fa çon
+<lb />D’avoir trente croquignoles,
+<lb />Ou douze coups de baſton.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHTNELLE.
+<lb />Si c’eſt une neceſſité, &amp; qu’il faille en paßer par
+<lb />là, je choiſis les croquinoles.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Allons preparez-vous,
+<lb />ui vomuo cien les coups.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Les Archers Dançeurs luy donnent des croqui<lb />gnoles en cadence.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Vn &amp; deux. Trois &amp; quatre. Cinq &amp; ſix. Sept
+<lb />&amp; huit: Ronj O uiie. Onze &amp; douze, &amp; treize,
+<lb />&amp; quatorZe &amp; quinZe.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Ah, ah, vous en voulez paſſeri
+<lb />Allons, c’eſt à recommencer.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Ah, Meſſieurs, ma pauvre teſte n'en pent plus,
+<fw><lb />
+</fw><lb />&amp;n vous venez de me la rendre comme une pomme cui<lb />te. I’aime mieux encore les coups de baſtons que de re<lb />Commenter.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Soit, puiſque le baſton est pour vous plus charmant.
+<lb />Vous aurez contentement.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Les Archers Dançeurs luy donnent des coups de
+<lb />baſtons en cadence.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Vn, deux, trois, quatre, cinq, ſix, ah, ah, ah,
+<lb />je ne ſçaurois plus reſiſter. TeneZ, Meſſteurs, voill
+<lb />ſix piſtoles que je vous donne.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Ah l’honneſte homme, ah l’ame noble &amp; belle,
+<lb />Adieu Seigneur, adieu, Seigneur Polichinelle.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Meſſieurs, je vons uonne te vun u Joir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Adieu Seigneur, adieu, Seigneur Polichinelle.
+</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Voſtre ſerviteur.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Adieu, Seigneur, adieu, Seigneur Polichinelle,
+</sp>
+<sp type="MainZone-Sp"><lb />OLTCAINELLE.
+<lb />Tres-humble valet.
+</sp>
+<sp type="MainZone-Sp"><lb />ARCHERS.
+<lb />Adieu Seigneur, adieu, Seigneur Polichinelle</sp>
+<sp type="MainZone-Sp"><lb />POLICHINELLE.
+<lb />Iuſqu’au revoir.
+</sp>
+<sp type="MainZone-Sp"><lb />BALLET.
+<lb />Ils dançent tous en réjoüiſſance de l’argent
+<lb />qu’ils ont receu.
+</sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />SECOND.
+<lb />SCENE PREMIERE.
+<lb />TOINETTE, CLEANTE.
+<fw><lb />TOINETTE.
+<lb />Je demandez-vous, Moineur s
+<lb />CLEANTE.
+<lb />Ce que je demande?
+</fw></p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />nez-vous faire ceans?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Sçavoir ma Deſtinée, parler a l’aimable Ange<lb />dique, conſulter les ſentimens de ſon cœuf, &amp; luy
+<lb />demander ſes reſolutions ſur ce mariage fatal, dont
+<lb />on m’a averty.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Oüy, mais on ne parle pas comme cela de but
+<lb />en blanc à Angelique. Il y faut des myſteres, &amp;
+<lb />I’on vous a dit l’étroite garde où elle eſt retenuë.
+<lb />Qu’on ne la laiſſe ny ſortir, ny parler à perſonne,
+<lb />&amp; que ce ne fut que la curioſité d’une vieille tar
+<lb />te qui nous fit accorder la liberté d’aller à cette
+<lb />Comedie, qui donna lieu à la naiſſance de voſtre
+<lb />paſſion, &amp; nous nous ſommes bien gardez de parler
+<lb />de cette avanture.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Auſſi ne viens-je pas icy comme Cleante, &amp;
+<lb />ſous l’apparence de ſon amant, mais comme amy
+<lb />de lon malitie de Manque yuone juy obtenu le
+<lb />pouvoir de dire qu’il m’envoye à ſa place.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />voicy ſon pele. Retſien-vous un peu; &amp; ma
+<lb />laiſſez luy dire que vous eſtes là.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ARGAN, TOINETTE.
+<lb />CLEANTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Onneur Purgon m'a dit de me promener le
+<lb />IVI matin dans ma chambre douze allées &amp; ve<lb />nues, mais jay ouphe à luy demandern c’eſt en
+<lb />long ou en large.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Monſieur, voilà un......
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />parle ban y penttarte, eu viens ill’ébranler tout
+<lb />le cerveau, &amp; tu ne ſonges pas qu’il ne faut point
+<lb />parler ſi haut à des mala des.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je voulois vous dire Monſieur......
+</sp>
+<sp type="MainZone-Sp"><lb />AROAN.
+<lb />Parle bas, te dis-je.
+<lb />E ij
+</sp>
+<sp type="MainZone-Sp"><lb />Moimeul...,.
+<lb />TOINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Eh 2
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je vous dis que......
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’eſt-ce que tu dis?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je dis que voila un homme qui veut parler à
+<lb />vous.
+</sp>
+<sp type="MainZone-Sp"><lb />qu’il vienne.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />AOIAVRTTEI
+<lb />Ne parlez pas ſi haut, de peur d’ébranler le
+<lb />cerveau de Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Monſieur, je ſuis ravy de vous trouuer de<lb />bout, &amp; de voir que vous vous portez mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Comment qu’il ſe porte mieux, cela eſt faux,
+<lb />Momneur le polte toujouis mar.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />J’ay oüy dire que Monſieur eſtoit mieux, &amp; je
+<lb />luy trouve bon viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />TOITTE.
+<lb />que voulez-vous dire avec voſtre bon viſage,
+<lb />Monſieur l’a fort mauvais, &amp; ce ſont des imper<lb />tinens qui vous ont dit qu’il eſtoit mieux, il ne
+<lb />s’eſt jamais ſi mal porté:
+</sp>
+<sp type="MainZone-Sp"><lb />ille a raiſon.
+<lb />ARGAN.
+<lb />Il marche, dort, mange &amp; boit tout com<lb />me les autres, mais cela n’empeſche pas qu’il ne
+<lb />ſoit fort malade.
+</sp>
+<sp type="MainZone-Sp"><lb />Cela eſt vray.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Monſieur, j’en ſuis au deſeſpoir. Je viens de la
+<lb />part du maiſtre à chanter de Mademoiſelle voſtre
+<lb />fille; Il s’eſt veu obligé d’aller à la campagne
+<lb />pour quelques jours, &amp; comme ſon amy intime,
+<lb />il m’envoye à ſa place pour luy continuer ſes le<lb />çons, de peur qu’en les interrompant, elle ne
+<lb />vinſt à oublier ce qu’elle ſçait déja.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />rort bien, appellez Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je croy, Monſieur, qu’il ſera mieux de mener
+<lb />Monſieur à ſa chambre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Non , larteo lae voHir.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Il ne-pourra luy donner leçon come el faut,
+<lb />s’ils ne ſont en particulier.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Siffet, ſiffet.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Monſieur, cela ne fera que vous étourdir, &amp; il
+<lb />ne faut rien pour vous émouvoir en l’eſtat où vous
+<lb />eſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Point, point, j’aime la Muſique, &amp; je ſeray bien
+<lb />aiſe de..... Ah la voicy. Allez-vous-en voir,
+<lb />vous, ſi ma femme eſt habillée.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ARGAN, ANGELIQUE,
+<lb />CLEANIE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />JEnez, ma fille, voſtre maiſtre de Muſique
+<lb />V eſt allé au champs, &amp; voila une perſonne
+<lb />qu’il envoye à ſa place pour vous montrer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />An Ciel.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’eſt-ce? D’ou vient cette furpriſe?
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt....
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Quoy: qui rous cineut de la ſorte?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’eſt, mon pere, une avantuie lurprenante qui
+<lb />ſe rencontre icy.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />J’ay ſongé cette nuit que j’eſtois dans le plus
+<lb />grand embarras du monde, &amp; qu’une perſonne
+<lb />faite tout comme Monſieur s’eſt preſentée à
+<lb />moy, à qui j’ay demandé ſecours, &amp; qui m’eſt
+<lb />venu tirer de la peine où j’eſtois, &amp; ma ſurpri<lb />ſe a eſté grande de voir inopinément en arrivant
+<lb />icy, ce que j’ay eu dans l’idée toute la nuit,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Ce n’eſt pas eſtre mal-heureux que d’occuper
+<lb />voſtre penſée, ſoit en dormant ſoit en veillant, &amp;
+<lb />mon bonheur ſeroit grand ſans doute, ſi vous
+<lb />eſtiez dans quelque peine dont vous me jugeaſſiez
+<lb />digne de vous tirer: &amp; il n’y a rien que je ne fiſſe
+<lb />pour.....
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />AIIEJEEEANTE,
+<lb />ANGELIQUE, ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE<lb />A foy, Monſieur, je ſuis pour vous mainte<lb />Mnant, &amp; je me dedis de tout ce que je diſois
+<lb />hier. Voicy Monſieur Diafoirus le pere, &amp; Mon<lb />fieur Dyafoirus le fils qui viennent vous rendre vi<lb />nter que vous leren bien engendre: volis allez
+<lb />voir le garçon le mieux fait du monde, &amp; le plus
+<lb />ſpirituel: Il n’a dit que deux mots qui m’ont ra<lb />vie, &amp; voſtre fille va eſtre charmée de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ne vous en allez point, Monſieur, c’eſt que
+<lb />je malte ma fille, &amp; voilà qu’on luy amene ſon
+<lb />pretendu mary, qu’elle n’a point encore veu.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />C'eit in nonorer beaucoup, Monſieur, de vouloir
+<lb />que je ſois témoin d’une entre veuë ſi agreable.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />C’eſt te fils d’un habile Medecin, &amp; le maria<lb />ge ſe fera dans quatre jours.
+</sp>
+<sp type="MainZone-Sp"><lb />rort bien.
+<lb />CLEANTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mandez-le un peu à ſon maiſtre de Muſique,
+<lb />afin qu’il ſe trouve a la nopce
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Je n’y manqueray pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je vous y prie auſſi,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Vous me faites beaucoup d’honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />le iaui nnns
+<lb />Allons qu’on ſe range, les voicy.
+</sp>
+<p type="MainZone-Head"><lb />ARGAN. Il met la main à ſon bonnet
+<lb />ſans l'oſter.
+<lb />Onſieur purgon, Monſieur, m’a défendu
+<lb />M de découvrir ma reſte. Vous eſtes du mé<lb />tier, vous ſçavez les conſequences.
+</p>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />M. DYAFOIRUS, THOMAS DYA<lb />FOIRUS, ARGAN, ANGELI<lb />QUE, CLEANTE, TOINETTE.
+</p>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Tous fommes dans toutes nos viſites pour por<lb />ter ſecours aux malades, &amp; non pour leur porter
+<lb />de lincommodite.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je reçois, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Nous venons icy, Monſieur.....
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Avec beaucoup de joye.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />von fils rhomas &amp; moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />L’honneur que vous me faites.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Vout témoigner, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />Ancairle
+<lb />Et j’aurois ſouhaité
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Le raviſſement où nous ſommes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ne pouvoir aller chez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />de la glace que vous norcmia.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />pour vous en aſſeurer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />ne vouloir bien nous recevoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mais vous ſçavez, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M.DIADOINUS,
+<lb />pans l’honneur, Monſieur,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce que c’eſt qu'un pauvre malade
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />De toitre amance.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qui lle peut lane autie enore..
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Et vous aſſeurer.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />que de vous dire icy j
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />que dans les choſes qui dépendront de noſtre
+<lb />meſtier.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’il cherchera toutes les occaſions.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />ne meſme qu’en toute autre
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ne vous faire connoiſtre, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIHTCIRUS.
+<lb />Nous ſerons toûjours preſts, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’il eſt tout à voſtre ſervice.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />A vous témoigner noſtre zele. Allons, Tho<lb />tiias j a vaneen, faites vos complimens.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />N eit-ce pas par le pele qu'il con viene comencer,
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />M. DYAFOIRUS.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Monſieur, je viens ſaluër, reconnoiſtre, che<lb />rir, &amp; reverer en vous un ſecond pere, mais un
+<lb />ſecond pere, auquel j’oſe dire que je me trouve
+<lb />plus redevable qu’au premier. Le premier m’a
+<lb />engendré, mais vous m’avez choiſi Il m’a re<lb />ceu par neceſſité, mais vous m’avez accepté par
+<lb />grace. Ce que je tiens de luy eſt un ouvrage de
+<lb />ſon corps, mais ce que je tiens de vous eſt un
+<lb />ouvrage de voſtre volonté: Et d’autant plus que
+<lb />les facuitez Ipllituelles font au deirus des corpo<lb />relles, d’autant plus je vous dois, &amp; d’autant
+<lb />plus je tiens precieuſe cette future filiation, dont
+<lb />je viens aujourd’huy vous rendre par avance les
+<lb />tres-humbles, &amp; tres-reſpectueux hommages.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vive les Colleges d’où l’on ſort ſi habile homme.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DIAFOIRUS.
+<lb />Cela a-t’il bien eſté, mon pere.
+<fw><lb />uve
+<lb />m?
+<lb />1t4
+<lb />2 d
+<lb />tuE
+<lb />que
+<lb />D1.
+<lb />le
+<lb />ortie.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allons, ſaluez Monſeur.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Baiſeray-je?
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Oüy, oüy.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />matiamſe, ceit avec juſtice que le Ciel vous a
+<lb />concedé le nom de belle-mere, puiſque l'on....
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce n’eſt pas ma femme, c’eſt ma fille à qui
+<lb />vous parles.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />eu done elt ene.
+</sp>
+<sp type="MainZone-Sp"><lb />EllE va venil,
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Attendray. je, mon pere, qu’elle ſoit venuë.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />raites toûjours le compliment de Mademoiſelle.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Mademoiſelle, ne plus ne moins que la ſtatuë de
+<lb />Memnon rendoit un ſon harmonieux lors qu’elle
+<lb />venoit à eſtre éclairée des rayons du ſoleil, tout
+<lb />de meſme me ſens-je animé d’un doux tranſport à
+<lb />l’apparition du ſoleil de vos beautez; &amp; comme
+<lb />les Naturaliſtes remarquent que la fleur nommée
+<lb />Heliotrope tourne ſans ceſſe vers cét aſtre du jour,
+<lb />auſſi mon cœur d’oreſnavant tournera-t’il toû<lb />jours vers les aſtres reſplandiſſans de vos yeux
+<lb />adorables, ainſi que vers ſon pole unique. Souf<lb />frez donc, Mademoiſelle, que j’apande aujour<lb />d’huy à l’Autel de vos charmes l’offrande de ce
+<lb />cœur, qui ne reſpire &amp; n’amoruonle autre gloire
+<fw><lb />
+</fw><lb />que d’eſtre toute ſa vie, Mademoiſelle, voſtre
+<lb />tres-humble, tres-obeïſſant, &amp; tres-fidel ſervi<lb />teur &amp; mary.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE,
+<lb />Voilà ce que c’eſt que d’eſtudier, on apprend
+<lb />à dire de belles choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Eh, que dites vous de cela.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />que Monſieur fait merveilles, &amp; que s’il eſt auſſi
+<lb />bon Medecin qu’il eſt bon Orateur, il y aura plai<lb />ſir à eſtre de ſes malades.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />nnedrément. Ce ſera quelque choſe d’admira<lb />ble, s’il fait d’auſſi belles cures, qu’il fait de beaux
+<lb />diſcours.
+</sp>
+<sp type="MainZone-Sp"><lb />A RGAN.
+<lb />Allons viſte ma chaiſe, &amp; des ſieges à tout le
+<lb />monde, vettez-vous là, ma fille. Vous voyea,
+<lb />Monſieur, que tout le monde admire Monſieur vo<lb />ſtre fils, &amp; je vous trouve bien-heureux de vous
+<lb />voir un garçon comme cela.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Monſieur, ce n’eſt pas parce que je ſuis ſon pere,
+<lb />mais je puis dire que j’ay ſujet d’eſtre contens de
+<lb />luy, &amp; que tous ceux qui le voyent en parlent
+<lb />comme d’un garçon qui n’a point de méchanceté.
+<lb />Il n’a jamais eu l’imagination bien vive, ny ce feu
+<lb />d’eſprit qu’on remarque dans quelques-uns; mais
+<lb />c’eſt par là que j’ay toûjours bien auguré de ſa judi<lb />ciaire qualité requiſe pour l'exercice de noſtre art.
+<lb />rors qu’il eſtoit petit, il n’a jamais eſté ce qu’on
+<lb />appelle miévre &amp; éveillé. On le voyoit toûjours
+<lb />doux, paiſible, &amp; taciturne, ne diſant jamais mot,
+<lb />&amp; ne joüant jamais à tous ces petits jeux que l’on
+<lb />nomme enfantins. On eut toutes les pemes de
+<lb />monde
+<lb />monde à luy aprendre à lire, &amp; il avoit neuf ans
+<lb />qu’il ne connoiſſoit pas encore ſes lettres. Bon,
+<lb />diſois je en moy-meſme, les Arbres tardifs ſont
+<lb />ceux qui portent les meilleurs fruits. On grave ſur
+<lb />le marbre bien plus malaiſément que ſur le ſable,
+<lb />mais les choſes y ſont conſervées bien plus long<lb />temps, &amp; cette lenteur à comprendre, cette peſan<lb />teur d’imagination eſt la marque d’un bon juge<lb />ment à venir. Lors que je l’envoyay au Col<lb />lege il trouva de la peine, mais il ſe roidiſſoit
+<lb />contre les difficultez, &amp; les Regens ſe loüoient
+<lb />toûjours à moy de ſon aſſiduité, &amp; de ſon tra<lb />yail. Enfin à force de battre le fer, il en eſt
+<lb />venu glorieuſement à avoir des Licences, &amp; je puis
+<lb />dire ſans vanité que depuis deux ans qu’il eſt ſur
+<lb />les bancs, il n’y a point de Candidat qui ait fait
+<lb />plus de bruit que luy dans toutes les diſputes de no<lb />ſtre ecole, il s’y eſt rendu redoutable, &amp; il ne s’y
+<lb />paſſe point d’Acte où il n’aille argumenter à ou<lb />trance pour la propoſition contraire. Il eſt ferme
+<lb />dans ſa diſpute, fort comme un rurc ſur les prin<lb />cipes, ne demord jamais de ſon opinion, &amp; pour<lb />ſuit un raiſonnement juſques dans les derniers re<lb />coins de la Logique; mais ſur toute choſe, ce qui
+<lb />me plaiſt en luy, &amp; en quoy il ſuit mon exemple,
+<lb />c’eſt qu’il s’attache aveuglement aux opinions de
+<lb />nos Anciens, &amp; que jamais il n’a voulu comprendre
+<lb />ny écouter les raiſons &amp; les experiences des preten<lb />duës découvertes de noſtre ſiecle, touchant la circu<lb />Jation du ſang &amp; autres opinions de méme forme.
+<lb />T. DYAFOIRUS. Il tire une Theſe de ſa
+</sp>
+<sp type="MainZone-Sp"><lb />poche qu’il preſente.
+<lb />J’ay contre les Circuſateurs ſouſtenu une rheſe
+<lb />qu’avec la permiſſion de Monſieur, j’oſe preſenter
+<lb />à Mademoiſelle, comme un hommage que je luy
+<lb />dois des premices de mon eſprit.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Monſieur, c’eſt pour moy un meuble inutile, &amp;
+<lb />je lleme connois pas à ces clolesvia.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Donnez, donnez, elle eſt toûjours bonne à pren<lb />dre pour l’image, cela ſervira à parer noſtre cham<lb />bre.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Avec la permiſſion auſſi de Monſieur, je vous in<lb />vite à venir voir l’un de ces jours pour vous diver<lb />tir, la diſſection d’une remme luiquoy je dois rai<lb />ſonner.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />re divertiſſement ſera agreable. Il y en a qui
+<lb />donnent la Comedie à leurs Maiſtreſſes, mais don<lb />ner une diſſection eſt quelque choſe de plus galãd.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Au reſte, pour ce qui eſt des qualitez requiſes
+<lb />pour le mariage &amp; la propagation, je vous aſſeure
+<lb />re que ſelon les regles de nos nocteurs, il eſt tel
+<lb />qu'oi le peut ſouhaiter. qu’il poſſede en un degré
+<lb />Iouable la vertu politique, &amp; qu’il eſt du tempe<lb />rament qu’il faut pour engendrer &amp; prociéer des
+<lb />enfans bien conditionnez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />N’eſt-ce pas voſtre intention, Monſieur, de le
+<lb />fouſſer à la Cour, &amp; d’y ménager pour luy une
+<lb />charge de Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />A vous en parler franchement, noſtre métier au<lb />prés des crands ne m’a jamais paru agreable, &amp; j’ay
+<lb />toûjours trouvé qu’il valoit mieux, pour nous au<lb />tres, demeurer au public. Le public eſt commode,
+<lb />vous n’avez à répondre de vos actions à perſonne,
+<lb />&amp; pourveu que l’on ſuive le courant des regles de
+<lb />Fark, on ne ſe mev point en peme de toutce que
+<lb />peut arriver. Mais ce qu’il y a de fâcheux auprés
+<lb />des grands, c’eſt que quand ils viennent à eſtre
+<lb />malades, ils veulent abſolument que leurs Mede<lb />cins les gueriſſent.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Cela eſt plaiſant, &amp; ils ſont bien impertinens de
+<lb />vouloir que vous autres Meſſieurs vous les gueriſ<lb />ſiez. Vous n’eſtes point auprés d’eux pour cela.
+<lb />Vous n’y eſtes que pour recevoir vos penſions, &amp;
+<lb />leur ordonner des remedes, c’eſt à eux à guerir
+<lb />s’ils peuvent.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Cela eſt vray; On n’eſt obligé qu’à traiter les
+<lb />gens dans les formes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARUAN.
+<lb />Monſieur, faites un peu chanter ma fille devant
+<lb />la compagnie.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />J’attendois vos ordres, Monſieur, &amp; il m’eſt ve<lb />llu en pentées poundrtertinla compagnie, de cham<lb />ter avec Mademoiſelle une Scene d’un petit Ope<lb />la qu’on a laſt depuis ped. Penez, vona voſtre par<lb />tie.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy.
+<lb />ANGELIQUE.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANTE.
+<lb />Ne vous deffendez point, s’il vous plaiſt, &amp; me
+<lb />laiſſez vous faire comprendre ce que c’eſt que la
+<lb />scene que nous de vons chanter. Je n’ay pas une
+<lb />voix à chanter; mais il ſuffit que je me faſſe enten<lb />dre, &amp; l’on aura la bonté de m’excuſer par la ne<lb />ceſſité où je me trouve de faire chanter Mademoi<lb />ſelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />res vers en ſont-ils beaux?
+<fw><lb />F
+</fw></sp>
+<sp type="MainZone-Sp"><lb />C’eſt proprement icy un petit Opera improm<lb />ptu, &amp; vous n’allez entendre chanter, que de la
+<lb />Proſe cadencée, ou des manieres de Vers libres,
+<lb />tels que la paſſion &amp; la neceſſité peuvent faire
+<lb />liourer à deux perſonnes qui liſent les choſes
+<lb />d’eux-meſmes, &amp; parlent ſur le champ.
+</sp>
+<sp type="MainZone-Sp"><lb />An e n na
+<lb />tort bien. ecoutons.
+</sp>
+<p type="MainZone-P"><lb />CLEANTE.
+<lb />Voicy le ſujet de la ſcene. Un Berger eſtoit atten<lb />tif aux beautez d'un ſpectacle qui ne faiſoit que de
+<lb />commencer, lors qu’il fut tiré de ſon attention
+<lb />par un bruit qu’il entendit à ſes coſtez. Il ſe retour<lb />ne, &amp; voit un brutal, qui de paroles inſolentes mal<lb />traitoit une nergere. D’abord il prend les intereſts
+<lb />d’un ſexe à qui tous les hommes doivent homma<lb />ge, &amp; aprés avoir donné au brutal le chaſtiment
+<lb />de ſon inſolence il vient à la Bergere, &amp; voit une
+<lb />jeune perſonne, qui des deux plus beaux yeux qu’il
+<lb />euſt jamais veus, verſoit des larmes, qu’il trouva
+<lb />les plus belles du monde. Helas! dit-il en luy-meſ<lb />me, eſt-on capable d’outrager une perſonne ſi ai<lb />mable! Et quel inhumain, quel barbare ne ſeroit
+<lb />touché par de telles larmes? Il prend ſoin de les
+<lb />arreſter, ces larmes qu’il trouve ſi belles, &amp; l’ai<lb />mable sergere prend ſoin en meſme temps de le
+<lb />remercier de ſon leger ſervice, mais d’une manie<lb />re ſi charmante, ſi tendre, &amp; ſi paſſionnée, que
+<lb />Ie Berger n’y peut reſiſter, &amp; chaque mot, chaque
+<lb />regard, eſt un trait plein de flame, dont ſon cœur
+<lb />ſe ſent penetré. Eſt-il, diſoit-il, quelque choſe
+<lb />qui puiſſe meriter les aimables paroles d’un tel re<lb />ciment? Et que ne voudroit-on pas faire, à quels
+<lb />ſervices, a quels dangers ne ſefpit-on pas lavy de
+<lb />courir pour s’attirer un ſeul moment les touchan<lb />tes douceurs d’une ame ſi reconnoiſſante? Tout
+<lb />le ſpectacle paſſe ſans qu’il y donne aucune atten<lb />tion; mais il ſe plaint qu’il eſt trop court, parce
+<lb />qu’en finiſſant il le ſepare de ſon adorable Bergere,
+<lb />&amp; de cette premiere veuë, de ce premier moment
+<lb />il emporte chez luy tout ce qu’un amour de plu<lb />ſieurs années peut avoir de plus violent. Le voilà
+<lb />auſſi-toſt à ſentir tous les maux de l’abſence, &amp; il
+<lb />eſt tourmenté le ne plus voir ce qu’il a ſi peu veu.
+<lb />Il fait tout ce qu’il peut pour ſe redonner cette
+<lb />veuë, dont il conſerve nuit &amp; jour une ſi che<lb />re idée, mais la grande contrainte où l’on tient ſa
+<lb />sergere luy en oſte tous les moyens. La violence
+<lb />de ſa paſſion le fait reſoudre à demander en maria<lb />ge l’adorable beauté ſans laquelle il ne peut plus
+<lb />vivre, &amp; il en obtient d’elle la permiſſion par un
+<lb />billet qu’il a l’adreſſe de luy faire tenir. Mais dans
+<lb />le meſme temps on l’avertit que le pere de cette
+<lb />belle a conclu ſon mariage avec un autre, &amp; que
+<lb />tout ſe diſpoſe pour en celebrer la ceremonie. Ju<lb />gez quelle atteinte cruelle au cœur de ce triſte Ber<lb />ger. Le voilà accablé d’une mortelle douleur. Il
+<lb />ne peut ſouffrir l’effroyable idée de voir tout ce
+<lb />qu’il aime entre les bras d’un autre, &amp; ſon amour
+<lb />au deſeſpoir luy fait trouver moyen de s’introduire
+<lb />dans la maiſon de ſa Bergere, pour apprendre ſes
+<lb />ſentimens, &amp; ſçavoir d’elle la deſtinée à laquelle
+<lb />il doit ſe reſoudre. Il y reucontre les appreſts de
+<lb />tout ce qu’il craint. Il y voit venir l’indigne rival
+<lb />que le caprice d’un pere oppoſe aux tendreſſes de
+<lb />ſonamour. Il le voit triomphant, ce rival ridicu<lb />le, auprés de l’aimable Bergere, ainſi qu’auprés
+<lb />d’une conqueſte qui luy eſt aſſeurée, &amp; cette veuë
+<lb />le remplit d’une colere dont il a peine à ſe rendre
+<lb />le maiſtre. Il jette de douloureux legartis lur cenſe
+<lb />qu’il adore, &amp; ſon reſpect &amp; la preſence de ſon
+<lb />pere, l’empeſchent de luy rien direſque des yeux;
+<lb />mais enfin il force toute contrainte, &amp; le tranſport
+<lb />de ſon amour l’oblige à luy parler ainſi.
+</p>
+<sp type="MainZone-Sp"><lb />Elle Philis, c’eſt trop, c’eſt trop ſouffrir;
+<lb />DRompons ce dur ſilence, &amp; m’ouvrez vos pen<lb />ſées;
+<lb />Eipprente-moy ma lepince ,
+<lb />Faut-il vivre? faut-il mourir?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Voxs me voyez, Tircis, triſte &amp; melancolique
+<lb />A ix apreſts de l’Hymen dont vous vous allarmez,
+<lb />Je leve au Ciel mes yeux, je vous regarde, je ſoúpire
+<lb />C’eſt vous en dire aſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüais, je ne croyois pas que mia iille fuſt ſi ha<lb />bile que de chanter ainſi à Livre ouvert ſans heſi<lb />ter.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />dailis vocua rala,
+<lb />Se pourroit-il que l’amoureux Tircis
+<lb />Euſt aſſez de bonheur
+<lb />Pour avoir quelque place dans voſtre cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Jene m'en deffends point dans cette peine extréme,
+<lb />Oüy, Tircis, je vous a me.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />ai paroie, pleine d appirs
+<lb />Ay-je bien entendu, helas?
+<lb />Redites-la, Philis, que je n'en doute pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Oüy, Tircis, je vous aime.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />De grace encore Philis.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGEETGED.
+<lb />R vous ayme,
+<lb />Recommencez cent fots, ne vous en laſſez pas,
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je vous ayme, je vous ayme,
+<lb />Oüy, Tircis; je vous ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Dieux, Rois, qui ſous vos pieds regardez tout le monde,
+<lb />PouveZ vous comparer voſtre bonheur au mien;
+<lb />Mais, Philis, une penſée
+<lb />Vient troubler ce doux tranſport,
+<lb />Vn rival, un rival.....
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />uam ujo uumme pouis que en mort,
+<lb />Et ſa preſence ainſi qu’à vous
+<lb />Ml eſt un cruel jupplite.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Mais un pere à ſes vœux vous veut aßujettir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Pluſtoſt, pluſtoſt mourir
+<lb />Que de jamais y conſentir,
+<lb />Pluſtoſt, pluſtoſt mourir, pluſteſt mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />et que dit le pere à tout cela?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Il ne dit rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voilà un fot pere que ce pere-là, de ſouffrir tou<lb />tes ces ſottiſes-là, ſans rien dire.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Ah moz amour......
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Non, non, en voilà aſſez, cette Comedie-là
+<lb />eſt de fort mauvais exemple. Le Berger Tircis
+<lb />eſt un impertinent, &amp; la Bergere philis une im<lb />pudente de parler de la ſorte devant ſon pere.
+<lb />Montrez-moy ce papier. Ha, ha. Où ſont donc
+<lb />les paroles que vous avez dites? Il n’y a là que
+<lb />de la Muſique ecrite.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Eſt-ce que vous ne ſçavez pas, Monſieur, qu’on
+<lb />a trouvé depuis peu l’invention d’écrire les paroles
+<lb />avec les notes-meſmes?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />rort bien. Je ſuis voſtre ſerviteur, Monſieur, juſ<lb />qu’au revoir. Nous nous lerions bien paſſez de vo<lb />ſtre impertinent d’Opers.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />J’ay crû vous divertir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Les ſottiſes ne divertiſſent point. Ah voicy ma
+<lb />femme.
+<fw><lb />SCENE VI.
+<lb />BELINE, ARGAN, TOINETTE,
+<lb />ANGELIQUE, M. DYAFOIRUS,
+<lb />T. DYAFOTRUS.
+<lb />ARGAN.
+<lb />A mour, voilà le fils de M. Dyafoirus.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />IVT T.DYAFOIRUS.
+<lb />Madame, c’eſt avec juſtice que le Ciel vous a
+<lb />concede le nom de be-le’mnele, puiſque l'on voit
+<lb />ſur voſtre viſage.....
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Monſieur, je ſuis ravie d’eſtre venuë icy à pro<lb />pos pour avoir l’honneur de vous voir.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Puiſque l’on voit ſur voſtre viſage.... Madame,
+<lb />vous m’avez interrompu dans le milieu de ma pe<lb />riode, &amp; cela m’a troublé la memoire,
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />THomas, IcleNveecela pour die auticiolss
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je voudrois, ma mie, que vous euſſiez eſté icy
+<lb />tantoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ah, Madame, vous avez bien perdu de n’avoir
+<lb />poit eite au feconu pere y a la Ratde dt Memnon,
+<lb />&amp; à la rleur nommée Heliotrope.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allons, ma fille, touchez dans la main de Mon<lb />fieur, &amp; luy donnez voſtre foy comme à voſtre
+<lb />mary.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mon fele.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Hé bien, mon pere. qu’eſt-ce que cela veut dire?
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />pe grace ne precipitez pas les choſes. Donnez<lb />nous au moins le temps de nous connoiſtre, &amp; de
+<lb />voir naiſtre en nous l’un pour l’autre cette inclina<lb />tion ſi neceſſaire à compoſer une union parfaite.
+</sp>
+<sp type="MainZone-Sp"><lb />T.DIAFOIRUS.
+<lb />quant à moy, Mademoiſelle, elle eſt déja toute
+<lb />née en moy, &amp; je n’ay pas beſoin d’attendre da<lb />vantage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Si vous eſtes ſi prompt, Monſieur, il n’en eſt pas
+<lb />de meſme de moy, &amp; je vous avouë que voſtre me<lb />rite n’a pas encore fait aſſez d’imprenion dans mon
+<lb />ame.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ho bien, bien, cela aura tout le loiſir de ſe faire
+<lb />quand vous ſerez mariez enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />sh mon pere, donnez-moy du temps, je vous
+<lb />prie, le mariage eſt une chaîne, où l’on ne doit ja<lb />mais ſoûmettre un cœur par force; &amp; ſi Monſieur
+<lb />eſt honneſte homme, il ne doit point vouloir ac<lb />cepter une perſonne, qui ſeroit à luy par con<lb />trainte.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Nego conſequentiam. Mademoiſelle; je puis eſtre
+<lb />nomente nomme, ce voulon Dlei touo accepter
+<lb />des mains de Monſieur voſtre pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />C’eſt un méchant moyen de le faire aimer de
+<lb />quelqu’un, que de luy faire violence.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Nous liſons des anciens, Mademoiſelle, que leur
+<lb />couſtume eſtoit d’enlever par force de la maiſon
+<lb />des peles les hrles qu’on menoit marier, alin qu’il
+<lb />ne ſemblaſt pas que ce fuſt de leur couſentement
+<lb />qu’elles convolloient dans les bras d’un homme.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Les anciens, Monſieur, ſont les anciens, &amp; nous
+<lb />ſommes les gens de maintenant. Les grimaces ne
+<lb />ſont point neceſſaires dans noſtre ſiecle; &amp; quand
+<lb />un illaliage nous plarit, nous içavons iont bien y
+<lb />aller, ſans qu’on nous y traiſne Donnez-vous pa<lb />tience, ſi vous m’aimnez, Monſieur, vous devez
+<lb />vouloir tout ce que je veux.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />ouy, Mademonelle, juſques aux intereſts de
+<lb />mon amour excluſivement.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais la grande marque d’amour, c’eſt d’eſtre ſoû<lb />mis aux volontez de celle qu’on aime.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Diſtinguo, Mademoiſelle, dans ce qui ne regarde
+<lb />point ſa poſſeſſion, Concedo, mais dans ce qui là
+<lb />regarde, Nego.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous avez beau raiſonner, Monſieur eſt frais
+<lb />émoulu du College, &amp; il vous donneia toûjours
+<lb />voſtre reſte. Pourquoy tant reſiſter, &amp; refuſer la
+<lb />gloire d’eſtre attachée au corps de la raculté?
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />elle a peut-eſtre quelque inclination en teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE
+<lb />3i jen avois, Matfame, cile feloit telle que la
+<lb />raiſon &amp; l’honneſteté pourroient me la permettre.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGAN.
+<lb />Oüais, je joüe icy un plaiſant perſonnage.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Si j’eſtois que de vous, mon fils, je ne la force<lb />rois point à ſe marier, &amp; je ſçay biẽ ce que je ferois.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Je ſçay, Madame, ce que vous voulez dire, &amp;
+<lb />les bontez que vous avez pour moy, mais peut-é<lb />tre que vos conſeils ne ſeront pas aſſez heureux pour
+<lb />eſtre executez.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />C eit que les nnes men fages a oien nohneſtes
+<lb />comme vous ſe moquent d’eſtre obeïſſantes &amp; ſoû<lb />miſes aux volontez de leurs peres. Cela eſtoit bon
+<lb />autrefois.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Le devoir d’une fille a des bornes, Madame, &amp; la
+<lb />raiſon &amp; les loix ne l’étendent point à toutes ſor<lb />tes de choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />C’eſt à dire que vos penſées ne ſont que pour le
+<lb />mariage, mais vous voulez choiſir un époux à vo<lb />ſtre fantaiſie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANG ELIQUE.
+<lb />Si mon pere ne veut pas me donner un mary qui
+<lb />tne plaiſe, je le conjureray, au moins, de ne me
+<fw><lb />12
+</fw><lb />point forcer à en épouſer un que je ne puiſſe pas
+<lb />amer?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Menieurs, je vous demande pardon de tout cecy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Chacun a ſon but en ſe mariant, pour moy qui
+<lb />ne veux un mary que pour l’aimer veritablement,
+<lb />&amp; qui pretends en faire tout l’attachement de ma
+<lb />vie, je vous avouë que j’y cherche quelque pre<lb />caution? Il y en a d’aucunes qui prennent des ma<lb />ris ſeulement pour ſe tirer de la contrainte de leurs
+<lb />parens, &amp; ſe mettre en eſtat de faire tout ce qu’el<lb />les voudront. Il y en a d’autres, Madame, qui
+<lb />font du mariage un commerce de pur intereſt, qui
+<lb />ne ſe marient que pour gagner des doüaires, que
+<lb />pour s’enrichir par la mort de ceux qu’elles épou<lb />ſent, &amp; courent ſans ſcrupule de mary en mary
+<lb />pour s’approprier leurs depouilles. Ces perſonnes<lb />là à le verité n’y cherchent pas tant de façons, &amp;
+<lb />regardent peu la perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Je vous trouve aujourd’huy bien raiſonnante, &amp;
+<lb />je voudrois bien ſçavoir ce que vous voulez dire
+<lb />par la.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Moy, Madame, que voudrois-je dire que ce que
+<lb />je dis.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Vous eſtes ſi ſotte, ma mie, qu’on ne ſçauroit
+<lb />plus vous louillil.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Vous voudriez bien, Madame, m’obliger à vous
+<lb />répondre quelque impertinence, mais je vous aver<lb />tis que vous n’aures pas cét avantage.
+<fw><lb />A N.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Il n’eſt rien d’égaru roſtre inſolence.
+<lb />Trois, muumno, nououtoIbeau dire.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Et vous avez un ridicule orgueil, une imper<lb />tinente preſomption qui fait hauſſer les épaules à
+<lb />tout le monde.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />rout cela, Madame, ne ſervira de rien, je ſe<lb />ray ſage en dépit de vous; &amp; pour vous oſter l’eſ<lb />peranceut pou von leum dans ec que vous voulez.
+<lb />je vais m’oſter de voſtre veuë.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />rcoute, il n’y a point de milieu à cela, choiſi
+<lb />el epouſer dans quatre jours, ou Monſieur, ou un
+<lb />Convent. Ne vous mettez pas en peine, je la ran<lb />geray bien.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Je ſuis fâchée de vous quitter, mon fils, mais
+<lb />j’ay une affaire en ville dont je ne puis me diſpen<lb />ſer. Je reviendray bien-toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allez, ma mour, &amp; paſſez chez voſtre Notaire,
+<lb />afin qu’il expedie ce que vous ſçavez.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Adicu, llon petit ainy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Adieu ma mie. Voila une femme qui m’aime....?
+<lb />cela n’eſt pas croyable.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb /> Nous allons, Monſieur, prendre congé de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je vous prie, monſieur, de me dire un peu com<lb />ment je ſuis.
+<fw><lb />G
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Allons, rhomas, prenez l’autre bras de Monſieur,
+<lb />pour voir ſi vous ſçaurez porter un bon jugement
+<lb />de lon poux. Quid dicis.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DIAFOIRUS.
+<lb />Dico, que le poux de Monſieur eſt le poux d’un
+<lb />homme qui ne ſe porte point bien.
+</sp>
+<sp type="MainZone-Sp"><lb />Bon.
+<lb />A DTIFOIRUS.
+</sp>
+<sp type="MainZone-Sp"><lb />T.DIATOIRUS.
+<lb />Qu’il eſt Duriſcule, pour ne pas dire dur,
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOTRUS.
+<lb />Fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Acepouhaner
+</sp>
+<sp type="MainZone-Sp"><lb />Bent.
+<lb />M. DYAFOIRUS.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Et meſme un peu capriſant.
+<fw><lb />7
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Optime.
+<lb />M. DYAFOIRUS.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Le qua maique une mtemperle dans Ie paranchy<lb />me ſplenique, c’eſt à dire la ratte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Non, Monſieur purgon dit que c’eſt mon foye
+<lb />qui eſt malade.
+</sp>
+<sp type="MainZone-Sp"><lb />T. DYAFOIRUS.
+<lb />Eh, oüy, qui dit paranchyme dit l’un &amp; l’autre à
+<lb />cauſe de l’étroite ſympathie qu’ils ont enſemble par
+<lb />Ie moyen du vas breve du pylore, &amp; ſouvent des
+<lb />meats cholidoques. Il vous ordonne ſans doute de
+<lb />manger force roſty.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Non, nen que du boumiy.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFÔIRUS.
+<lb />th, oüy, roſty, boüilly, meſme choſe. Il vous
+<lb />ordonne fort prudemment, &amp; vous ne pouvez eſtre
+<lb />en de meilleures mains.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Monneur; combieneit ce qu'iiauumettre de
+<lb />grains de ſel dans un œuf.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DYAFOIRUS.
+<lb />Six, huit, dix, par les nombres pairs, com<lb />me dans les medicamens par les nombres impairs.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Juiques ad letonsmonneurs
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />BELINE, ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />E viens, mon fils, avant que de ſortir, vous
+<lb />j’uonner avis d’une choie, a laquelle il faut que
+<lb />vous preniez garde. En paſſant pardevant la cham<lb />pre d'Angenque, j'’ay veu un jeune nomne avec
+<lb />elle, qui s’eſt ſauvé d’abord qu’il m’a veuë.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Un jeune homme avec ma fille?
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Oüy. Voſtre petite fille toüiſon eſtoit avec
+<lb />eux, qui pourra vous en dire des nouvelles.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />envoyez-la icy, ma mour, envoyez-la icy. Ah
+<lb />l'effrontée? Je ne m’étome plus de la fentance.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />LOUISON, ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />LoüisoN.
+<lb />U'eſt-ce que voulez, mon papa, ma belle<lb />O Maman m’a dit que vous me demandez?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy, venez-ça, avancez-là, rournez-vous, le<lb />vez les yeux. Regardez-moy. Eh!
+</sp>
+<sp type="MainZone-Sp"><lb />LOÜISON.
+<lb />C Pimon papa,
+</sp>
+<sp type="MainZone-Sp"><lb />La e
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />quoy?
+<lb />Loü ISON.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />N’avez-vous rien à me dire ?
+</sp>
+<sp type="MainZone-Sp"><lb />DOmiDoN.
+<lb />Je vous diray, ſi vous voulez, pour vous deſen<lb />nuyer, le conte de peau d'ame, ou bien la fable du
+<lb />corbeau &amp; du renard, qu’on m’a appriſe depuis peu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce n’eſt pas là ce que je demande.
+</sp>
+<sp type="MainZone-Sp"><lb />quoy donc?
+<lb />LOUISON.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah ruſée, vous ſçavez bien ce que je veux dire.
+</sp>
+<sp type="MainZone-Sp"><lb />L'OUISON.
+<lb />Pardonnez-moy, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Eit-ce-la comine vous ir’obeiſſiez,
+</sp>
+<sp type="MainZone-Sp"><lb />quoy?
+<lb />LOÜISON.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />ne rous ay je pas recommandé de me venir dire
+<lb />d’abord tout ce que vous voyez.
+</sp>
+<sp type="MainZone-Sp"><lb />POMIUON.
+<lb />Oüy, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />L’avez-vous fait.
+</sp>
+<sp type="MainZone-Sp"><lb />LOÜISON.
+<lb />Oüy, mon papa, je vous ſuis venu dire tout ce
+<lb />que j’ay veu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />gun aver-vous fien veu aujourd’huy?
+</sp>
+<sp type="MainZone-Sp"><lb />LOüISON.
+<lb />Non, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LOÜISON.
+<lb />Non, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Lo üiSON.
+<lb />1
+</sp>
+<sp type="MainZone-Sp"><lb />Aſſeurément.
+<lb />ARGAN, Il prend une poignée de verges.
+<lb />Oh ça, je m’en vay vous faire voir quelque cho<lb />ſe, moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Lo üISON.
+<lb />Ah, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAR.
+<lb />Ah, ah, petite maſque, vous ne me dites pas
+<lb />G iij
+<lb />que vous avez veu un homme dans la chambre
+<lb />de voitle lœurr
+</sp>
+<sp type="MainZone-Sp"><lb />Mon papa.
+<lb />LoüISON.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voicy qui vous apprendra à mentir.
+</sp>
+<sp type="MainZone-Sp"><lb />LOüISON.
+<lb />Ah, mon papa, je vous demande pardon! c’eſt
+<lb />que ma luul m'avoit dit de ne pas vous le dire;
+<lb />mais je m’en vais vous le dire tout.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Il faut premierement que vous ayez le foüet pour
+<lb />avoir menty, puis apres nous verrons au reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LOÜISON.
+<lb />Aaldend
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Non ; ſon
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />LoüISON.
+<lb />Mon pauvre papa, ne me donnez pas le foüet.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous l’aurez.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />DORISONN.
+<lb />1
+<lb />Au nom de pieu, mon papa, que je ne l’aye pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allons, allons.
+</sp>
+<sp type="MainZone-Sp"><lb />LoÜISON.
+<lb />1
+<lb />Ah, mon papa, vous m’avez bleſſée! attendez,
+<lb />je ſuis morte.
+<lb />Elle contrefait la morte.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Hola, qu’eſt-ce-là? Lo’ïiſon, roüiſon. Ah,
+<lb />mon Dieu! Loüiſon. Ali, hlla fiile, ait iar houreux,
+<lb />ma pauvre fille eſt morte, qu’ay-je fait miſerable.
+<lb />ah, chiennes de verges, la peſte ſoit de verges,
+<lb />All, mia pauvic mie, ma pau ne petite rodilon.
+</sp>
+<sp type="MainZone-Sp"><lb />LoüISON.
+<lb />La, la, mon papa, ne pleurez point tant, je ne
+<lb />fuis pas morte tout-â-fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voyez vous la petite ruſée. Oh ça, ça, je vous
+<lb />paldome pour cette lon dy , pourveu que vous
+<lb />me diſiez bien tout.
+</sp>
+<sp type="MainZone-Sp"><lb />LOUISOM
+<lb />Ho oüy, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />rienen y prongaiue jau moins; car voilà un pe<lb />tit doigt qui ſçait tout, qui me dira ſi vous men<lb />tez.
+</sp>
+<sp type="MainZone-Sp"><lb />LOTYSON.
+<lb />Mais, mon papa, ne dites pas à ma ſœur que je
+<lb />vous l’ay dit.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, non.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LOüISON.
+<lb />Geit; mon papay qu'ir eit renua un homme dans
+<lb />lachambre de ma ſœur comme j’y eſtois.
+</sp>
+<sp type="MainZone-Sp"><lb />Hé bien.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LOüLSON.
+<lb />Je luy ay demandé ce qu’il demandoit, &amp; il m’a
+<lb />dit quil citont lon inairtie a chanter.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Hon, hon. Voilà l’affaire. né bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LOüISON.
+<lb />Ma ſœur eſt venuë apres.
+</sp>
+<sp type="MainZone-Sp"><lb />He bien.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />1.OüISON.
+<lb />Elle luy a dit; Sortez, ſortez, ſortez, mon pieu;
+<lb />ſortez, vous me mettez au deſeſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Hé bien.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LO ü ISON.
+<lb />Et luy, il ne vouloit point ſortir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’eſt-ce qu’il luy diſoit.
+</sp>
+<sp type="MainZone-Sp"><lb />o üISON.
+<lb />Il luy diſoit je ne ſçay combien de choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Et quoy encore.
+</sp>
+<sp type="MainZone-Sp"><lb />LouISON.
+<lb />Il luy diſoit tout-cy, tout-ça, qu’il l’aimoit
+<lb />bien, &amp; qu’elle eſtoit la plus belle du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />Et puis apres,
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />DOMISUN,
+<lb />Et puis apres, il ſe mettoit à genoux devant elle</sp>
+<sp type="MainZone-Sp"><lb />et puis apres.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LOUISON.
+<lb />Et puis apres il luy baiſoit les mains.
+</sp>
+<sp type="MainZone-Sp"><lb />Et puis apres.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Lo üISON.
+<lb />Et puis apres, ma belle maman eſt venuë à la poſ<lb />te, &amp; il s’eſt enfuy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Il ny à point autle enoie.
+</sp>
+<sp type="MainZone-Sp"><lb />LO ui ISON.
+<lb />Non, mon papa.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Voilà mon petit doigt pourtant qui gronde quel<lb />que choſe, attendez. Eh, ah, ah, oüy ? oh, oh,
+<lb />Voila mon petit doigt qui me die querque ciloſe que
+<lb />vous avez veu, &amp; que vous ne m’avez pas dit.
+</sp>
+<sp type="MainZone-Sp"><lb />LOUISON.
+<lb />Ah mon papa, voſtre petit doigt eſt un menteur.
+</sp>
+<sp type="MainZone-Sp"><lb />Prenez garde.
+<lb />A RGAN.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />Lo u 2 d e lre.
+<lb />Non, mon papa, ne le croyez pas; il ment, je
+<lb />vous aſſeure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oni biei, sien, nous verrons cela, alléz-vous-
+<lb />en, &amp; prenez bien garde à tout. Ah que d’affaires?
+<lb />je n’ay pas ſeulement le loiſir de ſonger à ma mala<lb />die, en vente je nen puispauo</sp>
+<p type="MainZone-Head"><lb />SCENE IA
+<lb />PERHEDE, ARGAN.
+</p>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />E bien, mon frere, qu’eſt-ce, comment vous
+<lb />H portez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah mon frere, fort mal.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />coiinent leleman
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy, je ſuis dans une foibleſſe ſi grande, que ce<lb />la n’eſt pas croyable.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Voilà qui eſt fâcheux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je n’ay pas ſeulement la force de pouvoir parler.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />J’eſtois venu icy, mon frere, vous propoſer un
+<lb />party pour ma Niéce Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mon frere, ne me parlez point de cette coquine<lb />la, ceit une Mipome , uile Mipextiento, une ef<lb />frontée que je mettray dans un Convent avant qu’il
+<lb />ſoit deux jouis.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Ah voilà qui eſt bien. Je ſuis bien aiſe que la fot<lb />ce vous revienne un peu, &amp; que ma viſite vous faſ<lb />ſe du bien. Oh ça, nous parlerons d’affaires tan<lb />toſt. Je vous amene icy un divertiſſement que j’ay
+<lb />rencontré, qui diſſi pera voſtre chagrin, &amp; vous
+<lb />rendra l’ame mieux diſpoſée aux choſes que nous
+<lb />avons à diie. Ce font des Egyptiens veſtus en Mo<lb />res, qui font des danſes mélées de chanſons, où
+<lb />je ſuis ſeur que vous prendrez plaiſir, &amp; cela vaudra
+<lb />bien une ordonnance de Monſieur purgon. Allons.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Head"><lb />SECOND INTERMEDE.
+</p>
+<p type="MainZone-P"><lb />E frere du Malade imaginaire, luy amene
+<lb />Lpour le divertir pluſieurs egyptiens &amp; Egy<lb />ptiennes veſtus en Mores, qui font des dances en<lb />tre-mélées de chanſons.
+</p>
+<p type="MainZone-Other"><lb />Premiere femme More.
+<fw><lb />Rrofitez du Printemps
+<lb />De vos beaux ans,
+<lb />Aymable jeuneſſe?
+<lb />a igricais lvuilante s
+<lb />De vos beaux ans,
+<lb />Donnez-vous à la tendreſſe.
+</fw></p>
+<sp type="MainZone-Sp"><lb />
+<lb />Les plaiſirs les plus charmans,
+<lb />Sans l’amoureuſe flâme,
+<lb />Pour contenter une ame
+<lb />N’ont point d’attraits aſſez puißans.
+</sp>
+<p type="MainZone-Lg"><lb />&amp;
+<lb />Profitez du Printemps
+<lb />De vos beaux ans,
+<lb />Aymable jeuneße?
+<lb />Profitez du Printemps
+<lb />De vos beaux ans,
+<lb />Donnez-vous à la tendreſſe.
+</p>
+<p type="MainZone-Lg"><lb />
+<lb />Ne perdez point ces precieux momens
+<lb />La beauté paſſe,
+<lb />Le temps l’efface,
+<lb />L’âge de glace
+<lb />Vient à ſa place,
+<lb />Qui nous oſte le gout de ces aoux paſſe-teps.
+</p>
+<p type="MainZone-Lg"><lb />Profitez du Printemps
+<lb />De vos beaux ans,
+<lb />Aymable jeuneſſe?
+<lb />Profitez du Printemps,
+<lb />De vos beaux ans,
+<lb />Donnez-vous à la tendreſſe.
+</p>
+<p type="MainZone-Lg"><lb />Seconde femme More.
+<lb />Quand d’aymer on nous preſſe,
+<lb />A quoy ſongez-vous,
+<lb />Nos cœurs dans la jeuneſſe
+<lb />N’ont vers la tendreſſe
+<lb />Qu’un penchant trop doux;
+<lb />L’amour a pour nous prendre
+<lb />De ſi doux attraits,
+<lb />Que de ſoy, ſans attendre,
+<lb />On voudroit ſe rendre
+<lb />A ſes primiers traits:
+<lb />Mais tout ce qu’on écoute,
+<lb />Des vives douleurs
+<lb />Er ues pleurs
+<lb />Qu’il nous couſte;
+<lb />Fait qu’on redoute
+<lb />Toutes les douceurs.
+</p>
+<p type="MainZone-Lg"><lb />Troiſiéme femme More.
+</p>
+<p type="MainZone-Lg"><lb />Il est doux à noſtre âge
+<lb />D’aymer tendrement
+<lb />Vn Amant
+<lb />Qui s’engage:
+<lb />Mais s’il eſt volage
+<lb />Helas, quel tourment.
+<fw><lb />Qua</fw><lb />Quatriéme femme More.
+<lb />L’Amant qui ſe dégage
+<lb />N’eſt pas le malheur,
+<lb />La douleur
+<lb />Et la rage;
+<lb />C’eſt que le volage
+<lb />Garhe noſtre tœur.
+</p>
+<p type="MainZone-Other"><lb />Seconde femme More.
+<lb />Aufaryqui lepiaie,
+<lb />Pour nos jeunes cœurs.
+</p>
+<p type="MainZone-Other"><lb />Quatriéme femme More.
+<lb />Devons nous nous y rendre
+<lb />Malgré ſes rigueurs?
+</p>
+<sp type="MainZone-Sp"><lb />Enſemble.
+<lb />1
+<lb />Oüy, ſuivons ſes ardeurs,
+<lb />Ses tranſports, ſes caprices
+<lb />Ses douces langueurs;
+<lb />S’il a quelques ſupplices.
+<lb />Il a cent delices
+<lb />Qui charment les cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Tous les Mores dancent enſemble, &amp; font ſau<lb />ter des Singes qu’ils ont ammenez avec eux,
+<lb />U
+</sp>
+<p type="MainZone-Head"><lb />ACTE TROISIE’ME.
+<lb />SCENE PREMIERE.
+<lb />BERALDE, ARGAIV, IOINETTE,
+</p>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />i cien, mon frere, que dites vous du plaiſit
+<lb />ITque vous venez d’avoir, cela ne vaut-il pas
+<lb />bien une priſe de Caſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />De bonne Caſſe eſt bonne.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Puiſque vous eſtes mieux, mon frere, vous vou<lb />lez bien que je vous entretienne un peu de l’af<lb />faire de tantoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Un peu de parience, mon frere, je reviens
+<lb />dans un moment.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Monſieur, vous oubliez voſtre baſton; vous ne
+<lb />ſongez pas que vous ne ſçauriez, marcher ſans luy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tuas raiſon, donne viſte.
+<fw><lb />1
+<lb />F
+<lb />1
+<lb />E
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />BERALDE, TOINETTE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />H, Monſieur, n’avez-vous point de pitié pour
+<lb />Evoſtre Niéce, &amp; la laiſſerez-vous ſacrifier
+<lb />au caprice de ſon pere, qui veut ablolument
+<lb />qu’elle épouſe ce qu’elle hait le plus au monde.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Dans le vray, la nouvelle de ce bizarre mariage
+<lb />m’a fort ſurpris, je veux tout mettre en uſage
+<lb />pour rompre ce coup, &amp; je porteray meſme les
+<lb />choſes à la derniere extremité, pluſtoſt que de
+<lb />le ſouffrir. Je luy ay déja parlé en faveur de Clean<lb />te; j’ay eſté tres-mal receu, mais afin de faire
+<lb />réüſſir leurs feux, il faut commencer par le dé<lb />geuter de l’autre, &amp; c’eſt ce qui m’embaraſſs
+<lb />ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />IOIRETTE.
+<lb />Il eſt vray que difficilement le fait-on changer
+<lb />de lentiinent. Etoutez, pourtant, je fonge à quel<lb />que choſe qui pourroit bien nous réüſſir.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Que pretends-tu faire?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />C’eſt un deſſein aſſez burleſque, &amp; une imagi<lb />nation fort plaiſante qui me vient dans l’eſprit
+<lb />pour dupper noſtre homme; je ſonge qu’il faudroit
+<lb />faire venir un Medecin à noſtre poſte, qui euſt une
+<lb />methode toute contraire à celle de Moimieur Pur<lb />gon, qui le décriaſt, le fit paſſer pour un igno<lb />ſant; qui luy offrit ſes ſervices, &amp; luy promiſt de
+<lb />prendre ſoin de luy en ſa place, peut-eſtre ſerons<lb />nous plus heureux que ſages, éprouvons cecy à
+<lb />tout hazard, mais comme je ne vois perſonne pro<lb />pre à bien faire le Medecin, j’ay envie de joüer un
+<lb />tour de ma teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />quel eſt-il ?
+<lb />BERALDE.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />pouu verler ce quec eit, jemcandutolele frere,
+<lb />ſecondez-moy bien ſeulement.
+</sp>
+<p type="MainZone-Head"><lb />CEIDIII.
+<lb />ARGAN, BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />’E veux, mon frere, vous faire une priere avant
+<lb />que de vous parler d’affaires
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Qu eniceit enccette prlere.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />C'eit d'ecouter lavorablement tout ce que j’ay
+<lb />à vous dire
+</sp>
+<sp type="MainZone-Sp"><lb />sien ſoit.»
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />De ne vous point emporter à voſtre ordinaire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüy, je le feray.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Et de me répondre ſans chaleur preciſément ſur
+<lb />chaque chore.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />né bien oüy, voicy bien du preambule.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Ainſi, mon frere, par quelle raiſon, dites-moy,
+<lb />voulez-vous marier voſtre fille à un Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />par la raiſon, mon frere, que je ſuis le maiſtre
+<lb />chez moy, &amp; que je puis dilpoſer à ſia volonté de
+<lb />tout ce qui eſt en ma puiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Mais encore, pourquoy choiſir plûtoſt un Me<lb />decin qu’un autre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />parce que dans l’eſtat où je ſuis, un Medecin
+<lb />m’eſt plus neceſſaire que tout autre; &amp; ſi ma fille
+<lb />eſtoit raiſonnable, c’en ſeroit aſſez pour luy faire
+<lb />accepter.
+</sp>
+<sp type="MainZone-Sp"><lb />d a de aa au de
+<lb />Par cette meſme raiſon, ſi voſtre petite Loüiſon
+<lb />eſtoit plus grande, vous la donneriez en mariage à
+<lb />un Apociquaile.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Eh pourquoy non? Voyez un peu le grand mal
+<lb />qu’il y auroit.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />en verité, mon frere, je ne puis ſouffrir l'ente<lb />ſtement que vous avez des Medecins, &amp; que vous
+<lb />vouliez eſtre malade en dépit de vous-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />qu’entendez-vous par là, mon frere?
+</sp>
+<sp type="MainZone-Sp"><lb />Hiij
+</sp>
+<p type="MainZone-Head"><lb />BERALDE</p>
+<sp type="MainZone-Sp"><lb />J'entends, mon frere, que je ne vois gueres
+<lb />d’hommes qui ſe portent mieux que vous, &amp; que
+<lb />je ne voudrois pas avoir une meilleure conſtitution
+<lb />que la voſtre: Une grande marque que vous vous
+<lb />portez bien, c’eſt que toutes les Medecines &amp; les
+<lb />Lavemens qu’on vous a fait prendre, n’ayent point
+<lb />encore alteré la bonté de voſtre temperament; &amp;
+<lb />aii de nies ctomiemens erte y que jous ne ſoyez
+<lb />point crevé à force de remedes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Monſieur purgon dit que c’eſt ce qui me fait vi<lb />vre, &amp; que je mourrois, s’il eſtoit ſeulement deux
+<lb />Jours ſans prendie ſoin de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />DDICHLDE.
+<lb />Oüy, oüy, il en prendra tant de ſoin, ;que de
+<lb />vant qu’il ſoit peu, vous n’aurez plus beſoin de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mais, mon frere, vous ne croyez donc point à la
+<lb />Medecine.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Moy, mon frere, nullement, &amp; je ne vois pas que
+<lb />pour ſon ſalut, il ſoit neceſſaite d’y croire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />quoy? vous ne croyez pas à une ſcience qui de<lb />puis ſi long-temps eſt ſi ſolidement eſtablie par
+<lb />toute la terre, &amp; reſpectée de tous les hommes.
+</sp>
+<sp type="MainZone-Sp"><lb />De aedna da
+<lb />Non, vous dis-je, &amp; je ne vois pas meſme une plus
+<lb />plaiſante momerie, rien au monde de plus imper<lb />tinent qu’un homme qui ſe veut meſler d’en gue<lb />xir un autre?
+</sp>
+<sp type="MainZone-Sp"><lb />AROAR.
+<lb />uh pourquoy, mon frere, ne voulez-vous pas
+<lb />qu'uir homme en puiſſe guerir on autre.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />parce que les reſſorts de noſtre machine ſont my<lb />ſteres juſques icy inconnus, où les hommes ne
+<lb />voyent goute, &amp; dont l’Autheur de toutes choſes
+<lb />s’eſt reſervé la connoiſſance,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />que faut-il donc faire lors que l’on eſt malade.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Rien que ſe tenir de repos, &amp; laiſſer faire la natu<lb />re, puiſque c’eſt elle qui eſt tombée dans le deſor<lb />dre, elle s’en peut auſſi bien retirer, &amp; ſe reſta<lb />blir elle-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mais encore devez-vous pas m’avoüer qu’on peut
+<lb />aider cette nature.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />nien éloigné de cela, on ne fait bien ſouvent que
+<lb />r'emperenenuorune lon effet, &amp; j’ay connu bien
+<lb />des gens qui ſont morts des remedes qu’on leur a
+<lb />fait prendre, qui ſe porteroient bien preſentement
+<lb />o nor cuneme lamemre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous voulez donc dire, mon frere, que les Mede<lb />cins ne ſçavent rien.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Non, je ne dis pas cela, la pluſpart d’entr’eux
+<lb />ſont de tres-bons Humaniſtes qui parlent fort bien
+<lb />atin, qui ſçavent nommer en grec toutes les ma<lb />dies, les definir; mais pour les guerir, c’eſt-ce
+<lb />qu’ils ne ſçavent pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mais pourquoy donc, mon frere, tous les hom<lb />mes ſont-ils dans la meſme erreur où vous vou<lb />let dut je fuis
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />C’eſt, mon frere, parce qu’il y a des choſes dont
+<lb />I’apparence nous charme, &amp; que nous croyons ve<lb />ritables, par l’envie que nous avons qu’elles le faſ<lb />ſent. La Medecine eſt de celle-là; il n’y a rien de
+<lb />ſi beau &amp; de ſi charmant que ſon objet; par exem<lb />ple, lors qu’un Medecin vous parle de purifier le
+<lb />fang, de fortifier le cœur, de rafraiſchir les en<lb />trailles, de reſtablir la poitrine, de racommoder
+<lb />la ratte, d’appaiſer la trop grande chaleur de foye,
+<lb />de regler, moderer &amp; retirer la chaleur naturelle,
+<lb />il vous dit juſtement le Roman de la Medecine,
+<lb />dameneit comme de ces beauz ſonges qui pendant
+<lb />la nuit nous ont bien divertis, &amp; qui ne nous laiſ<lb />ſent au réveil que le déplaiſir de les avoir eus.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Oüais, vous eſtes devenu fort habile homme en
+<lb />peu de temps.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Dans les diſcours &amp; dans les choſes, ce ſont
+<lb />deux ſortes de perſonnes que vos grands Medecins;
+<lb />entendez-les parler, ce ſont les plus habiles gens
+<lb />du monde; voyez-les faire, les plus ignorans de
+<lb />tous les hommes, de telle maniere que toute leur
+<lb />ſcience eſt renfermée en un pompeux Galima<lb />thias, &amp; un ſpecieux babil.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce ſont donc de meſchantes gens d’abuſer ainſi
+<lb />de la credulité &amp; de la bonne foy des hommes.
+</sp>
+<sp type="MainZone-Sp"><lb />BEBALDE.
+<lb />Iby en a entr’eux qui ſont dans l'erreur auſſi bien
+<lb />que les autres, d’autres qui en profitent ſans y eſtre;
+<lb />voſtre purgon y eſt plus que perſonne. C’eſt un
+<lb />homme tout Medecin depuis la teſte juſques aux
+<lb />pieds, qui croit plus aux regles de ſon art qu’à tou<lb />tes les demonſtrations de Mathematiques, &amp; qui
+<lb />donne à travers les purgations &amp; les ſeignées ſans
+<lb />y rien connoiſtre, &amp; qui lors qu’il vous tuëra ne
+<lb />fera dans cette occaſion que ce qu’il a fait à ſa<lb />ſemme &amp; a fes emans, &amp; ce qu'eis un beioin il fe<lb />roit à luy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />C’eſt que vous avez une dent de lait contre luy.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Quelle raiſon m’en auroit-il donné.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je voudrois bien, mon frere, qu’il y euſt icy
+<lb />quelqu’un de ces Meſleurs pour vous tenir teſte;
+<lb />pour rembarer un peu tout ce que vous venez de di<lb />re, &amp; vous apprendre à les attaquer.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />mojr monfrere, je ne pretens point les atta<lb />quer, ce que j’en dis n’eſt qu’entre nous, &amp; que
+<lb />par maniere de converſation, chacun à ſes perils
+<lb />&amp; fortunes en peut croire tout ce qu’il luy plaira.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vovez-vous, mon frere, ne me parlez plus con<lb />tre ces gens-là, ils me tiennent trop au cœur,
+<lb />vous ne faites que m’échauffer &amp; augmenter mon
+<lb />mal.
+</sp>
+<sp type="MainZone-Sp"><lb />BERAL DE.
+<lb />Soit, je le veux bien, mais je ſouhaiterois ſeu<lb />lement pour vous deſennuyer vous mener voir un
+<lb />de ces jours repreſenter une des Comedies de Mo<lb />liere ſur ce ſujet.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce ſont de plaiſans impertinens que vos Come<lb />diens, avec leurs Comedies de Moliere; c’eſt bien
+<lb />à faire à eux à ſe motquer de la Medecine. Ce ſour
+<lb />de bons nigauts, &amp; je les trouve bien ridicules de
+<lb />mettre ſur leur rheâtre de venerables Meſſieurs
+<lb />somme ces Meſſieurs-là.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />que voulez-vous qu’ils y mettent que les di<lb />verſes profeſſions des hommes, nous y voyons
+<lb />bien tous les jours des priſces &amp; des Roys qui ſont
+<lb />du moins d’auſſi bonne maiſon que les Medecins.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />rar la mort non du diable, je les attraperois bien
+<lb />quand ils ſeroient malades, ils auroient beau me
+<lb />prier, je prendrois plaiſir à les voir ſouffrir', je
+<lb />ne voudrois pas les ſoulager en rien, je ne leur
+<lb />ordonnerois pas la moindre petite ſeignée, le moin<lb />dre petit lavement, je me vengerois bien de leur
+<lb />inſolence, &amp; leur dirois; Crevez, crevez, cre<lb />vez, mes petits Meſſieurs, cela vous applendra à
+<lb />vous mocquer une autrefois de la raculté.
+</sp>
+<sp type="MainZone-Sp"><lb />DHRALDE.
+<lb />Ils ne s’expoſent point à de pareilles épreuves,
+<lb />&amp; ils ſçavent tres-bien ie gueri euxmemnes lors
+<lb />qu’ils ſont malades.
+</sp>
+<p type="MainZone-Head"><lb />SCENETV.
+<lb />MONSIEUR FLEURANT,
+<lb />ARGAN, BERALDE,
+</p>
+<sp type="MainZone-Sp"><lb />M. FLEURANT, Avec une Seringue à la main.
+<lb />’Eſt un petit Clyſtere que je vous apporte,
+<lb />Oprenez viſte, Monſieur, prenez vnte, il eſt.
+<lb />romme il faut, il eſt comme il faut.
+<fw><lb />que voulez-vous faire, mon frere.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Attendez un moment, cela lera blen coirfait.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Je crois que vous vous mocquez de moy, ah ne
+<lb />ſçauriez-vous prendre un autre temps; allez, Mon<lb />ſieur, revenez une autrefois.
+</sp>
+<sp type="MainZone-Sp"><lb />HNGAN.
+<lb />A ce ſoir, s’il vous plaiſt, Monſieur rleurant,
+</sp>
+<sp type="MainZone-Sp"><lb />M. FLEURANT.
+<lb />Dequoy vous meſlez-vous, Monſieur, vous
+<lb />eſtes bien plaiſant d’empeſcher Monſieur de pren<lb />dre ſon Clyſtere, ſont-ce-là vos affaires.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />On voit bien, Monſieur, que vous n’avez pas
+<lb />accouſtumé de parler à des viſages.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FLEURANT.
+<lb />que voulez-vous dire avec vos viſages? Sçachez
+<lb />que je ne perds pas ainſi mes pas, &amp; que je viens
+<lb />icy en vertu d’une bonne Ordonnance, &amp; vous
+<lb />Monſieur, vous vous repentirez du mepris que
+<lb />vous en faites, je le vais dire à Monſieur purgon,
+<lb />vous terlezs tous remon.
+</sp>
+<p type="MainZone-Head"><lb />DCENVEVe
+<lb />ARGAN BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />On frere, vous allez eſtre cauſe ici de quel<lb />Mque malheur ; &amp; je crains fort que non<lb />ſieur purgon ne ſe fâche quand il ſçaura que je n’ay
+<lb />pas plolonladnens
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Voyez un peu le grand mal de n’avoir pas pris un
+<lb />Lavement que Mouſieur purgon a ordonné, vous ne
+<lb />vous mettriez pas plus en peine ſi vous aviez com<lb />mis un crime conſiderable; encore un coup, eſt-il
+<lb />poſſible qu’on ne vous puiſſe pas guerir de la ma<lb />ladie des Medecins, &amp; ne vous verray-je jamais
+<lb />qu’avee uil havement e tnt Medecie dans le
+<lb />corps.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mon Dieu, mon frere, vous parlez comme un
+<lb />homme qui ſe porte bien, ſi vous eſtiez en ma pla<lb />ce, vous ſeriez auſſi embaraſſé que moy.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Hé bien, mon frere, faites ce que vous voudrez,
+<lb />mais j’en reviens toujours la, voſtre fille n’eſt
+<lb />point deſtinée pour un Medecin, &amp; le party dont
+<lb />je veux vous parler, luy eſt bien plus convenable.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Il ne l’eſt pas pour moy, &amp; cela me ſuffit; en
+<lb />un mot elle eſt promiſe, &amp; elle n’a qu’à ſe deter<lb />Miiner à cela ou à un convent.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Voſtre femme m'eſt pas des dernieres à vous don<lb />ner ce conſeil.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, j’eſtois bien eſtonné ſi l’on ne me parloit pas
+<lb />de la pauvre femme, c’eſt toûjours elle qui fait
+<lb />tout, il faut que tout le monde en parle.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Ah, j’ay tort, il eſt vray, c’eſt une femme qui
+<lb />a trop d’amitié pour vos enfans, &amp; qui pour l’ami<lb />cié qu’elle leur porte, voudroit les voir toutes deux
+<lb />bonnes Religieuſes.
+<lb />SCENE
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />MONS IEUR PURGON,
+<lb />TOINETTE, ARGAN,
+<lb />DERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />MONSIEUR PURGON.
+<lb />U’eſt-ce, on vient de m’apprendre de belles
+<lb />y nouvelles? comment, refuſer un Clyſtere
+<lb />que j’avois pris plaiſir moy-meſme de compoſer
+<lb />avec grand ſoin?
+</sp>
+<sp type="MainZone-Sp"><lb />A RanNva
+<lb />Monſieur purgon, ce n’eſt pas moy, c’eſt mon
+<lb />frere.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Voilà une eſtrange rebellion d’un malade contre
+<lb />ſon Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />cclaent tlay.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />te renvoyer avec audace: c’eſt une action exor<lb />bitante.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Aſſeurément.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Ohattenitat chore contie la Medecine.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Cela eſt certain.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />C’eſt un crime de leze-raculté.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vous avez raiſon.
+<fw><lb />I
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Je vous aurois dans peu tiré d’affaires, &amp; je ne
+<lb />voulois plus que dix Medecines, &amp; vingt Lave<lb />mens pour vuider le fonds du ſac.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Il ne le merite pas.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />mais puiique rous uren ca l’inſolence de mépri<lb />ſer mon Clyſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Eh vonſieur purgon, ce n’eſt pas ma faute, c’eſt
+<lb />la ſienne.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />que vous vous eſtes ſouſtrait de l’obeïſſance qu’un
+<lb />thialade doit à lon Meucems
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ce n’eſt pas moy, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Je ne veux plus avoir d’ailliance avec vous, &amp;
+<lb />voicy le don que je faiſois de tout mon bien à mon
+<lb />Neveu, en faveur du mariage avec voſtre fille,
+<lb />que je déchire en mille pieces.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINBAAE.
+<lb />C’eſt fort bien fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mon frere, vous eſtes cauſe de tout cecy.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Je ne veux plus prendre ſoin de vous, &amp; eſtré
+<lb />davantage voſtre Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je vous demande pardon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Je vous abandonne à voſtre meſchante conſtitu<lb />tion, à l’intemperie de voſtre temperament, &amp;à
+<lb />la petulance de vos humeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Faites-Ie venil, je ie piendray de tane vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Je veux que dans peu vous ſoyez en un eſtat in<lb />curable.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, je ſuis mort.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Et je vous avertis que vous tomberez dans l’ipile<lb />ptie.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur purgon.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />de liplleptie duns iPeyner
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Monſieur Purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />ne la ptyſie dans la Pratipeptie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Doucement Monſieur purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />MTTORGGN.
+<lb />De la pratipeptie dans la Lyanterie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, Monſieur purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />Dt uuijinterie dans la niſſenterie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Moispauvie Momeur Purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />De la Diſſenterie dans l’Hydropiſie.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur purgon.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />De l’Hydropiſie dans l’Apoplexie.
+</sp>
+<sp type="MainZone-Sp"><lb />AROAT.
+<lb />Monſieur purgon.
+</sp>
+<p type="MainZone-Other"><lb />I ij
+</p>
+<sp type="MainZone-Sp"><lb />M. PURGON.
+<lb />ne l’Apoplexie dans la privation de la vie où vous
+<lb />aura conduſſt voltle lone.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />ARGAN, BERALDE,
+</p>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />H, c’en eſt fait, de moy, je ſuis perdu, je n’en
+<lb />A Apuis revenir; ah, je lens deja que la Medecine
+<lb />ſe vange.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Serieuſement, mon frere, vous n’eſtes pas raiſon<lb />nable, &amp; je ne voudrois pas qu’il y euſt icy per<lb />ſonne qui vous viſt faire ces extravagances.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous avez beau dire, toutes ces maladies en iës
+<lb />me font trembler, &amp; je les ay toutes ſur le cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Le ſimple homme que vous eſtes, comme ſi Mon<lb />ſieur purgon tenoit entre ſes mains le fil de voſtre
+<lb />vie, &amp; qu’il puſt l’alonger ou l’acourcir, comme
+<lb />bon luy ſembleroit; détrompez-vous, encore une
+<lb />fois, &amp; ſçachez qu’il y peut encore moms, qu’à
+<lb />vous guerir lors que vous eſtes malade.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Il dit que je deviendray incurable.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Dans le vray, vous eſtes un homme d’une gran<lb />de prévention, &amp; lors que vous vous eſtes mis
+<lb />quelque choſe dans l’eſprit, difficilement peut-on
+<lb />l’en chaſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />que feray-je, mon frere, à preſent qu’il m’a aban<lb />donné, &amp; où trouveray-je un Medecin qui me puiſ<lb />le traiter auſſi bien que luy :
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />xon nieu, mon frere, puiſque c’eſt une neceſſi<lb />té pour vous d’avoir un Medecin, l’on vous en
+<lb />trouvera du moins un auſſi habile, qui n’ira pas ſi
+<lb />rviſte, avec qui vous courerez moins de riſque, &amp;
+<lb />qui prendra plus de precaution aux Iemeuës qu’il
+<lb />vous ordonnera.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, mon frere, il connoiſſoit mon temperament,
+<lb />&amp; igavolt mon armieur que mey meme.
+</sp>
+<p type="MainZone-Head"><lb />COBAAERE
+<lb />TOINETTE, ARGAN, BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Onſieur, il y a un Medecin a la porte qui
+<lb />NI ſouhaite parler à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />quel eſt-il, ce. Medecin?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />C ert ui Medecin de la Meuceme qui me feſſem<lb />ble comme deux goutes d’eau; &amp; ſi je ne ſçavois
+<lb />que ma mere eſtoit honneſte femme, je croirois
+<lb />que ce ſeroit quelque petit frere qu’elle m’auroit
+<lb />donné depuis le trépas de mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Dis-luy qu’il prenne la peine d’entrer, c’eſt ſans
+<lb />doute un Medecin qui vient de la part de Monſieur
+<lb />rurgon, pour nous bien remettre enſemble; il faut
+<lb />voir ce que c’eſt, &amp; ne pas laiſſer échapper une ſi
+<lb />belle occaſion de me racommoder avec luy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />TOINETTE Medecin, ARGAN,
+<lb />BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Onſieur, quoy que je n’aye pas l’honneur
+<lb />M d’eſtre connû de vous, ayant apris que vous
+<lb />eſtes malade, je viens vous offil mon fervice pour
+<lb />toutes les purgations &amp; les ſeignées dont vous au<lb />rez-beſoin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ma foy, mon frere, c’eſt Toinette elle-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Monneur, je vousuemande paſton, j'ay une pe<lb />tite affaire en ville, permettez-moy d’y envoyer
+<lb />mon valet que j’ay laiſſé à voſtre porte, dire que
+<lb />I’on m’attende.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je crois ſeurement que c’eſt elle, qu’en croyez<lb />vens.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />pourquoy voulez-vour cela? Sont-ce les premiers
+<lb />qui ont quelque reſſemblance, &amp; ne voyons nous
+<lb />pas ſouvent arriver de ces ſortes de choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />que voulez-vous, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />quoy.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINÉTTE.
+<lb />Ne m’arez-vous pas appellée.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Moy, tu te trompes.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Il faut donc que les oreilles m’ayent corné.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />bemeule, demeule, pourtoir ce Medecin qui
+<lb />te reſſemble ſi fort.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETIE.
+<lb />Ah vrayment oüy, je l’ay aſſez veu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Muioy raremtrcie, cela eſt admirable, &amp; je
+<lb />ne le croirois pas, ſi je ne les voyois tous deux en<lb />ſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Cela n’eſt point ſi ſurprenant, noſtre ſiecle
+<lb />nous en fournit pluſieurs exemples, &amp; vous de<lb />vez, ce me ſemble, vous ſouvenir de quelques<lb />uns qui ont fait tant de bruit dans le monde.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Molineul, cacuiceemoy s'n veusplunes
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ne puis ſortir de mon eſtonnement, &amp; il ſem<lb />ble que c’eſt elle-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Je ſais un Medecin paſſager courant de Villes en
+<lb />Villes, &amp; de Royaumes en Royaumes pour
+<lb />chercher d’illuſtres malades, &amp; pour trouver
+<lb />d’amples matieres à ma capacité; je ne ſuis pas
+<lb />de ces Medecins d’ordinaire qui ne s’amuſent qu'à
+<lb />des bagatelles de fievrottes, de rhumatiſmes, de
+<lb />migraines, &amp; autres maladies de peu de conſe<lb />quence; je veux de bonnes fievres continuës avec
+<lb />des tranſports au cerveau, de bomes oppreſſions
+<lb />de poitrine, de bons maux de coſté, de bonnes
+<lb />Hevres pourprées, de bonnes verolles, de bonnes
+<lb />peſtes, c’eſt là où je me plais, c’eſt là où je triom<lb />phe; &amp; je voudrois, Monſieur, que vous euſſiez
+<lb />toutes ces maladies enſemble; que vous fuſſiez a<lb />bandonné de tous les Medecins, à l’agonie pour
+<lb />vous monſtrer la longue &amp; grande experience que
+<lb />j aj dansnoitre Mle yee la pumuu que paj de vous
+<lb />rendre ſervice.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je vous ſuis trop oblige, Monſieur, cela n’eſt
+<lb />point neceſſaire.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Je vois que vous me regardez fixement, qu’elle
+<lb />âge croyez-vous bien que j’aye?
+</sp>
+<sp type="MainZone-Sp"><lb />ARONIV.
+<lb />Je ne le puis ſçavoir au juſte, pourtant vous avez
+<lb />bien vingt-ſept où vingt-huit ans au plus.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Bon, j’en ay quatre-vingt dix.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Quatre vingt dix, voila un beau jeune vieillard.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Otïy, quatre-vingt dix, &amp; j’ay ſçeu me main<lb />tenir toûjours frais &amp; jeune, comme vous voyez,
+<lb />par la vertu &amp; la bonté de mes remedes. Donnez<lb />moy voſtre poux: allons donc, voila un poux
+<lb />bien iiipertinent; ah, je vois bien que vous ne
+<lb />me connoiſſez pas encore, je vous feray bien aller
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Monſieur Purgon.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Monſieur purgon, ce nom ne m’eſt point con<lb />nu, &amp; n’eſt point écrit ſur mes tablettes dans le
+<lb />rang des grands &amp; fameux Medecins qui y iont;
+<lb />quittez-moy cet homme; ce n’eſt point du tout
+<lb />voſtre affaire, il faut que ce ſoit peu de choſe, je
+<lb />yeux vous en domer un de ma inain.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />On le tient pourtant en grande repu tation.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />De quoy, dit-il, que vous eſtes malade?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Iidit que ceie de la lueto, duuints umint que
+<lb />t’eſt du foye.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />L’ignorant, c’eſt du poulmon que vous eſtes
+<lb />malade.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Du poulmon?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETAE Medecin.
+<lb />Oüy du poulmon, n’avez-vous pas grand appe<lb />tit a ce que vous mangez ?
+</sp>
+<sp type="MainZone-Sp"><lb />Eh oüy.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />C’eſt juſtement le poulmon, ne trouvez-vous
+<lb />pas le vin bon?
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Le poulmon, ne reſvez-vous point pendant la
+<lb />nuit?
+</sp>
+<sp type="MainZone-Sp"><lb />AIRGAN.
+<lb />Oüy, oüy, meſme aſſez ſouvent.
+</sp>
+<sp type="MainZone-Sp"><lb />TOTNETTE Medécin.
+<lb />Le poulmon: ne faites-vous point un petit ſom<lb />meil aprés le repas?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah oüy tous les jours.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINET TE Medecin.
+<lb />Le poulmon, le poulmon, vous dis-je</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />An mon Mere, le pouimon.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin<lb />Que vous ordonne-t’il dé manger?
+</sp>
+<sp type="MainZone-Sp"><lb />Du potage.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />L’ignorant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />De prendre force boüillons.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE (Medecin.
+<lb />L’ignorant.
+</sp>
+<sp type="MainZone-Sp"><lb />Muceunry .
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />L ighorant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Du veau &amp; des poullets
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />L’ignorant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />[ ventre.
+<lb />Et le ſoir, de petits pruneaux pour laſcher le
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Ignorantus, ignoranta, ignorantum; &amp; moy je
+<lb />vous ordonne de bon gros pain bis, de bon gros
+<lb />bœuf, de bons gros pois, de bon fromage d’Hol<lb />lande, &amp; afin que vous ne crachiez plus des marons
+<lb />&amp; des oublies, pour coller &amp; conglutiner.
+<lb />ARGAN.
+<lb />[ nance?
+<fw><lb />Mais voyez un peu, mon frere, qu’elle ordon</fw></sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Croyez-moy executez-là, vous vous en trouve<lb />rez bien: à propos je m’apperçois icy d’une choſe;
+<lb />dites-moy, Monſieur que faites-vous de ce bras là?
+</sp>
+<sp type="MainZone-Sp"><lb />AROAIV.
+<lb />Ce que j’en fais, la belle demande!
+<lb />Si vous me croyez, vous vous le ferez coup<lb />per ſout à Theule.
+</sp>
+<sp type="MainZone-Sp"><lb />Et la raiſon?
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Ne voyez-vous pas qu’il attire à luy toute la
+<lb />tiouriiture; &amp; qu’il empeſche l’autre coſté de
+<lb />profiter.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Eh je ne me ſoucle pas de cela, jaime bien mieux
+<lb />les avoir tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Si j’eſtois auſſi en voſtre place, je me ferois
+<lb />ciever cet œil-cy tout à l’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Et pourquoy le faire crever.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />N’en verrez-vous pas une fois plus clair de l’au<lb />tre? faites-le, vous dis-je, &amp; tout à preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je ſuis voſtre ſerviteur, j’aime beaucoup mieux
+<lb />n’en voir pas ſi clair de l’un, &amp; n’en avoir point
+<lb />de manque.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Excuſez-moy, Monſieur, ſi je ſuis obligé de
+<lb />vous quitter ſi-toſt, je vous verray quelquefois
+<lb />pendant le ſejour que je feray en cette Ville, mais
+<lb />je ſuis obligé de me trouver aujourd’huy à une
+<lb />coniuitation qui le doit lane pour uit mardde qui
+<lb />mourut hier.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Pourquoy une conſultation pour un malade qui
+<lb />mourut hier?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE Medecin.
+<lb />Pour adviſer aux remedes qu’il euſt fallu luy
+<lb />faire pour le guerir, &amp; s’en ſervir dans une ſem<lb />Olabie eccanon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Monſieur, je ne vous reconduis point, vous ſça<lb />vez que les malades en ſont exempts.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />ne bien, mon frere, que dites-vous de ce Me<lb />decin?
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Coiſnent diabie. Il ne ſembie qu'il va bien
+<lb />viſte en beſogne.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Comme font tous ces grands Medecins, &amp; il ne
+<lb />le ſeroit pas s’il faiſoit autrement.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Couper un blasyere tenun een, tojez quelle
+<lb />plaiſante operation, de me faire borgne &amp; man<lb />chot.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Doucement, doucement, Monſieur le nedecit.
+<lb />s’il vous plaiſt moderez voſtre appetit.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Qu asttudonc, romette*
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Vrayment voſtre Medecin veut rire, ma foy il
+<lb />a voulu mettre ſa main ſur mon ſein en ſortant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Cela eſt eſtonnant à ſon âge, qui pourroit croi<lb />re cela, qu’à quatre-vingt-dix ans l’on fuſt encore
+<lb />ſi gaillard.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Enfin, mon frere, puiſque vous avez rompu avec
+<lb />Monſieur Purgon; qu’il n’y a plus d’eſperance d’y
+<lb />pouvoir renoüer, &amp; qu’il a déchiré les articles
+<lb />d’entre ſon neveu &amp; voſtre fille, rien ne yous
+<lb />peut plus empeſcher d’accepter le party que je
+<lb />vous
+<lb />vous propoſe pour ma niece: c’eſt un...
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Je vous prie, mon frere, ne parlons point de
+<lb />cela, je ſçais bien ce que j’ay à faire, &amp; je la
+<lb />mettray des denlai dals un Convent.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Vous voulez faire plaiſir à quelqu’un.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />O ça voila encore la pauvre femme en jeu</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Hé bien oüy, mon frere, c’eſt d’elle dont ie
+<lb />veux parler, &amp; non plus que l’enteſtement des
+<lb />Médec ins, je ne puis ſuporter celuy que vous avez
+<lb />pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous ne la connoiſſez pas, mon frere, c’eſt
+<lb />une lemmie qui a tiop d’amnitie poul moy: deman<lb />dez-luy les careſſe qu’elle me fait, à moins que de
+<lb />les voir on ne le croiroit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />MCnrl l i
+<lb />Monſieur a raiſon, &amp; on ne peut pas concevoïr
+<lb />I’amitié qu’elle a pour luy, voulez-vous que je
+<lb />vous faſſe voir comme Madame aime Monſieur,
+</sp>
+<sp type="MainZone-Sp"><lb />Colinent.
+<lb />ARGAN.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Eh Monſieur laiſſez moy faire, ſouffrez que je
+<lb />le détrompe, &amp; que je luy faſſe voir ſon bec jaune,
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />* Que faut-il faire pour cela?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />J’entens Madame qui revient de Ville, vous,
+<lb />Monſieur, cachez-vous dans ce petit endroit, &amp;
+<lb />prenez garde ſur tout que l’on ne vous voye, ap<lb />prochons voſtre chaiſe, mettez-vous dedans tout
+<lb />de voſtre long, &amp; contre-faites le mort. Vous ver<lb />rez par le regret qu’elle témoignera de voſtre per<lb />te, l'amitie qu'ene vous ponte, la voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Quy; ouy, ouy, cuy; ben, bon, con, bon.
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />DALINEJ IOIDIYE,
+<lb />ARGAN, BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINITTE.
+<lb />H Ciel! quelle cruelle avanture? quel mal<lb />LAheur impreveu vient de m’arriver? que fe<lb />ray-je mal-heureuſe, &amp; comment annoncer à Ma<lb />dame de ſi meſchantes nouvelles ! An, ah.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Qu'as-tu, Toinette?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ah Madame! quelle perte venez-vous de faire.
+<lb />Monſieur vient de mourir tout à l’heure ſubite<lb />ment; j’eſtois ſeule icy, &amp; il n’y avoit perſonne
+<lb />pour le ſecourir.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Quoy, mon mary eſt mort?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Helas! oüy, le pauvre homme deffunt eſt tré<lb />paſſé.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Le Ciel en ſoit lone, me tonta dentiee d'us
+<lb />grand fardeau : que tu es folle, Toinette, de
+<lb />pleurer:
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Moy, Madame, &amp; je croyois qu’il falluſt pleu<lb />rer.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Bon, &amp; je voudrois bien ſçavoir pour quelle
+<lb />raiſon ay je fait une ſi grande perte; quoy, pleu<lb />rerun honme mal baſty, mal fait, ſans eſprit, de
+<lb />mauvaiſe humeur, fort âgé, toûjours touſſant,
+<lb />mouchant, crachant, reniflant, faſcheux, ennu<lb />yeux, incommode à tout le monde, grondant
+<lb />fanis cent &amp; ſans raiſon, toûjours un lavement ou
+<lb />une medecine dans le corps, de méchante odeur;
+<lb />il lauuioit que jon cuſſe pas le ſens commun.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Voila une belle oraiſon runebre.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Je ne pretens pas avoir paſſé la plus grande par<lb />tie de ma jeuneneuree lay ſans y profiter de quel<lb />que choſe; &amp; il faut, Toinette, que tu m’aide à
+<lb />bien faire mes affaires ſeurement, ta recompenſe
+<lb />eit leure.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ah, Madame, je n’ay garde de manquer à mon
+<lb />devoir.
+</sp>
+<sp type="MainZone-Sp"><lb />BELINE.
+<lb />Puiſque tu m'aſſeure que ſa mort n’eſt ſçeuë de
+<lb />perſonne, ſaiſiſſons-nous de l’argent, &amp; de tout
+<lb />ce qu’il y a de meilleur; portons-le dans ſon lit,
+<lb />&amp; quand j’auray tout mis à couvert, nous ferons
+<lb />en ſorte que quelqu’autre l’y trouve mort, &amp; ainſi
+<lb />on ne ſe doutera point de ce que nous aurons fait.
+<lb />Il faut d’abord que je luy prenie les erers qui lont
+<lb />dans cette poche.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Tout beau, tout beau, Madame la carogne; ah,
+<lb />ah, je ſuis ravy d’avoir entendu le bel éloge que
+<lb />vous avez fait de moy, cela m’empeſchera de faire
+<lb />bien des choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Quoy le deffunt n’eſt pas mort?
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Me bieii, mon frele, voyen tous a pacrent cohe
+<lb />me voſtre femme vous aime.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah vrayment oüy, je le vois, je ne le vois que
+<lb />trop.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Je vous jure que j’ay bien eſté trompée, &amp; je
+<lb />n’euſſe jamais creu cela. Mais j’apperçois voſtre
+<lb />fille, retournez-vous-en où vous eſtiez, &amp; vous
+<lb />remettez dans voſtre chaiſe, il eſt bon auſſi de
+<lb />l’éprouver, &amp; ainſi vous connoiſtrez les ſentimens
+<lb />de toute voitle ramille.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Pa aa fanon, to as fallone
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />ANGELIQUE,TOINETTE,
+<lb />ARGAN, BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />H quel étrange accident! mon pauvre
+<lb />L Anaiſtre eſt mort, que de larmes, que de
+<fw><lb />2
+</fw><lb />pleurs il nous va couſter! quel deſaſtre, s’il eſtoit
+<lb />encore mort d’une autre maniere on n’en auroit
+<lb />pas tant de regret, ah que j’en ay de déplaiſir,
+<lb />ah, ah, ah.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Qu’y a-t’il de nouveau, Toinete, pour te cauſer
+<lb />tant de gemiſſemens?
+</sp>
+<sp type="MainZone-Sp"><lb />TOINHTTE.
+<lb />Helas voſtre pere eſt mort!
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mon pere eſt mort, Toinette.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Ahil ne l’eſt que trop, &amp; il vient d’expirer en<lb />tie mes bras d'une foibleſſe qui luy a priſe. Te<lb />nez, voyez-le, le voilà tout étendu dans ſa chaiſe.
+<lb />Ha, ha.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mon pere eſt mort, &amp; juſtement dans le temps
+<lb />où il eſtoit en colere contre moy, par la reſiſtan<lb />ce que je luy ay faite tantoſt, en refuſant le
+<lb />mary qu’il me vouloit donner, que deviende<lb />lay-je, meſable que je luio,ue comment cacher<lb />une choſe qui a paru devant tant de perſonnes?
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />CLEANTE, ANGELIQUE,
+<lb />TOINETTE, ARGAN,
+<lb />BERALDE.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Uſte Ciel que vois-je, dites, qu’avez-vous,
+<lb />belle Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ah Cleante, ne me parlez plus de rien, mon
+<lb />pere eſt mort, il faut vous dire adieu pour
+<lb />toûjours, &amp; nous ſeparer entierement l’un de
+<lb />l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Quelle infortune, grand Dieu! helas, apres
+<lb />la demande que j’avois prié voſtre oncle de luy
+<lb />faire de vous, je venois moy-meſme me jetter à
+<lb />les pieds pour faiſe un dernier effort ann de vous
+<lb />obtenir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Le Ciel ne l’a pas voulu, vous devez comme
+<lb />moy vous ſoûmettre à ce qu’il veut, &amp; il faut
+<lb />vous reſoudre de me quitter pour toûjours. Oüy,
+<lb />mon pere, puiſque j’ay eſté aſſez infortunée pour
+<lb />ne pas faire ce que vous vouliez de moy pendant
+<lb />voſtre vie, du moins ay-je deſſein de le reparer
+<lb />apres voſtre mort; je veux executer voſtre dernie<lb />re volonté, &amp; je vais me retirer dans un Convent
+<lb />pour y plenier roitre mort pendant tout le reſte de
+<lb />ma vie; oüy mon cher pere, ſouffrez que je vous
+<lb />en donne icy les demneles aneurances &amp; que je
+<lb />vous embraſſe....
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Ah, ma fille....
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Ha, ha, ha, ha !
+</sp>
+<sp type="MainZone-Sp"><lb />ARCAIN.
+<lb />Viens, ma chere enfan, que je te baiſe; va;
+<lb />je ne ſuis pas mort, je vois que tu es ma fille,
+<lb />&amp; je ſuis bien-aiſe de reconnoiſtre ton bon na<lb />turel.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mon pere, permettez que je me mette à ge<lb />noux devant vous pour vous conjurer que ſi vous
+<lb />ne me voulez pas faire la grace de me donner
+<lb />Cleante pour époux, ne me refuſez pas celle de
+<lb />ne m’en pas donner un avec lequel je ne puiſſe
+<lb />vivre
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Eh, Monſieur, ſerez-vous inſenſible à tant d’a<lb />mnour, ee ne peut on pus ous decendrir par aucun:
+<lb />endroit?
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Mon frere, avez-vous à conſulter, &amp; ne de<lb />vriez-vous pas déja l’avoir donnée aux vœux de
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Comment! vous reſiſterez à de ſi grandes mar<lb />ques de tendreſſe; là Monſieur, rendez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Hé bien, qu’il ſe faſſe medecin, &amp; je luy donne
+<lb />ma fille.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Oujuda, Monteur y je le redauoiens Apoti<lb />quaire meſme ſi vous voulez: Je ferois encore
+<lb />des choſes bien plus difficiles pour avoir la belle
+<lb />Angelique.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Mais, mon frere, il me vient une penſée; fai<lb />tes-vous Medecin vous-meſme plûtoſt que Mon<lb />ſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Moy Medecin?
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Oüy vous, c’eſt le veritable moyen de vous
+<lb />bien porter; &amp; il n’y a aucune maladie ſi redou<lb />table qu’elle ſoit, qui aye l’audace de s’attaquer
+<lb />àun Medecin.
+<fw><lb />K iiij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />TOINETTE.
+<lb />Tenez, Monſieur, voſtre barbe y peut beaucoup,
+<lb />&amp; la barbe fait pius de la moitie d’un Médecin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Vous vous mocquez, je crois, &amp; je ne ſçais pas
+<lb />un ſeul mot de Latin, comment donc faire?
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Voila une belle raiſon, allez, allez il y en a
+<lb />parmy eux qui en ſçavent encore moins que vous,
+<lb />&amp; lors que vous aurez la robe &amp; le bonnet, vous
+<lb />en ſçaurez plus qu’il ne vous en faut.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />En tout cas, me voila preſt à faite ce que l’on
+<lb />voudla.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Mais, mon frere, cela ne ſe peut faire ſi-toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Tout à preſent ſi vous voulez, &amp; j’ay une fa<lb />culté de mes amis fort prés d’icy, que j’enverray
+<lb />querir pour celebrer la ceremonie, allez vous pre<lb />parer feulemene, toutes choſes ſeront tien-toſt
+<lb />preſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGAN.
+<lb />Allons, voyons, voyons.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Quel eſt donc voſtre deſſein? &amp; que voulez<lb />vous dire avec cette faculté de vos amis?
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />C’eſt un Intermede de la reception d’un Mede<lb />cin, que des Comediens ont reprelente ces jous
+<lb />paſſez, je les avois fait venir pour la joüer ce ſoi f
+<lb />icy devant nous, afin de nous bien divertir, &amp;
+<lb />je pretens que mon frere y joüe le premier per<lb />ſonnage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Mais mon oncle, il me ſemble que c’eſt ſe
+<lb />pailier un peu lortcmnent de Men perer,
+</sp>
+<sp type="MainZone-Sp"><lb />BERALDE.
+<lb />Ce n’eſt pas tant le railler que de s’accommo<lb />der à ſon humeur, outre que pour luy oſter tout
+<lb />ſujet de ſe faſcher quand il aura reconnu la piece
+<lb />que nous luy joüons, nous pouvons y prendre
+<lb />cnacui un ione, ce joueren meſme temps que
+<lb />luy. Allons-donc nous habiller.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTE.
+<lb />Y conſentez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ANGELIQUE.
+<lb />Il le faut bien.
+</sp>
+<p type="MainZone-Other"><lb />Fin du dernier Acte.
+</p>
+<p type="MainZone-Head"><lb />TROISIEME INTERMEDE.
+<lb />’Eſt une ceremonie burleſque d’un
+<lb />nennne qu’on fait Medecin, en re<lb />cit, chant &amp; dance.
+</p>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />Pluſieurs Tapiſſiers viennent preparer la Sal<lb />le, &amp; placer les bancs en cadence. Enſuite dequoy
+<lb />toute l’Aſſemblée, compoſée de huit porte-ſerin<lb />gues, Apotiquaires, vingt-deux Docteurs, celuy
+<lb />qui ſe fait recevoir Medecin, huit Chirurgiens
+<lb />dançans, &amp; deux chantans, entrent, &amp; prennent
+<lb />leurs places ſelon les rangs.
+</sp>
+<sp type="MainZone-Sp"><lb />PRÆSES.
+<lb />Cavantiſſimi Doctores,
+<lb />OMedicina Profeſſores,
+<lb />Qui hic aßemblati eſtis;
+<lb />Et vos altri Meſſiores,
+<lb />Sententiarum facultatis
+<lb />Fideles executores,
+<lb />Chirurgiani &amp; Apothicari,
+<lb />Atque tota Compania auſſi
+<lb />Salus honor, &amp; argentum,
+<lb />Atque bonum appetitum.
+</sp>
+<p type="MainZone-Lg"><lb />Non poſtum Docti confreri,
+<lb />En moy ſatis admirari,
+<lb />Qualis bona inventio,
+<lb />Eſt Medici profeſſio:
+<lb />Quam bella choſa eſt &amp; bene trovata
+<lb />Medecina illa benedicta,
+<lb />Qua ſuo nomine ſolo
+<lb />Surprenanti miraculo,
+<lb />Depuis ſi longo tempore
+<lb />Facit à gogo vivere
+<lb />Tant de gens omni genere.
+</p>
+<p type="MainZone-Lg"><lb />Per totam terram videmus
+<lb />Grandam vogam ubi ſumus,
+<lb />Et quod grandes &amp; petiti
+<lb />Sunt de nobis infatuti:
+<lb />Totus mundus currens ad noſtros remedios;
+<lb />Nos regardat ſicut Deos,
+<lb />Et nojtis ermommiveije
+<lb />Principes &amp; Reges ſoumiſſos videtis.
+</p>
+<p type="MainZone-Lg"><lb />Donque il eſt noſtra ſapientia,
+<lb />Boni ſenſus atque prudentia,
+<lb />De fortement travaillare,
+<lb />A nos bene conſervare
+<lb />In tali credito, voga, &amp; honore,
+<lb />Et prandere gardam à non recevere
+<lb />In noſtro docto corpore
+<lb />Quam perſonas capabiles,
+<lb />Et totas dignas ramplire
+<lb />Has placas honorabiles.
+<lb />C’eſt pour cela que nunc convocati eſtis,
+<lb />Et credo quod trovabitis
+<lb />Dignam materiam medici,
+<lb />In ſcavanti homine que voicy
+<lb />Lequel in choſis omnibus
+<lb />Dono ad interrogandum,
+<lb />Et à fond examinandum
+<lb />Voſtris capacitatibus.
+</p>
+<sp type="MainZone-Sp"><lb />PRIMUS DOCTOR.
+<lb />Si mihi licenciam dat Dominus Praſes,
+<lb />Et tanti docti Doctores,
+<lb />Et aſſiſtantes illuſtres
+<lb />Tres-ſcavanti Bacheliero
+<lb />Quem eſtimo &amp; honoro,
+<lb />Domandabo cauſam &amp; rationem, quart
+<lb />Opium facit dormire.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Mihi à docto Doctore
+<lb />Domandatur cauſam &amp; rationem, quare
+<lb />Opium facit dormire?
+<lb />A quoy reſpondeo,
+<lb />Quia eſt sà eo
+<lb />Virtus dormitiva,
+<lb />Cujus eſt natura
+<lb />Senſus aſſoupire.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Bene, bene, bene, bene reſpondere
+<lb />Dignus, dignus eſt entrare
+<lb />In noſtro docto corpore.
+<fw><lb />SE</fw></sp>
+<p type="MainZone-Head"><lb />SECUNDUS DOCTOR.
+<lb />Cum permiſſione Domini Praſidis
+<lb />Doctiſſima facultatis;
+<lb />Et totius his noſtris actis
+<lb />Compania aſſiſtantis
+<lb />Domandabo tibis docte Bacheliere,
+<lb />Qua ſunt remedia,
+<lb />Qua in maladia
+<lb />Dicte hidropiſi a
+<lb />Convenit facere.
+</p>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Cliſterium donare,
+<lb />Poſtea ſegnare,
+<lb />Enſuitta purgare.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Bene, bene, bene, oene reſpondert
+<lb />Dignus, dignus est entrare
+<lb />In noſtro docto corpore.
+</sp>
+<sp type="MainZone-Sp"><lb />TERTIUS DOCTOR.
+<lb />Si bonum ſemblatur Domino Praſidu
+<lb />Doctiſſimæ facultati
+<lb />Et vompania praſenti
+<lb />Domandabo tibi docte, Bacheliere,
+<lb />Qua remedia Eticis,
+<lb />Finmbnicis atque Aſmaticis
+<lb />Trovas à propos facere.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Cliſterium donare,
+<fw><lb />L
+</fw><lb />Poſtea ſegnare,
+<lb />Enſuitta purgare.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Bene, bene, bene, bene reſpondere
+<lb />Dignus, dignus eſt entrare
+<lb />In noſtro docto corpore.
+</sp>
+<sp type="MainZone-Sp"><lb />QUARTUS DOCTOR.
+<lb />Super illas maladias,
+<lb />Doctus Bachelierus dixit maravillas:
+<lb />Mais ſi non ennuyo Dominum Praſidem
+<lb />Doctiſſimam facultatem,
+<lb />Et totam honorabilem
+<lb />Campaniam écoutantem;
+<lb />Faciam illi unam queſtionem,
+<lb />De hiero maladus unus
+<lb />Tombavit in meas manus:
+<lb />Habet grandam fievram cum redoublamentù
+<lb />Grandam dolorem capitis,
+<lb />Et grandum malum au coſté,
+<lb />Cum granda difficultate
+<lb />Et pena reſpirare:
+<lb />Veillas mihi dire,
+<lb />Docte Bacheliere,
+<lb />Quid illi facere.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Clisterium donare,
+<lb />Poſtea ſegnare,
+<lb />Enſuitta purgare.
+</sp>
+<sp type="MainZone-Sp"><lb />UINTUS DOCTOR.
+<lb />Mais ſi maladia
+<lb />Opiniatria,
+<lb />Non vult ſe garire,
+<lb />Quid illi facere.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Cliſterium donare,
+<lb />Potea ſegnare,
+<lb />Enſuitta purgare.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Bene, bene, bene, bene reſpondere
+<lb />Dignus, aignus eni entrare
+<lb />In nostro docto corpore.
+</sp>
+<sp type="MainZone-Sp"><lb />PRÆSES.
+<lb />jhru gurnare eminto
+<lb />Per facultatem praſcripta,
+<lb />Cumſenſu &amp; jugeamento.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Juro.
+</sp>
+<sp type="MainZone-Sp"><lb />PRÆSES.
+<lb />Eſſere in omnibus
+<lb />Conſultationibus
+<lb />Ancieni aviſo;
+<lb />Aut bono,
+<lb />Aut mauvaiſo.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />furo.
+</sp>
+<p type="MainZone-Lg"><lb />L ij
+</p>
+<p type="MainZone-Head"><lb />PRÆSES.
+<lb />De non jamais te ſervire
+<lb />De remedijs aucunis,
+<lb />Quam de ceux ſeulement docta facultaris
+<lb />Maladus deuſt-il crevare,
+<lb />Et mori de ſuo malos
+</p>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Juro.
+</sp>
+<sp type="MainZone-Sp"><lb />PRÆSES.
+<lb />Ego cum iſto bonete
+<lb />Venerabili &amp; docto,
+<lb />Dono tibi &amp; concedo
+<lb />Virtutem &amp; puiſſanciam
+<lb />Medicandi,
+<lb />Purgandi,
+<lb />Seignandi.
+<lb />Percandi,
+<lb />Taillandi,
+<lb />Coupandi,
+<lb />Et occcidendi
+<lb />Impune per totam terram.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTREE DE BALLET.
+<lb />Tous les Chirurgiens &amp; Apotiqu.
+<lb />uent luy faire la reverence en cadence.
+</sp>
+<sp type="MainZone-Sp"><lb />BACHELIERUS.
+<lb />Gtandes Doctores doctrina,
+<lb />De la Rhubarbe &amp; du Sené:
+<lb />EEt ſeroit ſans douta à moy choſa folla
+<lb />Inepta &amp; ridicula,
+<lb />Si j’alloibam m’engageare
+<lb />Vobis loüangeas donare,
+<lb />Et entreprenoibam adjoûtare,
+<lb />Des lumieras au Soleillo,
+<lb />Et des étoilas au Cielo,
+<lb />Des Ondas à l’Oceano,
+<lb />Et des roſas au printanno,
+<lb />Agreate qu’avec uno mote
+<lb />Pro toto remercimento
+<lb />Randam gratiam corpori tam docto,
+<lb />Vobis, Vobis debeo,
+<lb />Bien plus qu’à natura, &amp; qu’à patri moo.
+<lb />Natura &amp; pater meus,
+<lb />Hominem me habent factum:
+<lb />Mais vos me, ce qui eſt bien plus,
+<lb />Avetis factum Medicum.
+<lb />Honor, favor, &amp; gratia,
+<lb />&amp;uin not torde que donta 3.
+<lb />Imprimant reſſentimenta
+<lb />Qui dureront in ſecula.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />mham; ovont, ουonxy υcouty comi fou uvou,
+<lb />Novus Doctor, qui tam bene parlat,
+<lb />Mille, mille annis, &amp; manget &amp; bibat,
+<lb />Et ſegnet &amp; tuat.
+</sp>
+<sp type="MainZone-Sp"><lb />ENTRE’E DE BALLET.
+<lb />'ous les. Chirurgiens &amp; les Apotiquaires dan<lb />ceut au ſon des Inſtrumens &amp; des voix, &amp; des
+<lb />battemens de mains &amp; des mortiers d’Apotiquai<lb />tes.
+<lb />Puiſſe-t’il voir doctus,
+<lb />Suas Ordonnancias,
+<lb />Omnium Chirurgorum,
+<lb />Et Apothicarum
+<lb />Remplire boutiquas,
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Vivat, vioat, vivat, vivat, cent fois vivat,
+<lb />Novus Doctor qui tam bene parlat,
+<lb />Mille, mille annis, &amp; manget &amp; bibat,
+<lb />Et ſeignet &amp; tuat.
+</sp>
+<sp type="MainZone-Sp"><lb />CHIRURGUS.
+<lb />Puiße toti anni,
+<lb />Luy eßere boni
+<lb />Et favorabiles,
+<lb />Er imbere jamais
+<lb />Quam peſtas, verolas,
+<lb />Fievras, plureſias,
+<lb />Fluxus de ſang &amp; diſſenterias.
+</sp>
+<sp type="MainZone-Sp"><lb />CHORUS.
+<lb />Vivat, vivat, vivat, vivat, cent fois vivat
+<lb />Nouus Doctor qui tam bene parlat,
+<lb />Mille, mille annis, &amp; manget &amp; bibas,
+<lb />Et ſeignet &amp; tuat.
+</sp>
+<p type="MainZone-Other"><lb />DERNIERE ENTRE'E DE BALLET,
+<fw><lb />– 20
+<lb />4
+<lb />2
+<lb />2
+</fw><fw><lb />{
+<lb />7
+<lb />*
+<lb />
+<lb />M
+<lb />A
+<lb />T
+</fw><fw><lb />2
+<lb />2
+<lb />2
+</fw><fw><lb />
+<lb />26
+</fw></p>
+<p type="MainZone-Head"><lb />France
+<fw><lb />de France
+</fw><fw><lb />–
+</fw></p>
+<p type="MainZone-Head"><lb />France
+<fw><lb />de France
+</fw><fw><lb />de France
+</fw></p>
+    </body>
+  </text>
+</TEI>

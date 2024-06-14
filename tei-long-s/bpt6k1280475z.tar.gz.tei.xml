@@ -1,0 +1,1833 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L'Amour médecin, comédie...</title>
+        <author>Molière</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb386509706"/>
+          <author>
+            <persName>Molière</persName>
+          </author>
+          <title>L'Amour médecin, comédie...</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1669" cert="high" resp="BNF">1669</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Other"><lb />M. DC. LXIX.
+<lb />AVEC PRIVILEGE DV ROT.
+</p>
+<p type="MainZone-Head"><lb />AV MOVA
+</p>
+<sp type="MainZone-Sp"><lb />E n’eſt icy qu’vn ſimple
+<lb />Crayon, vn petit Im<lb />promptu dont le Roy a
+<lb />voulu ſe faire vn Diuer<lb />tiſſement. Il eſt le plus précipité
+<lb />de tous ceux que Sa Majeſté m’ait
+<lb />commandez; &amp; lors que ie diray
+<lb />qu’il a eſté propoſé, fait, appris, &amp;
+<lb />repreſenté en cinq jours, ie ne diray
+<lb />que ce qui eſt vray. Il n’eſt pas ne<lb />ceſſaire de vous auertir qu’il y a
+<lb />beaucoup de choſes qui dépendent
+<lb />de l’action: On ſçait bien que les
+<lb />Comedies ne ſont faites que pour
+<lb />eſtre joüëes; &amp; ie ne conſeille de
+<lb />lire celle-cy qu’aux Perſonnes qui
+<lb />ont des yeux pour découurir dans la
+<lb />lecture tout le leu du Theatre. Ce
+<lb />que ie vous diray, c’eſt qu’il ſeroit
+<lb />à ſouhaiter que ces ſortes d’Ouura<lb />ges pûſſent toûjours ſe montrer à
+<lb />vous auec les ornemens qui les ac<lb />compagnent chez le Roy: Vous les
+<lb />verriez dans vn eſtat beaucoup plus
+<lb />ſupportable; &amp; les Airs, &amp; les
+<lb />Symphonies de l’incomparable
+<lb />Monſieur Lully, meſlez à la beauté
+<lb />des Voix, &amp; à l’adreſſe des Dan<lb />çeurs, leur donnent ſans doute des
+<lb />graces, dont ils ont toutes les pei<lb />nes du monde à ſe paſſer.
+</sp>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />Ar Grace &amp; Priuilege du Roy, Donné à Pario
+<lb />Y le 30. de Decembre 1665. Signé, DE SEI<lb />GNEROLLE, &amp; ſcellé du grand Sceau de cire
+<lb />jaune: Il eſt permis à Iean Baptiſte Pocquelin
+<lb />de Moliere, Comedien de la Trouppe de noſtre
+<lb />tres-cher &amp; tres-amé Frere Vnique le Duc d’Ot<lb />leans, de faire imprimer, vendre &amp; debiter, pen<lb />dant le temps &amp; eſpace de cinq ans, par tel Li<lb />braire, ou Imprimeur que bon luy ſemblera, vne
+<lb />Piece de Theatre qu’il a compoſée, intitulée
+<lb />l’AMOVR MED ECIN, auec defenſes à toutes
+<lb />Perſonnes de réimprimer, ou contrefaire, vendre,
+<lb />ou diſtribuer ladite Piece, ou partie d’icelle, ſans
+<lb />ſa permiſſion, à peine de confiſcation des Exem<lb />plaires, &amp; de l’amende portée dans l’Original.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté des
+<lb />Imprimeurs &amp; Marchands Libraires de Paris, le
+<lb />4. Ianvier 1666. Signé, PIGET, Syndic.
+</p>
+<p type="MainZone-P"><lb />Dedit Dieur Mortieu ceur, quitté &amp; tranſporté
+<lb />ſon diolet de Paiullege a perre raubouillet, &amp;
+<lb />Theodore Girard, Marchands Libraires à Paris,
+<lb />pour en joüir ainſi qu’il eſt porté par leſdites Let<lb />tres de Priuilege, ſuiuant l’accord fait entr’eux.
+</p>
+<sp type="MainZone-Sp"><lb />Acheuë d’imprimer pour la ſeconde fois,
+<lb />le 20. Novembre 1668.
+</sp>
+<p type="MainZone-Head"><lb />LES PERSONNAGES.
+<lb />SGANARELLE, Pere de Lucinde.
+<fw><lb />AMINIE.
+</fw></p>
+<p type="MainZone-Entry"><lb />LVCRECE.
+</p>
+<p type="MainZone-Entry"><lb />M. GVILLAVME, Vendeur de Tapiſſeries.
+<fw><lb />M. IOSSE, Orfevre.
+</fw></p>
+<p type="MainZone-Entry"><lb />LVCINDE, Fille de Sganarelle.
+</p>
+<p type="MainZone-Entry"><lb />LYSETTE, Suiuante de Lucinde.
+<fw><lb />M. TOMES,
+<lb />M DES FONANDRE'S,
+<lb />M. MACROTON,
+<lb />M BAH
+<lb />Y
+<lb />M. FILERIN,
+<lb />EMedecins.
+<lb />CLITANDRE, Amant de Lucinde.
+<lb />VN NOTAIRE.
+</fw></p>
+<p type="MainZone-Head"><lb />L’OPERATEVR, Oruietan.
+<lb />Pluſieurs Triuelins &amp; Scaramouches.
+<lb />LA COMEDIE.
+<lb />LA MVSIQVE.
+<lb />IE BALLET.
+</p>
+<sp type="MainZone-Sp"><lb />La Scene eſt à Paris, dans vne salle de
+<lb />la Maiſon de Sganarelle.
+</sp>
+<p type="MainZone-Head"><lb />PROLOGVE.
+</p>
+<p type="MainZone-Head"><lb />LA COMEDIE,
+<lb />LA MVSIQVE,
+<lb />ET LE BALLET.
+</p>
+<sp type="MainZone-Sp"><lb />LA COMEDIE.
+<lb />&amp; Vittons, quittons noſtre vaine
+<lb />querelle,
+<lb />Ne nous diſputons point nos
+<lb />D'ots
+<lb />talens tour à tour,
+<lb />Et d’vne gloire plus belle,
+<lb />Piquons-nous en ce jour:
+<lb />Vniſſons, nous tous trois d’vne ardeur
+<lb />ſans ſeconde,
+<lb />neui uumor du plaiſir au plus grand
+<lb />Roy du Monde.
+</sp>
+<sp type="MainZone-Sp"><lb />Tous Trois.
+<lb />Vniſſons-nous....
+<lb />De ſes trauaux plus grands qu’on ne peut
+<lb />croire,
+<lb />Il ſe vient quelquefois délaſſer parmy
+<lb />nous.
+<lb />Eſt-il de plus grande gloire?
+<lb />Aſiets vonnoul paunuoux?
+<lb />Vniſſons-nous tous trois....
+</sp>
+<sp type="MainZone-Sp"><lb />Tous Trois.
+<lb />Vniſſons-nous.....
+</sp>
+<p type="MainZone-Other"><lb />DAMOVR
+</p>
+<p type="MainZone-Head"><lb />LLIRROVX
+<lb />
+</p>
+<p type="MainZone-Head"><lb />ACTE I.
+<lb />SCENE I
+<lb />SGANARELLE, AMINTE,
+<lb />LVCRECE M. GVIL<lb />LAVME, M. IOSSE.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />&amp; Hi l’étrange choſe que la
+<lb />llh
+<lb />ARAS
+<lb />vie! &amp; que ie puis bien
+<lb />dire auec ce grand Philo<lb />ſophe de l’Antiquité, que
+<lb />qui terre a, guerre a, &amp; qu’vn mal<lb />heur ne vient iamais ſans l’autres
+<lb />Ie n’auois qu’vne ſeule Femme qui
+<lb />elt morte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GVILLAVME.
+<lb />Et combien donc en voulez vous
+<lb />auoir?
+</sp>
+<p type="MainZone-P"><lb />SGANARELLE.
+<lb />Elle eſt morte, Monſieur mon
+<lb />amy; cette perte m’eſt tres-ſenſi<lb />ble, &amp; ie ne puis m’en reſſouuenir
+<lb />ſans pleurer. Ie n’eſtois pas fort ſa<lb />tisfait de ſa conduite, &amp; nous auions
+<lb />le plus ſouuent diſpute enſemble;
+<lb />mais enfin, la mort r’ajuſte toutes
+<lb />choſes. Elle eſt morte; ie la pleure.
+<lb />Si elle eſtoit en vie, nous nous que<lb />rellerions. De tous les Enfans que
+<lb />le Ciel m’auoit donnez, il ne m’a
+<lb />laiſſé qu’vne Fille, &amp; cette Fille eſt
+<lb />toute ma peine: Car enfin, ie la voy
+<lb />dans vne mélancolie la plus ſombre
+<lb />du monde, dans vne triſteſſe épou<lb />daritabie; dont il n’y a pas moyen de
+<lb />la retirer, &amp; dont ie ne ſçaurois
+<lb />meſme apprendre la cauſe. Pour
+<lb />moy, i’en perds l’eſprit, &amp; i’aurois
+</p>
+<sp type="MainZone-Sp"><lb />beſoin d’vn bon conſeil ſur cette
+<lb />matiere. Vous eſtes ma Niece;
+<lb />vous, ma Voiſine; &amp; vous, mes
+<lb />Comperes &amp; mes Amis; ie vous
+<lb />prie de me conſeiller tous ce que ie
+<lb />dois faire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. IOSSE.
+<lb />Pour moy, ie tions que la brauerie
+<lb />&amp; l’ajuſtement, eſt la choſe qui ré<lb />joüit le plus les Filles; &amp; ſi i’eſtois
+<lb />que de vous, ie luy acheterois dés
+<lb />aujourd’huy vne belle Garnitur ede
+<lb />Diamans, ou de Rubis, ou d’Eme<lb />raudes.
+<lb />1
+</sp>
+<sp type="MainZone-Sp"><lb />M. GVILLAVME.
+<lb />Et moy, ſi i’eſtois en voſtre place,
+<lb />i’acheterois vne belle Tenture de
+<lb />Tapiſſerie de verdure, ou à perſon<lb />nages, que ie ferois mettre à ſa
+<lb />Chambre, pour luy réjoüir l’eſprit
+<lb />&amp; la veuë.
+</sp>
+<sp type="MainZone-Sp"><lb />AMINTE.
+<lb />Pour moy, ie ne ferois point tant
+<lb />de façon, &amp; ie la marirois fort bien,
+<lb />&amp; le plutoſt que ie pourrois, auec
+<lb />A ij
+<lb />cette Perſonne qui vous la fit, dit<lb />on, demander, il y a queique temps.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCRECE.
+<lb />Et moy, ie tiens que voſtre Fille
+<lb />n’eſt point du tout propre pour le
+<lb />Mariage: Elle eſt d’vne complexion
+<lb />trop délicate &amp; trop peu ſaine; &amp;
+<lb />c’eſt la vouloir enuoyer bientoſt en
+<lb />I’autre Monde, que de l’expoſer
+<lb />comme elle eſt, à faire des Enfans.
+<lb />Le Monde n’eſt point du tout ſon
+<lb />fait, &amp; ie vous conſeille de la mettre
+<lb />danis in Obuuent, où elle trouuera
+<lb />des diuertiſſemens qui ſeront mieux
+<lb />de ſon humeur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Tous ces conſeils ſont admirables
+<lb />aſſurément; mais ie les trouue vn
+<lb />peu intereſſez, &amp; trouue que vous
+<lb />me conſeillez fort bien pour vous.
+<lb />Vous eſtes Orfevre, Monſieur Ioſſe,
+<lb />&amp; voſtre conſeil ſent ſon Homme
+<lb />qui a enuie de ſe défaire de ſa mar<lb />chandiſe. Vous vendez des Tapiſ<lb />ſeries, Monſieur Guillaume, &amp; vous
+<lb />auez la mine d’auoir quelque Ten<lb />ture qui vous incommode. Celuy
+<lb />que vous aimez, ma Voiſine, à,
+<lb />dit-on, quelque inclination pour
+<lb />ma Fille, &amp; vous ne ſeriez pas fâ<lb />chée de la voir la Femme d’vn autre.
+<lb />Et quant à vous, ma chere Niece,
+<lb />ce n’eſt pas mon deſſein, comme on
+<lb />ſçait, de marier ma Fille auec qui
+<lb />que ce ſoit, &amp; i’ay mes raiſons pour
+<lb />cela: Mais le conſeil que vous me
+<lb />donnez de la faire Religieuſe, eſt
+<lb />d’vne Femme qui pourroit bien
+<lb />ſouhaiter charitablement d’eſtre
+<lb />mon heritiere vniuerſelle. Ainſi,
+<lb />Meſſieurs &amp; Meſdames, quoy que
+<lb />tous vos conſeils ſoient les meilleurs
+<lb />du monde, vous trouuerez bon, s’il
+<lb />vous plaiſt, que ie n’en ſuiue aucun.
+<lb />Voila de mes donneurs de conſeils
+<lb />à la mode.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LVCINDE, SGANVARLLLE.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hi voila ma Fille qui prend
+<lb />TYl’air. Elle ne me voit pas. Elle
+<lb />ſoûpire. Elle leue les yeux au Ciel.
+<lb />Dieu vous gard. Bonjour, ma Mie.
+<lb />Hé bien, qu’eſt-ce! comme vous
+<lb />en va? Hé quoy! toûjours triſte &amp;
+<lb />melancolique comme cela, &amp; tu ne
+<lb />veux pas me dire ce que tu as? Al<lb />lons donc, découure-moy ton petit
+<lb />cœur: Là, ma pauure Mie, dy, dy;
+<lb />dy tes petites penſées à ton petit
+<lb />Papa mignon. Courage. Veux-tu
+<lb />que ie te baiſe? vien. I’enrage de
+<lb />la voir de cette humeur-là. Mais,
+<lb />dy-moy, me veux-tu faire mourir
+<lb />de déplaiſir, &amp; ne puis-je ſçauoir
+<lb />d’où vient cette grande langueur?
+<lb />Découure m’en la cauſe, &amp; ie te
+<lb />promets que ie feray toutes choſes
+<lb />pour toy. Oüy, tu n’as qu’à me dire
+<lb />leſujet de ta triſteſſe; ie t’aſſure icy,
+<lb />&amp; te fais ſerment, qu’il n’y a rien
+<lb />que ie ne faſſe pour te ſatisfaire.
+<lb />C’eſt tout dire. Eſt-ce que tu es
+<lb />jalouſe de quelqu’vne de tes Com<lb />pagnes, que tu voyes plus braue
+<lb />que toy? &amp; ſeroit il quelque étoffe
+<lb />nouuelle dont tu vouluſſes auoir vn
+<lb />habit? Non. Eſt-ce que ta Cham<lb />bre ne te ſemble pas aſſez parée, &amp;
+<lb />que tu ſouhaiterois quelque Cabi<lb />net de la Foire S. Laurent? Ce n’eſt
+<lb />pas cela. Aurois-tu enuie d’appren<lb />dre quelque choſe? Et veux-tu que
+<lb />ie te donne vn Maiſtre pour te mon<lb />trer à joüer du Claueſſin? Nenny.
+<lb />Aimerois-tu quelqu’vn, &amp; ſouhai<lb />terois-tu d’eſtre mariée?
+</sp>
+<p type="MainZone-Other"><lb />Lucinde luy fait ſigne que c’eſt cela</p>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LYSETTE, SGANARELLE,
+<lb />LVCINVDE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />E' bien, Monſieur, vous ve<lb />I Tnez d’entretenir voſtre Fille.
+<lb />Auez-vous ſceu la cauſe de la mé<lb />lancolie?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Non, c’eſt vne Coquine qui me
+<lb />fait enrager.
+</sp>
+<sp type="MainZone-Sp"><lb />ETSETIL.
+<lb />Monſieur, laiſſez moy faire, ie
+<lb />m’en vais la ſonder vn peu.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il n’eſt pas neceſſaire; &amp; puis
+<lb />qu’elle veut eſtre de cette humeur,
+<lb />ie ſuis d’auis qu’on l’y laiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Laiſſez-moy faire, vous dis-je,
+<lb />peut-eſtre qu’elle ſe découurira plus
+<lb />librement à moy quu roum<lb />Madame, vous ne nous direz point
+<lb />ce que vous auez, &amp; vous voulez
+<lb />affliger ainſi tout le monde? Il me
+<lb />ſemble qu’on n’agiſt point comme
+<lb />vous faites; &amp; que ſi vous auez
+<lb />quelque repugnance à vous expli<lb />quer à vn Pere, vous n’en deuez
+<lb />auoir aucune à me découurir voſtre
+<lb />cœur. Dites moy, ſouhaitez vous
+<lb />quelque choſe de luy? Il nous a dit
+<lb />plus d’vne fois qu’il n’épargneroit
+<lb />rien pour vous contenter. Eſt ce
+<lb />qu’il ne vous donne pas toute la li<lb />berté que vous ſouhaiteriez? &amp; les
+<lb />Promenades &amp; les Cadeaux ne ten<lb />teroient-ils point voſtre ame? Heu,
+<lb />Auez-vous receu quelque deplaiſir
+<lb />de quelqu’vn? Heu. N’auriez vous
+<lb />point quelque ſecrete inclination,
+<lb />auec qui vous ſouhaiteriez que voſ<lb />tre Pere vous mariaſt? Ah! ie vous
+<lb />entens. Voila l’affaire. Que Diable,
+<lb />pourquoy tant de façons? Mon<lb />ſieur, le myſtere eſt découuert
+<fw><lb />Et....
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE l’intérompant.
+<lb />Va, Fille ingrate, ie ne te veux
+<lb />plus parler, &amp; ie te laiſſe dans ton
+<lb />obſtination.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />men Pere, puis que vous voulez
+<lb />que ie vous diſe la choſe....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ouy, ie pers toute l’amitié que
+<lb />i’auois pour toy.
+</sp>
+<sp type="MainZone-Sp"><lb />LTSETTE.
+<lb />Monſieur, ſa triſteſſe....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />C’eſt vne Coquine qui me veut
+<lb />audie mourn.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Mon Pere, ie veux bien....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />6 n’eſt pas la récompenſe de
+<lb />t’auoir éleuée comme i’ay fait.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Mais, Monſieur....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Non, ie ſuis contr’elle, dans vne
+<lb />colere épouuantable.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Mais, mofrere....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ie n’ay plus aucune tendreſſe
+<lb />pour toy.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Mais....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />C’eſt vne Friponne.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Mais....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />L deSuai.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Mais....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARLLLE.
+<lb />Vne Coquine, qui ne me veut
+<lb />pas dire ce qu’elle a.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Seit vixMury quene vede.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARE LLE faiſant ſemblant
+<lb />de ne pas entendre.
+<lb />Ie l’abandonne.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vn Mary.
+<lb />A vi
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ie la déreſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vn Mary.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et la renonce pour ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />ETSLIEEC
+<lb />Vn Mary.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Non, ne m’en parlez point.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vn Mary.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ave Menparice pone..
+</sp>
+<sp type="MainZone-Sp"><lb />L'YSETTE.
+<lb />Vn Mary.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ne m’en parlez point.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vn Mary, vn Mary, vn Mary.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />EPOAETEJ DV EIMDES
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />N dit bien vray, Qu’il n’y a
+<lb /> point de pires tourds, que ceux
+<lb />qui ne veulent point entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Hé bien. Lyſette, i’auois tort de
+<lb />cuener mon ueplaiſir, &amp; ie n’auois
+<lb />qu’à parler, pour auoir tout ce que
+<lb />ie ſouhaitois de mõ Pere: Tu levois.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Par ma foy, voila vn vilain Hom<lb />me; &amp; ie vous auouë que i’aurois vn
+<lb />praint ektréme à luy joüer quelque
+<lb />tour. Mais d’où vient donc, Ma<lb />dame, que juſqu’icy vous m’auez
+<lb />caché voſtre mal?
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Helas: dequoy m’auroit ſeruy
+<lb />de te le découuln prutonr &amp; n’au<lb />rois-je pas autant gagné à le tenir
+<lb />caché toute ma vie? Crois-tu que
+<lb />ie n’aye pas bien preueu tout ce que
+<lb />tu vois maintenant? que ie ne
+<lb />ſceuſſe pas à fonds tous les ſenti<lb />mens de mon Pere? &amp; que le refus
+<lb />qu’il a fait porter à celuy qui m’a
+<lb />demandée par vn Amy, n’ait pas
+<lb />etoufre dais ilon aine toute Torte
+<lb />d’eſpoir?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Quoy, c’eſt cet Inconnu qui vous
+<lb />a fait demander, pour qui vous....
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Peut-eſtre n’eſt-il pas honneſte à
+<lb />vne Fille de s’expliquer ſi libre<lb />ment: mais enfin, ie t’auouë que
+<lb />s’il m’eſtoit permis de vouloir quel<lb />que choſe, ce ſeroit luy que ie vou<lb />drois. Nous n’auons eu enſemble
+<lb />aucune conuerſation, &amp; ſa bouche
+<lb />ne m’a point declaré la paſſion qu’il
+<lb />a pour moy: mais dans tous les lieux
+<lb />où il m’a pû voir, ſes regards &amp; ſes
+<lb />actions m’ont toujours parle meen<lb />drement, &amp; la demande qu’il a fait
+<lb />faire de moy, m’a paru d’vn ſi hon<lb />neſte Homme, que mon cœur n’a
+<lb />pu s’empeſcher d’eſtre ſenſible à ſes
+<lb />ardeurs; &amp; cependant tu vois où la
+<lb />durcee no mommon Meuui courc
+<lb />cette tendreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Allez, laiſſez-moy faire; quelque
+<lb />ſujet que i’aye de me plaindre de
+<lb />vous du ſecret que vous m’auez fait,
+<lb />ie ne veux pas laiſſer de ſeruir voſtre
+<lb />amour; &amp; pourueu que vous ayez
+<lb />aſſez de reſolution....
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Mrais que veux-tu que ie faſſe
+<lb />contre l’authorité d’vn Pere? &amp; s’il
+<lb />eſt inexorable à mes vœux....
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Allez, allez, il ne faut pas ſe laiſ<lb />ſer mener comme vn Oyſon; &amp;
+<lb />pourueu que l’honneur n’y ſoit pas
+<lb />offenſé, on peut ſe liberer vn peu
+<lb />de la tyrannie d’vn Pere. Que pre<lb />tend-il que vous faſſiez? N’eſtes.
+<lb />vous pas en âge d’eſtre mariée? &amp;
+<lb />croit il que vous ſoyez de marbre?
+<lb />Allez, encor vn coup, ie veux ſeruir
+<lb />voſtre paſſion, ie prens dés à preſent
+<lb />ſur moy tout le ſoin de ſes intereſts,
+<lb />&amp; vous verrez que ie ſçay des dé<lb />tours.:: mais le vois voſtre Pere,
+<lb />rentrons, &amp; me faiſſez agir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />L eſt bon quelquefois de ne point
+<lb />Ifaire ſemblant d’entendre les
+<lb />choſes qu’on n’entend que trop
+<lb />bien; &amp; i’ay fait ſagement, de parer
+<lb />la declaration d’vn deſir que ie ne
+<lb />ſuis pas reſolu de contenter. A-t’on
+<lb />iamais rien veu de plus tyrannique
+<lb />que cette couſtume où l’on veut
+<lb />aſſujertir les Peres? Rien de plus
+<lb />impertinent, &amp; de plus ridicule,
+<lb />que d’amaſſer du bien auec de
+<lb />grands trauaux, &amp; éleuer vne Fille
+<lb />auec beaucoup de ſoin &amp; de ten<lb />dreſſe, pour ſe dépoüiller de l’vn &amp;
+<lb />de l’autre entre les mains d’vn
+<lb />Homme qui ne nous touche de
+<lb />rien? Non, non, ie me moque de
+<lb />cet vſage, &amp; ie veux garder mon
+<lb />bien &amp; ma Fille pour moy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LYSETTE, SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />II! mameur, an! dilgrace, ah!
+<lb />I Ipauure Seigneur Sganarelle,
+<lb />où pourray-je te rencontrer?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Que dit ene la!
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ahi miſerable Pere, que feras-tu,
+<lb />quand tu ſçauras cette nouuelle?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Que ſera-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />aMa paudle Malltrenc!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ie ſuis perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah!
+<lb />LYSETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />GANARLELE.
+<lb />Lyſette.
+</sp>
+<sp type="MainZone-Sp"><lb />LISETIE.
+<lb />Quelle infortune!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Lyſette.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Quel aceident:
+</sp>
+<sp type="MainZone-Sp"><lb />GANARELLE.
+<lb />Lylette.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Quelle fatalité:
+</sp>
+<sp type="MainZone-Sp"><lb />OANVATDHLE.
+<lb />Lyſette.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ah! Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu’eſt-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Moſſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu’y a-t-il?
+</sp>
+<sp type="MainZone-Sp"><lb />EYSETTE.
+<lb />Voſtre Fille....
+</sp>
+<sp type="MainZone-Sp"><lb />Odhlhſesses
+<lb />Ah, ah.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Monſieur, ne pleurez donc point
+<lb />comme cela; car vous me feriez
+<lb />Aro.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Dy-donc viſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Voſtre Fille toute ſaiſie des pa<lb />roles que vous luy auez dites, &amp; de
+<lb />la colere effroyable où elle vous a
+<lb />veu contr ens,ert miontée viſte dans
+<lb />ſa Chambre, &amp; pleine de deſeſpoir,
+<lb />a ouuert la feneſtre qui regarde ſur
+<lb />la Riuiere.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Alors, leuant les yeux au Ciel<lb />Non, a-t’elle dit, il m’eſt impoſſible
+<lb />de viure auec le courroux de mon
+<lb />rert; &amp; puis qu’il me renonce pour
+<lb />ſa Fille, ie veux mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARLESSS
+<lb />Elle s’eſt jettée?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Non, Monſieur, elle a fermé tout
+<lb />doucement la feneſtre, &amp; s’eſt allée
+<lb />mettre ſur ſon Lit. Là, elle s’eſt priſe
+<lb />à pleurer amerement; &amp; tout d’vn
+<lb />coup ſon viſage a pâly, ſes yeux ſe
+<lb />ſont tournez, le cœur luy a man<lb />qué, &amp; elle m’eſt demeurée entre
+<lb />les bras.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />A force de la tourmenter, ie l’ay
+<lb />fait reuenir: mais cela luy reprend
+<lb />de moment en moment, &amp; ie croy
+<lb />qu’elle ne paſſera pas la journée.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Champagne, Champagne, Cham<lb />pagne, viſte, qu’on m’aille querir
+<lb />des Medecins, &amp; en quantité; on
+<lb />n’en peut trop auoir dans vne pa<lb />reille auanture. Ah! ma Fille; ma
+<lb />pauure Fille:
+</sp>
+<p type="MainZone-Other"><lb />Fin da Premier Acte.
+</p>
+<p type="MainZone-Head"><lb />I. ENTRE-ACTE.
+</p>
+<sp type="MainZone-Sp"><lb />VHampagne en dançant frappe aux
+<lb />OPortes de quatre Medecins, qui
+<lb />dançent &amp; entrent auec ceremonie, chez
+<lb />le Pere de la Malade.
+</sp>
+<p type="MainZone-Head"><lb />ACTE II
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />SGANARELLE, LYSETTE.
+</p>
+<sp type="MainZone-Sp"><lb />E
+<lb />LYSETTE.
+<lb />QVE voulez, vous donc
+<lb />faire, Monſieur, de quatre
+<lb />2α Medecins? I ent-ce pas
+<lb />CtlO
+<lb />aſſez d’vn pour tuer vne
+<lb />Perſonne?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Taiſez-vous. Quatre conſeils va<lb />lent mieux qu’vn.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Eſt-ce que voſtre Fille ne peut pas
+<lb />bien mourir, ſans le ſecours de ces
+<lb />Meſſieurs-là?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Eſt-ce que les Medecins font
+<lb />mouin ?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Sans doute; &amp; i’ay connu vn
+<lb />Homme qui prouuoit, par bonnes
+<lb />raiſons, qu’il ne faut iamais dire,
+<lb />vne telle Perſonne eſt morte d’vne
+<lb />Fievre &amp; d’vne Fluxion ſur la poi<lb />ciine; maiscne eſt morté de quatre
+<lb />Medecins, &amp; de deux Apoticaires.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Chut, n’offenſez pas ces Meſ<lb />ſieurs-là.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ma foy, Monſieur, noſtre Chat
+<lb />eſt réchapé depuis peu, d’vn ſaut
+<lb />qu’il fit du haut de la Maiſon dans
+<lb />la Ruë, &amp; il fut trois jours ſans man<lb />ger, &amp; ſans pouuoir remuër ny pied
+<lb />ny patte; mais il eſt bienheureux,
+<lb />de ce qu’il n’y a point de Chats Me<lb />decins, car ſes affaires eſtoient fai<lb />tes, &amp; ils n’auroient pas manqué de
+<lb />le purger, &amp; de le ſaigner.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Voulez-vous vous taire, vous
+<lb />dis-je? mais voyez quelle imperti<lb />nence. Les voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Prenez garde, vous allez eſtre
+<lb />ciii édifié; ils vous diront en Latin
+<lb />que voſtre Fille eſt malade.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />MESSIEVRS TOME’S, DES
+<lb />FONANDRE’S, MACRO<lb />TON, &amp; BAHYS, Medecins,
+<lb />SGANARELLE, LYSETTE.
+<fw><lb />SGANARELLE.
+<lb />E' bien, Meſſieurs?
+</fw></p>
+<sp type="MainZone-Sp"><lb />MLOMES.
+<lb />Nous auons veu ſuffiſamment la
+<lb />Malade; &amp; ſans doute qu’il y a
+<lb />beaucoup d’impuretez en elle.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ma Fille eſt impure!
+</sp>
+<p type="MainZone-Other"><lb />M.TOME'S.
+</p>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Ie veux dire qu’il y a beaucoup
+<lb />d’impureté dans ſon corps, quan<lb />tité d’humeurs corrompuës.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! ie vous entens.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />ſiais.... nous anons conſulter
+<lb />enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Allons, faites donner des ſieges.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ah! Monſieur, vous en eſtes?
+</sp>
+<sp type="MainZone-Sp"><lb />SAANAREELLa
+<lb />Dequoy donc connoiſſez-vous
+<lb />Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />De l’auoir veu l’autre jour, chez
+<lb />la bonne Amie de Madume voſtre
+<lb />Niece.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Comment ſe porte ſon Cocher?
+<fw><lb />8
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Fort bien, il eſt mort.
+</sp>
+<sp type="MainZone-Sp"><lb />MOIt<lb />M. TOME'S.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />LYSETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Cela ne ſe peut.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />de ne iuy pau mcol le peut;
+<lb />mais ie ſçay bien que cela eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Il ne peut pas eſtre mort, vous
+<lb />dis je.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Et moy ie vous dis qu’il eſt mort.
+<lb />&amp; entene.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Vous vous trompez.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ie l’ay veu.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Cela eſt impoſſible. Hipocrate
+<lb />dit, que ces ſortes de Maladies ne
+<lb />ſe terminent qu’au quatorze, ou
+<lb />au vingt-vn, &amp; il n’y a que ſix jours
+<lb />qu’il eſt tombé malade.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Hipocrate dira ce qu’il luy plaira;
+<lb />mnals le cocher elt mort.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Paix, Diſcoureuſe; allons, ſor<lb />tons d’icy. Meſſieurs, ie vous ſup
+<lb />plie de conſulter de la bonne ma<lb />niere. Quoy que ce ne ſoit pas la
+<lb />couſtume de payer auparauant;
+<lb />toutefois de peur que ie l’oublie, &amp;
+<lb />afin que ce ſoit vne affaire faite,
+<lb />voicy.....
+</sp>
+<sp type="MainZone-Sp"><lb />Il les paye, &amp; chacun en receuant
+<lb />l’argent, fait vn geſte different.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />MESSIEVRS DES FONAN
+<lb />DRE'S, TOME'S, MA<lb />CROTON, &amp; BAHYS.
+<lb />Ils s'aſſeyent &amp; touſſent.
+</p>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Aris eſt étrangement grand,
+<lb />Y &amp; il faut faire de longs trajets,
+<lb />quand la Pratique donne vn peu.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Il faut auoüer que i’ay vne Mule
+<lb />admirable pour cela, &amp; qu’on à
+<lb />peine à croire le chemin que ie luy
+<lb />fais faire tous les jours.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />I’ay vn Cheual merueilleux, &amp;
+<lb />c’eſt vn Animal infatigable.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Sçauez-vous le chemin que ma
+<lb />Mule a fait aujourd’huy? I’ay eſté
+<lb />premierement tout contre l’Arſe<lb />nal, de l’Arſenal au bout du Faux-
+<lb />bourg S. Germain, du Fauxbourg
+<lb />S. Germain au fonds du Marais, du
+<lb />fonds du Marais à la Porte S. Ho<lb />noré, de la Porte S. Honoré au
+<lb />Fauxbourg S. Iacques, du Faux-
+<lb />bourg S. Iacques à la Porte de Ri<lb />chelieu, de la Porte de Richelieu
+<lb />iey, &amp; d’icy ie dois aller encore à la
+<lb />Place Royale.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Mon Cheual a fait tout ce la au<lb />jourd’huy; &amp; de plus, i’ay eſté à
+<lb />Ruel voir vn Malade.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME'S.
+<lb />Mais à propos, quel party pre<lb />nez.vous dans la Querelle des deux
+<lb />Medecins, Theophraſte, &amp; Arte<lb />mius? car c’eſt vne Affaire qui par<lb />tage tout noſtre Corps.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Moy, ie ſuis pour Artemius.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Et moy auſſi: Ce n’eſt pas que
+<lb />ſon auis, comme on a veu, n’ait tué
+<lb />B iij
+<lb />le Malade, &amp; que celuy de Theo<lb />phraſte ne fut beaucoup meilleur
+<lb />aſſeurément; mais enfin, il a tort
+<lb />dans les circonſtances, &amp; il ne de<lb />uoit pas eſtre d’vn autre auis que
+<lb />ſon Ancien. Qu’en dites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Sans doute. Il faut toujours gar<lb />der les formalitez, quoy qu’il puiſſe
+<lb />arriuer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Pour moy i’y ſuis ſeuere en Dia<lb />ble, à moins que ce ſoit entre Amis;
+<lb />&amp; l’on nous aſſembla vn jour trois
+<lb />de nous autres, aueç vn Medecin de
+<lb />dehors, pour vne Conſultation, où
+<lb />i’arreſtay toute l’Affaire, &amp; ne vou<lb />lus point endurer qu’on opinaſt, ſi
+<lb />les choſes n’alloient dans l’ordre.
+<lb />Les Gens de la Maiſon faiſoient ce
+<lb />qu’ils pouuoient, &amp; la maladie
+<lb />preſſoit; mais ie n’en voulus point
+<lb />démordre, &amp; la Malade mourut
+<lb />brauement pendant cette conte ſta<lb />tion.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRES.
+<lb />C’eſt fort bien fait d’apprendre
+<lb />aux Gens à viure, &amp; de leur mon<lb />trer leur bec jaune.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Vn Homme mort, n’eſt qu’vn
+<lb />Homme mort, &amp; ne fait point de
+<lb />conſequence; mais vne formalité
+<lb />negligée porte vn notable préju<lb />dice à tout le Corps des Medecins.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />SGANARELLE, M. TOME’S
+<lb />DES FONANDRE S, MA<lb />CROTON, &amp; BAHYS.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />niturt, orp preſſion de ma
+<lb />I TFille augmente; ie vous prie
+<lb />de me dire viſte ce que vous auez<lb />reſolu.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />A llons, Monſieur.
+</sp>
+<p type="MainZone-Lg"><lb />B iiij
+</p>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Non, Monſieur, parlez, s’il vous
+<lb />plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME'S.
+<lb />Vous vous mocquez.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE'S.
+<lb />Ie ne parleray pas le premier.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOMEJ.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M DES FONANDRES.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />rie, de grace, Meſſieurs, laiſſez
+<lb />toutes ces Ceremonies, &amp; ſongez
+<lb />que les choſes preſſent.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOMES.
+<lb />Ils parlent tous quatre enſemble.
+<lb />La Maladie de voſtre Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Duuido coue ces Meſſieurs tous
+<lb />enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTON.
+<lb />Apres auoir bien conſulté.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BAHYS.
+<lb />Pour raiſonner.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé! Meſſieurs, parlez l’vn apres
+<lb />l'autre, de grace.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Monſieur, nous auons raiſonné
+<lb />ſur la maladie de voſtre Fille; &amp;
+<lb />mon auis, à moy, eſt que cela pro<lb />cede d’vne grande chaleur de ſang:
+<lb />amai le concius à la laigner le plu<lb />toſt que vous pourrez.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE'S.
+<lb />Et moy, ie dis que ſa maladie eſt
+<lb />vne pourriture d’humeurs, cauſée
+<lb />Puuenodrop grande lepieuon: ainſi
+<lb />ie conclus à luy donner de l’He<lb />metique.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOMES.
+<lb />Ie ſoûtiens que l’Hemetique la
+<lb />tuëra.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE'S.
+<lb />Et moy, que la Saignée la fera
+<lb />mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />C’eſt bien à vous de faire l’habile
+<lb />Homme?
+<lb />B.v
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE'S.
+<lb />Oüy, c’eſt à moy; &amp; ie vous
+<lb />preſteray le colet en tout genre d’é<lb />rudition.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Souuenez-vous de l’Homme
+<lb />que vous mtes creuenees jours
+<lb />paſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Souuenez-vous de la Dame que
+<lb />vous auez enuoyée en l’autre Mon<lb />de, il y a trois jours.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Revotio upare Mnon dun,
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Ie vous ay dit ma penſée.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Si vous ne faites ſaigner tout à
+<lb />l’heure voſtre Fille, c’eſt vne Per
+<lb />ſonne morte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />Si vous la faites ſaigner, elle ne
+<lb />ſera pas en vie dans vn quart
+<lb />d’heure.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />SGANARELLE, MES<lb />SIEVRS MACROTON,
+<lb />&amp; BAHYS, Medecins.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qui croire des deux, &amp; quelle
+<lb />Y Treſolution prendre ſur des
+<lb />auis ſi oppoſez? Meſſieurs, ie vous
+<lb />conjure de déterminer mon eſprit,
+<lb />ce de mme dhe laiis pamon, de que
+<lb />vous croyez le plus propre à ſou<lb />lager ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTON.
+<lb />Il parle en alongeant ſes mots.
+<lb />Mon-ſi-eur. dans, ces, ma-ti-e<lb />res. là. il faut, pro-ce-der, a-uec<lb />que, cir-conſ-pec-tion, &amp;. ne. ri-en
+<lb />faire. com-me. on. dit. à. la, vo<lb />léte. d’au-tant, que. les. fau-tes.
+<lb />qu’’on. y peut. fai-re. ſont. ſe lon.
+<lb />noſ-tre. Maiſ-tre. Hip-po-cra-te.
+<lb />d’vne. dan-ge-reu-ſe, con-ſe-quen<lb />Ce.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BATITS.
+</sp>
+<sp type="MainZone-Sp"><lb />Celuy-cy parle toûjours en bredoüillant.
+<lb />Il eſt vray. Il faut bien prendre
+<lb />garde à ce qu’on fait; car ce ne
+<lb />ſont pas icy des Ieux d’Enfant, &amp;
+<lb />quand on a failly, il n’eſt pas aiſé
+<lb />de reparer le manquement, &amp; de
+<lb />rétablir ce qu’on a gaſté. Experi<lb />mentum periculoſum. C’eſt pourquoy
+<lb />il s’agiſt de raiſonner auparauant
+<lb />comme il faut, de peſer meurement
+<lb />les choſes, de regarder le tempera<lb />ilient des Geuis, à cAaininer les cau<lb />ſes de la Maladie, &amp; de voir les Re<lb />medes qu’on y doit apporter.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />L’vn va en Tortuë, &amp; l’autre
+<lb />court la poſte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTCN.
+<lb />Or. Mon.ſi-eur. pour, ve nir.
+<lb />au. fait, ie. trou-ue. que. voſ-tre.
+<lb />Fil-le. a. vne, ma-la-di-e. chro ni<lb />que. &amp;. qu’el-le, peut. pe-ri cli<lb />cer. ſi. on. ne luy. don-ne. du: ſe<lb />cours. d’au-tant. que. les. ſim-ptô<lb />mes. qu’el-le. a: ſont. in-di-cd-tifs.
+<lb />d’v-ne. va-peur. fu-li-gi-neu-ſe, &amp;.
+<lb />mor-di-can-te, qui. luy. pi-co-te.
+<lb />les. mem-bra-nes. du. cer-ue-au.
+<lb />Or. cet-te, va-peur, que. fous.
+<lb />nom-mons. en. Grec. At-mos. eſt.
+<lb />cau-ſé-e. par. des. hu-meurs. pu<lb />tri-des. te-na-ces. &amp;, con-glu-ti<lb />neu-ſes. qui. ſont. con-te-nuës. dans
+<lb />le. bas. ven-tre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BAHYS.
+<lb />Et comme ces humeurs ont eſté
+<lb />là engendrées, par vne longuë ſue<lb />ceſſion de temps; Elles s’y ſont re<lb />cuites, &amp; ont acquis cette mali<lb />gnité, qui fume vers la region du
+<lb />cerueau.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTON.
+<lb />Si. bimen. donc. que. pour. ti-rer.
+<lb />deſ-ta-cher. ar-ra-cher. ex-pul-ſer.
+<lb />é-ua-cü-er. leſ-di-tes. hu-meurs. il.
+<lb />fau-dra, vne. pur-ga-tion. vi gou<lb />reu-ſe. Mais, au pre-a-la-ble. ie.
+<lb />trourue. à, pro-pos. &amp;. il. n’y. a.
+<lb />pas. d’in-con.ue ni-ent. d’v ſer. de.
+<lb />pe-tits. re-me-des. a-no-dins. c’eſt.
+<lb />a. di-re. de. pe-tirs. la-ue-mens, re<lb />mol-li-ans. &amp;. dé-ter-ſifs. de. ju<lb />lets. &amp;. de. ſi rops. ra-fraiſ-chiſ-ſans
+<lb />qu’on. meſ-le-ra. dans. ſa. ti-ſan-ne.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BAHYS.
+<lb />Apres nous en viendrons à la pur<lb />gation, &amp; a la laignec, que nous
+<lb />reïtererons, s’il en eſt beſoin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTON.
+<lb />Ce, n’eſt, pas. qu’a-uec. tout.
+<lb />ce-la voſ-tre. Fil-le, ne. puiſ-ſe.
+<lb />mou-rir. mais. au. moins, vous. au<lb />rez. fait. quel-que. choie. &amp;. vous.
+<lb />au-rez, la, con-ſo-la-ti-on. qu’el-le.
+<lb />ſe-ra, mor-te. dans les. for-mes.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BAHYS.
+<lb />Il vaut mieux mourir ſelon les
+<lb />regles, que de réchaper contfe les<lb />regles.
+</sp>
+<sp type="MainZone-Sp"><lb />M. MACROTON.
+<lb />Nous, vous. di-ſons. ſin ce re<lb />ment. noſ-tre, pen-ſé-e.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BAHYS.
+<lb />Et vous auons parlé, comme nous
+<lb />parlerions à noitre propre Frere.
+</sp>
+<sp type="MainZone-Sp"><lb />A Monſieur Macroton.
+<lb />Ie, vous, rends. tres-hum.bles.
+<lb />gra-ces.
+</sp>
+<sp type="MainZone-Sp"><lb />A Monſieur Bahys.
+<lb />Et vous ſuis infiniment obligé
+<lb />de la peine que vous auez priſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />SGANARELLE.
+<fw><lb />E voila juſtement vn peu
+<lb />IVT plus incertain que ie n’eſtois
+<lb />auparauant. Morbleu, il me vient
+<lb />vne fantaiſie. Il faut que i’aille
+<lb />acheter de l’Oruietan, &amp; que ie luy
+<lb />en faſſe prendre: L’Oruietan eſt vn
+<lb />Remede dont beaucoup de Gens ſe
+<lb />ſont bien trouuez.
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />L’OPERATEVR,
+<lb />SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ola. Monſieur, ie vous prie
+<lb />I Ide me donner vne Boëte de
+<lb />voſtre Oruietan, que ie m’en vais
+<lb />vous payer.
+</sp>
+<sp type="MainZone-Sp"><lb />L’OPERATEVR Chantant.
+<lb />L’Or de tous les Climats qu’entoure
+<lb />l’Ocean,
+<lb />Peut-il iamais payer ce Secret d’impor.
+<lb />tance?
+<lb />Mon Remede guerit par ſa rare ex<lb />cellence,
+<lb />Plus de Maux qu’on n’en peut nombrez
+<lb />dans tout vn an.
+<lb />La Gale,
+<lb />La Rogne,
+<lb />La Tigne,
+<lb />La Fiévre,
+</sp>
+<sp type="MainZone-Sp"><lb />La Peſte,
+<lb />La Goute,
+<lb />Verole,
+<lb />Deſcente,
+<lb />Rougeole,
+<lb />O! grande puiſſance de l’Oruietan!
+</sp>
+<sp type="MainZone-Sp"><lb />GANARELLE.
+<lb />Monſieur, ie croy que tout l’or
+<lb />dù Monde n’eſt pas capable de
+<lb />payer voſtre Remede; mais pour<lb />tant voicy vne Piece de Trente ſols
+<lb />que vous prendrez, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />L’OPERATEVR Chantant.
+<lb />Admirez mes bontez, &amp; le peu qu’on
+<lb />vous vend
+<lb />Ce Treſor merueilleux, que ma main
+<lb />vous diſpenſe;
+<lb />Vous pouuez auec luy brauer en aſſeu<lb />rance,
+<lb />Tous les Maux que ſur nous l'Ire du
+<lb />Ciel répand.
+<lb />La Gale,
+<lb />La Rogne,
+<lb />La Tigne,
+<lb />La Fiévre,
+<lb />1a
+<lb />La Peſte,
+<lb />La Goute,
+<lb />Verole,
+<lb />Deſcente,
+<lb />Rougeole,
+<lb />O! grande puiſſance de l’Oruietan l
+</sp>
+<p type="MainZone-Other"><lb />Fin du Second Acte.
+</p>
+<sp type="MainZone-Sp"><lb />II. ENTRE-ACTE.
+<lb />Luſieurs Trinelins, &amp; pluſieurs
+<lb />Y Scaramouches, Valets de l’Opera<lb />teur, ſe réjoüiſſent en dançant.
+</sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />III.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />MESSIEVRS FILERIN,
+<lb />TOMLEJE DES
+<lb />FONANDRE’S.
+</p>
+<sp type="MainZone-Sp"><lb />M. FILERIN.
+<lb />AVEZ- vous point de
+<lb />honte, Meſſieurs, de mon<lb />trer ſi peu de prudence
+<lb />pour des Gens de voſtre
+<lb />âge, &amp; de vous eſtre querellez com
+<lb />me de jeunes étourdis? Ne voyez<lb />vous pas bien quel tort ces ſortes
+<lb />de Querelles nous font parmy le
+<lb />Monde? &amp; n’eſt-ce pas aſſez que
+<lb />les Sçauans voyent les contrarietez
+<lb />&amp; les diſſentions qui ſont entré nos
+<lb />Autheurs, &amp; nos anciens Maiſtres;
+<lb />ſans découurir encore au Peuple,
+<lb />par nos Débats &amp; nos Querellès, la
+<lb />forfanterie de noſtre Art: Pour
+<lb />moy, ie ne comprens rien du tout à
+<lb />cette méchante Politique de quel<lb />ques-vns de nos Gens; &amp; il faut
+<lb />confeſſer que toutes ces conteſta<lb />tions nous ont décrié depuis peu
+<lb />d’vne étrange maniere, &amp; que ſi
+<lb />nous n’y prenons garde, nous allons
+<lb />nous ruiner nous-meſmes. Ie n’en
+<lb />parle pas pour mon intereſt; car,
+<lb />Dieu mercy, i’ay déja étably mes
+<lb />petites affaires; Qu’il vente, qu’il
+<lb />pleuue, qu’il greſle, ceux qui ſont
+<lb />morts ſont morts, &amp; i’ay dequoy
+<lb />me paſſer des viuans; mais enfin,
+<lb />toutes ces diſputes ne vallent rien
+<lb />pour la Medecine. Puis que le Ciel
+<lb />nous fait la grace que depuis tant
+<lb />de Siecles, on demeure infatué de
+<lb />Nous, ne deſabuſons point les
+<lb />Hommes auec nos cabales extraua<lb />gantes, &amp; profitons de leurs ſottiſes
+<lb />le plus doucement que nous pour<lb />rons. Nous ne ſommes pas les ſeuls
+<lb />comme vous ſçauez, qui taſchons à
+<lb />nous préualoir de la foibleſſe hu<lb />maine: C’eſt là que va l’étude de la
+<lb />pluſpart du Monde, &amp; chacun s’ef<lb />force de prendre des Hommes par
+<lb />leur foible, pour en tirer quelque
+<lb />profit. Les Flatteurs, par exemple,
+<lb />cherchent à profiter de l’amour que
+<lb />les Hommes ont pour les loüanges,
+<lb />en leur donnant tout le vain encens
+<lb />qu’ils ſouhaitent; &amp; c’eſt vn Art où
+<lb />l’on fait, comme on void, des fortu<lb />nes conſiderables. Les Alchimiſtes
+<lb />taſchent à profiter de la paſſion que
+<lb />l’on a pour les Richeſſes, en pro<lb />mettant des Montagnes d’or à ceux
+<lb />qui les écoutent; &amp; les Diſeurs
+<lb />d’Horoſcopes, par leurs Predic<lb />tions trompeuſes, profitent de la
+<lb />vanité &amp; de l’ambition des credules
+<lb />Eſprits; mais le plus grand foible
+<lb />des Hommes, c’eſt l’amour qu’ils
+<lb />ont pour la vie, &amp; nous en profitons
+<lb />nous autres par noſtre pompeux
+<lb />galimathias, &amp; ſçauons prendre nos
+<lb />auantages de cette veneration, que
+<lb />la peur de mourir leur donne pour
+<lb />noſtre meſtier. Conſeruons-nous
+<lb />donc dans le degré d’eſtime où leur
+<lb />foibleſſe nous a mis, &amp; ſoyons de
+<lb />concert aupres des Malades, pour
+<lb />nous attribuër les heureux ſuccez
+<lb />de la maladie, &amp; rejetter ſur la Na<lb />ture toutes les beueuës de noſtre
+<lb />Art. N’allons point, dis-je, dé<lb />cruire fottenient les heureuſes pre<lb />uentions d’vne erreur qui donne du
+<lb />pain à tant de Perſonnes.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Vous auez raiſon en tout ce que
+<lb />vous dites; mais ce ſont chaleurs de
+<lb />ſang, dont par fois on n’eſt pas le
+<lb />maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FILERIN.
+<lb />Allons donc, Meſſieurs, mettez
+<lb />bas toute rancune, &amp; faiſons icy
+<lb />voſtre accommodement.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES FONANDRE’S.
+<lb />I’y conſens. Qu’il me paſſe mon
+<lb />Hemetique pour la Malade dont il
+<lb />s’agiſt, &amp; ie luy paſſeray tout ce
+<lb />qu’il voudra pour le premier Ma<lb />lade dont il ſera queſtion.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FILERIN.
+<lb />On ne peut pas meux dire: Ec
+<lb />voila ſe mettre à la raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DES PONANDRES.
+<lb />Cela eſt fait.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FILERIN.
+<lb />louchez donc la. Adieu. Vne
+<lb />autrefoistinontren puus prudece.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />M TOME'S, DES FONAN<lb />DRE'S, LYSETTE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Voy, Meſſieurs, vous voila, &amp;
+<lb /> vous ne ſongez pas à reparer le
+<lb />tort qu’on vient de faire à la Me<lb />decine?
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Coinment, queltce:
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vn Inſolent, qui a eu l’effronte
+<lb />rie d’entreprendre ſur voſtre Meſ<lb />tier; &amp; qui ſans voſtre Ordonnance,
+<lb />rient de tuër vn Homme d’vngrand
+<lb />coup d’épée au trauers du corps.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TOME’S.
+<lb />Ecoutez, vous faites la Railleuſe;
+<lb />mais vous paſſerez par nos mains
+<lb />quelque jour.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ie vous permets de me tuer, lors
+<lb />que lauray recouisa vous.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LYSETTE, CLITANDRE.
+<fw><lb />CLITANDRE.
+<lb />E' bien, Lyſette, me trouues<lb />TTtu bien ainſi?
+</fw></p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Le mieux du monde, &amp; ie vous
+<lb />attendois
+<lb />âttendois auec impatience. Enfin
+<lb />le Ciel m’a faite d’vn naturel le plus
+<lb />humain du monde, &amp; ie ne puis voir
+<lb />deux Amans ſoúpirer l’vn pour
+<lb />l’autre, qu’il ne me prenne vne ten<lb />dreſſe charitable, &amp; vn deſir ardent
+<lb />de ſoulager les maux qu’ils ſouf<lb />frent. le veux à quelque prix que
+<lb />ce ſoit, tirer Lucinde de la tyrannie
+<lb />où elle eſt, &amp; la mettre en voſtre
+<lb />pouuoir. Vous m’auez plû d’abord,
+<lb />ie me connois en Gens, &amp; elle ne
+<lb />peut pas mieux choiſir. L’Amour
+<lb />riſque des choſes extraordinaires.
+<lb />&amp; nous auons concerté enſemble
+<lb />vne maniere de ſtratagéme, qui
+<lb />pourra peut-eſtre nous reüſſir. Tou<lb />tes nos meſures ſont déja priſes;
+<lb />l’Homme à qui nous auons affaire
+<lb />n’eſt pas des plus fins de ce Monde;
+<lb />&amp; ſi cette auanture nous manque,
+<lb />nous trouuerons mille autres voyes
+<lb />pour arriuer à noſtre but. Atten<lb />dez moy la ſeulement, ie reuiens
+<fw><lb />vous querir.
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />SGANARELLE, LISLITE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Omeuny unegleſſe; alle<lb />IVTgreſſe:
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu’eſt-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />LISLTIE.
+<lb />Réjoüiſſez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />De quoys
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Réjoüiſſez-vous, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Dy-moy donc ce que c’eſt, &amp;
+<lb />puis ie me réjoüiray, peut-eſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />eMl.
+<lb />Non. Ie veux que vous vous ré<lb />joüiſſiez auparauant; que vous
+<lb />chantiez, que vous dançiez.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Surquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />oul lha parole.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Allons donc, la lera la la, la lera
+<lb />la. Que Diable:
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Monſieur, voſtre Fille eſt guerie.
+</sp>
+<sp type="MainZone-Sp"><lb />SANNARELLL.
+<lb />Ma Fille eſt guerie!
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Oüy. Ie vous amene vn Mede<lb />cin; mais vn Medecin d’importance,
+<lb />qui fait des Cures merueilleuſes, &amp;
+<lb />quile moque den autrés Medecins.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu elteirs
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ie vais le faire entrer.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il faut voir ſi celuy-cy fera plus
+<lb />que les autres.
+<fw><lb />C ij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />CLITANDRE en habit de Me<lb />decin, SGANARELLE,
+<lb />LYSETTE.
+<lb />LTSEIIE.
+<lb />E voicy.
+</p>
+<sp type="MainZone-Sp"><lb />LSGANARELLE.
+<lb />Voila vn Medecin qui a la barbe
+<lb />bien jeune.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />La Science ne le mefure pas à la
+<lb />barbe; &amp; ce n’eſt pas par le menton
+<lb />qu’il eſt habile.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Monſieur, on m’a dit que vous
+<lb />auiez des Remedes admirables pour
+<lb />faire aller à la ſelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Monſieur, mes Remedes ſont dife<lb />rens de ceux des autres: Ils ont l’He<lb />metique, les Saignées, les Medecines,
+<lb />&amp; les Lauemens: mais moy ie gueris
+<lb />par des Paroles, par des Sons, par
+<lb />des Lettres, par des Taliſmans, &amp;
+<lb />par des Anneaux conſtellez.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Que vous ay-je dit?
+</sp>
+<sp type="MainZone-Sp"><lb />Oer rl ne an de d Maeue
+<lb />Voila vn grand Homme!
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Monſieur, comme voſtre Fille
+<lb />eſt là toute habillée dans vne Chaiſe,
+<lb />ie vais la faire paſſer icy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, fay.
+</sp>
+<sp type="MainZone-Sp"><lb />SLTTANDRE
+<lb />Taſtant le poux à Sganarelle.
+<lb />Voſtre Fiſle eſt bien malade.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vous connoiſſez cela icy?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Oüy, par la ſimpathie qu’il y a
+<lb />entre le Pere &amp; la Fille.
+<fw><lb />C iij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LVCINDE, LYSETTE.
+<lb />CCATARELLE,
+<lb />CLITANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Enez, Monſieur, voila vne
+<lb />T Chaiſe aupres d’elle. Al lons,
+<lb />laiſſez-les-là tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pourquoy? Ie veux demeurer là.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Vous mocquez-vous? Il faut s’é<lb />loigner; vn Medecin a cenr choſes
+<lb />à demander, qu’il n’eſt pas hon<lb />neſte qu’vn Homme entende.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE,
+<lb />Parlant à Lucinde à part.
+<lb />Ah! Madame que le rauiſſement
+<lb />où ie me trouue eſt grand! &amp; que
+<lb />ie ſçay peu par où vous commencer
+<lb />mon diſcours. Tant que ione vous
+<lb />ay parlé que des yeux, i’auois, ce me
+<lb />ſembloit, cent choſes à vous dire; &amp;
+<lb />maintenant que i’ay la liberté de
+<lb />vous parler de la façon que ie ſou<lb />haittois, ie demeure interdit; &amp; la
+<lb />grande joye où ie ſuis, étouffe tou<lb />tes mes paroles.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Ie puis vous dire la meſme choſe,
+<lb />&amp; ie ſens, comme vous, des mouue<lb />mens de joye qui m’empeſchent de
+<lb />pouuoir parler.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Ah! Madame, que ie ſerois heu<lb />reux, s’il eſtoit vray que vous ſen<lb />tiſſiez tout ce que ie ſens, &amp; qu’il
+<lb />me fut permis de juger de voſtre
+<lb />ame par la mienne! Mais, Madame,
+<lb />puis-je au moins croire que ce ſoit à
+<lb />vous à qui ie doiue la penſée de cet
+<lb />heureux ſtratagéme, qui me fait
+<lb />joüir de voſtre preſence?
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Si vous ne m’en deuez pas la pen<lb />ſée, vous m’eſtes redeuable au moins
+<lb />C iiij
+<lb />d’en auoir approuué la propoſition
+<lb />aucc peaucoup de joyc.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE, à Lyſette.
+<lb />Il me ſemble qu’il luy parle de
+<lb />bien pres.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE, à Sganarelle.
+<lb />C’eſt qu’il obſerue ſa phiſiono<lb />mie, &amp; tous les traits de ſon viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE, à Lucinde.
+<lb />Serez-vous conſtante, Madame,
+<lb />dans ces bontez que vous me té<lb />moignez?
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Mais vous, leren reus rerme dans
+<lb />les reſolutions que vous auez mon<lb />trées ?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Ah! Madame, juſqu’à la mort.
+<lb />le n'ay point de plus forte enuie que
+<lb />d’eſtre à vous, &amp; ie vais le faire pa<lb />roiſtre dans ce que vous m’allez
+<lb />voir faire.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé bien, noſtre Malade, elle me
+<lb />ſemble vn peu plus gaye.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />C’eſt que i’ay déja fait agir ſur
+<lb />elle vn de ces Remedes que mon
+<lb />Art m’enſeigne. Comme l’Eſprit a
+<lb />grand empire ſur le Corps, &amp; que
+<lb />c’eſt de luy bien ſouuent que pro<lb />cedent les Maladies, ma couſtume
+<lb />eſt de courir à guerir les Eſprits,
+<lb />auant que de venir au Corps. I’ay
+<lb />donc obſerué ſes regards, les traits
+<lb />de ſon viſage, &amp; les lignes de ſes
+<lb />deux mains; &amp; par la Science que le
+<lb />Ciel m’a donnée, i’ay reconnu que
+<lb />c’eſtoit de l’eſprit qu’elle eſtoit ma<lb />lade, &amp; que tout ſon mal ne venoit
+<lb />que d’vne imagination déreglée,
+<lb />d’vn deſir dépraué de vouloir eſtre
+<lb />mariée. Pour moy, ie ne voy rien de
+<lb />plus extrauagant &amp; de plus ridicule,
+<lb />que cette enuie qu’on a du Mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Voila vn habile Homme !
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Et i’ay eu, &amp; auray pour luy, toute
+<lb />ma vie, vne auerſion effroyable,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />v ona vngralld Meucein.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Mais, comme il faut flatter l’ima<lb />gination des Malades, &amp; que i’ay
+<lb />veu en elle de l’alienation d’eſprit,
+<lb />&amp; meſme qu’il y auoit du peril à ne
+<lb />luy pas donner vn prompt ſecours,
+<lb />ie l’ay priſe par ſon foible, &amp; luy ay
+<lb />dit que i’eſtois venu icy pour vous
+<lb />la demander en Mariage: ſoudain
+<lb />ſon viſage a changé, ſon teint s’eſt
+<lb />éclaircy, ſes yeux ſe ſont animez; &amp;
+<lb />ſi vous voulez pour quelques jours
+<lb />rentretem dans cette crreur, vous
+<lb />verrez que nous la tirerons d’où elle
+<lb />eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy-da, ie le veux bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Apres nous ferons agir d’autres
+<lb />Remedes pour la guerir entiere<lb />ment de cette fantaiſie.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, cela eſt le mieux du monde
+</sp>
+<sp type="MainZone-Sp"><lb />Hé bien, ma Fille, voila Monſieur
+<lb />qui a enuie de t’épouſer, &amp; ie luy ay
+<lb />dit que le le voulois Dien.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Helas: eſt-il poſſible?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy.
+</sp>
+<sp type="MainZone-Sp"><lb />EVCINCDE.
+<lb />Mais, tout de bon?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, oüy.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Quoy, vous eſtes dans les ſenti<lb />mens dertre mon Mary?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Ouy, Madainles
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Et mon Pere y conſent?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Ah! que ie ſuis heureuſe, ſi cela
+<lb />eſt veritable!
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />N’en doutez point, Madame, ce
+<lb />n’eſt pas d’aujourd’huy que ie vous
+<lb />aime, &amp; que ie brûle de me voir
+<lb />voſtre Mary; ie ne ſuis venu icy que
+<lb />pour cela: &amp; ſi vous voulez que ie
+<lb />vous diſe nettement les choſes com<lb />me elles ſont, cet Habit n’eſt qu’vn
+<lb />pur pretexte inuenté, &amp; ie n’dy fait
+<lb />le Medecin, que pour m’approcher
+<lb />de vous, &amp; obtemi ee queie fou*
+<lb />haite.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />C’eſt me donner des marques
+<lb />d’vn amour bien tendre, &amp; i’y ſuis
+<lb />lailibiedutane que lapuar
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oh la folle: oh la foller oh la folle!
+</sp>
+<sp type="MainZone-Sp"><lb />EVCINDL
+<lb />Vous voulez donc bien, mon Pere,
+<lb />me donner Monſieur pour Epoux?
+</sp>
+<sp type="MainZone-Sp"><lb />SOINARELLE.
+<lb />Oüy, ça, donne-moy ta main.
+<lb />Donnez moy vn peu auſſi la voſtre,
+<lb />pour voir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Mais, Monſieur....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE s’étouffant de rire.
+<lb />Non, non, c’eſt pour..... pour luy con<lb />tenter l’eſprit. Touchez-là. Voila qui eſt
+<lb />fait.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Acceptez pour gage de ma foy cet An<lb />nedeque retous domie. G eretiinnneau
+<lb />conſtellé, qui guerit les égaremens d’eſprit.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Faiſons donc le Contract, afin que rien
+<lb />n’y manque.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Hęlas! ie le veux bien, Madame.
+<lb />Aanpanmene, re vuis faire monter l’Hom<lb />me qui écrit mes Remedes, &amp; luy faire
+<lb />cone quec eſt vn Notaire.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Hola, faites ionter le Notaire que i’ay
+<lb />amené auec moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Quoy, vous auiez amené vn Notairer.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Oüy, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />I’en ſuis rauie.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oh la folle! oh la folle!
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />LE NOTAIRE, CLITANDRE,
+<lb />SGANARELLE, LVCINDE.
+<lb />LYSETTE.
+<lb />Clitandre parle au Notaire à l’oreille.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vy, Monſieur, il faut faire vn Con<lb />Otract pour ces deux Perſonnes-là.
+<lb />Eeriuen. li ivimre écrit. (Voila le Con<lb />tract qu’on fait.) Ie luy donne vingt mille
+<lb />ecus en Maflage. Ecriuer.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Ie vous ſuis bien obligée, mon Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />LE NOTAIRE.
+<lb />vona quieſt fait, vous n’auez qu’à venir
+<lb />ſigner.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANMRLEEE.
+<lb />Voila vn Contract bien-toſt baſty.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Au moins.....
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé, non, vous dis-je. Sçait-on pas bien?
+<lb />Allons, donnez-luy la Plume pour ſigner.
+<lb />Allons, ſigne, ſigne, ſigne. Va, va, ie ſi<lb />gneray tantoſt moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Non, non, ie veux auoir le Contract en<lb />tre mes mains.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé bien, tien. Es-tu contente?
+</sp>
+<sp type="MainZone-Sp"><lb />LVCINDE.
+<lb />Plus qu’on ne peut s’imaginer.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELER
+<lb />Voila qui eſt bien. Voila qui eſt bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Au reſte, ie n’ay pas eu ſeulement la
+<lb />précaution d’amener vn Notaire, i’ay eu
+<lb />celle encore de faire venir des Voix &amp; des
+<lb />Inſtrumens pour celebrer la Feſte, &amp; pour
+<lb />nous réjoüir. Qu’on les faſſe venir. Ce
+<lb />ſont des Gens que ie mene auec moy, &amp;
+<lb />dont ie me ſers tous les jours pour pacifier
+<lb />auec leur harmonie les troubles de l’Eſprit.
+</sp>
+<p type="MainZone-Head"><lb />SCENVE DERNIERE.
+<lb />LA COMEDIE, LE BALLET,
+<lb />ET LA MVSIQVE.
+</p>
+<sp type="MainZone-Sp"><lb />Tous Trois enſemble.
+<lb />Ans nous tous les Hommes,
+<lb />ODeuiendroient mal ſains;
+<lb />Et c’eſt nous qui ſommes
+<lb />Leurs grands Medecins,
+</sp>
+<sp type="MainZone-Sp"><lb />LA COMEDIE.
+<lb />Veut-on qu’on rabatte
+<lb />Par des moyens doux,
+<lb />Les vapeurs de rate
+<lb />Qui vous minent tous,
+<lb />Qu’on laiſſe Hyppocrate, Durant qu’ils chan<lb />Et qu’on vienne à nous?
+<lb />tent, &amp; que les Ieux,
+<lb />les Ris, &amp; les Plai<lb />Tous Troisehembie: ſirs dançent, Clitan<lb />Sans nous....
+<lb />dre emmene Lu</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE, cinde.
+<lb />Voila vne plaiſante façon de guerir! Où
+<lb />elt donc ma Fille, &amp; le Medecin?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Iis fofit arfez achieuerfererte du Mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANAMÉLLE.
+<lb />Comment le Mariage?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSETTE.
+<lb />Ma foy, Monſieur, la Becaſſe eſt bridée,
+<lb />&amp; vous auez crû faire vn jeu, qui demeure
+<lb />vle venite.
+</sp>
+<sp type="MainZone-Sp"><lb />7
+<lb />SGANARELLE.
+<lb />Les Dançeurs le retiennent, &amp; veulent le
+<lb />faire dançer de force.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment, Diable: Laiſſez-moy aller:
+<lb />Laiſſez-moy aller, vous dis -je. Encore.
+<lb />Peſte des Gens.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />2
+</fw><fw><lb />
+<lb />
+<lb />PORD
+<lb />2
+<lb />
+</fw><fw><lb />2
+<lb />7e
+</fw></p>
+    </body>
+  </text>
+</TEI>

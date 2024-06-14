@@ -1,0 +1,1542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Costeaux, ou les Marquis frians, comédie</title>
+        <author>Villiers, Claude Deschamps</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb447295424"/>
+          <author>
+            <persName>Villiers, Claude Deschamps</persName>
+          </author>
+          <title>Les Costeaux, ou les Marquis frians, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1665" cert="high" resp="BNF">1665</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />M. DC. LXV.
+<lb />AVEC PERMISSION.
+</p>
+<p type="MainZone-Head"><lb />AV LECTEVR.
+</p>
+<p type="MainZone-P"><lb />E ne ſçay ſi tu trouueras
+<lb />les Marquis Frians à ton
+<lb />gouſt. Peut-eſtre que ſi ie
+<lb />t’auois traitté à cinq ſeruices tu au<lb />rois pn uronner quelque choſe dans
+<lb />la diuerſité des mets, capable de te
+<lb />flater. Meſſieurs les Coſteaux m’en
+<lb />auoient appreſté beaucoup; mais el<lb />les n’ont pû toutes entrer dans vn
+<lb />ſeruice, &amp; que les vnes eſtoient bon<lb />nes pour les entrées, &amp; les autres
+<lb />pour l’entremets: I’ay crû ne te de<lb />uoir pas ſeruir auec tant de confu<lb />ſion, ie ne t'explique point ce que
+<lb />c’eſt que Coſteau; puiſqu’il eſt am<lb />plement expliqué dans la piece
+<lb />Pour ce qui regarde le ſujet, tu n
+<lb />peux pas trouuer beaucoup à redirt
+<lb />pource qu’il y en a fort peu, &amp; que
+<lb />la piece n’eſt qu’vne conuerſation
+<lb />Elle eſt vn peu miſterieuſe, ce qui
+<lb />me fait eſperer qu’elle plaira à ceus
+<lb />qui connoiſſent les bonnes tables.
+</p>
+<p type="MainZone-Head"><lb />PERMISSION DE MONSIEVR
+<lb />le Baillif du Palais.
+</p>
+<p type="MainZone-P"><lb />L eſt permis à Gabriel Quinet Mar<lb />Echand Libraire au Palais, d’impri<lb />mer, faire imprimer, vendre &amp; debiter
+<lb />vne Comedie intitulé; Les Coſteaux
+<lb />ou les Marquis Frians: Et deffences
+<lb />ſont faites à tout autre de l’imprimer
+<lb />vendre ny debiter, ſans le conſente<lb />ment dudit Sieur, à peine de 500. liu.
+<lb />d’amande &amp; de confiſcation des
+<lb />Exemplaires. Fait à Paris ce 28. Ian<lb />uier 1665.
+</p>
+<p type="MainZone-Head"><lb />ACTEVRS.
+</p>
+<p type="MainZone-Entry"><lb />THERSANDRE, homme de qualité,
+<lb />Amant de Lucille.
+</p>
+<p type="MainZone-Entry"><lb />MELINTE, Mere de Lucille.
+<fw><lb />LVCILLE..
+</fw></p>
+<p type="MainZone-Entry"><lb />CLIDAMANT, Marquis &amp; Amant
+<lb />Lucille.
+</p>
+<p type="MainZone-List"><lb />LEANDRE, Comte.
+</p>
+<p type="MainZone-Entry"><lb />VALERE, Marquis.
+<fw><lb />ORONTE, Cheualier.
+<lb />DAMIS, Maiſtre d’Hoſtel de Therſand
+<lb />ERGASTE, Valet de Therfandre.
+</fw></p>
+<p type="MainZone-Entry"><lb />CRISPIN, Valet de Clidamant.
+</p>
+<p type="MainZone-Lg"><lb />La Scene eſt dans vne ſalle, au logis de The
+<lb />ſaudre.
+<lb />toute lα lasa de ct pu
+<lb />βομιύνει ακμνονεο dαμς Qμιεv 
+<lb />deo parasisce De la Cud
+<fw><lb />LES
+</fw></p>
+<p type="MainZone-Head"><lb />LES
+<lb />A
+<lb />LES
+<lb />VA
+<lb />MARQVIS FRIANS.
+<fw><lb />COMEDIE.
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />11
+<lb />
+<lb />THERSANDRE DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />2
+<lb />THERSANDRE.
+<lb />V me blaſmes à tort de ce que ie tiens table;
+<lb />Apprens que des plaiſirs c’eſt le plus agreable
+<lb />Et ſi tu veux, enfin, que ie m’explique micux,
+<lb />Apprent que ce plaiſir plaît aux ambitieux;
+<lb />Que ie n’en trouue point aujourd’hoy qui l’égalle:
+<lb />Qu’en l’aymant ie fais voir que j’ay l’amc Royalle,
+<lb />Et qu’en montrant par la ma gencroſité.
+<lb />De tous nos Courtiſans ie me vois reſpecté.
+<lb />Tu ſçais qu’ils ont pour moy beaucoup de cõplaiſance.
+<lb />Qu'en cent occaſions j’ay veu leur déferance;
+<lb />Our ie regne ſur eux, &amp; qu’enfin cher Damis,
+<lb />Ils ne viennent chez moy qu’en Eſclaues ſouſmis;
+<lb />Qu’aux moindres de mes gens ſans ceſſe ils font careſt
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />On ne le peut nier, &amp; meſme je confeſſe,
+<lb />Qu'ils font encore plus, mais aprés tout, Monſieur,
+<lb />Chez eux voſtre cuiſine eſt en fort bonne odeur,
+<lb />Et prés beaucoup de gens, tenant lieu de merite,
+<lb />Elle eſt cauſe, ſouuent, qu’ils vous rendent viſite.
+<lb />Ces Meſſieurs, bien inſtruits en l’art de deuiner,
+<lb />Se trouuent iuſtement à l’heure du diſner.
+<lb />En loüant vos vertus, ils ſe mettent à Table:
+<lb />Pendant tout le repas vous eſtes adorable.
+<lb />Puis le diſné finy, ces eſprits inconſtans,
+<lb />S’en vont en d’autres lieux railler à vos deſpens.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ie ſcayque......
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Vous m’auez permis de vous tout dire.
+<lb />Ie vois ce qui ſe paſſe, &amp; veux vous en inſtruire;
+<lb />Puiſque vous ne pouuez vous-meſme diſcerner,
+<lb />Vos amis, d’auec ceux qui viennent pour diſner.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />
+<lb />Ie ne connois que trop dequoy l’homme eſt capab
+<lb />Ie ſçay qu’on m’aime moins que l’on ne fait ma Tabl
+<lb />Mais voulant l’ignorer, ie n’examinc pas,
+<lb />Les diſcours que l’on tient en ſuitẽ du repas:
+<lb />Suffit que tant qu’il duré vn chacon me reuere;
+<lb />Que chacun ì l’enuy ſéforce de me plaire;
+<lb />Et que chacun, enfin, me paye ſonccot.
+<lb />Par vn conte agrcable, ou par quelque bon moti
+<lb />Ce n'eſt pas qu'entre ceux qui viennent à ma Table,
+<lb />Ie ne puiſſe trouuer quelque amy veritable;
+<lb />I’en connois deux ou trois, &amp; les y fais venir,
+<lb />Pour auoir le plaiſir de lei entretenir.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Pour traitter des amis, fait-on tant de doſpence?
+</sp>
+<sp type="MainZone-Sp"><lb />Et....... THERSANDRE
+<lb />Ie ſouſtien, par la l'eſclat de ma naiſſance,
+<lb />Et donnant à manger ſelon ma qualité.
+<lb />Ie gouſte la douceur de me voir reſpegté.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Si voſtre amour dépence autam que voſtre Table,
+<lb />Ie croy voſtre ruine vn mal incuitable,
+<lb />Car enfin ie voy trop qu’auecque tant d’ardeur....
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />I'auoüeray que Lacille à ſçeu gaigner mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Mais ſi vous conſcruez tant d’ardeur dans voſtre ame;
+<lb />I’arlez, &amp; vous verrez approuuer voſtre flame,
+<lb />La Mere de Lucille; cn apprenant.....
+</sp>
+<sp type="MainZone-Sp"><lb />THENSANDRE.
+<lb />Ie veux,
+<lb />Auant de lay parler faire approuuer mes vœux,
+<lb />Et qu’aux ardens tranſports de mon amour extréme:
+<lb />La beauté que ie ſers ſe rende d’elle-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Mais ne ſçauez-vous pas, Monſieur, que Clidamant,
+<lb />Pour la meſme beauté ſoûpire ounertement,
+<lb />Et qu’on n’eſt pas long-temps ſans payer la tendreſſe,
+<lb />De ceux dont la naiſſance égale la richeſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ce riual a du bien &amp; de la qualité;
+<lb />Mais Damis aprés tout ce n’eſt qu’vn cſuenté.
+<lb />Et quelque ardeur, enfin, qui regne dans ſon ame;
+<lb />Il merite trop peu pour allarmer ma flame.
+<lb />Lucil le à trop d’eſprit pour approuuer ſon feu,
+<lb />Et iamais de ſa bouche il n’en aura l’aucu.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />
+<lb />Quand Lueille ſeroit à ſa flame contraire,
+<lb />Ne la pouroit-il pas obtenir de ſa Mere?
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ayant vn grand procez elle en veut voir la fin,
+<lb />Auant que de ſa fille, ordonner du deſtin.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Vous la pourriez, Monſieur, ſeruir dans cette affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Mon amour doit aſſez m’obliger à le faire,
+<lb />A ce charmant objet, ie l’ay deſia promis,
+<lb />Et quand il ſera temps ſ’employeray mes amis,
+<lb />Mals pour reſuer en paix à ſa beauté diuine,
+<lb />I'entre en mon cabinct juſqu’à ce que l’on diſne.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Les nobles affamez, qui dedans peu viendront,
+<lb />A l’heure du diſner vous en retireront.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ah! que ſi tu voulois aujourd’huy m’en défaire...
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Mon eſprit ne ſçauroit comprendre ce myſtere,
+<lb />Ny deuiner pourquoy vous auex ordonné,
+<lb />Que l’on vous appreſtaſt vn ſuperbe diſné.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Si tu ne le ſçais pas, apprends donc que Melinte;
+<lb />Doit auec la beauté dont mon ame eſt atteinte,
+<lb />Venir diſner icy: Que ie leur dis hyer,
+<lb />Voyant de les ſeruir qu’elles m’alloient prier,
+<lb />Que ie n'écoutois point chez elle leur priere,
+<lb />Et voulois que ceans, elles la vinſſent faire,
+<lb />Et diſner auec moy deuant que d’en ſortir.
+<lb />Voila dequoy i’ay crſ̂ te deuoir aduertir.
+<lb />Par le petit degré, prens ſoin que l’on nous ſerue,
+<lb />Et que des ſuruenans ancun ne nous obſeruc.
+<lb />Au reſte ie commence à voir que mon ardeur,
+<lb />Plaiſt aſſez à l’objet qui m’a rauy le cœur,
+<lb />Et ie me trompe fort, ou ie croy que ſa mere,
+<lb />Au bon-heur que j’attens ne ſera pas contraire,
+<lb />Si tu les vois venir tu m’en aduertiras.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />
+<lb />Repoſez-vous ſur moy, ie n’y manqueray pas.
+<fw><lb />
+<lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<fw><lb />*114
+</fw></p>
+<sp type="MainZone-Sp"><lb />DAMIS ſeul.
+<lb />
+<lb />'Approuue le beau feu qui regne dans ſon ame,
+<lb />Puiſque Lucille eſt belle, &amp; digne de ſa flame,
+<lb />Pour ſa mere elle l’aime vn peu trop tendrement,
+<lb />Mais cét amour leur nuit, &amp; cét objet charmant,
+<lb />Contraignant par deuoir, ſon geſte &amp; ſa parolle.
+<lb />Fait croire qu’elle eſt vaine, &amp; que ſa mere eſt folle.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />4
+<lb />DAMIS, ERGASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />M Elinte auccſa file........
+<fw><lb /> 
+</fw></sp>
+<sp type="MainZone-Sp"><lb /> DAMIS.
+<lb />Hé bien, fais les monter.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />I’y cours, mais les voicy.
+<fw><lb />AE
+</fw></sp>
+<sp type="MainZone-Sp"><lb />DAMIS, à part.
+<lb />Contre de tels appas.
+<lb />Qui pouroit reſiſter.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />MELINTE, LVCILLE, DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />NE puicje voir Therfandre?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Vous le verrez, Madame, &amp; ie luy vais apprendre.
+<lb />Que vous eſtes icy.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Vous nous obligerez.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />MELINTE LVCILLE.
+</p>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Ais dites-moy donc quand vous vous corti
+<lb />M gerez.
+<lb />Elle ſe redreſſe elle-meſme.
+<lb />Tenez-vous droite là, c’eſt ainſi qu’il faut eſtre,
+<lb />Et ſi l’on n’a cẽt air, l’on ne ſçauroit paroiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Mais qu oy faut-il.......
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Ainſi vous eſtes cent fois mieux.
+<lb />Adouciſſez encor voſtre voix, &amp; vos yeux:
+<lb />oruer touooomr vos eſpaules ſi hautes,
+<lb />Et ne retombez plus dans de pareilles fautes;
+<lb />Mais qu’auec tout cela l’on voyc vn air poſé,
+<lb />Qui ne ſoit point contraint &amp; qui paroiſſe aiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Ie ne ſuis point contrainte, &amp; ie la dois paroiſtre.
+<lb />Faiſant, par vos conſcils, tout ce qu’il faut pour l’eſtre,
+<lb />On nous ioüera Madame, &amp; toutes ces façons.....
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Vous auez bonne grace à faire des leçons;
+<lb />Voſtre eſprit, ſur ce point, manque bien de lumiere,
+<lb />Vous fais-je, dites-moy, faire vnc façonniere.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, mais.....
+<lb />LVCILLE.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Qui vous oblige donc à vous faſcher.
+<lb />Dequoy vous plaignez-vous? vous fais-je déhancher;
+<lb />Ie fais tout le contraire, &amp; quand ie vous oblige,
+<lb />D’eſtre bien droite, alors, mon diſcours vous afflige.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Madame, ie feray tout ce que vous voudrez.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Vous ferez touſiours bien, quand vous m’obeyrez.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Ie ne puis ignorer que i’y ſuis obligée.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Mais que vous paroiſſez aujourd'huy negligée;
+<lb />Toutes vos actions marquent frop de langueur;
+<lb />Rien ne vous ſied du tout, &amp; voſtre tein fait peur;
+<lb />Vous n’auez point bon air, &amp; ie ſuis fort ſurpriſe,
+<lb />Auec de tels habits de vous voir ſi mal miſe.
+<lb />Renuerſez-vous ma fille, &amp; faites des tetons.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Ie ſuiuray vos aduis, &amp; dois les trouuer bons.
+<lb />400
+<lb />A uiij
+<fw><lb />–
+</fw></sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Dites-moy, cependant, voſtre cœar pour Therſandre.
+<lb />N’auroit-il point conçeu quelque ſentiment tendre?
+<lb />Ne me déguiſez rien, ie le croy voſtre amant.
+<lb />Et ie l’eſtime enfin, bien plus que Clidamant.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Il m’aime ie l’auoüe, &amp; le ſens que mon ame,
+<lb />Souhaite voſtre adueu pour repondre à ſa flame,
+<lb />Mais helas! ie ſens bien qu’ayant dequoy charmer,
+<lb />Ie puis, en l’attendant commancer à l’aimer.
+<lb />Et i’apprens, quand ie cralns que mon cœur ne ſoûplre
+<lb />Qu'en amour ce qu’on craint eſt ce que l’on deſire.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />En vous voyant tous d’eux, i’auois dans voſtre cœur
+<lb />Connu, par vos regards, voſtre ſecrette ardeur;
+<lb />Gardez vous toutes fois, d’en faire trop paroiſtre;
+<lb />Et faites s’il ſe peut qu’il n’en puiſe connoiſtre,
+<lb />Que ce qu’il en faudra pour le faire eſperer;
+<lb />Car bien que ſes vertus le faſſent admirer,
+<lb />Les hommes d’auiourd’huy, quelqu’ardeur qui les preſſs
+<lb />Veulent d’vne beauté meriter la tendreſſe;
+<lb />Et lors que l’on repond trop toſt à leurs ſouſpirs,
+<lb />Cette prompte victoire allentit leurs deſirs.
+<lb />Ie croy, par ce conſeil, que c’eſt aſſez vous dire,
+<lb />Qu’auec plaiſir i’apprens que pour vous il ſouſpire,
+<lb />Comme il eſt fortement épris de vos attraits,
+<lb />Il nous ſeruira micux dedans noſtre procez;
+<lb />Ie ne croy pourtant pas, quelque ardeur qui l’enflame
+<lb />Sa gencroſité moins grande que ſa flame,
+<lb />en ſe redreſſaut.
+<lb />Et...... Mais il vient. Luciller
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Hé bien ?
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />eu ſe redreſſaut entort.
+<lb />Songez à vous.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />MELINTE, LVCILLE, THERSANDRE,
+<lb />ERGASTE, DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />THERSANDRE àE gaſti.
+<lb />J N cœur peut-il tenir contre des traits ſi doux.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE, à ſa Mere.
+<lb />Madame, croyez-vous, que toutes ces grimaces,
+<lb />Et que cẽt air contraint donnent beaucoup de graccy'
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE à Therſaudre.
+<lb />Vous voyez que ie tiens tout ce que ie promets,
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Par la de vos bontez, le connois les effets.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE A part.
+<lb />Bien que i’ayme à le voir, le cœur me bat, ie tremble.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Quand nous aurons diſné, nous fortirons enſemble,
+<lb />Et pour bien m’acquitter de ce que i’ay promis,
+<lb />I’iray ſolliciter, auec vous, mes amis.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Cela ſe peut nommer ſeruir de bonne grace.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ah! croyez qu’il n’eſt rien que pour vous ie ne faſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE bas, à Lacille, eu ſe redreſſaut.
+<lb />Droite, Regardez-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE, à part.
+<lb />Qu'elle contrainte, 6 Dical
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />De peur des importuns, abandonnons ce licu;
+<fw><lb />
+</fw><lb />Nous ne pourons la haut eſtre veüs de perſonne,
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTHE.
+<lb />C’eſt tout ce que ie veux, voſtre raiſon eſt bonne.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Là de voſtre procez, nous pourons librement.......
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Montez-donc, car l’on va ſerulr dans vn moment.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE, eu ſe retournaut.
+<lb />Des coureurs de repas, ſçauras tu me desfaire?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Sans vous embaraſſer, Monſieur, l’aiſſez-moy faire.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Ie t’en laiſſe le ſoin.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+</p>
+<sp type="MainZone-Sp"><lb />DAMIS, ſeul.
+<lb />IE vais ioüer vn tour,
+<lb />Dont on poura garder la memoire à la Cour.
+<lb />Ces beaux eſcoraifleurs qui vont icy paroiſtre,
+<lb />Ne ſe contentent pas de ruiner le maiſtre;
+<lb />Ils font tort aux valets, &amp; les font enrager,
+<lb />En ne leur laiſſant pas ſouuent dequoy manger.
+<lb />Il le faut auoüer, l’on eſt bien miſerable,
+<lb />Lors que l’on a pour maiſtre vn homme qui tient table
+<lb />Et l’on doit bien peſter contre les gens de Cour,
+<lb />Qui veulent, à diſné, manger pour tout le iour;
+<lb />Cette mode me nuit, &amp; ſouuent elle eſt cauſe,
+<lb />Que le vois auorter ce que ie me propoſe.
+<lb />Dans ma chambre j’auois deux de mes amis hier,
+<lb />Et ie ne pûs iamais auoir vn plat entier,
+<lb />Ceux qui vintent, ayant ſuiuant leut deſtinée.
+<lb />Mange hier à diſné pour toute la iournéc.
+<lb />Ie ne m’en plaindrois pas s’il nous laiſſoient en paix.
+<lb />Mais ils font quereller officiers &amp; valets,
+<lb />Il faut chercher leur gouſt, &amp; non celuy du Maiſtre:
+<lb />Mais quand meſme de tous, on le pouroit connoiſtre,
+<lb />Les ſatisferoit-on, s’il n’eſt point de ragouſts,
+<lb />Qui plaiſent à la fois à cent diferens gouts.
+<lb />Dans ce qu’vn ayme doux, l’autre veut de l’Eſpice........
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />DAMIS, ERGASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Iies-moy, s’il vous plaiſt, iray-le dire au Suiſſe,
+<lb />L Qu'il r'ennoye tous ceux qui voudront voir Mon<lb />ſieur?
+<lb />
+<lb />
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Non, cat ie les veux voir.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Mais......
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Hé quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Que Monſicur ne me gronde.
+<lb />Mais i'ay peur
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Ah! qu’on me laiſſe faire,
+<lb />Mais eſcoute, auec toy ie veux mener l’affaire;
+<lb />Tantoſt en querellant....... Mais ie voy Clie
+<lb />mant,
+<lb />Pour m'en diuertir mieux ie le laiſſe vn moment.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />CLIDAMANT, ERGASTE.
+</p>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />SEmuira-ronbien-toſt,
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Ie n’en ſçay tien.
+<fw><lb />16
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie meur
+<lb />Si ie ne ſuis ſorty du Louvre à prés d’vnc heure,
+<lb />I’ay refuſé cent gens, qui vouloient m’entraiſner.
+<lb />Iugeant bien que ccans ie pourois micux diſner;
+<lb />Mais ie ſuis bien ſurpris de n’y trouuer perſonnc.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Icy la compagnie eſt ſouuent aſſez bonne.
+<lb />Et..... mais ie vols quelqu’vn.
+<fw><lb />SCEI
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />CLIDAMANT, LEANDRE,
+<lb />ERGASTE.
+</p>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />H! Comte, c’eſt donc toy?
+<lb />A t'on diſné ceans?
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ta viens diſner ie croyt
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy ſans doute.
+<lb />LEANDRE,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Tant mieux, nons diſnerons enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE, à part.
+<lb />Pour nous faire plaiſir la nobleſſe s’aſſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Eſtant chez mes amis à l’heure du repas,
+<lb />Ie croirois les faſcher ſi ie n’y mangeois pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE, àpart.
+<lb />Allons trouuer d’Amis, car ic bruſſe d’apprendre,
+<lb />Ce que ie puis pour luy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Que fit hier Leandre?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie fus bier diſner chez vn de mes amis,
+<lb />Et mangeay d’vn potage aux oignons blancs farcus.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Aux oignons blancs farcis! peſte, il eſt admirablel
+<lb />Ten ap veur fauenteur.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il aymoit bien la table.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Aux oignons blancs farcis!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu les aymes ie croy?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie puis bien les aymer, c’eſt vn manger de Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Nous mangeaſmes encor certain canard ſauuage.
+</sp>
+<sp type="MainZone-Sp"><lb />Tout de bon.
+<lb />CLIDAMANT.
+</sp>
+<sp type="MainZone-Sp"><lb />Ouy.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Cela vaut mieux que le potage.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu Dieu, tu t’y connois, ils ſont tout à fait bons,
+<lb />Et l’on en trouue moins que l’on ne fait d’oignons.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIBAMANT.
+<lb />Ie ne ſçay que trop bien, que l’on n'en trouue gueres,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vn homme ſeul en France a de ces canardieres,
+<lb />Ils luy viennent d’Holande.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ils ſont donc Holandois
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Oüy, mais en peu de temps, ils deuiennent François
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Quand ils veulent venir, on les reçoit en Francet
+</sp>
+<sp type="MainZone-Sp"><lb />oüy.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Mais acheue moy ce diſné d’importance?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Par des morceaux exquis le gouſt y fuſt flatié.
+<lb />Il y fuſt reueillé, chatouillé, delecté,
+<lb />Et pendant le repas, les plus friandes langucs
+<lb />Sur la bonté des mets firent mille harangues,
+<lb />Auec bien du plaiſir chacun les ſauoura,
+<lb />Auec eſtonnement chacun les admira<lb />Et l’on fut moins ſurpris de la magnificence,
+<lb />Que de trouuer tant d’ordre auec tant d’abondance.
+<lb />Mais comme nous croyons voir ſinir ce repas,
+<lb />Nous viſmes tout à coup ſeruir de nouueaux plats,
+<lb />Tous remplis de ragouſts, à tel point delectables,
+<lb />Qu’on en ſert rarement ſur les meilleures tables.
+<lb />Ce ſeruice nouucil ippetit excita,
+<lb />Ou pluſtoſt des ragouſts la ſaueur l’irrita;
+<lb />Et ce friand repas nous fit aſſez connoiſtre,
+<lb />Qu’à traitter noſtre amy, deuoit eſtre vn grand Maiſtre
+<lb />Puiſque cent mets nouucaux, dont la bonté ſurprit,
+<lb />Firent naiſtre &amp; mourir cent fois noſtre appetit.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Les vins delicieux furent de la partie?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Nous en buſmes de bon de la coſte roſtie,
+<lb />Et nous euſmes encor de pluſieurs autres vins,
+<lb />A qui l’on peut donner le ſurnom de diuins;
+<lb />Mais des vins, ah! des vins; mais des vins agreables,
+<lb />Piquants, &amp; delicats; puiſſans &amp; delectables.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />De chacun de ces vins dirois-tubien le nom?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Oüy-da, De Saint Laurent, d’Ays, &amp; de Maſcon,
+<lb />De Saint Meſmin, d’Arbois, de Reim, de l’Hermi<lb />tage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Tous ces vins valent mieux que ton canard ſauuage</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie ne croy pas qu’on puiſſe en boire de meilleurs,
+<lb />Enſuitte on nous donna quantité de liqueurs,
+<lb />L’on but d’vn hypocras; mais dont le muſc &amp; l’ambr
+<lb />Par leur ſubtile odeur parfumerent la chambre;
+<lb />Mais quoy par ce ſouris voudrois-tu le nier?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />e croy qu’il eſtoit bon s’il eſtoit de Renier,
+<lb />ians cela peuth.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Marquis il en eſtoit ſans doute,
+<lb />Et du meilleur qu’il cuſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Il ſe peut.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Le vin d’Eſpagne eſtoit........
+<lb />Mais écoute.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Choiſi chez Boueingo.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />On l’auoit fait venir exprez de Saint Malo<lb />Il eſtoit naturel, &amp; ie croy que......
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Mais Comte,
+<lb />Ne vois-ie pas Valere, auec le icune Oronte?
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />CLIDAMANT, LEANDRE,
+<lb />VALERE, ORONTE.
+</p>
+<sp type="MainZone-Sp"><lb />CLIDAMANT, à Vauire.
+<lb />H! c’eſt donc toy, Marquis,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE, A Oronte.
+<lb />Cheualier, c’eſt donc toy?
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />ORONTE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Pour diſner ceans, ie l’ameine auec moy;
+<lb />Cert es à l’entraiſner, i’ay bien eu de la peine,
+<lb />Ce icune Cheualier à l’humeur vn peu vaine,
+<lb />Et ne ſe peut laſſer de parler contre ceux,
+<lb />Qui, ſans eſtre priez, mangent hors de chez eux.
+<lb />Mais dequoy parliez-vous ne le peut-on apprendre?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Nous parlions d’vn repas que fit hier Leandre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais encor eſtiez-vous ſur des ragouſts nouueaux?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Clidamant s’entretient touſiours de bons morccaux,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Comme toy Cheualier, ie n’y ſuis pas Nouice,
+<lb />Tu connois la Becaſſe. &amp; tu ſçais que la cuiſſe
+<lb />En eſt le bon morceau; ependant, l’autre iour,
+<lb />Tu fis rire de toy quelques gens de la Cour;
+<lb />B iij
+<lb />Quand, par vne façon de ſeruir blen nouuelle,
+<lb />Loin d’en ſeruir la cuiſſe, on t’en vit ſeruir l’aiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ne diſois-Je pas bien, tu ſçals les bons morceaux.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu pourrois dire encor, qu’il ſçait les bons Coſteaux,
+<lb />A........
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE,
+<lb />Sa delicateſſe en tout eſt incroyable.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quand ton gouſt trouncroit vn cocq dainde admi
+<lb />rable,
+<lb />Tu le deſauoücrois, eſt-il pas vray Marquis?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Mon gouſt ne connoiſt rien que des morceaux exquls,
+<lb />Et s’il ozoit vouloir de ſemblables viandes......
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ces morceaux ſcroient bons pour des langues friandez
+<lb />Valere, qu’en dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Rien, ſinon que ie crois,
+<lb />Que les cocqy daindes ſont des ortolans Bourgeois.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ce ſont des ortolans, où l’on a dequoy mordre.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Les Bourgeois ſculement qui ſont du dernier ordre,
+<lb />En mangent aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Vous eſtes delicats,
+<lb />Et de ſi gros morceaux ne vous nouriroient pas.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Les gens qui comme nous mangent aux bonnes tables
+<lb />N’entendent point parler de viandes ſemblables.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie ſçay comme on y ſert:
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu le ſçays?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ie le croy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vorons s’il le ſçait bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie le veux par ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />Ariſton?
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />Et de Liſandre?
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />D'Ariſton la table eſt raiſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Elle eſt tout à fait pitoyable.
+</sp>
+<sp type="MainZone-Sp"><lb />Et de Criſpe?
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Peut on ignorer ſon grepas.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Celuy-là tenoit table, &amp; ne la tenoit pas;
+<lb />uoy qu’il traitaſt fortbien, il ſe donnoit au Diable,
+<lb />Qu’il n’auoit iamais eu deſſein de tenir table.
+<lb />Bien qu’aux honneſtes gens ſon logis fut ouuert,
+<lb />L’on ne trouuoit chez luy iamais plus d’vn couuerts
+<lb />Sa table, cependant, eſtoit tout à fait bonnc.
+<lb />chacun y mangeoit, ſans qu’il priaſt perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />Ckonimer
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />On void peu chez luy de perdreaux:
+<lb />I n’en mange lamais alors qu’ils ſont nouueaux;
+<lb />il hait ceux de campagne, &amp; n’en veut que de villt!
+<lb />amais en bons morceaux lieu ne fut ſi ſterile.
+<lb />B iij
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Et des pois verds, nouuenex, en mange-t’ilt
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Luy, bon,
+<lb />Il n’en mange jamais, qu’à cinq ſols le litron.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Les nouucautez chez-luy n’eſtans pas en vſage:
+<lb />Par la, mon cher Marquis, il fait voir qu’il eſt ſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANE.
+<lb />Ceux qui les mangent chers paſſent donc pour des
+<lb />ſous.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie croy qu’ils valent moins à cent francs qu’à cinq ſous
+<lb />Les pois precipitez naiſent de pourriture,
+<lb />Et l’art les fait venit plaſtoſt que la nature.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />D'euſſent-ils dans mon corps ſe pourir mille fois,
+<lb />Ie pretens en manger auant tous les Bourgeois.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Les repas de grand prix, ſont bien plus agreables,
+<lb />Et la cherté des mets les rend plus delectables,
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />A ce plaiſant diſcours, que reſpons-tu Marquis?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Que ie ne veux iamais diſner à iuſte prix.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Voila d’vn vray Marquis le parfait caractere.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Pour le bien ſouſtenir, ie fais touſiours grand chere.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Tu la fais, il eſt vray, ſans deſpencer ton bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />L’on a double plaiſir quand on diſne pour rien,
+<lb />Tous ceux chez qui ie mange ont vne ioye extrême,
+<lb />Par là ie les oblige, &amp; m’oblige moy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Megaſte traitte mieux que tous ceux d’auiourd'huy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Oüy, mais les gens d’eſprit ne mangent point chez
+<lb />Ei¬;
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />De Filante à bon droit, la table eſt eſtimée.
+<lb />I'y mangcay, l’autre iour, d’vne ſauce gommée
+<lb />Auecque des dindons.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />D'où?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Du Pré ſaint Geruais.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ah! que n’eſtois-je là, ie n'en trouue iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Chez Clearque dit-on, la table eſt ſans pareilley
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Chacun void ſonbuffet ainſi qu'vne merueille,
+<lb />Son linge eſt admirable, il traitte proprement.
+<lb />Mais le diſné contraint de manger ſobrement.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ormain, traitte-t’il bien?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />De tres mauuaiſe grace,
+<lb />Et les chappons, chez luy, ſentent fort la bẽcaſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ie le croy, Mais parlons du fameux Arimant.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />L’on mange &amp; boit chez luy delicieuſement.
+</sp>
+<sp type="MainZone-Sp"><lb />Il a bion du merite.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Il veut auoir des Gardes,
+<lb />Qui puiſſent ſe dit-I à coups de hallebardes,
+<lb />Chaſſer ceux qui chez luy viennent ſouuent diſner,
+<lb />Ayans aſſez de bien pour en pouuoir donner.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Mais écouſte Marquis, ſçais-tu bien que Therſandre,
+<lb />Pout te mettre dehors auroit raiſon d’en prendre,
+<lb />Que chacun dit tout haut, que tu fais aſſez mal,
+<lb />De venir ſi ſouuent manger chez ton riual,
+<lb />Et que t’on procedé qu’on peut nommer étrange.....
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Puis qu’il eſt mon riual, il faut que ie le mange,
+<lb />Et ie ne trouue pas qu’on s’en doiue eſtonner.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Mais i’apperçois Damis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XII.
+<lb />CLIDAMANT, ORONTE, VALERE,
+<lb />LEANDRE, DAMIS.
+<fw><lb />CLIDAMANT.
+</fw></p>
+<sp type="MainZone-Sp"><lb />HEbieni n l'on diface?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Ie ne le puis ſçauoir, car ie viens de la ville.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie ſens déja la faim qui m’eſchauffe la bille.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Depuis long-temps Therſandre, eſt de mes grand
+<lb />amis.
+<lb />C’eſt va homme d’honneur, &amp; le croy que Damis.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ma foy ſon Cuiſinier eſt vn homme admlrable,
+<lb />Et dedans ſon meſtier il eſt incomparable:
+<lb />Peſte qu’il entend bien à faire vn bon ragouſt,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Il doit bien trauailler s’il contente ton gouſt.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Ie ſuis rauy de voir ſi bonne compagnic.
+<lb />Auiourd'huy ſa cuiſine eſt aſſez bien garnie,
+<lb />Les ragouſts qu’il fera ne vous deſplairont pas,
+<lb />Et vous ne vous pourrez plaindre de ce repas.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Appreſtons nous Meſſieurs à faire bonne chere.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS leprauiir vηà pat.
+<lb />Il faut bien-toſt tirer le plaiſir que i'eſpere.
+<lb />Adicu ie m’en vais voir ou le diſner en eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Tu nous aduertiras ſi-toſt qu’il ſera preſt.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIII.
+<lb />CLIDAMANT, LEANDRE,
+<lb />VALERE, ORONTE.
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />E croy qu’en eſtimant la Table de Therſandre,
+<lb />I'Et celle de Leonte, on ne peut ſe meſprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Ceſtm Coſteu,
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Marquis qui ſont donc ces Coſteau
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ce font gens deficats aimans les bons morceaux,
+<lb />Et qui les connoiſſans, ont par experiance,
+<lb />Le gouſt le plus certain &amp; le meilleur de France.
+<lb />Des friands d’auiourd’huy, c’eſt l’eſlite &amp; la fleur,
+<lb />En voyant du gibier, ils diſent à l’odeur,
+<lb />De quel païs il vient. Ces hommes admirables;
+<lb />Ces palets delicats, ces vrais amis des Tables,
+<lb />Et qu’on en peut nommer les dignes ſouuerains
+<lb />Sçauent tous les Coſteaux ou croiſſent les bons vins,
+<lb />Et leur gouſt leur ayant acquis cette ſcience,
+<lb />Du grand nom de Coſteaux on les appelle en France,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Si l’on donne ce nom à tous les delicats,
+<lb />Qui ſçauent auec art gouſter les bons repas,
+<lb />Le nombre enſcra grand.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Oüy, ſans doute.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Mais Come<lb />Vous auiez commancé de parler de Leonte.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Leonte eſt honneſte homme, on diſne bien chez luy,
+<lb />Eſt c’eſt le plus friand des friands d’auiourd' huy:
+<lb />C’eſt vn homme d’honneur, va homme raiſonnable
+<lb />Et de qui le cœur eſt auſſi grand que la table.
+<lb />Il ſçait certain moulin, où l’on prend des Pigeons;
+<lb />Mais ce ſont des Pigeons, des Pigeons, mais ſi bons,
+<lb />Que dans toute la Prance, ils n’ont point de ſemblable
+<lb />Et qu’aux plus frians mets, ie les croy preferabless
+<lb />Il connoiſt les fermiersoù ſont les bons poulcts,
+<lb />Et s’il eſtoit trahy par meſſieurs ſes valets,
+<lb />Illeur feroit paſſer de bien meſchantes heures.
+<lb />1112
+<lb />Il ſçait de quel quartier les Perdris ſont meilleures,
+<lb />Et vous dira d’abord, comme il a le gouſt fin,
+<lb />25
+<lb />Si telle eſt de Complegne, ou bien de ſaint Germain.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Qu’il à l’eſprit profond.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Qu’il eſt couuert de gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Il ne ſçait ce que c’eſt que de viande noire;
+<lb />Comme elle n’eſt pas ſaine il n’en veut iamais voir.
+<lb />Et ſes gens ſur ce point, font fort bien leur deuoir.
+<lb />Ce n’eſt pas tout encor. Cét homme incomparable,
+<lb />Qui ſçait ſi bien ioüir des plaiſirs de la Table,
+<lb />Va, pour gouſter les vins, luy meſme en tous les lieux
+<lb />Où l’on en peut trouuer des plus delicieux;
+<lb />Et puis par des bontez qui n’ont point de pareillęs
+<lb />aait en la preienee empuir force bouteilles,
+<lb />Les met dans ſon caroſſe, &amp; d’vn air tout ioyeux
+<lb />Conduit à ſon logis ce bucin precieux.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />D'y voir ſouuent Damon, c’eſt à tort qu’on s’eſtonne.
+<lb />Il ne doit pas quitter vne Table ſi bonnc.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Crois qu’il n’en fera riens puis qu’il eſt de ces gens
+<lb />Qui ne mangent chez eux qu’vne fois en dix ans,
+<lb />E qui iamais enfin ne concurent l’enuie
+<lb />De donner vn repas vne fois en leur vie.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Pour Timante il en donne &amp; meſme de grand cœur;
+<lb />Mais il priſe ſa Table auecque trop d’ardeur,
+<lb />Et fait connoiſtre aſſez qu’il à l’eſprit malade,
+<lb />En loüant tout chez luy iuſques à la ſalade.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quoy traitter ainſi ceux dont vous mangez le bien
+<lb />Rougiſſez vne fois d’vn pareil entretien,
+<lb />Faraſites d'honneur, qui dans la France entiere.
+<lb />Ne trouuez pas aſſez dequoy vous ſatisfaire.
+<lb />Il n’eſt que deux Coſteaux dont vous aymiez le vin:
+<lb />D'vn endroit ſculement vous eſtimez le pain;
+<lb />D'vn tel ce ſont les fruits, d’vn autre la viande:
+<lb />Voſtre delicateſſe en toute choſe eſt grande;
+<lb />Mais vous deuriez ſçauoir que dedans vn repas,
+<lb />L’on ne doit point blaſmer ce qu’on ne paye pas:
+<lb />Que de ceux où l’on mange on ne doit point medire,
+<lb />Et que c’eſt mal agir d’en faire vne ſatire.
+<lb />Cependant vos diſcours me font paroiſtre aſſez
+<lb />Que parlà, ſeulement, vous les recompenſez;
+<lb />Mais pourquoy mal parler des gens qu’on voit paroiſtre
+<lb />Et chez qui dés ce ſoir vous mangerez peut eſtre?
+<lb />Hé faut-il de parbieu qu’apres tant de repas........
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Iure-donc tout a fait ou bien ne iure-pas;
+<lb />Quand on iure à demy l’on à mauuaiſe grace,
+<lb />Et chacun connoiſt bien que ce n'eſt que grimace.
+<lb />Puiſque loins défrayer, I’on fait ſouuent pitié
+<lb />Lors que d’vn lurement on coupe la moicié:
+<lb />Cela fait toct aux mots, &amp; gaſte noſtre languc.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />En te remerciant de ta belle harangue.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRÉ.
+<lb />Mais perſonne ne vient, il eſt temps de diner.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />A la fin tout cecy commence à m’eſtonner,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />C long retardement cache quelque myſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Sçachez qu'vn diner maigre eſt bien long cempaà calte,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIBAMANT.
+<lb />Il eſt maigre, la peſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ayme-tu Ie Poiſſon,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />En me voyant faſché tu peux iuger que non</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Moyraym le imbot
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Moy i’ayme la Baibos,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Sans donte Cheualier tu tiens pour la Moluë,
+<lb />Auecque le Cocq-dainde, on peut l’appareiller,
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Auec bien de l’eſprit Clidamant ſçait railler.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIV.
+<lb />CLIDAMANT, VALERE, LEANDRE.
+<lb />ORONTE, DAMIS, ERGASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ERGASTE en fuyant deuant Damis.
+</sp>
+<sp type="MainZone-Sp"><lb />VOus me bartre.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />I'en ay le pouuoir de Therſandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT en arreſtant Damis.
+<lb />Qu’à fait ce mal-heureux ne le peut-on apprendre?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Ie veux le chaſtier &amp; meſme deuant vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Pardonne-luy de grace.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et pour l’amour de nous
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Non, ſa faute eſt trop grande, &amp; n'eſt pas pardonnabl
+<lb />Illuy doune vu coup.
+<lb />Afaut -.....
+</sp>
+<sp type="MainZone-Sp"><lb />Ah!
+<lb />ERGASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Que t’a fait ce pauure miſerable?
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy Damis, deuant-nous le mal-traitter ainſi!
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Si vous luy pardonnez le luy pardonne auſſi.
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />Si i’auois à deſſein
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />N’échauffe pas ma bille.
+<lb />Lors que vous m’auez veu reuenir de ia ville,
+<lb />L’on ne m’auoit pas dit que l’on auoit diné
+<lb />Imme diatement apres midy ſonné.
+<lb />Comme aucc quelques gens Therſandre auoit affaire.
+<lb />Il a voulu manger pluſtoſt qu’à l’ordinaire;
+<lb />Ce traiſtre eſtoit chargé de vous en aduertir
+<lb />Et.......
+</sp>
+<sp type="MainZone-Sp"><lb />ERGASTE.
+<lb />I’auois oublié.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Ta m'oſes reparcis.
+</sp>
+<sp type="MainZone-Sp"><lb />Diſ-tu vray?
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Tout cela n'eſt que trop veritable.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE, à part.
+<lb />Qu'iriontiaipimtantrois.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />La choſe eſt vray ſemblable.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ce boureau de Valet nous a ioüé ce tour?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Vous le voyez Monſieur, c’eſt vn Laquais de Cour,
+<lb />Le meilleur n’en vaut rien.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Nous von anm jouez.
+<lb />Par vn tel perſonnage
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />De bon cœur i’en enrage.
+<lb />Et ſi de mon depit vous ſçauiez la moitié
+<lb />Ieut-eſtre aurois-ie part dedans voſtre amitié.
+<lb />à Ergaſte.
+<lb />Sors de deuant mes yeux, où ma iuſte colere......
+<lb />Ergaſte ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ton amitié Damis me paroiſt bien ſincere.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE,
+<lb />Mais allons donc chercher à diner autre-part,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Pour en pouuoir trouuer il eſt vn peu bien tard.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE eu preuant ſa mouſtre.
+<lb />Voyons quelle heure il eſt
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT eu regardant auee luy.
+<lb />Hé bien Comte qu’elle heure?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Plus d’vne heure &amp; demie,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ah! c’eſt trop ou ie meuro.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE à Clidamant.
+<lb />Vn coc-dainde à preſent ne te fcroit pas peur;
+<lb />C iij
+<lb />Mais te fait-on ainſi ſouuent diner par cœur,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Quoy que tard, ie pretens dinet bien I mon aiſe
+<lb />Iſtes-vous en caroſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ouy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Moy ie ſuis en chaiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Et moy pareillement.
+</sp>
+<sp type="MainZone-Sp"><lb />VIALERE.
+<lb />I faut donc qu'en ce lleu
+<lb />Puis que le temps eſt cher, nous vous diſions adicu.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS 2 part.
+<lb />Quel plaiſir de les voir que i’ayme à les entendre;
+<lb />Mais allons de ce tour faire part à Therſandre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XV.
+<lb />CLIDAMANT, LEANDRE,
+</p>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Vant que de partir ſongeons où nous irons,
+<lb />A Et puis apres cclà Comte nous ſortirons.
+</sp>
+<sp type="MainZone-Sp"><lb />Marquin
+<lb />LEANDRE,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Sçais-tu quelqu’vn ?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Allons chez Cleromene;
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />L'on ne mange chez luy que trois fois la ſemaine.
+<lb />Et ie ne ſçay que trop que ce n’eſt pas ſon iour.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Qui diable introduiſit cette mode à la Cour.
+<lb />Il nous faut donc aller chez le beau Theomenc.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Mais i’ay mangé chez luy toute cette ſemaine,
+<lb />Ie voudrois m'en pouuoir empeſcher auiourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Pour moy ie pourois bien aller diner chez luy;
+<lb />Toutesfois ſi Doris.......
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />I’ignore ſa demeure,
+<lb />Car il eſt delogé. Mais ſçache qu’à cette heure
+<lb />On a diné par tout.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Qu'eſt-ce que nous ferons?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Il faut dés à preſent voir où nous ſoûperons.
+<lb />Mais i’enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />D'où vient la douleur qui t’accable?
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie ſonge que le ſoir peu de gens tiennent Table.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />A la fin tout cecy commence à m’affliger.
+<lb />Mais ſi chez toy......
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Chez moy, ſeul ie n’y puis manger,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mais ie pretens aller t’y tenir compagnie.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ah ſortons, car ce lieu rend ma peine infinie.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Attens vn peu. Sçais-tu Marquis où nous irons ?
+<lb />Allons chez vn Traitteur, &amp; nous y dinerons,
+<lb />On y ſert à toute heure.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Il eſt vray: mais eſcout
+<lb />On ne peut, en ce lleu, manger ſans qu’il en couſt
+<lb />Et ie n’ay point d’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />uoy.........
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />C’eſt la verité.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />C’eſt vn mal ordinaire aux gens de qualité
+<lb />Ie n’en ay point non plus, &amp; ie perdis hicr...
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Manger à nos deſpens nous ſeroit vne honte.
+<lb />Allons iuſques au ſoir cauſer en d’autres lieux,
+<lb />Comte,
+<lb />Si nous ne dinons point nous en ſouperons mieux.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVI.
+<lb />THERSANDRE MELINTE, LVCILLE,
+<lb />DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Nfin ils ſont ſortis &amp; ie te dois apprendre
+<lb />LQue ce tour trop piquant à droit de me ſurpren<lb />dic :
+<lb />Ie ne l’attendois pas, &amp; tu dois auoüer
+<lb />Quë de ton procede ie doi peu me loüer.
+<lb />Ie ne i’auois pas dit d’en vſer de la ſorte,
+<lb />Ils ont licu de ſe plaindre &amp; la piece eſt trop forte.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Mais que vois-ie?
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVII.
+<lb />THERSANDRE, MELINTE. LVCILLE,
+<lb />CLIDAMANT, DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />V'on ſouffre auecque les valets,
+<lb />Ie n’ay porteurs icy, galoches, ny laquais.
+<lb />Ah! fant-il qu’en ce licu plus long-temps ie demeure.
+<lb />En apporceuaut Tberſaudre, plcliute &amp; Laille.
+<lb />Mais vous auiez raiſon de diner de bonne heure,
+<lb />Vos yeux eſtoient charmez pendant ce doux repas
+<lb />Damis à fort bien dit &amp; ne s’abuſoit pas,
+<lb />Auec de tels obiets l’on peut auoir affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Sçichez que......
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Vous croyez que ie ſois encolere
+<lb />Quand ie me réyoüis de ce qu’enfin mon cœur,
+<lb />Trouue vn iuſte ſujet d’eſtoufer ſon ardeur;
+<lb />Il adoroit Lucille auec trop de conſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />L’on ſe trompe ſouuent, &amp; comme l’apparence....
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie me veux tromper moy, m’en empeſcherez vous!
+</sp>
+<sp type="MainZone-Sp"><lb />si........
+<lb />THERSANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Ie pretend ceſſer de faire les yeux doux :
+<lb />Les exemples d’autruy doiuent me rendreſage,
+<lb />Et de peur d’accident ie fuis le mariage;
+<lb />Car s’il m’en arrinoit les critiques du temps
+<lb />Pouroient impanément railler à mes deſpens.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVIII.
+<lb />THERSANDRE,MELINTE, LVCILLE,
+<lb />CLIDAMANT, DAMIS, CRISPIN.
+</p>
+<sp type="MainZone-Sp"><lb />CRISPIN.
+<lb />V Os porteurs ſont lì bas &amp; vous pouuez deſcendres
+</sp>
+<sp type="MainZone-Sp"><lb />CLIDAMANT.
+<lb />Adieu car ie craindrois de les trop faire attendre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIX.
+<lb />THERSANDRE, MELINTE,LVCILLE,
+<lb />DAMIS.
+</p>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />A fille ne perd rien en perdant cét amant,
+<lb />MEt e eſt gagner beaucoup que perdre Clida<lb />mant.
+</sp>
+<sp type="MainZone-Sp"><lb />THER SANDRE.
+<lb />Apres vn tel aucu puis-ie croire Madame......
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE
+<lb />Pour Lucille, i’ay ſçeu voſtre ſecrette flime,
+<lb />Et ſi quand nous aurons finy noſtre procez,
+<lb />Vous ſoûpirez encor pour ſes ieunes attraits,
+<lb />Nous pourrons en ce temps parler d’vn Hymenée.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Que ie dois auiourd’huy loüer ma deſtinée;
+<lb />A force de bon-heur elle me rend confus.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Ne perdons point le temps en diſcours ſuperflus,
+<lb />Il nous preſſe, fortons.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE, à LCille.
+<lb />Puis-je eſperer Madame..
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Oüy, puis qu’aucc plaiſir i’ay connu voſtre flîme.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />2
+</fw><lb />Et ſi quand nous aurons finy noſtre procez,
+<lb />Vous ſoûpirez encor pour ſes ieunes attraits,
+<lb />Nous pourrons en ce temps parler d’vn Hymenée.
+</p>
+<sp type="MainZone-Sp"><lb />THERSANDRE.
+<lb />Que ie dois auiourd’huy loüer ma deſtinée;
+<lb />A force de bon-heur elle me rend confus.
+</sp>
+<sp type="MainZone-Sp"><lb />MELINTE.
+<lb />Ne perdons point le temps en diſcours ſuperflus,
+<lb />Il nous preſſe, fortons.
+</sp>
+<sp type="MainZone-Sp"><lb />THERSANDRE, à LCille.
+<lb />Puis-je eſperer Madame..
+</sp>
+<sp type="MainZone-Sp"><lb />LVCILLE.
+<lb />Oüy, puis qu’aucc plaiſir i’ay connu voſtre flîme.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />2
+</fw></p>
+    </body>
+  </text>
+</TEI>

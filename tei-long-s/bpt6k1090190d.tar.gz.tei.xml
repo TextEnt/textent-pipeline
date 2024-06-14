@@ -1,0 +1,4444 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Festin de Pierre, comédie mise en vers sur la prose de feu Mr de Molière</title>
+        <author>Corneille, Thomas</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729625t"/>
+          <author>
+            <persName>Corneille, Thomas</persName>
+          </author>
+          <title>Festin de Pierre, comédie mise en vers sur la prose de feu Mr de Molière</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1683" cert="high" resp="BNF">1683</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Other"><lb />M. DC. LXXXIII.
+<lb />Avec Privilege du Roy.
+</p>
+<p type="MainZone-Head"><lb />LE LIBRAIRE
+<lb />MAOLECILUR.
+</p>
+<p type="MainZone-P"><lb />Ette Piece, dont les Comédiens don<lb />nent tous les ans pluſieurs Repréſen<lb />tations, eſt la meſme que feu Mr de Moliere
+<lb />fit joüer en Proſe quelque temps avant ſa
+<lb />mort. Celuy qui l’a miſe eu Vers, a pris le
+<lb />ſoin d’adoucir certaines expreſſions qui
+<lb />avoient bleſſé les Scrupuleux, &amp; il a ſuivy
+<lb />la Proſe dans tout le reſte, à l’exception des
+<lb />Scenes du troiſiéme &amp; du cinquiéme Acte,
+<lb />où il fait parler des Femmes. Ce ſont Scenes
+<lb />ajoûtées à cet excellent Original, &amp; dont
+<lb />les defauts ne doivent point eſtre imputez au
+<lb />elebre Autheur, ſous le nom duquel cette
+<lb />Comedie eſt toûjours repréſentée.
+</p>
+<p type="MainZone-Head"><lb />ACTEURS,
+</p>
+<p type="MainZone-Entry"><lb />PIERROT, Païſan.
+<lb />LA RAMEE, Valet de Chambre de D.)
+<lb />GUSMAN, Domeſtique de D. Elvire.
+<lb />SGANARELLE, Valet de D. Juan.
+<lb />LA STATUE du Commandeur.
+<lb />LA VIOLETE, Laquais.
+</p>
+<p type="MainZone-Entry"><lb />D.LOUIS, Pele de Di juul.
+</p>
+<p type="MainZone-Entry"><lb />D. JUAN.
+<lb />D. ELVIRE, ayant epouie D. Juan</p>
+<p type="MainZone-Entry"><lb />D. CARLOS, Frere d’Elvire.
+</p>
+<p type="MainZone-Entry"><lb />ALONSE, Amy de D. Carlos.
+</p>
+<p type="MainZone-Entry"><lb />TIILILCE, Tante de Leonor.
+</p>
+<p type="MainZone-Entry"><lb />LEONOIe.
+<lb />PASCALE, Nourrice de Leonor.
+</p>
+<p type="MainZone-Entry"><lb />CHALOTE, Païſane.
+</p>
+<p type="MainZone-Entry"><lb />MATHURINE, autre Païſane.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />4
+<lb />PIERRE
+<lb />ONTEDIE
+</p>
+<p type="MainZone-Head"><lb />CTE PREMIER
+<lb />SCENE PREMIERE.
+<lb />GANARELLE, GUSMAN.
+<fw><lb />SGANARELLE prenaut du Tabac, &amp;
+</fw><fw><lb />en offrant à Guſman.
+<lb />UOY qu’en diſe Ariſtote, &amp; ſa digne
+<lb />Cabale,
+<lb />Le Tabac eſt divin, il n’eſt rien qui
+<lb />l’égale,
+<lb />Et par les Faineans pour fuir l’oiſiveté,
+<lb />amais amuſement ne fut mieux inventé.
+<lb />e ſçauroit-on que dire, on prend la Tabatiere,
+<lb />udain à gauche, à droit, par devant, par derriere;
+</fw><lb />Gens de toutes façons, connus &amp; non connus,
+<lb />Pour y demander part, ſont les tres-bien venus
+<lb />Mais c’eſt peu qu’à donner inſtruiſant la Jeuneſſe
+<lb />Le Tabac l’accoûtume à faire ainſi largeſſe,
+<lb />C’eſt dans la Medecine un remede nouveau,
+<lb />Il purge, réjoüit, conforte le cerveau,
+<lb />De toute noite humeur promptement le délivre.
+<lb />Et qui vit ſans Tabac n’eſt pas digne de vivre.
+<lb />O Tabac, ô Tabac, mes plus cheres amours!
+<lb />Mais reprenons un peu noſtre premier diſcours.
+<lb />Si bien, mon cher Guſman, qu’Elvire ta Maiſtreſſe
+<lb />Pour D. Juan mon Maiſtre a pris tant de tendreſſe,
+<lb />Qu’apprenant ſon départ, l’excés de ſon ennuy,
+<lb />L’a fait mettre en campagne, &amp; courir apres luy.
+<lb />Le ſoin de le chercher eſt obligeant ſans-doute,
+<lb />C’eſt aimer fortemient, iliais toue vojage couſte,
+<lb />Et j’ay peur, s’il te faut expliquer mon ſoucy,
+<lb />Qu'on l’indemniſe mal des frais de celuy-cy.
+</p>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Et la raiſon encor? Dy-moy, je te conjure,
+<lb />D'ou te vient une peurde umauvais augure?
+<lb />Ton Maiſtre là-deſſus t’a-til ouvert ſon cœur?
+<lb />T’a-t-il fait remarquer pour nous quelque froideur,
+<lb />Qui d’un départ ſi prompt...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />je n'eu içay ponte les cauſes.
+<lb />Mais, Guſman, à peu prés je voy le train des choſes
+<lb />Et ſans que D. Juan m’ait rien dit de cela,
+<lb />Tout franc, je gagerois que l’affaire va là.
+<lb />Je pourrois me tromper, mais j’ay peine à le croire.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Quoy, ton Maiſtre feroit cette tache à ſa gloire?
+<lb />Il trahiroit Elvire, &amp; d’un crime ſi bas...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Teit trop jeune encor, Il n’oleroit.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Hélas!
+<lb />ney u uil niacne tour l’infamie éternelle,
+<lb />Ny de ſa qualité...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />La raiſon en eſt belle;
+<lb />Sa qualité, c’eſt là ce qui l’arreſteroit.
+</sp>
+<sp type="MainZone-Sp"><lb />Tant de vœux...
+<lb />GUSMAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANTHRLELE.
+<lb />Rien pour luy n’eſt trop chaud ny trop froid.
+<lb />Vœux, ſermens, ſans ſcrupule il met tout en uſage.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Mais ne ſonge-t-il pas à l’Hymen qui l’engage?
+<lb />crontih le pouvon rompre?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Hé mon pauvre Guſman,
+<lb />Tu ne ſçais pas encor quel Homme eſt D. Juan.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />S’il eſt ce que tu dis, le moyen de connoiſtre,
+<lb />De tous les Scelerats, le plus grand, le plus traiſtre?
+<lb />Le moyen de penſer qu’apres tant de ſermens,
+<lb />Tant de tranſports d’amour, d’ardeurs, d’empreſſe<lb />mens,
+<lb />De proteſtations des plus paſſionnées,
+<lb />De larmes, de ſoûpirs, d’aſſurances données,
+<lb />ait réduit Elvire à ſortir du Convent,
+<lb />venit l’épouſer, &amp; tout cela du vent?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il s’embaraſſe peu de pareilles affaires,
+<lb />Ce ſont des tours d’eſprit qui luy ſont ordinaires,
+<lb />Et ſi tu connoiſſois le Pelerin, croy-moy,
+<lb />Tu ferois peu de fond ſur le don de ſa foy.
+<lb />Ce n’eſt pas que je ſçache avec pleine aſſurance,
+<lb />Que déja pour Elvire il ſoit ce que je penſe;
+<lb />Pour un deſſein ſecret en ces lieux appellé,
+<lb />Depuis ſon arrivée il ne m’a point parlé.
+<lb />Mais par précaution je puis icy te dire,
+<lb />Qu’il n’eſt devoirs ſi ſaints dont il ne s’oſe rire.
+<lb />e c’eſt un Endurcy dans la fange plongé,
+<lb />Un Chien, un Herétique, un Turc, un Enragé,
+<lb />Qu’il n’a ny foy ny loy, que tout ce qui le tente..
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Quoy, le Ciel ny l’Enfer n’ont rien qui l’épouvantes
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Bon, parlez luy du Ciel, il répond d’un ſoûris;
+<lb />Parlez luy de l’Enfer, il met le Diable au pis,
+<lb />Et parce qu’il eſt jeune, il croit qu’il eſt en âge,
+<lb />Où la vertu ſied moins que le libertinage.
+<lb />Remontrance, reproche, autant de temps perdu,
+<lb />Il cherche avec ardeur ce qu’il voit défendu;
+<lb />Et ne refuſant rien à Madame Nature,
+<lb />Il eſt ce qu’on appelle un Pourceau d’Epicure.
+<lb />Ainſi ne me dis point, ſur ſa legereté,
+<lb />Qu’Elvire par l’Hymen ſe trouve en ſeûreté;
+<lb />C’eſt peu par bon Contract qu’il en ait fait ſa Femm
+<lb />Pour en venir à bout, &amp; contenter ſa flâme,
+<lb />Avec elle au beſoin par ce meſme Contract,
+<lb />Il auroit épouſé toy, ſon Chien &amp; ſon Chat.
+<lb />C’eſt un piege qu’il tend par tout à chaque Belle;
+<lb />Païſane, Bourgeoiſe, &amp; Dame &amp; Demoiſelle,
+<lb />Tout le charme, &amp; d’abord pour leur donner leçon,
+<lb />Un Mariage fait luy ſemble une Chanſon.
+<lb />Toûjours Objets nouveaux, toûjours nouvelles flâ<lb />mes;
+<lb />Et ſi je te diſois combien il a de Femmes,
+<lb />nu feroiouoitameu que ce neſt pas en vain
+<lb />Qu'on le croit l’Epouſeur de tout le Genre-Humain,
+</sp>
+<sp type="MainZone-Sp"><lb />GOSMAN.
+<lb />Quel abominable Homme!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et plus qu’abominable,
+<lb />Il ſe moque de tout, ne craint ny Dieu ny Diable;
+<lb />Et je ne doute point, comme il eſt ſans retour,
+<lb />Qu’il ne ſoit par la Foudre écraſé quelque jour.
+<lb />Il le mérite bien, &amp; s’il te faut tout dire,
+<lb />Depuis qu’en le ſervant je ſouffre le martyre,
+<lb />j'en ay veu tant d’horreurs, que j’avouë aujourd’huy,
+<lb />Qu’il vaudroit mieux cent fois eſtre au Diable qu’a
+<lb />luy.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Que ne le quites-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Le quiter! comment faire?
+<lb />Un grand Seigneur méchant eſt une étrange affaire:
+<lb />Vois-tu, ſi j’avois fuy j’aurois beau me cacher,
+<lb />Juſques dans l’Enfer meſme il viendroit me chetcher.
+<lb />La crainte me retient, &amp; ce qui me déſole,
+<lb />C’eſt qu’il faut avec luy faire ſouvent l’Idole,
+<lb />Loüer ce qu’on déteſte, &amp; de peur du baſton,
+<lb />Chanter quand il luy plaiſt deſſus ſon meſme ton.
+<lb />e croy dans ce Palais le voir qui ſe promene,
+<lb />’eſt luy, motus au moins.
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN.
+<lb />Ne t’en mets point en peine.
+<fw><lb />A iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je t’ay conté ſa vie un peu legerement;
+<lb />Garde-toy d’en rien dire à perſonne, autrement,,
+</sp>
+<sp type="MainZone-Sp"><lb />GUSMAN s’en allant.
+<lb />Necrams fien.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />D. JUAN, SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />AUec qui parlois tu? pourroit-ce eſtre
+<lb />Le bon Homme Guſman? J’ay crû le reconnoiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />vousaveziore blmoru, ceſtont ſujemeſme.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il vient
+<lb />Demander quelle affaire en ces lieux nous retient?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il eſt un peu ſurpris de ce que ſans rien dire,
+<lb />Vous avez pû ſi-toſt abandonner Elvire.
+</sp>
+<sp type="MainZone-Sp"><lb />D.JUAN.
+<lb />Que luy fais-tu penſer d’un départ ſi prompt?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Rien du tout, ce n’eſt point mon affaire.
+<lb />Moy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Mais toy.
+<lb />Cen penles-tu:
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je croy, ſans trop juger en Beſte,
+<lb />Que vous avez encor quelque amourete en teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />Tu le crois?
+<lb />Di joiIa
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />SUANARELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ma foy, tu crois juſte, &amp; mon cœur
+<lb />Pour un Objet nouveau ſent la plus forte ardeur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Eh mon Dieu! j’entrevois d’abord ce qui s’y paſſe.
+<lb />Voſtre cœur n’aime point à demeurer en place;
+<lb />Et ſans luy faire tort ſur la fidelité,
+<lb />Ceſt le plus grand Coureur qui jamais ait eſté,
+<lb />Tout eſt de voſtre gouſt, Brune ou Blonde, n’im<lb />porte.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et n’ay-je pas raiſon d’en uſer de la ſorte?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARBLLE.
+<lb />Sans-doute, il eſt aiſé de voir
+<lb />e vous avez raſſon ſi vous voulez l’avoir;
+<lb />Mais ſi, commé on n’eſt pas bon Juge dans ſa cauſe,
+<lb />Vous ne le vouliez pas, ce ſeroit autre choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />é bien, je te permets de parler librement.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />n ce cas je vous dis tres-ſérieuſement,
+<lb />Qu’on trouve fort vilain qu’allant de Belle en Belle,
+<lb />Vous faſſiez vanité par tout d’eitre Inndelle.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quoy, ſi d’un bel Obiet je ſuis d’abord touché
+<lb />Tu veux que pour toûjours j’y demeure attaché.
+<lb />Qu’un éternel amour de ma foy luy réponde,
+<lb />Et me laiſſe ſans yeux pour le reſte du monde?
+<lb />Le rare &amp; doux plaiſir qui ſe trouve en aimant,
+<lb />S’il faut s’envelir dans un attachement,
+<lb />Renoncer pour luy ſeul à toute autre tendreſſe,
+<lb />Et vouloir ſotement mourir dés ſa jeuneſſe!
+<lb />Va, croy moy, la conſtance eſtoit bonne jadis,
+<lb />Où les leçons d’aimer venoient des Amadis.
+<lb />Mais à préſent, on ſuit des loix plus naturelles,
+<lb />On aime ſans façon tout ce qu’on voit de Belles,
+<lb />Et l’amour qu’en nos cœurs la premiere a produit,
+<lb />N’oſte rien aux appas de celle qui la ſuit.
+<lb />Pour moy qui ne ſçaurois faire l’inéxorable,
+<lb />Je me donne par tout où je trouve l’aimable,
+<lb />Et tout ce qu’une Belle a ſur moy de pouvoir,
+<lb />Ne me rend point ailleurs incapable de voir.
+<lb />Sans me vouloir piquer du nom d’Amant fidelle,
+<lb />J’ay des yeux pour une autre auſſi bien que pour elles
+<lb />Et dés qu’un beau viſage a demandé mon cœur,
+<lb />9ne paisme reloudre à l’armer de rigueur.
+<lb />Ravy de voir qu’il cede à la douce contrainte,
+<lb />Quid abora lainc en luy toute uutre nant eteinte,
+<lb />Je l’abandonne aux traits dont il aime les coups,
+<lb />Et ſi j’en avois cent, je les donnerois tous.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vous-eſtes liberal.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Que de douceurs charmantes,
+<lb />Font goûter aux Amans les paſſions naiſſantes!
+<lb />Si pour chaque Beauté je m’enflâme aiſément,
+<lb />Le vray plaiſir d’aimer eſt dans le changement,
+<lb />Il conſiſte à pouvoir par d’empreſſez hommages.
+<lb />Forcer d’un jeune cœur les ſcrupuleux ombrages
+<lb />A déſarmer ſa crainte, à voir de jour en jour
+<lb />Par cent petits progrés avancer noſtre amour.
+<lb />A vaincre doucement la pudeur innocente,
+<lb />Qu’oppoſe à nos deſirs une ame chancelante,
+<lb />Et la réduire enfin, à force de parler,
+<lb />A ſe laiſſer conduire où nous voulons aller.
+<lb />Mais quand on a vaincu, la paſſion expire,
+<lb />Ne ſouhaitant plus rien, on n’a plus rien à dire;
+<lb />A l’amour ſatisfait tout ſon charme eſt oſté,
+<lb />Et nous nous endormons dans ſa tranquillité,
+<lb />Si quelque Objet nouveau par ſa conqueſte à faire,
+<lb />Ne réveille en nos cœurs l’ambition de plaire.
+<lb />Enfin j’aime en amour les exploits diférens;
+<lb />Et j’ay ſur ce ſujet l’ardeur des Conquérans,
+<lb />Qui ſans ceſſe courant de Victoire en Victoire,
+<lb />Ne peuvent ſe réſoudre à voir borner leur gloire.
+<lb />De mes vaſtes deſirs le vol précipité,
+<lb />Par cent Objets vaincus ne peut eſtre arreſté.
+<lb />Je ſens mon cœur plus loin capable de s’étendre,
+<lb />Et je ſouhaiterois, comme fit Aléxandre,
+<lb />Qu’il fuſt un autle monde entora decouvrir,
+<lb />Où je puſſe en amour chercher à conquerir.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELLE.
+<lb />Comme vous débitez! ma foy, je vous admire,
+<lb />Voſtre langue...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Qu’as-tu là-deſſus à me dire?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />A vous dire? moy? j’ay... mais que dirois-je? rien;
+<lb />Car quoy que vous diſioz, vous le tournez ſi bien,
+<lb />Que ſans avoir raiſon, il ſemble à vous entendre,
+<lb />Qu’on ſoit quand vous parlez obligé de ſe rendre:
+<lb />J’avois pour diſputer des raiſons dans l’eſprit...
+<lb />Je veux une autrefois les mettre par écrit,
+<lb />nirce rou lans cela je n’aurois qu’à me taire,
+<lb />Vous me broüilleriez tout.
+</sp>
+<sp type="MainZone-Sp"><lb />De Jo Aivs
+<lb />Tu ne ſçaurois mieux faite
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mais, Monſieur, par hazard, me ſeroit-il permis
+<lb />De vous dire qu’à moy, comme à tous vos Amis,
+<lb />rontie genre de vie, un tant-ſoit-peu fait peine?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Le Fat! &amp; quelle vie eſt-ce donc que je mene?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Fort bonne, aſſurément; mais enfin... quelquefois. .u.
+<lb />Par exemple, vous voir marier tous les mois.
+</sp>
+<sp type="MainZone-Sp"><lb />Eſt-il rien de plus doux: rien qui ſoit plus capable...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARÉLLE.
+<lb />Il eſt vray, je conçois cela fort agreable;
+<lb />ft c’eſt, ſi ſans peche, j’en avois le pouvoir,
+<lb />Un divertiſſement que je voudrois avoir.
+<lb />Mais ſans aucun reſpect, pour les plus ſaints myſ<lb />teres....
+</sp>
+<sp type="MainZone-Sp"><lb />21 vo la lve
+<lb />Ne t’embaraſſe point, ce ſont-là mes affaires,
+</sp>
+<sp type="MainZone-Sp"><lb />DGANARELEE.
+<lb />On doit craindre le Ciel, &amp; jamais Libertin
+<lb />N’a fait encor, dit-on, qu’une méchante fin.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je hay la remontrance, &amp; quand on s’y hazarde...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oh, ce n’eſt pas à vous que j’en fais, Dieu m’en garde
+<fw><lb />J'aurois tort de vouloir vous donner des leçons.
+<lb />Si vous vous égarez, vous avez vos raiſons.
+<lb />Et quand vous faites mal, comme c’eſt l’ordinaire,
+<lb />Du moms vous ſçavez bien qu’il vous plaiſt de le
+</fw></sp>
+<sp type="MainZone-Sp"><lb />faire.
+<lb />Bon cela; mais il eſt certains Impertinens,
+<lb />A droit de fort eſprit hardis, entreprenans,
+<lb />Qui ſans ſçavoir pourquoy, traitent de ridicules
+<lb />Les plus juſtes motifs des plus ſages ſcrupules
+<lb />Et qui font vanité de ne trembler de rien,
+<lb />Par l’enteſtement ſeul que cela leur ſied bien.
+<lb />Si j’avois par malheur un tel Maiſtre; Ame craſſe,
+<lb />Luy dirois-je tout net, le regardant en face,
+<lb />Oſez-vous bien ainſi braver à tous momens.
+<lb />Ce que l’Enfer pour vous amaſſe de tourmens?
+<lb />Vn Rien, un Mirmidon, un petit Ver de terre,
+<lb />Au Ciel impunément croit déclarer la guerre?
+<lb />Allez, malheur cent fois à qui vous applaudit,
+<lb />C’eſt bien à vous ( je parle au Maiſtre que j’ay dit)
+<lb />A vouloir vous railler des choſes les plus ſaintes,
+<lb />A ſecoüer le joug des plus loüables craintes.
+<lb />Pour avoir de grands biens &amp; de la qualité,
+<lb />Vne Perruque blonde, eſtre propre, ajuſté,
+<lb />Tout en couleur de feu; penſez-vous (Prenez garde.
+<lb />Ce n’eſt pas vous au moins que tout cecy regarde)
+<lb />I'enſezabons en u'ovil piunue uroina etinien,
+<lb />Contre les Veritez dont vous oſez douter?
+<lb />De moy, voſtre Palet, apprenez. je vous prie,
+<lb />Qu'en vain les Libertins de tout font raillerie,
+<lb />Que le Ciel toſt ou tard pour leur punition...
+</sp>
+<sp type="MainZone-Sp"><lb />Paix,
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Cà voyons. Dequoy ſeroit-il queſtion?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />De te dire en deux mots qu’une flâme nouvelle
+<lb />Icy, ians t’en parier, ni a lant farne une Belle,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Le ii y eraigneu tous rien pour ce Commandeur
+<lb />mort?
+</sp>
+<sp type="MainZone-Sp"><lb />De JUAIN.
+<lb />Je l’ay ſi bien tué, chacun le ſçait.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />D’accord.
+<lb />On ne peut rien de mieux, &amp; s’il oſoit s’en plaindre
+<lb />Il auroit tort, mais...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ses Parens ſont à craindre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Laiſſons-là tes frayeurs, &amp; ſongeons ſeulement
+<lb />A ce qui me peut faire un deſtin tout charmant,
+<lb />Celle qui me réduit à ſoûpirer pour elle,
+<lb />Eſt une Fiancée aimable, jeune, belle.
+<lb />Et conduite en ces lieux où j’ay ſuivy ſes pas,
+<lb />Par l’Heureux, à qui ſont deſtinez tant d’appas.
+<lb />Je la vis par hazard, &amp; j’eus cet avantage,
+<lb />Dans le temps qu’ils ſongeoient à faire leur voyage.
+<lb />Il faut te l’avoüer. Jamais juſqu’à ce jour
+<lb />Je n’ay veu deux Amans ſe montrer tant d’amour.
+<lb />De leurs cœurs trop unis la tendreſſe viſible,
+<lb />Me frapant tout, à-coup, rendit le mien ſenſible,
+<lb />Et les voyant céder aux tranſports les plus doux,
+<lb />Si je devins Amant, je fus Amant jaloux.
+<lb />Oüy, je ne pus ſouffrir ſans un dépit extréme,
+<lb />Qu’ils s’aimaſſent autant que l’un &amp; l’autre s’aime,
+<lb />Ce bizarre chagrin alluma mes deſirs,
+<lb />Je me fis un plaiſir de troubler leurs plaiſirs.
+<lb />De rompre adroitement l’étroite intelli gence,
+<lb />Dont mon cœur délicat ſe faiſoit une offence,
+<lb />N’ayant pû réũſſir, plus amoureux toûjours,
+<lb />C’eſt au dernier remede enfin que j’ay recours.
+<lb />Cet Epoux prétendu dont le bonheur me bleſſe.
+<lb />Doit aujourd’huy ſur Mer régaler ſa Maiſtreſſe.
+<lb />Sans t’en avoir rien dit, j’ay dans mes intéreſts
+<lb />Quelques Gens qu’au beſoin nous trouverons tous
+<lb />preſts.
+<lb />Ils auront une Barque, où la Belle enlevée,
+<lb />Rendra de molt aniour la victoire achevée.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Aneil.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vousfaites-bien.
+<lb />C’eſt-là le prendre comme il faut:
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />L'amour n’eſt pas un grand défaut.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Sottiſe; il n’eſt rien tel que de ſe ſatisfaire.
+<lb />La méchante ame!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Allons ſonger à cette affaire.
+<lb />Voicy l’heure à peu prés où ceux. mais qu’eſt-ce cyt
+<lb />Tu ne m’avois pas dit qu’Elvire eſtoit icy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Sçavois je que ſi-toſt vous la verriez paroiſtre?
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />DLEVIRCE, DI JOAN, SGANARELLE
+<lb />GOSMAIO
+</p>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />On juan voudra-t-il encor me reconnoiſtre.
+<lb />DEt puis-je me flater que le ſoin que j’ay pris..
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Madame, à dire vray, j’en ſuis un peu ſurpris.
+<lb />Rien ne devoit icy preſſer voſtre Voyage.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />I’y viens faire ſans-doute un méchant Perſonnage,
+<lb />Et par ce froid accüeil, je commence de voir
+<lb />L’erreur où m’avoit miſe un trop crédule eſpoir.
+<lb />J’admire ma foibleſſe &amp; l’imprudence extréme
+<lb />Qui m’a fait conſentir à me tromper moy-meſme,
+<lb />A démentit mes yeux ſur une trahiſon,
+<lb />Où mon cœur refuſoit de croire ma raiſon.
+<lb />Oüy, pour vous contre moy, ma tendreſſe ſéduite,
+<lb />Quoy qu’on puſt m’oppoſer, excuſoit voſtre fuite.
+<lb />Cent ſoupçons qui devoient alarmer mon amour,
+<lb />Avoient beau contre vous, me parler chaque jour,
+<lb />A vous juſtifier toûjours trop favorable,
+<lb />J’en rejetois la voix qui vous rendoit coupable,
+<lb />Et je ne regardois dans ce trouble odieux,
+<lb />Que ce qui vous peignoit innocent à mes yeux.
+<lb />Mais un accüeil ſi froid &amp; ſi plein de ſurpriſe,
+<lb />M’apprend trop ce qu’il faut, que pour vous je me
+<lb />diſe;
+<lb />Je n’ay plus à douter qu’un honteux repentir,
+<lb />Ne vous ait ſans rien dire obligé de partir.
+<lb />J’en veux pourtant, j’en veux dans mon malheur
+<lb />extréme
+<lb />Entendre les raiſons de voſtre bouche meſme.
+<lb />parlez donc, &amp; ſçachons par où j’aymérité,
+<lb />Ce qu’oſe contre moy voſtre infidelité.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Si mon éloighelllenefl a fait erorte ideile,
+<lb />J’ay mes raiſons, Madame, &amp; voila Sganarelle
+<lb />Qui vous anla pourciuoy...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je le diray: fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />Viçalt...
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mioy, s’Il vous plaiſt, Monſieur, je ne ſçay rien.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Et bien, qu’il parle; il faut ſouffrir tout pour vous
+<lb />plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Allons, parle à Madame, il ne faut point ſe taire.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />vous vous moquez, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Puis qu’on le veut ainſi,
+<lb />Approchez, &amp; voyons ce myſtere éclaircy.
+<lb />Qoy, tous deux interdits! eſt-ce là pour confondre...
+</sp>
+<sp type="MainZone-Sp"><lb />B ij
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Tu ne répondras pas?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je n’ay rien à répondre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Veux-tu parler, te dis je?
+</sp>
+<sp type="MainZone-Sp"><lb />Madame...
+<lb />SGANARELLE.
+<lb />Et bien, allons tout dour
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />D. ELVINB.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLEà D. Iuan.
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Redoute mon couroux,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Madame, un autre Monde avec quelqu’autre choſe
+<lb />Comme les Conquérans, Aléxandre, eſt la cauſe,
+<lb />Qui nous a fait en haſte, &amp; ſans vous dire adieu,
+<lb />Stremntrr an &amp; l’autre, &amp; venir en ce lieu,
+<lb />Voila pour vous, Monſieur, tout ce que je puis faire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRB.
+<lb />Vous plaiſt-il. D. Juan, m’éclaircir ce myſtere?
+</sp>
+<sp type="MainZone-Sp"><lb />D. IUAN.
+<lb />Madame, à dire vray, pour ne pas abuſer..
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Ah, que vous ſçavez peu l’art de vous déguiſer!
+<lb />Pour un Homme de Cour qui doit avec étude
+<lb />De feindre, de tromper avoir pris l’habitude,
+<lb />Demeurer interdit, c’eſt mal faire valoir
+<lb />La noble effronterie où je vous devrois voir.
+<lb />Que ne me jurez-vous que vous-eſtes le meſme;
+<lb />Que vous m’aimez toûjours autant que je vous aim
+<lb />Et que la ſeule mort dégageant voſtre foy,
+<lb />Rompra l’attachement que vous avez pour moy?
+<lb />Que ne me dites-vous qu’une affaire importante
+<lb />A cauſé le départ, dont j’ay pris l’épouvante;
+<lb />Que ſi de ſon ſecret j’ay lieu de m’offencer,
+<lb />Vous avez craint les pleurs qu’il m’auroit fait verſer;
+<lb />Qu’icy d’un long ſejour ne pouvant vous défendre,
+<lb />Je n’ay qu’à vous quiter &amp; vous aller attendre;
+<lb />Que vous me rejoindrez avec l’empreſſemenr,
+<lb />Qu'a pour ce qu’il adore un veritable Amant,
+<lb />Et qu’éloigné de moy, l’ardeur qui vous enflâme,
+<lb />Vous rend ce qu’eſt un corps ſéparé de ſon ame?
+<lb />Voila par où du moins vous me feriez douter
+<lb />D’un oubly que mes feux devroient peu redouter.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Madame, puis qu’il faut parler avec franchiſe,
+<lb />Appprenez ce qu’en vain mon trouble vous déguiſe.
+<lb />Je ne vous diray point que mes empreſſemens
+<lb />Vous conſervent toûjours les meſmes ſentimens,
+<lb />Et que loin de vos yeux, ma juſte impatience,
+<lb />Pour le plus grand des maux me fait compter l’ab<lb />ſence.
+<lb />Si j’ay pû me réſoudre à fuir, à vous quiter,
+<lb />Je n’ay pris ce deſſein que pour vous éviter,
+<lb />Non, que mon cœur encor, trop touché de vos
+<lb />charmes,
+<lb />N’ait le meſme panchant à vous rendre les armes;
+<lb />Mais un preſſant ſcrupule à qui j’ay deû ceder,
+<lb />M’ouvrant les yeux de l’ame a ſçeum ntimider,
+<lb />Et fait voir qu’avec vous, quelque amour qui m’en<lb />gage.
+<lb />Je ne puis, ſans peché, demeurer davantage.
+<lb />ay fait refléxion que pour vous épouſet,
+<lb />Moy-meſme trop longtemps, j’ay voulu m’abuſer,
+<lb />Que je vous ay forcée à faire au Ciel l’injure,
+<lb />Je rompre en ma faveur une ſainte cloſture.
+<lb />6
+</sp>
+<sp type="MainZone-Sp"><lb />E iij
+<lb />Où par des vœux ſacrez vous aviez entrepris,
+<lb />De garder pour le monde un eternel mépris.
+<lb />Sur ces reſſéxions un répentir ſincere,
+<lb />M’a fait appréhender la celeſte colere.
+<lb />I’ay crû que voſtre Hymen trop mal autoriſé,
+<lb />N’eſtoit pour tous les deux qu’un crime déguiſé.
+<lb />Et que je ne pouvois en éviter les peines,
+<lb />Qu'en tâchant de vous rendre à vos premieres chai<lb />nes.
+<lb />N’en doutez point, voila, quoy qu’avec mille ennuis
+<lb />Et pourquoy je m’éloigne, &amp; pourquoy je vous fuis,
+<lb />Par un frivole amour, voudriez-vous, Madame,
+<lb />Combauie le feſiorus qui deemre Mion amne.
+<lb />Et qu’en vous retenant, j’attiraſſe ſur nous,
+<lb />Du Cieltoûjours vangeur l’implacable couroux?
+</sp>
+<sp type="MainZone-Sp"><lb />D ELVIRE.
+<lb />Ah! Scelerat, ton cœur auſſi lâche que traiſtre,
+<lb />Commence tout entier à ſe faire connoiſtre.
+<lb />Et ce qui me confond dans les maux que j’attens,
+<lb />Je le connois enfin lors qu’ils n’en eſt plus temps.
+<lb />Mais ſçache, à me tromper quana ce cœur s’étudie.
+<lb />Que ta perte ſuivra ta noire perfidie,
+<lb />Et que ce meſme Ciel, dont tu t’oſes railler,
+<lb />A me vanger de toy voudra bien travailler,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Se peut-il qu’il reſiſte, &amp; que rien ne l’étonne!
+<lb />Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />De laaſſeté je voy qu’on me ſoupçonne.
+<lb />Mais, Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Il ſuffit, je t’ay trop écouté,
+<lb />En oüir davantage cit une mencuo<lb />Et quoy qu’on ait à dire, il faut qu’on ſe ſurmonte,
+<lb />Pour ne ſe faire pas trop expliquer ſa honte.
+<lb />Ne te figure point qu’en reproches en l’air,
+<lb />Mon couroux contre toy vüeille icy s’exhaler,
+<lb />Tout ce qu’il peut avoir d’ardeur, de violence,
+<lb />Se reſerve à mieux faire éclater ma vangeance,
+<lb />Je te le dis encor, le Ciel armé pour moy,
+<lb />Punira toſt ou tard ton manquement de foy;
+<lb />Et ſi tu ne crains point ſa juſtice bleſſée,
+<lb />Crains du moins la fureur d’un Femme offencée.
+<lb />Elle ſort, &amp; D. Iuan la regarde partis
+</sp>
+<sp type="MainZone-Sp"><lb />dUNſRaEeed
+<lb />Il ne dit mot, il réve, &amp; les yeux ſur les ſiens...
+<lb />Hélas! ſi le remords le pouvoit prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Viens,
+<lb />Il eſt temps d’achever l’amoureuſe entrepriſe,
+<lb />Qui me livre l’Objet dont mon ame eſt épriſe.
+<lb />Suy-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANAREILE.
+<lb />Le deteſtable! à quel Maiſtre maudit,
+<lb />Malgré moy ſi longtemps mon malheur m’aſſervis?
+</sp>
+<p type="MainZone-Other"><lb />Fin du Premier Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE II.
+<lb />SCENE PREMIERE.
+<lb />CHARLOTE, PIERROT.
+</p>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />OSTRE-dinſe, Piarrot, pour les tirer de
+<lb />peine,
+<lb />Tu t’es l’a rencontré bien à point.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Sans nou ç’en eſtoit fait.
+<lb />Oh, marguenne,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Je le croy bian.
+</sp>
+<sp type="MainZone-Sp"><lb />PTARROT.
+<lb />Il ne s’en faliont pas l'epbireur d an ferta,
+<lb />Tous deux de ſe nayer euſſiont fait la ſotiſe.
+<lb />Vois-tu,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />C’eſt donc l’vent d’a matin...
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Aga quien, ſans feintiſen
+<lb />je te vas tout fin drait conter par le menu,
+<lb />Comme en n’y penſant pas le hazard eſt venu.
+<lb />Il aviont bien beſoin d’un œil comme le noſtre,
+<lb />Qui les viſt de tout loin, car c’eſt moy, com' ſdit
+<lb />l’autre,
+<lb />Qui les ay le premier aviſez. Tanquia don,
+<lb />Sur le bord de la Mar bien leu prend que j’équion,
+<lb />Où de tarre Gros-Jean me jettoit une mote,
+<lb />Tout en batifolant, car com' tu ſçais, Charlote,
+<lb />Pour v’nir batifoler Gros-Jean ne charche qu’ou,
+<lb />Et moy par-fouas auſſi je batifole itou.
+<lb />En batifolant don, j’ay fait l’appercevance.
+<lb />D’un groüillement ſugliau, ſans voir la diférence,
+<lb />De ſqui pouvoit groüiller; ç’a groüilloit à tous coups,
+<lb />Et groüillant, par ſecouſſe alloit comme envars
+<lb />nous.
+<lb />J’eſtas embaraſſé, s’n’eſtoit point ſtratageme,
+<lb />Et tout com' je te vois, je voyas ç’a de meſme,
+<lb />Auſſi fixiblement, &amp; pis tout d’un coup, quien,
+<lb />Je voyas qu’apres ça je ne voyas pu rien.
+<lb />Eh, Gnos-Iean, ç’ay je fait, ſtan pendant que je ſomme.
+<lb />A niaiſer parmy nous, je pens' que vla de zhomme,
+<lb />Qui nagiant tout la bas. Bon, ſm’a-t-il fait, vrament,
+<lb />T’auras de queuque Chat veu le trépaſſement;
+<lb />T’as la veu trouble. Oh bian, ç’ay je fait, t’as biau dire,
+<lb />Ie n’ay point la veu' trouble, &amp; ſn’eſt poiut jen pour
+<lb />rire,
+<lb />C’eſt la de zomme. Point, ſm’a-t-il fait ſn’en eſt pas,
+<lb />Piarrot, t’as la barluë. Oh! j’ay ſque tu voudr as,
+<lb />C’ay je fait, mais gageon que j’n’ay point la barlue,
+<lb />Et qu'ça qu, en voit la bas, ç’ay je fait, qui remué,
+<lb />C’eſt de zomme, vois-tu, qui nageont uars icy.
+<lb />Gag' que non, ſm’a-t-il fait. Oh margué, gag' que ſi,
+<lb />Dix ſoli. Oh, ſm’a-t-il fait. je le veux bian, mar<lb />guenne;
+<lb />Quien, mets argent ſu jeu, vla le mien. Palſanguenne
+</sp>
+<sp type="MainZone-Sp"><lb />IE
+<lb />Je n’ay fait là deſſus l’Etourdy ny le Fou,
+<lb />J’ay bravement bouté par tarre mes dix ſou,
+<lb />Quatre piece tapée &amp; le reſtant en double,
+<lb />Iarnigué, je verron ſi j’avon la veu' trouble.
+<lb />C’ay je fait, les boutant... plus hardiment enfin
+<lb />Que ſi j’euſſe avalé queuque varre de Vin<lb />[ tade
+<lb />Car je ſis hazardeux moy, qu’en m’mette en bou<lb />Je vas ſans tant d’raiſons tout à la débandade.
+<lb />Je ſçavas bian pourtant ſque j’faiſas d’en par la,
+<lb />Queuque gniais! Enfin don, j’n’on pas putoſt mis,
+<lb />vla,
+<lb />Que j’voyon tout à plain com' deu Zõme à la nage
+<lb />Nous faiſion ſigne; &amp; moy, ſans rien dir davantage,
+<lb />De prendre les enjeux. Allox, Gros-Iean, allon,
+<lb />C’ay je fait, vois-tu pas comme ils nous appellon?
+<lb />Ils s'vont nayer. Tant mieux, fm’a-t-il fait, je m'es
+<lb />fauſſe
+<lb />Ils m’ant fait pardre. A donc le tirant par lé chauſſe
+<lb />J’l’ay ſi bien ſarmonné, qu’à la parfin vars eux,
+<lb />J’avon dans une Barque avironné tous deux,
+<lb />Et pis cahin cahe, j’on tant fait que je ſomme
+<lb />Venus tout contre, &amp; pis j’les avon tiré comme
+<lb />Il aviont quaſi beû déja pu que de jeu,
+<lb />Et pis j’les on cheu nou menez aupres du feu,
+<lb />Où je l’zon veu tous nuds ſécher leu Zoupelande,
+<lb />Et ois il en eſt venu deux autres de leur bande.
+<lb />Qui s’équian, vois-tu bian, ſauvez tout ſeul, &amp; pis
+<lb />Mathurine eſt venuë à voir leu biaux Habits,
+<lb />Et pis ils liont conté qu’al n’eſtoit pas tant ſote,
+<lb />Qu’al avoit du mâlin dans l’œil, &amp; pis, Charlote,
+<lb />Vla tout com ça s’eſt fait pour te l’dire en un mot.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Et ne m’diſois-tu pas qu’glien avoit un, Piarrot,
+<lb />Qu'eſtoit bien pu mieux fait que tretous?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />C’eſt le Maiſtre,
+<lb />Queuque bian gros Monſieur, dé pu gros qui puiſſe
+<lb />eſtre,
+<lb />car il n’a que du d’or par ila, par icy,
+<lb />it ceux qui le ſarvont ſont dé Monſieur auſſi.
+<lb />Stanpendant, ſi je n’eume eſté la, palſanguenne
+<lb />l entenoit.
+</sp>
+<sp type="MainZone-Sp"><lb />CnAXLUIE.
+<lb />Ardez un peu.
+</sp>
+<sp type="MainZone-Sp"><lb />IIERROI.
+<lb />Jamais marguenne,
+<lb />out gros Monfieu qu’il eſt, il n’en fut revenu,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Et cheu toy, dy Pierrot, eſt-il oncor tout nu?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT
+<lb />Nannain tout devant nou qui le regardion faire,
+<lb />ls l’avon rabillé: Monguieu, combien d’affaire!
+<lb />n’avois veu s’habiller jamais de Courtiſans,
+<lb />ly leu Zangingorniaux, je me pardrois dedans.
+<lb />Pour le zy faire entré comme n’en lé balote!
+<lb />'eſtas tout éboby de voir ça. Quien, Charlote,
+<lb />Quand ils ſont habillez, ils vou zant tout à point,
+<lb />De grand cheveux toufus, mais qui ne tenont point
+<lb />leu teſte, &amp; pis vla tout d’un coup qui l’y paſſe,
+<lb />ls boutont ça tout comme un bonnet de filace.
+<lb />teu Chemiſe qu’à voir j'éſtas tout étourdy,
+<lb />Int de' manche ou tout deux j’entrerions tout braa<lb />in deglieu d’haut de chauſſe, il ant ſartaine hiſtoire
+<lb />Qui ne leu vient que la; j’auras bian dequoy boire,
+<lb />j’avas tout l’argent des Liſets de deſſu,
+<lb />llien à tant, glien à tant qu’en n’an ſeroit voir pus
+<lb />Il n’ant juqu’au Colet qui n’va point en darriere
+<lb />Et qui leu pend devant baſty d’une maniere,
+<lb />Que je n’tel ſérois dire, &amp; ſi j’lay veu de prés.
+<lb />Il ant au bout débras d’autres petits Colets,
+<lb />Aveu des panemelis raits de dantale blanche,
+<lb />Qui veniant par le bout faiſon le tour démanche:
+</sp>
+<sp type="MainZone-Sp"><lb />hNko Plt
+<lb />Il faut que j’aille voir, Piarrot.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />j'ay queuq enore ate dire.
+<lb />on, ute plaiſt,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Et bien dy, queſt-que c’e
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Vois-tu, Charlote, il faut qu’aveu toy, com’ſdit l’at
+<lb />tre,
+<lb />Je débonde mon cœur, il iroit trop du noſtre.
+<lb />Quand je ſonme pour eſtre à nou deux tout de bor
+<lb />Si je n’ine plaignas pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Que ment? queſt-qu’iglia dot
+</sp>
+<sp type="MainZone-Sp"><lb />PPARIGT.
+<lb />Iglia que franchement tu me chagraignes l’ame.
+</sp>
+<sp type="MainZone-Sp"><lb />Et d’où vient?
+<lb />CHARLOTE.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Taſtigue, tu dois eſtre ma Femme,
+<lb />Et tu ne m’aimes pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Ah, ah, n’eſt-ce que çae
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Non, ſn’eſt qu’ça, ſtanpendant c’eſt bian aſſez,
+<lb />riença.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Mon guieu, toujou, Piarrot, tu m'dis la meſme choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Si j’te la dis toûjou, ceſt toy qu’en eſt la cauſe,
+<lb />Et ſi tu me faiſois queuquefoüas autrement,
+<lb />J'te diras autre choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Apprens-moy donquement,
+<lb />Tu voudrois que j’te fiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PTERROT.
+<lb />Oh, je veux que tu m’aime,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Es que je n’taime pas?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Non, tu fais tout de meſme;
+<lb />Que ſi j’navion point fait no Zacordaille, &amp; ſi
+<lb />J’n’ay rien à me rprocher la-deſſus, Dieu marey.
+<lb />Das qui paſſe un Marcier, tout auſſi-toſt j’tajette,
+<lb />Lépu jolis lacets qui ſoient dans ſa banete.
+<lb />Pour t’aller dénicher dé Marle je ne ſçay zou
+<lb />Tout lé jours je m’azarde à me rompre le cou.
+<lb />Je fais jouer pour toy le Vielſeux a ta Feſte,
+<lb />Et tou ça, contre un mur ceſt me batre la teſte.
+<lb />J’n’y gagne rien, vois-tu, ça n’eſt ny biau ny bon,
+<lb />De n’vouloir pas aimer les Gens qui nous aimon.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />muoirguieu, je t'airie auni, dequoy te nietre en peine?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Oüy, tu m’aime, mais c’eſt d’une belle déguaine.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Ques don qtu veux qu’en faſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Oh, je veux que tont haut,
+<lb />L’en faſſe ce qu’en fait pour aimer comme il faut.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />J’t'aime auſſi comme il faut, pourquoy don q’tu
+<lb />t’étonne?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Non, ça s’voit quand il eſt, &amp; toûjou zau parſonne
+<lb />Quand ceſt tout d’bon qu’en aime, en leu fait en paſ<lb />Mil ptite ſingerie, &amp; ſis-je un innocent?
+<lb />[ ſant
+<lb />Margué, je n’veux que voir com' la groſſe Tomaſſe
+<lb />Fait au jeune Robain, al ne tient jamlais en place.
+<lb />Tant al n’eſt aſſotée, &amp; dés qu’al l’voit paſſer,
+<lb />Al n’attend point qui vienne, al s’en courtlagacer,
+<lb />Ly jett’ſon Chapiau bas, &amp; toujou ſans reproche
+<lb />Ly fait exprés queuq’niche, ou baille une taloche:
+<lb />Et darrainment oncor que ſu zun Eſcabiau
+<lb />Il regardoit danſer, al s’en fut bian &amp; biau
+<lb />Ly tirer de deſſus &amp; l’mit à la renvarſe.
+<lb />I barſe.
+<lb />Jarny vla ſq’ceſt qu’aimer, mais margué l’en me
+<lb />Quand droit comme un piquet j’voy q’tu viens te
+<lb />percher,
+<lb />Tu n’me dis jamais mot, &amp; j’ay biau tentincher,
+<lb />En glieu de m’fair' préſent d’une bonne égratineure,
+<lb />De m’bailler queuquecoup, ou d’voit par a vanture
+<lb />Si j’ſis point chatoüilleux, tu te grates les doigts,
+<lb />Et t’es-là toûjou comme une vray ſouche de bois,
+<lb />T’es trop fraide, vois-tu, ventrigué, ça me choque.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Ceſt mon imeur, Plarfot, que veux-tur
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Tu te moque
+<lb />Quand l’en aime les Gens, l’en en baille toûjou
+<lb />Queuq' petit’ ſignifiance.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />O cherche don par où,
+<lb />Stu penſe qu’à t’aimer queuque autre ſoit pu prõpte,
+<lb />Va laimer, jte l’accorde.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Et bien, vla pas mon compte?
+<lb />Taſtigué, ſtu m’aimois, m’dirois-tu ça?
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />M’viens-tu tarabuſter toujou l’eſprit?
+<lb />Poutquoy
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Dy moy,
+<lb />Queu mal t’fais-je à vouloir que tu m’faſſe paroiſtre
+<lb />Un peu pu d’amiquié.
+</sp>
+<sp type="MainZone-Sp"><lb />CITARLOTC.
+<lb />Va, ça m’viendra peut-eſtre,
+<lb />Ne me preſſe point tant &amp; laiſſe faire.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Et bien,
+<lb />Touche donc là, Charlote, &amp; d’bon cout,
+</sp>
+<sp type="MainZone-Sp"><lb />IARECTE.
+<lb />Et bien, quien.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Promets q’tu tâcheras à m’aimer davantage.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Es-ce là ſu Monſeu?
+</sp>
+<sp type="MainZone-Sp"><lb />PIBRROT.
+<lb />Oüy, le vla.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Queu dommage
+<lb />Qu’il euſt eſté nayé! qu’il eſt genty!
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Je vas
+<lb />oire chopaine, aguieu, e ne tarderay pas.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />DJOAN DOANARLLE,
+<lb />CHARLOIE.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />L n’y faut plus penſer, c’en eſt fait, Sganarelle,
+<lb />L'a force entre mes bras alloit mettre la Belle,
+<lb />Lors que ce coup de vent, difficile à prévoir,
+<lb />Renverſant noſtre Barque, a trompé mon eſpoir,
+<lb />Si par là de mon feu l’eſpérance eſt frivole,
+<lb />L’aimable Païſane aiſément m’en conſole.
+<lb />Et c’eſt une conqueſte aſſez pleine d’appas,
+<lb />Qui dans l’occaſion ne m’échapera pas.
+<lb />Deja parcent douceurs j’ay jette dans ton ame
+<lb />Des diſpoſitions à bien traiter ma flâme;
+<lb />On ſe plaiſt à m’entendre, &amp; je puis eſperer
+<lb />Qu’icy je n’auray pas longtemps à ſoûpirer.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah, Monſieur, je frémis à vous entendre dire;
+<lb />Quoy, des bras de la mort quand le Ciel nous retire
+<lb />Au lieu de mériter par quelque amendement,
+<lb />Les bontez qu’il repand ſur nous inceſamment;
+<lb />Au lieu de renoncer aux foles amouretes,
+<lb />Qui déja tant de fois... Paix, Coquin que vous eſtes
+<lb />Monſieur ſçait ce qu’il fait, &amp; vous ne ſçavez, vous,
+<lb />Ce que vous dites.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah! que vois-je auprés de nou
+</sp>
+<sp type="MainZone-Sp"><lb />Qu'eſt-ce?
+<lb />SGANARELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Tourne les yeux, Sganatelle, &amp; condamne
+<lb />La ſurpriſe où me met cette autre Païſane,
+<lb />D’où ſort-elle. Peut on lien von de plusenarmant?
+<lb />Celle-cy vaut bien l’autre, &amp; mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Aſſurément.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN,
+<lb />Ilfaut que je luy parle.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Autre piéce nouvelle.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />L'agreable rencontre! &amp; d'où me vient, la Belle,
+<lb />L’ineſperé bonheur de trouver en ces lieux,
+<lb />Sous cet Habit ruſtique un Chef d’œuvre des Cieux;
+</sp>
+<sp type="MainZone-Sp"><lb />Eh! Monfieur.
+<lb />a ih ludd e lao
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Il n’eſt point un plus joly viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur.
+<lb />CHARLOTE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Demieurentoui, diunuios de co village?
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Dũy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Voſtre nom?
+</sp>
+<sp type="MainZone-Sp"><lb />CARLOTE.
+<lb />Si j'en eſtois capable.
+<lb />Charlete à vous ſervitj
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah, je me ſens ravit.
+<lb />Qu’elle eſt belle, &amp; qu’au cœur ſa veuë eſt dangereuſ
+<lb />Pour moy...
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />vous me fendez, Momneur, coute honteuſe
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Honteuſe, d’oüir dire icy vos veritez!
+<lb />Sganarelle, as-tu veu jamais tant de beautez?
+<lb />Tournez-vous, s’il vous plaiſt. Que ſa taille eſt mi<lb />gnonne!
+<lb />Hauſſez un peu la teſte. Ah, l’aimable perſonne!
+<lb />Cette bouche, ces yeux, ouvrez-les tout-à fait,
+<lb />Qu'iis ont banx: ne vordente. in ercimn ſi parfait
+<lb />Ces lévres ont ſur tout un vermeil que j’admire,
+<lb />J’en ſuis charmé.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Monſieur, cela vous plaiſt à dire
+<lb />Et je ne ſçay ſi c’eſt pour vous railler de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Me railler de vous! Non, j’ay trop de bonne foy.
+<lb />Regarde cette main plus blanche que l’Yvoire,
+<lb />Sganarelle, peut-on...
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Fy, Monfieur, al eſt noire
+<lb />Tout comme je n’ſçay quoy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Laiſſez-la moy baiſer.
+</sp>
+<sp type="MainZone-Sp"><lb />C’HARLOTE.
+<lb />C’eſt trop d’honneur pour moy, j’noſtois vou refruſe
+<lb />Mais ſi j’eus ſçeu tout ça devant voſte arrivée,
+<lb />Exprés aveuc du ſon jem la Reronlarces
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous n’eſtes point encor mariée?
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE..
+<lb />Oh non pas,
+<lb />Mais je dois bien toſt l’eſtre au Fils du grand Lucas;
+<lb />Il le nomme Piarrot, cent ma Tante Palipôte
+<lb />Qui nous fait mariet.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quoy, vous, belle Charlote.
+<lb />D’un ſimple Païſan eſtre la Femme? Non,
+<lb />Il vous faut autre choſe, &amp; je croy tout de bon,
+<lb />Que le Ciel m’a conduit exprés dans ce Village,
+<lb />Pour rompre cet injuſte &amp; honteux Mariage.
+<lb />Car enfin je vous aime, &amp; malgré les jaloux,
+<lb />Pourveu que je vous plaiſe. il ne tiendra qu’à vous
+<lb />Qu’on ne trouve moyen de vous faire paroiſtre
+<lb />Dans l’éclat des honneurs où vous méritez d’eſtre.
+<lb />Cet amour eſt bien prompt, je l’avoüeray; mais
+<lb />quoy,
+<lb />Vos beautez tout d'un coup ont triomphé de moy,
+<lb />Et je vous aime autant, Charlote, en un quart<lb />d’heure,
+<lb />Qu'on aimeroit un autre en ſix mois.
+</sp>
+<sp type="MainZone-Sp"><lb />Oiniriene ine
+<lb />Oüy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />S’il eſt rien de plus vray.
+<lb />Je meure,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Monſieur, je voudrois bien
+<lb />Que ça fuſt tout com’ça, car vous n’me dites rien,
+<lb />Qui n’me faſſe aſſez aiſe, &amp; j’orois bien envie
+<lb />De n’vou mécroire point, mais j’ay toute ma vi,
+<lb />Rotendu dire à ceux qui ſçavont bien ſque c’eſt,
+<lb />Qu’il n’eſt point de Monſieus qui ne ſoient toujou
+<lb />preſt
+<lb />A tromper queuque Fille, à moins qual ny regarde;
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN<lb />Suis-je de ces Gens-là? Non, Charlote,
+</sp>
+<sp type="MainZone-Sp"><lb />OAHNRELEE.
+<lb />Il n’a garde.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Le temps vous fera voir comme j’en veux uſer.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Auſſi je n’voudrois pas me laiſſer abuſer.
+<lb />Voyez-vous, ſi j’ſis pauvre &amp; natifve au Village,
+<lb />yay dI nomſeur tout autant qu'eir en ait à mon âge
+<lb />Et pour tout l’or du monde en n’me pourroit tenter,
+<lb />Si j’penſois qu’en m’aimant l’en me l’vouluſt oſter.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je voudrois vous l’oſter, moy? Ce ſoupçon m’offence,
+<lb />Croyez que pour pour cela j’ay trop de conſcience,
+<lb />Et que ſi vos appas m’ont ſçeu d’abord charmer,
+<lb />Ce n’eſt qu’en tout honneur que je vous veux aimer.
+<lb />Poul vous ie raire voir, apprehez que dans l’ame
+<lb />J’ay formé le deſſein de vous faire ma Femme.
+<lb />J’en donne ma parole, &amp; pour vous au beſoin,
+<lb />L’Homme que vous voyez en ſera le témoin.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />doam toullel epouni, nioys
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Cela vous étonne?
+<lb />Demandez au Témoin que mon amour vous donnf,
+<lb />I me connoît.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Tres-fort, ne craignez rien, allez,
+<lb />Hveus épouſera cent foit ſi vous voulez,
+</sp>
+<sp type="MainZone-Sp"><lb />J’en répons.
+<lb />COMEDIE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et bien donc, pour le prix de ma flâme
+<lb />Ne conſentez-vous pas à devenir ma Femmes
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Hiauuroit a Mia cunte en uire un petit mot,
+<lb />Pour qu’al en fuſt contente, al aime bien Piarrot.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je diray ce qu’il faut, &amp; m’en rendray le maiſtre;
+<lb />Touchez la ſeulement, pour mefaite connoiſtre
+<lb />Que de voſtre coſté vous voulez bien de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />J'n’en veux que trop, mais vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Je vous donne ma foy.
+<lb />Et deux petits baiſers vous vont ſervir de gage...
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE
+<lb />Oh Monſieur, at tendez qu’j’on fait le mariage.
+<lb />Apres ça, voyez-vou, je vous baiſeray tant
+<lb />Que vou n’erez qu’à dire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah, me voila content.
+<lb />Tout ce que vous voulez, je le veux pour vous plaire;
+<lb />Donnez-moy ſeulement voſtre main.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Pourquoy faire?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il feut que cent baiſers vous marquent l’intéreſt.. 1
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />EI CHARLOIJ IIERRO
+<lb />DGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Out doucement, Monſieu, tenez-vou, ſi vou
+<lb />Y plaiſt,
+<lb />Vou pourriez v-ſ-échauffant gagner la pureſie,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />D’où cet Impertinent nous vient-il?
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Oh jarnie,
+<lb />nquoutou egmais, ce qu'iln ent pas beſoin
+<lb />Qu’où vegniais courtiſer no Femme de ſi loin.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN le pouſſant.
+<lb />Ah, que de bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Margué, j’n’no zemouvon guere,
+<lb />Pour cé pouſſeus de Gene.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Piartot, laiſſe-le faire,
+</sp>
+<sp type="MainZone-Sp"><lb />IERROT.
+<lb />Quement? que je l’laiſſe faire? &amp; je ne l’veux pas moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah!
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Par ſqu’il eſt Monſieur, il s’en viendra je croy
+<lb />Carreſſer à not' barbe icy nos Accordées.
+<lb />Pargué, j’en ſis d’avis que j’vou l’zayon gardées.
+<lb />Allez v-s-en carreſſer les voſtre.
+<lb />D. JUAN luy donnant pluſieurs ſoufflets.
+<fw><lb />Heu?
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Heu! margué,
+<lb />Ne v-s-adviſez pas trop de m’fraper, jarnigué,
+<lb />Ventrigué, taſtigué, voyez un peu la chance,
+<lb />De v-nir batre les Gens. Sn’eſt pas la récompenſe,
+<lb />De v-seſtre allez tantoſt fauver d’eſtre nayé.
+<lb />I'vou devonluiner bolte, Ireit oien employé.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE,
+<lb />Va, ne te fâche point, Piarrot.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Oh palſanguenne,
+<lb />Il m’plaiſt de me fâcher, &amp; t’es une Vilaine,
+<lb />D’endurer qu’en t’cageole.
+</sp>
+<sp type="MainZone-Sp"><lb />OMANLOIE.
+<lb />Il me veut épouſet,
+<lb />eetu ll te devrois pas Hrort colerer.
+<lb />Sn’eſt pas ſque tu penſes, dea.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Juiny; tam es promiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Ca n’y fait rien, Piarrot, tu n’m’as pas encor priſe.
+<lb />Stu m’aime comme il faut, ſras-tu pas tout joyeux
+<lb />Dem von Madatnes
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Non, &amp; j’aimrois cent fois mieux
+<lb />Ie voir crever qu’n’en pas qu’un autre t’euſt. Mar<lb />guenne...
+</sp>
+<sp type="MainZone-Sp"><lb />CHARIOTE.
+<lb />Laiſi'moy que je la ſois, &amp; n’te mets point en peins,
+<lb />Je te feray cheux nous apporter de zœufs frais,
+<lb />Du beurre..
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Palſangué, je gnien portray jamais,
+<lb />Quand tu m’en frais poyer deux fois autant; acout
+<lb />C’eſt don com’ça qtu fais? ſi j’en euſſe eu queuq
+<lb />doute,
+<lb />Je m’ſras bien ampaſché de le tirer de gliau,
+<lb />Et je gllauras baillé putoſt un chinfreneau,
+<lb />D’un bon coup d’aviron ſur la teſte.
+<fw><lb />D. JUAN.
+<lb />Heu?
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PIENNO ASetongnnnis
+<lb />Nme falt peur.
+<lb />Parſonne
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Attendez, j’aime aſſez qu’on raiſont
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROIS cuignant toûjours.
+<lb />Je m’gobarg' de tout moy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Voyons un peu cela.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />J’en avon bien veu d’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hoüais.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Monſieur, laiſſer
+<lb />Ce pauvre Diable; à quoy peut ſervir de le batre,
+<lb />vous voyez bien qu’il eſt obſtiné comme quatre,
+<lb />Va, mon pauvre Garçon, va-t-en, retire toy,
+<lb />Et ne luy dis plus rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Et j’ly veut dire, moy.
+<lb />D. JU A N donnant un ſoufflet à Sganarelle,
+<lb />croyant le donner à Pierrot qui ſe baiſſe.
+<lb />Ah, je vous apprendray...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Peſte, ſoit du Marouſle.
+</sp>
+<sp type="MainZone-Sp"><lb />Voila ta charité.
+<lb />D. JUNN.
+</sp>
+<sp type="MainZone-Sp"><lb />PIERROT.
+<lb />Je m’ris d’queuq' vent qui ſouffle;
+<lb />Et j’m’en vas à ta Tante en lâcher quatre mois,
+<lb />Laiſſe faire.
+<lb />Il s’en va,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />A la fin il nous laiſſe en repos,
+<lb />It je paisai joquudundomen monane.
+<lb />Que de raviſſemens quand vous ſerez ma Femmeg
+<lb />Sera-t il un bonheur égal au mien?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE voyant Maturine.
+<lb />Voicy l’autre.
+<lb />Ah, ah,
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />E JOHI, CHARLOTE, MATURINE
+<lb />SGANARLLLE,
+</p>
+<sp type="MainZone-Sp"><lb />16.
+<lb />MATURINE.
+<lb />Onſieu, queſt s’don qu’ou faites-la?
+<lb />MEs qu’ou parlez d’amour à Charlote?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Mat.
+<lb />Au contraire.
+<lb />C’eſt qu’elle m’aime; &amp; moy comme je ſuis ſincere.
+<lb />je luy dis que déja vous poſſedez mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Qu’es-don que vous veut la Maturine?
+</sp>
+<sp type="MainZone-Sp"><lb />D. yo Aiv sennze.
+<lb />Elle a peur
+<lb />Que je ne vous époule, &amp; je viens deluy dire
+<lb />Que je vous l’ay promis.
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />Quoy, Charlote, es-pour rire
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Mat.
+<lb />Tout ce que vous ditez ne iervira de lien.
+<lb />Elle me veut aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Maturine, eſt-il bier
+<lb />D’empeſcher que Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Charl.
+<lb />Vous voyez qu’elle enrag
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />Oh je n’empeſche rien, il m’a déja...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Charlote.
+<lb />Je gage
+<lb />Qu'elle vous ſoûtiendra qu’elle a receu ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />CMARLOIE.
+<lb />Je n’penſois pas...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Mat.
+<lb />Gageons qu’elle dira de moy,
+<lb />Que j’auray fait ſerment de la prendre pour Femme.
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />Vous venez un peu trop taid.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE
+<lb />Vous le dites.
+</sp>
+<sp type="MainZone-Sp"><lb />MATORINE,
+<lb />Pourquoy me diſputer?
+<lb />Tredame,
+</sp>
+<sp type="MainZone-Sp"><lb />OIARLOTE.
+<lb />Pis q’Monſieu me veut bien....
+</sp>
+<sp type="MainZone-Sp"><lb />MATORINE.
+<lb />C'eſt moy qu’il veut putoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Oh, pourtant j’n’en croy rien;
+</sp>
+<sp type="MainZone-Sp"><lb />MATORINE.
+<lb />Ilm’a veu la prumiere &amp; m’la dit, qu’il réponde,
+</sp>
+<sp type="MainZone-Sp"><lb />CNARLOIE.
+<lb />S’il v-s-a veu la prumiere, il m’a veu la ſeconde,
+<lb />tem veut epouler.
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />Bon...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Mat.
+<lb />Hem' que vous ay-je dit?
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />l'eſt moy qu’il épouſera, voyez le bel eſprit.
+<lb />D ij
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Charl.
+<lb />N’ay-je pas deviné? La fole! je l’admire.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Si je n’ay pas raiſon le vla qu’eſt pour le dire,
+<lb />Il ſait noſte querelle.
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE.
+<lb />Qu’il nous juge.
+<lb />Ouy, puis qu'mait ſqui eſt,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Monfieu, jugez nou, ſi vou plaiſt.
+<lb />Iaquenle es-parmy nous....
+</sp>
+<sp type="MainZone-Sp"><lb />MIONINE.
+<lb />Vous allez voir.
+<lb />Gageon qu’c’eſt moy qu’il aime
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Tant mieux, vous allez voir vou-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />Dites.
+<lb />MMTGRINE.
+</sp>
+<sp type="MainZone-Sp"><lb />Parlez.
+<lb />CHARLOTE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Comment? eſt ce pour vous moquer
+<lb />Quel beſoin avez-vous de me faire expliquen?
+<lb />A l’une de vous deux j’ay promis Mariage,
+<lb />J’en demeure d’accord, en faut-il davantage,
+<lb />Et chacune de vous dans un débat ſi prompt,
+<lb />Neſçait-elle pas bien comme les choſes vont?
+<lb />Celle à qui je me ſuis engagé, doit peu craindre,
+<lb />Ce que pour l’étonner, l’autre s’obſtine à feindre;
+<lb />Et tous ces vains propos ne ſont qu’à mépriſer,
+<lb />Pourveu que je ſois preſt toûjours à l’épouſer.
+<lb />Qui va de bonne foy hait les diſcours frivoles;
+<lb />J’ay promis des effets, laiſſons là des paroles.
+<lb />C’eſt par eux que je ſonge à vous mettre d’accord,
+<lb />Et l’on ſçaura bien-toſt qui de vous deux a tort,
+<lb />Puis qu’en me mariant je dois faire connoiſtre
+<lb />Pour laquelle l’amour dans mon cœur a ſceu naiſtre.
+<lb />A Mar. Laiſſez là ſe flater, je n’adore que vous.
+<lb />ACh. Ne la détrompez point, je ſeray voſtre Epoux.
+<lb />A Mat. Il n’eſt charmes ſi vifs que n’effacent les
+<lb />voſtres.
+<lb />A Ch. Quand on a veu vos yeux, on n’en peut ſouffrir
+<lb />d’autres.
+<lb />Une affaire me preſſe, &amp; je cours l’achever.
+<lb />naunun, uumle unmnomiene je viens vous retrouver,
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />C’eſt moy qui l’y plaiſt mieux, au moins.
+</sp>
+<sp type="MainZone-Sp"><lb />MATORINE.
+<lb />Que je l’épouſeror.
+<lb />Pourtant je penſe
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je plains voſtre innocence,
+<lb />Pauvres jeunes Brebis, qui pour trop croire un Fou,
+<lb />vous-meſmes vous jettez dans la gueule du Loup.
+<lb />Croyez-moy toutes deux, ne ſoyez point ſi promptes
+<lb />A vous laiſſer ainſi duper par de beaux contes.
+<lb />Songez à vos Oyſons, c’eſt le plus aſſuré.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN revenant.
+<lb />D’où vient que Sganarelle eſt icy demeuré?
+</sp>
+<sp type="MainZone-Sp"><lb />GANARELLE.
+<lb />Mon Maiſtre n’eſt qu’un Fourbe, &amp; tout ce qu’il
+<lb />débite,
+<lb />Fadaiſe, il ne promet que pour aller plus viſte.
+<lb />Parlant de Mariage, il cherche a vous tromper,
+<lb />Il en épouſe autant qu’il en peut attraper,
+<lb />L...
+</sp>
+<p type="MainZone-Other"><lb />Il appertoit D. Iuan qui l'écoute
+<lb />Cela n’eſt pas vrav, ſi l’on vient vous le dire;
+<lb />Répondez hardiment qu’on ſe plaiſt à médire.
+<lb />Que mon Maiſtre n’eſt Fourbe en aucune action,
+<lb />Qu’il n’épouſe jamais qu’à bon ne intention.
+<lb />Qui ii uoule perſonne, &amp; que s’il dit qu’il aime...
+<lb />Ah! tenez, le voila; ſçachez-le de luy-meſme.
+</p>
+<sp type="MainZone-Sp"><lb />Oüy?
+<lb />B. Jonda
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Le monde eſt ſi plein, Monſieur, de Médiſans.
+<lb />Que comme on parle mal, ſur tout des Courtiſans,
+<lb />y ieur laniois entendre, à toutes deux pour cauſe,
+<lb />Que ſi quelqu’un de vous leur diſoit quelque ehoſe,
+<lb />Iialoit nenfiencrone, de queue dubomell...
+</sp>
+<sp type="MainZone-Sp"><lb />Sganarelle.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oũy, mon Maiſtre eſt un Homme d’honneur,
+<lb />Je le garantis tel.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN<lb />Hon?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ce ſeront des Beſtes.
+<lb />Ceux qui tiendront de luy des diſcours mal honneſtes.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />D. JUAN, LA RAME’E, CHARLOTE.
+<lb />MATORINE, SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />LA RAME’E.
+<lb />E viens vous avertir, Monfieur, qu’icy pour vous
+<lb />Anle lant pas toltoon.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! Monſieur, ſauvons-nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Qu’eſt-ce?
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />LA RAME’E.
+<lb />Dans un moment dolvent icy deſcendre
+<lb />Douze rionmes a cneval, conimiandez pour vous
+<lb />prendre.
+<lb />Ils ont dépeint vos traits à ceux qui me l’ont dit,
+<lb />Songez à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pourquoy s’aller perdre a citeit.
+<lb />Iirons-nous promptement, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Adieu les Belles.
+<lb />Celle que j’aime aura demain de mes nouvelles,
+</sp>
+<sp type="MainZone-Sp"><lb />MATURINE s’en allant.
+<lb />'eſt à moy qu’il promet, Charlote.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARLOTE.
+<lb />Oh! c’eſt à moy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il faut ceder, la force eſt une étrange loy.
+<lb />Viens, pour ne riſquer rien uſons de ſtratageme,
+<lb />Tu prendras mes Habits,
+</sp>
+<sp type="MainZone-Sp"><lb />SCHNARELLE.
+<lb />Moy, Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Oüy, toy-meſme,
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELLE.
+<lb />Monſieur, vous vons moquez, Comment, ſous vos
+<lb />Habits
+<lb />M’aller faire tuer?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Tuniets la chule au pis.
+<lb />Mais dy-moy Lâche, dy, quand cela devroit eſtre,
+<lb />N’eſt-on pas glorieux de mourir pour ſon Maiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />GANARELLE.
+<lb />Serviteur à la gloire. O Ciel! fais qu’aujourd’huy,
+<lb />Sganarelle en fuyant ne ſoit pas pris pour luy!
+</sp>
+<p type="MainZone-Other"><lb />Fin du Second Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />SCENE PREMIERE.
+<lb />D.JCAN, SCANARLELE
+<lb />habillé en Medecin.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />voüez qu’au beſoin j’ay l’imaginative,
+<lb />Auſſi prompte d’aller que perſonne qui
+<lb />vive.
+<lb />Voſtre premier deſſein n’eſtoit point à
+<lb />propos,
+<lb />Sous ce déguiſement j’ay l’eſprit en repos.
+<lb />ſpret toit, ces Habits nous cachent l’un &amp; l’autre
+<lb />Beaucoup mieux qu’on n’euſt pû me cacher ſous le
+<lb />voſtre,
+<lb />J’en regardois le riſque avec quelque ſoucys
+<lb />Tout franc il me choquoit
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Te voila bien ainſy.
+<lb />Où diable as-tu donc pris ce groteſque équipage?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il vient d’un Medecin qui l’avoit mis en gage.
+<lb />Quoy que vieux, j’ay donné de l’argent pour l’avoir
+<lb />Mais, Monſieur, ſçavez-vous quel en eſt le pouvoir?
+<lb />Il me fait ſalüer des Gens que je rencontre,
+<lb />Et paſſer pour Docteur par tout où je me montre,
+<lb />Ainſi qu’un habile Homme on me vient conſulter.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment donc?
+<lb />En de nia
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mon ſçavoir va bien-toſt éclater,
+<lb />Déja ſix Païſans, autant de Païſanes,
+<lb />Accoûtumez ſans-doute à parler à des Aſnes;
+<lb />ur ent lur diférens maux demandé mon avis.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et qu’as-tu répondu?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Moy?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Tu t’es trouvé pris?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pas trop. Sans m’étonner, de l’Habit que je porte,
+<lb />J’ay ſoûtenu l’honneur, &amp; raiſonné de ſorte,
+<lb />Que ſur mon Ordonnance butai a ter n’a douté,
+<lb />Qu’il n’euſt entre les mains un tréſor de ſanté.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et comment as-tu pû baſtir tes Ordonnances?
+</sp>
+<sp type="MainZone-Sp"><lb />ConHREEb E.
+<lb />Ma foy, j’ay ramaſſé beancoup d’impertinences,
+<lb />Mêlé Caſſe, Opium Rhubarbe, Et cætera,
+<lb />Tout par dracme, &amp; le mal aille comme il pourra.
+<lb />Que m’importe?
+</sp>
+<sp type="MainZone-Sp"><lb />Me réjoüit.
+<lb />D. JUAN.
+<lb />Fort bien. Ce que tu viens de dire
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et ſi, pour vous faire mieux rire,
+<lb />Par hazard (car enfin quelquefois, que iqait-on?
+<lb />Mes Malades venoient à guerir?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Pourquoy non!
+<lb />Les autres Medecins que les Sages mépriſent,
+<lb />Dupent-ils moins que toy dans tout ce qu’ils nous
+<lb />diſent?
+<lb />Et pour quelques grands mots que nous n’entendons
+<lb />pas,
+<lb />Ont-ils aux guériſons plus de part que tu n’as?
+<lb />Croy-moy, tu peux comme eux, quoy qu’on s’en
+<lb />perſuade,
+<lb />Profiter, s’il avient, du bonheur du Malade,
+<lb />Et voir attribuer au ſeul pouvoir de l’Art
+<lb />Ce qu’avec la Nature aura fait le hazard.
+</sp>
+<sp type="MainZone-Sp"><lb />SGAANRELLE.
+<lb />Ou, juiqu ou vous pounez voitre numeur libertines
+<lb />Je ne vous croyois pas Impie en Medecine.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il n’eſt point parmy nous d’erreur plus grande.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Quoy?
+<lb />Pour un Art tout divin vous n’avez point de foy?
+<lb />La Caſſe, le Sené, ny le Vin Hemetique...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />la peſte ſoit le Fou.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vous eſtes Heretique,
+<lb />Monſieur. Songez-vous bien quel bruit depuis ui
+<lb />temps,
+<lb />ait le Vin hemétique?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Oüy, pour certaines Gens.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ses miracles par tout ont vaincu les ſcrupules,
+<lb />Leur force a converty juſqu’aux plus incrédules.
+<lb />Et faiis aner plus lom mioy qui vous panle, moy,
+<lb />J’en ay veu des effets ſi fur prenans...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />En quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Tout peut eſtre nié, ſi ſa vertu ſe nie.
+<lb />Depuis fix jours an rionmie eſtoit à l’agonie,
+<lb />Les plus experts Docteurs n’y connoiſſoient plus rien,
+<lb />Il avoit mis à bout la Medecme.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Recoursa l'Hemetique. Il en prena pour leur plait
+<lb />Soudain...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Le grand miracle! Il rechape?
+</sp>
+<sp type="MainZone-Sp"><lb />Ii en meurt.
+<lb />SGANARELLE.
+<lb />Au contraire
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Merveilleux moyen de le guerir!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Comment? depuis ſix jours il ne pouvoit mourir,
+<lb />Etdés qu’il en a pris, le voila qui trépaſſe.
+<lb />Vit-on jamais Remede avoir plus d’efficacel
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN,
+<lb />Ta raiſonnes fort juſte,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il eſt vray, cet Habit
+<lb />Sur le raiſonnement m’inſpire de l’eſprit,
+<lb />Et ſi ſur certains points où je voudtois vout metere.
+<lb />La Diſpute...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Une fois je veux te la permettre,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Errez en Medecine autant qu’il vous plaira,
+<lb />La ſeule Faculté s’en ſcandamiera,
+<lb />Mais ſur le reſte, la, que le cœur ſe déploye.
+<lb />Que croyez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je croy ce qu’il faut que je croye.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Bon, parlons doucement, &amp; ſans nous échauffor,
+<lb />Le Ciel?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Laiſſons cela.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELLE.
+<lb />C’eſt fort bien dit. L’Enfert
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Laiſſons cela, te dis-je?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il n’eſt pas neceſſaire
+<lb />De vous expliquer mieux, voſtre réponſe eſt claire.
+<lb />Malheur ſi l’eſprit fort s’y trouvoit oublié.
+<lb />Voila ce que vous ſert d’avoir étudié,
+<lb />Temps perdu, Quant àmoy, per onne ne peut dire
+<lb />Que l’ont m’ait rien appris, jeſçais à peine lire;
+<lb />Ei j’ay de l’ignorance a fond; mais franchement,
+<lb />Avee mon petit ſens, mon petit jugement,
+<lb />Je vois, je comprens mieux ce que je dois com<lb />prendre,
+<lb />Que vos Livres jamais ne pourroient me l’apprendre
+<lb />Ce monde où je me trouve, &amp; ce Soleil qui luit,
+<lb />Sont-ce des Champignons venus en une nuit?
+<lb />Se ſont. ils faits tout ſeuls? Cette maſſe de pierre,
+<lb />Qui s’éleve en Rocher, ces Arbres, cette Terre,
+<lb />Ce Cie planté là haut, eſt-ce que tout cela
+<lb />S’eſt baſty de ſoy-meſme? Et vous, ſeriez-vous-là
+<lb />Saus voſtre Pere, à qui le ſien fut neceſſaire,
+<lb />Pour devenir le voſtre? Ainſi de Pere en Pere,
+<lb />Allant juſqu’au premier, qui veut-on qui l’ait fait.
+<lb />Ce premier? Et dans l’Homme, Ouvrage ſi parfait,
+<lb />Tous ces os agencez l’un dans l’autre, cette ame,
+<lb />Ces veines, ce poulmon, ce cœur, ce foye... Oh
+<lb />Dame,
+<lb />Parlez à voſtre tour comme les autrés font,
+<lb />gent pais diſputer ſi l’on ne m’interrompt;
+<lb />Vous vous taiſez exprés, &amp; c’eſt belle malice,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ton raiſonnement charme, &amp; j’attens qu’il finiſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mon raiſonnement eſt, Monſieur, quoy qu’il en ſoit
+<lb />Que l’Homme eſt admirable en tout, &amp; qu’on y voi
+<lb />Certains ingrédiens, que plus on les contemple,
+<lb />Moins on peut expliquer. D’où vient que.... par
+<lb />exemple,
+<lb />N’eſt-il pas merveilleux que je ſois icy, moy,
+<lb />Et qu’en la teſte, là, j’aye un je-ne ſçay-quoy,
+<lb />Qui fait qu’en un moment, ſans en ſçavoir la cat
+<lb />Je penſe, s’il le faut, cent diférentes choſes,
+<lb />Et ne me mêle point d’ajuſter les reſſorts
+<lb />Que ce je-ne-ſçay-quoy fait mouvoir dans mon
+<lb />corps,
+<lb />Je veux lever un doigt, deux, trois, la main entiere,
+<lb />Afler a droit, a gauche, en avant, en arriere...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN apercevant Leonor.
+<lb />Ah, Sganarelle, voy. Peut-on ſans s’étonner...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />rona ce quir tous laut, Monſieur, pour raiſonner.
+<lb />Vous n’eſtes point muet en voyant une Belle.
+</sp>
+<sp type="MainZone-Sp"><lb />Celle-cy me ravit.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vrayment.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Que cherche-t-elle?
+</sp>
+<sp type="MainZone-Sp"><lb />GANANELEE.
+<lb />vous devrien dejareltre unte demanuer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />D. JUAN, LEONOR,
+<lb />GUSMAN.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Uel bien plus grand le Ciel pouvoit-il m’accors
+<lb />der?
+<lb />Préſenter à mes yeux, dans un lieu ſi ſauvage,
+<lb />La plus belle Perſonne...
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Oh point, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je gage
+<lb />E ij
+<lb />Que vous n'avez encor que quatorte ans au plus.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARÉLLE à D. Iuan.
+<lb />C’eſt comme il vous les faut.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Le dernier de Juillet,
+<lb />Quatorze ali, je les eus
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE bas.
+<lb />O ma pauvre innocente!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Mais que cherchiez vous là?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Des herbes pour ma Tante.
+<lb />C’eſt pour faire un Remede, elle en prend tres-ſou<lb />vent.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Veut-elle conſulter un Homme fort ſçavant?
+<lb />Monſieur eſt Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Ce ſeroit là ſa joye.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE d’un ton grave.
+<lb />Ou ion mal luy dent-n eltice a la fatez au foyer
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Sous des Arbres aſſiſe, elle prend l’air là bas,
+<lb />Allons le ſçavoir d’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />A Sganarelle. Eh, ne nous preſſons pas.
+<lb />Qu’elle eſt propre à cauſer une flâme amoureuſe!
+</sp>
+<sp type="MainZone-Sp"><lb />LEONON
+<lb />Il faudra que jeſois pourtant Religieuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah quel meurtre! Et d’où vient? Eſt-ce que vous avez
+<lb />Tant de vocation...
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Pas trop. mais vous ſçavez
+<lb />Qu’on menace une Fille, &amp; qu’il faut ſans murmu<lb />Ie...
+</sp>
+<sp type="MainZone-Sp"><lb />D. IUAN.
+<lb />C’eſt cela qui vous tient?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Le puis, ma rante aſure
+<lb />Que je ne ſuis point propre au mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous?
+<lb />Elle ſe moque; allez, faites choix d’un Epoux,
+<lb />Je vous garantis, moy, s’il faut que j’en réponde,
+<lb />Propre à vous marier plus que Fille du monde.
+<lb />Monſieur le Medecin s’y connoît, &amp; je veux
+<lb />Que luy-meſme...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE luy taſtant le poulx.
+<lb />Voyons. Le cas n’eſt point douteux.
+<lb />Mariez-vous, il faut vous mettre deux enſemble,
+<lb />Sinon il vous viendra mal encombre.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Ah je tremble.
+<lb />Et quel mal eſt-ce là que vous nommez?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qui conſume en ſix mois l’humide radical,
+<lb />Mal terrible, aſtringent, vaporeux.
+<lb />Un mal
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR,
+<lb />Je ſuis morte:
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mal ſur tout qui s’augmente au Couvent,
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />On ne laiſſera pas de m’y mettre.
+<lb />Il n’importe,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et pourquoy?
+<lb />Rei
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />A cauſe de ma Sœur qu’on aime plus que moy,
+<lb />On la mariera mieux, quand on n’aura plus qu’elle
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous eſtes pour cela trop aimable &amp; trop belle.
+<lb />Non, je ne puis ſouffrir cet excés de rigueur;
+<lb />Et dés demain, pour faire enrager voſtre Sœur.
+<lb />Je veux vous épouſer. En ſerez-vous contente?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Eh mon Dieu, n’allez pas en rien dire à ma Tante.
+<lb />Si-toſt que du Couvent elle voit que je ris,
+<lb />Deux ſoufflets me ſont ſeurs, &amp; ce leroit bien pis
+<lb />Si vous alliez pour moy parler de mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hé bien, marions-nous en ſecret, je m’engage.
+<lb />Puis qu’elle vous mal-traite, à vous mettre en état
+<lb />De ne rien craindre d’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et par un bon Contract,
+<lb />Ce n’eſt point à demy que Monſieur fait les choſes.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />J’avois, pour fuir l’Hymen, d’aſſez preſſantes cau<lb />Teoy
+<lb />Mais pour vous faire entrer au Couvent malgré vous,
+<lb />Sçavoir qu’à la menace on ajoûte les coups,
+<lb />C’eſt un acte inhumain, dont je me rends coupable,
+<lb />Si je ne vous épouſe.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il eſt fort charitable.
+<lb />Voyez, ſe marier pour vous oſter l’ennuy,
+<lb />D’eſtre Religieuſe, attendez tout de luy,
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Si j’olois m’aſſurer...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />C’eſt une bagatelle,
+<lb />Que ce qu’il vous promet. Sa bonté naturelle
+<lb />pa niol; quirert prert, pour laire creve aux coups,
+<lb />D’épouſer, s’il le faut, voſtre Tante avec vous,
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Ah, qu’il n’en faſſe rien, elle eſt ſi dégoütante..
+<lb />Mais moy, ſuis-je aſſez belle...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah Ciel! toute charmante.
+<lb />Quelle douceur pour moy de vivre ſous vos loix!
+<lb />Non, ce qui fait l’Hymen n’eſt point de noſtre choix;
+<lb />J’en ſuis trop convaincu, je vous connois à peine,
+<lb />Et tout à coup je cede à l’amour qui m’entraîne.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR
+<lb />Je voudrois qu’il fuſt vray, car ma Tante, &amp; la peur
+<lb />Que me fait le Couvent..
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah. connoiſſez mon cœus,
+<lb />Voulez-vous que ma foy, pour preuve indubitable,
+<lb />Vous faſſe le ſerment le plus épouvantable!
+<lb />R
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Je vous croy, ne jurez point.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Hé bienx
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Mais pour nous marier, ſans que l’on en ſçeuſt rien,
+<lb />Si la choſe preſſoit, comment faudroit-il faire?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il faudroit avec moy venir chez un Noraire,
+<lb />Signer le Mariage, &amp; quand tout ſeroit fait,
+<lb />Nous laiſſerions gronder voſtre lante.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />En effet.
+<lb />Quand une choſe eſt faite, elle n’eſt pas à faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Oh, ma Tante &amp; ma Sœur ſeront bien en colere,
+<lb />Car jauray pour ma part plus de vingt hſille éeus
+<lb />Bien des Gens me l’on dit.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous me rendez confus
+<lb />Penſez-vous que ce ſoit voſtre bien qui m’engage?
+<lb />Ce font les agremeno de de emdimtant image,
+<lb />Cette bouche, ces yeux. Enfin ſoyez à moy,
+<lb />Et je renonce au reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il eſt de bonne foy.
+<lb />Vos écus ſont pour luy des beautez peu touchantes.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />J’ay dans le Bourg voiſin une de mes Parentes,
+<lb />Qui veut qu’on mne marie, &amp; quii a toujours dit,
+<lb />Que ſi quelqu’un m’aimoit...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />C’eſt avoir de l’eſprit.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Elle envoyeroit chercher de bon cœur le Notaire.
+<lb />Si nous allions chez elle?
+</sp>
+<sp type="MainZone-Sp"><lb />D JUAN.
+<lb />Me voila preſt, allons.
+<lb />Hé bien, il le faut faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Mais quoy, ſeule avec vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Yenit avecque moy. c’eſt ſuivre voſtre Epoux.
+<lb />Eſt-ce un ſerupuie à raire apres la foy promiſe?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR
+<lb />Pas trop, mais j’ay toûjours...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous verrez ma franchiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Du moins...
+<lb />BBONGR.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Par où faut-il vous mener?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Mais quel malheur!
+<lb />
+<lb />Par icy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />coiments
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />
+<lb />Ma Tante que voicy...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Le fâcheux contre temps! Qui diable nous l’amenc?
+</sp>
+<sp type="MainZone-Sp"><lb />SSAMAREEEH.
+<lb />Ma foy, c’en eſtoit fait ſans cela.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />
+<lb />Quelle peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Sans rien dire, venez m’attendre icy ce ſoir,
+<lb />Je m’y rendray.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LI1E, PEONOR, DJUAN
+<lb />SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />THERESE à Leouor.
+<lb />Y Rayment, j’aime aſſez à vous voir
+<lb />ampuuente, a voudiuue pumeravee des Hommes.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vous ne ſçavez pas bien, Madame, qui nous ſommes.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Eſt-ce faire du mal, quand c’eſt à bonne fin?
+<lb />Ce Monſieur-là m’a dit qu’il eſtoit Medecin,
+<lb />Et je luy demandois ſi pour guérir voſtre Aſme,
+<lb />Il ne ſçavoit pas...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, j’ay certain Cataplaſme,
+<lb />Qui poſé, lors qu’on tombe en ſeffocation,
+<lb />Faeilite auſſi-toſt la reſpiration.
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Eh, mon Dieu, là-deſſus j’ay veu les plus habiles,
+<lb />Leurs Remedes me ſont Remedes inutiles.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je le croy. La plûpart des plus grands Medecins,
+<lb />Ne ſont bons qu’à venir viſiter des Baſſins?
+<lb />Mais pour moy qui vay droit au ſouverain Dictame,
+<lb />Je guéris de tous maux, &amp; je voudrois, Madame,
+<lb />Que voſtre Aſme vous tinſt du haut juſques au bas.
+<lb />Ilois jours mon Cataplaime, il n’y paroiſtroit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Hélas! que vous feriez une admirable Cure!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je parle hardiment, mais ma parole eſt ſûre.
+<lb />Demandez à Monſieur. Outre l’Aſme, il avoit
+<lb />Un Bolus au coſté qui toûjours s’élevoit.
+<lb />Du Diaphragme impur l’humeur trop réünie,
+<lb />Le mettoit tous les ans dix fois à l’agonie;
+<lb />En huit jours, je vous ay balayé tout cela,
+<lb />Nettoyé l’impur, &amp;.... Regardez, le volla
+<lb />Auſſi frais, auffi plein de vigueur énergique,
+<lb />Que s'nn’avoit jamtais eu tacne d’Almatique!
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Son teint eſt frais ſans-doute, &amp; d’un vif éclatant,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ca, voyons voſtre poux. Il eſt intermitent;
+<lb />La palpitation du poumon s’y dénote.
+</sp>
+<sp type="MainZone-Sp"><lb />Quelquefois...
+<lb />THERESE.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Voſtre langue, elle n’eſt pas tant ſote,
+<lb />En deſſous, levez là; l’Aſme y paroiſt marqué.
+<lb />Ah, ſi mon Cataplaſme eſtoit viſte appliqué...
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Où donc l’applique-t-on?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE luy parlant avet
+<lb />action, pour l'empeſcher de voir que
+<lb />D. Iuan entretient tout bas Leonor.
+<fw><lb />Tout droit ſur la partie,
+<lb />Où la force de l’Aſme eſt le plus départie.
+<lb />Comme l’obſtruction ſe fait de ce coſté,
+<lb />Ilfant autant qu’on peut, la mettre en librnté.
+</fw><lb />Car ſelon que d’abord la chaleur reſtringente
+<lb />A pû ſe ramaſſer, la partie eſt ſouffranté,
+<lb />Et laiſſe à reſpirer le conduit plus étroit.
+<lb />Or eſt-il que le chaud ne vient jamais du froid.
+<lb />rur tonſéquent, ſi toſt que dans une Famille,
+<lb />Vous voyez que le mal prend cours.,.
+</sp>
+<sp type="MainZone-Sp"><lb />THERES Eà Leonor,
+<lb />Paſſez de ce coſté.
+<lb />Petite Fille,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE continuant.
+<lb />Ne diférez jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN bas à Leonor,
+<lb />Vous viendrez donc ce lon..
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Oüy, je vous le promets
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />A vous cataplaſmer commencez de bonne heure,
+<lb />En quel lieu faites-vous icy voſtre demeure?
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Vous voyez ma Maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE tirant ſa Tabatiere.
+<lb />Dans trois heures d’icy.
+<lb />prenez dans un œuf frais de cette poudre cy.
+<lb />Et du reſte du jour ne parlez à perſonne.
+<lb />Voila juſqu’à demain ce que je vous ordonne,
+<lb />Je ne manqueray pas à me rendre chez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />THERESE.
+<lb />Venez, vous faires ſeul mon eſpoir le plus doux.
+<lb />Allons, petite Fille, aidez-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONÔR.
+<lb />Ca, ma Tante.
+</sp>
+<p type="MainZone-Other"><lb />SCEN
+</p>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />D. JUHI, SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />QU'en dites vous, Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />La rencontre eſt plaiſance,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />M’érigeant en Docteur, j’ay là fort à propos,
+<lb />Pour amuſer la Tante, étalé de grands mots.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Où diable as-tu peſché ce jargon?
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />SGANARELLE.
+<lb />1
+<lb />Laiſſez faire;
+<lb />J’ay ſervy quelque temps chez un Apotiquaire.
+<lb />S’il faut jaſer encor, je ſuis Medecin né.
+<lb />Mais ce Tabac en poudre à la Vieille donné?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Sa Niéce eſt fort aimable, &amp; doit icy ſe rendre
+<lb />Quand le jour...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Quoy, Monſieur, vous l’y viendrezattendre?
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy, ſans-doute.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et de là, vous l’Epouſeur banal,
+<lb />Vous irez luy paſſer un Ecrit nuptial?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Suuhril, raute d’unmot, qu’eſle echape à ma flâme?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Quel diable de meſtier, toûjours Femme ſur Femme.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />mir tampourmoj toncent yaron de rembarras,
+<lb />Les Femmes n’en font point.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je ne vous comprens pas,
+<lb />Mille Gens, dont je voy par tout qu’on ſe contente.
+<lb />En ont ſouvent trop d’une, &amp; vous en prenez trente!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je ne me pique pas auſſi de les garder,
+<lb />Le grand nombre en ce cas pourroit m’incommoder.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARALLE.
+<lb />Pourquoy? vous en feriez un Serrail. Mais je tremble.
+<lb />Quel cliquetis? Monſieur, ah!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Trois Hommes enſemble
+<lb />En attaquent un ſeul, il faut le ſecourir.
+</sp>
+<sp type="MainZone-Sp"><lb />S.GANARELLE ſeul ſur le Theatre.
+<lb />Voila l’humeur de l’Homme. Où s’en va-t-il courir?
+<lb />S’aller faire échiner ſans qu’il ſoit neceſſaire.
+<lb />Quels grands coups il allonge! Il faut le laiſſer faire.
+<lb />Le plus ſeûr cependant eſt de m’aller cacher.
+<lb />S’il a beſoin de moy, qu’il vienne me chercher.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />ONRECS, D JONC.
+</p>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />NEs Voleurs par leur fuite ont fait aſſez connoître
+<lb />CQu’où voſtre bras ſe montre on n’oſe plus pa<lb />roiſtre,
+<lb />Et je ne puis nier qu’à cet heureux ſecours,
+<lb />oi ſe feiple encor, je ne doive mes jours.
+<lb />Ainſi, Monſieur, ſouffrez que pour vous rendre
+<lb />grace...
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />ihquutaua meſme aurienndiceni place,
+<lb />Et prendre ce party contre leur lâcheté,
+<lb />Eſtoit plûtoſt devoir que generoſité.
+<lb />Mais d’où vous eſtes-vous attiré leur pourſuite?
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Je m’eſtois par malheut écarté de ma ſuite,
+<lb />Ils iii ont fencontre leui, de nion Cheval tué,
+<lb />A leur infame audace a fort contribué.
+<lb />Sans vous j’eſtois perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous allez à la Ville?
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Non, certains intéreſts...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous peut-on eſtre utile?
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Cette offre met le comble à ce que je vous doy.
+<lb />Une affaire d’honneur, tres ſenſible pour moy
+<lb />mn oonge dans ces neux a tenn la Campagne.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je ſuis à vous, ſouffrez que je vous accompagne.
+<lb />aia s’puis-je deſifander, ſans nie rendre Indiſcret.
+<lb />Q el outrage recet...
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Ce n’eſt plus un ſecret
+<lb />Et je ne dois ſonger dans le bruit de l’offence,
+<lb />Qu’à faire promptement éclater ma vangeance.
+<lb />Une Sœur, qu’au Couvent j’avois fait élever,
+<lb />Depuis quatte ou cinq jours s’eſt laiſſée enlever.
+<lb />Un D. Juan Giron eſt l’autheur de l’injure,
+<lb />Il a pris cette route, au moins on m’en aſſure.
+<lb />Et je viens l’y chercher ſur ce que j’en ay ſçeu.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et le connoiſſez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS,
+<lb />Je ne l’ay jamais veu.
+<lb />Mais j’amene avec moy des Gens qui le connoiſſent,
+<lb />Et par ſes actions telles qu’elles paroiſſent,
+<lb />Je croy, ſaus paſſion, qu’il peut eſtre permis...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />N en dites poit de mai, n’ent de mes Amis.
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Apres un tel aveu j’aurois tort d’en rien dire;
+<lb />Mar lors que mon honneur à la vangeance aſpire,
+<lb />Malgié cette amitié j’oſe eſperer de vous...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je ſçay ce que ſe doit un ſi juſte couroux.
+<lb />Et pour vous épargner des peines inutiles,
+<lb />Quels que ſoient vos deſſeins, je les rendray faciles.
+<lb />Si d’aimer D. Juan je ne puis m’empeſcher,
+<lb />C’eſt ſans avoir ſervy jamais à le cacher.
+<lb />Dun emevementlait arcoque trop d’audace,
+<lb />Vous demandez raiſon, il faut qu’il vous la faſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />D. eAREOS
+<lb />Et comment me la faire?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il eſt Homme de cœur,
+<lb />Vous pouvez là-deſſus conſulter voſtre honneur.
+<lb />Pour ſe battre avec vous, quand vous aurez ſçea pren<lb />die,
+<lb />Le lieu, l’heure, &amp; le jour, il viendra vous attendre.
+<lb />Vous répondre de luy, c’eſt vous en dire aſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Cette aſſurance eſt douce à des cœurs offencez.
+<lb />Mais je vous avoüe ray que vous devant la vie,
+<lb />Je ne puis, ſans douleur, vous voir de la partie.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Une telle amitié nous a joints juſqu’icy,
+<lb />Que s’il ſe bat, il faut que je me bate auſsy,
+<lb />Noſtre union le veut.
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Et c’eſt dont je ſoûpire.
+<lb />Faut-il, quand je vous dois le jour que je reſpire,
+<lb />Que j’aye à me vanger, &amp; qu’il vous ſoit permis
+<lb />D’aimer le plus mortel de tous mes Ennemis?
+</sp>
+<p type="MainZone-Other"><lb />F inj
+</p>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />D. CARLOS, D. JUAN
+<lb />ALONDE.
+</p>
+<sp type="MainZone-Sp"><lb />2
+<lb />ALONSE à un Vulet.
+<lb />11j pone nos oneraun, ue que von nous attende.
+<lb />TPar où donc... Mais ô Ciel, que ma ſurpriſe eſt
+<lb />grande!
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS à Alonſe.
+<lb />D’où vient qu’ainſi ſur nous vos regards attachez...
+</sp>
+<sp type="MainZone-Sp"><lb />ALONSE.
+<lb />vona vonre mimemf, cemuy que vous eneichez,
+<lb />D. Juan.
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />D. Juan.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Oüy, je renonce à feindre,
+<lb />L’avantage du nombre eſt peu pour m’y contraindre,
+<lb />Je ſuis ce D. Juan, dont le trépas juré...
+</sp>
+<sp type="MainZone-Sp"><lb />ALONSEà D. Carlos.
+<lb />Voulez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Arreſtez, m’eſtant ſeule égaré,
+<lb />Des Lâches m’ont ſurpris, &amp; je luy dois la vie
+<lb />Qui par eux ſans ſon bras m’auroit eſté ravie.
+<lb />D. Juan, vous voyez malgré tout mon couroux,
+<lb />Que je vous rens le bion que jey teetu de vous.
+<lb />Jugez par là du reſte, &amp; ſi de mon offence,
+<lb />Pour payer un bienfait, je ſuſpens la vangeance,
+<lb />Croyez que ce delay ne fera qu’augmenter
+<lb />Le vif reſſentiment que j’ay fait éclater.
+<lb />Je ne demande point qu’icy ſans plus attendre
+<lb />Vous preniez le party que vous avez à prendre.
+<lb />Pour m’acquiter vers vous, je veux bien vous laiſſer,
+<lb />Quoy que vous reſolviez, le loiſir d’y penſer.
+<lb />Sur l’outrage receu qu’en vain on voudroit taire,
+<lb />Vous ſçavez quels moyens peuvent me ſatisfaire.
+<lb />Il en eſt de ſanglans, il en eſt de plus doux,
+<lb />Voyez-les, conſultez, le choix dépend de vous.
+<lb />Mais enfin quel qu’il ſoit, ſouvenez-vous de grace
+<lb />Qu il faut que mon affront par D. Juan s’efface;
+<lb />Que ce ſeul intéreſt m’a conduit en ce lieu,
+<lb />Que vous m’avez pour luy donné parole. Adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />ALONSE.
+<lb />Quoy, Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />DCANLOS.
+<lb />Suivez-moy,
+</sp>
+<sp type="MainZone-Sp"><lb />ALONSE.
+<lb />Faut-il...
+</sp>
+<sp type="MainZone-Sp"><lb />D. CARLOS.
+<lb />Se doit vuider ailleurs.
+<lb />Noſtre querelle
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />LJOAN, GOANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />*1 5 ganarelle.
+<lb />SGANARELLE derrlere le Theatre.
+<lb />Qui va la?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Viendras-tur
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />rout a Theure. Ah, c’eſt vous,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Coquin, quand je me bats, tu te ſauves des coups?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />J’eſtois allé, Monſieur, icy prés, d’où j’arrive,
+<lb />Cet Habit eſt, je croy, de vertu purgative,
+<lb />Le porter, c’eſt autant qu’avoir pris...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Effronté!
+<lb />D’un voile honneſte au moins couvre ta lâcheté.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELL B.
+<lb />D’un vaillant Homme mort la gloire ſe publie,
+<lb />Mais j’en fais moins de cas que d’un Poltron en vie,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Sçais-tu pour qui mon bras vient de s’employer?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Non
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Pour un Frere d’Elvire.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Un Frere! tout de bon?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />j’ay legret de nous von aimbrouner emcmiole,
+<lb />Il paroiſt honneſte Homme.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah, Monfieur, il me ſemble,
+<lb />Qu’en rendant un peu plus de juſtice à ſa Sœur...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ma paſſion pour elle eſt uſée en mon cœur,
+<lb />Et les Objets nouveaux le rendent ſi ſenſible,
+<lb />Qu’avec l’engagement il eſt incompatible.
+<lb />D’ailleurs, ayant pris Femme en vingt lieux diférens,
+<lb />Tu ſçais pour le ſecret les détours que je prens.
+<lb />A ne point éclater toutes je les engage,
+<lb />Briri ane en puone a voit quelque avantage,
+<lb />Les autres parleroient, &amp; tout ſeroit perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANAEBLLE.
+<lb />Ce ſeroit lors hazard, ſi vous n’eſtiez pendu.
+</sp>
+<sp type="MainZone-Sp"><lb />Maraut.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />GOANARILLE.
+<lb />Je vous entens, il ſeroit plus honneſte,
+<lb />Pour vous mieux ennoblir, qu’on vous coupaſt la
+<lb />teſte,
+<lb />Mais c’eſt toûjours moufir.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN voyant un Tombeau ſur
+<lb />lequel eſt une Statuë.
+<lb />Vois-je paroiſtre icy?
+<lb />Quel ouvrage nouveau
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Bon, &amp; c’eſt le Tombeau
+<lb />Où voſtre Commandeur, qui pour luy le fit faire
+<lb />Grace à vous, giit plutoit qu’il n’eltoit neceſſaire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />On ne m’avoit pas dit qu’il fuſt de ce coſté.
+<lb />Allons le voir.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pourquoy cette civilité?
+<lb />Laiſſons-le là, Monſieur, auſſi bien il me ſemble
+<lb />Que vous ne devez pas eſtre trop bien enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb /> dle paurlune la pai que jonerune aic voir;
+<lb />Et s’il eſt galant Homme, il doit nous recevoir.
+<lb />Entrons.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! que ce marbre eſt beau! Ne luy déplaiſe
+<lb />Il s’eſt là, pour un Mort, logé fort à ſon aiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />y aunie cette aveugie lote vainlte;
+<lb />Un Homme en ſon vivant ſe ſera contenté
+<lb />D’un Baſtiment fort ſimple, &amp; le Viſionnaire
+<lb />En veut un tout pompeux, quand il n’en a que faire.
+</sp>
+<sp type="MainZone-Sp"><lb />S
+<lb />GANARELLE.
+<lb />Voyez-vous ſa Statuë, &amp; comme il tient ſa main?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Parbieu, le volla bon en empereur Romain.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il me fait quaſi peur Quels regards il nous jette!
+<lb />C’eſt pour nous obliger, je penſe à la retraite,
+<lb />Sans-doute qu’à nous voir, il prend peu de plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Si de venir dîner il avoit le loiſir,
+<lb />Je le régalerois. De ma part, Sganarelle,
+<lb />Va l’en prier.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Luy?
+<lb />1111
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Cours.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />La priere eſt nouvelle,
+<lb />Un Mort! Vous moquez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Fay ce que je t’ay dit.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Le pauvre Homme, Monſieur, a perdu l’appétit.
+</sp>
+<sp type="MainZone-Sp"><lb />ortany vas...
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />J’y vay. Que faut-il que je diſe?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Que je l’attens chez moy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je ris de ma ſottiſe.
+<lb />Mais mon Maiſtre le veut. Monſieur le Comman<lb />deur,
+<lb />DiJuai voudroit pien avon chez luy l’honneur
+<lb />De vous faire un Régale. Y viendrez-vous?
+<lb />nu clatuë baiſſe la teſte, &amp; cganarelle
+<lb />tombant ſur les genoux s’écrie.
+<lb />
+</sp>
+<p type="MainZone-Other"><lb />Al'aide,
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Qu’eſt-ce? Qu’as-tu? Dy donc.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb /> Je ſais mort ſans remede?
+<lb />La Statuë...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hé bien, quoy? que veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />La Statuë...
+<lb />SGANARELLE.
+<lb />1
+<lb />Helas!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Enfin donc tu ne parleras pas?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />ye parie, &amp; je vous dis, Monſieur, que la Statuë..
+</sp>
+<sp type="MainZone-Sp"><lb />Encor?
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Sa teſte...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Elle m’a fait...
+<lb />Vers moy s’eſt abatuë.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Coquin!
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Si je ne vous dis vray...
+<lb />Vous pouvez luy parler pour en faire l’eſſay,
+<lb />Peut-eſtre...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Viens. Maraut, puis qu’il faut que j’en rie,
+<lb />Viens eſtre convaincu de ta poltronnerie,
+<lb />Prens garde. Commandeur, te rendras-tu chez moy
+<lb />Je t’attens à dîner.
+<lb />La Statuë baiſſe encor la teſte.
+<fw><lb />V
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Meaantenaadr.
+<lb />voila mes eſprits forts qui ne veulent rien croire.
+<lb />Dilputons à préſent, j’ay gagné la victoire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JU AN apres avoir reſvé un mement.
+<lb />Allons, ſortons d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Sortons, je vous promets,
+<lb />Quand j’en ſeray dehors, de n’y rentrer jamais.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Other"><lb />Fin du Troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />IV
+<lb />SCENE PREMIERE.
+<lb />D. JUAN, SGANARELLE,
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />ESSE de raiſonner ſur une bagatelle,
+<lb />Un faux rapport des yeux n’eſt pas choſc
+<lb />nouvelle,
+<lb />Et ſouvent il ne faut qu’une ſimple
+<lb />vapeur,
+<lb />Pour faire ce qu’en toy j’imputois à la peur.
+<lb />La vûë en eſt troublée, &amp; je tiens ridicule...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Quoy, là-deſſus encor vous eſtes incredule,
+<lb />Et ce que de nos yeux, de ces yeux que voila,
+<lb />Tous deux nous avons veu, vous le démentez? là,
+<lb />Traitez-moy d’ignorant, d’imipeitment, de beſte,
+<lb />Il n’eſt rien de plus vray que ce ſigne de teſte,
+<lb />Et je ne doute point que pour vous convertir,
+<lb />Le Ciel qui de l’Enfer cherche à vous garantir,
+<lb />N’ait rendu tout exprés ce dernier témoignage...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ecoûte, s’il t’échape un ſeul mot davantage
+<lb />Sur tes moralitez, je vay faire venir
+<lb />Quatre Hommes des plus forts, te bien faire tenir,
+<lb />Afin qu’un nerf de Bœuf à loiſir te réponde.
+<lb />M’entens-tu? dy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Fort bien, Monſieur, le mieux du monde.
+<lb />Vous vous expliquez net, c’eſt-là ce qui me plaiſt.
+<lb />D’autres ont des détours qu’on ne ſçait ce que c’eſt,
+<lb />Mais vous, en quatre mots que vous faites entendre,
+<lb />Vous dites tout, rien n’eſt ſi facile à comprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />MI
+<lb />UAN.
+<lb />Qu’on me faſſe dîner le plûtoſt qu’on pourra,
+<lb />Un Siege.
+<lb />21
+</sp>
+<sp type="MainZone-Sp"><lb />1122
+<lb />SGANAELLE à la Violete.
+<lb />Va ſçavoir quand Monſieur dînera,
+<lb />Dépeſche.
+<lb />41
+<fw><lb />1111
+</fw><fw><lb />1
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ed hrdojo a
+<lb />D. LOUIS, D. JUAN, SGANARELLE,
+<lb />LA VIOLETE.
+<fw><lb />4
+</fw></p>
+<sp type="MainZone-Sp"><lb />Je
+<lb /> 
+<lb />QUe veut-on?
+</sp>
+<sp type="MainZone-Sp"><lb />LA VIOLETE.
+<lb />C’eſt Monſieur voſtre Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah, que cette viſite eſtoit peu neceſſair e!
+<lb />G i
+<lb />Quels contes de nouveau me vient-il débitert
+<lb />Il a du temps a perure.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />n le laut tcouter.
+</sp>
+<sp type="MainZone-Sp"><lb />D. LOUIS.
+<lb />Ma préſence vous choque, &amp; je voy que ſans peine
+<lb />Vous pourriez vous paſſer d’un Pere qui vous gêne
+<lb />Tous deux, à dire vray, par plus d’une raiſon,
+<lb />Nous nous incommodons d’une étrange façon,
+<lb />Et ſi vous eſtes las d’oüir mes remontrances,
+<lb />Je ſuis bien las auſſi de vos extravagances.
+<lb />Ah! que d’aveuglement, quand raiſonnant en fous
+<lb />Nous voulons que le Ciel ſoit moins ſage que nous,
+<lb />Quand ſur ce qu’il connoiſt qui nous eſt neceſſaire.
+<lb />Nos imprudens deſirs ne le laiſſent pas faire,
+<lb />Et qu’à force de vœux nous tâchons d’obtenir
+<lb />Ce qui nous eſt donné ſouvent pour nous punir,
+<lb />La naiſſance d’un Fils fut ma plus forte envie,
+<lb />Mes ſouhaits en faiſoient tout le bien de ma vie;
+<lb />Et ce Fils que j’obtiens eſt le fleau rigoureux
+<lb />De ces jours que par luy je croyois rendre heureux.
+<lb />De quel œil, dites-moy, penſez-vous que je voye
+<lb />Ces commerces honteux qui ſeuls font voſtre joye,
+<lb />Ce ſcandaleux amas de viles actions
+<lb />Qu’entaſſent chaque jour vos foles paſſions,
+<lb />Ce long enchaînement de méchantes affaires,
+<lb />Où du Prince pour vous les graces neceſſaires,
+<lb />Ont épuiſé déja tout ce qu’auprés de luy
+<lb />Mes ſervices pouvoient m’avoir acquis d’appuy?
+<lb />Ah Fils! indigne Fils! quelle eſt voſtre baſſeſſe,
+<lb />D’avoir de vos Ayeux démenty la nobleſſe;
+<lb />D’avoir oſé ternir par tant de lâchetez
+<lb />Le glorieux éclat du ſang dont vous ſortez,
+</sp>
+<sp type="MainZone-Sp"><lb />De ce ſang que l’Hiſtoire en mille endroits renom<lb />me!
+<lb />Et qu’avez-vous donc fait pour eſtre Gentilhomme?
+<lb />Si ce titre ne peut vous eſtre conteſté,
+<lb />Penſez-vous avoir droit d’en tirer vanité,
+<lb />Et qu’il ait rien en vous qui puiſſe eſtre eſtimable,
+<lb />Quand vos déreglemens l’y rendent mépriſable?
+<lb />Non, non, de nos Ayeux on a beau faire cas,
+<lb />La naiſſance n’eſt rien où la vertu n’eſt pas.
+<lb />Auſſi ne pouvons-nous avoir part à leur gloire,
+<lb />Qu’autant que nous faiſons honneur à leur mémoire,
+<lb />L’éclat que leur conduite a repandu ſur nous,
+<lb />Des meſmes ſentimens nous doit rendre jaloux,
+<lb />C’eſt un engagement dont rien ne nous diſpenſe,
+<lb />De marcher ſur les pas qu’a tracez leur prudence,
+<lb />D’eſtre à les imiter attachez, prompts, ardens,
+<lb />Si nous voulons paſſer pour leurs vrais Deſcendans,
+<lb />Ainſi de ces Héros que nos Hiſtoires loüent,
+<lb />Vous deſcendez en vain lors qu’ils vous deſa<lb />voüent,
+<lb />
+<lb />Et que ce qu’ils ont fait &amp; d’illuſtre &amp; de grand,
+<lb />N’a pû de voſtre cœur leur eſtre un ſeûr garand.
+<lb />Loin d’eſtre de leur ſang, loin que l’on vous en
+<lb />conte,
+<lb />L’éclat n’en rejallit ſur vous qu’à voſtre honte,
+<lb />Et c’eſt comme un Flambeau qui devant vous porté,
+<lb />Talt de vos actions meuxvon ridigmec.
+<lb />Enfin ſi la Nobleſſe eſt un prétieux titre,
+<lb />Sçachez que la vertu doit en eſtre l’arbitre,
+<lb />Qu’il n’eſt point de grands noms qui ſans elle obſ<lb />cureis...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Monſieur, vous ſeriez mieux ſi vous parliez aſſis:
+<lb />G iij
+<lb />Ie ne veux pas m’aſſeoir, Inſolent. J’ay beau dire.
+<lb />Ma remontrance eſt vaine, &amp; tu n’en fais que rire,
+<lb />C’eſt trop; ſi juſqu’icy dans mon cœur malgré mo
+<lb />La tendreſſe de Pere a combatu pour toy.
+<lb />Je l’étouffe; auſſi bien il eſt temps que j’efface
+<lb />La honte de te voir des-honorer ma Race,
+<lb />Et qu’arreſtant le cours de tes déreglemens,
+<lb />Je prévienne du Ciel les juſtes chaſtimens,
+<lb />J’en mourray, mais je dois mon bras à ſa colere.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />D. JUAN, SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ouiez quana touo touurez, il ne m’importe
+<lb />AVI guere.
+<lb />Ah! que lur ce jaigon qu’a toute neule j’entens,
+<lb />Ies Peres ſont fâcheux qui vivent trop longtempt!
+</sp>
+<sp type="MainZone-Sp"><lb />Mtanſieur...
+<lb />XUANAREELE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quelle ſortiſe à moy quand je l’écoûte?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Veus avextort.
+</sp>
+<sp type="MainZone-Sp"><lb />A JUAN,
+<lb />a quar
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Eh.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />’ay tort?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Oüy, ſans-doute
+<lb />Vous avez tres-grand tort de l’avoir écouté
+<lb />Avec tant de douceur &amp; tant d’honneſteté.
+<lb />Le chaſfant au milieu de ſa ſotte harangue,
+<lb />Vous luy deviez apprendre à mieux regler ſa langue.
+<lb />A-t-on jamais rien veu de plus impertinent?
+<lb />Un Pere contre un Fils faire l’entreprenant?
+<lb />Luy venir dire au nez que l’honneur le convio
+<lb />Amener dans le monde une loüable vie?
+<lb />Le faire ſouvenir qu’eſtant d’un noble ſang,
+<lb />Il ne devroit rien faire indigne de ſon rang?
+<lb />Les beaux enſeignemens, c’eſt bien ce que doit ſuivre
+<lb />Un Homme tel que vous, qui ſçait comme il faut
+<lb />vivre.
+<lb />De voſtre patience on ſe doit étonner.
+<lb />Pour moy, je vous l’aurois envoyé promener.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />D. JUAN, LA VIOLETE,
+<lb />SGANARELLE,
+</p>
+<sp type="MainZone-Sp"><lb />LA VIOLETE.
+<lb />V Oſtre Marchand eſt là, Monfieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Qui?
+</sp>
+<sp type="MainZone-Sp"><lb />LA VIOLETE.
+<lb />Ce grand Homme
+<lb />Monſieur Dimanche.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Peſte, un Creanciet aſſomme.
+<lb />Dequoy s’aviſe-t-il d’eſtre ſi diligent
+<lb />A venir chez les Gens demander de l’argent?
+<lb />Que ne luy diſois-tu que Monſieur dîne en Ville?
+</sp>
+<sp type="MainZone-Sp"><lb />LA MOLEIE.
+<lb />Vrayment oüy, c’eſt un Homme à croire bien facile,
+<lb />Malgré ce que j’ay dit, il a voulu s’aſſeoir
+<lb />Là dedans pour l’attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu’il y demeure.
+<lb />Hé bien, juſques au ſon
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Non; fay qu’il entre au contraitt
+<lb />Je ne tarderay pas longtemps à m’en défaire.
+<lb />Lors que des Creanciers cherchent à nous parler,
+<lb />Ie trouve qu’il eſt mal de ſe faire celer.
+<lb />Ieurs viſites ayant une fort juſte cauſe,
+<lb />Il les faut tout au moins payer de quelque choſe,
+<lb />Et ſans leur rien donner, je ne manque jamais
+<lb />A les faire de moy ietourner Inemiuns,
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />D. JUAN, Mr DIMANCHE.
+<lb />SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />On jour, Monſieur Dimanc he, eh, que ce m’eſt
+<lb />de joye
+<lb />De pouvoir... ne ſouffrez jamais qu’on vous renvoye,
+<lb />J’ay bien grondé mes Gens, qui ſans-doute ont eu
+<lb />tort
+<lb />De n’avoir pas voulu vous faire entrer d’abord.
+<lb />Ils ont orure aujouid naj de ilouvin aperlonne;
+<lb />Mais ce n’eſt pas pour vous que cet ordre ſe donne,
+<lb />Et vous eſtes en droit, quand vous venez chez moy,
+<lb />De n’y trouver jamais rien de ferme.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Monſieur, qu’il...
+<lb />Je croy,
+</sp>
+<sp type="MainZone-Sp"><lb />L. JUAN.
+<lb />Les Coquins! voyez, laiſſer attendre
+<lb />Monfieur Dimanche ſeul! Oh, je leur veux appren<lb />dre
+<lb />A connoiſtre les Gens.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Cela n’eſt rien.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Comment?
+<lb />Quaiid je luin daniha Chambre, oſue bratontément
+<lb />Dire à Monſieur Dimanche, au meilleur...
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Sans colere.
+<lb />Monſieur, une autrefois ils craindront de lefaire.
+<lb />J’eſtois venu...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Jamais ils ne font autrement,
+<lb />Ca, pour Monſieur Dimanche un Siege, prompte
+<lb />ment.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Je ſuis dans mon devoir,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Non, vous ſerez aſſis.
+<lb />Debout! que je l’endure!
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Monſieur, je vous conjure...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Apportez, je vous aime, &amp; je vous voy d’un œil..
+<lb />Oſtez-moy ce Pliant &amp; donnez un Fauteüil.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Je n’ay garde, Monſieur, de...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Je le dis encore,
+<lb />Au point que je vous aime, &amp; que je vous honore,
+<lb />Je ne ſouffriray point qu’on mette entre nous deur
+<lb />Aucune diférence.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Ah! Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Allons, aſſeyez-vous.
+<lb />2
+<lb />Je le veux.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Comme le temps empire...
+</sp>
+<sp type="MainZone-Sp"><lb />Mettez-vous là.
+<lb />D. JOnIe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Monfieur, je n’ay qu’un mot à dire;
+<lb />J’eſtois...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Madan ious la, veasun jea
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Je fuis bien.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE s’aſſeyant dans un Fauteüil.
+<lb />C’eſt pour vous obeïr. Sans le beſoin extréme...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Non, ſi vous n’eſtes-là, je n’écoûteray rien.
+</sp>
+<sp type="MainZone-Sp"><lb />L. JOn*
+<lb />Parbleu, Monſieur Dimanche, avoüez-le vous<lb />meſme,
+<lb />2091 61
+<lb />Vous vous portez bien.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Oüy, mieux depuis quelques moit
+<lb />Que je n'avom pas fait. Ie iuis...
+</sp>
+<sp type="MainZone-Sp"><lb />4
+<lb />
+<lb />D. JUAN.
+<lb />Pius je vous vois,
+<lb />Plus j’admire ſur vous certain vif qui s’épanche.
+<lb />Quel teint!
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Je viens, Monſieur..
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et Madame Dimanche,
+<fw><lb />3
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Comment ſe porte-elle!
+<lb />M. DIMANCHE.
+<lb />Je viens vous...
+<lb />Aſſex bien, Dieu mercy,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Dumenage ene à tout le ſoucy.
+<lb />C’eſt une brave Femme.
+</sp>
+<sp type="MainZone-Sp"><lb />J'eſtois...
+<lb />M. DIMANCHE.
+<lb />Elle ent vontie Servante.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />me a bien lieu d’avoir l’ame contente,
+<lb />Que ſes Enfans ſont beaux! La potite Loüiſon,
+<lb />Hem?
+</sp>
+<sp type="MainZone-Sp"><lb />Je...
+<lb />M. DIMANCHE,
+<lb />C’eſt l’Enfant gaſté, Monſieur, de la Maiſon
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Rien n’eſt ſi joiy.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Monfieur, je...
+</sp>
+<sp type="MainZone-Sp"><lb />De jonii
+<lb />Queje l’aime!
+<lb />Et le petit Colin, eſt-il encor de meſme?
+<lb />Fuitentoujours grand bruit avecque ſon Tambourl
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Oüy. Monſieur, on en eſt étourdy tout le jour.
+<lb />Je venois...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Et Bruſquet, eſt-ce à ſon ordinaire!
+<lb />L’aimable petit Chien, pour ne ſe pouvoir taire,
+<lb />Mort
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />A ravir.
+<lb />C’eſt pis que ce n’eſtoit, nous n’en ſçaurions chevir;
+<lb />Et quand il ne voit pas noſtre petite Fille...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je prens tant d’intéreſt en toute la Famille.
+<lb />Qu’on doit peu s’étonner ſi je m’informe ainſy
+<lb />De tout l’un apres l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Oh, je vous compte auſſy
+<lb />Parmy ceux qui nous font...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Allons donc, je vous prie,
+<lb />Touchez, Monſieur Dimanche.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Ah!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />M’aimez-vous un peu? la.
+<lb />Mais ſans raillerie,
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Tres-humble Serviteur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Parbleu, je ſuis à vous auſſi de tout mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMAT CHD.
+<lb />Vous me rendez confus. Je...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Pour voſtre ſervice,
+<lb />Il n’eſt rien qu’avec joye en tout temps je ne fiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />C’eſt trop d’honneur pour moy; mais Monfieur, s’il
+<lb />vous plaiſt,
+<lb />je viens pour...
+</sp>
+<sp type="MainZone-Sp"><lb />Croyez-le.
+<lb />D. JUAN.
+<lb />Et cela, ſans aucun intéreſt,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+<lb />M. DIMANCHE.
+<lb />Je n’ay point merité cette grace.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Servir mes Amis n’a rien qui m’embaraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+</sp>
+<sp type="MainZone-Sp"><lb />Si vous...
+<lb />D. JUAN,
+<lb />Morineur Dhaubhej ongay de bonne foy,
+<lb />Vous n’avez point dîné, dînez avecque moy.
+<lb />Vous voila tout porté.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Non, Monſieur, une affaire
+<lb />Me rappelle chez nous, &amp; m’y rend neceſſaire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. Juine ſe levant.
+<lb />viſte, allons, ma Caleche.
+</sp>
+<sp type="MainZone-Sp"><lb />D. DIMANCHE.
+<lb />Ah! c’eſt trop de moitié.
+</sp>
+<sp type="MainZone-Sp"><lb />Dépeſchons.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />ntoi, Mennears
+</sp>
+<sp type="MainZone-Sp"><lb />M. JUAN.
+<lb />Vous n’irez point à pié.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Monſieur, j’y vay toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />La reſiſtance eſt vaine;
+<lb />Vous m’eſtes venu voir, je veux qu’on vous remene
+</sp>
+<sp type="MainZone-Sp"><lb />J’avois la..
+<lb />M. DIMANCHE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN
+<lb />Tenez-moy pour voſtre Débiteur.
+</sp>
+<sp type="MainZone-Sp"><lb />Je voulois...
+<lb />a DiMNCHE.
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Je le ſuis, &amp; voſtre Debiteur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Ah! Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUI...
+<lb />Je n’en fais un ſecret à perſonne,
+<lb />Et de ce que je dois j’ay la mémoire bonne.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Si vous me...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUANV.
+<lb />Voulez-vous que je deſcende en bas,
+<lb />s je vaas iecandane.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+<lb />M. DIMANCHE.
+<lb />Ah! je ne le veux pas.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Embraſſez-moy donc, c’eſt d’une amitié pure,
+<lb />Qu'une ſeconde fois icy je vous conjure,
+<lb />D’eſtre perſuadé qu’envers &amp; contre tous,
+<lb />Il n’eſt rien qu’au beſoin je ne fiſſe pour vous.
+<fw><lb />D. Iuan ſe retire.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE reconduiſaut M. Dimanche.
+<lb />Vous avez en Monſieur un Amy veritable,
+<lb />Un...
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />De civilitez il eſt vray qu’il m’accable.
+<lb />Et j’en ſuis ſi confus, que je ne ſçay comment
+<lb />Luy pouvoir demander ce qu’il me doit.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Vrayment,
+<lb />Quand on parle de vous, il ne faut que l’entendre.
+<lb />Comme luy tous ſes Gens ont pous vous le cœur
+<lb />tendre.
+<lb />It pour vous le montrer, ah! que ne vous vient-on
+<lb />Donner quelque nazarde, ou des coups de bâton?
+<lb />Vous verriez de quel air...
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE,
+<lb />Je le croy, Sganarelle,
+<lb />Mais pour luy mille Ecus ſont une bagatelle,
+<lb />Et deux mots dis par vous...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Allez ne craignez rien,
+<lb />Vous en deuſt-il vingt mille, il vous les payeroit bien.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />miais vous; tousmie de renuuſſi pour voſtre con<lb />pte...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELEE.
+<lb />Fy, parler de cela! n’avez-vous point de honte?
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />M. DIMAREIID.
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELLD.
+<lb />Ne ſçay-je pas que je vous doy?
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Si tous...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Allez, Monſieur Dimanche, on vous attend chez
+<lb />vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. DIMANCHE.
+<lb />Mais mon argent?
+</sp>
+<p type="MainZone-Head"><lb />SGANARELLE.
+<lb />Hé bien, je dois; qui doit s’oblige.
+</p>
+<sp type="MainZone-Sp"><lb />Je veux..
+<lb />M. DIMANCHE.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah!
+<lb />SGANARELLE.
+<fw><lb />M. DIMANCHE.
+<lb />’entens...
+<lb />SGANARELLE.
+<lb />Bon.
+</fw></sp>
+<p type="MainZone-Entry"><lb />M. DIMANCHE.
+<lb />Atralos..
+</p>
+<p type="MainZone-Entry"><lb />SGANARELLE.
+</p>
+<p type="MainZone-Entry"><lb />M. DIMANCHE.
+<lb />Je...
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Fy, vous dis-je.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />D. JUAN, SGANARELLE,
+<lb />D. ELVIRE.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Nous en voila défaits.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />A-t-il lieu de s’en plaindre?
+<lb />Et fort civilement.
+<lb />H iij
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Il auroit tort? comment!
+</sp>
+<sp type="MainZone-Sp"><lb />N’ay-je pas...
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ceux qui font les fautes qui les boivent
+<lb />Eſt-ce aux Gens comme vous à payer ce qu’ils doi<lb />vent?
+</sp>
+<sp type="MainZone-Sp"><lb />L JOIII
+<lb />Qu'on ſçache ſi bientoſt le dîner ſera preſt.
+</sp>
+<sp type="MainZone-Sp"><lb />à Elvire qu’il voit entrer.
+<lb />Quoy, vous encor, Madame? en deux mots, s’il
+<lb />I’ay haſte,
+<lb />vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Dans l’ennuy dont mon ame eſt atteinte,
+<lb />Vous oraignez ma douleur, mais perdez cette crainte
+<lb />Je ne viens point icy pleine de ce couroux,
+<lb />Que je n’ay que trop fait éclater devant vous,
+<lb />Par un premier Hymen une autre vous poſſede,
+<lb />On m’a tout éclairey, c’eſt un mal ſans remede,
+<lb />Et je me ferois tort de vouloir diſputer,
+<lb />Ce que contre les loix je ne puis emporter.
+<lb />J’ay ſans-doute à rougir malgré mon innocence,
+<lb />D’avoir crû mon amour avec tant d’imprudence,
+<lb />Qu’en vous donnant la main j’ay receu voſtre foy;
+<lb />Sans voir ſi vous eſtiez en pouvoir d’eſtre à moy.
+<lb />Ce deſſein avoit beau me ſembler teméraire,
+<lb />Je cherchois le ſecret par la crainte d’un Frere,
+<lb />Et le tendre panchant qui me fit tout oſer,
+<lb />Sur vos ſermens trompeurs ſervit à m’abuſer.
+<lb />Le crime eſt pour vous ſeul, puis qu’enfin éclaircie,
+<lb />Jeſonge à ſatisfaire à ma gloire noircie,
+<lb />Et que ne vous pouvant conſerver pour Epoux,
+<lb />J’éteins la fole ardeur qui m’attachoit à vous.
+<lb />Non qu’un juſte remords l’étouffe dans mon ame,
+<lb />Juſques à n’y laiſſer aucun reſte de flâme,
+<lb />Mais ce reſte n’eſt plus qu’un amour épuré;
+<lb />C’eſt un feu dont pour vous mon cœut eſt éclairé,
+<lb />Un feu purgé de tout, une ſainte tendreſſe,
+<lb />Qu’au commerce des ſens nul deſir n’intéreſſe,
+<lb />Qui n’agit que pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah!
+</sp>
+<sp type="MainZone-Sp"><lb />E2 vonla,
+<lb />Ton cœur eſt attendry.
+<lb />Tu pleures, je croy,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Monſieur, pardonnez-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE,
+<lb />C’eſt ce parfait amour qui m’engage à vous dire,
+<lb />Ce qu’aujourd’huy le Ciel pour voſtre bien m’inſ<lb />pire,
+<lb />Le Ciel dont la bontécherche à vous ſecourir,
+<lb />Preſt à choir dans l’abyſme où je vous voy courir.
+<lb />Oüy, D. Juan, je ſçay par quel amas de crimes
+<lb />Vos peines qu’il réſout luy ſemblent legitimes,
+<lb />Et je viens de ſa part vous dire que pour vous
+<lb />Sa clemence a fait place à ſon juſte couroux,
+<lb />Que las de vous attendre, il tient la foudre preſte,
+<lb />Qui depuis ſi longtemps menace voſtre teſte,
+<lb />Qu’il eſt encor en vous par un prompt repentir,
+<lb />De trouver les moyens de vous en garantir,
+<lb />Et que pour éviter un malheur ſi funeſte,
+<lb />Ce jour, ce jour peut-eſtre eſt le ſeul qui vous reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />Menſieur!
+<lb />SGANARELLE.
+<lb />Pour moy qui ſors de mon aveuglement
+<lb />Je n’ay plus pour la terre aucun attachement,
+<lb />Ma retraite eſt concluë, &amp; c’eſt là que ſans ceſſe
+<lb />Mes larmes tâcheront d’effacer ma foibleſſe,
+<lb />Heureuſe ſi je puis par ſon auſterité
+<lb />Obtenir le pardon de ma crédulité;
+<lb />Mais dans cette retraite, où l’on meurt à ſoy-meſme
+<lb />J’avois, je vous l’avouë, une douleur extréme,
+<lb />Qu’un Homme à qui j’ay crû pouvoir mnocem<lb />ment
+<lb />De mes plus tendres vœux donner l’empreſſement,
+<lb />Devinſt par un revers aux méchans redoutable,
+<lb />Des vangeances du Ciel l’exemple épouvantable.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Monſieur, encor un coup...
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />De grace, accordez-moy
+<lb />Ce que doit mériter l’état où je me voy.
+<lb />Voſtre ſalut fait ſeul mes plus fortes alarmes,
+<lb />Ne le refuſez point à mes vœux, à mes larmes,
+<lb />Len vortre interert ne vous içaufoit toucher,
+<lb />Au crime en ma faveur daignez vous arracher,
+<lb />Etm'epargner l’ennuy d’avoir pour vous a craindre
+<lb />Le couroux que jamais le Ciel ne laiſſe éteindre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />La pauvre Femme!
+</sp>
+<sp type="MainZone-Sp"><lb />C ALVIRE.
+<lb />Enfin ſi le faux nom d’Epoux
+<lb />M’a fait tout oublier pour vivre toute à vous,
+<lb />Si je vous ay fait voir la plus forte tendreſſe
+<lb />Quijamais d’un cœur noble ait eſté la maiſtreſſe,
+<lb />Tout le prix que j’en veux, c’eſt de vous voir ſonger
+<lb />Au bonheur que pour vous je tâche à ménager.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Cœur de Tygre!
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Voyez que tout eſt périſſable,
+<lb />Examinez la peine infaillible au coupable,
+<lb />Et de voſtre ſalut faites-vous une loy,
+<lb />Ou pour l’amour de vour, ou pour l’amour de moy.
+<lb />C’eſtà ce but qu’il faut que tous vos deſirs tendent,
+<lb />Et ce que de nouveau mes larmes vous demandent.
+<lb />Si ces larmes ſont peu, j’oſe vous en preſſer
+<lb />2ai touree quijamais vous put intelenti.
+<lb />Apres cette priere, adieu, je me retire,
+<lb />Songez à vous, c’eſt tout ce que j’avois à dire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />J’ay fort preſté l’oreille à ce pieux diſcours,
+<lb />Madame avecque moy demeurez quelques jours,
+<lb />Peut-eſtre en me parlant vous me toucherez l’ame.
+</sp>
+<sp type="MainZone-Sp"><lb />D. ELVIRE.
+<lb />Demeurer avec vous n’eſtant point voſtre Femme!
+<lb />Je vous ay découvert de grandes veritez.
+<lb />D. Juan, craignez tout, ſi vous n’en profitez.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />D. JUAN, SOATARELLE. Suite.
+</p>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />LA laiſſer partir, ſans...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Sçais-tu bien, Sganarelle,
+<lb />Que mon cœur s’eſt encor preſque ſenty pour elle?
+<lb />Ses larmes, ſon chagrin, la retolution,
+<lb />Tout cela m’a fait naiſtre un peu d’émotion,
+<lb />Dans ſon air languiſſant je l’ay trouvée aimable.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et tout cé qu’elle a dit n’a point eſté capable...
+</sp>
+<sp type="MainZone-Sp"><lb />Viſte à diner.
+<lb />el d Mlei
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />folt oleu,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Pourquoy me regarder?
+<lb />Va, va, je vayorentatomnger à m’amender.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ma foy, n’en riez point, rien n’eſt ſi neceſſaire
+<lb />Que de ſe convertir.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />C’eſt ce que je veux faire,
+<lb />Encor vingt ou trente ans des plaiſirs les plus doux,
+<lb />Toûjours en joye, &amp; puis nous penſerons à nous.
+<lb />SGANARELLE.
+<lb />Voila des Libertins l’ordinaire langage,
+<lb />Mais la mort...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Hem.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu’on ſerve. Ah bon; Monſieur, courage,
+<lb />Grande chere, tandis que nous nous portons bten.
+<lb />It prinu un morteas uans un des Plats qu’on
+<lb />apporte, &amp; le met dans ſa bouche.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quelle enfleure eſt cela? parle, dy, qu’as-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Rien.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Attens, montre. Sa jouë eſt toute contrefaite,
+<lb />C’eſt une fluxion; qu’on cherche une Lancete.
+<lb />Le pauvre Garçon! viſte. Il faut le ſecourir.
+<lb />ol cet ablces fentroit, ien pourroit mourir.
+<lb />Qu’on le perce, il eſt meur. Ah! Coquin que vous
+<lb />eſtes,
+<lb />Vous oſez donc...
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ma foy, ſans chercher de défaites,
+<lb />Je voulois voir, Monſieur, ſi voſtre Cuiſinier
+<lb />N’avoit point trop poivré ce ragouſt; le dernier
+<lb />L’eſtoit en diable, auſſi vous n’en mangeaſtes guere.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Puis que la faim te preſſe, il faut la ſatisfaire.
+<lb />Fay-toy donner un ſiege, &amp; mange avecque moy,
+<lb />Auſſi bien cela fait j’auray beſoin de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE prenant un ſiege.
+<lb />Volontiers, j’y tiendray bien ma place,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Mange donc.
+<lb />SGANARELLE.
+<lb />Vous ſerez content; de voſtre grace
+<lb />vous m’avez fait partir faus déjeuner, ainſy
+<lb />J’ay l’appétit, Monſieur, bien ouvert, Dieu mercy.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />Je le voy.
+<lb />SGANARELLE.
+<lb />Quand j’ay faim je mange comme trente,
+<lb />Taſtez-moy de cela, la ſauſſe eſt excellente,
+<lb />Si j’avois ce Chapon je le menerois loin.
+<lb />Tout doux, petit Compere, il n’en eſt pas beſoin.
+<lb />Rengainez.! Vertubleu, pour lever les aſſietes,
+<lb />Vous eſtes bien ſoigneux d’en préſenter de nettes,
+<lb />Et vous, Monfieur Pieard, treve de compliment,
+<lb />Je n’ay point encor ſoif.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Va, dîne poſément.
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt bien dit.
+<lb />SGANARRLLE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Chante mioy queique Chanſon à boire.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Bientoſt, Monſieur, laiſſons travailler la machoire.
+<lb />Quand j’auray dit trois mots à chacun de ces Plats...
+<lb />Qui diable frape ainſi?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à un Laquais.
+<lb />Dy que je n’y ſuis pas.
+<lb />SGANARELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Attendez, j’aime mieux l’aller dire moy-meſme.
+<lb />Ah, Monſieur!
+</sp>
+<sp type="MainZone-Sp"><lb />DIJOINS
+<lb />D’où te vient cette frayeur extréme?
+</sp>
+<sp type="MainZone-Sp"><lb />3GANARELLE baiſſant la teſte.
+<lb />c’eſt le...
+</sp>
+<sp type="MainZone-Sp"><lb />Qu
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je ſuis mort.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Veux-tu pas t’expliquer?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Du faitur de... tantoſt vous penſiez vous moquer.
+<lb />Avancez, il eſt là, c’eſt luy qui vous demande.
+</sp>
+<sp type="MainZone-Sp"><lb />Allons le recevoir.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARBLLE.
+<lb />Si j’y vay, qu’on me pende.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Quoy, d’un rien ton courage eſt ſi-toſt abbatu?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah! pauvre Sganarelle, où te cacheras-tue
+<fw><lb />*
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />D. JUAN, LA STATUE du Com<lb />mandeur, SGANARELLE, ſuite.
+</p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb /> ontuit, a couvert. Je te tuis redevable
+<lb />à Sganarelle.
+<lb />D eſtre ſi ponctuel. Viens te remettre à table.
+</sp>
+<sp type="MainZone-Sp"><lb />ISGANARELLE.
+<lb />J’ay mangé comme un Chancre, &amp; je n’ay plus de
+<lb />faim.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUA N au Commandeur.
+<lb />Si de t’avoir icy j’euſſe eſté plus certain,
+<lb />Una pas mneux ſegle tauroit marqué mon zele.
+<lb />A boire. A ta ſanté, Commandeur. Sganarelle,
+<lb />jele la porte, allons, qu'oirtuy conne du Vin.
+<lb />Bois.
+</sp>
+<sp type="MainZone-Sp"><lb />SUANARELLE,
+<lb />Padabej jauiillie quuna nelt nmatins
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />chante, le Commandeur te voudra bien entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je ſuis tropenrumé.
+</sp>
+<sp type="MainZone-Sp"><lb />LA STATUE.
+<lb />Laiſſe. le s’en défendre,
+<lb />C’en eſt aſſez, je ſuis content de ton repas,
+<lb />Le temps fuit, la mort vient, &amp; tu n’y penſe pas.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ces avertiſſemens me ſont peu neceſſaires,
+<lb />Chantons, une autrefois nous parlerons d’affaires,
+</sp>
+<sp type="MainZone-Sp"><lb />LA STATUE.
+<lb />Peut-eſtre une autrefois tu le voudras trop tard,
+<lb />Mais puis que tu veux bien en courir le hazard,
+<lb />Dans mon l'ombeau ce ſoir a ſouper je t’engage.
+<lb />Promets moy d’y venir, auras-tu ce courage?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Oüy, Sganarelle &amp; moy nous irons.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Moy. non pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Poltron.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Jamais par jour je ne fais qu’uu repas.
+</sp>
+<sp type="MainZone-Sp"><lb />Adieu.
+<lb />DIMOTATUE.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JGAN.
+<lb />Juſqu’à ce ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />LA STATUE.
+<lb />Je t’attens.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Où me veut-il mener?
+<lb />mnesuole!
+</sp>
+<sp type="MainZone-Sp"><lb />D, JUAN.
+<lb />J’iray, fuſt-ce le Diable,
+<lb />Je veux voir comme on eſt régalé chez les Morts.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pour cent coups de bâtons que n’en ſuis-je dehors.
+<lb />Fin du Quatriéme Acte.
+</sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />SCENE PREMIERE.
+<lb />DMOUIO, D.JOAN,
+<lb />SGANARELLE.
+</p>
+<sp type="MainZone-Sp"><lb />D. LOUIS.
+<lb />E m’abuſez vous point, &amp; ſeroit-il
+<lb />poſſible,
+<lb />Que voſtre cœur, ce cœur ſi longtemps
+<lb />infſéxible,
+<lb />Si longtemps en aveugle au crime aban<lb />donné,
+<lb />Euſt rompu les liens dont il fut enchaîné?
+<lb />Qu’un pareil changement me va cauſer de joye!
+<lb />Mais encor une fois faut-il que je le croye,
+<lb />Et ſe peut-il qu’enfin le Ciel m’ait accordé,
+<lb />Ce qu’avec tant d’ardeur j’ay toûjours demandé?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />
+<lb />Oüy, Monſieur, ce retour dont j’eſtois ſi peu digne,
+<lb />Nous eſt de ſes bontez un témoignage inſigne.
+<lb />Je ne ſuis plus ce Fils, dont les lâches deſirs,
+<lb />N’eurent pour ſeul objet que d’infames plaiſirs,
+</sp>
+<p type="MainZone-Lg"><lb />Le Ciel, dont la clemence eſt pour moy ſans ſeconde
+<lb />M’a fait voir tout à coup les vains abus du monde,
+<lb />Tout à coup de ſa voix l’attrait victorieux
+<lb />A penetré mon ame, &amp; deſſillé mes yeux,
+<lb />Et je vois, par l’effet dont ſa grace eſt fuivie,
+<lb />Avec autant d’horreur les taches de ma vie,
+<lb />Que j’eus d’emportement pour tout ce que mes ſens
+<lb />Trouvoient à me flater d’apas ébloüiſſans.
+<lb />Quand j’oſe rappeller l’excés abominable
+<lb />Des déſordres honteux dont je me ſens coupable,
+<lb />Je fremis &amp; m’étonne, en m’y voyant courir,
+<lb />Comme le Ciel a pûſi longtemps me ſouffrir,
+<lb />Comme cent &amp; cent fois il n’a pas ſur ma teſte
+<lb />Lancé l’affreux carreau qu’aux Méchans il appreſte.
+<lb />L’amour qui tint pour moy ſon couroux ſuſpendu,
+<lb />M’apprend à ſes bontez quel ſacrifice eſt dû.
+<lb />Il l’attend, &amp; ne veut que ce cœur infide le,
+<lb />Ce cœur juſqu’à ce jour à ſes ordres rebelle.
+<lb />Enfin (&amp; vos ſoûpirs l’ont ſans-doute obtenu)
+<lb />De mes égaremens me voila revenu.
+<lb />Plus de remiſe, il faut qu’aux yeux de tout le monde,
+<lb />A mes folles erreurs mon répentir réponde,
+<lb />Que j’efface, en changeant mes criminels deſirs,
+<lb />L’empreſſement fatal que j’eus pour les plaiſirs,
+<lb />Et tâche à réparer par une ardeur égale,
+<lb />Ce que mes paſſions ont cauſé de ſcandale.
+<lb />C’eſt à quoy tous mes vœux aujourd’huy ſont per<lb />tez,
+<lb />Et je devray beaucoup, Monſieur, à vos bontez,
+<lb />Si dans le changement où ce retour m’engage,
+<lb />Vous me daignez choiſir quelque ſaint Perſonnage;
+<lb />Qui me ſervant de Guide, ait ſoin de me mon<lb />trer
+<lb />A bien ſuivre la route où je m’en vais entrer.
+</p>
+<sp type="MainZone-Sp"><lb />D. LOUIS.
+<lb />Ah! qu’aiſément un Fils trouve le cœur d’un Pere.
+<lb />Preſt au moindre remords à calmer ſa colere!
+<lb />Quels que ſoient les chagrins que par vous j’ay re<lb />çeus,
+<lb />Vous vous en répentez, je ne m'en ſouviens plus.
+<lb />Tout vous porte à gagner cette grande victoire,
+<lb />L’intéreſt du ſalut, celuy de voſtre gloire,
+<lb />Combatez, &amp; ſur tout ne vous relâchez pas.
+<lb />Mais dans cette Campagne, où s’adreſſent vos pas?
+<lb />J’ay ſorty de la Ville exprés pour une aſſaite,
+<lb />Où des hier ma préſence eſtoit fort neceſſaire,
+<lb />Et j'ay voulu marcirer uin frromentuuxxtodf,
+<lb />Mon Carroſſe m’attend à ce premier détour,
+<lb />Venez.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Non, aujourd’huy ſouffrez-moy l’avantage.
+<lb />D’un peu de ſolitude au prochain Hermitage.
+<lb />C’eſt-là que retiré, loin du monde &amp; du bruit,
+<lb />Pour m’offrir mieux au Ciel je veux paſſer la nuit.
+<lb />Ma peine y finira, tout ce qui m’en peut faire
+<lb />Dans ce détachement qui m’eſt ſi neceſſaire,
+<lb />C’eſt que pour mes plaiſirs je me ſuis fait preſter
+<lb />Des ſommes que je ſuis hors d’état d’acquiter.
+<lb />Faute de rendre, il eſt des Gens qui me maudiſſent,
+<lb />Qui font...
+</sp>
+<sp type="MainZone-Sp"><lb />D. LOUIS.
+<lb />Que là-deſſus vos ſcrupules finiſſent.
+<lb />Je payeray tout, mon Fils, &amp; prétens de mon bien
+<lb />Vous donner...
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ah! pour moy je ne demande rien<lb />Pourveu que par mes pleurs mes fautes reparées..
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />O conſolations! douceurs ineſperées!
+<lb />Tous mes vœux ſont enfin heureuſement remplis;
+<lb />Grace aux bontez du Ciel, j’ay retrouvé mon Fils,
+<lb />Il ſe rend à la voix qui vers luy le rappelle.
+<lb />Je cours à voſtre Mere en porter la nouvelle.
+<lb />Adieu, prenez courage, &amp; ſi vous perſiſtez,
+<lb />N’attendez plus que joye &amp; que proſperitez.
+<fw><lb />SCENE II.
+<lb />D. JUAN, SGANARELLE.
+<lb />SGANARELLE en pleurant.
+<lb />MOnfeus.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Qu’eſt ce?
+<fw><lb />S
+<lb />GANARELLE.
+<lb />Ah!
+<lb />D. JUAN.
+<lb />Comment? tu pleures?
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />C’eſt de joye
+<lb />De vous voir embraſſer enfin la bonne voye.
+<lb />Jamais encor, je croy, je n’en ay tant ſenty.
+<lb />Ah, quel plaiſir ce m’eſt de vous voir con verty!
+<lb />Le Ciel a bien pour vous exaucé mon envie.
+<lb />Franchement vons meniez une diuble de vie,
+<lb />Mais à tout Pecheur grace, il n’en faut plus parler.
+<lb />L’Fesmitage eſt-il loin ou vous voulez aller;
+</sp>
+<sp type="MainZone-Sp"><lb />Eh.
+<lb />D. JUAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Seroit ce là-bas? vers cet endroit ſauvage...
+</sp>
+<sp type="MainZone-Sp"><lb />D. Janiv. -
+<lb />La peſte le Beneſt avec ſon Hermitage:
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pourquoy? Frere Pacome eſt un Homme de bien.
+<lb />Et je croy qu’avec luy vous ne perdriez rien.
+</sp>
+<sp type="MainZone-Sp"><lb />Ba JOIN.
+<lb />Parbleu, tu me ravis. Quoy, tu me crois ſincere,
+<lb />Dans un conte forgé pour attraper mon Pere?
+</sp>
+<sp type="MainZone-Sp"><lb />SCANARELLE.
+<lb />Comment? vous ne... Monſieur, c’eſt.. où donc
+<lb />allons-nous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />La Belle de tantoſt m’a donné rendez-vous,
+<lb />voiey i'neure, &amp; j’y vay, c'eſt là mon Hermitage.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />La retraite ſera méritoire. Ah! j’enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />Elle eſt jolie, oüy?
+<lb />D. JCAN.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mais l'aifer enerener ſi loin?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Elle m’a touché l’ame, &amp; s’il eſtoit beſoin.
+<lb />Pour ne la manquer pas, j’irois juſques a Rome.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Belle converſion! ah quel Homme, quel Homme!
+<lb />Vous l’attendrez en vain, elle ne viendra pus.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je croy qu’elle viendra, moy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Tant pis,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />En tout cas,
+<lb />Ma peine au rendez-vous ne ſera point perduë,
+<lb />C’eſt où du Commandeur on a mis la Statuë,
+<lb />Il nous a conviez à ſouper. On verra
+<lb />Comment, s’il nous reçoit, il s’en acquitera.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Souper avec un Mort? tué par vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />N’importe,
+<lb />y aj prouiis, fur la peurfiia promiene l’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Et ſi la Belle vient &amp; ſe laiſſe emmener?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAN.
+<lb />Oh ma foy, la Statuë ira ſe promener,
+<lb />Je préfere à tout Mort une jeune Vivante.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Mais voir une Statuë &amp; mouvante &amp; parlante,
+<lb />N’eſt-ce pas...
+</sp>
+<sp type="MainZone-Sp"><lb />D, JUAN.
+<lb />Il eſt vray, c’eſt quelque choſe; envain
+<lb />Je ferois la-deſſus un jugement certain,
+<lb />Pour ne s’y point méprendre, il en faut voir la ſuite.
+<lb />Cependant, ſi j’ay feint de changer de conduite;
+<lb />Si j’ay dit que j’allois me déchirer le cœur,
+<lb />D’une vie exemplaire embraſſer la rigueur,
+<lb />C’eſt un pur ſtratageme, un reſſort neceſſaire,
+<lb />Par où ma Politique éblouiſſant mon Pere,
+<lb />Me va mettre à couvert de divers embarras,
+<lb />Dont ſans luy mes Amis ne me tireroient pas.
+<lb />Sil’on m’en inquiete, il obtiendra ma grace.
+<lb />Tu vois comme déja ma premiere grimace
+<lb />mupontoue luy mcimiea lovouloir charger
+<lb />Des debtes, dont par luy je vay me dégager.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Muis n’eſtant point devot, par quelle effronterie
+<lb />De la dévotion faire une mommerie?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il eſt des Gens de bien &amp; vrayment vertueux,
+<lb />Tout méchant que je ſuis j’ay du reſpect pour eux
+<lb />Mais ſi l’on n’en peut trop élever les mérites,
+<lb />Parmy ces Gens de bien il eſt mille Hypocrites,
+<lb />Qui ne ſe contrefont que pour en profiter,
+<lb />Et pour mes intéreſts je veux les imiter.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ah quel Homme, quel Homme!
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il n’eſt rien ſi commode,
+<lb />Vois-tu? l’hypocriſie eſt un vice à la mode,
+<lb />Et quand de ſes couleurs un vice eſt reveſtu,
+<lb />Sous l’appuy de la mode il paſſe pour vertu,
+<lb />Sur tout ce qu’à joüer il eſt de perſonnages,
+<lb />Celuy d’Homme de bien a de grands avantages,
+<lb />C’eſt un Art grimacier, dont les détours flateurs
+<lb />Cachent ſous un beau voile un amas d’Impoſteurs.
+<lb />On a beau découvrir que ce n’eſt que faux zele,
+<lb />L’impoſture eſt reçeuë, on ne peut rien contre-elle,
+<lb />La cenſure voudroit y mordre vainement;
+<lb />Contre tout autre vice on parle hautement,
+<lb />Chacun a liberté d’en faire voir le piege,
+<lb />Mais pour l’hypocrifie elle a ſon privilege,
+</sp>
+<sp type="MainZone-Sp"><lb />Qui ſous le maſque adroit d’un viſage emprunté,
+<lb />Luy fait tout entreprendre avec impunité.
+<lb />Flatant ceux du Party, plus qu’aucun redoutable,
+<lb />On ſe fait d’un grand corps le membre inſépafable,
+<lb />C’eſt alors qu’on eſt ſeûr de ne ſuccomber pas,
+<lb />Quiconque en bleſſe l’un, les a tous ſur les bras,
+<lb />Et ceux meſme qu’on ſçait que le Ciel ſeul occupe,
+<lb />Des Singes de leurs mœurs ſont l’ordinaire dupe;
+<lb />A quoy que leur malice ait pûſe diſpenſer,
+<lb />Leur appuy leur eſt ſeûr, ils ont veu grimaſſer.
+<lb />Ah! combien j’en connois qui par ce ſtratageme,
+<lb />Apres avoir vécu dans un déſordre extréme,
+<lb />S’armant du bouclier de la Religion,
+<lb />Ont rhabillé ſans bruit leur dépravation,
+<lb />Et pris droit, au milieu de tout ce que nous ſommes.
+<lb />D’eſtre ſous ce manteau les plus méchans des Hom<lb />mes,
+<lb />On a beau les connoiſtre, &amp; ſçavoir ce qu’ils ſont,
+<lb />Trouver lieu de ſcandale aux intrigues qu’ils ont,
+<lb />Toûjours meſme crédit; un maintien doux, hon<lb />neſte,
+<lb />Quelques roulemens d’yeux, des baiſſemens de teſte,
+<lb />Trois ou quatre ſoûpirs meſlez dans un diſcours.
+<lb />Sont pour tout rajuſter d’un merveilleux ſecours.
+<lb />C’eſt ſous un tel abry qu’aſſurant mes affaires,
+<lb />Je veux de mes Cenſeurs duper les plus ſeveres,
+<lb />Je ne quiteray point mes pratiques d’amour,
+<lb />J’auray ſoin ſeulemeut d’éviter le grand jour,
+<lb />Et ſçauray, ne voyant en public que des Prudes,
+<lb />Oarder à petit bruit mes douces habitudes.
+<lb />Si je ſuis découvert dans mes plaiſirs ſecrets,
+<lb />Tout le corps en chaleur prendra mes intéreſts,
+<lb />Et ſans me remüer, je verray la cabale
+<lb />Me mettre hautement à couvert du ſcandale.
+</sp>
+<sp type="MainZone-Sp"><lb />100
+<lb />C’eſt-là le vray moyen d’oſer impunément
+<lb />Permettre à mes dẽſirs un plein emportement
+<lb />Des actions d’autruy je feray le Critique,
+<lb />Médiray ſaintement, &amp; d’un ton pacifique.
+<lb />Applaudiſſant à tout ce qui ſera blâmé,
+<lb />Ne croiray que moy ſeul digne d’eſtre eſtimé.
+<lb />S’il faut que d’intéreſt quelque affaire ſe paſſe.
+<lb />Fuſt-ce Veuve, Orphelin, point d’accord, point de
+<lb />grace,
+<lb />Et pour peu qu’on me choque, ardent à me vanger
+<lb />Jamais rien au pardon ne pourra m’obliger.
+<lb />J’auray tout doucement le zele charitable,
+<lb />De nourrir une haine irréconciliable,
+<lb />Et quand on me viendra porter à la douceur,
+<lb />Des intéreſts du Ciel je feray le vangeur;
+<lb />Le prenant pour garand du ſoin de ſa querelle.
+<lb />J’appuyeray de mon cœur la malice infidelle.
+<lb />Et ſelon qu’on m’aura plus ou moins reſpecté.
+<lb />Je damneray les Gens de mon autoritê.
+<lb />C’eſt ainſi que l’on peut, dans le ſiecle où nous
+<lb />IomiHles,
+<lb />Profiter ſagement des foibleſſes des Hommes.
+<lb />Et qu’un eſprit bien fait, s’il craint les Mécontens,
+<lb />Se doit accommoder aux vices de ſon temps,
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Qu'entens-je? ç’en eſt fait, Monſieur, &amp; je le quite,
+<lb />Il ne vous manquoit plus que vous faire Hypocrite,
+<lb />Vous eſtes de tout point achevé, je le voy,
+<lb />Aſſommez-moy de coups, percez moy, tuez moy,
+<lb />Il faut que je vous parle, il faut que je vous diſe,
+<lb />Tant va la cruche à l’eau qu’enfin elle ſe briſe:
+<lb />Et comme dit fort bien en moindre ou pareil cas,
+<lb />Un Autheur renoniie que je ne comois pas,
+<fw><lb />Un
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Un Oyſeau ſur la branche eſt proprement l’exem<lb />ple
+<lb />
+<lb />2
+<lb />De l’Homme qu’en Pécheur icy bas je contemple;
+<lb />La branche eſt attachée à l’Arbre; qui produit,
+<lb />Selon qu’il eſt planté, de bon où mauvais fruit.
+<lb />Le Fruit, s’il eſt mauvais, nuit plus qu’il ne profite,
+<lb />Ce qui nuit, vers la mort nous fait aller plus viſte,
+<lb />Ta mort eſt une loy d’un uſage important,
+<lb />Qui peut vivre ſans loy, vit en brute; &amp; partant
+<lb />ldmaſſez, ce ſont-là preuves indubitables,
+<lb />Qui font que vous irez, Monſieur, à tous les Dia<lb />bles.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Le beau raiſonnement!
+<lb />111
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Ne vous rendez donc pas,
+<lb />soyez damné tout ſeul, car pour moy je ſuis las...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN appercevant Leonor.
+<lb />N’avois-je pas raiſon? Regarde, Sganarelle,
+<lb />Vient-on au rendez-vous?
+<fw><lb />1
+<lb />.1 1l
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />D. JOARS LDONOUICALE
+<lb />SGANARELEL
+<fw><lb />11..
+</fw></p>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb /> obbojje. ah ma Belle
+<lb />Vous voila; je tremblois que par quelque embarras
+<lb />Vous ne puſſiez ſortir.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Oh point, mais n’eſt-ce pas
+<lb />Monſieur le Medecin que je voy-la?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Luy-meſme,
+<lb />Il a pris cet Habit, mais c’eſt par ſtratageme,
+<lb />Pour certain Largoureux chez qui je l’ay mené,
+<lb />Contie les Mreucenis de tout temps déchaîné.
+<lb />Il n’en veut voir aucun; &amp; Monſieur, ſans rien dire,
+<lb />A reconnu ſon mal dont il ne fait que rire.
+<lb />Certaine herbe déja l’a fort diminué.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Ma Tante a pris ſa poudre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE gravement.
+<lb />A-t-elle éternué?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />Ie ne ſçay, car ſondain ſans vouloir voir perſonne,
+<lb />Elle s’eſt miſe au lit.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />La chaleur eſt fort bonne
+<lb />Pour ces ſortes de maux.
+</sp>
+<sp type="MainZone-Sp"><lb />FTONOR.
+<lb />Oh, je croy bien cela.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JOAII..
+<lb />Et qui donc avec vous nous amenez-vous-là?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />C’eſt ma Nourrice. Ah! ſi vous ſçaviez, elle-m’aime....
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Vous avez fort bien fait, &amp; ma joye eſt extréme,
+<lb />Que quand je vous épouſe elle ſoit caution...
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Vous faites-là, Monſieur, une bonne action,
+<lb />Pour entrer au Convent la pauvre Creaturé
+<lb />Tous les jours de ſouflets avoit pleine meſure,
+<lb />Cutenpiue.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Bien-toſt, Dieu mercy, la voila
+<lb />Erempte an m’épouſant de tous ces chagrins-là.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur...
+<lb />LEONOR.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />C’eſt à mes yeux la plus aimable Fille....
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Jamais vous n’en pouviez prendre une plus gentille,
+<lb />Qui vous puſt mieux.. eafin traitez-la doucement,
+<lb />Vous en aurez, Monſieur, bien du contentement.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Je le croy; mais allons, ſans tarder davantage,
+<lb />Dreſſer tout ce qu’il faut pour noſtre mariage,
+<lb />Je veux le faire en forme, &amp; qu’il n’y manque rien.
+<lb />K ij
+</sp>
+<sp type="MainZone-Sp"><lb />P’ASCALE.
+<lb />Eh vous n’y perdrez pas, ma Fille a de bon bien.
+<lb />Quand ſon Pere mourut, il avoit des Piſtoles
+<lb />Plus gros...
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb /> D. JUAN.
+<lb />Ne perdons point le temps à des paroles
+<lb />Allons, venez, mia bene, un. que jay de bonheur
+<lb />Vous allez eſtre à moy.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEONOR.
+<lb />4
+<lb />Ce m’eſt beaucoup d’honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE bas à Paſcale.
+<lb />Il cherche à la duper, gardez qu’il ne l’emmene,
+<lb />C’eſt un Fourbe.
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE bas.
+<lb />A plus d’une douzaine...
+<lb />T Haut ſe voyant obſervé par D. Iuan)
+<lb />Ah l’honneſte Homme! allez, voſtre Fille aujour<lb />d’huy
+<lb />Auroit eu beau chercher pour trouver mieux que luy
+<lb />Il a de l’amitié.. croyez-moy qu’une Femme
+<lb />Sera la bien... &amp; puis il la fera grand' Dame.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Leonor.
+<lb />Ne nous arreſtons point, ma Belle, j’aurois peur
+<lb />Que queiqu'un ne furvinnt.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE bas à Paſcale.
+<lb />C’eſt le plus grand trompeur...
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE à D Iuan.
+<lb />Où donc nous menez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Tout droit chez un Notaire.
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Non, Monſieur, dans le Bourg il ſeroit neceſſaire
+<lb />D’aller chez ſa Couſine, afin qu’eſtant témoin
+<lb />De voſtre foy donnée...
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il n’en eſt pas beſoin,
+<lb />Monſieur le Medecin &amp; vous, devez ſuffire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORAPaſche.
+<lb />Sommes nous pas d’accord?
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Il ne faut plus qu’écrire:
+<lb />Quand ils auront ſigné tous deux avecque nous,
+<lb />Que je vous prelis pour reunlie,d vous moy pour,
+<lb />Epoux,
+<lb />C’eſt comme ſi...
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Non, non, ſa Couſine y doit eſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE bas à Paſcale.
+</sp>
+<sp type="MainZone-Sp"><lb />Fort bien.
+<lb />LHCNOR.
+<lb />Quelque amitié qu’elle m’ait fait paroiſtre,
+<lb />Si chez elle il n’eſt pas neceſſaire d’aller,
+<lb />Ne uhions Iien, peut eitré elle voudroit parler.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN.
+<lb />Ouy, quailo on veut tem uncananelerete;
+<lb />Moins on a de Témoins, plus la choſe eſt bien faite,
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE.
+<lb />Mon Dieu, tout comme ailleurs, chez elle ſans éclat,
+<lb />Les rrotaires du Bourg dreſſeront le Contract.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Pourquoy vous défier? Monſieur a-t-il la mine
+<lb />D’eſtre un fourbe? Voyez. bas à Paſcale.
+<lb />Ferme chez la Couſine.
+<lb />K iij
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Leonor.
+<lb />Au hazard de l’entendre enfin nous quereller,
+<lb />Avançons.
+</sp>
+<sp type="MainZone-Sp"><lb />PASCALE arreſtant Leonor.
+<lb />Ce n’eſt point par là qu’il faut aller,
+<lb />Vous n’eſtes pas encor où vous penſez, beau Sire.
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à Leonor.
+<lb />Douolons lc pas enſembie, niaut la laiſſer dire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LA STATUE du Commandeur, D. JUAN
+<lb />LEONOR, PAS CALE,
+<lb />SGANARELLE.
+<lb />LA STATUE prenant D. Iuan par le bras.
+<lb />ARreſte, D. Juan<fw><lb />LEONOR.
+<lb />Ah! qu’eſt-ce que je voy?
+<lb />Ssuvons-nous viſt t, hélas!
+<lb />D. JUAN tachant à ſe défaire de la Statuë,
+<lb />Ma Belle, attendez-moy,
+<lb />Je ne vous quit te point.
+</fw></p>
+<sp type="MainZone-Sp"><lb />LA STATUE.
+<lb />Tu reſiſtes en vain.
+<lb />Encor un coup demeure,
+</sp>
+<sp type="MainZone-Sp"><lb />C'en eſt fait.
+<lb />SGANARELLE.
+<lb />Voicy ma derniere heure,
+</sp>
+<sp type="MainZone-Sp"><lb />D. JUAN à la Statuë.
+<lb />Laiſſe moy.
+</sp>
+<sp type="MainZone-Sp"><lb />SGANARELLE.
+<lb />Je ſuis à vos genoux,
+</sp>
+<sp type="MainZone-Sp"><lb />Madame la Statuë, ayez pitié de hous,
+<lb />LA STATUE.
+</sp>
+<sp type="MainZone-Sp"><lb />Je t’attendois ce ſoir à ſouper.
+<lb />D. JUAN.
+<lb />Je t'en quite</sp>
+<sp type="MainZone-Sp"><lb />Ou me demande ailleurs,
+<lb />LA STATUE.
+<lb />Tu n’iras pas ſi viſte,
+<lb />Einiteſt en eſt donne; tu touenee l moment
+<lb />Où le Ciel va punir ton endurciſſement.
+</sp>
+<sp type="MainZone-Sp"><lb />Tremble.
+<lb />D. JUAN.
+<lb />Tu me iais tort, quand tu m’en crois capable;
+<lb />Je ne ſçay ce que c’eſt que trembler.
+<lb />SGANARELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />Déteſtable!
+</sp>
+<sp type="MainZone-Sp"><lb />LA STATUE.
+<lb />Je t’ay dit dés tantoſt que tu ne ſongeois pas
+<lb />Que la mort chaque jour s’avançoit à grands pas,
+<lb />Au lieu d’y refléchir, tu retournes au crime,
+<lb />Et t’ouvres a toute neure abyſme ſur abyſme,
+<lb />Apres avoir en vain ſi longtemps attendu,
+<lb />2
+<lb />Le Ciel ſe laſſe; prens, voila ce qui t’eſt dû.
+<lb />La bruiue embraſſe D. Iuan, &amp; an moment
+<lb />apres tous les deux ſont abyſmez;
+<lb />JAN,
+</sp>
+<sp type="MainZone-Sp"><lb />D,
+<lb />Je brûle, &amp; c’eſt trop tard que mon ame interdite...
+</sp>
+<sp type="MainZone-Sp"><lb />Ciel!
+<lb />SGANARELLE.
+<lb />Il eſt englouty, je cours me rendre Hermite;
+<lb />L’exemple eſt étonnant pour tous les Scélerats;
+<lb />Malheur à qui le voit, &amp; n’en profite pas,
+</sp>
+<sp type="MainZone-Sp"><lb />FIN.
+</sp>
+<p type="MainZone-Head"><lb />Extrait du Privilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Privilege du Roy, donné à Pari
+<lb />TI4. de Mars 1683. Signé, Par le Roy en
+<lb />ſot
+<lb />Conſeil, DuGONO; Il eſt permis à T. C. de fain
+<lb />imprimer, vendre &amp; debiter par tel' Imprimeur ge
+<lb />Libraire qu’il voudra choiſir, une Piece de Théatre
+<lb />qu’il a miſe en Vers, intitulée Le Feſtin de Pierre
+<lb />pendant le temps de ſix années, à compter du jour
+<lb />que ladite Piece ſera achevée d’imprimer pour la
+<lb />premiere fois: Et défenſes ſont faites à tous autres
+<lb />Imprimeurs &amp; Libraires, de l’imprimer, faire im<lb />primer, vendre &amp; debiter, ſans le conſentement de
+<lb />l’Expoſant, ou de ceux qui auront droit de luy, à
+<lb />peine aux Contrevenans d’amende arbitraire, confiſ<lb />cation den Ehemplailes contreraits, &amp; de tous deſ<lb />pens, dommages &amp; intereſts, ainſi que plus au lons
+<lb />il eſt porté par ledit Privilege.
+<fw><lb />
+</fw></p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Livre de ja Cohimunauté le 23
+<lb />Mars 1623. Signe, ANGOT, Syndic.
+<fw><lb />14
+</fw></p>
+<p type="MainZone-List"><lb />Acheré d’imprimer le 30. Mars 1633
+<fw><lb />
+</fw><fw><lb />4
+</fw></p>
+    </body>
+  </text>
+</TEI>

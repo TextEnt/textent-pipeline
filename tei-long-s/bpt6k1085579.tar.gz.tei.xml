@@ -1,0 +1,3331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Panthée : tragédie / [par J.-G. Durval]</title>
+        <author>Durval, Jean-Gilbert</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb303878202"/>
+          <author>
+            <persName>Durval, Jean-Gilbert</persName>
+          </author>
+          <title>Panthée : tragédie / [par J.-G. Durval]</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1639" cert="high" resp="BNF">1639</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />R
+</fw>
+<p type="MainZone-Head"><lb />E
+<lb />d
+<lb />Mod,
+<lb />Chez CARDIN BESONGNE au Palais, à l’entrée
+<lb />de la petite Gallerie des Priſonniers, aux
+<lb />Roſes vermeilles.
+</p>
+<p type="MainZone-Head"><lb />M. DC. XXXIX.
+<lb />AVEC PRIVILEGE DV ROY.
+<fw><lb />128e
+<lb />2 M
+</fw></p>
+<p type="MainZone-Head"><lb />A
+<lb />TRES-HAVT ET PVISSANT
+<lb />PRINCE
+<lb />LOVIS DE SAVOYE,
+<lb />DVC DE GENEVOIS, DE NEMOVRS'
+<lb />&amp; d’Anmale, Pair de France, Marquis de
+<lb />Sainct Sorlin &amp; de Sainct Rhambert, Comte
+<lb />de Genéye &amp; de Giſors, Baron de Fouſſigny.
+<lb />Beaufort, &amp; Bray ſur Seyne, &amp;c.
+</p>
+<sp type="MainZone-Sp"><lb />ONSEIGNEVR,
+<lb />Si l'on croit pieuſement ceux qui profeſ<lb />ſent le: Sciences curieuſes des merueilles
+<lb />quils prediſent à la gloire des enfans qui viennent
+<lb />au monde, lors qu’en leur conſtellation ils remar<lb />quent pour aſcendant vn aſtre de bon augure preſi<lb />der à leur naiſſance: Je ne ſuis pas ſans excuſe, de me
+<lb />laiſſer aisément perſuader aux coniectures de ceux
+<lb />qui me font prendre bonne eſperance de cet ouurage,
+<lb />puis que non ſeulement, ii vuua a pren ue te rectuoir
+<lb />en naiſſant, mais que pour ainſi dire, des le mo<lb />ment de ſa conception vous l’aueZ honoré du fa<lb />uez, MONSEIGNEVR, l’âge qu’il peut auoir, de<lb />puis qu’il eſt dans voſtre maiſon. Uos excellentes
+<lb />qualitez, luy peuuent auoir imprimé ſon titre de
+<lb />Nobleſſe, &amp; vos biensfaits luy auoir donné la conſti<lb />tution requiſe à ſa durée: Außi ie vous le preſente
+<lb />pluſtost comme voſtre, que venant de moy, ayant
+<lb />l'honneur d’eſtre a vous autant par mon inclination
+<lb />que par les tres-humbles ſeruices que ie ſuis obligé de
+<lb />rendre actuellement à VOSTRE GRANDEVR. Si quel<lb />que autre de meſme ſubſtance, portant le meſme
+<lb />nom, luy dispute ſon rang &amp; ſon merite, vous ſçau<lb />reZ, s’il vous plaiſt, conſeruer le droict d’aineſſe à qui
+<lb />legitimement il appartiendra. Ie n’en ay autre ſenti<lb />mẽt que de tendreſſe naturelle, &amp; ne pretens pas le dõ<lb />ner au public pour l’émanciper de l’authorité abſoluë
+<lb />que vous auez ſur luy &amp; ſur ſon Auteur; il ſera
+<lb />trop heureux de porter les marques de voſtre genero<lb />ſité: Et moy trop honoré de vos commandements,
+<lb />&amp; de la permißion de me dire toute ma vie,
+</sp>
+<p type="MainZone-Other"><lb />MONSEIGNEVR.
+</p>
+<sp type="MainZone-Sp"><lb />DE VOSTRE GRANDEVR.
+<lb />Le tres-humble, tres-obeyſſant, &amp;
+<lb />tres-fidele Seruiteur, DVRVAL.
+<lb />E ſujet de ce Poëme Tragique ſe pouuant
+<lb />extraire du V. VI. &amp; VII, Liure des
+<lb />Pe Conqueſtes deCyrus le Grand, eſcri<lb />tes par Xenophon, &amp; n’ayant obmis à traiter en
+<lb />cette piece aucun veritable effet de l’hiſtoire de
+<lb />PANTHEE; Ie n’ay qu’vn mot à dire du Per<lb />ſonnage que ie fay ioüer à la Princeſſe d’Arme<lb />nie, dont le nom &amp; le déguiſement eſt d’autant
+<lb />plus vray ſemblable que ſon aduanture feinte eſt
+<lb />conforme au ſens de l’Autheur, qui rend ſa vertu
+<lb />recommendable de ce que par vn courage viril
+<lb />elle ſuiuit aux Guerres d’Aſſyrie Tygrane ſon
+<lb />mary. Les autres accidens &amp; circonſtances de
+<lb />mon inuention pourront eſtre obſeruées pour
+<lb />des fictions de lArt, qui n’alterent aucunement
+<lb />la matiere, &amp; rehauſſent l'ouurage.
+</sp>
+<p type="MainZone-Head"><lb />PREFACE
+</p>
+<p type="MainZone-P"><lb />Y
+<lb />ETTE Reyne infortunée, dont les ver<lb />tus heroiques furent autrefois dignes de la
+<lb />A plume des plus celebres Hiſtoriens de l’An<lb /> tiquité, ſemble meriter encore auiourd’huy
+<lb />d’exercer vn des plus nobles talens des lettres humaines,
+<lb />que depuis dix ans on fait valoir au Theatre François ſur
+<lb />vne infinité de beaux arguments. Celuy-cy ayant deſia
+<lb />paſſé par les mains d’vn ancien maiſtre, ſera poſſible re<lb />nouuellé plus que d’vne fois, en vn meſme temps, &amp; ie
+<lb />ne doute point que toute la Cour n’ait la premiere veüe
+<lb />des pieces qui en ſeront faites; mais comme on y rend
+<lb />plus de Iuſtice à nos Oeuures poëtiques, i’oſerois dire
+<lb />que l’honneur qu’elles reçoiuent d’y eſtre aprouuées, eſt
+<lb />le plus legitime &amp; le mieux acquis: l’aduoüe que d’eſ<lb />crire des poëmes de ce genre ſeulement pour eſtre leus,
+<lb />c’eſt leur oſter la moitié du iour qui leur donne la vie.
+<lb />Il n’en faut point faire, ou il les faut conduire à leur
+<lb />perfection autrement, comme c’eſt eſtre extremément
+<lb />vain d’auoir la paſſion d’eſtre proclamé dans l’Hoſtel de
+<lb />Bourgogne, &amp; celle d’eſtre eſtallé au Palais en lettre
+<lb />italique, ne deſirer point du tout l’applaudiſſement du
+<lb />Theatre, ny la lumiere du monde, c’eſt par vne mo<lb />deſtie affectée ſe rendre ridicule &amp; impertinent. En cet
+<lb />endroit s’il m’eſtoit permis de me iuſtifier de cet excés de
+<lb />vice &amp; de vertu, ie ne ſerois point honteux de confeſſer
+<lb />que i’ay eſté deux ou trois fois tenté de l’vn &amp; de l’autre
+<lb />&amp; ſenſiblement touché de tous les deux, &amp; que meſme
+<lb />quand ie me ſuis retiré de la Scene ie n’ay peu m’abſte<lb />nir de faire deux ou trois pieces à ſon vſage, dont voicy
+<lb />la derniere. C’eſt tout ce que i’auray planté de cette na<lb />ture ſur noſtre Parnaſſe, où n’enuiant aucun de ceux
+<lb />qui vont deuant moy, ie ne veux pas faire ombre à ceux
+<lb />qui me ſuiuent, &amp; ie ſouffriray des vns &amp; des autres, sils
+<lb />ne ſe contentent d’ébrancher la touffe de Lauriers que
+<lb />i’ay cultiuée, qu’ils l’arrachent par la facine du parterre
+<lb />des Muſes comme vn arbre inutile: Auſſi bien depuis
+<lb />que les Reguliers en ont ſous pretexte de reforme vſur.
+<lb />pé la poſſeſſion pour y fonder leur ſecte. Ie ne puis ſans
+<lb />paſſer pour ſcandaleux, m'affranchir, de la ſeuerité de
+<lb />leur Statut qui leur fait deſpenſer en vne iournée de
+<lb />vingt-quatre heures toute leur prouiſion ſans auoin
+<lb />ſoucy du lendemain. A cette regle n’ayant pas trouué
+<lb />bon d’adiuſter mes œuures, ny principalement celle<lb />cy, non qu’il ne m’eut eſté facile de l’obſeruer, mais
+<lb />par ce que ie ne l’ay pas iugée neceſſaire, il m’eſt plus
+<lb />ſeant de faire place aux Maiſtres qui l’enſeignont que
+<lb />de les choquer. A la verité, s’ils n’eſtoient en iouyſſance
+<lb />de plus de trois ans, &amp; que ie fuſſe receuablé à plai<lb />der au Petitoire, il me ſeroit aiſé de mettre icy tout le
+<lb />plaidoyer de partie aduerſe, &amp; d’appuyer de raiſons l’o<lb />pinion contraire que ie ſouſtiens; mais encore faudroit
+<lb />il eſtre reglez de Iuges, &amp; ceux d’à-preſent pour illuſtres
+<lb />qu’ils ſoient eſtans ciuilement recuſables pour auoir
+<lb />deſia prématurément donné leur aduis en cette ma<lb />tieres it meniuns qua poautmaphotte caorq lalermelr?
+<lb />lement il n’eſt point de ſiege competant que celuy de<lb />la poſterité, à laquelle, ie fais volontiers les. ſouſmil<lb />ſions en tel cas fequiſes &amp; neceſſaires.
+</p>
+<sp type="MainZone-Sp"><lb />e a is.
+<lb />¶ Dieu Lekleus, &amp; pour comprendre
+<lb />La regle des pieces du temps,
+<lb />Ne te laſſe point de l’apprendre
+<lb />Pour le moins encore cent ans,
+<lb />L'effet de cette Loy nouuelle
+<lb />Eſt de comprimer la ceruelle,
+<lb />De reſtrecir l’entendement,
+<lb />D'affoiblir l’imaginatiue;
+<lb />Par ce moyen iuge comment
+<lb />L’ame ſe rend plus attentiue?
+</sp>
+<p type="MainZone-Head"><lb />Les noms &amp; qualitez des Per<lb />ſonnages.
+</p>
+<p type="MainZone-Entry"><lb />CYRVS Ie grand,
+</p>
+<p type="MainZone-Entry"><lb />ABRADATE,
+<fw><lb />CRESVS,
+</fw></p>
+<p type="MainZone-Entry"><lb />TYGRANE,
+<fw><lb />ARASPE,
+<lb />Roy dela Suziane.
+<lb />General de l’armée de Baltazard.
+</fw></p>
+<p type="MainZone-Entry"><lb />ARTABASE,
+<fw><lb />TANTTILE,
+<lb />Roy de Perſe.
+<lb />ARMENIDE,
+</fw></p>
+<p type="MainZone-Entry"><lb />Prince d’Armenie.
+</p>
+<p type="MainZone-Entry"><lb />Tomoeme Pauory de Cyrus.
+</p>
+<p type="MainZone-Entry"><lb />Homotime amy d’Araſpe.
+</p>
+<p type="MainZone-Entry"><lb />Femme d’Abradate.
+</p>
+<p type="MainZone-Entry"><lb />Femme de Tygrane.
+<fw><lb />MELANIRE, Dame d’honneur de Panthée.
+</fw></p>
+<p type="MainZone-Entry"><lb />LES TROIS PORTE-SCEPTRES ou
+<lb />Valets de Chambre de Panthée.
+</p>
+<sp type="MainZone-Sp"><lb />LA SCENE EST A SARDES, VILLE DE
+<lb />Lydie ſur le Pactole.
+</sp>
+<p type="MainZone-Head"><lb />TITEVTEEELT
+<lb />TRAGEDIE
+<lb />ACTE
+<lb />I.
+<lb />ANTHEE, MELANIRE, ARASPE.
+<lb />CYRVS, TYGRANE, ARTABASE,
+<lb />CRESVS5 ABRADATE,
+<lb />ARMENIDE ſoubs le Nom &amp; les Armes
+<lb />de CORYLAS Homotime.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />PANTHEE, MELANIRE, ARASPE.
+</p>
+<sp type="MainZone-Sp"><lb />8
+<lb />PANTHEE.
+<lb />E Reyne que i'eſtois, que ſuis-ie deuenue?
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />MELANIRE.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />trim
+<lb />PANTIIEE.
+<lb />Dites le moy, voüs qui m'aneZ conntẽ,
+<lb />Comparez ie vous prie à ma felicité
+<fw><lb />A.
+</fw><lb />Le pitoyable estat de mon aduerſité.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Dans l’abyſme d’ennuis où vous eſtes plongée
+<lb />Les ſouſpirs &amp; les pleurs ne vous ont point changée,
+<lb />nos Jeuse tonſtonto momue Zνmuis nonpoint abhatus;
+<lb />Font encore admirer vos royalles vertus.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />N'agueres (iè l’aduoüe) vne moindre aduenture
+<lb />Ne m’auroit pas fait mettre en mauuaiſe posture;
+<lb />Ie n’auois ny les yeux ny le cœur abaißé
+<lb />Pour vn mal qui bien toſt pouuoit eſtre paßé,
+<lb />Lors que le grand Cyrus fort en Caualerie
+<lb />Vint faire le dégaſt par toute l’Aſſyrie,
+<lb />Et que nos champs couuerts de bataillons eſpaix
+<lb />Ceſſerent de porter les doux fruicts de la paix.
+<lb />Ie croyois d’autant plus ma Couronne affermie,
+<lb />Que i’apprehendois peu cette armée ennemie:
+<lb />Ie voyois de ſi loing le peril des combats
+<lb />Qu’il ne m’empeſchoit point de prendre mes esbats,
+<lb />Meſme quand deux partis s’eſtans ioincts l’vn a l’autre
+<lb />Sur le Champ de bataille ont enfoncé le nostre,
+<lb />Et que ceux d’Hyrcanie au lieu d’aller aux coups
+<lb />Ont aydé le Perſan qui venoit contre nous.
+<lb />Bien que ie deuſſe craindre vn ſi mauuais preſage
+<lb />Ay-ie tourné la veüe ou changé de viſage?
+<lb />N’ay-ie pas fait paroiſtre vn courage royal
+<lb />Lors que les ennemis nous ont fait tant de mal?
+<lb />Mais depuis que i’ay veu la victoire perdue
+<lb />Depuis qu'il a fallu que ie me ſois rendue,
+</sp>
+<p type="MainZone-Lg"><lb />Toute la Suſiane à deu plaindre auec moy
+<lb />L’abſence d’Abradate &amp; la perte du Roy.
+<lb />Celuy qui deſormais ſuccede à la Couronne
+<lb />Estant vindicatif n’eſpargnera perſonne.
+<lb />Il voudra teſmoigner ſon pouuoir abſolu
+<lb />Et le Roy mon eſpoux en ſera mal-voulu.
+<lb />Luy qui pour eſtre allé dans les païs eſtranges
+<lb />Auroit bien merité d’en auoir des loüanges,
+<lb />Quand de ſon ambaſſade il ſera de retour
+<lb />A peine pourra-t’on le ſouffrir à la Cour.
+<lb />Ainſi les nouueaux Rois aux anciens contraires
+<lb />Traictent en criminels les amis de leurs Peres,
+<lb />Et leur plus grande joye eſt d’eſtre differens
+<lb />De la vie &amp; des meurs de leurs proches parens.
+<lb />Mais quand pour faire tort à mon cher Abradate
+<lb />Le Roy ſera cruel &amp; l’Aſſyrie ingrate:
+<lb />Ce ne ſera point là ſon plus grand déplaiſir
+<lb />Ny le plus grand dépit qui me pourra ſaiſir.
+<lb />Eſtre abſents l’vn de l’autre en diuerſes Prouinces?
+<lb />Luy par l’inimitié de quelques ieunes Princes?
+<lb />Moy par cet accident qui me rend aujourd’huy
+<lb />De libre que i’eſtois la ſeruante d’autruy?
+<lb />Le butin d’vn Soldat qui me garde peut eſtre
+<lb />Pour aſſouuir tantoſt les deſirs de ſon maiſtre?
+<lb />Voir ainſi deperir noſtre ſaincte amitié
+<lb />Chacun eſtre eſloigné de ſa chere moitié?
+<lb />Luy touſiours regretter ſa fidelle Panthée
+<lb />Moy ce pendant me voir indignement traictée
+<lb />Hal cette affliction partagée entre nous
+<lb />Eſt vn mal ſans remede &amp; le pire de tous.
+</p>
+<p type="MainZone-Lg"><lb />A
+<lb />ij
+</p>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Voicy le Caualier qui vous tient en ſa garde
+<lb />Et d’vn œil de pitié ce cruel vous regarde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Bien toſt vous pourrez dire auec iuste raiſon
+<lb />Que vous eſtes icy comme en voſtre maiſon.
+<lb />Ne vous plæignez donc plus des malheurs de la guerre
+<lb />Vous eſtes au plus grand des Princes de la terre,
+<lb />On vous a lleſtinée à la couche d’vn Roy.
+<lb />Qui vous rend trop heureuſe en vous donnant ſa foy.
+<lb />Ie ſçay que vous perdez vn eſpoux legitime
+<lb />Qui meſme parmy nous eſt en fort bonne eſtime:
+<lb />Mais ce grand Conquerant qui nous commande à tous
+<lb />N’aura pas moins que luy de volonté pour vous.
+<lb />Ce riche Pauillon ou l’on vous a trouuce
+<lb />Est cauſe à mon aduis que l’on vous a ſauuée,
+<lb />Et ie vous garderay pour vn Prince vainqueur
+<lb />Que vous deuez aymer de la bouche &amp; du cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Pour ce Prince vainqueur i’ay trop peu de merites,
+<lb />Et ie ſeray pourtant à celuy que vous dites,
+<lb />A qui ſeul i’appartiens, qui ſans eſtre nomme
+<lb />De la bouche &amp; du cœur merite d’estre aymé.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ie vay donc l'aſſurer d’vne amour reciproque.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Il n’a pas entendu ma reſponte equiuoque.
+<lb />Và mauuais Conſeiller effronté Suborneur
+<lb />Qui taſches de corrompre vne femme d’honneur;
+<lb />Và dire que i’ay pris ton amorce impudique
+<lb />Fay valoir à ton Roy cette infame pratique;
+<lb />Et pour vn ſale gain qui ne peut t’enrichir
+<lb />Dy luy ſecrettement que tu m’as ſceu fleſchir,
+<lb />Tu mentiras flatteur, ie ſeray veritable
+<lb />Et peut estre Cyrus ſera-t’il équitable
+<lb />Il me fera iuſtice &amp; punira celuy
+<lb />Qui ſe promer en vain de me liurer à luy.
+<lb />Les Dieux viſiblement fauoriſent, ſes armes,
+<lb />Non pour faire durer le ſuiel de mes larmes,
+<lb />Mais pour ce qu’il eſt iuſte &amp; qu’en toute ſaiſon
+<lb />ii sregu lePuſſanee due Melara dafan.i
+<lb />Iamais en abuſant d’vne victoire acquiſe
+<lb />Il n’a fait violence à femme qu’il eut priſe;
+<lb />Et i’auray ce bon-heur dans mon aduerſité
+<lb />Qu'il n’attentera point ſur ma pudicit é
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Madame ie le croy, n'en ſoyez point en peine
+<lb />Il aura du respect d’vne ſi grande Reyne,
+<lb />Mais tandis qu’on vous laiſſe en voſtre liberté
+<lb />Allez vous diuertir en lieu de ſeureté.
+</sp>
+<sp type="MainZone-Sp"><lb />Allons.
+<lb />PANTHEE.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CYRVS, TIGRANE, ARTABASE,
+<lb />ARASPE.
+</p>
+<sp type="MainZone-Sp"><lb />TRVS.
+<lb />Races aux Dieux! genereux Homotimes
+<lb />Nous voyons prosperer nos deſſeins legitimes;
+<lb />Les noſtres ſur le champ ont eſté les plus forts
+<lb />Et le Roy d'Aſſyrie eſt au nombre des morts.
+<lb />Son fils qui doit regner n’a plus que Babylône
+<lb />Mais il espere en vain d’y reſtablir ſon trône:
+<lb />Mal voulu comme il eſt de ſes propres ſujets
+<lb />Peut il doreſnauant les Gouuerner en paix?
+<lb />Eſtant ſi mal pourueu de Miniſtres fideles;
+<lb />Sçaura-t’il ramener ſes Prouinces rebelles?
+<lb />Pluſieurs qu’à l’auenir il ne peut conſeruer
+<lb />Ne l’ont ils pas quitté pour me venir trouuer?
+<lb />D'ailleurs quelle eſt ſa vie? honteuſe? effeminée?
+<lb />Et telle que ſa Cour à tout vice adonnée.
+<lb />Le Ciel ne benit point les Princes desbauchés
+<lb />Leurs plus grands ennemis ſont leurs propres pechés
+<lb />Et leurs mauuaiſes mœurs leur oſtent la Couronne
+<lb />Que par droict ſucceßif la naiſſance leur donne.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Par vn contraire ſens il faut dire de vous
+<lb />Que les ſceptres perdus vous les conſeruez tous,
+<lb />Quand ils ſont profanés des Princes qui les portent
+<lb />Ils tombent en vos mains &amp; iamais ils n’en ſortent;
+<lb />Außi meritez vous d’eſtre amplement loüé
+<lb />Pour les rares vertus dont vous eſtes doüé
+<lb />Elles vous ont acquis les Medes, l’Armenie,
+<lb />Et tout nouuellement le pays d’Hyrcanie.
+<lb />Ceux qui n’aguere eſtoient vos plus grands ennemis
+<lb />S’eſtiment trop heureux de vous eſtre ſouſmis.
+<lb />De moy quand i’ay quitté ma Couronne fermée
+<lb />Pour apprendre ſous vous à conduire vne Armée,
+<lb />Rien que voſtre clemence enuers mon Pere &amp; moy
+<lb />Ne me fit depoſer la qualité de Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />IOgraautouo mugme Cae purnnue la ſorte,
+<lb />Mais vous ſçauez außi l’amour que ie vous porte:
+<lb />Vous n’auez rien perdu nous ſommes compagnons
+<lb />Et vous m’accordereZ que tous deux nous regnons.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Sire, quand vous plaiſt-il ordonner le partage
+<lb />Du butin qu’on a fait?
+</sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />S.
+<lb />Pourueu qu’on donne au Mage
+<lb />La meilleure deſpouille acquiſe en combattant,
+<lb />Apres chacun de nous ſera bien toſt content.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Ce n'eſt pas eſtre ingrat de la faueur celeste.
+</sp>
+<sp type="MainZone-Sp"><lb />Y
+<lb />RVS
+<lb />Iagrane te vons iaiſſe a tonauire le reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Si voſtre Maieſté m’en vouloit diſpenſer.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />Y
+<lb />S.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Pour vn ſuiet qui me donne à penſer,
+<lb />Ourtuuſſe Armenide eſt morte ou priſonniere.
+</sp>
+<sp type="MainZone-Sp"><lb />Et depuis quand?
+<lb />L 2.
+<lb />VS.
+</sp>
+<sp type="MainZone-Sp"><lb />a l e nlnss
+<lb />Depuis la bataille derniere:
+<lb />I'attendois qu’il vous pleuſt me commander expres
+<lb />De monter à cheual &amp; de courir apres.
+</sp>
+<sp type="MainZone-Sp"><lb />Jxre vM.
+<lb />Courez, il ne faut pas attendre dauantage.
+<lb />Vous. Allez ce pendant voir faire le partage
+<lb />Des armes, des cheuaux, &amp; des meubles de prix,
+<lb />Qu'ont laißé les fuyards &amp; que nous auons pris
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE,
+<lb />Sire, i’ay retenu la part qui vous est deue.
+<lb />La plus rare beauté que iamais on ait veue.
+<lb />---
+<lb />. --------- ---- ---...-..-----
+<fw><lb />*---
+</fw><lb />Vn royal Pauillon chamarré de clinquant
+<lb />Et pias ment qui jut enein vaue camp.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Voila mon fait Araspe, &amp; pour la belle Dame
+<lb />Voy la des yeux du corps &amp; moy des yeux de l’ame;
+<lb />At it la uonnc en parue cue ferachez toy
+<lb />Et ie l’aymeray plus eſtant plus loing de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Cette façon d’aimer n’eſt pas fort en vſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />I'ay touſiours redouté de voir vn beau viſage
+<lb />Pour ce que l’ayant veu ie voudrois le reuoir,
+<lb />Par vn amuſement contraire à mon deuoir
+<lb />I'alumerois vn feu qui ne pourroit s’eſtaindre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Quelle neceßité vous y pourroit contraindre?
+<lb />Quelle humaine beauté peut auoir tant d’appas?
+<lb />Qu'en la voyant touſiours on ne s’en laſſe pas?
+<lb />On voit par les effects des cauſes naturelles
+<lb />De grands feux s’allumer des moindres eſtincelles,
+<lb />Mais qui ſe veut chauffer à des fourneaux ardens
+<lb />Il n’eſt pas obligé de ſe ietter dedans,
+<lb />Pour en ſentir la ioye il approche ou recule
+<lb />En reçoit la chaleur &amp; iamais ne ſe brûle
+<lb />Ainſi d’vne beauté qui nous peut reſiouir
+<lb />Nous pouuons approcher pour la voir &amp; l’ouïr:
+<lb />Mais pour en eſtre eſpris d’vne amour ſi fidelle
+<lb />Que nous ſoyons contrains de languir aupres d'elle.
+<lb />La voir inceſſamment &amp; iurer tous les Dieux
+<lb />Que nous ſommes vaincus d’vn regard de ſes yeux.
+<lb />Nulle neceßité d’aimer ainſi les Dames
+<lb />Ne doit à mon aduis inquieter nos ames.
+<lb />L’amour n’eſt point ailleurs que dans la volonté,
+<lb />Ie pourray ſi ie veux en eſtre ſurmonté
+<lb />Et ſi te ne veux pas qu'vn bet œil me ſurmonte
+<lb />Ie puis d’vn tel combat me retirer ſans honte.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Araſpe tu ſçais donc les moyens de changer
+<lb />Le naturel de l’homme en vn esprit leger.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Mourir à petit feu pour vne creature
+<lb />N’eſt point de noſtre eſprit ny de noſtre nature:
+<lb />C’eſt vn zele indiſcret ordinaire aux mortels
+<lb />Qui n’eſtants pas ſi fous veulent paroiſtre tels.
+<lb />La plus belle qui ſoit en la terre habitable
+<lb />Ne m’oſtera lamais ny le jeu ny la table:
+<lb />Et ſi doreſnauant quelqu’vne ace pouuoir
+<lb />I'auray la volonté de ne la plus reuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />T.1.2.
+<lb />YRYS.
+<lb />Mais quand tu ſeras pris comme dans vne cage
+<lb />Pour t'eſchapper de la tu ne ſeras plus ſage.
+</sp>
+<sp type="MainZone-Sp"><lb />AF
+<lb />ASPE.
+<lb />Ie confeſſe qu’alors eſtant deuenu ſot
+<lb />I'en porteray la peine &amp; ne diray plus mot.
+<fw><lb />1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Ce pendant tu ſeras dans ton humeur actiue?
+<lb />Sans t'arreſter iamais a ma belle captiue?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />I'en responds ſur ma vie.
+<fw><lb />Nu</fw></sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Et bien nous le verrons
+<lb />Si i’ay deu me fier de ma bourſe aux Larrons.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CRESVS, ABRADATE, ARMENIDE
+<lb />ſous le Nom &amp; les Armes de CORYLAS
+<lb />Homotime.
+</p>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Ile Roy de Babel ne fait mieux que nous autres
+<lb />O Ses affaires iront außi mal que les noſtres.
+<lb />Onqnetane gruna jecomnne vient à Baltaſard
+<lb />Dans ſa plus forte place il eſt en grand haſard.
+<lb />Cyrus est triomphant, mon armée eſt deffaite
+<lb />I’ay perdu mon bagage en faiſant la retraite:
+<lb />Et ce que i’ay peu faire eſt de m'eſtre ſauué
+<lb />De l’extréme peril où ie me ſuis trouué.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Les peuples demeurants es païs Limitrophes
+<fw><lb />B ij
+</fw><lb />Ont receu nos preſens &amp; nos riches eſtoffes.
+<lb />Mais le ſecret cayer que ie leur ay donné
+<lb />Apres la foy iurce ils ne l'ont pas ſigné
+<lb />La fin de mon voyage &amp; de mon Ambaſſade
+<lb />Nayant pas reüßi i’en reuiens tout malade.
+<lb />Et ne preſumant pas qu’on m'en doiue loüer
+<lb />Ie ne ſçay bonnement à quel Dieume voüer;
+<lb />Puis le dueil que ie vois des batailles perdues
+<lb />De nos paſſages, pris de nos villes rendues:
+<lb />La deroute d’vn camp ſi puiſſamment armé
+<lb />Et la perte d’vn Roy ſi cherement aimé,
+<lb />D’vn Pere dont le fils me doit porter enuie
+<lb />D'vn Prince qui m’a fait tant de biens en ſa vie.
+<lb />Ce deſaſtre public &amp; le ſouci cuiſant
+<lb />De l'Estat où Panthee eſt reduite à preſent
+<lb />Onjurces nomue Roy quoxuirie, &amp; de Fâme,
+<lb />Sont trois coups dangereux que i’ay receu dans l’ame:
+<lb />Et ſi les deux premiers ne ſe peuuent guerir
+<lb />Le dernier est celuy qui me fera mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Ce ieune priſonnier aura quelques remedes
+<lb />Pour adoucir le mal que vous ont fait les Medes;
+<lb />Si Panthee eſt ſouſmiſe au pouuoir de ſon Roy,
+<lb />Il vous en dira plus de nouuelles que moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Qu'en diray-ie?
+<lb />ARMENIDE.
+</sp>
+<sp type="MainZone-Sp"><lb />CROESVS.
+<lb />Tandis i'aſſembleray mes Gardes
+<lb />Qui ſont en garniſon dans ma ville de Sardes,
+<lb />Et pour mettre ſur pied de nouueaux combatans
+<lb />le feray paſſer monfire à tom nos nabitans.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Caualier contez moy la derniere bataille.
+<lb />Conſiderant de prés ſon viſage &amp; ſa taille,
+<lb />Beau, deſchargé de poil, &amp; braue comme il eſt,
+<lb />Sa demarche guerriere &amp; ſa grace me plaiſt.
+<lb />Voyons ſi le diſcours reſpond à l’apparence?
+<lb />Vn priſonnier de Guerre a touſiours esperance
+<lb />De ſe voir deliuré moyennant ſa rançon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Que pourreZ vous tirer, d’vn malheureux garçon
+<lb />Qui fut pris en courant deſſus voſtre bagage.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />I'admire encore plus ſon gracieux langage;
+<lb />Dites moy voſtre nom, &amp; ne déguiſez rien,
+<lb />I'ay moyen ence cas de vous faire du bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />CORYLAS eſt mon nom entre les Homotimes
+<lb />Gendarmes de Cyrus, reputeZ magnanimes,
+<lb />Qui ſont aupres de luy tous égaux en honneur,
+<lb />Mais qui ne ſont iamais tous égaux en bon-heur:
+<lb />Ma priſe le témoigne.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />&amp; la façon hardie
+<lb />Que vous auez monſtree au Prince de Lydie?
+<lb />Lors qu’en vous arreſtant vous l’auez combatu?
+<lb />Teſmoignage aſſeuré d’vne grande vertu!
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />I’ay fait ce qu’vn braue homme auroit fait en ma place.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Encore à le conter vous auez tant de grace,
+<lb />Que i’ay peur d'eſtre pris d’vn ſi beau priſonnier.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMEIIDE.
+<lb />Sans vous tant preualoir du rencontre dernier,
+<lb />Couupoues Perſans tiennent par repreſailles
+<lb />Vous doit faire penſer aux premieres batailles.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Donc ma chere Panthee eſt viuante?
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENTDE.
+<lb />Pourquoy?
+<lb />L’auroit on fait mourir eſtant femme de Roy?
+<lb />Elle fut ſeulement par vn Mede arreſtée
+<lb />Qui depuis le combat ne l’a point mal traïtee.
+</sp>
+<sp type="MainZone-Sp"><lb />A BRADATE.
+<lb />O ſi vous dites vray! ie veux faire amitié
+<lb />Auec mon ennemy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Vous aurez donc pitié
+<lb />De mon deſauantage &amp; de mon auanture.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />de jeray mon proſtt a'vne leue tapihre.
+<lb />Sans vous oſter l’eſpee &amp; ſans vous rançonner.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Mais les gens de Creſus nous pourront ſoupçonner
+<lb />Si quelqu’vn s’apperçoit de noſtre conference.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Parlez moy deuant eux auec indifference,
+<lb />Et ſi le Roy leur maiſtre eſt aigry çontre vous
+<lb />Ie le vay diſpoſer à vous eſtre plus doux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Heureuſe en ce rencontre, ay-ie plus rien à craindre?
+<lb />Et n’aurois-ie pas tort maintenant de me plaindre?
+<lb />Combien ſuis-ie obligee à la faueur des Cieux
+<lb />D’auoir porté ma vie &amp; mon ſexe en tous lieux?
+<lb />D’auoir esté preſente aux Willes aßiegees?
+<lb />Et ſuiuy mon eſpoux aux batailles rangees?
+<lb />Tant de chemins couuerts de morts &amp; de bleſſez,
+<lb />Que i'ay par mon courage heureuſement paſſez.
+<lb />Tant de feux ennemis, tant de ſang &amp; de larmes,
+<lb />Où l’amour a sbuſiours fauorisé mes armes;
+<lb />Et tout ce que i’ay veu d'effroyable à mes yeux
+<lb />M'eſt vn ample ſujet de henir tous les Dieux.
+<lb />......
+<lb />Vne ſeule faueur que i’en attens encore
+<lb />Fait que ie les ſupplie &amp; que ie les adore.
+<lb />Et toy premierement que is vois de retour
+<lb />Admirable Soleil qui nous donne le iour,
+<lb />Reçois le cœur deuot d’vne femme aduiſee,
+<lb />Qui par neceßité s’eſt ainſi déguiſee;
+<lb />Donne encore à ſa flamme vn degré de chaleur
+<lb />Et fais que ſon amonr egale ſa valeur.
+<lb />Ainſi puiſſent touſiours &amp; la Perſe &amp; les Medes
+<lb />Adorer ta grandeur afin que tu leur aides:
+<lb />Et puißé-ie bien toſt en pleine liberté
+<lb />Voir luire deſſus nous ta celeſte clarté.
+<lb />Alors Tygrane &amp; moy par vn vœu legitime
+<lb />Ie ferons immoler vne graſſe victime,
+<lb />Et de toſ les cſets de fon diiſi pomoir,
+<lb />Le plus grand me fera celuy de le reuoir.
+</sp>
+<p type="MainZone-Head"><lb />FC
+<lb />A
+<lb />PANTHEE, ARASPE, CYRVS,
+<lb />ARTABASE, MELANIRE.
+</p>
+<p type="MainZone-Head"><lb />1o CEuE d
+<lb />PANTHEE, ARASPE.
+</p>
+<sp type="MainZone-Sp"><lb />PANTHEE. 
+<lb />Our qui mepranez ουno: Inporni. Ftmernue.
+<lb />Allez. Ny venez plus. Ou, Ma iuſte coleré.
+</sp>
+<sp type="MainZone-Sp"><lb />S
+<lb />ARAS FE. E
+<lb />Madame qu’ay ie fait qui vous doiue faſcher?
+<lb />Si i’auoit
+<lb />Si i’auois entrepris de vous faire pecher.
+<lb />Si ie vous auois dit vn ſeul mot des honneſte,
+<lb />A toutes vos rigueurs i'expoſerois ma teſte.
+<lb />Et pour auoir tailly contre l’honneſteté
+<lb />Ie ſerois criminel de leZe Maieſte.
+<lb />Mais pour auoir loüé vos beauteZ naturelles,
+<lb />De fait ou de parole ay-ie attenté ſur elles?
+<lb />Suis-ie chargé d’outrage &amp; de temerité
+<lb />Pour vous auoir dépeint la pure verité?
+<lb />Vne femme d’honneur peut elle eſtre offenſee
+<lb />Dnn plaiti tinocent qui namt en ta penjee,
+<lb />D'vn amour qui n’eſt point encore triomphant
+<lb />Et qui ſe veut ioüer comme vn petit enfant.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Le nom &amp; les effets de ce Dieu me déplaiſent:
+<lb />Sçachez, que deuant moy tous les ſages s’en taiſent,
+<lb />Et qu’on ne me peut faire vn plus mauuais diſcours.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Et eſt pourtant reten uam les royaues Cours.
+<lb />L’ordinaire entretien des genereuſes Dames
+<lb />Eſt d’entendre parler des amoureuſes flames.
+<lb />Il eſt vray que l’Amour &amp; cette Maieſté
+<lb />Qui vous mit dans le troſne où vous autz eſté.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Quoy? Ie ne ſuis donc plus ce que i’eſtois n’aguere?
+<lb />Acheués hardiment ce Prouerbe vulguaire.
+<lb />l’Amour &amp; la grandeur ne s’accordent pas bien?
+<lb />Et ie vous dois aymer quand ie ne ſuis plus rien?
+<lb />A ce compte Monſieur i’ay perdu ma couronne?
+<lb />Vous me conſiderez comme vne autre perſonne
+<lb />Et vous mocquant du Prince à qui i’appartenois
+<lb />Il ne vous ſouuient plus du rang que ie tenois?
+<lb />Vous n’auez plus d’eſgard au titre que ie porté,
+<lb />Ma qualité de Reyne eſt tombée en main morte,
+<lb />Et pour venir a bout de ma pudicité
+<lb />Vous m’auez ſceu ietter dans la neceßité?
+<lb />Qui veit iamais amant ruiner ce qu’il aime?
+<lb />Me pourreZ vous aimer ceſſant d’eſtre moy meſme?
+<lb />Pauure &amp; dans la baſſeſſe ou vous me deſirez,
+<lb />Eſcouteray-ie mieux ce que vous me direz?
+<lb />Diſpoſerez vous mieux de mon cœur inuincible?
+<lb />Et pour le ſurmonter ferez vous l’impoßible?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Vous m’oſtez bien l’enuie &amp; le deſſein formé
+<lb />Que i’auois de vous plaire &amp; non pas d’eſtre aimé,
+<lb />Vous metteZ bien au pis vn Amant de ma ſorte,
+<lb />Et reconnoiſſez mal l’honneur que ie vous porte.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Appellez-vous honneur voſtre infidelité,
+<lb />Qui ſe veut preualoir de ma facilité,
+<lb />Qui d’vn trop libre acces veut tirer aduantage?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />De ma fidelité voulez-vous quelque oſtage
+<lb />Plus grand que le reſpect où ie ſuis près de vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Voilà ce qu’il diroit en preſence de tous:
+<lb />Pour ne pas deſcouurir ſa noire perfidie,
+<lb />miui eſe unontt pom tuy que ie luy die?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Il faut que ie la preſſe vne derniere fois.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />I'eſleueray ſi haut mon eſprit &amp; ma voix,
+<lb />Si vous me venez plus debiter vos ſottiſes
+<lb />Que chacun entendra que nous ſerons aux priſes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Appellez moy cent fois temeraire importun.
+<lb />Estre flatté de vous: ou battu m’eſt tout vn.
+<lb />Puis que vous me iettez hors de la modeſtie
+<lb />Ie paſſe le reſpect &amp; vous prens à partie.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />I’ay ſouffert iuſqu’icy pour certaine raiſon,
+<lb />Que vous m’ayez tout dit comme en voſtre maiſon;
+<lb />Ie eraignois de vous perdre, &amp; d’accuſer vn traiſtre,
+<lb />Qui me ſolicitant des honore ſon maiſtre,
+<lb />Mais ie vay de ce pas moy-meſme l’aduertir.
+<fw><lb />C ij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Dois-ie ſuiure ma pointe? ou bien me repentir?
+<lb />Dans ce doute incertain elle s’eſt eſchappée
+<lb />Abandonnant vn fou ſeul auec vne espée.
+<lb />O rage! ô deſeſpoir! qui me vient de ſaiſir,
+<lb />Ouy? Ie me veux donner cet infame plaiſir.
+<lb />Ie le diray tout haut ie ne le veux plus taire,
+<lb />Et ie veux auoir fait ce que i’ay voulu faire.
+<lb />Ces fauſſes deitez ou d’honneur ou de foy,
+<lb />Ces tyranniques noms ou de Maiſtre ou de Roy.
+<lb />Tant de respects humains effacez dans mon ame
+<lb />Ne font plus qu’irriter vne ſi belle flame.
+<lb />Et tous ces grands faiſeurs de longs diſcours moraux,
+<lb />Mon caprice amoureux les tient pour des marauts:
+<lb />Quoy? la Philoſophie eſt elle fabuleuſe?
+<lb />Et l’humaine ſageſſe eſt elle querelleuſe?
+<lb />Tout ce qu’elle m’enſeigne eſt-il mal raiſonné?
+<lb />Et ſon laict que i’ay pris m'a-t’il empoiſonné?
+<lb />Ha! que la verité mere de nos penſees
+<lb />A ſoin de corriger les ames peu ſenſees.
+<lb />Qu'elle eſt ingenieuſe! &amp; qu'elle a de raiſons!
+<lb />Pour conuaincre nos ſens du mal que nous faiſons.
+<lb />Le corps de l’homme abonde en humeurs differentes,
+<lb />Les bonnes ſur le front ſont les plus apparentes:
+<lb />Et celles dont le cœur eſt touſiours aßiegé,
+<lb />Sont des maux inconnus dont il eſt affligé.
+<lb />Que direz vous, Cyrus, en me voyant paroiſtre?
+<lb />En l’eſtat où ie ſuis me pourrez vous connoiſtre?
+<lb />Et ne ferez vous pas vn mauuais iugement
+<lb />De voir en ma perſonne vn ſi prompt changement?
+<lb />Quand ma teſte autiourd’huy vous ſera preſentée,
+<lb />Infidelle enuers vous, cruelle enuers. Panthee:
+<lb />Si vous ne pardonnez à ma temerité
+<lb />Quel ſupplice de mort n'ay ie pas merité?
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CYRVS, ARTABASE, ARASPE.
+</p>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />I i'auois eſpousé cette femme loyalle,
+<lb />Q I'aimerois les vertus de ſon ame royalle:
+<lb />Et d’entre ſes vertus t'aimerois conſtamment
+<lb />La prudence qu'elle a de ſouffrir cet Amant,
+<lb />De ne point l’accuſer d’vn crime domeſtique
+<lb />Dont ie deurois punir l’infidelle pratique.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Elle a peut-eſtre peur de le deſ-obliger.
+</sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />2V
+<lb />S.
+<lb />Elle ſçait que ie l’aime, &amp; craint de m’affliger,
+<lb />Cette grande Princeſſe eſt tellement diſerette,
+<lb />Qu'elle ſouffre d’Araspe vne iniure ſecrette,
+<lb />Et taſche d’eſtouffer ſon impudique amour
+<lb />Pluſtoſt que de s’en plaindre à quelqu’vn de ma Cour.
+</sp>
+<sp type="MainZone-Sp"><lb />AI
+<lb />TABASE.
+<lb />De qui donc tenez vous cette amoureuſe hiſtoire?
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Luy meſme l’autre iour eut tant de vaine gloire,
+<lb />Qu'en loüant cette Dame il en eut du meſpris,
+<lb />Et iura que iamais il n'en ſeroit eſpris.
+<lb />Deſlors me ſouuenant que le plus grand courage
+<lb />N'eſt pas le moins enclinà voir vn beau viſage;
+<lb />Ie luy dis que bien toſt il en ſeroit bleßé,
+<lb />Et ie viens de ſçauoir comme tout s’eſt paßé.
+<lb />M’apprend de quelle ſorte Araſpe l’a traitee:
+<lb />Et veritablement ie ne puis l’excuſer
+<lb />De ce qu’à toute force il en veut abuſer.
+<lb />Il eut mieux fait de voir ſi par ruſe de guerre,
+<lb />Ce fort de Chaſteté pouuoit tomber par terre:
+<lb />Le dommage ſouffert eut eſté reparé,
+<lb />Si par quelque ſurpriſe il s’en fut emparé.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE...
+<lb />Tout cela n’euſt eſté qu’vne galanterie.
+</sp>
+<sp type="MainZone-Sp"><lb />VS.
+<lb />Bref, à ce beau combat ſeporter de furie:
+<lb />Au lieu d’vſer alors d’vn langage eloquent,
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />C’eſt comme nous diſons, mettre l’alarme ais camp.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Vne plus douce voye eſtoit la plus honneſte;
+<lb />Mais ie le voy venir, laue luy-bien la teſte.
+<lb />Ie ſeray cependant ſous ma tente caché.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Le Roy contre moy ſeul paroit eſtre faſché.
+</sp>
+<sp type="MainZone-Sp"><lb />ARIADAJE.
+<lb />Vne femme de bien a fait perdre l’eſcrime
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ie ſuis perdu. Quelqu’vn a découuert mon crime.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />A ce braue Guerrier, que Cyrus entre nous
+<lb />A long temps eſtimé le plus vaillant de tous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Artabaſe i’entends où va ce preambule,
+<lb />Ne me dore point tant cette amere pillule.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Apres tant de perils que vous auez courus,
+<lb />Penſez vous point touſiours eſtre aimé de Cyrus?
+<lb />Serez vous point au rang des Illuſtres Monarques
+<lb />Pour ce dernier combat dont vous portez les marques?
+<lb />Ce coup d’ongle imprimé vous a mis en courroux.
+<lb />Mais eſt-il de la main de Panthee? Ou de vous?
+<lb />Tout au milieu du front vous aueZ vne estoile,
+<lb />N'est-ce point de l’agraffe attachée à ſon voile?
+<lb />Quelque gros diamant a causé ce mal-heur
+<lb />Qui vous fait ſur le nez vne extreme douleur?
+<lb />Et cette egratigneure vne eſpingle mal miſe
+<lb />Vous l’a faite à la joüe en baiſant la chemiſe?
+<lb />Ie m'eſtonne voyant voſtre poil herißé
+<lb />Comme vous n’eſtes chauue en ayant tant laißé?
+<lb />O le fameux combat &amp; digne de memoire
+<lb />Qui vous met à la main vne palme de gloire!
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ha! que ie ſuis puny d’vne infidelité!
+<lb />Et que ie ſuis honteux de ma fragilité!
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Allez, Allez chercher à voſtre felonnie
+<lb />Vn azile plus ſeur que noſtre Companie:
+<lb />Et pour eſtre à couuert de voſtre fol amour
+<lb />Ne voyez point Cyrus ny pas vn de ſa Cour.
+<lb />omment? Auoir voulu? Mais telle violence
+<lb />Honteuſe à raconter nous impoſe ſilence:
+<lb />Parlons du chaſtiment dont vous ſerez puny,
+<lb />Le moindre à mon aduis ſera d’eſtre banny?
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Artabaſe. Eſcoutez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />à cette voix ie tremble.
+</sp>
+<p type="MainZone-Other"><lb />CYRVS·
+</p>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Và querir le Preuoſt, &amp; laiſſe nous enſemble.
+<lb />Ou iaille dans ſa tente informer de l'excez,
+<lb />Et qu’il vienne außi toſt luy faire ſon procez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Sire ie me confeſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />En tous crimes enormes.
+</sp>
+<sp type="MainZone-Sp"><lb />Indigne de pardon.
+<lb />ARASPE.
+</sp>
+<sp type="MainZone-Sp"><lb />1.
+<lb />Y
+<lb />RVS.
+<lb />Il faut ſuiure les formes.
+<lb />Vous ſereZ eſcouté, mais non pas conuaincu,
+<lb />Pour dire depuis quand vous auez mal veſcu.
+<lb />Voſtre procez par vous ne ſe doit pas inſtruire,
+<lb />Vn perfide à ſon Maiſtre à ſoy meſme peut nuire.
+<lb />Et celuy qui viole vne longue amitié
+<lb />Ne doit plus eſmouuoir ſes amis à pitié.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />I'ay fait encore pis, &amp; mon humble requeſte
+<lb />Ne tend point deſermais au ſalut de ma teſte.
+<lb />Sire.
+</sp>
+<sp type="MainZone-Sp"><lb />VS.
+<lb />Non, non, Arasſe, elle me fait beſoin,
+<lb />Et vous la porterez tant ſeulement plus loin.
+<lb />Vous ne meritez pas vn ſi rude ſuplice,
+<lb />De ce crime honteux ie me trouue complice.
+<lb />I’en ſuis cauſe en partie ayant ſi mal pourueu
+<lb />A ce trouble amoureux que i’auois bien preueu:
+<lb />Or de ce petit mal vn grand bien nous arriue
+<lb />Si d’vn bon Seruiteur pour vn temps ie me priue;
+<lb />Et ſi pour vn peché que tu n’as pas commis,
+<lb />Ie feins de t’exiler au campdes Ennemis.
+<lb />Le bruit de ton malheur &amp; de ton infamie
+<lb />Sera bien toſt commun dans l’armée ennemie.
+<lb />Les chefs qui t’ont connu pour eſtre belliqueux
+<lb />q'eumeront trop forts det auoir auec eux:
+<lb />Ainſi me découurant leur ordre leur police,
+<lb />Tu me peux faire apres vn ſignalé ſeruice.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ainſi de voſtre Cour ie veux eſtre banny,
+<lb />Eſperant que mon ban ſera bien toſt finy.
+<lb />I'iray dans Babilône ou par mon entremiſe
+<lb />Vous aureZ tout l’honneur d’vne telle entrepriſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ARTABASE, MELANIRE, CYRVS
+<lb />ARASPE, PANTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />V ſcandale public arriué là-dedans
+<lb />II'apprens quel auantage ont les hommes prudens:
+<fw><lb />--.---...-.-.
+</fw><lb />Et d’vn tel procedé le vois à quel outrage
+<lb />Mumom eſfoſetiu ies Dume, ue voſtre agé.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Panthée eſt rigoureuſe, Araspe adu malheur,
+<lb />Et ſon aueugle amour fait tort à ſa valeur.
+<lb />Elle en auoit ſouffert tout ce que la prudence
+<lb />Ne iuy conſeiloit pas de mettre en euidence,
+<lb />Il deuoit enuers elle estre plus retenu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Touſiours auprés du Roy ie l’auois ſouſtenu:
+<lb />Mais ſa faute eſt ſi grande eſtant conſideree
+<lb />Que ſa cauſe me ſemble eſtre deſeſperee:
+<lb />Et-puis à dire vray, Cyrus eſt offensé,
+<lb />Quand il pardonneroit cet Amant inſensé;
+<lb />Il n'auroit pas raiſon de pardonner vn traiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Cyrus estant bon Roy ſe monſtrera bon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Va meſchant, &amp; iamais ne reuiens deuant moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Sire, vous m’impoſez vne ſeuere loy.
+<lb />Et vous me contraignez.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Acheue. De quoy faire:
+</sp>
+<p type="MainZone-Other"><lb />D ij
+</p>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Puis que doreſnauant ie ne ſçaurois vous plaire,
+<lb />I'iray.
+</sp>
+<sp type="MainZone-Sp"><lb />RVS.
+<lb />Deurois-tu pas eſtre deſia party?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Peut-estre me ietter dans vn autre party.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Tout-beau mauuais tout-beau.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />La colere m'emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />VS.
+<lb />Qu'on ne le ſouffre plus eſtre en garde à ma porte:
+<lb />Qu'il s'en aille ſi loin,
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Il est au deſeſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />LVS.
+<lb />Que iamais deuant moy ie ne le puiſſe voir.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Grand Prince qui regnez en faiſant la lustice
+<lb />Qui rendez la vertu triomphante du vice.
+<lb />La Reyne que ie ſers pardonne librement
+<lb />L’affront qu'elle a receu d'vn indiſcret Amant,
+<lb />muc amuue semiy demenut ſa diſgrace.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Faites-la moy venir, il faut que ie l’embraſſe,
+<lb />Ie luy veux témoigner que i’aime ſa vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Elle vient à propos.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Melanire où vas-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Ie vous allois querir.
+</sp>
+<sp type="MainZone-Sp"><lb />PANT HEE.
+<lb />Et moy ie t’allois dire
+<lb />Qu'Araspe à ce qu'on tient n’a plus ſujet de rire,
+<lb />et ti, uuuceuuomn qupuy ten tont teſueur.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Ie vous puis aſſeurer qu’il n'eſt plus en faueur:
+<lb />Et vous le ſçaurez mieux du Roy qui vous demande.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ie ne meritois pas vne faueur ſi grande:
+<lb />Mais puis qu'en mon chemin ie le trouue arresté
+<lb />Ie receuray l’honneur de voir ſa Maiesté.
+</sp>
+<sp type="MainZone-Sp"><lb />15. . 2.
+<lb />YRVS.
+<lb />Madame, i’ay grand tort de vous auoir laiſſee,
+<lb />oons ta ſoy à vn meſcnant qui pous a tant preſſee.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Sire, faites luy grace, il ſera plus diſcret.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Ayant eu de ſa faute vn extreme regret;
+<lb />Du crime capital i’ay conuerty la peine
+<lb />En celle de ne voir ny ſon Roy ny ſa Reyne.
+<lb />I’ay droict depuis vn temps de vous nommer ainſi.
+</sp>
+<sp type="MainZone-Sp"><lb />TANTHEE.
+<lb />Ie ſuis voſtre ſeruante, &amp; ie ne viens icy
+<lb />Que pour vous aſſurer de mon obeïſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />BINVD.
+<lb />Vous eſtes à vous meſme eſtant en ma puiſſance,
+<lb />Bref comme prrojtois voſtre fidelle eſpoux
+<lb />Ie veux qu’on voüs honnore &amp; qu’on ait ſoin de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARRIHEE
+<lb />Pleuſt aux Dieux maintenant que mon cher Abradate</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />RVS.
+<lb />Que luy ſouhaitez vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHTEE.
+<lb />Ha! Sire, ie me flate:
+<lb />La fortune eſt touſiours contraire à mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Quand de la Bactriane il ſera de retour,
+<lb />Vous le ferez venir afin qu’il vous rauiſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Pouruen qu'au teu d'Araſpe u vousrende ſeruice.
+<lb />Iamais de voſtre Cour ie ne m’eſloigneray.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Et le cas arriuant ie vous témoigneray
+<lb />Combien ie dois aimer ſa perſonne &amp; la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Au moins il vous ſera plus fidele que l’autre,
+<lb />Et ſi vous l’employez contre vos ennemis,
+<lb />Bien tost à la raiſon vous les aurez ſouſmis
+<lb />Celuy dont vous auez tout le Royaume en proye
+<lb />A tant de fois troublé noſtre commune ioye,
+<lb />Qu'il ſera trop heureux de quitter ſon party,
+<lb />Pourueu que de ma part il en ſoit aduerty:
+<lb />Ie pourray dextrement conduire cet affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />RVS.
+<lb />O que vous ſçauez bien le moyen de me plaire!
+<lb />Voilà par où mon cœur pouuoit eſtre gaigne.
+</sp>
+<sp type="MainZone-Sp"><lb />LARTABASE.
+<lb />Araſpe tout à fait en eſt donc eſloigné.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Ie ne l’ay plus an caur ny moins dans ta memoire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Din amire que uurom ie ne le pourrois croire
+<lb />Sans doute. I’ay donc tort d’auoir manqué tantoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />A IlavD.
+<lb />A quel commandement?
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE
+<lb />D’amener le Preuoſt;
+<lb />Mais vraiment ie croyois que c’eſtoit vne feinte,
+<lb />Pour en le pardonnant luy donner de la crainte.
+</sp>
+<sp type="MainZone-Sp"><lb />RVS.
+<lb />e n’eſtoit pas en ieu que ie t’auois parlé,
+<lb />Il me ſuffit pourtant de l’auoir exilé.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Voſtre Maieſte, Stre, eut eſte mat ſeruie,
+<lb />Si par vos Officiers il eut perdu la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />L’exil aux gens de cœur est vne dure loy
+</sp>
+<sp type="MainZone-Sp"><lb />S.
+<lb />Allons plus amplement conferer vous &amp; moy.
+</sp>
+<p type="MainZone-Other"><lb />ARTABASE.
+</p>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Fidelle compagnon valeureux Homotime,
+<lb />Mon plus cher confident, mon ami plus intime,
+<lb />Que feras-tu ſans moy que vas-tu deuenir
+<lb />Si iamais à la Cour tu n’oſes reuenir?
+<lb />O cruelle fortune! â trompeuſe maratre,
+<lb />Dont au commencement chacun eſt idolatre:
+<lb />Alors que tu nous vois heureux &amp; triomphants,
+<lb />Tu ne manques iamais d’eſtouffer tes enfans:
+<lb />On en ſçait tant d’effets! on en voit tant d’exemples!
+<lb />Et l’on ne ceſſe point de te bastir des temples,
+<lb />On voit à deſcouuert au pieds de tes anitis,
+<lb />Les ſepulchres ſanglants ou tombent les mortels.
+<lb />Etut tous les vinants aucun ne voit la roue
+<lb />Qui les iette à la fin du trôſne dans la boüe.
+</sp>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />TYGRANE, ARASPE, ABRADATE
+<lb />ARMENIDE, CYRVS, ARTABASE
+<lb />PANTHEE, CRESVS, MELANIRE,
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />ARASPE, TYGRANE.
+</p>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />V'elle rare beauté vous fait perdre l'esprit.
+<lb />A trouuer par icy le chemin qu'elle prit,
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Celle qui trop ſouuent s’eſtoit accouſtumée
+<lb />De faire le meſtier d’vn General d’armée.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Et qui portoit le nom du braue Corylas?
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />C’eſt elle, cher amy, qui me rend ainſi las.
+<lb />O mal-heurl pour me ſuiure elle s’eſt expoſee
+<lb />A la pluye, au ſerain, au vent, à la roſee.
+<lb />Elle a voulu ſouffrir ſeulement pour me voir.
+<lb />Les incommoditeZ du matin &amp; du ſoir:
+<lb />Et trauerſant pour moy des lieux inacceßibles,
+<lb />Elle a fait des efforts à moy meſme impeßibles.
+<lb />Vn caſque, vn corſelet, &amp; le poids exceßif,
+<lb />D'vne cotte de maille, &amp; d’vn plaſtron maßif.
+<lb />Les mauuais logements, l’exercice penible
+<lb />De monter vn cheual vigoureux &amp; ſenſible.
+<lb />Et tout ce qu’vn Gendarme endure parmy nous,
+<lb />Ne l’a pû démouuoir de ſe porter aux coups.
+<lb />I’ay bien peur qu’à la fin elle y ſoit demeurée:
+<lb />Ie n’en puis receuoir de nouuelle aſſeurée.
+<lb />Vn Mede ſeulement qui portoit ſes paniers
+<lb />M’aſſeure qu’elle eſtoit aux rencontres derniers,
+<lb />Que chargeant vertement les ennemis en queue.
+<lb />Dans ce rude combat il l’a perdit de veüe.
+<lb />Voy ie te prie, Araſpe, apres vn tel effort
+<lb />Si ie ne dois pas croire ou ſa priſe ou ſa mora?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Peu de femmes ont fait de ſi grandes merueilles,
+<lb />Mais außi dans le monde elle a peu de pareilles.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Ie te laiſſe à penſer, ſi i'ay dormy depuis,
+<lb />Et ce que ie dois faire en l’humeur où ie ſuis.
+<lb />Il n’eſt Ville de guerre en toute la contrée,
+<lb />Où ma plainte auiourd’huy ne trouue quelque entrée:
+<lb />Mais i’ay beau quereller tous les Chefs principaux,
+<lb />Ils me laiſſent courir &amp; viuent en repos.
+<lb />I'ay voulu m’eſprouuer au plus grand Capitaine:
+<lb />Le jauelot en main i’ay couru dans la plaine.
+<lb />Et pour taſter le poux aux meilleurs combattans,
+<lb />Deſſus le champ d’honneur i’ar paru fort long-temps.
+<lb />Mais comme des Renards ils ſe couurent de terre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASTE.
+<lb />Et comme des Lyons nous leur ferons la guerre.
+<lb />Pons uemovespee un pouig nom tons là-dedans
+<lb />Nous fallut-il manger la terre à belles dents.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />L’entrepriſe pourtant me ſemble temeraire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<fw><lb />En
+</fw></sp>
+<sp type="MainZone-Sp"><lb />TYGRANE
+<lb />Ie me puis bien reſoudre à ce que nous diſons,
+<lb />Mais de ton deſeſpoir conte moy les raiſons;
+<lb />Comment penſes-tu prendre vne Ville fermee,
+<lb />Capable de laſſer vne puiſſante armee.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />I'ay reconnu par où ie la dois aſſaillir,
+<lb />Et comme ie l’entends ie ne la puis faillir.
+<lb />I'ay fait ſon horoſcope, &amp; ie l’auray ſans peine.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Les faiſeurs d’horoſcope ont la teſte mal ſaine.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ie l’ay plus que perſonne, &amp; ſi dans peu de temps
+<lb />Ie veux executer tout ce que ie pretends.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Toute choſe entre nous deuroit eſtre commune,
+<lb />Et tu ne me dis pas ta mauuaiſe fortune;
+<lb />La rencontre hors de temps que i’ay faite de toy
+<lb />En vn quartier ſi loin de la tente du Roy:
+<lb />Ta mine, ton diſcours d’vn Geant inuincible,
+<lb />Et ton mauuais conſeil de tenter l’impoßible?
+<lb />Tout cela me témoigne vn courage affligé
+<lb />D’vne fureur pareille à la douleur que i’ay.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />D’abord ie n’oſois pas vous conter ma diſgrace.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Et qui pourroit, Araspe, auoi gagné ta place?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Perſonne. Mais Cyrus ne me veut plus reuoir:
+</sp>
+<sp type="MainZone-Sp"><lb />Le ſuiet?
+<lb />TYGRANE.
+</sp>
+<sp type="MainZone-Sp"><lb />Panthée.
+<lb />ARASPE.
+<lb />En vn mot vous le pourrez ſçauoir,
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Hal ie comprens tout ce que tu veux dire
+<lb />Mais que pouuoit le Roy te commander de pire?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />P'en ſuis au deſeſpoir &amp; me ſuiuez. Ou non.
+<lb />Ie vay mourir, Tygrane, ou ſignaler mon nom.
+<lb />Ie me vay preſenter à la porte de Sardes,
+<lb />Attirer deſſus moy les Bourgeois &amp; les gardes:
+<lb />Et quereller ſi haut toute la garniſon
+<lb />Qu'elle viendra dehors en tirer la raiſon.
+<lb />Lors pour entrer dedans &amp; rompre tout obſtacle,
+<lb />Ie feray des premiers vn tragique ſpectacle:
+<lb />Et dißipant le gros comme vn foudre eſclattant
+<lb />Iuſques dans leurs fouyers ie les iray battant.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Nous pouuons faire mieux. Il nous eſt plus facile
+<lb />D’appeller en duel les plus grands de la Ville:
+<lb />Le ſeul nom de Tygrane obligera Creſus,
+<lb />De venir au combat ou ne paroiſtre plus:
+<lb />Et ſi quelqu’autre Prince eſt en ſa companie
+<lb />Ie te feray paſſer pour celuy d’Hitunie,
+<lb />Smnon, quelque ſecond de meſme qualité,
+<lb />Ne te laißera pas dans la neutralité.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Ce conſeil ne prouient que d’vn grand Capitaine,
+<lb />Et ce n’eſt plus auoir la ceruelle mal ſaine:
+<lb />La colere &amp; l’amour aiguiſent les esprits,
+<lb />Et l’homme a plus de ſens quand il en eſt eſpris.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ABRADATE, ARMENIDE.
+</p>
+<sp type="MainZone-Sp"><lb />ABRALHTE.
+<lb />Moy ſeul en ce lieu vous eſtre declarée?
+<lb />AVraiment vous en ſereZ dauantage honorée,
+<lb />Puis que vous auez pris tant d’aſſurance en moy,
+<lb />Ie ſerois vn meſchant de vous manquer de foy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Vous connoiſſant enclin aux vertus militaires,
+<lb />I’ay voulu meriter vos aduis ſalutaires;
+<lb />Et te puis me commettre auec iuſte raiſon
+<lb />A qui m'a procure la Ville pour priſon.
+<lb />Puis mon bon naturel &amp; voſtre modeſtie,
+<lb />Pour eſtre mal enſemble ont trop de ſimpatie.
+<lb />Ie ne crains point en vous qu’vne mauuaiſe humeur
+<lb />Mette pour mon ſuiet tout le peuple en rumeur.
+<lb />Et vons emoraſſertz ſi te fun eſcoutée
+<lb />Le party de Cyrus pour l’amour de Panthee.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ouy: Ie veux l’embraſſer auec fidelité,
+<lb />Puis que u tue e ue vous ten ſuis ſouicité.
+<lb />Voyez ce qu’elle enuoye à ſon mary fidelle,
+<lb />Pour me dire vn ſecret, &amp; me ſouuenir d’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Cette enſeigne eſt marquée au coin d’vn Souuerain.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ie ne connois que trop cette piece d’airain.
+<lb />On voit dans ce metal ſa couronne &amp; la mienne,
+<lb />On peut lire à l’entour ma deuiſe &amp; la ſienne.
+<lb />Noſtre Ville de Suxe eſt deſſus le reuers
+<lb />Auec vn chiffre double &amp; la moitié d’vn vers.
+<lb />Et ce mot Syriaque explique lé ſimbole
+<lb />D’vn amour contracté de cœur &amp; de parole;
+<lb />C’eſt le preſent royal qu’elle eut en m’eſpouſant,
+<lb />Don à la verité moins riche que peſant.
+<lb />Puis que toute l’enſeigne eſt ſeulement de fonte,
+<lb />Dont les filles des chãps n’auroient pas fait grand cõpte.
+<lb />Mais pourquoy, direz vous fut elle faite ainſi?
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />C'eſt a quoy ie penſoh.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />La raiſon. La voicy.
+<lb />Ayant conſideré qu’en ſurprenant mes Villes
+<lb />On ne pilleroit pas les choſes les plus viler;
+<lb />Et que la ſoldateſque auroit pluſtoſt les yeux
+<lb />Deſſus l’or &amp; l’argent, qu’elle aime touſiours mieux.
+<lb />Afin de conſeruer cette vnique medaille
+<lb />Lors d’vne Ville priſe ou lors d’vne bataille,
+<lb />Ie voulus qu’elle fut de ce metail commun,
+<lb />Et non d’or ou d’argent trop aimé d’vn chacun.
+<lb />Ainſi lorſque Panthée a veu mettre au pillage
+<lb />Ses bagues, ſes ioyaux, &amp; tout ſon équipage;
+<lb />Elle a pû dans le ſac conſeruer aisément
+<lb />Le preſent nuptial que luy fit ſon Amant.
+<lb />Et voilà (pour ſceller vn important miſtere)
+<lb />La piece qu'elle &amp; moy nous tenons la plus chere:
+<lb />Bref, cet original ne peut eſtre menteur,
+</sp>
+<sp type="MainZone-Sp"><lb />PeRCRABETIDE.
+<lb />Mais vous ne dites pas le ſecret du Porteur.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ie ne vous le diray que tout bas à l’oreille.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Qui pourroit s’aduiſer d’vne ruſe pareille?
+<lb />O que ſon bel esprit paroiſt en ce deſſeinl
+</sp>
+<p type="MainZone-Other"><lb />ABRADATE
+</p>
+<sp type="MainZone-Sp"><lb />ABRADATE
+<lb />Elle a dans ſon malheur l’entendement plus ſain,
+<lb />Et des aduerſitez dont elle eſt accablée,
+<lb />Son ame iuſqu’icy ne paroiſt point troublée.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Depuis que le Perſan l’a tient en ſon pouuoir
+<lb />Tum jon pun prand malheur eſt de ne vous pas voir:
+<lb />Au reſte ſa perſonne eſt touſiours reſpectée,
+<lb />Et les gardes qu'elle a ne l’ont point mal traictée.
+</sp>
+<sp type="MainZone-Sp"><lb />AGCRIDATE
+<lb />Vous ne ſçauez donc pas tout ce qui s’eſt paßé
+<lb />Contre vn Mede inſolent que Cyrus a chaſſé?
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />N’eſt ce point contre Araſpe?
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE
+<lb />Il me ſemble Armenide
+<lb />Que vous aueZ uouut te nom de ce perfide;
+<lb />A qui ie ne veux mal que pour ſa trahiſon
+<lb />Non pour l’aueugle amour qui troubloit ſa raiſon.
+<lb />On a par trop puni ceſte douce manie,
+<lb />Mais ſa deloyauté n’eſt point aſſez punie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Que i'en ſuis eſtonnée!
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Allons au principal,
+<lb />Et penſons vous &amp; moyſi ie fais bien ou mal?
+<lb />Ie ſcay que Baltaſard me ſera plus ſeuere,
+<lb />Que n'a iamais eſté le deffunt Roy ſon pere:
+<lb />Il a ſceu mon retour &amp; neantmoins depuis
+<lb />Il ne fait pas ſemblant de ſçauoir où ie ſuis:
+<lb />Ie ne ſuis pas tenu de luy rendre ſeruice,
+<lb />Ie puis à l’auenir me rendre vn bon office;
+<lb />Ie n’estois bon amy qu’à ſon predeceſſeur,
+<lb />Luy ne me traite pas dans la meſme douceur:
+<lb />Et ie vois dans ſa Cour tant de libertinage,
+<lb />Que ie ne puis ſouffrir ny ſes mœurs, ny ſon age.
+<lb />Dites (ſans me noircir d aucune trahiſon)
+<lb />Si ie pourray quitter ſon camp &amp; ſa maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Vous auez trop de ſens pour conclure l’affaire,
+<lb />Ot fans tum uunutiontuy tuſon de me taire.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Donc vous eſtes d'aduis que ie ſorte dici?
+<lb />Mais comme ferez vous pour en ſortir außi?
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Il faudra me laiſſer encore priſonniere,
+<lb />Entretenir Cyrus dans ſon humeur guerriere,
+<lb />Et luy donner aduis de venir aßieger.
+<lb />Cette ville ou Creſus a voulu me loger,
+<lb />Tygrane deſireux d’emporter la victoire,
+<lb />Al aſſaut general ſe piquera de gloire;
+<lb />Vous luy direz l’endroit du mur &amp; de la tour
+<lb />Ou ie me trouueray dés la pointe du iour:
+<lb />Lors en me deliurant ie ſeray ſatisfaite
+<lb />Si l’on gaigne la ville ainſi que ie ſouhaite.
+<lb />Etit piuo grana nonneur quime puiſfe aduenir
+<lb />Eſt de voir l’entrepriſe heureuſement finir.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Elle reüßira. Mais cependant Madame,
+<lb />Gardez vous de troubler Corylas &amp; ſa femme,
+<lb />Tuiſque ſi ſontement t'mna tautre eh contoint
+<lb />Ny de corps ny de biens ne les ſeparez point.
+</sp>
+<p type="MainZone-Head"><lb />SCEAE III.
+<lb />CYRVS, ARTABASE, PANTHEE.
+<lb />MELANIRE,
+</p>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Es Mages ce matin ont fait leur ſacrifice
+<lb />Ie les viens de laiſſer acheuans leur office
+<lb />I'auois auparauant quelques difficultez
+<lb />Dont ils m’ont éclairci les ayant conſultez,
+<lb />Lors que i’ay rendu compte au Monarque celeſte
+<lb />I'ay des proſperités &amp; des graces de reſte;
+<lb />Et releuant touſiours de ſon diuin pouuoir,
+<lb />I'apprens par ſon exemple à faire mon deuolr.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Außi vous promet-il par vn heureux auspice,
+<lb />Qu'au Ciel &amp; ſur la terre il vous ſera propice;
+<lb />Nous en auons beſoin, &amp; vous premierement
+<lb />De qui noſtre ſalut dépend entierement.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Ie ſçay que la pluſpart des vertus politiques
+<lb />Chargent les Souuerains de fautes domeſtiques.
+<lb />Et ie ne vois que trop le malque ie commets
+<lb />Voulant que mon Eſtat ne periſſe iamais.
+<lb />Comme Roy ie fais bien d’aſſurer ma Couronne,
+<lb />Mais le peuple qui ſouffre accuſe ma perſonne:
+<lb />Et me conſiderant par mes propres deffauts
+<lb />Il reiette ſur moy la cauſe de ſes maux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Murmure puniſſable en cette multitude,
+<lb />Dont la plainte auiourd’huy ſe forme en habitude!
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Or comme ie n’ay point à puyer ue tuiſons,
+<lb />Ceux qui ſe font loger ès royalles priſons,
+<lb />Recommandant aux Dieux les autres qui patiſſent,
+<lb />Ie taſche de pouruoir aux abus qui ſe gliſſent:
+<lb />Et ſi quelques meſchans demeurent impunis,
+<lb />C’eſt qu’on ne peut tout faire à des maux infinis.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Vous deuez imiter les Medecins Chimiques
+<lb />Et quant il faut guerir les miſeres publiques,
+<lb />Vous pouuez apliquer aux plus fortes poiſons
+<lb />L n pen degenedor, e ue beuesraijons.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Ie m'eſſaye en tous lieux de rendre la Iustice
+<lb />Cultiuant la vertu ie retranche le vice:
+<lb />Et tout ce que ie fais est de contrepeſer,
+<lb />Vn nauire branlant ſuiet à ſe briſer:
+<lb />Si ie le meine au port tout va le mieux du monde,
+<lb />Mais s’il eſt tourmenté de l’orage &amp; de l’onde
+<lb />On dit que i’en ſuis cauſe, &amp; ceux qui ſont dedans
+<lb />S’en prennent au Pilote &amp; non aux accidens.
+<lb />Voilà comme ſouuent mes propres creatures,
+<lb />Au lieu de m’honnorer me fleſtriſſent d’iniures;
+<lb />Rom a suy penare: garde &amp; uenenu bon Roy
+<lb />Estant a mes ſuiets vvne viuante loy:
+<lb />Ie fais qu'à mon exemple ils ſe piquent de ſuiure
+<lb />Ma bonne diſcipline &amp; ma façon de viure.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Les Dieux en ſoient loués au moins iuſqu’à preſent:
+<lb />Vous n’aueZ point trouué de peuple médiſant
+<lb />Tous ſe viennent ſous mettre à vos loix militaires,
+<lb />Et vos camps ſont remplis de Princes volontaires.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Sire, i'en ſuis teſmoin, &amp; ie benis le iour
+<lb />Que vostre Maieſté m'a receüe en ſa Cour.
+<lb />Auec moy, vous aurez vn Seruiteur fidelle,
+<lb />Luy meſme apportera cette heureuſe nouuelle.
+<lb />Abradate viendra ſuiul de tous, les ſiens,
+<lb />vom oſſu foneſpee, &amp; ſa ne, &amp; ſes biens.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Puiſque dés ſi long-temps il ne vous a pas veuë.
+<lb />A vous pluſtoſt qu’à moy cette faueur eſt deuë
+<lb />Apres ie le verray ſortant d’entre vos bras,
+<lb />Madame cependant ne vous ennuyez pas,
+<lb />Nous vous diuertirons attendant qu’il arriue.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Vous auez trop de ſoin d’vne Dame captiue.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Et pour vous faire voir nos hommes courãgeux,
+<lb />Ie m’en vay leur ouurir quatre ſortes de jeux;
+<lb />Ae teur propoſeraytart, ceſpte, &amp; tamaſſe,
+<lb />Et puis le jauelot lancé de. bonne grace,
+<lb />Vous donnerez les prix aux plus vaillans de tous
+<lb />Qui ſeront trop heureux de les tenir de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Qu’en dis tu Melanire? és Princes d’Aſſyrie,
+<lb />Voit on plus de ſageſſe &amp; moins d’affeterie!
+<lb />Ce Monarque Per ſan barbare à noſtre eſgard,
+<lb />A t’il ietté ſur nous vn ſeul mauuais regard?
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Ie penſois que les yeux d'vn figrand Capitaine
+<lb />Deuſſent eſtre animés de colere &amp; de haine;
+<lb />Pour le moins ie croyois qu’vn amour offenſij
+<lb />Luy' deuſt faire eſchaper quelque geſte laſcif;
+<lb />inlis det mue te voi jon umt gentrtuſe:
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />O que ie ſuis contente! &amp; que ie ſuis heureuſe!
+<lb />Si l’homme que i’attens me rapporte auiourd’huy
+<lb />Que le Roy mon espoux ſe declare pour luy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IIII.
+<lb />CRESVS, ABRADATE, ARMENIDE,
+<lb />TYGRANE, ARASPE ſous les Armes
+<lb />du Prince d’Hircanie.
+</p>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />E cartel apportè iuſqu'à nos barricades,
+<lb />1 QuimBropeuie noms tuiſſe uprts iut de chamades
+<lb />Ce billet ramaßé deſſus le Pont-leuis
+<lb />Ne ſe doit point ouurir ſans prendre voſtre aduis:
+<lb />I'en feray donc lecture en bonne companie.
+</sp>
+<sp type="MainZone-Sp"><lb />Tygrane accompagné du Prince d’Hircanie
+<lb />Attend deſſus le champ Crelus &amp; ſon pareil,
+<lb />Ie n’auray pas beſoin d'aſſembler mon Conſeil,
+<lb />Pour ſçauoir là deſſus quel aduis ie dois prendre,
+<lb />Ouy; ſur le champ d’honneur ie deſire me rendre.
+<fw><lb />mto1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Vous n'irez pas ſans moy, ie vous accorderay,
+<lb />Où l'eſpée à la main ie vous ſeconderay.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Puis qu’il vous plaiſt de courre vne meſme fortune,
+<lb />La gloire du combat nous ſera dont commune.
+<lb />Toute la garniſon que i’ay fait aduertir,
+<lb />N'empeſchera que trop le peuple de ſortir.
+</sp>
+<sp type="MainZone-Sp"><lb />Tygrane!
+<lb />ABRADATE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Hà l' Monſieur que ce nom a de charmes,
+<lb />Et qu’il a bien trouué le deffaut de mes armes!
+</sp>
+<sp type="MainZone-Sp"><lb />HORADATE.
+<lb />N'en ſoyez point eſmeüe, &amp; croyez que ie ſors
+<lb />Pour trouuer le moyen de vous mettre dehors;
+<lb />Tandis feignez touſiours d’eſtre ce ieune Mede.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Tygrane; De bon cœur ie t’appelle à mon aide!
+<lb />Mais ie ſeray ſurpriſe &amp; m'eſcriant ainſi
+<lb />Ie feray que pluſieurs ſe trouueront ici.
+<lb />Excuſe cher Amant l’aiſe qui me tranſporte,
+<lb />Ie t’irois voir dehors ſt i'eſtois la plus forte,
+<lb />Et ſi ie ne voyois tout vn peuple eſtonné »
+<lb />S’eppoſer dans la rue au deſſein que i'en ay.
+<lb />Du faiſte de la Tour la plus groſſe de toutes
+<lb />Et qui ſemble approcher lés naturelles voutes,
+<lb />I'eſpere voir Creſus ſous tes pies abbatu,
+</sp>
+<p type="MainZone-Other"><lb />Ceder
+<lb />quueuebar puaimnda panti.
+</p>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />C'eſt trop deliberer pour vn grand Capitaine,
+<lb />Il ſçait noſtre venue, il nous voit dans la plaine:
+<lb />puns demc Epemquo puuoopue na pars
+<lb />Ne l’a pas aduerti de comparoir ſi tard.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Quelque fois vn ſecond, forme vne autre querelle,
+<lb />ſui te poun ue feruin un Pamnee quonappelle
+<lb />Cét honneur eſt brigué des meilleurs combatrans,
+<lb />Leſuomtuu in ſeul, on perd beaucoup de temps.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Courugt e en voitut ueme nois tup iut de Sardes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Il faut donc à ce coup nous tenir ſur nos gardes.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Pluſtoſt pour vous punir que pour vous contenter,
+<lb />Icy l’espée au poing ie me viens preſenter.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Par maniere d’ébat &amp; ſans eſtre en colere
+<lb />I'abaiſſeray l’orgueil d’vn Prince temeraire.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Ces propos ſuperflua vont à d'autres qu'à nous,
+<lb />Eunomnune Cuojour uo tuipondre à nos coups.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE fur la Tour de Sardes.
+<lb />O Dieux! que ie les vois reſolus de ſe battre!
+<lb />I'ay peur que ſur le chámp il? demeurent tous quatre.
+<lb />Cnacun eſt en mejure &amp; des mains &amp; des yeux,
+<lb />L’vn accourage l’autre à qui fera le mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />BRIIEE E2
+<lb />Viue le Roy Creſus!
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />O quelle perfidie!
+<lb />Mon ſecond ſe va ioindre au Prince de Lydie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />*
+<lb />Tygrane rendeZ vous, mettez les armes bas,
+<lb />Ou ſi vous ine croyez retournez ſur vos pas.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Pui tiaiſire penſes iu me tiurer de la ſorte?
+<lb />Ie ne rendray iamais vles armes que lé porte.
+</sp>
+<sp type="MainZone-Sp"><lb />AF
+<lb />A
+<lb />E<lb />Tout ſeul contre nous irois, voſtre affaire va mal.
+<fw><lb />B*
+<lb />2543.
+</fw></sp>
+<sp type="MainZone-Sp"><lb /> ABRADATE.
+<lb />Mais tenant ſon partyie le puis ropdre égal:
+<lb />H
+<lb />Ie ne ſouffriray point qu’vn amy le trahiſſe,
+<lb />Et me voicy tout preſt de loy vendre ſeruide.
+<fw><lb />una
+</fw></sp>
+<sp type="MainZone-Sp"><lb />GRESVS. R *
+<lb />Ce tour inopiné trouble mon, iagement, 
+<lb />Ie ne ſçay que penſer de ce, prompr changemenn.
+</sp>
+<sp type="MainZone-Sp"><lb /> ARASRECATETSMES S
+<lb />Nous les verrons biens toſt a quelque autre ſortie. 
+</sp>
+<sp type="MainZone-Sp"><lb />TPORAITEI
+<lb />Ils s’en vont.
+</sp>
+<sp type="MainZone-Sp"><lb />.1
+<lb />nỹ emnane, Ceu.( M ?
+<lb />ARASPE,
+<lb />I oh dinos „ te.. u-t ?
+<lb />De ma foy tenez vous aſſeuré.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />A ton te moins tetnamp nous ſera demeure.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Que me voulez vous dire?
+<fw><lb />l...
+</fw><fw><lb />8..
+<lb />L. 11.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />12.4
+<lb />ARASPE.
+<lb />Entrons dans voſtre Ville,
+<lb />Ie ne viens pas tout feul pour en défaire mille:
+<lb />Et vous pouueZ iuger qu’vn violent motif.aS
+<lb />Me rend amy fidele, ou mal-heureux captif.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Vous aurez à choiſir de cette alternatiue,
+<lb />Et vous ſereZ ouys, quoy qui nous ên arriue.
+<fw><lb />:
+<lb />n
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Ce violent combat n’a auré qu’vn moment.
+<lb />Les voilà ſeparez: Mais ie ne ſçay comment.
+<lb />Le Prince d’Hircanie &amp; Creſus ſe retirent.
+<lb />D'autre part Abradaie &amp; Tygrane s’admirent;
+<lb />au je font des nomeni, &amp;ues tmuiez
+<lb />Dignes de leur naiſſance &amp; de leurs qualitez.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />I'approuue deſormais l’heureuſe conjoncture
+<lb />De vostre confidence &amp; de mon aduanture.
+<lb />It peſe vos raiſons au poias de l'equité:
+<lb />Mais ie-ne ſçay pourquoy mon fecond m'a quitté.
+<lb />Il auoit pris le nom du Prince d'Hircanie.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Et quoy! ne l’eſt-il pas?
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Son uneugle manie
+<lb />Et ſa deſloyauté fait aßés voir que non.
+</sp>
+<sp type="MainZone-Sp"><lb />E 
+<lb />2-
+<lb />Comme l’appelleZ vous?
+</sp>
+<sp type="MainZone-Sp"><lb />YGRANE.
+<lb />Araspe et jon Mray nom.
+<fw><lb />**.
+<lb />1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Hal que ne l'ay-ie ſceu.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Parlez moy d’Armenide?
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ie n’aurois pas manqué de punir ce perfide.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Nous parlerons apres du tort qu’il vous a fait.
+<lb />Dieux! à ce que ie vois tout le monde le hait.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Trenez garuc la naut, mab i'eſt aificile
+<lb />De connoiſtre quelqu'vn ſur la Tour de la Ville,
+<lb />Nous en ſommes trop loin.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Hà! ie la reconnoit
+<lb />A ce coup de chapeau qui ſupplée à ſa voix.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Queique geſte amourenx me fera mieux entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Sa plainte iuſqu’à moy ne ſe pouuant eſtendre,
+<lb />Où n’oſant pas crier elle me tend les bras.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Il me voit, il m'entend, &amp; me reſpond tout bas.
+<lb />Tygrane encore vn coup voy cette eſcharpe blanche.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />veopez comme tue tſtaiſt &amp; comme ede ſe panche:
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Peut-eſtre-cette fleſche ira droit où ie veux,
+<lb />Mais il faut qu’elle porte vn peu de mes cheueux.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Monſieur, aſſeurément c’eſt vne ſentinelle
+<lb />Qui tire contre nous vne fleſche mortelle;
+<lb />VoyeZ cette poſture.
+</sp>
+<sp type="MainZone-Sp"><lb />TTONANE.
+<lb />O que ie ſuis heureux!
+<lb />Si ie me ſens pruppeue cotruit amoureux.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Cette felicité ne me fait point d’enuie.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Deſrant. de moſfir ie me ſaue la ble,
+<lb />I'euſſe receu le coup ſi ie n'euſſe branſlé.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Elle auoit tiré droit,
+<fw><lb />..
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Le trait s’en eſt allé; 
+<lb />L'arc m'eſçhappe des mains ie me, ſens toute eſmeüe,
+<lb />Tygrane, mes esprits s’en vont tous par la veüe:
+<lb />I'ay les yeux ſi troublez à force de te voir,
+<lb />51t
+<lb />Qu'en regardant les champs tout me ſemble eſtre noir.
+<lb />Ha! ce dernier ſouſpir entre-coupe ma plainte,
+<lb />Ie me paſme, ie meurs de plaiſir &amp; de crainte.
+<lb />Peu s’en faut qu’en mourant ie ne tombe là bas,
+<lb />Mais les aiſles d’Amour ne le permettent pas.
+<lb />Ct peint Dueu m'apiſte, uvient à ia vonne heure,
+<lb />Et dans cette foibleſſe il a peur que ie meure.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Monſieur de ces cheueux &amp; de ce trait d’amour,
+<lb />Iugez quel ennemy nous auons dans la Tour.
+</sp>
+<sp type="MainZone-Sp"><lb />HDICHDATE.
+<lb />Vraiment à ce beau poil il paroiſt qu’elle eſt blonde;
+<lb />delun tons te fganea uuenx que pesfonne du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Excuſez s’il vous plaiſt ma puerilité.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ce n'eſt que temoigner voſtre fiaelité,
+<lb />Baiſer tout ce qui vient d’vne Maiſtreſſe aimée;
+<lb />Ne choque point l’honneur d’vn General d’Armée.
+<lb />Ce preſent eſt ſi beau qu’il doit eſtre honoré
+<lb />Deſſous le Diadéme &amp; le Caſque doré.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Voilà trop compatir à ma peine amoureuſe.
+<fw><lb />43
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />ne dui na berhes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Ie ſeray trop heureuſe,
+<lb />Si deuant que partir ils me diſent adieu,
+<lb />Ouy: Ie les vou encore, ils ſont au meſme lieu</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Apres cette faueur d’vne Amante fidelle,
+<lb />Il faut contre mon gré que ie m’eſloigne d’elle;
+<lb />Mais ce ne ſera pas ſans demander congé.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Vous ſçaurez en chemin tout le deſſein que i'ay:
+<lb />Cependant pour luy plaire en l’humeur où vous eſtes,
+<lb />Henenez d'exprimer les ſignes que vous faites.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Adieu belle Armenide, adieu iuſqu'au retour.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Elle vous dit adieu du faiſte de la Tour.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />"
+<lb />A tant de baiſe-mains, ie ſerois mal honneſte
+<lb />Si ie ne respondois par vn ſigne de teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />O que i'ay de plaiſir à des gestes ſi doux!
+</sp>
+<p type="MainZone-Other"><lb />TYGRANE.
+</p>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Vous me reprocherez que i'abuſe de vous:
+<lb />uis Tygrane à la fin s’eſloignant d’Armenide,
+<lb />Vers le camp de Cyrus vous ſeruira de guide.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Ils s’en vont. Ie demeure. Et le iour qui s’enfuit
+<lb />Me laiſſe toute ſeule au ſerain de la nuit:
+<lb />Toutefois an vent frais ie ſuis accouſtumée,
+<lb />Contre le mauuais temps ie ſuis touſiours armée.
+<lb />avieſme en queiqnt fagon pieume que le ſer,
+<lb />Ie ne ſens pas ſi toſt l’humidité de l’air.
+</sp>
+<p type="MainZone-Head"><lb />ACTE IIII
+<lb />CRESVS, ARMENIDE, ARASPE,
+<lb />ABRADATE, PANT HEE, CYRVS,
+<lb />TYGRANE, ARTABASE, ARASPE.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />CRESVS, ARMENIDE, ARASPE
+</p>
+<sp type="MainZone-Sp"><lb />1
+<lb />CRESVS.
+<lb />Ous ſçauez (ce dit-on) le deſſein d’Abradate.
+<lb />Toſtou tard, il faudra que cet affaire eclatte,
+<lb />Qt Is Auant que ie me porte à la ſeuerité,
+<fw><lb />H
+</fw><lb />Dites moy ſeul à ſeul la pure verité.
+<lb />Le murmure du peuple a beaucoup d’apparence,
+<lb />On vous a veu ſouuent en grande conference:
+<lb />Et depuis quelque temps il vous a pratiqué,
+<lb />Comme ſi de vous plaire il eut eſte piqué.
+<lb />Pour vn ſimple ſoldat, c’eſt auoir trop de charmes,
+<lb />Et quelque ſortilege opere ſous vos armes.
+<lb />Vous ſçauez par magie ou par ſubtilité
+<lb />Preoccuper l’eſprit des gens de qualité.
+<lb />Ayant gagné le cœur de ce Prince imbecile,
+<lb />Vous ſeul l’auez induit à ſortir de ma Ville:
+<lb />Et par voſtre conſeil apres eſtre ſorty
+<lb />Aseſ alle lelter dan vn auire pary.
+<lb />Confeſſez. L’artifice augmentera la peine
+<lb />Ne leun moruuoCon pronoqnumt ma haine.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Las! ie ſuis innocent comme l’enfant qui naiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />Alors que deuant moy tu ſeras deſpoüillé,
+<lb />Si tu n'es criminel quand ie t’auray foüillé:
+<lb />Et ſi tu n’es ſaiſi de Lettres d’importance,
+<lb />Nous pourrons à la geſne eſprouuer ta conſtance.
+<lb />Commençons. Tu rougis? ta generoſité
+<lb />Ne permet-elle pas que tu ſois viſité?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Il ne le dira pas eſtant fin comme il eſt.
+<lb />La douceur donne lieu de forger des excuſes,
+<lb />Mais la force preuient &amp; dißipe les ruſes.
+<lb />La honte en ce rencontre ou veritable ou ſeinte,
+<lb />Precede à mon aduis vnè mauuaiſe crainte.
+<lb />Approche teynn Qusis
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Helas! que verreZ vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Il faut qu’auprés du cœur ie luy taſte le poux:
+<lb />Les meſchants ont touſiours la conſcience eſmeüe
+<lb />Toſfice ue lu main eſe pus ſeur que la veüe.
+<lb />I’ay peur que celuy cy me faſcine les yeux,
+<lb />Et par l’attouchement ie le ſonderay mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Hà! vous me faites mal.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Il faut que tu l’endures.
+<lb />at a fous te plaſtron des mammene, ſuures,
+<lb />Qu’il faut que ie le voye à deux boutons plus bas,
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Au moins pour me foüiller ne me deſarmez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS
+<lb />O Dieux! qu’ay-ie apperceu? i’ay tort. Ie le confeſſe,
+<lb />De traiter en coulpable vne chaſte Deeſſe.
+<lb />O quelle extrauagance! &amp; quelle cruauté
+</sp>
+<p type="MainZone-Lg"><lb />H ij
+<lb />D’accuſer de malice vne telle beauté.
+<lb />Valeureuſe. Guerriere agreable Ennemie,
+<lb />Nimputez point ce cas à note d’infamie.
+<lb />Tenez cet accident comme non aduenu,
+<lb />Creſus doreſnauant ſera plus retenu:
+<lb />Dites moy ſeulement comme il vous plaist de viure,
+<lb />Tous vos commandemens ie les deſire ſuiure.
+<lb />Si la Guerre vous plaiſt i’aimeray les combats,
+<lb />Si vous aimez la paix ie mets les Armes bas.
+<lb />Mais pour auoir l’honneur de voſtre connoiſſance
+<lb />Rue me utguiſez point queut epe voſure naiſſamce.
+<lb />Ie ſçay voſtre aduanture, &amp; pourtant Corilas
+<lb />Eſt vn nom emprunté qui ne vous conuient pas.
+</p>
+<sp type="MainZone-Sp"><lb />ARMENIDE
+<lb />Falloit il qu’à vous ſeul ie fuſſe deſcouuerte?
+<lb />A vons qui ne cnertneZ que ma nonte &amp; ma perte.
+<lb />A vous mon Ennemy qui vous moquez de moy,
+<lb />Et qui m’allez traiter en Tyran, non en Roy.
+<lb />O Cieux que ma conſtance eſt mal recompenſee.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Me preuienne la mort auant cette penſee,
+<lb />Moy traiter vne Dame auec indignité?
+<lb />Il eſt vray qu’vn Gendarme eſt en captiuité,
+<lb />Toutefois ſa priſon ne le rend pas infame,
+<lb />Et ie l’en mets dehors deſcouurant qu’il eſt fâme.
+<lb />Que ſi vous deſitez estre encore garçon,
+<lb />Vous ſerez deliuré ſans aucune rançon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Et demeurant touſiours dans vn eſtat ſeruile,
+<lb />I’auray ma liberté ſans partir de la Ville?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Hàl ie n’ay plus moyen de vous donner congé,
+<lb />Man ie vous donne icy tout te ponuoir que i'ay.
+<lb />Ma Couronne eſt à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMANIDE.
+<lb />Pour eſtre vn peu luiſante,
+<lb />Ie ſçay que ſur vous meſme elle eſt beaucoup peſante.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Reuenons donc aux poincts que nous auons laiſſez.
+<lb />P oſtre nom: bos parems:
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />O que vous me preſſeZ.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Sans me formaliſer des mines que vous faites
+<lb />Celuy qui vient à nous me dira qui vous estes.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />O le traistre! l'infame! &amp; rebelle à ſon Roy.
+<lb />Il ne manquera pas de meſdire de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Tantoſt nous parlerons de la Gendarme rie
+<fw><lb />24
+</fw><lb />Que ie commanderay par toute l'Aſſyrie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />I'en apporte l’eſtat &amp; le nombre certain
+<lb />Que le Roy de Babel aſigné de ſa main.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Nous execurerons ſes ordres neceſſaires,
+<lb />Et nous irons bien toſt contre ſes aduerſaires.
+<lb />Mais ce ieune Soldat qu’on nomme Corylas,
+<lb />Dy moy ſincerement ne le connois tu pas?
+</sp>
+<sp type="MainZone-Sp"><lb />'eſt la femme
+<lb />ARASPE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />O meſchant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE
+<lb />Du Prince d’Armenie
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Et toy perfide? és tu le Prince d’Hyrcanie?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS
+<lb />De quoy vous ſouuient il? nous ſçauons bien que non,
+<lb />En ſe rendant à nous il declara ſon nom.
+<lb />Eſcoute. Gagne moy cette Dame rebelle,
+<lb />Ie m’en vay tout exprés te laiſſer auec elle:
+<lb />Ie ſeray trop heureux ſi tu peux l’adoucir,
+<lb />Et la Guerre en ce cas pourra mieux reüßir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Pourquoy vous faſchez vous genereuſe Amasône?
+<lb />PenſeZ vous que ie ſois au Roy de Babilône:
+<lb />Ie l’ay veu quelque temps; mais ie l’ay frequenté
+<lb />Pour le plonger au vice où ie l’ay veu porté,
+<lb />Afin de mieux conduire vne entrepriſe ourdie,
+<lb />Ie reuiens de ſa Cour vers le Roy de Lydie:
+<lb />Dans vne heure d’icy i'eſpere voir Cyrus,
+<lb />Et chez nos Ennemis vous ne me verrez plus.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Ton infidelité n’ayant point de ſeconde,
+<lb />Tu ſeras apres tout le plus meſchant du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Dans te tamp ues Perſans te ſeray bien receu,
+<lb />Et vous m’eſtimerez quand vous aurez tout ſceu.
+<lb />Adieu le temps m’eſt cher. Vous eſtes ſi diſcrette,
+<lb />Que ie me fie en vous d’vne choſe ſecrette.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Bons Dieux illuminez ce fameux impoſteur!
+<lb />Et faites qu’à ce coup il ne ſoit pas menteur:
+<lb />Comme il eſt dangereux de s’en rendre complice,
+<lb />Il eſt touſiours plus ſeur de taire ſa malice.
+<fw><lb />82
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ADRADATESIANTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ites la verité. Deſlors que ie parus,
+<lb />JEntre les Cheualiers de la Cour de Cyrus.
+<lb />Me connoiſſant d’aboft vous fuſtes ſubornée,
+<lb />De m'adiuger le gain de toute la iournee?
+<lb />Et me fauoriſant és combats entrepris,
+<lb />Vous me fiſtes l’honneur de me donner les prix?
+<lb />Encore ce matin par vne belle courſe,
+<lb />Le meſme Caualier vous a couppe la bourſe.
+<lb />Et voicy les ioyaux qu’il a trouué dedans?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Vous les merités mieux que d’autres plus ardens,
+<lb />Sur toutes les vertus la grace eſt la maiſtreſſe,
+<lb />Pluſieurs braues Perſans ont paru comme vous,
+<lb />Mais en toute façon vous les ſurpaſſez tous.
+<lb />Et ne me dites point que ie vous fauoriſe,
+<lb />Mon iugement eſt tel que Cyrus l’authoriſe.
+<lb />Chacun publiquement vous proclame Vainqueur,
+<lb />Comme en particulier vous l’eſtes de mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />De voſtre cœur Madame? O l'heureuſe victoire,
+<lb />Mais comment oſerois-ie esperer tant de gloire?
+<lb />Et ne
+</sp>
+<p type="MainZone-Lg"><lb />Moy qui vous ay laiſſee au milieu des haſars,
+<lb />Lors que les ennemis venoient de toutes pars:
+<lb />Moy qui n’eus point dégard à noſtre mariage,
+<lb />Troublant voſtre repos pour vn meſchant voyage:
+<lb />Et qui pour obliger tant de peuples ingrats,
+<lb />Me ſuis veuſi long temps abſent d’entre vos bras;
+<lb />Que ne dois-ie pas faire? &amp; qu’ay ie fait encore,
+<lb />Digne d’eſtre admiré des beaux yeux que i’honore,
+<lb />Quand pour l'nmour de vous i’aurois vaincu les Rois,
+<lb />Dont nous auons enfraint les tyranniques loix
+<lb />Lors que i’auray gaigné quelque ville aßiegée,
+<lb />Ou conquis vn Royaume en bataille rangée:
+<lb />Qand le Roy de Lydie auec tous ſes treſors,
+<lb />Ayant perdu ſa ville en ſera mis dehors:
+<lb />Et lors que Baltaſard où de force, ou de grace,
+<lb />Aura veu le Perſan dans ſa plus forte place.
+<lb />Apres m’eſtré acquité de tous ces bons emplois,
+<lb />Apres l’euenement de tant d’heureux explois:
+<lb />Si ie n’ay fait aſſez pour reparer mes fautes
+<lb />I'eleueray mon cœur à des choſes plus hautes:
+<lb />Iuſques là ie me ſens indigne d’eſtre aimé,
+<lb />Et voſtre cabinet me doit eſtre ferme,
+<lb />Madame iuſques là voſtre naiſſance illuſtre,
+<lb />Met entre vous &amp; moy le dais &amp; le baluſtre,
+<lb />Et loin de vous ſeruir en qualité d’eſpoux,
+<lb />Ie n’oſe regarder ny voſtre lict ny vous.
+</p>
+<sp type="MainZone-Sp"><lb />PANTHEE
+<lb />Quand voſtre ame ſe ioüe en ſes belles penſees,
+<lb />Quelles chaſtes beautez n’en ſeroient point forcées.
+<lb />De moy i’en ſuis rauie, &amp; mon eſprit confus
+</sp>
+<sp type="MainZone-Sp"><lb />Oublie entierement la miſere où ie fus:
+<lb />Ie n’ay plus d’amertume, &amp; quand ie vous eſcoute
+<lb />Ie vous puis aſſeurer que rien ne me degoute;
+<lb />Au contraire l'honneur que i’ay de vous reuoir
+<lb />M'eſt le plus grand plaiſir que ie pourrois auoir.
+<lb />Mais il eſt vray Monſieur que la ceremonie
+<lb />Dont il me faut vſer en voſtre companie.
+<lb />Ce deuoir, ce reſpect contraire à mon amour,
+<lb />Fait que ie n’oſe pas vous le monſtrer au iour.
+<lb />Außi (comme il paroit) depuis voſtre arriuée
+<lb />Vostre Grandeur royalle eſt ſi haut eſleuée:
+<lb />Que ce m’eſt trop d’honneur de vous conſiderer
+<lb />Ainſi qu’vn Demi-dieu que ie dois reuerer.
+<lb />Iugez de là combien voſtre perſonne eſt chere
+<lb />A vos bons ſeruiteurs, vous tenez lieu de Pere.
+<lb />Aux autres vous ſerueZ &amp; doracle &amp; de loy;
+<lb />Et moy ie vous honore en qualité de Roy.
+<lb />Apres cela voyez ſi i'ay droit de pretendre
+<lb />Le moindre des honneurs qu’il vous plaiſt de me rendre:
+<lb />Et ſi ie le reçois l’ayant trop conteſté,
+<lb />Dites que i'obeis à voſtre Maieſté.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Cyrus ſort de ſa tente &amp; vers nous s’achemine,
+<lb />Il nous faut mettre vn peu deſſus la bonne mine.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CYRVS, TYGRANE, ARTABASE
+<lb />ABRADATE, PANTHEE, ARASPE.
+</p>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />PRES auoir offert ma priere au Soleil,
+<lb />AAIe ne pouuois ſans vous aßembler mon Conſeil.
+<lb />Ayants ioint tous enſemble vn ſi grãd nombre d’hõmes
+<lb />Que noux auons chacun au païs où nous ſommes.
+<lb />Ie ſçay qu’il appartient aux grands Chefs comme vous,
+<lb />De les mettre en bataille &amp; les mener aux coups.
+<lb />Tygrane qui toufiours des premiers ſe haſarde
+<lb />Me demande inſtamment de mener l’auant garde:
+<lb />Vous aurez la bataille &amp; moy ie conduiray
+<lb />Toute ſarriere-garde, en vn corps ſeparé.
+<lb />Artabaſe &amp; quelqu'vn dont i’attens des nouuelles
+<lb />P oin auer &amp;'ven jeron ms jun tes viſtes.
+<lb />En cet ordre voyez ſi nous deuons marcher.
+</sp>
+<sp type="MainZone-Sp"><lb />AIaknlene
+<lb />Vos coureurs ce matin ont ſurpris vn Archer.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Voſtre camp ne peut eſtre en plus belle ordonnance.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE
+<lb />Qui nous a rapporté que l'Ennemy s’auance.
+<fw><lb /> ij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Celuy que i’apperçois le ſçait mieux que pas vn.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Hà! d’où vient il le traiſtre!
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />O Dieux! quelle careſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Le Roy pour ce meſchant perd toute ſa Nobleſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />voyez te de pon œil, n'en ſoyez point ialoux.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Sire, en le pardonnant vous nous banniſſez tous.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Vous me ſçaureZ bon gré de ce que ie l’embraſſe,
+<lb />Quand vous ſçaurez pourquoy ie luy donne ſa grace.
+<lb />Araſpe qu’as tu fait pour eſtre pardonné?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />A tromper vn chacun ie me ſuis addonné.
+<lb />I'ay trahy (commençant au Prince d’Armenig
+<lb />Tous ceux que ie connois en cette companie:
+<fw><lb />1a</fw><lb />Mais i’ay rendu ſerutce à voſtre Maieſté,
+<lb />Comme entre vous &amp; moy ie l'auois proreſté:
+<lb />De mon crime d’amour faiſant la penitence,
+<lb />Ie vous ay deſcouuert des ſecrets d’importance;
+<lb />I’ay veu dans Babilône vn Pimee desbauché,
+<lb />Vn Roy voluptueux eſclaue du feché.
+<lb />I'ay rendu Baltaſar incapablé d’affaire,
+<lb />L.
+<lb />Et ie l’ay ſceu corrompre à force de luy-plaire.
+<lb />Son Lieutenant Creſus qui ne vaut guere mieux
+<lb />Sur des montagnes d’or m’a fait ietter les yeux;
+<lb />10
+<lb />I'ay veu tous ſes treſors, qui nous ſont des amofces:
+<lb />Pour acquerir ſes biens &amp; dißiper ſes forces.
+<fw><lb />**MI.
+<lb />11
+<lb />nCha. PHESt E
+</fw></sp>
+<sp type="MainZone-Sp"><lb />I
+<lb />YS.
+<lb />Combien peut il auoir de mille combattans?
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Sire, De les compter ie n’ay pas eu le temps:
+<lb />Mais voicy par eſcrit ſes ordres militaires,
+<lb />Où ne ſont pas compris les Soldats volontaires.
+<fw><lb />*44
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CYRVS liſant le papier, que luy a
+<lb />preſenté Araſpe.
+<lb />Cent mille hommes d’Eg ypte eſtimez les meilleurs,
+<lb />Trente mille d’Aſie &amp; bien autant d'ailleurs.
+<lb />Les Regimens de Grece &amp; de Lycdonie,
+<lb />Les Trouppes de la Thrace &amp; calles d’Ionie.
+<lb />Tous nos confederez, ceux que nous diſtinguons
+<lb />En habitans de Cypre; Arabes, Paphlagons,
+<lb />Et tous ceux des païs de noſtre obeißance:
+<lb />Feront voir à Cyrus qu’elle eſt nostre puiſſance,
+<lb />Sur les bords du Pactole ils ſeront aſſemblez.
+<lb />De inmnn pont iun cau orut vun-et de blez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Outre cela. Deux Gheſs vont en Lacedemone
+<lb />Pour amener des gens au Roy de Babylone;
+<lb />avian les Amjonſſauems enuoyez de ſa part,
+<lb />Pour auoir du ſecours arriueront trop tard.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Ne vous eſtonnez point en voyant tant de teſtes,
+<lb />vnceiſ tommandera toutes ſortes de beſtes.
+<lb />Creſus accoustumé de fuyr deuant nous,
+<lb />Conduiſant tant de gens les dißipera tous.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Mais Sire, en general ma paix eſt elle faite?
+<lb />Et comment vous plaiſt il que chez vous on me traite
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Tantoſt l'on t’a ietté des regards de trauers,
+<lb />Mais il faut que chacun t’accole à bras ouuerts.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Hors de voſtre preſence il n'eſt point de careſſe
+<lb />Que ie ne luy teſmoigne en ſigne d’allegreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Pour ce meſme reſpect ie n’oſe l'embraſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Par preferance à tous ie le dois careſſer,
+<lb />Sa Maieſte le vens.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Bien que le Roy me voye
+<lb />Ie me laiſſe emporter à cet excés de ioye.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />AlMrede
+<lb />De le voir à loiſir &amp; de luy dire adieu,
+<lb />Mais genereuſement &amp; ſans eſtre affligée,
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />A vous rendre ſeruice elle eſt trop obligée,
+<lb />Et ien peuſt pa meue du ſon tipoux
+<lb />Qu'a raiſon des honneurs que i’ay receus de vous;
+<lb />Außi ie ne crois pas qu'elle ſe fonde enlarmes,
+<lb />Quand pour vos intereſts ie mourrois dans les armes.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Vous mourrez de plaiſir ſous nos beaux pauillons,
+<lb />Et nous irons tandis former nos bataillons.
+<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ABRADATE. 
+<lb />Auant que ie me rende où ma charge m’appelle,
+<lb />yrus m’a voulu faire vne grace nouuelle
+<lb />De nous loger enſemble encore cette nuict,
+<lb />Pour au moins ſi ie meurs vous laiſſer vn beaù fruict.
+<lb />Il iuge que demain vous ſerez plus contente
+<lb />En me voyant ſortir de voſtre- helle Tente;
+<lb />Armé de toute piece &amp; richement paré
+<lb />ou te tnar de tomvai que ton-m'a preparé.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Lors à la verité ſi vous eſtes encore
+<lb />Dans les brus de Panthee au leuer de l'aurore.
+<lb />Si precipitamment quelque bruit de tambour
+<lb />Ne vous fait point ſortir auant l’aube du iour,
+<lb />I’espere vous armer &amp; vos armes dorées
+<lb />atront ue mes topuusojuperaement partes.
+<lb />De ſorte qu'Abradute en de noble appareil
+<lb />Dans le camp des Perſans n’aura point de pareil.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />dons puui puo uomtuptus jegraude Reyne,
+<lb />Ponr vn braue Gendarme ayant pris tant de peine,
+<lb />Il ne combaile apres auec plus de ferueur,
+<lb />Et ne ſoit aſſeuré de vaincre en ſa faueur.
+<fw><lb />..m. M'
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Vous eſtes obligé par tant de l'ons offices,
+<lb />D'employer pour Cyrus vos fidelles ſeruices,
+<lb />Que ſi dans les combats ie vous dois eſchauffer
+<lb />Pour l’amour de luyrſeul vous, deuez triompher
+</sp>
+<sp type="MainZone-Sp"><lb />l'..
+<lb />PABRADATE.
+<lb />Il ſe contentera du fruict de la victoir?
+<lb />4..
+<lb />ans luy faire tort vous en aurez lu gloire. I
+<lb />mdis847 veipe tquoes ciene di re auemi mi. vol
+<lb />*.
+<lb />2
+<lb />*
+</sp>
+<p type="MainZone-Other"><lb />PANTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Qiſt trop aanamugti noptre amour coniugal.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Le partage autrement ne ſeroit pas eſgal.
+</sp>
+<sp type="MainZone-Sp"><lb />2A d lilas
+<lb />Viue donc Abradate &amp; Cirus en mon ame
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Viue pareillement &amp; mon Prince &amp; ma Dame
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Et l’Aſtre qui iamais ne termine ſon cours
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Augmente à l’infini le compte de vos iours.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Du coſté d’Occident ſa clarté nous preſage
+<lb />De nous reuoir bien toſt auec vn bon viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Et pour l’amour de vous mon courage entreprend
+<lb />D'executer demain quelque choſe de grand.
+<fw><lb />Ll
+<lb />
+<lb />1
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />V
+<lb />ABRA DATE, PANTHEE, CYRVS,
+<lb />TYGRANE, ARMENIDE, ARASPE,
+<lb />ARTABASE, MELANIRE, CRESVS,
+<lb />LES TORLE-SCETRES.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />ABRADATE, PANTHEE.
+</p>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Ntendre qu’en mourant l'ay gaigné lavictoire?
+<lb /> Et ſçauoir que mon nom ſera misdans l’hiſtoire?
+<lb /> Me fait imaginer que ie ſuis immortel,
+<lb />Et que ſurte Pudioie on me urejfe vn autel,
+<lb />Apprendre que Cyrus apres cette bataille,
+<lb />A pris ſon ennemi par vn trou de muraille?
+<lb />Qu'ayant battu ſa ville, il l’a priſe d’aſſaut?
+<lb />Ha? de ioye &amp; d’amour, la parolle me faut.
+</sp>
+<sp type="MainZone-Sp"><lb />bu*.
+<lb />PANTHEE.
+<lb />* 42 *: .
+<lb />Mais plustoſt ſes douleurs, qui rengregent mes peines,
+<lb />Tant de ſang qui ſenfuit de ſes tremblantes veines
+<lb />Et tant de coups de trais, que ie ne puis guerir.
+<lb />Luy font perdre la vie &amp; me feront mourir,
+<lb />O Dieux! que puis-ie faire a ce grand coup de lame,
+<lb />Par cette grande playe, il s’en va rendre l'ame.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Que dites vous Panthee?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Pluuiuno dis pas vous
+<lb />C’eſt moy ( n’en doutés pas) qui mourray de vos coups
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Adreſſer en ce lieu voſtre plainte à quelque autre?
+<lb />Me taire mon trespas? &amp; m’annoncer le voſtre,
+<lb />Qu'est ce à dire? ſinon! que vous me delaiſſeZ,
+<lb />Apres m’auoir tiré du nombre des bleſſez.
+<lb />Vous eſtois ie ſi cher? &amp; falloit-il ma Reyne,
+<lb />De ce corps tout ſanglant vous donner tant de peine?
+<lb />Pour l’expoſer apres à vos reſſentimens?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Le puis-ie restaurer par de bons alimens?
+<lb />La qualité de l’or qui ſe meſle au breuage,
+<lb />Que ie puiſe moy meſme au long de ce riuage,
+<lb />Les ſimples de la terre &amp; la manne des Cieux,
+<lb />Tout cela vous ſert il?
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Non pas tant que vos yeux,
+<lb />Voſtre ſeule amitié m’eſt vn Baume celeſte.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE
+<lb />Ie l'ay tout employée, &amp; ſi i’en ay de reſte,
+<lb />Mais ie ne trouiue pas qu’elle ſerue de rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Et moy ie reconnois qu’elle me fait du bien.
+<lb />TeneZ moy companie au moins vne bonne heure,
+<lb />Ne m’abandonnez point encore que ie meure,
+<lb />Et vom empeſenere ( quvn potant treſpas,
+<lb />Me ſeparant de vous ne m’en arrache pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Si dans tous les reſpects d’vne ſimple ſubiette,
+<lb />Vous rendre quelques ſoins d’vne femme diſcrette,
+<lb />Si vous nommer icy mon Prince &amp; mon eſpoux,
+<lb />Soulage quelque peu la douleur de vos coups,
+<lb />Ie vous tiendray le corps &amp; la teſte appuyée,
+<lb />le baiſeray la main que i’ay tant eſſuyée;
+<lb />Et par tout où ie vois de voſtre ſang Royal,
+<lb />Ie taſcheray, Monſieur, d’aleger voſtre mal.
+<lb />Mais de voſtre malheur me connoiſſant coulpable,
+<lb />Conſiderant l’excés de mon crime palpable.
+<lb />Au lieu de vous ſeruir &amp; de vous approcher,
+<lb />Ie demeure confuſe &amp; n’oſe vous toucher.
+<lb />Helas! ie vous ay mis en l’eſtat où vous eſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Penſez tant ſeulement au bien que vous me faites.
+<lb />Voſtre chere preſence adoucit ma langueur,
+<lb />Et vos ſoins aßidus augmentent ma vigueur.
+<lb />Il me reſte à vous faire vne ſeule priere,
+<lb />Madame, ferez vous ma volonté derniere?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ouy, fut eue impoſsible.
+</sp>
+<sp type="MainZone-Sp"><lb />ARRADATE.
+<lb />Il vous faut donc iurer
+<lb />Que vos yeux ſur mon corps ceſſeront de pleurer,
+<lb />Et que vous taſcherez de reſiouir mon ombre,
+<lb />Puis que des bien-heureux ie dois croiſtre le nombre.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Il me faut preparer à ce commandement,
+<lb />Et faire vn grand effort ſur mon entendement,
+<lb />Il me faut deuenir immortelle impaßible,
+<lb />Et bien ie vous entends ie feray l’impoßible.
+<lb />En memoiré an temps que vons unez regné,
+<lb />En ſigne du combat que vous uuez gagné;
+<lb />Ie vous feray baſtir ſur le bord du Pactole
+<lb />Vn ſuperbe tombeau.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE
+<lb />Voilà qui me conſole.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Y faiſant enchaſſer mes perles, mes rubis,
+<lb />I'y feray voſtre pompe en mes plus beaux habits,
+<lb />Et l'on verra deſſus l’éſcuſſon de vos armes.
+<lb />Puis qu’il eſt indecent d’y reſpandre des larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Vous me reiouyſſez de me parler ainſi,
+<lb />Et me voila tout preſt de m'en aller d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Helas! non pas ſi toſt. Mais en vain ie m'eſcrie
+<lb />Encore vn petit mot, Sire, ie vous en prie.
+<lb />Peut-eſtre que mon nom: paſſera plus auant,
+<lb />Moyennant que ſon cœur ſoit encore viuant.
+<lb />Abradate eſcoutez voſtre chere Panthée,
+<lb />Voſtre ame vit en elle, &amp; ne l’a point quittée.
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />En vous diſant adieu ie m’eſtois endormy,
+<lb />mumort pouncerte ſon ne iu prn qu'a demy.
+<lb />Et le nom de Panthée a paße dans mon ame
+<lb />Comme pour r’allumer vne mourante flame:
+<lb />Ie vous reuois encore, ô ma chere moitie!
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ouy: Mourante en ce lieu d’amour &amp; de pitié;
+<lb />Car le commandement que i’ay receu n’aguere
+<lb />M'empeſche de mourir d’vne façon vulguaire,
+<lb />Mon ame n’oſant pas ſe noyer dans les pleurs,
+<lb />Cherche à ſe transformer en l’vne de ces fleurs;
+<lb />Où pluſtoſt meſprifant cette baſſe demeure,
+<lb />Ie deſire paſſer en vne autre meilleure.
+<lb />Et ſçachant que le Ciel brille de tant de feux,
+<lb />Ie le prie inſtamment de nous prendre tous deux.
+<lb />La i'espere bien toſt vous tenir companie
+<lb />Quand i’auray ſatisfait à voſtre bon Genie,
+<lb />Deianss ame Ma damſae
+</sp>
+<sp type="MainZone-Sp"><lb />ABRADATE.
+<lb />Enfin ie ne vois plus la celeſte clarté.
+<lb />Adieu, le iour ſe paſſe, &amp; la nuict m’enuironne,
+<lb />Ie vous laiſſe en mourant mon ſceptre &amp; ma couronne.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Triſte couronnement! heritage fatal!
+<lb />Treſor de vaine gloire! &amp; ſource de tout mal!
+<lb />I'accepteray pourtant de la main d’Abradate,
+<lb />Ce beau ſceptre dorè qui peu de temps éclate:
+<lb />Mais ie ne regneray que du matin au ſoir,
+<lb />Et mon troſne auiourd’huy ſera paré de noir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IT.
+<lb />CYRVS, TYGRANE, ARMENIDE
+<lb />ARASPE, ARTABASE, CRESVS.
+</p>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />J Aleureux Combatans, inuincibles courages,
+<lb />Qui venez d’eſſuyer deux furieux orages;
+<lb />Enfin les ennemis apprehendans vos coups
+<lb />Ont perdu la bataille, &amp; leur Ville eſt à nous.
+<lb />Creſus deſſus le champ a quitté la partie.
+<lb />SARDES en bon Pays ſi fortement baſtie,
+<lb />Ayant eſté batuë à la poincte du iour,
+<lb />A veu prendre außi toſt ſa principale Tour.
+<lb />De ce fameux exploict &amp; digne de memoire,
+<lb />Cette belle Princeſſe a merité la gloire.
+<lb />Armenide, c’est vous qui nous auez monſtré
+<lb />Le defaut de la Tour ou Tygrant eſt entré.
+<lb />Iouyſſez du bon-heur de voſtre deliurance:
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Lt puccez arrine ſeton mon eſperance,
+<lb />Sire, ie l’attribuë à vostre Maieſté.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />D’elle pareillement ie tiens ma liberté,
+<lb />Ie vous en remercie ô Monarque inuincible.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Aux Guerriers comme vous toute choſe eſt poßible.
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Et bien en m’oppoſant à vos contentemens,
+<lb />N’ay ie pas fait plaiſir aux fideles Amans.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Ie confeſſe qu'Araſpe eſt vi fin papitaine,
+<lb />Mais eſcoutons Creſus, Artabaſe l’ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />GRANE.
+<lb />Il le quitte, &amp; voilà des Soldats inhumains
+<lb />Qui pour l’executer l’oſtent d'entre ſes mains.
+</sp>
+<sp type="MainZone-Sp"><lb />SPE.
+<fw><lb />Le
+</fw><lb />Le bucher preparé dans la place publique.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Il est monté deſſus, &amp; Cyrus s’arreſtant,
+<lb />Conſidere de loing ſon viſage conſtant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Sire voſtre ennemy va perir dans la flame,
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Artabaſe. Ie crains d’en receuoir du blame,
+<lb />Qu’on ne ſe haſte point de le faire bruler.
+<lb />At faut qu'aupacauant te tentende parler
+<lb />Peuteſtre quelque Dieu veut que ie le deliure,
+<lb />Selon que ie verray qu’il merite de viure.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />SOLON SOLON SOLON.
+</sp>
+<sp type="MainZone-Sp"><lb />IAVD.
+<lb />Il a crié trois fois
+<lb />Satne. Et qu'a enenu par ce nan ton de voix,
+<lb />Il a pris à teſmoin vn des Sages d’Athenes.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Que les proſperitez de ce monde ſont vaines!
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Toy Prince malheureux qu’on va faire mourir,
+<lb />Penſe tu que Solon te vienne ſecourir.
+<lb />*
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Non? mais il me ſouuient d’vne ſienne reſponſe,
+<lb />Et comme d’vn Oracle au public, ie l’annonce.
+<lb />Que nul homme viuant fauoriſé du ſort,
+<lb />Ne ſe peut dire heureux, auant que d’eſtre mort.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Vn aduis de Solon en luy ſe verifie.
+<lb />Il l'appelle en mourant &amp; ce nom ſignifie.
+<lb />Que nul homme viuant fauoriſé du ſort,
+<lb />Ne ſe peut dire heureux, auant que d’eſtre mort.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Il dit la verité, noſtre beatitude,
+<lb />Tandis que nous viuons, eſt dans l’incertitude.
+<lb />Et te dois paruonner, te nom d’homme &amp; de Roy,
+<lb />Sur le Theatre humain, le rend egal à moy.
+<lb />Ouy, va le deliurer, il faut que ie le voye,
+<lb />Et que de ſon bucher, on face vn feu de ioye.
+</sp>
+<sp type="MainZone-Sp"><lb />Grace! Grace!
+<lb />ARTABASE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />O bon-heur!
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />O Prince fortuné!
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Enatun oemt Eyius de canou paruonné.
+</sp>
+<sp type="MainZone-Sp"><lb />ARMENIDE.
+<lb />Il n’eſt point de conſtance à la ſienne pareille.
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Voyons ſa contenance &amp; luy prestons l’oreille.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Illuſtre Conquerant ayant ſi mal veſcu,
+<lb />Ie penſe à la bonne heure auoir eſté vaincu.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Vous reconnoiſſez donc qu’eſtant ce que nous ſommes
+<lb />Non n’auons que deux mains comme les autres hommes
+<lb />Et que les biens de ceux à qui nous commandons,
+<lb />Sont à nous ſeulement, quand nous les deffendons.
+<lb />Mais quand pour entaſſer des Treſors inutiles,
+<lb />Nous deſertons les champs &amp; depeuplons les Villes.
+<lb />En vain nous enfermons noſtre felicité
+<lb />Dans le Palais royal d’vne forte Cité.
+<lb />Les Peuples demeurans les Maiſtres des Prouinces,
+<lb />Perdent quand il leur plaist la Fortune des Princes.
+<lb />Les tenans aſsiegez dans leurs belles priſons,
+<lb />Sans remuer les bras, ils deffont leurs maiſons.
+<lb />Ou (comme il vous en prend) à la faueur des guerres
+<lb />Vn iuſte conquerant s’empare de leurs terres.
+<lb />Mais ie crois que les Dieux ne l’ont ainſi permis,
+<lb />Que pour nous voir enſemble, &amp; pour nous rendre amis.
+<lb />-..</sp>
+<p type="MainZone-Lg"><lb />L ij
+</p>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Penſant aux veritez qui me furent predites,
+<lb />Trop tard. Mais de bon ſens, i’entens ce que vous dites.
+<lb />Pour n’auoir pas ſuiui le deuoir d’vn bon Roy,
+<lb />L'Oracle d'Appollon ſe verifie en moy.
+<lb />Il me dit ( l’informant de mon bonheur extreme)
+<lb />Que ie ſerois heureux me connoiſſant moy meſme.
+<lb />Et pour, àuoir penſe que ie l’eſtois deſlors,
+<lb />A cauſe que iauois tant de riches treſors.
+<lb />Ce Dieu me ruinant par ma propre auarice,
+<lb />Permet en vn moment que tout mon bien periſſe.
+<lb />Il eſt vray qu’autrefois i'eus ce que les humains,
+<lb />S’imaginent auoir de plus cher en leurs mains,
+<lb />Dans ma felicité qui n’euſt point de ſeconde,
+<lb />I'eſtois apparemment le plus riche du monde.
+<lb />Le vulgaire idiot qui n’aime que le bien
+<lb />M'eſtimoit tout-puiſſant de ne manquer de rien.
+<lb />Les plus honneſtes gens me venoient rendre hommage
+<lb />Les autres moins ſenſeZ adoroient mon image;
+<lb />Et l’on voroit par tout où ma Cour s’arreſtoit,
+<lb />Vn piéd’eſtail d’argent où ma figure eſtoit:
+<lb />Meſme pour me tromper, le fleuue du Pactole
+<lb />Contribuoit ſon or à faire cette Idole.
+<lb />Ainſi i’ay prouoqué le celeste courroux,
+<lb />M’attribuant vn droict dont les Dieux ſont ialoux.
+<lb />Et ſans doute voicy comme leur Prouidence
+<lb />A confondu l’exces de mon outrecuidance.
+<lb />M’esblouyſſant les yeux dans ma proſperité
+<lb />De l’éclat apparent de mon authorité.
+<lb />Ils m’ont laißé couduire à des ames peruerſes.
+</sp>
+<sp type="MainZone-Sp"><lb />Qui m’ont fait commencer mille affaires diuerſes:
+<lb />Et me tenant touſiours vainement occupé,
+<lb />I’ay tout compris ſi mal, que tout m'eſt eſchapé.
+<lb />Ces flateurs ont tant fait par leur cajollerie
+<lb />Qu'ils m'ont intereſsé pour le Roy d’Aſſyrie.
+<lb />Et puis de tous ſes Camps ils m’ont fait General,
+<lb />Afin qu’en leur endroit ie fuſſe liberal.
+<lb />Or me conſiderant en ce grade ſuprême,
+<lb />Ie n’ay pû iuſqu’icy me connoiſtre moy meſme,
+<lb />Mais à tout l’Vniuers voulant faire des Loix
+<lb />Ie me ſuis eſleué par deſſus tous les Rois.
+<lb />Preferant mes ayeuls nourris dans le commerce,
+<lb />Aux Princes eſleueZ dans la maiſon de Perſe.
+<lb />Ie vous ay regardé comme eſtant de bas lieu,
+<lb />Vous (dis-ie) qui venez de la race d’vn Dieu,
+<lb />Et du plus haut degré de la Beatitude,
+<lb />En moins d’vn tournemain ie tombe en ſeruitude.
+<lb />Salutaire mal heur qui me rendant confus
+<lb />Est cauſe qu’à preſent ie connois qui ie fus.
+<lb />Mon pere à ce propos me reuient en memoire,
+<lb />Sur la fin de ſes iours il fut comblé de gloire.
+<lb />Et l’on tient qu’il deuint d'eſclaue qu’il eſtoit
+<lb />Vn des Rois plus heureux que la terre portoit.
+<lb />Moy du plus haut ſommet ie tombe au precipice,
+<lb />Um puey u reconnois qu'Appollon m'eſt propice
+<lb />De me faire comprendre en cette extremité,
+<lb />Mon eſtre, ma baſſeſſe, &amp; mon infirmité,
+<lb />En deſtruiſant ainſi ma gloire imaginaire,
+<lb />Et me liurant à vous qui m’eſtes debonnaire:
+<lb />Et ie me treuue heureux quand ie ne le ſuis plus.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Außi tout le bonheur de cette vie humaine
+<lb />Abſolument parlant n'eſt qu’vne choſe vaine,
+<lb />Noſtre magnificence eſt vn ſonge trompeur,
+<lb />Que le Soleil dißipe ainſi qu’vne vapeur,
+<lb />Nos ſceptres ſont d’émail, nos couronnes de verre
+<lb />Nos Troſnes de bois mort, &amp; nous ſommes de terre;
+<lb />En pieces, en éclats nous tombons en Enfer,
+<lb />Quand tout cela ſe choque à nos armes de fer.
+<lb />Penſez de quelle force eſt vn vaſe d’argile,
+<lb />Et de quelle durée eſt vn homme fragile:
+<lb />Si commençant à viure il prefere déſlors
+<lb />Aux vertus de l’esprit les delices du corps.
+<lb />Des peuples oppreſſeZ nous attirons l’enuie,
+<lb />Quand pour nos intereſts nous aimons noſtre vie.
+<lb />Et lors que la raiſon cede à nos appetits,
+<lb />Le vice nous abbaiſſe au deſſous des petits.
+<lb />L’inſolence des Grands tient de celle des Aigles,
+<lb />Si les diuines Loix ne leur ſeruent de regles;
+<lb />Alors qu’entre deux airs ils ne s’arreſtent pas,
+<lb />Comme ils volent plus haut ils deſcendent plus bas.
+<lb />Les Tyrans ſont pareils aux Oiſeaux de rapine
+<lb />Qui meurent ſans honneur à l'ombre d'vne eſpine;
+<lb />Apres auoir regné ſur les Pins les plus hauts,
+<lb />Où leurs ſanglantes mains ont fait beaucoup de maux.
+<lb />Cette comparaiſon eſtant plus eſtendué,
+<lb />Des autres &amp; de nous ſera mieux entendue.
+<lb />Elle nous met au pair des Aigles rauiſſans
+<lb />Qui dépeuplent les bois de petits innocens.
+<lb />De vray quand noſtre regne eſt tout plain d'homicides
+</sp>
+<p type="MainZone-Lg"><lb />Quand nos pauures Suiets ſont fouleZ de ſubſides;
+<lb />Et lors qu’en les plumant nous emportons la chair.
+<lb />Ne reſſemblons nous pas à ces Tyrans de l’air?
+<lb />Ainſi qu’eux nous viuons de fumée ou de proye,
+<lb />Et des larmes d’autruy nous tirons noſtre ioye.
+<lb />Enfin par leur audace ils ſe rendent fameux,
+<lb />Et par noſtre fierté nous deuenons comme eux.
+<lb />Ie ne veux pas conclure en cette companie
+<lb />Que vous ayez commis aucune tyrannie.
+<lb />Voſtre mal vient d’ailleurs, mais ie baiſſe les yeux,
+<lb />Et de vous condamner il n’appartient qu’aux Dieux.
+<lb />Deſormais contre vous n’ayant plus de rancune
+<lb />Ie n’abuſeray point de ma honne fortune:
+<lb />Et bien qu’en mon pouuoir ie tienne vos ſuiets,
+<lb />Au lieu de les piller ie leur donne la paix.
+<lb />Demeurant ſatisfait de la victoire acquiſe,
+<lb />I'empeſcheray le ſac de voſtre Ville priſe:
+<lb />Vous n’aurez en ma Cour nulle neceßité,
+<lb />Et ſi vous aurez part à ma felicité:
+<lb />Amenez ſeulement en royal équipage
+<lb />vos enfans, poſert femme, e tout voſtre bagage.
+</p>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />O que doreſnauant ie vous ſuis obligé!
+<lb />Et que ie ferois mal de paroiſtre affligé!
+</sp>
+<sp type="MainZone-Sp"><lb />RVS.
+<lb />Artabaſe, dy moy ce que fait Abradate?
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Sur le champ de bataille où nous l’auons laißé
+<lb />Il demeure vainqueur, mais grandement bleßé,
+<lb />Et peut-eſtre deſia ſans poux &amp; ſans parole,
+<lb />Ce grand Prince eſt giſant ſur le bord du Pactole.
+</sp>
+<sp type="MainZone-Sp"><lb />TRVS.
+<lb />Ce Royaume conquis me ſera cher vendu,
+<lb />Et te temps fera voir quel amy t'ay perdu.
+<lb />Il eſt mort? ton viſage en donne aſſez de preuue.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Il eſt vray qu’on le voit ſur la riue du fleuue.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />VS.
+<lb />O Cieux! abandonné de ſes meilleurs amis.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Sur vn lict de gaſons où ſa Vefue l’a mis.
+</sp>
+<sp type="MainZone-Sp"><lb />VS.
+<lb />Allons donc ordonner ſa pompe militaire,
+<lb />Et conſoler Panthée en ce lieu ſolitaire.
+<lb />Il faut braue Guerrier honorer ta valeur,
+<lb />Allons.* Ie ſuis outré d’vne extreme douleur.
+<lb />* Fiapant ſa cuiſſe.
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+<fw><lb />Source gallica.bnf fr (Bit
+<lb />trance
+</fw></p>
+<sp type="MainZone-Sp"><lb />SCENE III. ET DERNIERE.
+<lb />PANTHEE, CYRVS, TYGRANE,
+<lb />ARMENIDE, ARTABASE, ARASPE,
+<lb />MELANIRE,LES PORTESCEPTRES,
+<lb />ou Eunuques &amp; Valets de chambre de
+<lb />Panthée; qui outrez de douleur, ne
+<lb />parlent-point, &amp; ſe tuent au meſme
+<lb />temps qu’elle ſe donne le premier
+<lb />coup de poignard.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />E me ſuis obligée à faire l'impoßible,
+<lb />LAbradate a voulu que ie ſois inſenſible;
+<lb />Et depuis ſon treſpas mon eſprit combatu
+<lb />Ne peut executer cet acte de vertu.
+<lb />S’il faut que cette loy ne ſoit pas violée,
+<lb />Ie le dois inhumer ſans eſtre deſolée.
+<lb />Helas! ſur ma raiſon ayant gaigné ce poinct,
+<lb />Il croyoit que ſa mort ne m’affligeroit point:
+<lb />Mais d’vne plus dolente &amp; plus forte maniere
+<lb />Ie ne puis accomplir ſa volonté derniere.
+<lb />Ma vie en ce tourment ne peut aller plus bas
+<lb />Qu'en voulant obeyr &amp; ne le pouuant pas.
+<lb />O Nature! ſors tu de tes Loix ordinaires
+<lb />Pour exciter en moy deux mouuemens contraires.
+<lb />Icy contre le Ciel tu me fais murmurer,
+<lb />Et l’amour conjugal me deffend de pleurer.
+</sp>
+<sp type="MainZone-Sp"><lb />Ie l’ay promis ainſi, la raiſon me l’ordonne,
+<lb />Et tu veux qu’vne Vefue aux larmes s’abandonne.
+<lb />Faire &amp; ne faire pas ce qui m'eſt defendu,
+<lb />Semble tenir mon corps ſur la geſne eſtendu;
+<lb />Et le raiſonnement de mon ame inuincible
+<lb />Renforce les objets qui me rendent ſenſible:
+<lb />Dans ce trouble inteſtin de l’eſprit &amp; du corps,
+<lb />Encore que les ſens ne ſoient pas les plus forts.
+<lb />Du ſpectacle preſent ie ſuis embaraſſee,
+<lb />Ie n’oſe ouurir mon cœur ny dire ma penſee.
+<lb />L’vn voulant ſur ce corps ſe fondre tout en pleurs,
+<lb />L’autre me conſeillant de le couurir de fleurs.
+<lb />Que feras-tu Panthee? helas! que dois-ie faire?
+<lb />Puis que ie n’oſe plus ny parler ny me taite:
+<lb />L’inconſtante fureur qui m’agite ſi fort,
+<lb />Ne me laiſſe à choiſir que la vie ou la mort:
+<lb />Et mon ame en ce choix demeure irreſoluë
+<lb />Par le ſeul manquement de puiſſance abſolué,
+<lb />Sans le vouloir exprés d’Abradate mon Roy
+<lb />Qui m'a touſiours ſeruy de ſouueraine Loy;
+<lb />Encore que ie ſouffre vne douleur extreme,
+<lb />Il ne m'est pas permis d’attenter ſur moy meſme.
+<lb />Afin de m’en distraire ay-ie aßeZ de bon-heur
+<lb />Pour rendre à ce Monarque vn immortel honneur.
+<lb />Et quand ie ſerois veüe, ay-ie aſſez d’induſtrie
+<lb />Pour me iuſtifier de cette idolatrie?
+<lb />Grands Dieux qui me voyez n’en ſoyez point jaloux,
+<lb />Il faut preſentement adorer mon eſpoux.
+<lb />Si ie baiſe en public tant de coups honorables,
+<lb />Vous ne laiſſerez pas de m’eſtre fauorables;
+<lb />Eſtant de vostre nombre, &amp; regnant dans les Cieux,
+<lb />On peut doreſnauant l’inuoquer en tous lieux:
+<lb />Et vous trouuerez bon qu'eſtant ſi deſolée
+<lb />Ahec tous mes ioyaux ie iuy jois immolée.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />C’eſt elle, ie la voy proſternée à genoux
+<lb />Regrettant le deffunt, &amp; viſitant ſes coups.
+</sp>
+<sp type="MainZone-Sp"><lb />eeMiv E.
+<lb />O funeſte ornement!
+</sp>
+<sp type="MainZone-Sp"><lb />TYGRANE.
+<lb />Triſte magnificence!
+</sp>
+<sp type="MainZone-Sp"><lb />ARASPE.
+<lb />Tout cela nous fait voir ſon illuſtre naiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />ARTABASE.
+<lb />Elle pretend luy faire vn ſuperbe tombeau,
+<lb />Ayant mis en ce lieu ce qu’elle a de plus beau.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Du spectacle ſanglant que nous voyons, Madame,
+<lb />Vous ſouffrez tout le mal, &amp; i’en ay tout le blâme:
+<lb />Ie regrette Abradate, &amp; ie vous plains außi,
+<lb />Mais ie me ſens coulpable en arriuant icy.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />En ſa charge il a fait tout ce qu’il a deu faire:
+<lb />La gloire d’eſtre à vous l’obligeoit de vous plaire;
+<lb />Mais l’ayant fait venir ie m'en donne le tort,
+<fw><lb />M ij
+</fw><lb />Et ma ſeule imprudence eſt cauſe de ſa mort:
+<lb />Le deſir qu’il auoit d’eſtre en vos bonnes graces
+<lb />L’eut encore porté dans les plus fortes places;
+<lb />Si hors de la bataille il euſt eſté viuant
+<lb />Apres de ſi grands coups receus en vous ſeruant.
+<lb />19u vumpiy u fuuaſſeuree
+<lb />Quand ſa vie euſt eſté de plus-longue durée.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Sa mort au lict d’honneur pitoyable à nos yeux.
+<lb />Eſt precieuſe en terre &amp; glorieuſe aux Cieux.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Eſtant né pour mourir en braue Capitaine,
+<lb />Sire, cette raiſon doit alleger ma peine:
+<lb />Et Seſtant vouge de vous puirt aux combas
+<lb />De l’employ qu’il auoit ie ne m’afflige pas.
+<lb />Au contraire auiourd’huy cet honneur me conſole,
+<lb />Mais ce piteux objet m'empeſche la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />YRVS.
+<lb />Pitoyable vraiment eſt ce corps eſtendu!
+<lb />Pitoyable eſt le ſang que ie voy reſpandu!
+<lb />Loin cétte Maieſte de Monarque de Perſe,
+<lb />Ie veux m’abandonner aux larmes que ie verſe:
+<lb />Et ie n’ay point de honte en cette aduerſité,
+<lb />De pleurer vn amy de cette qualité.
+<lb />Apres cela i'entends que toute mon Armée
+<lb />Aßiſte à luy donner la Couronne fermée.
+<lb />Mais ayant differé cet honneur à demain,
+<lb />Mettons luy cependant le ſceptre dans la main.
+<lb />Leuons la doucement. O Dieux! elle eſt coupée!.
+<lb />Encore par mal-heur c’eſt la main de l'espée.
+<lb />Pardonnez ie vous prie à mon zele indiſcret
+<lb />Sanglante comme elle eſt ie la tiens à regret,
+<lb />Ie la baiſe pourtant, &amp; ie la conſidere,
+<lb />Comme nous enſeignant quelque diuin miſtere.
+<lb />Quand il l’auroit tenduë en ſigne d’amitié,
+<lb />Pourroit elle à nos yeux faire plus de pitié?
+<lb />Et ne diroit-on pas qu’elle m’eſt demeuree
+<lb />Pour gage de ſa foy qui m'eſtoit aſſeuree?
+<lb />Remettons là, Madame, &amp; ne regardons pas
+<lb />Tout le corps ſans la main, ny la main ſans le bras
+<lb />Enfin conſolez vous genereuſe Princeſſe,
+<lb />I’auray ſoin des Eſtats que le deffunt vous laiſſe.
+<lb />Aduiſez ſeulement en quel autre ſejour
+<lb />Il vous plaiſt deſormais d’eſtablir voſtre Cour;
+<lb />En toute ſeureté vous y ſerez conduite.
+</sp>
+<sp type="MainZone-Sp"><lb />FANTIIEE.
+<lb />Dans le malheur recent où ie me vois reduite:
+<lb />Si bien toſt quelque Dieu ne me vient conſoler,
+<lb />Ie vous feray ſçauoir où ie pretens aller.
+</sp>
+<sp type="MainZone-Sp"><lb />CYRVS.
+<lb />Et nous qui iouyſſons du fruict de ſa victoire,
+<lb />Au moins apres ſa mort honorons ſa memoire:
+<lb />Et puis que d’Abradate il nous faut ſeparer,
+<lb />A ſa pompe funebre allons nous preparer.
+<lb />e lieu que le Pactole abbreuue de ſon onde
+<lb />Sera doreſnauant le plus riche du monde;
+<lb />Il y faudra laiſſer tous nos meubles exquis,
+<lb />Et meſme les treſors que nous auons acquis.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Aupres de ſon Tombeau le moyen que ie viue?
+<lb />Non, non, reſolument il faut que ie le ſuiue.
+<lb />LesPoREr Vous mes bons' Seruiteurs qui le voyez ainſi?
+<lb />Laiſſez moy quelque temps le regretter icy.
+<lb />Mais toy. Ne t’en va pas, fidele Melanire,
+<lb />mnennemcore un peus fayee que ie deſire.
+<lb />Et quand ie ſeray morte aupres de mon eſpoux
+<lb />Enſeuely nos corps &amp; pleure deſſus nous.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />GardeZ vous d’obeyr au Demon qui vous pouſſe.
+<lb />Vne mort naturelle eſt touſiours la plus douce,
+<lb />Attendez la venir. Madame croyez moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ie ſçauray bien außi me deffaire de toy,
+<lb />Si ie te vois branſler tu mourras la premiere.
+<lb />Quoy, mempeſtneras tu de reuvir ma lumiere?
+<lb />L’ame de ce grand Prince illumine les morts?
+<lb />Et la mienne eſt encore en la priſon du corps?
+<lb />Ne voyant plus icy que des objets funebres,
+<lb />Femme laſche veux tu que ie viue en tenebres?
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Helas l' ie vous ſouhaite vn peu plus de raiſon
+<lb />Pour ne pas voir perir voſtre illuſtre Maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Hà! le ſeul intereſt de cette femme auare
+<lb />L’induit à contredire vne vertu ſi rare:
+<lb />Elle ne plaint ny moy ny le Roy mon Espoux,
+<lb />Que pour l’or &amp; l’argent qu'elle tiroit de nous.
+<lb />uime vepant mouin eue meſt imporinne,
+<lb />Pour ce que mon treſpas ruine ſa fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />avaſe da l Ala lo
+<lb />Hà! Madame, les Dieux ſçauent la verité.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE
+<lb />Laiſſe donc eſchaper mon eſprit irrité,
+<lb />Et ſi tu ne me ſers pour vn gain mercenaire,
+<lb />N'empeſche point l’effort de mon bras ſanguinaire.
+<lb />Voy, comme au poignaru que te tiens dans la main.
+</sp>
+<sp type="MainZone-Sp"><lb />O mal-heur!
+<lb />MELANIRE.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ie me donne vn grand coup dans le ſein.
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Au moins contenteZ vous de ce cruel outrage,
+<lb />Et ne vous tuez point en la fleur de voſtre âge.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />As tu deſia trouué pour me tyranniſer
+<lb />Quelque Prince viuant qui me puiſſe espouſer.
+<lb />Polir qui ſauuerois-tu ma vie &amp; ma ieuneſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />Pour le Pays, quiperd vne grande Princeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Pour le Pays (dit-elle) ô que i’ay l’eſprit fort!
+<lb />Ie le puis animer ſon Monarque eſtant mort?
+<lb />Imbecile, Dy moy. La plus habile fâme
+<lb />Peut elle gouuerner vn Royaume ſans ame?
+<lb />Vraiment c’eſt me payer d’vne belle raiſon?
+<lb />Mais tes ſubtiliteZ ne ſont plus de ſaiſon.
+<lb />Interroge ce corps eſtendu ſur la terre,
+<lb />Il ſçauoit mieux que moy le meſtier de la Guerre;
+<lb />Et pouuant mieux que moy conduire ſes proiets,
+<lb />Il faiſoit plus de bien a ſes pauures Suiets.
+<lb />Ayant fait plus d’amis dans les Villes fermées,
+<lb />Il pouuoit mettre aux champs de plus grandes Armées.
+<lb />Il eſtoit inuincible, &amp; ce grand Potentat
+<lb />D’vne force incroyable appuyoit ſon Eſtat,
+<lb />Cependant comme on voit vne ferme Colomne
+<lb />Abbatuë außi toſt qu’vne feüille d’Automne.
+<lb />Ce Prince redoutable aux plus forts Combattans,
+<lb />Eſt außi toſt paßé qu’vne fleur du Printemps.
+<lb />Puis tu me viens flater, &amp; tu me fais accroire
+<lb />Que ie puis en regnant auoir autant de gloire;
+<lb />Et ſans conſiderer ce qu’il eſt à preſent
+<lb />Tu me veux faire prendre vn fardeau ſi peſant.
+<lb />Hà! telle vanité ne m’entre point dans l'ame,
+<lb />I'ay regné puiſſamment lors que i’eſtois ſa fâme:
+<lb />Mdais ce coup &amp; l'endroit où tu me vois ſaigner,
+</sp>
+<sp type="MainZone-Sp"><lb />T’aſſeure
+</sp>
+<sp type="MainZone-Sp"><lb />T’aſſeure que ſans luy ie ne veux plus regner.
+<lb />N’accuſe point mon bras d’auoir fait cet outrage,
+<lb />C’eſt vn acte d’amour &amp; de mon grand courage.
+<lb />O mon Roy! mon Eſpoux! en la place où ie meurs
+<lb />Vous m’auez deffendu de vous donner des pleurs,
+<lb />Vous auez deſiré que ie fuſſe impaßible,
+<lb />Et ie vous ay promis de me rendre inſenſible;
+<lb />Mais ie ne trouue pas, que mon cœur affligé
+<lb />Puiſſe perdre en viuant le ſentiment que i’ay.
+<lb />Et ſans doute Abradate a voulu que ie meure,
+<lb />Puis qu’il n’a pas voulu que ſa Vefue le pleure.
+<lb />Ouy. Tantoſt voſtre bouche a conclu mon trespas,
+<lb />Elle meſme à preſent ne le reuoque pas.
+<lb />Vos mains ont conſenty que ce fer m’aſſaßine,
+<lb />Et n’aguere vos yeux m’en ont fait quelque ſigne.
+<lb />Enfin le ſeul moyen d’aleger mes douleurs,
+<lb />Eſt d’eſpancher mon ſang pour arreſter mes pleurs.
+<lb />Ie vous obeïray. Mais en vain ie m’eſſaye
+<lb />De le respandre tout par vne ſeule playe.
+<lb />Si i’en auois autant que i’en voy deſſus vous,
+<lb />Vn plus ſoudain trespas me ſembleroit plus doux.
+<lb />Il faut donc qu’à vos pieds ie tombe en ſacrifice,
+<lb />Il est temps que ce fer acheue ſon office:
+<lb />Auſsi bien mon esprit ne peut eſtre content
+<lb />Qu’il ne ſoit au riuage où le voſtre l’attend.
+<lb />Là ſoit que ie deſcende en la terre profonde,
+<lb />Soit que i’aye à monter ſur la voûte du monde:
+<lb />I'eſpere vous reuoir à l’ombre des lauriers,
+<lb />Où regnent les Eſprits des valeureux Guerriers.
+<lb />Que ſi l’on voit auſsi dans les champs eliſees
+<fw><lb />Ees felumés que les Rou ont iadus eſpouſces:
+<lb />Vh
+<lb />63
+</fw><lb />Te ſeray couronnée en cet heureux ſeiour
+<lb />N'vne branche de Myrthe &amp; de la main d’Amour.
+<lb />Na! que bien a propos Abradate m'appelle,
+</sp>
+<sp type="MainZone-Sp"><lb />MELANIRE.
+<lb />O Cieux! elle s’en va ſa bleſſure eſt mortelle!
+<lb />J. O malheur! On dira que ie l’auray permis,
+<lb />Porte-ſceptres veneZ. Accourez mes amis.
+<lb />Mais ils ne viennent * point. O cruelle aduanture!
+<lb />Helas! Ils ſont debout en eſtrange poſture,
+<lb />Tous trois d’vn coup chacun acheuent de mourir,
+<lb />O Dieux! tous à la fois nous ferez vous perir?
+<lb />Ha! de quel tremblement ie me ſens tourmentée,
+<lb />Conſiderant en gros les malheurs de Panthée,
+<lb />Que direz vous Cyrus à ce triſte rapport,
+<lb />Que mes cris &amp; mes pleurs vous feront de ſa mort?
+</sp>
+<sp type="MainZone-Sp"><lb />PANTHEE.
+<lb />Ie n’ay plus qu’vn ſouſpir auec vne parolle,
+<lb />Et puis ie vous coniure. O Nymphes du Pactole.
+<lb />D’arrouſer de vos pleurs les ſuperbes Tombeaux,
+<lb />Qui nous ſeront baſtis ſur le bord de vos eaux,
+<lb />CHERESPOVX de ce coup &amp; de cet autre encore
+<lb />Sache combien ie t’aime &amp; combien ie t’honore,
+<lb />Et ſi d’vn tel amour tu fus iamais épris,
+<lb />Voy de mon ſang tout chaud rejaillir les eſprita
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<lb />*
+<lb />Z
+<lb />'Hiſtorien fait mourir debout les Porte-Seeptr<lb />Vapres s’eſtre poignardez, ce qui n’eſt pas facilt
+<lb />à comprendre; ſi l’on ne ſuppoſe qu’ayant entrelaſſé le
+<lb />Sceptres qu’ils portoient ils s’embraſſerent en mou,
+<lb />rant, &amp; que pat vne agitation de conuulſions recipro<lb />ques, ils ſe mirent en telle poſture, qu’eſtans appuyéz
+<lb />les vns ſur les autres ils ne purent tomber. C’eſt
+<lb />pourquoy pour rendre la choſe plus merueilleu<lb />ſe, ie ſuis d’auis qu’ils ſoient ainſi repreſentez, &amp; non
+<lb />appuyez tous trois de rangcontre vne muraille, com<lb />me pluſieurs ſe pourtont imaginer. Le meſme Auteur
+<lb />les fait mourir apres PANTHEE leur Reyne &amp; Mai<lb />treſſe; &amp; lors ſeulement qu’ils la veirent morte accou<lb />rans au cris de ſa Dame d’honneur. Moy. ie les fais
+<lb />mourir en meſme temps pour rendre le ſpectacle tout
+<lb />à coup plus ſanglant &amp; la repreſentation plus viue &amp;
+<lb />plus patetique, pour deux raiſons. L’vne, que n’eſtans
+<lb />pas beaucoup eſloignez de PANTHEE, ils purent
+<lb />ouyr ſes cris &amp; lamentations, &amp; ſe poignarder au pre<lb />mier coup qu’elle ſe donna. L’autre, pour ce que la
+<lb />Tragedie doit eſtre fetmée par les dernieres paroles
+<lb />&amp; par la mort du plus Noble &amp; principal Perſonnage:
+<lb />Et pour cette deuxiéme raiſon, ie fais que Melanire
+<lb />Dame d’honneur de PANTHEE ſe retire(ſur la crean<lb />ce qu’elle a que ſa Maiſtreſſe a rendu le dernier ſouſpir)
+<lb />pour aller porter à Cyrus la funeſte nouuelle de ſa
+<lb />mort. Apres quoy, PANTHEE dit les dernieres pa<lb />roles, &amp; expire ſut le corps d’Abradate d’vn deuxiéme
+<lb />coup de poignard qu’elle ſe donnc.
+<fw><lb />2
+<lb />2
+</fw><fw><lb />–
+</fw></p>
+<p type="MainZone-Head"><lb />tontatts un Priuutge un Roy..
+</p>
+<p type="MainZone-P"><lb />JAR Grace &amp; Priuilege du Roy, il eſt permis
+<lb />Yauſieur DVRVAL de faire imprimer quelques
+<lb />Poëmes Dramatiques &amp; Pieces Comiques; En
+<lb />faiſant deffenſes tres-expreſſes à tous Impri<lb />meurs &amp; Libraires, ou autres de nos Sujets, de
+<lb />quelque qualité &amp; condit ion qu’ils ſoient, d’im<lb />primer ou faire imprimer leſdits Poëmes, les
+<lb />vendre, faire vendre, ny diſtribuer par noſtre
+<lb />Royaume durant le temps &amp; terme de ſix ans, à
+<lb />compter du iour &amp; datte que chacune deſdites
+<lb />Pieces ſera acheuée d’imprimer, à peine de con<lb />fiſcation, &amp; de cinq cens liures d’amende, &amp; de
+<lb />tous deſpens, dommages &amp; intereſts, comme il
+<lb />eſt plus au long contenu eſdites Lettres de Pri<lb />uilege. Donné à Paris le neufiéme Feurier 1639.
+<lb />&amp; de noitre Regne le vingt-neunemne; &amp; ſcellé
+<lb />du grand ſceau decire jaune. Par le Roy en ſon
+<lb />Conſeil, ſigné SIMON.
+</p>
+<p type="MainZone-P"><lb />Ledit ſieur DVRVAL a tranſporté ſondit Pri<lb />uilege pour le Poëme intitulé Panthée Tragedie,
+<lb />à CARDIN BESONGNE Marchand Libraire, pour
+<lb />iouyr d’iceluy, ſuiuant l’accord' fait entr’eux ce 12.
+<lb />Feurier 1639.
+<fw><lb />Acheué d'imprimer le 12. Eeurier 1639.
+</fw><fw><lb />–
+</fw></p>
+<p type="MainZone-Head"><lb />tontatts un Priuutge un Roy..
+</p>
+<p type="MainZone-P"><lb />JAR Grace &amp; Priuilege du Roy, il eſt permis
+<lb />Yauſieur DVRVAL de faire imprimer quelques
+<lb />Poëmes Dramatiques &amp; Pieces Comiques; En
+<lb />faiſant deffenſes tres-expreſſes à tous Impri<lb />meurs &amp; Libraires, ou autres de nos Sujets, de
+<lb />quelque qualité &amp; condit ion qu’ils ſoient, d’im<lb />primer ou faire imprimer leſdits Poëmes, les
+<lb />vendre, faire vendre, ny diſtribuer par noſtre
+<lb />Royaume durant le temps &amp; terme de ſix ans, à
+<lb />compter du iour &amp; datte que chacune deſdites
+<lb />Pieces ſera acheuée d’imprimer, à peine de con<lb />fiſcation, &amp; de cinq cens liures d’amende, &amp; de
+<lb />tous deſpens, dommages &amp; intereſts, comme il
+<lb />eſt plus au long contenu eſdites Lettres de Pri<lb />uilege. Donné à Paris le neufiéme Feurier 1639.
+<lb />&amp; de noitre Regne le vingt-neunemne; &amp; ſcellé
+<lb />du grand ſceau decire jaune. Par le Roy en ſon
+<lb />Conſeil, ſigné SIMON.
+</p>
+<p type="MainZone-P"><lb />Ledit ſieur DVRVAL a tranſporté ſondit Pri<lb />uilege pour le Poëme intitulé Panthée Tragedie,
+<lb />à CARDIN BESONGNE Marchand Libraire, pour
+<lb />iouyr d’iceluy, ſuiuant l’accord' fait entr’eux ce 12.
+<lb />Feurier 1639.
+<fw><lb />Acheué d'imprimer le 12. Eeurier 1639.
+</fw></p>
+    </body>
+  </text>
+</TEI>

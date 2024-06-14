@@ -1,0 +1,3509 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ulysse dans l'isle de Circé, ou Euriloche foudroyé . Tragicomédie, représentée sur le théâtre des machines du Marais...</title>
+        <author>Boyer, Claude</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30152167m"/>
+          <author>
+            <persName>Boyer, Claude</persName>
+          </author>
+          <title>Ulysse dans l'isle de Circé, ou Euriloche foudroyé . Tragicomédie, représentée sur le théâtre des machines du Marais...</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1650" cert="high" resp="BNF">1650</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />Source gallica.bnf.fr ( Bibliothèque nationale de France
+<fw><lb />
+<lb />A
+<lb />v hr<lb />3
+<lb />12.
+<lb />s
+<lb />2
+</fw><fw><lb />Source gallica.bnf.fr ( Bibliothèque nationale de France
+</fw></fw>
+<p type="MainZone-Head"><lb />DEDIE’EA MONSEIGNEVR
+<lb />L LEMI(CE DE CONTY.
+</p>
+<sp type="MainZone-Sp"><lb />A PARIS,
+<lb />Chez TOVSSAINCT QVINET, au Palais, dans la petite,
+<lb />Salle, ſous la montée de la Cour des Aydes.
+<fw><lb />a
+<lb />12
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. DC.L.
+<lb />Auic Priuilege du Roy.
+<lb />-
+<fw><lb />-
+</fw><fw><lb />Source gallica.bnf.fr ( Bibliothèque nationale de France
+</fw></sp>
+<p type="MainZone-Head"><lb />A MONSEIGNEVR
+<lb />MONSEIGNEVR
+<lb />D2
+<lb />L.i1 i..
+<lb />.2.
+<lb />LE PRINCE
+<lb />N
+<lb />I
+<lb />L
+<lb />ONSEIGNEVR,
+<lb />*Cet Vylſſe: que je preſente à voſtre Al<lb />teſſe, eſt bien different de celuy que le
+<lb />Prince des Poëtes a fait le heros de la pru<lb />dence, &amp; la parfaite idée d’vne conſtance
+<lb />inuincible: s’il auoit conſerué entre mes
+<lb />mains toutes les beautez de ſon original, il
+<lb />ſeroit aſſeuré de ſa bonne fortune, l’eſtant
+<lb />depuis tant de ſiecles de ſon merite &amp; de ſa
+<lb />reputation. Ce n’eſt que l’image d’vn ſi grãd
+<lb />homme, que ie viens mettre à vos pieds
+<lb />ſous la ſoible imitation d’vne vertu ſi heroi<lb />que. Il dépend maintenant de Voſtre Al<lb />teſſe, de luy faire voir le iour auec honneur.
+<lb />ou de le laiſſer pour jamais dans les ombres
+<lb />du theatre, pour y cacher ſes deffauts par
+<lb />l'addreſſe des Acteurs &amp; ſous la magnifi<lb />cence du ſpectacle. Il n’auroit garde,
+<lb />MONSEIGNEVR, d’en décendre ny
+<lb />de quitter vn lieu qui luy eſt ſi fort auanta<lb />geux, s’il pouuoit ſans en ſoftir faire ſçauoir
+<lb />à Voſtre Alteſſe que plein de reſſentiment
+<lb />pour les teſmoignages d’eſtime &amp; d’amitié
+<lb />qu’il a receu de vous ſous ſes habits natu:
+<lb />rels, il n’en a pris à la Françoiſe que pour
+<lb />eſtre deſormais de voſtre Cour. Il n’y a que
+<lb />-------... ..... .-.------ -------
+<fw><lb />---
+</fw><lb />EIRSENL.
+<lb />Voſtre Alteſſe qui puiſſe obliger ſes pareils
+<lb />à venir faire leur ſeiour en France; pour les
+<lb />y traiter ſelon leur merite; il faut les cognoi<lb />ſtre comme vous faites parfaitement, &amp;
+<lb />poſſeder vne generoſité toute pure &amp; toute
+<lb />eminente comme la Voſtre. Tout le mon<lb />de ſçait, MONSEIGNEVR, que cette
+<lb />Royale vertu eſt en vous l’ame de toutes
+<lb />les autres; qu’elle eſt voſtre caractere par<lb />ticulier, &amp; qu’à l’exemple des Heros de
+<lb />l'antiquité, qui ſe ſont faits diſcerner par
+<lb />des noms empruntés, ou de quelque action
+<lb />eſclatante de leur vie, ou de quelqque gran<lb />de qualité attachée ſingulierement à leurs
+<lb />perſonnes, nos hiſtoires doiuent vn iour
+<lb />en parlant de Voſtre Alteſſe vous faire
+<lb />cognoiſtre à la poſterité par le titre de gene<lb />reux. Cette magnifique vertu a fait vn bruit
+<lb />ſur le parnaſſe, qui commence d’en bannir
+<lb />cette honteuſe conſternation, &amp; cette pro<lb />fonde obſ eurité, dans laqueſe les muſes de<lb />meuroient iepuis quelque temps enſeue
+<lb />lies. Voicy, MONSEIGNEVR, entre
+<fw><lb />celles du Tre la premiere, à ce que ie
+<lb />---- -
+<lb />O. --... .--.--
+<lb /> -.-
+</fw><lb />croy qui ſe preſente publiquement à vous;
+<lb />toutes ſes compagnes ont les yeux tournez
+<lb />ſur Voſtre Alteſſe pour voir l’accueil qu’el<lb />le luy fera, &amp; regler là deſſus toures leurs eſ<lb />perances. Veritablement ce ſeroit vne aſſez
+<lb />mnauuaiſe politique à cette ſçauante ſocieté
+<lb />de commettre à la moindre d’entr’elles vn
+<lb />eſſay, que ſonpeu de merite rend extremé<lb />ment dangereux: Elles deuroient ſans
+<lb />doute venir toutes en corps ſalüer Voſtre
+<lb />Alteſſe, ou du moins pour s’acquitter d’vn
+<lb />deuoir, qui luy eſt ſi fort important, depu<lb />ter la plus apparente de la troupe. Mais,
+<lb />MONSEIGNEVR, l’impatience de celle<lb />cy leur a oſté le loiſir d’en deliberer, &amp; c’eſt
+<lb />par vne deuotion particuliere qu’elle vient
+<lb />toute ſeule implorer voſtre protection; &amp;
+<lb />vous aſſurer; en meſme temps que tous ſes
+<lb />vœux ſeront exaucez, ſi elle obtienupour.
+<lb />moy d’eſtre vm iour parvoſtre chom,au<lb />tant que ie le ſſiis par! mon inclinatiom!..n
+<lb />MONSEIGNEVR; Dé Voſtie
+<lb />-
+<lb />l.3.
+<lb />Aieeſte,
+<fw><lb />.
+<lb />-. . .. C.
+<lb />4
+<lb />Le tres humble, 1r
+<lb />le eic paſſionné ſeruite
+<lb />2t:
+<lb />obeiſſant &amp; tres<lb />SOYER.
+</fw><fw><lb />7
+</fw></p>
+<p type="MainZone-P"><lb />AR grace &amp; priullegedu Roy donné à Paris le
+<lb />T1o. iour de Nouembre 1648. Signé, Par le Roy
+<lb />en ſon Conſeil, Le Biun. Il eſt permis à Touſſainct
+<lb />Quinet Marchand Libraire à Paris, d’imprimer ou
+<lb />faire imprimer, vendre &amp; diſtiibuer vne piece de
+<lb />Theatre intitulée Vlyſſe dans l’iſle de Circé, ou Euri<lb />loche foudroyé, par le ſieur Boyer, durant le temps &amp;
+<lb />eſpace de cinq ans, à compter du iour qu’il ſera
+<lb />acheué d’imprimer: Et defenſes ſont faites à tous
+<lb />Imprimeurs, Libraires &amp; autres de contrefaire ledit
+<lb />Liure, ny le vendre ou expoſer en vente d’autre im<lb />preſſion que de celle qu’il a fait faire, à peine de trois
+<lb />mil liures d’amende, &amp; de tous deſpens, dommages
+<lb />Cilitoronto, aiuitt qu'itcit pruo dmpronient poitc par
+<lb />leſdites Léttres, qui ſont en vertu du preſent extrait
+<lb />tenuës pour bien &amp; deuëment ſignifiees, à ce qu’au<lb />–-
+<lb />n’en pretende cauſe d’ignorance.
+</p>
+<sp type="MainZone-Sp"><lb />Acheué d’imprimer pour la premiere fois le
+<lb />premier Decembre 1649.
+<lb />Les exemplaires ont eſté fournis.
+<lb />--- ---- V.------------ -
+<fw><lb />* 2.3
+</fw><fw><lb />--te
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTEVRS.
+<fw><lb />VLYSSE.
+<lb />EVRILOCHE.
+</fw></p>
+<p type="MainZone-Entry"><lb />ELPENOR.
+<fw><lb />CIRCE'.
+<lb />PHAETVSE.
+<lb />LEVCOSIE.
+<lb />Compagnons d’Vlyſſe.
+<lb />JSœurs de Circé.
+<lb />C
+</fw></p>
+<p type="MainZone-Entry"><lb />PERIMEDE, enuoyé d’Itaque par Penelope
+<lb />pour chercher Vlyſſe.
+<fw><lb />MELANTE,
+<lb />Suiuant de Circé.
+<lb />Suite d’Vlyſſe &amp; de Circé.
+</fw></p>
+<p type="MainZone-Entry"><lb />ÆOLE accompagné des Vents.
+<lb />Le Sommeil.
+<lb />*
+<fw><lb />LE SOLEIL.
+</fw></p>
+<p type="MainZone-Entry"><lb />IVPITER accompagné des Dieux.
+<fw><lb />La Scene eſt differente, ſelon les diuens
+<lb />changemens des Machines.
+<lb />Sourc
+<lb />9
+<lb />a.bnf.
+</fw><fw><lb />France
+</fw></p>
+<p type="MainZone-Head"><lb />DANS L’ISLE
+<lb />L9
+<lb />C
+<lb />D22
+<lb />
+</p>
+<p type="MainZone-Head"><lb />A (
+<lb />8 2
+<lb />I.
+<lb />SCENE PREMIERE.
+<lb />AEOLE parlant aux vents dans vne mer agitée
+<lb />où paroiſt le debris d’vn vaiſſeau.
+</p>
+<sp type="MainZone-Sp"><lb />Q
+<lb />P
+<lb />{&amp;
+<lb />NF ANS tumultueux des vapeurs de la
+<lb />terre,
+<lb /> Qui balancez les airs d’vne immortelle
+<lb />guerre;
+<lb />Qui trainant apres vous le deſordre &amp; l’horreur,
+<lb />Vous combatez vous-meſme auec tant de fureur,
+<fw><lb />A
+</fw><lb />Furieux tourbillons, quelle iniuſte licence
+<lb />Vous ſouſtrait au deuoir de voſtre obeiſſance?
+<lb />Vliſſe aſſez ſouitent a ſenty vos efforts,
+<lb />Puiſque voſtre fureur l’a ietté ſur ces bors,
+<lb />Sans me monſtrer encor dans ce dernier orage
+<lb />Sur ce vaißeau briſé l’effect de voſtre rage.
+<lb />Ce Grec que Penelope enuoye à ſon époux
+<lb />Quel crime a-il commis? qu’a-il fait contre vous?
+<lb />Miniſtres inſolens des fureurs de Neptune,
+<lb />Eſclaues dangereux d’vne haine importune,
+<lb />Qui pour vanger vn fils ſur Uliße &amp; les ſiens,
+<lb />Meut toute la nature en briſant vos liens;
+<lb />Si ſon ordre vous force à former des tempeſtes
+<lb />Allez ſur d’autres mers &amp; contre d’autres teſtes;
+<lb />Mais laiſſez, pour Vliſſe &amp; pourtous ſes vaißeaux
+<lb />Vn chemin applant ſur l’empire des eaux.
+<lb />Toy qu’vn coisp de tempeſte a poußé dans cette iſle
+<lb />Et qui dans ce rocher cherches en vain azile,
+<lb />Sors, Perimede, ſors.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II
+<lb />PERIMEDE, AEOLE.
+</p>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Que voulez-vous grand Roy ?
+<lb />Dieu des vents, qui vous fait deſcendre iuſqu’à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />AEOLE.
+<lb />Du Heros que tu ſers les vertus non communes
+<lb />Intereſſent les Dieux dans toutes ſes fortunes;
+<lb />Il ſçait que de long-temps ie l’ay fauoriſé:
+<lb />Et ſi ſes compagnons en euſſent mieux vſé,
+<lb />Uliſſe apres le ſac de la ſuperbe Troye,
+<lb />Eut par vn prompt retour comblé les ſiens de ioye.
+<lb />Mais les deſtins en ont autrement ordonné:
+<lb />A de plus longs trauaux Vliße eſt condamné.
+<lb />Ils veulent que ſa vie en merueilles feconde
+<lb />Force auant ce retour, l’Enfer, la Terre &amp; l’Onde:
+<lb />Et que de mille maux ce Heros combattu
+<lb />Faſſe aux ſiecles futurs adorer ſa vertu.
+<lb />Reuere leurs decrets, &amp; benis ton naufrage,
+<lb />Qui ſeul iuſques à luy t’a pû faire vn paßage.
+</sp>
+<p type="MainZone-Other"><lb />A ij
+<lb />Circé depuis vn an le retient en ces lieux
+<lb />Par vn charme eternel de l’oreille &amp; des yeux.
+<lb />Il viendra ce matin ſur ces humides plaines,
+<lb />Iouyr auec Circé du concert des Syrenes:
+<lb />Le calme, que ie laiße, en garde à mes Zephirs,
+<lb />Les inuite encor mieux à ces nouueaux plaiſirs.
+<lb />Tâche de l’aborder.
+</p>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Dieux! par quel ſacrifice...
+</sp>
+<sp type="MainZone-Sp"><lb />AEOLE l’interrompant.
+<lb />Aeole doit ces ſoins à la gloire d’Vliße;
+<lb />A Penciope,.. it vun. Anue ton employ.
+<lb />Aeole s'en- Zephir demeure icy. Vous autres ſuiuez moy.
+</sp>
+<p type="MainZone-Head"><lb />SULIVE
+<lb />III
+<lb />VLISSE, EVRILOCHE. Suite. PERIMEDE.
+<lb />VLISSE parlant à vn ſuiuant de Circé.
+<lb />Oſtre Reyne auiourd’huy ſe fait beaucoup atten<lb />dre;
+<lb />I'ay crù qu’elle ſeroit la premiere à s’y rendre,
+<lb />Pour iouir d’vn concert ſi remply de douceur,
+<lb />Elle me le promit auecque tant d’ardeur,
+<lb />Qu’elle a dû dés long-temps preceder ma venué,
+<lb />Mais ie me puis vanter de l’auoir preuenué.
+<lb />Va, dis-luy de ma part que le calme eſt ſi beau
+<lb />Qu'on ne voit plus troubler l’égalité de l’eau,
+<lb />Que par quelques Zephirs, dont les foibles haleines
+<lb />Preſtent vn air tranquille au doux chant des Syrenes,
+</p>
+<p type="MainZone-Head"><lb />SELNE
+<lb />IV.
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE continuë.
+<lb />E' bien, cher compagnon de tant de maux ſouſ<lb />TY ferts
+<lb />Echapez aux perils courus ſur tant de mers
+<lb />Que ces beaux iours ſont doux, qui ſuiuent tant d’o<lb />rages!
+<lb />Que ce port eſt aimabla apres tant de naufrages!
+<lb />Dans cet heureux ſejour tous nos malheurs paßeZ
+<lb />Par vn an de bonheur ſont bien recompenſez.
+<lb />N oſtre Grece où le luxe &amp; la magnificence
+<lb />Eſtallent leurs treſors auec tant d’abondance,
+<lb />N’a rien de comparable aux douceurs de ces lieux.
+</sp>
+<p type="MainZone-Lg"><lb />A iij
+<lb />Tout ſemble naiſtre ici pour le charme des yeux,
+<lb />Ici mille beautez épuiſent leurs adreßes,
+<lb />Pour enchanter nos ſoins &amp; tromper nos triſteſſes,
+<lb />&amp; leur Reyne ſur tout par des charmes puiſſans
+<lb />Seme icy mille appas pour le plaiſir des ſens.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Non, Seigneur, noſtre Grece en delices fertile
+<lb />N’a rien de comparable aux douceurs de cette Ile.
+<lb />Vn Soleil tout entier coulé dans ce ſejour,
+<lb />&amp; tant de iours paſſez, dans les jeux &amp; l’amour,
+<lb />Nous l’ont aſſez appris, Seigneur, &amp; ie m’eſtonne
+<lb />De vous en voir encor dédaigner la Couronne.
+<lb />Repondrez-vous touſiours'auec cette froideur
+<lb />A Circé, qui vous l’offre auecque tant d’ardeur?
+<lb />Ne flechirez-vous point?
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Euriloche peut-eſtre,
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />EVRIL.
+</sp>
+<sp type="MainZone-Sp"><lb />PERTMEDE.
+<lb />N'en doutons point, i’ay rencontré mon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Que veut cet étranger?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Pertmede; Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />.110.
+<lb />Pur von-ſeeTenmtue. AM. comvit ut vonheur,
+<lb />Qui t’ameine en des lieux ſi reculez d’Itaque?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE:
+<lb />Penelope, Seigneur, Laërte &amp; Telemaque,
+<lb />Tous trois impatiens de voir encore en vous
+<lb />L’vn vn fils, l’autre vn perg, &amp; la femme vn eſpoux;
+<lb />M’ont fait courir cent mers; &amp; ce n'eſt qu'à l’orage
+<lb />Que ie doy le bonbeur d’aborder ce riuage:
+<lb />Ah! Seigneur, que de pleurs répandus nuict &amp; iour
+<lb />Depuis voſtre depart preſſent voſtre retour!
+<lb />Laërte pleure vn fils, &amp; Telemaque vn pere,
+<lb />2enciope auinejonn coſtre nmnom plenere.
+<lb />Ioint ſes larmes aux leurs, &amp; ſa tendre amitié.
+<lb />Reſſent ce que tous deux ſouffrent pour ſa moitié
+<lb />Mais ſa forte douleur ſe fera mieux cogneſtre
+<lb />Par les traits qu’elle meſme a peints dans cette lettre.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE prenant la lettre.
+<lb />Quel eſtrange ſurpriſe, &amp; quel trouble ſoudain
+<lb />De l’eſprit &amp; du cœur paſſent iuſqu’à ma main!
+<lb />Que svous allez, ietter de ſoucis dans mon ame,
+<lb />Iuſtes douleurs d’vn fils, d’vn pere &amp; d’vne femmel
+</sp>
+<sp type="MainZone-Sp"><lb />Il lit.
+<lb />Celle qu’vn ſainct amour a miſe en tes liens
+<lb />Penelope t’écrit trop inſenſible Vliſſe;
+<lb />Pour ſinir ſon ſupplice
+<lb />N’écris rien, mais reuiens.
+<lb />Fidelle impatience, aimable inquietude,
+<lb />Reproche &amp; chaſtiment de mon ingratitude,
+<lb />Penelope, beau nom ſi cher à mes deſirs,
+<lb />Beaux traits, où mon amour rallume ſes ſoupirs,
+<lb />Plaintes d’vne moitié trop digne de mes larmes,
+<lb />Que dans un ſeul moment vous diſſipez de charmes.
+<lb />Mortel enchantement d’vn ſi doux ſouuenir,
+<lb />Toy, par qui ma raiſon ſe laiſſoit preuenir,
+<lb />Circé, lache aſſaſſin d’vne ſi bélle flame
+<lb />Quitte à mes premiers ſeux l’empire de mon ame,
+<lb />Helas! ie m’endormois dans ces lieux enchanteZ;
+<lb />Mes yeux pleins de l’éclat de nouuelles beautez
+<lb />Mettoient à tous momens en peril ma conſtance;
+<lb />Mais ie pars, chere époûſe, &amp; fuis de leur preſence.
+<lb />Si le bruit de ta gloire à flatté mon amour,
+<lb />Si mes ſoins s’enuoimoiene à do n'puiſſans
+<lb />charmes,
+<lb />Ie retourne à mes larmes,
+<lb />Quand i’attens ton retour.
+<lb />Cruel que me ſert-il que ta rare valeur (.
+<lb />Ait forcé le demon de l’inuincible Troye,
+<lb />------ .- .---.-- --- - -----------
+<fw><lb />151
+</fw><fw><lb />π¬.....
+<lb />TRAGICOMEDIE.
+<lb />Si ie n’ay pas la ioye
+<lb />Do redon rol vallseur,
+</fw></sp>
+<p type="MainZone-Lg"><lb />En effect, vous deuiez apres cette vicloire
+<lb />Prendre part la premiere aux douceurs de ma gloire,
+<lb />Voir ſoudain voſtre époux plein d’honneur &amp; d’amour
+<lb />Satisfaire à l’eſpoir d’vn glorieuxx retour;
+<lb />&amp; tout enſlé pour vous d'vne telle conqueſte
+<lb />Venir mettre à vos pieds les lauriers de ſa teſte.
+</p>
+<p type="MainZone-Lg"><lb />Tioye eſt à bas, qui peut empeſcher ton retour?
+<lb />Eſt-ce ta mort? non, non, ma mort l’auroit ſuiuie,
+<lb />Puiſque ie ſuis en vie
+<lb />Tu vis; mais ſans amour.
+</p>
+<sp type="MainZone-Sp"><lb />Sans doute ingrat vſe; &amp; queiqu'autre beauté
+<lb />Pour vanger llion en ſoüillant ta victoire
+<lb />Te dérobe la gloire
+<lb />De ta fidelité.
+<lb />Helas! c’en eſtoit fait, eſpouſe trop fidelle,
+<lb />I’allois gouſter l’appas d’vne flamme nouuelle,
+<lb />Si voſtre ſouuenir rappellant ma raiſon
+<lb />N’eut defendu ma foy contre ſa trahiſon:
+<lb />Mais auec ſes clartez vn remors legitime
+<lb />Retrace auec douleur l’image de mon crime,
+<lb />M’en preſente l’horreur, &amp; me rend en ce iour
+<lb />Ma premiere innocence, &amp; ma premiere amour.
+<fw><lb />B
+</fw><lb />L’eſtat où me reduit ce ſoupçon odieux
+<lb />Pouſſe dans le tombeau Telemaque &amp; Laërte;
+<lb />Viens empeſcher leur perte,
+<lb />Où nous fermer les yeux.
+<lb />Ah! vous ne mourrez point, ie vay par ma preſence
+<lb />De voſtre deſeſpoir vaincre la violence.
+<lb />Reſiſtez, Penelope, on va vous ſecourir.
+<lb />Il faut quitter ces lieux, Euriloche, ou perir.
+</sp>
+<sp type="MainZone-Sp"><lb />Seigneur....
+<lb />EVRIL.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />N’oppoſe point à mon impatience
+<lb />Qu’on ne peut de Circé tromper la defiance,
+<lb />Qu'on nous fait obſeruer, que ces lieux ſont gardez;
+<lb />Que de cent yeux veillans nos pas ſont regardez,
+<lb />Que ie ſuis ſans vaißeaux, que ma perte eſt certaine,
+<lb />Si l’amour de Circé. ſe conuertit en haine.
+<lb />I'oppoſe à tes raiſons ma prudence &amp; ma foy,
+<lb />Qui fit tant pour les Grecs, peut tout ozer pour ſoy.
+<lb />Quand l’amour pourroit moins, ca grand Dieu de
+<lb />miracles;
+<lb />Ie cognoy mon deſtin plus fort que ces obſtacles.
+<lb />Qui fut touſiours vainqueur auroit-il pu dechoir
+<lb />Iuſques à n'auoir pas ſa fuite en ſon pouuoir?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Hé bien, expoſons-nous à de nouueaux naufrages,
+<lb />Deuenons derechef l’objet de mille orages;
+<lb />Les hoſtes vagabons de ces tombeaux mouuans,
+<lb />Ou le butin de l’onde, ou le jouet des vents.
+<lb />Ie ne combattray point vn deſſein ſi funeſte;
+<lb />De tous vos compagnons perdez ce qui vous reſte;
+<lb />Mais regardant l’eſtat ou vous eſtes reduit,
+<lb />Meſurez voſtre espoir au malheur qui vous ſuit.
+<lb />Voſtre deſtin, Seigneur, a bien changé de face;
+<lb />Uous tombez tous les iours de diſgrace en diſgrace,
+<lb />La perte d’Ilion comblant voſtre bonheur
+<lb />Les Dieux ſemblent quitter le parti du vainqueur;
+<lb />Ils vous ont inſpiré le deſſein impoſſible
+<lb />Dont ſute ,ou le ooy voſre pene inſamible,
+<lb />Afin que par les traits d’vn amour indigné
+<lb />Ils puißent voir perir ce qu’ils ont épargné,
+<lb />SongeZ....
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Cette pitié n’agit que pour vous-meſme,
+<lb />Ie ſçay vos intereſts, vous aimez, l’on vous ayme.
+<lb />C’’eſt ce zele qui fait obſtacle à mon retour,
+<lb />Mais ſeul, &amp; ſans tarder ie ſuiuray mon amour.
+<lb />Mais i’apperçoy Circé. Mes ſoupirs &amp; mes larmes,
+<lb />Deſordre, deſespoirs, inuincibles allarmes,
+<fw><lb />B. ij
+</fw><lb />Ramaßez dans mon ſein toute voſtre rigueur,
+<lb />Et cachez à ſes yeux le tourment de mon cœur.
+</sp>
+<p type="MainZone-Head"><lb />UOE
+<lb />NE
+<lb />V
+<lb />CIIOD, DISSD) EVRID ELPENOR.
+<lb />PHAETVSE, LEVCOSIE, Suite de Circé,
+<lb />Suite d’Vliſſe.
+</p>
+<sp type="MainZone-Sp"><lb />CIRCE' à Vliſſe.
+<lb />E l’aduouë auiourd’huy, vous m’auez attenduë,
+<lb />Mais touſiours cette ardeur ne m'a pas preuentté:
+<lb />Ie la preuiens ſouuent, &amp; peut-eſtre mon cœur
+<lb />Peut reprocher au voſtre vn peu plus de froideur.
+<lb />Mais ce viſage ſombre &amp; couuert de triſteſſe
+<lb />Dement l’airdont tantoſt vous blaſmiez ma pareße.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ie ſuis tel, quand ie ſuis abſent de vos appas;
+<lb />Peut-on eſtre autrement quand on ne vous voit pas?
+<lb />Cette ſerenité que troubloit voſtre abſence,
+<lb />Ie la ſens reuenir auec voſtre preſence.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ie le voy bien, Vliſſe eſt dans ſa belle humeur;
+<lb />Les Syrenes s’en vont l’accroiſtre par la leur;
+<lb />Car n’apprehendez point que leurs chants infidelles
+<lb />Nous dreſſent maintenant des embuſches mortelles;
+<lb />I’ay fait que leur concert n’a rien de dangereux,
+<lb />ntunuimn um op ut praire aux Tritons amoureux,
+<lb />Donc pour en mieux gouſter les douceurs nompareilles
+<lb />Sans en craindre l’appas deuenez tout oreilles.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Madame prés de vous ie ſçay bien qu’en ces lieux
+<lb />Maon vreme auru moins at piuiſii que mes jehx.
+</sp>
+<sp type="MainZone-Sp"><lb />Allons.
+<lb />CIRCE'.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V
+<lb />I.
+<lb />EVRILOCHE, LEVCOSIE, PERIMEDE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ils ſont partis, approche Perimede.
+<lb />B iij
+<fw><lb />1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE reuenant ſur ſes pas à Euril.
+<lb />Quoy vous ne ſuiuez pas? quel ennuy vous poſſede?
+<lb />Qu'eſt-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Helas! Leucoſie, vn ſi grand changement
+<lb />Dans l’estat où ie ſuis n’eſt pas ſans fondement.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! parlez.
+<lb />LEVCOSIE.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Puis qu’il faut que ie vous éclairciſſe,
+<lb />Vliße veut partir, &amp; ie doy ſuiure Vliſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Dieux que me dites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Ces climats enchantez,
+<lb />Ces lieux, dont vos attraits augmentent les beauteZ
+<lb />Ces bors delicieux, ce charme de nos peines
+<lb />Pour arreſter Uliſſe ont de trop foibles chaiſnes:
+<lb />Il vous quitte, mais lors qu’il rompt tous ſes liens,
+<lb />Ie déchire mon cœur voulant briſer les miens:
+<lb />&amp; forcé d’obeir, ſans que mon amour cede,
+<fw><lb />2
+</fw><lb />Ie pars le trait au cœur, &amp; ie fuis du remede.
+<lb />Pai ce fuiet qiui ingte ut mon tourmene.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />potais d'ou vient dans Vliſſe vn ſi prompt change<lb />ment?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ce Grec en luy donnant vn eſcrit de ſa ſemme
+<lb />Luy rend tous les transports de ſa mourante flame,
+<lb />&amp; dérobe à Circé ces ſoupirs glorieux
+<lb />Dont ſon cœur honoroit le pouuoir de ſes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVODL.
+<lb />Pers-je auſſi le pouuoir que i’auois ſur le voſtre?
+<lb />Partez-oom pom m jun ,on pour en ſuiure vne
+<lb />autre?
+</sp>
+<sp type="MainZone-Sp"><lb />Moy, vous fuir!
+<lb />EVRIL.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Mais enfin vous quittez ce ſejour.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Mon deuoir malgré moy l’emporte ſur l’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Quiconque pour autruy choque vne amour extréme,
+<lb />Ne ſçait pas bien aimer, ou ne ſçait pas qu’on l’aime.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Cognoißez, donc le cœur qui conſent ce depart,
+<lb />Princeſſe mon deuoir y prend ſi peu de part
+<lb />Que dans le triſte eſtat où mon ame eſt reduite
+<lb />Mon deuoir n’eſt ici qu’vn pretexte à ma fuite,
+<lb />Ie pars, non pour Vliſſe, &amp; ne quitte ces lieux
+<lb />Que pour fuir vn objet trop fatal à mes yeux,
+<lb />Qui rit de mes ſoupirs, &amp; bruuo mã conſtance;
+<lb />Ie fuis auec honneur par mon obeiſſance,
+<lb />&amp; mon orgueil laßé d’vne iniuſte froideur
+<lb />Impure à mon deüoir t'effort de ſa rigueur.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Le malheur d’Euriloche eſt moindre qu’il ne penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Ie le ſens toutefois plus grand que ma conſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />I’en dirois dauantage, &amp; vous vous plaindriez
+<lb />moins,
+<lb />Mais vn ſemblable adueu ne veut pas detémoins.
+<lb />Si ce n’eſt pas aſſez pour vous faire iuſtice
+<lb />Circé prendra le ſoin de retenir Uliſſe:
+<lb />Et ſi contre ſa force il oſe reſiſter,
+<lb />Ie ſçay par quels liens ie doy vous arreſter:
+<lb />6
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+<fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VTI
+<lb />EVRILOCHE, PERIMEDE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />ognoy mieme, Emttoene:; &amp; quie ia penſée
+<lb />D’auoir lancé le trait dont mon ame eſt bleſſes.
+<lb />Amy, quels ſentimens conſerues-tu pour moy?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Les meſmes que i’auois en vous donnant ma foy.
+<lb />Ie n’ay point entrepris ce penible voyage
+<lb />Pour l’honorable employ d’vn perilleux meſſages
+<lb />Ie me ſuis expoſé pour vous reuoir, Seigneur,
+<lb />Et vous voyez en moy meſme eſprit meſme cœur;
+<lb />Touſiours de vos deſſeins executeur fidelle,
+<lb />Quels qu’ils ſoient, &amp; c’eſt moins vn effet de mon zele,
+<lb />Que du iuſte raport qui ſe trouue entre nous,
+<lb />Vous aymez à broüiller, ie l’ayme plus que vous.
+<lb />Voſtre grand cœur ſans ceſſe à commander aspire,
+<lb />Ne s’aſſouuit de rien, peut tout ce qu’il deſire;
+<lb />Iuge pour s’aggrandir tout moyen glorieux.
+<lb />De meſme i’ay le cœur, haut, grand, ambitieux;
+<fw><lb />C
+<lb />X
+</fw><lb />Adroit, ou pour parler en termes du vulgaire
+<lb />Pourve, meſenam, enſn pout vons nomme à tout faire.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Que ton ſecours m’eſt cher auec ces qualitez.
+<lb />Il n'en falloit pas moins dans les difficulteZ
+<lb />Qu'oppoſent Elpenor, Phaëtuſe &amp; la Reyne
+<lb />A mon ambition, à ma flamme, à ma bayne.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Voila bien de l’employ. Vous aurez donc touſiours.
+<lb />Dedans tous les climats de nouuelles amours,
+<lb />Cette beauté ſans doute a captiué voſtre ame.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />In cognoy mat encor le ſuſer de ma flamme:
+<lb />Cher amy d’autres yeux allument mes deſirs,
+<lb />Elle a mes complimens, ſa ſœur a mes ſoupirs:
+<lb />Mais pour punir ma feinte, &amp; mon amour extreſme
+<lb />Phaëtuſe me hait, autant que ſa ſœur m’ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Ainſi vous vous vangez, de la ſœur ſur la ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ainſi mon crgueil feint ſans vaincre mon malheur.
+<lb />Elpenor à mes vœutx enleue Phaëtuſe;
+<lb />Et de l’heur d’vn riual ma paſſion confuſe
+<lb />Refuſant de paroiſtre aux yeux de mon vainqueur,
+<lb />De honte &amp; de depit ſe cache dans mon cœur.
+<lb />I’approche, Leucoſie, &amp; ſoupire auprez d’elle,
+<lb />Ie m’efforce à l’aimer, &amp; mon ame rebelle
+<lb />Par ce nouuel amour veut rompre ſes liens;
+<lb />Mais ſans rompre mes fers, elle entre dans les miens.
+<lb />Elle m’ayme, &amp; mon cœur certain de ſa victoire
+<lb />Quandie veux m'applaudir en dédaigne lagloire;
+<lb />Ainſi ce malheureux en vainquant à ſon tour
+<lb />Eait peu pour ſon orgueil, &amp; rien pour ſon amour,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Ces diſgraces deuroient vous rendre plus propice
+<lb />Au deſſein qu’a formé la paſſion d’Eliſſe,
+<lb />Cependant vous auez éuenté ſon ſecret.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Ie l’ay dit, Perimede, &amp; i’en ay du regret.
+<lb />Qu'ay-je fait?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Mais, Seigneur, vne ſecrette fuite
+<lb />Peut reparer bien-toſt ce manque de conduite.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Ne t’imagine pas que l’ardeur de partir:
+<lb />Iette dedans mon cœunce ſoudain repentir,
+<lb />I'ayme trop Phaëtuſe, &amp; toute autre fortune:
+<lb />Sans ſa poſſeſſion me ſeroit importune;
+<lb />Mais (grace aux Dieux) ie puis dans ſa poßeſſion<lb />Remplir tous les deſirs de mon ambition.
+<lb />qu aepit de-ſa ſiamme, en depitite ſa-hayne
+<lb />Ie l’ayme d’autant plus qu’elle doit eſtre Reyne;
+<lb />Et qu’ainſi mon eſpoir triomphant à ſon tour
+<lb />Elle peut couronner ma teſte &amp; mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Mais i’ay ſceu que Circé regnoit dedans cette ile:
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Cet ile eſt moins pourelle vn trône qu’vn azile.
+<lb />Par cet art merueilleux, par ces diuins effets,
+<lb />(Dontelle fit ſur nous d’effroyables éſſais,
+<lb />Quand ſon rare pouuoir par vn fameux miracle,
+<lb />Fit de nous à nous-meſme vn horrible spectacle,
+</sp>
+<sp type="MainZone-Sp"><lb />21
+<lb />Enſermant nos esprits par des charmes nouueaux
+<lb />Dans le corps du plus vil de tous les animaux,
+<lb />Par ce meſme pouuoir cette Reyne outragee
+<lb />D’vn infidelle époux autrefois s’eſt vangee,
+<lb />Et par la mort du Roy le Scythe furieux
+<lb />La chaſſant de ſon trône, elle vint dans ces lieux,
+<lb />Où trouuant Phaëtuſe en ſa premiere enſance
+<lb />Sans peine elle occupa la ſupreme puißance,
+<lb />Les plus grands de l’eſtat imputant à bonheur
+<lb />De luy voir gouuerner l’Empire de ſa ſœur.
+<lb />Mais de depoſitaire elle s’erige en Reyne;
+<lb />Et la ſoif de garder la grandeur ſouueraine
+<lb />Luy faiſant écouter cent penſers differens,
+<lb />Qui ſont inceſſamment du conſeil des Tyrans,
+<lb />L’oblige à reculer l’hymen de la Princeſſe,
+<lb />Get obſtacle à mes vœux laiße encor ma maiſtreſſe,
+<lb />Et me fait eſperer de pouuoir quelque iour
+<lb />Ruiner d’Elpenor la fortune &amp; l’amour:
+<lb />Dans ce deßein, amy, i’ay beſoin de ton aide,
+<lb />Ha le voir de ma part, fais luy voir Perimede,
+<lb />Que ſans honte il ne peut ſouffrir Circé regner,
+<lb />Sil attente il ſe perd, &amp; s’il l’oſe épargner
+<lb />I'eſpere: le deſtruire auprés de Phaëtuſe,
+<lb />M'offrant pour le ſecours que ſon bras luy refuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Que voyons-nous, Seigneur?
+<fw><lb />C iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />Circé dans ce vaißeau
+<lb />Prepare à ſon Uliſſe vn plaiſir fort nouueau.
+<lb />Atpiu deſſin les taux rupperçoy les Syrenes.
+<lb />Qui s’en vont ſoupirer leurs, amoureuſes peines.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Que ie puiſſe iouyr d’un ſi rare plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIL.
+<lb />AApprovnons sic ceuu.ouanvomremar ton deſir.
+</sp>
+<p type="MainZone-Head"><lb />DEBEVDVRII
+<lb />VLISSE &amp; CIRCE' dans vn vaiſſeau auec toute
+<lb />ſa ſuite, écoutent le concett des Syrenes.
+</p>
+<sp type="MainZone-Sp"><lb />Chanſon.
+<lb />Mour qui ne te plais qu’à nous faire la guerre,
+<lb />LA Qui puiſſant dãs les eaux autant que ſur la terre;
+<lb />Viens embrazer nos cœurs au milieu de la mer,
+<lb />Soulage ou fais mourir des flammes allumees,
+<fw><lb />2..
+<lb />*5i
+</fw><lb />Sommes nous faites pour aymer
+<lb />Etpous leide lamals ccs.
+<lb />Four conſeruer l’honneur de tes traits inuincibles,
+<lb />Frappe ces petits Dieux, ces Tritons inſenſibles,
+<lb />Force-les d’adorer ce qu’ils oſent blâmer,
+<lb />Et punis leur orgueil de nous auoir charmees
+<lb />Du mal que nous ſouffrons d’aimer,
+<lb />Et de n’eſtre iamais aymees.
+</sp>
+<p type="MainZone-Head"><lb />SSEEVE
+<lb />T4L
+<lb />PERIMEDE, EVRILOCHE.
+</p>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Vemes ſens ſont rauis, Seigneur, que de merueil<lb /> les!
+<lb />2.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRTE
+<lb />Circe nous en faït voir tout les iours de pareilles;
+<lb />Apres ce qu'elle a fait; ce neſt pas ſans raiſon
+<lb />Que par elle en credit cet ile a pris ſon nom,
+<lb />Auſſi Circé n'eſt pas vne femme. ordinaire.
+<fw><lb />4.
+<lb />
+<lb />V*:
+<lb />sen i ni
+</fw></sp>
+<sp type="MainZone-Sp"><lb />24
+<lb />Lo
+<lb />PODE
+<lb />Perſe l’eut autrefois du Dieu de la lumiere,
+<lb />Mais ce fut en Scythie ou Perſe mit au iour
+<lb />Ce noble &amp; digne fruict d’vne ſi belle amour.
+<lb />Que ſi les autres deux ont le Soleil pour pere,
+<lb />Toutes deux en ces lieux eurent vne autre mere,
+<lb />Ou Phaëtuſe aynée emporte ſur ſa ſœur
+<lb />L’eſpoir d’auoir vn iour la ſupreme grandeur.
+<lb />Ainſi pour ſatisfaire à mon amour extréme,
+<lb />Les Dieux dedans cette ile ont mis tout ce que i’ayme.
+<lb />Il eſt vray que ces Dieux jaloux de mes plaiſirs
+<lb />Diuiſent en trois ſœurs l’objet de mes deſirs,
+<lb />Mais dans l’vne des trois mon amour ſe prepare,
+<lb />D’vnirce, qu’en ſes ſœurs la fortune ſepare.
+<lb />Il eſt doux de regner, il eſt doux d’eſtre aimé;
+<lb />Mais c’eſt peu ſans l’objet de qui l’on eſt charmé;
+<lb />Circé regne en ces lieux, mais Phaëtuſe eſt bleßé;
+<lb />L’autre eſt ſans tous les deux, mais ie ſuis aimé d’elle,
+<lb />Ainſi dans Phaëtuſe où l’on voit tant d’appas,
+<lb />Ie voudrois aßembler tout ce qu'elle n’a pas,
+<lb />Le pouuoir de Circé, l’amour de Leucoſié;
+<lb />Regner ſans compagnon, aimer ſans ialouſie,
+<lb />Perdre Vliße, Elpenor, ou bien les eſloigner,
+<lb />L’vn nuit à mon àmourz tons deux peuuent regnor.
+<lb />Mais malgré mes Riuaux i’obtiendray la victoire,
+<lb />Que ſi cet attentat peut offeuſer ma gloire,
+<lb />Attentif à la voix d’vn ſi ſuperbe eſpoir,
+<lb />Ie rejette, &amp; ie fuis celle de mon deuoir.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />
+<lb />L
+<lb />2
+<lb />A2
+<lb />LELEEREELLENE.
+<lb />ELPENOR, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />1 2
+<lb />VAND filatté d’vn bonheur qui paſſe
+<lb />G mon attente;
+<lb />Ie meſure au paßé ma fortune preſente,
+<lb />Ie me trouue:ſt haut, qu’au poinct où te me voy,
+<lb />Mon ame pour tant d’heur n’a pas aſſez de foy;
+<lb />Il eſt vray touteſois la prochaine iournee
+<lb />Verra: finir mes maux par vn ſainct hymenee,
+<lb />Ma fortune eſtablie, &amp; nos deſſeins vnis: N
+<lb />Pous l’auez conſenty, Circé me l’a promis..
+<lb />Heureux conſentement! fauorable promeſſe!
+<lb />A quel aimable exceds: de xluire &amp; d’allegreſſe
+<lb />2
+<lb />*2.
+<lb />Quand r'attendoïs le moins vn bonheur ſi charmant,
+<lb />Auez-vons éleüé, ce bien-heureux amant!
+<lb />Quel ſort pourroit Princeſſe égaler ma fortune?
+<lb />vrà on ſecez commnia oſe epon commune.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Elle l’eſt, Elpenor, &amp; la part que i’y prends,
+<lb />M’a donné vos transports, &amp; peut-eſtre plus grands.
+<lb />Iugez-en par l’eſtat où l’amour m’a reduite,
+<lb />Vous ſçauez ſon progrez, ſa naißance, ſa ſuite,
+<lb />Ses peines, quand l’hymen s’appreſte à les finir,
+<lb />Ma fortune redouble à m’en reſſouuenir.
+<lb />Deſlors que ie vous vis, cette premiere veué
+<lb />D’vn aimable transport me rendit toute émuë:
+<lb />A ce premier regard ie ſentis dans mon cœur
+<lb />Vn deſordre agreable, vn trouble ſans, douleur;
+<lb />Ie n’aymois qu’à vous voir,vour parler,vous entẽdre;
+<lb />Tous les autres plaiſirs n’auoient rien pourme prẽdre
+<lb />Et vous ſeul occupiés à toute heures en toux lieux,
+<lb />Mon cœur, mon ſouitenir; mon oreille, &amp; mes yeux.
+<lb />Auant que voſtre amour commençaſt depatviſtre,
+<lb />Le mien: de tous messſens s’eſtoit rendu le &amp;Maiſtr
+<lb />Et i’ay ſouuent, roug y d’auoin èie tann d’amour,
+<lb />Sans que par quelque adueu lévoſtræ euſt veu lé iour
+<lb />Iugez, donc maintenant, combien ie ſuis charmee,
+<lb />Aymant: ſis doucementi&amp;, mel cmyanh aymee
+<lb />De toucher à cotiour, qui par: un doux lien
+<lb />M’aſſurant voſtre amour authoriſe le miens.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Moderez vos faueurs, afin que i’en iouiſſe;
+<lb />Leur exceds me confond. O Ciel vrayment propice!
+<lb />Ie vous benis, ô pleurs reſpandus nuit &amp; iour!
+<lb />Que le fruit que i’en cueille eſt doux à mon amour!
+<lb />Que nos feux ſont charmans quand ils en forment
+<lb />d’autres!
+<lb />Et mes ſouſpirs heureux en rencontrant les voſtres!
+<lb />Quand deux cœurs bien vnis s’accordent en deſirs,
+<lb />Ce qu’on nomme des fers ſont des nœuds de plaiſirs,
+<lb />Plaiſe au Dieu de nos cœurs, à ce Dieu qui m’enflame
+<lb />Que puiſque mon amour a paßé dans voſtre ame,
+<lb />Il vous faße ſentir par ces meſmes efforts
+<lb />De pareilles douceurs &amp; de pareils tranſports;
+<lb />Et qu’alors que vos feux rendent ma voye extréme
+<lb />Vous puiſſiez, en gouſter autant que ie vous ayme;
+<lb />Mais las! que mon amour a ſujet de trembler,
+<lb />De ce trouble qu’en vain vous taſchez, de vvoiler,
+<lb />Qu'ay-ie encures ſouffrir? ceſſez de vous contraindre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ny pour vous ny pour moy ie ne voy rien à craindre.
+<lb />Ie ne ſçay quoy pourtant ſemble me preſager
+<lb />L’inuincible chagrin- dont ie me iſens ronger,
+<lb />Il eſt ſans fondement, mais i’en ſuis plus émuë
+</sp>
+<sp type="MainZone-Sp"><lb />D
+<lb />1
+<lb />Moins de cette douleur la cauſe m’eſt cognué;
+<lb />Ie ſoupire ſans ceſſe, &amp; ſens couler des pleurs,
+<lb />Ie me plains, &amp; ne puis ſçauoir pour quels malheurs,
+<lb />Ne pouuant diſſiper cette frayeur mortelle,
+<lb />PermetteZ que du moins ie m’aßeure contr'elle.
+<lb />Circe vous le ſçalſez retient dedans ces lieux
+<lb />Vn ſceptre que ma mere auoit de mes ayeux.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Qüy, ie le ſçay, Princeſſe, &amp; mon amour n’aſpire
+<lb />Qu'a remettre en vos mains ce Sceptre &amp; cet Empirer.
+<lb />C’eſt vn deßein deſid dans mon cœur arreſté:
+<lb />Non que plein de l’eſpoir dont vous m’auez flatté,
+<lb />Au bonheur ſans pareil, que voſtre hymenme donne,
+<lb />I’aspire d’adiouſter l’éclat d’vne Couronne,
+<lb />Alors que vos beaux yeux me ſeeurent aſſeruir,
+<lb />Ie bornay tous mes: vœux alheur de vous ſeruirs
+<lb />Et ce que mon amour obtient de recompenſe
+<lb />Paſſe tous mes deſirs comme mon eſperance:
+<lb />Mais pourveſtre querelle, &amp; pour vanger vos droit::
+<lb />Contre vos oppreſſeurs ie ſçay ce que ie dois.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ie le voy bien, les maux-que ma douleur preſage;,
+<lb />Sont ceux où ce deſſein pouſſe voſtre coura
+<lb />*:
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Ie ſçay que ce deſſein eſt hardi, perilleux,
+<lb />Ie cognois de Circé le pouuoir merueilleux;
+<lb />Mais ſi de ſon ſçauoir la force m’eſt connuë,
+<lb />Ie ſçais auſſi qu’Vliſſe à nos yeux l’a vaincué,
+<lb />Qu'affiſté d’vn ſecours que les Dieux a mon bras
+<lb />Armé pour vous-ſeruir ne refuſeront pas;
+<lb />Vliße contraignit cette hoſteße infidelle,
+<lb />De rendre à ſes amis leur forme naturelle.
+<lb />Ie ſçay plus que contr'elle vn peuple reuolté
+<lb />Malgré ce grand pouuoir ſi craint, ſi redouté,
+<lb />L’a forcee a ſortir de ſon propre heritage.
+<lb />Ces exemples, Princeſſe, appuyent mon courage,
+<lb />Et i’adiouſte qu’il faut moins de force &amp; de cœur,
+<lb />Pour chaßer vn Tyran, qu’vn iuſte poßeßeur.
+<lb />Le Ciel de nos projets ſouſtiendra la liuſtice:
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Imputés à l’amour là victoire d’Vliſſe,
+<lb />Seur que ſt pour ranger le Scithe à ſon deuoir<lb />Circé n’eüt dedaigné d’vſer de ſon pouuoir,
+<lb />Toute la terre à fuir ne l’auroit pas reduite,
+<lb />Ce fut vne retraite, &amp; non pas vne fuite;
+<lb />Laße de commander à ce pruple ſans foy
+<lb />Qui l’actuſoit d’auoir empoiſonné ſon Roy;
+<fw><lb />D
+</fw><lb />D’vn barbare climat, d’vne terre infertille,
+<lb />Son deſtin ou ſon choix la poußa dans cette iſle;
+<lb />Puiſque ou la Couronne a peu la contenter,
+<lb />Il n’eſt effort humain qui la luy puiße oſter;
+<lb />C’eſt ſe perdre, Elpenor, que de s’armer contr'elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />miun c'eſt pein pour vous &amp; pour voſtre querelle,
+<lb />Ie treuue vn tel deſtin ſi beau, ſi glorieux,
+<lb />Que i’oſerois m’armer meſme centre les Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Et ie treuue pour moy tant de ſujet de larmes
+<lb />Dans vos moindres perils, dans vos moindres allar<lb />mes,
+<lb />Qu'à ce prix mille eſtats ſeroient trop acheteZ.
+<lb />La fille du Soleil a d’autres vaniteZ.
+<lb />I'ayme, ſemblable au Dieu qui lance le Tonnerre,
+<lb />A poßeder vn cœur plus que toute la terre:
+<lb />Laißez-moy ſeurement iouir de mon bonheur
+<lb />Ie puis ſans lacheté laißer regner ma ſœur,
+<lb />Et luy dois bien du moins cette reconnoißance,
+<lb />Pour les ſoins qu'elle. à pris d'eleuter mon enfance.
+<lb />Outre qu’elle me traite auec tant de bonté
+<lb />Que ie me puis vanter que de la Royauté,
+<lb />Nous partageons le fruict, elle a toute lapeine:
+<lb />Et de tout cet Eſtat i'attireroit la haine,
+<lb />Si ie voulois traiter auec ceſte rigueur,
+<lb />Circé, qui l’a comblé de gloire &amp; de bonl'eur.
+<lb />Pour toutes ces raiſons, Prince ie vous ordonne
+<lb />(S’il eſt vray que l’on m’aime &amp; non pas ma Cou<lb />ronne J
+<lb />De quitter un deßein qui ſeul peut aduancer
+<lb />Les malheurs, dont le Ciel ſemble me menaßer.
+<lb />I'abandonne pour vous &amp; Sceptre &amp; Diademe
+<lb />I'ay tout ce que ie veux, pourueu qu’Elpenor m’aime.
+<lb />Seul, il' eſt mes Eſtats, mes ſujets &amp; mon Roy,
+<lb />eoſe conſerue le Ciel &amp; ſes iours, &amp; ſa foy:
+<lb />Auec luy ie tiendray ma fortune auſſi chere
+<lb />Qu’auec le Dieu du iour fut celle dena mere.
+<lb />Mais c’en eſt trop flatté de ma facilité;
+<lb />Vous pourriez bien en prendre vn peu de vanité.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Oüy i’en prends, ie l’aduouë, &amp; vous deuez Princeße
+<lb />Souffrir dans mon bonheur cette digne foibleße.
+<lb />Quelle. gluire; queb heurch peut mieux inspirer
+<lb />Que: celuy de vous plaire, &amp; de vous adorer?
+<lb />Ie n'examine point,ſtc eſttvers; mon merite,
+<lb />Si c’eſt vers mon amour, que le voſtre s'acquitte,
+<lb />Ruiſquυn ſe prand'amou, quoy que peu merité
+<lb />Donne au peu que ie vaux toute ſa dignité,,
+</sp>
+<p type="MainZone-Other"><lb />ArJOMIAV.
+<lb />Et jette ſur mes iours tant de gloire &amp; d’eſtime
+<lb />Que l’orgueil que i’en prends deuient trop legitime.
+</p>
+<p type="MainZone-Head"><lb />C R d
+<lb />II
+<lb />EVRTLOGHE, EL PENOR, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRLLOCHE à Phaëtuſe.
+<lb />Ardonnez ſi ie romps vn entretien ſi doux,
+<lb />I Le hazard en réuant m'amené iuſqu’à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />stuv
+<lb />ELPENOR.
+<lb />Puiſque c’eſt le hazard qui nous eſt ſi contraire,
+<lb />Vous pouuez par deſſein nous quitter &amp; luy plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE, à Phaëtuſe.
+<lb />t.72
+<lb />Eut
+<lb />Ie treuue qu’il-en vſe un peu bien librement.). ..
+<lb />Vous ſuis-je....
+<lb />7
+<lb />V..
+<lb />.2.22.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Il a parlé ſelon mon ſentiment.
+<fw><lb />e. 1. jat Mi
+<lb />1.
+<lb />. 2
+<lb />1
+</fw></sp>
+<p type="MainZone-Other"><lb />EVRILOCHE,
+<lb />---
+<lb />.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Au moins c’eſt me traiter ſans fard, ſans complaiſance.
+<lb />Mais qui vous fait ſi fort deteſter ma preſence
+<lb />Pourtraiter nos amours le temps qe manque pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAETVSE.
+<lb />'On vous trouue partout où s’adreſſent mes pas.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />C’eſt bien ſouuent haZard, par fois ie le confeſſe
+<lb />C eſt auecque ueſſein; mau i eſt iel Trinceſſe,
+<lb />Qu'aprés l’auoircognu, ie croy qu’aſſurement,
+<lb />Ie receurois de vous vnautre traitement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHALIVSE.
+<lb />Vos premiers procedés le font aſſez comprendre,
+<lb />Et i’en découure plus que ie n’en veux apprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ne vous allarmés point, Madame, reuenés:
+<lb />Ce deſſein n’eſt pas tel que vous l’imaginés,
+<lb />Ce n’eſt plus vne amour qui vous fut importune,
+<lb />Qui trouble vos plaiſirs &amp; ſa bonne fortune:
+<lb />Mes vœux ſont maintenant autre part adreſſés;
+<lb />4
+<lb />Vous qui n'ignoreZ pas, qu’ils ſont preſque exaucés
+<lb />Pardonnez, ſi ie dis, que c’eſt eſtre vn peu vaine
+<lb />De croire encore vos yeux les autheurs de ma peino,
+<lb />Et fort peu preſumer de ceux de voſtre ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />En effet, &amp; vous plaire eſt vn ſi grand bonheur<lb />Que c'eſt orgueil de croire vne telle conqueſte;
+<lb />Que ie plaindrois ma ſœur, ſi ſes yeux l’auoient faite!
+<lb />Elle le croit peut-eſtre, &amp; vouſ vous en vantez,
+<lb />Mais nous arreſterons le cours de ſes bontez:
+<lb />Leucyſie apprendra qu’ellé s’eſt abuſée,
+<lb />Vous captiuer n'eſt pas vne victoire aiſée,
+<lb />Bien que: de ſes appas l’auantage ſoit grand;
+<lb />Ils manquent toutesfois du charme-qui vous prend;
+<lb />Elle eſt née vn degré trop loin de la Couronne,
+<lb />On ſçait vos ſentimens, &amp; celà vous eſtonne.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE,
+<lb />Ie tire vanité d’auoir ce ſentiment,
+<lb />Mais vous le condamnez; c’eſt pourquoy voſtre amant.
+<lb />Laiße ſi volontiers entre les mains d’vne autre.
+<lb />Le ſceptre de ces lieux, que les Dieux ont fait voſtre,
+<lb />I'admire ſa vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENORà Phaëtuſe.
+<lb />Voyez à quels tourmens
+<lb />M'expoſe la rigueur de vos commandemens.
+<lb />Que puis-je repliquer à cette raillerie?
+<lb />Elle eſt iuſte; ah! ſouffreZ, ſi vous aymez ma vie
+<lb />Que i’ayme mon honneur, ie voy qu’il eſt perdu
+<lb />ot par mes mains-le ſceptre aux voſtres n'eſt rendu,
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ainſi d’vn trait piquant qu’Euriloche vous lance,
+<lb />Ilme rend mes frayeuis deſtruit mon eſperance.
+<lb />Dieux quel eſt voſtre amour, &amp; quel eſt mon pouuoin
+</sp>
+<sp type="MainZone-Sp"><lb />ELTENOR.
+<lb />Doit-il eſtre ennemy d’vn ſi iuſte deuoir?
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />I'ayme aßeZ voſtre honneur laißez le à ma prudence.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Tout l’honneur d’vn amant eſt dans l’obeißance,
+<lb />Cependant pour tâcher de r’auoir vos eſtats
+<lb />AccepteZ le ſecours que vous offre monbras.
+<lb />Pour ſeruir ma Princeße il n’eſtrien que ie n’oſe
+<lb />Et ne permettez, pas que voſtre amant s'expoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Il ſcauroit s’expoſer, ſi i’én auols beſoin.
+</sp>
+<p type="MainZone-Other"><lb /> ii
+</p>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Euriloche, quitez ret inutile ſoin,
+<lb />D’vn eſtrange ſouc y voſtre eſprit s’embarraße.
+<lb />Et cette raillerie eſt de mauuaiſe grace.
+</sp>
+<sp type="MainZone-Sp"><lb />V.atli.GE..
+<lb />D’effet il eſt faſcheux d’apprendre ſon deuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Ah! ce n’eſt pas de vous que ie le veux ſçauoir.
+<lb />Et ce diſcours enfin commence à me deplaire;
+<lb />Apprenez à parler, ou ſongri Ons vous taire.
+<lb />Sans le reſpect...
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE..
+<lb />Calmez ce dangereux courroux..
+</sp>
+<sp type="MainZone-Sp"><lb />C’en eſttrop:
+<lb />ELPENOR.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE à Elpenot.
+<lb />La querelle eſt à moy: laißez-nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Souffrez.
+<lb />?
+<lb />ELPENOR.
+<lb />L
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />TRAG.ICO'MEDIE.
+</p>
+<sp type="MainZone-Sp"><lb />Obeißez.
+<lb />PHAETVSE.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Dieux! quelle violence?
+</sp>
+<p type="MainZone-Head"><lb />COSETE
+<lb />TII
+<lb />EVRILOCHE, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE
+<lb />oſe vous aßurer de ſon obeißance.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE,
+<lb />Sans elle par l’effort de ſon reſſentiment
+<lb />Ton manque de reſpect auroit ſon chaſtiment;
+<lb />Mais ſi i’ay retenu les traits de ſa vengeance
+<lb />Seule ie l’entreprens de toute ma puißance.
+<lb />Tu ſçauras iuſqu’où va mon indignation,
+<lb />Tuverras, inſolent; dans ta punition
+<lb />Que la plus temeraire &amp; la plus fiere audace
+<lb />Eoit trembler au courroux de celles de ma race.
+</sp>
+<p type="MainZone-Other"><lb />E iij.
+<fw><lb />*
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />I
+<lb />EVRILOCHE ſeul.
+<lb />I
+</p>
+<sp type="MainZone-Sp"><lb />V’ay-ie fait imprudent! où me ſuis-je emporté?
+<lb />Eſt-ce là ce deßein que i’auois concerté?
+<lb />Mais Quel Amant euſt pû ſupporter cette veuë?
+<lb />Mon Riual occupoit la place qui m’eſt deuë:
+<lb />Pouuois-ie en ce moment retenir le courroux
+<lb />Que pouſſe le tranſport d’vn deſeſpoir jaloux?
+<lb />Non, non, par tant de maux mon amour affligée
+<lb />A creu tous ſes tranſports, &amp; s'en trouue allegée.
+<lb />Auois-je auparauant vn ſort plus rigoureux?
+<lb />Ah! non non; vn amant eſt bienmoins malheureux
+<lb />D’eſtre en bute au mespris, que l’eſtre à la vengeance,
+<lb />I'ayme mieux ſon courroux que ſon indifference,
+<lb />Tandis qu’elle me hait, i’occupe tout ſon cœur;
+<lb />Et d’vn Riual aimé te trouble lecimem. 
+<lb />1
+<lb />Mais de ce grand eſclat tu dois craindre la ſuite,
+<lb />Ah! cette indigne peur faithhonte à maconduite.
+<lb />Plus mes troubles ſont grãds, plus ie ſens que mon cœur
+<lb />Se roidißant contr’eux augmente ſa vigueur.
+<lb />Il n’eſt point de malheur plus fort que mon courage, „
+<lb />Dans le plus tenebreux, dans le plus noir orage
+<lb />Brillent quelques clarteZ, dont l’inuincible effort
+<lb />En perce l’epaißeur, &amp; me monſtre le port.
+<lb />Malgré tous mes Riuaux, malgré tahayne extreme
+<lb />Vous ne ſerez qu’à moy maiſtreſſe diademe;
+<lb />Maiblocey Deupeyvda pumudononeuy;
+<lb />Son amour abuſée pourra me ſeconden
+</sp>
+<p type="MainZone-Head"><lb />SELE.
+<lb />EVRILOCHE, LEVCOSIE.
+</p>
+<sp type="MainZone-Sp"><lb />LECCOSIE..
+<lb />Rince par cet abord parce front plein de joye
+<lb />T Explique le bonheur que le Ciel nous enuoye.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Iay ſi peu de commerce auec le bonheur,
+<lb />Que tout ce qui m’en parle eſt ſuſpect à mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Si la peur d’vn depart nous a couté des larmes
+<lb />Circé s’en va bientoſt diſſiper tant d’allarmes,
+<lb />Icy ſes volontez ſont d’inuincibles loix
+<lb />Elles ont du deſtin &amp; la force &amp; le poids,
+<lb />Tout ce que de Circé l’amour &amp; l’artifice
+<lb />Ont tenté iuſqu’icy pour retenir Vliſſe,
+<lb />Sont de foibles eſſays de ſes moindres efforts;
+<lb />Elle en eſt maintenant à de ſecretz reſſorts.
+<lb />Mais ce qui doit mon Prince augmenter voſtre joye,
+<lb />Outre les grands efforts où ſon pouuoir s’employe
+<lb />Voulant vous retenir auec plus de douceur,
+<lb />Elpenor dés demain eſpouz era ma ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Quel coup de foudreó! Dieux, que dites vous Princeſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ce qui doit vous combler &amp; d’heur &amp; d’allegreße,
+<lb />Circé preſſe elle meſme vn hymen deſiré,
+<lb />Que ſon ambition a touſiours differé.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Quel bonheur? quelle ioye? ô! fortune cruelle.
+</sp>
+<p type="MainZone-Other"><lb />LEVCOSIE.
+<lb />--- ---- -
+</p>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Eſi-tt uinſiqu'onneçon teute nureuſe nouuelle?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />De grace laiſſez-moy ſouſpirer mes malheurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Hé quoy l’heur d’Elpenor cauſe-il vos douleurs?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ouy, dans ce triſte eſtat il m’eſt inſuportable.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment donc?
+<lb />LEVCOSIE.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Il m’apprend, que ie ſuis miſerable,
+<lb />Ie le voy dans le port où tendoient ſes deſirs,
+<lb />Et ie me vois encor aux larmes, aux ſouſpirs.
+<lb />Triſte, confus, reduipà perdre l’eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Vn ſemblable bonheur eſt en voſtre puiſſance,
+<lb />Il ne tiendra qu’à vous.
+<fw><lb />-
+</fw><fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />A moy Princeſſe? helas!
+<lb />Pour auoir ſon bonheur, que ne ferois-ie pas?
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Elpenor eſt aymé, vous ſçauez, qu’on vous ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />EV.XILOCHE..
+<lb />Vos bontez ne ſçauroient vaincre mon malextreme.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE...
+<lb />La Reyne à mes bontez, adiouſte ſa faueur,
+<lb />Et ſi de noſtre hymen depend voſtre bonheur....
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Quoy que i’oſc eſperer de vous. &amp; de la Reyne,
+<lb />Ie ſuis encor bien loin de la fin de ma peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Donc vous aueZ des maux, Prince; à ce que ie voy;
+<lb />De qui la gueriſon ne depend pas de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Quy i’en ay.
+<lb />EVRILOCHE,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />L’infidelle, ô! ſoubçon qui me tuë.
+<lb />Deſia depuis long-temps ie m’en ſuis apperceué;
+<lb />Ie ne m’eſtonne point ſi vous verſiez des pleurs,
+<lb />&amp; ſi l’heur d’Elpenor a cauſé vos douleurs;
+<lb />Em eſſci jon nymen eſt digne de us tarmes,
+<lb />L’ingrat.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />A mon malheur preſtés encor des armes
+<lb />Phaëtuſe Elpenor, &amp; les Dieux en courroux
+<lb />N’eſtoient point aſſez forts pourme perdre ſaus vous,
+<lb />Il falloit, pour m’oſter le repos &amp; la vie
+<lb />Ioindre à mes ennemis l’ingrate Leucoſie,
+<lb />Et perir par vn trait plus ſenſible à mon cœur
+<lb />Que tous ceux que ſur moy peut lancer ſa rigueur;
+<lb />Phaëtuſe, Elpenor ont iuré ma diſgrace,
+<lb />Ie vous oppoſois ſeule au coup qui me menace,
+<lb />Et l’vnique ſecours que ie m’eſtois promis
+<lb />Va faire contre moy plus que mes ennemys.
+<lb />Seruez, aueuglement leur iniuſte vengeance
+<lb />Mais en m’oſtant mes iours, laiſſez moy l’innocence.
+<lb />PerceZ, percez, ce cœur, ſeure qu’en cet eſtat
+<lb />Vous perdreZ vn amant &amp; non pas vn ingrat.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIB.
+<lb />PardonneZ vn ſubçon qu’authoriſoient vos plaintes.
+<lb />Qui m'a fait plus ſouffrir, qu’à vous toutes vos crain<lb />tes;
+<lb />Vous n’eſtes point ingrat, &amp; ie me croy permis:
+<lb />De me ioindre auec vous contre vos ennemys,
+<lb />Ma ſœur vous hait, he bien ie prens voſtre querelle,
+<lb />Puiſqu’il falloit pour vous eſtre mal auec elle,
+<lb />Graces aux Dieux mon ſort me paroiſt aſſeZ doux,
+<lb />D'auoir à demeſler auec ſon courroux.
+<lb />Mais enfin apprenons, quelle eſtrange aduenture
+<lb />Me va faire pour vous offenſer la naturo.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Sans tarder voſtre ſœur vous le fera ſçauoir,
+<lb />Mais Princeſſe d'vn air qui vous fera bien-voir
+<lb />A quel eſtrange excez, ſu colere eſt montée,
+<lb />Et le peu de ſujet qu'elle a d’eſtre irritée.
+<lb />Cependant rien ne peut egaller ſon couroux
+<lb />Il va pour premier coup me perdre aupreZ de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Cét effort Euriloche eſt hors de ſa puiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />A couuert de ce coup ie ris de ſa vengeance
+<lb />Que la terre &amp; le Ciel, cette iſle, ſon amant
+<lb />S’arment pour le ſecours de ſon reſſentiment.
+<lb />Que leurs efforts unis me declarent la guerre
+<lb />Auec vous pouuant vaincre &amp; le Ciel &amp; la terre
+<lb />Le treſpas a'Eipenorammt poun doſire ſœur
+<lb />Eſt vn eſſay trop foible à ma iuſte fureur.:
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />A ce boüillant courroux vous eſtes trop ſenſible.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Sa vie auec la mienne eſt trop. incompatible
+<lb />Il me hait, ie le hays, &amp; cette occaſion
+<lb />Va redoubler ſa hayne &amp; mon auerſion,
+<lb />A tel point, que malgré tout le reſpect d’Vliſſe
+<lb />Il faut que ſans tarder l’vn ou l’autre periſſe,
+<lb />Il faut ſans differer, s’il ne quitte ces lieux
+<lb />Qu'il tombe par ma main, ou m’égorge à vos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />O Dieux!
+<lb />LEVCOSIE,
+</sp>
+<sp type="MainZone-Sp"><lb />IEVRILOCHE.
+<lb />Pour preuenir ma mort ou ſon ſuplice
+<lb />Ouurez quelque chemin à la fuite d’Vliſſe.
+<lb />Si tantoſt noſtre amour à trahit ſon deſſein
+<lb />Pour fuir, ce meſme amour lu yuoit preſterda main.
+<lb />Il le faut; ma fortune à ce point eſt reduite
+<lb />main tucucesſpie dadeeentiaua ulte.
+<lb />Ie contrains Elpenor de quitter vn ſejour,
+<lb />Dont ſon inimitié me banntroit vn iour.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOJIE.
+<lb />Que me demandez vous, faut-il que ie rauiſſe
+<lb />Elpenor à ma ſœur, à Circé ſon Vliſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Luvos deux ſœurs, s’ils quittent ce ſejour,
+<lb />Ayez, ſoin de leur gloire, &amp; non de leur amour;
+<lb />Et que les maux d’Vliſſe attendriſſent voſtre ame,
+<lb />Secourez vn Epoux, qu’on arrache à ſa femme.
+<lb />ArracheZ Penelope aux maux où ie la voy,
+<lb />Helas ſi voſtre amant vous trahiſſoit ſa foy....
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ie fremis au penſer d’vn malheur ſi terrible.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Penelope, Princeße eſt-elle moins ſenſible?
+<lb />Mais de plus grands motifs demandent ce depart,
+<lb />Noſtre gloire le veut, elle y prent tant de part,
+<lb />Qu'au peril qu’elle court la raiſon m’abandonne,
+<lb />Mon ennemy mortel pretend à la Couronne,
+<lb />L’hymen de voſtre ſœur va mettre dans ſa main
+<lb />Le glorieux eſpoir du pouuoir ſouuerain.
+<lb />Iliſçauræſe ſeruir des droits. de Phaëtuſe,
+<lb />Il ſçaura l’arracher, ſi Circé le refuſe.
+<lb />Helas! ſi ſon orgueil acheue ſes projets,
+<lb />Il ſera noſtre Roy, nous ſerons-ſes ſuptias
+<lb />Nous luy deurons-honneur, obeißance; hommage,
+<lb />Periße tout, Princeße, auant vn tel outrage.
+<lb />Ou faites qu’il s’en aille, ou laißez, moy partir.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />A ce cruel depart pourrois-je conſentir?
+<lb />Non, non, &amp; puiſqu’il faut monſtrer que ie vous ayme,
+<lb />De tout ce que ie puis diſpoſer en vous meſme,
+<lb />I ſuis preſte pour vous...
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Princeße c’eſt aßez,
+<lb />Et-vons faites pour moy plus que vous ne penſeZ
+</sp>
+<p type="MainZone-Head"><lb />SOETE
+<lb />V
+<lb />CIRCE' dans l’antre du ſommeil.
+<lb />I
+</p>
+<sp type="MainZone-Sp"><lb />Oible &amp; dernier ſecours, que mon amour laßée
+<lb />TOppoſe au deſeſpoir dont elle eſt menacée;
+<lb />Quel ſuccés à mes maux ay-ie lieu d’eſperer?
+<lb />RetiendreZ-vous Vliße, &amp; m’en dois-ie aßeurer?
+<lb />Mille eßays merueilleux ſur la terre &amp; ſur l’onde
+<lb />Ont eſtalé ma flamme aux yeux de tout le monde,
+<lb />Quand i’ay deu ſignaler mon pouuoir merueilleux.
+<lb />Aux yeux d’vn fier Heros, d’vn vainqueurorgueil<lb />leux,
+<lb />I’ay produit des efforts qui vont iuſqu’à l’extreme,
+<lb />Dont les Dieux ont tremblé, dont i’ay tremblé moy
+<lb />meſme.
+<lb />7.
+<lb />I'ay fait voir iuſqu’au Ciel s’eſleuer des vaiſſeaux,
+<lb />I'ay fait courber les Cleux iuſqu'au centre des eaux,
+<lb />Dans les iours les plus beaux i’ay formé des nuages;
+<lb />I'ay fait venir le calme en deſpit des orages;
+<lb />I'ay fait rendre à la terre au milieu des froideurs
+</sp>
+<p type="MainZone-Other"><lb />La ri</p>
+<p type="MainZone-Lg"><lb />La richeſſe des fruits &amp; l'ornement des fleurs,
+<lb />I’ayſuspendu l’effet des chanſons des Syrenes,
+<lb />Vliſſe en a iouy ſans en craindre les peines;
+<lb />Et pour tout dire enfin ma flame &amp; mon espoir
+<lb />Ont conſommé pour luy ma force &amp; mon pouuoir.
+<lb />9
+<lb />Si i’ay fait plus qu’vn Dieu pourſignaler ma flame,
+<lb />Par mes ſoubmiſſions ie fais plus qu’vne femme,
+<lb />Et i’aſſemble pour luy tous les traits, qu’a leur tour
+<lb />Mon ſexe &amp; mon ſçauoir pretend à mon amour.
+<lb />De ces faits eſclatans que produiſent mes charmes,
+<lb />Ie deſcens aux ſouspirs, ie deſcens iuſqu’aux larmes.
+<lb />Ie flate, ie careſſe, &amp; i’vſe auec chaleur
+<lb />De tout ce qu’on employe aux ſurpriſes d’vn cœur,
+<lb />Ie le ſurprens enfin, ſa reſiſtance ceſſe,
+<lb />I'entre dedans ſon cœur, i’en deuiens la maiſtreſſe,
+<lb />Et quand par de-tels ſoins ie ſens rougir mon front,
+<lb />Le prix de la conqueſte en efface l’affront.
+<lb />Parmy tant de douceurs où mon ame ſe noye,
+<lb />Dans ces diuins tranſports d’eſperance &amp; de ioye,
+<lb />D’vn autre amour banny l’inopiné retour
+<lb />A changé tout Vliſſe &amp; trahy mon amour:
+<lb />Son deuoir rappellé par l’eſclat d’vne femme
+<lb />Luy rend ce que mes ſoins auoient pris ſur ſon ame,
+<lb />Penelope elle ſeule a fait euanouir
+<lb />Ce bonheur ſouhaité, dont ils alloient iouir;
+<lb />De tant d’illuſtres faits, de ces rares merueilles
+<lb />Le charme ou la terreur des yeux &amp; des oreilles,
+<lb />Ie n’en recueille rien que le ſeul deſespoir,
+<lb />Que la honte de voir perir tout mon pouuoir:
+<lb />Vn ſeul moyen me reſte apres cette diſgrace
+<lb />Pour rentrer dans ſon cœur &amp; m’y rendre ma place,
+<lb />Penelope, me l’oſte, &amp; pour l’en effacer
+<lb />C’eſt au Dieu du ſommeil que ie veux m’addreſſer.
+<lb />Sommeil, qui de cet antre enuironné de ſonges
+<lb />Dans l’eſprit des mortels iettent mille menſonges.
+<lb />Ie le vois, approchons. Aquoy me reduis-tu
+<lb />Amour qui vas trahir ma gloire &amp; ma vertu?
+</p>
+<p type="MainZone-Head"><lb />BCELVE
+<lb />VIE
+<lb />GIRCE'. Le Dieu du ſommeil.
+</p>
+<sp type="MainZone-Sp"><lb />GIRCE'.
+<lb />Rbitre du repos, Dieu maiſtre du ſilence,
+<lb />AToy de qui les mortels reuerent la puiſſance;
+<lb />Et qui parmy nos maux ſi longs; &amp; ſi preßans;
+<lb />Sauues de leurs rigueurs la moitié de nos ans,
+</sp>
+<sp type="MainZone-Sp"><lb />Pardonne, ſi ma voix trouble ta ſolitude,
+<lb />Ie cherche du repos à mon inquietude,
+<lb />Et dans ce triſte eſtat c’eſt de toy ſeulement
+<lb />Que ie puis eſperer quelque ſoulagement.
+<lb />Quand ie voy ſans effet mon adreſſe epuiſée
+<lb />Tous mes ſoins conſommez, &amp; ma puißance vſée,
+<lb />Seul tu peus me ſeruir par des efforts nouueaux:
+<lb />Mais pourme ſecourir, apprens quels ſont mes maux
+<lb />I’ayme; mais i’ayme Vlyſſe, &amp; ſi i’en fus aymée,
+<lb />Si par ce grand bonheur mon amour fut charmée,
+<lb />CCét eſpoir glorieux en deuient plus confus,
+<lb />Quand ie voy qu’il m’aymoit, &amp; qu’il ne m’ayme plus.
+<lb />Sa femme rapellant des deuoirs dans ſon ame,
+<lb />Qu’il en auoit bannis en faueur de ma flame,
+<lb />Me derobe vn. amour, qui m’eſt ſi glorieux,
+<lb />Et pour mieux me l’oſter luy fait quiter ces lieux.
+<lb />Elle mee le rauit, &amp; toute ma puiſſance
+<lb />Ne pouuant ſur ſa vie eſtendre ma vengeance,
+<lb />C’eſt par toy ſeulement, que mon tranſport jaloux
+<lb />La peut faire perir dans l’eſprit d’vn espoux.
+<lb />Fais luy voir en dormant vne image infidelle
+<lb />Qui luy faße hayr ce qu’il aymoit en elle;
+<lb />Fais-là luy voir perfide, &amp; que par cette erreur
+<lb />Ie m’en puiſſe vanger mieux que par ma fureur.
+</sp>
+<sp type="MainZone-Sp"><lb />Le ſommeil.
+<lb />Vous pouuez icy tout, Nymphe que faut-il faire?
+<lb />CommandeZ, &amp; Morphée aura ſoin de vons plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ainſi malgré les ſoins, les pertes, les douleurs-
+<lb />Mtuquous les mortels ioüir de tes douceurs.
+<lb />Qu'aucunbruit ne te tronbte, &amp; qu’à iamais mon perc:
+<lb />De ton antre ſacté recule ſa lumiere.
+</sp>
+<p type="MainZone-Head"><lb />A
+<lb />
+<lb />I
+<lb />E III.
+<lb />SCENE PREMIERE.
+<lb />CIRCE', VLISSE, EVRILOCHE,
+</p>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />ME faites-vous, Vliſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Oüy Reyne à vos genoux:
+<lb />Pour ces deux criminels,à voſtre ſœur, à vous,
+<lb />De leur peu-de reſpect ie vous demande grace,
+<lb />Euriloche à failly; mais palgré ſon audace,
+<lb />I'ayme aßez de nos Grecs le reſte malheureux,
+<lb />Pour trembler de leurperte, &amp; pour m'offrir poureux.
+<fw><lb />G.iij.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Euriloche a failly; mais Vliße l’excuſe,
+<lb />Pour Circé c’en eſt trop; aßez pour Phaëtuſe;
+<lb />Pour ſi iuſte qu’il ſoit, il n’eſt point de courroux,
+<lb />Qui puiße vous dedire &amp; tenir contre vous.
+<lb />Mais donnons quelque eſpace aucours de ſa colere:
+<lb />Cependant mon pouuoir dans le ſoin de vous plaire
+<lb />Deſarme en Elpenor l’ardeur de ſe vanger,
+<lb />Qui mettoit l’vn ou l’autre &amp; tous deux en dangerz
+<lb />Ouy par l’impreſſion d’vn charme qui l’abuſe
+<lb />Vous ſereZ a les yeux ſa chere Phaetuſe:
+<lb />Ainſi malgré l’effort de ſon reſſentiment
+<lb />Dedans voſtre ennemy vous verrez voſtre amant.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Que i’euite à ſes yeux paßant pour ſa maiſtreſſe
+<lb />Les traits de ſa fureur! ah! c’eſt trop de foibleße.
+<lb />Non, non, Madame, ilfaut....
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE.
+<lb />Ie ſçay voſtre valeur.
+</sp>
+<sp type="MainZone-Sp"><lb />Euriloche, ſouffrez.
+<lb />VLISSE.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />I'obeira y, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />Huriloche autrefois eſprouua ma puißance:
+<lb />Maintenant Elpenor en fait l’experience;
+<lb />Par ce charme nouueau, qui luy fait en ce iour
+<lb />Voir en ſon ennemy l’obiet de ſon amour,
+<lb />Ainſi de tous les Grecs, que (dans cette iournée,
+<lb />Qu'à Circé pour aymer les Dieux auoient donnée,)
+<lb />La tempeſte auec vous emmena ſur ces bors,
+<lb />Contre vous ſeul i’ay fait d’inutiles efforts
+<lb />Auſſi contre vous ſeul i’ay refuſe les armes,
+<lb />Qu'offroit à mon amour le ſecours de mes charmes.
+<lb />Voulant deuoir vn cœur au refus obſtiné
+<lb />Au ſeul amour du cœur que ie vous ay donné.
+</sp>
+<sp type="MainZone-Sp"><lb />V.LISSE.
+<lb />Princeße auec raiſon ce reproche m’offenſe,
+<lb />I’ay pour vous du reſpect, non de la reſiſtance;
+<lb />Sans attendre l’effet de voſtre grand pouuoir;
+<lb />Mon cœur a vos bonteZ rend ce-qu’il croit deuoirr
+<lb />Le temps vient grande Reyne, où vous allez, cõ<lb />gnoiſtre:
+<lb />Quels ſeutimens en moy les voſtres ont fait naiſtre?
+<fw><lb />4
+</fw><lb />Quelle recognoiſſance Vlyße eſt preparé
+<lb />De rendre à vos faueurs, qui l’ont tant honoré.
+<lb />Tandis, bien que leur poids &amp; leur nombre m'accable,
+<lb />Ie voudrois de nouueau vous eſtre redeuable,
+<lb />Non pas à voſtre amour; ie crains luy trop deuoir;
+<lb />Mais t’oſe importuner encore voſtre pouuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />A quoy faut-il pour vous que mon pouuoir s’employe?
+<lb />Demandez, vous ſçaues s’il vous ſert auec joye.
+<lb />Sçachez de ces Heros, dont les rares portraits
+<lb />Font l’ornement pompeux de ceriche Palais,
+<lb />Iuſques à quels efforts vamon pouuoir ſupreme,
+<lb />Pour vous ie veux qu’il aille au delà de luy-meſme,
+<lb />Vuulez vous voir la terre ou rouler ſous vos pas?
+<lb />Ou ſe deſchirer toute en mille &amp; mille eſclats?
+<lb />Voir le pere du iour retenu dedans l’onde
+<lb />Dans vn dueil eternel enſeuelir le monde;
+<lb />Voir confondre auec l’air, le feu, la terre, &amp; l’eau,
+<lb />Uoir rentrer l’uniuers dans ſon premierberceau?
+<lb />Et puis luy redonnant ſon ordre &amp; ſa lumiere
+<lb />Le rendre en vn moment à ſa beauté premiere?
+<lb />Voulez-vous trauerſer en des climats nouueaux?
+<lb />Voler dedans les airs, marcher. deſſſs les eaux?
+<lb />Et voir à meſme temps ſolides &amp; conſtantes
+<lb />Ces regions de vents, ces campagnes flotantes
+<lb />13
+<fw><lb />Ie m’of</fw><lb />Ie m’offre à contenter vos plus hardis ſouhaits;
+<lb />Cotdis pajez mon amour de tout te que ie fais.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Bien que tant de bonté, tant de magnificence
+<lb />Deſia depuis long temps m’ait mis dans l’impuiſſance,
+<lb />I'oſe encor deſtiner a de nouueaux exploits
+<lb />Ce grand pouuoir pour moy ſignalé tant de fois,
+<lb />Mais ne refuſez pas ma genereuſe enuie.
+<lb />Ie vis Reyne; &amp; les Dieux en me laiſſant la vie
+<lb />M’empeſchent de reuoir ces mortels demy-Dieux,
+<lb />Que Troye a veu perir par des coups glorieux.
+<lb />Ie bruſle de reuoir ces ombres immortelles;
+<lb />Et de forcer le ſort qui me ſepare d’elles;
+<lb />Faites nous vn paſſage à ces illuſtres morts;
+<lb />Faites moy trauerſer tous ces horribles bors,
+<lb />ues acinges de, fammc e ves urntuns ubyſmes
+<lb />Que les Dieux ont creuſé pour la peine des crimes:
+<lb />&amp; faites moy viuant penetrer ſans effroy
+<lb />Ce qu’ils ont mis d’eſpace entre l’Enfer &amp; moy.
+<lb />Mais ce deſſein vous trouble, &amp; ſemble vous ſur<lb />prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ouy i’en ſens du deſordre, &amp; ne puis m’en defendre;
+<lb />Alors qu’il faut pour vous conſentir vn effort,
+<fw><lb />A
+</fw><lb />Qui porte-dans mon cœur l’image de: la mort.
+<lb />Vous deſcendre aux Enfers? à ce penſer ie tremble;
+<lb />Ie crains pour voſtre perte, &amp; cela luy reſſemble.
+<lb />Puis-je (quelque pouuoir que m’ayent donné les<lb />Dieux)
+<lb />Confier à l’Enfer des iours ſi precieux.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ah! ne preſumez pas par ces feintes allarmes
+<lb />De me faire douter du pouuoir de vos charmes;
+<lb />Ny me faire changer le deſſein que i'ay pris.
+<lb />Si vous me refuſez, ie l’impute a meſpris,
+<lb />Et ce refus iniuſte auiourd’huy me diſpenſe
+<lb />De plus iuſte deuoirs de ma recognoißance.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCÉ.
+<lb />Qui croit pouuoir briſer la chaine d’vn bienfait,
+<lb />Menaçant de la rompre, il la rompt en effet;
+<lb />Ce traitement ſuffit pour me faire cognoiſtre.
+<lb />Quels ſentimens en vous mon amour a fait, naiſtre,
+<lb />Mais ie-veux l’ignorer; &amp; vainquant mon effroy
+<lb />Pous oſter tout pretexte à vous plaindre de moy.
+<lb />Ie m'en vay coniurer pour vous malgré moy-meſme.
+<lb />De tous les Dieux d’Enfer les puißances ſupremes.
+<lb />Ie vous feray paßer mille bors, mille mers,
+<lb />Et d’vn vol ſi preßé courir dans les Enfers,
+<lb />Qu’à peine pourrez-voüs auec quelque aßeurance
+<lb />Entre l’Enfer &amp; nous croire quelque diſtance:
+<lb />Mais par vn meſme effort ie veux en meſme iour
+<lb />Terminer voſtre abſence &amp; voir voſtre retour.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Apres ces grands efforts d’amour &amp; de puißance
+<lb />Oſez tout eſperer de ma recognoißance.
+</sp>
+<p type="MainZone-Head"><lb />SSEIEE
+<lb />II
+<lb />ERCILSSITE, VAISSE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />DVelle bizare humeur vous poſſede auiourd’huy?
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Pour en iuger ainſi ſçauez-vous mon ennuy!
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />En peut-on conceuoir dont l’effort aauthoriſe
+<lb />Ce deßein eſtonnant, cette eſtrange ſurpriſe?
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />L'amour de Penelope a formé ces proiets.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />An! quittes ce deſſein, i'ay des vaiſſeaux tous preſts;
+<lb />Allez, dans voſtre Grece eßuyer tant de larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Qu'un lieu iadis ſi cher a pour moy peu de charmes.
+<lb />Peut-eſtre que l’abyſme où ie cours auiourd’huy
+<lb />A pour moy plus d’appas &amp; moins d’horreur que luy.
+<lb />Qu’un moment, Euriloche, a ietté-dans mon ame
+<lb />De puiſſans ennemis d’vne innocente flame.
+<lb />I'ay veu Ci’en tremble encor)en de ſanglans tableaux
+<lb />Le crime &amp; l’attentat de mes laſches Riuaux.
+<lb />I'ay veu mes feux trahis, Penelope perfide;
+<lb />Telemache mon fils vangeur ou parricide;
+<lb />Enſin dans-vne nuict i’ay veu dè tels malheurs;
+<lb />Qu'un ſeul auroit heſoin de toutes mes douleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />C’eſt donc l’effet d’vn ſonge.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Il eſt vay c’eſt vn ſonge
+<lb />Mais tropnet, trop ſuiuy, pour le croire vn menſonge;
+<lb />Celuy-cy ne fuit point aux clartés du reueil:
+<lb />Malgré mes deplaiſirs accablé de ſommeil
+<lb />Ie gouſtois vn repos plus grand qu'a l'ordinaire;
+<lb />Quand tout à coup frape d’vne image legere,
+<lb />Ie me trouue en des lieux, qui me comblent d’effroy,
+<lb />Où mille obiets confus s’eſleuent deuant moy:
+<lb />Dans ces obſcurités ie ne puis rien cognoiſtre,
+<lb />Tandis quelque clarté commence de paroiſtre,
+<lb />Semblable a cet eſclat: qui finit un portrait
+<lb />Apres les ſombres traits d’vn crayon imparfait,
+<lb />Ainſi ce peu de iour dißipant ces ombrages
+<lb />M'offre diſtinctement des brillantes images,
+<lb />I'entre dans vn beau pré couronné de berceaux:
+<lb />Depuit S fouuunumt punde peumnd canaux,
+<lb />Où la beauté de l’onde, &amp; l’aymable murmure
+<lb />Des flots, qui de leur lit ſautoient ſur la verdure
+<lb />Flattoient ſi doucement &amp; l’oreille &amp; les yeux,
+<lb />Qu'on les peut comparer aux douceurs de ces lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ce ſonge iuſques-là n’a rien qui ſoit funeſte.
+</sp>
+<p type="MainZone-Other"><lb />H iij
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Plus cet endroit eſt beau, plus ie tremble du reſte.
+<lb />Obſeruant de plus prés ces lieux de toutes pars
+<lb />Vn obiet adorable arreſte mes regars.
+<lb />Dieux! c’eſtoit Penélope, à ſa premiere veuë
+<lb />D’vn tranſport de plaiſir mon, ame eſt toute eſmeuë;
+<lb />Ie cours pour l’embraſſer, quand vn de ſes amants
+<lb />Me preuient, &amp; s’oppoſe à mes embraſſemens.
+<lb />Mais pour comble d'horreur elle ayme ſes careſſes,
+<lb />Et d’un œil indigné rebute mes tendreſſes;
+<lb />Me renuoye à Circé. Dieux que ne vis-ie pas?
+<lb />A cet obiet ie tremble &amp; te retiens mes pas:
+<lb />La mille traits mortels aſſaſſinent ma ioye,
+<lb />Là de mille douleurs mon cœur deuient la proye
+<lb />Et lors que ma fureur, qui cherche à m’alleger
+<lb />Pouſſe mes pas vers eux afin de me vanger,
+<lb />Ie me ſens arreſté d’vn inuiſible obſtacle:
+<lb />Ie ne ſcay ſi c’eſt crainte ou l’horreur du ſpectacle,
+<lb />Dans ce ſaiſiſſement immobile &amp; honteux
+<lb />Ie voy mon fils armé, qui vient fondre ſur eux;
+<lb />Ie m’eſcrie à l’inſtant, arreſte temeraire.
+<lb />auy qui n'eſcoute rien, que ſa ſeule colere
+<lb />
+<lb />
+<lb />es frape, &amp; fait tomber de deux grands coups mortels
+<lb />Le ſang &amp; les plaiſirs de ces deux criminels,
+<lb />Interdit &amp; ſurpris de ce grand ſacrifice
+<lb />Ie condamne ſa rage, &amp; i’ayme leur ſuplice;
+<lb />Vn reſte de ma flamme vne mourante ard eur
+<lb />Parle pour Penelopé &amp; pleure ſon malheur;
+<lb />Ie hay, i’ayme mon fils, &amp; prens ſa violence
+<lb />-21
+<lb />Quelquefois pour fureur, quelque feis pour vengeance:
+<lb />I''eſcoute mon amour, i’eſcoute: mon honneur,
+<lb />Et dans ce grand combat, qui ſuſpend ma fureur,
+<lb />Ie m’eſueille, &amp; ie pers ce ſonge qui me geſne,
+<lb />Mais las! le meſme inſtant recommence ma peine,
+<lb />Lant tes ooiei, aſpreux, que le ne puis banir.
+<lb />S'eſtoient peints viuement dedans mon ſouuenir.
+<lb />Iuge dans quels ennuys cette image me plonge.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCCHE..
+<lb />Ce ſonge eſt eſtonnant, mais enfin c’eſt vn ſonge.
+<lb />Soubçonner Penelope! ah le tranſport ialoux
+<lb />Hous donne des penſers trop indigne de vous,
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ie cognoy ſa vertu, mais eſt-il de conſtance,
+<lb />Qui ne cede aux rigueurs d’vne ſi longue abſence?
+<lb />Aux amants dont le nom m'a deſia fait ialoux,
+<lb />Peut-elle auec effet oppoſer vn eſpoux,
+<lb />Que trois luſtres entiers eſcoulés ſi loing d’elle
+<lb />Ont fait paſſer pour mort, ou bien pour infidelle.
+<lb />Perimede m'a dit leurs pourſuites, leurs ſoins;
+<lb />Il m’en a dit beaucoup, &amp; ie n’en croy pas moins.
+<lb />Tout ſouſtient mes ſoubçons ſans ceſſe dans mon ame.
+<lb />Ie vois Agamemnon qu’aßaßine ſa femme;
+<lb />jytemneſtre perſide; &amp; ce cruel réueil
+<lb />A pour moy plus de maux que n’auoit le ſommeil.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Hé bien ne pouuant pas vaincre cette foibleſſe
+<lb />Seigneur pour s’eclaircir allez dedans la Grece.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Iray-ie voir rougir monfront &amp; ma maiſon
+<lb />Du ſang d’vne infidelle &amp; de ſa trahiſon?
+<lb />Ou ſi mon ame a tort charge ſon innocence
+<lb />Iray-ie luy monſtrer ma laſche defiance?
+<lb />Non, non, dans ce combat, dans ces obſcuritez,
+<lb />Mon cœur dans les enfers doit chercher des clartez.
+<lb />Là pour garder, ou vaincre vne douleur forte
+<lb />Pour le moins i’apprendray ſi Penelope eſt morte;
+<lb />Si mon fils a produit ou vangé mes malheurs.
+<lb />Si ſon trepas merite ou ma hayne ou mes pleurs;
+<lb />Si ie la treuue enſin &amp; morte &amp; criminelle,
+<lb />I'attacheray mes pas à cette ombre infidelle,
+<lb />Et plus que ſes remors, pun que jon chaſtiment
+<lb />Ie ſeray ſon bourreau, ſa honte &amp; ſon tourment;
+<lb />Si malgré mes ſoubçons i’apprens ſon innocence,
+<lb />Ie veux
+<lb />Ie veux que les Enfers contentent ſa vengeance;
+<lb />Que ſi pour les viuans ils ſont ſans chaſtiment
+<lb />I'iray porter ma teſte à ſon reſſentiment.
+<lb />Adieu, ie pars: il faut que mon ame eſclaircie
+<lb />Sorte de ſon deſordre &amp; de ſa ialouz ie.
+<lb />Ie puis bien dans l’Enfer deſcendre ſans horreur,
+<lb />Si mes ſoubçons ont mis vn enfer dans mon cœur.
+<lb />Au retour nous ’ſçaurons s’il faut reuoir la Grece
+<lb />Cependant pour taſcher d’appaiſer la Princeſſe
+<lb />EmbraſſeZ Elpenor, Circé fera la paix.
+<lb />Adieu.
+</sp>
+<p type="MainZone-Head"><lb />DAEER
+<lb />EVRILOCHE ſeul.
+<lb />III
+</p>
+<sp type="MainZone-Sp"><lb />A. ſi le Ciel reſpond à mes ſouhaits
+<lb />Pour punir tes ſoubçons &amp; tes extrauagances
+<lb />Ton voyage ſera plus long que tu ne penſes.
+<lb />Cependant ie veux bien embraſſer mon riual;
+<lb />Mais d’vn embraſſement qui luy ſera fatal.
+<lb />Mais il paroiſt, voyons ſi la Reyne m’abuſe,
+<lb />Ie dois prez d’Elpenor paſſer pour Phaëtuſe;
+<lb />Mais ce coup eſtonnant eſt hors de ſon pouuoir;
+<lb />Aooven yu avle n enxinno eeunonut le voir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV
+<lb />ELPENOR, EVRILOCHE.
+</p>
+<sp type="MainZone-Sp"><lb />ELPENOR..
+<lb />PHaëtuſe, eſt-ce vous? arreſteZ ma Princeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />O! Dieux n’en doutons plus, c’eſt à moy qu’il s’adreſſe,
+<lb />Effet inconceuable à tout autre qu’à moy!
+<lb />Mais las! il me ſouuient encor auec effroy,
+<lb />Qu'autrefois ſon pouuoir m’a fait plus miſerable,
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Vous me fuyeZ ô! Dieux, dequoy ſuis-ie coupable?
+<lb />Qu'ay-ie fait ? ou pluſtoſt de quel crime fatal
+<lb />Me noircit preZ de vous mon perfide riual?
+<lb />Eſpouuanté de voir cette iniuſte colere,
+<lb />Seur de n’auoir rien fait qui puiſſe vous deplaire,
+<lb />Dans cet eſtonnement ma confuſe raiſon
+<lb />Ne la peut imputer, qu’à quelque trahiſon.
+<lb />Quoy? le lache Eurilocbe....
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ah! ce diſcours me faſche,
+<lb />Eutriloche n’eſt point ny perfide ny lache.
+<lb />Et...
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Vous le deffendeZ ?ô! Dieux, ie ſuis perdu:
+<lb />AAau riuut mon muimun te ſuiuent'venau.
+<lb />Tu ne iouiras point du fait de ta malice;
+<lb />Le pouuoir de Circé ny le reſpect d’Vlyſſe
+<lb />Ne ſçauroit l’arracher à mes ſanglants efforts.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Impuiſſante fureur! ridicules tranſports!
+<lb />Toy meſme à ce riual ſonge à demander grace;
+<lb />Ou ta mort preuiendra l’effet de ta menace.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Hé bien, puiſque ſes iours vous ſont ſi precieux
+<fw><lb />n
+</fw><lb />Que qui l’oſe attaquer vous deuient odieux;
+<lb />ExecuteZ vous meſme vn Arreſt ſi funeſte
+<lb />Il m’oſte voſtre cœur, prenez, ce qui me reſte;
+<lb />Heureux ſi par vos mains ie pers à vos genoux
+<lb />Des iours que ſeulement ie conſeruois pour vous.
+<lb />Percez, perceZ ce cœur, que rien ne vous retienne;
+<lb />vt voptre main en tremue, empiuytz y la mienne.
+<lb />Commandez..
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Profitons de ſa mortelle erreur.
+<lb />Mais:... verturidicule! ah!'ſuiuons ma fureur,
+<lb />Iamais, l’occaſion ne s’offrira ſi belle.
+<lb />Dieux Phaëtuſe vient. &amp; ſa ſœur auec elle,
+</sp>
+<p type="MainZone-Head"><lb />DCENE.
+<lb />V
+<lb />LEVCOSIE, PHAETVSE, ELPENOR.
+<lb />LEVCOSIE,
+</p>
+<sp type="MainZone-Sp"><lb />VOſtre Conſeil ma ſœur m'oblige infiniment.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR à Phaëtuſe.
+<lb />Ah! c’eſt trop conſulter voſtre reſſentiment.
+<lb />Ie cede au mien Princeſſe, &amp; ſeur de ma diſgrace
+<lb />Ie ſais mon deſeſpoir, ſans que voſtre menacé
+<lb />Empeſche cet amant jaloux &amp; furieux
+<lb />D'immoler ſon riual curiloche, à vos yeux,
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V-
+<lb />LEVCOSIE, PHAETVSE.
+<lb />I
+<fw><lb />LEVCOSIE,
+<lb />SOn riual, Euriloche!!
+</fw></p>
+<sp type="MainZone-Sp"><lb />PHAETVSE,
+<lb />O! Dieux quelle menace,
+<lb />Dequoy vous plaignez vous? quelle eſt cette diſgrace?
+<lb />Où fuyez vous? helas! ie le r’appelle en vain
+<fw><lb />I iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Omct ſpaura, ma feur, empeſtner ſon deſfein.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Elle m’auoit promis d’aſſoupir ſa vengeance,
+<lb />Ie omon en iepos apres celte aſemance.
+<lb />Cependant ſa fureur....
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Vous la craignez, à tort;
+<lb />Euriloche a dequoy repouſſer ſon effort.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Pour Euriloche moy ie ſerois allarmée!
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Pourquoy non, s’il eſt vray qu’il vous atant aymée?
+<lb />Vous dites qu’il m’abuſe, &amp; n’ayme encorque vous.
+<lb />Et nous venons de voir qu’Elpenor eſt ialoux;
+<lb />Ie ne voy pas pourtant qu’il ait ſujet de l’eſtre,
+<lb />Si l’on traite Euriloche en impoſteur, en traiſtre,
+<lb />Et qui ſe rend indigne en me manquant de foy
+<lb />D’eſtre veu ny ſouffert, ny de vous ny de moy.
+<lb />C’eſt là voſtre conſeil; ie n’en ay point d’ombrage,
+<lb />Mais pardonnez vncœur qu’vn peu d’amourengage;
+<lb />S’il refuſe vn conſeil, qu'Elpenor de ce pas
+<lb />Vient de nous reprocher que vous ne ſuiuez, pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />A voſtre dam, ma ſœur, ſi ie vous ſuis ſuspecte.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ah! ma ſœur vous ſçauez combien ie vous reſpecte.
+<lb />Vous eſtes mon aynée, &amp; bien plus que ce rang
+<lb />Plus que tout ce qu'on doit aux tendreſſes du ſan
+<lb />La parfaite amitié que vous m’auez promiſe
+<lb />M’oſte tous ces ſoubçons &amp; veut plus de franchiſe,
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Cette amitié, ma ſœur, m’oblige à vous donner
+<lb />Le conſeil qu’en effet vous ſemblez ſoubçonner.
+<lb />Ie vous l’ay deſia dit, &amp; ie vous le repete;
+<lb />Que de quelque façon qu'Euriloche vous- traite;
+<lb />Il couue des deſſeins qui vous feront vn iour
+<lb />Repentir, mais trop tard, d’auoir eu de l’amour.
+<lb />PreueneZ les malheurs que preſage ma crainte,
+<lb />Voſtre chaiſne auec luy n’eſt pas ſi fort eſtrainte,
+<lb />Que ſi Circé ny moy n'en ſommes point d’accord,
+<lb />Vous ne la puiſſiez rompre auec un peu d’effort.
+<lb />Vous deuez, ce me ſemble, embraſſer ma querelle,
+<lb />Que ne cognoiſſez vous cét esprit infidelle...
+<lb />Laſche, fourbe, meſchant, i’en parle ſans aigreur;
+<lb />Ie le hais il eſt vray, mais i’ayme plus ma ſœur,
+<lb />Dnouneniſuonomau yquey quapres ſon offence
+<lb />Eſt pour voſtre intereſt plus que pour ma vengeance.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Vous en dites beaucoup, mais à parler ſans fard
+<lb />Voſtre amitié, ma ſœur, s’en aduiſe vn peu tard;
+<lb />Auec ces qualiteZ il falloit le depeindre,
+<lb />Alors qu’il commenca de m’aymer ou’de feindre.
+<lb />Mais il n'eſtoit pour lors ny laſche ny trompeur
+<lb />Et ne l’eſt que depuis voſtre mauuaiſe humeur.
+<lb />S’il eſt vray qu’Elpenon ait captiué voſtre ame
+<lb />Vous ne ſouffririeZ pas qu’on le traitaſt d’infame;
+<lb />Ny ie ne puis ſouffrir qu’on noirciſſe auiourd’huy
+<lb />Vn Prince plus aymable, &amp; plus aymé que luy.
+<lb />Le mal ſera pour moy s’il deuient infidelle;
+<lb />Et ſi voſtre amitié plus que voſtre querelle
+<lb />Nompo renanvoluemtpouppromure ces ſoins,
+<lb />Vous m’obligereZ fort de m'aymer vn peu moins.
+<lb />Car enfin vouloir rompre vne ſi forte chaine
+<lb />C’eſt à moy comme à vous vne entrepriſe vaine.
+<lb />Ie l’ayme, &amp; d’autant pis quuuuy ruspoms penſé
+<lb />Que vous y conſentiez, auſſi bien que Circé.
+</sp>
+<p type="MainZone-Other"><lb />PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Dés l’abord, comme vous, i’ay mal cognuce traiſtre,
+<lb />Mais maintenãt, ma ſœur, qu’onme l’a fait cognoiſtre,
+<lb />Sans inhumanité ie ne puis approuuer
+<lb />De voir perir ma ſœur, quand ie puis la ſauuer:
+<lb />Ainſi n’eſpereZ pas que iamais i’y conſente,
+<lb />Et ſi vous en voulez de preuue plus preſſante
+<lb />Puiſqu'auſſi bien ie voy que vaſtre aueuglement
+<lb />Impute mes conſeils à mon reſſentiment,
+<lb />Plus pour vos intereſts que ceux de ma vengeancé
+<lb />I'entreprens ſon exil de toute ma puißance.
+<lb />Et contre qui voudra choquer ma volonté
+<lb />Ie conſens d’en venir à toute extremité.
+<lb />n faut qu'u quutetme, ou bien qu’il y periße.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />En ce cas-là, Madame, il faut que i’y flechiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />C’eſt à vous d’y ſonger.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Le conſeil en eſt pris,
+<lb />Dans ces reßentimens Elpenor s’eſt mespris
+<lb />Il veut perdre Euriloche; &amp; malgré ſa complice
+<lb />Il faut qu’il quitte l’iſle ou bien qu’il y periße.
+<lb />Pour faire reuſſir ce que i’ay proietté,
+<lb />Ie conſens d’en venir à toute extremité.
+<fw><lb />K
+</fw></sp>
+<p type="MainZone-Head"><lb />AuIE
+<lb />Pv.
+<lb />ESCENE PREMIERE.
+<lb />eſt dans
+<lb />l'Enſet.
+<lb />SIZIPHE ſeuli
+</p>
+<sp type="MainZone-Sp"><lb />SE plus profonds cachots du centre de la
+<lb />terre
+<lb />&amp; Ieroule inceſſammẽt cette maße de pierre;
+<lb />P3
+<lb />Mais ie:ſuccombe enſin ſous ce peſant far<lb />deaus
+<lb />Ma ſorce ſe conſomme, &amp; te ſuis tout. en eau.
+<lb />Toutefois accablẽ ſous tant de laſſitude
+<lb />Quand is dois expirer ſous-vn tourment ſtrude,
+<lb />Vn demon inuiſible anime mes efforts,
+<lb />Et ſans rendre mes bras ny moins las, ny plus forts,
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Lg"><lb />Sans amoindrir mon mal ſon aſſiſtance vaine
+<lb />Souſtenant ma foibleße eterniſe ma peine.
+<lb />Rocher accable moy ſous tant de peſanteur.
+<lb />Et toy de mon tourment &amp; le iuge &amp; l’autheur
+<lb />Grand Dieu, qui pour donner matiere à ta iuſtice,
+<lb />Rens les morts immortels au milieu du ſupplice,
+<lb />Oſte nous par pitié cetté immortalité;
+<lb />Reprens ce don fatal, que tu nous a preſté.
+<lb />Quoy? ta diuinité treuue-elle de charmes
+<lb />A voir couler ſans ceße vn deluge de larmes?
+<lb />Quoy? le crime d’vn iour le crime d’vn moment
+<lb />Doit-il eſtre puny d’vn ſi long chaſtiment?
+<lb />Mais cruel enyuré de doucc irs &amp; de ioye
+<lb />Tu braues les ſouspirs que ma douleur t’enuoye.
+<lb />Puïs donc qu’à ce trauail on ne peut m’arracher,
+<lb />Voy comme ie m’efforce à pouſser ce rocher
+<lb />Il faudra malgré toy qu’vn ſi cruel ſupplice.
+<lb />Sous vn effort ſupreme, ou m’accable, ou finiſſe.
+<lb />Enfin ie touche au terme, &amp; ie puis auiourd’huy...
+<lb />Mais helas! il retombe, &amp; ie tombe auec luy.
+<lb />Triomphe Iupiter, triomphe de ma peine.
+<fw><lb />2
+</fw></p>
+<p type="MainZone-Other"><lb />L ij
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VLISSE ſeul.
+<lb />II.
+</p>
+<sp type="MainZone-Sp"><lb />Ans quel gouffre d’horreur ta puißance m’en<lb />D
+<lb />traine?
+<lb />Amouneſt-ce en ces lieux que ie la-doy chercher?
+<lb />Penelope eſt-ce icy que tu voudrois cacher
+<lb />Ma honte &amp; ton tourment, mon ſuplice &amp; ton cri<lb />me?
+<lb />Perfide; s’il te reſte vn remors legitime
+<lb />Fais toy voir q qui fut ta fidellé moitié,
+<lb />Malgré ta trahiſon ton ſort me fait: pitié.
+<lb />Et ſi prez de Pluton ma priere n’eſt vaine,
+<lb />Bien loin de l’àgrandir i’amoindriray ta peine.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III
+<lb />SIZIPHE, VLISSE.
+</p>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />beuuu poumoummonſiours ie taſche àremonter.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Caet ql te mauſtmenas :.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />Ne puis-ie l’arreſter?
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />C'eſt Sixiphe; luy meſme.
+<lb />1. :.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />O Irigoureux ſuplice!
+</sp>
+<sp type="MainZone-Sp"><lb />K iij
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Spectacle inſuportable au malheureux Vliſſe!
+<lb />N'importe.. En ma faueur quittes pourauiourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHIE.
+<lb />Vliſſe chez les morts!
+</sp>
+<sp type="MainZone-Sp"><lb /> Ereo us
+<lb />Ouy, Siz iphe, c’eſt luy.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />Que veux tu malheureux? quel eſtrange caprite
+<lb />Te fait venir icy redoubler mon ſupplice?
+<lb />Viens tu pour me vanter tes exploits glorieux?
+<lb />La ſplendeur de ta vie eſt l’horreur de mes yeux,
+<lb />Tout ce qu’on voit en toy d’eclat &amp; de merite
+<lb />Dont ma douleur s’augmente, &amp; mon remors s’irrite,
+<lb />Redoublant la laideur de mes propres deſauts,
+<lb />Sont de mes laſchetez la honte &amp; les bourreaux,
+<lb />L3..., cache moy cette vertu mortelle;
+<lb />Ce grand rocher me peſe, &amp; me preſſe moins qu'elle,
+<lb />Faut-il que ton deſtin ſoit ſi contraire au mien?
+<lb />A-il pù de mon ſang naiſtre on nomme de bien?
+<lb />I'auois ce doux eſpoir que malgré ma diſgrace
+<lb />Mes forfaits deuiendroient l’exemple de ma race;
+</sp>
+<sp type="MainZone-Sp"><lb />Et que le mauuais ſang, que ie t’auois preſté,
+<lb />Ietteroit dans ton cœur toute ma laſcheté.
+<lb />Mais puisque les efforts d’vne autre nourriture
+<lb />Ont purgé ton deſtin &amp; dompté ta nature,
+<lb />Te monſtrer ſi contraire à tous mes ſentimens
+<lb />C’eſt redoubler ma peine; &amp; croiſtre mes tourmens.
+<lb />Sors, &amp; par tes vertus en ces lieux mespriſées
+<lb />Va charmer tes amis dans les champs eliz, ées.
+<lb />Puiſſe-tu pour armer les remors contre toy
+<lb />Deuenir plus infame &amp; plus meſchant que moy?
+<lb />19 abyſme,
+<lb />Renuerſer ſur toy ſeul la peine de mes crimes?
+<lb />Où du moins puiße-tu par mes laſches forfaits
+<lb />Endurer tous les maux, que ta vertu m’a faits?
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Si c’eſt cette vertu, que voſtre ame deteſte,
+<lb />Ie viens vous preſenter vn obiet plus funeſte:
+<lb />Tout ce qu’a voſtre Enfer de peine &amp; de rigueur
+<lb />N'a rien de comparable aux tourmens de mon cœuis
+<lb />Mais ma douleur eſt-elle auſſi iuſte que forte?
+<lb />Siziphe: apprenez moy ſt Penelope eſt morte.
+<lb />Mais non, n'en faites rien, dans vn coup ſi fatal<lb />Ie ſens quelque douceur a douter de mon mal.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />Par les mains de ton fils elle eſt morte infidelle,
+<lb />Au lieu de tant d’amants qui ſoupiroient pour elle,
+<lb />Mille ſerpens affreux qui nous comblent d’horreur,
+<lb />Rampent ſur ſa poictrine, &amp; luy rongent le cœur.
+<lb />Ce corps, qui fut l’Autel, &amp; le Dieu de ton ame,
+<lb />N'eſt qu’vn ſpectre hideux enuironné de flame:
+<lb />Ses yeux iadis brillans de lumiere &amp; d’amour
+<lb />Ne iettent maintenant qu’vn effroyable jour,
+<lb />Tel que iettent les yeux d’vne horrible megere;
+<lb />Ftincellans de feu, de ſang, &amp; de colere;
+<lb />Tel que lance la foudre, ou tel que les eſclairs
+<lb />Au milieu de la nuict iettent dedans les airs.
+<lb />Ses mains, dont les beauteZ empruntoient tant de
+<lb />charmes,
+<lb />Ne ſeruent qu’à fournir de matiere à ſes larmes.
+<lb />Cette bouche ſans ceſſe ouuerte à des ſouſpirs,
+<lb />Dont le ſouffle amoureux animoit tes deſirs,
+<lb />N s’ouure maintenant qu’aux deluges de flame,
+<lb />Que vomit au dehors l’embraſement de l’ame.
+<lb />Aũ lieu de cet air doux que ſa bouche iettoit,
+<lb />Au lieu de ce vermeil dont ſa levre eſclatoit
+<lb />Vne eſpaiſſe fumée enuelopant ſa bouche,
+<lb />Noircit toute ſa levre &amp; tout ce quelle touche.
+<lb />Enfin dans cet eſtat on diroit à la voir,
+</sp>
+<p type="MainZone-Other"><lb />Q
+<lb />Que tout ce qu’à l’Enfer &amp; d’horrible &amp; de noir,
+<lb />Defigure vn obiet, qui fut durant ſa vie
+<lb />Matiere à tous les yeux, ou d'amour, ou d’enuie.
+</p>
+<sp type="MainZone-Sp"><lb />Ah! Penelope! ô Dieux! O! cruel changement.
+</sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />Va ne la cherche, point dans cet appartement,
+<lb />Son crime eſtant plus grand, &amp; plus noirque les noſtres,
+<lb />Le lieu de ſon ſuplice eſt ſeparé des autres.
+<lb />Puiſſe-tu de ces maux reſſentir la moitié,
+<lb />Et tomber à ſes pieds d’horreur ou de pitié.
+<lb />Va ſors de ma preſence, &amp; cours apres ta femme.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />I
+<lb />TYRESIE, SIZIPHE, VLISSE.
+</p>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Her Vliſſe, arreſtez, que vous dit eet lnfame?̃:
+<lb />OCe dernier deshonneur de vos braues ayeux,
+<lb />La honte &amp; le rebut d’vn ſang ſi glorieux.
+<fw><lb />L
+</fw><fw><lb />t
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SIZIPHE.
+<lb />Qu'il me laiſſe en repos.
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Cache-toy miſerable,
+<lb />Et deliure nos yeux d’vn obiet effroyable.
+</sp>
+<p type="MainZone-Head"><lb />E Ly
+<lb />L
+<lb />VLISSE, TYRESIE.
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />TTTreſie eſt-ce vous? venez-vous ſecourir,
+<lb />I Vn mortel deſeſpoir, que rien ne peut guerir?
+<lb />VeneZ vous contenter ma douleur ou ma haine?
+<lb />Ou me voir vanger d’elle, ou regretter ſa peine?
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />D'où vient ce d'eſeſpoir, ces plaintes, ces malheurs.
+<fw><lb />*3
+<lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />C’eſt hayne, c’eſt amour qui fait couler mes pleurs,
+<lb />Puis-ie ne pas pleurer vne epouze ſi belle?
+<lb />Puis-ie ne pas hair vne epouze infidelle?.
+<lb />Son infidelité fait mon reſſentiment,
+<lb />Mais i’ay de la pitié quand ie voy ſon tourment.
+<lb />Vous à qui tous les Dieux ouurent les deſtinées,
+<lb />Qui ſcaueZ le ſeiour des ombres condamnees
+<lb />AnAonſert moy cer uſmuote &amp; priſiue moitie,
+<lb />Que ie meure à ſes yeux de rage ou de pitié,
+<lb />DonneZ cette allegeance au malheureux Vliſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Vliſſe ouure les yeux, &amp; cognoy l’artifice
+<lb />Dont l'infame Siziphe abuſoit ton amour,
+<lb />L’obiet de tes deſirs voit encor le iour;
+<lb />Et ce cruel ſoubçon que ton erreur enfante
+<lb />Oneiuine en vuin tnez ies motis onc vtauté viuante.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Dieux! elle vit encor, mais peut-eſtre elle vit,
+<lb />Pour ſoüiller en viuant &amp; ma gloire &amp; monlit.
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Reuiens, &amp; pers enfin vn ſoubçon, qui l’offenſe..
+<lb />I
+<lb />I
+<lb />Non que ie ſois ſurpris de cette defiance:
+<lb />Ie ſçay quel eſt l’effet de l’horrible conſeil
+<lb />D’vn ſonge couuert par le Dieu du ſommeil,
+<lb />Qui par de faux obiets trompant ta ialouzie:
+<lb />Arme ton deſeſpoir contre ſa perfidie;
+<lb />On ſeduit ayſement ces folles paſſions,
+<lb />Et c’eſt ce qu’il a fait par ſes illuſions;
+<lb />Ou plutoſt c’eſt l’effet de l’adreſſe &amp; des charmes
+<lb />Par qui Circé te trompe, &amp; cauſe tant d’allarmes:
+<lb />Son amour pour reprendre vn cœur desabuſé,
+<lb />Te vent feaune encor pan on mui fuppujt.,
+<lb />Te faiſant Penelope &amp; morte &amp; criminelle,
+<lb />Elle aſpire à des vœux que tu gardois pourelle.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />N'oſant &amp; ne pouuant me defien de vous
+<lb />I'accepte auec tranſport vn oracle ſi doux.
+<lb />Cher truchement des Dieux, fidelle Tyreſie;
+<lb />Ie vous dois mon repos, mon honneur &amp; ma vie.
+<lb />Ainſi credule amant i’ay ſoubçonné ta foy,
+<lb />nenelope, quels maux, quelle aſſeZ dure loy
+<lb />Me peut-on impoſer pour vanger ton iniure?
+<lb />Mais tu ſçais mon amour, &amp; tu vois l’impoſture.
+<lb />Si pour me detromper d’vne fatale erreur
+<lb />I'ay deſcendu ſi viſte en ce lieu pleind’horreur,
+<lb />Par cette meſme erreurmaintenant eſclaircie.
+<lb />Tiray d’vn meſme pas contenter ton enuie,
+<lb />Et ſi pour accourcir le chemin des Enfers
+<lb />Circé dans vn moment m’a fait courir cent mers.
+<lb />Pour reuoir tes beaux yeux, pour reuoir noſtre Grece
+<lb />I'attens de mon amour ce qu’à fait ſon adreſſe,
+<lb />Vous en qui le Ciel mit tout le pouuoirdes Dieux
+<lb />Qui ſçaueZ mille endroits pour ſortir de ces lieux,
+<lb />Sans qu’il doiue à Gircé cet effort fauorable.
+<lb />Enleuez, de ces lieux cet amant miſerable,
+<lb />Par vn chemin facile abregez ſes trauaux,
+<lb />Et derobez Vliſſe à des charmes nouueaux.
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Vliſſe ie ne puis reſpondre à voſtre attente,
+<lb />Le charme de Circé rend ma main impuiſſante;
+<lb />Elle vous fait deſcendre en ce triſte ſeiour,
+<lb />Seule elle peut aufſi faire voſtre retour.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ainſi ie doy ſortir d’vn ſeiour ſi funeſte;
+<lb />Auit effort d’vne main que mon amour deteſte,
+<lb />Faut-il reuoir encor ces dangereux climats?
+<lb />Et doy-ie m’appreſter à de nouueaux combats?
+</sp>
+<sp type="MainZone-Sp"><lb />TYRESIE.
+<lb />Il le faut, cher Vliſſe, &amp; deſta l'heure preſſe;
+</sp>
+<sp type="MainZone-Sp"><lb />L.ii
+<lb />Mais malgré ſes efforts, eſpere en ton adreſſe,
+<lb />Tu luy doy mille exploits, &amp; ta fidelle amour
+<lb />Par elle doit encor triompher à ſon tour.
+<lb />Adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE ſeul.
+<lb />Quels ſoins? helas! pourront ſauuer ma flame
+<lb />Des pieges, des fureurs, des charmes d’vne femme?
+<lb />Amour, par qui Circé dans ſes laſches tranſports
+<lb />Fait ſans ceſſe &amp; par tout de ſi puiſſans efforts.
+<lb />Et pour d’iniuſtes vœux rompt de ſi grands obſtacles,
+<lb />Pour des vœux innocens faits de pareils miracles.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />CIRCE' ſeule chante.
+<lb />VI
+</p>
+<sp type="MainZone-Sp"><lb />Are preſant des Cieux merueilleuſe puiſſance
+<lb />N Qui m’as fait conſentir vne ſi dure abſence. 
+<lb />Redonne Vliſſe à mon amour.
+<lb />Rens à mes vœux l’obiet qui regne dans mon ame<lb />Et ſi tu veux ſeruir ma douleur &amp; ma flame,
+<lb />Haſte ma mort où ſon retour.
+<lb />-
+<lb />.-. ---.----- -l.----
+</sp>
+<p type="MainZone-Lg"><lb />TRAGICOMEDIE.
+<lb />I'oppoſe vainement au torrent de mes larmes
+<lb />4
+<lb />L’orgueil de mõ pouuoir, &amp; l’eſpoir de mes charmes,
+<lb />Tous deux cedent à mon amour.
+<lb />S’ils me promettent tout il craint tout pour Vliſſe.
+<lb />Et iettans ſeulement la fin de mon ſupplice
+<lb />De ma mort ou de ſon retour.
+<lb />Son ſeul retardement fait obſtacle à ma flamme;
+<lb />Ie n’en redoute plus du coſté de ſa femme;
+<lb />Le ſommeil l’abuſant d’vne fatale erreur
+<lb />A Penelope enfin a deſrobé ſon cœur,
+<lb />Et ce qu’il m’a promis me rend trop aſſeurée.
+<lb />D’vne felicité ſi long-tempsideſirée.
+<lb />Que fais tu malhenreuſe? a quelle indignité
+<lb />Abbaiſſe-tu le ſang d’vne diuinité?
+<lb />Circé met ſon bonheur au ſeul amour d’vn homme!
+<lb />Ah! Soleil, Dieu teſmoin du feu qui me conſomme,
+<lb />Toy qui vis autrefois cent Roys à mes genoux,
+<lb />Voy quelle honte efface vn ſpectacle ſi doux.
+<lb />Vange, vange ſur moy l’honneur de ta famille,
+<lb />Derobe tes clartez à cette indigne fille;
+<lb />Ou du feu, dont ma vie emprunte ſa vigueur
+<lb />Formant des traits mortels perce ce laſchecœur.
+<lb />Mais que dis-ie, inſenſée! helas!! ſi quelque flame
+<lb />Dans celles de mon ſang, fut exempte de blaſine.
+<lb />En eſt il ſur la terre, en eſt-il dans les Cieux,
+</p>
+<sp type="MainZone-Sp"><lb />Qui ſe puiſſe vanter d’vn feu ſi glorieux?
+<lb />Si les Dieux puniſſoient de pareilles foibleſſes,
+<lb />Et la terre &amp; les Cieux n’auroient plus de Deeſſes:
+<lb />Si Venus, ſi Thetys, ſi la nymphe du iour
+<lb />Pour des mortels ſans honte ont conceu de l’amour,
+<lb />Quel Dieu peut condamner ma flame auec iuſtice?
+<lb />Ceux qu’elles ont aymeZ valoient-ils mon Vliße?
+<lb />Non, non, ma flame eſt iuſte; &amp; c’eſt mal à propos
+<lb />Que cet iniuſte orgueil vient troubler mon repos.
+<lb />Il falloit l’eſcouter, quand ce feit prit naißance;
+<lb />Quand on n’auoit pour moy, que de la reſiſtance:
+<lb />Maintenant qu’il ſe plaint d’auoir trop reſiſte
+<lb />Mon remors refuſant vn bien ſi ſouhaitté,
+<lb />Si la pourſuitte en fut, &amp; honteuſe &amp; coupable,
+<lb />Ce refus la rendroit encor plus condamnable..
+<lb />I'eſpere tout d’Vliße, &amp; ie me crois permis;
+<lb />De me faire tenir tout ce qu’il m'a promis;
+<lb />Iuſque-là que s’il manque à ſa recognoißance,
+<lb />Il eſt de mon honneur d’en faire la vengeance.
+<lb />C’eſt en quoy mon deſtin eſt heureux auiourd’huy;
+<lb />onbipimm on mortel de pouuoir plus que luy.
+<lb />En l’aymant ie l’eſleue, ingrat ie puis l’abatre.
+<lb />Mais pourquoy ſe former des monſtres à combatres
+<lb />Circé ne doute plus, qu’Vliße à ſon retour
+<lb />Ne rende ce qu’il doit a ta fidelle amour.
+<lb />Faut-il parmy les ſoins où mon amour m'engage
+<fw><lb />Qu'à
+</fw><fw><lb />ha-
+</fw><fw><lb />1.
+</fw><lb />Qu’à de nouueaux ſoucis encore ie me partage?
+<lb />Que chencheZ-vous ma ſœur?
+</sp>
+<p type="MainZone-Head"><lb />SCEGE
+<lb />VII
+<lb />PHAETVSE, CIRCE'.
+<fw><lb />PHAETVSE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Ous, de qui ie me plains,
+<lb />Euriloche, Elpenor, ſans doute en ſont aux mains.
+<lb />I’ay mis pour les chercher toute la Cour en peine,
+<lb />Au Palais, dans le parc, mais ma recherche eſt vaine.
+<lb />Eſt-ce ainſi...
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />ModereZ cet iniuſte courroux,
+<lb />De tout cet embarras ne vous plaignez qu’à vous;
+<lb />Ie n’ay rien fait ma ſœur, que ce que i’ay dû faire,
+<lb />Ie vous auois promis que ialoux de vous plaire,
+<lb />Mon art deſarmeroit l’ardeur de ſe vanger,
+<lb />Qui mettoit ( diſiez-vous) Elpenor en danger.
+<lb />Ie l’ay fait, esperant que de vous adoucie,
+<lb />Furiloche obtiendroit ſa grace &amp; Leucoſie,
+<lb />Meſlant nos intereſts i’ay fait que deſormais
+<lb />On ne ſe verra plus que pour faire la paix.
+<lb />Ce charme dure encor, &amp; malgré moy Princeſſe
+<lb />Durera iuſqu’à tant que voſtre hayne ceſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Quel charme?
+<lb />PHAETVSE.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Merueilleux, qui force voſtre amant
+<lb />De changer en reſpects tout ſon reſſentiment,
+<lb />Et qui par la pitié, que vous fera ſa peine
+<lb />Doit obtenir de vous la fin de voſtre haine.
+<lb />Euriloche paroiſt, retirons-nous ma ſœur,
+<lb />Ce que vous alleZ voir changera voſtre cœur.
+<fw><lb />e.148
+</fw></sp>
+<p type="MainZone-P"><lb />purt
+<lb />france
+</p>
+<p type="MainZone-Head"><lb />CTMARO
+<lb />VIII.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE ſeul.
+<lb />E me pers, Perimede, ah! non c’eſt trop d’audace.
+<lb />IQuand Vliße, Elpenor me quitteroient la place,
+<lb />Quand ie me promettrois de pouuoir quelque iour
+<lb />Surmonter de deux ſœurs &amp; la haine &amp; l’amour,
+<lb />Circé reſte à combatre, où prendrons-nous des armes
+<lb />A nous mettre à couuert du pouuoir de-ſes charmes?
+<lb />Ce qu’en ſouffre Elpenor, ce qu’elle fait ſur moy
+<lb />Dans mon ame coupable a ietté tant d’effroy
+<lb />Qu’il me ſemble de voir ſans ceße ſa colere
+<lb />S’appreſter à punir ce que i’ay voulu faire.
+<lb />Ah! de mes laſcheteZ fatale illuſion!
+<lb />Qui trahis mon amour &amp; mon ambition.
+<lb />Fais place à des penſers, qu’vn noble eſpoir me donnę;
+<lb />Amour de Phaëtuſe, amour de la couronne,
+<lb />Ie m’abandonne à vous, &amp; ſans plus conteſter
+<lb />Commandez, ie m’appreſte à tout executer.
+<lb />Il faut.. Elpenor vient. Cincé fuis ſa peine
+<lb />*.
+</sp>
+<sp type="MainZone-Sp"><lb />M i
+<lb />Si tu ne peux ſouffrir qu’elle ſerue à ma haine.
+<fw><lb />nand
+</fw></sp>
+<p type="MainZone-Head"><lb />CENE
+<lb />IX.
+<lb />OLEMVORDRCHE.
+<lb />CIRCE’, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />N vain ſur mon riual ie cherche à me vanger
+<lb />E Pour terminer des maux qu’on ne peut ſoulager,
+<lb />Ie retourne à vos pieds, ſouffrez y ma preſence,
+<lb />Et n’apprehendez plus que priué d’eſperance
+<lb />Ce malheureux amant ait la temerité,
+<lb />D’en demander raiſon à ſa diuinité.
+<lb />Vos bontez m’eſleuant à ce faiſte de gloire,
+<lb />Qui paße mon eſpoir, que i’auois peine à croire,
+<lb />Vous acquirent le droict de m’en precipiter,
+<lb />Vous m'auiez tout donne, vous pouueZtout m'oſter.
+<lb />Et comme en m’eſleuant à ce comble de grace
+<lb />Vons n’attendites point que ie le meritaße.
+<lb />De meſme en m’en voyant par vous precipité
+<lb />I’ay tort de demander ſi ie l’ay merité.
+<lb />Ouy i’ay tort, &amp; certain par ce cruel ſilence
+<lb />Que ie vous doy ma mort ſans ſçauoir mon offenſe,
+<lb />Ie ſuis trop criminel differant mon trespas
+<lb />Mais ſans plus conteſter i'y cours Princeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+</sp>
+<p type="MainZone-Other"><lb />Helas!
+</p>
+<sp type="MainZone-Sp"><lb />Ne craignez rien.
+<lb />CIRCE.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE bas.
+<lb />L'aurois contenté ton enuie;
+<lb />Mais vn charme inconnu deſarmant ma furie
+<lb />Retient ce bras leué pour luy percer le cœur,
+<lb />Et me fait ſouhaiter la fin de ſon erreur.
+<lb />Circé vient.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Dieux vangeurs d’vne amour outragée,
+<lb />Qui voyez à quel poinct ma fortune eſt changée,
+<lb />Si mon laſche riual me deſrobe ſa foy
+<lb />Perdez ce criminel; iuſtes Dieux vangez moy!
+<lb />Que ſt ce changement vient de ſon inconſtance
+</sp>
+<p type="MainZone-Other"><lb />M iij
+<lb />Quelque iniuſte qu’il ſoit laiſſez-le ſans vengeance,
+</p>
+<sp type="MainZone-Sp"><lb />PHAETVSE à Circé.
+<lb />ronu pmo monujouure a le voir plus ſouffrir,
+<lb />Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Hé bien vous meſme allez le ſecourir</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Demeurez, Elpenor; &amp; ceſſez de vous plaindre
+<lb />D’vn mal que voſtre amour n’a pas ſubiet de crain<lb />dre.
+<lb />Quelques vaines frayeurs qui vous ayent allarmé
+<lb />Phaëtuſe iamais ne vous a tant aymé.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Qu’entens-ie! ma Princeſſe, à mes vœux ſi contraire
+<lb />Me rend en vn moment tout le bien que i’eſpere;
+<lb />Mauez-vous fait ſouffrir ce cruel traitement
+<lb />Vour rendre à mes deſirs mon bonheurplus charmant?
+<lb />Il m’eſtoit aſſeZ cher auant cet artifice,
+<lb />Par quels respects, amour, &amp; par quel ſacrifice,.. *.
+<lb />O! Dieux. Princeſſe ! helas! eſt-σe vous que ie voy?
+<lb />Phaëtuſe, eſt-ce vous qui me manque de foy?..
+<lb />Dieux quel charme preſente à ma veué abuſés
+<lb />Phaëtuſe en courroux, Phaëtuſe appaiſée.
+<lb />Ah! ce n'eſt pas ainſi qu'on m’oſte mon malheur?
+<lb />Madame, il faut finir non tromper ma douleur.
+<lb />Et toutes les douceurs d’vne erreur fauorable
+<lb />Sont vn foible ſecours contre vn mal veritable.
+<lb />En vain pour arreſter mon iuſte deſespoir
+<lb />Sous vn front adorable vn demon ſe fait voir,
+<lb />Et prenant tous les traits de celle que i’adore
+<lb />S'efforce de calmer l’ennuy qui me deuore.
+<lb />Fuis ſpectre deceuant, qu’anime ſa pitié,
+<lb />Mes maux à ſon aſpect augmentent de moitié.
+<lb />Plus ie vois que Circé veut ſoulager ma peine,
+<lb />Plus ſon ingrate ſœur me paroiſt inhumaine.
+<lb />Voyant que ſa rigueur s’obſtine a voir perir
+<lb />Celuy que d’vn ſeul mot elle peut ſecourir.
+</sp>
+<p type="MainZone-Other"><lb />Acires</p>
+<sp type="MainZone-Sp"><lb />Ah! ma ſœur.
+<lb />PHAETVSE à Circé.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE' à Furlloche.
+<lb />Il eſt temps que ce charme finiſſe.
+<lb />Vous ſçauez ce qu’on doit aux prieres d’Vliſſe,
+<lb />EmbraßeZ Elpenor, certain que cette paix
+<lb />Vous va donner le bien où tendent vos ſouhaits.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Mon deſir ne vient pas d'voſtre cognoißance.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />Vous preſumeZ bien peu de ma haute ſcience.
+</sp>
+<sp type="MainZone-Sp"><lb />e d elas.
+<lb />Elle ne s’eſtend pas à cognoiſtre nos vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ie ſçay pourtant le voſtre, &amp; vay vous rendre heu<lb />reux,
+<lb />Ne vous oppoſés plus à ce que ie deſire.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Quoy vous me prometteZ le bonheuroù i’aſpire
+<lb />A ces conditions que ne ferois-ie pas?
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Elpenor vous voyez que l’on vous tend les bras.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />A moy Madaute.
+</sp>
+<p type="MainZone-Head"><lb />EVRI;
+<fw><lb />8
+</fw></p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Avous.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />O ſecours fauorable!
+<lb />nor de ſa
+<lb />verge.
+<lb />Le charz
+<lb />Ah! Princeſſe. Grands Dieux! ſurpriſe eſpouuentable! me fais.
+<lb />Eſt-ce mon ennemy que ie viens d’embraſſer?
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE à Phaëtuſe.
+<lb />Vous excuſeZ vn coup dont il peut s’offenſer.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR.
+<lb />Ah! Madame, ah! Princeſſe, eſt-ce ainſi qu’on me iouë?
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ma ſœur a quelque tort, mon Prince ie l’aduouë
+<lb />Mais puiſque mon repos naiſt de ce qu’elle a fait,
+<lb />Oi vous m’aymeZ monſtrez vn front plus ſatisfait,
+<lb />Ie demande encor-plus à voſtre obeiſſance,
+<lb />Il faut en l’embraſſant oublier ſon offenſe,
+<lb />Et le mettre en eſtat en luy donnant ma ſœur,
+<lb />De ne plus trauerſer noſtre commun bonheur.
+</sp>
+<sp type="MainZone-Sp"><lb />ELPENOR
+<lb />Ie vous obeiray, quoy qu’auec repugnance.
+<fw><lb />–
+</fw><lb />Faſſe le iuſte Ciel, que cette obeiſſance
+<lb />En deſtournant les maux, qui nous ſont preparez
+<lb />Aſſure le repos que vous en eſperez.
+<lb />Ie ne m'oppoſe plus à l’heur qu’on vous deſtine
+<lb />Leucoſie eſt à vous, &amp; ſans qu’onexamine
+<lb />Qui de nous a failly contre noſtre amitié.
+<lb />D’vn cœur qui fut à vous ie vous rends la moitié.
+<lb />Daignent les Dieux teſmoins ſi la voſtrem'eſtchere,
+<lb />Punir qui de nous deux l’offrira moins ſincere.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />La voſtre m'eſt bien chere &amp; c'eſt trop de bonheur
+<lb />D’en eſtraindre les nœuds parl’hymen de ſa ſœur,
+<lb />De moy pourtant de biens que pouuez-vous attendre?
+</sp>
+<sp type="MainZone-Sp"><lb />à Euriloche.
+<lb />CIRCE'.
+<lb />à Phaëtuſe.
+<lb />Ie puis vousacquitter. Ouy, ie m'offre a vous rendre
+<lb />(Maintenant qu'Elpenor deuenu voſtre eſpoux
+<lb />Peut partager les ſoins de l’eſtat auec vous)
+<lb />Le glorieux fardeau de la toute puiſſance
+<lb />Dont i’ay par voſtre adueu ſoulagé voſtre enfance.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />La Reine s’accordant ſi bien à mes ſouhaits
+<lb />N'a pas mal penetré dans les vœux que i’ay faits
+<lb />Pour rendre de tout poinct ma fortune accomplie.
+<lb />Me voyant ſur le poinct d’obtenir Leucoſie
+<lb />Il ne me manquoit plus, que de voir voſtre eſpoux
+<lb />Elpenor, partager la couronne auec vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ie hayrois le bien que cet hymen me donne
+<lb />Si le ſœur ſur nous repoſant la couronne,
+<lb />Cuungeon on ſeut momen ia ſonme de t'eſtat.
+<lb />Phaëtuſe eſt trop iuſte, &amp; luy n’eſt pas ingrat.
+</sp>
+<p type="MainZone-Head"><lb />ENE
+<lb />X
+<lb />LEVCOSIE, CIRCE', PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />MAdame, Vliße vient.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Cette heureuſe nouuelle
+<lb />Pour reuoir ce heros au Palais me rappelle.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Nons doh finuons.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Allons. Puiße par ce retour:
+<lb />Ma ſame prenure part du bonheur de ce iour.
+<lb />Vous en aueZ beaucoup dans ce bonheur extreme.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />LECCOSIE.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE.
+<lb />Vous l'apprendrez, du Prince,qui vous, ayme.
+</sp>
+<p type="MainZone-Head"><lb />MUEEVDA I.
+<lb />LEVCOSIE, EVRILOCHE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE bas.
+<lb />Out me perd, &amp; ie ſuis pour tomuie ue douleur.
+<lb />I Forcé de careßer &amp; rire à mon malheur.
+<lb />Vliſſe eſt de retour, l’auez-vous veu Princeße?
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ie l’ay veu reſolu de retourner en Grece;
+<lb />Emmener s’il ſe peut Elpenor auec luy,
+<lb />Echapper à la Reyne.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Et partir.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCASIE.
+<lb />Auiourd’huy
+<lb />Perimede eſt allé donner ordre à ſa fuite.
+<lb />*
+</sp>
+<sp type="MainZone-Sp"><lb />EVRIEOCHE.
+<lb />Que de biens produira voſtre ſage conduite!
+<lb />Hé comment enuers vous pourray-ie m’acquitter?
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />En faiſant vos efforts pour ne nous pas quiter.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Quoy qu’il puiſſe arriuer ſi malgré ſon adreſſe
+<lb />Pour chaſſer Elpenor il faut que ie vous laiſſe:
+<lb />Ie reuiendray bientoſt eſtaplir dans ces lieux
+<lb />Vn bonheur à paſſer tous les plaiſirs des Dieux
+</sp>
+<p type="MainZone-Other"><lb />–
+<lb />iij
+<lb />1 -
+</p>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ce glorieux eſpoir adoucira ma peine.
+<lb />D muuruluu umme pumoit la Reine,
+<lb />Ie bruſle de l’apprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Ah! Princeſſe vſons mieux
+<lb />Qu'en friuoles diſcours d’vn temps ſi precieux.
+<lb />De l’air que l’entrepriſe entre nous eſt conceué
+<lb />La perte d’vn moment en ruine l’ißuë
+<lb />AmuſeZ voſtre ſœur, &amp; ſans perdre vn moment
+<lb />Sur le vaißeau ie vays engager ſon amant.
+<lb />Aßuré de le rendre auec mon artifice
+<lb />Malgré luy compagnon de la fuite d’Vliße.
+<lb />Ainſi-voſtre ſecoürs faüorable en ce iour
+<lb />Va faire triompnet: inu groire &amp; mon amour.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatrieſme acte.
+</p>
+<p type="MainZone-Head"><lb />A Ui
+<lb />C.
+<lb />SCLIE IREMIERE.
+<lb />CIRCE’, MELANTE.
+</p>
+<sp type="MainZone-Sp"><lb />3
+<lb />CIRCE'.
+<lb />Ve fait mon fugitif?
+</sp>
+<sp type="MainZone-Sp"><lb />Oubis da
+<lb />dto d d da de sſo
+<lb />En Vliße, Madame
+<lb />Il attend ſon malheur, &amp; cette grandeur d’ame
+<lb />Le fait voir dans ſes fers, dans cette affreuſe tour
+<lb />Plus qu’il ne fut iamais digne de voſtre amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Digne. de mon amour, qu’il a ſi mal traitée?
+</sp>
+<p type="MainZone-Lg"><lb />D'y pluſtoſt des furours d’vne Reyne irritée;
+<lb />Qui-s’abandonnant, toute à ſon dernier transport
+<lb />N'a plus que de penſers de vengeance &amp; de mort.
+<lb />Il me fuyoit l’ingrat, &amp; couroit à ſa femme
+<lb />Luy vanter le meſpris qu’il a fait de ma flamme,
+<lb />Et luy contant mes feux, ma honte, &amp; mon malheur,
+<lb />Dreſſer de mon amour vn trophée à la leur.
+<lb />Graces aux Dieux, ſa mort preuiendra cette honte,
+<lb />Si Penelope apprend qu’Vlyſſe me ſurmonte;
+<lb />Elle apprendra, pleurant ce qu’aura fait ce fer,
+<lb />Qu’on peut vaincre Circé, mais non en triompher,
+<lb />Et qu’vne horrible ſuite efface enfin la gloire
+<lb />De quiconque vſe mal d’vne telle victoire.
+<lb />Tout ce qu’à de cruel la ialouze fureur,
+<lb />La rage ſemble doux à ma forte douleur,
+<lb />Et ie ne trouue point dans toute ma puiſſance
+<lb />Dequoy perdre l’ingrat au gré de ma vengeance.
+<lb />Poignard, c’eſt a toy ſeul que ie la veux deuoir,
+<lb />Fais le venir.
+</p>
+<sp type="MainZone-Sp"><lb />MELANTE.
+<lb />Vliſſe, où ſera ton eſpoir?
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Other"><lb />SCENE
+</p>
+<p type="MainZone-Head"><lb />SCE RI..
+<lb />TI
+</p>
+<sp type="MainZone-Sp"><lb />CIRCE' ſeule.
+<lb />Es charmes auroient pû faire perir Vliſſe;
+<lb />NIOuurir deſſous ſes pas vn gouffre, vn precipice;
+<lb />Par la rage des vents deſchirer ſon vaiſſeau;
+<lb />L’embraſer d’vne foudre, ou l’abiſmer dans l’eau.
+<lb />Mais empruntant ce coup de leur pouuoir ſupreme
+<lb />Ie le deurois aux Dieux auſſi bien que moy meſme,
+<lb />Et ie veux pour vanger l’affront que ie reçoy,
+<lb />Qu’il parte des fureurs qui ſoient toutes à moy.
+<lb />La vengeance eſt vn fruit, qu’il faut veiller ſoy<lb />meſme;
+<lb />Le gouſter, ſe ſouler de ſa douleur extreſme.
+<lb />Vn debris, vne foudre auroient dans vn moment
+<lb />Conſommé loin de moy tout mon reſſentiment.
+<lb />Ie veux iouyr long-temps de la mort d’vn perfide,
+<lb />Donner vn long ſpectacle à ma fureur auide.
+<lb />Percer de mille coups ce flanc, ce traiſtre flanc,
+<lb />Et voir ma main rougir &amp; fumer de ſon ſang.
+</sp>
+<sp type="MainZone-Sp"><lb />Ce qu’en vain i’ay tenté pourl’amour d’vne Reine,
+<lb />Ce poignard l’obtiendra pour le bien de ma hayne;
+<lb />Ie voulois eſtre heureuſe en gagnantſon amour,
+<lb />Ie le ſuis encor plus en le priuant du iour,
+<lb />Eſteignant dans ſon ſang le feu qui me deuore
+<lb />Qui m’oſte le repos, &amp; qui me deshonore.
+<lb />Mais helus! qu’eſt-ce amour ẽ veus-tu le proteger?
+<lb />Songe que i’ay l’honneur &amp; toy-meſme à vanger,
+<lb />Si tu parle pour luy ma fureur ſera vaine,
+<lb />Abandonne mon cœur au transport qui l’entraine;
+<lb />Qu’il y regne vn moment, tu n’as que trop regné;
+<lb />Ie le poignarderois s’il l’auoit espurgné.
+<lb />Ie l’apperçoy, l’ingrat, il ſçauraqu’vne femme
+<lb />Peut autant pour ſa hayne &amp; plus que pour ſa flame.
+<lb />Il ſçaura qu’vn amour qu’on oſe dedaigner,
+<lb />Sçait urracher des cœurs s’il ne peut les gagner
+<lb />Il faut mourir.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />S
+<lb />ENE
+<lb />VLISSE, CIRCE'
+<lb />III.
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />FRapez, vous voyez la victime;
+<lb />Vliſſe doit mourir ſi ſa fuite eſt vn crime.
+<lb />Ou pluſtoſt pour mourir ne le meritant pas
+<lb />Il ſuffit que Circé demande ſon trespas;
+<lb />Trop heureux, puiſqu’il peut en nous donnant ſa vie,
+<lb />Contenter vne fois vos vœux, &amp; ſon enuie;
+<lb />Reſpondre à vos deſirs, &amp; s’offrant à vos coups,
+<lb />Couronner par ſa mort ce qu’il a fait pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE’.
+<lb />Ce qu’il a fait pour moy l’ingrat! Hé! quel ſeruice
+<lb />Peut apres tant d’affront me reprocher Vliſſe?
+<lb />Eſt ce qu’ayant pour luy teſmoigné tant d’ardeur
+<lb />Perdu pour trop l’aymer, gloire, repos, grandeur?
+<lb />Il me meſpriſe, il rit de ma perſeuerance; 
+<fw><lb />4--
+</fw><lb />Et quand i’attendois tout de ſa recognoiſſance,
+<lb />Il ſe deſrobe, il fuit au meſpris de ſa foy.
+<lb />Ampoſteur eſtece ta ce qu'i a jan pour moys
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />C’eſt mal icy le lieu de vanter mes ſeruices;
+<lb />Reyne ie doy mourir, &amp; i’en fais mes delices.
+<lb />Tulſque ma mort vous plaiſt, i'ayme à perdre le iour,
+<lb />C’eſt tout ce que i’ay pü donnor à voſtre amour:
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />Tu mourras, mais auant que de t’oſter la vie
+<lb />Ie veux ſçauoir, ingrat, en quoy tu m'as ſeruie.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ces meſpris, ces affronts, qui font voſtre courroux,
+<lb />Cette fuite; c’eſt là ce que i’ay fait pour vous.
+<lb />Que ſeroit-ce de vois Reyne, ſt mon audace
+<lb />Euſt porté mes deſirs où vouloit voſtre grace;
+<lb />Vous ſerieZ maintenant la femme d’vn epoux
+<lb />upivcmuers vn autre euſt pû l’eſtre enuers vous.
+<lb />Et qui briſant les nœuds d’vn hymen legitime
+<lb />Euſt attiré ſur vous la peine de ſon crime.
+<lb />Ce ſang illuſtre &amp; plein du Dieu qui l’a preſté,
+<lb />Ce front, où tant de gloire a mis tant de fierté,
+<lb />Raualant par ce choix vn deſtin ſi ſublime.
+<lb />Perdoit tout leur eſclat, leur prix, &amp; mon eſtime.
+<lb />La fille du Soleil doit viure dans ce lieu
+<lb />Sans Roy, ſans compagnon, ou la femme d’vn Dieu;
+<lb />Et ſi de mon orgueil ie n’euſſe eſté le maiſtre;
+<lb />Vous ſerieZ la moitié d’un infame, d’vn traiſtre,
+<lb />dinsuuupunnimoponauummuucrime pareil
+<lb />La race de Siziphe à celle du Soleil.
+<lb />C’eſt par moy qu’à ces maux vous eſtes eſchapáe.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! Circé.
+<lb />CIRCE'.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />C’eſt ainſi que ie vous ay trompée.
+<lb />C’eſt l’effet des reſpects qui font voſtre courroux.
+<lb />Par eux ſeuls ie pouuois m’acquiter enuers vous,
+<lb />Auſſi de quelques vœux dont ma femme m’appelle,
+<lb />I'ay fuy pour vous Circé, beaucoup plus que pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Rends toy Circé, ton cœur n’a que trop combatu:
+<lb />Les nobtes mouuemens de ta propre vertu;
+<lb />Pour euiter la honte où mon amour m’engage
+<lb />Que ne peut-il la vaincre auſſi bien que ma rage?
+<lb />Mais, helas!
+</sp>
+<p type="MainZone-Other"><lb />O iij
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />EnfonceZ ce poignard dans mon ſein.
+<lb />Fuir vn coup, qui vous plaiſt n’eſtoit pas mon deßein;
+<lb />Mais ne conceuant point de ſuplice ſi rude,
+<lb />Que de mourir vers vous ſuſpect d’ingratitude,
+<lb />Ie ne ſuis pas faſche qu'abandonnant mes iours
+<lb />Ma voix à mon honneur ait preſté ce ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ah! c’en eſt trop. Soleil ſeconde ma foibleſſe,
+<lb />Heros digne en effet des vœux d’vne deeſſe,
+<lb />Plus digne encor des miens, daigne excuſer en moy
+<lb />Ce que par trop d’amour i’ay commis contre toy.
+<lb />C’eſt dequoy ſeulement il faut que ie rougiſſe
+<lb />Sans honte ie pouuois ſouſpirer pour Vliße;
+<lb />Mais non, quand ſon deuoirattache ailleurs ſon ſort,
+<lb />L’arreſter, le forcer, &amp; luy donner la mort.
+<lb />Sors de mes mains, poignard, ma derniere infamie;
+<lb />Ta vertu le preuient, deſarme vne ennemie
+<lb />Et fait qu'enfin ce cœur laſſé de ſoupirer
+<lb />S’enfle du noble orgueil qu’elle veut m'inſpirer.
+<lb />C'eſt par cette vertu qu'a moy meſme renduë
+<lb />Ie recouure ma gloire où ie l’auois perdué.
+<lb />De tous les ſentimens que i’auois eus pourtoy,
+<lb />Me retranchant aux ſeuls qui ſont dignes de moy,
+<lb />Pour ceſſer de l’aymer, ne pouuant m’en defendre
+<lb />Ie voy bien que i’auray de grands combats à rendre,
+<lb />Mais ſi dans ma fureur i'ay pu iurer ta mort,
+<lb />Ie puis bien malgré moy conſentir cet effort,
+<lb />Qu'vn depart, puiſqu’il faut que mon eſpoir periſſe
+<lb />Pluſtoſt que que ſon treſpas me ſepare d’Vliſſe.
+<lb />TombeZ fers trop honteux au plus grand des hu<lb />mains,
+<lb />Perimede, Euriloche ont trahy tes deßeins.
+<lb />Mais malgré...
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Iuſtes Dieux! ils m’ont trahy, Madame;
+<lb />Eux de qui ie tenois l’ordre de cette trame,
+<lb />Ie ne m’eſtonne plus ſi vous l’ayant apris,
+<lb />Auant ſortir du port mon vaißeau fut ſurpris.
+<lb />  
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV
+<lb />LEVCOSIE, CIRCE', VLISSE.
+</p>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />H! ma ſœur, Dieux, comment oſeray-ie paroiſtre?
+<lb />FAComplice par ma faute &amp; mã credu le amour
+<lb />Du tiimt tt puin nou qu'on mt iummis du iois</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />De quel crime; ma ſœur?..
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Elpenor, Phaëtuſe...
+<lb />Helas de tous nos maux il faut que ie m’accuſe.
+<lb />monſiiit I’ay donné des vaiſſe aux pour ſa fuite. Et Seigneur
+<lb />Euriloche s’en ſert pour enleuer ma ſœur.
+</sp>
+<p type="MainZone-Other"><lb />L’enleuer.
+</p>
+<p type="MainZone-Other"><lb />CIRCE'.
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Eurlloche o! Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ce traiſtre à peine.
+<lb />Vit que pour obeir aux ordres de la Reyne,
+<lb />Toute la Cour en foule accouroit ſur vos pas;
+<lb />Et laiſſoit le Palais ſans garde, &amp; ſans ſoldats;
+<lb />Que Perimede &amp; luy forment cette entrepriſe.
+<lb />Le deſordre, le temps, le lieu les fauoriſe.
+<lb />Vn bruit confus meſlé de douleur &amp; d’effroy
+<lb />Du quartier de ma ſœur arriué iuſqu’à moy,
+<lb />M’appelle au lieu d’où vient vn trouble ſi funeſte,
+<lb />Ty cours; Dieux que ne puis-ie oublier ce qui reſte?
+<lb />A trauers quelques morts Elpenor tout ſanglant
+<lb />Marchant auec ardeur, mait d’vn pas chancellant,
+<lb />Et tirant de ſa playe vn poignard; à ce traiſtre
+<lb />Princeſſe (crie-il) en me voyant paroiſtre;
+<lb />Là tombant, quand il voit qu’on le veut ſecourire
+<lb />Abandonnez, ce ſoin (dit-il) il faut mourir,
+<lb />Ma vie eſt dans les mains d’vn traiſtre, d’vn infame,
+<lb />Si vous. voulez, m'ayder courez apres mon ame,
+<lb />Le perfide Euriloche enleue voſtre ſœur.
+<lb />Que deuins-ie à ces mots? iugez, de ma douleus.
+<lb />Duns l’ardeur de punir ſa noir perfidie
+<fw><lb />E
+</fw><lb />Laiſſant à d’autre ſoins cette mourante vie,
+<lb />I’implore du ſecours dans ce preſſant beſoin
+<lb />I'en trouue; mais, helas! Euriloche eſt trop loin.
+<lb />On le ſuit, mais ſans doute vne telle pourſuite
+<lb />N'aura ſeruy, ma ſœur, qu’à redoubler ſa fuite.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Il a beau fuyr, l’infame, il n’eſchappera pas;
+<lb />Pour luy porter par tout vn aſſeuré treſpas.
+<lb />I'ay les bras aſſez longs, ma ſœur, à la vengeance;
+<lb />Ie te ſuis, tu vas voir vn trait de ma puiſſance.
+</sp>
+<p type="MainZone-Head"><lb />)
+<lb />CENE
+<lb />BIosE, cles.
+<lb />
+<lb />V..9
+</p>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Ve ne puis-ie eſperen en ce fatal moment
+<lb />La gloire de ſeruir voſtre reſſentiment??
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE.
+<lb />Vous le pouuez, allez; où l’honneur vous appelle;
+<lb />Ie rens graces aux Dieux que dans cette querelle,
+<lb />Le ſoin de nous vanger ſert d’un amuſement,
+<lb />Qui diſpoſe mon ame à cét eloignement.
+<lb />Sans cela ie veux bien t’aduoüer ma foibleſſe,
+<lb />Mon cœur, quelque deuoir, quelque honneur qui
+<lb />l’en preſſe,
+<lb />Ne pourroit ſe reſoudre à perdre pour iamais
+<lb />Mon..... helas! ie retombe, &amp; crains ce que ie fais,
+<lb />N’importe malgré moy ie vous rends à la Grece;
+<lb />Ie vous rends aux deſirs d’vne illuſtre Princeſſe.
+<lb />ok inſquiey ma ſiamt a vérenn dos pas,
+<lb />Ie fais aſſeZ pour elle en ne vous gardant pas.
+<lb />Adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />VLISSE.
+<lb />Que cet eſfort vous va couurr de gloire!
+<lb />Qu'ainſi touſiours ſur vous emportant la victoire,
+<lb />Vne vertu ſans taſche &amp; ſans obſcuritez
+<lb />Monſtre en vous dignement le Dieu dont vous ſortez;
+<lb />Et repande par tout des rayons de lumiere
+<lb />Auſſi purs &amp; brillans que ceux de voſtre pere.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Pars Vliſſe, &amp; m’eſpargne, abandonnant ce liou,
+<lb />Ce que ſouffre mon cœur en te diſant adieu.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V
+<lb />I
+<lb />EVRILQCHE, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Vy, le voile eſt leüé, Princeße, ie vous ayme;
+<lb />I’ay ſeint pour voſtre ſœur, &amp; mon amour-ex<lb />treſme:
+<lb />Auant ce dernier coup pour voux a tout tenté
+<lb />Et n’a fait cet effort, que dans l’extremité.
+<lb />Si c’eſt crime d’auoir trop d’amour, ie l’aduouë,
+<lb />Mon crime eſt grand, mais tel qu’Euniloche s’en louë:
+<lb />Et plus i’offrɇ à mes yeux l’obiet qui m’a charmé,
+<lb />Et moins ie me repens de l’auoir trop aymé.
+<lb />Nommez, ce rapt, ce meurtre, vn coup illegitime,
+<lb />Vn horrible attentat, vn effroyable crime;
+<lb />Ie l’appelle vn ſecours; vn remede à monmal;
+<lb />Vn digne chaſtiment d’un indigne riual;
+<lb />Voila ce grand ſubiet de reproche &amp; de blaſme,
+<lb />I'ay tué mon Riual, i'ay ſecouru masflame;
+<lb />Et i’ay d’vn meſme coup ſur le point de mourir
+<lb />Arraché mon remede à qui m'euſt fait perir;
+<lb />ExigieZ-vous de moy cette amour foible &amp; baſſe,
+<lb />Qui ſe plaint, ſouspire, &amp; pleure ſa diſgrace;
+<lb />Tel, qu’auroit eu pour vous vn Riual trop heureux,
+<lb />Si voſtre iuſte choix euſt couronné mes vœux.
+<lb />I’ayme plus noblement l’illuſtre Phaëtuſe;
+<lb />I'arracherois aux Dieux le bien qu’on me refuſe,
+<lb />Vous enleuer vous meſme à mon: riual,à vous,
+<lb />Ce n’eſt qu’aux grands amours à faire de-tels coups.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Monſtre horrible à mes yeux vante tes infamies;
+<lb />I'abhorre ton amour plus que tes perfidies,
+<lb />Cher amant, que ce laſche apres tant de forfaits
+<lb />Oze encor reprocher à mes iuſtes ſouhaits
+<lb />Quelque part. dont ton ame à peine degagée
+<lb />De ce corps ou les Uueux Lauoient ſebien logée.
+<lb />Regarde l’attentat d’vn infame voleur,
+<lb />Monſtre toy plus ſenſiblé à mon dernier malheur.
+<lb />Et preuenant l’effort; que mon pere prepare
+<lb />Arrache ta Princeße. aux fureurs, d’vn barbare.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Vout imploreZ en vain ce pere;,&amp; cet amant,
+<lb />L'vn eſt mort par l’effort de mon reßentiment;
+<fw><lb />Pai
+<lb />-e -
+</fw><lb />&amp; pour l’autre, ſi c’eſt l’aſtre, qui vous eſclaire
+<lb />Il cognoiſt mon amour, &amp; ce que ie veux faire.
+<lb />Il ſçait que ie vous ayme auec toute l’ardeur
+<lb />Que peut vne Princeſſe eſperer d’vn grand cœur:
+<lb />&amp; que dés que l’hymen ayt calmé voſtre haine
+<lb />Dans voſtre iſle i’iray vous ramener en Reine,
+<lb />En chaſſer qui l’occupe, &amp; vous faire à iamais
+<lb />Benir ma violence, &amp; tout ce que ie fais.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />ITAEIVJE.
+<lb />Toy, me faire benir cette affreuſe iournée!
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />vous en paneree meux apres noſtie nymento.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />aaimeignea y
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />DonneZ des noms plus doux
+<lb />A celuy qui bientoſt doit eſtre voſtre eſpoux.
+</sp>
+<sp type="MainZone-Sp"><lb />Mon espoux!
+<lb />PHAETVSE.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />C’eſt à quoy vous deuez, vous reſoudre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Des mains de Iupiter cours arracher la foudre.
+<lb />Soleil, &amp; ſi ma mere eut chez toy quelque rang
+<lb />Monſtre-toy plus ſenſible aux affronts de ton ſang.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Princeſſe cette erreur fait tort à voſtre gloire,
+<lb />L’aſtre du iour a peu de part dans voſtre hiſtoire;
+<lb />&amp; vous auez, aßez de titres glorieux;
+<lb />Sans en chercher ſi haut, &amp; nous former des Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Impie, ils vangeront mon honneur &amp; leur gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />I'ay vécu trop long-temps pour auoir lieu d’en croire,
+<lb />S’il en eſt contre moy, qu’ils arment leur courroux;
+<lb />Pour moy ie n’en cognoy que mon amour &amp; vous.
+<lb />I'enferme on ce vuaißeau toute mon esperance,
+<lb />C'eſt mon Ciel, mon Autel, mon thrône &amp; ma puiſſance;
+<lb />Deuenu pour vous ſeule aſſaſſin &amp; voleur,
+<lb />Le but de tous les traits que lance le malheur,
+<lb />Et le plus digne obiet des flammes du tonnerre;
+<lb />Bannis de mon pays, &amp; de toute la terre,
+<lb />Infidelle à mon Prince abandonné de tous,
+<lb />Ie ne crains rien, Madame, &amp; trouue tout en vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Ah! perfide bien loin de regarder ta proye
+<lb />Auec quelques tranſports ou d’orgueil, ou de ioyes
+<lb />Sçache que ſi pour perdre un monſtre furieux
+<lb />La torre eſtoit ſans force &amp; l’vuniuers ſans Dieux.
+<lb />Et ſi pour eſcraſer cette coupable teſte
+<lb />Le ciel eſtoit ſans foudre, &amp; la mer ſans tempeſte.
+<lb />Ce qu’eſt aux grands forfaits vn remors obſtiné
+<lb />Ce que ſont les Bourreaux aux yeux d’vn condamné.
+<lb />Ce que ſont aux Enfers, aux criminelles ames
+<lb />Les roües, les rochers, les vautours, &amp; les flames,
+<lb />Ie te le ſeray traiſtre, &amp; pour mieux dire encor
+<lb />Ti trouueras en moy le vangeur d’Elpenor,
+<lb />Tu reuerras, cruel, ſon ombre en ma preſence,
+<lb />Son amourdans mon cœur, en mes mains ſa vegeancez
+<lb />Dans ma bouche animée vn reproche eternel,
+<lb />Dedans mes yeux l’horreur qu’on a d’un criminel,
+<lb />Et dant toute mon. ame vne hayne immortelle
+<lb />Pour vn voleur, vn laſche, un meutiriersunrebelle.
+</sp>
+<p type="MainZone-Other"><lb />EVRIS
+</p>
+<sp type="MainZone-Sp"><lb />EVRILOCHE.
+<lb />Portez encor plus loin ces tranſports furieux;
+<lb />Ces cœurs, ces belles mains; cette bouche &amp; ces yeux
+<lb />Que vous taſchés de rendre vn ſubiet de ma hayne,
+<lb />Le ſeront de ma ioye, &amp; non pas de ma peine
+<lb />Dans la poſſeſſion de ma diuinité....
+<lb />. .
+</sp>
+<p type="MainZone-Head"><lb />TCELE
+<lb />VII
+<lb />PERIMEDE, EVRILOCHE, PHAETVSE.
+</p>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Eigneur, le Ciel ſe trouble, &amp; ſon obſcurité
+<lb />O Pauoriſe vn vaiſſeau qui ſemble nous pourſuiure.
+</sp>
+<sp type="MainZone-Sp"><lb />A 5
+<lb />EVRILOCHE.
+<lb />A quelques traits umy que mon amour me liure,
+<lb />Ie ne puis me reſoudre à perdre vn bien ſi cher.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE s'en allant.
+<lb />O! Dieux.)
+</sp>
+<sp type="MainZone-Sp"><lb />PERIMEDE.
+<lb />Sauuez la donc, on vient vous l’arracher.
+</sp>
+<sp type="MainZone-Sp"><lb />EVRILOCHE
+<lb />CaJe Ieeeast quuomeus meespeſe
+<lb />Contre nos ennemis &amp; contre la tempeſtẽ.
+</sp>
+<sp type="MainZone-Sp"><lb />DETE
+<lb />YIII
+<lb />IVPITER au milieu des Dieux deſcend du Ciel aſfis
+<lb />ſur vne groſſe nuée.
+<lb />LE SOLEIL à meſme temps patoiſt d’vn coſté du thea;
+<lb />tre dans-vne nuë.
+</sp>
+<sp type="MainZone-Sp"><lb />IVPITER.
+<lb />V troſne où ie m’aſſis dans le plus haut des Cieux,
+<lb />I D’où ie puis commãder les hommes &amp; les Dieux,
+<lb />Ie deſcends iuſqu'à toy pour ouyrta priere,
+<lb />Mon fils, parle.
+</sp>
+<sp type="MainZone-Sp"><lb />LESOLEILI
+<lb />Aſſeuré des bonteZ de mon pens
+</sp>
+<p type="MainZone-Lg"><lb />Ie parle, &amp; quoy qu’inſtruit que ſes ſoins paternels
+<lb />Touſiours auec regret perdent les criminels,
+<lb />Plein d’vne genereuſe, &amp; iuſte confiance,
+<lb />Deſſus ces meſmes ſoins ie prens trop d’aſſeurance
+<lb />Pour croire, qu’oubliant ma naiſſance &amp; mon rant
+<lb />Il neglige vn moment la gloire de mon ſang;
+<lb />Vous cognoißeZ l’affront, &amp; cet œil adorable
+<lb />Comme ſur linnocent ouuert ſur le coupable,
+<lb />Voit vn fier rauiſſeur ſoüiller impunement
+<lb />De ſes noirs attentats l’vn &amp; l’autre element,
+<lb />Quelle bonté coupable enuers voſtre iuſtice
+<lb />Sur ce grand criminel balance le ſuplice;
+<lb />La foudre eſt inutile en vos puiſſantes mains,
+<lb />Si vous ne punißez celuy dont ie me plains:
+<lb />De ce monſtre odieux purgez, la terre &amp; l’onde.
+<lb />Et faites par ce coup iuſtice à tout le monde:
+<lb />Que ſi cet intereſt vous touche foiblement
+<lb />ne demeatruueeesudaiſpuredomnen cepeuiimem;
+<lb />Ou ſouffrez pour le moins qu’vn pere miſerable
+<lb />Retire ſes clarteZ de deßus vn coupable,
+<lb />Et d’vn ſoudain eclipſe expliquant ſon malheur
+<lb />Inuite tout le monde à vanger ſa douleur.
+</p>
+<sp type="MainZone-Sp"><lb />IVPITER.
+<lb />Ta prien eſt trop iuſte, &amp; ie me plains moy-meſme
+<lb />D’auoir eſté trop lent à vanger ce que i’ayme,
+<lb />.7
+<lb />Non qu’il faille imputer ma reſolution
+<lb />A des motifs de hayne ou de compaſſion,
+<lb />Ma iuſtice punit ſans nulle violence;
+<lb />Libre des paſſions, qui forment la vengeance,
+<lb />Elle agit d’elle meſme, &amp; d’vn esprit eſgal
+<lb />Repand ſur l’vniuers &amp; le bien &amp; le mal,
+<lb />Et de ces deux effets que ma puiſſance enuoye;
+<lb />I'en laiſſe aux ſeuls mortels, &amp; le trouble &amp; la ioye;
+<lb />C’eſt leur ſeul intereſt que ie dois eſcouter;
+<lb />C’eſt comme il faut agir, ſi tu veux m’imiter:
+<lb />Noſtre bonheur, mon fils &amp; tout ce que nous ſommes
+<lb />Ne depend des vertus ny des crimes des hommes,
+<lb />Et quand ie doy punir vn meurtrier, vn voleur
+<lb />Ie veux vanger la terre, &amp; non pas ta douleur.
+<lb />C’eſt pour vn bien commun qu’un Dieu vange vn
+<lb />omtrage5
+<lb />Et quand ma main s’apreſte à briſer ſon ouurage,
+<lb />Ie me ſers de ces bruits, qui precedent mes coups
+<lb />Pour inſtruire la terre à craindre mon courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />LE SOLEIL
+<lb />Soit pour ſon intereſt, ou celuy de marfille.
+<lb />Vangez ſans plus tarder l’honneur de ma famille;
+<lb />VoyeZ-le cet infame, auéc quels longs efforts
+<lb />Rveut forcer mon ſang à ſes laſches tranſports,
+<lb />VoyeZ d’vne autre part ſur vn char qui t'auance
+<lb />Leucoſie &amp; Circé, qui preſſent leur vengeance.
+<lb />de la neur ay promiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />IVPITER.
+<lb />Il faut te contenter,
+<lb />Ma iuſtice y conſent. Toy ſans plus t’arreſter
+<lb />On lrious cleimer de la clare ſeconde,
+<lb />Va, mon fils, enrichir l’autre moité du monde.
+</sp>
+<p type="MainZone-Head"><lb />9
+<lb />CEEVETA
+<lb />CIRCE', LEVCOSIE dant vn char volant.
+</p>
+<sp type="MainZone-Sp"><lb />CIRCE'
+<lb />Es orages ſoudains &amp; ces bruits eſtonnants
+<lb />Ces vents impetueux,ces eſclairs ſurprenans
+<lb />Du Dieu iuſte &amp; vangeur annoncent la venuë.
+<lb />3
+<lb />Tombe foudre en ſes mains trop long-temps retenué,
+<lb />Tombe à la voix du ſang, qu'vn traiſtre a ſçeu verſer;
+<lb />Tombe aux cris d’vne, ſœun, qu’amn tmiſtre veut
+<lb />forcen
+<lb />jVR..i 2C.23.
+<fw><lb />No2.9.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Tombe aux iuſtes douleurs d’vne amante abuſée.
+<lb />Mais la perte du traiſtre eſt bien plus mal aiſée,
+<lb />Il eſt deſia ſi loin qu’il eſchape à mes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE.
+<lb />Levit-Il ne peut eſchaper aux vengoances des Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />2.
+<lb />Mais que né nous font-ils iouyr de ſon ſuplice!
+<lb />S’il perit loin de nous, qu’importe, qu’il periſſe
+<lb />L’outrage reſte entier au cœur &amp; ſur le-front,
+<lb />Si l’on ne voit perir celuy qui fait l’âffront.
+<lb />Ceux que nous receuons ſont de telle nature,
+<lb />Que le Soleil trop lent à vanger noſtre iniure,
+<lb />Quoy qu’il nous ayt promis ſemble la negliger,
+<lb />Il faut ſauuer ma ſœur, autant que me vanger;
+<lb />Le temps preße; acheuons cette illuſtre vengeance,
+<lb />Si ſur c'et element s’eſtend voſtre puiſſance;
+<lb />Dans ces lieux eſteules,dans le milieu des airs
+<lb />Dont les Dieux en courroux ſoudroyent l’vniuers;
+<lb />Dè ces noires vapeurs formeZsvous un tonnerre;
+<lb />La ente preſte aà Gel dequoyν punir la terre.
+<lb />NNS ſeNN TNI. uels Fuæ 'ullument dan la nuitt
+<lb />Quel trpuble! quel eſclat! quel deſordrel quol bruit!
+</sp>
+<p type="MainZone-Head"><lb />CENE
+<lb />X
+<lb />IVPITER ſoitant du Ciel aſſis ſur ſon aigle &amp; lançant la
+<lb />foudre ſur le vaiſſeau d’Eutiloche s’adreſſant à
+<lb />Circé &amp; à Leucoſie.
+<lb />Imphes voicy le coup qui vous fera iuſtice
+<lb />NVous pouuez maintenant iouyr de ſon ſuplice.
+</p>
+<p type="MainZone-Head"><lb />CENE
+<lb />X I
+<lb />LEVCOSIE, CIRCE'.
+</p>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Vels ſeux Iquels feux de ioye en cet embraſement?
+<lb />Mais quelle peur ſuccede à mon reſſentiment?
+<lb />Grand Dieu: ſauueZ ma ſœur.
+<fw><lb />211
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Ah! ce penſer ie tremble:
+<lb />Pitnt tuigeance? ô Dieux! s’ils periſſent enſemble.
+<lb />Mais qui peut la ſauuer de la flame ou de l’eau,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Dieux qu’eſt-ce que ie voy? Quel ſpectacle nouueau?
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE.
+<lb />O! prodige inoüy, ſi mon œil ne m’abuſe,
+<lb />Ie voy ſur vn Duuphin triompher Phaëtuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Ouy, ouy, c’eſt elle meſme, allons la receuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />Phaëtuſe eſt-ce vous?
+<lb />IRCE.
+<fw><lb />l . .
+</fw></sp>
+<p type="MainZone-Other"><lb />SCRNE
+</p>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />PHAETVSE, CIRCE', LEVCOSIE.
+<fw><lb />PHAETVSE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />VOus puis-je encor reuoir?
+<lb />Vous vcyez par quels ſoins les Dieux m’ont protegée,
+<lb />Il eſt mort l’execrable &amp; ta fille eſt vangée,
+<lb />Soleil, ſi ton ſecours auoit eſté moins prompt
+<lb />Vne honte eternelle alloit rougir mon front.
+<lb />Ny l’horreur du forfait, ny la peur du ſuplice,
+<lb />Ny ſon vaiſſeau ſuiuy par le vaiſſeau d’Vliſſe.
+<lb />Ny la fureur des flots ne pouuoit arreſter
+<lb />Ce laſche, dont la rage oſoit tout attenter,
+<lb />Pour mettre ſes deſſeins &amp; ſon espoir en poudre
+<lb />Il n’en falloit pas moins que l’eſclat d’vne foudre,
+<lb />Aux furieux tranſports d’vn laſche rauiſſeur
+<lb />Elle ſeule pouuoit arracher mon honneur.
+<lb />C’eſt par là que les Dieux ont conſerué mã gloire,
+<lb />Mais par vn autre ſoin qu'à peine on pourra croire,
+<lb />Sur le poinct que la foudre embraze le vaiſſeau
+<lb />Au poinct qu’il va perir &amp; s’abiſmer dans l’eau,
+<lb />Ce Dauphin s’offre à moy ſi proche du nauffrage,
+<lb />Et me ſautte dut fen, des ſois O de torage.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Auons de tant de ſoins rendré graces aux Dieux,
+<lb />Toy prens place en mon char, &amp; ſortons de ces lieux,
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE au Dauphin.
+<lb />Va, mon liberateur, ainſi puiſſe ta vie
+<lb />Des monſtres de la mer euiter la furie.
+</sp>
+<sp type="MainZone-Sp"><lb />CIRCE'.
+<lb />Mes ſœurs puiſque le ſort nous oſte nos amants
+<lb />Reprenons toutes trois nos premiers ſentimens;
+<lb />Pour affranchir nos cœurs de ces malheurs extremes
+<lb />Viuons ſans paſſions, &amp; Reynes de nous-meſmes.
+</sp>
+<sp type="MainZone-Sp"><lb />PHAETVSE.
+<lb />Puis qu'Elpenor eſt mort, nul ne peut dignement
+<lb />Apres vn tel heros ſe dire mon amant
+<fw><lb />RAGICEMDDIE.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEVCOSIE.
+<lb />Moy, qui preſumois trop d’vn traiſtre &amp; d’vn coupable
+<lb />Ie hay ſon ſexe autant qu’il me parut aymable.
+</sp>
+<sp type="MainZone-Sp"><lb />FIN.
+</sp>
+<p type="MainZone-P"><lb />P24.V.16. bleſſe, liſez belle: p.25.v.7. deſſeins, liſez deſtius : P 30.v.3. puiſque oe;
+<lb />liſez ou puiſque: P.13.V.3.nos, liſez vos:P ε3.ν.9. pretend, liſez prétent:p.5o.v.y iettent,
+<lb />liſez iettez:p.Go.V.I.ſur priſe, liſez entrepriſe:f.6..v.ii douleut foite, liſez itop fortet P<lb />71.v.a. nous, liſiz vous:ꝑ 84. ccuuert, lijez cor certé:p.3ς.v.13-vœux,liſ.Jeux.P.47.V.Ie
+<lb />iettans, liſ.i'autans:p.91.v.17.ſuis,liſ finis:P.59. v-3·ſi la ſœut, liſ. fi la Reyne P.101.V.e
+<lb />que moy-meſme, liſ.qu’à moy-meſme, v.9 veiller,liſ.cueillit.1.7.derleur, tiſ. doncen
+<lb />207.*5 nous, liſ.1ou.. P.117.7.4.ſoupire, liſ.qui ſonpire,
+<fw><lb />R
+</fw><fw><lb />E.
+</fw></p>
+<p type="MainZone-P"><lb />Contraste insuffisant
+<lb />NF Z 43-120-14
+<fw><lb />E.
+</fw></p>
+<p type="MainZone-P"><lb />Contraste insuffisant
+<lb />NF Z 43-120-14
+</p>
+    </body>
+  </text>
+</TEI>

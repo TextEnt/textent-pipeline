@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Rochelois [i. e. Rocheloise] tragedie . Où se voit les heureux succez &amp; glorieuses victoires du roy tres chrestien Louys XIII, depuis l'advenement de Sa Majesté à la couronne de France, jusques à present. Par P. M.</title>
+        <author></author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb33590635t"/>
+          <author>
+            <persName></persName>
+          </author>
+          <title>La Rochelois [i. e. Rocheloise] tragedie . Où se voit les heureux succez &amp; glorieuses victoires du roy tres chrestien Louys XIII, depuis l'advenement de Sa Majesté à la couronne de France, jusques à present. Par P. M.</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1629" cert="high" resp="BNF">1629</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />
+<lb />5
+<fw><lb />{–--
+<lb />T
+</fw></p>
+<p type="MainZone-P"><lb />Source gallica.bnffr (Bibliothèque nationale de France
+<fw><lb />à
+<lb />Mmayς
+<lb />LA
+<lb />ROCHELOIS
+<lb />TRAGEDIE.
+<lb />Où ſe voit les heureux ſuccez &amp; Glorieu<lb />ſes Victoires du Roy Tres Chreſtien
+<lb />LOVYS XIII. depuis l’aduenement
+<lb />–
+<lb />de ſa Majeſté à la Couronne de
+<lb />E
+<lb />France, juſques à preſent.
+<lb />
+<lb />Par P. M. C.-..
+<lb />4CO. ELTR.
+<lb />M.50 66
+<lb />Na cmne cemenmmou
+<lb />A IROTES,
+<lb />Chez IEAN IACQVARD.
+<lb />---- mn
+<lb />Iouxte la copie Imprimée à Rouen.
+</fw></p>
+<sp type="MainZone-Sp"><lb />M. DC. XXIX.
+<lb />Auec Rermißion.
+</sp>
+<p type="MainZone-Head"><lb />ACTEVRS.
+<lb />L’Ange Conſeruateur de la France.
+</p>
+<p type="MainZone-Entry"><lb />Le Roy.
+</p>
+<p type="MainZone-Entry"><lb />euouicmarnl doRoy,
+</p>
+<p type="MainZone-Entry"><lb />Cardinàl de Richelieu.
+</p>
+<p type="MainZone-Entry"><lb />Comte Chombergt.
+</p>
+<p type="MainZone-Entry"><lb />Le Chœur de la Rochelle.
+</p>
+<p type="MainZone-Entry"><lb />Trouppe des Anglois.
+<lb />..
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER
+<lb />SOEMD 15
+</p>
+<sp type="MainZone-Sp"><lb />L’Ange Conſeruateur de la France.
+<lb />R Trois, &amp; quatte fois, malheureuſe Clté,
+<lb />Que tu meritois bien que le Ciel irrité
+<lb />Flt greſler deſſus toy ſon puniſſable foudre
+<lb />MeFit voir tes Bouleuards broyez comme la
+<lb />poudre,
+<lb />Et que ſeruant aux tiens de funeſte flambeau
+<lb />Il enfermaſt ton Nom pour iamais au Tombeau
+<lb />Quelle Troye fameuſe aux arts de Mars inſtruite
+<lb />A ſamais merité le mal que tu merite,
+<lb />Quelle grande Babel effroy de l’Vnluers,
+<lb />Quelle Sodome illuſtre en Citoyens peruers,
+<lb />Mais quelle Hierlco de Dieu exterminée
+<lb />Ont iamais deſeruy, ô Ville inſortunée,
+<lb />Les luſtes chiſtimens que tu vas meritant
+<lb />υ'
+<lb />c
+<lb />Pour la Rebelllon de ton peuple inconſtaut.
+<lb />xa-ap-va
+<lb />acine?.,
+<lb />Qul aueuglé d’orguell &amp; remply d’arrogauce:
+<lb />A oſé courroucer l’Alcide de la France,
+<lb />Ouy? meſpriſer les vœux, contrepointer les Lolx;
+<lb />Du Iupiter qui ſied ſur l’Olympe François:
+<lb />Pour qui le Tout puiſſant arme de feux ſa dextre,
+<lb />A ij
+</sp>
+<p type="MainZone-Lg"><lb />Pour qui le Clel aſtré fait ſes éclairs pareſtre,
+<lb />Et pour qui les Eſprits (ſaincts Helmes) des humains
+<lb />dant ſa Majeſté ont les armes aux mains,
+<lb />atale Rochelle, ô Hriy deſolée
+<lb />auols-tu les yeux, quand tu fus conſeillée
+<lb />leuer le talon contre ton propre Roy,
+<lb />rahiſſant la raiſon, le droſct, les Loix, la foy,
+<lb />Deuois-tu irrlter vn Louls debonnaire?
+<lb />Deuois tu attiſer la flambante colere
+<lb />D’vn grand Roy qui pouuoit ſous ſon bras t’eſtouffer,
+<lb />Et corrlger les tiens de ſes ver ges de ſer:
+<lb />Qui pouuolt rediger à la baſſeur des herbes
+<lb />Tes Forts, tes Baſtions, &amp; tes places ſuperbes:
+<lb />Combler de tes Remparts tes auides foſſez,
+<lb />Faire nager au ſangtes ſoldats ja laſſez,
+<lb />Meurtrir tes Citoyens, leurs enfans, &amp; leurs femmes
+<lb />De famine agitez, renuerſer ſous les lames:
+<lb />Et faire que ton ſein fut pout tes valns efforts:
+<lb />Vn deluge de ſang, &amp; vn charnier de morts,
+<lb />Mais ce iuſte Ariſtide, Arc-boutant de la France
+<lb />Se veut eterniſer en vſant de clemence
+<lb />M
+<lb />υ<lb /> els vile v lhe Mhrace,aiis qua sadassiis.
+<lb />De LOVIS DE. BOVR RON ſoit cher le ſouuenir.
+<fw><lb />
+<lb />-
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />Le Roy, Monſieur frere du Roy, Cardinal
+<lb />de Richelieu, le Comte de Chomberg.
+<lb />Le Roy.
+<lb />Capltale d’Aulnix, Rochelle imperleuſe,
+<lb />Peplniere d’erreur, Ville ſeditleuſe,
+</p>
+<p type="MainZone-Lg"><lb />Ie pouuois juſtement te falre à coup ſentir
+<lb />Ce que vaut le remord d’vn algre repentir:
+<lb />Ie pouuois te monſtrer combien Il eſt à cralndre
+<lb />De meſpriſer vn Roy, dont le bras peut attaindre
+<lb />Au milieu des combats enchalnant le deſtin
+<lb />Ce qui eſt ſous le Ciel de plus braue &amp; mutln,
+<lb />Vous m’auiez fait fermer les verroux de voz portes,
+<lb />Vous aujez offencé mes royalles Cohortes
+<lb />Et fait contre moy-meſme eſleuer les Anglois
+<lb />y x
+<lb />.2-CozA UHsJIeτυλC.σSP<lb />Mais Dleu lé puiſſant Dieu quſ combat pour les Roys,
+<lb />Et les va ſlluſtrant de Couronne &amp; de Sceptre,
+<lb />Vous à falt eſſayer la force de ma dextre,
+<lb />Puis que vous deſiriez eſprouuer la vertu
+<lb />D'vn Roy qui fut armé auſſi toſt que veſtu,
+<lb />Et qui n’euſt le pourpoint pluſtoſt que la cuiraſſe,
+<lb />Conmie ont fatt mes Ajeuix qui portoiene ſur la facc
+<lb />La terreur de Mauors, de Ceſar le bon-heur,
+<lb />La vaillance d’Aleide, &amp; d’Auguſte l’honneur.
+</p>
+<p type="MainZone-Lg"><lb />Iu-
+<lb />Cardinal de Richélieu.
+<lb />Cét Hannibal François, cét inualncu Pompée
+<lb />p<lb />Dont vous eſſes extraict, n’euſt pas pluſtoſt l’eſpée
+<lb />Pour ſçauoir comme il faut la porter en ſoldat,
+<lb />Quine la fiſt paroiſtre au mllieu du combat,
+<lb />Mais la mort rauiſſant ce genereux Perſée:
+<lb />On ne vous la s’y toſt ſur le coſté poſée,
+<lb />Pour ſçauoir comme il faut s’en ſeruir aux hazards
+<lb />Qu’elle n’ait flamboyé dedans le champ de Mars
+<lb />Tant de braues exploits, tant de guerres ciuiles,
+<lb />De rencontres, d’aſſauts, &amp; de ſieges de Villes,
+<lb />Ou vous auez paru entre tant de Guerriers:
+<lb />Auec vos ieunes ans ont germé les lauriers,
+<lb />Et les palmes d’honneur qui vous ornent la teſte.
+</p>
+<sp type="MainZone-Sp"><lb />Monſieur Frere du Roy.
+<lb />'eſclat de voſtre Nom eſt comme vne tempeſte
+<lb />l écraſe le chef des rocs a mbitleux,
+<lb />ui font gemir la tetre, &amp; menacent les Cleux,
+<lb />u ainſi qu’vn Torrent échappé des montaignes
+<lb />Qui porté de fureur par les vaſtes Campaignes
+<lb />Entraine, perd, &amp; noye au milieu de ſes eaux
+<lb />Les arbres, les moiſſons, les paſtres, &amp; trouppeaux,
+<lb />L’effect, (enfant Royal) de voſtre grand courage
+<lb />Aux Slecles aduenir en rendra teſmoignage,
+<lb />Alors qu’aux Champs Gaſcons par les deſtins amis
+<lb />Vous miſtent ſous vos pleds tout autant d’ennemis
+<lb />Qui leuerent le front plains d’ardeur obſtinée
+<lb />Pour culder empeſcher voſtre ſalnct Hymenée.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />N’ay-ie pas veu depuis par vn triſte meſchef,
+<lb />Et vn Hydre portant ſept teſtes ſur le chef,
+<lb />Toute la Picardie en-vurlen allarmée.
+<lb />Et Peronne, Noyon, &amp; Soiſſons renommée,
+<lb />Plelnes de feu, de fer, de ſang, d’horreur, d’effroy.
+</sp>
+<sp type="MainZone-Sp"><lb />Comte Chombergt.
+<lb />Il m’en ſouuient encor quand vn traſtre ſans foy
+<lb />Abuſant ſans reſpect de voſtre nom Auguſte,
+<lb />Ne ſe faiſoit pas voir moins perfide qu’injuſte
+<lb />Aux fidelles Heros du Royaume François,
+<lb />Qu’il voulolt eſclauer ſous le frelnde ſes Loix,
+<lb />Lors que le Ciel beuln qui voyoit ſa malice,
+<lb />Sa fraude, ſes deſſeins, ſon maſqué artifice,
+<lb />Fit choir ce.Phaëton (aueugle en ſon orgueil)
+<lb />Du plus haut de ſa gloire au profond du cercueil.
+<fw><lb />Le Roy,
+<lb />1
+<lb />
+</fw><fw><lb />5
+<lb />8
+</fw></sp>
+<p type="MainZone-Lg"><lb />Les fidelles François auront touſiours memolre
+<lb />Comme eſtant paruenu de la cendre à la gloire,
+<lb />Son cœur &amp; ſes projects par trop ambitletx
+<lb />L'ont fait choir de la gloire aux Paluds ſtygieux,
+<lb />Mals ce broülllard paſſé, vn plus cruel orage
+<lb />Menace derechef la France de naufrage,
+<lb />Ie delaiſſe Paris, l’arrlue dans Rouen,
+<lb />*α*
+<lb />Dieppe trouble ſon calme, &amp; le Chaſteau de Caen, &amp;
+<lb />Semble ſe retirer de mon obeiſſance:
+<lb />Mais luy voulant monſtrer quelle eſtoit ma puiſſance,
+<lb />Et que pour ſon ſuject l’auois pris le harnois,
+<lb />Apres auoir quitté le peuple Rouennois:
+<lb />Comme vn autre Ceſar qui ſe plaiſt à la peine,
+<lb />Ie m’embarque auſſi toſt ſur le fleuue de Seine,
+<lb />Qui ſe va pres le Hâure engouffrant dans la Mer:
+<lb />De ſorte que paſſant par le Pontaudemer,
+<lb />Honfleur, Dyue, Equoullle, &amp; mainte belle place,
+<lb />Ie comparus à Caen veſtu d’vne Cuiraſſe,
+<lb />Ou le Caſque en la teſte, &amp; l’Eſpée au coſté,
+<lb />Ma perſonne ſut volr ce Chaſteau reuolté,
+<lb />Qui chiangea tout à coup de cœur &amp; de courage,
+<lb />Aux Auguſtes aſpects de mon Royal vlſage,
+<lb />De là, ſans redouter mille éminents dangers,
+<lb />Ie remis en deuolr Dreux, Alençon, Angers,
+<lb />Sans manquer d’emporter vne heureuſe victolre
+<lb />Proche le Pont de Sé que Ceſar fit ſur Loire
+<lb />Ayant eu ce bon-heur en l’Auril de mes ans
+<lb />D’auoir vaincu Ceſar &amp; ſes Soldats vaillans,
+<lb />Cardinal de Richelieu.
+<lb />Slre, la renommée entonne vos loüanges
+<lb />De ſa trompe d’Alrain, iuſqu’aux peuples Eſtranges
+<lb />Qu'Alexandre le Grand ne conqueſta iamais,
+<fw><lb />que le Cynthien n’eſchauffe de ſes rais.
+</fw></p>
+<p type="MainZone-Lg"><lb />Le Roy.
+<lb />’honneur en ſoit à Dieũ &amp; non pas à moy-meſme,
+<lb />ar comme il va gardant des Roys le Dladeſme,
+<lb />Le Sceptre, la Couronne, &amp; fait florir leurs Loix,
+<lb />Il doit eſtre honoré auec reſpect des Roys,
+<lb />Les Roys ſont ſes mignons, il eſt ſeul leur deffence,
+<lb />Et velllant deſſus eux veut qu’onne les offence,
+<lb />Penſez-vous que ſans luy (endoſſant le harnois)
+<lb />Lors que le me fis voir dans les Champs Bearnois,
+<lb />I’euſſe peu emporter cette belle Victoire,
+<lb />Qui rend mon Nom Illuſtre au Temple de Memolre,
+<lb />Que i’euſſe tant de fois ſur l’humide Element,
+<lb />Les peuples d’Alblon vaincu honteuſement,
+<lb />Peuples qui dans la France eſperant leur fortune
+<lb />Ont eu pour monument les gouffres de Neptune
+<lb />Ains qui penſant l’Aulnix prendre en leurs ameçons
+<lb />Ont ſeruy de repas aux auides Poiſſons,
+<lb />Ont veu leur Bouquinquant chery de leur Monarque,
+<lb />Et les plus Grands des leurs, eſclaues de la Parque,
+<lb />Non, non, fay donc grand Dleu que cét Ange inualncu,
+<lb />Par qui Sennacherib veld tout ſon Camp valncu,
+<lb />M’alſiſte à déoeller celte luperbe place,
+<lb />Qui ſe rend reſiſtant indigne de ma grace,
+<lb />Mais elle n’en peut plus, vains luy ſont ſes efforts
+<lb />Dieu combattant pour moy enfait vn champ de morts,
+</p>
+<sp type="MainZone-Sp"><lb />Ccote Chombergt.
+<lb />Premier que le Soleil voye la Peleïde,
+<lb />Voſtre bras domptera ceſte Place perfide,
+<lb />L’Anglois eſt las de guerre, &amp; l’homicide falm
+<lb />Luy faiſant mal aux dents la tient des ja en frain.
+</sp>
+<p type="MainZone-Other"><lb />ACTE
+<fw><lb />4
+</fw><fw><lb />ACTE SECOND.
+<lb />SCENE I.
+<lb />Chœur de la Rochelle, Trouppe
+<lb />des Anglois.
+<lb />Chœur de la Rotneut.
+</fw></p>
+<sp type="MainZone-Sp"><lb />VXI. meſchef eſt cecy? quel Dleu, quel Clel,
+<lb />quels Aſtres
+<lb />Verſent deſſus nos chefs de ſi ſanglants deſaſtres,
+<lb />Quelle fatalité nous ourdit ces malheurs,
+<lb />Quel rlgoureux deſtin nous trame ces douleurs:
+<lb />Hé quoy? nous eſperions que l’Alcide de France
+<lb />Voy ant noſtre valeur, voyant noſtre deffence,
+<lb />Fiſt retlrer ſon Camp, &amp; ſes gens aguerris
+<lb />Pour aller hyuerner dans ſon royal Paris:
+<lb />Mais noſtre eſpoir eſt vain, ce Phœnix des Monatques
+<lb />Veut dans ceſte Cité laiſſer de triſtes marques
+<lb />De ſa Rebellion, pour morſtrer aux Françols
+<lb />Qu’il ne faut irriter la grandeur de ſes Roys,
+<lb />Las! c’eſt fait, à nos pleds ſont tombez nos courages,
+<lb />Nous ne voyons ſinon que les triſtes images
+<lb />De l’effroy, de la faim, de la paſle Antropos
+<lb />Qui trouble de nos gens le repos ſans repos,
+<lb />Maudit ſoit le conſell, le jour, l’heure fatale,
+<lb />&amp; n<lb />qüite fiſt teſmoigner à ton Roy deſloyale,
+<lb />Maudits ſolent les Autheurs de qui l’ambition,
+<lb />Fiſt ſortir les Anglols de l’iſle d’Albion,
+<lb />Angloís qui deſ-ancrants de leur moite riuage
+<lb />B
+<fw><lb />6.
+</fw><lb />Enflez d’vn vain eſpoir, pippez d’vn doux langage
+<lb />Cuidoient tous les Françols inhumer dans les eaur
+<lb />A l’orgueilleux aſpect de leurs faſtes Vaiſſeaux:
+<lb />Mais qui battus en fin de l’Ange de la France
+<lb />N’ont receu que des coups pour toute recompence,
+<lb />N’ont eu que du dommage, &amp; vn inſigne affront
+<lb />qui eternellement reſtera ſur leur front,
+<lb />Pour auoir ſelllonnans les ondes de Nerée
+<lb />Rompu (premiers) la paix ſi ſal nctement jurée,
+<lb />Et attaqué vn Roy en l’Auril de ſes jours
+<lb />Q i’Hymenée obligeoit à aider du ſecours,
+<lb />Taduſſe les Anglois faut celer ma complainte
+<lb />Et maſquer ma douleur d’vne apparence felnte.
+</sp>
+<p type="MainZone-Lg"><lb />Trouppe des Anglois.
+<lb />que vous ſert Citoyens de vouloir plus tenir
+<lb />A pelne vos ſoldats ſe peuuent ſouſtenir,
+<lb />Nous ſommes traualllez de fatigue &amp; famine,
+<lb />L’air, la terre, &amp; la mer jurent noſtre ruine,
+<lb />Vos poudres &amp; boulets vont tirant à la fin
+<lb />Le Clel &amp; les humalns, les Aſtres le deſtin
+<lb />Combattent contre nous &amp; le Dieu des batailles
+<lb />qui ladis protegolt l’encelnt de nos murallles,
+<lb />Semble ( n’entendre plus) pour nos crls eſcouter,
+<lb />Les oyſeaux meſmement ſemblent ſe reuolter:
+<lb />A l'encontre de vous, pour falre la vengeance
+<lb />De ce que vous tenez contre le Roy de France,
+<lb />Voſtre Roy ſouuerain, qui peut tres juſtement
+<lb />Faire voſtre Cité ſeruir de monument.
+</p>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Ne nous failloit-il pis à ſet braues Cohortes
+<lb />Fermer de la façon nous inuincibles portes,
+<lb />Nous fuſſions-nous rendus en ſes Royales mains
+</sp>
+<p type="MainZone-Lg"><lb />Veu les deportemens, &amp; les faits inhumaſns
+<lb />que l’on à ſans pitié exercez à la veuë
+<lb />Des Bourgeois d’Angely qui humble s’eſt renduë?
+<lb />La ville de Clerac enceinte de marets,
+<lb />La ville d’Alblac, Cheyſar en Viuarets,
+<lb />N’ont-ils pas eſprouué la meſme vlolence,
+<lb />quelle fidelité, qu’elle ferme aſſeurance
+<lb />Aurions-nous donc au Roy, puls qu’il ſaccage ainſi
+<lb />Les Citez qui ſe vont rangeant à ſa mercy.
+<lb />Trouppe des Anglois.
+<lb />Il n’a pas gouuerré ainſi toutes les Villes,
+<lb />Celles qui n'ont eſté vers ſes ſoldats hoſtilles,
+<lb />Ains qui ont apporté auec humllité
+<lb />Les clefs de leur enceint deuant ſa Majeſté,
+<lb />Ont eſté protegez, &amp; traffiquent ſans crainte
+<lb />Saumeur, Bergerac, Pont, Nlort, Marennes, Xalncte,
+<lb />Et tant d’autres Citez, &amp; de Villes de nom
+<lb />qui n’ont point enduré les coups de ſon canon,
+<lb />N'ont des forts Plonnlers eſté demantelées
+<lb />Leurs Tours miſes à bas, leurs maiſons deſolées,
+<lb />Leurs Portaux abbattus, ny leurs grands Bouleuards
+<lb />Eſprouué la fureur d’vn monde de ſoldats.
+<lb />Chœur de la Rochelle.
+<lb />quoy? &amp; ceſte Cité pour s’eſtre rebellée,
+<lb />Court-elle riſque auſſi d’eſtre démantellée.
+<lb />Trouppe des Anglois.
+<lb />Il n’en faut point douter ſi le Roy l’a d’aſſaut
+<lb />Alnſi comme Angely elle fera le ſaut.
+<lb />Chœur de la Rochelle.
+<lb />Mais n’vſeroit-il point vers elle de clemence.
+<fw><lb />Trouppe des Anglois.
+</fw><fw><lb />2
+</fw></p>
+<p type="MainZone-Lg"><lb />Trouppe des Anglois.
+<lb />Depuis que noſtre Flotte ancra proche de Ré
+<lb />Pour l’emporter d’aſſault, c’eſt vn poinct aſſeuré
+<lb />que quelques Deitez, ou Puiſſances Celeſtes
+<lb />Nous ont touſiours eſté dans les combats funeſtes,
+<lb />Ce nous eſt vn prodlge, &amp; vn eſtonnement
+<lb />D’eſtre cinq ou ſix fois vaincus ſi laſchement:
+<lb />Mais quoy? que voulez-vous c’eſt la chance des armes
+<lb />oul vaincus &amp; vainqueurs peut rendre les Gendarmes,
+<lb />C’eſt Dieu qui ne veut point que les Scadrons Anglois
+<lb />S’aillent émanciper deſſus les Champs François,
+<lb />Ne vous ſouulent-il point lors que la race Angloiſe
+<lb />Partageoit à demy la Coronne Françolſe,
+<lb />quelle tenoit Roüen, Parls, Bourdeaux, Poictiers,
+</p>
+<p type="MainZone-Lg"><lb />Elle à trop teſmolgné quelle eſt ſon impudence
+<lb />Il n’y à plus vers luy pour elle de pardon,
+<lb />Il n’en failloit laiſſer écouler la ſaiſon,
+<lb />Pour extorquer de luy aiſément cette grace,
+<lb />Il falloit moins auoir de ſuperbe &amp; d’audace,
+<lb />Ninconmoder tonoampue mmctour denoyal
+<lb />Et n’attendre les coups de ſon canon Royal.
+<lb />Chœur de la Rochelle.
+<lb />Nous aulons noſtre eſpoir aux forces d’Angleterre,
+<lb />Nous penſions emporter l’honneur de ceſte guerre,
+<lb />Et les Scadrons du Roy peu à peu conſommer,
+<lb />Mals en valn l’on vous tlent pour les Dieux de la Mer
+<lb />Et preſcrlre les Lolx à l’orageux Neptune,
+<lb />Puls que changeant à coup voſtre bonne fortune,
+<lb />Il à ſes gouffres creux cachez deſſous les eaux
+<lb />Aux plus fougueux de vous fait ſeruir de tombeaux,
+<lb />Et de vos grandes Nefs fal: vn ſi grand carnage
+<lb />que le debris s’en vold en malnt loingtain rluage?
+</p>
+<p type="MainZone-Lg"><lb />Que la terre ployoit deſſous ſes Cauallers,
+<lb />Quel peuple n’euſt iugé que deſſous la Tamiſe
+<lb />On alloit voir la Seine au cours d’argent ſoumiſe,
+<lb />Et que les preux François des malheurs aſſaillis;
+<lb />Alloient voir allier à la Roze les Lys,
+<lb />Toutesfois Dleu prenant pitlé de cét Empire,
+<lb />Qu’il ne deſiroit pas totalement deſtruire:
+<lb />Fit-il pas les Anglols plelns de preſomption
+<lb />Ramer en petlt nombre en l’iſle d’Alolon,
+<lb />Suſcltans aux François vne chaſte Pucelle
+<lb />Qui d’vn cœur Martial de ſa clairé allumelle
+<lb />Au rencontre aux aſſ iuts dans l’horreur des combats
+<lb />Mettoit les plus hardis de nos Scadrons à bas,
+<lb />De ſorte que ſon bras aux coups infatlgable
+<lb />Comme vne autre Amazone aux armes ſans ſemblable,
+<lb />Fit leuer noſtre Camp de deuant Orleans,
+<lb />Lors que preſque il eſtoir ſurpris dans nos llens,
+<lb />Mena Charles ſeptieſme à Relms prendre ſon Sacie,
+<lb />Et fit de nos ſoldats vn ſi ſanglant maſſacre
+<lb />que nos preux Paladins de Mars meſnie cherls
+<lb />Furent vn peu apres chaſſez hors de Parls,
+<lb />Il eſt vray que ſurpriſe en certaine ſortle
+<lb />Elle fut dans Roüen bruſlée en vn buſcher
+<lb />Cuidant noſtre malheur par ſa mort empeſcher,
+<lb />Mais ſon cœur auſſi pur qu’auoit eſté ſon ame
+<lb />Ne peuſt iamais bruſler au milieu de la flame,
+<lb />Iugez donc maintenant ſieſtans aſſiegez,
+<lb />De la faim, de la moti, ce la pente aiiuger,
+<lb />Nous ſommes en eſtat de conqueſter la France,
+<lb />Non, non, ayons pluſtoſt recours à la clemence
+<lb />De ce grand Mars François, rendons luy la Cité
+<lb />Afin d’en diſpoſer ſelon ſa volonté,
+<fw><lb />t-
+<lb />
+<lb />3
+<lb />ccu -σmaSœEmæEE¬"
+<lb />4
+<lb />ampoireq
+</fw><lb />Car le ſuls tres-certain qu’entendant noſtre enuie,
+<lb />Mneusisdomcia d ley dens eeMvl.
+</p>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Puis que le Roy Anglols à deſia falt ſa Paix
+<lb />Enuers ſa Majeſté, il eſt remps deſormais
+<lb />D'implorer ſa bonté, &amp; ſa miſericorde.
+</sp>
+<sp type="MainZone-Sp"><lb />Trouppe des Anglois.
+<lb />Volre, qui ne voudra ou le feu, ou la corde.
+<fw><lb />Chœur de la Rochelle.
+<lb />Mais las! voudra-il bien nos Maires eſcouter?
+<lb />Trouppe des Anglois.
+<lb />Ouy, mois deueisio) quenuee vho depucest
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTE TROISIESME.
+<lb />Le Noy, Cardilarde Rieheneu, Monſieur
+<lb />Frere du Roy, Comte de Chomberg.
+</p>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />Omme i’ay trlomphé dans les champs de Bearn,
+<lb />De Pau, de Nauarin, d’Ortez, &amp; de l’eſcart,
+<lb />De Gyen, de Gergeau, d’Argenton, de Sancerre,
+<lb />De Cleron, de Tourax, Momon, &amp; Sauueterre,
+<lb />Comme chez les bretons i’ay dompté Toſſelin,
+<lb />Et tint en leur deuoir, Pouton, Vitré, Bellin,
+<lb />Comme i’ay ſubjugué paſſant par la Guyenne,
+<lb />Aſſiſté iour &amp; nuict du grand Duc de Mayennes
+<lb />ma- t ds e e
+<lb />Saincte Foy, &amp; Puyncel, Vauguyon, Bergerac,
+<lb />A
+<lb />L'Iſle Iourdain, Tournon, Mont-flanguin, la Tenniere,
+<lb />Nerac, Neilaux, Caſtez, &amp; d’vne ame guerriere
+<lb />Lectoure, Faurlol, Mont de Marlan, Mont-lieuf,
+<lb />La haute Tour de Brlue, Tallemont, &amp; Saumeur,
+<lb />Niort, Chaumont, Royan, Cardillac, &amp; Sainct Gilles,
+<lb />Fontemy, Alblac, &amp; pluſieurs autres Vllles,
+<lb />Sauober velsse ocea du cossa duundos
+<lb />Qui penſolt obſeurcir la grandeur de mon Nomi.
+</sp>
+<sp type="MainZone-Sp"><lb />Cardinal de Richelieu.
+<lb />Vous la verrez en bref en vos mains pour offrande,
+<lb />Ce n’eſt plus qu’vn deſert, la Digue leur commande,
+<lb />Leurs Anglois font recreus, la poudre leur deffaut,
+<lb />N’eſt- ce pas le moyen de l’auoir ſans aſſaut.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />Ses Eſcheuins touchez de leur propre inſolence,
+<lb />Sont ja venus vers moy implorer maclemence,
+<lb />Me prlant de garder la Rochelle de ſac,
+<lb />Ie les ay renuoyez au ſeur de Marillac,
+<lb />Et au ſieur du Hallier nes Mareſchaux d’armées,
+<lb />Pour toutes choſes rendre amplement confirmées,
+<lb />Ils auolent le Gibet &amp; le Feu merlté
+<lb />Pour ſeruir de memoire à la Poſterité,
+<lb />Ie deuois démolir cette orgueilteuſe Place
+<lb />Et dedans ſa pouſſiere atterrer ſon audace,
+<lb />Voire y ſemer du ſel unſi qu’vn Empereur
+<lb />Fit jadis à Milan, emporté de fureur,
+<lb />Mals les Roys, les bons Roys n’ont le cœur ſanguinaire,
+<lb />Ains pardonnent l'offence au groſſier populalre,
+<lb />Sans le voulolr noyer dans vnfleuue de ſang,
+<lb />Ou l'aller pat le fer &amp; le feu eſtouffant.
+<lb />Monſieur Frere du Roy.
+<lb />Les Roys ſont honorez qui vſent de clemence,
+<lb />Hé, quand blen vous aurlez offert à la vengeance
+<lb />Ces peuples inſolens pour leurs ſaits inhumains:
+<lb />vous n’en terlez lous des ſuturs Eſcriuaiſis.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />L'on ne doit plús auant rechercher leür rulne,
+<lb />L’air Peſtilentieüx, la mort, &amp; la famine
+<lb />de toiimn comtr tna, ce comle leblClte
+<lb />Leurs ont fait voir combien Dieu eſtoſt irrité.
+<fw><lb />12
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Cardinal de Richelieu.
+<lb />Sire, cela fait voir aux Monarques eſtranges
+<lb />Combien vous remportez deſſus eux de loüanges,
+<lb />Quand l’Eternel punit de ſes ſaincts Magaſins
+<lb />Ceux qui ſont à vos vœux Rebellel &amp; Mutins,
+<lb />D’ailleurs ce vous doit eſtre vne immortelle gloire
+<lb />D’auoif ſi leune d’ans remporté la Victoire
+<lb />Deſſus ceſte Rahab qui ſe faiſoit des Loix,
+<lb />Qui à veu deſſus ſoy Camper cluq puiſſans Roys,
+<lb />Auec toute la Fleur du Royaume de France
+<lb />Sans la pouuolr iamais mettre ſcus leur Puiſſance,
+<lb />Mais qui en émouſſant leurs plus braues efforts
+<lb />Apres auoir couuert la terre de leurs morts,
+<lb />Les firent en la fin ſans fruict leuer leur Siege.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />Ils penſoient m’attrapper de la ſorte en leur plege,
+<lb />Ou bien que ie ferois mon Camp Royal leuer
+<lb />Sl toſt que ie vertois le retour de l’Hyuer:
+<lb />En fin ils ſont deceus, ils n’auoient pes affaire
+<lb />A vn Roy qui s’engage au meſtler Milltaire
+<lb />Qu’il n’en vueille emporter l’honneur &amp; la raiſon
+<lb />Pluſtoſt, pluſtoſt mon poil fuſt deuenu griſon
+<lb />Deuant les Bouleuards de ceſte forte Place
+<lb />Que ie n’euſſe puny ſon orgueilleuſe audace,
+<lb />I'euſſes
+<lb />I'euſſes pluſtoſt moy ſeul eſchellé ſes remparts,
+<lb />I'euſſes pluſtoſt perdu mille eſſains de Soldarts,
+<lb />Mandé des Leglons &amp; d’Afrique &amp; d’Aſie
+<lb />Que de ne l’auoir pas ſelon ma fantaſie,
+<lb />Premier ne me ſentant de l’or ambitieux
+<lb />Ils ne m’euſſent jamais fait falciner les yeux
+<lb />De leurs lingots Indois, de leur promeſſe feinte
+<lb />Ny de ce dont ſeroit vn ame auare attainte,
+<lb />Cariny autoitcaque le penneneipas;
+<lb />Qui m’auroit empeſché de ne la prendre pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Comte Chombergt.
+<lb />Du ſiecle des Vallois ce ſelour des Rebelles
+<lb />t fanqué de tant de Citadelles,
+<lb />De Remparts, de Foſſez; de Tours, de Gabions,
+<lb />Rauelins, Parapels, de Forts, &amp; Baſtions.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />Sl ce n’euſt pas eſté vne inuincible Plare,
+<lb />Nous n’euſſions ſi long-temps ſupporté la culraſſe,
+<lb />Nous n’euſſions ſupporté ſur la terre &amp; les eaux
+<lb />Tanc umomnoutez, de peiles, Oe ſrauaui,
+<lb />Auſſi en auons-nous vne glolre immotelle
+<lb />Plus le combat eſt grand, plus la victoite eſt belle,
+</sp>
+<sp type="MainZone-Sp"><lb />Cardinal de Richelieu.
+<lb />Sire, les Arcs-boutans de la Religion
+<lb />Remplis de vanité, enflez d’ambitſon
+<lb />7
+<lb />Penſoient que nous n’euſſions ny l’art ny l’induſtrie
+<lb />De rendre leur Geneüe auz Lys aſſubjetie,
+<lb />u
+<lb />Mais Dieu laſſé de voir ces Typhons terrenez
+<lb />Post,
+<lb />En leur Rebellion: doublemenr obſtinez:
+<lb />–
+<lb />A metamorphoſé leur ſuperbe inſolence, (2
+<lb />Et leur aueugle orgueil enhumble obeyſſance.
+<lb />C
+<lb />41
+<lb />14
+<lb />4
+<lb />Monſieur Frere du Roy.
+<lb />En effet ces Meſſieurs qui de ceſte Cité
+<lb />Tenoient tout leur ſalut, &amp; leur proſperlté
+<lb />Sont grandement deceuz, croyant que ceſte Place
+<lb />Qui iuſques dans l’Olympe eſleuoſt ſon audace,
+<lb />Euſt des prouiſions pour tenir longuement.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />Chacun en va parlant aſſez diuerſement,
+<lb />Les vns les vont blaſmant d’auolr eſté Rebelles,
+<lb />Puis qu’ils ne pouuoient pas garder leurs Citadelles,
+<lb />Et les autres plus lots ne les excuſans pas
+<lb />Propoſent qu’ils deuoient endurer le treſpas,
+<lb />Pluſtoſt que de leur rendre, ainſi que fiſt Numance,
+<lb />nhaonauouonisaemi rompno diguotance
+<lb />Puis qu’ils vont contemnans les eſcrits ſacré-ſaints
+<lb />Qui veulent que l’on cede aux Princes ſouueraius.
+</sp>
+<sp type="MainZone-Sp"><lb />Comte Chombergt.
+<lb />Toute l’Europe aubit les yeux ſur ceſte Vſſle.
+<lb />Croyant qu’elle enfantaſt vne guerre clulle,
+<lb />Dans le cœur de la France, ou quelque autre malheür.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy.
+<lb />I'y auois fait veiller, puis l’altlere valeur
+<lb />De Prince de Condé retenoit la licence
+<lb />De ceux du Languedoc, Viuarez, &amp; Prouence,
+<lb />Montmorency d’ailleurs veillant de tous coſtez
+<lb />A tant &amp; tant de fois les Rebelles domptez,
+<lb />qu’ils reſtent maintenant ſans cœur &amp; ſans courage,
+<lb />Semblables aux Nochers preſts de falre naufrage:
+<lb />Mais c’eſt trop arreſté, allons dans le quartier
+<lb />Voir ſi de Marillac &amp; le ſieur du Hallier
+<lb />Aremis en deuoir ceſte Villeinſoiente,
+<lb />S'y tenant de l’humeur d’vne volage Euante,
+<lb />Elle ne veut tenir ce qu’elle à projecté,
+<lb />Dedans peu nos Nepueux &amp; la poſterlté,
+<lb />Diront volla ou fut autresſois la Rochelle
+<lb />Qu'vn Roy fit ruiner pour luy eſtre rebelle. 2n
+</sp>
+<p type="MainZone-Head"><lb />ACTE QVATRIESME.
+<lb />Chœur de la Rochelle, Trouppe
+<lb />des Anglois.
+<fw><lb />Chœur de la Rochelle.
+</fw></p>
+<p type="MainZone-Lg"><lb />Esr ores que le Clel apres tant de malheurs.
+<lb />Prenant compaſſion de nos triſtes douleurs,
+<lb />A permis que le Roy qui domine la France
+<lb />Au lieu de chaſtiment nous vſaſt de clemenee
+<lb />Hé, quel genre de mort, quelle ſeuerité
+<lb />N’auoit ce Peuple ingrat luſtement merité,
+<lb />Ne deuoit pas le Roy pleln de juſte colere
+<lb />Faire de la Rochelle vn triſte cymetiere
+<lb />Innonder nos enfans dedans le ſang des morts,
+<lb />Deſmolir nos Rempars, bouleuerſer nos Forts,
+<lb />Et laiſſer à iamais vne e ternelle marque
+<lb />De la punition d’vn ſi puiſſant Monarque.
+<lb />Trouppe des Anglois.
+<lb />1
+<lb />Nous penſions trlompher de Mars &amp; des Deſtins,
+<lb />Nous auons imité les ſoldats Sagontins
+<lb />Qui du peuple Romain penſans Frauer l’armée,
+<lb />Et trauailler leur Camp, d’vne dent affamée,
+<lb />Mangerent iuſques au cuir de leur briſlans Boucliers,
+<lb />C ij
+<fw><lb />-*-
+<lb />
+<lb />2.
+<lb />n
+</fw><lb />Le Roy eſtoit ſuiuy de trop dé Caualiers,
+<lb />Trop de Forts commandoient à ceſte pauure Ville,
+<lb />P'our ne voir pas en fin ſa liberté ſeruile,
+<lb />N:ptune eſtoit bandé à l’encontte de nous,
+<lb />Mais ſur tout l’air infect plein de rage &amp; courroux
+<lb />A deſtruſt la Cité, &amp; fait que l’Angleterre
+<lb />Ne reuerra le riers de ſes hommes de guerre,
+<lb />Le pluſpart à eſté des Poiſſons deuorez,
+<lb />Et les autres icy par la faim attertez.
+<lb />2ſ
+</p>
+<sp type="MainZone-Sp"><lb />1e
+<lb />Nous auons vous &amp; nous tres. mal fait nos affaires,
+</sp>
+<sp type="MainZone-Sp"><lb />Trouppe des Mngiois.
+<lb />Mais encor quels accoids ont meſnagé vos Maires,
+</sp>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Nous temettons és mains du Roy ceſte Clté,
+<lb />Afin d’en diſpoſer ſelon ſa volonté,
+<lb />Et le Roy que le Ciel à la douceur conuie,
+<lb />Donne à nos Citoyens &amp; aux Soldats la vie,
+<lb />Vous ſerez recorduits ſans qu’on vous faſſe tort
+<lb />Dans vos propres Viiſſeaux iuſques à voſtre Port,
+<lb />Et ceux de noſtre Loy qui ont ſouſtint la guerre
+<lb />Et Mſempe adec nous, lerone conaults parteire
+<lb />Vn Biſton en la main pour nos autres excez
+<lb />De Fonte, &amp; d’Argent pris ils ſeront effacez,
+<lb />Sans qu’au temps aduenir on en faſſe memoire.
+</sp>
+<sp type="MainZone-Sp"><lb />Trouppe des Anglois.
+<lb />Le Roy s’acquiert beaucoup de juſtice &amp; de gloire
+<lb />Nous, &amp; voſtre Cité traictant ſi doucement,
+<lb />Auſſi n’eſt-il moins preux qu’équitable &amp; clement.
+</sp>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Il peut faire juger à toute l’Angleterre
+<lb />Que Colombe, en paix, il eſt vn Foudre en guerre,
+<lb />Qui bat, briſe, deſtruit, &amp; va bouleuerſant
+<lb />Ceux qui ſans equité vont à luy s’oppoſant.
+</sp>
+<p type="MainZone-Lg"><lb />Trouppe des Anglois.
+<lb />Si vous euſſiez traicté auec ceux d’Heſperie,
+<lb />Nous n’euſſions polnt obtlnt la grace de la vle,
+</p>
+<sp type="MainZone-Sp"><lb />Tout euſt eſté reduict au plllage &amp; au ſets:
+<lb />L'on euſt ueu la pluſpart d’vn licol eſtouffer,
+<lb />Le tangeulc eaplo du peuple la luperpe,
+<lb />Bref,la Ville euſt eſté plus baſſe que n’eſt l’herbe.
+<lb />Chœur de la Rochelle.
+<lb />Le Roy ne traicte polnt de la ſorte les ſiens
+<lb />Auſſi ne les prend il comme des Indiens
+<lb />Il ſçuit que du grand Dleu lls ont la reſſemblance,
+<lb />Sont aux autres Chreſtiens ſemblables en croyance,
+<lb />Sinon en quelque poinct que Dieu accordera
+<lb />Quand d’vn œll de pitié il nous regardera,
+<lb />Car il peut ſeul plus faire en vn petit eſpace
+<lb />Que le Sang, que le Feu, la mort, &amp; la menace.
+<lb />A ce que ie preuoy ſa vertu reuerée
+<lb />Fera voit ſouhs ſon Regne vne ſaiſon dorée,
+<lb />La verité luira comme vn brillant flambeau,
+<lb />Les erreurs declinans entreront au tombeau,
+<lb />L Foy ſera vnique, &amp; l’Arche d’Alliance
+<lb />Trouuera derechef Dagon ſans reſiſtance.
+<lb />Chœur de la Rochelle.
+<lb />Par les accords concluds ſonalme Majeſté
+<lb />Doit entrer dans deux iours dedans ceſte Cité,
+<lb />Cité qui dans ſon ſein pour ſa ſuperbe audace
+<lb />N’a veu depuis cent ans de ſes grands Roys la face,
+<fw><lb />2
+<lb />2
+<lb />2
+<lb />*2
+<lb />ettece me grrcertds Du
+<lb />
+<lb />*
+<lb />V
+</fw><lb />O Ceſar des Françols que Dieu te comble d'heur.
+<lb />Que ſur tes deuanclers tu merlres d’honneur,
+<lb />Forçant malgré la Fleur de toute l’Angleterre,
+<lb />PEtha oùs autunoit le Fambeau de la Guetre,
+</sp>
+<sp type="MainZone-Sp"><lb />Trouppe des Anglois.
+<lb />Il à les qualltez d’Auguſte &amp; de Trajan,
+<lb />Mus, pourquoy detlent-on Madáme de Rohan
+<lb />&amp;ui pour auon gumuten honuons; buctiine, .
+<lb />On dit des Rochellois la ſage Meluſine.
+</sp>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Cela nous eſt caché, ce n’eſt point aux Mortels
+<lb />A ſçauoir le ſecret des grands Dieux immortels,
+<lb />Et toutesfois le Roy proulde &amp; équitable
+<lb />N’a point permis cela ſans cauſe raiſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />Trouppe des Anglois.
+<lb />Si elle alloit encor quelque part s’enfermer
+<lb />Elle ſeroit la Francè en mille lieux armer,
+<lb />C’eſt pour vn plus grand bien, &amp; ſans ceſte Sybille
+<lb /> On n’euſt contre le Roy tant tenu ceſte Ville.
+</sp>
+<sp type="MainZone-Sp"><lb />Chœur de la Rochelle.
+<lb />Bien, allons loüer Dieu de n’auoir pas eſté
+<lb />Punis comme chacun auoit bien merlté,
+<lb />Il ne faut pas pourtant que les Villes Rebelles,
+<lb />Soient vers ſa Maſeite commne nous infidelles,
+<lb />Car tentant contre luy leurs debilles efforts
+<lb />Leurs Citez ſe verroient des Sepulchres de morts.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />
+<lb />A</fw><fw><lb />Source gallica.bnf.fr ( Bibliothèque nationale de France
+</fw></p>
+<p type="MainZone-Entry"><lb />Texte détérioré - reliure défectueuse
+<lb />NF Z 43-120-11
+</p>
+<p type="MainZone-Entry"><lb />Texte détérioré - reliure défectueuse
+<lb />NF Z 43-120-11
+</p>
+    </body>
+  </text>
+</TEI>

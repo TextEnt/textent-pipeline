@@ -39,9 +39,7 @@
           <title>{{title}}</title>
           <pubPlace key="FR">Grenoble</pubPlace>
           <publisher>[s.n.]</publisher>
-          <date {%- if date -%}
-            when="{{date}}" cert="high" resp="BNF">{{date}}</date>{% else %}
-            not-before="1601-01-01" not-after="1700-12-12" cert="high" resp="BNF">17th century</date>{% endif %}
+          <date {% if date %}when="{{date}}" cert="high" resp="BNF">{{date}}</date>{% else %}not-before="1601-01-01" not-after="1700-12-12" cert="high" resp="BNF">17th century</date>{% endif %}
         </bibl>
         <msDesc>
           <!-- ToDo: Deal with this

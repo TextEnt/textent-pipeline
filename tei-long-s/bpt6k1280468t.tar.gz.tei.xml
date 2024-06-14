@@ -1,0 +1,3715 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Misantrope, comedie. Par J. B. P. de Moliere</title>
+        <author>Molière</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45785639x"/>
+          <author>
+            <persName>Molière</persName>
+          </author>
+          <title>Le Misantrope, comedie. Par J. B. P. de Moliere</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1667" cert="high" resp="BNF">1667</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />8
+<lb />444
+<lb />
+<lb />4
+<lb />
+<lb />8
+<lb />2
+</fw>
+<p type="MainZone-Other"><lb />TAVTE DETI MERMET
+<fw><lb />LE
+<lb />MISANTROPE
+<lb />COMEDIE.
+<lb />Par I. B.P. DE MOLIERE.
+</fw></p>
+<p type="MainZone-Head"><lb />Ar l li R To,
+<lb />Chez IEAN RIBCV, au Palais, vis Pol l Porte
+<lb />de l’Egliſe, de la Sainte Chapelras
+<lb />à l’Image Sain* Louis.
+<fw><lb />mmmn nmn - d VN rvocvs
+</fw></p>
+<p type="MainZone-Head"><lb />M. DC. LXVII.
+<lb />AVEC PRIVILEGE DV ROT.
+</p>
+<p type="MainZone-Head"><lb />LE LIBRAIRE
+<lb />AV LECIEVN.
+</p>
+<sp type="MainZone-Sp"><lb />E Miſantrope, dés ſa pre<lb />miere Repreſentation, ayant
+<lb />receu au Theatré, l’approba<lb />tion que le Lecteur ne luy pourra
+<lb />refuſer, &amp; la Cour eſtant à Fontaine<lb />bleau, lors qu’il parut; i'ay crû que ie
+<lb />ne pouuois rien faire de plus agrea<lb />ble pour le Public, que de luy faire
+<lb />part de cette Lettre, qui fut écrite, vn
+<lb />iour apres, à vne Perſonne de Qua<lb />lité, Sur le Sujet de cette Comedie. Ce<lb />luy qui l’écriuit eſtant vn Homme
+<lb />dont le merite &amp; l’eſprit eſt fort con<lb />u, ſa Lettre fut veuë de la meilleure
+<lb />partie de la Cour, e trouuée ſi iuſte
+<lb />parmy tout ce qu’il y a de Gens les plus
+<lb />éclairez en ces matieres, que ie me
+<lb />ſuis persuadé qu’apres leur auoir plû,
+<lb />le Lecteur me ſeroit obligé du ſoin
+<lb />que i'auois pris d’en chercher vne Co<lb />pie pour la luy donner, &amp; qu’il luy
+<lb />rendra la iuſtice que tant de Perſonne
+<lb />de la plus haute Naiſſence luy ont
+<lb />accordée.
+</sp>
+<p type="MainZone-Head"><lb />LETTRE
+<lb />ECRITE
+<lb />SVR LA COMEDIE
+<lb />DV
+<lb />MISANTROPE
+<lb />ONSIEVR,
+<fw><lb />Vovs deuriez eſtre ſatisfait de ce que je vous ay dit
+<lb />de la derniere Comedie de Monſieur de Moliere, que
+<lb />vous auez veuë auſſi bien que moy, ſans m’obliger à
+<lb />vous écrire mes ſentimens. Ie ne puis m’ẽpeſcher de
+<lb />faire ce que vous ſouhaittez; mais ſouuenez-vous de
+<lb />laſincere amitié que vous m’auez promiſe: &amp; n’allez
+<lb />pas expoſer à Fontainebleau au iugemeut des Cour<lb />tilans, des Remarques que ie n’ay faites que pour
+<lb />vous obeyr. Songez à ménager ma reputation; &amp; pen<lb />ſez que le gẽs de la Cour de qui le gouſt eſt ſi rafiné,
+<lb />n’auront pas, pour moy, la meſtne muuigente que
+<lb />vous.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Il eſt à propos, auant que de parler à fonds de
+<lb />cette Comedie, de voir quel a eſté le bût de l’Au<lb />cheur; &amp; ie croy qu’il merite des Loüanges, s’il eſt
+<lb />venus à bout de ce qu’il s’eſt propoſé; &amp; c’eſt la
+<lb />premiere choſe qu’il faut examiner. Ie pourrois
+<lb />vous dire en deux mots, ſi ie voulois m’exempter
+<lb />de faire vn grand Diſcours, qu’il a pû, &amp; que ſon
+<lb />intention eſtant de plaire, les Critiques ne peuuent
+<lb />pas dire qu’il ait mal fait, puis qu’en faiſant mieux
+<lb />I ſi toutesfois il eſt poiſſble y Ion Deneii ſl’auroit
+<lb />peut-eſtre, pas ſi bien reüſſy,
+</sp>
+<p type="MainZone-P"><lb />Examinons, donc, les Endroits par où il a plû; &amp;
+<lb />voyons qu’elle a eſté la fin de ſon Ouurage. Il n’a
+<lb />point voulu faire vne Comedie pleine d’Ihcidens,
+<lb />mais, vne Piece, ſeulement, où il pût parler contre les,
+<lb />Mœurs du Siecle. Ce qui luy a fait prendre pour
+<lb />ſon Heros, vn Miſantrope; &amp; comme Miſantrope
+<lb />veut dire ennemy des Hommes, on doit demeurer
+<lb />d’accord qu’il ne pouuoit choiſir vn Perſonnage qui,
+<lb />vray ſemblablement, pût mieux parler contre les
+<lb />Hommes; que leur ennemy. Ce chois eſt encor ad<lb />mirable pour le Theatre, &amp; les Chagrins, les Depets,
+<lb />les Bizarreries, &amp; les Emportemens d’vn Miiantrope,
+<lb />eſtans des choſes qui font vn grand Ieu, ce caractere
+<lb />eſt vn des plus brillans qu’on puiſſe produire ſur la
+<lb />Scene.
+</p>
+<p type="MainZone-P"><lb />On n’a pas ſeulement, remarqué l’adreſſe de l’au<lb />theur dans le chois de ce Perſonnage, mais encore
+<lb />dans toutes les autres; &amp; cõme rien ne fait paroiſtre,
+<lb />dauantage, vne choſe, que celle qui luy eſt oppoſée<lb />on peut non ſeulement dire que l’Amy du Mrſantro<lb />pe, qui eſt vn Homme ſage &amp; prudent, fait voir, dans
+<lb />ſon iour, le caractere de ce Ridicule; mais encore que
+<lb />l’humeur du Miſantrope fait connoiſtre la ſageſſe de
+<lb />ſon amy.
+</p>
+<sp type="MainZone-Sp"><lb />Moliere n’eſtant pas de ceux qui ne font pas tout
+<lb />également bien, n’a pas eſté moins heureux dans
+<lb />le chois de ſes autres caractéres, puis que la maîtreſ<lb />ſe du Miſantrope eſt vne ieune Veufue, coquette,
+<lb />&amp; tout à fait mediſante. Il faut s’écrier icy, &amp; admi<lb />rer l’adreſſe de l’Autheur: ce n’eſt pas que le cara<lb />ctére ne ſoit aſſez ordinaire, &amp; que pluſieurs n’euſ<lb />ſent pû s’en ſeruir? mais l’on doit admirer que dans
+<lb />vne Piece, où Moliere veut pailer contre les mœurs
+<lb />du Siécle, &amp; n’épargner perſonne, il nous fait voir
+<lb />vne médiſante, auec vn ennemy des Hommes. Ie
+<lb />vous l’aiſſe à penſer, ſi ces deux perſonnes ne peu<lb />uent pas, naturellement, parler contre toute la ter<lb />re, puis que l’vn hayt les Hommes, &amp; que l’autre
+<lb />ſe plaiſt à en dire tout le mal qu’elle en ſçait. En ve<lb />rité, l’adreſſe de cet Autheur eſt admirable; ce ſont
+<lb />là, de ces choſes que tout le Monde ne remarque
+<lb />pas, &amp; qui ſont faites auec beaucoup de iugement.
+<lb />Le Miſantrope, ſeul, n’auroit pû parler contre tous
+<lb />les Hommes: mais en trouuant le moyen de le faire
+<lb />aider d’vne médiſante, c’eſt auoir trouué en meſme
+<lb />temps, celuy de mettre dans vne ſeule piece, la
+<lb />derniere main au portrait du ſiecle. Il y eſt tout en<lb />tier, puis que nous voyons, encore, vne Femme
+<lb />qui veut paroiſtre prude, opposée à vne coquette,
+<lb />&amp; des Marquis qui repreſentent la Cour: tellement
+<lb />qu’on peut aſſeurer que dans cette Comedie, l’on
+<lb />void tout ce qu’on peut dire contre les mœurs du
+<lb />ſiecle. Mais comme il ne ſuffit pas d’auancer vne
+<lb />choſe, ſi l’on ne la prouue, ie vais, en examinant
+<lb />certe piece, d’Acte, en Acte, vous faire remarquer
+<lb />tout ce que i’ay dit; &amp; vous faire voir cent choſes
+<lb />qui ſont miſes en leur iour, auec beaucoup d’Art, &amp;
+<lb />qui ne ſont conües que des perrounei uunrceſairées,
+<lb />que vous.
+<lb />Les choſes qui ſont les précieuſes d’elles meſ</sp>
+<sp type="MainZone-Sp"><lb />mes, ne ſeroient pas, ſouuent, eſtimées, ce qu’el<lb />les ſont ſi l’Art ne leur auoit preſté quelques traits;
+<lb />&amp; l’on peu dire, que de quelque valeur qu’elles
+<lb />ſoient, il augmente toûjours leur prix Vne pierre
+<lb />miſe en œuure, a beaucoup plus d’écla qu’aupara<lb />uant, &amp; nous ne ſçaurions bien voir le plus beau Ta<lb />bleau du monde, s’il n’eſt dans ſon Iour. Toutes
+<lb />choſes ont beſoin d’y eſtre; &amp; les actions que l’on
+<lb />nous repreſente ſur la Scene, nous paroiſſent plus, ou
+<lb />moins belles ſelon que l’Art du Poëte nous les fait
+<lb />paroiſtre. Ce n’eſt pas qu’on doiue trop s’en ſeruir,
+<lb />puis que le trop d’Art n’eſt plus Art, &amp; que c’eſt en
+<lb />auoir beaucoup, que de ne le pas montrer. Tout.
+<lb />excés eſt condamnable &amp; nuiſible; &amp; les plus gran<lb />des Beautez perdent beaucoup de leur éclat, lors
+<lb />qu’elles ſont exposées à vn trop grand iour. Les
+<lb />Productions d’Eſprit ſont de meſmes, &amp; ſur tout,
+<lb />celles qui regardent le Theatre; il leur faut donner
+<lb />de certains iours qui ſont plus difficiles à trouuer,
+<lb />que les choſes les plus ſperitüelles: car, enfin, il n’y
+<lb />a point d’Eſprits ſi groſſiers, qui n’ayent quelques<lb />ſois de belles pensées; mais il y en a peu qui ſça<lb />chent bien les mettre en œuure, s’il eſt permis de
+<lb />parler ainſi. C’eſt ce que Moliere fait ſi bien, &amp; ce
+<lb />que vous pouuez remarquer dans ſa piece. Cette in<lb />génieuſe &amp; admirable Comedie, commence par le
+<lb />Miſantrope, qui par ſon action, fait connoiſtre à
+<lb />tout le Monde, que c’eſt luy, auant meſme d’ouurir
+<lb />la bouche; ce qui fait iuger qu’il ſoûtiendra bien ſon
+<lb />caractére, puis qu’il commence ſi bien de la faire re<lb />marquer.
+</sp>
+<p type="MainZone-P"><lb />Dans cette premiere Scene, il blâme ceux qui
+<lb />ſont tellement accoûtumez à faire des proteſta<lb />tions d’Amitié, qu’ils embraſſent egalement
+<lb />leurs Amis, &amp; ceux qui leur doiuent eſtre indifé<lb />rens, le Faquin, &amp; l’honneſte Homme: &amp; dans
+<lb />du moins ne point faire voir ce qu’ils ne font pas
+<lb />Oien.
+</p>
+<sp type="MainZone-Sp"><lb />Ce premier acte ayant plû à tout le Monde, &amp;
+<lb />n’ayãt que deux Scenes, doit eſtre parfaitement beau,
+<lb />puis que les François, qui voudroient toûjours voir
+<lb />de nouueaux Perſonnages, s’y ſeroient ennüye, s’il
+<lb />ne les auoit fort attachez, &amp; diuertis
+</sp>
+<p type="MainZone-P"><lb />Apres auoir veu le Miſantrope déchainé contre
+<lb />ceux qui font également des proteſtations d’amitié à
+<lb />tout le Monde, &amp; ceux qui y répondent, auec le meſ<lb />me emportement; apres l’auoir oüy parler contre la
+<lb />Partie, &amp; l’auoir veu condamner le Sonnet, &amp; rom<lb />pre en viſiere à ſon Autheur, on ne pouuoit plus
+<lb />ſouhaiter que le voir Amoureux, puis que l’Amour
+<lb />doit bien donner de la peine aux Perſonnes de ſon
+<lb />Caractére, &amp; que l’on doit en cét eſtat, en eſperer
+<lb />quelque choſe de plaiſant, chacun traitant ordinai<lb />rement cette Paſſion ſelon ſon tempérament, &amp; c’eſt
+<lb />d’où vient que l’on attribuë tant de choſes à l’A<lb />mour, qui ne doiuent, ſouuent, eſtre attribüées qu’à
+<lb />l’humeur des Hommes.
+</p>
+<p type="MainZone-P"><lb />Si l’on ſouhaite de voir le Miſantrope Amoureux,
+<lb />on doit eſtre ſatisfait dans cette Scene, puis qu’il y
+<lb />paroit auec ſa Maiſtreſſe, mais auec ſa hauteur or<lb />dinaire à ceux de ſon Caractere Il n’eſt point ſoû<lb />mis, il n’eſt point languiſſant, mais il luy découure
+<lb />librement, les defauts qu’il void en elle, &amp; luy re<lb />proche qu’elle reçoit bien tout l’Vniuers; &amp; pour
+<lb />Douceurs, il luy dit, qu’il voudroir bien ne la pas
+<lb />aimer, &amp; qu’il ne l’aime que pour les Pechez. Ce
+<lb />n’eſt pas qu’auec tous ces diſcours il ne paroiſſe
+<lb />auſli Amoureux que les autres, comme nous ver<lb />rons dans la ſuite Pendant leur entretien, quel<lb />ques Gens viennent viſiter ſa Maiſtreſſe: il vou<lb />droit l’obliger à ne les pas voir; &amp; comme elle
+<lb />luy répond, que l’vn d’eux la ſert dans vn Procez,
+<lb />il luy dit: qu’elle deuroit perdre ſa Cauſe, pluſtoſt
+<lb />que de les voir.
+<lb />Il faut demeurer d’accord, que cette penſée ne
+<lb />ſe peut payer, &amp; qu’il n’y a qu’vn Miſantrope qui
+<lb />puiſſe dire des choſes ſemblables. Enfin, toute la
+<lb />Compagnie arriue: &amp; le Mifantrope conçoit tant
+<lb />de dépit, qu’il veut s’en aller. C’eſt, icy, ou l’Eſprit
+<lb />de Moliere ſe fait remarquer, puis qu’en deux
+<lb />Vers, joints à quelque Action qui marque du dépit,
+<lb />il fait voir ce que peut l’Amour ſur le Cœur de tous
+<lb />les Hommes, &amp; ſur celuy du Miſantrope meſme,
+<lb />ſans le faire ſortir de ſon Caractére. Sa Maiſtreſſe luy
+<lb />dit deux fois, de demeurer, il témoigne qu’il n’en
+<lb />veut rien faire: &amp; ſi toſt qu’elle luy donne congé
+<lb />auec vn peu de froideur, il demeure, &amp; montre,
+<lb />en faiſant deux ou trois pas pour s’en aller, &amp; en
+<lb />reuenant auſſi toſt, que l’Amour, pendant ce temps,
+<lb />combat contre ſon Caractére, &amp; demeure vain<lb />queur: ce que l’Auteur a fait judicieuſement, puis
+<lb />que l’Amour ſurmonte tout. Ie trouue, encor, vne
+<lb />choſe admirable en cet endroit; c’eſt la maniere
+<lb />dont les Femmes agiſſent pour ſe faire obeïr: &amp;
+<lb />comme vne Femme a le pouuoir de mettre à la
+<lb />raiſon, vn Homme comme le Miſantrope, qui la
+<lb />vient meſme de quereller, en luy diſant, Ie veux
+<lb />que vous demeuriez, &amp; puis en changeant de ton,
+<lb />Vous peuuez vous en aller. Cependant, cela ſe fait
+<lb />tous les iours: &amp; l’on ne peut le voir mieux repre<lb />ſenté qu’il eſt dans cette Scene. Aprés tant de cho<lb />ſes ſi diferentes, &amp; ſi natutellement, touchées &amp;
+<lb />repreſentées dans l’eſpace de quatre Vers, on void
+<lb />vne Scene de Conuerſation, où ſe rencontrent deux
+<lb />Marquis, l’Amy du Miſantrope, &amp; la Couſine de la
+<lb />Maiſtreſſe de ce dernier. La jeune Veufue, chez qui
+<lb />toute la compagnie ſe trouue, n’eſt point fâchée
+<lb />d’auoir la Cour chez elle: &amp; comme elle eſt bien aiſe
+<lb />d’en auoir, qu’elle eſt Politique, &amp; veut ménager
+<lb />tout le Mõde, elle n’auoit pas voulu faire dire qu’elle
+<lb />n’y eſtoit pas aux deux Marquis, comme le ſouhai<lb />toit le Miſantrope. La conuerſation eſt toute aux
+<lb />deſpens du Prochain; &amp; la Coquette médiſanre, fait
+<lb />voir ce qu’elle ſçait, quand il s’agit de le dauber; &amp;
+<lb />qu’eſle eſt de celles qui dechirent lous mains, iuſques
+<lb />à leurs meilleurs Amis,
+</p>
+<p type="MainZone-P"><lb />Cette conuerſation fait voir, que l’Autheur n’eſt
+<lb />pas épüisé, puis qu’on y parle de vingt caractére
+<lb />de Gens qui ſont admirablement bien dépeints en
+<lb />peu de Vers, chacun; &amp; l’on peut dire que ce ſont
+<lb />autant de ſujets de Comedies que Moliere donne,
+<lb />liberalement, à ceux qui s’en voudront ſeruir. Le Mi<lb />ſantrope ſoûtient bien ſon caractére pendant cette
+<lb />conuerſation, &amp; leur parle auec la libeité qui luy
+<lb />eſt ordinaire. Elle eſt à peine finie, qu’il fait vne
+<lb />action digne de luy, en diſant aux deux Marquis.
+<lb />qu’il ne ſortira point, qu’il ne ſoient ſortis; &amp; il
+<lb />le feroit ſans doute, puis que les Gens de ſon cara<lb />ctêre ne ſe démentent iamais, s’il n’eſtoit obligé de
+<lb />ſuiure vn Garde pour le diferend qu’il a eu auec
+<lb />Oronte, en condamnant ſon Sonnet Ceſt où cét acte
+<lb />finit.
+</p>
+<p type="MainZone-P"><lb />L’ouuerture du troiſieſme, ſe faît par vne Scene
+<lb />entre les deux Marquis, qui diſent des choſes fort
+<lb />conuenables à leurs caractéres; &amp; qui font voir,
+<lb />par les applaudiſſemens, qu’ils reçoiuent, que l’on
+<lb />peut toûjours mettre des Marquis Sur la Scene,
+<lb />tant qu’on leur fera dire quelque choſe que les
+<lb />autres n’ayent point encot dit. L’actoru qu'iis iont
+<lb />entr’eux, de ſe dire les marques d’eſtime qu’ils
+<lb />receuront de leur Maiſtreſſe, eſt vne adreſſe de
+<lb />l’Autheur, qui prepare la fin de ſa Piece, comme vous
+<lb />remarquerez dans la ſuite.
+</p>
+<p type="MainZone-P"><lb />Il y a dans le meſme Acte, vne Scene entre deux
+<lb />Femmes, que l’on troune d’autant plus belle, que
+<lb />leurs caracteres ſont tout à fait, oppoſez, &amp; ſe font
+<lb />ainſi paroiſtre l’vn l’autre. L’vne eſt, la ieune Veufue
+<lb />auſſi coquette que médiſante; &amp; l’autre vne Femme
+<lb />qui veut paſſer pour prude, &amp; qui dans l’Ame, n’eſt
+<lb />pas moins du Monde, que la conquerte. Elle don<lb />ne à cette derniere, des auis charitables ſur ſa con<lb />duite, la coquette les reçoit fort bien, en apparen<lb />ce; &amp; luy dit, à ſon tour, pour la payer de cette
+<lb />obligation, qu’elle veut l’auertir de ce que l’on dit
+<lb />d’elle, &amp; luy fait vn Tableau de la vie des-feintes
+<lb />prudes, dont les couleurs ſont auſſi fortes, que celles
+<lb />que la Piude auoit employées pour luy repreſenter
+<lb />la Vie des coquettes: &amp; ce qui doit ſaire trouuer
+<lb />cette Scene fort agreable, eſt, que celle qui a parlé
+<lb />la premiere, ſe fâche, quand l’autre la paye en meſme
+<lb />monoye.
+</p>
+<p type="MainZone-P"><lb />L’on peut aſſeurer, que l’on void dans cetteScene,
+<lb />tout ce que l’on peut dire de toutes les Femmes,
+<lb />puis qu’elles ſont toutes de l’vn ou de l’autré cara<lb />ctére; ou que ſi elles ont quelque choſe de plus, ou
+<lb />de moins, ce qu’elles ont a, toûjours, du rapport à
+<lb />8 l’vn ou l’autre.
+</p>
+<p type="MainZone-P"><lb />Ces deux Femmes, apprés s’eſtre parlé à cœur ou<lb />uert touchant leurs vies, ſe ſeparent; &amp; la coquette
+<lb />laiſſe la Prude auec le Miſantrope, qu’elle void en<lb />trer chez elle. Comme la Prude a de l’Eſprit, &amp;
+<lb />qu’elle n’a choiſy ce caractére que pour mieux faire
+<lb />ſes affaires, elle tâche par toutes ſortes de voyes
+<lb />d’attirer le Miſantrope qu’elle aime. Elle le louë,
+<lb />elle parle contre la coquette, luy veut persüader
+<lb />qu’on le rrompe, &amp; la mene chez elle, pour luy en
+<lb />donner des preuue: ce qui donne ſuiet à vne partie
+<lb />des choſes qui ſe paſſent au quatrieſme Acte.
+</p>
+<p type="MainZone-P"><lb />Cet Acte commence par le recit de l’Accommo<lb />dement du Miſantrope, auec l’homme du Sonnet?
+<lb />&amp; l’Amy de ce premier en entretient la Couſine de
+<lb />la Coquette. Les vers de ce Recit ſont tout à fait
+<lb />beaux? mais ce que l’on y doit remarquer, eſt que
+<lb />le Caractere du Miſantrope eſt ſoutenu auec la
+<lb />meſme vigueur qu’il fait paroiſtre en ouurant : la
+<lb />Piece. Ces deux Perſonnes parlent, quelque temps.
+<lb />des ſentimens de leurs cœurs; &amp; ſont interrom<lb />puës par le Miſantrope meſme qui paroiſt furieux
+<lb />&amp; ialous: &amp; l’Auditeur ſe perſuade aiſement parce
+<lb />qu’il a veu dans l’autre Acte que la Prude, auec qui
+<lb />on la veu ſortir, luy a inſpiré ſes ſentimens. Le De<lb />pit luy fait faire ce que tous les Hommes feroient
+<lb />en ſa place, de quelque humeur qu’ils fuſſent; il
+<lb />offre ſon cœur à la belle Parente de ſa Maiſtreſſe:
+<lb />mais elle luy fait voir que ce n’eſt que le Depit qui
+<lb />le fait parler, &amp; qu’vne coupable aimée eſt bien toſt
+<lb />innocente. Ils le laiſſent auec ſa Maiſtreſſe qui pa<lb />roiſt &amp; ſe retirent.
+</p>
+<p type="MainZone-P"><lb />Ie ne crois pas qu’on puiſſe rien voir de plus beau
+<lb />que cette bcene. Elle eſt toute ſerieuſe; &amp; cepen<lb />dant il en a peu dans la Piece qui diuertiſſent da<lb />uantage. On y void vn Poitait, naturellement, re<lb />preſenté, de ce que les Amans font tous les iours,
+<lb />en de ſemblables rencontres. Le Miſantrope pa<lb />roiſt d’abord auſſi emporté, que jalous; il ſemble
+<lb />que rien ne peut diminüer ſa colere, &amp; la pleine iu<lb />ſtification de ſa Maiſtreſſe ne pourroit qu’auec
+<lb />peine, calmer ſa fureur. Cependant, admirez l’a<lb />dreſſe de l’Autheur. Ce Ialous, cét emporté, ce
+<lb />Furieux, paroiſt tour radoucy, il ne parle que du
+<lb />deſr qu’il a de faire du Bien à ſa Maiſtreſſe: &amp; c<lb />qui eſt admirable, eſt qu’il luy dit toutes ces choſes
+<lb />auant qu’elle ſe ſoit iuſtifiée; &amp; lors qu’elle luy dit
+<lb />qu’il a raiſon d’eſtre Ialous. C’eſt faire voir ce que
+<lb />peut l’Amour ſur le cœur de tous les Hommes: &amp;
+<lb />ſaire connoiſtre, en meſme temps, par vne adreſſe
+<lb />que l’on ne peut aſſez admirer, ce que pȩuuent les
+<lb />Femme ſur leurs Amans, en changeant, ſeulement,
+<lb />le ton de leurs voix, &amp; prenant vn air qui paroiſt
+<lb />enſemble, &amp; fier, &amp; attirant. Pour moy, ie ne puis
+<lb />aſſez m’eſtonner, quand ie voy vne Coquette ra<lb />mener, auant que s’eſtre iuſtifiée, non pas vn
+<lb />Amant ſoûmis, &amp; languiſſant mais vn Miſantrope?
+<lb />&amp; l’obliger, non ſeulement, à la priere de ſe iuſti<lb />fier, mais encore à des proteſſations d’Amour, qui
+<lb />n’ont pour but que le bien de l’Obiet aimé; &amp;, ce<lb />pendant, demeurer ferme apres l’auoir ramené; &amp;
+<lb />ne le point éclaircir, pour auoir le plaiſir de s’ap<lb />plaudit d’vn plein triomphe. Voila ce qui s’ap<lb />pelle manier des Scenes: voila ce qui s’appelle tra<lb />uailler auec Art; &amp; repreſenter, auec des traits
+<lb />delicats, ce qui ſe paſſe, tous les iours, dans le
+<lb />Monde. Ie ne croy pas que les beautez de cette
+<lb />Scene, ſoient connuës de tous ceux qui l’ont veuë
+<lb />repreſenter. Elle eſt trop delicatement traitée; mais
+<lb />ie puis aſſeurer que tout le Monde a remarqué qu’<lb />elle eſtoit bien eſcrite, &amp; que les perſonnes d’Eſprit
+<lb />en ont bien ſçeu connoiſtre les fineſſes.
+</p>
+<p type="MainZone-P"><lb />Dans le reſte de l’Acte, le Valetedu Miſantroppe
+<lb />vient chercher ſon Maiſtre, pour l’auertir qu’on luy
+<lb />eſt venu ſignifier quelque choſe qui regarde ſon
+<lb />Piocez. Commne l’eſprit paroiſt auſſi bien dans les
+<lb />petites choſes, que dans les grandes, on en void
+<lb />beaucoup dans cette Scene, puis que le Valer exerce
+<lb />la patience du Miſantrope; &amp; que ce qu’il dit feroit
+<lb />moins d’eſtre, s’il eſtoit à vn Maiſtre qui fut d’vn
+<lb />autre humeur,
+<lb />La Scene du Valet, au quatriéme Acte, devoît
+<lb />faire croire que l’on entendroit bien toſt, parler du
+<lb />Procez. Auſſi apprend t’on, à louuerture du cin<lb />quiéme, qu’il eſt perdu; &amp; le Miſantrope agit ſelon
+<lb />que i’ay dit au premier. Son chagrin, qui l’oblige
+<lb />à ſe promenet, &amp; reſver, le fait retirer dans vn coin
+<lb />de la chambre, d’où il void auſſi toſt entrer ſa Maî<lb />treſſe, accompagnée de l’homme auec qui il a
+<lb />eu Demeſlé pour le Sonnet. Il le preſſe de ſe decla<lb />rer, &amp; de faire vn chois entre luy, &amp; ſes Riuaux; ce
+<lb />qui donne lieu au Miſantrope, de faire vn action
+<lb />qui eſt bien d’vn Homme de ſon caractere. Il ſort
+<lb />de l’endroit où il eſt, &amp; luy fait la meſme priere.
+<lb />La coquette agit, touſiours, en femme adroite, &amp;
+<lb />ſpirituelle; &amp; par vn Procedé qui paroiſt honneſte;
+<lb />leur dit, qu’elle ſçait bien quel chois elle doit faire,
+<lb />qu’elle ne balance pas; mais qu’elle ne veut point
+<lb />ſe declarer en preſence de celuy qu’elle ne doit pas
+<lb />choiſir. Ils ſont interrompus par la Prude, &amp; par les
+<lb />Marquis, qui apportent, chacun, vne Lettre qu’elle
+<lb />a écrite contre’eux: Ce que l’Autheur a preparé dés
+<lb />le troiſisme Acte en leur faiſant promettre qu’ils ſe
+<lb />montreroient ce qu’ils receuroient de leur Maî<lb />treſſe. Ce Scene eſt fort agreable. Tous les
+<lb />Acteurs ſont raillez dans les deux Lettres; &amp; quoy
+<lb />que cela ſoit nouueau au Theatre, il fait voir, neant<lb />moins, la veritable maniere d’agir des coquettes
+<lb />miouirantes qui panent, &amp; ecrinent; conrinuelle<lb />ment, contre ceux qu’elles voyent tous les iours,
+<lb />&amp; à qui elles font bonne mine. Les Marquis la quit<lb />tent, luy témoignent plus de mépris, que de co<lb />lere.
+</p>
+<p type="MainZone-P"><lb />La coquette paroiſt vn peu mortifiée dius cette
+<lb />Scene. Ce n’eſt pas, quelle demente ſon caractere?
+<lb />mais la ſurpriſe qu’elle a de ſe voir abandonnée, &amp;
+<lb />le chagrin d’apprendre que ſon jeu eſt découuert.
+<lb />luy cauſent vn ſecret dépit qui paroiſt iuſques ſur
+<lb />ſon viſage. Cet endroit eſt tout à fait iudicieux.
+<lb />Comme la Mediſance eſt vn Vice, il eſtoit neceſ<lb />ſaire, qu’à la fin de la Comedie, elle eût quelque
+<lb />ſorte de punition: &amp; l’Autheur a trouué le moyen
+<lb />de la punir &amp; de luy faire, en meſme temps, ſoû<lb />tenir ſon caractere. Il ne faut point d’autre preuue,
+<lb />pour montrer qu’elle ſoûtient, que le refus qu’elle
+<lb />fait d’épouſer le Miſantrope, &amp; d’aller viure dans
+<lb />ſon Deſer. Il ne tient qu’à elle de le faire; mais
+<lb />leurs humeurs eſtans incompatibles, ils ſeroient trop
+<lb />malaſſortis; &amp; la coquette peut ſe corriger, en demeu<lb />rant dans le monde, ſans choiſir vn Deſert pour faire
+<lb />r’enitence; ion crime, qui ne pait que dvn Eſprit
+<lb />encor ieune, ne demandant pas qu’elle en faſſe vne ſi
+<lb />grande.
+</p>
+<p type="MainZone-P"><lb />Pour ce qui regade le Miſantrope, on peu dire
+<lb />qu’il ſoûtient ſon Caractere iuſques au bout, Nous
+<lb />en voyons, ſouuent, qui ont bien de la peine à le
+<lb />garder pendant le cours d’vne Comedie: mais ſi,
+<lb />toinme i’ay dit tantoſt, celuy-cy à rait connoiſtre
+<lb />le ſien, autant que parler, il fait voir en finiſſant,
+<lb />qu’il le conſeruera toute ſa vie en ſe retirant du
+<lb />Monde.
+</p>
+<p type="MainZone-P"><lb />Voila, Monſieur, ce que ie penſe de la Comedie
+<lb />du Miſantrope Amoureux, que ie trouue d’autant
+<lb />plus admirable, que le Heros en eſt le Plaiſant, ſans
+<lb />eſtre trop Ridicule; &amp; qu’il fait rire les Honneſtes
+<lb />Gens, ſans dire des Plaſſanteries fades &amp; baſſe.
+<lb />comme l’on a accouſtumé de voit dans les Pieces
+<lb />Comiques, celles de cette nature me ſemblent
+<lb />plus diuertiſſantes, encor que ron y rie moins
+<lb />haut; &amp; ie croy qu’elles diuertiſſent dauantage,
+<lb />qu’elles attachent, &amp; qu’elles font continuellement
+<lb />rire dans l’Ame. Le miſantrope, malgré ſa folie, ſi
+<lb />l’on peut ainſi appeler ſon humeur, a le caractére
+<lb />d’vn Honneſte Homme, &amp; beaucoup de fermeté,
+<lb />comme l’on peut connoiſtre dans l’affaire du Sonnet.
+<lb />Nous voyons de grands Hommes, dans des pieces
+<lb />Heroïques, qui en ont bien moins, qui n’ont point
+<lb />de caractére, &amp; démentent ſouuent, au Theatre, par
+<lb />leur raenete, ia bome ôpinion que l’Hiſtoire a fait
+<lb />conceuoir deux.
+</p>
+<p type="MainZone-P"><lb />L’Autheur ne repreſente pas, ſeulement, le Mi<lb />ſanrrope, ſous ce caractére, mais il fait, encor, parler à
+<lb />ſon Héros, d’vne partie des mœurs du temps: &amp; ce
+<lb />qui eſt admirable, eſt, que bien qu’il paroiſſe, en
+<lb />quelque façon, ridicule, il dit des choſes fort iuſtes.
+<lb />Il eſt vray qu’il ſemble trop exiger; mais il faut de<lb />mander beaucoup, pour ebtenir quelque choſe, &amp;
+<lb />pour obliger les Hommes à ſe corriger vn peu de
+<lb />leurs defauts, il eſt neceſſaire de les leur faire paroi<lb />ſtre bien grands.
+</p>
+<p type="MainZone-P"><lb />Moliere, par vne adreſſe qui luy eſt particuliere.
+<lb />laiſſe, par tout, deu ner plus qu’il ne dit: &amp; n’imiee
+<lb />pas ceux qui parlent beaucoup, &amp; ne diſent rien
+</p>
+<p type="MainZone-P"><lb />Ou peut aſſeurer, que cette Piece eſt vpe perpe<lb />tüelle, &amp; dinertiſſante inſtruction, qu’il y a des
+<lb />tours, &amp; des dêuicateſſe inimitables; que les Vers
+<lb />ſont fort beoux, au ſentiment de tout le Monde les
+<lb />eceney oren toninees, a vien maice; a que l’oſ
+<lb />ne peut ne la pas trouuer bonne, ſans ſaite voir que
+<lb />l’on n’eſt pas de ce Monde, &amp; que l’en igpore la ma<lb />niere de viure de la Cour, &amp; celle des plus illuſtres
+<lb />perſonnes de la Ville.
+</p>
+<p type="MainZone-P"><lb />Il n’y a rien dans cette Comedie, qui ne puiſſe
+<lb />eſtre vtile, &amp; dont l’on ne doiue profiter. L’Amy
+<lb />du Miſantrope eſt ſi raiſonnable que tour le Monde
+<lb />deuroit l’imiter, il n’eſt ny trop, ny trop peu Cri<lb />tique; &amp; ne portant les choſes dans l’vn, n’y dans
+<lb />l’autre excés, ſa conduite doit eſtre approuuée de
+<lb />tout le monde. Pour le Miſantrope, il doit inſpirer à
+<lb />tous ſes Semblables, le deſir de ſe corriger, Les Co<lb />quettes médiſantes, pai l’exemple de Celimene, vo<lb />yant qu’elles peuuẽt s’attirer des Affaires qui les fe<lb />ront mépriſer, doiuent apprendre à ne pas dechirer,
+<lb />ſous main, leurs meilleurs Amis. Les fauſſes Prudes,
+<lb />doiuent connoiſtre que leurs grimaces ne ſeruent de
+<lb />rien; &amp; que, quand elles ſeroient auſſi ſages qu’elles
+<lb />le veulent paroiſtre, elles ſeroient toûjours blâmées,
+<lb />tant qu’elles voudront paſſer pour Prudes. Ie ne dis
+<lb />rien des Marquis, ie les croy les plus incorrigibles; &amp;
+<lb />il y a tant de choſes; à reprendre encor, en eux, que
+<lb />tout le Monde auouë, qu’on les peut, encor, joüer
+<lb />long-temps, bien qu’ils n’en demeurent pas d’accord.
+<lb />Vous trouuerez, ſans doute, ma Lettre trop lõgue;
+<lb />mais ie n’ay pû m’arreſter, &amp; i’ay trouué qu’il eſtoit
+<lb />difficile de Parler ſur vn ſi grand ſujet, en peu de
+<lb />mots. Ce long diſcours ne deuroit pas déplaire aux
+<lb />Courtiſans, puis qu’ils ont aſſez fait voir, par leurs
+<lb />applaudiſſement, qu’ils trouuoient la Comedie belle.
+<lb />En tout cas, ie n’ay eſcrit que pour vous; &amp; i’eſpere
+<lb />que vous cacherez cecy, ſi vous jugez qu’il ne vaille
+<lb />pas la peine d’eſtre montré. Ne craignez pas que i’y
+<lb />trouue à redire; ie ſuis autrement ſoûmis à voſtre
+<lb />jugement, qu’Oronte ne l’eſtoit aux auis du Mi<lb />ſantrope.
+</p>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />DAR Grace &amp; Priuilege du Roy, Donné à Fontai<lb />I nebleau le 21. Iuin 1666. Signé, Signé, par le Roy
+<lb />en ſon Conſeil, BERAVD: Il eſt permis à I. B. P. DE
+<lb />MOLIERE, Comedien de la Troupe de Monſieur le
+<lb />Duc d’Orleans, de faire imprimer, vendre, &amp; debi<lb />ter vne Comedie par luy composée, intitulée, Le
+<lb />Miſantrope, pendant cinq années: Et defenſes ſont
+<lb />faites à tous autres, de l’imprimer, ny vendre, d’autre
+<lb />Edition que de celle de l’Expoſant, ou de ceux qui
+<lb />auront droict de luy, à peine de quinze cens liutes
+<lb />d’amende, confiſcation des Exemplaires contre<lb />faits, &amp; de tous deſpens, dommages &amp; intereſts
+<lb />comme il eſt porté plus amplement par leſdites
+<lb />Lettres.
+</p>
+<p type="MainZone-P"><lb />Et le dit oieur De MoL ERE à ceut ioi uroict de
+<lb />Priuilege à IEAN RIBOV, Marchand Libraite à Paris.
+<lb />pour en joüir ſuiuant l’accord fait entr’eux.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté
+<lb />Signé, PIOET, Syndic.
+</p>
+<p type="MainZone-Other"><lb />Acheuê d’imprimer pour la premiere fois.
+<lb />le24. Decembre 1666.
+</p>
+<sp type="MainZone-Sp"><lb />ACTEVRS
+<lb />ALCESTE, Amant de Celimene.
+<lb />PHILINTE, Amy d’Alceſte.
+<lb />ORONTE, Amant de Climene.
+<lb />CELIMENE, Amant d’Alceſte.
+<lb />ELIANTE, Couſine de Celimene,
+<lb />ARSINOE', Amie de Celimene.
+<lb />ACASTE,
+<lb />CLITANDRE, J Marquis.
+<lb />BASQVE, Valet de Celimene.
+<lb />N GARDE de la Mareſchauſſée de
+<lb />Fraitce.
+<lb />DTOIS, Valet d’Alceſte.
+</sp>
+<p type="MainZone-Other"><lb />La Scene eſt à Paris.
+</p>
+<p type="MainZone-Head"><lb />LE
+<lb />MISANTROPE
+<lb />{la d M Ais
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />SCENE PREMIERE.
+<lb />PHILINTE, ALCESTE.
+</p>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />V'EST-CE donc? qu’avez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />AICESTE.
+<lb />Laiſſez moy, ie vous prie.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais, encor, dites-moy, quelle bizar<lb />rerie.....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Laiſſez moy-là, vous dis-je, &amp; courez vous cachet.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />mais om entena ſes dens au moms; aus le fâcher.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy, ie veux me facher, &amp; ne vous point entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Dãs vos bruſques chagrins, ie ne puis vous cõprẽdre.
+<lb />Et quoy qu’amis, enfin, ie ſuis tous des premiers....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Moy, voſtre amy? rayez cela de vos papiers.
+<lb />I’ay fait iuſques icy, profeſſion de l’eſtre;
+<lb />Mais apres ce qu’en vous, ie viens de voir pareſtre,
+<lb />Ie vous declare net, que ie ne le ſuis plus,
+<lb />Et ne veux nulle place en des Cœurs corrompus.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ie ſuis, donc, bien coupable, Alceſte, à noſtre conte?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Allez, vous dévriez mourir de pure honte,
+<lb />Vne telle action ne ſçauroit s’excuſer.
+<lb />Et tout Homme d’honneur s’en doit ſcandaliſer.
+<lb />Ie vous vois accabler vn Homme de careſſes,
+<lb />Et témoigner, pour luy, les dernieres tendreſſes;
+<lb />De proteſtations, d’offres, &amp; de ſermens,
+<lb />Vous chargez la fureur de vos embraſſemens:
+<lb />Et quand ie vous demande apres, quel eſt cet Hõme,
+<lb />A peine pouvez-vous, dire comme il ſe nomme,
+<lb />Voſtre chaleur, pour luy, tombe en vous ſeparant,
+<lb />Et vous me le traittez, a moy d’indiferent.
+<lb />Morbleu c’eſt vne choſe indigne, lâche, infame,
+<lb />De s’abaiſſer ainſi, iuſqu’à trahir ſon Ame :
+<lb />Et ſi, par va malheur, i’en auois fait autant,
+<lb />Ie m’itois, de regret, pendre tout à l’iuſtaut.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ie ne vois pas, pour moy, que le cas ſoir pendable;
+<lb />Et ie vous ſupſitay d’avoir pour agreable,
+<lb />Que ie me faſſe vn peu, grace ſur voſtre Arreſt,
+<lb />Et ne me pende pas, pour cela, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Que la plaiſanterie eſt de mauuaiſe grace!
+</sp>
+<sp type="MainZone-Sp"><lb />AIIIEIICALO
+<lb />Mais, ſerieuſement que voulez-vous qu’on faſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie veux qu’on loit ſincere, &amp; qu’en Home d’honeur,
+<lb />On ne laſche aucun mos qui ne parte du cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Lors qu’vn Homme vous vient embraſſer avec ioye,
+<lb />Il faut bien le payer de la meſme monoye,
+<lb />Repundre, comine ou peut, a lcs einprencmens,
+<lb />Et rendre offre pour offre, &amp; ſermens pour ſermens.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non ie ne puis ſouffrir cette lâche méthode
+<lb />Qu’affectent la pluſpart de vos Gens à la mode;
+<lb />Et ie ne hay rientant, que les contorſions
+<lb />Ces affables Donneurs d’embraſſades friuoles,
+<lb />Ces obligeans Diſeurs d’inutiles paroles,
+<lb />Qui de ciuilitez, auec tous, font combat,
+<lb />Et traitent du meſme air, l’honneſte Hõme, &amp; le Fæ.
+<lb />Quel avantage a-t’on qu’vn Homme vous careſſe,
+<lb />Vous iure amitié, foy zele, eſtime, tendreſſe,
+<lb />Et vous faſſe de vous, vn éloge éclatant,
+<lb />Lors qu’au premier Faquin, il court en faire autant?
+<lb />Non non, il n’eſt point d’Ame vn peu bien ſitüée,
+<lb />Qui veuille d’vne eſtime, ainſi, proſtituée;
+<lb />Et la plus glorieuſe a des regars peu chers,
+<lb />Dés qu’on voit qu’on nous meſle avec tout l’Vniuers.
+<lb />Sur quelque preference, vne eſtime ſe fonde,
+<lb />Et c’eſt n’eſtimer rien, qu’eſtimer tout le Monde.
+<lb />Pais que vous y donnez, dans ces vices du Temps,
+<lb />Morbleu, vous n’eſtes pas pour eſtre de mes Gens;
+<lb />Ie refuſe d’vn Cœur la vaſte complaiſance,
+<lb />Qui ne fait de Mérite aucune diference;
+<lb />Ie veux qu’on me diſtingue, &amp; pour le trancher net,
+<lb />L’Amy du Genre Humain n’eſt point du tout mõ fait.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />liais quad on ert du Mioue; Praut bien que ron rende
+<lb />Quelques Dehors ciuils, que l’Vſage demande.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, vous dis-je, on devroit châtier, ſans pitié,
+<lb />Ce Commerce honteux de Semblans d’Amitié:
+<lb />Ie veux que l’on ſoit Homme, &amp; qu’en toute rẽcontre
+<lb />morond do hottre cœurjdas los dilcodrs ſe monſtre:
+<lb />Que ce ſoit luy qui parle, &amp; que nos Sentimens
+<lb />Ne ſe maſquent iamais, ſous de vains Complimens.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Il eſt bien des endroits, où la pleine Franchiſe
+<lb />Deuiendroit ridicule, &amp; ſeroit peu permiſe;
+<lb />Et, par fois n’en déplaiſe à voſtre auſtere Honneur,
+<lb />Il eſt bon de cacher ce qu’on a dans le cœur.
+<lb />Seroit-il à propos &amp; de la Bienſeance,
+<lb />De dire a mille bens rour ce que d’eux, on penſe?
+<lb />Et quãd on a quelqu’vn qu’on hait ou qui déplaiſt,
+<lb />Iuy doit on declarer la choſe comme elle eſt?
+</sp>
+<sp type="MainZone-Sp"><lb />Cuy.
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Quoy! vous iriez dire à la vielle Emilie,
+<lb />Qu’à ſon âge, il fied mal de faire la jolie?
+<lb />Et que le blanc qu’elle a, ſcandaliſe chacun,
+</sp>
+<sp type="MainZone-Sp"><lb />Sans doute.
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />A Dorilas, qu’il eſt trop importun:
+<lb />Et qu’il n’eſt à la Cour, oreille qu’il ne laſſe,
+<lb />A conter ſa brauoure, &amp; l’éclat de ſa Race?
+</sp>
+<sp type="MainZone-Sp"><lb />Fort bien.
+<lb />AGESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />TIIIEITL.
+<lb />Vous vous moquez.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie ne me moque point,
+<lb />Et ie vais népargner perſonne ſur ce poinct.
+<lb />Mes yeux ſont trop bleſſez, &amp; la Cour, &amp; la Ville,
+<lb />Ne m’offrent rien qu’obiets à m’eſchaufer la Bile:
+<lb />I’entre en vne humeur noire, en vn chagrin profond.
+<lb />Quand ie vois viure entr’eux, les Hõmes cõm’ils fõt;
+<lb />Ie ne trouue, par tout, que lâche Flaterie,
+<lb />Qu’Iniuſtice, Intéreſt, Trahiſon, Fourberie;
+<lb />Ie n’y puis plus tenir, i’enrage, &amp; mon deſſein
+<lb />eſt de rompre en viſiere à tout le Genre-Humain.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ce chagrin Philoſophe eſt vn peu trop ſauuage,
+<lb />le ris des noirs accez où le vous envilage;
+<lb />Ie crois voir, en nous deux, ſous mémes ſoins nouris,
+<lb />Ces deux Freres que peint l’ecole des Maris,
+<lb />Dont.....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mon Dieu, laiſſons-là, vos comparaiſons fades.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Non, tout de bon, quittez toutes ces incartades,
+<lb />Le Monde. par vos ſoins, ne ſe chargera pas,
+<lb />Et puis que la Franchiſe a, pour vous tant d’appas,
+<lb />Ie vous diray tout franc, que cette maladie,
+<lb />l'ar tout ou vous allez, donne la comédie,
+<fw><lb />A iij
+</fw><fw><lb />Et qu’vn ſi grand courroux cõtre les Mœurs du rẽps.
+<lb />vous touine en Riaicue aupres de bien des Gens.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />(demande,
+<lb />rant mieux, morbleu, tant mieux, c’eſt ce que ie
+<lb />Ce m’eſt vn fort bon ſigne &amp; ma ioye en eſt grande:
+<lb />rous les Hommes me ſont, à tel point odieux,
+<lb />Que lelerols luene deltre lage à lenis jeux.
+</sp>
+<sp type="MainZone-Sp"><lb />PMILINIE.
+<lb />Vous voulez vn grand mal à la Nature Humaine!
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Oüy, i’ay conçeu pour elle, vne éfroyable haine:
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />P'etts les paurres Morteijlans duns caceptien,
+<lb />Seront envelopez dans cette auerſion?
+<lb />Encor, en eſt il bien, dans le ſiecle où nous ſommes....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, elle eſt generale, &amp; ie hais tous les hommes:
+<lb />Les vns, parce qu’ils ſont méchans, &amp; mal-faiſans;
+<lb />Et les autres, pour eſtre aux Méchans, complaiſans,
+<lb />Et n’auoir pas, pour eux, cés haines vigoureuſes
+<lb />Que doit donner le Vice aux Ames vertueuſes.
+<lb />De cette Complaiſance on voit l’iniuſte excés,
+<lb />Pour le franc Scelerat avec qui i’ay procés:
+<lb />Au trauers de ſon maſque, on voit à plein le rraiſtre,
+<lb />P'ar tout, il eſt connu pour tout ce qu’il peut-eſtre;
+<lb />Et ſes roulemens d’yeux, &amp; ſon ton radoucy.
+<lb />N’impoſent qu’à des Gens qui ne ſont point d’icy.
+<lb />On ſçait que ce Pié-plat, digne qu’on le confonde,
+<lb />Par de ſales emplois, s’eſt pouſſé dans le Monde:
+<lb />Et que, par eux, ſon Sort, de ſplendeur reueſtu,
+<lb />Fait gronder le Mérite, &amp; rougir la Vertu,
+<lb />Quelques titres hõteux qu'en tous neux on iuy uone
+<lb />Son miſerable Honneur ne voit, pour luy, perſonne.
+<lb />Nomme-le Fourbe, Infame, &amp; Scelerat maudit,
+<lb />rout le Monde en conuient, &amp; nul n’y contredit,
+<lb />Cependant, ſa grimace eſt, par tout bien venuë,
+<lb />On l’accueille, on luy rit; par tout, il s’inſinuë;
+<lb />Et s’il eſt, par la Brigue, vn Rang à diſputer,
+<lb />Sur le plus honneſte Homme, ou le voit l’emporter.
+<lb />reſtebleu, ce me ſont de mortelles bleſſeures,
+<lb />De voir qu’auec le Vice on garde des meſures,
+<lb />Et, parrois, il me prend des ſouuemens ioudains,
+<lb />De fuir, dans vn Deſert, l’approche des humains.
+</sp>
+<sp type="MainZone-Sp"><lb />PHÏLINTE.
+<lb />Mon Dieu, des Mœurs du remps, mettons nous
+<lb />moins en peine,
+<lb />Et faiſons vn peu grace à la Nature Humaine;
+<lb />Ne l’examinons point dans la grande rigueur,
+<lb />Et voyons ſes defauts: auec quelque douceur.
+<lb />Il faut, parmy le Monde, vne vertu traitable,
+<lb />A force de Sageſſe on peut eſtre blâmable,
+<lb />La parfaite Raiſon fuit toute extremité;
+<lb />Et veut que l’on ſoit ſage auec ſobrieté.
+<lb />Cette grande roideur des Vertus des vieux Ages,
+<lb />Heurte trop noſtre Siecle, &amp; les communs Vſages,
+<lb />Elle veut aux Mortels, trop de perfection,
+<lb />Il faut fléchir au remps, ſans obſtinatjon;
+<lb />Et c’eſt vne folie, à nulle autre, ſeconde,
+<lb />De vouloir ſe meſler de cortiger le Monde,
+<lb />I’obſerue, comme vous, cent choſes, tous les iours,
+<lb />Qui pourroient mieux aller, prenant vn autre cours:
+<lb />Mais quoy qu’à chaque pas, ie puiſſe voir pareſtre,
+<lb />En courroux, comine vous, on ne me voit point eſtre;
+<lb />Ie prens, tout doucemẽt, les Hommes comme ils sõt;
+<lb />I’accoûtume mon Ame à ſouffrir ce qu’ils font;
+<lb />Et ie crois qu’à la Cour, de meſme qu’à la Ville,
+<lb />Mon Elegme eſt Philoſophe, autant que voſtre Bile.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mais ce Flegme, Monſieur, qui raiſonne ſi bien,
+<lb />Ce flegme, pourra t’il ne s’échaufer de rien?
+<lb />Et s’il faut, par hazard qu’vn Amy vous trahiſſe,
+<lb />Que pour auoir vos Biens, on dreſſe vn artifice,
+<lb />Ou qu’on tâche à ſemer de méchans bruits de vous,
+<lb />Verrez vous tout cela, ſans vous mettre en courroux?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Oüy, ie vois ces Defauts dont voſtre ame murmure,
+<lb />Comme Vices vnis à l’Humaine Nature;
+<lb />Et mon eſprit, enfin, n’eſt pas plus offencé,
+<lb />De voir vn Homme fourbe, iniuſte, intereſſé,
+<lb />Que de voir des Vautours affamez de carnage,
+<lb />Des Singes mal-faiſans, &amp; des Loups pleins de rage.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie me verray trahir, mettre en pleces, voler,
+<lb />Sans que ie ſois... Morbleu, ie ne veux point parler,
+<lb />rant ce raiſonnement eſt plein d’impertinence.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ma foy, vous ferez bien de garder le ſilence;
+<lb />Guutie vuuie partit, ccſtes in peumolos
+<lb />Et donnez au Procez vne part de vos ſoins.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIL.
+<lb />Ie n’en donneray point, c’eſt vne choſe dite.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais qui voulez vous, donc, qui, pour vous ſollicite?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />ui le veux y la ſearton, mombummiditi, Iequité.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Aucun Iuge, par vous, ne ſera viſité?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, eſt-ce que ma cauſe eſt iniuſte, ou douteuſe?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />I’en demeure d’accord, mais la Brigue eſt fâcheuſe.
+<fw><lb />Ef..1.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non i’ay réſolu de n’en pas faire vn pas;
+<lb />I’ay tort, ou i’ay raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ne vous y fiez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />nu a de lue
+<lb />Ie ne remûray point.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Voſtre partie eſt forte,
+<lb />Et peut par ſa Cabale, entraiſner...
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il n’importe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />vous vous tromperez.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Soit, i’en veux voir le ſuccez,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais....
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />iid a d d lai
+<lb />I’auray le plaiſir de perdre mon Procez,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais, enfin....
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie verray dans cette Plai lerie,
+<lb />Si les Hommes auront aſſez d’éfronterie,
+<lb />Seront aſſez méchans, ſcelerats, &amp; peruers,
+<lb />Pour me faire iniuſtice aux yeux de l’Vniuers.
+</sp>
+<sp type="MainZone-Sp"><lb />Quel Homme!
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie voudrois, m’en couſtaſt il grand’choſe,
+<lb />Pour la beauté du Fait, auoir perdu ma Cauſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />On ſe riroit de vous, Alceſte, tour de bon,
+<lb />Si l’on vous entendoit parler de la façon.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Pant pis pouu qui lnoit.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais cette rectitude
+<lb />Que vous voulez en tout, auec exactitude,
+<lb />Cette pleine Droiture où vous vous renfermez,
+<lb />La trouuez vous icy, dans ce que vous aimez?
+<lb />Ie m’étonne, pour moy, qu’eſtant comme il le ſemble,
+<lb />Vous, &amp; le Genre Humain, ſi fort broüillez enſemble,
+<lb />Malgré tout ce qui peut vous le rendre odieux,
+<lb />Vous ayez pris, chez luy, ce qui charme vos yeux,
+<lb />Et ce qui me ſurprend, encore, dauantage,
+<lb />C’eſt cet eſtrange Chois où voſtre Cœur s’engage.
+<lb />La ſincére Eliante a du penchant pour vous,
+<lb />La prude Arſinoé vous voit d’vn œil fort doux:
+<lb />Cependant à leurs vœux, voſtre ame ſe refuſe,
+<lb />randis qu’en ſes liens Celimene l’amuſe,
+<lb />De qui l’humeur coquette, &amp; l’eſprit médiſant,
+<lb />Semble ſi fort donner dans les Mœurs d’à preſent.
+<lb />D’où vient que leur portant vne haine mortelle.
+<lb />Vous pouuez bien ſouffrir ce qu’en tient cette Belle?
+<lb />Ne ſont ce plus Defauts dans vn Obiet ſi doux?
+<lb />Ne les voyez-vous pas? ou les excuſez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, l’amour que ie ſens pour cette ieune Veuue,
+<lb />Ne ferme point mes yeux aux defauts qu’õ luy treuue,
+<lb />Et ie ſuis, quelque ardeur qu’elle m’ait pû douner,
+<lb />Le premier à les voir, comme à les condamner.
+<lb />Mais auec tout cela? quoy que le pume rarte;
+<lb />Ie confeſſe mon foible, elle a l’art de me plaire;
+<fw><lb />I
+<lb />(
+<lb />Q
+<lb />E
+</fw><lb />I’ay beau voir ſes defauts &amp; iay beau l’en blaſmer,
+<lb />En depit qu’on en ait elle ſe fait aimer;
+<lb />Sa grace eſt la plus forte, &amp;, ſans doute, ma flame,
+<lb />De ces Vices du remps pourra purger ſon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Si vous faites cela, vous ne ferez pas peu.
+<lb />Vous croyez eſtre donc, aimé d’elle?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Oüy parbleu?
+<lb />Ie ne l’aimerois pas, ſi ie ne croyois l’eſtre,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais ſi ſon amitié, pour vous, ſe fait pareſtre..
+<lb />D’où vient que vos Riuaux vous cauſent de l’ennuy?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE
+<lb />e cit quuneourbie utcenle veut qu'o rule cout à luy;
+<lb />Et ie ne viens icy, qu’â deſſein de luy dire
+<lb />rout ce que là deſſus, ma paſſion m’inſpire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Pour moy, ſi ie n’auois qu’à former des deſirs,
+<lb />La Couſine Eliante auroit tous mes ſoûpirs,
+<lb />Son Cœur, qui vous eſtime, eſt ſolide, &amp; ſincere;
+<lb />ne ce endis prascorormeseſtoit mieux voure aſfaire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il eſt vray, ma Raiſon me le dit chaque iour;
+<lb />Mais la Raiſon n’eſt pas ce qui regle l’Amour.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTÉ.
+<lb />Ie crains fort peu vos feux; &amp; l’eſpoir où vous eſtes,
+<lb />Pourroit....
+</sp>
+<p type="MainZone-Head"><lb />SCENE II
+<lb />ORONTE, ALCESIE, TTIEINTE.
+</p>
+<sp type="MainZone-Sp"><lb />ORONTE
+<lb />l’Ay ſçeu là bas que, pour quelques Emplettes
+<lb />Eliante eſt ſortie, &amp; Celimene auſſi:
+<lb />Mais, comme l’on m’a dit que vous eſtiez icy,
+<lb />J’ay monté, pour vous dire, &amp; d’vn cœur veritable,
+<lb />Que i’ay conçeu pour vous vne eſtime incroyable;
+<lb />Et que, depuis long-temps, cette eſtime m’a mis
+<lb />Dans vn ardent deſir d’eſtre de vos Amis.
+<lb />Ouy, mon Cœur, au Mérite, aima à rendre iuſtice,
+<lb />Et ie brûle qu’vn nœud d’Amitié nous vniſſe:
+<lb />Ie crois qu’vn Amy chaud, &amp; de ma Qualité,
+<lb />N'eit pas, anemement; pouz eſtre reiette.
+<lb />C’eſt à vous, s’il vous plaiſt, que ce diſcours s’adreſſe.
+<lb />En cét endroit Alceſte paret tout neneur, &amp;
+<lb />ſemble n’entendre pas qu’Oronte luy parle.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCEIE.
+<lb />A moy, Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />e da a la d de.
+<lb />A vous. Trouuez vous qu’il vous bleſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non pas, mais la ſurpriſe eſt fort grande pour moy,
+<lb />Et ie n’attendois pas l’honneur que ie reçoy.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE
+<lb />L’eſtime où ie vous tiẽs ne doit point vous ſurprẽdre,
+<lb />Et de tout l’Vniuers, vous la pouuez prétendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Monncine...
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />L’Eſtat n’a rien qui ne ſoit au deſſous
+<lb />Du Merite éclatant que l’on découure en vous</sp>
+<sp type="MainZone-Sp"><lb />Monſieur...
+<lb />l le da lua
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Oüy, de ma part, ie vous tiens preferable
+<lb />A tout ce que i’y vois de plus conſiderable.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur....
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Sois je du Ciel écraſé, ſi je mens;
+<lb />Et pour vous confiimer icy mes Sentimens,
+<lb />Souſfrez qu’à cœur ouuert, Mõſieur, ie vous embraſſe,
+<lb />Et qu’en voſtre Anutié, ie vous demande place.
+<lb />rouchez-là, s’il vous plaiſt vous me la promettez
+<lb />Voſtre Amitié?
+</sp>
+<sp type="MainZone-Sp"><lb />nle na l de
+<lb />Monſieur....
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quoylvous y reſiſtez,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mõſieur, c’eſt trop d’hõneur que vous me voulez faire
+<lb />Mais l’Amitié demande vn peu plus de myſtere,
+<lb />Et c’eſt, aſſeurément, en profaner le nom,
+<lb />Que de vouloir le mettre à toute occaſion.
+<lb />Auec lumiere &amp; chois, cette vnion veut naiſtre,
+<lb />Auant que nous lier, il faut nous mieux conpaiſtre,
+<lb />Et nous pourrions auoir telles complexions,
+<lb />Que tous deux, du marché, nous nous repentirions.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Parbleu, c’eſt là deſſus parler en Homme ſage,
+<lb />Et ie vous en eſtime, encore, dauantage:
+<lb />Soufrons, donc, que le rẽps forme des nœuds ſi doux.
+<lb />Mais, cependant, ie m’offre entierement à vous;
+<lb />S’il faut faire à la Cour, pour vous, quel qu’ouuerture,
+<lb />On ſçait, qu’auprés du Roy, ie fais quelque Figure,
+<lb />Il m’ecoute, &amp; dans tout, il en vſe, ma foy,
+<lb />Le plus honeſtement du monde, auecque moy.
+<lb />Enfin, ie ſuis à vous, de toutes les manieres;
+<lb />Et, comme voſtre eſprit a de grandes lumieres,
+<lb />Ie viens, pour commencer, entre nous, ce beau nœud,
+<lb />Vous montrer vn Sonnet, que i’ay fait depuis peu,
+<lb />Et ſçauoir s’il eſt bon qu’au Public ie l’expoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ACCEJTE.
+<lb />Menſieur, ie ſuis mal propre à décider la choſe,
+<lb />Veuillez m'en dilpenſer.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />I'ay le défaut
+<lb />D’eſtre vn peu plus ſincere, en cela, qu’il ne faut.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+<lb />C’eſt ce que ie demande, &amp; i’auroîs lieu de plainte,
+<lb />Si m’expoſant à vous, pour me parler ſans feinte,
+<lb />Vous alliez me trahir, &amp; me déguiſer rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Puis qu’il vous plaiſt ainſi, Monſieur, ie le veux bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Sonnet... C’eſt vn Sonnet L’Eſpoir.. C’eſt vne Dame,
+<lb />Qui, de quelque eſperance, auoit flaté ma flame.
+<lb />L’Eſpoir.. Ce ne ſont point de ces grãds Vers põpeux.
+<lb />Mais de petits Vers doux, tendres, &amp; laugoureux.
+<lb />A toutes ces intertuptions il regarde Aiceſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Neous venons bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />L’Epoir... Ie ne ſçay ſi le ſtile
+<lb />Pourra vous en paroiſtre aſſez net, &amp; facile;
+<lb />Et ſi, du chois des Mots, vous vous contenterez,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Nous allons voir, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Au reſte, vous ſçaurez,
+<lb />Que ie n’ay demeuré qu’vn quart- d’heure à le faire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE.
+<lb />Voyons, Monſieur, le Temps ne fait rien à l’affaire,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />’Eſpoir, il eſt vray nous ſoulage,
+<lb />LEt nous berce vn temps, noſtre ennuy:
+<lb />Mais, Philis, le triſte auantage,
+<lb />Lors que rien ne marche apres luy,
+</sp>
+<sp type="MainZone-Sp"><lb />Beilnrie les
+<lb />Ie fuis déja charmé de ce petit morceau.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Quoy? vous auez le front de trouuer cela beau?
+</sp>
+<sp type="MainZone-Sp"><lb />OROMTE.
+<lb />Vous euſtes de la Complaiſance,
+<lb />Mais vous en deuiez moins auoir;
+<lb />E ne cons pais mcitre en depenje,
+<lb />Pour ne me donner que l’Eſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ah! qu’entermes galans, ces choſes là ſont miſes!
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE. bas.
+<lb />Morbleu, vil Complaiſant, vous loüez des Sottiſes?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />S’il faut qu’vne attente éternelle
+<lb />Pouſſe à bout, l’ardeur de mon zele,
+<lb />Le Trépas ſera mon recours.
+<lb />vos ſoins ne m’en peuuent diſtraire;
+<lb />Belle Philis, on deſeſpere,
+<lb />dior, quon Spuelajchns.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINIE.
+<lb />La chûte en eſt jolie, amoureuſe, admirable.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE bas.
+<lb />La peſte de ta chûte? Empoiſonneur au Diable,
+<lb />Au cunes tu tare thente culer le nez.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Je n’ay iamais ouy de veis n bien toumnez.
+</sp>
+<sp type="MainZone-Sp"><lb />Moibleu....
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Vous me flattez, &amp; vous croyez, peut-eſtre., ..
+</sp>
+<sp type="MainZone-Sp"><lb />Tillalitsu.
+<lb />Non, ie ne flatte point.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE bas.
+<lb />Et que fait-tu, donc, Traiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Mais, pour vous, vous ſçauez quel eſt noſtre Traité;
+<lb />Parlez-moy, ie vous prie, avec ſincerité.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Monſieur, cette matiere eſt toûjours délicate,
+<lb />Et, ſur le bel Eſprit, nons aimons qu’on nous flatte:
+<lb />Mais vn iour, à quelqu’vn, dont ie tairay le nom,
+<lb />Ie diſois, en voyant des Vers de ſa façon,
+<lb />Qu’il faut qu’vn galãt Home ait toujours grãd épire
+<lb />Sur les demangeaiſons qui nous prenent d’écrire;
+<lb />Qu’il doit tenir la bride aux grands empreſſemens
+<lb />Qu’on a de faire éclat de tels amuſemens;
+<lb />Et que, par la chaleur de montrer ſes Ouvrages,
+<lb />On s’expoſe à joüer de mauvais porſonnages.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE
+<lb />Eſt-ce que vous voulez me declarer, par-là,
+<lb />Que i’ay tort de vouloir....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE
+<lb />Ie ne dis pas cela :
+<lb />Mais ie luy diſois, moy, qu’vn froid Ecrit aſſomme
+<lb />Qu’il ne faut que ce Foible, à décrier vn Homme;
+<lb />Et qu’euſt-on, d’autre part, cent belles Qualitez,
+<lb />On fegarde les Gens, par leurs méchans coſtez,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE
+<lb />Eſt ce qu’à mon Sonnet, vous trouuez à redire?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie ne dis pas cela; mais pour ne point écrire,
+<lb />Ie luy mettois aux yeux comme dans noſtre Tempst
+<lb />Cette ſoif a gaſté de fort Honneſte Gens.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Eſt-ce que i’écris mal? &amp; leur reſſemblerois-je,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie ne dis pas cela; mais, enfin, luy diſois je.
+<lb />Quel beſoin, ſi preſſant, auez-vous de Rimer;
+<lb />Et qui, diantres vous pouſſe à vous faire imprimer?
+<lb />Si l’on peut pardonner l’eſſor d’vn mauuais Liure,
+<lb />Ce n’eſt qu’aux Malheureux, qui cõpoſent pour viure,
+<lb />Croyez moy, reſiſtez à vos tentations,
+<lb />Dérobez au Public, ces Occupations;
+<lb />Et n’allez point quitter, dequoy que l’on vous sôme
+<lb />Le Nom que, dans la Cour, vous auez d’õneſte Hõme
+<lb />Pour prendre, de la main d’vn auide Imprimeus,
+<lb />Celuy de ridicule, &amp; miſerable Autheur.
+<lb />C’eſt ce que ie tâchay de luy faire comprendre,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Voila qui va fort bien, &amp; ie croy vous entendre.
+<lb />Mais ne puiſ-je ſçauoir ce que dans mon Sonnet....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Franchement, il eſt bon à mettre au Cabinet;
+<lb />Vous vous eſtes reglé ſur de méchans Modelles,
+<lb />Et vos expreſſions ne ſont point naturelles.
+</sp>
+<sp type="MainZone-Sp"><lb />Qu’eſt ce que nous berce vn temps, noſtre ennuy,
+<lb />Et que rien ne marche apres luy?
+<lb />Que ne vous pas mettre en dépenſe,
+<lb />romne me donner que l’Eſpoir?
+<lb />Et que Fhilis, on deſejpere.
+<lb />Alors qu’on eſpere touſiours?
+</sp>
+<p type="MainZone-Lg"><lb />Sort du bon Caractere, &amp; de la Verité;
+<lb />Ce n’eſt que ieu du Mots, qu’affectation pure,
+<lb />Et ce n’eſt point ainſi, que parle la Nature.
+<lb />Le mechant Goud du Siecle, en cela me fait peur,
+<lb />Nos Peres, tous groſſiers, l’auoiẽt beaucoup meilleur;
+<lb />Et ie priſe bien moins, tout ce que l’on admire,
+<lb />Qu’vue vieille Chanſon, que ie m’en vay vous dire,
+</p>
+<p type="MainZone-Lg"><lb />I le Roy m’auoit donné
+<lb />DParis Sa grand Ville,
+<lb />Et qu’il me alluſt quitter
+<lb />L’ameur de ma Mie;
+<lb />Ie dirois au Roy Henry,
+<lb />Reprenez voſtre Paris,
+<lb />I’a me mieux ma Mie, an gué,
+<lb />I’ayme mieux ma Mie.
+<lb />La Rime, feit pas riene, de re Serre en ert vreax.
+</p>
+<sp type="MainZone-Sp"><lb />Mais ne voyez-vous pas, que cela vaut bien mieux
+<lb />Que ces Colifichets, dont le bon Sens murmure,
+<lb />Et que la Paſſion parle là, toute pure?
+<lb />Si le Roy m’auoit donné
+<lb />Paris ſa grand'Ville,
+<lb />Et qu’il me fallût quitter
+<lb />L’amour de ma Mie;
+<lb />Ie dirois au Roy Henry,
+<lb />Reprenez voſtre Paris,
+<lb />Iaime mieux ma Mie, augne,
+<lb />I’aime mieux ma Mie.
+</sp>
+<sp type="MainZone-Sp"><lb />Voila ce que peut dire vn Cœur vrayement épris.
+<lb />Oüy, Monſieur le Rieur, maigie vos beaua Eiprits:
+<lb />I’eſtime plus cela, que la pompe fleurie à Alceſte
+<lb />De tous ces faux Brillans, où chacun ſe rêcrie.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Et moy, ie vous ſoutiens que mes Vers sõt fort bons.
+</sp>
+<sp type="MainZone-Sp"><lb />12a a l d a de.
+<lb />Pour les trouuer, ainſi vous auez vos Raiſons;
+<lb />Mais vous trouuerez bo que r’eu pumne avoir d’autres
+<lb />qui ſe diſpenſeront de ſe ſouſmettre aux voſtres.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE
+<lb />ii ile ſuffit de voir que d’autres en font cas.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ceit qu’ils ont l'hit de remurejes moy, ie ne l’ay pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Croyez-vous, donc, auoit tant d’eſprit en partage?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Si je loüois vos Vers, i’en aurois dauantage.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie me paſſeray bien que vous les approuuiez.
+<lb />B.iiij
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il faut bieirs ir vous plaitt, que vous vous en paſſiez.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie voudrois bien, pour voir, que de voſtre maniere
+<lb />Vous en compoſaſſiez ſur la meſme Matiere.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />ren pourrorspur mamneury ruie daun méchant;
+<lb />Mais ie me garderois de les montrer aux Gens.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+<lb />Vous me parlez bien ferme, &amp; cette ſuſſiſance...
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETE.
+<lb />Autre part que chez moy, cherchez qui vous encẽſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE<lb />Mais, mõ petit Mõſieur, prenez-le vn peu moins haut.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />va loy, mon grad Monneurs, ie le prens côme il faut
+<lb />PHILINTE ſe mettant entre deux.
+<lb />Ah! Meſſieurs ç’en eſt trop, laiſſez cela de grace.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ahli’ay tort, ie l’auouë, &amp; ie quitte la place;
+<lb />Ie ſuis voſtre Valet, Monſieur de tout mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />It moy, ie ſuis, Monſieur, voſtre humble Seruiteur.
+</sp>
+<p type="MainZone-Head"><lb />SEETE III
+<lb />TIIIEINIE AROBOIE.
+</p>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />E' bien, vous le voyez; pour eſtre trop ſincére,
+<lb />I TVous voila ſur les bras, vne fâcheuſe Affaire;
+<lb />Dt r'ay bien veu qu’Oronte, afin d’eſtre flaté....
+</sp>
+<sp type="MainZone-Sp"><lb />Ne me parlez pas.
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Plus de ſocieté.
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt trop....
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIL.
+<lb />Laiſſez moy là.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Si ie....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Point de langage,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais quoy...
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie n’entens rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Eucore
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />On outrage....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ah! parbleu, ç’en eſt trop, ne ſaiuez point mes pas.
+</sp>
+<sp type="MainZone-Sp"><lb />HILINTE.
+<lb />Vous vous moquez de moy, ie ne vous quitte pas.
+</sp>
+<p type="MainZone-Other"><lb />Fin du Premier Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE II.
+<lb />SCENE PREMIERE.
+<lb />ALCESTE, CELIMENE.
+</p>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />ADAME, voulez vous que ie vous parle
+<lb />net?
+<lb />De vos façons d’agir, ie ſuis mal ſatis<lb />fait:
+<lb />Contr’elles, dans mon Cœur, trop de Bile s’aſſem<lb />ble,
+<lb />Et ie ſens qu’il faudra que nous rompions enſemble.
+<lb />Ouy ie vous trompérois de parſer autrement,
+<lb />roſt, ou tard, nous romprons indubitablement;
+<lb />Et ie vous promettrois, mille fois, le contraire,
+<lb />Que ie ne ſerois pas en pouuoir de le faire. 
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />14111
+<lb />C’eſt pour me quereller, donc, à ce que ie voy,
+<lb />Que vous auez voulu me ramener chez moy?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie ne querelle point; mais voſtre humeur, Madame,
+<lb />Ouure, au premier venu, trop d’aecez dãs vôtre Ame;
+<lb />Vous auez trop d’Amans, qu’on volt vous obſeder,
+<lb />Et mon cœur, de cela, ne peut s’accommoder.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE
+<lb />Des Amans que ie fais, me rendez vous coupable?
+<lb />Puis-ie empeſcher les Gens, de me trouuer aimable?
+<lb />Et lors que pour me voir, ils fond de doux efforts,
+<lb />Dois-je prendre vn Baſton, pour le mettre dehors?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />(prendre,
+<lb />Non, ce n’eſt pas, Madame, vn Baſton qu’il faut
+<lb />Mais vn Cœur, à leurs vœux, moins facile, &amp; moins
+<lb />tendre.
+<lb />Ie ſçay que vos Appas vous ſuïuent en tous Lieux,
+<lb />Mais voſtre accueil retient ceux qu’attirent vos yeux
+<lb />Et ſa douceur offerte à qui vous rend les Arme,
+<lb />Acheue ſur les Cœurs, l’Ouurage de vos Charmes,
+<lb />Le trop riant Eſpoir que vous leur preſentez,
+<lb />Attache, autour de vous, leurs aſſiduitez;
+<lb />Et voſtre Complaiſance, vn peu moins eſtenduë,
+<lb />De tant de Soupirans chaſſeroit la Cohuë.
+<lb />Mais, au moins, dites moy, Madame, par quel Sort,
+<lb />Voſtre Clitandre a l’heur de vous plaire ſi fort?
+<lb />Sur quel fonds de Merite, &amp; de Vettu ſublime,
+<lb />Appuyez-vous, en luy, l’honneur de voſtre Eſtime?
+<lb />Eſt-te par l’Ongle long, qu’il porte au petit Doigt,
+<lb />Qu’il s’eſt acquis, chez vous, l’eſtime où l’on le voit?
+<lb />Vous eſtes-vous renduë auec tont le beau Monde,
+<lb />Au mérite éclatant de ſa Perruque blonde;
+<lb />Sont ce ſes grands Canons, qui vous le font aimer?
+<lb />L’amas de ſes rubans a-t’il ſçeu vous charmer?
+<lb />Eſt-ce par les appas de ſa vaſte Reingraue,
+<lb />Qu’il a gaigné voſtre Ame, en faiſant voſtre Eſclaue?
+<lb />Ou ſa façon de rire, &amp; ſon ron de Faucet.
+<lb />Ont-ils, de vous toucher, ſçeu trouuer le ſecret?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Qu’iniuſtement, de luy, vous prenez de l’ombrage?
+<lb />Ne ſçauez-vous pas bien, pourquoy je le ménager
+<fw><lb />Et
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Et que dans mon Procez, ainſi qu’il me promis,
+<lb />il peut intelenel tout te quil à d’AlHis.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Perdez voſtre Proces, Madame, auec conſtance,
+<lb />Et ne ménagez point vn Riual qui m’offence.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Mais, de tout l’Vnſuers, vous deuenez jalous.
+</sp>
+<sp type="MainZone-Sp"><lb />Ai ACLO T L.
+<lb />C’eſt que tout l’Vniuers eſt bien reçeu de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />C’eſt ce qui doit r’aſſeoir voſtre Ame éfarouchée.
+<lb />Puis que ma Complaiſance eſt ſur tous épanchée:
+<lb />Et vous auriez plus lieu de vous en offencer,
+<lb />Si vous me la voyez, ſur vn ſeul, ramaſſer,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCLSIE
+<lb />Mais, moy, que vous blâmez de trop de jalouſie,
+<lb />Qu’ay-je de plus qu’eux tous, Madame, ie vous prie?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Le bonheur de ſçauoir que vous eſtes aimé.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />at quer llen de leerdne y'à inontœut emainct
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ie penſe qu’ayant pris le ſoin de vous le dire,
+<lb />Vn aueu de la ſorte, a dequoy vous ſouſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Vous n’en diſiez, peut-eſtre, aux autres tout aurant?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Certes, pour vn amant, la Fleurette eſt mignonne,
+<lb />Et vous me traitez, la, de gentille Perſonne.
+<lb />Hé bien, pour vous oſter d’vn ſemblable ſoucy,
+<lb />De tout ce que i’ay dit, ie me dedis icy;
+<lb />Et rien ne ſçauroit plus voustroper, paommdumeine;
+<lb />Soyez content.
+<lb />C
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Morbleu, faut-il que ie vous aime.
+<lb />Ah! que ſi, de vos Mains, ie r’atrape mon Cœur,
+<lb />Ie beniray le Ciel, de ce rare Bonheur !
+<lb />Ie ne le cele pas, ie fais tout mon poſſible,
+<lb />A rompre de ce cœur, l’attachement terrible;
+<lb />miais mes prus grands éforts n’ont rien fait, iuſqu’icy.
+<lb />Et c’eſt, pour mes Pechez, que ie vous aimé ainſi,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENL.
+<lb />Il eſt vray, voſtre ardeur eſt, pour moy, ſans ſeconde
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ouy, ie puis, là deſſus, défier tout le Monde,
+<lb />Mon amour ne ſe peut conceuoir, &amp; iamais,
+<lb />Perſonne n’a, Madame, aimé comme ie fais.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />En effet, la uethode en eſt toute nouuelle,
+<lb />Car vous aimez le Gens, pour leur raire quefelle,
+<lb />Ce n’eſt qu’en Mots fâcheux, qu’éclate voſtre ardeur,
+<lb />Et l’on n’a veu iamais, vn Amour ſi grondeur.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mais il ne tient qu’à vous, que ſon chagrin ne paſſe;
+<lb />A tous nos Demeſlez, coupons chemin, de grace,
+<lb />Parlons à cœur ouuert, &amp; voyons d’arreſter....
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LEIMERE, HECESID, BASQVE.
+</p>
+<sp type="MainZone-Sp"><lb />Qv'eſt-ce:
+<lb />CELIMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />BASNE.
+<lb />Acaſte eſt là-bas,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Hé bien, faites monter.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />uoy! l’on ne peut iamais, vous parler, teſte à teſte?
+<lb />receuoir le Monde, ont vous voit touſiours preſte?
+<lb />vous ne pouuez pas, vn ſeul moment de tous,
+<lb />ous reſoudre à ſouffrir de n’eſtre pas chez vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />oulez vous, qu’auec luy, ie me faſſe vne affaire?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />ous auen des Regarus qui ne lçauroient me plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />elf vn Homme à iamais, ne me le pardonner,
+<lb />il ſçauoit que fa veuë euſt pû m’importuner.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />que vous fait cela, pour vous geſner de ſorte....
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />on Dieulde ſes Pareils la Bien veillance importe,
+<lb />ce ſont de ces Gens, qui, ie ne ſçay comment,
+<lb />nt gagné, dans la Cour, de parler hautement,
+<lb />ons tous les entretiens, on les voit s’introduire:
+<lb />ne ſçauroient ſeruir, mais ils peuuent vous nuire;
+</sp>
+<sp type="MainZone-Sp"><lb />Et iamais, quelqu’apuy qu’on puiſſe auoir d’ailleurs,
+<lb />On ne doit ſe biouiſſer auec tes granus braiſſeurs.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />enfin, quoy qu’il en ſoit, &amp; ſur quoy qu’on ſe fonde,
+<lb />Vous trouuez des Raisõs pour ſouffrir tout le Mõde;
+<lb />It les precautions de voltle ragemhenes.
+<fw><lb />DOLIS III
+<lb />BASQVE, ALCESTE, CELIMENE,
+<lb />BASQ
+<lb />JE.
+<lb />y Oicy Clitandre, encor, Madame.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il témoigne s’en vouloir aller Iuſtement.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Où courez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />A leule ade
+<lb />Ie ſors.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Demeurez.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Pourquoy faires
+</sp>
+<sp type="MainZone-Sp"><lb />De meurez,
+<lb />CELIMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETES.
+<lb />Ie ne puis.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ie le veux
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETE.
+<lb />roint dananer
+<lb />tes Conuerſations ne font que m’ennuyer,
+<lb />Et c’et trop, que vouron ine les faire eſſuyer.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ie le veux, ie le veux.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, il m’eſt impoſſible.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />He bien, aſlez, fortez il vous ent tout loinok.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />ELIANTE, PHILINTE, ALCESTE,
+<lb />CLITANDRE, ALCESTE,
+<lb />CELIMENE, BASQVE,
+</p>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />7 Oicy les deux Marquis, qui montent auec nous,
+<lb />y vousreit on venddnes
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />à Alceſte. Oüy, des Sieges pour tous.
+<lb />Vous n’eſtes pas ſorty?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non mais ie veux Madame,
+<lb />Ou, pour eux, ou pour ihognaſre expliquer roſtre
+<lb />CELIMENE.
+<lb />(Ame.
+</sp>
+<sp type="MainZone-Sp"><lb />raiſez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Aujourd’huy, vous vous expliquerez.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Vous perdez le ſens.
+<fw><lb />C iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Point, Vous vous déclarez.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah!
+<lb />CELIMENE
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Vous prendrez Party.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Vous vous moquez, ie penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Nof, mais vous choiſirez, c’eſt trop de patience.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Parbleu, ie viens du Louure où Cleonte, au Leué,
+<lb />ſeradame, a'uien purui senumuis uentue.
+<lb />N’a-t’il point quelqu’Amy qui pût, ſur ſes Maniéres
+<lb />D’vn charitable Auis, luy preſter les lumieres?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Dans le Monde à vray dire, il ſe barboüille fort;
+<lb />Par tout, il porte vn Air qui ſaute aux ieux, d’abord,
+<lb />Et lors qu’on le reuoit, aprés vn peu d’abſende,
+<lb />On le retrouue, encor, plus plein d’extrauagance.
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />l’atbieu, sif taut parier de Gens cxtrauagans,
+<lb />Ie viens d’en eſſuyer vn des plus fatigans;
+<lb />Damon, le Raiſonneur, qui m’a ne vous déplaiſe,
+<lb />Vne heure, au grand Soleil, tenus hors de ma Chaiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />C’eſt vn Parleur étrange &amp; qui trouue, toûjours,
+<lb />L’Art de ne vous rien dire, auec de grands Diſcours.
+<lb />Dans les Propos qu’il tiẽt, on ne voiniamais goute,
+<lb />Et ce n’eſt que du Bruit que tout ce qu’on écoute.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE à Philinte.
+<lb />Ce Debut n’eſt pas mal; &amp; contre le Prochain,
+<lb />La Conuerſation prend vn aſſez bon train.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Tilante, encore, Madame, eſt vn bon Caractére!
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />C’eſt, de la reſte aux Pieds, vn Hõme tout myſtere,
+<lb />Qui vous iette, en paſſant, vn coup d’œil égaré
+<lb />Et, ſans aucune Affaire, eſt toûjours affaire.
+<lb />Tout ce qu’il vous debite, en grimaces, abonde;
+<lb />A force de façons, il aſſomme le Monde;
+<lb />Sans, ceſſe il a, tout bas, pour rompre l’entretien,
+<lb />Vn Secret à vous dire, &amp; ce Secret n’eſt rien;
+<lb />De la moindre Vetille, il fait vne Merueille,
+<lb />Et, iuſques au Bonjouf, il dit tout à l’oreille.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Et Geralde, Madame?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />O l’ennuyeux Conteur.
+<lb />Iamais, on ne le voit ſortir du Crand Seigneur?
+<lb />Dans le brillant commerce il ſe meſle, ſans ceſſe,
+<lb />Et ne cite iamais, que Duc, Prince, ou Princeſſe.
+<lb />La Qualité l’en teſte, &amp; tous les infetiens
+<lb />Ne ſont que de Cheuaux d’equipage, &amp; de Chiens?
+<lb />Al tutaye, en parſant, ceux du plus naut Etage,
+<lb />Et le nom de Monſieur, eſt chez luy, hors d’vſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE
+<lb />On dit qu’auec Beliſe, il eſt du dernier Bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Le pauute iſprit de Femme! &amp; le ſec entretien !
+<lb />Lors qu’elle vient me voir, ie ſouffre le Martyre,
+<lb />Il faue ſuer ſans ceſſe, à chercher que luy dire;
+<lb />Et la ſterilité de ſon Expreſſion,
+<lb />Fait mouris à tous coups, la Conuerſation.
+<lb />En vain, pour attequer ſon ſtupide ſilence,
+<lb />De tous les Lieux comuns, vous prenez l’aſſiſtanee;
+<lb />Le beau remps, &amp; la Pluye, &amp; le Froid, &amp; le chaud,
+<lb />Sont des Fonds, qu’auec elle, on épuiſe bien toſt.
+<lb />Cependant, ſa viſite, aſſez inſuportable,
+<lb />rraiſne en vne longueur, encor, épouuantable;
+<lb />Et l’on demande l’heure, &amp; l’on bâille vingt fois,
+<lb />Qu’elle groüille auſſi peu qu’vne Piece de Bois.
+</sp>
+<sp type="MainZone-Sp"><lb />ll e lro l no
+<lb />Que vous ſemble d’Adraſte?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE,
+<lb />Ah!lquel orguil extreme!
+<lb />c’eſt vn Homme gonſlé de l’amour de ſoy-méme;
+<lb />Son Merite iamais, n’eſt content de la cour,
+<lb />contr’elle, il fait meſtier de peſter chaque iour;
+<lb />Et l’on ne donne employ charge, ny Benefice,
+<lb />Qu’à tout ce qu’il ſe croid, on ne faſſe iniuſtice.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Mais le ieune cleon chez qui vont, auiourd’huy,
+<lb />Nos plus honneſtes Gens, que dites-vous de luy?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Que de ſon cuiſinier, il s’eſt fait vn Merite,
+<lb />Et que c’eſt à ſa rable, à qui’on rend Viſite.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Il prend ſoin d’y ſeruy des Mets fort délicats.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Oüy, mais ie voudrois bien qu’il ne s’y ſeruit pas,
+<lb />c’eſt vn fort méchant Plat, que ſa ſotte Perſonne,
+<lb />Et qui gaſte, à mõ gouſt, tous les Repas qu’il donne,
+</sp>
+<sp type="MainZone-Sp"><lb />TITIETI TE.
+<lb />On fait aſſez de cas de ſon Oncle Damis;
+<lb />Qu’en dites-vous, Madame?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Il eſt de mes Amis.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ie le trouue hõneſte Homme, &amp; d’vn air aſſez ſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Oüy, mais il veut auoir trop d’eſprit, dont i’enrage;
+<lb />Il eſt guindé ſans ceſſe; &amp; dans tous ſes propos.
+<lb />On void qu’il ſe trauaille à dire de bons Mots,
+<lb />Depuis que dans la teſte, il s’eſt mis d’eſtre habile,
+<lb />Rien ne touche ſon gouſt, tant il eſt difficile;
+<lb />Il veut voir des Defauts à tout ce qu’on écrit,
+<lb />Et penſe que loüer n’eſt pas d’vn bel eſprit.
+<lb />Que c’eſt eſtre ſçauant, que trouuer à redire;
+<lb />Qu’il n’appartient qu’aux Sors, d’admirer, &amp; de rire?
+<lb />Et qu’en n’approuuant rien des Ouurages du remps,
+<lb />Il ſe met au deſſus de tous les autres Gens.
+<lb />Aux conuerſations, meſme il trouue à reprendre.
+<lb />Ce font propon crop bus, pouapamipuer deſcendie;
+<lb />Et, les deux bras croiſez, du haut de ſon eſprit,
+<lb />Il regarde en pitie, tout ce que cnacun dit.
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Dieu me damne, voila ſon Portrait veritable.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE
+<lb />Pour bien prendre les Gens, vous eſtes admirable!
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Allons, ferme pouſſez, mes bons Amis de Cour,
+<lb />Vous n’en épargnez point, &amp; chacun a ſon tour.
+<lb />Cependant, aucun d’eux, à vos yeux, ne le montre,
+<lb />Qu’on ne vous voye en haſte, aller à ſa rencontre,
+<lb />Luy préſentet la main, &amp; d’vn baiſer fiateur,
+<lb />nppujer ies bertmenmeu eule iunseruiteur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Pourquoy s’en prendre à nous? Si ce qu’on dit, vous
+<lb />bleſſe,
+<lb />Il faut que le reproche, à Madame, s’adreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, morbleu, c’eſt à vous; &amp; vos Ris complaiſans
+<lb />Tilenr de ſon eſprit, tous ces traits médiſans;
+<lb />Son Humeur Satyrique eſt ſans ceſſe nourrie
+<lb />Par le coupable Encens de voſtre Flaterie;
+<lb />Et ſon Cœur, à railler, trouueroit moins d’appas,
+<lb />S’il auoit obſerué qu’on ne l’applaudiſt pas.
+<lb />c’eſt ainſi qu’aux Flateurs, on doit, par tout, ſe prẽdre
+<lb />Des Vices où l’on void les Humains ſe répandre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />nais pourquoy, pour ces Gens, vn intereit igrand,
+<lb />Vous, qui condamneriez, ce qu’en eux on reprend?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Et ne faut-il pas bien que Monſieur contrediſe?
+<lb />A la commune voix, veut-on qu’il ſe reduiſe?
+<lb />Et qu’il ne faſſe pas éclater, en tous lieux,
+<lb />L’eſprit contrariant qu’il a receu des cieux?
+<lb />Le Sentiment d’autruy, n’eſt iamais, pour luy plaire,
+<lb />Il prend touſiours, en main l’opinion contraire;
+<lb />Et penſeroit paroiſtre vn Homme du commun;
+<lb />Si l’on voyoit qu’il fût de l’auis de quelqu’vn.
+<lb />L’honneur de cõtredire, a, pour luy, tant de charmes,
+<lb />Qu’il prend, cõtte luy-méme, aſſez ſouuẽt, les armes;
+<lb />Et ſes vrais ſentimens ſont combatus par luy,
+<lb />Auſil-toit qu'i les vald dans la ooucne d'adtruy.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Les Rieurs ſont pour vous Madame c’eſt tout dire;
+<lb />Et vous pouués pouſſer, contre, moy, la Satire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais il eſt veritable, auſſi que voſtre eſprit
+<lb />Le gendarmes, touſiours, contre tout ce qu’on dit;
+<lb />Et que, par vn chagrin, que luy-meſme il auouë,
+<lb />Il ne ſçauroit ſouffrir qu’on blâme, ny qu’on louë.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESE.
+<lb />C’eſt que iamais, morbleu, les Hommes n’ont raiſon,
+<lb />Que le chagrin, contr’eux, eſt touſiours de Sailons,
+</sp>
+<sp type="MainZone-Sp"><lb />Et que ie voy qu’ils ſont, ſur toutes les A ffaires,
+<lb />noueurs impertinens, ou cenſeurs temeraires.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais....
+<lb />CELIMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, Madame, non quand i’en deurois mourir,
+<lb />Vous auez des plaiſirs que ie ne puis ſouffrir;
+<lb />Le rona tori iey de Murii dana roile Miile,
+<lb />ce grand attachement aux Defauts qu’on y blâme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Pour moy, ie ne ſçay pas, mais i’auoûray tout haut,
+<lb />Que i’ay crû, iuſqu’icy, Madame ſans Defaut.
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />De Graces, &amp; d’Attrais, ie voy qu’elle eſt pourueuë;
+<lb />Mais les Defauts qu’elle a, ne frapent point ma veuë.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ils frapent tous la mienne, &amp; loin de m’en cacher,
+<lb />Elle ſçait que i’ay ſoin de les luy reprocher.
+<lb />Plus on aime quelqu’vn, moins il faut qu’on le flate;
+<lb />A ne rien pardonner, le pur Amour éclate;
+<lb />Ru le damniuipanojseuuscensumicdſanalis;
+<lb />Que ie verrois ſoûmis à tous mes Sentimens,
+<lb />Et dont, à tous propos, les moles complaiſances
+<lb />Donneroient de l’encens à mes extrauagances,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />enfin, s’il faut qu’à vous, s’en raportent les cœurs,
+<lb />On doit, pour bien aimer, renoncer aux douceurs;
+<lb />ui du parfait Amour? mettre l’Honneur ſupreme,
+<lb />A bien iniurier les perſonnes qu’on aime.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />L’Amour, pour l’ordinaire, eſt peu fait à ces toix,
+<lb />Et l’on void les Amans vanter touſiours, leur chois:
+<lb />Iamais, leur Paſſion n’y void rien de blaſmable,
+<lb />Et dans l’Obiet aimé, tout leur devient aimable;
+<lb />Ils comptent les defauts pour des perfections,
+<lb />Et ſçauent y donner des fauorables Noms,
+<lb />La Pâle, eſt aux Iaſmins, en blancheur comparable;
+<lb />La Noire, à faire peur, vne brune adorable;
+<lb />La Maigre, a de la taille; &amp; de la liberté;
+<lb />La Graſſe, eſt dans ſon port pleine de Maieſté;
+<lb />La Mal propre ſur ſoy, de peu d’attraits chargée,
+<lb />Eſt miſe ſur le nom de Beauté negligée;
+<lb />La Géante, paroiſt vne Deeſſe aux yeux;
+<lb />La Naine, vn Abregé des Merueilles des cieux;
+<lb />L’Orgueilleuſe, à le cœur digne d’vne couronne;
+<lb />La Fourbe a de l’Eſprit; la Sotte, eſt toute bonne;
+<lb />La trop grande Parleuſe, eſt d’aggreable Humeur;
+<lb />nou niuette y garue vne honneſte pudeur.
+<lb />c’eſt ainſi, qu’vn Amant, dont l’ardeur eſt extréme,
+<lb />Aime, luiqu aux Lelauts des Perlonues qu’il aime,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Et moy, ie ſoûtiens, moy....
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Briſons là, ce diſcours,
+<lb />Et daua la daiele, anons iale deua tvares
+<lb />Quoy! vous vous en allez, Meſſieurs?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE &amp; ACASTE.
+<lb />Non pas, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE.
+<lb />La peur de leur depait, occupe fort voſtre Ame,
+<lb />Seitib, qud vous voudrez, Meſſieurs; mais i’auertis,
+<lb />Que ie ne ſors qu’apres que vous ſerez ſortis.
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />A moins de voir Madame en eſtre importunée.
+<lb />Rien ne m’appelle, ailleurs de toute la iournée.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Moy, pourueu que ie puiſſe eſtre au petir couché,
+<lb />Ie n’ay point d’autre Alrane, ou le lon annenê.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />C en pourmle, lecioy.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non en aucune ſorte,
+<lb />Nous vellos, ne ert inoy, que vous vouurez qui ſorte.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />BASQVE, ALCESTE, CELIMENE,
+<lb />EMVIL 5 ACOID 5 ILILNIES
+<lb />CLITANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />BASQVE.
+<lb />Onſieur, vn Homme eſt là, qui voudroit vous
+<lb />174 parler.
+<lb />Pour Affaire, dit-il qu’on ne peut reculet,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />oj faj; que le naj porut d'Ananes i preſſées.
+</sp>
+<sp type="MainZone-Sp"><lb />BASQVE.
+<lb />Il porte vne Iaquette, à grand Baſques pliſſées,
+<lb />Auce du Dor deſſus,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Allez voi ce que derel
+<lb />Ou bien, faites-le entrer.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Qu’eſt-ce, donc, qu’il vous plaiſt.
+<lb />Venez Monſieur.
+<fw><lb />B
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />GARDE, ALCESTE, CELIMENE,
+<lb />ELIANTE, ACASTE, PHILINTE,
+<lb />CLITANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />GARDE.
+<lb />MOnſieur, i'ay deux mots à vous dire.
+<lb />ALCESTE.
+<lb />(ſtruire.
+<fw><lb />Vous pouuez parler haur Monſieur, pour m’en in</fw></sp>
+<sp type="MainZone-Sp"><lb />GARDE.
+<lb />Meſſieurs, les Marelchaux, dont i’ay cõmandement,
+<lb />Vous mandent de venir les trouuer promprement,
+<lb />Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Qui? moy; Monſieur;
+</sp>
+<sp type="MainZone-Sp"><lb />GANDL.
+<lb />Vous meime.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Et pourquoy faite?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />C’eſt d’Oronte, &amp; de Vons, la ridicule Affaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment »
+<lb />CELIMENE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Oronte, &amp; luy, ſe ſont tantoſt brauez,
+<lb />Sur certains petits Vers, qu’il n’a pas approuuez;
+<lb />Et l’on veut aſſoupir la choſe, en ſa naiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Moy, ie n’auray, iamais, de lâche Complaiſance.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais il raut Iuiure l’Ordre, alions, umpolez-vous....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Quel accommodement veut-on faire entre nous?
+<lb />La Voix de ces Meſſieurs, me condamnera-t’elle
+<lb />A trouuer bons les Vers qui font noſtre Querelle?
+<lb />Ie ne me dédis pome de te que ronay uiti
+<lb />Ie les trouue méchans.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINIE.
+<lb />Mais d’vn plus doux eſprit....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie n’en démordray point, les Vers ſont execrables,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Vous deuez faire voir des Sentimens traitables;
+<lb />Allons, venez.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE.
+<lb />I’iray, mais rien n’aura pouuoir.
+<lb />De me ſaire dédire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Allons vous faire voir.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Hors qu’vn Comandement expres du Rey me viene,
+<lb />De trouuer bons les Vers, dont-on ſe met en peine,
+<lb />Ie ſoutiendray, toûjours, morbleu, qu’ils sõt mauuais,
+<lb />Et qu’vn Homme eſt pendable, apres les auoir faits.
+</sp>
+<sp type="MainZone-Sp"><lb />da entiinmna CMcnne squiM. ;
+<lb />raniu lagolenmemeurs? ie ne croyois pas eſtre
+<lb />Si plaiſant que ie ſuis.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Allez viſte pareſtre
+<lb />Où vous deuez. ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />I’y vais, Madame, &amp;, ſur mes pas,
+<lb />Ie reuiens en ce Lieu, pour vuider nos Debats.
+<lb />Fin du Second Acte.
+<lb />D ij
+</sp>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />SCENE PREMIERE.
+<lb />CLITANDRE, ACASTE.
+</p>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />O HER Marquis, ie te voy l’Ame
+<lb />bien ſatisfaite,
+<lb />route choſe t’égaye, &amp; rien ne
+<lb />t’inquiete.
+<lb />7 En bonne foy, crois tu, ſans t’é<lb />B bloüir les yeux,
+<lb />LEEY Auoir de grands ſuiets de paroi</sp>
+<sp type="MainZone-Sp"><lb />ſtre ioyeux.
+<lb />ACASTE.
+<lb />Parbleu, ie ne voy pas, lors que ie m’examine,
+<lb />Où prendre aucun ſujet d’auoir l’Ame chagrine,
+<lb />I’ay du bien, ie ſuis ieune, &amp; ſors d’vne maiſon
+<lb />Qui ſe peut dire Noble, auec quelque raiſon;
+<lb />Et ie croy, par le Rang que me donne ma Race,
+<lb />Qu’il eſt fort peut d’emplois, dõt ie ne ſois en paſſe.
+<lb />Pour le cœur, dont, ſur tout, nous deuons faire cas,
+<lb />On ſçait ſans vanité, que ie n’en manque pas;
+<lb />et l’on ma veu pouſſer, dans le monde, vne Affaire,
+<lb />D’vne aſſez vigoureuſe, &amp; gaillarde maniere.
+</sp>
+<sp type="MainZone-Sp"><lb />Pour l’eſprit, i’en ay, ſans doute, &amp; du bon goû.
+<lb />A iuger ſans Etude, &amp; raiſonner de tout;
+<lb />A faire aux Nouueautez, dont ie ſuis idolâtre,
+<lb />Figure de Sçauant, ſur les Bans du Theatre;
+<lb />Y décider, en Chef, &amp; faire du Fracas
+<lb />A tous les beaux Endroits qui meritent des Has.
+<lb />Ie ſuis aſſez adroit, i’ay bon air; bonne mine,.
+<lb />Les Dents belles, ſur tout, &amp; la taille fort fine
+<lb />Quant à ſe mertre bien, ie croy, ſans me flater,
+<lb />Qu’on ſeroit mal venu, de me le diſputer.
+<lb />Ie me voy dans l’eſtime, autant qu’on y puiſſe eſtre
+<lb />Fort aimé du beau Sexe, &amp; bien aupres du Maiſtre:
+<lb />Ie croy, qu’auec cela, mon cher Marquis, ie croy,
+<lb />Qu’on peut, par tout Pays, eſtre content de ſoy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHITARDRE.
+<lb />Oüy, mais trouuant ailleurs, des conqueſtes faciles,
+<lb />Pourquoy pouſſer icy, des ſoûpirs inutiles;
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Moy? parbleu, ie ne ſuis de taille, ny d’humeur,
+<lb />A pouuoir, d’vne Belle, eſſuyer la froideur.
+<lb />c’eſt aux Gens mal tournez, aux Merites vulgaires,
+<lb />A brûler, conſtamment, pour des Beautez ſeueres;
+<lb />A languir à leurs piez, &amp; ſouffrir leurs rigueurs,
+<lb />A chercher le ſecours des ſoûpirs, &amp; des pleurs,
+<lb />Et tâcher, par des ſoins d’vne tres-longue ſuite,
+<lb />D’obtenir ce qu’on nie à leur peu de merite.
+<lb />Mais les Gẽs de mon air, Marquis, ne ſont pas faits,
+<lb />Pour aimer à credit, &amp; faire tous les frais.
+<lb />Quelque rare que ſoit le mérite des Belles.
+<lb />Ie penſe, Dieu mercy, qu’on vaut ſon prix, cõme elles;
+<lb />Que pour ſe faite hõneur d’vn cœur cõme le mien,
+<lb />Ce n’eſt pas la raiſon qu’il ne leur coûte riens
+<lb />Et qu’au moins, à tout mettre en de iuſtes Balances,
+<lb />Il faut, qu’à frais communs, ſe faſſent les auances.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Tu penſes, donc, Marquis, eltre fort bien icy?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />I’ay quelque lieu, Marquis, de de le penſer ainſit
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />croy fioy juetuene toy de cette erreur extreme;
+<lb />ru te flates, mon cher, &amp; t’aueugles toy-méme.
+</sp>
+<sp type="MainZone-Sp"><lb />Aeno IE.
+<lb />Il eſt vray, ie me flate, &amp; m’aueugle, en effet.
+</sp>
+<sp type="MainZone-Sp"><lb />CLTTANDRE
+<lb />Mais, qui te fait iuger ton bonheur ſi parfait?
+</sp>
+<sp type="MainZone-Sp"><lb />le mie nater
+<lb />A CASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />sur quoy ionder tes conjectures?
+</sp>
+<sp type="MainZone-Sp"><lb />Ie m’aueugle.
+<lb />ACASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />En as- tu des preuues qui ſoient ſeures?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />de mabuie,te dis je</sp>
+<sp type="MainZone-Sp"><lb />CLITANDR.E.
+<lb />Eſt-ce que de ſes vœux,
+<lb />telimene t’a fait quelques ſecrets aueus?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Romnoruis mal-traité.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Répond-moy, ie te prie.
+</sp>
+<sp type="MainZone-Sp"><lb />A CASTE.
+<lb />Ie n’ay que des rebuts.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Laiſſons la raillerie,
+<lb />it me dis quel eſpoir on peut t’auoir donné?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Ie ſuis le Miſerable, &amp; toy le Fortuné,
+<lb />On a pour ma Perſonne, vne auerſion grande;
+<lb />Et quelqu’vn de ces iours, il faut que ie me pende.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />O ça, veux tu Marquis, pour aiuſter nos vœux,
+<lb />Que nous tõbions d’accord d’vne choſe, tous deux?
+<lb />Que qui pourra montrer vne marque certaine,
+<lb />D’auoir meilleure par au cœur de celimene.
+<lb />L’autre icy, fera place au Vainqueur prétendu,
+<lb />Et le deliurera d’vn Riual aſſidu?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />niniparbleu, tu me plais, auec vn tel langage;
+<lb />Et du bon de mon cœun,a cela le mengage.
+<lb />Mais chut.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CELIMENE, ACASTE,
+<lb />CLITANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />ENconiy,
+</sp>
+<sp type="MainZone-Sp"><lb />CLTTANDRE.
+<lb />L’amour retient nos pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ie viens d’oüir entrer vn caroſſe là-bas,
+<lb />Sçauez-vous qui c’eſt?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Non.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />BASQVE, CELIMENE, ACASTE,
+<lb />CETTANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />BASQVE.
+<lb />TXRſinoé, Madame,
+<lb />Monte icy, pour vous voir,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Que me veut cette Femme!
+</sp>
+<sp type="MainZone-Sp"><lb />BASQVE.
+<lb />Eliante, la bas, eſt à l’eutretenir.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Cequoy s’auiſe-telle, &amp; qui la fait venir?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Pour Prude conſommée, en tous lieux, elle paſſe;
+<lb />Et l’ardeut de ſon zele....
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Oüy, oüy, franche Grimace.
+<lb />Dãs l’Ame, elle eſt du mõde, &amp; ſes ſoins tentẽt tout
+<lb />Pour acrocher quelqu’vn ſans en venir à bout.
+<lb />Elle ne ſçauroit voir, qu’auec vn œil d’enuie,
+<lb />Les amas declarez, dont vne autre eſt ſuiuie;
+<lb />Et ſon triſte Merite, abandonné de tous,
+<lb />Contre le Siecle aueugle, eſt touſiours en courroux
+<lb />Elle tache à couurir, d’vn faux voile de Prude,
+<lb />Ce que, chez elle, on void d’affreuſſe Solitude;
+<lb />Et pour ſauuer l’honneur de ces foibles Appas,
+<lb />Elle attache du Ctime, au pouuoir qu’ils n’ont pas
+<lb />Cependant, vn Amant plairoit fort à la Dame,
+<lb />Et meſme, pour Alceſte, elle a tendreſſe d’Ame;
+<lb />ce qu’il me rend de ſoins, outrage ſes Attraits,
+<lb />Elle veut que ce ſoit vn Vol que ie luy fais:
+<lb />Et ſon jalous dépit, qu’auec peine, elle cache;
+<lb />En tous endroits, ſous mains contre moy ſe détache.
+<lb />Enfin, ie n’ay rien veu de ſi ſot, à mon gré,
+<lb />elle eſt impertinente au ſupreme Degré.
+<fw><lb />Et...
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />ARSINOE', CELIMENE.
+</p>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />AH!quel heureux Sort, en ce Lieu, vous amene;
+<lb />Madame, ſans mentir, i’eſtois de vous en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />AlcolvE.
+<lb />Ie viens, pour quelque auis que i’ay crû vous deuoir,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ahlmon Dieu, que ie ſuis contente de vous voir!
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Leur depart ne pouuuoit, plus à propos ſe faire.
+</sp>
+<sp type="MainZone-Sp"><lb />GELIMENE.
+<lb />Voulons-nous nous aſſeoir?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />Il n’eſt pas neceſſaire,
+<lb />Madame; l’Amitié doit ſur tout éclater
+<lb />Aux choſes, qui le plus, nous, peuuent importer;
+<lb />Et cõme il n’en eſt point de plus grande importance,
+<lb />Que celles de l’Honneur, &amp; de la Bienſeance.
+</sp>
+<sp type="MainZone-Sp"><lb />Ie viens, par vn avis qui touche voſtre Honneur,
+<lb />Témoigner l’amitié que, pour vous, a mon cœur.
+<lb />Hier, i’eſtois chez des Gens; de Vertu ſinguliere,
+<lb />Où ſur vous, du Diſcours, on tourna la matiere;
+<lb />Et la, voſtre conduite, avec ſes grands éclats,
+<lb />Madame, eût le malheur qu’on ne la loüa pas.
+<lb />Cette foule de Gens dont vous ſouffrez viſite,
+<lb />Voſtre Galanterie, &amp; les bruits qu’elle excite,
+<lb />Trouverent des cenſeurs plus qu’il n’auroit fallu,
+<lb />Et bien plus rigoureux que ie n’euſſe voulu.
+<lb />Vous pouuez bien penſer quel Party ie ſçeus prẽdre;
+<lb />Ie fis ce que ie pûs, pour vous pouuoir defendre,
+<lb />Ie vous excuſay fort ſur voſtre intention,
+<lb />Et voulus, de voſtre Ame, eſtre la caution.
+<lb />Mais vous ſçauez qu’il eſt des choſes dans la vie,
+<lb />Qu’on ne peut excuſer, quoy qu’on en a enuie;
+<lb />Et ie me vis contrainte à demeurer d’accord.
+<lb />Que l’air dont vous viuiez, vous faiſoit vn peu tort.
+<lb />Qu’il prenoit, dans le Monde, vne méchante face,
+<lb />Qu’il n’eſt cõte fâcheux que par tout on n’en faſſe;
+<lb />Et que, ſi vous vouliez, tous vos déportemens
+<lb />Pouroient moins dõner priſe aux mauuais iugemens.
+<lb />Non que i’y croye, au fonds, l’Honneſteté bleſſée,
+<lb />Me preſerve le Ciel d’en auoir la pensée;
+<lb />Mais, aux ombres du crime, on preſte aiſement foy,
+<lb />Et ce n’eſt pas aſſez, de bien viure pour ſoy.
+<lb />madimherlerousemgmimodej Manable,
+<lb />Pour ne pas prendre bien, cet auis proſitable;
+<lb />Et pour l’attribüer qu’au mouuemens ſecrets
+<lb />D’vn zele qui m’attache à tous vos intereſts.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Madame, i’ay beaucoup de graces à vous rendre,
+<lb />Vn tel auis m’oblige, &amp; loin de le mal prendre,
+</sp>
+<sp type="MainZone-Sp"><lb />I’en prétens reconnoiſtre à l’inſtant, la faueur,
+<lb />Par vn auis, auſſi, qui touche voſtre Honneur:
+<lb />Et comme ie vous vois vous montrer mon Amie,
+<lb />En m’apprenant les bruits que de moy l’on publie,
+<lb />Ie veux ſuiure à mon tour, vn exemple ſi doux,
+<lb />En vous auertiſſant, de ce qu’on dit de vous.
+<lb />En vn lieu l’autre iour, où ie faiſois viſite,
+<lb />Ie trouuay quelques Gens, d’vn tres-rare merite,
+<lb />Qui parlent des vrais Soins d’vne Ame qui vit bien,
+<lb />Firent tomber, ſur vous Madame, l’entretien.
+<lb />Là, voſtre Pruderie, &amp; vos eclats de zele.
+<lb />Ne furent pas citez comme vn fort bon Modele:
+<lb />cette affection d’vn graue exterieur,
+<lb />Vos Diſcours eternels de Sageſſe, &amp; d’Honneur,
+<lb />Vos mines, &amp; vos cris, aux Ombres d’indecence,
+<lb />Que d’vn mot ambigu; peut auoir l’innocence;
+<lb />cette hauteur d’eſtime où vous eſtes de vous,
+<lb />Et ces yeux de pitié, que vous iettez ſur tous;
+<lb />Vos frequentes Leçons, &amp; vos aigres cenſures,
+<lb />Sur des choſes qui ſont innocentes, &amp; pures,
+<lb />Tout cela, ſi ie puis vous parler franchement,
+<lb />Madame, fut blaſmé, d’vn commun Sentiment.
+<lb />A quoy bon, diſoient, cette Mine modeſte.
+<lb />Et ce ſage Dehors, que dément tout le reſte?
+<lb />Elle eſt, à bien prier, exacte au dernier point,
+<lb />Mais elle bat ſes Gens, &amp; ne les paye point.
+<lb />Dans tous les Lieux denots, elle étâle vn grand Zele
+<lb />Mais elle met du blanc &amp;, veut paroiſtre belle;
+<lb />Elle fait des rableaux couurir les nuditez,
+<lb />Mais elle a de l’amour pour les Realitez.
+<lb />Pour moy, contre chacun, ie pris voſtre defence,
+<lb />Et leur aſſeuray fort, que c’eſtoit Mediſance;
+<lb />Mais tous les Sentimens combatirent le mien,
+<lb />Et leur concluſion fut; que vous feriez bien,
+<lb />De prendre moins de ſoin des Actions des autres,
+<lb />Et de vous mettre vn peu, plus en peine des voſtres.
+<lb />Qu’on doit ſe regarder ſoy méme, vn fort long tẽps.
+<lb />Auant que de ſonger à condamner les Gens;
+<lb />Qu’il faut mettre le poids d’vne vie exemplaire,
+<lb />Dans les Corrections qu’aux autres, on veut faire;
+<lb />Et qu’encor, vaut-il mieux s’en remettre au beſoin,
+<lb />A ceux à qui le Ciel en a commis le Soin.
+<lb />Madame, ie vous crois auſſi, trop raiſonnable,
+<lb />Pour ne pas prendre bien, cet auis profitable,
+<lb />Et pour l’attribuer qu’aux mouuemens ſecrets,
+<lb />D’vn zele qui m’attache à tous vos intereſts.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />A quoy, qu’en reprenant, on ſoit aſſuiettie,
+<lb />Ie ne m’attendolt pas a cette lepartie,
+<lb />Madame, &amp; ie vois bien, parce qu’elle a d’aigreur,
+<lb />Que mon ſincere auis vous a bleſſée au cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE,
+<lb />Au contraire Madame &amp; ſi l’on eſtoit ſage,
+<lb />ces auis mutuels ſeroient mis en vſage;
+<lb />On détruiroit par là, traitant de bonne foy,
+<lb />ce grand aueuglement, où chacun eſt pour ſoy.
+<lb />il ne tiendra qu’a vous, qu’auec le melme zele.
+<lb />Nous ne continüyons ces office fidelle;
+<lb />Et ne prenions grand ſoin de nous dire, entre nous,
+<lb />ce que nous entendrons, vous de moy moy de vous:
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />Ah! Madame, de vous, ie ne puis rien entendre;
+<lb />c’eſt en moy que l’on peut trouuer fort à reprẽdre.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Madame, on peut, ie croy, loüer &amp; blaſmer tous,
+<lb />Et chacun a raiſon, ſuiuant l’âge, ou le gouſt:
+<lb />Il eſt vne Saiſon pour la Galanterie,
+<lb />Il en eſt vne, auſſi, propre a la Pruderie:
+<lb />On peut, par Politique, en prendre le party,
+<lb />Quand de nos ieunes ans, l’eclat eſt amorty;
+<lb />Cela ſert à couurir de fâcheuſes diſgraces.
+<lb />Ie ne dis pas, qu’vn iour, ie ne ſuiue vos traces.
+<lb />L’Age amenera tout, &amp; ce n’eſt pas le temps.
+<lb />Madame, cõme on ſçait, d’eſtre Prude à vingt ans,
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Certes, vous vous targuez d’vn bien foible Auãtage,
+<lb />Et vous faites ſonner, terriblement, voſtre Age:
+<lb />Ce que, de plus que vous, on en pourroit auoir,
+<lb />N’eſt pas vn ſi grand cas pour s’en tant preualoir;
+<lb />Et ie ne ſçay pourquoy, voſtre Ame, ainſi, s’emporte,
+<lb />Madame, à me pouſſer de cette étrange ſorte?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Et moy, ie ne ſçay pas Madame auſſi pourquoy,
+<lb />On vous void, en tous Lieux vous déchainer ſut moy,
+<lb />Faut-il de vos chagrins, sãs ceſſe, à moy vous prẽdre?
+<lb />Et puis-je mais des Soins qu’on ne va pas vous rédre?
+<lb />Si ma Perſonne, aux Gens inſpire de l’amour,
+<lb />Et ſi l’on continuë à m’offrir, chaque iour,
+<lb />Des vuux que vont euur peut mounaiter tud m’oitc
+<lb />Ie n’y ſçautois que faire, &amp; ce n’eſt pas ma faute;
+<lb />Vous auez le Champ l'bre, &amp; ie n’empeſche pas,
+<lb />Que pour les attirer, vous n’ayez des Appas.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Helas! &amp; croyez-vous que l’on ſe mette en peine
+<lb />De ce nombré d’Amans dont vous faites la vaine:
+<lb />Et qu’il ne nous ſoit pas fott aisé de iuger,
+<lb />A quel prix, auiourd’huy, l’on peut les engager?
+<lb />Penſez vous faire croire; à voir comme tout roule,
+<lb />Que voſtre ſeul Merite attire cetre foule?
+<lb />Qu’ils ne brûlẽt pour vous, que d’vn hõneſte amour,
+<lb />Et que, pour vos Vertus, ils vous font tous la Cours
+</sp>
+<sp type="MainZone-Sp"><lb />On ne s’aueugle point par des vaines défaites,
+<lb />Le Monde n’eſt point Dupe, &amp; i’en vo id qui sõt faites
+<lb />A pouuoir inſpirer de tendres Sentimens.
+<lb />Qui chez elles, pourtant, ne fi xent point d’Amans;
+<lb />Et de là nous pouuons tirer des conſequences
+<lb />Qu’on n’aquiert point leurs cœurs, ſans de grandes
+<lb />auances?
+<lb />Qu’aucun, pour nos beaux yeux n’eſt nôtre Soûpirãt,
+<lb />Et qu’il faut acheter tous les Soins qu’on nous rend.
+<lb />Ne vous enflez, donc, point d’vne ſi grande gloire,
+<lb />Pour les petits Brillans d’vne foible Victoire;
+<lb />Et corrigez, vn peu l’orgüeil de vos Appas,
+<lb />De traiter, pour cela les Gens de haut en bas.
+<lb />Si nos yeux enuioient les Conqueſtes des voſtres,
+<lb />le penre uopcaut faire comme les autres.
+<lb />Ne ſe point menager, &amp; vous rane bien Voir,
+<lb />Que l’on a des Amans, quand on en veut avoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ayez-en donc, Madame, &amp; voyons cette Affaire,
+<lb />Par ce rare Secret, efforcez-vous de plaire:
+<lb />Et ſans....
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Briſons, Madame, vn pareil Entretien,
+<lb />Il pouſſeroit trop loin voſtre Eſprit, &amp; le mien :
+<lb />Et i’aurois pris, déja, le congé qu’il faut prendre,
+<lb />Si mon Caroſſe, encore, ne m’obligeoit d’attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Autant qu’il vous plaira, vous pouuez arreſter,
+<lb />Madame, &amp; là-deſſus, rien ne doit vous haſter:
+<lb />Mais, ſans vous fatiguer de ma ceremonie,
+<lb />Ie m’en vais vous donner meilleure Compagnie;
+<lb />Et Monſieur, qu’à propos, le Hazard fait venir,
+<lb />Remplira mieux ma place à vous entretenir.
+<lb />Alceſte il faut que i’aille écrire vn mot de Lettre,
+<lb />Que ſans me faire tort ie ne ſçaurois remetre;
+<lb />ſoyez auec Madame, elle aura la bonté
+<lb />D’excuſer, aiſément, mon inciuilité.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />ACASTE, ARSINOE,
+</p>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />y Ous voyez, elle veut que ie vous entretienne
+<lb />V Attendãt vn moment, que mon Caroſſe vienne,
+<lb />Et iamais tous ſes ſoins ne pouuoit m’offrir rien,
+<lb />Qui me fut plus charmant, qu’vn pareil Entretien.
+<lb />En verité, les Gens d’vn Merite ſublime.
+<lb />Entrainent de chacun, &amp; l’amour, &amp; l’eſtime;
+<lb />Et le voſtre, ſans doute a des Charmes ſecrets,
+<lb />Qui font entrer mon cœur dans tous vos intereſts,
+<lb />le voudrois que la Cour, par vn regard propice,
+<lb />A ce que vous valez, rendiſt plus de juſtice:
+<lb />Vous auez à vous plaindre &amp; ie ſuis en courroux,
+<lb />Quãd ie voy, chaque jour, qu’õ ne fait riẽ pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />e ne ſs.
+<lb />Moy, Madame! &amp; ſurquoy pourrois-je en riẽ prétẽdre?
+<lb />Quel Seruice, à l’Eſtat eſt ce qu’on m’a veu rendre?
+<lb />Qu’ay je fait, s’il vous plaiſt, de ſi brillant de ſoy,
+<lb />Pour me plaindre à la cour, qu’õ ne fait riẽ pour mois
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’'.
+<lb />Tous ceux, ſur qui la Cour iette des yeux propices,
+<lb />N’ont pas, touſiours, rendu de ces fameux Seruices;
+</sp>
+<sp type="MainZone-Sp"><lb />E ij
+<lb />Il faut l’Occaſion, ainſi que le Pouuoir:
+<lb />Et le Merite, enfin, que vous nous faites voir,
+<lb />Deutolt....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mon Dieu! laiſſons mon Mérite, de grace,
+<lb />De quoy voulez-vous, là que la Cour s’embaraſſe?
+<lb />Elle auroit fort à faire, &amp; ſes ſoins ſetoient grands,
+<lb />D’auoir à deterrer le Merite des Gens.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />Vn merite éclatant ſe deterre luy-méme;
+<lb />Du voſtre, en bien des lieux, ont fait vn cas extreme;
+<lb />Et vous ſçaurez de moy: qu’ẽ deux fort bõs endroits,
+<lb />Vous fûtes hier, loüé par des Gens d’vn grẽd poids.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Eh! Madame, l’on louë, auiourd’huy, tout le Monde,
+<lb />Et le Siecle par là, n’a rien qu’on ne confonde;
+<lb />Tout eſt d’vn grand merite également; doüé,
+<lb />Ce n’eſt plus vn Honneur, que de ſe voir loüé;
+<lb />D’eloges, on regorge; à la teſte, on les iette.
+<lb />Et mon Valet de Chambre eſt mis dans la Gazette.
+<lb />ARSINOE'.
+<lb />(mieux
+</sp>
+<sp type="MainZone-Sp"><lb />Pout moy, ie voudrois bién, que pour vous montrer
+<lb />Vne Charge, à la Cout, vous pût fraper les yeux:
+<lb />Four peu que d’y soger, vous nous faſſiez lel mines;
+<lb />On peut pour vous ſeruir, remüer des Machines;
+<lb />Et i’ay des Cẽs en main, que i’emploiray pour vous,
+<lb />Qui vous feront, à tous, vn chemin aſſez doux.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE
+<lb />Et que voudriez vous, Madame que i’y fiſſe!
+<lb />L’humeur dõt ie me ſens, veut que ie m’en baoniſſe;
+<lb />Le Ciel ne m’a point fait, en me donnant le lour,
+<lb />Vne Ame compâtible auec l’Air de la Cour.
+<lb />Ie ne me trouue point les Vertus neceſſaires
+<lb />Pour y bien reüſſir, &amp; faire mes affaires.
+<lb />eſtre franc &amp; ſincere, &amp; mon plus grand Talent,
+<lb />Ie ne ſçais point ioüer les Hommes en parlant;
+<lb />Et qui n’a pas le don de cacher ce qu’il penſe,
+<lb />Doit faire, en ce Pays, fort peut de reſidence.
+<lb />Hors de la Cour, ſans doute; on n’a pas cet appuy,
+<lb />Et ces Titres d’Honneur, qu’elle donne auiour d’huy
+<lb />Mais on n’a pas auſſi, perdant ces Auantages.
+<lb />Le chagrin de ioüer de forts ſots Perſonnages.
+<lb />On n’a point à ſouffrir mille rebuts cruels,
+<lb />On n’a point à loüer les Vers de Meſſieurs Tels.
+<lb />A donner de l’Encens à Madame vne Telle,
+<lb />Et de nos frans Marquis, eſſuyer la ceruelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />Laiſſons, puis qu’il vous plaiſt, ce Chapitre de Cour
+<lb />Mais il faut que mon cœur vous plaigne en voſtre
+<lb />amour;
+<lb />Et pour vous découurir, lâ-deſſus, mes penſées,
+<lb />le ſouhaiterois fort vos ardeurs mieux placées:
+<lb />vous meritez sãs doute, vn Sort beaucoup plus doux,
+<lb />Et celle qui vous charme, eſt indigne de vous
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mais, en diſant cela, ſongez vous, ie vous prie,
+<lb />Que cette Perſonne eſt, Madame, voſtre Amie?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Ouy, mais ma Conſcience eſt bleſiée en effet,
+<lb />De ſouffrir, plus long-tẽps, le tort que l’on vous fait:
+<lb />L’eſtat où ie vous vois, Afflige trop mon Ame,
+<lb />Et ie vous donne auis, qu’on trahit voſtre flame.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />C’eſt me mõtrer, Madame, vn tendre mouuement;
+<lb />Et de pareils auis obligent vn Amant.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Oüy, toute mon Amie, elle eſt, &amp; ie la nomme
+<lb />Iadigue d’aſſeruir le cœur d’vn galant Hommes
+<lb />E iij
+<lb />ne le neni na, pour vouoj que de reintes douceurs.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Cela ſe peut, Madame, on ne void pas les cœurs;
+<lb />Mais voſtre charité ſe ſeroit bien paſſée
+<lb />De ietter, dans le mien, vne telle penſé.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />or vousne vouien pas eſtre deſabuſé.
+<lb />Il faut ne vous rien dire, il eſt aſſez aiſé.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non; mais ſur ce ſujet, quoy que l’on nous expoſe,
+<lb />Les doutes ſont fâcheux, plus que toute autre choſe;
+<lb />Et ie voudrois, pour moy, qu’on ne me fit ſçauoir
+<lb />Que ce, qu’auec clarté, l’on peut me faire voir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE’.
+<lb />Hé bien c’eſt aſſez dit; &amp;, ſur cette matiere,
+<lb />Vous allez receuoir vne pleine lumiere.
+<lb />Oüy, ie veux que de tout, vos yeux vous faſſent foy,
+<lb />Dõnez-moy, ſeulement, la main iuſques chez moy.
+<lb />La; ie vous feray voir vne preuue fidelle
+<lb />De l’infidelité du cœur de voſtre Belle;
+<lb />Et ſi, pour d’autres yeux; le voſtre peut brûler,
+<lb />On pourra vous offrir dequoy vous conſoler.
+</sp>
+<p type="MainZone-Other"><lb />Fin du Troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE IV.
+<lb />SCENE PREMIERE.
+<lb />ELIANTE, PHILINTE,
+</p>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />ON, l’on n’a point veu d’Ame à manier,
+<lb />ſi dure,
+<lb />Ny d’Accommodement plus penible à
+<lb />conclure;
+<lb />En vain de tous coſtez, on la voulu tourner,
+<lb />Hors de ſon Sentiment, on n’a pû l’entrainer;
+<lb />Et, iamais, Diferent ſi bizarte, ie penſe,
+<lb />N’auoit de ces Meſſieurs, occupé la prudence.
+<lb />Non Meſſieurs, diſoit-il, ie ne me dédis point,
+<lb />Et tomberay d’accord de tout, hors de ce point.
+<lb />Dequoy s’offence t’il? &amp; que veut-il me dire?
+<lb />Y va t’il de ſa gloire, à ne pas bien écrire?
+<lb />Que luy fait mon auis, qu’il a pris de trauers?
+<lb />On peut eſtre honneſte Homme, &amp; faire mal des
+<lb />Vers;
+<lb />Ce n’eſt point à l’Hõneur, que touchẽt ces matieres,
+<lb />Ie le tiens galant Homme en toutes les manieres,
+<lb />Homme de qualité, de Merite, &amp; de cœur,
+<lb />Tout ce qu’il vous plaira mais fort méchãt Autheur,
+<lb />Ie loüeray, ſi l’on veut, ſon train, &amp; ſa Depenſe,
+<lb />Son adreſſe à Cheval, aux Armes, à la Danſe;
+<lb />Mais pour louër ſes Vers ie ſuis ſon Serviteur;
+<lb />Et lors que dans mieux faire, on n’a pas le bonheur,
+<lb />On ne doit, de Rimer, auoir aucun enuie,
+<lb />Qu’on n’y ſoit condamné, ſur peine de la Vie.
+<lb />Enfin, toute la Grace, &amp; l’Accommodement,
+<lb />Où s’eſt, auec effort, plié ſon Sentiment.
+<lb />C’eſt de dire, croyant adoucir bien ſon ſtyle,
+<lb />Monſieur, ie ſuis faſché d’eſtre ſi difficile;
+<lb />Et, pour l’amour de vous, ie voudrois de bon cœur
+<lb />Auoir trouué, tantoſt, voſtre Sonnet meilleur;
+<lb />et dans vn Emnoranade, on ieur à, pour coiclure,
+<lb />Fait viſte, enueloper toute la Procedure.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Dans ſes façons d’agir, il eſt fort ſingulier,
+<lb />Mais i’en fais, ie l’auoüe, vn cas particulier;
+<lb />De iu nuaaine dens ien ame dapaques
+<lb />A quelque choſe, en ſoy, de noble, &amp; d’heroïque;
+<lb />C’eſt vne Vertu rare, au Siecle d’auiourd’huy,
+<lb />Et ie la voudrois voir, par tout, comme chez luy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Pour moy, plus ie le voy, plus, ſur tout, ie m’eſtonne,
+<lb />De cette Paſſion où ſon cœur s’abandonne:
+<lb />De l’humeur dont le Ciel a voulu le former,
+<lb />Ie ne ſçay pas comment il s’auiſe d’aimer;
+<lb />Et ie ſçais moins, encor, comment voſtre Couſine
+<lb />Peut eſtre la Perſonne où ſon Penchant l’incline.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Cela fait aſſez voir que l’Amour dans les cœurs,
+<lb />N’eſt pas, toûjours, produit par vir laport a nuneurs;
+<lb />Et toutes ces raiſons de douces ſympathies,
+<lb />Daus cet cempie ey, ie trouuent dementies,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Mais, croyez-vous qu’on l’aime, aux choſes qu’on
+<lb />peut voir ?
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />C’eſt vn Point qu’il n’eſt pas fort aiſé de ſçauoir.
+<lb />Comment pouuoir iuger s’il eſt vray qu’elle l’aime?
+<lb />Sõ cœur, de ce qu’il sẽt, n’eſt pas biẽ ſeur luy méme;
+<lb />Il aiſe, queiquerois, lans qu’il le Içache bien.
+<lb />Et croit aimer, auſſi, par fois qu’il n’en eſt rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ie croy que noſtre Amy, prés de cette Couſine,
+<lb />rrouuera des chagrins plus qu’il ne s’imagine;
+<lb />Et s’il auoit mon cœur, à dire verité.
+<lb />A toumeroit les vœux tout d vn autre coſte;
+<lb />Et par vn chois plus iuſte, oa le verroit, Madame,
+<lb />Profiter des bontez que luy montre voſtre Ame.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Pour moy, ie n’en fais point de façon, &amp; ie croy
+<lb />Qu’on doit, ſur de tels poincts, eſtre de bonne foy:
+<lb />Ie ne m’oppoſe point à toute ſa tendreſſe,
+<lb />Au contraire, mon cœur, pour elle, s’intereſſe;
+<lb />Et ſi c’eſtoit qu’à moy la choſe pût tenir,
+<lb />Moy meſme, à ce qu’il aime, ou me verroit l’vnir.
+<lb />Mais, ſi dans vn tel chois, comme tout ſe peur faire,
+<lb />Son Amout éprouuoit quelque Deſtin contraire,
+<lb />S’il falloit que d’vn autre on couronnaſt les Feux,
+<lb />Ie pourrois me reſoudre à receuoir ſes vœux;
+<lb />Et le refus ſouffert, en pareille occurence,
+<lb />Ne m’y feroit trouuer aucune repugnance.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Et moy, de mon coſté ie ne m’oppoſe pas,
+<lb />Mſadame, à ces bontez qu’on pour luy, vos Apras;
+<lb />Et luy-meſme s’il veut, il peut bien vous inſtruire
+<lb />De ce que, là deſſus, i’ay pris ſoin de luy dire.
+<lb />Mais ſi par vn Hymen qui les ioindroit eux deux,
+<lb />Vous eſtiez hors d’eſtat de receuoir ſes vœux,
+<lb />Tous les miens tentéroient la faueur éclatante,
+<lb />Qu’auec tant de bonté, voſtre ame luy preſente;
+<lb />Tleureux iquans ron tœur s’y pourra deſrober,
+<lb />Elle pouuoit, ſur moy, Madame, retomber.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANIE.
+<lb />Vous vous diuertiſſez, Philinte,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Non, Madame,
+<lb />Et te teus parle jicy, du meilleur de mon Ame;
+<lb />I’attens l’occ alion de m’offiir nautement,
+<lb />Et de tous mes ſouhaits, i’en preſſe le moment.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ALCESTE, ELIANTE, PHILINTE.
+</p>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Hlfaites moy raiſon, Madame, d’vne Offence
+<lb />AQui vient de triompher de toute ma cõſtance
+<lb />ELIANTE.
+<lb />(uoir?
+</sp>
+<sp type="MainZone-Sp"><lb />Qu’eſt-ce, donc? qu’auez vous qui vous puiſſe émou</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />I’ay ce que, ſans mourir, ie ne puis conceuoir;
+<lb />Et le Déchaînement de toute la Nature,
+<lb />Ne m’accableroit pas, comme cette Auenture.
+<lb />C’en eſt fait..... mon amour..... ie ne ſçauroit parler.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Que voitre Elpiit, vn peu, tacue a le l’appeiler:
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETES.
+<lb />O juſte Ciel! faut-il qu’on joigne à tant de Graces,
+<lb />Les Vices odieux des Ames les plus baſſes?
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Riail elicor dui voal feduas
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETE.
+<lb />Ah! tout eſt rüiné,
+<lb />Ie ſuis, ie ſuis trahy, ie ſuis aſſaſſiné:
+<lb />Celimene... Euſt on pû croire cette nouuelle?
+<lb />Celimene me trompe, &amp; n’eſt qu’vne infidelle,
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Auez-vous, pour le croire, vn iuſte fondement!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINIE.
+<lb />Peut-eſtre, eſt ce vn Soupçon eonçeu legerement,
+<lb />Et voſtre eſprit ialous, prẽnd par fois, des Chimeres.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ah!morbleu, meſlez vous, Mõſieur; de vos ffaires, a
+<lb />C’eſt de ſa Trahiſon n’eſtre que trop certain,
+<lb />Que l’auoir, dans ma poche, écritte de ſa main.
+<lb />Ouy Madame, vne Lettre ecritte pour Oronte,
+<lb />A produit, àmes yeux, ma diſgrace, &amp; ſa honte;
+<lb />Oronte, dont i’ay crû qu’elle fuïoit les ſoins,
+<lb />Et que, de mes Riuaux, ie tedoutois le moins.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />vne Eetulc peut pientron per par Pappurenee,
+<lb />Et n’eſt pas, quelquefois, ſi coupable qu’on penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Monſieur, encore vn coup, laiſſez moy, s’il vous plaiſt,
+<lb />Et ne prenez ſoucy que de voſtre intereſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Vous deuez moderer vos tranſports, &amp; l’outrage.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Madame, c’eſt à vous, qu’appartient cet Ouurage,
+<lb />C’eſt a vous, que mon cœur a recours, auiourd’huy,
+<lb />Pout pouuoir s’affranchir de ſon cuiſant ennuy.
+<lb />Venez-moy d’vne ingrate, &amp; perfide Parente,
+<lb />Qui trahir, lâchement, vne ardeur ſi conſtante;
+<lb />ponenmoj ue cetralequr doit vous faire horreur.
+</sp>
+<sp type="MainZone-Sp"><lb />ELTANIL.
+<lb />Moy, vous venger! comment?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />En receuant mon Cœur.
+<lb />Acceptez le-Madame, au lieu de l’infidelle,
+<lb />C’eſt par là, que ie puis prendre vengence d’elle:
+<lb />Et ie la veux punit par les ſinces Vœux,
+<lb />tat le proroid Amour, les joins reipecrdeux,
+<lb />Les deuoirs empreſſez &amp; l’aſſidu ſeruice
+<lb />Dont ce cœur va vous faire vn ardent ſacrifice.
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />Ie compatis ſans doute, à ce que vous ſouffrez,
+<lb />Et ne mépriſe point le cœur que vous m’offrez:
+<lb />Mais, peut-eſtre le Mal n’eſt pas ſi grand qu’on penſe,
+<lb />Et vous pourrés quitter ce Deſir de Vengence.
+<lb />Lors que l’iniure part d’vn Obiet plein d’Appas,
+<lb />On fait force Deſſeins, qu’on n’execute pas:
+<lb />On a beau voir, pour rompre, vne raiſon puiſſante,
+<lb />Vne Coupable aimée eſt, bien toſt, innocentes;
+<lb />rout le mal qu’on luy veut, ſe diſſipe aiſément,
+<lb />Et l’on ſçait ce que c’eſt, qu’vn Gourroux d’vn Amãt,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, non Madame non l’Offence eſt trop mortelle,
+<lb />Il n’eſt point de retour, &amp; ie romps auec elle;
+<lb />Rien ne ſçauroit charger le deſſein que i’en fais,
+<lb />et je me panirois, de l’eſtimer iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />La voicy. Mon courroux redouble à cette aproche,
+<lb />Ie vois, de ſa noirceur, luy faire vn vif reproche,
+<lb />Pleinement, la confondre, &amp; vous porter aprez,
+<lb />vneeut tout degage de les trompeurs Attraits.
+</sp>
+<p type="MainZone-Head"><lb />LENE III.
+<lb />CELIMENE, ALCESTE,
+<fw><lb />ALCESTE.
+<lb />Ciel! de mes Tranſports, puis-je eſtre, icy, le
+<lb />O Maiſtre?
+</fw></p>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />(raiſtre
+<lb />Quais, quel emuune, le troudie, ou je vous voy pa<lb />Et que me veulent dirent &amp; ces Soûpirs pouſſez,
+<lb />Et ces ſombres regards que, ſur moy, vous lancez?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Que toutes les horreurs, dont vne ame eſt capable,
+<lb />A vos déloyautez, n’ont rien de comparable:
+<lb />uo reberejresuemons d le Gierencourroux,
+<lb />N’ont, iamais rien produit de ſi méehant que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE,
+<lb />Voila, certainement, des douceurs que i’admire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ahine plaiſantez point, il n’eſt pas temps de rire,
+<lb />Rougiſſez, bien pluſtoſt, vous en auez raiſon:
+<lb />Et i’ay de ſeurs Témoins de voſtre trahiſon.
+<lb />Voila ce que marquoient les troubles de mon Ame,
+<lb />Ce n’eſtoit pas en vain, que s’alarmoit ma flame:
+<lb />Par ces frequents Soupçons, qu’on trouuoit odieux,
+<lb />Ie cherchois le Malheur qu’ont rencontré mes yeux:
+<lb />Et malgré tous vos ſoins, &amp; voſtre adreſſe à feindre,
+<lb />Mon Aſtre me diſoit, ce que i’auois à craindre.
+<lb />Mais ne preſumez pas que, ſans eſtre vangé,
+<lb />Ie ſouffre le Dépit de me voir outragé,
+<lb />Ie ſçay que, ſur les Vœux, on n’a point de puiſſance;
+<lb />Que l’Amour veut par tout naiſtre ſans, Dépẽdance;
+<lb />Que iamais, par la force, on n’entra dans vn cœur.
+<lb />Et que toute Ame eſt libre à nõmer ſon Vainqueur.
+<lb />Auſſi ne trouuerois je aucun ſujet de Plainte,
+<lb />Si, pour moy, voſtre Bouche auoit parlé ſans feinte;
+<lb />Et rejetant mes vœux dés le premier abord,
+<lb />Mon cœur n’auroit eu droit de s’ẽ prẽdre qu’au Sort.
+<lb />Mais, d’vn Aueu trompeur, voir ma Flame aplaudie,
+<lb />C’eſt vne Trahiſon, c’eſt vne Perfidie,
+<lb />Qui ne ſçauroit trouuer de trop grãds Chaſtimens:
+<lb />Et ie puis tout permettre à mes Reſſentimens.
+<lb />Oüy, oüy, redoutez tout, apres vn tel Outrage.
+<lb />Ie ne ſuis plus à moy, ie ſuis tout à la Rage;
+<lb />Percé du coup mortel dont vous m’aſſaſſinez,
+<lb />Mes Sens, par la Raiſon; ne ſont plus gouuernez;
+<lb />Ie cede aux Mouuemens d’vne iuſte Colere,
+<lb />up lo ne tépons pas de ce que ie puis faire.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />D’où vient, done, ie vous prie, vn tel emportement?
+<lb />Auez-vous dites-moy, perdu le Iugement?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Oüy, oüy, ie l’ay perdu, lors que dans voſtre vuë
+<lb />I’ay pris pour mon Malheur, le Poiſon qui me tuë.
+<lb />Et que i’ay crû trouuer quelque Sincerité
+<lb />Dans les traiſtres Appas dont ie fus enchanté.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />De quelle rrahiſon pouuez vous dõc, vous plaindre?
+<lb />ALCESTE.
+<lb />(feindre!
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! que ce cœur eſt double, &amp; ſçait bien l’Att de
+<lb />Mais, pour le mettre à bout, i’ay des moyens tous
+<lb />lettez icy les yeux, &amp; connomez vos fraits, (preſts:
+<lb />Ce Billet découuert, ſuffit pour vous confondre;
+<lb />Et, contre ce teinoin on n’a lien a lepondre,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Voila, donc, le Sujet qui vous trouble l’Eſprit?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Vous ne rougiſſez pas en voyant cet écrit?
+</sp>
+<sp type="MainZone-Sp"><lb />ODEIMERCE.
+<lb />Et par quelle raiſon faut-il que, i’en rougiſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Quoy!vous ioignez, icy, l’audace, à l’Artifice?
+<lb />Le deſauoûrez vous, pour n’auoir point de ſeing?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Pourquoy deſauoüer vn Billet de ma main?
+</sp>
+<sp type="MainZone-Sp"><lb />di d a du a de
+<lb />Et vous pouuez le voir, ſans demeurer confuſe
+<lb />Du crime dont, vers moy, ſon Stile vous accuſe?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Vous eſtes, ſans mentir, vn grand extrauagant.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Quoy! vous brauez, ainſi, ce rémoin conuainquant:
+<lb />ei ce quiina mit vuir de douceur pour Oronte,
+<lb />N’a, donc, rien qui m’outrage, &amp; qui vous faſſe honte,
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Oronte! Qui vous dit que la Lettre eſt pour luy?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Les Gés qui, dãs mes mains, l’õt remiſe, auiourd’huy
+<lb />Mais ie veux conſentir qu’elle ſoit pour vn autre,
+<lb />mhon cour eir a tn mons à le plamurt du voſtre?
+<lb />En ſerez-vous, vers moy, moins coupable en effet?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Mais ſi c’eſt vne Femme à qui va ce Billet,
+<lb />En quoy vous bleſſe-t’il? &amp; qu’a-t’il de coupable?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ah! le Détour eſt bon, &amp; l’excuſe admirable,
+</sp>
+<p type="MainZone-Lg"><lb />F ij
+<lb />Ie ne m’attendois pas, ie, l’auoüe, à ce rrait:
+<lb />Et me voila, par là, conuaincu tout à fait,
+<lb />Oſez-vous recourir à ces ruſes groſſieres:
+<lb />Et croyez vous les gens ſi priuez de Lumieres?
+<lb />Voyons, voyons vn peu, par quel biais, de quel air,
+<lb />Vous voulez ſoûtenir vn menſonge ſi clair,
+<lb />Et comment vous pourtez tourner pour vne fẽme,
+<lb />rous les mots d’vn Billet qui montre rant de flame!
+<lb />Arluuez, poui conurit en manquement de Toy,
+<lb />Ce que ie m’en vais lire....
+</p>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Il ne me plaiſt pas, moy.
+<lb />Ie vous trouue plaiſant d’vſer d’vn sel empire,
+<lb />Et de me dire, au nez, ce que vous m’oſez dire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALOEIE.
+<lb />Non, non ſans s’emporter, prenez vn peu, ſoucy
+<lb />De me iuſtifier les rermes que voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />GELIMENE.
+<lb />Non, ie n’en veux rien faire; &amp;, dans cette occurrẽce,
+<lb />cont es que touscrones, dreltde pea d’importaee.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />De grace, monſtrez moy, ie ſeray ſatisfait,
+<lb />Qu’on peut pour vne femme, expliquer ce Billet.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Non, il eſt pour Oronte, &amp; ie veux qu’on le croye,
+<lb />le tejois tous ſes ſoins, auec beaucoup de ioye,
+<lb />I’admire ce qu’il dit, i’eſtime ce qu’il eſt;
+<lb />Et ie tombe d’acord de tout ce qu’il vous plaiſt.
+<lb />Faites, prenez party, que rien ne vous arreſte.
+<lb />Et ne me rompez pas, dauantage, la teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCETES.
+<lb />Ciel! rien de plus cruel peut-il eſtre inuenté,
+<lb />it iamais, cœur fut-il de la ſorte traité?
+<lb />Quoy! d’vn iuſte Courroux ie ſuis émeu contr’elle,
+<lb />C’eſt moy qui me viẽt plaindre, &amp; c’eſt moy quõque<lb />On pouſſe ma Douleur, &amp; mes Soupçõs à bout, (relle!
+<lb />On me laiſſe tout croire, on fait gloire de tout;
+<lb />Et cependant, mon Cœur eſt, encore, aſſez lâche,
+<lb />Pour ne pouuoir briſer la Chaîne qui l’attache,
+<lb />Et pour ne pas s’armer d’vn genereux Mépris
+<lb />Contre l’ingrat Objet dont il eſt trop épris!
+<lb />Ah!que vous ſçauez bien icy, contre moy méme.
+<lb />Perfide, vous ſeruir de ma foibleſſe extreme,
+<lb />Et menager, pour vous, l’excés prodigieux
+<lb />De ce fatal Amour, né de vous traiſtres yeux !
+<lb />Defendez-vous, au moins, d’vn Grime qui m’accable,
+<lb />Et ceſſez d’affecter d’eſtre, enuers moy, coupable;
+<lb />Rendez-moy, s’il ſe peut, ce Billet innocent,
+<lb />A vous pientei les Mais, ina Tendrene coment;
+<lb />Efforcez-vous, icy, de paroiſtre fidelle,
+<lb />Et ie m’efforceray, moy, de vous croire telle.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Allez, vous eſtes fou dans vos Tranſports jalous,
+<lb />Et ne meritez pas l’amour qu’on a pour vous.
+<lb />Ie voudrois bien ſçauoir, qui pourroit me cõtraindre
+<lb />A deſcendre, pour vous aux Baſſeſſe de feindre:
+<lb />Et pourquoy, ſi mon Cœur penchoit d’autre côté,
+<lb />Ie ne le dirois pas auec ſincerité?
+<lb />Quoy!de mes Sentiment l’obligeante Aſſeurance:
+<lb />Contre tous vos Soupçons, ne prend pas ma defenſes
+<lb />Auprés d’vn tel Garent, ſont-ils de quelque poids?
+<lb />N’eſt ce pas m’outrager, que d’écouter leur voix?
+<lb />Et puis que noſtre cœur fait vn effort extréme,
+<lb />Lors qu’il peut ſe reſoudre à confeſſer qu’il aime;
+<lb />Puis que l’Honneur du Sexe, Ennemy de nos Feux,
+<lb />Soppoſe, fortement, à de pareils Aueus;
+<lb />L’Amant qui voit pour luy, rranchir vn tel obltacle,
+<lb />Doît il, impunément douter de cét Oracle:
+<lb />Et n’eſt-il pas coupable, en ne s’aſſeurant pas,
+<lb />A ce qu’on ne dit point qu’aprés de grands combats.
+<lb />Allez, de tels Soupçons méritent ma colere,
+<lb />Et vous ne valez pas que l’on vous conſidere:
+<lb />Ie ſuis Sotte, &amp; veux mal à ma Simplicité,
+<lb />De conſeruer, encor, pour vous quelque bonté;
+<lb />Pe dev ioisjuaeleparejattuenel men ſicile,
+<lb />Et vous faire vn ſujet de plainte legitime.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ah! Traiſtreſſe, mon Foible eſt étrange pour vous?
+<lb />Vous me trompez, ſans doute, auec des Motsſi doux:
+<lb />Mais, il n’importe, il faut ſuîure ma Deſtinée,
+<lb />A voſtre roy jaoiiimne dintoute ubunaonhée,
+<lb />Ie veux voir, juſqu’au bout, quel ſera voſtre Cœur:
+<lb />Et il, de ſe tranip,il aura la Noirceur.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Non, vous ne m’aimez point comme il faut que l’on
+<lb />ALCESTE.
+<lb />7
+<lb />(aime.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! rien n’eſt comparable à mon amour extréme;
+<lb />Et, dans l’ardeur qu’il a de ſe montrer à tous,
+<lb />Il va, juſqu’à former des Souhaits contre vous,
+<lb />Oüy, ie voudrois qu’aucun ne vous trouuât aimable,
+<lb />Que vous fuſſiez reduite en vn Sort miſerable,
+<lb />Que le Ciel, en naiſſant, ne vous euſt donné rien,
+<lb />Que vous n’euſſiez ny Rang, ny Naiſſance, ny Bien,
+<lb />Afin que de mon Cœur, l’éclatant Sacrifice,
+<lb />Vous pût, d’vn pareil Sort reparer l’iniuſtice:
+<lb />Et que i’euſſe la ioye, &amp; la gloire, en ce iour,
+<lb />De vous voir tenir tout, des mains de mon Amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />C’eſt me vouloir du Bien, d’vne étrange maniére!
+<lb />Me preſerue le Ciel, que vous ayez matiére....
+<lb />Voicy Monſieur Du Bois, plaiſamment, figuré.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />DV BOD, CELIMIENE, AECESTE,
+</p>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ve veut cet equipage, &amp; cet air éfaré?
+<lb />ZQu’as-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Monſieur.....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Hé bien.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Voicy bien des myſteres
+</sp>
+<sp type="MainZone-Sp"><lb />Qu’eſt-ce?
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Nous ſommes mal, Monſieur, dans nos Affaires
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />DacLaIL.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Parleray-ie haut?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Oüy, parle, &amp; promptement.
+<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Av.dura..
+<lb />N’eſt-il point là, quelqu’vn....
+</sp>
+<sp type="MainZone-Sp"><lb />Veux-tu parler?
+<lb />ALCESTE.
+<lb />Ah! que d’amuſement.
+</sp>
+<sp type="MainZone-Sp"><lb />V BOIS.
+<lb />Monſieur, il faut laire fetraite.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Il faut d’icy, déloger ſaus Trompette,
+</sp>
+<sp type="MainZone-Sp"><lb />Et pourquoy?
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Ie vous dis qu’il faut quiter ce Lieu,
+</sp>
+<sp type="MainZone-Sp"><lb />La cauſe!
+<lb />HEOESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Il faut partir, Monſieur, ſans dire adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mais, par quelle Raiſon, me tiens-tu ce langage.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Par la Raiſon, Monſieur, qu’il faut plier Bagage.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE.
+<lb />Ah! ie te caſſeray la teſte, aſſurement,
+<lb />Si tu ne veu, Maraut, t’expliquer autrement.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Monſieur, vn Homme noir, &amp; d’habit, &amp; de mine,
+<lb />Eſt venu nous laiſſer, iuſque dans la Cuiſine,
+<lb />vn l’apier grironne d’vne telle raçon.
+<lb />Qu’il faudroit, pour le lire, eſtre pis que Demon.
+<lb />C’eſt de voſtre Procés, ie n’en fait aucun doute;
+<lb />Mais le Diable d’enfer, ie croy, n’y verroit goûte.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Hé bien? quoy? ce Papier, qu’a t’il à démeler,
+<lb />Traiſtre, avec le Depart dont tu viens me parler?
+<lb />DV BOIS.
+<lb />(enſuite,
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt pour vous dire, icy, Monſieur, qu’vne heure
+<lb />Vn Homme, qui ſouuent vous vient rendre viſite,
+<lb />Eſt venu vous chercher avec empreſſement;
+<lb />Et ne vous trouuant pas, mla churge, coucemient;
+<fw><lb />8
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Sçachant que ie vous ſers auec beaucoup de zele,
+<lb />De vous dile.... Attendez, comme eſt ce qu’ir s’apelle:
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Laiſſe là, ſon nom, lraiſtre, &amp; dis ce qu’il t’a dit.
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />C’eſt vn de vos Amis, enfin, cela ſuffit.
+<lb />Irifraurt quey d rey, voſtre peril vous chaſſe,
+<lb />Et que, d’eſtre atreſté, le Sort vous y menace.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTI.
+<lb />Mais quoy? n’a t’il voulu te rien ſpecifiet?
+</sp>
+<sp type="MainZone-Sp"><lb />DV BOIS.
+<lb />Non, il m’a demande de l’encre, &amp; du Papier;
+<lb />Et vous a fait vn mot où vous pourrez, ie penſe,
+<lb />Du fonds de ce mynert, auoir la connoiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />Donne le done.
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Que peut enueloper cecy?
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />1nie 5u)uri aſpire à m’en voir éclaircy.
+<lb />Auras-tu bientoſt fait, Impertinent au Diable?
+<lb />Dy bois upres tauoit tong temps cherché,
+<lb />Ma foy, ie l’ay, Monſieur, laiſſé ſur voſtre Table.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE
+<lb />Ie ne ſçay qui me tient....
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Ne vous emportez pas,
+<lb />Et courez démeſler vn pareil embarras,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il ſemble que le Sort, quelque ſoin que ie prenne,
+<lb />Ait iuré d’empeſcher que ie vous entrecienne;
+<lb />Mais pour en triompher; ſouffrez à mon Amour,
+<lb />De vous reuoir, Madame auant la fin du lour,
+<lb />Fin du Quatrieſme Acte.
+</sp>
+<p type="MainZone-Head"><lb />ACTE V.
+<lb />SCENE PREMIERE.
+<lb />ALCESTE, PHILINTE,
+</p>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />A reſolution en eſt priſe, vous dy-je.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINIE.
+<lb />Mais, quel que ſoit ce coup, faut-il
+<lb />qu’il vous oblige....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, vous auez beau faire, &amp; beau me raiſonner,
+<lb />Rien de ce que ie dy, ne peut me detourner:
+<lb />Trop de Peruerſité regne au Siecle où nous sõmes.
+<lb />Et ie veux me tirer du commerce des Hommes.
+<lb />Quoy! contre ma Partie, on void, tout à la fois,
+<lb />L’Honneur, la Probité, la Pudeur, &amp; les Loix:
+<lb />On publie, en tous lieux, l’équité de ma cauſe:
+<lb />Sur la Foy de mon droit, mon ame ſe repoſe:
+<lb />Cependant ie me vois trompé par le Succez,
+<lb />I’ay pour moy la luſtice, &amp; ie perds mon Procez!
+<lb />Vn rraiſtre, dont on ſçait la ſcandaleuſe Hiſtoire,
+<lb />Eſt ſorty triomphant d’vne Fauſſeté noire!
+<lb />Toute la Bonne Foy cede à ſa Trahiſon!
+<lb />Il trouue, en m’égorgeant, moyen d’auoir raiſon!
+<fw><lb />I
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Le poids de ſa Grimace, où brille l’Artifice,
+<lb />Renuerſe le bon Droit, &amp; tourne la luſtice!
+<lb />Il fait, par vn Arreſt, couronner ſon Forfait:
+<lb />Et non contens encor, du Tort que l’on me fait,
+<lb />Il court parmy le Monde vn liure abominable,
+<lb />Et de qui la lecture eſt, meſme condamnable!
+<lb />Vn liure à meriter la derniere Rigueur,
+<lb />Dont le Fourbe a le front de me faire l’Autheur!
+<lb />Et la deſſus, on void Oronte qui murmure,
+<lb />Et tâche, méchamment, d’appuyer l’Impoſture!
+<lb />Luy, qui d’vn hõneſte Hõme, à la Cour tien le Rang
+<lb />A qui ie n’ay rien fait qu’eſtre ſincere &amp; franc!
+<lb />Qui me vient malgré moy, d’vne ardeur empreſſée,
+<lb />Sur des Vers qu’il a faits, demander ma penſée
+<lb />Et parce que i’en vſe auec honneſteté,
+<lb />Et ne le veux trahir, luy ny la Verité,
+<lb />Il aide à m’accabler d’vn Crime imaginaire:
+<lb />Le voila devenu mon plus grand Aduerſaire!
+<lb />Et iamais de ſon cœur ie n’auray de pardon,
+<lb />Pour n’auoir pas trouué que ſon Sonnet fut bon!
+<lb />Et les hommes, morbleu, ſont faits de cette ſorte!
+<lb />C’eſt à ces Actions que la Gloire les porte!
+<lb />Voila la Bonne Foy, le Zele vertueux,
+<lb />La Iuſtice, &amp; l’Honneur, que ie trouue chez eux!
+<lb />
+<lb />Allõs, c’eſt trop ſoufrir les Chagrins qu’õ nous forge,
+<lb />Tirons-nous de ce bois, &amp; de ce coupe-gage?
+<lb />Puis qu’entre Humains, ainſi, vous viuez en vrais
+<lb />Loups,
+<lb />Traiſtre, vous ne m’aures de ma vie, auec vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ie trouue vn peu bien prõpt, le deſſein où vous eſtes,
+<lb />Et tous le mal n’eſt pas ſi grand que vous le faites:
+<lb />Ce que voſtre Partie oſe vous imputer,
+<lb />N’a point eu de crédit de vous faire arreſter;
+<lb />On void ſon faux rapport, luy meſme, ſe deſtruire,
+<lb />Et c’eſt vne Action qui pourroit bien luy nuire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Luy! de ſemblables Tours, il ne craint point l’éclat,
+<lb />Il a permiſſion d’eſtre franc Scelerat;
+<lb />Ht tuni qu'u lon dicun dund celenuuntare,
+<lb />On l’en verra, demain, en meilleure poſture.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Enfin, il eſt conſtant qu’on n’a point trop donné
+<lb />Au bruit que, contre vous, ſa malice a tourné.
+<lb />De ce coſté, déja, vous n’auez rien à craindre:
+<lb />le pour rotre procerjuortous pouuez vous plaindre.
+<lb />Il vous eſt, en Iuſtice, aiſé d’y reuenir,
+<lb />Et contre cet Arreſt....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, ie veux m’y tenir.
+<lb />Quelque ſenſible tort qu’vn tel arrreſt me faſſe,
+<lb />Ie me garderay bien de vouloir qu’on le caſſe:
+<lb />Ou y voit trop à plein le bon droit mal-traité,
+<lb />Et ie veux qu’il demeure à la Poſterité,
+<lb />Cõme vne Marque inſigne, vn fameux Témoignage,
+<lb />De la méchanceté des Hommes de noſtre âge.
+<lb />Ce ſont vingt mille fracs qu’il m’en pourra coûter,
+<lb />Mais, pour vingt mille Frãcs, i’auray droit de préter
+<lb />Contre l’Iniquité de la Nature Humaine,
+<lb />Et de nourrir, pour elle, vne immortelle Haine.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais, enfin....
+<lb />PHILINTE.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Mais, enſin, vos ſoins ſont ſuperflus:
+<lb />Que pouuez-vous, Monſieur, me dire là deſſus,
+<lb />Aurez vous bien le front de me vouloir, en face,
+<lb />excuſer les horreurs de tout ce qui ſe paſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Non, ie tombe d’accord de tout ce qu’il vous plaiſt,
+<lb />Tout marche par cabale, &amp; par pur Intereſt;
+<lb />Ce n’eſt plus que la Ruſe, auiourd’huy, qui l’emporte,
+<lb />Et les Hommes deuroient eſtre faits d’autre ſorte.
+<lb />Mais eſt ce vne Raiſon, que leur peu d’equité,
+<lb />Pour vouloir ſe tirer de leur Societé?
+<lb />rous ces defauts humains nous donnent, dans la Vie,
+<lb />Des moyens d’exercer noſtre Philoſophie.
+<lb />C’eſt le plus bel employ que trouue la vertu;
+<lb />Et ſi, de Probité, tout eſtoit reueſtu.
+<lb />Si tous les cœurs eſtoient, franc, iuſtes, &amp; dociles,
+<lb />La pluſpart des Vertus nous ſeroient inutiles,
+<lb />Puis qu’onon menmelago apouuon; laus cnnuy,
+<lb />Suporter dans nos Droits, l’Iniuſtice d’Autruy :
+<lb />Et de meſme qu’vn cœur, d’vne Vertu profonde...
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie ſçay que vous parlez, Mõſieur le mieux du mõde,
+<lb />En beaux Raiſonnemens, vous abondez toûjours,
+<lb />Mais vous pernez le tẽps, &amp; tous vos beaux Diſcours:
+<lb />La Raiſon, pour mon bien, veut que ie me retire,
+<lb />Ie n’ay point, ſur ma langue, vn aſſez grand empire?
+<lb />De ce que ie dirois, ie ne répondrois pas :
+<lb />Et ie me ietterois cent choſes ſur les Bras.
+<lb />Laiſſez-moy, ſans diſpute, attendre Celimene,
+<lb />Il faut qu’elle conſente au Deſſein qui m’ameine:
+<lb />Ie vay voir ſi ſon cœur a de l’amour pour moy,
+<lb />Et c’eſt ce moment cy, qui doit m’en faire foy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Montons chez Eliante, attendant ſa venuë,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Non, de troy de ſoucy, ie me ſens l’Ame émeuë,
+<lb />Allez-vous-en la voir, &amp; me laiſſez, enfip,
+<lb />Dans te petit coin ſombre, auec mon noir chagrin</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />C’eſt vne compagnie étrange, pour attendre,
+<lb />Et ie vais obliger Eliante à décendre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ORONTE, CELIMENE, ALCESTE,
+</p>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />'y c’eſt à vous, de voir, ſi par des Nœuds ſi dous
+<lb />OMadame, vous voulez mattacher tout à vous:
+<lb />Il me faut de voſtre Ame, vne pleine aſſeutance,
+<lb />Vn Amant, l’à deſſus n’aime point qu’on Babance:
+<lb />Si l’ardeur de mes Feux a pû vous émouuoir,
+<lb />Vous ne deuez point feindre à me le faire voir;
+<lb />Et la preuue, apres tout, que ie vous en demande,
+<lb />C’eſt de ne plus ſouffrir qu’Alceſte vous pretende,
+<lb />De le ſacrifier, Madame, à mon Amour.
+<lb />Etiue euet vousjennajie pauni des de lours
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Mais quel ſujet ſi grand, contre luy, vous irrite,
+<lb />Vous, a qui i’ay tant veu parler de ſon merite?
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Madame, il ne faut point ces éclairciſſemens,
+<lb />Il s’agit de ſçauoir quels ſont vos Sentimens.
+<lb />Choiſiſſez s’il vous plaiſt, de garder l’vn, ou l’autre,
+<lb />Ma réſolution n’attend rien que la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE ſortant du coin où il s’eſtoit retiré.
+<lb />Oüy, Monſieur a raiſon; Madame, il faut choiſir,
+<lb />Et ſa demande, ioy, s’accorde à mon deſir,
+<lb />Pareille ardeur me preſſe, &amp; meſme ſoin m’ameine,
+<lb />Mon Amour veut du voſtre, vne marque certaine.
+<fw><lb />ne
+</fw><lb />Les choſes ne ſont plus pour traîner en longueur,
+<lb />Et voicy le moment d’expliquer voſtre cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie ne veux point, Monſieur, d’vne flâme importune,
+<lb />Troubler, aucunement, voſtre bonne Fortune,
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Le ne veux point, monneur, faious, ou non jalous,
+<lb />Partager de ſon cœur, rien du tout auec vous,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+<lb />Si voſtre Amour, au mien, luy ſemble preferable....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />ordu momuion conane enceſt pour vous capable....
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />le Iure de ny flen pretendie dclolinais.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Ie iure, hautement, de ne la voir iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Madame, c’eſt à vous, de parler ſans contrainte.
+</sp>
+<sp type="MainZone-Sp"><lb />AHOBETE.
+<lb />Madame, vous pourrez vous expliquer ſans crainte.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+<lb />Vous n’auez qu’à nous dire où s’attachẽt vos vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE
+<lb />Vous n’avez qu’à trancher, &amp; choiſir de nous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quoy! ſur vn pareil chois, vous sẽblez eſtre en peine!
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Quoy! voſtre Ame balance, &amp; paroit incertaine!
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMEEE.
+<lb />Mon Dieu! que cette Inſtance eſt là, hors de Saiſon:
+<lb />Et que vous témoignez, tous deux, peu de Raiſon!
+<lb />Ie ſçay prendre Party ſur cette Preference,
+<lb />Et ce n’eſt pas mon cœur, maintenant, qui balance:
+<lb />Il n’eſt point ſuſpendu, ſans doute, entre vous deux,
+<lb />Et rien n’eſt ſi toſt fait que le choix de nos vœux,
+<lb />Mais ie ſouffre, à vray dire, vne geſne trop forte,
+<lb />A prononcer en face, vn aueu de la forte,
+<lb />Ie trouue que ces Mots, qui ſont deſobligeans,
+<lb />Ne ſe doiuent point dire en preſence des Gens:
+<lb />Ou’vn cœur, de ſon Pẽchant dõne aſſez de lumiere,
+<lb />Sans qu’on nous faſſe aller, iuſqu’à rõpre en viſiere,
+<lb />Et qu’irraint, ein, que de plus doux temoins
+<lb />Inſtruiſent vn Amant, du malheur de ſes ſoins.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Non, non, vn franc Aueu n’a rien que i’aprehende
+<lb />l’y conſens pour ma part.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Et moy ie le demande;
+<lb />C’eſt ſon éclat, ſur tout, qu’icy i’oſe exiger,
+<lb />Et ie ne pretens point, vous voir rien menager.
+<lb />Conſeruer tout le monde, eſt voſtre grande étude.
+<lb />Mais plus d’amuſement, &amp; plus d’incertitude;
+<lb />Il faut vous expliquer, nettement, là deſſus,
+<lb />Ou bien, pour vn Arreſt, ie prens voſtre refus
+<lb />Ie ſçauray de ma part, expliquer ce ſilence,
+<lb />Et me cienldray peur me, tout le mai que i’en penſe
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie vous ſçay fort bon gré, Monſieur, de ce courroux,
+<lb />Et ie luy dis, icy, meſme choſe que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Que vous me fatiguez auec vn tel caprice!
+<lb />Ce que vous demandez, a-t’il de la iuſtice,
+<lb />Et ne vous dis-ie pas quel motif me retient ?
+<lb />I’en vais prendre pour Iuge, eliante qui vient.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ERANTE, PHILINTE, CELIMENE,
+<lb />ONONTE , ALCESIL.
+</p>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />E me vois, ma Couſine, icy, perſecutée,
+<lb />IPar des Gens dont l’humeur y paroit concertée,
+<lb />Ils veulent l’vn, &amp; l’autre, avec meſme chaleur,
+<lb />Que ie pronõce, entr’eux, le chois que fait mõ cœur,
+<lb />Et que par vn Arreſt qu’en Face il me raut rendre,
+<lb />Ie defende à l’vn d’eux, tous les ſoins qu’il faut pren<lb />Dites-moy ſi iamais, cela ſe fait ainſi?
+<lb />(dre
+</sp>
+<sp type="MainZone-Sp"><lb />ELIANTE.
+<lb />N’allez point, là deſſus, me eonſulter icy;
+<lb />reue citiciy poursien tous emte inuraireſſee,
+<lb />Et ie ſuis pour les Gens qui diſent leur penſée,
+</sp>
+<sp type="MainZone-Sp"><lb />ORONIE.
+<lb />Madame, c’eſt en vain que vous vous defendez.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESIE.
+<lb />rous vos Détours, icy, ſeront mal ſecondez.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />As rauty ir raut purei, d iaener la varance.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Il ne faut que pourſuiure à garder le Silence.
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Ie ne veux qu’vn ſeul Mot, pour finir nos debats.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />nt moy, ie vous entens, ſi vous ne parlez pas.
+<lb />G iij
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />ACASTE, CLITANDRE, ARSINOE',
+<lb />ACHHGRORIE,
+<lb />CELIMENE, ALCESIE.
+</p>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Adame, nous venons, tous deux, ſans vous dé<lb />AVT plaire.
+<lb />Eclaircir, auec vous vne petite Affaire,
+</sp>
+<sp type="MainZone-Sp"><lb />CLTIANDRE.
+<lb />Fort à propos, Meſſieurs, vous vous trouuez icy,
+<lb />Et vous eſtez meſlez dans cette Affaire, auſſi.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Madame, vous ſerez ſurpriſe de ma veuë,
+<lb />Mais ce ſont ces Meſſieurs qui cauſent ma venuë
+<lb />rous deux ils m’ont trouuée, &amp; ſe ſont plaints à moy,
+<lb />D’vn trait, à qui mon cœur ne ſçauroit preſter foy,
+<lb />I’ay du fonds de voſtre Ame, vne trop haute eſtime,
+<lb />Pour vous croire, iamais, capable d’vn tel crime,
+<lb />Mes yeux ont dementy leurs témoins les plus forts:
+<lb />Et l’Amitié paſſant ſur de petits diſcords,
+<lb />I’ay bien voulu, chez vous, leur faire compagnie,
+<lb />Pour vous von vous lauer de cette Curomnic.
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Ouy, Madame, voyons, d’vn eſprit adoucy,
+<lb />Comment vous vous prendrez, à ſouſtenir cecy?
+<lb />Cette Lettre, par vous, eſt écrite à Clitandre?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Vous auez, pour Acaſte, eſcrit ce billet tendre?
+</sp>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />Meſſieurs, ces rraits, pour vous, n’ont point d’obſcu<lb />Et ie ne doute pas que ſa ciuilité,
+<lb />(rité,
+<lb />A connoiſtre ſa main, n’ait trop ſçeu vous inſtruire:
+<lb />Mais cecy vaut, aſſez la peine de le lire.
+</sp>
+<sp type="MainZone-Sp"><lb />JOus eſtes vn eſtrange Homme, de condamner mon
+<lb />V enjeûment, &amp; de me reprocher que ie n’ay iamais,
+<lb />tant de joye, que lors que ie ne ſuis pas auec vous. Il
+<lb />n’y a rien de plus iniuſte, &amp; ſi vous ne venez bien
+<lb />viſte me demander pardon de cette Offence, ie ne vous
+<lb />la pardonneray de ma vie. Noſtre grand Flandrin de
+<lb />Vicomte.....
+</sp>
+<p type="MainZone-Head"><lb />Il deuroit eſtre icy,
+</p>
+<p type="MainZone-P"><lb />Noſtre grand Flandrain de Vicomte, par qui veus
+<lb />commencez vos plaintes, eſt vn homme qui ne ſçau<lb />roit me reuenir; &amp; puiſque ie l’ay veu trois quarts
+<lb />u neure auraut, cruener uans on Puits, pour faire des
+<lb />Ronds, ie n’ay pû iamais, prendre bonne opinion de luy.
+<lb />Pour le petit Marquis.
+</p>
+<p type="MainZone-P"><lb />C’eſt moy-meſme, Meſſieurs, ſans nulle vanité.
+</p>
+<p type="MainZone-P"><lb />Pour le petit Marquis, qui me uint njerttung-temps
+<lb />la main, ie trouue, qu’il n’y a rien de ſi mince que
+<lb />toute ſa Perſonne; &amp; ce ſont de ces Merites qui n’ont
+<lb />que la Cape &amp; l’Epée. Pour l’Homme aux Ruhans
+<lb />verts....
+</p>
+<p type="MainZone-P"><lb />A vous le Dé, Monſieur.
+</p>
+<p type="MainZone-P"><lb />Pour l’Homme aux Rubans verts, il me diuertit
+<lb />quel quefois, avec ſes bruſqueries, &amp; ſon chagrin bour<lb />ru;mais il est cent moment, où ie le trouue le plus fâ<lb />cheux du Monde. Et pour l’Homme à la Veſte....
+</p>
+<p type="MainZone-Other"><lb />noney domde pu juct.
+</p>
+<sp type="MainZone-Sp"><lb />Et pour l'Homme à la Veſte, qui s’eſt ietté dans le bel
+<lb />Esprit, &amp; veut eſtre Autheur malgré tout le Monde,
+<lb />Ie ne puis me donner la peine d’écouter ce qu’il dit;
+<lb />&amp; ſa Proſe me fatigue autant que ſes Vers. Mettez<lb />vous, donc, en teſte, que ie ne me diuertis pas touſiours
+<lb />ſi bien que vous penſés; que ie vous trouue à dire plus
+<lb />que ie ne voudrois, dans toute les Parties où l’on
+<lb />memmjue roque cej ommerveilleux aſſeiſonne<lb />ment aux Plaiſirs qu’on gouſte, que la preſente des
+<lb />Gens qu’on aime.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITANDRE.
+<lb />Me Voicy maintenant, moy.
+<lb />Voſtre Clitandre, dont vous me parlez, &amp; qui fait
+<lb />tant le doucereux, eſt le dernier des Hommes pour
+<lb />qui i’aurois de l’amitié. Il eſt extrauagant de ſe per<lb />ſuader qu’on l’aime; &amp; vous l’eſtes, de croire qu’on
+<lb />ne vous uune pus. Onuigen; poi epie haiſonnable,
+<lb />vos Sentimens contre les ſiens; &amp; voyez-moy le plus
+<lb />que vous pourrez, pour m’aider à porter le chagrin
+<lb />d’en eſtre obſedée.
+</sp>
+<p type="MainZone-P"><lb />D’vn fort beau caractere, on voit là, le Modele,
+<lb />Madame, &amp; vous ſçauez comment cela s’appelle?
+<lb />Il ſuffit, nous allons l’vn, &amp; l’autre, en tous lieu
+<lb />Mentrer, de voſtre cœur, le Portrait glorieux,
+</p>
+<sp type="MainZone-Sp"><lb />ACASTE.
+<lb />I'aurois dequoy vous dire, &amp; belle eſt la matiere,
+<lb />Mais ie ne vous tiens pas digne de ma colere;
+<lb />Et ie vous feray voir, que les petits Marquis
+<lb />Ont, pour ſe conſoler, des cœurs du plus haut prix
+</sp>
+<sp type="MainZone-Sp"><lb />ORONTE.
+<lb />Quoy! de cette façon ie voy qu’on me déchire,
+<lb />Apres tout ce qu’a moy, ie vous ay veu m’écrire:
+<lb />Et voſtre cœur paré de beaux Semblans d’Amour.
+<lb />A tout le Genre Humain ſe promet tour à tour !
+<lb />Allez, i’eſtois trop Dupe, &amp; ie vais ne plus l’eſtre.
+<lb />Vous me faites vn Bien, me faiſant vous conneſtre;
+<lb />I’y profite d’vn cœur, qu’ainſi vous me rendez,
+<lb />Et trouue ma vengeance, en ce que vous perdez.
+<lb />a Ateeſte.
+<lb />Monſieur ie ne fais plus d’obſtacle à voſtre flame,
+<lb />Et vous pouuez conclure Affaire auec Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />RSINOE'.
+<lb />Certes, voila le Trait du monde le plus noir,
+<lb />Ie ne m’en ſçaurois taire, &amp; me ſens émouuoir,
+<lb />Void-on des Procedez qui ſpſent pareils aux voſtres?
+<lb />Ie ne prens point de part aux intereſts des autres:
+<lb />mais Mionſleur, que, cuez vous, ſixoit voſſre bonneur
+<lb />Vn Homme, comme luy, de merite, &amp; d’honneur,
+<lb />Et qui vous cheriſſoit auec idolartie,
+<lb />Deuoit-il....
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Laiſſez moy, Madame, ievous prie,
+<lb />Veider mes intereſts, moy meſtre, là deſias,
+<lb />Et ne vous chargez point de ces Goius ſuperflus
+<lb />Mon cœur a beau vous vois prédre ley la querelle,
+<lb />Il n’eſt point en eſtat de poyer ce grardacle;
+<lb />Et ce n’eſt pas à vous, que ie poutcay ſonper,
+<lb />8i, par vn autie chois, ie clerche à me venger.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE'.
+<lb />Héleroyez vous, Monſieur, qu’on ait cette penſée,
+<lb />Et que, de vous auoir, on ſoit tant empreſſée?
+<lb />Ie vous trouue vn Eſprit bien plein de vanité.
+<lb />Si, de cette créance, il peut s’eſtre flaté:
+<lb />Le Rebut de Madame, eſt vne Marchandiſe,
+<lb />Dont on auroit grand tort d’eſtre ſi fort épriſe.
+<lb />Détrompez-vous, de grace, &amp; portez le moins haut
+<lb />Ce ne sõt pas des gens, comme moy, qu’il vous faut;
+<lb />Vous rerez bien encor, de ſoüptrer pour elle,
+<lb />Et ie brûle de voir, vne Vnion ſi belle. Elle ſe retire.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Hê bien, ie me ſuis tû malgré ce que ie voy.
+<lb />me le luure parrertout le Moute, auant inoy.
+<lb />Ay-ie pris ſur moy-meſme, vn aſſez long Empire,
+<lb />Et puis-je, maintenant...
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Oüy, vous pouuez tout dir<lb />Vous en eſtes en droit, lors que vous vous plaindrez,
+<lb />Et de me reprocher tout ce que vous voudrez.
+<lb />I’ay tort, ie le confeſſe, &amp; mon Ame confuſe
+<lb />Ne cherche à vous payer, d’aucune vaine excuſe,
+<lb />I’ay des autres, icy, mépriſe le courroux,
+<lb />Mais ie tõbe d’accord de mon crime enuers vous.
+<lb />Voſtre reſſentiment, ſans doute, eſt raiſonnable,
+<lb />Ie ſçais combien ie dois vous paroiſtre coupable,
+<lb />Que toute choſe dit, que i’ay pû vous trahir,
+<lb />Et qu’enfin, vous auez ſujet de me hair.
+<lb />Faites-le, i’y conſens.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />He le puis-je, Traiſtreſſe,
+<lb />Puis-je, ainſi triompher de toute ma tendreſſe?
+<lb />Et quoy qu’auec ardeur, ie veuille vous hair,
+<lb />Trouuay ie vn cœur, en moy, tout preſt à m’obeyrs
+</sp>
+<sp type="MainZone-Sp"><lb />A Eliante, &amp; Philinte.
+<lb />Vous voyez ce que peut vne indigne Tendreſſe,
+<lb />Et ie vous faits, tous deux, témoin de ma foibleſſe.
+<lb />Mais à vous dire vray, ce n’eſt pas encor tout,
+<lb />Et vous allez me voir la pouſſer i’uſqu’au bout,
+<lb />Mõtrer que c’eſt à tort, que Sages on nous nomme,
+<lb />Et que, dãs tous les cœurs, il eſt toûjours de l’hõme.
+<lb />Oüv, ie veux bien Perfide, oublier vos Forfaits,
+<lb />I’en ſçauray, dans mon ame excuſer tous les traits;
+<lb />Et me les couuriray du nom d’vne foibleſſe,
+<lb />Pourueu que voſtre cœur veille dõner les mains,
+<lb />Au deſſein que i’ay fait de fuyr tous les Humains,
+<lb />it que dans mon deſert, où i’ay fait vœu de viure;
+<lb />Vous ſoyez, ſans tarder reſoluë à me ſuiure.
+<lb />C’eſt par là, ſeulement que dans tous les eſprits,
+<lb />Vous pouuez reparer Ie mal de vos Ecrits;
+<lb />Et qu’aprez cet eſclat qu’vn noble cœur abhorre,
+<lb />Il peut m’eſtre permis de vous aimer encore.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />Moy, renoncer au Monde, auant que de veillir !
+<lb />Que vous doit importer tout le reſte du monde?
+<lb />ev dalls voltre Delere aller i enieuont :
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Et s’il faut qu’à mes feux voſtre Flame reſponde,
+<lb />Vos deſirs, auec moy, ne ſont-ils pas contens;
+</sp>
+<sp type="MainZone-Sp"><lb />CELIMENE.
+<lb />La Solitude emapeque ame de vingeairs;
+<lb />Ie ne ſens point la mienne aſſez grande, aſſez forte,
+<lb />Pour me reſoudre à prendre vn deſſein de la ſorte.
+<lb />Si le Don de ma main peut conteuter vos vœux,
+<lb />le poutray me réſoudre à ſerrer de tels Nœuds.
+<lb />Et l’Hymen....
+<lb />ALCESTE.
+</sp>
+<sp type="MainZone-Sp"><lb />Non, mon cœur, à preſent, vous deteſte,
+<lb />Et ce refus, luy ſeul, fait plus que tout le reſte;
+<lb />Puis que vous n’eſtes point en des liens ſi doux,
+<lb />Pour trouuer tout en moy, cõme moy tour en vous,
+<lb />Allez ie vous refuſe, &amp; ce ſenſible outrage.
+<lb />De vos iadignes Fers, pour iamais me deſgage.
+</sp>
+<sp type="MainZone-Sp"><lb />Celimene ſe retite, &amp; Alceſte parle à Eliante.
+<lb />Madame, cent vertus ornent voſtre Beauté,
+<lb />Et ie n’ay veu qu’en vous, de la ſincerité:
+<lb />De vous, depuis long temps, ie fais vn cas extreme,
+<lb />Mais laiſſez moy, touſiours, vous eſtimer de meſme:
+<lb />Et ſouffrez que mon cœur; dans ſes troubles diuers,
+<lb />Ne ſe preſente point à l’honneur de vos Fers;
+<lb />Ie m’en ſens trop indigne, &amp; commence à connaiſtre
+<lb />Que le Ciel, Pour ce Nœud, ne m’auoit point fait
+<lb />danicler
+<lb />Que ce ſeroit, pour vous, vn Hommags trep bas;
+<lb />Que le rebut d’vn cœur qui ne vous valoit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Et qu’enfin.
+<lb />ELIANTE.
+<lb />Vous pouuez ſuiure cette penſée,
+<lb />Ma Main, de ſe donner, n’eſt pas embaraſſée;
+<lb />Et voila voſtre amy, ſans trop m’inquieter,
+<lb />den a le ren pneis, ta faullelt aecepter.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Ah!cet honneur Madame, eſt toute mon enuie,
+<lb />Et i’y ſacrifirois &amp; mon Sang, &amp; ma Vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCESTE.
+<lb />Puiſſiez-vous, pour gouſter de vrais contentemens;
+<lb />miupourrautreja famais, garder ces Sentimens.
+<lb />Trahy de toutes parts, accablé d’Iniuſtices,
+<lb />Ie vais ſortir d’vn Gouffre où triomphent les Vices,
+<lb />Et chercher ſur la Terre, vn endroit eſcatté,
+<lb />Où d’eſtre Homme d’honneur, on ait la liberté.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILINTE.
+<lb />Allons, Madame, allons employer toute oboſe,
+<lb />Pour rompre le Deſſein que ſon cœut de mropoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />FIN. I
+<fw><lb />
+</fw></sp>
+    </body>
+  </text>
+</TEI>

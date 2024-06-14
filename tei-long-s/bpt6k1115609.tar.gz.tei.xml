@@ -1,0 +1,4100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La comédie de Francion</title>
+        <author>Gillet de La Tessonerie</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb305074439"/>
+          <author>
+            <persName>Gillet de La Tessonerie</persName>
+          </author>
+          <title>La comédie de Francion</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1642" cert="high" resp="BNF">1642</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />3
+<lb />E
+</fw>
+<p type="MainZone-P"><lb />Ar grace &amp; Priuilege du Roy, donné à Paris le
+<lb />TII. iour de Mars 1647. Signé le Brun, il eſt permis
+<lb />à Anthoine de Sommauille, Marchand Libraire à Pa<lb />ris, d'imprimer vne piece de Theatre, intitulée La Mort
+<lb />d’Aſdrubal, Tragedie du ſieur de Mont-Fleury, &amp; ce du<lb />rant l’eſpace de cinquans, auec deffence à toutes ſortes
+<lb />de perſonnes, de quelque qualité qu’ils ſoient, de l’im<lb />primer ou faire imprimer, ſur les peines portees par ledis
+<lb />Priuilege.
+</p>
+<p type="MainZone-P"><lb />Ledit de Sommauille a aſſocié auec luy Touſſainct
+<lb />Quinet, auſſi Marchand Libraire à Paris, ſuiuant l’ac<lb />cord fait entr’eux.
+<fw><lb />17
+<lb />Acheué d’imprimer pour la premiere fois le due l vril 1647.
+<lb />Ct Eypuure et de ſe ne
+<lb />E
+<lb />G.
+</fw><fw><lb />A
+</fw></p>
+<p type="MainZone-Head"><lb />MONSIEV
+<lb />PRIE
+<lb />R
+<lb />R,
+<lb />PROCVREVR AV PARLEMENT
+<lb />de Paris, &amp; Controlleur Tiers
+<lb />Referand aire.
+<lb />2
+<fw><lb />LONSIEVR,
+</fw></p>
+<p type="MainZone-Head"><lb />Ie preſente vn ouurage d'vn
+<lb />bel eſprit à celuy dont la ſuffiſance eſt ca<lb />pable de l’eſtimer, comme il faut &amp; de luy
+<lb />donner le prix qu’il merite. L’Autheur m’a
+<lb />permis d’en diſpoſer, &amp; i’ay creu que ie ne
+<lb />pouuois mieux preſenter cette piece qu’à
+<lb />vous, puis que vous ſçauez cognoiſtre par<lb />faictêment l’excelence des belles choſes.
+<lb />On croira peut-eſtre que c’eſt le reſſen<lb />timent des obligations que ie vous ay qui
+<lb />me porte à vous rendre cét hommage, mais
+<lb />encor que ie ſois parfaitement recognoiſ<lb />ſant, ie vous prie de croire que ie ne le rends
+<lb />pas tant à vos biens-faits qu’a vous meſme.
+<lb />Cette rare probité qui vous fait paraiſtre
+<lb />incorruptible dans vne profeſſion où la cor<lb />ruption eſt ſi commune: Cette belle affabi<lb />lité qui vous fait eſtimer dans les plus belles
+<lb />compagnies, comme vôtre intelligence aux
+<lb />affaires, vous fait conſiderer aux Cours
+<lb />ſouueraines; enfin cette grande eſtenduë
+<lb />de cœur qui vous fait aymer tout le mon<lb />de &amp; moy en particulier, ſont les motifs
+<lb />qui m’ont excité à declarer au public, que les
+<lb />plus rares productions peuuent receuoir vn
+<lb />nouueau charactere de merite paraiſſant
+<lb />ſous voſtre nom, &amp; que la plus glorieuſe
+<lb />qualité que ie porte c’eſt celle de
+</p>
+<p type="MainZone-Other"><lb />MONSIEVR
+<fw><lb />Voſtre ttes-humble tres-
+<lb />obeiſſant &amp; obligé ſeruiteur,
+<lb />TOVSSAINCT QVINET,
+</fw></p>
+<p type="MainZone-Head"><lb />PRIPIDEOIOT.
+</p>
+<p type="MainZone-P"><lb />OVIS Par la grace de Dieu Roy de France &amp;
+<lb /> de Nauarre, A nos amez &amp; feaux Conſeillers les
+<lb />Gens tenants nos Cours de Parlement, Maiſtre
+<lb />des Requeſtes ordinaires de noſtre Hoſtel, Baillifs, Se
+<lb />neſchaux, Preuoſts leurs Lieutenants, &amp; à tous autres
+<lb />de nos iuſticiers &amp; officiers qu’il appartiendra Salut,
+<lb />Noſtre cher &amp; bien amé Touſſainct Quinet, Marchant Li<lb />braire de noſtre bonne ville de Paris, nous a fait remon<lb />ſtrer qu’il deſireroit faire imprimer vne piece de Thea<lb />tre,intitulée La Comedie de Francion, ce qu’il ne peut faire
+<lb />ſans auoir ſurce nos lettres humblemat nous requerant
+<lb />icelles. A ces cauſes deſirant traitter fauorablemẽt ledit
+<lb />expoſant: Nous luy auons permis &amp; permettons par ces
+<lb />preſentes de faire imprimer, vendre &amp; debiter en tous
+<lb />les lieux de noſtre obeiſſance ledit liure en telle marges,
+<lb />&amp; en tels caracteres &amp; autant de fois que bon luy ſem<lb />blera durant l’eſpace de einq ans entiers &amp; accomplis, à
+<lb />compter du iour qu’il ſera acheué d’imprimer pour
+<lb />la premiere fois, &amp; faiſont tres expreſſes deffences à tou<lb />tes perſonnes de quelque qualité &amp; condition qu’elles
+<lb />ſoient de l’imprimer, faire imprimer vendre ny debi<lb />ter durant ledit temps en aucuns lieux de noſtre obeiſ<lb />ſance ſans le conſentement de l’expoſant, ſous pretexte
+<lb />d’augmentation, correction, changement de tiltre,
+<lb />fauces marques, ou autres en quelques ſortes &amp; manie<lb />re que ce ſoit, à peine de trois mil liures d’amende paya<lb />ble ſans deport, &amp; nonobſtant oppoſitions ou appella<lb />tions quelconques par cnacun des contreuenants, ap<lb />plicables vn tiers à nous, vn tiers à l’Hoſtel Cieu de no<lb />ſtre bonne ville de Paris, &amp; l’autre tiers audit expoſant,
+<lb />confiſcation des exemplaires contrefaits, &amp; de tous
+<lb />deſpens dommages &amp; intereſts, a condition qu’il ſera mis
+<lb />deux explaires dudit liure en blanc, en noſtre Bibliotheque
+<lb />publique, &amp; vn en celle ne noſtre tres cher &amp; feal le
+<lb />ſieur Seguier Cheualier, Chancelier de France, auant
+<lb />que de les expoſer en vente à peine de nullité des pre<lb />ſentes. Du contenu deſquelles nous vous mandons que
+<lb />faſſiez iouir &amp; vſer pleinement &amp; paiſiblement ledit ex<lb />poſant, &amp; tous ceux qui auront droit de luy, ſans qu’il
+<lb />leur ſoit donné aueun trouble ny empeſchenient, vou<lb />lons auſſi qu’en mettant au commencement ou à la fin
+<lb />dudit liure vn extraict des preſentes, elles ſoient tenues
+<lb />pour deuément ſignifiées &amp; que foy y ſoit adiouſtée, &amp;
+<lb />aux coppies collationnées par l’vn de nos amez &amp; feaux
+<lb />Conſeillers &amp; Secretaires comme aux originaulx. Man<lb />dons au premier noſtre Huiſſier ou Sergent ſur ce re<lb />quis, de faire pour l’expedition des preſentes tous ex<lb />ploits neceſſaires, ſans demander autre permiſſion; Car
+<lb />tel eſt noſtre plaiſir, Nonobſtant clameur de Haro,
+<lb />Chartres Normande &amp; autres léttres à ce contraires.
+<lb />Donné à Paris le 27. iour de Feurier, lan de grace mil
+<lb />ſix cens 42. Et de noſtre regne le trente deuxieſme.
+<fw><lb />Par le Roy en ſon Conſeil.
+</fw></p>
+<sp type="MainZone-Sp"><lb />"
+<lb />LE BRVN.
+<lb />Les Exemplaires ont eſté fournies.
+<lb />Ache té d’imprimer pour la premiere fois le dernier May 1642.
+</sp>
+<sp type="MainZone-Sp"><lb />PERSONNAGES.
+<lb />VALANTIN, Seigneur du Bourg.
+<lb />FRANCION, Seigneur François.
+<lb />ANSELME, Paraſitte &amp; confident de
+<lb />Francion.
+<lb />LAVRET TE, Femme de Valantin.
+<lb />CATHERINE, Seruante &amp; Garçon déguisé.
+<lb />L’HOTESSE, Du logis ou demeuroit Fran<lb />çion.
+<lb />LA SERVANTE, De l’Hoſtellerye.
+<lb />OLTVIER,
+<lb />Gentil-homme pillé par les
+<lb />Voleurs.
+<lb />PETIT IACQVES, Capitaine des Voleurs
+<lb />LVBIN,
+<lb />LEONARD,
+<lb />Payſan.
+<lb />Payſan
+<lb />BERTRAND, Payſan.
+</sp>
+<p type="MainZone-Entry"><lb />MARSAVLT, Voleur.
+</p>
+<p type="MainZone-Entry"><lb />LEPREVOST, Du Bourg.
+</p>
+<p type="MainZone-Entry"><lb />LE PROCVREVR, Fiſcal.
+</p>
+<p type="MainZone-Head"><lb />FRANCION
+<lb />EEDEL
+</p>
+<p type="MainZone-Head"><lb />AETETREMIER.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />VALANTIN.
+<fw><lb />MOVR ne puis-je pas me dire
+<lb />miſerable
+<lb />Puis que tu mes contraire en m’eſtant
+<lb />fauorable,
+<lb />Et que ie puis icy iuſtement t'accuſer
+<lb />De me donner des biens dont ie ne puis vſer,
+<lb />Depuis plus de deux mois ie poſſede vne fame
+<lb />Dont l’aymable beauté lance des traits de flame
+<lb />C A
+<lb />*
+<lb />---s--- -------. .. .-.-------- -a-t uat-t
+</fw><fw><lb />Er
+</fw></p>
+<sp type="MainZone-Sp"><lb />Et dont ie recognois que les puiſſans effors
+<lb />Peuuent tout ſur mon ame &amp; rien deſſur mon corps
+<lb />S'y tost que ie la vois ou lors que ie l’embraſſe
+<lb />Mon ardeur s’alantiſt ie me treuue de glace,
+<lb />Et ie ne puis ſçauoir quel eſtrange malheur
+<lb />Change ſi promptement ma boüillante chaleur,
+<lb />Ie me trouue immobile &amp; plus fraid qu’vne ſouche
+<lb />Ie baiſe ſes beaux yeux ie paſme ſur ſa bouche,
+<lb />Et lors que ie deurois m'enyurer de plaiſirs
+<lb />C’est quand ie ſuis reduit a faire des deſirs,
+<lb />Car loing de contenter mon amoureuſe enuie
+<lb />Ie meurs du desplaiſir de conſeruer la vie,
+<lb />Et de ne pouuoir pas faire ce que ie veux
+<lb />Lors que l’occaſion ſe preſente aux cheueux,
+<lb />Car ſans dompter enfin l’ennuy qui me ſurmonte
+<lb />Ie bleſmis de colere &amp; ie rougis de honté,
+<lb />De ne pas contenter mes bruſlantes amours
+<lb />Lors que ie ſuis encore aux plus forts de mes iours,
+<lb />Et que ie ne cognois aucune deffaillance
+<lb />Qui doiue authoriſer vne telle impuiſſance,
+<lb />Puis que ie ſuis pourueu de tout ce qui me faut
+<lb />Que la nature en moy n'a point fait de deffaut,
+<lb />Quutome vois aymé de ma chere Laurette
+<lb />Autant comme ie l’ayme &amp; que te le ſouhaitte,
+<lb />Et qu’vn hymen ſacré me rendant ſon espoux
+<lb />Me permet de cueillir ce qu’il a de plus doux,
+<lb />Ha Dieux! à ce penſer mon mal ſe rend extreme
+<lb />Et ie ſouffre vn tourment pire que tu mort meſme,
+<lb />---- -----
+<lb />d ---i-
+</sp>
+<p type="MainZone-Lg"><lb />Malheureux Valantin quel crime as tu commis
+<lb />Pour te rendre l’amour &amp; le Ciel ennemis,
+<lb />Et toy chere beauté mon vnique penſée
+<lb />Rendray je ton amour ſi mal recompenſée,
+<lb />Et que ie ne puis pas te faire bien-tost voir
+<lb />Qu’ayant la volonté ie manque du pouuoir,
+<lb />Encore ce qui m'attriſte &amp; tout ce qui me fâche
+<lb />C’est la crainte que i’ay que quelqu’vn ne le ſache,
+<lb />Puiſque ſi ie pouuois deſcouurir mon tourment
+<lb />I'en pourois eſperer vn prõpt alegement (Laurette paroit)
+<lb />Mais i’apperçois Laurettei ah Dieux qu'elle est
+<lb />aymable
+<lb />Que ſon aspeor mn eſe iude &amp; qun m'est agreable.
+<lb />vi dl ln od
+</p>
+<p type="MainZone-Head"><lb />DCLIE II.
+<lb />SXEANTTRS AAVRETTE,
+<lb />CATHERINE.
+<lb />LAVRETTE en l’abordant.
+<lb />Voy, Monſieur, ſi matin vous trou<lb />uer en ces lieux.
+</p>
+<sp type="MainZone-Sp"><lb />ana de vt
+<lb />VALANTIN.
+<lb />Ne vous qunez point delices de mes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE à l’eſcart.
+<lb />Le beaus nom.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Si ie viens dedans cette prairie
+<lb />Chercher vn entretient propre à ma réuerie,
+<lb />Puiſque vous ſçauez bien que ce qui m’y conduit
+<lb />N'eſt que le triſte estat ou le ſort m'a reduit.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Quel est donc vostre mal.
+<lb />----- -- --- ---
+</sp>
+<sp type="MainZone-Sp"><lb />au teeoi quotrop oiſble.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Monſieur ie n’en ſçais point qui ſoit aſſez ſenſible,
+<lb />Pour forcer vostre humeur au poinct ou ie la voy
+<lb />He Dieux! vous ſouſpirez eſt ce à cauſe de moy,
+<lb />Embraſſez-vous ſ'ſoſt le ſoucy du meſnage
+<lb />Et vous repentez vous de noſtre mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Nvon mauuume tona trentdut tiu me fott fort doux
+<lb />Et tout mon deſplarſis n'eſt qu’a cauſe de vous,
+<lb />Craignant a tous momẽts de vous voir malheureuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Monſieur deffaictes-vous de cette humeur peureuſe,
+<lb />Et ne me tenez plur de ſemblables propos
+<lb />Si vous aymez mon bien conme voſtre repos,
+<lb />Car puiſque noſtre hymẽ joint nos deux cœurs ensẽble
+<lb />Ie beniray touſiours le neud qui les aſſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Et qui met dans vos bras vn malheureux espoux,
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE bas.
+<lb />Qui n'a rien aprés tout qui ſoit digne de vous,
+<lb />. ..-. -.--
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE à l’eſcart les 2. premieres.
+<lb />Si tu veux m’obliger ſois vn peu plus diſcrette
+<lb />Et laiſſe moy flatter cét infame ſquelette,
+<lb />ontent tentinuez vous me ferez penſer
+<lb />Que vous ne me parlez, qu'afin de vous gauſer.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Me preſerue le Ciel d’en auoir la penſée.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Quittez dont ce diſcours dont ie ſuis offenſée,
+<lb />Et me dictez pluſtost pour charmer nostre ennuy
+<lb />Quel diuertiſſement nous prendrons auiourd’huy,
+<lb />Ayant accoustumé de fuyr la ſolitude
+<lb />Ie ne vous celle point quelle m’eſt vn peu rude,
+<lb />Et principalemsent quant ie ſuis dans les champs
+<lb />Ou Von ne doit ſonger qu'a vien paſſer le temps.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />atauuume propoſeien jumray voſtre enuie.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Parmy tous ces plaiſirs ou le temps nous conuie,
+<lb />Pas vn ne me déplaiſt &amp; ie les ayme tous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Vous n’auez, qu’à choiſir.
+<lb />C---
+<lb /> --- CMm
+<lb /><fw><lb />COMEDIE.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Aom en romois à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Et bien gousterons nous du plaiſir de la chaſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Ouy: Mais
+<lb />LAVRETIE.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ie cognois bien que vous en eſtes laſſe
+<lb />Et que celle d’hyer.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ah Monſieur nullement,
+<lb />I'yray ſi vous voulez.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Tupjons autrement,
+<lb />Allons nous promener
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Le chaud nous en empeſche
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Prenons donc ſans ſortir le plaiſir de la peſche,
+<lb />Et pour auoir le frais allons vers le viuier
+<lb />Et faiſons y ietter quelques coups d’eſpreuie:
+<lb />L.TT T
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />C’est le meilleur deſſein que nous eußiõs peu prendre
+<lb />Allons.
+<lb />–
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ne preſſez rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Quoy voulez-vous attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Vn moment ſeulement pour nous faire apreſter
+<lb />Quelques prouiſions pour y faire porter,
+<lb />Afin que nous gouſtions ſur l’aymable verdure
+<lb />Tous les contentemens que donne la nature,
+<lb />Et que noſts y puißions auec vn tel festin
+<lb />Paſſer plus doucement le reſte du matin.
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Puiſque comme ſon corps ſon eſprit eſt malade
+<lb />Le plaiſir qu’il promet vous ſemblera bien fade.
+</sp>
+<sp type="MainZone-Sp"><lb />Que dis-tu?
+<lb />- A
+<lb />ALANTIN.
+<lb />
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Qu’il fait bon deſfur des gaſons verds
+<lb />Goüſter en folaſtrant mil plaiſirs diuer.
+<lb /> 
+<lb />9 --
+<fw><lb />Et
+<lb />H
+</fw><lb />Et qu’il n’eſt rien encor qui charme dauantage
+<lb />Comme d'estre a couuert ſouz vn ſombre feüillage,
+<lb />Ou malgré les rayons du Soleil &amp; du iour
+<lb />Cnatun n'est eſtnauſſe que des trauis dé l amour,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Pour faire conceuoir ce plaiſir à l’extreme
+<lb />Dire qu’il faut eſtre encor proche de ce qu’on ayme,
+<lb />Puiſque quoy qu il en font nous ne cheriſſons rien
+<lb />Quant nous ne voyons point noſtre ſouuërain bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE bas.
+<lb />Et c’eſt ce qui me rend ton aspect mespriſable
+<lb />Tuiſque ie n'y vois point ce que i’y treuue aymable,
+<lb />Ce Soleil de mes yeux ce Francion charmant
+<lb />Qui cauſe mon plaiſir comme toy mon tourment,
+<lb />aidal nol lardons beancoup.
+<lb />22
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Pardonnez-moy Madame,
+<lb />Ie crains en vous quittant d’abandonner mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE bas.
+<lb />Ayant attaint quaſi la derniere ſaiſon
+<lb />qu
+<lb />Il a peur de mourir c’est auec raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />ALANTIN.
+<lb />Mais ie vais de ce pas reuenir toute à l’heure.
+<fw><lb />--
+</fw><fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Allez ne tardez point faictes peu de demeure.
+</sp>
+<p type="MainZone-Head"><lb />OCE MIIEE
+<lb />LAVRETTE, CATHERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />EE voyant endurer iuſques au dernier
+<lb />point
+<lb />Catherine à la fin ne me plaindras tu
+<lb />point,
+<lb />Ne donneras tu pas des ſouspirs à mes larmes
+<lb />Ne m'aideras tu point en de telles alarmes,
+<lb />Et ſuiuant le ſecours que i'eſperé de toy,
+<lb />N'auras tu point de ſoin ny de pitié de moy,
+<lb />Tu ſçais que ce Titon m’eſt bien plus execrable
+<lb />Que mon ieune adonis ne me ſemble adorable,
+<lb />Et qu'en me le donnant mes plus proches parens
+<lb />En penſant m'obliger ont esté mes Tyrans.
+<lb />– 
+<lb />-. L. .
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ouy Madame, il eſt vray vous eſtes bien à plaindre,
+<lb />Et i ignore comment vous vous pouuez contraindre,
+<lb />luj qui au poinct de flatter ce vieux ſpectre viuant
+<lb />Qui n'eſt que le portraict d’vn fantoſme mouuant.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Tu ſçais que pour cacherle feu que i'ay dans l’ame
+<lb />Il est bon de flattèr.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ouy ie te fp̧ais madame,
+<lb />Mais ie m'estonne encor comme vous l’auez pris
+<lb />Puiſque d’vn autre objet voſtre cœur est épris.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Tu ſçauras que l’affaire eſtoit preſque concluë
+<lb />Et qu'à ce mariage on m'auoit reſolué,
+<lb />Lors qu’vn puiſſant demon que ie ne cognois pls
+<lb />Me fit voir Francion pourueu de tant d’appas,
+<lb />Qu'a ſon premier abord ie demeuray ſurpriſe
+<lb />Mon ame par ſes yeux luy donna ma franchiſe,
+<lb />Et pour le faire court ie fus au meſme iour
+<lb />De libre que i'estois vne eſclaue d'amour.
+</sp>
+<p type="MainZone-Other"><lb />ij
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />M’ayant deſia rendu vostre amour manifeſte
+<lb />Madame vous deuez m'en declarer le reste,
+<lb />Et me conter icy ſans crainte de teſmoins
+<lb />Comme vint cet amour en y penſant le moins.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />En deux mots ſeulement ie te vais ſatisfaire
+<lb />I’eſtois dedans Paris ma demeure ordinaire,
+<lb />Lors que tous mes parens preſſez par Valantin
+<lb />* Ou pluſtost par l’arrest de mon mauuais deſtin,
+<lb />M’accorderent à luy ſouz le joug d’hymenée
+<lb />Et i'approchois deſia cette triste iournée,
+<lb />Quant ma mere me dit qu’il falloit aller voir
+<lb />Quelques cheſnes de prix que ie voulois auoir,
+<lb />Ce que luy promettant ſans autre reſistance
+<lb />Beaucoup moïs par amour que par obeïſſance,
+<lb />Dés le meſme moment Valantin nous mena
+<lb />Pour auoir ces joyaux qu’enfin il me donna:
+<lb />Mais tu remarqueras que cette belle cheſne
+<lb />Fut le charmant objet de celle qui me geſne,
+<lb />Qu'elle fust le teſmoin de ma captiuité
+<lb />Et que bien-toſt aprés ie fus ſans liberté:
+<lb />Car a peine auons nous entré dans la bouticque
+<lb />D'vn marchand qui logeoit vers la place publique,
+<lb />Que nous viſmes entrer außi-toſt auec nous
+<lb />Vn homme dont les traits me parurent ſi doux,
+<lb />-- ----
+<lb />  J. { -
+<fw><lb />"
+</fw><lb />Qu’à ſon premier aspect mon ame fut ém'euë
+<lb />Elle bruſla ſoudain d’vne flâme impreueuë,
+<lb />Et ſans pouuoir nommer l’inſtinct qui la cauſoit
+<lb />Pus t'en vuyou toufet &amp; plus il me plaiſoit.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Eſtoit-ce Francion.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ouy chere Catherine
+<lb />C’eſt luy qui me parût d’vne grace diuine,
+<lb />D'vn port majeſtueux &amp; tel qu’eſtoient les Dieux
+<lb />Quant amour les forçoit d’abandonner les Cieux,
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Quel ſujet l’amenoit.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ce fut ma ſeule veuë
+<lb />Car m’ayant rencontré dans la prochaine ruë,
+<lb />Ime ſuiuit des yeux iuſqu a tant qu’il me vit
+<lb />Entrer chez, le marchand ou ſon œil me rauit.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Mais enfin que fit il, dites moy ie vous prie.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Il ſe ſeruit alors d’vne grande industrie,
+<lb />------------- O ---- --
+</sp>
+<p type="MainZone-Other"><lb />A iu
+<lb />Car faignant d’achepter vn fort beau diamant
+<lb />IeMmem Janfan en Jauumen.
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Si bien que vcus pourriez dire auec aſſeurance
+<lb />Ignorant d’où vos feux auroient pris leur naiſſance,
+<lb />Qin ſe fenuit ators de queique cuonantement
+<lb />Pour gagner voſtre eſprit auec vn diamant.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Qu’il m’eſblouyt les yeux par l’eſclat d’vne pierre.
+<lb />C’omme quand le Soleil reflechit ſur du verre,
+<lb />Car ſes yeux pleins de feux qu'il me vouloit bailler
+<lb />Frappoient le diamant &amp; le faiſoient briller,
+<lb />Mais ie vois Valantin, à tantost Catherine.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHHIEE.
+<lb />Courez donc au deuant &amp; faictes bien la fine,
+<lb />Si tu recognoiſſois mon ſexe &amp; men deſſein
+<lb />Tu cacherois l’ardeur qui regne dans ton ſein.
+</sp>
+<p type="MainZone-Head"><lb />SARIA
+<lb />I
+<lb />V
+<lb />AHITE MECGVLO 5 HTRUAVLI,
+<lb />OLIVIER, Et leur ſuitte.
+</p>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />E tiens plus les diſcours dont ru nous
+<lb />importunes
+<lb />Songe au bien qui t’attend plus qu’à
+<lb />nos infortunes,
+<lb />Montre nous des eſſais de generoſité
+<lb />Et fais vne vertu de la neceßité,
+<lb />Sçache que comme toy nous ſommes Gẽtilshommes
+<lb />Que nous aymons l’honneur tout voleurs que nous
+<lb />ſommes,
+<lb />Que nous n’ostons iamais ce qu’on nous veut donner
+<lb />Et qu’il n’est rien en nous qu’on puiſſe condamner,
+<lb />Si nous prenons des biens on nous a pris les noſtres
+<lb />Le mai qu’on nous a fait nous le faiſons aux autres,
+<lb />Et pour tout dire enfin dans cette extremité,
+<lb />Nous rendons auiourd’huy ce qu’on nous a preſté,
+<fw><lb />He
+</fw><lb />Sçache que i’ay ſuiuy plus de vingt ans les armes
+<lb />Que i'ay paru ſans peur au milieu des alarmes,
+<lb />Que i’ay long temps ſeruy ma patrie &amp; mon Roy
+<lb />Mais que depuis ſix mois ie ne ſers plus que moy,
+<lb />Qu'aprés auoir mangé tout mon faict à l’armee
+<lb />Ie ne me repais plus d’vne vaine fumee,
+<lb />Et que i’ayme bien mieux tenter mille haſards
+<lb />Eeſur tes granas tuemins que duns te champ de
+<lb />Mars.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Ouy, Monſieur, ce meſtier est bien plus profitable
+<lb />Mats aauouez pourtan qu’it eſt meins honorable,
+<lb />Et qu’il est mal aiſé quoy qu’on gagne beaucoup
+<lb />Qu'vn homme côme moy l’exerce au premier coup.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Au contraire l’amy tout homme de courage
+<lb />Embraſſe auec ardeur le meurtre &amp; le carnage
+<lb />Il s’y porte ayſément quand il s’y void contraint
+<lb />Et mespriſer l’honneur bien plus qu’il ne la craint,
+<lb />Moy meſme i'en ay faict &amp; l’eſpreuue &amp; l’exemple
+<lb />I’ay dérobé d’abord iuſques dedans le temple,
+<lb />I'ay tué des paſſans i’ay volé des marchands
+<lb />I'ay pillé dans la ville autant-que dans les champs,
+<lb />En portant la terreur en plus de cent familles
+<lb />I'ay forcé bien ſouuent des femmes &amp; des filles:
+</sp>
+<p type="MainZone-Other"><lb />OLIVIER
+</p>
+<sp type="MainZone-Sp"><lb />LIVIER bas.
+<lb />Les bettes Acrions.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Mais laïſſant ce diſcours
+<lb />Aprans que nous auons beſoin de ton ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy.
+<lb />OLIVIER.
+</sp>
+<sp type="MainZone-Sp"><lb />ARRONVEI.
+<lb />Pourfaire vn vol dans la maiſon prochaine.
+<lb />ε25
+<fw><lb />124
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Comment.
+<lb />OLIVIER.
+<lb />MARSAVLT. feignant d’eſtre en colere.
+<lb />Que di-je.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Rien, ne t’en més en peine,
+<lb />Nous auons la dedans vn ieune homme de cœur
+<lb />Qui brauant le peril außi bien que la peur!
+<lb />Pour ayder au deſſein que neus auons dans l’ame
+<lb />A pris depuis deux moïs les habits d’vne femme,
+<lb />Il y faint de ſeruir, &amp; ſe cache ſi bien
+<lb />Que tous ceux du logis n'en recognoiſſent rien<fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />OLIVIER. bas.
+<lb />Feignons dont come tuy puis qu’il eſt bon de feindre.
+</sp>
+<sp type="MainZone-Sp"><lb />Reſponds
+<lb />MARSAVLT.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Ie ſuis a vous, vous ne deuez rien craindre.
+</sp>
+<sp type="MainZone-Sp"><lb />PETITTACQVES.
+<lb />Mais nostre Agent s’approche.
+</sp>
+<sp type="MainZone-Sp"><lb />DLIVIER.
+<lb />Ah! quelle trahiſon?
+</sp>
+<p type="MainZone-Head"><lb />SM.Me.
+<lb />V
+<lb />CATHERINE, PETIT IACQVES,
+<lb />OLIVIER, MARSAVLT,
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE
+<lb />2
+<lb /> E n’ay iamais penſe ſortir de la maiſon
+<lb />M Et ſi ie n’euſſe vsé d’vne grande fineſſe
+<lb />&amp; Ie n'euſſe peu quitter noſtre fainte mai<lb />V
+<lb />streſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Et bien quand pourrons nous voler ce grand treſor?
+<fw><lb />
+</fw><fw><lb />COMEDIE.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />PETITIACQVES.
+<lb />Seis de JmJens
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Il faut attendre encor.
+<lb />Car dedans peu de temps ainſi que ie l’espere.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Tu remets tous les iours.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />1124
+<lb />He bien, qui puiſ-je faire,
+<lb />Ne vaut il pas bien mieux attẽdre vn peu de iemps,
+<lb />Que de nous voir fruſtrer honteux &amp; mal contans.
+</sp>
+<sp type="MainZone-Sp"><lb />ILPITHEQVES.
+<lb />la avi uau ilte
+<lb />g qu la uh moamao
+<lb />Sy nous eſtions traitez comme toy chez vn maiſtre
+<lb />Rien ne nous preſſeroit
+<lb />V?
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />11
+<lb />?
+<lb />„ l̓: v. 8 .
+<lb />Tu de ſeras.
+<lb />A
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACe
+<lb />YE
+<lb />S.
+<lb />Peut estre.
+</sp>
+<p type="MainZone-Other"><lb />ii
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Tu n’en dois point douter, Mais dis moy cher amy,
+<lb />Quel eſt ce compagnon qui paroiſt endormy
+<lb />Con diroit &amp; te voir qu il ferou immobile.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Cher frere tel qu’il eſt, il nous est fort vtile.
+</sp>
+<sp type="MainZone-Sp"><lb />d la Ae aa d laaMo
+<lb />Mais où las tu donc pris.
+<fw><lb />F1* 4.
+<lb />1148
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />L Tu le ſaurastanto st
+<lb />N'en dis mot ſeulement, voila ce qu’il nous faut.
+</sp>
+<sp type="MainZone-Sp"><lb />CAIHENNE.
+<lb />Pourueu qu’il ait des yeux des mains &amp; des oreilles
+<lb />Estans aueq nous il fera des merueilles, mos
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER
+<lb />U
+<lb />d** M3
+<lb />Ouy Monſieur, i’ay le bien d’auoir des qualités.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ten conçois quelque espoir.
+<lb />A
+<lb />
+<lb />12
+<lb />-
+<fw><lb />12
+</fw></sp>
+<sp type="MainZone-Sp"><lb />DLIVIER.
+<lb />Que ſi vous en doutez
+<lb />Leffet quand oon voudrez plegera ma paro le.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />He bien qu’en dites vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Qu'il eſt aſſez bon drolle.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVIER.
+<lb />Ouy ma foy ie le ſuis.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Mais ie ſors de ce lien
+<lb />Sers nous fidellement.
+<fw><lb />t0
+<lb />3
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Iuſqu'au reuoir.
+<fw><lb />CATHERINE.
+<lb />amumim euer
+<lb />*Lb2
+<lb />
+<lb />hi
+</fw></sp>
+<p type="MainZone-Other"><lb />Adieu.
+<fw><lb />*
+<lb />L ii
+<lb />U. r.
+<lb />*1
+<lb />8
+<lb />723
+<lb />2
+<lb />63
+</fw></p>
+<p type="MainZone-Head"><lb />SCLETE
+<lb />I
+<lb />FRANCION, ANSELME
+</p>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />E m’en destcurne point fais ce que ie
+<lb />deſire,
+<lb />Ie ſuis venu trop loin pour m’en pou<lb />uoir dédire,
+<lb />Et mal gré tes diſcours ie fuis trop bien ſensé
+<lb />Pour quitter vn deſſein que i'ay bien commencé,
+<lb />Quant il m'en cousteroit &amp; l’honneur &amp; la vie
+<lb />Ie verray cét objet dont mon ame eſt rauie,
+<lb />Et ſeray trop content ſi mon deguiſement
+<lb />Me fait auoir le bien de la voir vn moment.
+<lb />Pas vn ne me connoiſt &amp; dedans ce vilage
+<lb />Tout rit à mes ſouhaits &amp; me donne courage
+<lb />Car outre ma fineſſe &amp; mes habillements
+<lb />Ces phiolles ces ouſtis, &amp; ces medicaments
+<lb />Dont l’on ma tantoſt dit l’vſage &amp; la praticque
+<lb />Me feront eſtimer vn fameux Emperique,
+<lb />Ainſi ie pouray voir auec facilité
+<lb />Celle que mon riual tient en captiuité,
+<lb />Ie pourray luy parler ſans nulle deffiance
+<lb />Allant voir Ualentin pour auoir ſa puiſſance,
+<lb />De prendre en ſon pays le nom d’Operateur
+<lb />Et d’y faire vn meſtier.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qui perdra ſon Auteur,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Que ſi tu tiens encore ce deſſein pour infame
+<lb />Sçatne pour m'exempter de reprotne &amp; de blaſme,
+<lb />Que Iupiter jadis pour vn ſujet moins beau
+<lb />Prit tout Dieu qu’il estoit la forme d’vn Taureau</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ditez, ſans vous couurir de ce pretexte honneste.
+<lb />Qu'Amour fait ayſement d’vn amant vne beſte
+<lb />Qu’il priue de raiſon tous ceux qu’il a vaincus.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCIELI
+<lb />Il dompte tous les Dieux.
+<lb />La
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Exceptez en Bacus,
+<lb />Reuerez, auec moy ce grand Dieu des Boutailles,
+<lb />Qui produit toûs les iours de ſi rares merueilles,
+<lb />Et qui me fait iouir auec fort peu déforts
+<lb />D’vn plaiſir qui pourroit reſſnciter des morts,
+<lb />C’est auec ce grãd Dieu que l’on n’a point de crainte.
+<lb />Que l’on ne fait iamais de regrets ny de plainte,
+<lb />Que remne cognois point l’vſage des ſoupirs
+<lb />Et qu’on peut tous les iours contenter ſes deſirs,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Laiſſe tous ces diſcours Anſelme ie te prie,
+<lb />Ceſſe de te railler.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Sy faut il que ie rie,
+<lb />du jous n'aurez iamais de repos auec moy.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ouy, parce que tu ſçais que i’ay beſoin de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />ANSELME.
+<lb />Bien ie ne diray mot, Mais acheuez de grace,
+<lb />Le diſcours dont hyer nous quitaſme la trace.
+</sp>
+<sp type="MainZone-Sp"><lb />FI
+<lb />ANCION
+<lb />u63 buamoh
+<lb />Sy ie m'en reſouuiens, ie t'ay deſia compté
+<lb />'omme ie vis Laurette auec ſubtilité,
+<lb />Aſi
+<lb />
+<fw><lb />E.
+</fw><lb />Et comme i'acheptay pour m’aprocher pres d’elle
+<lb />Vne Bague de prix qu’elle treuua fort belle.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ouy, Monſieur il eſt vray, vous m’auez dit cela,
+<lb />Et m'auez raconté comme elle s en alla.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Tour donc auoir encor le bon heur de ſa veuë,
+<lb />Ie demantuj fom nom fa uemeure &amp; ſa ruë.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />A qui cela Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />4
+<lb />CIION.
+<lb />Au Marchand ou i’eſtois
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />SELME.
+<lb />He bien vous le dit-il, fut il aſſez courtois.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ouy, ie fus ſatisfait, &amp; i’apris dauantage
+<lb />Queudeston uotonuve duee en nomne d age,
+<lb />Qui tachant de ſe rendre agreable à ſos yeux
+<lb />Luy venoit d’achepter des ioyaux precieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />En fin que fites vous.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Scachant dont ſa demeure
+<lb />Deſireux de la voir i’y fus des la meſme heure.
+<lb />---- -- ------ d.- --- -
+<fw><lb /></fw><lb />Mais le malheur voulut que l’on me la cela
+<lb />Et ie ne la vis pas qu’à quinze iours de là.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME<lb />Mais luy parlaſtes vous.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ouy.
+</sp>
+<sp type="MainZone-Sp"><lb />Msdxll A.
+<lb />Mais de quelle ſorte
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Comme vn iour ie paſſois, ie la vis ſur ſa porte,
+<lb />Et lors pour l’accoſter auec quelque raiſon
+<lb />Ie luy vins demander s'y prés de ſa maiſon
+<lb />Il ne demeuroit point un nommé Peri andre.
+<lb />Ce qu’en fin ne pouuant aucunement m’aprendre,
+<lb />Ie changay de diſcours &amp; comme tout ſurpris
+<lb />Ie la remerciay du ſoin qu’elle auoit pris,
+<lb />Lors elle me respond, Mais auec vn langage
+<lb />Qui m'obligea d’abord d’en dire dauantage,
+<lb />Car pour le faire cour, ie luy dis mon deſſein
+<lb />Ie recoguus l’ardeur quelle auoit dans le ſein.
+<lb />Elle meſme m'a prit ſon funeſte Hym nenée
+<lb />Me promit de la voir la premiere iournée,
+<lb />- -------.--T.-A--
+<lb />B--–
+<lb />Où n’ayant point manqué i’appris que ſon époux
+<lb />Eſtoit d’vn naturel &amp; barbare &amp; ialoux,
+<lb />Et que le lendemain cét homme tout ſauuage
+<lb />Lenmenoit pour long temps viure dans ſon village.
+</sp>
+<sp type="MainZone-Sp"><lb />Bref.
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />ANCION.
+<lb />Aprés cent diſcours elle me dit adieu
+<lb />Et me pria ſur tout de venir en ce lieu
+<lb />Mais ſi bien deguisé qu’on ne me peut connoiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Voila qui va fort bien, Mais que voiſ-je paroiſtre,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />C’eſt l’hosteſſe qui vient la ſeruiette à la main.
+</sp>
+<p type="MainZone-Other"><lb />D ii
+<fw><lb />BλeMm. *.
+</fw><fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />DLEE
+<lb />VIE
+<lb />FRANCION, ANSELME
+<lb />L’HOTESSE
+</p>
+<sp type="MainZone-Sp"><lb />MITOEDOGE.
+<lb />E desjuner est preſt.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME<lb />Aurons nous de bon vin.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Oüy Monſieur, le meilleur de toute la contrée.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qu'auez vous, preparez.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Vous aurez pour l’entrée
+<lb />Vn dindon, deux perdrix, aueq vn gras chapon.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais vous ne parlez point de membre de mouton.
+<lb />N'en auez, vout pas mis.
+<lb />T L
+<lb />- d---
+<fw><lb />.
+</fw></sp>
+<p type="MainZone-Head"><lb />COMEDIE.
+<lb />L’HOTES SE.
+<lb />Non.
+</p>
+<sp type="MainZone-Sp"><lb />22
+<lb />ANSELME.
+<lb />Metez, en de grace
+<lb />Aueq vn aloyau des plus gras de ſa race.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Nous n’auons qu'vn mouton que l’on vient deſ<lb />Il eſt encor tout chaud. 
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qu'on m’en donne a manger.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />M
+<lb />Mais il ſera bien dur.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie le treuueray tendre
+<lb />Donnez ne faignez, point, ie ne ſçaurois attendre.
+<lb />L- * - - ---</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Monſieur vous vous mocquez.
+<fw><lb />R
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />––
+<lb />Non Madame i’en veux.
+<lb />----- --m-
+</sp>
+<p type="MainZone-Other"><lb />1
+<lb />i
+<lb />
+</p>
+<sp type="MainZone-Sp"><lb />LHOTESSE.
+<lb />Ce que i’ay preparé ſuffira pour vous deux
+<lb />Et puis vn tel manger n'eſt pas trop delectable.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />N’importe metez en, ie mengerois le Diable,
+<lb />Quoy qu’il en ſoit mes dens ne s’en caſſeront point
+<lb />Et ie n’en feray point eſlargir mon pourpoint,
+<lb />Luy te coentre pius treux qu'vne vaſſe de violle
+<lb />I’ay dedans plus de vents que n'en retient Eolle
+<lb />Et
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Finis ces diſcours dont tu nous estourdis
+<lb />Ah! Dieux les beaux tetons qu’ils ſont bien rebõnis.
+<lb />Quoy qu'il puiſſe arriuer il faut que ie les baiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LHOTESSE.
+<lb />Ouy vraynent il le faut, vous parlez à voſtre aiſe.
+<lb />Cantales von? Ag4.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Que ce plaiſir m'eſt doux
+<lb />Il faut recommencer.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE,
+<lb />La Monſieur tenez vous.
+<lb />Uous n’estes pas boucher pour tant tater la viande.
+<lb />
+<lb />T. .-.2-
+<lb />d. - ----
+<lb />------- ------
+</sp>
+<sp type="MainZone-Sp"><lb />RANCION.
+<lb />TEEEU
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME
+<lb />La petite friande
+<lb />Monſieur ſortons dicy, car tout ſe refroidit.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Allons ie le veux bien.
+</sp>
+<sp type="MainZone-Sp"><lb />AMSEEME.
+<lb />Faites ce que i’ay dit.
+</sp>
+<sp type="MainZone-Sp"><lb />P’HOTESSE.
+<lb />Bien, mais ie vais touſiours faire mettre ſur table.
+<lb />2-4
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Anſelme fuonurmmms
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Ah! Dieux quelle eſt aymable.
+</sp>
+<p type="MainZone-Other"><lb />Fin du Premier Acte.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />1
+<lb />1
+<lb />TI.
+<lb />SCENE PREMIERE.
+<lb />L'HOTESSE, LA SERVANTE.
+</p>
+<sp type="MainZone-Sp"><lb />LHOTESSE.
+<lb />2 Es as tu veux fortir ont ils changé
+<lb />d’habits.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Ouy Madame il eſt vray comme ie
+<lb />voris vo Mls.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE<lb />Ile ont quelque deſſein que ie ne puis connoiſtre
+<lb />Mais d’où les as tu veux
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />I'eſtois à la feneſtre.
+</sp>
+<p type="MainZone-Other"><lb />L’HO</p>
+<sp type="MainZone-Sp"><lb />L'HOTESSE.
+<lb />Aue enemrir eseiliselss sece.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Ils vont vers le chaſteau
+<lb />Et marchent doucement le né dans le manteau,
+<lb />Mais madame en tout cas vous auez de bons gages
+<lb />Leurs cheuaux leurs habits, &amp; tout leurs équipages,
+<lb />Valent bien pour le moins ce qu’ils ont dépenſé.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Ie n’eſtime rien moins que ce qu’ils ont laiſſé
+<lb />Et ſi tu cognoiſſois, Mais cachons nostre faute.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Madame ie voy bien que vous aymez noſtre hoſte,
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vray,
+<lb />a Me l doJa
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Mais au moins laiſſez moy ſon valet,
+<lb />- ·
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Va ne te mocque point, le party n’est pas laid
+<lb />N'eſt il pas en bonpoint? n'a tilpas bonne mine.
+<lb />2.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Et principalement dedans vne cuiſine.
+<lb />C’est là qu’il ſçait parestre auec vn grand eſlat.
+<lb />Et qu’il ſçait nétoyer adroitement vn plat
+<lb />Iamais ie n’en ay veu qui luy ſoit comparable.
+<lb />Il a mangé luy ſeul tous les mets de la table,
+<lb />Et pourtout aire en ſon il a tant veu de vin,
+<lb />Que celuy qui ſeruoit en a mai à la main.
+</sp>
+<sp type="MainZone-Sp"><lb />E HOJESJE.
+<lb />Mais tu l’aime pourtant, quoy que tu veüille dire.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Ma foy c’est vn gallant, il a le mot pour rire.
+<lb />Et ie fais tant d’estat de ſa ioyeuſe humeur
+<lb />Que ie l’ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />MtrOFBOSEI
+<lb />Ah! vrayment tu luy fais trop d’honneur
+<lb />Et ſi toſt qu’il viendra dans cette heſtellerie
+<lb />Ie luy feray ſçauoir. 
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Madame ie vous en prie
+<lb />Vous me ferez plaiſir.
+<lb />.-
+<lb />*.2,
+<lb />-
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Au moins nous en rirons,
+<lb />aviuts pout moy te ne ſp̧ay te que nous reſoudrons.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Madame commandez, ie vous ſuis toute acquiſe,
+</sp>
+<sp type="MainZone-Sp"><lb />L HOTESSE.
+<lb />Uiens ie te conteray quelle est mon entrepriſe.
+</sp>
+<p type="MainZone-Head"><lb />SCLEELE
+<lb />VALANTIN, FRANCION,
+<lb />ANSinMe, utels d’Operateur,
+</p>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />y, demeurez mon maiſtre; en toute
+<lb />liberté.
+</sp>
+<sp type="MainZone-Sp"><lb />6
+<lb />FRANCION.
+<lb />Uous m'obligez beaucoup ſans l’auoir merité.
+</sp>
+<p type="MainZone-Other"><lb />E ii
+</p>
+<sp type="MainZone-Sp"><lb />mfandu pipammommuupovajis, faire.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Comment aprés cela puiſ-je vous ſatis faire,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ny vons voulez vous mertre au rang de mes amis
+<lb />Faites moy le recit que vous m’auez promis.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Monſieur, ie vous diray, s’il vous plaiſt de m’en<lb />tendre
+<lb />Que le deſir de voir außi bien que d’aprendre,
+<lb />Me fit abandonner dés l’age de quinze ans
+<lb />Le lieu de ma naiſſance &amp; mes plus chers parans,
+<lb />D'abord cette Prouince en merueille feconde
+<lb />L’honneur de l’vniuers la maistreſſe du monde,
+<lb />L'Italie en vn mot par des ſecrets appas
+<lb />Attira puiſſamment &amp; mon cœur &amp; mes pas,
+<lb />Et ie me diſpoſois pour y paſſer ma vie
+<lb />Lors qu'vn nouueau deſſeinm'en fit perdre l’enuie,
+<lb />Ie quittay donc porté d'vn deſir curieux
+<lb />Ceclimat ſi charmant &amp; ſi delicieux,
+<lb />En ſuitte m'estant mis ſur un va ſſeau de Genes,
+<lb />I'arriuay ſans peril &amp; ſans beaucoup de peines,
+<lb />-
+<lb />...A ---------
+<lb />Sur les coſtes d’Espagne ou Lebre ſi fameux
+<lb />Rend tribut à la merde ſes flots eſcumeux,
+<lb />Ie ne demeuray guere en cette ingrate terre
+<lb />Pour aller viſiter l’agreable Angleterre,
+<lb />La guerriere Holande, Et ces champs que le cours
+<lb />Du Renommé Danube engreſſe tous les iours.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qu’il est iudicieux, qu’il à bonne memoire
+<lb />Qu'il ment bien à propos &amp; qu’il en fait acroire,
+<lb />Puiſſay-je deuenir vn celebre matin
+<lb />S’il a iamais paßé Uaugirard ou Pantin.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Qijeeple, de Jajpats:
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Où les Aſnes vont boire.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />S’eſleue vne foreſt außi vieille que noire
+<lb />Et qui ſeruoit d’azille aux antiques Cermains
+<lb />Quant ils eſtoient preßez par les ſoldats Romains,
+<lb />La dedans loing dubruit &amp; de l’inquietude
+<lb />Vn vieillard Alemant s’apliquoit à l’eſtude
+<lb />Et ſans estre ialoux du bon heur des Ceſars
+<lb />Occupoit ſon esprit à cultiuer les arts,
+<lb />--- 2--
+</sp>
+<p type="MainZone-Lg"><lb />E iij
+<lb />Tout ce qui voit le iour tout ce qui prend naiſſance
+<lb />Tomboit euidemment deſſous ſa cognoiſſance,
+<lb />Il ſçauoit la vertu des moindres vegetaux
+<lb />Et diſcouroit des mieux du pouuoir des metaux,
+<lb />Il eſtoit bien versé dedans l’Aſtrologie
+<lb />Et pratiquoit ſouuent cette honneſte Magie,
+<lb />pui peut fans oſſenten te fount rain des Dieux
+<lb />Eſtonner la Nature &amp; charmer tous les yeux.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur vous oubliez le plus conſiderable
+<lb />Qui ie tettoit tes de Su ons uureſſe numirable,
+<lb />Attaquoit vn jambon d’vn effort plus qu’humain
+<lb />Et vidoit tout d’un trait quatre pintes de vin.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Sur tout il excelloit dedans la medecine
+<lb />Cette profe ßion eminente &amp; diuine,
+<lb />Qui maintient la ſanté dans les plus foibles corps
+<lb />Et nous deffend ſi bien contre le Dieu des morts,
+<lb />Il ſçauoit mieux qu'aucun qu'elle herbe eſt abster<lb />ſiue
+<lb />Qu’elle ouur e les conduits qu’elle est dißicat iue
+<lb />Qu'elle par Cachaleur meurit les cruditez
+<lb />Qu'elle diſſout le flegme, &amp; les viſcoſitez.
+<lb />Qu'elle purge le ſang, qu'elle chaſſe labille
+<lb />-
+<lb />–-
+<lb />Qu'elle abstrint ou digere, &amp; quelle de ſopille,
+<lb />Et ſans rien obſeruer que l’vrine &amp; le poux
+<lb />Deſcouuroit tous les maux qui s’att achent a nous,
+<lb />Il gueriſſoit la fieure intermitante heticque
+<lb />Ainſi que lephemere &amp; la ſimptomaticque,
+<lb />Par le moyen d’vn eais tres agreable au gouſt
+<lb />Benigne en ſes effets &amp; de fort peu de coups,
+<lb />Il ſoulageoit bien toſt la prompte apople xie
+<lb />Lincube dangereux la triſte epilepſie,
+<lb />Mais ſur tout il auoit des ſecrets de haut pris
+<lb />Pour combatre le mal que l’on prend chez Cipris.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur vous en parlez &amp; par experience
+<lb />Ilexerça ſur vous ſes ſecrets d’importance,
+<lb />Ie crois bien que ſans luy vous eußiez eubeſoin
+<lb />D'aller iuſqu'en Surye &amp; pent estre plus loing
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Il compoſoit d’vn baume à fermer les bleſſeures,
+<lb />D'vn onguent ſouuerain pour toutes les bruſlures,
+<lb />D’vn emplastre gomeux à mettre ſur le ſein
+<lb />Et d’vn ſauon muſqué pour nettoier la main.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Sur tout il entendoit la Phiſionomie
+<lb />Il ſe meſloit außi de ſoufler l'Alchemie
+<fw><lb />3.
+</fw><lb />Et quant on luy donnoit vn malheureux douzain
+<lb />Il deuinoit des mieux en regardant la main,
+<lb />Il fixoit le mercure en diſant trois paroles
+<lb />Et meſme fabriquoit des mauuaiſes piſtolles,
+<lb />Il voulut m’enſeigner ce meſtier merueilleux.
+<lb />Mais ie luy remonſtray qu’il estoit perilleux
+<lb />Que quiconque l’exerce eſt ſujet à la corde
+<lb />Et que pour luy les loix ſont ſans miſericorde.
+</sp>
+<sp type="MainZone-Sp"><lb />M E
+<lb />HITON.
+<lb />Ne veux tu pas te taire inſolent effronté.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />On qualifie ainſi qui dit la verité.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Odieux! le rare eſprit.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Cét homme venerable
+<lb />Employant à m’inſtruire vn ſoin incomparable,
+<lb />Ie deuins ſi ſçauant en moins de quinze mois
+<lb />Que ie légalois bien ſi ie ne le paſſois,
+<lb />Aprés qu'il m'eust montré ſa doctrine profonde
+<lb />Ie ſortis de chez luy pour courir tout le monde,
+<lb />Et contenter mes yeux de tant d’obiets diuers
+<lb />Qu'en ſuporte la terre, &amp; qu'en fermoit les mers,
+<lb />I'aurois
+<lb />I’aurois trop de ſujet pour emplir cent volumes
+<lb />Sy ie voulois parler des forces des Couſtumes,
+<lb />De l’ordre Politicque, &amp; des Religions
+<lb />Que tiennent auiourd’huy toutes les Nations,
+<lb />Il ſuffit que i'ay veu des montagnes bruſlantes
+<lb />Des abiſmes ſans fonds, &amp; des Iſles flottantes,
+<lb />Que ie me ſuis treuue mais non pas ſans trauaux
+<lb />Chez des peuples polis &amp; des peuples brutaux,
+<lb />Que i'ay ſenty l’ardeur qui deſerte l’Afrique
+<lb />Enduré les hyuers qui ſont ſous l’Entarticque,
+<lb />Et fait plus de chemin que ce fameux vaiſſeau
+<lb />Deſſur qui Magelan tourna la terre &amp; l’eau.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Quoy qu'il raconte icy de ſon rare merite
+<lb />Il n’a iamais rien fait qu’eſcumer la marmitte,
+<lb />Que garderles tiſons, &amp; battre le paué
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Il n’est point de ſecrets que ie n’aye eſprouué
+<lb />Mais pour tirer du fruict de mes facheux voiage,
+<lb />Ie conferay long temps en Perſe auec les Mages
+<lb />Dans l’Inde Orient ale auec les Braquemanes
+<lb />Et dans la baſſe Aſie auec les Taliſmanes,
+<lb />Ie fis en mille endroits des cures fort celebres
+<lb />Au Prince de Congo ie remis les Vertebres,
+<lb />Ie conſeruay la veuë au Roy de Cananor
+<lb />I’oſtay la ſiatique au ſuperbe Mogor,
+<lb />Ie penſay le Negus d’vne vlcere incurable,
+<lb />Et gueris le grand Can, d’vn abſez incroyable,
+<lb />Empmiv uebitay mes remedes puiſſants
+<lb />En la ſplandide Courdu Sophy des Perſans,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME has.
+<lb />Il me ſouuient encore que depuis dans Micence
+<lb />Il guerit vn pourceau d’vne grande migraine,
+<lb />Qu’il penſa pour le moins dix cheuaux du farcin
+<lb />Et qu’il remit außi la cuiſſe d’vn poußin.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Lors que le Grand Seigneur aßiegeoit en perſonne
+<lb />Sur l’Euffrate campé la forte Babilone,
+<lb />Il aduins par malheur vn boulet de canon
+<lb />Frapa ſon Grand Viſir au deſſous du ſternon
+<lb />Chacun le croioit mort, on voyoit ſes entrailles
+<lb />Et on luy preparoit de belles funerailles.
+<lb />Lors que ie le frottay de mon baume excelent
+<lb />Tout à l’heure ſon mal deuint moins violent,
+<lb />Le quatrieſme iour il viſita l’armée
+<lb />Qui fut par ce ſpectacle au dernier point charmée,
+<lb />Et confeſſa tout haut que mon medicament
+<lb />Operoit ſur les corps miraculeuſement.
+<lb />--2
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />vous meritez encor de plus grandes loüanges
+<lb />Ie crois que vostre eſprit tient de celuy des Anges,
+<lb />Et que les iuſtes Dieux vous ont conduit icy
+<lb />Pour aleger ma peine &amp; finir mon ſoucy,
+<lb />Mais Laurette ſaproche ô venuë importune
+<lb />Pouuoit il m'arriuer vne pire infortune.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />C’est elle ie la vois cét objet nompareil
+<lb />Qui m’eſblouit les yeux comme vn autre ſoleil,
+<lb />Que de diuins apas, que d’adorables choſes
+<lb />Que d’extremes beautez que de lys &amp; de roſes
+<lb />Toy qui mis autrefois ſon portrait dans mon ſein
+<lb />Amour fais proſperer mon genereux deſſein.
+</sp>
+<p type="MainZone-Other"><lb />E ij
+</p>
+<p type="MainZone-Head"><lb />SCETV III
+<lb />LAMAIN, FRANCION,
+<lb />ANSELME, LAVRETTE,
+</p>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Adame venez voir vn homme incompa<lb />rable.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ah Monſieur ie nay rien qui ſoit conſiderable
+<lb />Sy ce n'eſt le deſir que i'ay de vous ſeruir
+<lb />Et cela m’ést vn bien qu'on ne me peut rauir.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE
+<lb />Puiſque vous l’estimez il est digne de gloire
+<lb />Ie crois qu'il vaut beaucoup.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Vous le pouuez bien croire
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Sy cét homme me loüe au lieu de me hayr
+<lb />Eſt il rien deſormais qui me puiſſe trahir.
+<lb />-- -----------
+<lb />22
+<lb />–
+<lb />.4
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ie luy viens maintenant doctroyer la puiſſance
+<lb />De debiter icy ſes ſecrets d’importance,
+<lb />Et d’y faire deux mois vn honneſte trafic
+<lb />Qui ne ſçauroit tourner qu'au profit de public.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Sy mes ſecrets dans peu ne treuuent point de bornes
+<lb />Nous verrons ſur ton front vne foreſts de cornes.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais encor qu'à-il donc.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Des ſecrets ſans égaux
+<lb />Pour guerir promptement toutes ſortes de maux,
+<lb />Il eſt des plus ſcauans qui ſoient dedans la France
+<lb />Il ſçait parler de tout auec experience,
+<lb />Et vient ſi bien about de ce qu’il entreprend
+<lb />Qu'it je fait aamtrer du plus indiferend,
+<lb />Il a veu les pays les plus deſerts du monde
+<lb />Et bref ſon éloquence est tellement feconde
+<lb />Que lors qu'il m’a conté le chemin qu’il à fait.
+<lb />I'ay demeuray rauy ſurpris &amp; ſatisfait.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Il eſt donc Medecin.
+</sp>
+<p type="MainZone-Other"><lb />F iii
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />N'en ſoyez plus en peine
+<lb />Mâdame il eſt Docteur de la Samaritaine,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Et par conſequent donc grand aracheur de dents.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Uuy Madame, &amp; i'en ay plus de cent la dedans,
+<lb />Qui ſont d’vne groſſeur toute prodigieuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />De grace montrez les.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />La choſe est curieuſe
+<lb />Et bien digne de voir tant pour ſa rareté
+<lb />Comme pour faire foy de ma dexterité,
+<lb />I’ay tout ſeul le ſecret de les tirer ſans peine
+<lb />Tous les autres n'en font qu'vne promeſſe vaine.
+<lb />Et l’on ſçait qu’à Paris Carmeline &amp; du Pont
+<lb />Ne tiennent que de moy la ſcience qu’ils ont,
+<lb />Mais voiez s'il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ah! Dieux qu'elle abondance.
+<fw><lb />- . .- –
+</fw></sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Auge Cupres veiu ut mon experience.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais qu'eſt ce la dedans.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />D'vn jus fort precieux
+<lb />Pour conſeruer la veuë &amp; n'etoyer les yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETIE.
+<lb />Et la dedans encor.
+</sp>
+<sp type="MainZone-Sp"><lb />TRARCION.
+<lb />Non c’est d’vne pommade
+<lb />Qui peut rendre charmant le teint du plus malade.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVIDIIED.
+<lb />Icy dedans Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION
+<lb />Ce ſont quelques ſenteurs.
+</sp>
+<sp type="MainZone-Sp"><lb />La.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />D’vne eau pour oſter les taches ge rouſeurs,
+<lb />--------..3
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Et dedans ce puplere
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ce ſont quelques tablettes.
+</sp>
+<sp type="MainZone-Sp"><lb />LAYRETTE.
+<lb />Et cecy dites moy.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ce ſont des ſauonnettes
+<lb />Qui font pour neluyer &amp; pour vianchir la main.
+</sp>
+<sp type="MainZone-Sp"><lb />El 14.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />C’est d’vne poudre a mettre dans le vin.
+</sp>
+<sp type="MainZone-Sp"><lb />Icy.
+<lb />EAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCTON.
+<lb />D’vn vngant vert qu’on met ſur les bruſleures:
+</sp>
+<sp type="MainZone-Sp"><lb />En ce coing
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />C'’est d’vnbauſme à fermer les bleſſeures.
+</sp>
+<p type="MainZone-Other"><lb />LAY
+</p>
+<p type="MainZone-Other"><lb />Et ta.
+<fw><lb />COMEDIE.
+<lb />LAVRETTE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />eſt de la poudre a faire eſternuer.
+</sp>
+<sp type="MainZone-Sp"><lb />La.
+<lb />DINETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCTON.
+<lb />C’eſt du vif argent.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Propre à faire ſuer.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />El dauemre de nrsbsen
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Des eſſences de Rome.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Et la deſſous Monſieur.
+<fw><lb />E
+</fw></sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Des chapelets de baume.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />En cel petits quarez dites moy ce que c’eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Se ſont des muſcadins prenez en s’ilvous plaist
+<lb />Ils d'onnent vn odeur agreable à la bouche.
+<lb />–t C- C H -- - C -
+<lb />––
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Combien les vendez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Que ducuu ſoin nevous touche.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Mais ie vais commander qu’on dreſſe le repas.
+<lb />Mon maiſtre demeurez te reuiens de ce pas,
+<lb />Ie veux que nous diniõs auiourd’huy tous enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />*AIiN e la las.
+<lb />Bien Monſieur ie feray tout ce que bon vous ſemble,
+</sp>
+<p type="MainZone-Head"><lb />SCENE III
+<lb />LAVRETTE, FRANCION,
+<lb />ANSELME,
+</p>
+<sp type="MainZone-Sp"><lb />V
+<lb />FRANCION
+<lb />Aintenant que ie ſuis ſans nul empeſchemẽt
+<lb />Madame dites moy pour parler librement
+<lb />S’il ne- vous ſouuient point d’auoir veu mon
+<lb />viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais vous à quel propos me tenir ce langage.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Madame c’eſt afin de vous faire ſçauoir
+<lb />Que ie ne viens icy qu'afinde vous y voir,
+<lb />Que ſi vous me blamez d’auoir eu trop d’audace
+<lb />C’est de vous feulement que i’implore ma gracé,
+<lb />Songez qu'en ce peché que vous auez causé
+<lb />Ie ne ſuis criminel que pour auoir osé,
+<lb />Et que vous ne ſçauriez accuſer ma preſence
+<lb />Sans accuſer außi vostre peu de constance.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ie ne vous cognois point.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Voyez voyez mes yeux.
+<lb />Et peut-estre à la fin vous me cognoiſtrez mieux
+<lb />Obſeruez mes regards &amp; leur ſecrette flamme
+<lb />Vous poura teſmoigner celle que i’ay dans l’ame
+<lb />Et vous fera ſçauoir qu’en cét heureux moment,
+<lb />Que mon amour paroiſt ſous mon deguiſement.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ouy ie vous recognois, plus ie le conſidere.
+</sp>
+<sp type="MainZone-Sp"><lb />Ie ſuis.
+<lb />FRANCION.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />LAVRETTE.
+<lb />Qui,
+</sp>
+<sp type="MainZone-Sp"><lb />AIOTCI
+<lb />Francion.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ah! dieux ſe peut il faire
+<lb />Ouy, c'est toy que ie vois pareſtre dans ces lieux
+<lb />Cher autheur de mes feux.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Beau chef d’œuure des Cieux
+<lb />Ahi ie meurs de plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETIE.
+<lb />Ah! ie paſme de ioye
+<lb />Rendons grace à l'amour du bien qu'il nous enuoye.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mais apres tout mon cœur, vous m’auez meſconnu,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Pour trop penſer à vous cela m’eſt aduenu
+<lb />Car mon ame employée à garder voſtre image.
+<lb />Naßiſtoit point mes yeux pourvoir voſtre viſage.
+<lb />*-
+<lb />J.... TheCa</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ahi ne me faundis peimis
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ie dis la verité.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur retenez vous dans cette extremité
+<lb />Ne vous eſchauffez pas craignez, la pureſie,
+<lb />Et moderez l’ardeur dont voſtre ame eſt ſaiſie.
+<lb />Ou ſi vous deſireZ aller au monument.
+<lb />Leguez moy tous vos biens, faictes vn testament.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mais dieux queiqu'vn s'aproche.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ah!
+</sp>
+<sp type="MainZone-Sp"><lb />EVRETIL.
+<lb />C’eſt ma Catherine.
+</sp>
+<sp type="MainZone-Sp"><lb />Qu’as-tu.
+<lb />FRANCION.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie ſuis bleſsé par l’enfant de Cyprine.
+<lb />Ou plustost parcét œil vray ſoleil eſclatant.
+</sp>
+<p type="MainZone-Other"><lb />E iii
+</p>
+<p type="MainZone-Head"><lb />D
+<lb />1
+<lb />ATA
+<lb />L RETTE, FRANCION,
+<lb />ANSELME, CATHERINE.
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ve viens tu dire icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Que Monßieur vous attant,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Allons ſans plus attandre.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME. à Catherine.
+<lb />Ah! mon cœur ie ſuis cuit, ie nay peu m’en deffendre,
+<lb />Il me fant aduoüer captifde ta beauté,
+<lb />Adieu grands Cabarets, adieu ma liberté
+<lb />Ie ne veux plus cherir que c'eſt illuſtre charmes
+<lb />Et ie quitte le vin pour l’vſage des larmes.
+<lb />-
+<fw><lb />L
+</fw></sp>
+<p type="MainZone-Head"><lb />DEMDIE.
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Oy crumcomuiopuuionoupuque evous dont mieux
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie dis que ie ſuis pris à la glus de tes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Par ce galimathias que me voulez vous dire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSEEMIE.
+<lb />Que voûs mune esaime:
+</sp>
+<sp type="MainZone-Sp"><lb />SULEEICIEVC.
+<lb />Uoire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Il n'en faut point rire.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Vous m’obligez par trop de me vouloir du bien:
+<lb />Mais ce bonheur eſt tel que ie n’en croiray rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANJELME.
+<lb />Ma chere dulcinée ah tu le peux bien croire
+<lb />Sy ie ne te cheris que ie meure ſans boire,
+<lb />Et que mon eſtomac ſe rempliſſe de vent
+<lb />Au lieu des bons morceaux qu’il reçoit ſi ſouuent.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Aprez vn tel ſerment ie vous tiens veritable.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />diiaoamola del dirde
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE bas.
+<lb />Entretien delectable
+<lb />Ce fou me tient pour fille &amp; ſe meſprant au point
+<lb />De n'estimer en moy que ce que ie nay point.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME. bas.
+<lb />Elle croit que i’en tiens mais elle est bien trompée.
+<lb />En penſant m'attraper elle s’eſt àttrapée,
+<lb />Puiſque ie ne me ſerts de cette inuention
+<lb />Qu'afin de m'imformer de ſonintention.
+<lb />Que pour la deſtourner de deſeouurir mon maistre,
+<lb />Et pourluy mieux cacher tout ce qu’il en peut estre,
+<lb />Amour ie ne ſuis point au rang de tes vaincus.
+<lb />Et ie ne tiens de loy que de celle de Bacus.
+<fw><lb />Fin du Sccond Acte.
+</fw></sp>
+<p type="MainZone-Head"><lb />A
+<lb />{
+<lb />H
+<lb />ETEET
+<lb />SCETETREIVIIERE.
+</p>
+<p type="MainZone-Head"><lb />VALANTIN, FRANCION,
+<lb />ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ecouurez moy Monſieur auec toute aſ<lb />ſeurance
+<lb />En quoy vous deſirez d’employer ma
+<lb />ſcience,
+<lb />Et ie vous feray voir auec des prompts effaits
+<lb />Que ie ſçay m'acquitter des biens que l’on ma faits.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Doi je où ne doi-je pat luy dire ma foibleſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />TRANCION.
+<lb />De grace appre nez moy quelle douleur vous preſſe
+<lb />Ie ne puis autrement vous donner de ſecours,
+<fw><lb />H
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Dlenton ja ciotante moregerames toisrs.
+</sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />ANCION.
+<lb />Monſtrez vous plus conſt ĩt ne perdez point co urage
+<lb />Vostre poux va fort bien vous auez bon viſage,
+<lb />Voua neſtes pas ſi mat que vons im à gineZ.
+<lb />Et c’est hors de propos que vous vous estonnez.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN
+<lb />Quant ie penſe parler de l’ennuy qui me touche.
+<lb />Ea ponte me rettent es me ferine la bouche,
+<lb />Ie demeure confus &amp; ie ſouhaiterois
+<lb />De n'auoir iamais eu l’vſage de la voix,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION
+<lb />S'y vous voulez guerir baniſſez cette honte
+<lb />Il n'eſt point d’accident qu'vn grand cœur ne ſur
+<lb />monte,
+<lb />Un homme genereux n’eſt iamais abatu
+<lb />Et ce ſont ſes malheurs qui font voir ſa vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Faiſons donc vn effort puiſqu’il faut que ie die
+<lb />Pour auoir gueriſon quelle est ma maladie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qu’il ſe fait bien prier, qu’il fait bien le diſcret
+<lb />Le vieux dogüe est atteint de quelque mal ſecret,
+<lb />Pour auoir viſité les lieux ou l’on exerce
+<lb />D’amour &amp; de Uenus l’agreable commerce,
+<lb />Pour moy ie fais la nique à tous les ieux d’amour
+<lb />Et ce n'est qu'au bon vin a qui ie fais la court.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Monſieur encor vn coup dißipez cette crainte.
+<lb />Qui vous donne la geſne &amp; vous tient en cõtrainte
+<lb />Sy voſtre mal eſt tel qu’on le doiue celer
+<lb />I’ay le don de me taire &amp; de dißimuler.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Mon Maistre, vous ſaurez que les yeux de Lau<lb />rette,
+<lb />Firent naistre en mon ſein vne flamme ſecrette,
+<lb />Et qu'inſenſiblement cette ieune beauié
+<lb />S’acquit vn grand pouuoir deſſus ma volonté
+<lb />.
+<lb />Conduit par mon amour ie l’allay voir chez elle
+<lb />Mais iuſque au dernier point ie la treuuay rebelle.
+<lb />En vain ie l’entretins de mon affection
+<lb />Car ie ne peux gaigner ſon inclination,
+<lb />Hors deſpoir de fieſchir ſon courage ſeuere
+<lb />I'emploiay mes efforts pour m'acquerir ſa mere,
+</sp>
+<p type="MainZone-Other"><lb />Hi
+<fw><lb />3
+</fw><lb />Elle dont l’auarice estoit l’ame e le dieu
+<lb />Qui cognoiſſoit fort bien que i’eſtois de bon lieu,
+<lb />Qui ſçauoit mes moyens &amp; l’aage de ſa fille
+<lb />Me prit pour le ſuport de toute ſa famille
+<lb />Bref estant accordé noſtre hymen s’accomplit
+<lb />Et pour le conſommer on nous met dans le lit,
+<lb />Là cette belle attand auec impatience
+<lb />De faire vne agreable &amp; douce experience,
+<lb />Des innocens tranſports &amp; des chaſtes plaiſirs
+<lb />Dont les nouueaux eſpoux contentent leurs deſirs,
+<lb />Mais ie ſuis aupres d’elle außi froid qu’vne ſouche
+<lb />On ouno fu ooobo muum ine oureſfe ( me touche;
+<lb />En vain par ſes baiſers elle croit m'eſmouuoir
+<lb />En cette occaſion ils manquent de pouuoir.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur permettez moy d’occuper voſtre place,
+<lb />Lors puiſſai-je mourir ſi ie ne la terraſſe
+<lb />Ct ſoront luy monstre en ce meſme moment
+<lb />Qu'enla guerre d’amour i'attaque vaillament,
+</sp>
+<sp type="MainZone-Sp"><lb />Taiſez vous.
+<lb />FRANCION.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Vn depit me ſaiſit le courage
+<lb />Ie peſte contre moy, ie deteste i’enrage,
+<lb />
+<lb />I'accuſe le destin la nature &amp;s les dieux
+<lb />Et ie prens apartye &amp; la terre &amp; les Cieux,
+<lb />Aux premieres clartez de l’aurore naiſſante
+<lb />Laurette ſort du lit toute triste &amp; pleurante,
+<lb />Vne extreme colere éſclate ſur ſon front
+<lb />Et me fait iustement redouter vn affront,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Sy l’on peut du diſcours &amp; des traits du viſage
+<lb />Tirer de l’aduenir vn aſſeuré preſage
+<lb />Ce vieillard portera deſſouz ſés cheueux blancs
+<lb />Plus de cornes qu’vn beuf, où qu’vn Cerf de ſept ans.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />En ſuitte i’ay tanté toute choſe poßible
+<lb />Pour ranimer mon corps &amp; le rendre ſenſible,
+<lb />Ie nay preſque mangé que des culs d’artichauds
+<lb />Que des mirabolans qui ſont bien außi chauds,
+<lb />I'ay pris la cantaride &amp; la verte pistache
+<lb />Sans que mon mal pourtant en ait eu de relache.
+<lb />I’ay bien ſouuent vsé de greſſe de ſanglier,
+<lb />De preſure de lieuure &amp; d’huile de laurier.
+<lb />I’ay pris huict iours durant en formes de pilules
+<lb />D'vn renard amoureux les tendres teſticules,
+<lb />Et i’ay beu mille fois de la decoction
+<lb />Deſguine de nepite, &amp; de ſatiryon,
+</sp>
+<sp type="MainZone-Sp"><lb />H iij
+<lb />Mais mon mal eſt ſi grand que le meilleur remede
+<lb />N'a peu m’en deliurer ny me donner de layde
+<lb />Et ſi voſtre ſçauoir ne me peut fecourir
+<lb />Ie ſuis hors de deſſein &amp; despoir de guerir.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Monſieur en verité vous eſtes fort à plaindre
+<lb />Car pour ne point mentir &amp; pour ne vous rien
+<lb />faindre,
+<lb />Les remedes humains ne peuuent ſoulager
+<lb />Le mal de qui les dieux vous veullent affliger.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />O Malheur ſans pareil, ô ſentence mortelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Agreable entretien.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Sy ma diſgrace eſt telle
+<lb />Ie vais pour au ancer l’heure de mon treſpas,
+<lb />Du ſommet de ce roc meſlancer iuſqu'en bas
+<lb />Ie vais des cét inſtant la teſte la premiere
+<lb />Me ietter dans ce gouffre où dans cette riuiere,
+<lb />Mais vous qui pratiquez tant de ſecrets diuers
+<lb />Vous a qui la nature &amp; les Cieux ſont ouuerts,
+<lb />*–
+<lb />Ie vous prie à genoux par l’illuſtre eſcarlatte
+<lb />Du fameux Galien, &amp; du grand Ipocratte,
+<lb />Et par cent eſcus d’or qui ſe ront vostre pris
+<lb />Pupuifer ne tomrmen qui tiousle mes eſprlis,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur donnez les moy, n’en ſoyez plus en peine
+<lb />Ie gueris voſtre mal enmoins d’vne ſemaine.
+<lb />Mon Maiſtre ne ſçait pas ce fecret comme moy
+<lb />Ce n'eſt qu’vn ignorant.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Qu’il eſt plaiſant.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Tais toy,
+<lb />Finiſſez voſtre plainte &amp; tariſſez vos larmes,
+<lb />Ie vous aßiſteray par le pouuoir des charmes
+<lb />Quy, vous en guerirez ſi vous auez le cœur
+<lb />D’affronter les Demons &amp; de vaincre la peur.
+<lb />Mais ſans vous amuſer de ces diſcours friuoles
+<lb />Les effets dedans peu prouueront mes paroles,
+<lb />Puis que tout eſt poßible aux ſçauants comme moy.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ne m'en aſſeurez, plus mon maiſtre ie vous croy.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />RANCION.
+<lb />Quant ie l’ay commandé l’on bruſle ſous l’actique
+<lb />Et l’on tremble de froid ſous la ligne ecliptique,
+<lb />Le clair astre du iour ſe leue en Occident.
+<lb />Pert toute ſa lumiere &amp; ceſſe d’eſtre ardent,
+<lb />Sans crainte &amp; ſans danger l’on marche deſſus
+<lb />l’onde,
+<lb />La terre ſe va mettre hors du centre du monde,
+<lb />Le feu n’eſi plus ſubtil, l’air produit des poiſſons
+<lb />Et le ſein de Neptune eſt couuert de moiſſons,
+<lb />Ie fais d’vne vallée vne haute montagne
+<lb />Et d’vn mont orgueilleux vne raſe campagné.
+<lb />I'arache d’vn ſeul mot les eſtoilles des Cieux
+<lb />Et ie ſuis obey des Demons &amp; des Dieux,
+<lb />Mais pour vous teſmoigner que ie ſuis veritable
+<lb />Ie vais vous raconter vne hiſtoire notable,
+<lb />Qui vous fera ſçauoir qu’il n’eſt rien icy bas
+<lb />Qui pueſſe reſiſter quand ie ne le veux pas.
+<lb />Comme nous trauerſions l’Empire de Mexique
+<lb />Ie vis à l’impourueu la femme du Caßique
+<lb />Et ie conceus pour elle vn feu ſi violant
+<lb />Que celuy du veſeuſe est beaucoup moins bruſlant,
+<lb />De toutes les beautez c’eſtoit le prototipe
+<lb />Et la mer eſt plus calme à l’endroit de Leurippe,
+<lb />Que n'eſtoit mon eſprit lors que ſon œil diuin
+<lb />Porta le traict d’amour iuſqu’au fond de mon ſein,
+</sp>
+<sp type="MainZone-Sp"><lb />Ie vous dirois plustost le nombre des areines
+<lb />Qui flottent ſur les borts des marinieres pleines,
+<lb />Et le nombre des pleurs que verſent les amants
+<lb />Que de vous raconter celuy de mes tourments,
+<lb />Ie deuins tout penſi f&amp; tout melencolique
+<lb />Ie parus außi ſecq qu’vn mort ou qu’vn hetique,
+<lb />Sans m’anatomiſer on eust conté mes Os
+<lb />Et de nuit &amp; de iour ie viuois ſans repos,
+<lb />Mais laſsé de pouſſer des ſouſpirs &amp; des larmes.
+<lb />Enfin ie fus contraint de courir à mes charmes,
+<lb />Et ce diuinobjet d’amour &amp; de beauté
+<lb />Perdit en moins d’vn iour toute ſa cruauté,
+<lb />Par leur ſecret pouuoir elle finiſt ma peine
+<lb />Elle fut mon eſclaue au lieu d’estre ma Reine,
+<lb />Et quand i’en eus tiré ce que te deſirois
+<lb />Ie croiois la quitter comme ie l’eſperois,
+<lb />Mais elle abandonna le Septre &amp; la Couronne
+<lb />Pour iouïr de ma veuë &amp; ſeruir ma perſonne,
+<lb />Elle me voulut ſuiure &amp; quittant ſes habits
+<lb />Courut auecque moy les plus loingtains pays,
+<lb />Suiuy de cette belle &amp; charmante compagne
+<lb />I'exercay ma ſcience en la nouuelle Eſpagne,
+<lb />Prouince en mille endroits pleines de mines d’or,
+<lb />Et dont chaque habitant poſſede vn grand threſor,
+<lb />En ſuitte ie paſſay dans la Califormie
+<lb />De la dans la Floride, &amp; dans la Virginie,
+<lb />Et voulant retourner en ces aymables lieux,
+</sp>
+<sp type="MainZone-Sp"><lb />Où ie vis en naiſſant la lumiere des Cieux,
+<lb />Ie me mis ſur la mer mais quittant le riuage
+<lb />Le Ciel nous menaça d’vn violent orage,
+<lb />Un ſoudain tourbillon s’eſleue deſſur l’eau
+<lb />Et iuſqu'en Danemarch emporta mon vaiſſeau,
+<lb />I'allas de ce pays dedans la Moſcouie
+<lb />Apres ie viſitay la Cour de Cracouie,
+<lb />Celle de l’Archiduc &amp; de ce grand Seigneur
+<lb />Qui remplit quand il veut l'Europe de frayeur,
+<lb />Partout ou ie paſſois cette Amante idolatre
+<lb />Sans ſonger à ſon rang montoit ſur mon Theatre,
+<lb />Et ſans aucun deſſein ſes beautez enchantcient
+<lb />Et le cœur &amp; les yeux de ceux qui m’eſcout oient,
+<lb />Plus que ie ne voulois i’auois de la pratique
+<lb />Chacun de tous costez couroit à ma boutique,
+<lb />Et ie debitois ſeul plus de medicaments
+<lb />Que cent Operateurs, &amp; que cent Charlatans,
+<lb />Vne fois le Sultan la vit dedans Biſance
+<lb />Auſitost il l’aima,....... i bihtmence,
+<lb />Pour apaiſer ſa flamme il la voulut auoir
+<lb />Et pour la conſeruer ie manquay de pouuoir,
+<lb />Le cruel me l’osta de puiſſance abſoluë
+<lb />Et cauſa ſon treſpas en l’oſtant de ma veué,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mon Maistre dittes tout, &amp; confeſſez icy
+<lb />Que ſes filles d’honneur la ſuiuirent außi,
+<lb />Et que les doux atraits qu’on voit en mon viſage
+<lb />Firent naistre en leurs cœurs &amp; l’amour &amp; larage,
+<lb />Qu'apres m'auoir cent fois ſupplié vainement
+<lb />A lafin la rigueur les mit au monument,
+<lb />Iamais vous le ſçauez ie ne leur voulus plaire
+<lb />Car elles n’auoient rien qui me peust s’atisfaire,
+<lb />Qe pqur fun dobeur ( quime pus uimer
+<lb />Que les grandes beautez qui peuuent me charmer.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Apres auoir charmé cette puiſſante Reine
+<lb />das Juun auriſame mamtonmom mibeade drasdine,
+<lb />Quelque ſort voſtre mal vous pouuez, bien ſonger
+<lb />Que puis que ie le veux ie le puis ſoulager.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Mon maiſtre dittes moy ce qu’il faut que ie faſſe
+<lb />I’auray plus qu’il ne faut d’aſſeurance &amp; d’audace.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Trouuez vous ſeulement dans ce bois eſcarté
+<lb />Des habitans d’icy rarement frequenté,
+<lb />Mais que nul ne vous ſuiue &amp; ne vous acompagne.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ie veux faire ſemblant d’aller à la campagne
+<lb />Car ma femme croiroit; quelle vient a propos
+<lb />Tachons de l’abuſer ma Laurette deux mots.
+</sp>
+<p type="MainZone-Head"><lb />L7
+<lb />Q( Onſieur que vous plait-il.
+</p>
+<p type="MainZone-Head"><lb />C
+<lb />AVEIE
+<lb />AI, FRANCION,
+<lb />LAVRETTE, ANSELME,
+</p>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Mon vnique penſée
+<lb />Ie t’aprens qu’vne affaire importante &amp; preſſée
+<lb />M oblige de partir tout promptement d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Dieux que me dites vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />N’en ſois point en ſoucy
+<lb />Ie n’emploiray qu’vn iour en ce petit voyagé
+<lb />Veille bien ce pendant deſſur noſtre meſnage:
+</sp>
+<p type="MainZone-Head"><lb />COMEDIE.
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Sy l’amour &amp; le Ciel exaucent mes ſouhaits
+<lb />La panum vien ioſt, e ne oienarasiamais.
+</sp>
+<sp type="MainZone-Sp"><lb />MECERANCTON.E
+<lb />Monſieur attendez moy dans mon hoſtelerie
+<lb />Ie veux parler à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VAADHHIIN.
+<lb />Ie m'y rands.
+</sp>
+<sp type="MainZone-Sp"><lb />TRANCION.
+<lb />Ie vous prie.
+</sp>
+<sp type="MainZone-Sp"><lb />ENVRETTH.
+<lb />Au moins auparauant vous receurez de mo y
+<lb />Ceſt amoureux baiſer pour teſmoin de ma foy<fw><lb />le Me Eeis
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Auant qu’il ſoit deux iours ainſi que ie l’eſpere
+<lb />Ie t'en feray gouster qui te pouront mieux plaire,
+<lb />Et qui par leurs douceurs te payront doublement
+<lb />Le temps que pres de toy i’ay veſcu lachement.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Sy pres du monument les baiſers ſont de glace
+<lb />Mais les miens ne le ſont qu'alors que ie l’embrace,
+</sp>
+<p type="MainZone-Other"><lb />I iii
+<lb />Car mon ardeur s’estaint außi toſt qu’il paroiſt
+<lb />Et quant il eſt abſentc’est lors qu'elle s’acroiſt.
+</p>
+<p type="MainZone-Head"><lb />9
+<lb />CETT III
+<lb />LAVRETTE. FRANCION,
+<lb />ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ognoiſſez maintenant comme tout nous
+<lb />ſeconde,
+<lb />bien du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur conſiderez que vous ne tenez rien.
+<lb />S'y vous le poſſedez &amp; n’en vſez, pas bién,
+<lb />Maigré tous vos ſouhaits l’occaſion eſt chauue
+<lb />Quant on la croit tentr c’eſt lors quelle ſe ſauue,
+<lb />C’est pourquoy menagez ce bon heur &amp; le temps.
+<lb />Et quant vous le pouuez rendés vos veux contens.
+</sp>
+<sp type="MainZone-Sp"><lb />Bien bien, ie receuray l’aduis que tu me donne
+<lb />mats dt grate aprens moy depuis quant tu reſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ne voiton pas ſouuent prophetiſer les fous.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mais mon ange prenant vn entretien plus doux
+<lb />Permets pour me combler d’vne extreme alegreſſe,
+<lb />Que ie touche ton ſein &amp; le baiſſe ſans ceſſe
+<lb />Que ie paſme en tes bras de plaiſirs &amp; d’amour,
+<lb />Et que tes yeux apres me redonnent le iour
+<lb />Que ma main ſoit touſiours compagne de la tienne
+<lb />Que ta bouche me preſſe &amp; ſe ioigne à la mienne,
+<lb />Et bref que ces beaux yeux autheurs de tãt de veux
+<lb />Ayent pour moy des regards cõme ils ont eu des feux
+<lb />Bons Dieux cette blancheur feroit honte à la neige
+<lb />Mais la puiſ-je toucher ſans faire tvn ſacrilege,
+<lb />Et ce rare threſor qui n’eſt que pour les Dieux
+<lb />Pourra t’ilcontenter &amp; mes mains&amp; mes yeux
+<lb />Ah! ce ſein que ie vois n'eſt qu'vn rocher d'albatre
+<lb />Et c’eſt le prophaner que d'en’eſtre idolatre,
+<lb />Mais pour ne point conmettre vne temerité
+<lb />Ie ne veus ſeulement qu'ad mirer ſa beauté.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE. M.
+<lb />Mon cœur ie ſuis à toy, Mais toutes fois n’eſpere
+<lb />Que ce que mon honneur me permettra de faire,
+<lb />L'aime ton entretien, ton aſpec m’eſt bien doux
+<lb />Mais non pas iuſqu'au point d’offencer mon époux,
+<lb />Son deffaut ne pouroit autoriſer moncrime
+<lb />Et tout brutal qu'il est, il faut que ie l’eſtime.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />La finette quelle eſt ſçait de quelle façon
+<lb />Il faut donner ſujet de mordre à l’ameçon.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCTO N.TS (AU
+<lb />Tiens pour tout aſſeuré que mon ame n’aſpire
+<lb />Qu'à la ſeule vertu que ſon eſprit deſire,
+<lb />Qes jeux jont emients may tenr exiremeite
+<lb />Ne receura des loix que de ta volonté,
+<lb />Seulement permets moy que pendant ſon abſence
+<lb />I'aurãy pour quelqus temps l'honneur de ta preſence.
+<fw><lb />A--CMot
+</fw></sp>
+<sp type="MainZone-Sp"><lb />* LAVRET TEEcMenstAS
+<lb />&amp;
+<lb />-
+<lb />C'est ce que ie voudrois, mais qu'à mõgrand regret
+<lb />Nous ne ſçaurions auoir au lieu le plus ſecret
+<lb />Car l’on leue le Pont au plus tard dans vne heure
+<lb />Et ie ſuis priſonniere en ma propré demeure.
+</sp>
+<p type="MainZone-Other"><lb />FRA
+<fw><lb />24
+</fw></p>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Commanue Sis dos geiis de ne te poms pener,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ce moyen nous perdroit au lieu de nous ſauuer
+<lb />Cun teo pourotent pugecquene eſe noſorc emrepriſe,
+<lb />Puis ie craindrois touſiours de peur d’estre ſurpriſe.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mais puiſque maintenant les foſſez ſont ſans eau
+<lb />Rtous pouuons pren nous oett, &amp; te moyen eſtbeau.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />XRHINCION
+<lb />En me tendant vne eſchelle de corde
+<lb />Que ie vous enuoiray.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVREILE.
+<lb />Bien mon cœur ie l’accorde
+<lb />Mais à condition que tu ſeras touſiours
+<lb />Vertueux &amp; diſcret iuſque dans tes diſcours.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />N’en doutez nullement, mais à propos mon ame,
+<lb />Sçache que ton eſpoux ma deſcouuert ſa flamme,
+<lb />*
+<fw><lb />K
+</fw><lb />Qu’il croit que mon ſçauoir peut ranimer ſon corps
+<lb />Qu’il ma tout raconté ſes impuiſſants efforts
+<lb />Et que i’ay ſi bien feins de le tirer de peine
+<lb />Qu’il ſe mit dãs mes mains toute la nuit prochaine
+<lb />Pour faire des ſecrets qu'il estime puiſſans
+<lb />Afin de rechauffer ſes esprits languiſſans.
+</sp>
+<sp type="MainZone-Sp"><lb />CAVRETTE.
+<lb />Comment donc nest-il pas ſorty de ce village.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCTON.
+<lb />Avon mon enge, il i a tenet.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />La ruſe.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Dauantage
+<lb />Il ma veulu donner quelque cent eſcus d’or
+<lb />Pour les erres d''en bemqu mnt promet encor,
+<lb />S'y bien que cette nuit pour gaigner ce ſalaire
+<lb />Il faut que mon valet ſçache ce qu’il ſçait faire
+<lb />Et puis quant il ſera pres de ce vieux ialoux
+<lb />Ie veus prendre mon tẽps pour m'approcher de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Apres vn tel diſcours ie nay plus rien à craindre
+<lb />Sy ce n’eſt qu'apres tout tu ſçache trop bien feindre.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION
+<lb />Quant il s’abiſt de vous i’oſe &amp; i’entreprens tout
+<lb />Et ic ne tognois rien uont ie ne voienne à bout.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Pour moy ie ferois tout quant bacus me gouuerne.
+<lb />Mais i’entens pour dompter cent pilliers de tauerne
+<lb />Et pour leur faire voir en vn combat de vin
+<lb />Que ie ſuis inuincible ayant le verre en main
+<lb />''eſt là mon eſlement, c’eſt là que ie ſouspire
+<lb />Que ie vois tous les iours le bonheur ou i’aſpire,
+<lb />Et que ſans estre aßis a la table des Dieux
+<lb />Ie goutte du nectar qu’ils boiuent dans les Cieux.
+</sp>
+<p type="MainZone-Other"><lb />K ii
+</p>
+<p type="MainZone-Head"><lb />EI EIM
+<lb />E
+<lb />FRANCION, ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />Q
+<lb />M
+<lb />FRANCION.
+<lb />Nſelme c’eſt icy qu’il faut faire paroiſtre
+<lb />Sy tu pouras ſeruir adroitemẽt ton maiſtre
+<lb />Il s’agiſt auiourd’huy d’abuſer vn ialoux
+<lb />De vaincre cedragon qui ſe preſente à nous.
+<lb />Et de charmer ſes yeux auec tant d’artifice
+<lb />Qu’il nous rende des veux pour vn mauuis ofice,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Quoy Monſieur doutez vous de ma ſincerité.
+<lb />Ne vous ſouuient il plus de ma dexterité,
+<lb />Et l’amour qui vous tient ſous ſonpouuoir extréme
+<lb />Vous fait il oublier que ie ſuis vostre Anſelme,
+</sp>
+<sp type="MainZone-Sp"><lb />Non,
+<lb />FRANCION.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ne pariez dont pas n’ayez, ſoucy de rien
+<lb />Sy i’ay bien commancé ie finiray fort bien,
+<lb />---
+<lb />-..
+<lb />Mo n<lb />Et quant i’auray goutté du jus de la bouteille
+<lb />Tenez pour aſſeuré que ie feray merueilles,
+<lb />Que ie vous ſeruiray comme vous deſirez.
+<lb />Et brefque tout ira comme vous l’eſperez
+<lb />Retournons ſeulement en noſtre hoſtellerie
+<lb />Apaiſer mes boyaux &amp; mon ventre qui crie.
+<lb />Ah que la fain me cauſe vn tourment ſans pareil.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais encor.
+<lb />FRANCION.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Le ſouper nous donnera conſeil
+<lb />Lors que ie ſeray ſoul ie vaincray mille oſtacles,
+<lb />Laurayl esprit plus vij ie feray des miracles.
+<lb />Et les vapeurs du vin me montant au cerueau
+<lb />
+<lb />Rendront mon iugement &amp; plus cler &amp; plus beau.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Au contraire ie crains que le vin t’aſſoupiſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSESEME.
+<lb />Non non, ne craignez point que ie ne reußiſſe
+<lb />Il n'eſt rien qui m'endorme apres vn bon reſpas
+<lb />I'en ſuis touſiours plus gay.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie ne t'en respons pas</sp>
+<p type="MainZone-Lg"><lb />x iij
+<fw><lb />la
+</fw></p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ce n’est pas d’auiourd’buy qu’en ſemblable occurance
+<lb />Vous cognoiſſez ma force &amp; mon experience,
+<lb />Sy quelqu'vn en beuuant reſte ſans iugement.
+<lb />Il montre qu’il n'est pas de mon temperament,
+<lb />Allons ſans differer &amp; perdez toute crainte,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+</sp>
+<p type="MainZone-Other"><lb />Uiens.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Esteindre la ſoif dont ma bouche eſt attainte,
+</sp>
+<p type="MainZone-Head"><lb />A
+<lb />
+<lb />AET
+<lb />P7
+<lb />PETIT IACQVES, MARSAVLT,
+<lb />OLIVIER, CATHERINE.
+</p>
+<sp type="MainZone-Sp"><lb />IurE
+<lb />CATHERINE.
+<lb />Vy, vous me trouuerez à la baſſe feneſtre,
+<lb />Ie ietteray l’eſchelle en vous voiant pa
+<lb />reſtre,
+<lb />Maïs ſur tout ne venez qu’au milieu de la nuit
+<lb />Et rendez vous icy ſans parole &amp; ſans bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Par vn coup de chiflet tu ſçauras qui nous ſommes,
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Nous ſerons auiourd’huy le plus heureux des hõmęs
+<lb />Tout rit à nos ſouhaits tout ſeconde nos veux,
+<lb />Et nous tenons enfin la fortune aux cheueux.
+<lb />Car comme ie tay dit rien ne nous ſçauroit nuire.
+<lb />Sy nous auons le cœur de nous y bien conduire
+<lb />Le maiſtre en eſt dehors &amp; ſes gens loin de luy
+<lb />Pour prendre du bon temps dormiront auiourd’huy,
+<lb />De plus comme ſa femme eſt amoureuſe &amp; belle
+<lb />Nous nauons pas ſujet &amp; aprehender pour elle,
+<lb />Son humeur deſſur tout estime le repos
+<lb />Et nous ne pouuons prendre vn temps plus à propos
+<lb />Sur tout que ce gaillard ſoit diſcret &amp; fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT TACQVES.
+<lb />Nous le ſerons monter le premier à l’echelle
+<lb />Afin que pour le moins il nous aporte en bas,
+<lb />Tout ce que tu prendras,
+</sp>
+<sp type="MainZone-Sp"><lb />CLIVIER.
+<lb />Ie n’y reſiste pas
+<lb />Ie vous obeiray de toute ma puiſſance.
+<lb />22
+<lb />i<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Va tu n'en auras pas mauuaiſe recompenſe
+<lb />xupremairas comme nous one puni un purin.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Ah! Dieux à quel malheur me reduit le deſtin
+<lb />Pourquoy loin de flatterces monstres execrables,
+<lb />Netes puiſ je puntre traitter en coupable
+<lb />Mais quoy mon mauuais ſort me contraint d’obeir.
+</sp>
+<sp type="MainZone-Sp"><lb />EIETIACCVES,
+<lb />Que dis-tu là tout bas, nous voudrois tu trahir.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Non Meßieurs ie ſongeois à cette heure oportune
+<lb />Ou nous part agerons vne egalle fortune,
+<lb />Ounsqueit tempsme aure &amp; que i'ay de deſir
+<lb />De bien recompenſer vn ſi lache loiſir,
+<lb />Et de vous teſmoigner en mon apprentiſſage
+<lb />Que ie ne manque point de Zelle &amp; de courage.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Et fin il s’y reſoult.
+<lb />4
+<fw><lb />22..L v'i
+<lb />M'i n.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Il eſt ioly garçon.
+<fw><lb />2
+</fw></sp>
+<p type="MainZone-Other"><lb />OLIVIER.
+</p>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Ouy, i’y ſuis reſolu d’vne telle façon
+<lb />Que loin de repugner a ſuiure voste enuie,
+<lb />Ie me meurs du deſir de prodiguer ma vie
+<lb />Et d’agir deuant vous par des coups ſi hardis
+<lb />Qu'on ſçache que i'en fais bien plus que ie n'en dis.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Le voila comme il faut,
+</sp>
+<sp type="MainZone-Sp"><lb />EAIHERINE.
+<lb />L’eſpoir du gain l’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />O.LIVIER.
+<lb />Dieux que le temps eſt long que mon ardeur eſt forte
+<lb />-–
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT TACVVES.
+<lb />Donques en attendant ce moment precieux
+<lb />Allons nous en ſouper &amp; boire à qui mieux mieux.
+<lb />t---</sp>
+<sp type="MainZone-Sp"><lb />MARSEE ET.
+<lb />Le butin de ce ſoir payera nostre deſpence.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Allez ie vus attens auec impatience.
+<lb />-----
+<lb />4–.
+<fw><lb />2
+<lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />II
+<lb />A
+<lb />A
+<lb />L
+<lb />T
+<lb />SCLIE TKENFIENE
+</p>
+<p type="MainZone-Head"><lb />FRANCION, ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />TRANCION.
+<lb />Nfin la nuist eſt ſombre, &amp; ſon obſcu<lb />rité,
+<lb />Plaiſt bien plus à mes yeux que ne fait
+<lb />ſa clarté,
+<lb />C’eſt deſſous ces brouillards que ie verray ma belle
+<lb />Que te pourray ſant peur aiſcourir auec elle,
+<lb />Et guidé de l’amour qui ſe rend mon vainqueur
+<lb />Toſeray librement luy deſcouurir mon cœur
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />He bien encor vn coupſuiſ-ie bien de la ſorte,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION
+<lb />Ouymais prend garde à toy caril est tẽps qu’il ſorte
+<lb />Il faudra peu de :emps pour acheuer ſonv in..
+<lb />MT- T T.. .. A.la 5 
+<lb />-
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Monſieur ie veillerois pluſtoſt iuſques à demain
+<lb />Sy tu ne reußit ainſi que ie l’eſpere,
+<lb />Ie veux paſſer pour ſot &amp; pardeuant Notaire.
+</sp>
+<sp type="MainZone-Sp"><lb />RANCION.
+<lb />Parle moins &amp; fais plus.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />N'aiez aucun ſoucy
+<lb />Sy toſt qu’il reuiendra ie ſortiray d’icy.
+<lb />Et s’il n’eſt tourmẽté plus qu’vn matou qu’on berne
+<lb />Ne permettez iamais que i'aille à la Tauerne.
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Et bien ie le feray.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Il n’eſt point de lutin
+<lb />Qui puiſſe mieux que moy ſangler ce vieux m'atin
+<lb />I’ay trop d’inuentions, &amp; ie croy que les Diables,
+<lb />Pour punir les damnez n'enont pas de ſemblables
+<lb />Aiez ſoin ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie te rendray content
+<lb />Mais ie m'e n'vais trouuer mon ſoleil qui m'atent,
+</sp>
+<p type="MainZone-Other"><lb />Lij
+<lb />Ie ne puis ſans mourir differér dauantage
+<lb />Adieu.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais ce ſoleil eſt couuert d’vn nuage
+<lb />Car i’ay beau regarder &amp; ie ne le voit point
+<lb />Ah! qu’vn hõme amoureux eſt ſot au dernier point.
+</sp>
+<sp type="MainZone-Sp"><lb />Ais tandis qu’il viendra le Ciel en ce beau
+<lb />voille
+<lb />S’offre de mexiber iuſqu'à la moindre eſtoille
+<lb />Ie vois vers le milieu le vaillant Orion
+<lb />La pertuiſane au point attaquer le Lion,
+<lb />La le Bouuier monté deſſur le d’os de l’Ourſſe
+<lb />Allentour de l’eßieu fait ſa tardiue courſe,
+<lb />Icy paroist le Signe auec le Uiolon
+<lb />Dont ſe ſeruoit iadis mon couſin Appollon,
+<lb />En ce lieu Caßiope &amp; la triſte Endromede
+<lb />Du fils de Danaé ſempte impiorer tatae,
+<lb />J.-----
+<lb />---- J--- -- T. ..---- -
+</sp>
+<p type="MainZone-Head"><lb />SEAR
+<lb />II
+<lb />ANSELME en montrant les eſtoilles au doigt
+<lb />Tout contre est la Corõne vn peu plus haut l’Archer
+<lb />Veut contre les poiſſons ſes flesches deſcocher,
+<lb />Ah! voicy le Serpent que combatit Hercule
+<lb />Le Lieure quis en fuit deuant la Canicule,
+<lb />Le vaiſſeau qui vogua le premier ſur les eaux
+<lb />Et la Vierge qui iouë auecque les Iumeaux,
+<lb />Mais trefue à ces beaux mots car ſi quelqu’vn meſ<lb />υκAete
+<lb />Trompé par ce haut stille, il penſera ſans doute,
+<lb />Que ie ſuis mieux verſé dans l’art des Arimus
+<lb />Que deffunct Iean Petit ou que Nostradamus,
+<lb />Que d'Euſtache Noel ſes ſecrets ie poſſede
+<lb />Que le ieune Troyen en doctrine me cede,
+<lb />Et que i’ay mille fois pratiqué les leçons
+<lb />Du Celebre Belot Curé de AMillemonts,
+<lb />I'ay ſeruy quelque mois vn Pedan d’impor tance
+<lb />C’eſt luy qui ma monstré cette haute ſcience,
+<lb />Ce ne fut pas gratis ie le payay fort bien
+<lb />Car pour tout mon ſeruice il ne me donna rien,
+<lb />Mais i'entends quelque bruit dans ce feuillage
+<lb />ſombre,
+<lb />Et i'aperçois quelqu'vn s'auancer parmy l’ombre,
+<lb />Ie ne ſuis point trompé c’eſt nostre Valantin
+<lb />Qui vient pour terminer ſon malheureux destin.
+</p>
+<p type="MainZone-Other"><lb />L iij
+</p>
+<p type="MainZone-Head"><lb />STEE
+<lb />VALANTIN, ANSELME,
+</p>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />E fils l’Atonien las deſclairer le
+<lb />monde
+<lb />Se repoſe a preſent dedans le ſein de
+<lb />l'onde,
+<lb />Pour prẽdre vn peu d’haleine apres tant de trauaux
+<lb />Et moderer l’ardeur de ſes bruſlants cheuaux,
+<lb />Deſ jà l’vmidité de ſa caſaque obſcure
+<lb />Couure le vaſte corps de l’antique nature,
+<lb />Et verſe ſur les yeux de tous les animaux
+<lb />Du jus peſant &amp; froid de ſes triſtes pauots,
+<lb />Hes vents ne ſouflent plus auecque violence.
+<lb />Les crapaux de ces lieux obſeruent le ſilence.
+<lb />Les chiens n'aboyent plus &amp; les diſcrets échos
+<lb />Ne ſeroient repeter les derniers de mes mots.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt luy n’en dutons plus, ô l’eſtrange poſture
+<lb />L’agreahle deſmarche &amp; la belle figure,
+<lb />Que mon maistre m’oblige a ieuner auiourd’huy
+<lb />S’il eſt monstre en enfer plus diforme que luy,
+<lb />Et s'il ne peut paſſer pour quelque maſcarade,
+<lb />Qui va porter momon on donner ſerenade,
+<lb />Iltient vne baguette &amp; prononce tout bas
+<lb />Des mots qu’iltient de moy mais qui. ie n’entẽds pas
+<lb />En Grece on le croiroit heritier de Medee
+<lb />Ont estimeroit Muage da pays ut Caldée,
+<lb />Renault de Montauban le prendroit pour Maugis
+<lb />Et pour Archelaus le Gaulois Amadis.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Commencons donc icyl'e cerne qui me reſte
+<lb />Demons qui gouuernez la famine &amp; la peſte,
+<lb />Noires diuinitez de ce ſembre ſeiour
+<lb />Ou iamais le ſoleil ne va porter le iour
+<lb />Hostes de l’Acheron du Stix &amp; de Lauerne
+<lb />Qui logez les fureurs dedans vostre cauerne,
+<lb />Et qui tenez captifs en des fers eternels
+<lb />Les malheureux eſpris des hommes crimtnels,
+<lb />Et vous errans Demons Lutins larues lemures
+<lb />Qui nous eſpouuentez par d’orribles murmures,
+<lb />Vous qui nous faites voir dans le vaſte des airs
+<lb />Des bataillons armées des feux &amp; des eſclairs.
+<lb />Uous außi qui gardez au profond de la terre
+<lb />Auecbeaucoup de ſoin les treſors quelle enſerre,
+<lb />Vous qui durant la nuit courez par les Foreſts
+<lb />Ou qu'on trouue cachez en des antres ſecrets,
+<lb />Selenes Agypans Satires Oreãdes
+<lb />Baſſarides Siluains Faunes Hamadriades,
+<lb />Vous qu'õ tient enfermez ſous des pieres d’aneaux
+<lb />Uous qui calmez l’orage &amp; qui troubles les éaux,
+<lb />Amphitrite Thetis Protune Nereides
+<lb />Lemniades Tritons Najades Exphrocides.
+<lb />Uous qui nous incitez à faire tant de mal
+<lb />Et qui nous paroiſſez au trauers d’vn criſtal
+<lb />En fin vous qui hantez dedans les cimetieres,
+<lb />Et qui cherchez les morts iuſques dedãs leursbieres,
+<lb />Autheurs de la Magie eſprits pernicieux
+<lb />Qu'vn orgueil effroiable à fait tomber des Cieux
+<lb />Sy ie me ſuis lauë d’vne eau ſale &amp; bourbeuſe
+<lb />Sy i'ay verſé le ſang d’vne brebis galeuſe,
+<lb />S'y ie me ſuis tourné trois fois vers le matin
+<lb />Et trois fois vers l’endroit ou les iours prennent fin,
+<lb />S’y i'ay frappé la terre auec vn pied ſuperbe
+<lb />Sy ie trace a propos ces cernes deſſur l’erbe
+<lb />Et ſi de tous mes veux ie me ſuis acquité
+<lb />Gueriſſez moy bientoſt de mon infirmité
+<fw><lb />Es
+</fw><lb />Et m’accordez bien toſt la libre ioüiſſance
+<lb />De ce bien non pareil que i’cy ſous ma puiſſance,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Je vais pour effrayer cét inſigne poltron
+<lb />Executer monordre &amp; feindre le démon,
+<lb />A ſon MMary Pluton feroit mauuaiſemine,
+<lb />Et tout ce que la bas on trouue de beautez
+<lb />Pecenbrore usfpomenm eyeutentes cavonte C»
+<lb />Mais commencons d’agir,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />O prodige ô merueille
+<lb />Vn bruit eſpouuentable eſtonne monoreille,
+<lb />Ie crois que cent Démons deſliez de leurs fers
+<lb />Sortent a ce moment du millieu des Enfers,
+<lb />Que de monſtres hydeux que d’horribles fantoſmes
+<lb />Leur nõbre est bien plus grãd que celuy des atomes,
+<lb />Des eſpics de l’Esté du ſable des deſerts
+<lb />Et des flots que le vent eſleue ſur les Mers,
+<lb />Vne puante odeur de bitume &amp; de ſouffre
+<lb />Eſt ſort y auec eux de leur infame gouffre,
+<lb />Tous les lieux d’alentour en ſont empoiſonnez
+<lb />Et ces ſpectres affreux en ſont enuironnez.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />La peur qui le ſaiſit luy trouble ainſi la veüe
+<lb />Et fait qu’il penſe voir des Demons dans la nuë,
+<lb />Mais ie gagerois bien qu’en cét estonnement
+<lb />Son ponant faict décharge en ſon appartement.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />L'ana l'aſpect d'on Homme es l'autre d'vne beſte,
+<lb />L’vn a les bras coupez l’autre n’a point de teſte,
+<lb />L’vn eſt sẽblable aux Nains, l’autre aux plus hautes
+<lb />Tours
+<lb />L'vn s’arreste ſur moy l’autre vole touſiours,
+<lb />L’vn eſt armé d’vn croc &amp; l’autre d’vne lance
+<lb />L’vn me veut offenſer l’autre prend ma deffence!
+<lb />Cependant ie ne ſçay ce qui doit m'arriuer
+<lb />Et ie ſuis hors d’eſpoir de me pouuoir ſauuer,
+<lb />En ce douteux eſtat ie ne ſouffre qu'a peine
+<lb />Vne ſubite horreur me court de veines en veines,
+<lb />Mon cœur plus que deuant s’agitte en ce debat
+<lb />Sous l’effort de la peur ma conſtance s’abat,
+<lb />Ie ſuis tout hors de moy ie demeure immobile
+<lb />Ie paſme.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />De luy meſme il n'est pas fort habille,
+<lb />Et ſi pour ſe ſauuer il luy falloit courir
+<lb />Il ſeroit à preſent en danger de mourir,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Mais ainſi que le bruit ma crainte ſe redouble
+<lb />Lair tantoſt ſi ſerain s’obſeurcit &amp; ſe trouble.
+<lb />Les Cieux deuiennent noirs &amp; ſont ſans mouuemẽt
+<lb />La terre toute entiere endure vn tremblement,
+<lb />Les Astres &amp; la Lune ont perdu leur lumiere
+<lb />Ce tout va retourner en ſa forme premiere,
+<lb />La nature ſuccombe &amp; les quatre Elemens
+<lb />Uont eſtre aneantis par ces enchantemens.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />La plaiſante manie?
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ah quel eſclat de foudre
+<lb />Ie penſois tout a bon eſtre reduit en poudre,
+<lb />Mais ſi ie garde encor vn peu de iugement
+<lb />Ce coup ne m'a bleſsé que fort legerement,
+<lb />Allons donc embraſſercet arbre ſalutaire
+<lb />Ou ſe doit accemplir nostre ſecret mistere,
+<lb />Puiſſai je ainſi ſerrer cét adorable obiect
+<lb />Pour qui ſeul i’ay tenté ce dangereux ſprojet,
+<lb />Mais bons dieux vn Demon dont la forme est hu<lb />maine,
+</sp>
+<p type="MainZone-Other"><lb />M ij
+<lb />Me vient lier les bras d’vne peſante cheſne
+<lb />Helas qu'aiſ-je commis pour eſtre ainſi traité.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ce chaniment je dois a ſonimpiere,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Eſcoutez mes ſouspirs conſiderez mes larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Pour audir eu frayeur &amp; mal vsé des charmes
+<lb />No.is t'auons condamné de perir en ces lieux,
+<lb />N'atands point deſecours des hõmes n'y des Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Il le faut auoüer i’ay bien de l’infortune
+<lb />Tout me choque, rie nuit, m'afflige, &amp; m'importune
+<lb />Et ie puis aſſeurer qu'entre les amoureux
+<lb />Ie ſuis le moins coupable &amp; le plus malheureux,
+<lb />I'eſperois que bien tost ie pourrois ſatisfaire
+<lb />La celeſte merueille à qui ie voulois plaire,
+<lb />Mais par vn changement que ie n’attendois pas
+<lb />Me voila ſur le point d’endurer le treſpas,
+<lb />Medecin de douleur ſecours des miſerables
+<lb />Viens adoucir l’aigreur de mes maux deplorable,
+<lb />Außi bien le Soleil ne m'eſt plus qu’hodieux
+<lb />Ha-y comme ie ſuis de la terre &amp; des Cieux,
+<lb />----. . . -.- - . -----
+<lb />Que ie ſerois content dans l’ennuy qui me tuë
+<lb />Sy ie voiois Laurette, &amp; mourois à ſa velie,
+<lb />Et ſi cette beauté que ie cheris ſi fort
+<lb />Teſmoignoit par ſes pleurs de regreter ma mort,
+<lb />Mais puiſque le deſtin trop contraire a ma vie
+<lb />En mon dernier momen cette faueur m'enuie
+<lb />D'vn viſage ſerain regardons le tombeau
+<lb />Et mourons conſtamment pour vn ſuiest ſi beau.
+</sp>
+<p type="MainZone-Head"><lb />9
+<lb />LENEIV
+<lb />PETIT IACQVES, MARSAVLT,
+<lb />OLIVIER,
+<lb />PETIT IACQVES,
+<lb />Her amy tenons nous dedans cette aduenuë
+<lb />Q
+<lb />dusl?
+<lb />Ne faiſons point de bruit l’heure est tentost
+<lb />venué,
+<lb />Ce n'est pas loin d’icy que nous le trouuerons
+<lb />Et ie cognois l’endroit par où nous entrerons,
+<lb />Il m'a tantoſt marqué cetre baſſe feneſtre
+</p>
+<sp type="MainZone-Sp"><lb />e<lb />Et ie crois que bientost nous luy verrons paroiſtre
+<lb />Il n'y manquera pas n’en doutez nullement.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Oam: qjue ne jommes nous à cét heureux moment
+<lb />L’ardeur à chaque inſtant s’accroit dedãs mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />C’eſt vne noble ardeur que celle qui t’enflamme
+<lb />Tu nous montre par la ta generoſité
+<lb />Et fais voir des effects dont nous auons douté.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVIER.
+<lb />Ah!combien ie greuoydes pories enfoncées
+<lb />De cabinets rompus de ſerrures forcees,
+<lb />Et de coffres enleuez.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Mais rentrons en ce coing
+<lb />Sy toſt qu’il paroiſtra nous le verrons de loin
+<lb />
+</sp>
+<p type="MainZone-Head"><lb />SCEETI
+<lb />LAVRETTE,
+<lb />Laurette paroiſt dans vne Gallerie.
+</p>
+<sp type="MainZone-Sp"><lb />TIR
+<lb />
+<lb />N fin tune ſçauroisexcuſer ta pareſſe
+<lb />Le temps eſt expiré tu manque de pro<lb />meſſe,
+<lb />Et mal gré les ſer ments que i’ay receus
+<lb />de toy
+<lb />Ie ſcay que tu na plus n’y d’amour n’y de foy,
+<lb />Trop ingrat Francion dont ie ſuis meſpriſee
+<lb />A qui ma flamme ſert de fable &amp; de riſee.
+<lb />N’attens plus de ma part que des traits de rigueur.
+<lb />La haine apres l’amour à pris place en mon cœur,
+<lb />Et quoy que tu m'ay fait vne legere offence
+<lb />Mon eſprit ne veut rien entendre en ta deffence,
+<lb />Innocent ou coupaple il ne te veut plus voir
+<lb />Et ſi tu me veux plaire enfin pers ton eſpoir,
+<lb />Mais que diſ-je bons dieux &amp; quelle indiferance
+<lb />Me vient entretenir contre toute apparence.
+<fw><lb />canus
+</fw><lb />Quelle peur me ſaiſit &amp; quel deſreglement
+<lb />Apporte à mon eſprit vn tel aueuglement,
+<lb />Ah! mon cher Francion ie ſçay que ie m'abuſe,
+<lb />Que ie ſuis criminelle alors que ie t’accu ſe
+<lb />Que ce diſcours me rand tres indigne du iour
+<lb />avran pardonne vnpetne qui vient de irop d amour.
+</sp>
+<p type="MainZone-Head"><lb />S
+<lb />CENE
+<lb />71
+<lb />LAVRETTE, OLIVIER, MAR<lb />SAVLT, PETIT IACQVES,
+</p>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />-
+<lb />
+<lb />Amarade entens tu c’eſt luy qui nous
+<lb />appelle,
+<lb />Eht.
+</sp>
+<sp type="MainZone-Sp"><lb />Ebt.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Approchons nous, il nous à mis l’eſchelle
+<lb />Va monter Oliuier nous f'attendons icy.
+</sp>
+<p type="MainZone-Other"><lb />OLIVIER
+</p>
+<p type="MainZone-Other"><lb />Mais.
+</p>
+<p type="MainZone-Head"><lb />COMEDIE.
+<lb />OLIVIER.
+</p>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Ne pers poim de temps,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Eſt-ce toy mon ſoucy,
+<lb />Uiens viſte dans mes bras approche ma chere ame,
+<lb />Et modere l’ardeur dont ton amour m’en flamme,
+<lb />Viens par mille baiſers contenter tes deſirs
+<lb />Et gouſte auecque moy mille innocens plaiſirs,
+<lb />Quoy? tu ne me dis mot alors que ie t'embraſſe
+<lb />Quana ie ſuix tont en ſen iu paron tout de glace,
+<lb />Et tu me rands enfin malheureuſe à ce point
+<lb />De croire affeurement que tu ne m’ayme point.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />An! dieux quelle à d'apas &amp; quelle eſt rauiſante
+<lb />Prenons ſans differer vn bien qui ſe preſente,
+<lb />Et pour le poſſeder ſans nul empeſchement
+<lb />Allons conper l’eſchelle où l’oſtons promptement,
+</sp>
+<sp type="MainZone-Sp"><lb />Où fuis tu.
+<lb />ELAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />DLIVIER.
+<lb />Ie reuiens ô dieux cette aduanture
+<lb />Me rand le plus heureux de toute la nature.
+</sp>
+<p type="MainZone-Head"><lb />SOEI EI
+<lb />VII.
+<lb />PETITIITGIZHOJMIMASAVLI
+<lb />OLIVIER.
+</p>
+<sp type="MainZone-Sp"><lb />M
+<lb />2
+<lb />10
+<lb />PETIT IACQVES.
+<lb />Ans mẽtir il met trop, ie ne puis plus durer
+<lb />Quoy qu'il puiſſe aduenir il faut m'en aſ
+<lb />ſeurer,
+<lb />Ie veux voir ce qu’il fait ou ce qui le retarde
+<lb />D'Aporter le butin que l’on luy donne en garde.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Il nous trahy peut-estre &amp; nous ne ſçauons pas
+<lb />S’il ne minute point de nous perdre icy bas.
+</sp>
+<sp type="MainZone-Sp"><lb />PETIT IACQVES.
+<lb />Courons donc au deuant ſans tarder dauantage
+<lb />L’eſchelle tient encor montons.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVUER.
+<lb />Prenons courage
+<lb />Donnons frapons ſur eux.
+</sp>
+<sp type="MainZone-Sp"><lb />COMEDIE.
+<lb />PETIT IACC
+<lb />ES
+<lb />Dieux nous ſommes vendus
+<lb />Oh relbre veſthente.
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Hh nous ſommes perdus
+<lb />I’ay les reins tout briſez.
+</sp>
+<sp type="MainZone-Sp"><lb />ABERTITIARVEUS
+<lb />I’ay la iambe rompuë
+</sp>
+<sp type="MainZone-Sp"><lb />MARSAVLT.
+<lb />Fuyons ſi nens pouuons eſuitons noſtre priſe Mared
+<lb />Sy l’on nous peut tenir nous ſerons bien punis
+<lb />Et dedans peu de temps nos iours ſeront finis.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Apres cette action qui me comble de ioye<lb />Ie vais prendre le bien que le bon heur m'enuoye.
+<lb />.-. :----- I ....- --- i-
+</sp>
+<p type="MainZone-Head"><lb />EXII
+<lb />CATHERINE, FRANCION,
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />MVi que tu ſois amy ſauue toy viſtement
+<lb />Ie ne te cognois point.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Eſcoute ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ie ne veux point ſçauoir le ſujet qui t’ameine
+<lb />Sy ie prens vn baſton.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Quoy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Tu payeras ma peine
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Iene ſuis point vn homme à traitter de baton.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Non veux tu l’eſprouuer.
+<lb />E
+<lb />22-
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Sy tu ſçauois mon nom
+<lb />Iune purterou pua umteq tam u infoience.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Apprens moy donc icy quelle eſt ton excellence,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mon nom eſt Francion, Mais laiſſe moy monter
+<lb />Tu n'as point de ſujet qui me puiſſe arreſter,
+<lb />Ta maistreſſe m'attend auecque impatience
+<lb />Et tu la facheras par cette defiance.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ma Maistreſſe t’attand.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Quy
+</sp>
+<sp type="MainZone-Sp"><lb /> CAITIENIVEE
+<lb />Va t’en la chercher,
+<lb />Außi bien ton aſpec la pourroit empeſcher,
+<lb />Qu’il contente la bas ſon ardeur inſenſée.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ab dieux ie ſuis en bas i'ay la teste caſſee.
+</sp>
+<p type="MainZone-Other"><lb />I
+<lb />ii
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Mais pour auoir le bien que ce ruste attendoit
+<lb />Allons nous en trouuer cellé qu’il demandoit,
+<lb />Cette aymable Laurette &amp; procedons en ſorte
+<lb />Que i’apaiſe en ſes bras l’ardeur qui me tranſporte.
+<lb />Sur tout menageons bien le deſſein &amp; le temps
+<lb />Afin que toſt apres ie retrouue mes gens,
+</sp>
+<p type="MainZone-Head"><lb />DCLID TXX
+<lb />LAVRETTE, OLIVILR.
+</p>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Vy Madame, ils m’ont pris malgré ma
+<lb />reſistance
+<lb />M’ont volé des ioiaux de grande conſe<lb />quence,
+<lb />Et m'ont enfin contraint apres beaucoup d’efforts
+<lb />De leur abandonner &amp; mes biens &amp; mon corps,
+<lb />Et ie n'ay touſiours feins de plaire à leur enuie.
+<lb />Qu'afin de preſeruer &amp; mes biens &amp; ma vie,
+<fw><lb />2
+</fw><lb />Car ils m’auoient promis de me les rendre tous
+<lb />Sy tost qu’ils auroiẽt eu ceux qu’ils vouloiẽt de vous
+<lb />Et comme i'eſperois vne heure fauorable
+<lb />Pour vous donner aduis de ce deſſein damnable,
+<lb />Ils ſe ſont reſolus de ne plus differer
+<lb />Et i’ay pris peine en vain de vous en aſſeurer.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ceſt aſſez ie vous crois, maſ ce qui m'eſpouuante,
+<lb />C’est ce que vous contez d’eux &amp; de ma ſeruante.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Ce que ie vous ay dit n’eſt que la verité
+<lb />Mauis Reauanme pengee a toobmns paurete.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Empeſchons leurs deſſeins rompons leur entrepriſe.
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Diſpoſez de ma force ette vous eſt acquiſe
+<lb />Quoy qu'il puiſſe arriuer il ne m'importe point.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Non voue m’obligez trop.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVIER.
+<lb />Accordez moy ce point.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ie crois que le meilleur pour tromper leur attente
+<lb />Eſt d’auoir finement cette feinte ſeruante,
+<lb />Deta tier,aviats Dienx qui crent pourtsr icy
+</sp>
+<p type="MainZone-Head"><lb />S
+<lb />TENYT
+<lb />A2
+<lb />LAVRETTE, CATHERINE.
+<lb />OLIVIER.
+</p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Uurez Madame ouurez
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Iuſte Ciel la voicy
+<lb />Sans doute ils ſont beaucoup,
+</sp>
+<sp type="MainZone-Sp"><lb />OLIVIER.
+<lb />Il n’y peut auoir qu’elle
+<lb />Les autres ſont tombez du haut de voſtre eſchelle,
+<lb />Ils ſe ſont retirez bleſſez extremément
+<lb />N'ayez aucune peur ouurez aſſeurement.
+</sp>
+<p type="MainZone-Other"><lb />LA V
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />2 E2i5
+<lb />20
+<lb />Cachez vous donc icy dieux quel ſujet t'ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />nrin qu luuon uunt naunamure prochaine
+<lb />Ou ie m'imaginois d’entendre des eſprits.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Qui pouroit ſoubſonner la ruſe quelle a pris
+<lb />He bien que veux tu donc.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Demeurer en la vostre,
+</sp>
+<sp type="MainZone-Sp"><lb />EPACAITE.
+<lb />Tu peux ſi tu le veux coucher dedans vne autre
+<lb />Mais ie ne pmis foiſpin porjome auprez de moy</sp>
+<sp type="MainZone-Sp"><lb />CATHERIN.
+<lb />Voſtre eſpoux ſi tien bien.
+<lb />E
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />6
+<lb />Mon eſpoux n’eſt pas toy</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Madame il eſt bien vray, car il est toutdle glace.
+<lb />
+<lb />ceefm dime m. .
+<lb />Et moy ie brulerois ſi j’eſtois en ſa place,
+<lb />Ie ne quitterois pas va bien ſi precieux
+<lb />Et n'eſtant pas ſi vieil i’en gouterois bien mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE. 
+<lb />Le ſexe t'en empeſche.
+<lb />V.
+<lb />4
+<lb />l Mlla bh. 82
+<fw><lb />viun R
+</fw></sp>
+<sp type="MainZone-Sp"><lb /> CAT HERINE.UEEPET EADXO
+<lb />Ah ſi i’oſois Madame
+</sp>
+<sp type="MainZone-Sp"><lb /> LAVRETPHIS MM camant
+</sp>
+<p type="MainZone-Other"><lb />Parle.
+<fw><lb />
+<lb />4vai arie nay
+</fw></p>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Ie vous dirois dans l’ardeur qui m'emſlamme,
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy donc.
+<lb />LAVRETTE. 2
+<lb />CATHERINE en luy Nontrant ſon ſein.
+<lb /><lb />11a
+<lb />Que ie n'ay pas le ſexe égal à voüs.
+<lb />A)
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Va tu meriterois qu'on t’aſſommaſt de coups
+<lb />Mais pour quelque raiſon pourtant ie te pardonne,
+<lb />Sous diſſres ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE.
+<lb />Quel bon heur m'enuironne
+<lb />Mais Madame prenons quelque amoareux ébaté
+<lb />-ſ -<lb /> - -----
+<lb />-----------a-d ----- -
+</sp>
+<sp type="MainZone-Sp"><lb />6
+<lb />L
+<lb />VRETTE.
+<lb />Q 
+<lb />Quas-
+<lb />arfends ie veux fermer la ferestre d'embu
+<lb />Uiemit en auecq muy:
+<lb />8
+<lb />1
+<lb />   Ma e
+</sp>
+<sp type="MainZone-Sp"><lb />CATHERINE<lb />-
+<lb />s-tgcet
+<lb />pu
+<lb />Nan feſe Spaun len peine
+<lb />Ie la fermeray bien.
+<lb />N. a
+<lb />-
+</sp>
+<sp type="MainZone-Sp"><lb />TILAVRETTE,14
+<lb />Allons prens cette cheiſne,
+<lb />Afin de t'aracher &amp; de nous garantir
+<lb />Apres nous ſongerons à te faire ſortir.
+<fw><lb />!
+<lb />*41
+<lb />Fin du Quatrieſme Acte.
+<lb />12.
+<lb />ſile
+<lb />lx.8
+<lb />** ꝗ Aυ* PAAM
+<lb />u noycaunt mso haenmmi
+<lb />ẽccuert desANAI NIe ARIaGV (T
+<lb />4n tauè
+<lb />4A aT i'nd
+<lb />1 98 31 M
+<lb />2
+</fw><fw><lb />84 nC le.
+<lb />124
+<lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />mmepu
+<lb />UhAMI
+<lb />11 e53
+<lb />F y uus yu toate muy
+<lb />1
+<fw><lb />8
+</fw></sp>
+<p type="MainZone-Head"><lb />A
+<lb />I
+<lb />SCLIE INEIIIERE
+</p>
+<p type="MainZone-Head"><lb />LVBIN, LEONARD, BERTRAND
+</p>
+<sp type="MainZone-Sp"><lb />BERTRAND. eñ riant.
+<lb />Vi pourroit ſe contraindre &amp; empeſcher
+<lb />de rire,
+<lb />Le ſpectacle plaiſſant.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Bertrand que veux-tu dire
+<lb />Et quel ſujet as-tu de tant te reſiouir
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />En l’eſtat ou ie ſuis ie ne te puis ouyr
+<lb />Qu’il m'a ſemble honteux &amp; d’vne triſte mine.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Aprens moy ce que c’eſt ie te payray chopine.
+<lb />4 --
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Du Meilleur.
+<fw><lb />.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Du Meilleur.
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Iures en.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Par ma foy
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Lubin raconte luy tu le ſçais mieux que moy
+</sp>
+<sp type="MainZone-Sp"><lb />LVBIN.
+<lb />Nous allions moy Ianot, Guillot &amp; mon compere,
+<lb />Afin de labourer aux vignes de mon frere
+<lb />Quant nous sõmes paſſez mais de fort grand matin
+<lb />Par deuant le chasteau du ſeigneur Valantin.
+<lb />Et combien que le iour ne commençaſt qu’à naiſtre
+<lb />Nous auons veus pourtant à la baſſe feneſtre
+<lb />Quelque choſe de blanc qu’on a diſerné mieux
+<lb />Alors que le Soleil c'est leué ſur ces lieux.
+</sp>
+<p type="MainZone-Other"><lb />O ii
+</p>
+<sp type="MainZone-Sp"><lb />LEONAR D
+<lb />He queſtdite.
+<fw><lb />M
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LVBIN,
+<lb />Vn garçon ſous l’habit d’vne fille,
+<lb />Attaché par ſa cotte aux barreaux d’vne grille,
+<lb />Trouſsé iuſque bien haut au deſſus des genoux
+<lb />Eumunprunt rom u poutnce que neus mõtrons tous.
+<lb />Tout le vilage y court.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Il faut que ie le voye
+<lb />Et que ie participe a la commune iove,
+<lb />Adieu ius quumemopees
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Ow te frtuut ras-on.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARDE ' (MlA CTOUIN Ceut
+<lb />L
+<lb />Dans vne heure au plus tard ie me rẽds au mouton.
+<lb />8
+</sp>
+<sp type="MainZone-Sp"><lb /> BERTRAND.
+<lb />Et là tu nous payras la chopine promiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONARD.
+<lb />Ouy ie vous la payray ſans aucune remiſe,
+<fw><lb />22
+<lb />18.
+<lb />16.
+</fw></sp>
+<p type="MainZone-Head"><lb />END II
+<lb />L’HOTESSE, FRANCION,
+</p>
+<sp type="MainZone-Sp"><lb />L’HOTESSE,
+<lb />&amp; Ous eſtes fort bleſſé regaignons la mai<lb />on,
+<lb />Afin de donner ordre à voſtre gueriſon
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Chere Hoteſſe ce mal ne m’eſt gueres ſenſible
+<lb />mon jeuſfue ompren pous gruo murs qui a eſt pas
+<lb />viſible,
+<lb />Et qui me tient au cœur &amp; me preſſe ſi fort
+<lb />Que ſans vn prompt ſecours ie n'atteds que la mort,
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Monſieur expliquez moy cét embrouillé myſtere
+<lb />Quand vous me l’aurez dit ie ſçauray bien le taire.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie trahirois l’objet de mon affection.
+</sp>
+<sp type="MainZone-Sp"><lb />L'HOTESSE.
+<lb />Monſieur aſſeurez vous de ma diſcretion
+<lb />de neſt poim en bes ueux ue ſemme plus ſecrette.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Tu ſçauras donc qu’hyer i’allois treuuer Laurette
+<lb />Mais ie ne ſonge pas que l’on peut meſcouter,
+<lb />Quand ie ſeray chez toy ie te veux tout conter,
+<lb />Miaisiuſqu'ate moment permets que ie te celle
+<lb />Ce ſecret qui m'importe außi bien qu’à ma belle.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Mon dieu que ie vous plains d’auoir ainſi paſsé
+<lb />Cette nuit au ſerain &amp; dedans vn foſsé.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Sy toſt que ie fus cheu ie perdis la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Sy la terre eust eſté plus humide ou moins molle,
+<lb />Vous ne me diriez pas cette inſigne malheur,
+<lb />Qui vous a penſé perdre &amp; qui me fais horreur.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />L’amour ce iuste dieu dont ie reſſens la flamme
+<lb />Dans ce corps languiſſans a retenu mon ame
+</sp>
+<p type="MainZone-Other"><lb />Pour
+<lb />Pour terminer ma peine &amp; mettre en liberté
+<lb />C’est objet de mes veux ce miracle en beauté
+<lb />Puiſque i’ay ſa faueur ie preſume &amp; l’espere,
+<lb />Que mes deſſeins auront vne ſuitte proſpere.
+</p>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />noi ummois vonn pronunononououre de ſommeil
+<lb />Et mettre à veſtre playe vn premier appareil.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Pourueu que ma Laurette ayt ſoucy de me plaire
+<lb />Ct premier uppareit ne mesi pus neceſſaire,
+<lb />Et quant ie ſerois meſme en danger de mourir
+<lb />Vn ſeul de ſes regards me pourroit ſecourir.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />'ertes vous parlez trop allons ie vons en prie.
+<lb />Penſcer voſtre bleſſure en noſtre Hoſtellerie.
+<lb />
+</sp>
+<p type="MainZone-Head"><lb />S
+<lb />(
+<lb />LENEIII
+<lb />VALANTIN. attaché à l’arbre.
+</p>
+<sp type="MainZone-Sp"><lb />M
+<lb />9
+<lb />B
+<lb />Nfin le nouueau iour tout brillant de
+<lb />clarté.
+<lb />De l’effroyable nuit perſe l’obſcurité,
+<lb />M Et chaſſe deuant luy des forests les plus
+<lb />ſombres
+<lb />L’horreur &amp; le ſilence außi bien que les ombres,
+<lb />Depuis qu'vn noir Démon malgré tous mes efforts
+<lb />Au tronc de cẽt ormeau ma lié par le corps,
+<lb />Agreable Soleil, Planette touſiours claire,
+<lb />Que ie t’ay ſouhaitté deſſus noſtre hemiſphere,
+<lb />De qui me doiſ-je plaindre en mon affliction.
+<lb />Sy ce n'eſt du ſorcier &amp; damné Francion,
+<lb />Horreur de ma memoire, homme plain d’artifice
+<lb />Qui ſous vn front ſerain deguiſois ta malice,
+<lb />Et qui faiſois ſemblant de vouloir m'aßiſter
+<lb />Pour accroistre mon mal &amp; me mieux tourmenter,
+<lb />Sy ie ſors quelque iour de ta cruelle chaiſne
+<lb />Il n'eſt point dans l’Enfer de tourmẽt n’y de gehenne,
+<lb />Qui ne ſoit employé à ta punition
+<lb />Par ma ſeulle puiſſance &amp; mon inuention,
+<lb />Mais que diſ-je bons dieux &amp; quelle frenaiſie.
+<lb />A mes ſens occupez &amp; mon ame ſaiſie,
+<lb />Imprudent que te ſuis ie menace celuy
+<lb />Qui peut m’oſter la vie &amp; me perdre auiourd’huy.
+<lb />Luy qui fais remonter des ruiſſeaux à leurs ſources
+<lb />Qui retient des torrens l’impetueuſe courſe,
+<lb />Qui donne de la crainte au ſouuerain des Dieux
+<lb />Qui tire le Soleil &amp; la Lunẽ des Cieux,
+<lb />Et change quant il veut auec vne figure
+<lb />Cét ordre merueilleux qu’on voit en la nature,
+<lb />I'implore Francion, i’implore ta bonté
+<lb />I
+<lb />Donc loing de me punir comme i’aymerité,
+<lb />2
+<lb />Et comment ſont traittez, ceux qui t’oſent deſ<lb />plaire
+<lb />Estains dedans mes pleurs tahaine &amp; ta cholere.
+<lb />77.
+<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Elas ſans chaſtiment on ne peut t’irriter
+<lb />Car ie vois deux Démons qui vienent
+<lb />m'emporter,
+<lb /> D’vn maiſtre tout puiſſant miniſtres
+<lb />effrujables
+<lb />Ayez quelque pitté de mes maux deplorables
+<lb />Et ne me iettez pas ences abiſmes creux
+<lb />Où pour les criminels vous allumez des feux.
+</sp>
+<sp type="MainZone-Sp"><lb />LVBIN.
+<lb />Dettrana tent lalambin.
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />O rencontre impreueue
+<lb />Ridicule accident, mais as-tu bonne veuë,
+<lb />Ne te trompe tu point.
+</sp>
+<sp type="MainZone-Sp"><lb />LVBIN.
+<lb />Aſſeurement c’est luy
+<lb />Qui crie &amp; qui ſe plaint d’vn violent ennuy.
+<lb />.-.-- 
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Puiſque ie ne ſçaurois flechir voſtre courage
+<lb />Sur ce debile corps exercez vostre rage.
+<lb />Ie ne me deffends pas en l’estat ou ie ſuis.
+<lb />Et pleurer mes malheurs eſt tout ce que ie puis.
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Qui vous a lié là d’vne corde ſi forté,
+</sp>
+<sp type="MainZone-Sp"><lb />V4A DRLETA.
+<lb />Helas c’eſt vn Démon preſque de voſtre ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />LVBIN.
+<lb />Ie crois que ce vieillard n’a pas l’esptit bien faict.
+</sp>
+<sp type="MainZone-Sp"><lb />BERTRAND.
+<lb />Lubin ſa ialouſie à produit cét effet.
+</sp>
+<sp type="MainZone-Sp"><lb />LVBIN.
+<lb />Remettez vous Monſieur, dedans vostre memoire
+<lb />Et chaſſez loin de vous cette humeur triste &amp; noire.
+<lb />Nous ſommes vos voiſins, &amp; non pas des Démons
+<lb />Et ſi vous le voulez ie vous diray nos noms,
+<lb />Ie m'appelle Lubin qui laboure vos terres
+<lb />Qui vous ſuiuis par tout dans ces dernieres guerres
+<lb />Qui hante tous les iours dedans voſtre maiſon,
+</sp>
+<p type="MainZone-Lg"><lb />ii
+<lb />Luy ſe nomme Bertrand petit fils d’Aliſon
+<lb />Qui trauailloit pour vous la ſemaine paſsée
+</p>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Amis de tant de ſoins i’ay l’ame embaraßée
+<lb />Que ie vous eſtimois ce que vous n'eſtiés pas,
+<lb />Mais coupez mes liens &amp; venez de ce pas
+<lb />Maider à me vanger d’vne exceßiue iniure
+<lb />Vous ſçaurez en chemin toute man aduanture,
+<lb />Lors que de ce fardeau ie me ſens alleger
+<lb />Le mal que i’ay ſouffert me ſemble fort leger,
+<lb />Mais allons immoler ce traiſtre à ma cholere
+<lb />Tachons de luy donner le treſpas pour ſalaire,
+<lb />Et reſouuenons nous du tourment qu’il ma fait
+<lb />Pour auoir plus de haine à punir ſon forfait,
+<lb />Allons mes bons amis ie payeray vostre peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LYBIN.
+<lb />Monſieur n’y ſongez poini.
+<fw><lb />* :
+</fw></sp>
+<sp type="MainZone-Sp"><lb />TRND.
+<lb />Il est tout hors d’haleine
+<lb />Il eſcume de rage &amp; rumine tout bas,
+<lb />Mais quoy qu'il en puiſſe eſtre allons ſuiuons ces pas</sp>
+<p type="MainZone-Head"><lb />TEEV
+<lb />P5
+<lb />LAVRETTE, LE PREVOST,
+<lb />&amp; quelques Payſans,
+</p>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />E me demandez point vn ſujet que i'ygnore
+<lb />Et donc ia nouneante faict que i'en doute
+<lb />encore,
+<lb />Car tout cecy c’eſt faist cependant mon ſommeil.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />e ſpectacle est estrange &amp; n’a pas de pareil
+<lb />Mais ſans nous amuſer à ce diſcours friuolle,
+<lb />Madame permettez qu’on d’et ache ce drolle,
+<lb />Il faut l’interroger maintenant deuant vous
+<lb />Et le traiſnerapres dans la boëtte aux cailloux,
+<lb />En ſon deguiſſement ſon offeuce s’exprime
+<lb />Il eſt aſſeurement compiice de ce crime.
+<lb />Et quant nous aurons ſceu la verité de luy
+<lb />Il faut ſans differer le punir auiourd'huy.
+<lb />-...- .. ..--
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Vous ſçauez mieux que moy les loix de la Iustice.
+<lb />eſt pourquoy commandez que l’on vous obeyſſe,
+<lb />Enmenez ce voleur hors de cette maiſon
+<lb />Et ne l’interrogez que dedans la priſon
+<lb />Ie muibrots punsoncuunuuouce miſerable
+<lb />Et ie plaindrois ſon mal quoy qu’il fut reſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Madame ie feray ce que vous ordonnez
+<lb />Demnene Ete covemi (y puis vempriſonne Z,
+<lb />Viſte depeſchez, allez y tous enſemble
+<lb />Ie m'y rends auſi toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais Monſieur il me ſemble
+<lb />Qu’il ſerott a propos d'attenare Ualantin.
+</sp>
+<sp type="MainZone-Sp"><lb />LETREVOSE.
+<lb />Et quand reuiendra-il.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ce ſera ce matin.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Et bien nous attendrons, mais en tous cas Madame
+<lb />Ie puis le condamner ſans encourir de blaſme,
+<lb /> -
+<lb />Car la charge que i’ay me fait repreſenter
+<lb />Monſieur voſtre mary quant il veut s’abſenter.
+<lb />Mais ne le voi-je pas du bout de la prairye
+<lb />Ahet le Irochrciir de celle Jeignenrie.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ah! grands dieux d’ou vient-il; vous arriuez à
+<lb />portst.
+<lb />Pour voir vn accident que vous n’attendiez point.
+</sp>
+<p type="MainZone-Head"><lb />DULEVD
+<lb />I<lb />LAVRETTE, VALANTIN,
+<lb />LE PREVOST LE PROCVREVR.
+</p>
+<sp type="MainZone-Sp"><lb />
+<lb />VALENTIN.
+<lb />Ay tout ſceu mon cher cœur &amp; ie ne ſuis
+<lb />en peine
+<lb />Que pour l’amour de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />
+<lb />LAVRETTE.
+<lb />Cette frayeur eſt vaine
+<lb />Grace au Ciel ces voleurs n’ont pas bien reußi,
+<lb />En ce qu’ils pretendoient de tout piller icy
+<lb />La iustice des dieux a pris noſtre d’effence
+<lb />Et nous a garantis contre leur inſolence.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Encore que dites vous de cette trahi ſon
+<lb />De ce monstre caché dedans noſtre maiſon,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Que ſans doute le ciel monstre bien qu’il nous ayme
+<lb />De nous auoir ſauué de ce peril extreſme,
+<lb />Car ie m'eſtonne fort de ce que l’inhumain
+<lb />Nupuint fatct ueſfur nous queique coup de ſa main,
+<lb />Qu'il n’a point pris ſon temps pour nous oster la vie
+<lb />Et mieux executer ſonexecrable enuie,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANIIN.
+<lb />Ie m’en estonne außi mais pour trouuer l’autheur
+<lb />Ie croy qu’il faut s’en prendre à nostre Operateur,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Quoy croyez vous qu’il ſoit complice de ce crime,
+</sp>
+<sp type="MainZone-Sp"><lb />Ouy.
+<lb />VALANTIN.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais vous en faiſiez vne ſi grande eſtime,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />C’eſtoit quant i’ygnorois quel eſtoit le deſſein
+<lb />Qui tonnon ſytengtemps dans ſoncoupable ſein,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais comment iu gezvous qu’il ſoit de ce mistere,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Par tout ce qu’il a faict.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Mais Monſieur au contraire
+<lb />Il n’eſt venu ceans.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Que pour nous espier
+<lb />Qu'il ſoit coupable ou non ie veux l’eſtropier,
+<lb />Ii in à liop javdemipai finone ſcienté.
+<lb />Et m’a trop fait ſouffrir dans cette experience,
+<lb />Ie veux abſolument m'en venger auiourd’huy
+<lb />Mais il faut donner ordre à m'aſſeurer de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Cependant qu’il rumine &amp; qu’il peste &amp; qu’il crie
+<lb />Allons voir Françion dans ſon Hoſtellerye.
+<lb />Autant pour l’aduertir qu'il ait à ſe ſauuer
+<lb />comme pour luy conter ce qui vrent d’arriuer,
+</sp>
+<p type="MainZone-Head"><lb />DEETLVII
+<lb />miei, mhRAvOST,
+<lb />LE PROCVREVR.
+</p>
+<sp type="MainZone-Sp"><lb />1
+<lb />LE PREVOST.
+<lb />Oi pouuez commander auec toute
+<lb />puiſſance
+<lb />Et tirer des effects de nostre obeiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />MMG
+<lb />LE PROCVREVR.
+<lb />Puiſqu’il eſt criminel &amp; qu’il vous a trahy
+<lb />Vous n'auez qu'à parler vous ſerez obey.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN
+<lb />Ie cognois voſtre zele &amp; dedans ce rencontre
+<lb />Il fant mes bons amis qu’il eſclate &amp; ſe montre,
+<lb />Pour punirce meſchant iuſqu’à l’extremité
+<lb />Qui ma rendu le but de ſa meſchanceté.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />N'a-il point fait le vol.
+<fw><lb />C
+</fw></sp>
+<p type="MainZone-Head"><lb />COMIDIE.
+</p>
+<sp type="MainZone-Sp"><lb />VALENTIN.
+<lb />2
+<lb />En fut il incapable
+<lb />D’autres crimes plus grands le rendent puniſable.
+<lb />Veut qu'on le traitte icy comme il a merité,
+<lb />Qu'on le mette au milieu d’vn buſcher tout de flame
+<lb />Pour mettre en cendre vn corps dont l'Enfer aura
+<lb />l’ame.
+</sp>
+<sp type="MainZone-Sp"><lb />AETRAVCJI
+<lb />Ah! dieux que dittes-vous Monſieur il eſt ſorcier.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />De plus ie ne crois pas qu’il puiſſe le nier
+<lb />Il m'en a fait ſouffrir vne trop grande espreuue
+<lb />Mais laiſons ces diſcours car afin qu’on le treuue
+<lb />Il faut abſolument ne perdre point de temps
+<lb />Dépeſchez d’apeler vingt ou trente habitans,
+<lb />Afin de l’inueſtir &amp; le preſſer de ſorte
+<lb />Qu'il tombe dans nos mains par quelque endroict
+<lb />qu'il ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Nous vous obeyrons.
+<fw><lb />à
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE PROCVREVR.
+<lb />Vous ſerez ſatis faict.
+<fw><lb />ii
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ie te puniray bien du mal que tu m’as faict
+<lb />Et malgré tes Démons &amp; tout ton artifice
+<lb />Tuv ic e fonsuperuns peis ures iuins ue tu Iuſtice,
+</sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />SULIVE
+<lb />V IIE
+<lb />LAVRETTE, FRANCION,
+<lb />ANSELME.
+<lb />FRANÇION, en mettant la main à ſa teſte.
+<lb />2
+<lb />v
+<lb />SE plaignez point mon mal ie le treuue fort
+<lb />doux
+<lb />Et i’en voudrois encor bien plus ſouffrir
+<lb />pour vous,
+<lb />Car lors qu'en vous ſeruant i’expoſerois ma vie
+<lb />Ie la tiendrois pour vous heureuſement rauie,
+<lb />Et ie recognoistrois qu’en ſouffrant le treſpas
+<lb />Tout chacun m'enuieroit &amp; ne me plaindroit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ne ti ns point ces diſcours.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Permettez moy Mad ame
+<lb />De cooms uonnerenortes ieſmoins de ma flamme.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Sy ſe ſont des teſmoins ils ſont vn peu flatteurs.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Non Madame croyez qu’ils ne ſont point menteurs
+<lb />Que ſi vous en voulez, tirer vne aſſeurance,
+<lb />Cuspuvruis on pou quule est vostre puiſſance
+<lb />Et vous recognoistrez que ie ne vous dis rien
+<lb />Qui ne ſoit veritable &amp; qu’on ne ſçache bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Que ie plains ton malheur.
+</sp>
+<sp type="MainZone-Sp"><lb />DICIROION.
+<lb />Ah ce diſcours me tuë
+<lb />Et rend encore vn coup ma conſtance abbatuë,
+<lb />Madame au nom des Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Bien mon cœur ie te crois
+<lb />Mais ſors viſte dicy, ſauue toy, ſauue moy,
+</sp>
+<sp type="MainZone-Sp"><lb />Car tu peus bien penſer que quoy qu’il aduienne
+<lb />En attaquant ta vie ons attaque à la mienne,
+<lb />Et que tu ne ſçaurois tomber en ce malheur
+<lb />Saus procurer ta honte &amp; me perdre d’honneur,
+<lb />Carencor que tu ſois innocent de ce crime
+<lb />Dont ce vieux radoteux t’accuſe par maxime,
+<lb />Tu ne laiſſeras pas de tomber en ſes mains
+<lb />Du ure purre uitimes tes momneurs que ie crains,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie le veux mais quel bruit s’epand dedans le ruë.
+</sp>
+<sp type="MainZone-Sp"><lb /> LAVRETTE. en regardant.
+<lb />Sans doute ce ſont eux qui te viennent querir
+<lb />Iuſte ciel il eſt vray, que ne puiſ-je mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Non ne te cache point montre toy ma chere ame
+<lb />C’est auiourd’huy qu’il faut faire eſclater ta flamme
+<lb />Car enfin pour quitter ce vieillard l’enguiſſant
+<lb />Il te faut declarer comme il’eſt impuiſſant,
+<lb />Tu i'en ſepareras auec fort peu de petne
+<lb />Et dedans nostre amour nous rirons de ſa haine,
+<lb />Car comme ie t’ay dit &amp; comme ie l’entends
+<lb />L'hymen vn mois apres rendra nos vœux contens.
+</sp>
+<p type="MainZone-Other"><lb />LAV
+<fw><lb />COMEDIE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Ie noſe.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ah! ne crains point car outrela Iuſtice
+<lb />Mes amys s’emploiront dedans ce bon office
+<lb />Et leurs ſoins confondus à mon authorité
+<lb />Feront tout ſucceder à noſtre volonté.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais on entre.
+<lb />LAVRETTE.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Tiens toy ne crains rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Le cœur me bat au ſein.
+<lb />Ie friſſonne
+<fw><lb />R
+</fw></sp>
+<p type="MainZone-Head"><lb />D
+<lb />ER
+<lb />T7 XYI
+<lb />FRANCION, LAVRET TE, ANSELME,
+<lb />VALANTIN, LE PREVOST, LE PROCV<lb />REVR, LHOTESSE, LA SERVANTE,
+<lb />&amp; quelques habitans.
+</p>
+<sp type="MainZone-Sp"><lb />VABHRCTIN.
+<lb />&amp; Aiſiſez ſa perſonne.
+<lb />E
+</sp>
+<sp type="MainZone-Sp"><lb />ARINCION.
+<lb />Ie ne ſuis pas celuy que vous imaginez
+<lb />Regardez à deux fois.
+</sp>
+<sp type="MainZone-Sp"><lb />VALENTIN.
+<lb />Prenez amys prenez
+<lb />Les magiques ſecrets qu’il a dans la ceruelle
+<lb />Luy donnent quant il veut vne forme nouuelle,
+<lb />C’eſt luy n'en doutez point il vous ſeduit les yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Qu'on ne m'aproche pas.
+<lb />--. 1- –<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />VALENTIN.
+<lb />Mais que voiſ-je bons dieux
+<lb />Laurette aupres de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Retirez vous de grace
+<lb />On cebras utuuns pen punira vostre audace
+<lb />De quoym accuſez vous, que voulez vous de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Ma femme,
+<lb />VALANTIN.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Parle mieux elle n’est pas à toy
+<lb />Il te la faudra rendre apres l’auoir ranie
+<lb />Et tu ne t'ameuo pun qmenm priuani de vie.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Monſieur eſcoutez nous parlez plus doucement.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie ne puis me tenir dans ce reſſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Prenez donc ce voleur.
+</sp>
+<p type="MainZone-Other"><lb />R ii.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ah! Dieux quelle impudence
+<lb />Amis c’est un Seigueur des premiers de la France,
+<lb />Vous vom repeniire Zde tetrauter ainſi
+</sp>
+<sp type="MainZone-Sp"><lb />VALENTIN.
+<lb />Tais toy, ne parle point tu le payras außi.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Me traitter de voleur moy qui par ma naiſſance
+<lb />Puis prendre ampunement vne entiere licence,
+<lb />Moy qu'oncognoist par tout &amp; qui fais de la Cour
+<lb />Depuis quinge ou vingt ans mon vnique ſejour.
+</sp>
+<sp type="MainZone-Sp"><lb />LEPREVOST.
+<lb />Ne vous egriſſez point &amp; dites ie vous prie,
+<lb />Quel ſujet vous retient dans cette hostellerie,
+<lb />Voſtre nom, vostre rang, &amp; voſtre quaiité.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Ie ne vins en ces lieux que par neceßité,
+<lb />Et puis qu’en ce rencontre il faut que ie m’explique
+<lb />Sçachez, que ie n'ay pris le meſtier d’Emperique
+<lb />Qu'afin de recognoiſtre en toute liberté
+<lb />Vnpoint dont ie voulois ſçauoir la verité
+<lb />Et pour vous eſclarcir.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Ie ne oeux rien entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Sy faut-il l’eſcouter auant que de le prendre
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Quant ie vous auruy uict que ie ſuis Francion.
+<lb />Vous me recognoistrez par reputation,
+</sp>
+<sp type="MainZone-Sp"><lb />LE FREVOST.
+<lb />Ouy, ie cognois ce nom.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Sa fourbe est manifeſte.
+<lb />Quest-ce qui vous retient.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Eſcoutez ce qui reste
+<lb />Quant donc vous aurez ſceu mõ rang &amp; ma maiſon
+<lb />Uous verrez qu'il m'accuſe auec peu de raiſon,
+<lb />Et puis pour eſclaircir ce que i'ay dedans l’ame
+<lb />Vous ſçaurez qu’a Paris i’ay chery cette femme,
+<lb />Et quelle m'engagea ſa parole &amp; ſa foy
+<lb />De ne prendre iamais d’autre mary que moy.
+</sp>
+<p type="MainZone-Other"><lb />Ri
+<fw><lb />A3
+</fw></p>
+<sp type="MainZone-Sp"><lb />VALANTIN<lb /> a dens dicar dus an n
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Amour prens ma deffence
+<lb />I'implore à ceſt endroit ta diuine aßiſtance.
+<fw><lb />"
+</fw></sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Mais comme ce vieillard l’aymoit extremement
+<lb />Il ſuborna ſamere, &amp; fit ſi dextrement
+<lb />Qu'en moins de quinze iours l’affaire fut concluë
+<lb />Quoy que Laurette enfin ny fuſt pas reſolué,
+<lb />Bref poſſedant vn bien que ie deuois auoir
+<lb />I'ay voulu le rauir quant ie l’ay peu ſçauoir,
+<lb />Et de peur que quelqu'vn ne me peut recognoistre
+<lb />  jan degnye.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Cela ne ſçauroit-eſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Mais puiſque vous auiez ſa parole &amp; ſa fo
+<lb />Que ne l’empeſchiez vous.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />I'estois aupres du Roy,
+<fw><lb />*ucs:
+</fw><lb />Et ie n'en ay receu le funeſte meſſage
+<lb />Que plus de quinze iours apres ſon mariagé,
+<lb />Au reſte le mestier dont ie me ſuis ſeruy
+<lb />Ma faict voir vn ſecret dont ie ſuis tout rauy
+<lb />Car Ualantin ma dit, qu’vne entiere impuiſſance
+<lb />L’empeſchoit d’en auoir aucune iouyſſance
+<lb />Il me la deſcouuert il ne le peut nier
+<lb />Et ie pretens qu’il ſonge à ſe demarier,
+<lb />De plus il ma conté qu’il poſſedoit ma belle
+<lb />2i1e priotuenocrounempumeiquuelle,
+<lb />Sy bien qu'àpres cela vous deuez bien penſer
+<lb />Qu'il ne luy reſte rien que de le confeſſer,
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Que ie ſuis malheureux, Parlez parlez Madame,
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Feignons de la tristeſſe, Ah malheureuſe femme
+<lb />Jl est vray qu'à Paris ie luy donnay ma foy
+<lb />Et ie meurs de regret de n’estre plus à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />DICHITOION.
+<lb />Madame vous deuez encore dauantage
+<lb />Uous pouuez voir la fin de vostre mariage,
+<lb />Et declarant bien toſt voſtre espoux impuiſſans
+<lb />Vous ſeparer de luy.
+<lb />.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Av eten pas tmocent.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Helas mes bons amis que luy puiſ je repondre
+<lb />Sy tout ce que i’ay dict ne ſert qu'à me confondre,
+<lb />Ie voy bien maintenant que le Ciel me veut mal
+<lb />Puiſque rien ne m’oblige &amp; que tout m'eſt fatal,
+<lb />Que quant ie me prepare à venger vn outrage
+<lb />C’est lors que ie ſuis preſt d’en ſouffrir dauantage,
+<lb />Et què ie ſuis contrainct le depit ſur le front
+<lb />D'endurer ſans me plaindre vnſi ſanglant affront
+<lb />Il a ſceu de ma part quelle eſt mon impuiſſance,
+<lb />Et i'ay peur que le monde en ait la connoiſſance,
+<lb />C’eſt pourquoy donc d' pour de rougir doublement
+<lb />I’ayme mieux luy ceder Laurette doucement.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Mlonſieur qu'en dites vous.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Que ie ſuis ſeul coupable.
+<lb />Qu’il ſoit, qu’il ſoit heureux, comme moy miſerable
+<lb />Pluſtoſt que d’en venir tuſques au dernier point
+<lb />Sy Laurette le veut ie n'y reſiſte point,
+<lb />Car puiſque ie ſçaybien que i'en ſuis incapable
+<lb />Ie luy cede &amp; luy rends.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME bas.
+<lb />Dieux qu’il eſt charitable
+<lb />Apres vn tel preſent il n’espargnera rien,
+<lb />S’il a donne ſa femme il donnera ſon bien,
+<lb />Allons luy demander: Mais ie perdroit ma peine
+<lb />Car s'il ades threſors ſa bourſe n'est pas pleine.
+</sp>
+<sp type="MainZone-Sp"><lb />LAVRETTE.
+<lb />Ne me demandez point ſi ie veux ce bonheur
+<lb />Luy pouume peuntomtunur peuuu &amp; d’honneur,
+<lb />Et dans cette faueur que le ciel nous enuoye
+<lb />Ie me mets en ſes mains,
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Et i’en paſme de ioye
+<lb />Monſieur vous me forcez auec cette bonté
+<lb />D'eſtre voſtre obligé iuſqu'à l’extremité.
+</sp>
+<sp type="MainZone-Sp"><lb />VALENTIN. à l’eſcart.
+<lb />Est-il rien de pareil au mal qui m’enuironne
+<lb />Ie quitte ce que t’aime &amp; de plus ie le donne,
+<lb />Mais quoy puiſqu’il me faut touſiours l’abandonner
+<lb />Pour eſpargner ma honte il vaüt mieux le donner,
+<lb />Q
+<lb />Que ie Ciel veus ſcit doux cõme il me fut contraire
+<lb />Et termine mes iours peur finir ma miſere.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />cMonſieur pardonnez nous.
+</sp>
+<sp type="MainZone-Sp"><lb /> FRANCION.
+<lb />Uà ie n’y ſonge plus
+<lb />Mais ſans nous amuſer en diſcours ſuperflus,
+<lb />Retournons à Paris afin que la Iuſtice
+<lb />Iuge de vostre hymen qu’il faut quelle aboliſſe,
+<lb />Afin que ie poſſede en toute liberté
+<lb />Ce miracle d’amour &amp; de fidelité.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Ab! dieux qui l'euſt penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Ie m’en estois doutée.
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />Voila comme il faut dire, ô quelle est effrontée
+<lb />Maintenant qu’elle voit qu’elle n’aura plus rien
+<lb />Elle veut m'aſſeurer quelle s’en doutoit bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANCION.
+<lb />Allons cher Valantin chaſſe cette tristeſſe
+<lb />Ie te venx ucdans peu uonner ont ma ſtreſſe
+<lb />Dont l’age ou peu s’en faut eſgalera le tien
+<lb />Et qui n'est pas trop laide.
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />A elle de bon bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANCION.
+<lb />Elle à dedans Paris trois mille eſcus de rente.
+</sp>
+<sp type="MainZone-Sp"><lb />VALENTIN.
+<lb />Ce ſeroit bien mon faict.
+<lb />A.
+</sp>
+<sp type="MainZone-Sp"><lb />FRANCION.
+<lb />Elle en ſera contente
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN.
+<lb />Sur tout ne dites rien.
+</sp>
+<sp type="MainZone-Sp"><lb />2Ie ro
+<lb />Allez ie ſuis pour vous
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Mais pour ce priſonnier, Monſieur qu'en ferõs nous
+</sp>
+<sp type="MainZone-Sp"><lb />VALANTIN
+<lb />Puiſque tout est remply d’alegreſſe &amp; de ioye
+<lb />Il faut qu'on l’elargiſſe &amp; que l'on le renuoye,
+<lb />Il ne nous à rien pris &amp; nous ne pouuons pas
+<lb />Qu'auec trop de rigueur aduancer ſon treſpas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREVOST.
+<lb />Vous ſerez obey i’y vais des la meſme heure.
+</sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />RANCION.
+<lb />Allons ne tardons plus quittons cette demeure
+<lb />Et fraeuuis Puris nous reſtons vons contens
+<lb />Nous y viendrons bien tost y mieux paſſer le temps.
+</sp>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Dieux comme en vn moment toute choſe ſe change
+<lb />Admire vn peu ma fille,
+</sp>
+<sp type="MainZone-Sp"><lb />LA SERVANTE.
+<lb />O l’aduenture eſtrange,
+<lb />Ie me flattois deſ-ja d’vn amour deceuant.
+<lb />Mais enfin vous &amp; moy ne tenons que du vent,
+<lb />.- –
+<lb />
+</sp>
+<p type="MainZone-Head"><lb />FRANCION,
+</p>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Que veux-tu, Mais il faut en perdant leur pre<lb />ſence
+<lb />Quitter entierementl amour &amp; l'eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Adieu cher pot poury le mon affection
+<lb />Que l’amour te conſole en cette afflicton,
+<lb />Et que ce petit dieu dont ie reſens la flammé
+<lb />Conſerue pour iamais mon pourtraict dans ton ame
+<lb />Mon ſouuenir pourra ſoulager tes douleurs
+<lb />Adieu mon petit cœur ne verſe point de pleurs,
+<lb />Et garde bien ſur tout qu'vne damnable enuie
+<lb />Loing de moy ne t’incite à te priuer de vie,
+<lb />Mais ſans perdre le tempe en rant de vains propos
+<lb />N’ayons plus de ſoucy de l’amour de mon Maiſtre
+<lb />Et mourons quoy qu’il en puiſſe eſtre
+<fw><lb />Entre les verres &amp; les pots.
+<lb />8
+<lb />23.
+</fw></sp>
+<p type="MainZone-Head"><lb />FRANCION,
+</p>
+<sp type="MainZone-Sp"><lb />L’HOTESSE.
+<lb />Que veux-tu, Mais il faut en perdant leur pre<lb />ſence
+<lb />Quitter entierementl amour &amp; l'eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Adieu cher pot poury le mon affection
+<lb />Que l’amour te conſole en cette afflicton,
+<lb />Et que ce petit dieu dont ie reſens la flammé
+<lb />Conſerue pour iamais mon pourtraict dans ton ame
+<lb />Mon ſouuenir pourra ſoulager tes douleurs
+<lb />Adieu mon petit cœur ne verſe point de pleurs,
+<lb />Et garde bien ſur tout qu'vne damnable enuie
+<lb />Loing de moy ne t’incite à te priuer de vie,
+<lb />Mais ſans perdre le tempe en rant de vains propos
+<lb />N’ayons plus de ſoucy de l’amour de mon Maiſtre
+<lb />Et mourons quoy qu’il en puiſſe eſtre
+<fw><lb />Entre les verres &amp; les pots.
+<lb />8
+<lb />23.
+</fw></sp>
+    </body>
+  </text>
+</TEI>

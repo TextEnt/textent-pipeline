@@ -1,0 +1,2687 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L'Heureux naufrage, tragi-comédie de Rotrou</title>
+        <author>Rotrou, Jean de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb312518699"/>
+          <author>
+            <persName>Rotrou, Jean de</persName>
+          </author>
+          <title>L'Heureux naufrage, tragi-comédie de Rotrou</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1637" cert="high" resp="BNF">1637</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Other"><lb />M. DC. XXXVII.
+<lb />Auec Priuilege du Roy.
+</p>
+<p type="MainZone-Head"><lb />Extraict du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />Ar grace &amp; Priuilege du Roy donné à Paris, le
+<lb />7. Feurier, 1637. Signe, Par le Roy en ſon Con<lb />ſeil. DE MONSSEAVX, Il eſt permis à AN<lb />THOINE DE SOMMAVILLE, Marchand Libraire
+<lb />à Paris, d’imprimer ou faire imprimer, vendre &amp; diſtri<lb />buer vne piece de Theatre, intitulee, L’Heureux Nau<lb />frage Tragi-comedie, durant le temps &amp; eſpace de neuf ans,
+<lb />à compter du iour qu’elle ſera acheuee d’imprimer. Et
+<lb />deffences ſont faictes à tous Imprimeurs, Libraires, &amp;
+<lb />autres, de contrefaire ladite piece, ny en vendre ou expo<lb />ſer en vente de contréfaicte, à peine de trois mil liures
+<lb />d’amende, de tous ſes deſpens, dommages &amp; intereſts;
+<lb />ainſi qu’il eſt plus amplement porté par leſdites Lettres
+<lb />qui ſont en vertu du preſent Extraict tenuës pour bien
+<lb />&amp; deuëment ſignifiees, à ce qu’aucun n’en pretende cau<lb />ſe d’ignorance.
+<fw><lb />Acheué d’imprimer pour la premiere fois,
+<lb />le n2. Feurier, mil ſix cens trente ſeps.
+</fw></p>
+<p type="MainZone-Head"><lb />ACTEVRS.
+<lb />CLEANDRE. Prince d’Epire.
+<lb />FLORONDE. Princeſſe d’Epire.
+<lb />SALMACIS. Reyne de Dalmatie.
+<lb />CEPHALIE. Sœur dela Reyne de Dalmatie
+<lb />DORISMOND. Seruiteur de Cephalie.
+<fw><lb />LE MEDECIN.
+<lb />CLEANTES. Prince d’Epire &amp; Frere de Flo
+<lb />ALCANDRE.
+<lb />ACHANTHE.
+<lb />LA NOVRRICE.
+<lb />ARGANT.
+<lb />DAMIS.
+<lb />GYS.
+<lb />LE BOVRREAV.
+<lb />ronde.
+<lb />Chefs de guerre.
+<lb />Aſſaſſins.
+<lb />34
+<lb />– 2-La
+</fw></p>
+<p type="MainZone-Head"><lb />LITLVRLVA
+<lb />AVITVXXINSE
+<lb />TRAGI-COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />AISIE INENVIIER
+<lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE
+<lb />ſur vn lict vert, en vne
+<lb />chambre bien paree.
+<lb />Mbres, noirs habitans du tenebreux Empire,
+<lb />Que i’apprenne de vous en quel lieu ie reſpire,
+<lb />Quoy le Soleil me ſuit iuſques dans les enfers?
+<lb />Et i'y ſuis ſans bourreaux, ſans flames, &amp; ſans fers?
+<lb />O Dieux! en cet état moy-meſme ie m’ignore,
+<lb />Il ſemble qu’en mon corps mon ame agiſſe encore,
+<lb />Mon eſprit n’est troublé d’aucun ſuiet d’effroy,
+<lb />Spectre, ombre, ny Demon, ne ſe preſente à moy;
+<lb />Et ſi l'Enfer eſt tel, l’Empire de la vie,
+<fw><lb />A
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Sur celuy de la mort à des ſuiets d’enuie,
+<lb />Dieux! que mon œil ouuert deſſus tant de beautés
+<lb />S’égare doucement dans leurs diuerſités;
+<lb />Que l’art en ceſte chambre a produit de merueille!
+<lb />Voit on à ces tableaux des peintures pareilles?
+<lb />Quel monarque charmé de cet ameublement
+<lb />Se ſouhaitteroit mieux, &amp; plus ſuperbement,
+<lb />O doutes ſuperflus! l’Empire des tenebres
+<lb />Offre à ſes habitans des obiets plus funebres,
+<lb />Tout me rit, &amp; iamais le celeſte flambeau
+<lb />Ne parut à mes yeux, plus brillant, ny plus beau,
+<lb />Mais ô ſuperbes lieux, vous n’auez point Floronde,
+<lb />Cette riche deſpoüille eſt le butin de l’onde,
+<lb />Ie ne voys point icy paroiſtre ſes appas,
+<lb />Et ie ſuis aux Enfers, quand ie ne la voys pas:
+<lb />Ouy i’habite Demons vos infernales riues,
+<lb />Ou ſe cachent de moy vos ombres fugitifues?
+<lb />Tenebreux habitants du Zoyaume des morts,
+<lb />Venés, redoutés vous ce foible, &amp; palle corps;
+<lb />Pluton, rends l’aſſeurance à ton peuple timide,
+<lb />Ie marche ſans deſſein deſſus les pas d'Alcide,
+<lb />Conduits moy ſeulement aux riues de cette eau,
+<lb />Ou l’ame de Floronde a paſſé le bateau,
+<lb />Le bien de la reuoir bornera mes conqueſtes,
+<lb />L'Epire en ma faueur t'eſtablira des Feſtes,
+<lb />Tes freres enuieront les honneurs de ton nom,
+</sp>
+<p type="MainZone-Lg"><lb />Et Proſerpine vn iour égalera Iunon,
+<lb />Mais ô faux entretien dont mon eſprit s’abuſe,
+<lb />Triſte diſcours, d’vne ame interdite, &amp; confuſe,
+<lb />L’Enfer n’eſt point ſuiet aux trauerſes d’amour,
+<lb />I'ignore en quel endroict ie reſpire le iour,
+<lb />A peine de mon nom le ſouuenir me reſte,
+<lb />I'ignore ou m’a ietté ce naufrage funeste;
+<lb />Quoy l’Empire des flots, ce perfide element,
+<lb />A retenu l’amante, &amp; reietté l’amant!
+<lb />O Dieux! quelle aduanture, à mon repos fatale,
+<lb />De ce moite tombeau m’a mis en ce Dadale?
+<lb />Quelle Ariadne offerte en cette occaſion
+<lb />Dißipera ma crainte, &amp; ma confuſion!
+<lb />Mais vn obiet charmant, ou Venus elle-meſme
+<lb />Vient éclaircir ma doute, en cette peine extreme,
+<lb />Telle faiſant briller ſes appas infinis
+<lb />Cette mere d’amour va baiſer Adonis;
+<lb />Et telle d’Orient tous les matins deualle
+<lb />L'Epouſe de Tithon, dans les bras de Cephale;
+</p>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />SALMACIS, Reyne de Dalmatie, CEPHALIE
+<lb />ſa ſœur, LE MEDECIN,CLEANDRE,
+</p>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Celeste merueille, ô diuin changement!
+<lb />OQui ne peut proceder que du Ciel ſeulement;
+<lb />Ma ſœur il voit le iour.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Mon ame en eſt rauie,
+<lb />Nous auons veu ſa mort, &amp; nous voyons ſa vie.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MEDECIN.
+<lb />Puiſque dans ce peril les Dieux l’ont conſerué,
+<lb />A quelques grands exploicts ſon bras eſt reſerué
+<lb />Son front promet beaucoup, &amp; croyés qu’vn courage:
+<lb />Eſt capable de tout, s’il ſçait vaincre vn orage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Incertain en quels lieux mon œil voit la clarté,
+<lb />Dißipez mes ſoucys, adorable beauté,
+<lb />Habitay-ie des eaux les cauernes profondes,
+<lb />Uos yeux comme Soleils brillent ils dans les ondes,
+<lb />Eſt-ce vne illuſion qui ſe preſente à moy?
+<lb />Eſt-ce quelque Nayade, ou Thetis que ie voy;
+<lb />MoZeray-ie enquerir quelle eſt voſtre naiſſance,
+<lb />Pour regler mon reſpect, par cette cognoiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />A LMACIS.
+<lb />Ma ſœur vous l’apprendra; mais il eſt à propos
+<lb />Pour voſtre allegement, &amp; pour voſtre repos,
+<lb />Que ce lict ſerue encor à ces membres debiles
+<lb />Sur qui les flots ont faict des efforts inutiles;
+<lb />Et vous, puis que le Ciel à conſerué ſes iours,
+<lb />A les faire durer, preſtés voſtre ſecours
+<lb />Employés y vos ſoings, &amp; que la medecine
+<lb />2 din ſuuuyyerjeeren un ene carves aliale.
+<lb />Qui rende à ce beau corps ſa premiere ſanté,
+<lb />Et faſſe de ſa vie vn eternelle eſté.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MEDECINs’en allant
+<lb />I'employray pour ſes iours le ſoing que i’ay des voſtres,
+<lb />Et les ſecrets du Ciel, ſeconderont les noſtres.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Il faut reſter ingrat, apres tant de bien faicts,
+<lb />Et mon reſſentiment ne peut auoir d’effects,
+<lb />Qu’heureux ſera le iour, ou cette triſte vie
+<lb />Que vous me conſerués, pour vous ſera rauie
+<lb />Uous me verrés vn cœur, &amp; ſans feinte, &amp; ſans fard,
+<lb />Et cette occaſion ne peut venir que tard.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS, aſſiſe prés de luy, auec Cephalie.
+<lb />Je ne veux pour tout prix, qu’apprendre qui i’oblige,
+<lb />Et le viſible deüil dont voſtre eſprit s'afflige,
+<lb />A iij
+<lb />Inſtruite là deſſus, vous ſçaurés qui ie ſuis,
+<lb />Et ie partageray vos ſoings, &amp; vos ennuys;
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Mon pays est Epire, ou depuis tant de luſtres,
+<lb />La race des Thaumans, en tant d’exploits illuſtres,
+<lb />A ce peuple guerrier fait reuerer ſes loix
+<lb />Et ſe rend redoutable à tous les autres Rois,
+<lb />Le vaillant Thaumaſis, ſucceſſeur de ces Princet
+<lb />Depuis long-temps deſia gouuerne ces Prouinces,
+<lb />Mais que ſa fille helas, par ſes attraits vainqueurs
+<lb />Bien plus abſolument y gouuernoit les cœurs,
+<lb />Floronde fut le nom de cet Ange viſible
+<lb />Qui charmoit le plus dur, &amp; le plus inſenſible,
+<lb />L’amour, &amp; le plaiſir des ames, &amp; des yeux,
+<lb />Et l’abregé mortel des merueilles des Cieux,
+<lb />Sa beauté captiuoit tous les Princes d'Epire,
+<lb />Et i’oſay comme tel, entrer ſous ſon Empire,
+<lb />Ie la ſeruy long-temps, &amp; mon amour enfin
+<lb />Plus par vn malheureux, que par vn bon destin,
+<lb />En ſon cœur innocent ſe donna de l’entree,
+<lb />Et me fiſt enuier de toute la contree;
+<lb />Certain inſtinct ſecret vnit les volontés,
+<lb />Et diſpoſe des vœux, des cœurs, des libertét
+<lb />Jl furprend la raiſon, et ſa ſeule puiſſance
+<lb />Des inclinations forme la difference
+<lb />e fort instinct ſans qui tous nos efforts ſont vains,
+</sp>
+<sp type="MainZone-Sp"><lb />IAIGLCONEDIL.
+</sp>
+<p type="MainZone-Lg"><lb />Fist à ceſte Princeſſe agreer mes deſſeins,
+<lb />Et i'eus de ſon amour de ſi certaines marques,
+<lb />Que i'estouffay tout ſeul l’eſpoir de cent Monarques,
+<lb />Mais que i'ay de malheur? et que l’ambition
+<lb />Fut vn contraire obſtacle à noſtre affection;
+<lb />Le pere, au plus puiſſant voüa ceſte Princeſſe,
+<lb />Et pour le Roy de Thrace, engagea ſa promeſſe;
+<lb />Dieux! que ne peut l’amour en de ieunes eſprits?
+<lb />Floronde eut ſa grandeur, &amp; ſon ſceptre a meſpris,
+<lb />Apres ma paßion, toute autre l’importune,
+<lb />Elle remet ſur moy le ſoing de ſa fortune,
+<lb />Et d’vn comman accord, noſtre fidelité,
+<lb />Sur vn traiſtre Element cherche la ſeureté;
+<lb />Neptune, qui voyoit ſes graces infinies
+<lb />Sous ce faits glorieux tout ſes ondes vnies,
+<lb />Le Ciel nous obligea d’vn fauorable aſpect,
+<lb />Æole à tous les vents impoſa le reſpect,
+<lb />De petits Alcyons, chantans venoient en trouppe,
+<lb />Se percher ſur le mats, &amp; voller ſur la pouppe,
+<lb />Et ſix fois le Soleil nous ramenera le iour,
+<lb />Sans que nous cogneußions autre ennemy qu’amour:
+<lb />Mais Neptune bien-toſt monstra ſon iutenpance,
+<lb />Des traicts qu’elle dardoit ce lâche Dieu s’offence,
+<lb />Parce qu'elle le bruſle, il la veut ſubmerger,
+<lb />Et des feux, par les eaux reſout de ſe vanger,
+<lb />Tous les vents mutinés ſortent à ſa priere,
+</p>
+<p type="MainZone-Lg"><lb />Vne épaiſſe vapeur nous cache la lumiere,
+<lb />L'orage, d’vn beau iour, faict vne obſcure nuict,
+<lb />L’air retentit par tout d’vn effroyable bruict,
+<lb />Il en ſort vn faux iour, mais qui nous eſt contraire,
+<lb />Et qu’il nous esblouyt plus qu’il ne nous eſclaire,
+<lb />D'vn choc impetueux, les vents, &amp; les rochers,
+<lb />Font naiſtre la frayeur dans le ſein des rochers,
+<lb />L’air redouble ſes bruicts,&amp; le vent ſon haleine,
+<lb />Ce fier Tyran des airs, faict cent mont d’vne pleine,
+<lb />Il rompt, deſchire, fend, cordes, voiles, &amp; mats.
+<lb />Et ce triſte vaiſſeau, ne ſe recognoiſt pas;
+<lb />Le Pilote est confus, la ſcience, &amp; l’vſage,
+<lb />Contre les grands dangers ſont vn foible aduantage,
+<lb />Le timon dans ſes mains, n’est plus qu’vn vain fardeau
+<lb />Il laiſſe au gré des vents regir noſtre vaiſſeau,
+<lb />Et ce triſte iouët d’vn ſi puiſſant orage,
+<lb />Contre le port enfin, va faire ſon naufrage;
+<lb />L’amour, ce foible Dieu ne nous pût ſecourir
+<lb />Et i’ignore quel ſort m’empeſcha d’y perir:
+<lb />Miais quelqu'heureux deſtin qui m'ayt itre de l’onde,
+<lb />Son ſecours m’outrageoit, s’il y laiſſa Floronde,
+<lb />Et ſi de ſa ſplendeur ce ieune astre eſt priué,
+<lb />Mes mains me rauiront ce qu’il m’a conſerué;
+<lb />SALMACIS, ſe leuant.
+</p>
+<sp type="MainZone-Sp"><lb />O fatal accident! ie plains voſtre infortune,
+<lb />Mais reſſentés la moins, puis qu'elle m'est commune,
+<lb />Vous
+<lb />Vous me verrés, Monſieur, partager auec vous,
+<lb />e qui vous est amer, et ce qui vous eſt doux,
+<lb />Adieu, prenez chez nous vne entiere puiſſance,
+<lb />Et ſçachez de ma Sœur mon nom, &amp; ma naiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Dalmatie est la terre, où vous pouſſa le ſort
+<lb />Et quelques habitants vous treuuerent au port,
+<lb />Palle, ſans mouuement, &amp; froid ſur le riuage,
+<lb />Où vous fustes ietté par l'effort de l’orage,
+<lb />A vous voir on iugea de vostre qualité,
+<lb />Et la Reyne paſſant où vous fustes porté,
+<lb />Voſtre ſort la toucha, ſes eſprits s’altererent,
+<lb />Et de jes triſtes yeux quelques larmes tomberent,
+<lb />Elle embraſſa le ſoin de voſtre gueriſon,
+<lb />Et vous fist tranſporter par ceux de ſa maiſon.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Et ceſte;
+<lb />CLEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />encor vn mot vous tirera de peine,
+<lb />Ma Sœur est de ces lieux l’Vnique ſouueraine,
+<lb />Et vous treuués ches elle vn azile aſſeuré
+<lb />contiu quelque danger, qui vous ſoit preparé.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Si par l’intention ſon ſoing est eſtimable,
+<lb />Quel Dieu m’oblige plus, &amp; m'eſt plus adorable!
+<lb />Mais helas qu'en effect elle a deſobligé
+<lb />------ u. .
+<lb /> be- e
+<lb />Vn qui ne voit le iour que pour eſtre affligé
+<lb />Floronde ne vit plus, la cholere de l’onde
+<lb />N’aura pas épargnè ce miracle du monde,
+<lb />Floronde, triſte obiet des iniures du ſort,
+<lb />Que l’amour en ton cœur fiſt vn fatal effort,
+<lb />Que i’eus vne faueur à ton repos funeſte,
+<lb />Que mon amour te fut vne mortelle peste,
+<lb />Et que pour ton bon-heur, tu deuois deteſter
+<lb />Le cœur que ie t’offris, au lieu de l’accepter:
+<lb />Pour moy tu dedaignas l'éclat d’vn Diadeſme,
+<lb />Ie te fis meſpriſer tes parens, &amp; toy-meſme,
+<lb />
+<lb />Et i'expoſay tes iours ſur vn traiſtre Element,
+<lb />Qui n’a pû reſpecter vn obiet ſi charmant;
+<lb />Un mal-heureux deſtin m'a ſauué de l’orage,
+<lb />Et tes membres ſacrés ont aſſouuy ſa rage.
+<lb />Ie vis, &amp; tu n'es plus! ô trop lâches douleurs,
+<lb />De n’auoir pour ta mort que de honteuſes pleurs;
+<lb />de fuies mion jang ingrai eu tes uevues veines?
+<lb />Qu'entretenir ma honte, &amp; que nourrir mes peines?
+<lb />Un vain reſpect du Ciel deſtourne mon treſpas,
+<lb />Et Cleandre peut-eſtre, ou Floronde n’eſt pas?
+<lb />-
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Mille autres à la mort font des plaintes pareilles,
+<lb />Mais comme elle eſt ſans yeux, elle n’a point d’oreilles,
+<lb />Elle établit pour tous d’inuiolables loix,
+<lb />Et traicte egalement les beigers, &amp; tes Rois;
+<lb />I'approuue que vos pleurs moüillent voſtre viſage,
+<lb />La raiſon quelquefois n'en deffend point l’vſage,
+<lb />Mais il faut l’eſcouter dans le pire mal-heur,
+<lb />Et le courage enfin doit vaincre la douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Las! que peut le courage en pareille infortune,
+<lb />Le regret est commun d’vne perte commune,
+<lb />Mais qui perd vn obiet pourueu de tant d’attraits,
+<lb />Que doit il deſirer, que de ſe perdre apres?
+<lb />Onde, mouuant cercueil, Element infidelle,
+<lb />Reiette au moins ſon corps, rends quelque choſe d'elle;
+<lb />I'acheueray le cours de mon ſort malheureux
+<lb />Sur ce triſte debris de l’Empire amoureux.
+<lb />O ſenſible mal-heur! ſeuere destinee,
+<lb />Ciel qui me l’as rauie, &amp; me l’auois donnee,
+<lb />Romps de mes tristes ans le déplorable cours,
+<lb />Acheue mes ennuys, en acheuant mes iours.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Cest trop vous afſiger d'vn mat-peur ſans remede,
+<lb />Que le repos, Monſieur, à ces plaintes ſuccede
+<lb />Ce corps debile, &amp; las, a beſoing de ſommeil,
+<lb />Et nous verrons la Reyne apres voſtre reſueil.
+</sp>
+<sp type="MainZone-Sp"><lb />ſe mettant
+<lb />CLEANDRE, ſur ieiic<lb />Ie donneray ce temps à mon inquietude,
+<lb />Beaucoup plus qu’au ſommeil, &amp; qu'à ma laßitude,
+<lb />Mais que iugereZ vous, excuſes vn eſprit,
+</sp>
+<sp type="MainZone-Sp"><lb />B ij
+<lb />Saiſy, confas, troublé, furieux, interdit,
+<lb />Jncapable de tout, en l’eſtat miſerable,
+<lb />Où l’a mis la rigueur de ſon ſort déplorable.
+</sp>
+<sp type="MainZone-Sp"><lb />tirant les ri<lb />CEPHALIE, d'aux ſur luy.
+<lb />Pou. Sous plaindrons plustoſt, reposés ſeulement,
+<lb />Et croyez qu’on a ſoing de voſtre allegement.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />CEPHALIE, DORISMOND, CLEANDRE,
+</p>
+<sp type="MainZone-Sp"><lb />entrant doucement
+<lb />DORISMOND, Epaiantbas
+<lb />VVis-ie voir cet obiet dont parle tout le monde,
+<lb />T St rimet reſpecté de la rage de l’onde,
+<lb />Qui cauſe tant de bruict, &amp; tant d’étonnement?
+</sp>
+<sp type="MainZone-Sp"><lb />le repouſ.
+<lb />CETTIILETE, ſant.
+<lb />Vous le verrés tantoſt il repoſe vn moment;
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Ie puis ſans l’eſueiller,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />S'eſt gliſſé ſous ſes yeux,
+<lb />non, le ſommeil à peine
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />il plaiſt fort à la Reyne,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />C’eſt le luſtre, la gloire, &amp; l’honneur de la Cour,
+<lb />C’eſt le plus rare obiet, qui vid iamais le iour,
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Vous en dittes beaucoup,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />et tout eſt legitime,
+<lb />Ie le peints moindre encor, qu’il n’est en mon eſtime.
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />N'eſt-ce point quelque Dieu?
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />quand ie le peindrois tel,
+<lb />Ayant oaimu ta mori, n don eſtre immortel
+<lb />Seul, il s’eſt conſerué dans vn peril extréme,
+<lb />Et s’eſt treuué viuant, au ſein de la mort meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Si bien-tost la raiſon ne vous vient ſecourir,
+<lb />raignés cet immortel, il vous fera mourir;
+<lb />Mais d’vne douce mort, qu’on prefere à la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Iugés, combien ſa veuë excitera d’enuie,
+<lb />Et dans quelle manie il vous reduiraibus,
+<lb />Puisque ſans l’auoir veu, vous en eſtes ialoux,
+<lb />Mais ſouffrés qu’il revoſe, &amp; tantoſt
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />te oum taue,
+<fw><lb />B iij
+</fw><lb />N’ostés point à ce Dieu l’obiet de ſa Deeſſe,
+<lb />Reuere-t’il ſi peu vos attraits glorieux,
+<lb />Et pres de ſon Soleil peut-il fermer les yeux ?
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />On ſouffre d’vn ialoux, il a droict de ſe plaindre,
+<lb />Ainſi que nous l'auons de ne nous point contraindre.
+<lb />MMais voyons ſi touſiours ileſt'en meſme poinct,
+<lb />Ou s’il prend du repos, luy qui n'en laiſſe point.
+</sp>
+<sp type="MainZone-Sp"><lb />ſe iettant à
+<lb />CLEANDRE, bas duiig
+<lb />C’eſt trop laiſſer Cleandre, aſſoupir ton courage
+<lb />En vn ſi beau ſuiet de fureur &amp; de rage,
+<lb />Il eſt ſaiſon helas, de pleurer, de gemir
+<lb />De plaindre, de crier, et non pas de dormir;
+<lb />Le repos t’est honteux, hors du ſein de Flaronde
+<lb />De celuy de la terre, ou de celuy de l’onde,
+<lb />Il faut, il faut mourir, &amp; le ſecours du temps
+<lb />Ne peut remedier aux ennuys que tu ſens;
+<lb />Quel fer en ce beſoing ſeconde mon enuie?
+<lb />Quel poiſon, ou quel feu s’offre à m’oſter la vie?
+<lb />Floronde ne vit plus! ô Ciel! ô Dieux cruels:
+<lb />Inſenſibles Autheurs de nos vœux mutuels,
+<lb />Si pour larmes, ny cris, vous ne le pouuez rendre,
+<lb />Acheuez de la perdre, elle vit en Cleandre,
+<lb />Perdez, ce malheureux, frappés, tués, tonnés,
+<lb />AuanceZ le treſpas que vous me deſtinés,
+<lb />Que deſia ſous mes pas la terre n'eſt ouuerte;
+<lb />
+<lb />*
+<lb />3
+<lb />
+<lb />Tout ept joura pounta tenure, &amp; tout teſt pourma perte.
+</sp>
+<sp type="MainZone-Sp"><lb />HALIE.
+<lb />C'est paſſer la douleur, &amp; ſes iuſtes regrets
+<lb />ce vos ennuys ſoient grands, mais qu'ils ſoient plus
+<lb />ſecrets.
+<lb />Si vous deuez ſouffrir, ſouffreZ auec courage,
+<lb />Et que voſtre raiſon conſerue ſon vſas
+<lb />e
+<lb />5
+<lb />Sortons, voyons la Reyne vne heure ſeulement,
+<lb />Et donneZ quelque trefue à ce cruel tourment.
+</sp>
+<p type="MainZone-Head"><lb />IECEEIE
+<lb />SCENE PREMIERE.
+<lb />CEPHALIE, LA NOVRRICE,
+</p>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />Dieux! que dites vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Que ce Prince d'Epire.
+<lb />D'vn inſenſible effort me met ſous ſon Empire,
+<lb />La Parque ſans effect à ſes iours aſſaillis
+<lb />Elle voit ſes efforts, &amp; ſes deſſeins faillis,
+<lb />La mer l’a reſpecté, cet Element barbare
+<lb />Ne fut pas ſans pitié pour vn obiet ſi rare,
+<lb />It a maigre ie ourpit vents, l’onde, &amp; le ſort,
+<lb />Pour me faire mourir, triomphé de la mort.
+</sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />Madame, au nom dumtur, conſultés dauantage
+<lb />Sur ce triſte deſſein, où voſtre eſprit s'enge
+<lb />J. v2
+<lb />!
+<lb />Ie ne puis condamner vos inclinations,
+<lb />Et ie pourrois flatter vos ieunes paßions:
+<lb />Mais voſtre deſplaiſir me ſeroit trop ſenſible,
+<lb />Et ie vous promettrois vn ſecours impoßible;
+<lb />Détournés cent malheurs; étouffés ce ſerpent,
+<lb />Que deſia vous ſentés en voſtre ſein rampant,
+<lb />Que ce deſſein fatal en ſa naiſſance auorte,
+<lb />Et rompés voſtre chaiſne auant qu'ele ſoit forte,
+<lb />La Reyne a pour ce Prince;
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Hâ que m’apprenés vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />Un tœur trop amoureux, &amp; des yeux trop ialoux,
+<lb />Cette vifible ardeur à chaſque heure s’augmente,
+<lb />Et iamais paßion ne fut ſi vehemente.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />La Reyne ayme Cleandre? ô Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />plus que le iour,
+<lb />Et me vient d’engager à ſeruir ſon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />O fatal accident, aduanture cruelle!
+<lb />Vous m’annoncés la-mort auec ceſte nouuelle;
+<lb />Que de ſa paßion le ſuccés ſera prompt,
+<lb />Que ne peut point l’amour le Diad ſme au front?́
+<fw><lb />2
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />Vous ſçaués ſes regrets pour certaine Floronde
+<lb />Qu'il croit eſtre immolee à la fureur de l’onde.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Hé! qui ne les ſçait pas?
+</sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />eſcoutés en deux mots.
+<lb />Ce que la Reyne a faict pour leur commun repos:
+<lb />Dans toutes les maiſons voiſines du riuage,
+<lb />On a cherché quelqu’vn eſchappé du naufrage,
+<lb />Qui corrompu par l’or, ce metail ſi charmant,
+<lb />De la mort de Floronde aſſeuraſt cet amant,
+<lb />Elle croit que ce Prince apres ceſte aſſeurance
+<lb />En perdra la memoire, en perdant l’eſperance,
+<lb />J’ay dans ceſte recherche employé mon effort,
+<lb />Tant qu'vn de ſes valets, qui croyoit qu’il fuſt mort,
+<lb />Eſchappé comme luy du courroux de Neptune,
+<lb />Et rauy de l’eſpoir d’vne grande fortune,
+<lb />S’offre de teſmoigner, que Floronde à ſes yeux
+<lb />Eſt tombee où l’orage eſtoit plus furieux,
+<lb />Et que ſi pas vn d’eux deut perdre la lumiere,
+<lb />Cette ieune beauté la perdit la premiere.
+<lb />Ce triſte m'ſſager de naufrage, &amp; de mort,
+<lb />Attend l’occaſion de faire ſon rapport,
+<lb />Et la Reyne l'effect de ce diſcours funeſte,
+<lb />Mais de ſa propre voix vous apprenatuidreſte,
+<lb />Puiſqu'elle vient à nous,
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />SALMACIS, CEPHALIE, LA NOVRRICE,
+<lb />SAEMACTS.
+</p>
+<sp type="MainZone-Sp"><lb />HEureuſe es chere ſœur,
+<lb />Qu’au prix de mon deſtin ton ſort a de douceur,
+<lb />Que le Ciel à iamais t’exempte de la peine
+<lb />Que faict aux ieunes cœurs vne amour incertaine,
+<lb />Le mien languit eſclaue en des liens ſi forts,
+<lb />Que les briſer iamais excede mes efforts;
+<lb />Il n'eſt plus à propos de celer mon ſeruage,
+<lb />Et mon inquietude eſt peinte en mon viſage,
+<lb />Ce Prince reueré de l’Empire des flots,
+<lb />Qui conſerua ſes iours, ſans l’art des matelots,
+<lb />Tout palle &amp; tout changé par l’effort de l’orage,
+<lb />Meſme en ce triſte état ébranla mon courage,
+<lb />A ſon corps tout ſoüillé, certain charme eſtoit ioinct.
+<lb />Et la mort ſur ſon front ne m'épouuanta point:
+<lb />S’il auoit des attraits en ce poinct deplorable,
+<lb />Que voit-on maintenant qui luy ſoit comparable?
+<lb />Et qui peut ſans enuie, ou ſans aueuglement,
+<lb />Nier à ce vainqueur le tiltre de charmani?
+<lb />- - -
+</sp>
+<p type="MainZone-Lg"><lb />C
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />I'ignore de l’amour, &amp; les traicts, &amp; les flames,
+<lb />J'ignore le pouuoir de ce tyran des ames,
+<lb />Vim joit affection, amour, flame, ou deſir,
+<lb />Ie ne le vois iamais ſans beaucoup de plaifir.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />La fristeſſe en ſes veux jemvie estre naturelle,
+<lb />Tant elle y prend d’éclat, et tant il la faict belle.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Ses pleurs ont des beautés, que certains ris n’ont pas,
+<lb />Et ſa melancholie a de charmans appas;
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Ton ſentiment m'oblige, &amp; ie croy mon estime
+<lb />Par ton opinion encor plus legitime;
+<lb />Employe à'm’acquerir ſes charmes ſans pareils,
+<lb />Tes ſoings industrieux, &amp; tes ſages conſeils;
+<lb />Il s’en offre vn moyen: deſia toute l’Epire,
+<lb />Qui ſçait que dans ma Cour ce ieune Mars reſpire,
+<lb />Ne medite qu’horreur, que carnage, &amp; qu’effroy,
+<lb />Si ie ne le remets dans les mains de ſon Roy.
+<lb />Par vn Ambaſſadeur arriué dans mes terres,
+<lb />luyfprus qu’on veut ſa perte, ou d’éternelles guerres.
+<lb />J’ay faict pouruoir lara des viures qu’il y faut,
+<lb />Et ceſte triſte Ville attend vn rude aſſaut.
+<lb />Or, voicy le moyen de m’acquerir Cleandre,
+<lb />Jl voit combien de ſoings i’employe à le deffendre,
+<lb />- A.œ-
+</sp>
+<sp type="MainZone-Sp"><lb />Il me voit irriter de puiſſants Potentats,
+<lb />Et pour ſon interest hazarder mes Eſtats,
+<lb />Il voit entre ſes mains nos fortunes remiſes,
+<lb />Il preſide aux conſeils, aux ſoings, aux entrepriſes:
+<lb />Ainſi i’ay ſans effort, &amp; d’vn ſubtil lien,
+<lb />Treuué l’art d’attacher ſon intereſt au mien.
+<lb />Il reſte d’effacer vne importune idee,
+<lb />Que ſon fidelle eſprit a ſi long-temps gardee:
+<lb />Il regrette Floronde, &amp; pleignant ſon deſtin
+<lb />Doute encor que les flots en ayent faict leur butin,
+<lb />Et moy, pour aſſeurer ſa croyance incertaine,
+<lb />Qui nous cauſe à tous deux vne ſi longue peine,
+<lb />Comme de tous effects les preſens ſont Autheurs,
+<lb />I'ay gaigné par argent vn de ſes ſeruiteurs,
+<lb />Dont les flots irrités n’ont épargné la vie
+<lb />Qu’affin qu’il pûst ſeruir mon amoureuſe enuie:
+<lb />Il luy doit teſmoigner, que Floronde n’eſt plus,
+<lb />Et flatte mon amour d’vne attente ſi chere
+<lb />Que ie croy poſſeder, parce que ie l’eſpere.
+<lb />O Ciel! ſois fauorable à mes iuſtes defirs,
+<lb />Fay naistre vn chaſte hymen, &amp; d’innocens plaiſirs,
+<lb />Ainſi tous les mortels reuerent ta puiſſance,
+<lb />Et beniſſent touſiours ton immortelle eſſence;
+<lb />Voila ce beau vainqueur, Nourrice, de ce pas
+<lb />Qu' Loyſanor luy vienne annoncer ce treſpas.
+<fw><lb />6
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME,
+<lb />SALMACIS, CLEANDRE, CEPHALIE,
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Ve ſes charmes ſont doux!
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Jl faut donc, grande Reyne,
+<lb />Que mon malheur vous couste vne éternelle peine?
+<lb />Quel ſort iniurieux, m'a faict mal à propos
+<lb />Uenir iuſques chés vous troubler voſtre repos?
+<lb />Si i’auois pour vous plaire employé cette eſpee,
+<lb />Si pour vous cette main s’eſtoit veuë occupee,
+<lb />Et ſi i’auois, Madame, aux deſpens de mon ſang
+<lb />Entre vos ſeruiteurs merité quelque rang,
+<lb />Cette peine au beſoing pourroit m'eſtre accordee,
+<lb />Et vostre courtoiſie au moins ſeroit fondee,
+<lb />Mais qu'vn rebut des flots, qui n’a rien merité,
+<lb />Treuue un accueil ſi doux chés voſtre Majeſté,
+<lb />Abbaiſſe vos penſers iuſques à ſa miſere
+<lb />C’est perdre vos faueurs, pluſtoſt que de les faire,
+<lb />N’eſtoit-ce pas aſſés, que vos pieux efforts
+<lb />Euſſent rendu le iour a ce mal-heureux cor ps
+<lb />-
+<lb />3
+<lb />Sans me ſeruir encor contre vos amys meſmes,
+<lb />Et hazarder pour moy, iuſqu’à des Diadeſmes,
+<lb />Euités de l’Epire, &amp; la rage, &amp; l’horreur,
+<lb />Liurès ce mal-heureux à ſa iuſte fureur,
+<lb />Appaiſes de ſon Roy le courroux equitable,
+<lb />Sauués les innocents, &amp; perdés le coupable,
+<lb />dat me joyto pus vonnt à vos propres deſpens
+<lb />Et ne détournés point le treſpas que i’attends,
+</sp>
+<sp type="MainZone-Sp"><lb />ALMACIS.
+<lb />Eſt-ce que vostre cœur ſent de la violence
+<lb />En vn ſi beau ſuiet d’exercer ſa vaillance?
+<lb />Toute la Dalmatie attend de vostre bras
+<lb />L’honneur de voir l’Epire, &amp; ſa Couronne à bas;
+<lb />Et comme ſi deſia vos mains eſtoient laſſees
+<lb />Voſtre eſprit s'entretient de funestes penſees.
+<lb />Uoyons à quoy le Ciel a deſtiné vos ans,
+<lb />Et mourons glorieux, ou viuons triomphans.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />ds lin felste momti ina vit est heſinee ,
+<lb />Touſiours en butte au ſort, touſiours infortunee,
+<lb />Et l’horreur de la mort eſt plus chere à mes yeux,
+<lb />Que ne leur fut iamais la lumere nes Giena,
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />A qui n’eſpere rien, la mort eſt ſouhaitable;
+<lb />Mais de quelles grandeurs n'eſtes-vous point capa<lb />ble?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Floronde ne vit plus, &amp; ſa poſſeßion,
+<lb />Eſtoit le ſeul obiet de mon ambition.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Que vous pouuoit Floronde offrir qu’vne Couronne?
+<lb />Et qu'importe qu'vne autre, ou qu'eut vous la don<lb />ne?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Elle s’offroit ſoy-meſme, &amp; c’estoit me donner
+<lb />Tout ce qu’vn heureux ſort me pouuoit deſtiner.
+</sp>
+<sp type="MainZone-Sp"><lb />SIEMIICIOS.
+<lb />Donc aucune à vos yeux ne peut eſtre ſi belle,
+<lb />Et vous n’y treuués rien, de ce qui fut en elle?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Toutes ont pour mes yeux de trop dignes attraits,
+<lb />Maη tvurtς poui mom cuun om umutiles traits.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Pour l’oublier ſi-toſt, ſa perte eſt trop recente,
+<lb />Mais la force du temps paſſera voſtre attente.
+</sp>
+<sp type="MainZone-Sp"><lb />CHEANDRV.
+<lb />Auant que de former des deſſeins inconstants,
+<lb />Ie m'exempteray bien de la force du temps.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />La mort ſeule vous peut ſoustraire à ſon Empire.
+</sp>
+<p type="MainZone-Other"><lb />SA
+<lb />–
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Et la mort eſt außi le ſeul bien ou i'aſpire.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS, ſas
+<lb />Ma ſœur, luy dois-ie, ouurir les ſecrets de mon ſein,
+<lb />Halnon, reſiſte, lâche, a ce honteux deſſein.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Vous n’aués que trop dit, ſa froideur eſt extréme
+<lb />Et me touché (Madame) à l'égal de vous-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />ALMACIS.
+<lb />L’abſence change enfin les plus fermes amants,
+<lb />Et le temps reſoudra vos diuers ſentiments:
+<lb />Cependant estimés que ie tire aduantage
+<lb />Et de voſtre preſence, &amp; de voſtre courage,
+<lb />Et qu’auecques vos ſoings, et vos ſages conſeils,
+<lb />Ie meſpriſe l’Epire, &amp; tous ſes appareils.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Pour n’estre pas ingrat, plus que pour ma deffence,
+<lb />J'employray tous mes ſoings, &amp; toute ma puiſſance;
+<lb />Ce cœur ne ſera lent, ny ces bras engourdis,
+<lb />Et ie mettray la peur au ſein des plus hardis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVATRIESME.
+<lb />LA REYNE, CEPHALIE,
+<lb />CLEANDRE, LA NOVRRICE,
+</p>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />Onſieur, vn de vos gens, treuué ſur le riuage,
+<lb />IV TOù le Ciel comme vous le tira du naufrage,
+<lb />Demande à vous parler.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />O Dieux! dois-ie eſperer,
+<lb />Qu'il me reſte quelqu’vn auec qui ſouſpiren?
+<lb />Que voſtre Maieſté ſouffre que ie le voye,
+<lb />le reuiens,
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Non, qu’il entre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Une ſecrette ioye
+<lb />Réueille en mon eſprit certain reſte d'eſpoir;
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />qui eſt
+<lb />LA NOVRRICE, LISANOR, flosonde
+<lb />LA NOVRRICE.
+</p>
+<p type="MainZone-Head"><lb />Ntrés;
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />rauy
+<lb />C’eſt toy mon cœur! ô Dieux! te puis-ie voir?
+<lb />Quoy ie reuoy?
+<lb />Iuy fait ſigne des yeux, &amp;
+<lb />L'ISANOR, ſuy ſertant les mains
+<lb />Monſieur, que la rage de l’onde,
+<lb />Au lieu de me ſauuer, n’a reſpecté Floronde:
+<lb />I'ay veu tomber, helas! dans ce traiſtre Element
+<lb />Au faux iour d’vn éclair, cet obiet ſi charmant;
+<lb />Et vonue pour moy feuu ne fen pus tnpuede,
+<lb />Affin que vous ſçeußiés ceste triſte nouuelle.
+</sp>
+<sp type="MainZone-Sp"><lb />faiſant le
+<lb />CLEANDRE, uiſte
+<lb />Floronde ne vit plus?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Je vis ce corps ſi beau
+<lb />Diſparoistre cent fois, &amp; paroistre ſur l’eau,
+<lb />Poſſedant ce butin, les ondes glorieuſes
+<lb />Pouſſerent iuſqu’au Ciel leurs vagues furieuſes,
+<lb />D ij
+<lb />S'étendirent en l’air, &amp; paſſerent leurs bords,
+<lb />De peur qu’elles auoient de perdre ce beau corps;
+<lb />Qu'en ce mouuant cercueil, n’eus-ie ma ſepulture,
+<lb />Quand le Ciel me fiſt voir ceſte triſte aduanture.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />C’eſt, Prince infortuné, c’est apres ce diſcours,
+<lb />Qu’il t’est lâche et honteux de conſeruer tes iours,
+<lb />Souffrés mon deſeſpoir, &amp; que mon corps, Madame,
+<lb />Tombe deſſous l’effort de cette heureuſe lame;
+<lb />Otms mpejmemens! ô deſſeins ſuperflus!
+<lb />De vouloir que ie viue, &amp; Floronde n’eſt plus,
+<lb />O cruel accident! ô fatale aduanture!
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Je la plains comme vous, &amp; ie ſçay qu’elle est dure,
+<lb />Mais vous faictes paroiſtre vn cœur trop abatu,
+<lb />Monſtrès en vn grand mal, vne grande vertu;
+<lb />Tuuque tous ces uſfaurs, que uu tugo cous liure,
+<lb />Ne vous la peuuent rendre,&amp; la faire reuiure,
+<lb />On ne repaſſe point le noir fleuue des morts,
+<lb />C’est là, que le Ciel meſme a borné ſes efforts.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />I'ay trop, i’ay trop veſcu, ſouffrés que l'Albanie
+<lb />Maccorde ce qu’icy voſtre pitié me nie,
+<lb />Mon ſupplice rendra ſes peuples ſatisfaits,
+<lb />It ma mort entre vous rétablira la paix:
+<lb />Floronde, vnique obiet de mes triſtes penſees
+<lb />Sur les ondes du Stix, ſi tu les as paſſees,
+<lb />Attend ce mal’heureux, i’y porteray mes pas,
+<lb />Et quelques iours au plus different mon trépas,
+<lb />Entend mes tristes cris, &amp; la ferme aſſeurance,
+<lb />Que tu dois conſeruer de ma perſeuerance;
+<lb />Iamais obiet que toy ne me pourra toucher,
+<lb />Ton nom me fut touſiours &amp; ſera touſiours cher,
+<lb />I'ay tenté contre moy, ce que n’a pû l’orage,
+<lb />Alors que ie t’ay creuë immolee à ſa rag
+<lb />I'ay reietté priere, &amp; conſeil, et raiſon,
+<lb />3
+<lb />Et i’ay cherché le fer, la flame, &amp; le poiſon;
+<lb />Mais croyant m’obliger, on m’a caché ces armes,
+<lb />Accuſé mes ſouſpirs, &amp; condamné mes larmes,
+<lb />Tay ireuut tous les Dieux, &amp; tous les hommes
+<lb />ſourds,
+<lb />Et ma ſeule impuiſſance a conſerué mes iours;
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR.
+<lb />Floronde vous entend, &amp; ſon amour s’offence
+<lb />Que vous la ſouoçonniés de ſouffrir voſtre abſence,
+<lb />Elle eſt à vos coſtés, &amp; Parques, ny trépas
+<lb />Ne peuuent l’empeſcher de marcher ſur vos pas,
+<lb />Croyés qu'elle eſt ſenſible à vos plaintes ameres
+<lb />Qu'elle a plaint comme vous, vos communes miſeres,
+<lb />Et qu'en l’itat qu’elle est, ces funeſtes propos
+<lb />Ne peuuent plus ſeruir qu'à troubier ſon repos.
+<lb />Ei
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Que ie puiſſe, Madame, apres vn coup ſi rude
+<lb />Accorder quelque temps à mon inquietude,
+<lb />Donnés à ma douleur le reſte de ce iour,
+<lb />Que ſeul ie m’entretienne auecques mon amour,
+<lb />Ie ne tenteray rien contre ma triſte vie
+<lb />Uos trauaux, &amp; vos ſoings, vous l’ont trop aſſeruie.
+<lb />Ie la veux reſpecter, parce qu’elle est à vous,
+<lb />Et voſtre ſeul ſuiet me ſauue de mes-coups,
+<lb />Mais ſouffrés qu’vn moment, en ce regret extréme,
+<lb />I'aille auec Lyſanor.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Demeures icy meſme,
+<lb />Contre cet accident armés voſtre raiſon,
+<lb />Et ſoyés abſolu dans toute ma maiſon:
+</sp>
+<sp type="MainZone-Sp"><lb />la ſuy<lb />CEPHALIE, uan?
+<lb />Qe mon ejpon tp jomle, en ce mal que i'endu<lb />Rien de ce que ie voy ne m’eſt d’heureux augu
+<lb />ré:
+</sp>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />LTSANOR, LI CLEANDRE,
+<lb />ſeuls.
+</p>
+<sp type="MainZone-Sp"><lb />l’embraſ<lb />CLEANDRE, fant
+<lb />Eyne de mes deſirs, doux charme de mes ſens,
+<lb />NLa mort a reſpecté vos attraits innocens;
+<lb />Vous viués ma Deeſſe;
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />En cet excés de ioye,
+<lb />ſe doute que le comt, &amp; que te vous renoye,
+<lb />Onde, ſois reueree, Aſtres ſoyés benis,
+<lb />Et qu'enfin vos destins, ſoient pour iamats vnis,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Que le ſort deſormais arme toute l'Epire,
+<lb />Qu'il expoſe à mon bras quelque choſe de pire;
+<lb />Que n'exequuteray-ie auec ce beau ſecond,
+<lb />Et de quel ennemy ne pallira le front?
+<lb />Mais ò diuin ſuiet de mes ſecrettes plaintes?
+<lb />Quelle vaine raiſon vous oblige à ces feintes?
+<lb />Quel important deſſein, quels ſuiets ſi ſecrets
+<lb />Nous font tromper la Reyne, &amp; feindre ces regrets?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR
+<lb />En deux mots ſeulemeut apprenés ce myſtere,
+<lb />La Reyne qui vous ayme a tramé cette affaire
+<lb />On a cherché quelqu’vn échappé du danger
+<lb />Qui de ce faux rapport la voulust obliger;
+<lb />On ne treuua que moy, i'engageay mon ſeruice,
+<lb />des diæ- Et pour toüs ces preſens, ie luy rends cet office,
+</sp>
+<sp type="MainZone-Sp"><lb />C HaAAsnHs
+<lb />Mais nous luy conſeruons d’inutiles ennuys;
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Il m’eſtoit important de celer qui ie ſuis;
+<lb />Contre elle, &amp; contre nous la guerre eſt declaree,
+<lb />Et voyant ſon amour, par moy deſeſperee,
+<lb />Affin de détourner ces mortels differends,
+<lb />Eue nous eup uures aux mains dt mes parens,
+<lb />Qu'importe, que la hayne, ou l’amour la poſſede,
+<lb />Puisque nos maux enfin ont treuué du remede.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Quelle ioye eſt pareille à mon contentement?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR,
+<lb />Souſpirés toutefois, feignés adroitement;
+<lb />Mais voyons le Palais, &amp; dans ces galeries
+<lb />Allons entretenir nos douces reſueries,
+<lb />Et ſi quelque rencontre interrompt nos propos,
+<lb />Souſpirons, plaignons nous, &amp; pleurons à propos.
+<lb /><fw><lb />dd Auu2
+</fw></sp>
+<p type="MainZone-Head"><lb />LEOTE
+<lb />IIE
+<lb />SCENE PREMIERE
+<lb />SALMACIS, LYSANOR,
+</p>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Onfeſſe, Lyſanor, que ce cœur inſenſible,
+<lb />Aux attraits de l’amour eſt bien inacceßible,
+<lb />Que careſſes, ny vœux ne le peuuent toucher,
+<lb />Et que ie perds du temps à combattre vn rocher;
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />I'ay ſondé ſon eſprit, &amp; ie vous ay dépeinte,
+<lb />Le cœur navré du traict dont vous eſtes attainte,
+<lb />I'ay décrit vos ſouſpirs, &amp; figuré vos pleurs
+<lb />Mais il n’eſt indulgent qu'à ſes propres douleurs,
+<lb />Floronde eſt l'entretien de toutes ſes penſees,
+<lb />Sur cet vnique obiet elles ſont exercees,
+<lb />Par ſa modeſte humeur il ſe deffend d’amour,
+<lb />--- -
+<lb />Mid- a d -
+<fw><lb />E
+</fw><lb />Jl dit que pour vous plaire il quitteroit le iour,
+<lb />Qu’il vous ſouhaitte vn ſort égal à ſon enuie,
+<lb />Et qu’il eſt à vos ſoings obligé de ſa vie,
+<lb />Muis quuitendre des vœux de voſtre Majeſté
+<lb />Il deuoit eſtre exempt de cette vanité;
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Cette ieune beaute dont h'ayma les tharmes
+<lb />Eut elle des appas dignes de tant de larmes?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Ie doutois qu’elle pûſt luy plaire ſeulement,
+<lb />Et ie voudrois ſeruir un obiet plus charmant?
+<lb />Je croyois entendant ſes vœux, et ſes promeſſes,
+<lb />Que ſa dignité ſeule abtiroit ſes careſſes,
+<lb />Qu’il aymoit ſa grandeur, &amp; que ſa paßion
+<lb />Tenoit moins de l’amour, que de l’ambition;
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />L'amour qu'elle eut pour luy, fut-elle violente?
+</sp>
+<sp type="MainZone-Sp"><lb />LTSANON,
+<lb />Extréme, incomparable, &amp; pourtant innocente,
+<lb />Iamais par les appas d’vn diſcours ſuborneur
+<lb />Ce diſcret amoureux n’aſſaillit ſon honneur;
+</sp>
+<sp type="MainZone-Sp"><lb />CAEMACIS.
+<lb />Trauaille constamment à mettre dans ſon ame
+<lb />Des diſpoſitions à receuoir ma flame;
+<lb />Continué ardamment tes ſoings officieux,
+<lb />Figure mes ennuys, peints moy les pleurs aux yeux
+<lb />Et croy que tu t’acquiers vne amitié ſi forte,
+<lb />Que ie te ſeruirois en tout ce qui t'importe;
+<lb />Voila ce doux tyran, des yeux &amp; des eſprits,
+<lb />Dieux! que ce froid maintien me predit de meſpris;
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />CLEANDRE, SALMACIS, LYSANOR,
+<lb />conti<lb />SALMACIS, nuë</p>
+<sp type="MainZone-Sp"><lb />TRefue, trefue Cleandre à ces douleurs ameres,
+<lb />I Penſons à détourner nos communes miſeres;
+<lb />Eleuons nos penſees au deſſus de la mort,
+<lb />Faiſons troubler l'Enfer, &amp; la Parque, &amp; le ſort;
+<lb />Par les ſeuls appareils d’vne force infinie,
+<lb />Enuoyons la frayeur au camp de l’Albanie,
+<lb />Et ſignalons nos bras par de ſi grands exploicts
+<lb />Que tout le monde vn iour nous demande des loix.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />triſte
+<lb />Quel Aſtre conduira le ſort d’vn miſerable?
+<lb />Et ne rougira pas de m’eſtre fauorable?
+<lb />Le Ciel ſe plaiſt à voir tous mes deſſeins faillis,
+<lb />De ſes plus rudes traicts mes iours ſont aſſaillis,
+<lb />Jl m'a parens, et biens, &amp; maiſtreſſe rauié,
+</sp>
+<p type="MainZone-Lg"><lb />E n
+<lb />Et pour combler de maux, il me laiſſe la vie;
+<lb />Quel Aſtre en cet état, contre l’arrest des Cieux.
+<lb />Peut ſeconder mon bras, &amp; m'eſtre officieux?
+</p>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Suiuons, ſuiuons le cours d’vne immortelle gloire,
+<lb />Et banniſſons des morts l’importune memaire,
+<lb />Etouſfes au beſoing ces ſouſpirs ſuperſius,
+<lb />Qu'importent ces regrets à celle qui n'eſt plus?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Comme ma perte helas! ma peine eſt ſans ſeconde,
+<lb />Mes regrets ceſſeroient, &amp; i’oublirois Floronde?
+<lb />O barbare deſſein! tu ſçais cher confident,
+<lb />Dernier bien qui me reste en ce triſte accident,
+<lb />Tu ſçays quelle vnion aſſembla nos deux ames,
+<lb />Tes yeux furent teſmoins de nos fidelles flames,
+<lb />Touseouro iu conpuemu emtiu uunis nos ſecrets
+<lb />Et tu pris touſiours part en tous nos interests;
+<lb />Conte de quels attraits Floronde fut pourueuë,
+<lb />Et combien ſa memoire eſt chere à qui l’a veuë;
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Si vous me permettés de parler librement,
+<lb />Chaſque maiſtreſſe eſt belle aux yeux de ſon amant,
+<lb />Mais pour moy qui la vis d’vn œil d’indifference,
+<lb />La moindre en mon eſtime eust eu la preference,
+<lb />Un autre euſt esté libre, où vous auez aymé,
+<lb />Et Floronde en vn mot, ne m’auroit pas charmé;
+</sp>
+<sp type="MainZone-Sp"><lb />faiſant mine de
+<lb />CLEANDRE, uirer fon efsee.
+<lb />Souffrés qu’en la fureur dont mon ame est attainte
+<lb />Ie force du reſpect l’importune contrainte:
+<lb />Madame permettés;
+</sp>
+<sp type="MainZone-Sp"><lb />CA MACIS.
+<lb />Non, calmés ce courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Le traistre eſt ſans reſpect, pour des charmes ſi doux?
+<lb />Tu vu ſans l’adorer ce Soleil d'Albanie?
+<lb />Et ta confeßion à ſes attraits ſe nie.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Il ne fut iamais charme égal à ſa beauté,
+<lb />Elle fut vn Soleil, vne diuinité,
+<lb />De la terre, &amp; du Ciel, l’eſperance, &amp; l’enuie,
+<lb />Et pour la poſſeder les Dieux vous l'ont rauie,
+<lb />Eſt-ce la comme il faut obliger vos amours,
+<lb />Et cet Eloge enfit r’aſſeure-t’il mes iours?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Si tu ſçays de quel traict ſon ame fut bleſſee,
+<lb />Quel droict, &amp; quel Empire, eus-ie ſur ſa penſee;
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Sans deſſein de complaire à vostre paßion,
+<lb />Ie répondray ( Monſieur) de ſon affection;
+<lb />J'ay ſceu combien pour vous ſon ardeur fut extréme,
+<lb />I'ay cogneu ſes ſecrets à l’égal d’elle-meſme,
+<lb />Et ie ne pais douter du ſenſible tourment
+</sp>
+<p type="MainZone-Other"><lb />E
+<lb />Qu eue ſouſſte aux enfers pour voſre eibignement.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Par quel barbare ſort m’eſt la clarté renduë,
+<lb />Quel Dieu m’a conſerué, lors que ie l’ay perduë,
+<lb />Alon eeque tu inmin dieumcre emtoinoumjon deuoir:
+<lb />Madame permettés la plainte au deſeſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Enfin c’eſt trop cacher l’ennuy qui me poſſede,
+<lb />Cruel, comme ton mal, le mien eſt ſans remede,
+<lb />Suy, cher Cleandre, ſuy tes funestes deſſeins,
+<lb />Abandonne ta vie à tes barbares mains,
+<lb />Mais ne t’offence pas qu’vne Reyne importune,
+<lb />Suiue tuſqu'aux Enfers tes pas, &amp; ta fortune,
+<lb />Le Ciel s’oppoſe en vain au deſſein que i’ay pris,
+<lb />Et la vie, ou la mort, vnira nos eſprits.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />dd ton its muineurena teilt peine eſi tommune,
+<lb />Qu'à l’enuy tout le monde accroist leur infortune,
+<lb />Et mon malheur eſt tel, qu’en mon cruel tourment
+<lb />Vous treuués des ſuiets de diuertiſſement.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Non, non, c’eſt trop douter d’vne amour trop viſi<lb />ble,
+<lb />Que Cleandre auoüeroit, s’il n'eſtoit inſenſible,
+<lb />Il ſçait, il ſçait l’ardeur qui m’embraſe le ſein,
+<lb />Et ſon aueuglement prouient de ſon deſſein.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Triſte rebut des flots, trahy de la fortune,
+<lb />Qui par tout ſuis à charge, et par tout importune,
+<lb />Je ne me flatte point de ſentimens ſi faux,
+<lb />J'ignore toute choſe, excepté mes deffauts.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Sans obliger ma voix à parler de ma flame,
+<lb />Ly cruel ſur mon front les ſecrets de mon ame,
+<lb />Qu'a beſoing mon amour du ſecours de ma voix
+<lb />Mes yeux, et mes ſouſpirs, te l’ont dit tant de fois.
+<lb />Quoy tu n’obſerues pas les traicts de mon viſage?
+<lb />Cleandre ayant aymé, n’entend pas ce langage?
+<lb />S’il ne te ſuffit pas de ma confeßion,
+<lb />De Lyſanor, cruel, apprends ma paßion,
+<lb />Apprens la des effects; mon ſceptre, ma Couronne,
+<lb />Mes biens, mes dignités, l'éclat qui m'enuironne,
+<lb />Et moy-meſme captiue en tes aymables nœuds,
+<lb />Ne ſuffirons-nous point à l’acquerir mes vœux?
+<lb />O que d’vn traict fatal mon ame fut touchee,
+<lb />Quand ſur ton corps mourant, i’eus la veuë atta<lb />chee,
+<lb />Tout ſoüillé du limon, dont tu fus emporté,
+<lb />Tu me rauis les ſens, le cœur, la liberté,
+<lb />Ton viſage tout palle eut d’inuincibles charmes,
+<lb />Ie creus qu'vn Dieu mouroit, &amp; ie verſay des lar<fw><lb />mes.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Que ne puis-ie forcer cette fatalité,
+<lb />Qui faict de ma conſtance vne neceßité?
+<lb />Du tenebreux manoir où Floronde reſpire,
+<lb />Son œil ſur ma raiſon conſerue ſon Empire!
+<lb />Ce ieune Astre d’Amour, touſiours à mes costés
+<lb />Fay briller en ces lieux ſes diuines clartés;
+<lb />Par tout ceſte merueille à mes yeux ſe preſente,
+<lb />De moment en moment plus rare, &amp; plus char<lb />mante,
+<lb />Elle ne fut iamais plus viſible à mes yeux
+<lb />Quand elle reſpiroit la lumiere des Cieux;
+<lb />Floronde, beau Soleil des riues Eliſees,
+<lb />Où ſeront de mes pleurs tes cendres arrouſees?
+<lb />Quels Glauques, quels Tritons, quelles Nymphes,
+<lb />quels Dieux,
+<lb />Conſeruent de ton corps le butin precieux?
+<lb />Pardonnés, grande Reyne, au deüil qui me tranſ
+<lb />porte,
+<lb />Et ne combattés point vne amitié ſi forte,
+<lb />Vous profanés à tort d’adorables appas,
+<lb />Pour qui meſpriſe tout, &amp; ne les gouſte pas,
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Cleandre, i’attendray la fin de mon ſupplice
+<lb />De la force du temps, &amp; de vostre Juſtice,
+<lb />Ce pendant vous deues au bien de mes trais
+<lb /> - -- - --- ---
+<fw><lb />Accorder
+<lb />–
+</fw><lb />Accorder vos conſeils, &amp; preſter voſtre bras,
+<lb />Voſtre propre intereſt vous ioinct à ma fortune,
+<lb />Et nous aurons la honte, ou la gloire commune,
+<lb />Sous le Prince d'Epire, vn camp de ieunes Mars,
+<lb />Tient la ville aßiegee, &amp; couure nos ramparts,
+<lb />Conſultons du moyen de dißiper l’orage,
+<lb />Ou s’il y faut perir, faiſons vn beau naufrage;
+<lb />Que la victoire au moins couſte cher aux vain<lb />queurs;
+<lb />Et contre vn grand peril, faiſons voir des grands
+<lb />cœurs;
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Je vis pour vous ſeruir, &amp; mon obeyſſance
+<lb />Ne conſerue mes iours, que pour vostre deffence,
+<lb />Propoſons ſeulement vn genereux deſſein,
+<lb />Qui mette aux ennemis la frayeur dans le ſein.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />ſeul
+<lb />LYSANOR,
+<fw><lb />Ve mon ſort eſt mutin, quelle eſt ma deſtinee!
+<lb />Par quel ordre fatal ma vie eſt gouuernee?
+<lb />De ma perte à mes yeux on dreſſe l’appareil,
+<lb />Et contre moy la Reyne implore mon conſeil,
+<lb />- -
+</fw><lb />Elle encherit ſur moy du prix d’vn Diadeſme,
+<lb />Du prix de ſa fortune, &amp; du prix de ſoy-meſme
+<lb />Et ie ne puis qu’offrir à ſon ambition,
+<lb />Mon amour ſeulement eſt ma poſſeßion.
+</p>
+<p type="MainZone-Head"><lb />SCENE QVAT RIESME,
+<lb />CEPHALIE, LYSANOR,
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Nfin cher Lyſanor, ny reſpect, ny contrainte,
+<lb />Ne peuuent plus cacher cette ſenſible atteinte,
+<lb />Jl te faut auoüer ce deſſein amoureux
+<lb />Puisque par ton ſecours tu le peux rendre heureux;
+</sp>
+<sp type="MainZone-Sp"><lb />LY SANOR,
+<lb />Quel eſt ce doux obiet des ſoings que ie dois prendre?
+</sp>
+<sp type="MainZone-Sp"><lb />CETIALIE.
+<lb />C’eſt, helas! ſans rougir puis-ie nommer Cleandre?
+<lb />C’eſt pour luy ſeul qu’amour me pouuoit arracher
+<lb />Que puems, &amp; ule fouſpuos que ie ne puis cacher.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />On ne peut trop priſer ſon merite, &amp; ſes graces,
+<lb />Des eſprits les plus froids il peut fondre les glaces,
+<lb />Et l’Epire voyoit ſes plus rares beautés
+<lb />Dom jes ajmubies tois rangertenrs ubentes.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Floronde toutesfois eut toutes ſes careſſes,
+<lb />Et ſeule elle étouffa l'eſpoir de cent Princeſſes,
+<lb />Cut elle tant d’attraits à charmer ſa raiſon!
+<lb />Et quelle, Lyſanor, ſuis-ie en comparaiſon?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Telle qu’eſt le Soleil, ſur la moindre lumiere,
+<lb />Qui ſuiue de la nuict l’inégale courriere,
+<lb />Pour vous la peindre mieux; vous ſçaués qu’à la
+<lb />Cour
+<lb />On repreſente en vers des Hiſtoires d’amour,
+<lb />La ieuneſſe nous porte à ces ieux de Theatre,
+<lb />Et ſur tous autrefois i’en estois Idolâtre;
+<lb />Mon viſage en ce temps, &amp; plus ieune &amp; plus
+<lb />frais
+<lb />Sous les habits de fille auoit quelques attraits,
+<lb />Ie faiſois Amaranthe, ou Cloris, ou Syluie,
+<lb />Et de mes actions la Cour eſtoit rauie,
+<lb />Alors il me ſouuint que mille fois le Roy
+<lb />A faict comparaiſon de Floronde &amp; de moy,
+<lb />Dieux! diſoit-il a tous, la reſſemblance extrême.
+<lb />Voila ſon meſme geſte, &amp; ſon viſage meſme;
+<lb />Jugés par ce diſcours, quels furent ſes appas,
+<lb />Et puis qu'elle luy pleut, que ne ferés vous pas?
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Mon œil découure en toy d’aſſés douces merueilles,
+<lb />Et ie meure, ta grace a fort peu de pareilles,
+<lb />Plus on voit ton viſage, et plus il paroiſt beau,
+<lb />Chaſque inſtant y faict voir quelque charme nou<lb />ueau,
+<lb />Ton geſte eſt agreable, et ta façon gentille,
+<lb />De toy nature eust faict vne fort belle fille,
+<lb />Et i’estime le choix de ce fidelle amant
+<lb />Si l’obiect de ſes vœux eſtoit außi charmant;
+<lb />Mais, mon cher Lyſanor, il n’eſt pas impoßible
+<lb />Que ma fidelité le treuue vn iour ſenſible,
+<lb />Le temps ſur la memoire a des droicts abſolus,
+<lb />Il change les obiets qui la touchent le plus,
+<lb />Et le Ciel fauorable au beau nœud qui me lie,
+<lb />Peut où regna Floronde, établir Cephalie,
+<lb />Ne me refuſe point tes ſoings officieux,
+<lb />Et tu me ſeras cher à l'égal de mes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LISANOR,
+<lb />Noſtre propre intereſt à ce deuoir m’excite,
+<lb />Mais quoy que cet honneur excede ſon merite,
+<lb />Ie doute toutefois de cet heureux deſſein,
+<lb />Et que des traicts nouueaux puiſſent toucher ſon ſein,
+<lb />Pour luy la Reyne ſouffre vn ſemblable martyre,
+<lb />Elle offre à cet ingrat ſon throſne &amp; ſon Empire,
+<lb />Mais elle a ſon eſprit aſſailli vainement,
+<lb />El ja Piotonae jeme y regne avjothment.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />J'ay bien ſceu ſon amour, &amp; le nœud qui l’engage,
+<lb />Iuſqu’icy m’a contrainte à celer mon ſeruage,
+<lb />Mais enfin ce tyran des ieunes volontés,
+<lb />Cet enfant qui preſide à tant de libertés,
+<lb />Me contraint de forcer vn ennuyeux ſilence,
+<lb />Le reſpect que i'auois cede à ſa violence;
+<lb />Dy luy ſecrettement les vœux que ie luy faicts,
+<lb />L’amour, de traits diuers, faict de diuers effects,
+<lb />Le rang, les dignités ſont ſes moindres amorces,
+<lb />Et de ſoy ſeulement il emprunte ſes forces;
+<lb />Une ſecrette loy forme nos paßions,
+<lb />Paiui naiſire nos amours, &amp; nos auerſions,
+<lb />Et le meſpris qu’il faict des offres de la Reyne,
+<lb />Ne deſeſpere pas mon attente incertaine;
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR.
+<lb />Déchargés ſur mes ſoings cet amoureux ſoucy,
+<lb />I'employray mes efforts: mais quelqu’vn vient icy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />CETHALIE, DORISMOND, LISANOR,
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />I'eux! que cet importun a peu de complai<lb />ſance,
+<lb />La mort me ſeroit chere au prix de ſa preſence;
+</sp>
+<sp type="MainZone-Sp"><lb />DCRFOMOND.
+<lb />Aués vous relaſché ces meſpris rigoureux
+<lb />Dont vous deſeſperés tant d’eſprits amoureux?
+</sp>
+<sp type="MainZone-Sp"><lb />LEPHALIE,
+<lb />Aués vous corrigé cette importune enuie,
+<lb />Dont vous perſecutés le repos de ma vie?
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Quoy, ſeruir conſtamment voſtre rare beauté,
+<lb />Uous nuit, &amp; paſſe en vous pour importunité!
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Sans me faire expliquer, vous me deuriés entendre,
+<lb />Voſtre plus doux ſeruice est de ne m’en point rendre,
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />C'eſt rendre en peu de mots mon ſoupçon éclaircy
+<lb />---A.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />A qui veut qu'on s’explique il faut parler ainſi;
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Dieux! ce ieune etranger poſſede vn charme étrange!
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />ſi peui veuucoup yon fauique voſtre humeur ſe
+<lb />change.
+</sp>
+<sp type="MainZone-Sp"><lb />DORTSMOND,
+<lb />Il a bien ſur la voſtre obtenu cet effect.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Il vous a faict ialoux, c’eſt tout ce qu’il a faict.
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Nit pentaa tsbrantir te teur inatteſsiore.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />A qui poſſede vn charme, il n'eſt rien d'impoßible.
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Que faict ce doux aymant des beautés de ce lieu?
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Peut eſtre qu’il m’attend, &amp; ie le cherche adieu.
+<lb />ſeul.
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND,
+<lb />O ſeuere meſpris! ô Ciel! ô honte! ô rage!
+<lb />Capable d’animer le plus lâche courage,
+<lb />Quoy, ce ieune inſolent, ce vil rebut des flots,
+<lb />Vient iuſques à nos yeux troubler noſtre repos?
+<lb />L'onde le reſpectoit à deſſein de nous nuire,
+</sp>
+<p type="MainZone-Lg"><lb />Jl ne s’eſt conſerué qu’affin de nous détruire
+<lb />D'vn malheur euident le traiſtre a proffité,
+<lb />Il a ce qu’il n’eut pas en ſa proſperité:
+<lb />Il est de tous les cœurs l’amour &amp; les delices,
+<lb />Et de honteux dédains faict payer nos ſeruices,
+<lb />Epouſe pour ton bien l’interest de ces lieux,
+<lb />Et déliure la Cour de ce monſtre odieux,
+<lb />Fay triste Doriſmond, vn effort necéſſaire
+<lb />Contre l’enchantement de ce bel aduerſaire,
+<lb />Devn coup frappe cent cœurs enfermés dans ſor
+<lb />ſein,
+<lb />Et ne conſulte point en ce iuſte deſſein;
+<fw><lb />SCEN
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />CLEANDRE, DORTSMOND,
+</p>
+<sp type="MainZone-Sp"><lb />DORISMOND.
+<lb />Onſieur, certain ſuiet, où l'honneur m’inte<lb />?,
+<lb />Moblige à deſirer d’éprouuer vostre addreſſe,
+<lb />I’attends pour cet effect la faueur de vous voir
+<lb />Aux vieux murs du Palais, ſans ſuitte, &amp; ſur le ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEIEIVSNS.
+<lb />Sans plus examiner icy ma conſcience,
+<lb />I'attends cette faueur auec impatience;
+</sp>
+<sp type="MainZone-Sp"><lb />ſeul con<lb />CLEANDRE, jaue
+<lb />Quel outrage receu, quel mécontentement
+<lb />Porte ce Cauallier à ce reſſentiment?
+<lb />Peut-il de quelque tort charger mon innocence?
+<lb />Quelque ialoux ſoupçon ou ma faueur l’offence?
+<lb />I'empeſche ſes deſſeins, mais que mal à propos
+<lb />Ma grandeur l’incommode, &amp; trouble ſon repos,
+<lb />Et qu’il ſçait mal où tend le cours de ma fortune,
+<lb />Alors qu’il est ialoux de ce qui m'importune:
+<lb />Donnons luy toutefois ce diuertiſſement,
+<lb />Que l'aueugle periſſe en ſon aueuglement;
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIESME
+<lb />LYSANOR, CLEANDRE,
+<lb />luy frappant
+<lb />LYSANOR, faſteſpauie
+<lb />Y ſonge plus reſueur.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />A ce coup ie dois prendre
+<lb />Et uaiſer quei'aienas, in ne ven peux ueſfendre,
+<lb />Et nous treuuant ſi ſeuls ie croy qu’en ſeureté
+<lb />Ie me puis diſpenſer à cette priuauté.
+</sp>
+<sp type="MainZone-Sp"><lb />le bai<lb />LYSANOR, fant
+<lb />Jmportun, fay donc toſt, &amp; croy qu’on ne reſpire,
+<lb />Que d’acquerir ton cœur, &amp; m’en oſter l’Empire,
+<lb />Tu charmes tout le monde, &amp; de toute la Cour
+<lb />Tes yeux font ſans deſſein des victimes d’amour,
+<lb />Les miens ſont éblouys d’vne foule de Dames
+<lb />Qui veulent m’obliger à ſeconder leurs flames,
+<lb />on tu fatnde tu feejne à depuis vn moment
+<lb />Imploré mon ſecours pour ſon allegement.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />riant.
+<lb />Quel doit estre mon choix, en leur trouppe impor<lb />tune.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Prens toui ſi in me crois, n'en rejuſes pas vne.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie poſſede tes yeux, &amp; ces Astres charmants
+<lb />Uallent toute la Cour, et tous ſes ornements,
+<lb />I’ayme ces doux vainqueurs, et le reſte du monde
+<lb />Tenteroit ſans effect le deſſein de Floronde;
+<lb />Toy jeute as on iien qui pouuoit m'allather,
+<lb />Et toy ſeule as les traicts, qui me pouuoient toucher.
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR.
+<lb />Pour charmer toutefois nostre melancholie,
+<lb />Ei tu veux m’obliger feints d’aymer Cephalie,
+<lb />Et quand nous ſerons ſeuls, rions à ſes deſpens,
+<lb />Mais ſans paſſer la feinte, ou ie te le deffens.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie ne puis refuſer, quoy que tu me propoſes,
+<lb />Et pour te diuertir i’oſeray toutes choſes,
+<lb />Uoy moy changer d’humeur &amp; feindre adroictement;
+<lb />Mais donnons au conſeil vne heure ſeulement.
+</sp>
+<p type="MainZone-Head"><lb />TACIEEIIEE
+<lb />SCENE PREMIERE.
+<lb />veſtu de
+<lb />CLEANTES ROY D’EPIRE, aueu
+<lb />chefs de
+<lb />ALCANDRE, ACHANTHE, guetta
+<fw><lb />ALCANDRE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Uisque ſceptres, grandeur, rang, ny titres, ny
+<lb />marques,
+<lb />Sp Ne peuuent affranchir de la rigueur des Par<lb />ques,
+<lb />Et que ces noires ſœurs, ſous leurs tragiques lois
+<lb />Rangent également les Bergers &amp; les Rois,
+<lb />Ne vous conſommés point d’vne douleur amere,
+<lb />Conſerués nous le fils, ſi nous perdons le pere;
+<lb />Vn implacable Dieu qui n’eut iamais d’autels,
+<lb />Eut ce droict en partage entre les immortels,
+<lb />De pouuoir s’aſſouuir de ſang &amp; de carna
+<lb />Et de ne diſtinguer les qualités ny l’aage,
+<lb />e,
+<lb />Ce ſceptre, que le Ciel vient de mettre en vos mains,
+<lb />Vous éleus beaucoup ſur les autres humains;
+<lb />Mais en ce noir ſeiour où toute ame deuale,
+<lb />D'vn throſne, &amp; de plus bas la deſcente eſt égale,
+<lb />Et voſtre Maieſté ne s’exemptera pas
+<lb />Ou de nous deuancer ou de ſuiure nos pas,
+<lb />Donc forcés vos douleurs &amp; que voſtre ame, Sire,
+<lb />Sur nous,&amp; ſur vous meſme ayt vn egal Empire,
+<lb />Acquerez cette gloire entre les autres Rois
+<lb />D'eſtre l’obſeruateur de vos premieres lois.
+<lb /></sp>
+<sp type="MainZone-Sp"><lb />CLEANTES.
+<lb />Quoy, ie verrois ſans pleurs la mort qui nous ſepare,
+<lb />En ces occaſions la conſtance eſt barbare,
+<lb />L’onde a faict de ma ſœur ſon butin precieux,
+<lb />Mon pere l’a ſuiuie en ces funeſtes lieux,
+<lb />mi puumy veemmmvmeqemmuuuurmes,
+<lb />Et ma conſtance, helas! ne rendroit pas les armes,
+<lb />O barbare conſeil! ô Ciel iniurieux!
+<lb />Parque trop inhumaine, &amp; trop ſeueres Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />chef de
+<lb />ACHANTHE, guerre
+<lb />Vn Roy qui vit ſans ſoings en ſa natale riue,
+<lb />Dont la paix rend la vie, &amp; la valeur oyſiue,
+<lb />Dont vn honteux repos tient les ſens enchantés,
+<lb />a ii
+</sp>
+<sp type="MainZone-Sp"><lb />Et que la mort ſurprend entre ces voluptés,
+<lb />Comme il meurt ſans lauriers, ſans gloire, &amp; ſans
+<lb />eſtime,
+<lb />Rend à ſes ſucceſſeurs la pitié legitime,
+<lb />On le plaint iuſtement, ſa honte faict nos pleurs,
+<lb />Et ſa memoire ceſſe auecques nos douleurs;
+<lb />Mais vn, dont la valeur n'a point eu d’heures cal<lb />mes,
+<lb />Et qui meurt dans vn camp enuironné de palmes,
+<lb />Dire il fut vn grand Prince il a bien combattu,
+<lb />C’est le plus beau tribut qu’on doiue à ſa vertu,
+<lb />Telles de Thaumaſis furent les deſtinees,
+<lb />Jl meurt chargé d’honneurs, de palmes, et d’annees,
+<lb />C’eſt enuier ſon bien que de plaindre ſon ſort,
+<lb />Et l’on doit d’vn œil ſec voir vne illustre mort;
+<lb />Acheuons ſeulement le deſſein de ſes armes,
+<lb />Que le ſang des vaincus luy tienne lieu de larmes,
+<lb />Et que Jara détruicte,&amp; ſes murs renuerſés
+<lb />Faſſent chercher vn iour où furent ſes foſſés.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTES.
+<lb />Tel eſtoit le deſſein de cet heureux Monarque,
+<lb />Qui du Royaume noir paſſe la triste barque,
+<lb />Telle eſt de ſon armee encor l’intention,
+<lb />Et telle est de ſon fils la iuſte paßion,
+<lb />Rendons noſtre valeur &amp; ce ſiege celebre,
+<lb />Ne faiſons de Iara qu’vn Theatre funebre,
+<lb />de<lb />Des bras de Salmacis tirons ce rauiſſeur,
+<lb />Que ie dois immoler aux Manes de ma ſœur,
+<lb />Qu'à ſes plus fiers ſoldats mon bras ſoit redoutable,
+<lb />Et que l’innocent meure auecques le coupable;
+</sp>
+<p type="MainZone-Head"><lb />LYSANOR,
+<lb />Vas-tu donc mon ſoucy?
+</p>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME.
+<lb />CLEANDRE, LYSANOR,
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Ie te dois annoncer
+<lb />Non ſans beaucoup de peine, (il le faut confeſſer)
+<lb />Une perte à tous deux également commune,
+<lb />deu on peus nenmer lu vonnt, &amp; muuuaiſe for<lb />tune,
+<lb />Mais ſi tu veux ſçauoir ce ſenſible mal-heur,
+<lb />Diſpoſe ton amour à vaincre ta douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR.
+<lb />Cette étroicte vnion de nos ieunes courages
+<lb />Qui m'oste à mes parens, qui m'expoſe aux naufra<lb />s.
+<lb />Qui m’a faict ſuiure icy ta fortune, &amp; tes pas,
+<lb />elle autre paſsion ne vaintroit elle pass
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ce Prince dont tu tiens le bien de la naiſſance,
+<lb />El t'a faict pour ma gloire exercer ta conſtance,
+<lb />Que ſert de prolonger des diſcours ſuperflus?
+</sp>
+<sp type="MainZone-Sp"><lb />LTSAICOR.
+<lb />Acheue donc mon cœur;
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Et bien il ne vit plus,
+<lb />Au poinct que l’Orient dißipoit les tenebres
+<lb />On a veu de ſa mort les appareils funebres,
+<lb />Vn de nos eſpions reuenu de ce pas
+<lb />Quand tu m’as rencontré m’apprenoit ſon trépas,
+<lb />Arriué plein de gloire à l'hyuer de ſon aage,
+<lb />Il ne pouuoit du Ciel ſouhaitter dauantage,
+<lb />Jl meurt craint, &amp; chery des plus ingrats eſprits,
+<lb />Et la mort l’a pluſtoſt attendu que ſurpris.
+</sp>
+<sp type="MainZone-Sp"><lb />LISANOR,
+<lb />Atteinte iuſqu’au cœur, froide, l’ame troublée,
+<lb />Je ſents de tant d’ennuys ma fortune comblee,
+<lb />Que ce triſte rapport m’interdit à la fois
+<lb />Et l’vſage des ſens &amp; celuy de la voix,
+<lb />Il est vray que ſes ans touchoient ſa ſepulture,
+<lb />Qu’il deuoit comme tous ce tribut à nature,
+<lb />Et qu’il tombe d’vn coup plus doux, qu’impetueux
+<lb />Außi
+<lb />Außi, ie voy ſa mort d’vn œil reſpectueux,
+<lb />Et ie n’accuſe point ces puiſſances ſuprèmes
+<lb />Qui n'épargnent grandeurs, ſceptres, ny Diademes;
+<lb />Ie n’accuſe que moy: le plus fort déplaiſir,
+<lb />Dont, en cet accident, ie me ſente ſaiſir,
+<lb />C’eſt qu’il ait emporté ſur la riue Eliſee
+<lb />Une douleur, qu’enfin le temps euſt appaiſee,
+<lb />Cette iuste douleur, que ſa fille ait eſté
+<lb />Coupable du meſpris de ſon authorité:
+<lb />Vn iour à ſa fureur i'euſſe arraché les armes,
+<lb />Mais ſa minuuuy cemeppe mien mnms,
+<lb />Et ne me laiſſe point la ſatisfaction
+<lb />De l’auoir veu ſenſible à noſtre affection.
+</sp>
+<sp type="MainZone-Sp"><lb />SLEANDRE,
+<lb />La mort qui faict en nous tant de metamorphoſes,
+<lb />Luy faict voir aux Enfers la nature des choſes,
+<lb />Et là d’vn œil ſubtil qui perce iuſqu’à nous,
+<lb />Il découure vn ſuiet de calmer ſon courroux:
+<lb />Il voit la pureté qui preſide à nos flames,
+<lb />Jl cognoiſt de quels traicts l’amour touche nos ames,
+<lb />Et, comme il eſt exempt de toute paßion,
+<lb />Ne vous immole plus a ſon ambition;
+<lb />Auec ce ſentiment reuerons ſa memoire
+<lb />Estimons ſes vertus &amp; publions ſa gloire,
+<lb />Ne vous affligés point d’vn inutile ennuy,
+<lb />Mais qu'on remarque en vous quelque choſe de luy,
+<lb />Imités cette force &amp; ce courage extréme
+<lb />Qui le rendirent ſeul comparable à ſoy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Le bien de voir ton ſort à mon destin vny
+<lb />Me rend ſeul ſupportable vn tourment infiny,
+<lb />Tu faicts toute ma force, &amp; toute ma conſtance,
+<lb />El ma raiſon jans toy jeron jans remiente,
+<lb />Toy ſeul,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />N’acheue point, &amp; pluſtoſt mon ſoucy,
+<lb />Meditons vn moyen de nous tirer d’icy,
+<lb />Tu ſçais les paßions qu’en cette Cour excite
+<lb />Le malheur qui me ſuit, pluſtoſt que mon merite,
+<lb />Et touſiours refuſant comme touſiours preſſé,
+<lb />Je crains vn triſte effect d’vn amour offencé,
+<lb />La Reyne peut enfin releuer ſon courage,
+<lb />Et d’vne extréme amour faire vne extréme rage;
+<lb />Ce ieune, &amp; doux tyran de nostre liberté,
+<lb />D’enfant eſt vn Lyon, quand il eſt irrité,
+<lb />Puis qu’enfin le Demon, que l'Epire reuere,
+<lb />A faict tomber ſon ſceptre en la main de ton frere,
+<lb />Et que vos cœurs ſont ioincts d’vne étroicte amitié,
+<lb />Forçons nostre malheur, implorons ſa pitié
+<lb />En voicy le moyen; il faut prier la Reyne,
+<lb />De ſouffrir qu'vn duel tire elle, &amp; nous de peine,
+<lb />Qu'elle enuoye vn heraut, &amp; qu’il me ſoit permis
+<lb />D’appeller le plus fier du camp des ennemys,
+<lb />Qu'à l’autre le plus fort faſſe mordre la terre,
+<lb />Et que ce ſeul combat acheue cette guerre;
+<lb />Ma priere obtiendra tout l’aueu qu’il nous faut,
+<lb />Et de ce feint appel tu ſeras le beraut;
+<lb />Tes yeux en ce beſoing te fourniront des larmes,
+<lb />Qui de la main du Roy feront tomber les armes,
+<lb />Tu ſeras à ce Prince auoüer nostre amour,
+<lb />Et nous nous tirerons de ce fatal ſeiour.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR,
+<lb />Il ſuffit; quelque effort dont ſon bras ie menace,
+<lb />fe feray ma douleur ſi digne de ſa grace,
+<lb />Qu'vn agreable effect ſuiura nostre deſſein
+<lb />Et que i’amolirois vn rocher en ſon ſein;
+<lb />Sus donc, exequutons cet aduis ſalutaire,
+<lb />Va diſpoſer la Reyne a cette heureuſe affaire,
+<lb />Et ſouffre que ie réue vne heure ſeulement,
+<lb />En attendant ſon ordre &amp; ſon commandement.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR,
+<lb />Donc ce vieillard affamé
+<lb />e
+<lb />HH
+<lb />Qui vit de ce qu’il engendre,
+<lb />D'vn Prince ſi renommé
+<lb />N'a faict qu’vn monceau de cendre;
+</sp>
+<p type="MainZone-Lg"><lb />Donc, on ne peut euiter
+<lb />Les auares mains des Parques,
+<lb />Et ny ſuiets, ny Monarques
+<lb />Ave teut pehuent tebsier.
+</p>
+<p type="MainZone-Lg"><lb />Mes yeux m’en vont fournir; Dieux! ne puis-ie vn
+<lb />moment,
+<lb />En ce comble d’ennuys ſouſpirer librement?
+</p>
+<p type="MainZone-Lg"><lb />Digne obiet de mes douleurs,
+<lb />Triſte autheur de ma naiſſance,
+<lb />Si deux fontaines de pleurs
+<lb />Peuuent lauer vne offence,
+</p>
+<p type="MainZone-Head"><lb />SCENE TROISIESME.
+<lb />CETHALIE, LY SANOR,
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />S-tu, cher Lyſanor, ma paßion dépeinte?
+<lb />ILEtably mon eſpoir ou confirmé ma crainte.
+<lb />Treuueray-ie ſon cœur acceßible à mes veux?
+<lb />Et le rangerons-nous au deſſein que ie veux?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Dieux! comme auec le temps toute choſe s’efface!
+<lb />Tel ſe ſent conſommer qui n'eſtoit que de glace,
+<lb />Tel ſe deſeſperoit qui vit enfin content,
+<lb />Et pour ces changemens il ne faut qu’vn inſtant.
+</sp>
+<sp type="MainZone-Sp"><lb />CEIIa IXsTue.
+<lb />Que t’a faict eſperer cet obiet adorable?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Qu’il ſeroit tout à vous;
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />O diſcours fauorable!
+<lb />Quoy, ton maistre eſt touché de ma fidelite?
+<lb />Ne me flattes tu point de trop de vanité?
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR.
+<lb />Un moment l’a tiré de ſa melancholie,
+<lb />Son humeur s’eſt changee au nom de Cephalie;
+<lb />Quoy? m’a-t’il reſpondu? ce doux obiet d’amour
+<lb />Conſent que ſous ſes loix ie reſpire le iour?
+<lb />Cede, (a t’il dit apres, ) importune memoire,
+<lb />D’vne qui ne vit plus, à ma nouuelle gloire,
+<lb />Cedes tristes regrets a mes nouueaux deſirs,
+<lb />Inutiles douleurs cedés à mes plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Doux &amp; cher confident, ie dois à ton addreſſe
+<lb />L'heur de le voir ſenſible à l’ardeur qui le preſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LTSANOR,
+<lb />I’ayderois mollement le pouuoir de vos traicts,
+<lb />Uous deués tout, Madame, à vos propres attraicts.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Adieu, ſi par tes ſoings mon amour eſt contente,
+<lb />Je feray que tes biens paſſeront ton attente.
+</sp>
+<sp type="MainZone-Sp"><lb />YSANOR
+<lb />ſeul.
+<lb />Quels biens me ſeroient chers, ſi riche à mes deſ<lb />pens
+<lb />Elle tenoit de moy le ſeul bien que i’attens,
+<lb />O d’vne triste cauſe euenement viſible!
+<lb />Elle me veut du bien, quand ie luy ſuis nuï<lb />ſible,
+<lb />Et ſon amour luy faict aueuglement preſſer
+<lb />Celle qui la recule au lieu de l’aduancer,
+<lb />Mais quelqu’vn vient icy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE QVAT RIESME,
+<lb />SALMACIS, CLEANDRE, LYSANOR,
+<lb />SAEMACIS,
+</p>
+<sp type="MainZone-Sp"><lb />QUe ce deſſein m'affige,
+<lb />A quel conſentement ma priere m’oblige!
+<lb />Sois à ma iuſte crainte vn peu plus indulgent,
+<lb />Par la longueur du ſiege ennuyons l’aßiegeant,
+<lb />I'ay faict munir Jara des viures neceyunts
+<lb />A rebuter l’eſpoir des plus fiers aduerſaires,
+<lb />Prenons aduis du temps; ne precipite pas
+<lb />Ce combat hazardeux qui ne nous preſſe pas,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Vous doutés iuſtement d'vn bras, &amp; d’vne épee
+<lb />Que vos commandements n’ont iamais occupee,
+<lb />Mais ie veux qu’vn proſpere &amp; prompt euenement,
+<lb />Reſolue en ma faueur ce douteux ſentiment;
+<lb />Laiſſés moy remporter cette illustre victoire,
+<lb />Et ne dérobés point cette marque a ma gloire,
+<lb />Mon courage me donne aſſés de-vanité
+<lb />Pour attendre vn laurier de vostre Maieſté.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Uoy iuſqu’où ie voudrois contenter ton enuie,
+<lb />Si ie t’oblige meſme au hazard de ta vie,
+<lb />Mais ne la conte plus au nombre de tes biens,
+<lb />Et ſonge que ie t’ayme, &amp; que tes iours ſont miens,
+<lb />Que cette occaſion t’oblige à les deffendre,
+<lb />Et dans tous tes deſſeins réponds moy de Cleandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Preparons au pluſtoſt cette illusire action;
+<lb />Accepte Lyſanor cette commißion,
+<lb />Icy i’éprouueray ta prudence, et ton Zele
+<lb />Fay toy conduire au camp, où ta charge t’appelle,
+<lb />Et du camp des Soldats aux pauillons du Roy,
+<lb />Qui de cette action te preſcrira la loy.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Cleandre plûſt au Ciel (&amp; tu me dois- bien croire,)
+<lb />Pûſſay-ie de mon ſceptre achepter ta victoire!
+<lb />Si le ſort eſt pour toy, n’attens point qu’vn laurier
+<lb />Au retour du combat ceigne ce front guerrier,
+<lb />Eſpere vne plus digne, &amp; plus riche couronne,
+<lb />Que Mars t'aura gaignee, &amp; que l’amour te doune
+<lb />--
+<lb />
+<lb />1mM Et
+<fw><lb />*7
+<lb />Le
+</fw><lb />La mienne, mon pouuoir, mon ſceptre, mon état,
+<lb />Et moy-meſme, ſerois le prix de ce combat,
+<lb />Que mes vœux vne fois te treuuent acceßible,
+<lb />Force pour tant d’amour ce courage inſenſible,
+<lb />Et que ie doiue enfin quelque traict d’amitié,
+<lb />Sinon à ta iustice au moins à ta pitié.
+<lb />Qu'à quelque complaiſance vne Reyne t’excite
+<lb />Par ſa douleur au moins ſi ce n’eſt par merite;
+<lb />Pourquoy me caches tu ces attraicts pretieux?
+<lb />Et pourquoy de mes pleurs détournes tu les yeux?
+<lb />Voy de ta cruauté ces glorieuſes marques,
+<lb />Voy tonjommeu pouniey veſpomue ceni luonarques,
+<lb />Mais ton moindre deſſein eſt de me ſecourir,
+<lb />Et tu ne m’oſes voir depeur de me guerir.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Qu'attend d'vn malheureux vostre douleur amere,
+<lb />Si meſme il ne peut rien pour ſa propre miſere?
+</sp>
+<sp type="MainZone-Sp"><lb />i El llelso
+<lb />Détache ton penſer du vain obiet des morts.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ce pouuoir grande Reyne excede mes efforts.
+</sp>
+<sp type="MainZone-Sp"><lb />ALMACIS.
+<lb />Et bien, n’esteins iamais cette ardeur inſenſee
+<lb />Et que touſiours Floronde occupe ta penſee;
+<lb />Je ne deſire point d’amollir ta rigueur,
+<fw><lb />
+</fw><lb />Conſerue luy tes vœux, ton eſprit, &amp; ton cœur;
+<lb />Ayme la, mais cruel: que pour le moins i’obtienne,
+<lb />Cette moitié de toy, qui ne peut eſtre ſienne,
+<lb />Qu’vne autre ayant l’eſprit, ie poſſede le corps,
+<lb />Ie ne t’oblige à vœux, careſſes, ny tranſports,
+<lb />Qu’aux froideurs ſi tu veux nulle ardeur ne ſuccede,
+<lb />Ne me poſſede point, mais que ie te poſſede,
+<lb />Souffre les qualités, &amp; d’Eſpoux, &amp; de Roy,
+<lb />Et ne me donne rien en receuant ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ceeſt trop vomn upfagerjie Out januu de l’onde
+<lb />(Mais lâche en quel danger expoſes tu Floronde?)
+<lb />Ha change ce diſcours,
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Acheue, que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />MDHINE,
+<lb />Que ie dois rendre aux flots ce butin qu’ils ont eu,
+<lb />Et que le dois punir de fon ingraitinde,
+<lb />Cet indigne ſuiet de voſtre inquietude.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Cruel, fay la ceſſer, &amp; ne la punis pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />La ſeule mort le peut; vos plus charmans appas,
+<lb />Voſtre ſceptre, vos biens, vos careſſes, vos larmes,
+<lb />Pour aſſaillir ma foy ſont d'inntiles armes,
+<lb />Et mes propres efforts le tenteroient en vain,
+<lb />Pan que teue eſt la loy de mon ſort inhumain.
+</sp>
+<sp type="MainZone-Sp"><lb />ALMACIS.
+<lb />Va, Barbare, tyran des mouuemens de l’ame,
+<lb />Indigne, &amp; lâche Autheur de ma cruelle flame,
+<lb />Monſtre, rocher mouuant, ſupplice de mes yeux,
+<lb />Homicide enchanteur des eſprits de ces lieux,
+<lb />Triomphe inſolemment de mon cruel martyre,
+<lb />Et meſpriſe vne Reyne eſclaue en ton Empire.
+<lb />Sous quelque étroicte loy, qu’amour l’ayt ſceu ranger. Elles?
+<lb />La mort ce dernier mal, l’en ſçaura dégager:
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME,
+<lb />CEPTALIE, CLEANDRE,
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />JOſtre froideur, Monſieur, excite ſa colere.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />dilonos quee cofene neuure,que feure te reuere,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Pleuſt au Ciel que te cœur auouaß ce propos;
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Et plûſt à vos beautés d’agreer mon repos,
+</sp>
+<sp type="MainZone-Sp"><lb />nn l li an a A Mo
+<lb />Quoy, ie vous oſterois vn ſceptre, vn Diadeſme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLLANDNE.
+<lb />On me peut achepter au ſeul prix de ſoy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />LEPHALIE.
+<lb />La Reyne à vos deſirs s’offre ſoy-meſme außi;
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Un obiet plus charmant faict naiſtre mon ſoucy;
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHAIIE.
+<lb />Quel eſt-ce doux obiet? Floronde.
+<lb />*
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE,
+<lb />Cephalie;
+<lb />L'amour ſuccede enfin à la melancolie,
+<lb />Floronde est ſatisfaicte apres vn long tourment
+<lb />Et ne s’oppoſe point à ce doux changement.
+</sp>
+<sp type="MainZone-Sp"><lb />CET IAIIEIES
+<lb />Quoy, ie verrois leandre à mes vœux acceßible?
+</sp>
+<sp type="MainZone-Sp"><lb />CEEANDRE.
+<lb />Quels ſerments voulés vous d’vne ardeur ſi viſible,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Au lieu de ces ſerments fay parler les effects,
+<lb />Et réponds ardamment aux vœux que ie te faicts.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Adieu, ſi vostre cœur parle par vostre bouche,
+<lb />Et ſi ſans me flatter ma paßion vous touche,
+<lb />Uous verrés des effects d’vne fidelité
+<lb />Digne de ma conſtance, &amp; de vostre beauté,
+<lb />Je reuiens de ce pas, certain deſir me preſſe
+<lb />Qui vous confirmera cette heureuſe promeſſe.
+</sp>
+<p type="MainZone-Other"><lb />in
+</p>
+<p type="MainZone-Head"><lb />SCENE SIXIESME.
+<lb />MALMACIS, CEYHALIE,
+</p>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Ueue ineſperée? o ſenſiblé tourment!
+<lb />I Que produira ma rage, &amp; mon reſſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />ſurpriſe.
+<lb />Madame cette offenſe où l'amour m’a portée.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Sorts, euite ma hayne, impudente, effrontée,
+<lb />O meſpris trop aueugle! ô honte! ô deſeſpoir!
+<lb />Jcy la patience excede mon pouuoir;
+<lb />Laiſſe icy ma raiſon ſuſpendre ton vſage,
+<lb />A tous ſes mouuements abandonne ma rage,
+<lb />Fauſſe fidelité, froideurs, meſpris, dédains,
+<lb />Venés contre ce traiſtre armer mes propres mains,
+<lb />Qu'à l'obiet de ſes vœux ma hayne le rauiſſe,
+<lb />Que de ſon lâche ſang ma fureur s’aſſouuiſſe,
+<lb />Et que ie faſſe voir à la poſterité
+<lb />Ce que peut vn amour iuſtement irrité.
+<lb />ſ--m- G
+</sp>
+<p type="MainZone-Head"><lb />SCENE SEPTIESME
+<lb />apoſté par
+<lb />AR GANT, AGYS, DAMIS, Beaimmosi
+<fw><lb />a Eiile
+</fw></p>
+<sp type="MainZone-Sp"><lb />JOicy l'heure, &amp; l’endroit preſcrit à nostre cri<lb />me,
+<lb />Où la mort de nos mains attend vne victime,
+<lb />Que la beauté de l’or, ce metal precieux
+<lb />Eblouyt doucement les eſprits,&amp; les yeux,
+<lb />Qu'elle excite de force &amp; qu’vne arme doree,
+<lb />Du plus lâche poltron rend la main aſſeuree,
+<lb />Amys, qu’il ſoit d’abord rudement aſſailly,
+<lb />Vn cruel chaſtiment ſuiuroit ce coup failly.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />St i’apperçoy quelqu’vn, approchons
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANT.
+<lb />C’est luy-meſme,
+</sp>
+<sp type="MainZone-Sp"><lb />Donnons,
+</sp>
+<p type="MainZone-Head"><lb />SCENE HVICTIESME,
+<lb />CLEANDRE, ARGANT &amp;c<lb />GLEANDRE,
+</p>
+<sp type="MainZone-Sp"><lb />Perfidie! ô trabiſon extréme!
+<lb />au bras Si le Ciel aſſaßins conduit vn iuſte bras,
+<lb />Auut t'Enjer aſſemvte ne voux ſauntron pas,
+</sp>
+<sp type="MainZone-Sp"><lb />O Ciel, ô Dieux!
+<lb />AGYS.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMIS.
+<lb />Je meurs, &amp; l’infame auarice,
+<lb />euneporre n te erme a jenme ſuppuiee.
+</sp>
+<sp type="MainZone-Sp"><lb />ARGANT.
+<lb />Helas! ce coup mortel est la punition
+<lb />D'vne ſi deteſtable, &amp; ſi noire action.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />A la fin iuſte Ciel, ta ſupréme puiſſant y
+<lb />A de leur trahiſon ſauué mon innocence,
+<lb />O crime le plus noir que veit iamais le iouri
+<lb />Quoy, tant de lâcheté regne dans ceſte Cour?
+<lb />--- -
+<lb />Doriſmond
+<lb />Doriſmond traicte ainſi, mais i’apperçoy ce traiſtre,
+<lb />Que la crainte, &amp; l’effroy font aſſés recognoiſtre.
+</sp>
+<p type="MainZone-Head"><lb />Vel conſeil dois-ie ſuiure! ô Dieux lil n'est pas
+<lb />muai inorle
+</p>
+<p type="MainZone-Head"><lb />SCENE NEVFIESME.
+<lb />DORISMOND, CLEANDRE,
+<lb />DORISMOND.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />A moy perfide, à moy;
+</sp>
+<sp type="MainZone-Sp"><lb />DORISMOND,
+<lb />bleſſé.
+<lb />Dure loy de mon ſort;
+<lb />Le Ciel rend iuſtement mon entrepriſe veine,
+<lb />Et mon crime reçoit vne trop douce peine;
+<lb />Recueille heureux guerrier, les fruicts de ton amour,
+<lb />Toffede ces beaux yeux qui me couſtent le iour,
+<lb />Le ſort à ta valeur deſtinoit Cephalie,
+<lb />Et rien n’empeſche plus le beau nœud qui vous lie,
+<lb />je meurs, ie ne vis plus.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />O Dieux! qu’entends-ie icy?
+<lb />Mon ſoupçon incertain eſt enfin éclaircy,
+<fw><lb />R
+<lb />G
+</fw><lb />Et ce ialoux charmé des yeux de cette belle
+<lb />A creu ſans fondement que ie bruſlois pour elle,
+<lb />Allons purger ce bras deuant ſa Maieſté,
+<lb />Et que toute la Cour ſçache ſa lâcheté.
+</sp>
+<p type="MainZone-Head"><lb />vn poignard à la main
+<lb />SALMACIS, entre ca fune.
+</p>
+<p type="MainZone-Head"><lb />SER PIXIESME.
+<lb />SALMACIS, LA NOVRRICE.
+</p>
+<sp type="MainZone-Sp"><lb />JOicy mon cœur, voicy dequoy te ſatisfaire,
+<lb />V Quellieu cache ce traiſtre a ma iuste colere?
+<lb />Oublions tout reſpect des hommes, &amp; des Dieux,
+<lb />La fureur qui me guide, &amp; l’amour n’ont point d’yeux,
+<lb />C’eſt peu pour le toucher que ma propre Couronne!
+<lb />Le ſuperbe meſpriſe à cauſe qu’on luy donne,
+<lb />Jl me fuit, &amp; mes yeux, charmes de tant de Rois
+<lb />Luy ſemblent des captifs indignes de ſes Loix;
+<lb />Ie luy ſuis odieuſe, épouuantable, horrible!
+<lb />O trop cruel affront! ô meſpris trop ſenſible!
+<lb />Mais ſi mes yeux n’ont pù, ma main le peut tou<lb />cher
+<lb />Et ce qu’il me refuſe, il le faut arracher.
+</sp>
+<sp type="MainZone-Sp"><lb />LA
+<lb />N
+<lb />OVRRICE.
+<lb />Quoy, voulés vous ſoüiller d’vne action ſi lâche
+<lb />L’éclat d’vne vertu qui n’eut iamais de taſche?
+<lb />Liurés pluſtoſt ce traistre aux mains de l’aßiegeant,
+<lb />Que voſtre Maiesté le vange, en ſe vengeant,
+<lb />l coispss til rueile es ets jairates guenres,
+<lb />Qui troublent vos plaiſirs &amp; menacent vos terres.
+</sp>
+<sp type="MainZone-Sp"><lb />ALMACIS.
+<lb />O timide conſeil non, non, vn ennemy
+<lb />Que d’autres ont vangé, n’eſt vange qu’à demy,
+<lb />Ma main doit à mon cœur ce meurtre qu’il reſpire,
+<lb />I’abandonne ma vie &amp; mon ſceptre à l’Epire,
+<lb />Le rang, les dignités, les titres abſolus
+<lb />Ne me ſeront plus rien quand il ne ſera plus;
+<lb />Qu’alors vne effrontee, vne ſœur indiſcrette,
+<lb />Entretienne de pleurs ſa paßion ſecrette,
+<lb />Qu'elle aille ſur ſa tombe exalter jon pounoir;
+<lb />Mais le peux tu cruelle, offencer et le voir?
+<lb />O barbare deſſein d’vne amour enragee;
+<lb />Qu'il me ſeroit amer d’en estre ainſi vangee!
+</sp>
+<p type="MainZone-Other"><lb />I
+</p>
+<p type="MainZone-Head"><lb />SCENE VNZIESME.
+<lb />CLEANDRE, SALMACIS, LA NOVRRICE,
+<fw><lb />tenant l’épee de
+<lb />CLEANDRE, Doriſmond.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Adame, auec mon bras, le celeſte ſecours,
+<lb />NID'vn nombre d’aſſaßins a deliuré mes iours;
+<lb />Sur vn appel ſecret dont i’ignorois la cauſe
+<lb />Ie cherchois Doriſmond, lors que la nuict s’eſt cloſe,
+<lb />Quand trois hommes armés pour leur commun mal<lb />heur,
+<lb />Au deſſein de ma mort ont rencontré la leur;
+<lb />Celle de Doriſmond a ſuiuy leurueguitir,
+<lb />Et la confeßion qu’en mourant il m'a faicte,
+<lb />M’apprend, que le ſuiet de ſon reſſentiment,
+<lb />Fut vn ialoux ſoupçon qu’il eut ſans fondement.
+</sp>
+<sp type="MainZone-Sp"><lb />LA REYNE.
+<lb />O ſigne trop certain de leur intelligence!
+<lb />Heureuſe occaſion qui s’offre à ma vengeance!
+<lb />Quoy, pour prouuer ſa flame, &amp; croiſtre nos trauaux,
+<lb />Il ſigne ſon amour du ſang de ſes riuaux,
+<lb />Et pour paroiſtre adroict, &amp; couurir ſon offence,
+<lb />Il feint des attentats contre ſon innocence?
+<lb />C’eſt trop deliberer, le public intereſt
+<lb />Oblige la luſtice à preſſer ſon Arreſt;
+<lb />Sus qu'en vne priſon, les bras chargés de chaiſnes,
+<lb />Il s’aille preparer à ſes futures peines,
+<lb />Et ſi toſt que le Ciel r’amenera le iour,
+<lb />Q'on ſatis faſſe aux Lois de iuſtice, &amp; d'amour.
+</sp>
+<p type="MainZone-Head"><lb />RCTE
+<lb />SCENE PREMIERE.
+<lb />CLLANIES RCOTDEIIRE,
+<lb />ALCANDRE, ACHANTHE, LYSANOR,
+</p>
+<sp type="MainZone-Sp"><lb />CLEANTES.
+<lb />Algré les mouuemens d’vne iuste colere,
+<lb />Qui destinoit Cleandre aux manes de mon
+<lb />pere,
+<lb />Puis qu’vn heureux deſtin te conſerue le iour,
+<lb />Que l’onde a reueré ta vie, &amp; ton amour,
+<lb />Ie reſpecte comme elle vne amitié ſi rare,
+<lb />Que n’oſa deſ-vnir cet Element barbare,
+<lb />Ie ne m’oppoſe plus au cours de tes plaiſirs,
+<lb />Et me laiſſe toucher à tes moindres ſouſpirs;
+<lb />Ta preſence, ma ſœur, a vaincu mes armees,
+<lb />. --- V- -- - – --
+<fw><lb />1
+</fw><lb />Elle a lié mes mains iuſtement animees,
+<lb />Aux charmes de la Reyne acquis vn ſeruiteur,
+<lb />Et de ſon ennemy faict ſon adorateur,
+<lb />Mais ſans trop exalter les traicts de ſon viſage,
+<lb />Sans faire d’vne femme vne immortelle image,
+<lb />Sans peindre le Soleil esblouy de ſes yeux
+<lb />Sans luy dreſſer vn temple, &amp; l'égaler aux Dieux:
+<lb />Fay moy de ſa beaute la naifue peinture,
+<lb />Et ne fay point à l’art ſurpaſſer la nature.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />I’ay trop peu dit encor &amp; vos yeux ſeulement
+<lb />Uous peuuent figurer vn obiet ſi charmant;
+<lb />Il ſu ffira (Monſieur) ſans vſer d’autre addreſſe,
+<lb />Qu'a ma confuſion moy-meſme ie confeſſe,
+<lb />Que mes yeux ayant veu ſa diuine beauté,
+<lb />N'ont iamais ſans horreur mon miroir conſulté.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTES.
+<lb />Il ſuffit, &amp; qu'elle ait, ou n’ait point de pareille,
+<lb />I’adore aueuglement cette rare merueille,
+<lb />Et ſi ſon cœur conſent au deſſein que ie faicts,
+<lb />Vn hymen entre nous retablira la paix,
+<lb />Qu'elle apprenne de toy combien ie la reuere,
+<lb />Sois de ma paßion fidelle meſſagere,
+<lb />Et pour comble des biens, que ie puis receuoir,
+<lb />S’il ſe peut, obtiens moy le bon-heur de la voir;
+<lb />Qu'aux portes ſeulement ſa Maieſté conduite
+<lb />M'accorde cet honneur auec égale ſuite,
+<lb />Qu'Alcandre t’accompagne en l'exequution,
+<lb />De ces ſoings que tu prends, pour mon affection.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />Si mon eſpoir n’eſt vain, cette heureuſe iournee
+<lb />Bornera nos ennuys par vn double hymenee,
+<lb />Vos armes cederont à ſes moindres regards,
+<lb />Et de ce beau ſeiour l’amour chaſſera Mars.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEVXIESME<lb />LE CAPITAINE DES GARDES,
+<lb />LES ARCHERS, LE BOVRREAV,
+<lb />CLEANDRE,
+<lb />CEPHALIE
+<lb />lié.
+<lb />à l'eſchaſ<lb />faut.
+</p>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Iniſtres criminels d'vne homicide rage,
+<lb />N TCruels, meſlés mon ſang à ce triste carnage;
+<lb />Ce ſpectacle odieux, ce tragique malheur,
+<lb />Eſt donc l’infame prix qu’on rend à la valeur?
+<lb />Qisceirt ſau nontcuje a fa vitvire eſ deues:
+<lb />'l perd ſa vie helas! pour l’auoir deffenduë?
+<lb />La vertu parmy vous a des punitions?
+<lb />Et la mort eſt le prix des belles actions?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAPITAINE DES GARDES,
+<lb />La volonté des Rois par l'effect ſeul s’explique,
+<lb />On ſuit leur paßion, ou iuſte, ou tyrannique,
+<lb />Et touſiours un ſuiet ſe porte iuſtement
+<lb />A l’execution de leur commandement.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />La Reyne ſuit l’aduis d’vne fureur extréme.
+<lb />Elle ſe faict ſeruir contre ſon repos meſme,
+<lb />La croire, est l’offenſer, luy plaire eſt la trahir
+<lb />Et ſon bon-heur dépend de luy deſobeyr.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Puiſque pour me ſauuer toute raiſon eſt vaine
+<lb />Ne vous conſommís point d’vne inutile peine;
+<lb />Deux ennemys ſans yeux la fureur, &amp; l’amour,
+<lb />Ont prononcé l’arreſt qui me priue du iour.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Cruels, laiſſés calmer ſon aueugle colere,
+<lb />Accordés ſeulement vne heure à ma priere,
+<lb />Vne heure l’oſtera de ſon aueuglement,
+<lb />Et luy fera benir vostre retardement,
+<lb />Sauuant cet innoiem, conuejouerfances
+<lb />De ſa Maieſté meſme auront des recompenſes,
+<lb />Et rien à ſa fureur ne vous pourra cacher
+<lb />Si vous luy rauiſſés ce qu’elle a de plus cher.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAP. DES GARDES.
+<lb />Ma charge est d’obeyr, &amp; ie ne puis ſans crime
+<lb />Differer cette mort, iniuſte, ou legitime,
+<lb />Nommer cette action, ſupplice, ou cruauté,
+<lb />Paſſe ma cognoiſſance &amp; mon authorité.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />L'âche, &amp; honteux effort, que ſouffre l’innocence,
+<lb />Tyrannique deuoir, barbare obeyſſance,
+<lb />Quel Demon furieux preſide en cette Cour,
+<lb />Où de honteuſes morts ſont des effects d’amour,
+<lb />Et qu’eſt-ce que la Reyne en ſa hayne effectuë,
+<lb />Puis qu’aymant elle outrage, &amp; que ſon amour tuë,
+<lb />L’onde l’a reueré, ce barbare Element
+<lb />Refuſa par reſpect d’eſtre ſon monument,
+<lb />Jl eſt de tous les cœurs l’eſpoir, &amp; les delices
+<lb />Et dedans l’amour meſme il trouue des ſupplices:
+<lb />Pour ſon bon-heur helas! &amp; pour noſtre repos,
+<lb />Que ne fui-il en proye à la ſureur des ſlots,
+<lb />Quelle fut la pitié qui luy rendit la vie,
+<lb />Puis qu’on ordonne apres qu’elle luy ſoit rauie.
+</sp>
+<sp type="MainZone-Sp"><lb />a ti<lb />LE CAP. DES GARDES, aac
+<lb />Madame permettés,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Donc mes pleurs, inhumains,
+<lb />Ne peuuent l’arracher à vos barbares mains,
+<lb />Bourreaux adioustés donc ma mort à ſon ſupplice,
+<lb />Sauués vn innocent ou qu’vne autre periſſe,
+<lb />Ne me refuſés point la faueur que ie veux,
+<lb />Frappés, &amp; qu’vn ſeul coup en faſſe tomber deux;
+<lb />Frappés, puis qu’à la mort mon amour ſeul l'expoſe,
+<lb />Et pour punir l’effect commencés par la cauſe,
+<lb />L.ij
+<lb />Que deliberès vous; non, non, tous vos efforts,
+<lb />veucti- Pretendent vainement de ſeparer nos corps,
+<lb />Si cette infame main n’en ſepare nos teſtes:
+<lb />Cruel porte les coups les voila toutes prestes.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Que ne puis-ie eſperer vne ſeconde mort
+<lb />Dont on recompenſaſt ce pitoyable effort,
+<lb />Par ces pieux tranſports vous obligés vn traistre,
+<lb />Et le plus criminel que le Ciel ait faict naiſtre,
+<lb />N’exigés point Madame vne confeßion
+<lb />Qui m’oſteroit l’honneur de vostre affiction,
+<lb />Et ſouffrés qu’en mourant ie conſerue la gloire,
+<lb />D'eſtre en vne ſi digne &amp; ſi helle memoire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIESME,
+<lb />apportant vn billet de
+<lb />IV TAGE, la part de la Reyne.
+</p>
+<sp type="MainZone-Sp"><lb />A Maieſté m’enuoye auec commandement
+<lb />SDe monſtrer ce bil et au Prince ſeulement,
+<lb />Et quand i' l’aura leu, s’il demande la vie,
+<lb />’ay charge d’empeſcher qu’elle luy ſoit raute,
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE,
+<lb />Cleandre, à mes deſpens, contente ſon eſpoir,
+<lb />Et me conſerue au moins le bon-heur de te voir,
+<lb />Si tu n’es point ſenſible à ſon amour extréme
+<lb />Et ſi mes pleurs ſont vaïns ſois ſenſible à toy-meſme,
+<lb />Laiſſe toucher ton cœur d’vn deſir mutuel
+<lb />Et qu’il luy ſoit plus doux pour t’eſtre moins cruel.
+</sp>
+<sp type="MainZone-Sp"><lb />ayaut leu, &amp; deſchirant le
+<lb />LEANDRE, billet ditaubourreaa.
+<lb />Accomply le deſſein que ta charge t’ordonne,
+<lb />Amour, plaintes, ſouſpirs, rang, dignités, Couronne,
+<lb />Et tout le monde enſemble aſſeruy ſous ma loy
+<lb />D'vn inutile effort attaqueroit ma foy,
+<lb />Madame, épargnés donc cette vaine deffence,
+<lb />Laiſſés de cet aſſaut triompher ma constance,
+<lb />Puis qu'il faut aſſouuir ſon aueugle courroux
+<lb />Et que viuant, ny mort, ie ne puis eſtre à vous.
+<lb />L iij
+</sp>
+<sp type="MainZone-Sp"><lb />L ARCHER.
+<lb />O ſenſible putté;
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />Barbare, quelles larmes
+<lb />Quelles affections, quelles plaintes, quels charmes,
+<lb />Obtiendroient quelque effect &amp; te pourroient toucher
+<lb />Si ton propre ſalut meſme ne t'eſt pas cher,
+<lb />Et bien, fay contenter ton homicide enuie,
+<lb />Preſſe vne infame main contre ta propre vie,
+<lb />Tu receuras de ceux qui t’auroient regretté
+<lb />Deo mniur mureo puuues comte iu eruaute,
+<lb />Quelques rudes aſſauts que le mal-heur nous liure
+<lb />Qui deſire ſa mort eſt indigne de viure.
+</sp>
+<sp type="MainZone-Sp"><lb />ſe tour<lb />CLEANDRE, nant
+<lb />Sus que tarde l'effect de cet iniuste arrest?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAP. DES GARDES.
+<lb />Voicy la Reyne, ô Dieux! en quel état elle eſti
+</sp>
+<p type="MainZone-Head"><lb />SCENE (
+<lb />SALMACIS, LA NOVRRICE,
+<lb />CLEANDRE, &amp;c.
+</p>
+<sp type="MainZone-Sp"><lb />courant
+<lb />SALMACIS, farieuſe
+<lb />Rreſtés inhumains; donc il n'eſt pas poßible,
+<lb />A ADe ſauuer vn barbare à ſoy-meſme inſenſible;
+<lb />Vn ingrat, qui n’eſt pas à ſes iours indulgent,
+<lb />Et qu’vn iuſte ſupplice oblige, en me vengeant,
+<lb />Donc, il ne ſuffit pas de tant de tyrannie,
+<lb />De mon repos troublé de ma raiſon bannie,
+<lb />Et tu m’aurois viuant cauſe peu de ſoucy
+<lb />Si ta mort, inhumain, ne m'en cauſoit außi;
+<lb />Tu ſouffres ſans regret quand tu me deſoblige,
+<lb />Il t’eſt doux de mourir, parce que tu m'affliges,
+<lb />Ton ſupplice te plaiſt d’autant que ie le crains,
+<lb />Et tu meurs ſatisfaict pource que ie te plains:
+<lb />Quel tygre ſi cruel, quel monſtre ſi barbare
+<lb />Payeroit de ce prix vne amitié ſi rare,
+<lb />Et quel malheur me peint ſi difforme a tes yeux,
+<lb />Qu'en cette election la mort te plaiſe mieux?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie ſçay trop de quel prix ſont vos aymables charmes,
+<lb />Et combien il eſt doux de leur rendre les armes,
+<lb />Ie ſçay combien de Rois enuieroient mon bon-heur
+<lb />Mais la loy de mon ſort m’ordonne cet honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Eſt-ce que dans l’éclat ton courage s’eſtonne?
+<lb />Crains tu de ſuccomber au fais d’vne Couronne?
+<lb />Pour tes timides pas vn troſne eſt il trop haut?
+<lb />Et t’y plairois tu moins que ſur vn échaffaut?
+<lb />La qualité de Roy peut-eſtre t’importune,
+<lb />Et tu crains les grands ſoings d’vne grande fortune,
+<lb />Et bien, pour eſtre tienne &amp; pour ſuiure tes pas,
+<lb />Faut-il fouler aux pieds ce qui ne te plaiſt pas?
+<lb />Faut-il ſacrifier à cet amour extréme
+<lb />Titres, poſſeßions, &amp; ſceptre, &amp; Diadeſme;
+<lb />Banniray-ie pour toy, reſpect, honte, &amp; deuoir?
+<lb />Et faut il ſeulement perdre tout, pour t’auoir!
+<lb />fe ſuis preſte a te ſuture en quelque ſolitude,
+<lb />Où t’on ſuperbe cœur ſouffre ma ſeruitude,
+<lb />Ou i’oſe dire enfin, on a receu ma foy
+<lb />J’appartiens à Cleandre, &amp; Cleandre eſt à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Pour prix de vos trauaux ordonnés grande Reyne,
+<lb />Qu'on rende mille fois ma mort plus inhumaine,
+<lb />Faictes
+<lb />Faictes qu’on ioigne au fer, la flame, &amp; le poiſon,
+<lb />Et que ie ſouffre tout pour voſtre gueriſon,
+<lb />Car, pour me faire aymer autre obiet que Floronde,
+<lb />Vous employriés en vain l’effort de tout le monde,
+<lb />Les yeux de Cephalie ont des charmes ſi doux
+<lb />Qu'on est trop glorieux de mourir de leurs coups,
+<lb />I’ay trahy toutefois cette ieune merueille
+<lb />Luy voüant vne ardeur a la ſienne pareille,
+<lb />Ie faiſois de ſa peine vn diuertiſſement,
+<lb />Et voſtre ialouſie estoit ſans fondement,
+<lb />Donc, que differés vous de punir ce coupable?
+<lb />Qi fouſſre vne mon porrible, epouuentable,
+<lb />Et quand auec mes iours mes maux ſeront paſſés
+<lb />Qu'on die, il ayma trop, &amp; n’ayma pas aſſés;
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />I'ay veu cruel, i’ay veu, quel ſoucy te tourmente?
+<lb />Pourquoy déguiſes tu cette ardeur violente?
+<lb />Pour couurir tes amours pourquoy mal à propos
+<lb />Des morts meſmes vas tu trauerſer le repos?
+<lb />Floronde fut l’obiect de ta melancholie,
+<lb />Mais tes ſoucys enfin naiſſent de Cephalie,
+<lb />A l’impudique ardeur qui cauſe von reuiment,
+<lb />Un lict est en obiet bien plus qu’vn monument,
+<lb />Si le Ciel à Floronde euſt conſerué la vie,
+<lb />I’aurois imprudemment trauerſe ton enuie,
+<lb />Tes ſouſpirs eſtoient deus à ſa fidelité,
+</sp>
+<p type="MainZone-Other"><lb />M
+<lb />Auant que d’estre grand mon feu fuſt auorté:
+<lb />Mais Floronde n’eſt plus: &amp; pour vne effrontee
+<lb />gardant Qui ne peut rien pour toy ma flame eſt reiettee,
+<lb />Songe helas! quelle erreur aueugle tes eſprits,
+<lb />Songe quel eſt l’obiet de tes lâches meſpris:
+<lb />Et ſi ie dois encor eſperer quelque place
+<lb />En ce cœur, qui pour moy n’est que marbre, &amp; que
+<lb />glace,
+<lb />S’il peut eſtre ſenſible aux maux que i’ay ſoufferts
+<lb />Viens eſſuyer mes pleurs et qu’on briſe tes fers,
+<lb />Pour empeſcher ta mort fay ceſſer mon ſupplice,
+<lb />F'ar la Tadilce iuejme, culte la paibiee,
+<lb />Pour ne te perdre pas, Cleandre, ſauue moy,
+<lb />Fay viure, &amp; tu viuras, fay grace, &amp; la reçoy.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Enfin c’eſt trop cacher à l’ardeur qui vous preſſe,
+<lb />nnt feertt tmportunt ſpa ti faut que it tonfeſſe,
+<lb />Que voſtre Maieste m’accorde ſeulement
+<lb />Qu’en ce lieu Lyſanor reuiendra ſeurement,
+<lb />Mais Dieux! a quel effort ma crainte ſe diſpenſe?
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Je te donne ſa vie, apprens moy ſon offence,
+<lb />Que ie ſouffre ſa peine, &amp; periſſe, au moment
+<lb />Que i’auray de ſa faute aucun reſſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />C’eſt trop deliberer: Lyſanor eſt Floronde
+</sp>
+<p type="MainZone-Lg"><lb />Le Ciel en me ſauuant la retira de l’onde,
+<lb />Il ſçait bien que perdant cette chaſte beauté,
+<lb />En me rendant le iour, ce bras me l’euſt oſté,
+<lb />L’onde, malgré vos vœux eut du reſpect pour elle
+<lb />Et de ſa mort ſa voix m'annonça la nouuelle,
+<lb />Pour d’expreſſes raiſons, cet obiet plein d’appas,
+<lb />A voſtre Maieſté ne ſe declara pas,
+<lb />Elle apprit voſtre amour &amp; redouta ſon pere,
+<lb />Qui pouuoit me priuer de ce bien, que i’eſpere,
+<lb />Elle eſt allee, enfin, trouuer ſon ſucceſſeur,
+<lb />Non pas en qualité de heraut, mais de ſœur,
+<lb />Et lors que i'eſperois ſon retour, &amp; ma grace
+<lb />Et que le Roy rendiſt la paix à cette place,
+<lb />I'eus auec Doriſmond ce fatal differend,
+<lb />Pour vn ialoux ſoupçon qu’il m’apprit en mourant:
+<lb />Floronde m’eſtant chere a l’égal de moy-meſme,
+<lb />Je ne l’ay point nommee en ce danger extréme,
+<lb />Uoyant tant de fureur, auecques tant d’amour,
+<lb />I'ay craint, que mon malheur ne luy couſtaſt le iour.
+</p>
+<p type="MainZone-Head"><lb />SCENE CINQVIESME.
+<lb />LYSANON, ET ALCANDRE, viennent.
+</p>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Uel tragique ſpectacle à mes yeux ſe preſente?
+<lb />EO ſiniſtre frayeur! ô ſenſible épouuant.!
+<lb />Dieux! qu’est-ce que ie voy quels forfaicts inhumains,
+<lb />Liure cet innocent à vos barbares mains?
+<lb />Cleandre, quelle offenſe ou quelle aueugle rage
+<lb />Quand tout rit à nos vœux t’expoſe à cet outrage?
+<lb />Madame, pardonnés à mes iustes tranſports,
+<lb />Et faictes qu’vn ſeul coup faſſe tomber deux corps.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS,
+<lb />Ie le dois pour vuime aux manes de Floronde
+<lb />Par luy cette Princeſſe eſt le butin de l’onde,
+<lb />Et cette belle fille eut de ſi doux appas,
+<lb />Qu'on péche autant que luy de ne la vanger pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR.
+<lb />Floronde voit le iour, &amp; ie ſuis, grande Reyne,
+<lb />Ce malheureux obiet qui fis naistre ſa peine,
+<lb />Je ne demande point vn ſi ſanglant arreſt,
+<lb />Je veux cette victime au meſme état, qu’elle eſt,
+<lb />Ie ſuis, ie ſuis Pioronde,
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Amoureuſe manie,
+<lb />Fureurs, aueuglement, contrainte, tyrannie,
+<lb />Cedes aux mouuements d’vne iuſte pitié
+<lb />Et ne trauerſes plus leur fidelle amitié;
+<lb />C’eſt trop, parfaicts amants, faire durer vos peines, vue ius
+<lb />C’eſt trop vous affliger; rompons, briſons ces chait
+<lb />nes,
+<lb />Triomphe du danger où tu t’es expoſé
+<lb />Par vn aueug ement que tu nous as cauſé,
+<lb />Gouſtes, belle Floronde, vn ſiecle de delices
+<lb />Que vos bras, ſoient ſes fers, vos baiſers ſes ſuppli<lb />ces,
+<lb />Et qu’en tous les endroicts qu’illumine le iour,
+<lb />On faſſe le recit d’vne ſi belle amour.
+</sp>
+<sp type="MainZone-Sp"><lb />DEEAICDRE
+<lb />Que vostre Maieſté d’vn eſclaue diſpoſe
+<lb />Et pardonne aux effects d’vne ſi belle cauſe,
+<lb />Et vous, dont i’ay trahy le repos, &amp; les vœux.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE.
+<lb />C’eſt trop; puiſque tu vis, i’obtiens ce que ie veux;
+<lb />Que le Ciel pour iamais ioigne vos deſtinees,
+<lb />Et faſſe vn ſiecle entier de vos ieunes annees.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSANOR, à la Reyne.
+<lb />Pour prix de tant de biens, i'apporte icy la paix,
+<lb />M. iij
+<lb />Que les armes du Roy ne troubleront iamais,
+<lb />Par cet Ambaſſadeur, apprenés, grande Reyne,
+<lb />Quel miracle d’amour eſt autheur de ſa peine,
+<lb />Et s’il peut eſperer cet obiet amoureux
+<lb />Par ſa poſſeßion faictes vn Prince heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCANDRE.
+<lb />D'vn inuiſible traict l’amour touche ſon ame,
+<lb />Des charmes incogneus ſont autheurs de ſa flame.
+<lb />Le bruit de vos vertus, &amp; de voſtre beauté,
+<lb />Le rend adorateur de vostre Maieſté;
+<lb />e diſcours est ma charge, &amp; ſon deſir extréme,
+<lb />Efuourenu le vuen de com paneriuy-meſme,
+<lb />Il m’a chargé ſur tout d’implorer ce bon-heur,
+<lb />Et proche de la ville il en attend l’honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />C’eſt trop nous honnorer, tumoui ue de Monarque
+<lb />Eſt au peu que ie vaux, vne trop digne marque
+<lb />Je conſents toutefois au bon-heur de le voir
+<lb />Et de ce meſme pas ie le vais receuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CEPHALIE, ſeule.
+<lb />Enfin, vn heureux changement
+<lb />Faict d'vn long, &amp; commun tourment,
+<lb />Une longue &amp; commune ioye
+<lb />Le Ciel à ces amants a conſerué le iour,
+<lb />Et quelque aſſaut qu’il leur enuoye
+<lb />Rien ne mourra que mon amour.
+<lb />*4
+<lb />4
+<lb />Les armes dont ie l’ay dompté
+<lb />Sont celles, qui me l’ont oſte;
+<lb />Quel eſt le fruict de ſes promeſſes?
+<lb />Que qui veut m’obliger, proffite en me ſeruant
+<lb />Le confident à les careſſes,
+<lb />Et l'amante n'a que du vent.
+<fw><lb />4
+<lb />ID MGIINAIN CIAMIM
+</fw></sp>
+<p type="MainZone-Lg"><lb />Par les prieres, &amp; par l’or
+<lb />Dont ie m’engageois Lyſanor,
+<lb />Ie ne pouuois trahir Floronde,
+<lb />Elle voyoit le iour, et le meſme accident
+<lb />Qui l’auroit faict perir dans l’onde,
+<lb />Euſt faict perir mon confident.
+<fw><lb />L1
+<lb /> 1
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />CLEANTES, Roy d’Epire,
+<lb />ACHANTHE, chef de guerre,
+<lb />SALMACIS, ALCANDRE, CLEANDRE.
+<lb />FLORONDE, LA NOVRRICE,
+<lb />LE CAP. DES GARDES.
+<lb />LES ARCHERS, &amp; des
+<lb />doipettes, les trompet-
+<lb />tes ayans ſonné de coſté,
+<lb />&amp; d’autre.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANTES, aborde la Reyne, &amp; dit.
+<lb />Onfus, charmé, rauy, ſouffrés que mon ſilence
+<lb />De mon affection prouue la violence,
+<lb />Et que ces yeux vainqueurs eſpoir de mille Rois
+<lb />M’oſtant la liberté m’oſtent außi la voix:
+<lb />La paix chaſſe mes gens, &amp; vos terres ſont cal<lb />mes,
+<lb />Mais de vos ſeuls attraicts, elles tiennent leurs pal<lb />mes,
+<lb />C u</sp>
+<p type="MainZone-Other"><lb />Eux
+<lb />Eux ſeuls nous ont vaincus, tout leur cede, &amp; ces
+<lb />lieux
+<lb />N'ont point de force égale à celle de vos yeux.
+</p>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Vous reduiſés au poinct de n’oſer ſe deffendre,
+<lb />Et d’vne ſorte, ou d’autre, enfin il ſe faut rendre,
+<lb />A ma défaicte außi mon intereſt eſt ioinct,
+<lb />Et ma gloire dépend de ne repartir point,
+<lb />Mais quel eſt mon bon-heur, &amp; quelle eſt ceste peine,
+<lb />Que vous prenés, Monſieur, pour vne indigne Rey<lb />Mus.
+<lb />Puis-ie trop eſtimer ce bien ineſperé?
+<lb />Et trop benir le Ciel qui me l’a procuré?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANTES.
+<lb />Je vous ſuis obligé du fauorable azyle,
+<lb />Que Cleandre, &amp; ma ſœur ont eu dans cette vïlle,
+<lb />Vn proſpere ſuccés Couronne leurs amours
+<lb />Et ie conſents au nœud qui doit ioindre leurs iours:
+<lb />Mais mon propre intereſt, plus que le leur m’amei<lb />ne
+<lb />Implorer le ſuccés d’vne attente incertaine,
+<lb />Dieux! que iugerés vous de ma temerité?
+<lb />I'oſe deſſous vos loix ranger ma liberté,
+<lb />Et ſouhaitter l'honneur d’vn heureux mariage,
+<lb />vn meſme ſort nos deux ſceptres engage.
+<lb />A
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Scachant vostre merite vn iugement bien ſain
+<lb />Ne doit point conſulter ſur vn ſi beau deſſein,
+<lb />I'accepte cet honneur, quoy que voſtre courage
+<lb />munuu prurenure s maonieur, on plus digne aduan<lb />tage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANTES.
+<lb />O fauorable iour ſur tous ceux de ma vie!
+<lb />Que mon ſort eſt heureux!
+</sp>
+<sp type="MainZone-Sp"><lb />FLORONDE, qui eſt Lyſanor.
+<lb />Que mon ame eſt rauie,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANIES.
+<lb />Combien ie dois de vœux à l’amour de ma ſœur,
+<lb />Et que ie dois enfin, cherir ſon rauiſſeur!
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Quoy! voſtre Maieſté me pardonne l’iniure.
+</sp>
+<sp type="MainZone-Sp"><lb />LLEANIEO.
+<lb />C’eſt trop, &amp; ce bon-heur la paye auec vſure,
+<lb />Ie pardonne à l’amour, ce pecheur innocent
+<lb />Qui ſe punit aſſes luy meſme, en offençant.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAP. DES GARDES.
+<lb />O diuin changement!
+</sp>
+<sp type="MainZone-Sp"><lb />LA NOVRRICE.
+<lb />O fortune proſpere!
+</sp>
+<sp type="MainZone-Sp"><lb />SALMACIS.
+<lb />Puis qu'vn bon-heur commun finit noſtre miſere,
+<lb />Venés prendre chés moy les titres abſolus
+<lb />ue le Ciel vous y donne &amp; ne m'y laiſſe plus,
+<lb />Qu'vne eternelle paix faſſe tomber nos armes,
+<lb />Qu'on ne ſouſpire plus, qu’on banniſſe les larmes,
+<lb />Q
+<lb />Que de tous nos ennuys l’amour ſoit triomphant,
+<lb />Et que Mars ſoit vaincu par les mains d'vn enfant.
+</sp>
+<p type="MainZone-Other"><lb />IN.
+</p>
+    </body>
+  </text>
+</TEI>

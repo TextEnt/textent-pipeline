@@ -1,0 +1,4125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Campagnard, comédie</title>
+        <author>Gillet de La Tessonerie</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729633f"/>
+          <author>
+            <persName>Gillet de La Tessonerie</persName>
+          </author>
+          <title>Le Campagnard, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1657" cert="high" resp="BNF">1657</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />COMEDIE.
+<lb />Par Monſieur GILLET.
+</p>
+<p type="MainZone-Head"><lb />LE
+<lb />AMPAGNARD,
+</p>
+<p type="MainZone-Head"><lb />M. DC. LVII.
+<lb />AVEC PRIVILEGE DV ROY.
+<fw><lb />2
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Priuilege du Roy, en datte
+<lb />du 27 luin 1667. Signé GVITONNEAV,
+<lb />Y Il eſt permis à GVILLAVME DE LVYNE
+<lb />Marchand Libraire à Paris, de faire imprimer, ven<lb />dre &amp; debiter vne Piece de Theatre, intitulée Le
+<lb />Campagnaid, pendant le temps de cinq années en<lb />tieres &amp; accomplies, à commencer du iour que la<lb />dite Piece ſera acheuée d’imprimer: Et deffences
+<lb />ſont faites à tous autres de l’impaimer, veudic ay
+<lb />debiter, a autre impreſſion que celle dudit Expo<lb />ſant, ſur peine de deux mil liures d’amende, con<lb />fiſcation des exemplaires, &amp; de tous dépens, dom<lb />mages &amp; intereſts, comme il eſt plus amplement
+<lb />porté par leſdites Lettres.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté le y luil<lb />let 1657. conformément à l’Arreſt de la Cour du
+<lb />9 Avril 1653. Signé BECHET, Sindic.
+</p>
+<p type="MainZone-P"><lb />Les Exemplaires ont eſté fournis.
+</p>
+<p type="MainZone-P"><lb />Acheué d’imprimer pour la premiere fois, le
+<lb />i d’Aouſt 1657. à ROVEN, par L. MAVRRY.
+<fw><lb />1
+<lb />1
+</fw></p>
+<p type="MainZone-Head"><lb />ACTEVRS.
+</p>
+<p type="MainZone-Entry"><lb />BAZILE, vieillard, oncle de Phenice&amp;,
+<lb />Philis.
+<lb />
+</p>
+<p type="MainZone-Entry"><lb />LE CAMPAGNARD, Baron de la campagne, pe
+<lb />fait à la Cour, affectant le prouerbe &amp;u
+<lb />pointe.
+</p>
+<p type="MainZone-Entry"><lb />LEANDRE, Gentilhomme adroit, paſſantpæ
+<lb />ν4 Riachaud de Tableaux.
+</p>
+<p type="MainZone-Entry"><lb />CLITON, Pariſien, de la connoiſſance &amp;̀
+<lb />Campagnard.
+</p>
+<p type="MainZone-Entry"><lb />SEIGNEVR ANSELME, Fourbe, &amp; faux Aſtiele<lb />gue, ayant toûjours accompagné Leanti
+<lb />dans ſes courſes, &amp; dans ſes débaucha
+</p>
+<p type="MainZone-Entry"><lb />VN PAGE de Barile.
+</p>
+<p type="MainZone-Entry"><lb />PHENICE, Niepce aiſnée de Barile, qui no<lb />toûjours demeuré à Paris, juſques à li
+<lb />mort de ſa tante, chez qui elle eſtoit,
+</p>
+<p type="MainZone-Entry"><lb />PHILIS, Niepce de Barile la plus ieune.
+</p>
+<p type="MainZone-Entry"><lb />LISE, Fille de chambre de Phenice.
+</p>
+<p type="MainZone-Entry"><lb />IODELET, Valet du Campaguard.
+<fw><lb />11
+</fw></p>
+<p type="MainZone-Head"><lb />LE
+<lb /> M
+<lb />AMPAGNARD,
+<lb />COMEDIE.
+<fw><lb />  .
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE I.
+<lb />SCENE PREMIERE.
+<lb />
+<lb />LE CAMPAGNARD,
+<lb />IODELET.
+<lb />
+</p>
+<sp type="MainZone-Sp"><lb />
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />V ne la treuues pas plus belle que cel.,
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Elle n'eſt pas tant ſone.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Elle eſt..
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Elle eſt HH.
+<fw><lb />10
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Encor?
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Point de quartier.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Maraut, ſi ie t’atnape..
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ma foy, ſa beauté n’a que l’eſpée &amp; la cape.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ne finiras tu point ces diſcours impudents?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Mentirez-vous toûjours en Arracheur de denu?
+<lb />Ceſt parler librement.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ta liberté me choque.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET. 
+<lb />Vous vous en offencez? touchez-là, ie m'en moqui
+<lb />Quoy, Monſieur, auec moy faire du reſerué!
+<lb />Eſtre libre au pays, &amp; froid ſur le paué !
+<lb />Eſt-ce de la façon que l’on doit viure enſemble?
+<lb />Parlez quand il vous plaiſt, &amp; moy, quand ben
+<lb />e me ſemble,
+<lb />Ne me deſſendez point d’eſtre de voſtre éco,
+<lb />Et ne me baillez poins icy du qui pro quo,
+<lb />Si ma fidelité vous fait quelques outrages,
+<lb />Separons-nous tous deux, &amp; payez -moy mes piſti
+<lb />Auecque le ſecours de mon pecit mago,
+<lb />Malgré vous dans Paris ie puis viure à gogo,
+<lb />Et quand i’auray beſoin de Maiſtre ou de Maiſtreſſe,
+<lb />Ie ſçay bien le Palais, &amp; le Bureau d’Adreſſe,
+<lb />Ie ſuis Valet d’honneur, &amp; ne redoute rien,
+<lb />Si ie parle vn peu trop, ie ſers auſſi fort bien,
+<lb />Quand auec la parole on fait quelques offences,
+<lb />Coup de langue, eſt alors pire que coups de lancti,
+<lb />Mais quand par la parole on dit fidellement
+<lb />Au Maiſtre que l’on ſert, quel eſt ſon ſentiment,
+<lb />It que la parole eſt honneſte, &amp; belle, &amp; bonni,
+<lb />Que Diable peut-on dire au Valet qui raiſonne?
+<lb />I'enrage, &amp; ſi i'eſtois à quelque raiſonneur,
+<lb />Ie forois ma fortune auecque plus d’honneur,
+<lb />Au Diable de bon cœur la Nobleſſe champeſtre,
+<lb />Et maudic toue Valet qui ne l’enuoi ra paître.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Iodelec.
+<lb />IODELET.
+<lb />Pour auoir des plumes au chapeau,
+<lb />L'éguillette à la mode, &amp; le ruban nouueau,
+<lb />Pour eſtre chaque iour braue comme au Dimanche,
+<lb />Et me faire crayer icy la botte blanche,
+<lb />Faut-il trancher du Ptince auec vn vieil Valet
+<lb />Qui vous a veu ſoudrille &amp; petit argoullet,
+<lb />
+<lb />Qui mange auecque vous le lard à la campagne,
+<lb />Et qui pour lard manger, y mange ce qu’il sagne?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GAMPAGNARD.
+<lb />Parle bas, Iodeler.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Moy, Monſieur, parler bas?
+<lb />Peller yiurez, criez, ie ne le feray pas,
+<lb />Et pour quelle raiſon contraindre ma parole?
+<lb />Si vous eſtes honteux qu’vn Valet vous controle,
+<lb />Vous pouuez bien chercher qui vous controlera,
+<lb />Et qui de vos amours iamais ſe meſlera:
+<lb />M’en meſlant, ie m’en meſle en tant de badinages,
+<lb />Que ſuyant l’emmeſleur &amp; tous ces emmeſiages,
+<lb />Puiſque de vos amours ie me ſuis trop meſlé,
+<lb />Iamais ie ne veux eſtre auec vous emmeſlé,
+<lb />Tout Valet que ie ſuis....
+</sp>
+<sp type="MainZone-Sp"><lb />L’E CAMPAGNARD.
+<lb />Vieil amy, tu te faches.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Oſtez de vos papiers que vos gens ſoient des lâches,
+<lb />Et qu’vn propos fachant contre vn d’eux ſoit laché,
+<lb />Sans qu’il ſoit à l’inſtant &amp; fcheux &amp; faché.
+<lb />Non, mon extraction doit ceder à la voſtre,
+<lb />Mais le cœur, ie le puis diſputer à tout autre,
+<lb />Tous ceux de noſtre race ont eu le ſang bouillant,
+<lb />Le qui dit lodelet, dit autant que vaillant.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quand on a comme toy l’ame fort querelleuſe
+<lb />It qu’on eſt comme moy d’humeur fort amoures
+<lb />Bien loin de ſe facher contre vn vieil ſeruiteut
+<lb />On endure aiſément de ſa mauuaiſe humeur.
+<lb />Auſſi ie te pardonne, &amp; pour ma recompenſe
+<lb />Dis-moy fidellement tout ce que ton cœur penſ
+<lb />Si tu crois que Phenice eſt pour moy toute en la<lb />Ou ſi tu reconnois qu’elle n’en tient qu’vn peu,
+<lb />Si ſon eſprit te plaiſt, ſi tu la tiens adrette,
+<lb />Si Cliton n’a deſſein qu’à ſa belle cadette,
+<lb />Et ſi dans mes amours ie procede fort mal.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ma foy, dans vos amouts vous n’eſtes qu’vn chui
+<lb />Qui cajolle l’aiſnée, &amp; parle à la cadette,
+<lb />Dans ſon grand appetit, ſans craindre de chantu,
+<lb />Prendra ce qu’il verra le plus propre à mange.
+<lb />C’eſt vne gueulle fraîche à qui tout eſt commoli,
+<lb />Et c’eſt faire l’amour à la plus vieille mode,
+<lb />Que de s’embarraſſer d’vn conſident caquet
+<lb />Qui vous doit toſt ou mrd douner voſtre paqua
+<lb />L’autre iour ie le vis qui caiolloit Phenice
+<lb />D'vn air aſſez gaillard pour eſtre ſans malice,
+<lb />Et qui luy conſeilloit qu’elle changeaſt de ton,
+<lb />Et puis en adjoûtant deux fois, Qu’en dira t’oa,
+<lb />Il luy dit qu’il faloit tâcher à vous ſurprendie,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Et pauure ſot, c’eſtoit pout me les faire entendre,
+<lb />Et tu ne comprens pas que ce Qu’en dira-t’on,
+<lb />Eſt la chanſon du temps.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Tout de bon ?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Tout de bos
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Mais vn autre ſoupçon trouble encor ma caboche,
+<lb />Hier ie le vis penaut comme vn fondeur de clochs,
+<lb />Quand proche de Phenice, &amp; voyant ſon portrait,
+<lb />Dũ le Peintre acheuoit de donner quelque trait,
+<lb />Il le prit bruſquement, &amp; le baiſant de meſme,
+<lb />Iura qu’il y frouuoit vne douceur extréme,
+<lb />Et s’eſtant barboüillé le minois de couleur j
+<lb />Me voyanc arriuer, s’enfuit comme vn voleur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />l'eſt qu’il a l’œil mauuais, &amp; voit de prés.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />I’enrage.
+<lb />C’eſt qu’il vouloit l’auoir peinte ſut ſon viſage,
+<lb />Et par ce coup d’adreſſe, en épargnant le ſien,
+<lb />En auoir le portrait qui ne luy coûtaſt tien.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ne peux-tu conceuoir qu’en voyant cet ouurage,
+<lb />Et la main luy manquant il gãta ſon viſage,
+<lb />Et cherchoit vn miroir alors qu’il s’enfuyoit?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Bien, laiſſez-vous duper.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb /> LE CAMPAGNARD.
+<lb />Mais chacun le voyoit,
+<lb />Et le Peintre m’a dit, luy qui ſçait noſtre intrigue,
+<lb />Et qui pour moy prend garde à tout ce qui ſe brigue,
+<lb />Que de cet accident Phenice ſe moqua,
+<lb />Et meſme iuſqu’au point que Cliton s’en piqua.
+<lb />Mais j’apperçois venir, &amp; Barile, &amp; ma Reyne.
+<fw><lb />
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />nom
+<lb />
+<lb />
+<lb />-poui cir qmel A iij mi
+</fw><fw><lb /> 4011
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb /> a
+<lb />BAZILE, PHENICE, CLITON
+<lb />PHILIS, LE CAMPAGNARD,
+<lb />IODELET.
+<fw><lb />1
+</fw></p>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />D
+<lb />SAlue, où va la botte, &amp; quel bon vent vous mías
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Nous vous allions chercher pour vous prendrt ue
+<lb />nous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Pouuez-vous me chercher, ſi ie ne vis qu’en vous!
+<lb />D'vne ſi belle ardeur mon ame eſt enflamée,
+<lb />Qu'elle eſt biẽ moins en moy que das la choſe aimú,
+<lb />Et l’on me doit chercher, à quelqu’heure qu’il ſou,
+<lb />Tluſtoſt où vous ſerez, qu’aux lieux où l’on me rous
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />C’eſt me donner mon reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Auec aſſez d’adreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Madame, ie ne veux qu’amour &amp; que ſimpleſſe,
+<lb />Iamais ie n’eus deſſein d’eſtre controuerſant,
+<lb />Ny mon cœur de pouſſer vn penſer oſſenſant,
+<lb />Cet amoureux caprif d’vne atdeur ſinguliere,
+<lb />Adore ſes liens, ſa geole, &amp; ſa geoliere,
+<lb />Ou pour en mieux parler dans ſon feu ſans parcil,
+<lb />Il reſſemble à ces fleurs qui ſuiuent le Soleil,
+<lb />Et ſe trouue attité par vn ſecret merite,
+<lb />Comme la paille court vers l’ambre qui l’exeite.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Vous pouuiez bien encor m’appeller voſtre aimane.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie l’euſſe fait, Madame, &amp; legitimement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Il eſt encor des corps dont l’humeur ſimpatique....
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Voyez-vous, elle a lû</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Dites que ie m’en pique.
+<lb />Et qu’on ne peut citer, ny me parler Thœbus,
+<lb />Donner vn quolibet, ny debiter Rebus,
+<lb />Qu'au plus fin du meſtier ie n’en faſſe la nique.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Madame, voſtre eſprit eſt tout ſcientiſique,
+<lb />Et tant de beaux talens qui ſçeurent m’aſſeruirt,
+<lb />Font voir que vous auez l’ame belle à rauir.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON à Philu.
+<lb />Limperunems pmaa q
+</sp>
+<sp type="MainZone-Sp"><lb />Ah, j'en pâme de rire.
+<fw><lb />PHILIS.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ma niéce, répondez.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Cela luy plaiſt à dire,
+<lb />Et ie connoy fort bien par tout ce que ie voy,
+<lb />Qu’il dit tous ces beaux mots pour ſe moquer de
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD. (moy.
+<lb />Ah certes, dans l’excer du feu qui me conſomme,
+<lb />Ie jure par vos yeux * foy de Gentilhomme,
+<lb />Qu'apres m’auoir rauy ma chere liberté.
+<lb />Ie ne dis rien de vous qu’auecque verité,
+<lb />Il faut, pour vous donner d’équitables louanges,
+<lb />Vous mettre en paralelle au moins auce les Anges,
+<lb />Tuiſqu’enfin le Soleil, ce clair flambeau des Cieux,
+<lb />N’a pas tant de rayôs qu’en dardent vos beaux yeux,
+<lb />I’en jure par ces mains.
+<lb />I'oulant hy baiſer les mains, il laiſſe uber ſa taſaxm.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />O le ſerment eſteange.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET ramaſſant la caſaque<lb />Monſieur, ne jurez point, ramaſſez voſtre lance
+<lb />Et ſans parler du Ciel, ny de ſon clair flambeau,
+<lb />Mettez-y le bouton, &amp; gardez le chapeau.
+<lb />Il ſecous ſa caſaque en la reprintæ
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah Dieux, vous nous auez tous emplis de pouſſiers
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Malgré ſon épaiſſeur, que ie voy de lumiere,
+<lb />Et que ces yeux brillans dans cette obſcurité,
+<lb />Ont de force, de grace, &amp; de viuaeité!
+<lb />Enfin....
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Auez-vous peur de n’en pas aſſez dire!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Madame, mes Riuaux n’auront pas lieu d’en tite,
+<lb />Fuiſque pour vous cacher mes defaurs en ces lieur,
+<lb />I’ay bien ſçeu vous jettes de la pouſſiere aux yeur
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Hé bien, eſt-ce l’entendre, &amp;....
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />La pointe eſt commont
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />C’eſt eſtre ménager que de n’en donner qu’vne,
+<lb />Et lors que vous auez ſi lourdement peché,
+<lb />
+<lb />Vous en quitter pour trois c’eſt vn fort grãd marchi.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie voudrois pouuoir dire autant de belles choſes
+<lb />Que ſur voſtre beau teint l’on peut conter de roſen
+<lb />Et qu’il naiſt en tout temps de fleurs deſſous vos pu
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE à Bazile.
+<lb />Certes, pour celle-là ie ne l’attendois pas,
+<lb />14
+<lb />Et pour en bien parler, ie la troune ſi preſte,
+<lb />Que ie gage à preſent qu’il en a cent de reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Enfin c’eſt vous donner le change comme il fauts
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah, qu'heureux eſt l’eſprit qui va toûjours par haus,
+<lb />Et qui peut debiter la fleurette nouuelle!
+<lb />Ah le rare talent!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce n’eſt que bagatelle,
+<lb />Et dedans le païs, qui veut parler d’amour,
+<lb />Paſſeroit pour vn ſot, s’il n’en dit cent par iour,
+<lb />Auſſi j’auois le bruit d’en eſtre inépuiſable,
+<lb />Et ſans m’y preparer....
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ah, vous mentez en Diable
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />coquin....
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ny vous, ny moy, n’auons l'eſprit preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />Si.n
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />L'on vous connoiſt bien, &amp; juſques à preſent,
+<lb />Comme vous, ie ne ſuis que l’inſtinct de nature,
+<lb />Et fort ſouuent j’écris ſans faire de rature,
+<lb />I’ay dans mon jeune temps eu mõ tour comme vous,
+<lb />I’ay maintefois paſſé des heures à genoux,
+<lb />Et fait, le chapeau bas, mille galanteries,
+<lb />I'ay dit des veritez, j’ay dit des menteries,
+<lb />I’ay tranché du poupin, contrefait le joly,
+<lb />Paſſé pour eſprit fort, &amp; pour aſſez poly,
+<lb />Sans que j’aye iamais debité de fadaiſe,
+<lb />Ny que j’aye excroqué d’Eſcuteaux, ny Neruaiſe,
+<lb />Enfin j’ay toujours eu l’eſprit fort goguenard,
+<lb />Et ſans faire le vain, paſſé pour fin regnard:
+<lb />Mais aujourd’hny qu’il faut prés de ma ſepulture
+<lb />Preparet le tribut que ie dois à Nature,
+<lb />Et dreſſer mes eſtats, pour compter des moſſſens
+<lb />Que ie laiſſe paſſer en diuertiſſemens,
+<lb />(voye,
+<lb />Quand on dit vn bon mot, quelque gay qu’on me
+<lb />La crainte de la mort eſt vn grand rabat-joye.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quoy, vous eſtes ſans gouſt pour les plaiſirs des ſeus
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ceux de l’entendement ſont bien plus innocens,
+<lb />Eſt-il rien de pareil à ces belles Seiences
+<lb />Qui nous font découurir l’effet des Influences?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie ne m’eſtonne plus ſi noſtre Hoſte vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ma foy, c’eſt vn treſor, tout bizatre qu’il eſt,
+<lb />C’eſt vn ſçauant garçon s’il en eſt dans le monde,
+<lb />Son eſprit eſt perçant, ſa doctrine eſt profonde,
+<lb />Et tantoſt il m’a fait vne reflection
+<lb />De l’Aſtre dominant la Conſtellation,
+<lb />Qui ſemble ſurpaſſer l’effort de la Nature.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Mais quand nous dira-t’il noſtre bonne auenture?
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />D'vn air aſſez adroit ie l'y veux engager,
+<lb />Les ſçauans ont leur verve, &amp; font tout par caprite
+<lb />Ie le ſçay par moy-meſme, &amp; ie connois mon via,
+<lb />Mais Leandre s'aproche.
+</sp>
+<p type="MainZone-Head"><lb />SCENEIII.
+<lb />BAZILE, PHENICE, CLITON,
+<lb />LEANDRE, PHILIS, LE
+<lb />CAMPAGNARD, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />HE bien, le iour eſt beau;
+<lb />Pourrons nous aujourd’huy retoucher au tableau?
+<lb />L’aſtelier eſt dreſſé, ie n’attens que voſtre ordre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENTCE.
+<lb />Ie vay faire viſite, &amp; n’en veux point démordce,
+<lb />Fâchez-vous-en ou non, ie vous ioüray ce tour.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Madame, nous aurons ce bien vn autre iour.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais ſi prenant mon temps, alors que l’on vous
+<lb />quitte,
+<lb />Ie vous laiſſois aller faire voſtre viſite,
+<lb />Et pouuois l’obliger à trauailler au mien,
+<lb />Seroit-ce fort mal fait?
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Au contraire, ſort bien:
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si vous tardez beaucoup, il faudra que ie meure.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LE CAMPAGNARD, LEANDRE,
+<lb />IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNAR D a Loandre.
+<lb />Piequart ne t'a-til pas eſté voir tout à l'heuul
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mon Biernois.
+<fw><lb />
+<lb />.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Toint.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Et mon Baſque.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Non ræ</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Le More, ny l’Anglois?
+</sp>
+<sp type="MainZone-Sp"><lb />L’EANDRE.
+<lb />Ie ne les ay polnt veus.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ny Champagne?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Auſſi peu.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Tu n’as point veu mon Pirt
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mon, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dis-moy donc, ſans tarder dauanus,
+<lb />laiu
+<lb />As-tu quelque nouuelle, &amp; m’en feras-tu part?
+<lb />C’eſtoit pour ce ſujet....
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Puis-je parler ſans fard?
+</sp>
+<sp type="MainZone-Sp"><lb />Suy.
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />mule am tourncher?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Parle en toute aſſeurance.
+<fw><lb />LEANDRE.
+<lb />Hoiguen dedlet.
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Iodelet qui t'aproche.
+<lb />Tréve de confidence.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Aa Diable ſoit le Maiſtre, &amp; tous les confidents,
+<lb />Vous ne m’empeſchez pas de me curer les dents,
+<lb />De me jouer tout leur, on de fant la mouë?
+<lb />Il ſe netire, &amp; badine des doigts auec ſer levres,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Non, fais pis.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Encote eſt ce.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Leandre.
+<lb />Hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Cliton vous iouë,
+<lb />Ilen veut à Thenice, &amp; ie les ay trouuez
+<lb />Qui ſe parloient tous deux en des lieux reſeruez,
+<lb />Et iutoient que leurs ſeux paſſoient iuſqu’à l'ex.
+<lb />ttéme,
+<lb />Enfin il eſt aimé.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah Dieux, Phenice l’aime!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il n’eſt que trop certain, mais, Monſieur, gardez bien
+<lb />Que d’vn ſi grand ſeeret l'on ne découure rien,
+<lb />Ily va de ma vie.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah Iodelet, vn mot.
+<lb />Helas, ie deſeſpeu
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ce n’eſt pas mon affaire,
+<lb />Ie ſuis vn indiſeret.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais i’ay beſoin de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Vous auez beau prier, ie n’iray pas, ma foy,
+<lb />Moy, Monſieur, me vouloir traiter de ridicule,
+<lb />Et me faire garder à toute heure la mule,
+<lb />M’éloigner, m’apeller?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah viens.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />I’ay trop de cœut.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie ne puis plus ſouffrir de ta mauuaiſe humeus,
+<lb />Il faut... Ie vois Anſelme, Adieu, ie me retire.
+<lb />Viens.
+<lb />à Iodelet.
+</sp>
+<sp type="MainZone-Sp"><lb />LLANDRE.
+<lb />Mais au moins, Moſieur, gardez bien de rien dia
+</sp>
+<sp type="MainZone-Sp"><lb />TE CAMPAGNARD.
+<lb />Ie ſuis mort, ne crains pas que ie puiſſe parler.
+</sp>
+<p type="MainZone-Head"><lb />CENE V
+<lb />LEANDRE, ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />LE deſſein va-cil bien?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tout ce qu’il peut aller,
+<lb />La dupe s’intimide, &amp; par ta ſeule adreſſe
+<lb />Ie me conſerueray l’honneur, &amp; ma maiſtteſſe.
+<lb />E ubaraſſant Cliton auce le Campagnard,
+<lb />Son mariage apres court vn fort grand harard,
+<lb />Eſtant fort aſſeuté d’épouſer ſon amante,
+<lb />s il eſt tué, s’il tuë, ou s’il ſaut qu’il s’abſente,
+<lb />Il y va de mon bien de les brouiller tous deux,
+<lb />Et ie ne conçois pas comme vn cœut amouteux
+<lb />Parmy tous les brillans que ſon ardeur luy donns,
+<lb />N’ait pû s’imaginer vne fourbe ſi bonne,
+<lb />Qu’il faille qu’vn eſprit, qui ne s’en promet rien,
+<lb />Soit pour mes intereſts plus adroit que le mien,
+<lb />Et parant tous les coups dont le ſort m'imporune,
+<lb />Que tu ſois l’artiſin de ma bonne fortune.
+<lb />11
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />D'effet, où ſeriez-vous n’euſt eſté mon ſecours?
+<lb />I’ay trouué de l'argent, ménagé vos amours,
+<lb />Et pour mieux concerter vne ſourde pratique,
+<lb />Ie vous ay faic paſſer pour vn Peincre autentique,
+<lb />Lt ſi bien reuſſi, qu’en touc temps vous parlez
+<lb />A la perſonne aimée autant que vous voulez;
+<lb />Pour auoir empaumé l'oncle de bonne ſorte,
+<lb />Vous voyez maintenanc noſtre incrigue ſi ſorte,
+<lb />Que ce beau Campagnard n’a qu’i s’en tetourner.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mais quel eſt ton ſecret?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt de bien enfournet.
+<lb />Ayant veu qu’il faloit rompre le mariage,
+<lb />It iouer en grand maiſtre vn adroit perſonnats
+<lb />Ie me ſuis introduit auec vn étranget,
+<lb />Dans la maiſon garnie où ie les vis loger,
+<lb />Et pendant quelques iours ayant eu connoiſſanet
+<lb />Du foible du vieillard qui cherit la ſcience,
+<lb />Et cherchoit des ſçauans pour les entretenir,
+<lb />Ie reſolus de l'eſtre ou de le deuenir,
+<lb />Et comme en ces maiſons il eſt bien difficile
+<lb />De ſe pouuoir cacher meſme au plus mal-habile..
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il eſt vray qu’on y ſçait tout ce que chacun fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Pour leur tendre le piege auecque plus d’eſſet,
+<lb />Faiſant le retiré, le graue, &amp; le cynique,
+<lb />Le détaché du monde, &amp; le mélancolique,
+<lb />Chacun fuſt curieux de ſçauoir qui j’eſtois,
+<lb />Et tachoit de me voir alors que ie ſortois.
+<lb />Ce qu’ayant aperçeu, pour mieux leur faire acroirt,
+<lb />Par iour l'on m’aporcoit des Volumes d’hiſtoire
+<lb />Des Auteurs Grecs, Latins, anciens, &amp; nouueaus,
+<lb />Des cercles, des carrez, des angles, des foumneaus,
+<lb />Des cartes, des compas, des globes, &amp; des ſpherti,
+<lb />Et tout cela, notez, pendant que mes affaires
+<lb />Que ie feignois toûjours auec quelque raiſon,
+<lb />M’obligeoient fort ſouuent de quitter la maiſon.
+<lb />Ainſi quand le Marchand les rendoit à mon hoſte,
+<lb />Le bon Pariſien euſt erû faire vne faute,
+<lb />Si deſſus ſon contoir il n’euſt tout eſtalé,
+<lb />Et voyant vn valet, ne l'en euſt regalé.
+<lb />Ce qui dans la maiſon courant à l'heure meſme,
+<lb />Seruit de telle ſorte à noſtre ſtratagéme,
+<lb />Que l'Oncle de Phenice en voulant plus ſçauois,
+<lb />Enuoya demander ſi l'on me pouuoit voir.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vous vous viſtes tous deux?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et par ma complaiſincs
+<lb />M’introduiſis li bien dellans ſa conſidence,
+<lb />Que m’ayant declaré ſon foible de tout poine,
+<lb />Ie m’emparay de luy, pour n’en démordre poine,
+<lb />Et voyant que ſur tout il eſtoit pour la Sphere,
+<lb />Ie feignis de ſçauoir plus qu’vn homme vulgaire,
+<lb />Et par les lieux communs de quelques Almanachs,
+<lb />Le cajolay ſi bien, qu’il en fit vn grand cas.
+<lb />Ainſi ie vins à hout d’aprocher voſtre belle,
+<lb />De vous donner moyen de vous aſſurer d’elle,
+<lb />Dans le temps qu’vn jaloux l’obſedoit puiſſammenc
+<lb />Sans vous donnet moyen de la voir ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu n'us pas ton égal, qui pouroit ſi bien feindre!
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Sçachant que le vieillard ſe vouloit faire peindre,
+<lb />Et qu’entin vous ſçauiez tant ſoit peu deſſigner,
+<lb />Ie luy dis qu’il faloit vous faite gouuerner,
+<lb />Que ie vous connoiſſois pour vn excellent homme,
+<lb />Et que ſi vous vouliez faire le moindre trait,
+<lb />Vous feriez vn miracle, &amp; non pas vn portrait.
+<lb />Il liy montre l'habit q’il porte, qui ſemble
+<lb />trop riche pour vu Peintre.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Qu'as-tu dic pour laiſſer l'babit de broderie?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Que voſtre garderobbe eſt à la friperie,
+<lb />Que tout Peintre eſt fantaſque, &amp; qu’eſtant des
+<lb />plus fous,
+<lb />Comme vn Muſicien, vous mettiez tout ſur vous,
+<lb />Et que vous vous piquiez d’orgueil &amp; de Nobleſſe.
+<lb />Enſin, nous nous quittons auec priere expreſſe
+<lb />De vous faire venir loger auecque luy,
+<lb />le l'ay fait, &amp; vous vois en état aujourd'huy
+<fw><lb />De ne plus craindre rien au point où nous g
+<lb />ſommes. L’EANDRE.
+<lb />Ah ie te tiens auſſi le plus adroit des hommes,
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais ſongez que Phenice auec quelques diſcours
+<lb />A payé iuſqu’icy vos ſoins &amp; vos amours,
+<lb />Feignant oûtre cela d’aimer Cliton, ie gage
+<lb />Qu'elle fait ſans contrainte vn pareil perſonnage.
+<lb />Eſtant dedans Paris le ſeul qu’elle écoutoit,
+<lb />Deuant que de vous voir elle s’en contentoit.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Depuis que dans vn Bal ce miracle viſible
+<lb />Rendit en m’y voyant ſa belle ame ſenſible,
+<lb />Ses ſoûpirs &amp; ſes pleurs ſont d’aſſez bons témoint
+<lb />Qu'elle eſt preſte à payer mes reſpects &amp; mes ſoins.
+<lb />Comment la ſoupçonner, &amp; la croire infidelle,
+<lb />Puiſque dedans Lyon, n’oſant la voir chez elle,
+<lb />Elle me fit trouuer en certain rendez-vous,
+<lb />Et m’aprit qu’on vouloit luy donner vn Epous,
+<lb />Mais qu’allant à Paris faire leur équipage,
+<lb />Elle me conjuroit de faire ce voyage,
+<lb />Pour rompre le deſſein de ces funeſtes nœuds
+<lb />Qui neus empeſcheroient de nous vnit tous deux
+<lb />Ie luy promets, ie parts, j’obeïs, &amp; m’engage
+<lb />En des déguiſemens qui bleſſent mon courage,
+<lb />Ie ſuis tous tes aduis, ie fais ce que tu veux,
+<lb />Que faut-il dauantage?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME. Acheuer d’eſtre heureur,
+<lb />Et dans vos libertez en tirer quelque gage
+<lb />Qui nous mette tous deux à Jabry de l'orage,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Va, ſi i’y ſuis iamais, ie te feray du bien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Allons nous-en difner, &amp; ne promettez rien;
+<lb />Ne nous repaiſſons point d’vne vaine fumée,
+<lb />Et beuuant la ſanté de la perſonne aimée,
+<lb />Auouons que Baccus eſt vn Dieu ſans pareil,
+<lb />Qui peut guider l’Amour &amp; luy donner conſeil.
+<lb />Fin du premier Afte.
+</sp>
+<p type="MainZone-Head"><lb />ACTE II.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />LE CAMPAGNARD, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />TI DAMPAGNARD.
+<lb />IL faut que de cliton i'aye le ſang &amp; l'ame.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Mouſieur, dans ſon fourreau rengainez vôtre lame,
+<lb />Oncques Dien ne la fit pour glaiue exterminant,
+<lb />Ny pour aller du coips l'ame déracinant;
+<lb />Ne ſçauez-vous pas bien que la vieille pucelle
+<lb />Conſerue ſaintement ſa blancheur naturelle,
+<lb />Que de peur de rougir elle hait la pudeur,
+<lb />Et tient tout vermillon de fort mauuaiſe odeur?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Helas! loin de railler au fort de mon martire,
+<lb />Songe...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />trahy de l’amy qui deuroit m’adorer...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />ous ſont des morceaux bien durs à digerer,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dy qu’il faut pour vanger ma franchiſe trompée.
+<lb />Qu'auecque ce broüillon ie faſſe vn coup d’épée.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />S’il vous frotoit auſſi?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si grands que ſoient ſes coupt.
+<lb />Il frotera fort peu des gens falcs comme nous,
+<lb />Tel que ſoic ce Geant, ie ſuis ſeur de l’abatre,
+<lb />Puiſque l’Amour me rend ſeul auſſi fort que quire
+<lb />Et que ce petit-Dieu qui m’anime aujourd’huy
+<lb />Doit vn fameux triomphe à qui combat pour luy.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />A te conte, Monſjeur, ſa mort eſt aſſurée?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Qui peur l’en garentir puiſque ie l’ay iurée?
+<lb />Mais le coup qui finit vn ſi rigoureux ſort,
+<lb />Eſt vne gueriſon bien plutoſt qu’vne mort,
+<lb />Ainſi le mal-heureux...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ah, parlez d’autre ſorte,
+<lb />Le petit chien viuant vaut la Panthere morte,
+<lb />Hier deſſus le Pont-neuſen liſant Piramus,
+<lb />Ie vis...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quoy qu’il en ſoit, mon Riual ne vit p'æ
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Vous deuiez l'éloigner au lieu de l'introduire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah, ie ne ſongeois pas que tel rit qui veut nuitt,
+<lb />Il eſtoit dans Paris le ſeul que i’eſtimois,
+<lb />Et qu’on ſouffroit icy parce que ie l’aimois:
+<lb />Cependant il pretend rompre mon Hymenée,
+<lb />Et quittant la cadette, il s’adreſſe à l'aiſnée;
+<lb />Ah, c’en eſt trop, il faut en ſe rirant du ſang,
+<lb />Sçauoit qui de nous deux aura le premier rang
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Monſieur, tous les duels ne valent pas le Diable,
+<lb />Le perit en eſt grand.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais il eſt honorable.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />on peut titre tué.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />L’on peut ne l’eſtre pas.
+<fw><lb />IODELET.
+<lb />Bleſſé. LE CAMPAGNARD.
+<lb />C’eſt vn hazard.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />On peut faire vn faux pau
+</sp>
+<sp type="MainZone-Sp"><lb />Tant pis.
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Mais ſi l'on tuë?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />On treuue vne retraite.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Si l'on n’a point d’argent?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quelque amy vous en preſte.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Si Ion n’a point d’amy?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />L’on en treuue toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Mais quand il faut quitter l'objet de ſes amours?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />C’eſt vn coup de malheur qui vraiment eſt ſenſible,
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne vous battez donc point.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais il eſt impoſſible,
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Outre cela i'y vois mille abiſmes profonds.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPACNARD,
+<lb />mme quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />L’embarras de chercher des ſecouſs
+<lb />Et de treuuer vn ſot qui ſe donne la peine
+<lb />D’aller faire pour vous bouclier de bedaine,
+<lb />Et la faire cribler de maints coups dangereux.
+<lb />Quel plaiſir peut-on prendre à perdre vn mil
+<lb />heureux,
+<lb />Qui n’a iamais lorgné le ruſtre qui l’empaume
+<lb />Et n’a defobligé ny Pierre ny Guillaume?
+<lb />Quand i’homiciderois, i’en ſerois bien plus gra
+<lb />Ie me veux conſeruer pied, iambe, teſte, bras,
+<lb />Genoux, cuiſſes, feſſier, cul, oreille, &amp; bedaine,
+<lb />Enfin mon corps n’eſt point vn gibier à gangient
+<lb />Et tout homme d’eſprit iamais qu’en gré n’aun
+<lb />L’aduis qui fait que corps point ne gangrenen,
+<lb />Oſté quelque Barbier, Carrabin d’Hypoerate,
+<lb />Qui pour deux ſols marquez me voudroit cul l
+<lb />jatte.
+<lb />Non, puis qu’Achille eſt mort d’vn ſeul couyn
+<lb />talon,
+<lb />Ie craindrois qu’on ne diſt, lodelet eſt en plomb.
+</sp>
+<sp type="MainZone-Sp"><lb />Il geſticule.
+<lb />Quel diable de meſtier, &amp; quel ragouſt fantiſge
+<lb />D'aller deſſus le pré, ziſt &amp; zeſt, friſque &amp; frſæ
+<lb />Il pare, il pouſſe, il porte, il tomibe, c’en eſt hi
+<lb />Alors il faut chanter, &amp; malgré qu’on en ait,
+<lb />Puis Monſieur le Vainqueur rend l'eſpée au bonló<lb />Qui ſe porte fort bien quand ſon ſecond l’aſſomus
+<lb />En ce temps les ſeconds ſont raret ſur ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />En tout cas ie m’apreſte à me ſeruir de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELRT.
+<lb />Ah ie me doutois bien de ce trait de chieane,
+<lb />Mais deuſſay-ie de vous auoir cent coups de cine,
+<lb />Vous ne me verrez poins aller deſſus le pré
+<lb />Pour y battre vn ſecond, ou pour eſtre bourré.
+<lb />Monſieus, en ma faueur eſpargnez vous vn crime,
+<lb />Nentrez point au combat, &amp; ſouffrez que ie priæ<lb />Pourueu que de ſecond ie n’aye pas le nom,
+<lb />Ie me battray ſans peur, meſme à coups de canon</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Va, ie ne feray pas ce que ie te propoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Monſieur, ce que i’en dis ce n’eſt pas pour la choſe,
+<lb />Vous pouuez diſpoſer de mon peu de valeur,
+<lb />Mais c’eſt que les ſecods vous porteroient malheur.
+<lb />Et que i’ay fait ſerment qu’il faut que i’accompliſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si ſaut-il toutefois me rendre vn bon office.
+</sp>
+<sp type="MainZone-Sp"><lb />tl donc?
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />D’aller porter ce billet à Cliton.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne ſeroic-il point homme à ioüer du baſton?
+<lb />Et Iecoit il ſouuent in temumum meſſage?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il n’oſeroit iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET faiſant le braue,
+<lb />Il peut bien eſtre ſage,
+<lb />Ou ie luy feray voit que ie ne fuis pasſot.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LE CAMPAGNARD, IODELET
+<lb />ALCIPE, VN PAGE.
+</p>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />Onſieur, vn Caualier voudroit vous diren
+<lb />Mm</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />rais-le entrer... Ie ne puis ſçauoir qui ce peut eſtie.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCIPE.
+<lb />Quoy que ie n’aye pas le bien de vous connoiſtie,
+<lb />Vous puis-je dire icy quatre mots ſeulemenc
+<lb />Monſieur, ie vous viens faire vn mauuais coplimti,
+<lb />Ils ſe reculent &amp; parlent bas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD haut.
+<lb />Ie me bats ſeul à ſeul.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCIPE.
+<lb />Puis que ie ſçay l’affaite,
+<lb />Auiourd’huy les ſeconds ſont vn mal neceſſaite,
+<lb />Autrement ie ferois qu’on s’accommoderoit.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Tout bien conſideré, Monſieur, il le faudroit,
+<lb />I’ay fort bien entendu quel eſt voſtre meſſage.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCIPE.
+<lb />Cet homme vous ſert-il ?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie l’ay nourry mon Page,
+<lb />Et depuis quelque temps l’ay fait mon Eſcuyet.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Le menſonge eſt trop grand, ie ne puis l'appuyer.
+<lb />Mlontent.
+<lb />Monſieur, ie ne vous ſers que de Valet de chambre.
+<lb />Ah ie tremble en Eſté comme au mois de Decembre,
+<lb />Au Diabie ia querene &amp; tous les querelleux.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCIPE le tirant à part.
+<lb />Ie croy que ce Valet n’eſt pas fort genereux;
+<lb />Liſez donc ce billet, &amp; gardez qu’il n’entende.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que diſent-ils tout bas?
+<lb />ALCIPE s'en allant, apres qu’ils ſe ſont parlé bas.
+<lb />La peine n’eſt pas grande.
+</sp>
+<p type="MainZone-Head"><lb />SCENEIII.
+<lb />IODELET, LE CAMPAGNART.
+</p>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD liſant le billet
+<lb />qu'Aleipe luy a laiſié.
+<lb />L ne vous connois plus pour amy deſormais,
+<lb />IAyant fait ceut diſcours à mon deſauantage,
+<lb />Et pour me ſatisfaire en homme de courage,
+<lb />Venez par voſtre ſang reparer cet outrage,
+<lb />Que ſans voſtie trépas ie n’oublieray jamais.
+<fw><lb />CLIYON.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Hé bien, il faut marcher, ma parole eſt donnée.
+</sp>
+<sp type="MainZone-Sp"><lb />Pour cela?
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si ie crains, c’eſt pour mon hymenée.
+<lb />Qu'importe?
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Tes auis frapent mon jugement,
+<lb />Et i’entre maintenant dedans ton ſentiment,
+<lb />Ie crains qu’eſtant bleſſé ie reſte ſans maîtreſſa
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Cliton n’eſt pas vaillant.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ou bien ſi ie le tuë?
+<lb />Mais quoy, ſi ie le bleſe!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Il faudra l’enterrer.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais la Iuſtice apres?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Aura beau murmurer.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD,
+<lb />Et le frere du mort?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Il faudra qu’il l’endurɇ.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />A te dire le vray, ie crains la procedure,
+<lb />Et me ſouuiens toûjours des Edits rigoureux
+<lb />Qui furent publiez en ſix cens trente &amp; deux,
+<lb />Trente-trois, trente-ſix, trente &amp; neuf, &amp; quaranie,
+<lb />Le moindre peut m’oſter trois mille eſcus de renit,
+<lb />Outre cela i’ay peur d’entter dans les priſons.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Vous n’y pourritiez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />I’ay bien d’autres raiſons,
+<lb />Qui ſont pour m’arreſter les meilleures du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />Et quelles?
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />De treuuer quelqu'vn qui me ſeconde.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Pour vous dire le vray, celle-là peut paſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais Phenice s’approche &amp; peut m’embaraſſer,
+<lb />Va-t'en treuuer Cliton, mais viſte, ie te prie,
+<lb />Et luy dis qu’il remette à tantoſt la partie.
+<lb />Nous, cachons nos daſeins.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LE CAMPAGNARD, BAZILE,
+<lb />PHENICE, PHILIS,
+<lb />IODELET, LISE.
+</p>
+<sp type="MainZone-Sp"><lb />Monlieur?
+<lb />PHENICE.
+<lb />HE quoy toujours reiver,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie propoſois de vous aller treuuer,
+<lb />Et de rendre à mes yeux la ſource de leur ioye:
+<lb />Mais puiſque mon bõheur permet que ie vous voye,
+<lb />Dedans Ie temps fatal que ie l’eſperois moins,
+<lb />Ie m’en vais redoubler mes trauaux &amp; mes ſoins
+<lb />Pour faire vn ſactifice à ma bonne fortune,
+<lb />Et payer ces faueurs d’vne ardeur non commune.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />En quels lieux eſt le temple, &amp; quel ſera l’autel?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Madame, c’eſt le cœur d’vn malheureux mortel,
+<lb />Qui brûlé de vos feux, pour expier ſon crime
+<lb />Eſt luy-meſme l’autel, le temple, &amp; la victime.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ceſt ſe tirer d’affaire aſſez adroitement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ou pour en mieux parler, mencir eloquemment,
+<lb />Puiſque de ſon diſcours il me reſte vn ſerupule.
+</sp>
+<sp type="MainZone-Sp"><lb />Quel?
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />De ne pouuoir pas croire que ſon cœur biût;
+<lb />Car depuis le moment qu’il le dit enflamé,
+<lb />Il deuroit eſtre au moins mille fois conſommé.
+<lb />Cependant quel peril courroit ſa renommée
+<lb />Si ſans auoir de cœur il alloit à l'armée!
+<lb />Dieu ſçait s’il periroit dans les moindres harardi
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Venus n’eſt-elle pas compagne du Dieu Mars,
+<lb />Et Cupidon ayant &amp; ſes champs &amp; ſes armes,
+<lb />Tout amant eſt ſoldat au plus fort des alarmes.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ce paſſage eſt d’Ouide, il m’en ſouuient fort blen
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si c’eſt ſon ſentiment, il eſt auſſi le mien,
+<lb />Soir de l'vn ou de l’autre, il eſt fort raiſonnable,
+<lb />Et ie puis en ſeruir de preuue indubitable.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />PHENICE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Depuis vn an voſtre bel œil vainqueui
+<lb />M’a mis dedans ſes fers &amp; m’a rauy le cœus,
+<lb />Et cependant i’ay fait la derniere campagne,
+<lb />Et ſuis preſt celle-cy d’aller en Allemagne.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Vous n’y viſtes pourtant l’ennemy que de loin?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPACNARD.
+<lb />Celuy qui vous le dit fut vn mauuais témoin,
+<lb />Qu'à vos yeux ie voudrois traiter de chiquenaude
+<lb />Iamais occaſions ne ſe vitent ſi chaudes,
+<lb />Et iamais l’ennemy ne fit de tels efforts
+<lb />Apres auoir jonché la campagne de morts:
+<lb />Mais s’il faut le prouuer pour vouz le faite croirt,
+<lb />Ie veux bien au beſoin t’apellet ma memoire,
+<lb />Et prendre mon recit dés le premier de l'an,
+<lb />Si-toſt que l'on eut fait ſonnet l’atriere-ban,
+<lb />eſtant déja pourueu d’armes &amp; de bagage.
+<lb />Ie fais de trois mulets groſſir mon équipage,
+<lb />ire de mon Fermier quatre cheuaux de oaſts,
+<lb />abille ſix valets du haut iuſques au bas,
+<lb />Et vais, quoy que d’amour i’euſſe l’ame troublée,
+<lb />Monté comme vn S. George au lieu de l’aſſemblée.
+<lb />à ie treuue d’abord vingt outtrente voiſins,
+<lb />Onze ou douze neueux, &amp; dix &amp; huict couſins,
+<lb />Deux oncles, trois filleuls, vn batard de mon pere,
+<lb />Et ſix de vos parents, auecque mon beaufrere.
+<lb />Nous eſtans ameutez &amp; leſtes à rauir,
+<lb />Voyons le General, qui lors (par parenteſe)
+<lb />En me reconnoiſſant parut eſtre fort aiſe,
+<lb />Et dit en m’embraſſant que i’auois le bonheur
+<lb />D’auoir eſté le fils d’vn fort homme d’honneur,
+<lb />Et qu’il ſe doutoit bien que ie chaſſois de race :
+<lb />Mals couranend leelequiiaui me ie vous faſſe,
+<lb />Ie ne vous diray point ce que ie répondis,
+<lb />Les diſcours que ie fis, ny tout ce que ie dis;
+<lb />Suffit que vous ſçachiez que nos troupes rangées
+<lb />En tous les enuirons des terres aſſiegées,
+<lb />Par tout l’on rencontroit des ſoldats en troupeaux
+<lb />Comme on voit les moutons ſortit de nos hameaux.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />C’eſt fort bien moutonné pour vn homme d’étude,
+<lb />Hé, Monſieur, gardez-vous de la comparitude,
+<lb />Elle n’eſt pas idoine à telles gens que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Qu’il eſt plaiſant:
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il faut tout endurer des fous.
+<lb />L’aſſiette de la place eſtoit fort ſauorable,
+<lb />Elle eſtoit ſur le haut d’vn rocher imprenable,
+<lb />Qui n’eſtoit d’aucun lieu ny veu ny commandé,
+<lb />De deux larges foſſez ſon mur eſtoit bordé.
+<lb />Quatre grands baſtions garnis de demy-lunes
+<lb />Qui pouuoient eſſrayer des forces non communes,
+<lb />C iij
+<lb />Tous reueſtus de pierre, &amp; tous fort bien ſunquu
+<lb />Nous oſtoient tout eſpoir d’auoir les atraquez.
+<lb />On ne voyoit par tout que bonnes paliſſades,
+<lb />Que trauaux auancez, fortins &amp; baricades:
+<lb />Bref pour vous exprimer quelle eſtoit ſa bonté,
+<lb />Vn fleuue fort rapide en gardoit vn coſté,
+<lb />Qui tout enflé d’orgueil d’en deffendre l’approche,
+<lb />Baignoit à gros boüillons les pieds de cette rocue
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas à Phenice.
+<lb />Ce morceau de recit eſt dans quelque Romant,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE bas.
+<lb />Dices dans la Gazette. O l’agreable amant!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />L’excez de ſon amour doit excuſer ſa faute.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE au Campagnard.
+<lb />Ouy par ce ſeul recit déja le cœut me ſaute.
+<lb />Ah que n’ay-je voſtre age ou moins de dix bõs uil
+<lb />Ie me ſignalerois parmy les plus vaillans,
+<lb />Ec faiſant plus que tous mieux peter le ſalpeſtre,
+<lb />Ie mourrois à la bréche, ou me ferois connoitte,
+<lb />Mais ie n’ay plus pour moy que le ſeul repentit,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Monſieur, l’on dit bien vray, bon ſang ne peut mtur
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Mais ie vous interromps, excuſez-moy de gucs
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Le iour eſtant donc pris pour attaquer la place,
+<lb />On ouure la tranchée, où tous nos Mareſchaux
+<lb />Cette premiere nuict conduiſoient nos trauaux,
+<lb />Et dedans chaque attaque auoient fait des redouits
+<lb />Lors que les ennemis ſe tenans aux écoutes,
+<lb />Dés la pointe du iour vindrent bon-cy, bon-li,
+<lb />Deſſus nos trauailleurs qu’ils maſſacrerent là.
+<lb />Mais comme nous auions bien préueu leur ſonit,
+<lb />Et qu’ils auoient affaire auec forte partie,
+<lb />D’abord vn regiment s’en vint là, tà, cà, tà,
+<lb />Si bien donner ſur eux qu’il les épouuanta,
+<lb />Etles fit reculer icy vers la riuiere.
+<lb />Lors vn autre auſſi -toſt les ſurprend par derriere,
+<lb />Et s’en vint, boute, &amp; haye, allons, vous en aurez,
+<lb />Leur fermer le paſſage &amp; les ſerrer de prés.
+<lb />Ah que la mort alors ferma d’yeux &amp; de bouches!
+<lb />Que gimas horiont!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que d’abreuuoirs à mouches!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Que de cœurs pilpitans!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que de nez morfondus!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />&amp; dhanmtrecraſez!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que de chapeaux perdus!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Que de ſang &amp; decris! IODELET.
+<lb />Que de coups par derriere!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />It qu’enfin d’hommes là firent leur cimetiere !
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ie croy qu’il faiſoit chaud à quatre pas de la.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Quelle eloquence!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Enfin l’ennemy s’en alla,
+<lb />Et trois mille des ſiens moururent ſur la place.
+<lb />Apres pendant vn mois on attaque, on menace,
+<lb />Et la mine eſtant preſte à les faire voler,
+<lb />Sans que le Gouuerneur voulût capituler;
+<lb />On reſout vn aſſaut, où i’aquis l’auantage
+<lb />D’auoir eu le ſecond témoignẽ mon courage.
+<lb />D’abord que ie montois vn coup de fauconneau,
+<lb />Raſte, de ſon boulet m’emporta le chapeau,
+<lb />Car pour dire le vray ce iour ie fis la beſte,
+<lb />Et ne voulus iamais mettre de pot en teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />c'eſt vn trait de jeune homme, &amp; c'eſt en vſer mal</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ayant donc eſquiué le pas le plus fatal,
+<lb />I'eſtois comme de vous proche de la courtine
+<lb />Lors qu’vn chef Eſpagnol d'vn coup de paueline
+<lb />Me iette cul ſur teſte aux pieds de ſes remparts.
+<lb />Où des greſles de plomb tombant de toutes pars.
+<lb />On me fit emporter pour mort &amp; fort malade.
+</sp>
+<sp type="MainZone-Sp"><lb />Et la ville?
+<lb />BAZILE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />A la fin fut priſe d’eſcalade,
+<lb />Et ſouffrant trois aſſauts, vous pouuez bien iugæ<lb />Si l’on vit l’ennemy, ſi i’y courus danger,
+<lb />Et ſi ce beau témoin qui vous conta l’affaire
+<lb />N’eut pas beaucoup mieux fait s’il eut voulu ſe taue.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Sans doute, mais voicy noſtre Peintre qui vient.
+</sp>
+<p type="MainZone-Head"><lb />ENE V
+<lb />LE CAMPAGNARD, BAZILE,
+<lb />LEANDRE, PHENICE, PHILIS,
+<lb />IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />BAZILE à Leandre.
+<lb />HE' bien, ces beaux ubleaux ſont</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mon valet les tient
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ie ſuis rauy de voir vn homme de promeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />De plus, i’ay fait la choſe auecque tant d’adreſſe,
+<lb />Que vous meſme du prix vous ſerez étonné,
+<lb />ruilqu’à dire le vriy c’eſt vn marché donné.
+<lb />'en ay d’André d’Elſart, de Breugles, du Valeſe,
+<lb />Du Gioſepin, du Tite, &amp; de Paul Veroneſe,
+<lb />Du Titian, du Gobbe, &amp; du vieil Tintoret,
+<lb />Du Guide, de Lucas, de Rheimbrand, de Ianet,
+<lb />ou ramepumaui [ de Pietre Perugine,
+<lb />De Michel-Ange enfin, de qui la main diuine,
+<lb />D’vn art dont nul ne peut eſtre l’imitateur,
+<lb />A preſques vſurpé les droits du Createur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />auriez-vous de leut main quelque hiſtoire profane?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Le porfil du Pont neuf, ou la nopce de Ieanne?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />e ne le penſe pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais au moins par bonheur
+<lb />luriez-vous le portrait de noſtre Gouuerneur?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE bas.
+<lb />Je merite-t’il pas mille fois qu’on le berne?
+<lb />Monſieur, ie n’en ay point d’aucunPeintre moderne.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />nſez qu’en ce pays ils ſont tous ignorans?
+<lb />LEANDRE au Campagnard, voyant qu’il
+<lb />prenoit moderne pour le nom d'vne ville.
+<lb />Moderne, ce n’eſt pas vn pays.
+</sp>
+<sp type="MainZone-Sp"><lb />cht.
+<lb />LE CAMPAGNARD.
+<lb />Ie comprens,
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais ou ie me trõpe, ou i’apperçois mon hõme,
+<lb />Vous allez voir l’élite &amp; la gloire de Rome.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />ay grand deſſein de voir quelque choſe de beau.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Dites done voſtre auis de ce premier tableau,
+<lb />C’eſt Hercules qui file aupres de ſa maîtreſſe.
+<lb />Ne ſemble-t’il pas dire en l’ardeur qui le preſſe.
+<lb />Par des regards qu’amour rend complaiſans a
+<lb />O celeſte merueille, où me reduiſez vοκς?
+<lb />Voyez ſon coloris, &amp; comme ſon viſige
+<lb />Dans cet abaiſſement montre encor du count<lb />Comme vn reſte d’honneur luy fait rougit lei<lb />Comme il ſemble auoir honte, &amp; côme il ſe clu
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Cette piece eſt hardie.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elle eſt incomparable.
+<lb />D'autre coſté voyez cette Nymphe adomble,
+<lb />Qui d’vn œil dédaigneux &amp; plein de milleng
+<lb />Reçoit ce grand hommage &amp; ne s’en eſmeutpe
+</sp>
+<sp type="MainZone-Sp"><lb />PHÏLIS.
+<lb />Il eſt donc mal payé de ſon amout extréme?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Mais puiſque le Heros ſçait que la Nymphe la
+<lb />Luy peut-on ſouhaitter vn meilleur traiteme
+<lb />Et l’amour déplaiſt il traité modeſtement?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />On pourroit ſouhaiter que d’vn œil moini ſex
+<lb />Elle payaſt l’effort que l’amour luy fait faire
+<lb />Et qu’en reconnoiſſant qu’Hercules s’abaiſſois,
+<lb />Elle brûlaſt d’amour quand il en rougiſſoit.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Moy ie ſouhaiterois en la voyant ſi nuë,
+<lb />Que iuſques au menton le Peintre l’eût véue,
+<lb />Et qu’on ne viſt du bras que les extremitez.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Le ſçauoir ne paroiſt que dant les nuditez.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />En eſſet la peinture eſt...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Voyons-en vn autre.
+<lb />Madame, ay-je raiſon?
+<lb />PHENICE. Mon auis eſt le voſix
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Montrez-nous-en quelqu'vn d’vn ſtile plus noux
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />e grace auparauant regardez ce tableau,
+<lb />eſt Achille caché ſous des habits de ſemme,
+<lb />ui dans les beaux excez de l’amour qui l’enflame
+<lb />forcé ſon courage à ce déguiſement
+<lb />our voit en liberté l'objet de ſon toutment:
+<lb />oyez comme il eſt gay prés de Laodamie,
+<lb />comme en cet eſtat ſa valeur endormie
+<lb />enonce à tous les biens qu’on luy peut preſenter,
+<lb />our voir cette Princeſſe &amp; ne la point quitter.
+<lb />us cet habit honteux ne ſemblet’il pas dire,
+<lb />ſui de vos regards m’eſt plus cher qu’vn Empire,
+<lb />ie ne connois point d’houneur qui ſoit plus doux
+<lb />ue celuy de vous plaire &amp; d’eſtre aimé de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />ien n’y manque en effet, ſi ce n’eſt la parole.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />enhlpiolamoerca donne ma piſtole.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />n donnerois bien dix, &amp; ne les plaindrois point.
+<lb />iſſons.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Celuy qui ſuit me plaiſt au dernier point,
+<lb />eſt du vaillant Heros qui déliure Andromede.
+<lb />egardez comme il vole en courant à ſon ayde,
+<lb />t comme en deſcendant auec dexterité
+<lb />e monſtre qui l’approche en eſt épouuenté.
+<lb />vant deſſus le front vne ioye exceſſiue,
+<lb />e Heros ſemble dite à la belle captiue,
+<lb />vous déliurenay du monſtre qui pareſt.
+<lb />temarquez ſa laideur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah Dieux qu’il me déplaiſt!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />oyez comme en marchant ſur l’humide campagne
+<lb />on corps à chaque pas éleue vne montagne,
+<lb />ui portant vn deluge aux regions de l’air
+<lb />byſme le Heros que l’on y voit voler.
+<lb />Remarquez comme il ſort de cette gueulle ouatra
+<lb />Des tourbillons épais, &amp; de l’écume verte,
+<lb />Comme il eſt heriſſé ſur ſon dos eſcailleux,
+<lb />Et comme ſa prunelle eſt ardente de feux.
+<lb />D’autre coſté voyez cette belle victime
+<lb />Qui rougit dans ſes fets ſans auoir fait de crime
+<lb />Et qui d’vn œil modeſte inuoquant le trépas
+<lb />A honte de ſe voir auecque tant d’appas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Le cheual eſt bien pris.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Sa reſte eſt des plus bala
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />C’eſt mon barbe tout fait, n’eſtoit qu’il a des allea
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Me deuſſiez-vous bemer pour mon trop de caqua,
+<lb />Ie ne puis auouer que voſtre bouriquet
+<lb />Reſſemble à ce cheual, &amp; qu’il ſoit de ſa uille.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce fat n’a iamats veu mon cheual de bataille.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Pour ce coup il eſt vray, ie confeſſe ce point,
+<lb />Le moyen de le voir, ſi vous n’en auez point?
+<lb />Vn Barbe!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Iodelet, tréue de raillerie.
+</sp>
+<sp type="MainZone-Sp"><lb />IODBLET.
+<lb />Tréue de Barbe auſſi, Monſieur, ie vous en prlt.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il vient d’vn bon autheur, &amp; ne peut eſtre mal.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce Caualier pourtant n’eſt pas bien à cheual,
+<lb />Ie voudrois qu’il ſuſt mieux cole deſſus la ſelle,
+<lb />Et qu’il portaſt le corps d’vne façon plus belle,
+<lb />Que la pointe du pied ſe tournaſt autrement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />On change de coûtume en changeant d’element,
+<lb />Et les cheuaux ailez ſe piquent de la ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Madame, ie me rends, la partie eſt trop forte;
+<lb />Mais acheuons le reſte.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LE CAMPAGNARD, BAZILE,
+<lb />PHILIS, PHENICE, LEANDRE,
+<lb />IODELET, LISE, VN PAGE.
+</p>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />ATimameur !
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Que veux-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />Monſieur, on dit par tout que Cliton s’eſt bartu,
+<lb />Ou qu’il s’en va ſe battre, &amp; que partie eſt faite.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Viſte, vn cheual de main, qu’on m’apreſte ma brette,
+<lb />Mes bottes de campagne, &amp; mes bons piſtolets,
+<lb />Viſte, ſellez, bridez, où ſont tous ces valets?
+<lb />Ces marauts, on les voit quand on n’en a que faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Iodelet.
+<lb />Feignons, &amp; pour montrer que j’ignore l’affaire,
+<lb />Sortons, &amp; nous tirons doucement à l’eſcart.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Champagne, la Foreſt, perit-Baſque, Picart,
+<lb />Au Diable les valets, maudite ſoit la race,
+<lb />Ie n’en puis plus ſouffrir, il faut que ie les chaſſe:
+<lb />Ma niepce, ie reuiens icy dans vn moment.
+<fw><lb />t
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE VII
+<lb />IEANDRE, PHENICE, PHILIS
+</p>
+<sp type="MainZone-Sp"><lb />*
+<lb />PHENICE.
+<lb />(meus
+<lb />Vel homme pourroit ſeindre auec plus d’iuut</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Et quelle fille auſſi n’auroit ſujet de craindre,
+<lb />Ayant donné ſon cœur à qui ſçait ſi bien feindie?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />A ne vous point mentir, ie vous tiens inconſtau,
+<lb />Et toy, ma chete ſœur?
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />651 -
+<lb />PHILIS.
+<lb />Moy, i’en croy tout auuut
+<lb />Eſtant dedans Lyon, deuant qu’il vous eut veue,
+<lb />Ne cauoloit-il pas dans noſtre meſme ruë
+<lb />Vne ieune Banquiere, &amp; quand il vous parla,
+<lb />Vous ſouuenez-vous bien comme il la planta-lil
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vrayment, cheteP'hilis, mon malheur eſt exttéme,
+<lb />Puiſque vous ſouhaitez d’ẽpeſcher qu'on ne m’uint
+<lb />Comme ſi pour me voir reduit au dernier poins
+<lb />Il ne ſuffiſoit pas que vous ne m’aimiez point.
+<lb />Mais enfin, ie vous ſuis tellement redeuable
+<lb />Que ie vous veux aimer innocente &amp; coupable,
+<lb />Et malgré voſtre haine, au lieu de vous punit,
+<lb />N’employer que Cliton pour me bien maintenit,
+<lb />Et luy dire de vous tout le bien que ie penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHICIS.
+<lb />Ce ſeruice eſt trop giand, &amp; ie vous en diſpenſe,
+<lb />Carder voſtre louange, &amp; croyez que Cliton
+<lb />bſ'eſt fort indiſierent, ſoit qu’il m’eſtime ou non</sp>
+<sp type="MainZone-Sp"><lb />D'où vient?
+<lb />PHENICE.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Il eſt ſi ſombre &amp; ſi mélancolique,
+<lb />ue l’on ne luy dit rien quaſi qu’il ne s’en prque,
+<lb />Et n’eſtoit que ma ſœur ſe ſert parfois de luy,
+<lb />Ie le détromperois meſme dés aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Cõment ferons nous donc pour eſtre bien enſemble?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Vous y ſerez toûjours &amp; mieux qu’il ne vous ſemble,
+<lb />I'ourueu que vous aimiez auec fidelité
+<lb />Celle qui vous honore auecque verité, .
+<lb />Cette ſœur que i’eſtime à l’égal de moy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Voyez-vous, elle craint à cauſe qu'elle m’aime.
+<lb />Vous iugeant inconſtanc, elle tremble pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE A Phiniee.
+<lb />Helat i’ay trop d’amout pout vous manquer de foy,
+<lb />Et puis il eſt certain que le plus inudelle
+<lb />Changeroit d’habitude en vous voyant ſi belle :
+<lb />Mtais entrons, que quelqu’vn ne nous écoute icy. 
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />. PHENICE
+<lb />Que ie l’aime, ma ſœur!
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISbas.
+<lb /> Et que ie l’aime auſſi !
+</sp>
+<p type="MainZone-Other"><lb />Fis da ficond Afle.
+<fw><lb />
+<lb />3
+<lb />2
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />
+<lb />n3
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE III.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE
+<lb />LEANDRE, ANSELME
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elas nous en tenons, &amp; tu reconnois bien
+<lb />HQue ton inuention ne ſeruira de rien,
+<lb />Loin de s’eſtre battus, ces Meſſieurs, ce me ſemble,
+<lb />Ne quittent point la place, &amp; ſeront bien enſemble,
+<lb />Il reſte ſeulement à craindre que Cliton
+<lb />Venant à deſcouurir que l’on luy fait faux-bon,
+<lb />Et qu’à cauſe de moy Phenice le careſſe
+<lb />Pour le faire ſeruit d’Acteur à noſtre piece,
+<lb />Dans ſa mauuaiſe humeut, incommode &amp; ialoux,
+<lb />Ne m’oblige de rompre, &amp; d’en venir aux coups.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Pour bien feindre, Phenice eſt-elle aſſez adreuel
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il croit qu’elle l’adore, &amp; n’eſtoit ſa cadette,
+<lb />Dont il eſt ſi coiffé qu’il ne ſçait ce qu’il fait,
+<lb />Il ſe declareroit pour elle tout à fait.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais enfin noſtre fouibe eſt-elle bien conduite,
+<lb />Et n’auons nous point lieu d’en tedouter la ſuite!
+<lb />Car ſi le Campagnard demandoit à Cliton
+<lb />Qui luy peut auoir dit, qu’il choquoit ſa maiſon,
+<lb />Et qu’il le haïſſoit iuſqu’à tirer l’épée,
+<lb />N’eſtes vous point du guet, &amp; Phenice attrapée?
+</sp>
+<sp type="MainZone-Sp"><lb /> LEANDRE.
+<lb /> 2
+<lb />Pour deux ou trois raiſons il ne peut la nommer,
+<lb />La premiere eſt qu’il eroit qu’à force de l’aimer
+<lb />Enle nn pa iouirir vne telle impudence:
+<lb />La ſeconde eſt qu’il tient que cette confidence
+<lb />Eſt marque qu’on le croit vn homme fort diſcrec:
+<lb />Et l’autre eſt qu’il ne peut éuenter ce ſecret
+<lb />Sans donner au Baron beaucoup de ialouſie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Si le Baron auſſi par quelque fantaiſie
+<lb />S’en va dire à Cliton qu’il ne tient que de vous,
+<lb />Le raport indiſeret qui l’a rendu ialoux,
+<lb />Et que vous ſeul entin deſcouurez les carreſſes
+<lb />Que rnemte lay tait, d touter les adreſſes,
+<lb />Que croira-t’il alors?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Qu’il eſt beaucoup aimé,
+<lb />Puiſque de ſes amours vn tiers eſt informé.
+<lb />Et que ſa paſſion m’a parû toute claire.
+<lb />Et puis pourquoy penſer que ie me doiue taire,
+<lb />Voyant le Campagnard qui me veut tant de bien?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Auec tant de raiſons, ie ne dois craindre rien:
+<lb />Mais à propos, Phenice eſt-elle ſatisfaite
+<lb />De vous voir ſi ſouuent parlet à ſa cadette?
+<lb />Vous vous y plaiſez trop.
+<lb />¶8 Hm.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb /> Ah qu'elle a l’eſprit doux!
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+<lb />ANSELME,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Que crains-tu?
+<fw><lb />
+<lb />.1N
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb /> Ie crains toutes choſes de vous.
+<lb />D iij
+</sp>
+<sp type="MainZone-Sp"><lb />Anſelme.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt aſſez, ie le diſois pout rire.
+<lb />Mais tout de bon, Monſieur, il faut qu’on voui
+<lb />admire,
+<lb />Depuis vn mois entier vous n’auez point changé,
+<lb />Vne ſeule beauté vous tient-elle engagé,
+<lb />Et du berger Hylas ayant eſté l’image
+<lb />Pouuez-vous renoncer à ce beau perſonnage?
+<lb />Voſtre cœur n’eſt-il plus vn eſclaue à loüer?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Si ie fus inconſtant, tu m’en deurois loüer,
+<lb />Puiſque ie n’ay changé ny d’amours, ny d’amante,
+<lb />Que pour courir apres des graces plus puiſſantes.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais vous auez quitté l’incomparable Iris
+<lb />Que l’on trouuoit vingt fois plus belle que Cloris!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Adjoûte qu’elle eſtoit plus bizarre &amp; plus triſte.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Quelle excuſe auez vous d’auoir quitté caliſte?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />( point
+<lb />C’eſt qu’elle eſtoit trop maigre, &amp; ne me phiſoit
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />La ieune Celimene?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Auoit trop d’embonpoint,
+</sp>
+<sp type="MainZone-Sp"><lb />Amurilis?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />N’auoit de beau que le viſage.
+</sp>
+<sp type="MainZone-Sp"><lb />Aminthe?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Eſtoit trop gaye.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et Diane?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Trop ſige</sp>
+<sp type="MainZone-Sp"><lb />orimene?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Aimoit trop &amp; le bal, &amp; le cours,
+</sp>
+<sp type="MainZone-Sp"><lb />iyponte:
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vouloit que l’on joüaſt toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />iudoxe?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Enoit ſuperbe.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et Caſſandre?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Legge.
+</sp>
+<sp type="MainZone-Sp"><lb />riſeide?
+<lb />ANSELME.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />
+<lb />Elle eſtoit trop bonne ménagere.
+</sp>
+<sp type="MainZone-Sp"><lb />enice?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vn caterre a tombé ſur ſes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />nice?
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elle perd ce que j’aimois le mieux,
+<lb />it eu tout le teint gaſté par la iauniſſe.
+<fw><lb />1
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />enſieur, e’eſt galamment excuſer voſtre vice,
+<lb />trouuer des raiſons pour attraper vn ſot:
+<lb />Mais baſte, iuſqu’icy ie ne vous en dis mot,
+<lb />ayant encore pû rencontrer vne fille
+<lb />fut &amp; riche, &amp; belle, &amp; de bonne famille:
+<lb />ujourd’huy trouuant ce que vous ſouhaiter,
+<lb />Et celle qui vous aime ayant ces qualitez,
+<lb />Si vous l’abandonnez &amp; la quittez pour d’autres
+<lb />Dés ce meſme moment ie ne ſuis plus des voſties
+<lb />Il ne tiendra qu’à vous d’arreſter vn deſtin
+<lb />Dont tant d’erreurs desja m’ont fait craindre lafi
+<lb />Elle a dedans Lyon trois mille eſeus de rente,
+</sp>
+<sp type="MainZone-Sp"><lb />Ne crains rien.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Arreſtez noſtre fortune errante,
+<lb />Et ſongez qu’vn bonheur nous conduit à Lyon,
+<lb />Et vous tendit l’objet de ſon affection,
+<lb />Lors qu’auec peu d’argent vous auiez la folie
+<lb />D’aller faire l’amour aux femmes d’ltalie,
+<lb />Et de courir le monde apres de bout en bout.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Encore vn coup, trauaille, &amp; ne crains tien dutæs
+<lb />Treuue vne inuention telle qu’elle puiſſe eſtre
+<lb />Pour tompre les deſſeins de noſtre amant chipeſtz
+<lb />En faiſant differer ſon depart de huict iours,
+<lb />Tour nous donner le temps d’acheuer mes amous,
+<lb />En enledant l’objet qui feta ma fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />I'en conçois vne bonne, &amp; qui n’eſt pas comm
+<lb />Leandre ſort.
+<lb />Eſcoutez... Mais voicy noſtre Noble qui vient.
+<fw><lb />4
+<lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />
+<lb />LE CAMPAGNARD, ANSELME,
+<lb />IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Ioddlu.
+<lb />H qu’il quitte à propos celuy qui l’entretienti
+<lb />AQue faiſoit en ce lieu le plus ſçauant des hômes?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME d’vn ton graue.
+<lb />Nous en sõmes le moindre en l’état où nous sõmes,
+<lb />Et verrions fonit ciprit tourits iours en defaut
+<lb />Sans les rayons infus qui nous vjennent d’enhaut.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à lodelet.
+<lb />O Dieux qu’il eſt ſçauant !
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Monſieur, c’eſt vn vray Diable.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />A quoy pouuoit reſver voſtre eſprit admirable?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />I'eſtois dans les douleurs d’vn grand enfantement,
+<lb />Que i’allois mettre au iour aſſez heureuſement.
+<lb />Pour traitter la Chymie auecque plus de gloire,
+<lb />Ie ſongeois à conſtruire vn grand laboratoire,
+<lb />Dont les recipiens, &amp; les vaiſſeaux lutez,
+<lb />Par le feu graduel ne fuſſent point gaſtez;
+<lb />Ie voulois temperer l’ardeur immoderée
+<lb />Du ſel elementaire, &amp; de l'hui le etherée:
+<lb />Ie ſongeois à trouuer quelques ſecrets nouueaux,
+<lb />Pour aiſément pouuoir calciner les metaux,
+<lb />Et tirer l’elixir des choſes penetrantes,
+<lb />Pour extraite le ſel eſſentiel des plantes,
+<lb />Pour faire promptement la ſublimation,
+<lb />Fixation d’eſprit, &amp; fumigation :
+<lb />Ie ſongeois au pouuoir qu’a le diuin Mereure
+<lb />Sur le corps metallique en changeant ſa nature,
+<lb />Comme il ſe volatiſe, &amp; ſe peut congeler,
+<lb />Corroder &amp; diſſoudre, &amp; ſe conguler.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si bien qu’on ne ſçauroit obtenir audience
+<lb />Sans détruire les fruits d’vne longue ſcience?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Parlez-nous, mais en bref.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie viens ſçauoir de voss
+<lb />Si le ſort me doit eſtre ou rigoureux ou doux,
+<lb />Si ie ſerois heureux en épouſant I'henice.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.-
+<lb />Ie veux dans peu de temps vous rendre ce ſeruice</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Vous m’auez déja fait cent fois ce compliment:
+<lb />Mais comme ce deſir me touche viuement,
+<lb />Monſieur, pardonnez-moy, ſi ie vous preſſe encout
+<lb />De vouloir ſatisfaite au feu qui me deuose,
+<lb />Et de diligenter mon horoſcope vn peu,
+<lb />Ie ne ſuis point ingrat.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME las ceven.
+<lb />Puis-je auoir plus beau ja
+<lb />Monſieur, à dire vray voſtre horoſcope eſt faite:
+<lb />Mais vous ayant veu né ſous mauuaiſe planette,
+<lb />Ie me ſuis reſolu de n’en declarer rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Hé de grace, Monſieur, ſoit mon mal, ou mon bie
+<lb />D'vne ou d’autre façon vueillez me ſatisfaire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt vn point reſolu, ie ne le ſçaurois faire,
+<lb />Tout autre pour tiret ſon ſalaite de vous
+<lb />Vous feroit chãger d’Aſtre, ou le redroit plus dour
+<lb />Mais eſtant au deſſus de toute recompenſe,
+<lb />Ie me tais, ou ie dis les choſes que ie penſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Edeore vn coup, Monſieur, tparlez-moy franchemẽe,
+<lb />Et vueillez de ma part prendre ce diamant.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME prenant le diamant.
+<lb />Rien ne me peut tenter, Monſicur, ie vous le iure;
+<lb />Mais ſçachant voſtre bonne ou mauuaiſe auenture,
+<lb />Si vous n’eſtiez pas homme à vous épouuenter
+<lb />Des maux qu’auec le temps vous pourriez éuitet,
+<lb />Et ſi vous compreniez en voyant vos deſaſtres
+<lb />Qu'vn eſprit tout-puiſſant prédomine les Aſtres,
+<lb />Et change leurs decrets ſelon ſa volonté,
+<lb />Ie vous ferois ſçauoir voſtre natiuité. A
+<lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie vous le promets.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie ne vous puis rien dire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Monſieut, c’eſt redoubler l’excez de mon martire.
+<lb />De grace...
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Armez vous donc de reſolution.
+<lb />Il fait ſemblant de lire vn grand papier
+<lb />qu’il tire de ſa poche.
+<lb />Vous auez pris naiſſance au ſigne du Lion,
+<lb />Sous ſa teſte, où l’on voit quatre eſtoilles ſemées,
+<lb />Qui d’vn feu toûjours vif ſemblent eſtre allumées,
+<lb />Il eſt l'onziéme ſigne, &amp; des plus capiraux,
+<lb />Eſtant particulier de trente partiaux,
+<lb />Le nom d’Algebaac eſt celuy qu’on luy donne.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />O Dieux!ce nom tout ſeul tueroit vne perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vous auez ſur le chef deux ſignes fort menus.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET à AiſIme, le tiraut à part.
+<lb />Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Qu'eſt ce.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Auoüez que c’eſt Capricomu,
+</sp>
+<sp type="MainZone-Sp"><lb />Iodelet.
+<lb />ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ian Petit fit l'amour à ma tante,
+<lb />Pierre de Lariué nous doit cent ſols de rente,
+<lb />Maiſtre Euſtache Noël a beu cent fois chez nous,
+<lb />Et le ieune Troyen...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Maiſtre ſot, taiſez vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Veus auez à treize ans eu quelque maladie,
+<lb />Dans peu vous en aurez, ſi l’on n’y remedie,
+<lb />Et ſi vous eſchappez les maux que ie preſſens,
+<lb />Vous n’en ſentirez plus qu’à quarante &amp; huict in;
+<lb />Voſtre fatal ayant la part Oriencale,
+<lb />Vous ferez vne faute &amp; lourde, &amp; ſans égale,
+<lb />Si deuers cet endroit dedans tous vos logis
+<lb />Vous ne diſpoſez pas vos chambres &amp; vos lits,
+<lb />Et ſi vous n’y traitez vos meilleures affaires.
+<lb />Iuin, lanuier, &amp; Iuillet, vous ſeront bien contraims
+<lb />Voſtre iour malheureux ſera le Samedy,
+<lb />Vos heureux ſont Mardy, Dimanche, &amp; Venditl,
+<lb />Et ſi vous trafiquez, prenez l'ambre &amp; l’agatte,
+<lb />Le cuiute, les cheuaux, &amp; l'or, &amp; l'eſcarlaus,
+<lb />Autrement...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce n’eſt pas ce que ie veux ſçauoit.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Attendez, chez vn Grand vous aurez du pouuoit,
+<lb />Et vous ſerez bleſſé d’vn grand coup à la bouche,
+<lb />Vous ſerez marié.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />C’eſt là ce qui me touche,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et vous deuez auoir deux femmes tout au moins,
+<lb />Elles vous aimeront, mais malgté tous leurs ſe
+<lb />Vous ne pourrez auoir aucun amour pour elles,
+<lb />Elle aatontoere ne ſeront pas belles.
+<lb />Venus en quantité vous promet des enfans,
+<lb />Iupiter les rendra joyeux, &amp; triomphans:
+<lb />Mais l’oppoſition de Mars &amp; de la Lune
+<lb />De quelques-vns par mort bornera la fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />A ce compte, Monſieur, rendez grace aux deſtins,
+<lb />Qui vous expulſeront quelques fils de putains;
+<lb />Car tous gens mariez ſont des cornards en herbe,
+<lb />Et meſſieurs leurs enfans ſont...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Trefue de prouerbes.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Voſtre an elimaterique eſt proche d’arriuer,
+<lb />Mercure ayant receu Mars qui le vient trouuer,
+<lb />Ptomet vn grand deſordre en voſtre mariage:
+<lb />Ie quauedmameamantape,
+<lb />Vous rendant malheureux pour auoir trop veſcu.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne l’ay-je pas bien dit, que vous ſeriez cocu?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />Tais-toy.
+<lb />ANSELME.
+<lb />Ie ne ſçay point mal qui ne vous arriue,
+<lb />Si vous n’abandonnez l’objet qui vous captiue.
+<lb />Des meurtres, vn deluge, &amp; des embraſemens,
+<lb />Des priſons, des douleurs, &amp; des banniſſemens,
+<lb />Des pertes, des aſſionts, &amp; des teſtes coupées,
+<lb />Des coups de piſtolets, de poignards, &amp; d’eſpéts,
+<lb />Et des valets pendus.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ah, Monſieur, quittez-la ?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSEIME.
+<lb />Suiuent le premier feu dont voſtre cœur brôla.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />De ſorte qu’il faudra que ie quitte Phenice?
+</sp>
+<sp type="MainZone-Sp"><lb />Belle demande?
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah ciel! quelle eſt ton injuſtice
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />A-t'elle la premiere eſchauffé voſtre cœun?
+<lb />Peut-eſtre...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Son bel œil fut mon premier vainqueu</sp>
+<sp type="MainZone-Sp"><lb />ANSELMÉ.
+<lb />Il faut donc la quitter, puiſqu’il eſt manifeſt.
+<lb />Que voſtre premier feu n’a rien que de funeſte,
+<lb />Et que ceux qui ſuiuront vous ſeront plus heureur:
+<lb />Mais vous m’auiez promis d’eſtre plus genereur,
+<lb />Et cet accablement, dont ie me trouue cauſe,
+<lb />Fait voir que ie deuois vous déguiſer la choſe.
+<lb />Adieu, i’ay trop parlé.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET à Anſelme.
+<lb />Que vous auez bien fiitt
+<lb />ANSELME le voyant qui ſoupire.
+<lb />Le Dieux rendent par fois les Aſtres ſans effet.
+</sp>
+<p type="MainZone-Head"><lb />ENE III.
+<lb />LE CAMPAGNARD, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />A HIodde.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Monſieur, le Diable eſt bien aux vacher
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Injuſte Ciel, rends-moy le bien que tu m’arraches,
+<lb />Et me voyant ſi prés du naufrage, &amp; du port,
+<lb />Accorde moy Phenice, ou me donne la mort:
+<lb />Mais i’ay beau le prier en affaires pareilles,
+<lb />Le cruel prend plaiſir à fermer ſes oreilles.
+<lb />Ah rage !'ah ſort cruel! ah deſtins conjutez!
+<lb />Vous, grand Dieu des enfers, qui me deſeſperez,
+<lb />Amour, qui de mon ſang fais des torrens de flame.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />retit peituinateur du fepos de ſon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />Barbare.
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Traiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Aueugle, inſenſible.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Fort bien,
+<lb />Mais ſans fraper du pied tout cela ne vaut rien,
+<lb />Il faus ſerrer les poings, &amp; roulant les prunelles,
+<lb />Par de frequens regards lorgner les hirondelles.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah Iodelet, laiſſons cet importun diſcours,
+<lb />Et reconnois qu’enfin apres tant de beaux iours,
+<lb />Dans les champs amoureux ma moiſſon ſera ſeche.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Vous ne ſçauriez donc plus de quel bois faire fléche?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Helas qui le pourroit en cette extremité,
+<lb />Si ie ne ſais vertu de la neceſſité?
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Hé biẽ, n’eſt-il pas vray qu’il faut qu’vn cœur fidele
+<lb />Se vienne toſt ou tard brûler à la chandelle?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Helastpour mieux parler, dis vn ardent flmbeau,
+<lb />Qui luit comme ces feux qui ménent au tombeau:
+<lb />Maudis ſoient les deuins, &amp; leur philoſophie.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Sot eſt qui les conſulte, &amp; fol eſt qui s’y fie.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais comment l'épouſer apres ce qu’il m’a dit?
+<lb />Ah de rage &amp; d’amour ie ſuis tout interdit,
+<lb />L ij
+<lb />Et dedans ces douleurs, pat qui le cœur me ſeigui,
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous tuëriez volontiers vn mercier pour vn peiga
+<lb />Pourquoy vous affliger iuſques au dernier poinià
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie Faime, lodelet.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne la quittez donc point.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPACNARD.
+<lb />En ne la quittant point, voy quelle eſt ma miſeus
+</sp>
+<sp type="MainZone-Sp"><lb />iODELET.
+<lb />Quittez-la donc.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Helas!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Cardez donc de le faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Si ie l’épouſe auſſi quel malheur eſt le mient
+<lb />C’eſt ma perte aſſeurée.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Hé bien, n’en faices riea
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Auſſi ie n’en auray iamais vne ſi belle.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne penſer donc jamais à vous défaire d'elle.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais ie puis eſtte heureux auec moins de beauté.
+</sp>
+<sp type="MainZone-Sp"><lb />TODELET.
+<lb />Abandonnez la donc.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais ie ſuis arreſté,
+<lb />Et lié pour jamais d’vne flame trop forte.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Aimez donc iuſqu’à tant que le Diable l’emporte,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah, ſois plus ſerieux ſi tu veux m'obliger.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Et vous, &amp; voſtre amour me feriez entager.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Attends, ie premedite vne bonne défaite,
+<lb />Abandonnant l’aiſnée, &amp; prenant la cadette,
+<lb />Ie ſuis dans meſme ſang, &amp; dans meſme maiſon,
+<lb />Et menuiurd amy du querelleux Cliton.
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt certain.
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />De plus, ie n’auray rien à craindre,
+<lb />De ces aſtres fâcheux dont i’aurois à me plaindre,
+<lb />Et Philis en cauſant mes ſecondes amours
+<lb />Me rendra fortuné le reſte de mes jours,
+<lb />Au lieu que ſi ie veux m’obſtiner à Phenice,
+<lb />Qui receut de mon cœur le premier ſacrifice,
+<lb />Ie me dois aſſeurer de mourir malheureux.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Suiuez-done ce conſeil.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il eſt bien rigoureux,
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ne le ſuiuez donc point.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />s’il faut que ie le faſſe,
+<lb />Enfin c’eſt du temps ſeul que i’attends cette grace:
+<lb />Mais s’il faut oublier Phenice pour iamais,
+<lb />Ie veux en ſa cadette adorer ſes attraits.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />La compoſition eſt aſſez raiſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah que i’auray de peine en rencontre ſemblable?
+<lb />I’y veux encor penſer, mais quelqu’vn vient iey.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LE CAMPAGNARD, BAZILE,
+<lb />CLITON, PHENICE,
+<lb />PHILIS, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />BAZILE à Cliton, pour l’accomuudu
+<lb />auec le Campagnard.
+<lb />JOus deuez auancer puiſqu’il auance auſſi,
+<lb />V Et parler le premier, ayant eſmeu l’affaire,
+<lb />Embraſſez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON au Campagnard, montrant Phruiut,
+<lb />Monſieur, ie viens vous ſatisfaitt,
+<lb />Et deuant ces témoins vous iurer ſur ma foy
+<lb />Que vous aurez toûjours vn ſeruiteur en moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Les nommer des temoins! ah changez-leur ces tita
+<lb />Ces yeux ſont aſſez beaux pour eſtre nos arbitres,
+<lb />Ces iuges ſouuerains auecque tant d’appas
+<lb />Nous peuuent d’vn regard condamner au trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas à Phenice.
+<lb />Le peut-on écouter, ma ſœur, ſans qu’on le bem?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE au Campagnard.
+<lb />L’amour n’eſt dans nos yeux qu’vn iuge ſubalterne,
+<lb />Et ne peut condamner le moindre criminel,
+<lb />Sans que ſon iugement ſoit ſuiuy d’vn appel.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Cliton.
+<lb />Quoy qu’il en ſoit, ie ſuis tout à voſtre ſeruice,
+<lb />Et dans peu ie vous veux rendre vn ſi bon office
+<lb />Que vous m’appellerez amy plus que iamais.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Embraſſez-vous encor pour confirmer la paix.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Ie ſuis ſon ſeruiteur, quoy qu’indigne de l'eſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Vous eſtes fort braue hõme, &amp; l’auez fait connoître
+<lb />En me ſerrant vn peu le bouton de fort prés:
+<lb />D’abord en vous voyant ie reculois exprés,
+<lb />Tour reuenir ſur vous fondre comme vn tonnerre,
+<lb />Et vainere en pratiquant cette ruſe de guerre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Ie l'ay connu d’abord.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD à Philis.
+<lb />Il eſt ioly gargon.
+<lb />Or ça, que dites vous de cet eſtramaçon
+<lb />Que ie vous ay porté?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Qu’il part de grande adreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />La ſeinte?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Qu'elle eſtoit pouſſée auec iuſteſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Et quand i’ay dégagé, vous en ſouuenez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Hmais ie ne paray de ſi dangereux coups.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Quand ie vous ſeparay, ſans aucun auantage,
+<lb />Vous auiez fait tous deux en hommes de courage.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />L’vn ny l’autre n’eſtoit deſarmé, ny bleſſé?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie vais vous raconter comme tout s’eſt paſſé.
+<lb />D’abord tirant l’épée, &amp; gagnant la meſure,
+<lb />Portans de petits coups, pouſſez à l’auenture, (peu,
+<lb />Nous nous taſtions l’vn l’autre, &amp; nous preſſions vn
+<lb />Pour ſçauoir ſeulement quel eſtoit noſtre jeu,
+<lb />Alors qu'en alongeant il vint de bonne grace,
+<lb />Comme s’il euſt voulu faire la feinte baſſe :
+<lb />Mais ayant bien préueu ſon deſſein en partant,
+<lb />Ie l'attens de pied ferme, &amp; ie pare en quartant.
+<lb />Trompé par cette ruſe, auſſi-toſt ie hazarde
+<lb />De rompre la meſure en l’oſtant hors de garde:
+<lb />Ie pouſſe droit à luy, quand par vn coup fourré
+<lb />Il éuita celuy dont ie l’aurois bourré;
+<lb />Mais deſcouurant ſon corps, &amp; faiſant vne feints
+<lb />Ie luy pouſſe en trois temps vne aſſez rude atteintt
+<lb />Et comme j’allongeois, tierſant il fit cela,
+<lb />Il porte, ſans y penſer, vn coup dans l’eſtomacb li
+<lb />Phenice, pour montrer comme il fit.
+<lb />Et s’exempta du coup alors qu’il recula.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENTCE.
+<lb />Ie croyois de ce coup qu’il m’auoit aſſommée.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />N’eſpargner pas le ſexe, &amp; la perſonne aimée!
+<lb />C’eſt trop.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Excuſez-moy, ie parle auec chaleur:
+<lb />Mais aimée, elle l’eſt, &amp; trop pour mon milheu,
+<lb />Tuiſqu’il eſt arreſté qu’il faut que ie la quitte.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Que dites vous, Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Que malgté ſon merite
+<lb />Ie dois l'abandonner, &amp; reptendre mon cœur,
+<lb />Pour en faire vn preſent à ſon aimable ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />Que dit-il?
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />A Cliton enfin ie l'abandonnes
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON à Baxile.
+<lb />A-ril perdu leſens?
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ce changement m’eſtonne,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Moy, ie ne connois pas iuſqu’où va mon malheurs
+</sp>
+<sp type="MainZone-Sp"><lb />Honheur.
+<lb />BAZILE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie m’en ſepare auec grande douleur,
+<lb />Et pendant le diſner, de qui Theure s’approche,
+<lb />Vous ſçaurez...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que l'amour a troublé ſa caboche.
+</sp>
+<sp type="MainZone-Sp"><lb />De grace...
+<lb />BAZILE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dedans peu ie diray mes raiſons.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />ODELET.
+<lb />I'en connois vn plus ſage aux petites maiſons.
+</sp>
+<p type="MainZone-Other"><lb />Fin du tuoiſiime Acle.
+</p>
+<p type="MainZone-Head"><lb />ACIEFY
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />LEANDRE, ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />VN ſi are bienfait ne peut eſtre payé,
+<lb />V Dupper le Campagnard, &amp; l’auoir effrayé,
+<lb />Iuſqu’au point de quitter ſon vnique maîtreſſe,
+<lb />Certes l'on ne ſçauroit louet trop ton adreſſe:
+<lb />Mais helas ſi i’oſois te dire mon ſecret.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais depuis quand, Monſieur, eſtes vous ſi diſcret,
+<lb />Que vous n’oſiez me dire vne importante affaire!
+<lb />Suis-je vn homme à vous nuire?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Anſelme, il me faut uist
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Quoy, vous défiez-vous de ma diſcretion?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie ne ſuis que trop ſeur de ton affection,
+<lb />Mais ie ne puis parler, quelque effort que ie faſſe</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vous me connoiſſes bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />C’eſt ce qui m’embaraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie ne puis rien comprendre à tout cet entretien.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Hé bien, ie me reſous à ne te cacher rien;
+<lb />Mais ſonge à me traiter en amy veritable,
+<lb />Et flatte les douleurs d’vn amant miſerable,
+<lb />M’ayant toûjours aimé, fais-le iuſques au bout.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Parlez, &amp; ſoyez ſeur de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie te dois tout,
+<lb />Tu viens en ma faueur, par vn grand coup d’adreſſe,
+<lb />De faire qu’vn riual me quitte ſa maîtreſſe;
+<lb />Mais au point de la prendre, vn ſentiment ſecret
+<lb />Me fait voir mon hymen auec quelque regret.
+</sp>
+<sp type="MainZone-Sp"><lb />Anarinz.
+<lb />Qui vous pourroit cauſer cette prompte retraitte?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie viens d’entretenir ſon aimable cadette,
+<lb />Qui m’a peint ſon humeur auec de certains traits,
+<lb />Qui font que ie craindrois de ne l’aimer iamais,
+<lb />Et tu ſçais quel malheur traine le mariage,
+<lb />Quand il faut malgré ſoy faire mauuais ménage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />( faut:
+<lb />C’eſt eſtre homme de bien vingt fois plus qu’il ne
+<lb />Mais que craignez-vous d’elle, &amp; quel eſt ce defaut?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Anſelme, elle eſt fantaſque, &amp; coquette, &amp; volage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt beaucoup, &amp; ie croy ſa cadette plus ſage.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il n’en faut point douter, n’ayant pas veu la Cour,
+<lb />Et n’ayant pas goûté cet aimable ſejour,
+<lb />(néc,
+<lb />Elle eſt beaucoup moins fine, &amp; vaut mieux que l'aiſ<lb />Qui n’eſt dans le païs que depuis vne année,
+<lb />Et qui chez vne tante, où l'on cajoloit fort,
+<lb />Demeura dans Paris iuſques apres ſa mort.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Quitter pour vn ſoupçon trois mille eſcus de reni
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Pour les trois mille eſcus, que rien ne t’eſpouuene
+<lb />I’ay conceu des deſſeins pour me les conſeruer,
+<lb />Si tu veux m’y ſeruir, &amp; tant ſoit peu reſvet,
+<lb />A l’important tiſſu d’vne intrigue nouuelle,
+<lb />Sa cadette...
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Parlez.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tu ſçais qu’elle eſt plus bell<lb />Mais c’eſt pour ſes vertus, plus que pour ſa beauté,
+<lb />Que mon cœur aujourd huy panche de ſon coſté,
+<lb />Depuis vn mois ie tiens cette affaire ſecrette,
+<lb />Et brûlant tous les iours d’vne flame diſcreue,
+<lb />Ie ſerois étouffé ſans te parler de rien,
+<lb />Si le n’euſſe pas eu ce dernier entretien,
+<lb />Par où ie reconnois qu’elle eſt fort raiſonnable,
+<lb />Et qu’enfin ie luy ſuis vn peu conſiderable.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Apres vn tel diſcours ie tombe de mon haut.
+<lb />Monſieur, corrigez-vous d’vn ſemblable defaut,
+<lb />Car pour moy i’y renonce, &amp; ie perds mon eſcrims
+<lb />Apres de pareils tours, cherchez qui vous eſtime,
+<lb />Et qui pout vous ſeruir faſſe ce que i’ay fait,
+</sp>
+<sp type="MainZone-Sp"><lb />Eſcoute.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mes trauaux auront vn bel eſſet.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ah, ne te fâche point, mais eſcoute.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />I'enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />6
+<lb />Cher amy.
+<lb />LEANDRE.
+<lb />ANSELME.
+<lb />N’eſperez rien de moy dauantage.
+<lb />LLANDEE
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ah qu’ellea de beautez!
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ille eſt indifferente?
+<lb />Mais auec ſes appas
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elle ne me hait pas,
+<lb />Au moins ie n’y voy point de certaine apparence.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME,
+<lb />uitter vn bien cettaſn, deſſus vne eſperance,
+<lb />Ah bout Dieux :
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Que veux-tu ?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />N'eſt-ce pas eſtre fou?
+<lb />Ie voudrois de bon cœur m’eſtre caſſé le cou,
+<lb />Lors que i’ay trauaillé pour vn amy ſemblable.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Anſeime, prem pitie d’vn amant miſerable.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais quand ie le voudrois, croy ez-vous tout de bon
+<lb />Que ie puiſſe éloigner &amp; le Noble, &amp; Cliton?
+<lb />Ayant au Campagnard prédit ſes auantures,
+<lb />Et fait voir fauſſement ſes miſeres futures,
+<lb />Deuers cette cadette ayant tourné ſes vœux,
+<lb />Alors que de Cliton elle approuue les feux,
+<lb />Tel que ſoit mon eſprit, &amp; tel que ſoit le voſtre,
+<lb />Pouuons-nous l’arracher ou de l’vn, ou de l’autre?
+<lb />Si Cliton l’abandonne, alors le Campagnard
+<lb />Ne l’épouſe-t’il pas?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ce ſera grand harard.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et quoy, ſur ce hazard perdre voſtre fortune?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ah quittons la raiſon quand elle eſt importune.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais à ce cher objet ſi Phenice auoit dit
+<lb />Vnezchoſe qui pûſt me perdre de eredit,
+<lb />Que ie fais l’Aſtrologue, &amp; découure la bourde?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elle n’aura pas fait vne faute ſi lourde,
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Pourquoy ſe declarer à demy ſur ce point,
+<lb />Puiſqu'elle ſçait déja qu’elle ne vous hait point?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />En ayant eu beſoin, elle auoua la choſe,
+<lb />Et luy fit croire apres, de peur qu’elle ne cauſe,
+<lb />Qu'elle ſeule ſçauoit le ſecret.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Et pour moy?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Elle ne penſe pas qu’on ſe ſerue de toy,
+<lb />Ne nous ayant iamais pû remarquet enſemble.
+<lb />Tente donc cet eſprit, &amp; voy ce qui t’en ſemble,
+<lb />Car pour moy ie ne puis hazarder cet adueu,
+<lb />Sans ſçauoir que ſon cœur brûle de meſme feu.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Mais comment deſcouurir ſes ſecrettes penſées?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mais comment as-tu fait tant d’actions paſſées?
+<lb />Imagine, médite, &amp; reſve ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie n’y réuſſiray que difficilement.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Si ie me trõpe au moins en croyant qu’elle m’aims,
+<lb />Ne luy deſcouurant rien de mon amour extréme,
+<lb />Ie ſeray toûjours bien dans l’eſprit de ſa ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt donc voſtre coup ſeur?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />N'en aye point de peur.
+<lb />Medite ſeulement vne adreſſe nouuelle,
+<lb />Pour ſçauoir ſi ie puis me declarer pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie le feray, mais c’eſt pout la derniere fois.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Tais-toy, Phenice vient, ie l’entends à la voix.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LEANDRE, PHENICE,
+<lb />ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Nfin noſtre Baron eſt dedans l’épouuante,
+<lb />LEt ſonge à pratiquer vne nouuelle amante,
+<lb />Ma ſœur eſt à preſent l’objet de ſon deſir.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDNE.
+<lb />Ie croy que ce deſſein ne luy fait pas plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Non, car ayanc Cliton, cet amant l’importune.
+</sp>
+<sp type="MainZone-Sp"><lb />LBANDRE.
+<lb />Cependant i’ay cauſé ſa mauuaiſe fortune,
+<lb />Et vais l’embaraſſer par ce grand changement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Vous en repentez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Madame, nullement: (ſe
+<lb />Mais quoy qu’Anſelme ait fait, ie préuoy que la cho<lb />Peut prendre vn autre ply que l’on ne ſe propoſe,
+<lb />Vous joüaſtes Cliton feignant de l’eſtimer</sp>
+<sp type="MainZone-Sp"><lb />Et bien?
+<lb />PHENICE.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Campagnard ceſſant de vous aimet,
+<lb />Vous met deſſus les bras cet amant ridicule.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Nous le jouërons encor, en faites vous ſerupule?
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Mais comment démeſler tant de grands embartait
+<lb />Cliton peut s’obſtiner à ne vous quitier pas,
+<lb />Et quand au pis aller nous tirerons l'épée,
+<lb />Par hazard ma valeur y peut eſtre trompée,
+<lb />Et lors, qu’en obriendray-je, &amp; que deuiendrez vous
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Madame, pardonnez à cet eſprit ialoux,
+<lb />Comme il aime beaucoup, peu de choſe le trouble
+<lb />Il a peur que Cliton jouant à quitte, ou double,
+<lb />Ne faſſe vn grand effort qui vous atrache à luy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Sans mentir ie le treuue vn pea froid aujourd ho,
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Faites que le Baron cherche quelqu’autre fille.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENTCE.
+<lb />Son bien eſt attaché dedans noſtre famille,
+<lb />Et par cette raiſon il faut que malgré nous,
+<lb />Ou de l’vne, ou de l’autre il ſoit enfin l’époux.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Si bien donc que cliton reſtera ſans maîtreſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />(preſe,
+<lb />Pour moy, ie ne ſçay pas quel nouueau ſoin voss
+<lb />Mais de peur que par trop il ne vous vint preſſe,
+<lb />Ie croy que le meilleur ſera de vous laiſſer,
+<lb />Adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE la ſuiuant.
+<lb />Madame, helas! quel deſſein eſt le voſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME ſiul.
+<lb />I’ay biẽ peur qu’il ne laiſſe échapper l’vne &amp; l’aurte,
+<lb />Et qu’en embraſſant trop il ne poſſede rien :
+<lb />Mais j’apperçois Philis, ſeruons-le, feignons bicn.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />PHILIS, ANSELME.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />’Ay-je pas veu ma ſœur, qui fuit deuant Lean<lb />die?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Madame, ils m’ont donné l’ordre de les attendre,
+<lb />Pour me communiquer quelque affaite qu’ils ont.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie voudrois bien ſçauoir le commerce qu’ils font ;
+<lb />Mais depuis quelque temps ma ſœur eſt ſi reſveuſe,
+<lb />Que tout autre que luy la treuue vn peu facheuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />C’eſt peut-eſtre vn effet de ſon temperament.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Vous en faites peut-eſtre vn autre iugement,
+<lb />Mais vous ne m’aimez pas aſſez pour me le dire,
+<lb />Ma ſœur obcient de vous tout ce qu’elle deſire,
+<lb />Et pour moy, ie n’ay point de relez, ny d’amis.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Madame.... PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />Pout m’apprendre le cours de ma bonne auanture?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Ie m’y ſuis preparé, Madame, ie vous iure,
+<lb />Et ſi vous le voulez, dés ce meſme moment.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Briſons-là, ie le veux.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Voſtre main ſeulement,
+<lb />F iij
+<lb />Et dites, s’il vous plaiſt, quel mois vous eſtes née.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />L’onziéme de Iuillet.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vous ſerez fortunée,
+<lb />Et iuſques à trente ans en fort bonne ſanté.
+<lb />En ſuite vous aurez quelque incommodité,
+<lb />Des douleurs d’eſtomach, de teſte, &amp; de poittin<lb />Vous eſtes bilieuſe, &amp; replete, &amp; ſanguine,
+<lb />Cette ligne qui prend du pouce au mitoyen,
+<lb />Vous promet des honneurs, auec beaucoup de biea
+<lb />Celle que vous voyez qui coupe ſous l’indice,
+<lb />Montre que vous n’auez ny fraude, ny malice.
+<lb />Cet angle qui s’eſtend au mont de lupiter,
+<lb />Fait voir que vous aurez vn Grand à redouter.
+<lb />Ce cercle qui paroiſt deſſus l’auriculaire,
+<lb />Ioint auec cette croix qu’on voit ſous l’annulaire,
+<lb />M’apprend qu’ayant pour vous Mercure &amp; le Soluil
+<lb />Vous aurez &amp; prudence, &amp; force, &amp; bon conſeil.
+<lb />Vers la table quadrangle eſt vne grande ligne
+<lb />Qui menace vos iours d’vn accident inſigne,
+<lb />Et vous doit faire craindre vn voyage ſur l’eau.
+<lb />Deuers l’obruticon eſt vn petit tameau,
+<lb />Qui prend en ſe briſant la ligne temporelle,
+<lb />Qui vous menace encor d’vne grande querelle.
+<lb />Deſſous cette jointure eſt vn certain grand trait
+<lb />Qui reprend la taſſette en ce cercle qu’il fait,
+<lb />Qui vous doit faire peur pour voſtre renommée.
+<lb />Vn oncle &amp; deux couſins vous ſont morts à l’armée,
+<lb />Vous auez quatre ſœurs dans la Religion,
+<lb />Dont déja deux ou trois ont fait Profeſſion.
+<lb />Vn frere vous eſt mort par vne maladie,
+<lb />Vous auez échappé d’vn fort grand incendie,
+<lb />Et ſi i’oſe parler ſur ce mont de Venus,
+<lb />I’obſerue certains traits qui me ſont inconnus,
+<lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Vous me cauſerer vne peine incroyable,
+</sp>
+<sp type="MainZone-Sp"><lb />Parlez.
+<lb />COMEDIE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />M'auouërez vous, ſi ie ſuis veritable?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ouy, le vogs le plonces.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vous auez de l’amour,
+<lb />Et craignez toutesfois qu’il ne paroiſſe au jour.
+<lb />Vous voyez fort ſouuent l’objet qui vous capriue,
+<lb />Mais parmy les tranſports d’vne ardeur exceſſiue,
+<lb />Vne ſainte pudeur contraignant vos deſirs,
+<lb />Tempere vos regards, &amp; retient vos ſoupirs.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ah certes voſtre eſprit n’eut iamais de ſemblable.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vous reconnoiſſez bien que ie ſuis veritable?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />De grace, que ma lœur n’en ſçache iamais rien.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Celuy que vous aimez n’a pas beaucoup de bien,
+<lb />Mais il eſt honneſte homme, &amp; fera quelque choſe
+<lb />En vous prenant pour femme, ainſi qu’il ſe propoſe.
+<lb />Quand voſtre ame eſt en feu, ſon cœur ſe ſent brûler,
+<lb />Si vous diſſimulez, il n’oſeroit parler,
+<lb />Si voſtre mal eſt grand, ſa douleur eſt extréme,
+<lb />Et vous l’aimez enfin bien moins qu’il ne vous aime.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Il m’aime! ANSELME.
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt certain.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas.
+<lb />Que dira-ril de plus?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Du malheureux Cliton les ſoins ſont ſuperflus,
+<lb />Et du beau Campagnard l’amour eſt inutile,
+<lb />Mais ie vous veux ſeruir en confident habile,
+<lb />Et dire à cet amant qu’il ſe peut exprimer.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas c'eſt..
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Il n’eſt pas beſoin de le nommet.
+<lb />Ma ſcience m’apprend par vn pouuoir ſuprème
+<lb />Ce qui ſe ſait ſur terre, &amp; dedans le Ciel meſme,
+<lb />Il ſçait peindre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ah c’eſt trop, ie m’abandonne à vou
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME bas.
+<lb />Tout va bien.
+<lb />PHILIS.
+<lb />Ce Baron s’auance deuets nous,
+<lb />Ah l’importun amant!
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME bas en ſortant.
+<lb />O fortuné Leandre,
+<lb />Quel ſeruice important viens-je encor de te tendu
+</sp>
+<p type="MainZone-Head"><lb />CENE IV.
+<lb />PHILIS, LE CAMPAGNARD.
+<lb />IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />IE ne vous penſois pas ſi proche de ces lieux</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quel cœur peut reſpirer abſent de vos beaux yeus,
+<lb />Et quel homme mortel, ou barbare, ou ſauuage,
+<lb />Ne bruleroit de voir vn ſi parfait viſage?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ma ſœur a plus d’attraits.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Pour parler ſans mépris,
+<lb />Quoy que vous en diſiez chacune vaut ſon prix:
+<lb />Mais preſſé d’vne chere &amp; douce violence,
+<lb />Ie ſens que vos beautez emportent la balance,
+<lb />Et qu’en vous réſiſtant, vn cœur comme le mi en
+<lb />Ne faiſoit ſeulement que trainer ſon lien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie crains voſtre inconſtance, &amp; ie la treuue extrême.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah ne redoutez rien, eſtant la beauté meſme,
+<lb />Et tenez aſſeuré qu’en receuant ma foy
+<lb />Vous me rendrez conſtant, meſme en dépit de moy,
+<lb />Si ie commets vn crime en me rendant volage,
+<lb />I’ay treuué mon bõheur dans mon propre naufrage,
+<lb />Et retreuué ma gloire en entrant en priſon,
+<lb />I’ay fait d’vn changement vn acte de raiſon,
+<lb />Ie ſçay que ie n’ay pas ny ſceptre, ny couronne,
+<lb />Pour payer dignement voſtre ai mable perſonne:
+<lb />Mais enfin ie vous donne vne ame toute en feu,
+<lb />Et puiſque la nature eſt contente de peu,
+<lb />Ie croy que trois châteaux, auec trois mérairies,
+<lb />Huidt cens arpens de ferre, &amp; quatre bergeries,
+<lb />Deux haras bien peuplez, &amp; quatre ou cinq moulins,
+<lb />Trois grãges en bon ordre, &amp;trois celiers tout pleins,
+<lb />Plus de trente coureurs dedans mes eſcuries,
+<lb />Des eſtangs à foiſon, des bois, &amp; des prairies,
+<lb />Quatre meuttes de chiens, baſſets, moyens, &amp; grands,
+<lb />Eſpagneux, léuriers, mâtins, &amp; chiens courans,
+<lb />Dix oyſeaux excelens, vne aſſez bonne table,
+<lb />Quelque rente fonciere, &amp; du bien raiſonnable,
+<lb />Parmy deux cens voiſins d’honneur, &amp; de vertu,
+<lb />Vous mettront à voſtre aiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Et bouche que veux-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Sans doute vn tel party vaut qu’on le conſidere,
+<lb />Et...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />I’ay ma charge encore, &amp; celle de mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas.
+<lb />Le ſot! LE CAMPAGNARD,
+<lb />Mais ie voy bien qu’aueeque tant d’appa<lb />Le ſecret eſt de plaire, &amp; que ie ne plais pui.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Changez de ſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah diuine merueille.
+<lb />Souffrez que dans l’excez d’vne amour ſans paieu
+<lb />Deſſus ces belles mains...
+</sp>
+<p type="MainZone-Head"><lb />CENE V
+<lb />LE CAMPAGNARD, PHILIS,
+<lb />CLITON, IODELET.
+<fw><lb />CLITON voyant Philis qiſe las
+<lb />baiſer les mains.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Pourſuiuez à loifir,
+<lb />Ie n’en receuray pas le moindre déplaiſir.
+<lb />En perdant vn eſprit qui n’aime que le change,
+<lb />Ie ne me plains de rien, ſon changement me vng
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Allez, puis qu’on vous vange à force de changes,
+<lb />Ie fais plus que iamais le vœu de vous vanger.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Et moy qui vous connois encline à la vangeance,
+<lb />Ie vous veux dérober cette douce alegeance,
+<lb />Et vous punir vous meſme en me vengeant de vou
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur.
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Ingrate.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il faut moderer ce couroux,
+<lb />Et ne pas s’emporter ainſi deuant les Dames. (ames,
+<lb />Quoy, Monſieur, voulez vous contraindre iuſqu’aux
+<lb />Et lors que vous voyez tous vos ſoins ſuperflus...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />I'enrage de fraper. Monſieur, n’en ſouſſtez plus.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Non non, il vaut bien mieux s’armer de patience,
+<lb />Et traittant cette affaire auecque bien-ſeance,
+<lb />Tuiique le veux quitter ſon adorable ſœur,
+<lb />Luy faire vn ſacrifice &amp; de l’ame &amp; du cœur,
+<lb />Elle vous eſtimoit, vous l’eſtimez de meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON à Philu.
+<lb />Auſſi c’eſt maintenant elle ſeule que i’aime,
+<lb />Et ie veux pour venger de ſi ſenſibles coups,
+<lb />Et vous faire enrager, l’épouſer deuant vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Nous pourrons aiſément guerir de cette rage.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Ah, Madame, c’eſt trop frriter mon courage,
+<lb />Et ne me preſſez pas en cette occaſion.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais vous meſme, Monſieur, parlez ſans paſſion,
+<lb />Vous allez vn peu viſte, en menaçant Madame,
+<lb />Et ie croirois enfin eſtre digne de blame,
+<lb />Si ſouffrant deuant moy ces mauuais complimens
+<lb />Ie ne vous témoignois quels ſont mes ſentimens,
+<lb />Et....
+<lb />IODELET.
+</sp>
+<sp type="MainZone-Sp"><lb />Qui ſe fait brebis, Monſieur, le loup le mange,
+<lb />Déja le ſang me boult &amp; la main me demange.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ouy, n’eſtant pas toûjours d’humeur à ſouffrir tout,
+<lb />Ie ſçay quand il le faut pouſſer vn homme à bout.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Ie porte à mon coſté dequoy vous le deffendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />En autre lieu qu’icy ie pourrois l’entreprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON mettant l’épée à la main.
+<lb />Ah c’eſt trop.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />En effet, le plutoſt vaut le mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />An Ellton !
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il faut vaincre ou mourir à ſes yeux,
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET ne pouuaut dégainer.
+<lb />Ah la maudite roüillelah Monſieur' ah mon matee
+<lb />Au Diable ſoit l’épée, &amp; ceux qui l’ont fait naius
+<lb />Au ſecours, aux voleurs, aux meurttes.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LE CAMPAGNARD, CLITON,
+<lb />PHILIS, BAZILE, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />BAZILE les ſeparant.
+<lb />Veſt-ce-cy,
+<lb />Faut-il que des amis ſe quetellent ainſi?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie luy montreray bien qu’il prend mal ſes meſures
+<lb />BAZILE à Cliton, qui veut porter eucons.
+<lb />Ah Cliton!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Haut le bois.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Dieux, quelles procedures!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce coup eſt vn preſté, mais il ſera rendu,
+<lb />Il eſt bien attaqué, s’il s’eſt bien défendu,
+</sp>
+<sp type="MainZone-Sp"><lb />Et..
+<lb />BAZILE au Campagnard.
+<lb />Vous eſtes braue homme, il faut qu’il le confeſſe
+<lb />CLITON
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+<lb />CLITON.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE à Cliton.
+<lb />Pout l'amour de moy que ce deſordre ceſſe,
+<lb />Quel eſt ce démeſſé?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Cliton fait le jaloux,
+<lb />Et ſe perſuadant qu’il peut beaucoup ſur vous,
+<lb />Il pretend empeſcher Monſieur de me rien dire</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Madame, il peut pretendre à tout ce qu’il deſire,
+<lb />Mais de vos actions il eſt mal informé
+<lb />S’il ſe croit le premier que vous ayez aimé.
+</sp>
+<sp type="MainZone-Sp"><lb />Silence.
+<lb />BAZILE.
+<lb />PHILIS.
+<lb />C’en eſt trop.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON.
+<lb />Cette ſeule réponſe
+<lb />Veut que ie l’abandonne, &amp; que ie la renonce,
+<lb />Sa ſœur merite mieux mon cœur &amp; mes ſoûpits.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />C’en eſt trop, de vouloir contraindre les deſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZTLE.
+<lb />Il eſt vray, mais il faut accommoder la choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CLITON en s’en allant.
+<lb />Le démeſlé finit, puiſque ie hay la cauſe,
+<lb />Et pour le témoigner, ie ſuis ſon ſeruiteur.
+</sp>
+<sp type="MainZone-Sp"><lb />Embraſſez vous.
+<lb />BAZILE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie ſuis le ſien de tout mon cœur.
+<lb />Madame, ie vous ſuis tout-à fait rodeuable.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie fais ce que ie dois.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Entrons.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Qu'elle eſt aimable!
+</sp>
+<sp type="MainZone-Sp"><lb />à lodelet bas.
+<lb />Il fait bon ſe fier à de pareils valets.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET ſeul, tirant ſon éple.
+<lb />Ah reproche ſenſible au ſang des lodelets !
+<lb />Pour te garder de rouille, ô belle &amp; elaire lame,
+<lb />Ie te fais vn fourreau de l’émy de mon ame:
+<lb />Me tuer! ah, ah, ah, le ſentiment falot !
+<lb />Que ſi ie l’auois fait ie ſerois vn grand ſot.
+<lb />Rouille toy tout ton ſaoul, auſſi bien, chere Olinde
+<lb />N'es-tu que pour l’oyſon, la poulle, &amp; le cocq dinte
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatrieme Acte,
+</p>
+<p type="MainZone-Head"><lb />IICTE
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />PHENICE, LISE.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />E ne puis oublier vn ſi cruel outrage,
+<lb />Et ie luy veux montrer iuſqu’où va mon courage.
+<lb />ingrat, m’abandonner ! me trahir ! me quitter !
+<lb />Me manquer de promeſſe, &amp; ma ſœur l’écouter !
+<lb />Ah l’infame, le lâche!
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />En ce ſiecle où nous ſommes
+<lb />Ie ne ſçay qui vaut mieux des filles ou des hommes.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah pourquoy noſtre ſexe a-t’il tant de bonté?
+<lb />Pourquoy s’abaiſſe-t’il à tant de lacheté,
+<lb />Et pourquoy quittons-nous ſur des promeſſes vaines
+<lb />L’inſenſibilité qui nous rend ſouueraines?
+<lb />Tãt que nous témoignons d’auoir quelque froideur,
+<lb />Le plus volage amant nous aime auec ardeur,
+<lb />Mais ſi-toſt que nos feux commencent à paroître,
+<lb />D’eſclaue qu’il eſtoit, il deuient noſtre maiſtre,
+<lb />Il le faut adorer, comme il nous adoroit, ( froit.
+<lb />Et craindre à noſtre tour tous les maux qu’il ſouf</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Madame, ſans mentir, pour croite à leurs patoles
+<lb />Apres tout ce qu’ils font, il faudroit eſtre folles
+<lb />D’abord le plus méchant feint d’eſtre hõme de bien
+<lb />Mais pour dire le vray, le meilleur n’en vaut rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah qu’il eſt mal-aiſé de s’en pouuoir deffendre!
+<lb />Lors que l’ennemy plaiſt, on s’en laiſſe ſurprendie
+<lb />Ce qui le doit détruire augmente ſon credit,
+<lb />Et parce qu’il eſt cher, on croit tout ce qu’il dit.
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Ne huïſſez vous pas ce ſexe deteſtable?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />On s’en plaint, on murmure, on le treuue haiſſible
+<lb />On le blãme, on le craint, on n’y veut plus peaſe,
+<lb />On le fuit, mais enfin on ne peur l’offenſer.
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Vous aimez donc encor l’infidele Leandre?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah ce nom m’eſt fatal, ie ne le puis entendre,
+<lb />Moy, l’aimer ! ah i’ay trop d’auerſion pour luy.
+<lb />Et par vn coup étrange on doit voir aujourd’huy
+<lb />Si j’eſtime ce lache, ou bien ſi ie l’abhorre.
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Dites-moy ce deſſein.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Il n’eſt pas temps encore,
+<lb />Mais le coup ſera tel qu’en ſoulageant mon eœus,
+<lb />Il vange... Taiſons-nous, ie voy venit ma ſœut.
+</sp>
+<p type="MainZone-Head"><lb />9
+<lb />CENE II.
+<lb />HILIS, LISE, PHENICE,
+<lb />IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />E peur que voſtre honneur icy ne ſe hararde,
+<lb />Uce galãt-hõme eſt il pour vous ſeruir de garde?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />De mon nouuel amant au moins c’eſt le deſſein</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />A ne vous point mentir c’eſt jouer au plus fin,
+<lb />Il comon ronte eſprit &amp; leger, &amp; haeile.
+</sp>
+<sp type="MainZone-Sp"><lb />Ma ſœur...
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET interrompant.
+<lb />Il n’en eſt rien, mon maître eſt plus habile,
+<lb />Ayant le cœur eſpris de ſes perfections,
+<lb />Il veut luy témoigner des inclinations
+<lb />Dont l’inſtinct penetrant s’eſtende iuſqu’aux choſes
+<lb />Par qui ſont einientez les effets à leurs cauſes.
+<lb />Car comme le Soleil par vn temps nebuleur
+<lb />Peut bien, ſans ſe ſeruir d’vn ſecours fabuleux,
+<lb />Faire paſſet ſon feu par ſa correſpondance,
+<lb />Comme le fait mon maître auec grande prudence,
+<lb />Tout ainſi, ſi bien donc... Or l’amour, oüy ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />Laiſſe-nous là.
+<lb />PHILIS.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ie croy qu’on ſe moque de moy,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas.
+<lb />De crainte que ma ſœur ne diſe quelque choſe,
+<lb />C iij
+</sp>
+<sp type="MainZone-Sp"><lb />Eſloignons-le de nous.
+<lb />haut à lodelet qui ſont.
+<lb />Que ie l’attends icy.
+<lb />Dy luy qu’il s’y diſpoſe,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Que diſiez-vous tout bas?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Quelque petit ſecret qui ne vous plairoit pas,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Auſſi pour le ſçauoir i’ay peu d’impatience.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />c'eſt que vous ſçauez viure auec experience.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />ouy, i’en ay plus que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Madame, ie lecrus,
+<lb />L’âge vous a donné ce don par deſſus moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Vous n’aurez pas toûjours vn temps ſi fauorable.
+<lb />PHILIS.
+<lb />(buble,
+<lb />Beaucoup voudroient bien courre vne riſque ſem</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />L’amour frape demain ceux qu’il flate aujourd'hoy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie n’ay pas encor lieu de me plaindre de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE. (donne.
+<lb />Les pleurs ſuiuent de prés tous les biens qu’il nou
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie laiſſe ſoúpirer celles qu’on abandonne.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ah c’eſt trop, ie voy bien que vous parlez à moy
+<lb />Mais ie vous veux apprendre à me donner la loy,
+<lb />Et deuant qu’il ſoit peu, dans ma fureur extrême
+<lb />Ie vay perdre auec vous le fourbe qui vous aime,
+<lb />I’ay les yeux deſſillez apres de longues nuits,
+<lb />Et rougis de le voir, eſtant ce que ie ſuis.
+<lb />Il me faut vn époux plus digne &amp; plus ſortable,
+<lb />Mais de peur de vous voir &amp; lache, &amp; miſerable,
+<lb />Sans deſſein de vanger les affionts qu’il m’a faits,
+<lb />Ie vay de vos deſſeins preuenir les effets.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ie ne vous croiray pas, vous eſtes en colere.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />PHILIS, IODELET, LEANDRE
+<lb />auec des pinceaux à la main.
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ous n’oſions auancer de peur de vous déplaire,
+<lb />Vaiais nous coux etoutions.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS bas à Leandre.
+<lb />Il faut adroitement
+<lb />Eſloigner lodelet, pour parler vn moment.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE luy ſaiſant ſigne.
+<lb />Il ne faudroit qu’auoir la toille tout à l’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ie la treuueray bien ſans changer de demeure,
+<lb />Derriere ce gros luth ie l’auois miſe hier.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />c’eſt eſtre préuoyant.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Nous ſommes du meſtier.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE bas à Philis.
+<lb />Il ne s’en ira point, quelque effort que l’on ſaſſe.
+<lb />à Iodelet haut.
+<lb />Mais il faudroit auoir vne chaiſe plus baſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Tenez, ce tabouret s’offre tout à propos.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />O Dieux! nous ne pourrons nous dire quatre mots.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il faudtoic vn peu d’eau.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Sans vous donner de peir<lb />Vous en pouuez trouuer dans cette porcelaine.
+</sp>
+<sp type="MainZone-Sp"><lb />Mon crayon.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET foüillant dans ſa pode.
+<lb />I’en répons, &amp; ſans ſortir d’icy;
+<lb />Mais qu’eſt-il deuenu?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Quel bonheur!
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Le voicy.
+</sp>
+<sp type="MainZone-Sp"><lb />Bon.
+<lb />PHILIS.
+<lb />Il faut aduertir que ſi l’on me demande,
+<lb />Ie...
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Perſonne ne ſort, la chaleur eſt trop grande.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE tirant vne table, ſula<lb />quelle il met ſes pinceaux.
+<lb />Nous luy dirons en vain iuſqu’à la fin du iour,
+<lb />Commençons.
+</sp>
+<sp type="MainZone-Sp"><lb />IO DE LET allant querir le tuodlu
+<lb />Ie vous vay chanter vn air de Cous,
+<lb />Voulez-vous, Benits ſoyent les yeux bmaus de Madam,
+<lb />Ou bien, Quand pour Philis mon cœur tout pleiu de
+<lb />flame?
+<lb />FHILIS.
+<lb />Pendant qu’il chanter a nous nous entretiendrons.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Ie ſçay tout ce qu’ont fait les l'icards, les Guedrons,
+<lb />Les Lamberts, les Camus, &amp; tous ces grands Genies,
+<lb />Que l’on nõme à la Cour les Dieux des Symphonies,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ne nous en chantez point qui ſoient ſi ſerieux.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET seſayant à cbaus
+<lb />La, la. I’ay voſtre fait, mais il eſt vn peu vieur:
+<lb />Ah que cet inſtrument a l’accord difficile!
+<lb />Ie n’en tcuchay iamais ſans m'échauffer la bile.
+<lb />peu cette cheuille, encore celle-cy,
+<lb />audit ſoit le rouquin qui m’embaraſſe icy,
+<lb />Il laiſſe tomber ſon épée.
+<lb />ccord eit-hhns
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Il n’eſt guere agreable.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />(ble
+<lb />ſt que la corde eſt fauſſe, ou ie me donne au Dia</sp>
+<sp type="MainZone-Sp"><lb />CHANSON.
+<lb />Bel œil, petit Diabletin,
+<lb />Clair Iutin,
+<lb />Qui carabine men ame,
+<lb />Ie ſuit par ton trait faial
+<lb />Vu Arcenel
+<lb />Tout plein de fers &amp; de flamt.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />l faut paitir ee ſoir, &amp; tromper leur attente.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Que Diable dites vous, cependant que ie chante!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />apprenois à Madame vn ſetret curieux,
+<lb />our me donner moyen de bien peindre ſes yeux,
+<lb />Et luy faire vn regard plus doux, &amp; plus modeſte,
+<lb />lais de grace, acheuez.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Voicy le double.
+<lb />vne corde ſe rompt.
+<lb />Peſte.
+</sp>
+<sp type="MainZone-Sp"><lb />QQ
+<lb />Ie croy qu'un Topinambour,
+<lb />Sani amour,
+<lb />S’il auoit lorgné ta tregne
+<lb />Comme moy, par ton regard
+<lb />Seroit aid,
+<lb />Ou ſeroit vn vray Ian logne.
+</sp>
+<sp type="MainZone-Sp"><lb />Q
+<lb />Il taille deux foir à la fn du couplet.
+<lb />ue le temps eſt leurd!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Encor quelques accoue
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET.
+<lb />Tout ce qu’il vous plaira, mais ma foy, ie m'endys
+<lb />Ie m'en vay dans ce bouge y faire vn petit ſomme,
+<lb />Ie reuiens.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Qu’il fait bon ſe fier à cet homme!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Madame, il ne faut point balancer aujourd’huy,
+<lb />I’auray dedans Paris vn Prince pour appuy,
+<lb />Chez qui, nous trouuerons vne bonne retraite
+<lb />Iuſques à l’heureux iour que noſtre paix ſoit faite.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Mais mon oncle en mourra de douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Et tantmiem
+<lb />Qu’attend-il que la mort, eſtant déja ſi vieux?
+<lb />Mais laiſſez-le creuer, &amp; peſter à ſon aiſe,
+<lb />Lors que la choſe eſt faite, enfin l’on ſile doux,
+<lb />Et les embraſſemens ſuecedent au couroux,
+<lb />Mais quelqu’vn vient.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Feignons.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />HILIS, LEANDRE,
+<lb />LE CAMPAGNARD.
+</p>
+<sp type="MainZone-Sp"><lb />LEANDRE montrant le coſté où eſt le Campagnard.
+</sp>
+<sp type="MainZone-Sp"><lb />MAdame, il faut de grace
+<lb />iter ce faux iour, &amp; prendre vne autre place.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD bas.
+<lb />ne me voyent pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vn peu plus de coſté,
+<lb />t forcez voſtre humeur à plus de gayeté.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />es interromprois paroiſſant dauantage.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />ntenant mon eſprit eſt plein de voſtre image.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD bas.
+<lb />e eſt encore mieux portraite dans mon cœur.
+<lb />LEANDRE regardant fixement Philis, comme
+<lb />vn homme qui ſe diſpoſeroit à la peiudre.
+<lb />e vous ſuis obligé de cette belle humeur,
+<lb />ſais quelque téps encor tâchez de vous cotraindre,
+<lb />Il faut de la conſtance alors qu’on ſe fait peindre,
+<lb />le erains...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Ne craignez point, c’eſt ne rien hararder.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ne vous laſſez-vous point de me tant regarder?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Le plaiſir que pour but i'ay dedans la penſée
+<lb />Me fait treuuer plaiſante vne action forcée,
+<lb />Et dedans ce deſſein, loin de m’embaraſſez,
+<lb />Ie vous regarderois dix ans ſans me laſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD bas.
+<lb />Que ie ſerois heureux d’eſtre traité de meſme!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />C’eſt eſtre complaiſante.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />On l'eſt pour ce qu’oa iixs
+<lb />Voſtre ouurage m’eſt cher plus que vous ne penſe
+<lb />Mais il le faut finir comme vous commencez.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE montrant encor le lien al.
+<lb />Campagnard eſt caché.
+<lb />Tournez donc tant ſoit peu voſtre chaiſe, de guct,
+<lb />L’ombre qui paroiſt-là me choque, &amp; m’embacaſſe
+<lb />Et m’oſte le plaiſir d’obſeruer tous vos traits.
+</sp>
+<sp type="MainZone-Sp"><lb />à Philis bas.
+<lb />Il ne vous verra plus tout au moins de ſi prés.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah! ce coup impréueu me dérobe ſa veuë.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ahtque d’attraits diuers cette bouche eſt pourutus,
+<lb />Souffrez donc qu’à plaiſir ie les admire tous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dieux, qu’il y prend de peine ! il ſe met à genour,
+<lb />Mais ie n’apperçois point Iodelet.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ah Madime.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD bai.
+<lb />Quel valet!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie n’ay plus de pouuoir ſur ma flamo
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Songez que l’on vous voit, feignez.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE luy baiſant la main.
+<lb /> Ie n’en puis plæ
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Que fait-il?
+<lb />LEANDRE
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Les pinceaux ſont icy ſuperflus.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dieux! à quelle action s’émancipe ce traître,
+<lb />Liilais
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS à Leandre.
+<lb />contraigmez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD l'épée à la main.
+<lb />Apprends à te connoître.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Monſieur, pardonnez-moy ces petits mouuemens,
+<lb />Il me prend querquerois des étourdiſſemens,
+<lb />Qui ne me laiſſent pas diſpoſer de moy-meſme,
+<lb />Ayant dedans l’eſprit vne fille que i’aime,
+<lb />Et que j’adoreray le reſte de mes iours,
+<lb />Quoy que i’en ſois abſent, ie la croy voir toûjours,
+<lb />Et principalement quand ie peins quelque belle
+<lb />Ie m’égare, &amp; m’emporte à croite que c’eſt elle,
+<lb />Mais mon mal eſt paſſé.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Tu n’es qu’vn inſolent,
+<lb />ALPhilis empeſche le coup.
+<lb />Et ce coup...
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ah c’eſt trop ſaite le violene.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Mais pour l'amour de moy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />c'eſt vn infame.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Si nous n’eſtions tous deux icy deuant Madame,
+<lb />Ie vous démentirois de la bonne façon.
+</sp>
+<sp type="MainZone-Sp"><lb />Hé, Monſieur.
+<lb />PHILIS.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ce coquin fait le meſchant garçon.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie ne ſuis pas meſchant, mais ie ſuis fort braue hõme,
+<lb />Et peut-eſtre tantoſt...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il faut que ie l’aſſomme.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE prenant l’ípúe a<lb />Iodelet auoit ofléc en chamaaι
+<lb />Mais qu’à propos ie voy l'arme de Iodelet,
+<lb />C’a, voyons.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Il te faut battre contre vn valet.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Iodelet, appellons quelqu’vn qui les ſepare.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous reculez.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah Dieux! c’eſt mon pied qui s'éque
+<lb />Et ie ne manque point de cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE luy engageant ſen lpu.
+<lb />Il faut mouni,
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />o Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Rien à preſent ne vous peut ſecouris,
+<lb />Il faut mourir, ou bien me quitter la cadeue.
+</sp>
+<sp type="MainZone-Sp"><lb />Encor..
+<lb />LE CAMPAGNARD.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Il ne faut point me payer de défaite.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Et bien, ie vous la quitte, &amp; m’abandonne à vous,
+<lb />Et puis vous aſſeurer qu’elle dépend de nous.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Vous me le promettez?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />C’eſt ma plus grande enuit.
+</sp>
+<sp type="MainZone-Sp"><lb />cen eſt aſſez.
+<lb />LEANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie ſuis à vous toute ma vit.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />PHILIS, BAZILE, IODELET,
+<lb />LEANDRE, LE CAMPAGNARD.
+</p>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />1Stes-vous inſenſez, que faites vous, Meſfieurs?
+<lb />LToûjours flamberge au vent.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET frotant ſes yeux.
+<lb />Où ſont-ils? aux voleurs,
+<lb />Main-baſſe, tuons tout, à moy, ma hallebarde,
+<lb />'n bâton à deux bouts, des piſtolets.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE eſtant heumé de Iadelet.
+<lb />Prens garde.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Il dormoit, ſes eſprits ſont encor eſtonnez.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />lecroy que ce coquin m’a fait ſeigner du nez,
+<lb />Au Diable le lourdaut, ah ſur ma foy ie gage
+<lb />Que ie ſuis écorché iuſques au cartilage,
+<lb />Si le coup euſt donné deux ou trois doigts plus haut,
+<lb />I’en euſſe eu pour mourit tout autant qu’il en faut,
+<lb />L’artere de la temple eſt vn endroit ſuneſte,
+<lb />Où l’ame a toûjours droit de joüer de ſon reſte,
+<lb />Quand par ſolution de continuité
+<lb />On la vient détourner de ſa tranquilité. (homme,
+<lb />Mais baſte. Et vous, Monſieur, qui pauure Gentil<lb />Feignez pour nous duppet que vous venez de Rome,
+<lb />Et paſſant pour vn Peintre, auec vn faux patois,
+<lb />Nous joüez en grand maître vn tour de fin matois,
+<lb />Vous pouuez bien porter dedans d’autres familles
+<lb />Ces ſecrets merueilleux pour attraper des fllu
+<lb />Phenice m’a tout dit, &amp; vous ne tenez rien<lb />Ceſt pourquoy délogez puiſqu’on vous conoit biu
+<lb />Et ne pretendez pas dupper noſtre cadette.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Ie ſuis homme d’honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ah! ſonnez la retrine
+<lb />Noſtre aiſnée ayant ſçeu comme vous en vſez
+<lb />M’a tantoſt declaré que vous nous abuſez,
+<lb />Et pretendez auoir ſa ſœur en mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais s’il eſt ſans fortune il n’eſt pas ſans coutres
+<lb />Et ie ſuis obligé de vous dire aujourd’huy...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Que ie n’auray jamais d’autre mary que luy.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Et moy, ie vous promets qu’auant demain peut. eſtæ
+<lb />Nous vous mettrõs en lieu dot nous ſerõs le maiut
+<lb />Ie ſuis oncle &amp; tuteur, &amp; comme tel ie doy
+<lb />Vous apprendre d’auoir plus de reſpect pour moy,
+<lb />Il mouere le Campagnard.
+<lb />Quand Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD montrant lundu
+<lb />A preſent c’eſt vn autre moy-meſe,
+<lb />Et ie treuue vn milieu dans ce deſordre extréme,
+<lb />Car l’aiſnée ayant eu mon inclination,
+<lb />Me laiſſe encore au cœur beaucoup d’affection,
+<lb />Et ſi le bon Anſelme auecques ſa doctrine
+<lb />N’auoit pas ſi bon jeu comme il a bonne mine,
+<lb />Et s’eſtoit pû tromper en me trompant auſſi..
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />BAZILE, PHILIS, LE
+<lb />CAMPAGNARD, LEANDRE,
+<lb />ANSELME, IODELET.
+</p>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />E l'allez point cherchet autre part, le voicy,
+<lb />Nrécoutois.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Mais enfin...
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Vn peu de patience,
+<lb />Pout vous appaiſer tous, ie ne veux qu’audience.
+<lb />Leandre qui paſſoit pour Peintre dans ces lieux,
+<lb />Deſcend d’vn riche pere, &amp; de nobles ayeux,
+<lb />Trois oncles fort puiſſans, dont tout ſeul il herice,
+<lb />Luy laiſſeront dequoy reſpondre à ſon merite,
+<lb />Sa ieuneſſe l’ayant par des penſers errans
+<lb />Arraché dés douze ans du ſein de ſes parens,
+<lb />Apres auoir dix ans couru la terre &amp; l’onde,
+<lb />Il ne luy reſte rien à voir dedans le monde,
+<lb />Et par vn mariage acheuant ſes deſtins,
+<lb />Deſormais tous ſes iours ſeront de beaux matins.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Mais de quelle maiſon eſt-il?
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Du vray Leandre,
+<lb />Dans la maiſon duquel aduint ce grand’eſclandre,
+<lb />Qui noyant vn des ſiens dans l’eau de l’Helleſpont,
+<lb />N’a que trop ſignalé la nobleſſe qu’ils ont.
+<lb />H iij
+<lb />Abyde eſt leur pays, &amp; leur natale terre,
+<lb />D'où les Grecs les chaſſant à cauſe de la guette
+<lb />Les forcerent d’aller chez les premiers Gauloix
+<lb />Et de prendre party depuis chez nos François.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Mais cela ne fait rien pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME.
+<lb />Preſtez ſilence.
+<lb />Ne l'ayant point quitté dés ſa plus tendre enfine
+<lb />Et le tenant tres-cher, ainſi que ie l’ay dô,
+<lb />Ie l’ay ſeruy par tout autant que ie l’ay pû,
+<lb />Et croyant qu’il aimoit voſtre diuine aiſnét
+<lb />Pour luy faciliter vn heureux hymenée
+<lb />Ie vous épouuentay par de faux accidens,
+<lb />En feignant des malheuts, &amp; de faux aſcendins:
+<lb />Mais, Monſieur...
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Cher trompeur, va ie te donne guc
+<lb />Par ce coup tu changeas toute ma flame en glact,
+<lb />Mais ayant reconnu ton adreſſe &amp; ton jeu,
+<lb />Tu changes maintenant toute ma glace en ſeu:
+</sp>
+<sp type="MainZone-Sp"><lb />à Beyle.
+<lb />Ie brûle de la voir, Monſieur, ie vous conjure
+<lb />D’oublier toute aigreur en pareille auanture,
+<lb />Et de ſonger qu’eſtant vn enfant de maiſon...
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Faiſant tout par iuſtice, &amp; pour bonne raiſon,
+<lb />S’il a le bien qu’on dit, il faudra bien le faite.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Quand à moy deſormais ie le tiens mon beaufrere,
+<lb />Et luy donne la main en cette qualité.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Et moy ie luy promets toute fidelité.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Enuoyons donc querir cette agreable aiſnée.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Mais Liſe vient à nous.
+</sp>
+<p type="MainZone-Head"><lb />CENE VII.
+<lb />BAZILE, LE CAMPAGNARD,
+<lb />ANSELME, IODELET, PHILIS,
+<lb />LEANDRE, LISE.
+</p>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />O rille infortunte?
+<lb />Monſieur, ne cherchez plus de niepce dans ces lieux,
+<lb />Cliton vient d’enleuer Phenice.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMFAGNARD.
+<lb />Ah iuſtes Dieux ſ
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Mais liſez ce papier.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE liſant.
+<lb />N’ayant plus de raiſ,
+<lb />ApnI auoir counu qu’vn ingrat m’abaudonne,
+<lb />Dedaus mon deſeſpoir ie me donne à Cliton,
+<lb />Qui counoit la valeur du bien que ie lay donne.
+</sp>
+<sp type="MainZone-Sp"><lb />{
+<lb />Vueillex donc approuuer,
+<lb />O mon oncle trei-cher, vn pareil manage,
+<lb />Et diſſeraut vn peu de vous aller treuuer,
+<lb />Permettex que i’aprenue à deacuir plui ſage.
+<lb />PREMICE.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ah! ce mot m’attendrit.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah quels ſont mes malheurs!
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Allons la retirer des mains de ces voleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LISE.
+<lb />Ie voulois faire effort pour ſuiure ma milirẽ
+<lb />Mais le cocher fouëta.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Dieux! que i’ay de uiſteſ
+<lb />Mon inconſtance a fait tous les maux d’aujourdl
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE bας ὰ Aα εια<lb />Qu’il eſt ſot de penſer qu’elle parle de luy !
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Quel accident fâcheux!
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ah ie me deſeſpete
+<lb />D'eſtre cauſe du mal qu’elle ſe vient de faire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANSELME bas à Ιeαιdα,
+<lb />Qui ne riroit de voir qu’il s’accuſe pour vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Elle m’appelle ingrat, ah vous le ſçauer tous.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Meſſieurs, Anſelme a fait le malheur où nous sóma
+<lb />Mais comme il eſt auſſi le plus adroit des homne
+<lb />Il peut vous retirer de tous ces embartas,
+<lb />Et pour vn tel deſſein ie luy preſte mon bras.
+<lb />Si Cliton ne vous rend cette adorable aiſnée
+<lb />Dedans le neſme eſtat qu’il l’auoit emmenée,
+<lb />Rien ne le peut ſauuer de mon iuſte courour,
+<lb />Il mourna.
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE au Campagaid.
+<lb />C’eſt tout cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD.
+<lb />Ie n’eſpere qu’en vout.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Allons donc au plûtoſt ſans tarder dauantage.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNARD montrant Philit,
+<lb />Chacun ne pourra pas eſtre de ce voyage,
+<lb />Il en faut pour garder cet objet adoré.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Sans aucun intereſt ie vous y ſeruiray,
+<lb />Et mon amour à part....
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Allez, c’en eſt trop dire,
+<lb />Voſtre eourage vaut plus qu’elle &amp; qu’vn Empire:
+<lb />Tirant raſion ou non de cette trahiſon,
+<lb />Eſtant né Gentilhomme, &amp; de bonne maiſon,
+<lb />I’aprouue qu’on vous aime, &amp; le tiens legitime, (me,
+<lb />Le bien vaut quelquefois beaucoup moins que l’eſti<lb />Et tout homme de cœur porte encore au côté
+<lb />Vn aſſez grand treſor dans la neceſſité.
+</sp>
+<sp type="MainZone-Sp"><lb />LEANDRE.
+<lb />Monſieur, c’eſt m’obliger d’vne amitié trop forte.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIS.
+<lb />Mais mon oncle, de grace, empeſchez qu’il ne ſorte,
+<lb />Ils ſe battront, &amp; lots...
+</sp>
+<sp type="MainZone-Sp"><lb />BAZILE.
+<lb />Ne craignez rien de mal,
+<lb />i’y vay tont le premier, en campagne.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNAR D. A cheual?
+<lb />PHILIS.
+<lb />Ie vay vous voit partir.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CAMPAGNAR D.
+<lb />I’eſpere en ce voyage,
+<lb />Et croy que nous aurons beau temps apres l’orage,
+<lb />Et que le traître ayant moins d’effet que de bruit,
+<lb />Nous luy ferons paſſer quelque mauuaiſe nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />IODELET ſeul.
+<lb />Et moy qui te connois, quoy que tu puiſſes faire,
+<lb />Ie te tiens vn grand ſot, &amp; pardeuant Notaite.
+<lb />Et vous, beaux Campagnards, accordez, ou maris,
+<lb />Gardez-vous d’amener vos femmes à Paris,
+<lb />Pour y voir le Pont neuf, &amp; la Samaritaine,
+<lb />Plus de mille cocus s’y font chaque ſemaine,
+<lb />Et les godelureaux y ſont ſi frequemment,
+<lb />Qu'vne femme de bien s’y trouue rarement.
+<lb />Prenez-y donc exemple, &amp; deuenans plus ſages.
+<lb />Faites-leur voir Paris au fond de vos villages,
+<lb />Parmy vos païſans faites les Cupidons,
+<lb />Et demeurez toûjours les Roys de vos Dindons.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />0
+<lb />4
+<lb />
+<lb />15
+<lb />13
+<lb />7
+</fw><fw><lb />0
+<lb />4
+<lb />
+<lb />15
+<lb />13
+<lb />7
+</fw></p>
+    </body>
+  </text>
+</TEI>

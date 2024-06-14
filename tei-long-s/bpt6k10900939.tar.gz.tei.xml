@@ -1,0 +1,2403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Anne de Bretagne, reine de France, tragédie</title>
+        <author>Ferrier de La Martinière, Louis</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb447295304"/>
+          <author>
+            <persName>Ferrier de La Martinière, Louis</persName>
+          </author>
+          <title>Anne de Bretagne, reine de France, tragédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1679" cert="high" resp="BNF">1679</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />ANNE
+<lb />DE BRETAGNE
+<lb /> -
+<lb />REINE DE FRANCE.
+<lb />TRAGEDIE.
+<lb />Par le Sieur FERRIER.
+</fw>
+<p type="MainZone-Other"><lb />M. DC. LXXIX.
+<lb />Avec Permiſſion.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />MONSIEUR DE
+<lb />***
+</p>
+<p type="MainZone-Head"><lb />ONSIEUR,
+</p>
+<p type="MainZone-P"><lb />der voſtre protection, pour une piece
+<lb />qui a trouvé de grands obſtacles dans
+<lb />ſa repreſentation, &amp; qui peut-eſtre
+<lb />n'en trouvera pas de moindres ſur le
+<lb />papier. La nouveauté de ſon ſujet luy
+<lb />a attiré bien des cenſeurs, &amp; j’ay eſté
+<lb />ſurpris de voir qu’elle n’ait point plù
+<lb />à de certaines gens, par l’endroit mê<lb />me où je croyois qu’elle de voit plaire
+<lb />le plus. Ils ont dit que noſtre Hiſtoi<lb />re eſtoit mal propre à nous fournir des
+<lb />ſujets de Tragedie, qu’il faloit mener
+<lb />le ſpectateur dans un Pais éloigné,
+<lb />remplir ſon oreille par des noms plus
+<lb />pompeux, luy impoſer &amp; l’ébloüir en
+<lb />quelque façon. D’autres perſonnes au
+<lb />contraire m’ont applaudy ſur le choix
+<lb />de mon ſujet. Ils ont crù avec Hora<lb />ce qu'on pouvou setarier a vet nonneur
+<lb />des traces des anciens.
+</p>
+<sp type="MainZone-Sp"><lb />Non minimum meruere decus
+<lb />veſtigia græca
+<lb />Auſi deſerere.
+</sp>
+<p type="MainZone-P"><lb />Ils ont dit que les Grecs eux-mê<lb />mes n’ont point emprunté des Hiſtoi<lb />res étrangeres les ſujets de leur Tra<lb />gedie, que les Romains ont quelque<lb />fois mis ſur leur Scene des Heros de
+<lb />leur nation; que nous pou vons imiter
+<lb />les uns &amp; les autrts, &amp; attatner nos
+<lb />ſpectateurs par une agreable nouveauté,
+<lb />Gratâ novitate morandus
+<lb />eptautor,
+</p>
+<p type="MainZone-P"><lb />Ie laiſſe voſtre jugement libre là<lb />deſſus, MONSIEUR. Ce n’eſt pas à
+<lb />moy à decider une queſtion où je ſuis
+<lb />trop intereſſé. Ie vous diray ſeulement
+<lb />que je ne me repens point d’avoir fait
+<lb />paroiſtre Anne de Bretagne ſur noſtre
+<lb />Theatre. Il eſt vray que ſi j’eſtois à
+<lb />le faire, je pourrois réflechir plus meu<lb />rement avant que de l’entreprendre. Ie
+<lb />voy trop combien il eſt dangereux d’en<lb />trer le premier en lice, &amp; qu’on y
+<lb />trou ve des difficultez que l’on n’a ſou<lb />vent point pre veuës. Car enfin, je vous
+<lb />l’avoüeray, MONSIEUR, peut<lb />eſtre, Apollon aidant, je feray à l’a<lb />venir de meilleures pieces, qui me don<lb />neront ſans doute moins de peine que
+<lb />celle-cy. Ie n’ay pas oſé m’éle ver trop
+<lb />haut, de peur d’entrer dans le grand
+<lb />Cothurne, &amp; j’ay craint de deſcendre
+<lb />trop bas, en évitant cette éle vation
+<lb />que la ſimplicité de mon ſujet ne me
+<lb />permettoit pas. Jl m’a falu garder un
+<lb />temperament &amp; une mediocrité de ſti<lb />le qui m’a couté bien des ſoins, &amp;
+<lb />m’aſſujettir aux veritables incidens de
+<lb />l'hiſtoire, qui pour eſtre trop connuë
+<lb />n’a pas laiſſé un cours libre à mon ima<lb />gination, &amp; luy a preſcrit des bornes
+<lb />étroites. Ie l’ay pourtant alterée en
+<lb />quelques endroits, je ne le cele pas.
+<lb />Uous vous en eſtes aperceu, MON<lb />SIEUR, &amp; vous a vez eu la bon<lb />té de me le dire. Ie me ſuis fait le
+<lb />premier toutes les objections que vous
+<lb />m'avez faites. Ie ne veux pas icy en
+<lb />inſtruire le lecteur. Il le verra bien
+<lb />ſans que je l’en avertiſſe. Ie le prie
+<lb />ſeulement de me rendre un peu de ju<lb />ſtice ſur ce point, &amp; de croire que je
+<lb />n’ay pas ignoré ce qu’il pourra me re<lb />procher. Ie ſçay bien par taempre que
+<lb />le Seigneur d’Albret, car c’eſt ainſi
+<lb />que le nomme l’hiſtoire, ne fut jamais
+<lb />Maréchal. Ie luy ay donné ce nom
+<lb />pour la commodité de l’Hemiſtiche;
+<lb />&amp; pour le plaiſir de l’oreille. Ie n’ay
+<lb />pas crû que ce nom fut au deſſous d’un
+<lb />homme de ſa qualité, puis qu’un des plus
+<lb />illuſtres Capitaines de noſtre ſiecle,
+<lb />&amp; qui contoit tant de Princes dans ſa
+<lb />race, ne dédaigna pas de rece voir le
+<lb />baſton de Maréchal de France de la
+<lb />main de noſtre in vincible Monarque.
+<lb />On pourra encore m’objecter que c’eſt
+<lb />à tort que je donne à cette piece le nom
+<lb />de Tragedie, puis qu’il n’y a point de
+<lb />ſang répandu. Ie n’ay rien à répon<lb />dre à cette objection. Vn fameux Au<lb />teur y a déja répondu dans la Pre<lb />face d’une de ſes Pieces. Ie n’ay pas
+<lb />crû faillir en marchant ſur les traces
+<lb />d’un ſi grand homme; mais c’eſt aſſez
+<lb />me juſtifier ſur la conduite de mon ou<lb />vrage,
+<fw><lb />Un Auteur à genoux dans une
+<lb />humble preface
+<lb />Au lecteur qu’il eimoyvuuouu.
+<lb />demander grace
+</fw><lb />Il ne gagnera rien ſur ce jug
+<lb />irrité,
+<lb />Qui luy fait ſon procez de plei<lb />ne autorité.
+<fw><lb />Pour e viter une pareille raillerie, jt
+<lb />ne vous dis plus rien, MONSIEVR,
+<lb />ſinon que je ſuis avec reſpect,
+</fw></p>
+<p type="MainZone-Other"><lb />MONSIEVR,
+</p>
+<p type="MainZone-Other"><lb />Voſtre tres. humble &amp;
+<lb />tres-obeïſſant ſerviteur,
+<lb />PERRIER.
+</p>
+<p type="MainZone-Head"><lb />L eſt permis d’imprimer la Tra<lb />edie intitulée, Anne de Bre<lb />tagne; rait le vigt-quatriéme
+<lb />de Decembre 1678.
+</p>
+<p type="MainZone-Other"><lb />DE LA REYNIE.
+</p>
+<p type="MainZone-Head"><lb />Noms des Acteurs.
+</p>
+<p type="MainZone-Entry"><lb />ANNE, Ducheſſe de Bretagne.
+</p>
+<p type="MainZone-Entry"><lb />ISABELLE, ſœur d’Anne.
+</p>
+<p type="MainZone-Entry"><lb />LOUYS, Duc d’Orleans.
+</p>
+<p type="MainZone-Entry"><lb />LE MARECHAL D’ALBRET,
+</p>
+<p type="MainZone-Entry"><lb />LE MARE'CHAL
+</p>
+<p type="MainZone-Entry"><lb />.
+<lb />DE RIEUX. ) Regens de la
+<lb />LE COMTE DE ) Ducheſſe.
+<lb />COMINGE.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT, Gou<lb />vernante des deux Princeſſes,
+<lb />La Scene eſt à Rennes dans une ſalle
+<lb />du Palais de la Ducheſſe.
+</sp>
+<p type="MainZone-Head"><lb />ANNE
+<lb />DE BRETAGNE.
+<lb />REINE DE FRANCE.
+<lb />TRAGEDIE.
+<lb />ACIET.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />LA DUCHESSE, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />E Maréchal d’Albret me deman<lb />de audiance ?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Oüy, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />A regret je ſouffie ſa preſences
+<lb />Tu ſçais combien il m’aime, &amp; combien je luy
+<lb />dois.
+<lb />Que du feu Due mon pere il m’obtint autrefois,
+<lb />Mon cœur me fait pour luy quelque ſecret re<lb />proche.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Quoy, Madame....
+</sp>
+<sp type="MainZone-Sp"><lb />L UCHESSE.
+<lb />Alume, je le toy qurs aproche.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LA DUCHESSE, LE MARECHAL
+<lb />D’ALBRET, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />A Trimoüille en Bear fait voler la terreur,
+<lb />LMadame. Mes états éprouvent ſa fureur.
+<lb />Du Maréchal de Gié la valeur indomtée
+<lb />Menace &amp; fait fremir la Flandre épouvantée.
+<lb />Charles leur Roy, dit-on, ſuivy d’autres Guer<lb />riers
+<lb />Veut icy par ſes mains moiſſonner des lauriers,
+<lb />Et répendant de loin l’effroy qui l’accompagne
+<lb />Vient luy-même en perſonne attaquer la Breta<lb />gne.
+<lb />Tandis que d’un côté l’heureux Roy des Ro<lb />mains
+<lb />D’un des Chefs des François ſuſpend les grands
+<lb />deſſeins;
+<lb />Je vay pour l’intereſt de mon peuple &amp; du vôtre
+<lb />Oppoſer mes efforts aux conqueſtes de l’autre.
+<lb />Preſt à quitter ces lieux où je n’attens plus rien,
+<lb />’oſe vous demander un ſecret entretien.
+<lb />Aprês cela je parts, quelque ennuy qu’il m’en
+<lb />coûte.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Chatcaubrlant forter: Parion, je vous écoute.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LA DUCHESSE, LE M. D’ALBRET.
+</p>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Uand Loüis Roy de France armant tam
+<lb />D
+<lb />de ſoldats
+<lb />Vint d’une longue guerre affliger vos états,
+<lb />Madame, il vous ſouvient qu’impuiſſante &amp;
+<lb />timide
+<lb />La Bretagne creignit un torrent ſi rapide.
+<lb />Le feu Duc vôtre pere en redoutant le cours
+<lb />De tous ſes Alliez implora le ſecours.
+<lb />j’y volay le premier. Mon bras toûjours fidelle
+<lb />En mille occaſions fit éclatter mon zelle.
+<lb />Il le vit, &amp; ſon cœur s’ouvrant entier à moy
+<lb />Paya de ſon eſtime &amp; mon zele &amp; ma foy.
+<lb />Il fit plus. Quand la paix toûjours mal aſſurée
+<lb />Entre la France &amp; luy fut conſtamment jurée,
+<lb />Pour m’honorer d’un prix que je n’attendois pas,
+<lb />Il voulut qu’en ces lieux je ſuiviſſe ſes pas.
+<lb />Je vous y vis, Madame, helas! c’eſt tout vous
+<lb />dire,
+<lb />De ce cœur mal-heureux je vous donnay l’em<lb />pire,
+<lb />Et vos charmes naiſſans firent naiſtre un amour
+<lb />Qui depuis avec eux s’accrut de jour en jour.
+</sp>
+<p type="MainZone-Lg"><lb />Le Due, de ma tendreſſe approuvant la conſtance
+<lb />Voulut que voſtre main en fut la recompenſe.
+<lb />Quel bonheur! Je touchois au moment fortuné
+<lb />Que pour noſtre hymenée il avoit deſtiné:
+<lb />Lors qu’on vint l’avertir que ſon peuple indo<lb />cile
+<lb />Allumoit le flambeau de la guerre civile,
+<lb />Que du feu Roy Louys le Jeune ſucceſſeur
+<lb />Charles, par un effet des conſeils de ſa ſœur,
+<lb />Echauffant des mutins la fureur animée
+<lb />Par de puiſſans ſecours groſſiſſoit leur armée.
+<lb />O Ciel, quel coup de foudre à mon amour trom<lb />pé!
+<lb />De ſoins plus importans le Duc trop occupé
+<lb />Differa noſtre hymen, &amp; tout entier aux armes
+<lb />Changea ſes doux apreſts en apreſts pleins d’a<lb />larmes.
+<lb />Moy flaté du ſalaire à mon amour promis
+<lb />A Charles en tous lieux je fais des ennemis.
+<lb />Inutile ſecours que leur bras nous apporte!
+<lb />Ce torrent demandoit une digue plus forte.
+<lb />On la cherche, &amp; d’abord pour s’oppoſer à luy
+<lb />De Maximilian on implore l’appuy.
+<lb />Il l’accorde à nos vœux. Mais à quel prix Ma<lb />dame?
+<lb />Au prix de voſtre main deſtinée à ma flame.
+<lb />Le Duc toûjours conſtant dans ſes bontez pour
+<lb />moy
+<lb />Ne veut point d’un hymen ſi contraire à ſa foy;
+<lb />Mais enfin l’intereſt &amp; la crainte publique
+<lb />Font que ſa bonne foy cede à ſa politique,
+<lb />Il y conſent. Et moy malgré tout mon amour
+<lb />Pour le bien du party j’y ſouſcris à mon tour.
+<lb />Mais ſur tout à mes vœux voſtre ame peu pro<lb />pice
+<lb />Determina la mienne à ce grand nermee.
+<lb />J’étouffay pour vous plaire un trop juſte tranſ<lb />port,
+<lb />Et de tous mes malheurs n’accuſay que le ſort,
+<lb />Cependant preſt à voir l’alliance arreſtée
+<lb />Le Duc meurt d’une mort par ſes çhagrins hâ<lb />tée.
+<lb />Vos Miniſtres zellez pour vos peuples, pour vous,
+<lb />Ont preſſé cet hymen ſi neceſſaire à tous:
+<lb />Il eſt enfin conclu. La pompe eſt toute preſte,
+<lb />Le Comte de Naſſau doit celebrer la feſte,
+<lb />Et dans ce jour, des jours le plus triſte pour moy
+<lb />Au nom du Roy ſon Maiſtre il reçoit voſtre foy?
+<lb />Gemir &amp; m’éloigner eſt tout ce qui me reſte.
+<lb />Je parts pour ne point voir ce ſpectacle funeſte.
+<lb />Quoy que juſqu’à l’eſpoir tout m’ait abandonné,
+<lb />J’emporte tout l’amour que vous m’avez donné.
+<lb />Je vay de ce beau feu redoublé par l’abſence
+<lb />Contre nos ennemis toumner la vioience ,
+<lb />Faire tomber ſur moy l’effort de leur courroux,
+<lb />Et pour tout dire enfin vaincre où mourir pour
+<lb />vous.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Croyez-vous, Maréchal, qu’injuſte à voſtre
+<lb />gloire
+<lb />On ait de vos exploits étouffé la memoire!
+<lb />Non, je ſçay trop combien vous doivent mes
+<lb />états.
+<lb />Ils peuvent l’oublier, je ne l’oubliray pas.
+<lb />J’ay mal payé les ſoins qu’on vous a vû me ten<lb />dre<lb />prendre.
+<lb />Mais moins à moy qu’au ſort vous deuez vous en
+<lb />A vos vœux malgré moy mon cœur s’eſt refuſé,
+<lb />J’ay ſenty tout l’ennuy que je vous ay cauſé.
+<lb />Je vous en donne encore une preuve ſincere.
+<lb />Je vous plains. C’eſt pour vous tout ce que jr
+<lb />puis faire.
+<lb />A iij
+<lb />Mais quel que ſoit le ſort dont vous ſentez les
+<lb />coups,
+<lb />Helas! je ne ſuis pas moins à plaindre que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Que moy! vous épouſez un Prince qu’on ad<lb />mire,
+<lb />Nommé Roy des Romains, heritier de l’Em<lb />pire.
+<lb />Vous trainez aprés vous tout un peuple content,)
+<lb />La foftune rouoiity uir oceptie vous attent.
+<lb />Quel chagrin oſeroit s’approcher de voſtre ame
+<lb />D’où vous peut-n'venir ?
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />De vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />De moy, Madame!
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Oüy, de vous. C’eſt trop feindre. Apprener
+<lb />mon malheur.
+<lb />Je vous eſtime aſſez pour vous ouvrir mon cœur.
+<lb />Quand vous ſceutes ranger de noſtre intelli<lb />gence
+<lb />Tant de peuples en vain liguez contre la France,
+<lb />Et que par un effort qu’on s’étoit peu promis
+<lb />Vous armates pour nous juſqu’à nos ennemis.
+<lb />Le Comte de Dunois, le Comte d’Angouléme
+<lb />Vinrent combatre icy contre la France même,
+<lb />Et le dépit de Cour fit marcher ſur leurs pas
+<lb />Mille autres combatans que je ne nomme pas.
+<lb />On liſoit ſur leur front une mâle aſſurance,
+<lb />Leur air majeſtueux témoignoit leur naiſſan<lb />ce.
+<lb />Mais parmy ces Heros, un Heros plus fameux,
+<lb />Louys Duc d’Orleans attira tous nos vœux.
+<lb />Son port digne des Rois de ſon auguſte race
+<lb />Méloit heureuſement la douceur à l’audace.
+</sp>
+<sp type="MainZone-Sp"><lb />Mes peuples pour le voir le ſuivoient en tous
+<lb />lieux,
+<lb />Et le charme du cœur ſuivit celuy des yeux.
+<lb />Il me vit, il m’aima, me parla de ſa flame:
+<lb />Ses ſoûpirs &amp; le temps ſceurent toucher mon
+<lb />ame.
+<lb />Cet aveu vous ſurprend, Maréchal, je le voy,
+<lb />Il eſt grand. C’eſt par là qu’il eſt digne de moy.
+<lb />Quelque auſtere devoir qui lie une Princeſſe,
+<lb />Il ne luy défent pas d’avoir de la tendreſſe,
+<lb />Et l’amour le plus fort n’en eſt point combatu,
+<lb />Ouand il doit ſa naiſſance à la ſeule vertu.
+<lb />Oüy, tu me plûs, cher Prince, &amp; tu peux le con<lb />naitre.
+<lb />Ma gloire avouë un feu qu’elle même fit naitre.
+<lb />Mais qu’il paya bien cher ce bonheur foible &amp;
+<lb />vain!
+<lb />Aſſuré de mon cœur, il demanda ma main.
+<lb />Mou pere qui cherchoit l’appuy d’une alliance,
+<lb />Sceut avec induſtrie éluder l’eſperance
+<lb />D’un Prince qui n’avoit que ſon bras pour appuy.
+<lb />Quelle douleur pour moy! Quel deſeſpoir pour
+<lb />luy !
+<lb />Dévoré d’une ardeur qu’irritoit la contrainte
+<lb />Il n’oſoit qu’à mes yeux ſe permettre la plainte.
+<lb />En vain ſes longs regrets m’exprimoient ſes dou<lb />leurs,
+<lb />Pour tout ſoulagemẽt il n’avoit que mes pleurs.
+<lb />Honteux de ſoûpirer il a recours aux armes,
+<lb />Il veut verſer ſon ſang las de verſer des larmes.
+<lb />Contre nos ennemis il conduit nos ſoldats,
+<lb />Tout le feu de ſon cœur paſſe juſqu’à ſon bras:
+<lb />Il donne mille morts en prodiguant ſa vie. 
+<lb />Mais le Ciel prent plaiſir à tromper ſon envie,
+<lb />Il l’arrache à la mort qu’il ſembloit défier;
+<lb />Les armes à la main il eſt fait priſonnier,
+<fw><lb />A iiij
+</fw><lb />Vous le ſçavez. Deux ans de priſon &amp; d’abſence
+<lb />N’ont point de ſon ardeur ébranlé la conſtance.
+<lb />Je le préſume au moins. Je le connois trop bien
+<lb />Pour croire ſon amour moins ferme que le mien.
+<lb />Avec raiſon par moy je juge de luy-même,
+<lb />Puiſque je l’aime encor, je ſuis ſeure qu’il m’ai<lb />me.
+<lb />Eſelave cependant d’un devoir inhumain
+<lb />A Maximilian je vay donner ma main.
+<lb />Oſez aprés cela nommer le ſort barbare,
+<lb />Comparen tos maiſeuis a ceux qu’il me prepare,
+<lb />Et jugez ſi mon cœur ſous ſes coups abatu
+<lb />N’a pas icy beſoin de toute ſa vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Quel aveu venez-vous de me faire! ah! Madame,
+<lb />Par quels nouveaux chagrins déchirez-vous mon
+<lb />ame.
+<lb />N’étoit-ce pas aſſez aſtres trop rigoureux
+<lb />De m’avoir des mortels fait le plus mal-heureux:
+<lb />Faloit-il pour combler le malheur qui m’opreſſe
+<lb />Que je fuſſe l’auteur des maux de ma Princeſſe?
+<lb />Madame, c’eſt par moy que dans ces triſtes lieux
+<lb />Un Prince trop aimé s’eſt offert à vos yeux.
+<lb />C’eſt moy qui par un zelle innocent &amp; coupable
+<lb />Vous ay porté les traits dont le ſort vous acca<lb />ble.
+<lb />Voyez de cette ardeur moins l’objet que la fin,
+<lb />Et vangez-vous ſur moy d’un crime du deſtin.
+<lb />Il eſt vray que déja vous eſtes bien vangée,
+<lb />Je paye aſſez les maux où je vous ay plongée.
+<lb />Si l’amant qu’en ces lieux attira mon malheur
+<lb />Vous oſte le repos, il m’oſte voſtre cœur,
+<lb />Et les pleurs dont vos yeux honorent ſa miſere
+<lb />Me puniſſent aſſez d’un crime involontaire:
+<lb />Il merite un pardon. Mais je veux m'en punir.
+<lb />Je me rendray par là digne de l’obtenir.
+<lb />A mon mauvais deſtin moy-même je me livre.
+<lb />Qui trouble voſtre vie eſt indigne de vivre.
+<lb />Je vay toûjours trop plein de mon amour ſecret
+<lb />Mourir en combatant, ou mourir de regret.
+<lb />Vous, Madame, vivez. Quelque jour plus pro<lb />pice
+<lb />Le Ciel à vos vertus rendra plus de juſtice,
+<lb />Souvent à ſon courroux il nous laiſſe échaper,
+<lb />Et ſouvent il menace avant que de fraper.
+<lb />Puiſſe t’il reparer ſes cruautez paſſées
+<lb />Par de longues faveurs à pleines mains ver<lb />ſées,
+<lb />Vous faire un ſort ſi doux qu’il paſſe vos deſirs,
+<lb />A mes peines enfin égaler vos plaiſirs.
+<lb />Adieu.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LA DUCHESSE, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />’On vous attent. Cette grande journée,
+<lb />LMadame, éclairera voſtre heureux hyme<lb />née.
+<lb />Le Comte de Naſſau hâte un moment ſi doux.
+<lb />Il vient vous prendre, au nom du Prince voſtre
+<lb />époux.
+<lb />Il eſt environnéd’une illuſtre Nobleſſe,
+<lb />Pour le voir de plus prés à l’envy l’on s’empreſſe<lb />Voſtre peuple oubliant tous ſes premiers mal<lb />heurs
+<lb />Vous attent au paſſage, &amp; le ſeme de fleurs,
+<lb />A l’eſpoir qui le flate il s’abandonne en proye<lb />Par mille cris confus il exprime ſa joye,
+<lb />Et l’encens à la main dans le temple preſſez
+<lb />Les Preſtres font pour vous des vœux mieux
+<lb />exaucez.
+<lb />Madame, ce n’eſt plus que par voſtre preſence
+<lb />Que vous pouvez haſter un bonheur qui com<lb />mence,
+<lb />Et rempliſſaut les vœux du peuple &amp; de la Cour
+<lb />Aſſurer le repos que leur promet ce jour.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ne faiſons point languir l’ardeur qui les ani<lb />me.
+<lb />Le ſacrifice eſt preſt, menons leur la victime.
+<lb />LAceutons larrert qu’ont prononce les Cieux.
+<lb />Allons.... Mais que me veut le Mareſchal de
+<lb />Rieux!
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LA DUCHESSE, LE MARESCHAL D
+<lb />RIEUX, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LE M. DE RIEUX.
+<lb />Adame, retardez la pompe qu’on preparez
+<lb />VIContre un hymen fatal le deſtin ſe declare.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />LA DUCHESSE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. DE RIEUX.
+<lb />Le Roy des Romains à Bruges arreſté
+<lb />Eſt en proye aux fureurs d’un peuple revolté.
+<lb />Ses ſujets enhardis à tant de violence
+<lb />En s’aſſurant de luy trouvent leur aſſurance.
+<lb />Il eſt entre leurs mains, ſans apuy, ſans ſecours,
+<lb />Et l’on craint pour ſon Sceptre, &amp; même poux
+<lb />ſes jours.
+<lb />Madame, là-deſſus prenez bien vos meſures,
+<lb />Mais ſur tout prenez-en de promptes &amp; de ſeures.
+<lb />Vous avez &amp; l’Eſtat &amp; vous à menager,
+<lb />Penſez y bien, avant que de vous engager.
+<lb />Aprés qu’on s’eſt commis aux fureurs de l’orage
+<lb />On pouſſe vainement des vœux vers le rivage.
+<lb />Le conſeil peut ſervir dans un peril naiſſant,
+<lb />Mais quand le coup eſt fait il devient impuiſ<lb />ſant.
+<lb />Songez en quel eſtat la Bretagne eſt reduite,
+<lb />De voſtre hymen pour elle examinez la ſuite,
+<lb />Voyez-en tous les maux, mais pour les prevenir,
+<lb />Et plus que le preſent regardez l’avenir.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Dépuis long-temps pour moy je connoy vô<lb />tre zelle,
+<lb />Vous connoiſſez le mien pour mon peuple fidelle.
+<lb />Vous ſçavez qu’attachée à ſes ſeuls intereſts
+<lb />J’accompliſſois l’hymen que hatoient ſes ſou<lb />baîts.
+<lb />Ces mêmes intereſts demandent le contraire,
+<lb />Il faut le differer. Hé bien qu’on le differe,
+<lb />Allez, voyez Cominge. A vec vous, avec luy
+<lb />Je veux ſur ce grand point conſulter aujour<lb />d’huy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LA DOCHESSE, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />J Ois-tu de mon deſtin le biſare caprice?
+<lb />V A-t’il jamais ſi loin pouſſé ſon injuſtice?
+<lb />Le Mareſchal d’Albret, aprés de longs adieux
+<lb />Triſte, deſeſperé, vient de quitter ces lieux.
+<lb />Le Duc pour qui mon cœur endure tant de pei<lb />nes
+<lb />Par moy, pour moy gemit ſous de cruelles chai<lb />nes,
+<lb />Et le Roy des Romains comme eux infortuń
+<lb />Eprouve les fureurs d’un peuple mutiné.
+<lb />Le foit pourin accabler d’une douleur plus forte
+<lb />Repend ſur mes amans la haine qu’il me porte,
+<lb />Envers luy leur tendreſſe eſt un crime pour eux;
+<lb />Il ſuffit de m’aimer pour eſtre mal-heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Le Duc ſemble aujourd’huy, Madame, moins
+<lb />à plaindre.
+<lb />Le Ciel détourne un coup pour luy le plus à crain<lb />dre.
+<lb />Le malheur d’un rival peu s’en faut voſtre époux
+<lb />Doit adoucir l’ennuy qu’il peut ſentir pour vous.
+<lb />Le revers qui ſuſpend cette grande alliance
+<lb />Semble encore à ſes feux permertre l’eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Quel eſpoir à ſon cœur peut-il eſtre permis?
+<lb />N’eſt-il pas au pouvoir de nos fiers ennemis?
+<fw><lb />s’il
+</fw><lb />S’il faut qu’en ſa faveur tout mon amour éclate,
+<lb />Crois-tu dans mes deſſeins que mon peuple me
+<lb />flate?
+<lb />Attachant ſon bonheur à mon regne naiſſant,
+<lb />Tu ſçais qu’il me demande un époux plus puiſ<lb />ſant,
+<lb />Que du repos public victime infortunée
+<lb />Je ſuis de mes ſujets l’eſclave couronnée,
+<lb />Et que par un deſtin bizare, rigoureux
+<lb />En leur donnant des loix j’en reçois auſſi d’eux.
+<lb />Oüy le ſort, mes ſujets, tout te devient con<lb />traire.
+<lb />L’Amour ſeul eſt pour toy, Prince; que peut-il
+<lb />faire?
+<lb />Ce qu’il peut faire! Il peut recompenſer ta foy.
+<lb />Je m’arrachois trop toſt à l’eſpoir d’eſtre à toy,
+<lb />Tes malheurs finiront, le deſtin équitable
+<lb />A nos vœux aujourd’huy ſe rend plus favorable,
+<lb />Mais pourquoy me flater d’un bien mal eſperé?
+<lb />L’hymen eſt il rompu pour eſtre differé?
+<lb />Mes Miniſtres ont-ils expliqué leurs penſées?
+<lb />Voudront-ils retracter mes promeſſes forcées?
+<lb />Que ſçay-je, en leurs avis peut-eſtre trop con<lb />ſtans
+<lb />Plus que je ne voudrois... Mais je pers trop de
+<lb />temps,
+<lb />Va voir ma ſœur, dy luy ce qu’on vient de m’ap<lb />prendre,
+<lb />Et qu’au conſeil bien toſt elle vienne ſe rendre.
+<lb />Ciel! qui vois mes ennuis, fay dans ce tr iſte jour
+<lb />Que je puiſſe accorder ma gloire &amp; mon amour.
+<lb />Fin du premier Acte.
+</sp>
+<p type="MainZone-Head"><lb />ACIE II.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />ISABELLE, CHATEAUBRIANT
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />E ce que tu me dis es-tu bien aſſurée?
+<lb />DQuoy, de ce triſte hymen la pompe eſt dif<lb />ferée,
+<lb />Et ma ſœur dans un trouble à mon trouble pareil
+<lb />Pour ſe determiner aſſemble ſon conſeil?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Oüi, Madame, &amp; bien toſt ſeurs de cette nou<lb />velle
+<lb />Ses Miniſtres icy vont ſe rendre avec elle.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />d e dl dn a da
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Pourquoy ces pleurs &amp; ces nouveaux regrets?
+<lb />Auriez vous bien pour moy des deplaiſirs ſecrets?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Je n’en ay point pour toy. Tonlzele &amp;ta naiſſance
+<lb />T’ont avec ma tendreſſe acquis ma confidence.
+<lb />j’aime, &amp; ce triſte jour, comimie tu peux ie von,
+<lb />Pour le Duc d’Orleans détruit tout mon eſpoir.
+</sp>
+<p type="MainZone-Lg"><lb />Exilé, tu le ſçais il vint en cette ville
+<lb />Contre ſes ennemis mandier un azile.
+<lb />Je le vis. Que mes yeux le trouverent charmant!
+<lb />Mon triſte cœur vers luy voloit à tout moment,
+<lb />Autantqu’il me plaiſoit j’aurois voulu luy plaire,
+<lb />Je ſouhaittois qu’il eut l’amitié de mon pere,
+<lb />qu’il vecût avec nous, qu’il y vecût heureux.
+<lb />I’ignorois que ce ſoin fuſt un ſoin amoureux,
+<lb />Que plus que la pitié mon ardeur le fit naiſtre;
+<lb />Et je ſentis long temps l’amour ſans le connoi<lb />ſtre.
+<lb />Mais que j’en goutay peu la trompeuſe dou<lb />ceur!
+<lb />Le Duc devint ſenſible aux charmes de ma ſœur.
+<lb />Je m’apperceus bien-toſt de ſon ardeur naiſ<lb />ſante,
+<lb />Car qui ſçauroit tromper les regars d’une amante.
+<lb />Je voulus n’aimer plus, je voulus... mais helas
+<lb />Amour! on veut en vain ce que tu ne veux pas.
+<lb />Tu ſçais quels maux me couſte une ardeur ſi fa<lb />tale,
+<lb />Je l’ay toûjours cachée au Prince, à ma rivale,
+<lb />Depuis plus de deux ans je devore mes pleurs,
+<lb />Et je n’oſe qu’à toy confier mes douleuts.
+<lb />Mes chagrins aujourd’huy perdoient leur vio<lb />lence,
+<lb />Et l’hymen de ma ſœur me rendoit l'eſperance.
+<lb />Mais je le tiens rompu puiſqu’il eſt differé;
+<lb />Rien ne conſole plus mon cœur deſeſperé.
+<lb />Ciel te fais-tu ſans ceſſe une joye inhi maine?
+<lb />D’inventer contre moy quelque nouvelle peine?
+<lb />Quel crime ay-je commis qui puiſſe t’animer?
+<lb />Pour la ſeule Iſabelle eſt-ce un crime d’aimer?
+<lb />Si c’en eſt ur.. Toy-meſme es le premier cou<lb />pable,
+<lb />J’aime ce que ta main a fait de plus aimable.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />L’eſpoir n’eſt point encore à vos feux defendu.
+<lb />Les cieux vous enverront un bien qui vous eſt
+<lb />dû.
+<lb />L’ame de la Princeſſe eſt encor balancée,
+<lb />Il eſt vray. Mais j’ay lû juſques dans ſa penſée,
+<lb />Madame. Devoüée à tous vos intereſts
+<lb />J’ay ſondé de ſon cœur les ſentimens ſecrets.
+<lb />Je viens, n’en doutez point, d’apprendre de ſa
+<lb />bouche
+<lb />Qu’autant que ſon amour le bien public la tou<lb />enes
+<lb />Mais enfin, ſon conſeil, quoy qu’elle ait projetté,
+<lb />Peut la faire reſoudre à ſuivre le traité.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Non, tu flates en vain un amour trop funeſte.
+<lb />Elle aime, c’eſt aſſez, mon cœur me dit le reſte.
+<lb />Elle immolera tout à l’eſpoir trop charmant
+<lb />De pouvoir quelque jour poſſeder ſon amant.
+<lb />Je counois mieux que toy ſa penſée &amp; ſa flâme.
+<lb />Ignorant mon ardeur elle m’ouvre ſon ame,
+<lb />Et ſans rien ſoupçonner, elle vient chaque jour
+<lb />Me confier ſa peine ainſi que ſon amour.
+<lb />C’eſt là de mon deſtin la derniere injuſtice.
+<lb />Sa triſte confidence augmente mon ſupplice.
+<lb />Pardonne, chere ſœur, je te manque de foy.
+<lb />muis bien-toit mon trépas te vangera de moy.
+<lb />La mort n’eſt pas un mal pour une mal-heureuſe,
+<lb />Hâtons nous de finir une vie odieuſe,
+<lb />Et m’épargnant des maux qui renaiſſent toûjours,
+<lb />Commençons mon repos par la fin de mes jours.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Ah! ne permettez pas que l’ennuy vous abatte.
+<lb />C’eſt dans les grands malheurs que la conſtance
+<lb />éclatte.
+<lb />7
+<lb />Songez que mon deſtin dépend de voſtre fort,
+<lb />Que je ne pourrois pas ſurvivre à voſtre mort.
+<lb />Et que dés le berceau d’une mere privée,
+<lb />ſe vous ay dans mes bras tendrement eſlevée.
+<lb />Vivez. Si voſtre ſœur fuit le Roy des Romains,
+<lb />Je ſçauray tout tenter pour rompre ſes deſſeins.
+<lb />quand j’aurois moins pour vous de tendreſſe &amp;
+<lb />de zele,
+<lb />L'intereſt de l’Eſtat m’armeroit ſeul contr’elle.
+<lb />Oüi, pour faireuronter an coup qui le detruit,
+<lb />Je puis... Mais elle vient, &amp; ſon Conſeil la ſuit,
+<lb />Cachez voſtre douleur.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LA DUCHESSE, ISABELLE,
+<lb />LE MARESCHAL DE RIEUX,
+<lb />LE COMTE DE COMINGE,
+<lb />CHATEAUBRIANT.
+<fw><lb />LA DUCHESSE.
+<lb />H
+<lb />I04
+<lb />
+</fw></p>
+<sp type="MainZone-Sp"><lb />QUE chacun prenne place.
+<lb />Vous ſçavez nos malheurs ſans que je les retrace.
+<lb />Vous ſçavez que jamais un Eſtat accablé
+<lb />Ne fut plus que le mien ni plus ſouvent troublé,
+<lb />que la guerre étrangere &amp; la guerre inteſtine
+<lb />L’ont cent fois menacé d’une en tiere ruine.
+<lb />La fortune aujourd’huy mieux d’accord aveo
+<lb />nous
+<lb />Sembloit nous regarder avec des yeux plus doux,
+<lb />Et du Roy des Romains l’alliance prochaine
+<lb />Eſtoit de ſes faveurs une preuve certaine.
+<lb />Par ſes propres ſujets ce Prince eſt arreſté.
+<lb />Faut-il executer ou rompre le traité?
+<lb />Vous qu’un pere mourant ſeur de voſtre pru<lb />dence
+<lb />Me donna pour appuy d’une foible puiſſance,
+<lb />Qui par l’ardeur d’un zele éprouvé tant de fois
+<lb />Avez ſi bien rempli l’équité de ſon choix:
+<lb />Voyez ce qu’il faut faire en ce peril extreme,
+<lb />Faites icy pour moy ce qu’il feroit luy-meſme,
+<lb />De vos neureux avis preſtez moy le Iecours,
+<lb />Ee ſoyez tels enfin que vous futes toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARESCHAL DE RIEUX.
+<lb />Puiſque vous l’ordonnez, je vay parler, Madame,
+<lb />Ma bouche n’eſt jamais infidelle à mon ame.
+<lb />Ainſi bruſlant d’un zele à ma franchiſe égal,
+<lb />J’oſe me declarer contre un hymen fatal.
+<lb />D'un Prince ſans pouvoir que pouvez-vous at<lb />tendre?
+<lb />Opprimé, dans les fers', viendra-t’il vous de<lb />fendre?
+<lb />L’Eſtat par voſtre hymen veut ſe faire un apuy.
+<lb />N’eſt-ce pas l’en priver que vous donner à luy!
+<lb />Et courant au devant du coup qui nous menace
+<lb />Juſqu’en ces lieux peut -être attirer ſa diſ<lb />grace?
+<lb />Voſtre pere, il eſt vray, luy promit voſtre foy.
+<lb />Mais la neceſſité preſcrit une autre loy,
+<lb />Diſpenſe de tenir la foy qu’on a promiſe,
+<lb />Et tout devient permis quand elle l’autoriſe.
+<lb />Hé pourquoy vous gêner d’un ſcrupule ſi vain?
+<lb />A manquer de parole il vous ouvre un chemin.
+<lb />A-t’il tenu la ſienne la com rufohammee
+<lb />Venir encourager la Bretagne allarmée?
+<lb />Où ſont ces grands ſecours qu’il nous avoit
+<lb />promis?
+<lb />Permettez-vous icy ce qu’il s’eſt bien permis.
+<lb />Sa lenteur outrageante à peine eſt excuſable.
+<lb />Voſtre refus, Madame, eſt juſte &amp; raiſonnable<lb />Il faut dés ce jourd’huy le luy faire annoncer,
+<lb />A ſes droits de luy-meſme il pourra renoncer,
+<lb />Dans ſon malheur peut. eſtre il ſe fera juſtice:
+<lb />Quoy qu’il en ſoit, l’Eſtat veut ce grand ſacri<lb />fice.
+<lb />Il vaut mieux encourir ſon impuiſſant couroux,
+<lb />Que le courroux du Ciel preſt à tomber ſur nous,
+<lb />Et la paix en ces lieux ſi long-temps ſouhaitée
+<lb />Par ſon inimitié n’eſt pas trop achetée.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Parlez Cominge.
+</sp>
+<sp type="MainZone-Sp"><lb />LE COMTE DE COMINGE.
+<lb />En vain on demande ma voix,
+<lb />Madame, en les formant le Ciel inſtruit les Rois.
+<lb />Ils naiſſent éclairez, juſtes, prudens, &amp; ſages,
+<lb />Sont du Dieu qui ſçait tout les vivantes Images,
+<lb />Se donnent les avis qu’on voudroit leur donner,
+<lb />Et qui gouverne tout peut ſeul ſe gouverner.
+<lb />Toutefois puiſqu’il faut dire ce que je penſe
+<lb />De Maximilian je prendray la defenſe.
+<lb />Quels ſecours, vous dit-on, nous a-t-il envoyez?
+<lb />Il nous a ſecourus mieux que vous ne croyez.
+<lb />Le ſeul bruit de ſon nom &amp; de ſon alliance
+<lb />A ſuſpendu le cours des armes de la France.
+<lb />Chlarieo cruignant toûjours que le fer à la main
+<lb />Ce Prince en ſes Eſtats ne s’ouvrit un chemin,
+<lb />Pour prevenir l'effet de ſes ardeurs guerrieres,
+<lb />A par des corps d’armée aſſuré ſes frontieres.
+<lb />A in ſi diminuant ſon pouvoir diviſé;
+<lb />Il n’apporte en ces lieux qu’un courroux épuiſé.
+<fw><lb />B iiij
+</fw></sp>
+<p type="MainZone-Lg"><lb />Mais le traité rompu diſſipe ſes alarmes,
+<lb />Il va tourner ſur nous tout l’effort de ſes ar<lb />mes;
+<lb />Bien-toſt de toutes parts aſſemblant ſes ſoldats
+<lb />Il viendra furieux fondre ſur vos Eſtats.
+<lb />Déja trop affoiblis par nos guerres paſſées
+<lb />Pourrons-nous ſoûtenir ſes forces ramaſſées?
+<lb />Mais le Roy des Romains, dit-on, eſt arrêté.
+<lb />Vain pretexte pour rompre un ſi ferme traité.
+<lb />Il luy reſte, Madame, aſſez de bras fidelles,
+<lb />Pour l’arracher des mains d’un tas d’hommes
+<lb />rebelles,
+<lb />Et l’Empereur ſon pere alarmé pour ſes jours
+<lb />Fera bien-toſt voler l’Empire à ſon ſecours.
+<lb />C’en eſt trop, ſon nom ſeul ſuſfit pour le de<lb />fendre.
+<lb />Qui ſecoüa le joug viendra bien le reprendre.
+<lb />Dans la rebellion rarement obſtiné
+<lb />Le peuple n’a qu’un feu mort auſſi-toſt que né,
+<lb />A peine a-t il failli qu’il reconnoit ſon crime,
+<lb />Et revient de luy-même à ſon Roy legitime.
+<lb />Peſez ce qu’un refus peut tiainer aprés ſoy.
+<lb />Au Marêchal d’Albret on a manqué de foy.
+<lb />Que diront nos voiſins? la terre toute entiere,
+<lb />Si cette perfidic eſt jointe à la premiere?
+<lb />A vec nous deſormais qui voudra s’allier?
+<lb />A nous, à nos traitez qui voudra ſe fier?
+<lb />Voyez d’un tel refus la honte inſeparable.
+<lb />La parole des Rois doit eſtre inviolable.
+<lb />Il faut qu’elle leur ſoit ce qu’à nous un ſer<lb />ment,
+<lb />Que l’équitable foy regle leur ſentiment.
+<lb />Si du commerce humain elle eſtoit exilée,
+<lb />Il faudroit que par eux elle y fut rapellée,
+<lb />Que par eux ſur la terre elle reprit ſes droits,
+<lb />Et qu’on la retrouva dans les ames des Rois.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARESCHAL DE RIEUX.
+<lb />Le Comte de Cominge eſt prudent, équitable,
+<lb />Il craint pour voſtre gloire, &amp; ſa crainte eſt
+<lb />loüable.
+<lb />Mais, s’il faut l’avoüer, la ſevere équité
+<lb />Ne peut avoir icy qu’un pouvoir limité,
+<lb />Madame. Un mal preſſant demande un prompe
+<lb />remede.
+<lb />La neceſſité parle, il faut que tout luy cede.
+<lb />Sous le poids de ſes maux l’Eſtat va ſuccomber,
+<lb />Si quelqu’un ne l’apuye, il eſt preſt à tomber.
+<lb />Nos Alliez laſſez d’une guerre infertile
+<lb />De leur premiere ardeur n’ont qu’un reſte inu<lb />tile.
+<lb />Les uns plus refroidis, par des complots ſecrets
+<lb />Vont mandier en France une honteuſe paix,
+<lb />Et les autres chargez &amp; d’ennuis &amp; de chaines
+<lb />D’une longue priſon y reſſentent les peines.
+<lb />Il vous faut un époux dont le puiſſant ſecours
+<lb />De nos mauvais deſtins interrompe le cours.
+<lb />Alphonſe, que l’on conte entre les plus grands
+<lb />Princes
+<lb />Qui de Naples en paix gouverne les Provinces,
+<lb />Pour époux, pour vangeur vous offre un de ſes
+<lb />fils.
+<lb />Ses intereſts, Madame, aux voſtres ſont unis.
+<lb />Il a ſçû par le bruit que l’Europe publie,
+<lb />Que Charles de ſon joug menace l’Italie,
+<lb />Que voyant à ſes loix tous ſes voiſins ſoumis,
+<lb />Il veut delà les Monts chercher des ennemis,
+<lb />Franchir de l’Appennin la barriere impuiſſante,
+<lb />S’ouvrir juſques à Rome une route ſanglante,
+<lb />Et de tout l’univers devenant la terreur
+<lb />Se faire d’Orient proclamer Empereur.
+<lb />Chaque jour alarmé du bruit de ſes conqueſtes,
+<lb />Il tient auprés de luy des troupes toutes preſtes.
+<lb />Vous n’avez qu’à parler. Suivi de ſes ſoldats
+<lb />Son fils viendra bien-toſt defendre vos Eſlats,
+<lb />Et trouvant une voye ouverte à ſa vangeance,
+<lb />Sceler du ſang François voſtre heureuſe alliance.
+<lb />Prononcez pour ce Prince, &amp; ſans plus differer
+<lb />A Maximilian oſez le préferer.
+<lb />Ne vous tourmentez plus d’un ſcrupule frivole.
+<lb />On peut ſans l’outrager luy manquer de parole.
+<lb />L’intereſt de l’Eſtat vous fit promettre à luy,
+<lb />Et ce même intereſt vous dégage aujourd’huy.
+<lb />Voſtre gloire par là ne peut eſtre ternie,
+<lb />La Bretagne le veut, elle vous juſtifie.
+</sp>
+<sp type="MainZone-Sp"><lb />LE COMTE DE COMINGE.
+<lb />On veut delà les Monts vous chercher un époux!
+<lb />D’un ſi foible Allié que nous promettons nous,
+<lb />Madame? Ce n’eſt plus cette antique Italie
+<lb />Des dépoüilles du monde autrefois annoblie,
+<lb />Qui fit craindre en tous lieux ſes armes &amp; ſes
+<lb />loix,
+<lb />Triompha vaillamment de nos premiers Gaulois,
+<lb />Qui dans Rome tonnant du haut du Capitole,
+<lb />Etonnoit tous les Rois d’une ſeule parole.
+<lb />On ne voit plus ſes Chefs par la gloire animez
+<lb />S’armer pour le ſecours des peuples opprimez,
+<lb />Et fiers perſecuteurs des Tyrans &amp; des crimes
+<lb />Remettre en leurs Eſtats les Princes legitimes.
+<lb />Ainſi n’eſperez point que l’époux pretendu
+<lb />Vous amene un ſecours vainement attendu.
+<lb />Croyons moins une ardeur qui tâche à nous ſe<lb />duire,
+<lb />En penſant nous ſauver n'allons point nous dé<lb />truire,
+<lb />Et tombant d’un peril dans un plus grand danger;
+<lb />Soumettre la Bretagne au joug d’un étranger.
+<lb />Ah! s’il nous faut ſervir, ſervons-nos pre<lb />miers Maîtres,
+<lb />Subiſſons l’heureux joug qu’ont ſubi nos An<lb />ceſtres.
+<lb />Allons offrir nos cœurs au Monarque Fran<lb />çois,
+<lb />Allons luy demander &amp; la paix &amp; des loix.
+<lb />Ce Roy dont la clemence égale le courage
+<lb />Pour nous tendre la main n’attend que noſtre
+<lb />hommage.
+<lb />Jamais dans ſon courroux il ne fut affermi.
+<lb />L’ennemi ſuppliant n’eſt plus ſon ennemi,
+<lb />Pour fruit de ſes exploits il ne veut que la gloire,
+<lb />Au ſeul honneur de vaincre il borne ſa victoire.
+<lb />Allons nous rendre à luy, tout nous ſera rendu,
+<lb />Et nous gagnerons plus que nous n’avons perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Oüi, c’eſt par cette voye &amp; plus noble &amp; plus
+<lb />ſeure
+<lb />Qu’entre la France &amp; nous la paix ſe peut con<lb />clure,
+<lb />Que du Duc d’Orleans on peut briſer les fers,
+<lb />Et voir finir des maux depuis long-temps ſouf<lb />ferts.
+</sp>
+<sp type="MainZone-Sp"><lb />LE HARESCHAL DE RIEUX.
+<lb />Madame, c’eſt plûtoſt redoubler ſa miſere.
+<lb />Ce moyen produiroit un effet tout contraire.
+<lb />Charles ingenieux à trouver des raiſons
+<lb />Sur luy plus que jamais étendroit ſes ſoupçons.
+<lb />Il craindroit que toûjours preſt à tout entre<lb />prendre
+<lb />Le Duc à voſtre hymen n’oſaſt encor pretendre,
+<lb />Que ſuivant la chaleur d’un courage trop prompt
+<lb />Contre luy de ſa chaine il ne vangea l’affront.
+<lb />Pour prevenir ce coup, ſa prudence cruelle
+<lb />Joindroit à ſa priſon une gêne nouvelle,
+<lb />Et nous verrions pour luy nos efforts ſuperflus
+<lb />Loin de briſer ſes fers les ſerrer encor plus.
+<lb />Non, ne nous flatons point d’une vaine eſpe<lb />rance.
+<lb />On ne peut le ſauver que par la violence.
+<lb />Allons le fer en main l’arracher de priſon.
+<lb />La force eſt des vrais Rois la derniere raiſon.
+<lb />Celuy que pour époux mon zele vous propoſe,
+<lb />Peut de ſes longs malheurs faire ceſſer la cauſe.
+<lb />Que ſon peuple ſoit tel qu’on l’oſe publier,
+<lb />C’eſt à l’évenement de le juſtifier.
+<lb />On craint de ſe ſoumettre à des loix étrangeres,
+<lb />Vaine crainte. Ces loix ſont au moins volontaires,
+<lb />Oüi, s’il nous faut flêchir devant un Souverain,
+<lb />Faiſons, faiſons, qu’il ſoit l’œuvre de noſtre
+<lb />main.
+<lb />Quand la force l’impoſe on hait la ſervitude,
+<lb />avais un joug lbre perd ce qu’un joug a de rude,
+<lb />Et de ſon propre choix un peuple ſatisfait
+<lb />Obe le lahoimmmuit uumnaitie qu'irs eit fait.
+</sp>
+<p type="MainZone-Head"><lb />SCENEIII.
+<lb />LA DUCHESSE, LE MARES<lb />CHAL DE RIEUX, LE COM<lb />TE DE COMINGE, LE MA<lb />RESCHAL D’ALBRET.
+</p>
+<sp type="MainZone-Sp"><lb />LE MARESCHAL D’ALBRET.
+<lb />MAdame...
+<fw><lb />LA
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />D’où vous vient cette ardeur empreſſée
+<lb />Maréchal ?
+</sp>
+<sp type="MainZone-Sp"><lb />LE MARECHAL D’ALBRET.
+<lb />Aujourd’huy vous eſtes exaucée,
+<lb />Le Duc d’Orleans...
+</sp>
+<sp type="MainZone-Sp"><lb />LA DucnEsSE.
+<lb />Quoy?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE MARECHAL D'ALBRET.
+<lb />Va paroître à vos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Le Duc eſtarrivé.
+<lb />7
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE bas.
+<lb />Ciel !
+</sp>
+<sp type="MainZone-Sp"><lb />IE MARECHAL D’ALBRET.
+<lb />Il eſt en ces lieux.
+<lb />Je marchois, &amp; déja les montagnes prochaines
+<lb />Cachoient à mes regars les murailles de Rennes,
+<lb />D’un gros de cavaliers le Prince environné
+<lb />S’eſt offert tout d’un coup à mon œil étonné.
+<lb />Je l’aborde, &amp; de tout deſirant de m’inſtruire
+<lb />Juſqu’au pied des rempars je viens de le cond
+<lb />duire.
+<lb />Lholo det muis il uecemd; u tos orureo rolimis,
+<lb />Que par vous de ces lieux l’accez luy ſoit per<lb />mis.
+<lb />l’ay devancé ſes pas, &amp; toûjours plein de zele
+<lb />J’ay couru vous porter cette heureuſe nouvelle?̀
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ah! qu’au devant de luy l’on ſe hâte d’aller,
+<lb />Si vous avez du zele il le faut ſignaler.
+<lb />Ne perdez point de temps en aprets ordinai<lb />res,
+<lb />Dans un pareil deſordre ils ſont peu neceſſaires.
+<lb />Si ſans bruit, ſi ſans pompe on le fait recevoir,
+<lb />Ine l’imputera qu’à l’ardeur de le voir
+</sp>
+<sp type="MainZone-Sp"><lb />Le Maréchal d’Albret ſort,
+<lb />Vous dont le bien public fait l’étude &amp; la peine
+<lb />Ne precipitez rien. Voyons ce qui l’ameine,
+<lb />ninez, &amp; pour naer monenoix lul un epoux
+<lb />Attendons que le Prince ait paru devant nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Les Miniſtres ſortent.
+<lb />Nous, ma ſœur, pour acroître une joye imprevûë
+<lb />Hâtons-nous de joüir d’une ſi chere veuë,
+<lb />D’auſſi loin qu’il ſe peut allons le découvrir.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE en s’en allant.
+<lb />Que cette veue helas! me va faire ſouffrir.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE III.
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />ISABELLE, CHATEAUBRIANT,
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />On je ne verray point un ſi triſte ſpectacle.
+<lb />NTon zele à ma retraitte oppoſe un vain
+<lb />obſtacle.
+<lb />Je ne ſçaurois cacher le trouble où je me voy,
+<lb />Mes ſoûpirs, mes regards parleroient malgré
+<lb />moy,
+<lb />Et ce cœur malheureux trop plein de la tendreſſe,
+<lb />Laiſſeroit à leurs yeux échapper ſa foibleſſe.
+<lb />Je ne le verray point, &amp; loin de m’arrêter
+<lb />Pour mon honneur, à fuïr tu devrois m’inciter.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Hé! Madame, voyez que la fuite au contraire
+<lb />Va trahir un ſecret que vous voulez leur taire.
+<lb />Elle donne matiere à de juſtes ſoupçons.
+<lb />Ie clanis qu'on n’en penetre aiſément les rai<lb />ſons:
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Que veux-tu que je faſſe en ce deſordre extrême
+<lb />Cruelle! ſuis-je icy maîtreſſe de moy-méme?
+<lb />Ce cher Prince approchoit. Le peuple par des
+<lb />cris
+<lb />A des tranſports de joye excitoit les eſprits.
+<lb />Sur le front de ma ſœur elle eſtoit répanduë,
+<lb />La douleur s’emparoit de mon ame éperduë.
+<lb />L’approche d’un Heros trop tendrement aimé
+<lb />Redoubloit les ardeurs de mon cœur alarmé.
+<lb />Mon amour dans mes yeux commençoit à ſe
+<lb />peindre,
+<lb />Mon deſordre croiſſoit, je ne pouvois plus fein<lb />dre,
+<lb />Ma tendreſſe emportoit mon de voir combatu,
+<lb />Je cedois, &amp; la fuite a ſauvé ma vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Domez moms a l'emroy dont vous eſtes at<lb />teinte:
+<lb />Car quel eſt aprés tout l’objet de voſtre crainte?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Que ſçay-je. Tout confond mes eſprits incer<lb />tains,
+<lb />crains.
+<lb />Je crains tout, &amp; ne ſçay pourtant ce que je
+<lb />De mouvemens divers mon ame eſt agitée,
+<lb />De mille affreux ſoucis elle eſt inquietée,
+<lb />Je ſens l’amour, la crainte, y regner tour à tour;
+<lb />Et cette crainte même augmente mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Ne vous alarmez point, voſtre peur ſera vaine,
+<lb />Vous même n’allez pas prevenir voſtre peine.
+<lb />Son amant, il eſt vray, va paroiſtre à ſes yeux,
+<lb />Mais ſçait-on le deſſein qui l’ameine en ces lieux?
+<lb />Quand même il y viendroit pour couronner ſa
+<lb />flame
+<lb />Devriez vous chaſſer tout eſpoir de voſtre ame,
+<lb />Croyez-vous, que l’état tout preſt à trébucher
+<lb />'iſqu’à flater leurs vœux onitie lelacher.
+<lb />A-t’il moins de raiſon de leur eſtre contraire
+<lb />Que n’en eut autrefois le feu Duc voſtre pere,
+<lb />L' voſtre ſœur enfin voudroit-elle aujourd’huy
+<lb />Perdre &amp; ſon propre peuple &amp; ſa gloire pour luy?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Foibles raiſons d’état, helas! que tu m’apportes,
+<lb />L’amour a ſes raiſons, elle ſont les plus fortes,
+<lb />Il parle, c’eſt aſſez. On n’écoûte plus rien,
+<lb />A l’intereſt public on prefere le ſien,
+<lb />Ma ſœur n’a point d’époux, un refus la déga<lb />Elle aime, elle peut tout, que veux-tu davan<lb />tage.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Elle ſe reſoudroit à recevoir la foy
+<lb />D’un Prince abandonné du ſort &amp; de ſon Roy?
+<lb />Par elle nous verrions la Bretagne affligée,
+<lb />En de nouveaux malheurs pour jamais engagée?
+<lb />Ah! prevenons un coup funeſte à ſes Eſtats.
+<lb />C’eſt la trahir icy que ne la trahir pas.
+<lb />Empeſchons un nyinen nonteux à ſa memoire,
+<lb />Et malgré qu’elle en ait conſervons luy ſa gloi<lb />re.
+<lb />Cet ouvrage important n’eſt qu’à vous reſervé
+</sp>
+<sp type="MainZone-Sp"><lb />A moy ?
+<lb />ISABELLE.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAADEIIAT.
+<lb />Veüillez me croire, &amp; l’Eſtat eſt ſauvẽ
+<lb />Broüillez ces deux amans quand tout ſemble leur
+<lb />rire,
+<lb />Et par la jalouſie...
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Ah qu’oſes-tu me dire?
+<lb />Par quels lâches moyens veux-tu me ſecourir?
+<lb />Contre ma propre ſœur j’y pourrois recourir?
+<lb />C iij
+<lb />Traverſer ſon ardeur pour établir la mienne,
+<lb />Perdre ma gloire, afin de conſerver la ſienne,
+<lb />Et par des trahiſons dont la honte eſt le fruit
+<lb />Pourſuivre vainement un bonheur qui me fuit?
+<lb />Non, modere pour moy ce zele illegitime,
+<lb />A mes cruels malheurs n’ajoûtons point le crime.
+<lb />Je ſens que mes chagrins m’approchant du tom<lb />beau
+<lb />Vont bien-toſt de ma vie éteindre le flambeau,
+<lb />Souffre qu’avec honneur je perde la lumiere,
+<lb />Q
+<lb />ie j’emporte au cercüeil ma vertu toute entie<lb />re,
+<lb />Et qu’un jour nos neveux apprenant mon trépas
+<lb />r ieignent mon infortune, &amp; ne m’abhorrent pas.
+<lb />Mais ma ſœur vient icy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LA DUCHESSE, ISABELLE,
+<lb />CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb /> Oene taute mpreveue
+<lb />Ma ſœur, vous a ſi-toſt derobée à ma veuë?
+<lb />Pourquoy fair, quand le Ciel ſe declare pour
+<lb />nous ?
+<lb />Au bonheur de ce jour vous refuſeriez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Non ma ſœur, le retour d’un Prince qui vous
+<lb />aime
+<lb />Allemne,
+<lb />Ne me touche pas moins qu’il vous touche vous
+<lb />Mais depuis quelque temps un long chagrin me
+<lb />ſuit,
+<lb />Loin du bruit il s’appaiſe, il s’accroit dans le
+<lb />bruit.
+<lb />Ces cris qu’un peuple pouſſe &amp; redouble ſans ceſ<lb />ſe
+<lb />De mon ame inquiete irritoient la triſteſſe,
+<lb />ay crû qne mes ſoûpirs dans ce Palais perdus
+<lb />Ne vous troubleroient point n’eſtant point en<lb />tendus.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ah! faut il qu’aujourd’huy vous y ſoyez en
+<lb />proye?
+<lb />Mon cœur vous ſouhaitoit pour témoin de ſa
+<lb />joye,
+<lb />Et le ſpectacle heureux dont je viens de joüir
+<lb />Loin d’aigrir voſtre ennuy l’eut fait évanoüir.
+<lb />’ay vû le Duc. Il eſt plus que jamais aimable<lb />Toûjours charmant, toûjours à luy-même ſem<lb />blable.
+<lb />Un œil moins que le mien de ſes traits prevenu
+<lb />Dans la foule à ſon air l’eut d’abord reconnu,
+<lb />2aouo rariens ton ma lœul.
+</sp>
+<p type="MainZone-Head"><lb />SCEAVD III.
+<lb />LA DUCHESSE, ISABELLE,
+<lb />CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />LE Duc eſt là Madame.
+<lb />C iiij
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Qu’il entre.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Il vient.
+<fw><lb />3
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ISABELLE bas.
+<lb />O Ciel, que de trouble en mon ame.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LA DUCHESSE, LE DUC,
+<lb />ISABELLE, LE MARE'CHAL
+<lb />D’ALBRET, LE MARÉCHAL
+<lb />DE RIEUX, LE COMTE
+<lb />DE COMINGE, CHA<lb />TEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />E vous revois, Madame, &amp; le deſtin plus
+<lb />doux
+<lb />Me permet aujourd’huy de m’approcher de vous,
+<lb />Enfin il a finy contre mon eſperance
+<lb />Les maux de ma priſon, &amp; ceux de mon abſen<lb />ce,
+<lb />Quand je n’attendois plus qu’un trépas ſouhaité,
+<lb />Le Ciel moins inhumain m’a mis en liberté.
+<lb />Pour la rendre à mon cœur plus aimable &amp; plus
+<lb />chere,
+<lb />A vous, à vos Eſtats, il la rend ſalutaire,
+<lb />Il veut que je vous porte ui bien qu'enle plouuit,
+<lb />Et que voſtre repos en ſoit le premier fruit.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Prince, nous le goûtons. Cet heureux jour re<lb />pare
+<lb />Les maux où nous plongea voſtre priſon barbare.
+<lb />Il ne nous ſouvient plus de nos chagrins paſſez,
+<lb />Vous eſtes de retour, on vous voit, c’eſt aſſez.
+<lb />Ah! Duc, que ces chagrins ont eu de violence,
+<lb />Sans ceſſe nous tournions nos regards vers la
+<lb />France.
+<lb />Nous nous ſommes cent fois reproché vos mal<lb />heurs,
+<lb />Ne pouvant rien de plus, nous vous donnions
+<lb />des pleurs.
+<lb />Quelque dure que fut la rigueur de vos chaînes
+<lb />Nos craintes groſſiſſoient l’image de vos pei<lb />nes,
+<lb />Et nos cœurs agitez par de cruels combats
+<lb />Sentoient pour vous des maux que vous ne ſen<lb />tiez pas.
+<lb />Mais, Prince, ſe peut-il qu’enfin je vous revoye?
+<lb />Sur la foy de mes yeux faut-il que je le croye?
+<lb />A qui doit-on un bien ſi long-temps attendu,
+<lb />Et par quel coup du Ciel nous eſtes vous rendu?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Je dois au Roy, Madame, un ſi grand avan<lb />tage
+<lb />De ſa ſeule bonté mon retour eſt l’ouvrage.
+<lb />Sa clemence s’étend juſqu’à ſes ennemis,
+<lb />Il veut gagner les cœurs que ſon bras a ſoũ<lb />mis.
+<lb />Quand tout flate, tout craint ſa valeur triom<lb />phante,
+<lb />Il voit avec pitié l’Europe gemiſſante,
+<lb />Et luy-même bornant le coure de ſes hauts faits
+<lb />A ceux qu’il a vaincus il preſente la paix.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Quoy, c’eſt peu qu’aujourd’huy voſtre heu<lb />reuſe preſence
+<lb />Ait de nos plus chers vœux remply l’impatien<lb />Et comme s’il eſtoit un plus grand bien pour
+<lb />nous,
+<lb />Vous apportez encor la paix ave que vous.
+<lb />Quel bonheur! qui l’eut crû... Mais quel Dieu
+<lb />tutelaire
+<lb />A pû d’un Roy vainqueur deſarmer la colere?
+<lb />Quel but dans ſes deſſeins peut-il ſe propoſer,
+<lb />Et quel joug, quelles loix nous veut-il impoſer,
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Loin de vous en donner il veut ſubir les vô<lb />tres,
+<lb />Ce Conquerant, Madame, eſt different des au<lb />tres,
+<lb />Soûmis, reſpectueux, plus amant que vainqueur,
+<lb />Il vous offre par moy ſa couronne &amp; ſon cœur.
+<lb />Il veut qu’en étoufant une guerre cruelle,
+<lb />Voſtre hymen ſoit le nœu d’une paix éternelle.
+<lb />Parmy tant de Heros qui groſſiſſent ſa Cour,
+<lb />C’eſt moy qu’il a choiſi pour ſervir ſon amour.
+<lb />C’eſt moy, qui par le ſoin de vos grandeurs fu<lb />tures
+<lb />Viens d’une heureuſe paix faire les ouvertures,
+<lb />Et preſſer, en faveur d’un Roy victorieux
+<lb />Un aveu, dont un ſceptre eſt le prix glorieux.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE bas.
+<lb />Ciel! qu’entens-je?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Oüy, Madame, arbitre de la terre
+<lb />Vous pouvez luy donner ou la paix ou la guer<lb />re.
+</sp>
+<sp type="MainZone-Sp"><lb />L’une &amp; l’autre aujourd’huy ne dépend que de
+<lb />vous.
+<lb />Le Ciel entre vos mains met le bonheur de tous,
+<lb />Et de voſtre refus ou de voſtre hymenée
+<lb />Tout l’Univers tremblant attend ſa deſtinée.
+<lb />Que d’honneur cet hymen va traîner aprés ſoy!
+<lb />Un grand peuple à l’envy recevra voſtre loy.
+<lb />Et quel peuple Madame? un peuple doux, affa<lb />ble,
+<lb />Intrepide par tout, &amp; par tout redoutable.
+<lb />L’exemple du plus ſage &amp; du plus grand des
+<lb />Rois
+<lb />Fait autant de Heros que l’on voit de François.
+<lb />C’eſt ce Roy, dont le nom remplit la terre &amp;
+<lb />l’onde,
+<lb />A qui le Ciel promet la conqueſte du mon<lb />de,
+<lb />Dont la gloire &amp; les ans ont eu même progrés;
+<lb />Et qui comte par eux le nombre de ſes faits.
+<lb />Tout l’Univers le craint, toute la France l’ai<lb />me.
+<lb />Tous ſes ſujets en luy ne cherchent que luy-mê<lb />me.
+<lb />Il charmeégalement &amp; les cœurs &amp; les yeux.
+<lb />Tels Athenes &amp; Rome ont peint leurs demy<lb />dieux.
+<lb />Leur douce Majeſté brille ſur ſon viſage,
+<lb />Il en a tous les traits, il en a le courage.
+<lb />Ce Roy ſi vertueux, ſi grand, ſi fortuné
+<lb />Madame, c’eſt l’époux qui vous eſt deſtiné.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Cette grande nouvelle a de quoy me ſurpren<lb />dre,
+<lb />Prince, je m’eſtois peu prepar ée à l’entendre.
+<lb />Voſtre zele pour nous ne peut aller plus loin.
+<lb />Je ſuis trop redevable à ce genereux ſoin.
+<lb />Mais comme cette affaire eſt de grande impor<lb />tance,
+<lb />Avant que de répondre il eſt bon qu’on y pen<lb />ſe.
+<lb />Je vay ſur vos raiſons refléchir meurement,
+<lb />Et vous ſçaurez aprés quel eit mon fentiment.
+</sp>
+<p type="MainZone-Other"><lb />Elle ſort avec toute ſa ſuite.
+</p>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />DDUO, ISADELLE,
+<lb />CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />)Rince qu’avez-vous dit, &amp; que viens-je
+<lb />T
+<lb />d’entendre?
+<lb />Quel ſoin avez-vous pris, &amp; qui vous l’a fait
+<lb />prendre ?
+<lb />Quel employ? quel diſcours? qu’en dois-je
+<lb />preſumer?
+<lb />Ce cœur qui l’aima tant ceſſe-t’il de l’aimer?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DIC.
+<lb />Si je ne l’aime plus! Ah! mon ame enflamée
+<lb />Eſt de ſes chers appas plus que jamais charmée,
+<lb />Madame, cet employ qui cauſe mon retour
+<lb />Mieux que mes ſoins paſſez luy prouve mon
+<lb />amour.
+<lb />Au courroux du vainqueur je la voyois en bute,
+<lb />Ses Etats menacez d’une infaillible chute:
+<lb />J’ay dû ſacrifier mon intereſt au ſien,
+<lb />Acheter ſon repos par la perte du mien,
+<fw><lb />Da
+</fw></sp>
+<p type="MainZone-Lg"><lb />Du Ciel ſur ſes Etats écarter les menaces
+<lb />Et la faire joüir du fruit de mes diſgraces.
+<lb />Auprés d’elle pour moy qu’avois-je à menager?
+<lb />A Maximilian elle alloit s’engager.
+<lb />Je le ſçavois. J’ay crû ma douleur moins cruelle
+<lb />Si la perdant, au moins je vivois auprés d’elle.
+<lb />Heureux dans mes malheurs de voir qu’un ſi
+<lb />grand Roy,
+<lb />Si je tiens tout de luy tienne auſſi tout de moy.
+<lb />De l’honneur qu’il m’a fait je n’ay pû me défen<lb />dre.
+<lb />Juſques dans ma priſon il a daigné deſcendre.
+<lb />Prince, a-t’il dit, d’un air charmant, plein de
+<lb />bonté,
+<lb />Je vous rends &amp; vos biens &amp; voſtre liberté,
+<lb />Je ne vous retiens plus. Allez voir la Ducheſ<lb />ſe,
+<lb />Allez luy preſenter la paix &amp; ma tendreſſe.
+<lb />Si je puis par vos ſoins devenir ſon époux,
+<lb />Vous ferez plus pour moy que je ne fais pour
+<lb />vous.
+<lb />Ces mots qui meritoient tout l’éclat de ma
+<lb />haine
+<lb />De ſa bouche ſortis ne m’ont déplû qu’à peine.
+<lb />Même en m’aſſaſſinant il a ſceu me flater,
+<lb />J’ay ſoûpiré tout bas ſans pouvoir m’irriter,
+<lb />Et loin qu’un fier dépit ait armé mon coura<lb />S’il eut plus exigé j’euſſe fait davantage.
+<lb />Sa douceur, ſon abord charme un cœur gene<lb />reux,
+<lb />Laiſſe de ſes diſcours un ſouvenir heureux,
+<lb />Et de tant de chaleur cette idée eſt ſuivie,
+<lb />Que pour luy l’on eſt preſt à prodiguer ſa vie.
+<lb />Mon ame à tant d’attraits n’a pû ſe refuſer.
+<lb />Vous devriez me plaindre au lieu de m’accuſer.
+<lb />Le ſort n’en veut qu’à moy, c’eſt moy ſeul qu’il
+<lb />opprime.
+<lb />J’apporte icy la paix, &amp; j’en ſuis la victime.
+<lb />J’adore voſtre ſœur. Mon employ, mon de<lb />voir,
+<lb />Tout enfin en ſecret me défend de la voir.
+<lb />Je la crains, je me crains. Helas! lors que l’on
+<lb />aime,
+<lb />Un cœur ne prent conſeil que de ſon amour mê<lb />me.
+<lb />Un terrible combat s’appréteroit pour moy,
+<lb />Et je pourrois trahir mon devoir &amp; mon Roy.
+<lb />Epargnez-moy, Madame, un combat ſi funeſte,
+<lb />Je ne fonde qu’en vous tout l’eſpoir qui me reſte.
+<lb />vaus pouvez auouei la ligueur de mon fort,
+<lb />Je mets entre vos mains &amp; ma vie &amp; ma mort,
+<lb />Vous pouyez...
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Quoy? parlez Prince? Que puis-je faire?
+<lb />En quoy puis je aujouid nuy yous eſtre neceſ<lb />ſaire?
+<lb />Ah ſi je le ſçavois! prompte à vous ſecourir
+<lb />Au devant de vos vœux vous me verriez courir.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Puiſque dans mes malheurs voſtre cœur s’in<lb />tereſſe,
+<lb />Pour les diminuer parlez à la Princeſſe,
+<lb />Pour me juſtifier, Madame, dites luy
+<lb />Et quel eſt mon amour, &amp; quel eſt mon ennuy,
+<lb />Que pour ſes intereſts je cours à ma ruine,
+<lb />Que pour elle j’ay pris un ſoin qui m’aſſaſſine.
+<lb />Peignez luy les combats que mon cœur a ren<lb />dus,
+<lb />Les pleurs que je répenis, ceux que j’ay lefene
+<lb />dus.
+<lb />Dites luy qu’à ma perte obligé de ſouſcrire,
+<lb />Je luy viens à regret preſenter un Empire,
+<lb />Que mes pleurs &amp; ma vie auront un même
+<lb />cours,
+<lb />Que je l’aime, &amp; qu’enfin je l’aimeray toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />ISAAELLE.
+<lb />Moy, que j’aille à ma ſœur porter cette nou<lb />velle!
+<lb />Luy dire que toû jours vous ſoûpirez pour elle!
+<lb />D’un amour trop fatal reſſerrer le lien!
+<lb />Moy-même contre moy... Non, je n’en feray
+<lb />rien
+<lb />Prince. J’aime ma ſœur, ſi vous l’aimez encore
+<lb />Son repos &amp; le mien veulent qu’elle l’ignore.
+<lb />J’irois luy découvrir vos ſentimens ſecrets,
+<lb />Pour l’enhardir peut-eſtre à refuſer la paix?
+<lb />Lors que pour ſes Etats le deſtin ſe declare,
+<lb />Moy-même détourner les biens qu’il leur pre<lb />pare ?
+<lb />Et la Bretagne un jour pourroit me reprocher
+<lb />D’avoir cauſé ſa perte au lieu de l’empeſcher?
+<lb />Ah! vous penetrez mal dans le fond de mon ame
+<lb />Si vous me croyez propre à ſervir voſtre flame.
+<lb />Pour voir remplir vos vœux, chargez moy d’un
+<lb />employ
+<lb />Plus heureux pour ma ſœur, moins funeſte pour
+<lb />moy.
+<lb />Noſtre intereſt combat voſtre injuſte priere.
+<lb />N’exigez pas de moy plus que je ne puis faire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />De mon ſort, je le voy, la longue inimitié,
+<lb />Madame, me ravit juſqu’à voſtre pitié.
+<lb />Il veut par ce malheur aigrir mon infortune.
+<lb />Je ne vous feray plus de priere importune.
+<lb />Je vay, ſans accuſer ce ſilence inhumain,
+<lb />Pour me juſtifier prendre un autre chemin.
+</sp>
+<sp type="MainZone-Sp"><lb />D ij
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />ISADELLE, CHATEAUDRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />S-tu vû le cruel? a-t’il daigné connaiſtre
+<lb />AI L’amour infortuné que j’ay trop fait paraî<lb />tre?
+<lb />Mes ſoûpirs, mes regards, mon trouble, ma lan<lb />gueur,
+<lb />Ma bouche mille fois preſte à trahir mon cœur,
+<lb />Ce cœur par tant d’endroits cherchant à ſe ré<lb />pendre,
+<lb />Tout parloit de mes feux s’il eut voulut l’enten<lb />dre.
+<lb />Hé n’aurois-tu pas crû, ſeduite comme moy,
+<lb />Qu’il m’alloit preſentet l’hommage de ſa foy,
+<lb />Que pour faire une paix plus longue &amp; plus cer<lb />taine
+<lb />Ses vœux s’alloient tourner vers la ſœur de ſa
+<lb />Reine.
+<lb />Douce erreur, qu’un moment a fait évanoüir,
+<lb />Il m’a même envié le bonheur d’en joüir.
+<lb />Il a parlé l’ingrat, &amp; ſa bouche cruelle
+<lb />M’a renduë aux tranſports de ma douleur mor<lb />cene ..
+<lb />L’eſpoir precipité que j’en avois conceu
+<lb />A redoublé l’ardeur de mon amour deceu<lb />C’en eſt fait, vangeons nous. Mais quelle eſt ſos
+<lb />offence?
+<lb />Il aime la Princeſſe avec trop de conſtance,
+<lb />Eſt-ce un crime? oüy ſes feux outragent trop
+<lb />les miens,
+<lb />Il fait tous mes malheurs, je veux faire les ſiens,
+<lb />Tla verter une hame à la mienne contraire,
+<lb />Et le punir enfin d’avoir trop ſceu me plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Le chemin eſt ouvert à ce reſſentiment,
+<lb />Broûillez, vous dis-je encor, l’amante avec l’a<lb />mant.
+<lb />Mais ſur tout haſtez-vous: le Duc toûjours fi<lb />delle
+<lb />Pourroit voir voſtre ſœur, s’éclaircir avec elle.
+<lb />Cet éclairciſſement pourroit les réünir,
+<lb />Il vous perdroit, Madame, il faut le prevenir.
+<lb />Ne vous alarmez point d’un crime ima ginai<lb />Il ceſſe d’eſtre tel quand l’amour le ſuggere,
+<lb />On excuſe aiſement quiconque l’a commis,
+<lb />Les crimes amoureux ſont des crimes permis.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Mais dy moy, n’eſt-ce pas montrer trop de foi<lb />bleſſe?
+<lb />A cette trahiſon veux-tu que je m’abaiſſe?
+<lb />Quand même à tous les yeux je pourrois la ca<lb />cher,
+<lb />Ne me la dois-je pas ſans ceſſe reprocher?
+<lb />Le Ciel, Ie juite Cier ne lert point l’injuitice.
+<lb />Quel fruit dois-je eſperer d’un ſi lâche arti<lb />fice?
+<lb />Je crains de n’en avoir que la vaine douceur
+<lb />D’inquieter le Prince, &amp; de nuire à ma ſœur</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />De nuire à voſtre ſœur! Ah! c’eſt plûroſt, Mas
+<lb />dame
+<lb />La tirer de l’abyſme ou l’a jette ſa flame.
+<lb />D iij
+<lb />Quelle infortune, ô Ciel! &amp; pour elle &amp; pour
+<lb />nous,
+<lb />S’il faut qu’elle refuſe un vainqueur pour époux.
+<lb />Détournons les malheurs ou la Bretagne tou<lb />che.
+<lb />Tout l’état deſolé vous parle par ma bouche.
+<lb />Car enfin, on le voit, elle aime tendrement,
+<lb />L’éclat d’un ſceptre offert la tante vainement.
+<lb />L’ambition eſt foible ou l’amour eſt ſi forte,
+<lb />Sur l’ardeur de regner une autre ardeur l’em<lb />porte,
+<lb />Et le trône qui flate un eſprit detaché,
+<lb />Ne touche point un cœur que l’amour a tou<lb />ché.
+<lb />Ainſi n’eſperez pas que le ſien ſe demente
+<lb />Par dépit à l’hymen il faut qu’elle conſente.
+<lb />Son courroux ſera plus que toute ſa raiſon,
+<lb />Elle devra le trône à voſtre trahiſon.
+<lb />Le Prince alors privé d’un reſte d’eſperance
+<lb />Ne ſe piquera plus d’une vaine conſtance,
+<lb />D’un œil moins prevenu verra tous vos appas,
+<lb />A ſe donner à vous ne barancera pas,
+<lb />Et s’ouvrant aux douceurs d’une flame nouvel<lb />I
+<lb />Il ſentira pour vous ce qu’il ſentoit pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />mais comment, &amp; par ou peut-on executer
+<lb />Ce que pour mon repos tu viens de projetter?
+<lb />Faut il du temps, des ſoins, ay-je beaucoup à
+<lb />craindre?
+<lb />Que faut-il faire enfin, parle?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Il ne faut que feindre.
+<lb />Faites venir le Prince en voſtre appartement,
+<lb />Montrez à le ſervir un tendre empreſſement,
+<lb />Et pour le retenir feignez avec adreſſe
+<lb />De vouloir l’excuſer auprés de la Princeſſe:
+<lb />C’eſt tout Repoſez-vous du reſte ſur mes ſoins,
+<lb />Pour un ſi grand bonheur pouvez-vous faire
+<lb />moins?
+</sp>
+<sp type="MainZone-Sp"><lb />SABELLE.
+<lb />Hé bien, à tes avis je me laiſſe conduire,
+<lb />De tes deſſeins pour moy je ne veux point m’in<lb />ſtruire,
+<lb />De mon cruel deſtin il faut ſubir la loy,
+<lb />Fais ce que tu voudras, je me livre à ta foy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />RCTET
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />LiT DUCHESSE, LE MARE'<lb />CHAL DALBRET.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ui l’eut dit, Maréchal, que le Duc infi<lb />delle
+<lb />Eteindroit une ardeur qu’on croyoit immortelle?
+<lb />Quel le vis je autrefois, quel viens-je de le
+<lb />voir,
+<lb />Un ſi grand changement ſe peut-il concevoir?
+<lb />Aprés les maux ſi longs, ſi pleins de violen<lb />
+<lb />Qu'ont coûtez à mon cœur ſa priſon, ſon ab<lb />ſence,
+<lb />Ouand le Ciel à mes vœux accorde ſon retour,
+<lb />Devois-je bien m’attendre à le voir ſans amour?
+<lb />Eſt-ce donc là le prix des comouts de mon
+<lb />ame?
+<lb />Du refus de deux Rois immolez à ſa flame?
+<lb />Aprés tant de ſoûpirs, tant de pleurs, tant d’en<lb />nuy....
+<lb />Meritoit il l’ingrat ce qu’on a fait pour luy?
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Ma ſurpriſe, Madame, à la voſtre eſt égale.
+<lb />Je plains une tendreſſe à vous, à moy fatale.
+<lb />De voſtre amour pour luy tantoſt inſtruit par
+<lb />vous,
+<lb />Des plus vives douleurs j’ay ſenty tous les coups,
+<lb />Plus touché de vos maux que de mon infortu<lb />ne
+<lb />J’évitois, je fuyois une pompe importune,
+<lb />J’allois loin de vos yeux me plaindre en liberté.
+<lb />Lors qu’aux miens prés d’icy le Duc s’eſt pre<lb />ſenté.
+<lb />Quelques chagrins qu’encor me promit ſa pre<lb />ſence,
+<lb />Rien n’a pû s’oppoſer à mon impatience.
+<lb />Malgré tout mon amour, fidelle à mon de<lb />voir,
+<lb />J’ay couru preparer voſtre cœur à le voir.
+<lb />Je ne prevoyois pas aveugle dans mon zele,
+<lb />Que tant d’ennuy dûſt ſuivre une heureuſe nou<lb />velle,
+<lb />Qu’au gré de vos deſirs dans ce Palais conduit,
+<lb />De ſon retour luy-mêtne il vous ôta le fruit,
+<lb />Rappellant auſſi-toſt ma tendreſſe paſſée,
+<lb />Une maligne joye en mon cœur s’eſt gliſſée.
+<lb />Pardonnez-la, Madame, aux malheurs d’un
+<lb />amant,
+<lb />Mais ce triſte plaiſir n’a duré qu’un moment.
+<lb />Voſtre trouble d’abord l’a bien fait diſparai<lb />ſtre,
+<lb />L’amour a fait mourir ce qu’il avoit fait nai<lb />ſtre,
+<lb />Et mon cœur tous entier s’ouvrant à vos dou<lb />leurs
+<lb />N’a pû goûter un bien qui vous coûtoit des
+<lb />pleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Hé dites moy, quelle ame à ſe vaincre occu<lb />pée
+<lb />D’un coup ſi ſurprenant n’eut pas eſté frapée?
+<lb />Croyois-te qu’il me dûſt trahir avec éclat?
+<lb />Que mes bontez pour luy ne feroient qu’un in<lb />grat,
+<lb />Que demantant enfin tant de vertus ſinceres,
+<lb />Il ſuivroit les erreurs des amans ordinaires?
+<lb />Je penſois qu’un Heros fidelle dans ſon choix,
+<lb />Aimoit juſqu’à la mort s’il aimoit une fois.
+<lb />Mais helas !en amour ces cœurs crus magnani<lb />mes
+<lb />Des pius ſmples mortels adoptent les maximes,
+<lb />Dans un oubly honteux ils cherchent leur repos,
+<lb />Et dés qu’ils ſont amans ils ne ſonit prus Heros.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Mais ſi toûjours pour vous même ardeur le de<lb />vore?
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Hé de ſon changement puis-je douter enco<lb />re?
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Quoy que vous en croyiez, c’eſt un coup bien
+<lb />fatal
+<lb />Madame, de trouver ſon Roy dans ſon rival.
+<lb />Sans craindre de paſſer ou pour lâche, ou pour
+<lb />traiſtre,
+<lb />Un ſujet peut ceder ſa maiſtreſſe à ſon maiſtre.
+<lb />En commettant le crime on eſt juſtifié,
+<lb />On brûle d’un amour qu’on a ſacrifié,
+<lb />Et ſans qu’il ſoit beſoin d’un plus rude ſupplice,
+<lb />On n’eſt que trop puny par un tel ſacrifice.
+<lb />Le Duc peut eſtre éprouve un ſort ſi rigoureux,
+<lb />Il ſemble ingrat, peut-eſtre il n’eſt que mal<lb />heureux.
+<lb />Gien loin que contre luy mon amour vous ai<lb />griſſe,
+<lb />bu iu le contraint à luy rendre juſtice.
+<lb />Mais faites-le parler.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Je m'en garderay bien,
+<lb />Puis qu’il fait ſon devoir je veux faire le mien.
+<lb />Aprés l’affront mortel que m’a fait l’infidelle,
+<lb />J’irois m’en attirer une injure nouvelle,
+<lb />Si l’amour juſques-là me ravaloit pour luy,
+<lb />Mon rang contre l’amour me ſerviroit d’appuy.
+<lb />Je veux le fuir, je veux éviter ſes approches,
+<lb />Ne le pas honorer même de mes reproches,
+<lb />Montrer qu’ainſi que luy je ſçay me ſurmon<lb />ter,
+<lb />Et qu’on dompte l’amour quand on veut le dom<lb />pter.
+</sp>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Hé bien puis qu’on ne peut fléchir voſtre cou<lb />rage,
+<lb />Il faut pour vous ſervir mettre tout en uſage.
+<lb />Tantoſt, je m’en ſouviens, vous m’avez repro<lb />ché
+<lb />Les maux, dont pour le Duc voſtre cœur eſt
+<lb />touché.
+<lb />Je vay, ne conſultant que l’ardeur qui m’anime
+<lb />Vous rendre le repos, &amp; reparer mon crime.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LA DUCHESSE, CHA<lb />TEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Cedieem Quoy poune d’un depit amou<lb />reux,
+<lb />Veut-il contre le Prince...
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Il eſt trop genereux,
+<lb />Et ſçait trop reſpecter la douleur d’une amante.
+<lb />Mais qui fait naiſtre en vous cette crainte obli<lb />gcante,
+<lb />Madame? l’on n’eſt pas ſi prompte à s’alarmer
+<lb />Pour un Prince qu’on fuit, qu’on ne veut plus
+<lb />aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHHESSE.
+<lb />Ah! que ne puis-je icy te cacher ma foibleſſe.
+<lb />Tout coupable qu’il eſt, pour luy je m’intereſſe,
+<lb />Ma gloire, mon dépit, ne font qu’un vain ef<lb />fort,
+<lb />Malgré moy mon amour eſt toûjours le plus
+<lb />fort.
+<lb />Par cent chemins ouverts il entre dans mon ame,
+<lb />Latrouve toute preſte a recevoir ſa flame,
+<lb />Tous mes ſens ſoûlevez luy preſtent leur appuy,
+<lb />Et mon cœur par des vœux vole au devant de
+<lb />luy.
+<lb />Ah! devois je t’aimer Prince ingrat &amp; parjure?
+<lb />Mais pouvois-je prévoir les peines que j’endure?
+<lb />Je ne voyois en luy qu’un Prince genereux.
+<lb />13
+<lb />Jeune, vaillant, aimable, &amp; ſur tout amou<lb />reux.
+<lb />S’il eut joint à ces noms le nom d’amant fi<lb />delle
+<lb />Aurois-je du rougir d’une flame ſi belle?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Que vouliez-vous que fit ce Prince infortuné?
+<lb />Captif, chargé de fers, de tous abandonné,
+<lb />Coupable envers ſon maiſtre, en proye à ſa co<lb />lere,
+<lb />Pour rompre ſes liens que pouvoit-il moins fai<lb />re?
+<lb />Peut-eſtre des raiſons qu’il derobe à nos yeux
+<lb />Plus que tout ce qu’on croit l’ont conduit en ces
+<lb />lieux.
+<lb />Que ſçait-on, quelqueiois l'amant le plas fidel<lb />le....
+<lb />De ces raiſons peut-eſtre il inſtruit Iſabelle,
+<lb />Il doit luy decouvrir les ſecrets de mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Que dis-tu? Quoy le Prince eſt-f'avec me
+<lb />ſœur?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />quie dne neuſe &amp; plus, Madame, ils ſont
+<lb />enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Qu’entens-je! mais dy moy qu’eſt ce qui les
+<lb />aſſemble?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Hé quoy leur entreveuë eſt ce dil fecret pour
+<lb />vous?
+<lb />J’ay crû que par voſtre ordie ils parloient loin
+<lb />de nous.
+<lb />A peine de ces lieux eſtiez-vous écartée,
+<lb />Qu'Iſabelle avec luy s’eſt long-temps arreſtée.
+<lb />Enſuite elle eſt ſortie, &amp; pour l’entretenir,
+<lb />Dans ſon appartement elle la fait venir.
+<lb />Il y vole. Chacun par reſpect ſe retire.
+<lb />1
+<lb />Ils parlent. On ne ſçait ce qu’ils ont à ſe dire;
+<lb />Mais on connoiſt aſſez, quoy qu’on n’entende
+<lb />Hen,
+<lb />Qu’un intereſt ſecret échauffe l’entretien.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Dans quels cruels ſoupçons me jette ce lan<lb />gage?
+<lb />Le Duc cherche ma ſœur à l’inſtant qu’il m’ou<lb />trage,
+<lb />En ſecret, ſans témoin ils parlent ſi long-temps,
+<lb />Ils paroiſſent, dis-tu, l’un de l’autre contens.
+<lb />Ils s’aiment. Ah! voilà ce qu’ils ont à ſe dire.
+<lb />Des vœux d’un infidelle elle m'ôte l’empire.
+<lb />Trop aveugle, ay-je pû tarder juſqu’aujour<lb />d’huy
+<lb />A connoiſtre l’amour qu’Iſabelle a pour luy?
+<lb />Cette fauſſe langueur, témoin de ſa conſtan<lb />ce,
+<lb />Indubitable effet des ennuis de l’abſence,
+<lb />Ces pleurs, ce peu de ſoin de ſes triſtes attraits,
+<lb />Son trouble quand le Prince approchoit du Pa<lb />lais,
+<lb />Ses diſcours ambigus, ſon deſordre, ſa fuite,
+<lb />Tout de ſes feux ſecrets devoit m’avoir inſtrui<lb />te.
+<lb />vains!
+<lb />Ciel ſeroit-il poſſible.... Ah mes doutes ſont
+<lb />J’ay de leur trahiſon des ſignes trop certains.
+<lb />Ils me feront raiſon de cette perfidie.
+<lb />Non, ils ne m’auront pas impunement trahie.
+<lb />Je vangeray ſur eux l’affront que je reçoy,
+<lb />Cette ardeur leur ſera plus funeſte qu’à moy.
+<lb />Je ſuis amante &amp; femme, &amp; je vais eſtre Reines
+<lb />Ils verront à quel point l’amour porte la haine,
+<lb />Et qu’on n’a rien à craindre, &amp; rien à mena<lb />ger,
+<lb />Quand on a ſa tendreſſe &amp; ſa gloire à vanger.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LA DUCHESSE LE MARE'<lb />ORAD DHEDRET, CHA<lb />TEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LE M. D’ALBRET.
+<lb />Adame, en vous quittant trop plein de
+<lb />M vos alarmes,
+<lb />Meditant un effort qui peut tarir vos larmes,
+<lb />Toûjours pour vous en vain ardent à m’immoler,
+<lb />J’allois chercher le Duc pour le faire parler,
+<lb />Et tirant de ſon cœur le ſecret veritable,
+<lb />Vous épargner l’ennuy de le croire coupable.
+<lb />L’ayant cherché par tout ſans l’avoir rencon<lb />tré,
+<lb />Chez la Princeſſe enfin j’apprens qu’il eſt entré,
+<lb />y cours. Je l’apperçoy parlant ſeul avec elle,
+<lb />La peur de les troubler a retenu mon zelle.
+<lb />J’attendois un moment propre à m’en approcher,
+<lb />Quand tous deux vers ces lieux je les ay vû mar<lb />cher.
+<lb />Ferez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Il ſuffit. Je ſçay ce qu’il faut faire;
+<lb />Ma ſœur vient. Demeurez, vous m’eſtes neceſ<lb />faire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LA DUCHESSE, ISABELIE,
+<lb />LE MARE'CHAL D’ALBRET,
+<lb />CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Adame, j’ay laiſſé le Duc prés de ces
+<lb />M lieux,
+<lb />Il n’oſe entrer, il craint de paroiſtre à vos
+<lb />yeux.
+<lb />Inquiet, &amp; chargé d’un ſecret qui vous tou<lb />che,
+<lb />pour vous en Informer il emprunte ma bou<lb />che.
+<lb />Il voudroit....
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />C’eſt aſſez, ma ſœur je vbus entens.
+<lb />Faites venir le Duc. Ne perdons point de
+<lb />temps.
+<lb />Je ſçay ce que pour luy voſtre cœur vous inſpire,
+<lb />Je m’en figure plus que vous n’en pourriez dire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LA DUCHESSE, LE DUC,
+<lb />ISABELLE, LE MARE'<lb />CHAL D’ALBRET, CHA<lb />TEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />JRince approchez. Je viens de penſer au grand
+<lb />1
+<lb />choix
+<lb />Que m’explique par vous le plus puiſſant des
+<lb />Rois.
+<lb />J’ay vû combien d’honneurs ſuivroient cet hy<lb />menée,
+<lb />Quelle foule de biens y doit eſtre enchainée.
+<lb />y ſouſcris. J’ay regret d’avoir mis un moment
+<lb />Entre l’offre du Prince &amp; mon conſentement.
+<lb />D’un choix ſi glorieux mon ame ſatisfaite
+<lb />Va luy faire annoncer un aveu qu’il ſouhaite,
+<lb />Albret, je vous deſtine à cet illuſtre employ.
+<lb />Redoublez aujourd’huy voſtre zele pour moy,
+<lb />Que rien ne vous arreſte, allez en diligence
+<lb />L’aſſurer d’une aveugle &amp; prompte obeïſſance,
+<lb />Luy diie qu’avec joye on accepte la paix,
+<lb />Et que ma gratitude égale ſes bien-faits
+<lb />Partez.
+</sp>
+<p type="MainZone-Head"><lb />à Chateaubriant.
+</p>
+<sp type="MainZone-Sp"><lb />Toy va chercher mes Miniſtres fidelles,
+<lb />Je leur veux en ſecret apprendre ces nouvel<lb />les.
+<lb />Vous Duc, dans un moment venez au nom du
+<lb />Roy
+<lb />neebeven a P'hdtere ma mam &amp; ma foy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />LE DUC, ISABELLE,
+</p>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />E voy l’étonnement ou ce diſcours vous jette,
+<lb />JPrince, j’en ay pour vous une douleur ſe<lb />crette.
+<lb />Que n’avez-vous pâ voir, avec quelle cha<lb />leur
+<lb />J’allois juſtifier voſtre conſtante ardeur?
+<lb />J’allois parler pour vous Ma ſœur impatiente
+<lb />Duno imu bouenc acoupe ma parolſe naiſſante.
+<lb />Contre vous, contre moy trop prompte à s’ir<lb />riter,
+<lb />Elle n’a pas daigné ſeulement m’écoûter.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />C’eſt un coup du deſtin qui me pourſuit ſans
+<lb />ceſſe.
+<lb />Il me rend criminel auprés de la Princeſſe,
+<lb />Madame, &amp; me ravit le vain ſoulagement
+<lb />De pouvoir d’elle icy me plaindre juſtement.
+<lb />Car enfin, elle a fait ce qu’elle de voit laife,
+<lb />Son devoir a parlé, c’eſt à moy de me taire.
+<lb />Loin de voir à regret la ſplendeur de ſon rang,
+<lb />Pour l’y faire monter j’aurois donné mon ſang,
+<lb />Et ſi l’amour pour moy l’en avoit refroidie,
+<lb />Moy-même à cet aven je l’aurois enhardie:
+<lb />Je n’en murmure point. Mais j’aurois ſouhai<lb />té
+<lb />Qu’il eut eſté moins rude &amp; moins precipité,
+<lb />Qu’à monter ſur le trône elle eut eu quelque
+<lb />peine,
+<lb />Qu’au moins elle eut paru plus long-temps in<lb />certaine,
+<lb />Qu’à tant d’amour éteint elle eut eu quelque
+<lb />égard,
+<lb />Et que ce qu’elle a fait elle l’eut fait plus tard.
+<lb />Qui l’eûr crû que ſi-toſt au mépris de ma flame...
+<lb />Mais helas! la couronne a ſceu fraper ſon ame.
+<lb />Sa vaſte ambition ſacrifie en ce jour
+<lb />Aux douceurs de regner les douceurs de l’a<lb />mour.
+<lb />Luy qui peut tout ailleurs pert icy ſa puiſſance,
+<lb />A l’épreuve d’un trône il n’eſt point de con<lb />Icance;
+<lb />Et pour le don d'un ſceptre on oſe abandonner
+<lb />Un mal-heureux, qui n’a que ſon cœur à don<lb />ner.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Ah! Prince pour mon ſexe ayez moins d’in<lb />juſtice,
+<lb />Toutes nous n’avons pas ce biſare caprice.
+<lb />Il en eſt dont le cœur, ferme en ſon premier
+<lb />choix
+<lb />Pour un amant ſujet mépriſeroit des Rois.
+<lb />Mais icy vainement pour vous on s’inquiete,
+<lb />Vous ne m’écoûtez point. Voſtre veuë eſt di<lb />ſtraite.
+<lb />Ma ſœur, je le voy bien, occupe tous vos ſens.
+<lb />Tout voſtre cœur eſt plein de ſes charmes abſens.
+<lb />Rien ne peut.... Oüy je ſuis pour vous contre
+<lb />elle-même,
+<lb />La Princeſſe jamais ne ſceut comme l’onaime,
+<lb />E iiij
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Vous dites vray, Madame, elle m’a confirmé
+<lb />Que je me flatay trop quand je m’en crus aimé.
+<lb />L’inconſtance eſt moins fiere, &amp; n’eſt pas ſi
+<lb />ſoudaine.
+<lb />Avant que de la rompre il faut trainer ſa chai<lb />ne.
+<lb />C’eſt par degré qu’on voit croitre &amp; mourir l’a<lb />mour,
+<lb />Sa fin eſt rarement l’ouvrage d’un ſeul jour.
+<lb />Je voy par cet éclat de ſon indifference
+<lb />Qu’elle n’en a jamais éprouvé la puiſſance.
+<lb />C’eſt-là ce qui me tuë, &amp; mon cœur amou<lb />reux,
+<lb />S’il l’ignoroit encor ſeroit moins mal-heureux.
+<lb />Mon erreur me flattoit, elle l’a diſſipée,
+<lb />Mon ame a le chagrin de ſe voir detrompée,
+<lb />La plus vive douleur dont je ſente les traits,
+<lb />C’eſt d’eſtre convaincu qu’on ne m’aima ja<lb />mais.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Pleignez moins les malheurs ou l’amour vous
+<lb />expoſe.
+<lb />Il peut faire ceſſer les tourmens qu’il vous cau<lb />ſe.
+<lb />Hé ne pourriez-vous pas pour tarir tant de pleurs
+<lb />Entre les bras d’une autre oublier vos douleurs?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Helas! aprés ce coup croit-on qu’il ſoit poſ<lb />ſible
+<lb />Que pour un autre objet je devienne ſenſible.
+<lb />Non, non, de ſes appas toûjours trop occupé
+<lb />Ce cœur d’un autre amour ne peut eſtre frapé.
+<lb />De mes premiers ſoûpirs elle receut l’homage,
+<lb />Pour elle ſeulement j’en connoiſtray l’uſage.
+<lb />Mes pleurs pour elle ſeule aprirent à couler,
+<lb />Ils iront conſtamment où je les fis aller.
+<lb />Toûjours également mal-heureux &amp; fidelle,
+<lb />Je nourriray le feu dont je brûle pour elle,
+<lb />Et puis qu’à tant de maux elle m’a condam<lb />né,
+<lb />Je conſens pour luy plaire à vivre infortuné.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />LE DUC, ISADELLE,
+<lb />CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />N vous attent, Seigneur. La Princeſſe em<lb />preſſée
+<lb />De vos retardemens ſemble preique onenſée.
+<lb />Son ame impatiente accuſe une lenteur
+<lb />Qui de quelques momens recule ſon bonheur.
+<lb />Elle vous mande.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Allons, puis qu’elle nous l’ordonne,
+<lb />Satisfaire à l’ardeur qu’elle a pour la couronne.
+<lb />Madame, je vous laiſſe, &amp; plein de ma douleur
+<lb />Je vay me confirmer un éternel malheur.
+<lb />Je n’ay trouvé que vous ſenſible à ma miſere,
+<lb />Vous m’avez ſeul aidé quand tout m’eſtoit con<lb />traire.
+<lb />Je ne puis m’acquitter de ce que je vous doy;
+<lb />Mais ſenſible aux bontez que vous avez pour
+<lb />moy,
+<lb />Madame, quelque jour je pourray reconnaiſtre
+<lb />encicar
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />ISABELLE, CHATEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Adaiie, ne bien que dit-il? &amp; quel fruit
+<lb />IVICet entretien pour vous peut-il avoir pro<lb />duit?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Quel fruit, un long remors, une honte éternelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Que dites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Le Prince eſt toûjours plus fidelle.
+<lb />Des charmes de ma ſœur plus que jamais épris
+<lb />Pour moy, pour mon amour il n’a que du mépris.
+<lb />Quand je parlois pour moy ſourd, muet, immo<lb />bile,
+<lb />Il me laiſſoit pouſſer une plainte inutile.
+<lb />Il ſembloit qu’inſenſible aux offres de ma foy
+<lb />En ma preſence même il fut abſent de moy.
+<lb />Mais helas! au ſeul nom d’une ſœur trop che<lb />rie,
+<lb />L’ingrat interrompoit ſa longue réverie,
+<lb />Ce n’eſtoient à mes yeux que tranſports ſur
+<lb />tranſports.
+<lb />Tout ſon amour caché ſe répendoit dehors,
+<lb />Il m’a juré cent fois de n’aimer jamais qu’elle,
+<lb />Chaque mot me portoit une atteinte nouvelle,
+<lb />Et mon amour confus eſtoit le ſpectateur
+<lb />Du triomphe cruel de celuy de ma ſœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Pourquoy vous arracher ſi toſt à l’eſperance.
+<lb />Accordez quelques jours à ſa perſeverance,
+<lb />Laiſſez un libre cours à ſon nouvel ennuy.
+<lb />Il ſera peu de temps tel qu’il eſt aujourd’huy.
+<lb />Quel que ſoit, croyez-moy, le feu qui le tranſ<lb />porte,
+<lb />L’amour meurt aiſement quand l’eſperance eſt
+<lb />morte.
+</sp>
+<sp type="MainZone-Sp"><lb />ISABELLE.
+<lb />Non, ſur moy tes conſeils ont eu trop de pou<lb />voir.
+<lb />Toute mon eſperance eſt de n’en plus avoir.
+<lb />Pourquoy m’as-tu flatée? ou pourquoy t’ay-je
+<lb />cruë,
+<lb />Tu m’as ravy le jour quand tu m’as ſecouruë.
+<lb />Ne m’offre plus icy ton funeſte ſecours,
+<lb />La mort eſt deſormais mon unique recours.
+<lb />De grace laiſſe-moy. Dans ce deſordre extréme
+<lb />Je ſuis ainſi qu’au Prince odieuſe à moy-même.
+<lb />Tout m’importune, &amp; tout irrite mes douleurs,
+<lb />Souffre que loin de toy j’aille verſer des pleurs.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+</p>
+<p type="MainZone-Head"><lb />HCTE
+<lb />4
+</p>
+<p type="MainZone-Head"><lb />SCENE I.
+<lb />DA DOCHESSE, CHA<lb />TEAUBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHEt CM.
+<lb />-t’on pour mon départ preparé toute cho<lb />A ſe?
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Par voſtre ordre avec ſoin, Madame, on s’y
+<lb />diſpoſe,
+<lb />Tout s’empreſſe, &amp; bien-toſt vous quitterez ces
+<lb />lieux
+<lb />Pour un ſejour plus doux, &amp; plus chery det
+<lb />Cieux.
+<lb />Bien-toſt juſques en France en triomphe menée
+<lb />Vous irez prendre un rang qui ſuit voſtre hy<lb />menée,
+<lb />Voir à vos pieds un peuple amoureux de vos
+<lb />loix,
+<lb />Et faire le bonheur du plus puiſſant des Rois.
+<lb />Mais, Madame, mes yeux vous trouvent bien
+<lb />changée.
+<lb />Hier dans les tranſports d'une amante outragée,
+<lb />Vous
+<lb />Vous vous abandonniez à tous vos mouvemens,
+<lb />Vous ſembliez tout promettre à vos reſſeuti<lb />mens.
+<lb />Aujourd’huy je vous vois un tranquile viſage,
+<lb />Et le plein calme regne où regnoit tant d’orage.
+<lb />Mis jui lanoi elalnacer de nocite,
+<lb />Vous demander d’où vient cette tranquilité?
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />La nuit &amp; la raiſon m’ont renduë à moy-mê<lb />me.
+<lb />Je haiſſois, j’aimois. Je ne hay, ny je n’aime.
+<lb />D’un autre œil j’enviſage &amp; le Prince &amp; ma
+<lb />ſœur.
+<lb />Le changement de rang a fait changer mon
+<lb />cœur.
+<lb />Il n’eſt plus le joüet d’une vaine tendreſſe,
+<lb />Je regne, &amp; ſuis enfin de moy-méme maiſtreſſe.
+<lb />Hier, je l’avoüeray, dans mes tranſports ja<lb />loux
+<lb />Je preparois contre-eux un immortel courroux,
+<lb />Au trône par dépit je me laiſſay conduire,
+<lb />Pour pouvoir à loiſir me vanger &amp; leur nuire.
+<lb />Toute attentive au ſoin de tramer leur mal<lb />heur,
+<lb />Je crus que mon hymen ſeroit l’écüeil du leur,
+<lb />Que j’en romprois les neuds quand je ſerois leur
+<lb />Reine,
+<lb />Et que leur triſte amour dépendroit de ma haine,
+<lb />Mon cœur trop irrité contr’elle, contre luy,
+<lb />Se faiſoit un plaiſir de leur futur ennuy,
+<lb />Et dans les mouvemens de mon impatience,
+<lb />Je preſſay mon hymen pour haſter ma van<lb />geance.
+<lb />Voilà ce qu’à mon ame inſpiroient mes tranſ<lb />ports.
+<lb />Mais cette ame n’eſt plus ce qu’elle eſtoit alors.
+<lb />D’une plus noble ardeur cette ardeur eſt ſuivie.
+<lb />Quand je puis me vanger j’en pers juſqu’à l’en<lb />vie.
+<lb />Je conſulte mon rang, il me conſeille mieux.
+<lb />Sa nouvelle ſplendeur m’a deſſillé les yeux.
+<lb />J’ay vû qu’un tel courroux tourneroit à ma hon<lb />te,
+<lb />Qu’avec moy ſur le trône il ne faut pas qu’il
+<lb />monte,
+<lb />Que je dois y porter un eſprit détaché,
+<lb />Ny d’amour prevenu, ny de haine touché,
+<lb />Et prendre, en condamnant ma foibleſſe paſſée,
+<lb />Un cœur digne du rang où je me voy placée.
+</sp>
+<sp type="MainZone-Sp"><lb />CMAIEAUBRIANT.
+<lb />Ainſi donc oubliant voſtre premier courroux,
+<lb />Vous avez triomphé de l’amour &amp; de vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Sans doute, &amp; pour te faire entiere confiden<lb />ce,
+<lb />de vellois leul nyien avee ſuierence.
+<lb />Du trône à la tendreſſe il n’eſt point de re<lb />tour,
+<lb />Et ma gloire à iamais me répond de l’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Je n’attendois pas moins de voſtre grand cou<lb />rage.
+<lb />Nous avez beaucoup lait, Mais Iaites davanta<lb />ge.
+<lb />Donnez un libre cours à vos bontez pour eux,
+<lb />Et preſſez un hymen qui peut les rendre heu<lb />reux.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />C’en eſt trop. Il ſuffit d’oublier leur offenſe.
+<lb />Jt puis bien juſques-là pouſſer ma complaiſan<lb />ce.
+<lb />Mais je ne me ſens pas aſſez de fermeté,
+<lb />Pour leur faire un bonheur qu’ils n’ont point me<lb />rité.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Je voy le Duc.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Trop ſeur de l’aveu d’Iſabelle,
+<lb />Sans doute il vient briguer mon fuffrage pour
+<lb />elle..
+<lb />Retire toy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />Quoy dont, Madaine, toulez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Je veux l’entendre. Sors. Il s’avance vers nous.
+</sp>
+<p type="MainZone-Head"><lb />e lllM A la
+<lb />LA DUCHESSE, LE DUC.
+</p>
+<sp type="MainZone-Sp"><lb />LE PUC.
+<lb />Adame, inſtruit des vœux dont me char<lb />M gea la France,
+<lb />Je vous viens de ſa joye aſſurer par avance,
+<lb />Vous dire quel bonheur elle attend de vos loix,
+<lb />Et combien voſtre hymen charme tous les Fran<lb />çois.
+<lb />Madame, je prens part à ces grands avantages,
+<lb />Je viens comme ſujet vous rendre mes homa<lb />ges,
+<lb />Le premier à vos loix je viens m’aſſujettir,
+<lb />Et recevoir de vous les ordres pour partir.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ils ſont donnez. J’ay ſceu vous épargner ces
+<lb />peines
+<lb />Prince, le jour naiſſant nous va voir hors de
+<lb />Rennes.
+<lb />Pour l’homage qu’icy vous me venez offrir,
+<lb />Il m’eſt trop glorieux pour ne le pas ſouffrir.
+<lb />Hé puis, dois-je oublier que par voſtre entre<lb />miſe
+<lb />J’ay monté ſur le trône où l’on me voit aſſiſe,
+<lb />Que j’aurois moins d’honneurs ſi vous aviez fait
+<lb />moins,
+<lb />Et que toute ma gloire eſt l’effet de vos ſoins?
+<lb />Attendez tout auſſi de ma reconnoiſſance,
+<lb />Rien ne la bornera que ma propre puiſſance.
+<lb />Je m’offre à vous ſervir prés du Roy mon é<lb />poux,
+<lb />Prince, demandez tout, j’obtiendray tout pour
+<lb />vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Madame, je n’ay fait que ce que j’ay dû
+<lb />faire,
+<lb />A de moindres faveurs je borne mon ſalaire.
+<lb />Mon cœur, mon triſte cœur ſouhaitte ſeule<lb />ment
+<lb />Que vous daigniez icy m’écoûter un moment.
+<lb />Je n’oſe qu’en tremblant demander cette gra<lb />Ce3
+<lb />Voſtre auſtere vertu m’épouvante, &amp; me glace.
+<lb />Je crains que le diſcours où je vay m’enga<lb />ger,
+<lb />Malgré tout mon reſpect, ne puiſſe l’outrager.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Craignant de l’outrager vous luy faites outragen
+<lb />Prince, pour eſtre auſtere enſe n'eſt pas lauvage.
+<lb />La vertu veritable eſt lente à s’irriter,
+<lb />Plus elle eſt grande, &amp; moins on doit la redou<lb />ter.
+<lb />Je porte à vos diſcours une ame preparée,
+<lb />La voſtre par les miens doit eſtre raſſurée.
+<lb />Men ne m’onehela, ne craignez fien, par<lb />lez.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Hé bien je vay parler, puis que vous le vou<lb />lez.
+<lb />Je vous aimay, Madame. Il vous ſouvient peut<lb />étre
+<lb />Qu’autrefois en ces lieux ma flame oſa paroiſtre,
+<lb />Qu’épris de vos appas, que percé de vos coups,
+<lb />J’appris à ſoûpirer en ſoûpirant pour vous.
+<lb />Je dis plus, pardonnez un aveu temeraire,
+<lb />Je me flatay du bien de ne vous point déplaire.
+<lb />Mon cœur trop ſatisfait de gemir à vos yeux
+<lb />D’aucune autte faveur n’importuna les Cieux.
+<lb />Cette felicité me fut bien-toſt ravie.
+<lb />O Ciel, qu’en me l’ôtant ne m’ôtas-tu la vie?
+<lb />Voſtre pere à mes vœux oppoſa ſon pouvoir,
+<lb />Lors que j’eſperois tout m’interdit tout eſpoir.
+<lb />Mais quoy que tous mes pleurs ne puſſent rien
+<lb />pretendre,
+<lb />Sans ceſſe auprés de vous vous m’en vites re<lb />prendre,
+<lb />Et loin de vos appas, les Cieux me ſont té<lb />moins
+<lb />Madame, que pour vous je n’en verſay pas
+<lb />moins.
+<lb />Voſtre ſeul intereſt trop puiſſant ſur mon ame
+<lb />En faveur d’un rival m’a fait trahir ma ffa<lb />me.
+<lb />Je vis que voſtre hymen ſi funeſte pour moy,
+<lb />A vos états ſauvez joignoit ceux d’un grand Roy.
+<lb />Fnj
+</sp>
+<p type="MainZone-Lg"><lb />Je me flatay, malgré mon ardeur amoureuſe.
+<lb />D’eſtre moins mal-heureux ſi vous eſtiez heu<lb />reuſe.
+<lb />Vous l’eſtes, &amp; le ſort a remply mes deſirs.
+<lb />Vos jours vont à jamais couler dans les plai<lb />ſirs.
+<lb />Mais, Madame, aujourd'huy que vous eſtes ma
+<lb />Reine,
+<lb />Que loin de mon deſtin voſtre hymen vous en<lb />traine,
+<lb />Qu’on ne peut m’accuſer de trahir voſtre époux,
+<lb />Souffrez que je me pleigne, &amp; me pleigne de
+<lb />vous.
+<lb />A peine des François vous ay-je offert l’Em<lb />pire,
+<lb />Qu’à l’hymen propoſé je vous ay vû ſouſcri<lb />re.
+<lb />Sans pitié pour un Prince autrefois voſtre amant,
+<lb />Vous n’avez pour répondre attendu qu’un mo<lb />ment.
+<lb />Aux volontez du ſort voſtre ame aſſujettie
+<lb />De ce retardement s’eſt même repentie,
+<lb />Elle s’eſt à mes yeux reproché cet effort,
+<lb />Et d’a voir d’un moment pû differer ma mort.
+<lb />Ce que j’ay fait pour vous, mon amour, ma con<lb />ſtance
+<lb />Devoient bien quelque temps vous tenir en ba<lb />lance.
+<lb />Du moins pour amoindrir l’excez de mon mal<lb />heur,
+<lb />Vous pouviez affecter quelque feinte douleur.
+<lb />Avec plaiſir par là ma tendreſſe abuſée
+<lb />Loin de vous accuſer vous auroit excuſée.
+<lb />Voſtre rigueur suroit le ſuccez qu’elle attent.
+<lb />Je n’en mourrois pas momio , mais je modriois
+<lb />content.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Prince, je l’avoüeray, ces reproches m’éton<lb />nent.
+<lb />Je pardonne aux tranſports ou vos ſens s’aban<lb />donnentt
+<lb />Si j’en croyois l’orgueil par mon rang inſpiré
+<lb />J’entendrois ſans replique un diſcours prepa<lb />ré:
+<lb />Mais pour vous je l’oublie, &amp; je veux vous ré<lb />pondre
+<lb />Bien moins pour m’excuſer qu’afin de vous con<lb />fondre.
+<lb />Voſtre cœur n’a-t’il pas quelques remors ſe<lb />crets :
+<lb />A-t’il la dureté de vous laiſſer en paix?
+<lb />Ce cœur diſſimulé ne doit-il pas vous dire,
+<lb />Qu’il faut à des ingrats preferer un empire,
+<lb />Ne garder avec eux aucun ménagement,
+<lb />Y uiii par l'inconitance un infidelle amant:
+<lb />Sur tout lors qu’outrageant une amante fidel<lb />le ,
+<lb />Il oſe à ſes yeux même en faire une nouvelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Madame croiriez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Parlons à cœur ouvert;
+<lb />Il n’eſt rien par le temps qui ne ſoit décou<lb />vert.
+<lb />Plus que vous ne croyez voſtre ame m’eſt con<lb />nuë,
+<lb />Et nous ſçavons ramour dont enle eit plevenuë.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />C’eſt peu de m’avoir fait un malheur éter<lb />nel
+<lb />Madame, on veut encor me rendre er mi<lb />nel,
+<lb />Et vous-même inſultant à mon ame confuſe,
+<lb />Vous oſez m’accuſer lors que je vous accuſe.
+<lb />On me quitte, on m’outrage, &amp; pour comble
+<lb />de maux,
+<lb />Pour couvrir un vraycrime on m’en impoſe un
+<lb />faux.
+<lb />Moy charger! plût au Ciel que je fuſſe coupa<lb />ble.
+<lb />Je ne ſentirois pas la douleur qui m’accable.
+<lb />Mon cœur d’un vain remors peu de temps agité
+<lb />Trouveroit ſon repos dans l’infidelité.
+<lb />La peine meritée à moms de violence.
+<lb />Mon plus rude tourment vient de mon inno<lb />cence.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Juſqu’icy mes bontez ont ſouffert vos diſ<lb />cours,
+<lb />Elles ſe promettoient de les ſouffrir toûjours.
+<lb />Je ſçay à quoy mon rang &amp; ma vertu m’atta<lb />chent,
+<lb />Mais à tous ces devoirs vos reproches m’arra<lb />chent.
+<lb />Perfide, c’eſt eſt fait, il eſt temps d’éclater,
+<lb />D’une fauſſe innocence oſes-tu te vanter?
+<lb />Pretens tu m’abuſer par cette audace feinte
+<lb />Qu’inſpire aux criminels ou la honte ou la crain<lb />te?
+<lb />Tes crimes ſont trop clairs. Ton retour, ton em<lb />ploy,
+<lb />Ton trouble, tout enfin me parle contre toy.
+<lb />J’en croy tous ces témoins, &amp; non pas tes paro<lb />les.
+<lb />A ma perfide ſœur, perfide, tu m’immoles.
+<lb />Ne fay point le ſurpris. Oüy, tu l’aimes in<lb />grat,
+<lb />Tu couures ton amour du ſoin de mon état.
+<lb />Déja tout occupé de ton ardeur nouvelle,
+<lb />Tu m’évites, me fuis pour courir aprés elle.
+<lb />En ſecret, ſans témoins, dans ſon appartement
+<lb />Tu viens de t’applaudir d’un honteux change<lb />ment,
+<lb />2
+<lb />Tu viens de luy jurer une immortelle flame,
+<lb />Et d’avoir effacé mon portrait de ton ame:
+<lb />Va, porte à cette ſœur un cœur double &amp; ſans
+<lb />foy.
+<lb />Infidelle elle-même elle eſt digne de toy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Qui, moy, je l’aimerois! quelle bouche per<lb />fide
+<lb />A noircy prés de vous ma tendreſſe timide?
+<lb />Avec elle, il eſt vrày, j’eus un long entretien,
+<lb />Ou mon cœur tout entier ſe découvrit au ſien.
+<lb />N’oſant pas de vos yeux ſoûtenir la preſence,
+<lb />Je fis aux ſiens pour vous éclater ma conſtance,
+<lb />Luy montray mes douleurs, &amp; j’oſay la prier
+<lb />De le chaiger du lon de me futcifier.
+<lb />Je ſouhaitois qu’au moins vous appriſſiez par
+<lb />enc
+<lb />Que j’eſtois mal-heureux, &amp; non pas infidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Prince que dites vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Que juſques à ce jour
+<lb />Vous ſeule avez eſté l’objet de mon amour.
+<lb />C’eſt ce que la Princeſſe auroit pû vous appren<lb />dre,
+<lb />Si moins prompte, un moment on eut daigné
+<lb />l’entendre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LA DUCHESSE, LE DUC,
+<lb />CHATENOBRIANT.
+</p>
+<sp type="MainZone-Sp"><lb />CHATEAUBRIANT.
+<lb />H! Madame, venez, ou je crains qu’au<lb />A jourd'huy
+<lb />La Princeſſe à mes yeux n’expire enfin d’ennuy.
+<lb />De pleurs toute trempée, interdite, abatuë,
+<lb />Ne pouvant plus ſouffrir le remors qui la tuë,
+<lb />Ma honte, a t’elle dit, ainſi que ma douleur
+<lb />Ne me permettent pas d’approcher de ma ſœur.
+<lb />Va, cours juſtifier l’innocence auprés d’elle.
+<lb />Dy luy que ſon amant luy fut toûjours fidelle,
+<lb />Que ſon cœur pour le Duc brûla moins que le
+<lb />mien,
+<lb />Et que mon triſte amour m’a fait trahir le ſien.
+<lb />Pardonnez-luy, ſon cimme oit momdre que ſa
+<lb />peine,
+<lb />Elle eſt plus digne, helas! de pitié que de haine.
+<lb />Ne pouſſez pas plus loin voſtre juſte courroux,
+<lb />Ses remors, ſes douleurs la puniſſent pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Ah, ma ſœur qu’as-tu fait! faut-il que ton
+<lb />offenſe...
+<lb />Allez de ſes douleurs calmer la violence
+<lb />Ne l’abandonnez point. Je vay ſuivre vos pas.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIER.
+<lb />LA DUCHESSE, LE DUC.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Lle vous aime, Prince, &amp; vous ne l’ai<lb />
+<lb />ddlen pao.
+<lb />Ah Ciel... Que je te plains mal-heureuſe Iſa<lb />belle!
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />Suis-ie moins mal-heureux &amp; moins à plain<lb />dre qu’elle,
+<lb />Madame? cet amour ſi tendre, ſi puiſſant...
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Prince n’en parlons plus, vous eſtes innocent?
+<lb />Je le ſçais, il ſuffit. Je ſuis Reine de France.
+<lb />Ce nom ſeul vous preſcrit un éternel ſilence.
+<lb />Ne perdez plus pour moy d’injurieux ſoûpirs.
+<lb />Ma vertu vous défend de former des deſirs.
+<lb />Remportez ſur vous même une pleine victoi<lb />re
+<lb />Et ceſſez de m’aimer ſi vous aimez ma gloi<lb />re.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DUC.
+<lb />J’obeïray, Madame, à ces cruelles loix.
+<lb />Vous voyez mon amour pour la dermere idis.
+<lb />Si je ne puis le vaincre, en étouffer la flame,
+<lb />Je ſçauray le cacher dans le fond de mon ame.
+<lb />Jamais ſon triſte éclat n’offenſera vos yeux,
+<lb />Il n’aura pour témoins que mon cœur &amp; les
+<lb />Cieux.
+<lb />Et pour mieux vous prouver à quel point je vous
+<lb />aime,
+<lb />Je voudrois le cacher aux Cieur, i hion cœur
+<lb />même.
+</sp>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Faites plus. En effet oubliez vos malheurs,
+<lb />Prince, reſervez-vous à des deſtins meilleurs.
+<lb />Rappellez de ce cœur la vertu non commune,
+<lb />Dont la perſeverance a laſſé la fortune.
+<lb />Oüy, pour voſtre repos ne penſez plus à moy.
+<lb />Voyons ma ſœur, &amp; puis allons trouver le Roy,
+</sp>
+<p type="MainZone-Other"><lb />Fin du dernier Acte.
+<lb />Et pour mieux vous prouver à quel point je vous
+<lb />aime,
+<lb />Je voudrois le cacher aux Cieur, i hion cœur
+<lb />même.
+</p>
+<sp type="MainZone-Sp"><lb />LA DUCHESSE.
+<lb />Faites plus. En effet oubliez vos malheurs,
+<lb />Prince, reſervez-vous à des deſtins meilleurs.
+<lb />Rappellez de ce cœur la vertu non commune,
+<lb />Dont la perſeverance a laſſé la fortune.
+<lb />Oüy, pour voſtre repos ne penſez plus à moy.
+<lb />Voyons ma ſœur, &amp; puis allons trouver le Roy,
+</sp>
+<p type="MainZone-Other"><lb />Fin du dernier Acte.
+</p>
+    </body>
+  </text>
+</TEI>

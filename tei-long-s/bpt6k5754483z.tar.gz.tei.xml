@@ -1,0 +1,4408 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le grondeur , comédie</title>
+        <author>Brueys, David-Augustin de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30167536v"/>
+          <author>
+            <persName>Brueys, David-Augustin de</persName>
+          </author>
+          <title>Le grondeur , comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1693" cert="high" resp="BNF">1693</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />LE
+<lb />GRONDEUR
+<lb />COMEDIE.
+</fw>
+<p type="MainZone-Head"><lb />A PARIS,
+<lb />Chez THOMAS GUILAIN, ſur
+<lb />le Quai des Auguſtins, à la deſcente du
+<lb />Pont-Neuf, à l’image S. Louïs.
+</p>
+<p type="MainZone-Head"><lb />M. DC. XCIII.
+<lb />Avec Privilege du Roi.
+<fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />PREFACE.
+</p>
+<p type="MainZone-Head"><lb />lAmmedIRI
+<lb />OICI une Comedie
+<lb />dont le ſort a été aſſez
+<lb />bizarre: elle fut ſifflee
+<lb />à la premiere repreſentation; à
+<lb />la ſeconde les ſifflets ſe teurent;
+<lb />on commença a la goûter; le
+<lb />ſuccés alla en augmentant; au<lb />jour d’hui la Cour &amp; Paris la
+<lb />voyent avec plaiſir; lors même
+<lb />qu’une Piece nouvelle avorte
+<lb />ſur le Theâtre, le Parterre de<lb />mande ce même Grondeur qu’il
+<lb />rebuta autre fois, &amp; il ne ſe trou<lb />ve plus perſonne qui s’oſe van<lb />rer de l’avoir ſiffle.
+<lb />Si l’on demande, comment
+<lb />il ſe peut faire qu’une Comedie
+<lb />ſoit d’abord ſi mal accueillie
+<lb />du Public, &amp; enſuite ſi bien re<lb />cue, je repondarideux choſes qui
+<lb />me paroiſſent raiſonnables. La
+<lb />premiere, qu’il eſt ries diffiene
+<lb />de bien juger d’une Piece de
+<lb />Theâtre le premier jour qu’on
+<lb />la donne au Public: tout le
+<lb />monde en ſçait les raiſons; les
+<lb />Acteurs ne ſont pas bicn aſſu<lb />rez dans leurs rôles: leur me<lb />moire eſt chancelante, &amp; tra<lb />vaille encore; l’incertitude me<lb />me où ils ſont du ſuccés de ce
+<lb />qu’ils joüent, les tient un peu
+<lb />genez, &amp; toutes ces choſes en<lb />ſemble font, qu’ils n’oſent ſe
+<lb />donner carriere dans les jeux
+<lb />des Scenes, &amp; s’abandonner aux
+<lb />geſtes &amp; aux actions qui con<lb />viennent a leurs caracteres, en
+<lb />quoi conſiſtent principalement
+<lb />les graces des Pieces comi<lb />ques.
+<lb />La ſeconde, que le Public
+<lb />eſt compoſé de bien des têtes.
+<lb />&amp; parconſequent de gens bien
+<lb />differens. Je ne ſçaurois croire
+<lb />que ceux qui ont, je ne dirai
+<lb />pas du goüt, mais ſeulement
+<lb />de l’honnêtete, s’amuſent à ſif<lb />ſler: cela eſt au deſſous d’eux.
+<lb />Ils ſortent quand une Piece ne
+<lb />les divertit pas, &amp; n'y retour<lb />nent plus; ils l’écoutent, quand
+<lb />elle les divertit, &amp; ils l’à vont
+<lb />revoir; ainſi, ſoit qu’ils con<fw><lb />damnent, ſoitapulis ap prou</fw><lb />vent, leur jugement ſe paſſe
+<lb />ſans bruit, &amp; ſans éclat.
+<lb />Il n’en eſt pas de même de
+<lb />certaines gens, qui ne vont aux
+<lb />Spectacles que pour donner
+<lb />eux mêmes la (omedie aux au<lb />tres: la piupart ſeroient peut<lb />être aſſez capables de juger ſi
+<lb />une Piece eſt bonne, ou ſi elle
+<lb />ne l’eſt point; mais comme ce
+<lb />n’eſt pas pour cela qu’ils y vont,
+<lb />ils ne ſe mettent gueres en pei<lb />ne de l’examiner, ni d’écouter
+<lb />les Acteurs. Les autres vont aux
+<lb />premieres repreſentarions pour
+<lb />y trouver quelque choſe qui
+<lb />leur plaiſe, ceuxlà pour y troü<lb />ver quelque choſe qui ne leui
+<lb />plaiſe pas; dans cette penſéc ils
+<lb />obſe vent ſculement hs epeeta
+<fw><lb />*-o
+</fw><lb />teurs, &amp;, lorſqu’ils s’apperçoi<lb />vent que l’attention vient tant
+<lb />ſoit peu à ſe relâcher, ils ſai<lb />ſiſſent ce moment qu’ils atten<lb />doient avec impatience, &amp; ſe
+<lb />font alors un plaiſir d’inter<lb />iompre les autres. Quelquefois
+<lb />on leur impoſe ſilence quand
+<lb />ia Piece eſt bonne, &amp; quelque<lb />fois auſſi on la leur abandonne
+<lb />entierement, quand elle ne l’eſt
+<lb />pas.
+<lb />De-la il n’eſt perſonne qui
+<lb />ne voye que les differens juge<lb />mens que le Public a fait du
+<lb />Grondeur, viennent de ces dif<lb />ferens Juges, qui le compoſent,
+<lb />dont les uns la. condamnerent
+<lb />a la premiere vue avec un peu
+<lb />trop de précipitation, &amp; les au<lb />tres attendirent pour ſe déter<lb />miner que cette Piece leur eût
+<lb />ete repreſentée avec toute lavi<lb />vacité de l’action, &amp; ramenerent
+<lb />enfin tout le monde dans leur
+<lb />ſentiment. Cependant il ſeroit
+<lb />à ſouhaiter que ce qui eſt arri<lb />ve à cette Comedie rendît les
+<lb />gens un peu plus retenus à con<lb />4
+<lb />damner les Pieces de Theâtre
+<lb />a leur premiere repreſentation;
+<lb />car enfin il eſt bien certain, qu’il
+<lb />n’a pas tenu à ceux qui con<lb />damnerent celle-ci, qu'elle ne
+<lb />tombât entierement, &amp; ils ſça<lb />vent bien que s’ils en avoient
+<lb />été crus, le Publie ſeroit au<lb />jourd’hui privé d’un divertiſſe<lb />ment qui a le bonheur de lus
+<lb />plaire.
+<fw><lb />4
+</fw><lb />Il n’eſt pas a propos de rien
+<lb />dire ici pour ſa défenſe, quand
+<lb />le Public a approuvé un Ouyra<lb />ge, ce n'eſt plus l’affaire de l’Au<lb />teur: ſans cela on feroit remar<lb />quer que cette Comedie eſt
+<lb />dans toutes les regles de l’Art;
+<lb />qu’on y reprend un défaut, pour
+<lb />inſtruire; qu'on en montre le
+<lb />ridicule, pour divertir: que le
+<lb />caractere principal eſt nouveau;
+<lb />qu’il forme le nœud de l’action
+<lb />thcâtrale, &amp; qu’il la dénouë;
+<lb />que l’expoſition du ſujet eſt fai<lb />te en action, &amp; d’une maniere
+<lb />toute nouvelle; que les mœurs
+<lb />en ſont honnêtes, &amp; qu’il n’y a
+<lb />rien d’indécent dans le dialogue;
+<lb />mais ce ſont aujourd’hui les rai<lb />ſons de ceux qui l’ont approuvée.
+<lb />Au reſte on ne ſe ſeroit pas avi<lb />ſé de la faire imprimer, ſi beau<lb />coup de gens ne la demandoient
+<lb />tous les jours avec empreſſe<lb />ment. Cependant on doit aver<lb />tir le Lecteur, que ceux qui
+<lb />ne l’ont jamais vuë repreſenter
+<lb />ne doivent pas s’attendre d’être
+<lb />autant divertis en la liſant, que
+<lb />ceux quil’ont vuë, parce que
+<lb />ceux-cine ſçauroient la lire ſans
+<lb />rappeller dans leur eſprit l’idée
+<lb />de l’action qui les frappera tou<lb />jours plus vivement, que la ſim<lb />ple lecture ne touchera les au<lb />tres.
+</p>
+<p type="MainZone-P"><lb />AR grace &amp; Privilege du Roy, donné à Pa<lb />T ris le trentiéme de Janvier 1693. Signé, Par le
+<lb />Roy en ſon Conſeil, GAMART. Il eſt per<lb />permnis à THCMAS GUILAIN de faire im<lb />primer, vendre &amp; debiter unc piece de Theâtre
+<lb />intitulée le Grondeur Comedie; pendant le temps
+<lb />de ſix années, à compter du jour qu’elle ſera
+<lb />achevée d’imprimer pour la premiere fois, pen<lb />dant lequel temps tres - expreſſes inhibitions
+<lb />&amp; deffenſes ſont faites à toutes perſonnes de quel<lb />que qualité &amp; condition qu’elles ſoient, de faite
+<lb />imprimer, vendre ni debiter ladite Comedie d’autre:
+<lb />Edition que de celle de l’expoſant ou de ceux qui
+<lb />auront droit de lui, à peine de cinq cens livres d’a<lb />mende, de confiſcation des Exemplaires contrefaits,
+<lb />&amp; de tous dépens, dommages &amp; intérêts; &amp; autres
+<lb />petuier portees plus as roug puemialooiſtres de
+<lb />Privilege.
+</p>
+<p type="MainZone-Other"><lb />Regiſtre ſur le livre de la Commur a des Librai<lb />res &amp; Imprimeurs de Paris le 4. d' vril 1693
+</p>
+<sp type="MainZone-Sp"><lb />Signé, P. AUBOUIN Syndic.
+<lb />Achevé d’imprime: pour la premiere fois, le t.
+<lb />bril 1695.
+</sp>
+<p type="MainZone-Head"><lb />ACTEURS DU PROLOGUE.
+<fw><lb />ERASTE.
+<lb />DAMON.
+<lb />LICIDAS.
+<lb />MADAMOISELLE BEAUVAL.
+<lb />LE GASCON.
+</fw></p>
+<p type="MainZone-Head"><lb />PRORSOOE
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />DAMON, LICIDAS.
+</p>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />OUS vous deffendez mal, avoüez-R
+<lb />entre-nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Seaminam
+<lb />EICTDAJ.
+<lb />J’ay quitté le métier.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />La défaite eſt mauvaiſe;
+<lb />le ſçay que le Grondeur eſt encere de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />De moy, Monſieur, à Dieu ne plaiſe,
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ENAS IE,D'AMONJEICIDAS.
+</p>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />*T Oûjours aux nouveautez on vous voit le pre<lb />R mici,
+<lb />N’avez-vous rien appris de celle qu’on nous donne?
+</sp>
+<sp type="MainZone-Sp"><lb />Ei llo nas.
+<lb />J’ay vû des gens qui ſortoient du Cormier,
+<lb />Et qui diſoient entr’eux qu’elle étoit aſſez bonne.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Partiſans de l’Auteur qu’il venoit d’engager par
+<lb />un repas</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Rayez cela de vos tablettes,
+<lb />Monſſeur l’Auſcul vous-meme, ent-te que les
+<lb />Poëtes
+<lb />Donnent jamais à manger?
+<lb />Sur cet article ſeul on les voit toujours ſages.
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Mais le deſir de faire approuver ſes Ouvrages.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Ce n’en eſt guere le chemin,
+<lb />Il ne faut point chercher des flatteurs daus le vin,
+<lb />La Comedie en fait l’experience;
+<lb />Et l’on n’a pas connu ſes interéts,
+<lb />En la plaçant entre deux Cabarets.
+<lb />Il revient du Cormiery u lort dorumnance,
+<lb />Fort peu d’aprobateurs &amp; beaucoup de ſiflets.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />C’eſt-là que les ligues formées,
+<lb />Ayant élû pour chef quelque ſifleur bannal.
+<lb />N’attendent que le ſignal
+<lb />Des chandelles allumées,
+<lb />Pour donner au Theâtre un aſſaut general
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Lar, Mhomeur Eieidas parlons ſans paſſion,
+<lb />Souvent toute autre choſe excite la tempéte.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Les Dimanches ſur tout.
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Ha! pour les jours de Feſte,
+<lb />Je n’en ſerois pas caution.
+<lb />Mais ordinairement contez que cette guerre,
+<lb />Nait d’un legitime couroux
+<lb />Dans ce formidable parterre,
+<lb />D’où partent les plus rudes coups.
+<lb />On trouve toute la juſteſſe,
+<lb />Tout le bon ſens, tout le bon goût,
+<lb />Tout l’eſprit, toute la fineſſe,
+<lb />Et toute la délicateſſe
+<lb />Qu'on demande aujoura huy pour bien juger de
+<lb />tout;
+<lb />Enfin preſque toujours, la raiſon, la juſtice,
+<lb />Au mutmure public ont la meilleure part.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Et quelquefois auſſi l’envie eſt le caprice.
+<lb />Echoüer par chagrin, téuſſir par hazard,
+<lb />Ent le deſtin cominun aujourd’huy des ſpectacles,
+<lb />On en verra bien peu deſormais reſiſter
+<lb />A ce cruel deſtin, à moins de grands miracles.
+<lb />On n’’y va plus pour écouter,
+<lb />Les jeunes gens y vont traiter de leurs affaires,
+<lb />Faire aſſaut de tabac, tioquer des Tabatieres,
+<lb />S’informer du bon vin. Fy ſe laiſſer toucher
+<lb />A i
+<lb />A des plaiſirs ſi ſecs, ſent trop la vieille mode;
+<lb />Par habitude encor le monde y va chercher,
+<lb />Hors le ſpectacle ſeul tout ce qui l’accomode.
+<lb />Celuy-cy qui luy donne à ſouper chez l’amy:
+<lb />Celuy-là ſa Maitreſſe, &amp; l’autre ſon Amy,
+<lb />Qui fait à l’abordant par ſa voix, par ſon geſte;
+<lb />Un bruit qui force enſin les gens à décamper,
+<lb />En loüant en ſecret l’écornifleur modeſte,
+<lb />Qui n’y vient chercher qu’à ſouper.
+<lb />Ce ſont caquets, fracats qui jamais ne finiſſent,
+<lb />Jugez ſi c’eſt par tout un tumulte achevé,
+<lb />Les neul que les ienmes ſempimeir,
+<lb />Sont ceux cu le ſilence eſt le mieux obſervé.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Aux Loges, aux Balcons, quelquefois il ſe paſſe
+<lb />des Scenes.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />De tout temps les femmes ont parlé:
+<lb />C’eſt un point ſur lequel on doit leur faire grace.
+<lb />Il eſt vray quelquefois l’Acteur en eſt troublé,
+<lb />ſuai, on les voit uu ioms qui nemeuent en place.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Graces à la Croſnier qui les enferme à clé.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />1oai le repos pabſie, Dieu vuemte qu’on en faiſc
+<lb />Au premier jour autant de tous ces eſprits vifs,
+<lb />Changeant auſſi ſouvent de lieu que de grimace,
+<lb />Sur ce vaſte Theâtre ils ſe trouvent captifs:
+<lb />C’eſt pour leur promenade un trop petit eſpace.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />S’imaginer auſſi de les rendre attentifs
+<lb />A vos pieces à la glace,
+<lb />C’eſt terriblement ſe flatter,
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Faut-il encore le repeter?
+<lb />Le ſpectacle eſt perdu, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Mais.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />De grace,
+<lb />I voyez-vous venir quelqu’un pour écouter?
+<lb />On y vient pour fronder, pour tailler tout en pie<lb />ces;
+<lb />On y voit de ces frondeurs un ploton mutin,
+<lb />Qui.....
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />eto jen moy, momedr; uonuer de bonnes pic<lb />ces,
+<lb />Je vous répond de leur deſtin.
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />En ce temps l’entrepriſe eſt grande;
+<lb />Et l’on ne peut ainſi parler
+<lb />Tant que l’on n’aura pas deffendu de ſifler,
+<lb />Sur peine d’une groſſe amende.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Oh? je ne doute point que vous ne trouvaſſiez
+<lb />Cette amende ſort équitable;
+<lb />E ſur tout ſi le tiers en étoit aplicable
+<lb />Aux Auteurs diſgraciez.
+<lb />Vos plaintes là-deſſus ſont de pures chimeres.
+<lb />Rien ne tient mieux les gens dans leur devoir:
+<lb />Ecoutez-moy vous allez voir
+<lb />Si les Siflets ſont neceſſaires.
+<lb />Chez un Marchand moins riche en bijoux qu’en
+<lb />caquet,
+<lb />L’un prés de l’autre un jour ſe rencontrerent
+<lb />La Trompette &amp; le ſiflet
+<lb />Qui ſur le pas d’abord ſe querellerent.
+<lb />Leur procedé fut velent,
+<fw><lb />A iij
+</fw></sp>
+<p type="MainZone-Lg"><lb />L’un eſt traître &amp; moqueur, l’autre fier &amp; bruyante:
+<lb />Sans la preſence du Marchand.
+<lb />Leur querelle eût été ſanglaute.
+<lb />La Trompette bravant d’un ennemi ſi vain,
+<lb />Le ridicul orgueil &amp; l’impuiſſante rage,
+<lb />Crut avoir tout l’avantage
+<lb />D’une Geante contre un Nain.
+<lb />Oie-tu, diſoit-elle, au plus beau de mon regne,
+<lb />De ton merite au mien faire comparaiſon?
+<lb />Es-tu juſqu’à ce point dépourvû de raiſon.
+<lb />Vil Inſtrument que l’on dédaigne,
+<lb />Qui ſerois ignoré de tous,
+<lb />Sans les critinels rendez-vous?
+<lb />Où tu ſervois jadis dans l’horreur des tenebres,
+<lb />Aujourd’huy le Pont-Neuf joüit d’un plein repos.
+<lb />Trop de cataſtrophes celebres
+<lb />Ont ſervi de pompes funebres
+<lb />Aux proüeſſes de tes heros.
+<lb />Si tu prens deſormais ces manieres mutines,
+<lb />Vois en moy qui te châtiera.
+<lb />Es-tu ſi glorieux par ce qu’à l’Opera
+<lb />Tu fais mouvoir des façons de machines?
+<lb />Je vois bien ce qui t’a gâté,
+<lb />Ce ſont les airs d’autorité
+<lb />Qu’on te ſouffre à la Comedie.
+<lb />Les tours que tu faits-là te paroiſſent galands:
+<lb />Mais regarde de quelles gens
+<lb />Ton inſolence eſt aplaudie.
+<lb />Moy je fais mon devoir toujours prés des Guer<lb />riers,
+<lb />Ie leur fais moiſſonner des forèts de Lauriers,
+<lb />le ramcine, j’excite un languiſſant courage,
+<lb />On me doit des hauts faits qu’on ne peut oublier:
+<lb />Nas-tu pour tout avantage,
+<lb />Autie choſe à publitr?
+<lb />Repartit le Jilet vunair aſſez tranquille.
+</p>
+<sp type="MainZone-Sp"><lb />YROROSUE.
+<lb />Avec, un mot je veux t’humilier
+<lb />Dans le Camp des François Inſtrument inutile.
+<lb />De leur haute valeur tu n’és que le témoiu:
+<lb />I'exciter leur courage, a-t-on quelque beſoin?
+<lb />Croy-moy, rabaiſſe un peu de ce ton de tonnerre,
+<lb />Tu n’auras pas long-temps matiere à tes diſcours.
+<lb />Ah! fanfaronne, la guerte
+<lb />Ne dureras pas toujours.
+<lb />Nos Victoites ſont trop complettes,
+<lb />Pour ne voir pas dans peu tout calmé ou tout
+<lb />ſoûmis.
+<lb />A quoy ſervirez-vous alors pauvres Trompertes?
+<lb />la France au premier jour ſera ſans ennemis,
+<lb />Et jamais ſans mauvais Poëtes.
+<lb />Pendant ce plaiſant démélé,
+<lb />Le Marchaud par plaiſir ayant diſſimulé,
+<lb />A la fin éclata de rire.
+<lb />Pour mettre toutefois la paix dans ſa maiſon,
+<lb />Je ſuis faché, dit-il, Trompette de vous dire,
+<lb />Que ſi le ſifiet à raiſon,
+<lb />Vous nous contez des ſornettes,
+<lb />Quand vous faites ſonner ſi haut vos grands em<lb />plois.
+<lb />Depuis un certain temps je debite en un mois
+<lb />Beaucoup plus de Siflets qu’en deux ans de Trom<lb />pettes.
+<lb />Il vous dit vray, bien-têt vous ſerez au filet,
+<lb />La paix vous rendra muette,
+<lb />On ne conſervera que la douce muzette,
+<lb />Le hant-bois &amp; le ſſajolſer,
+<lb />Pour chanter les Amours ſur les bords de la Seine;
+<lb />Et le redoutable ſiflet,
+<lb />Peur corriger les abus de la Scene.
+<lb />Ces vels vous Hlaiſent-il53
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Si.....
+</sp>
+<sp type="MainZone-Sp"><lb />A iiij
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Mon intention
+<lb />Eſt de ſçavoir comment Eraſte les regarde.
+<lb />Pour vous, Monſieur, je n’ay garde
+<lb />De vous faire jamais pareille queſtion;
+<lb />Mais on vas commencer. Voici l’inſtant fatal,
+<lb />Et je vois dans cette couliſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />Qui?
+<lb />ERAJTE.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Madamoiſelle Beauval.
+</sp>
+<sp type="MainZone-Sp"><lb />FRASTE.
+<lb />En écharpe une telle Actrice,
+<lb />Me Joulels eus poma?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />j’en augurcrois mal</sp>
+<sp type="MainZone-Sp"><lb />ERAJIE.
+<lb />Il faut que ſur ce point elle nous éclairciſſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />MADAMOISELLE BEAUVAL, DAMON.
+<lb />ERASTE, LICIDAS.
+</p>
+<sp type="MainZone-Sp"><lb />MADAMOISELLE BEAUVAL.
+<lb />Reve plutôt l’Auteur de la frayeur qu’il a.
+<lb /> Renvoyer ce beau Monde-là,
+<lb />Vraiment nous aurions bonne arace,
+<lb />Rendre un double, encore moins, qu’il conte fur
+<lb />cela.
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />De quelle bonne humeur aujourd’huy vous voila.
+</sp>
+<p type="MainZone-Lg"><lb />M. BEAUVAL.
+<lb />vous ririez trop, Meſſieurs, de voir ce qui ſe
+<lb />paſſe.
+<lb />L’Auteur de cette Piece, orgueilleux, confiant,
+<lb />(Comme ils ſont tous) gardant pour luy ſon eſti<lb />me,
+<lb />S’aplaudiſſant toujours, &amp; toujours décriant,
+<lb />Tout ce qui ne vient point de ſon eſprit ſublime,
+<lb />Idolâtre eternel de ſes productions.
+<lb />Traitant tout les Auteurs prés de luy d’allobroges,
+<lb />Au Grondeur chaque jour ajoûtoit des éloges.
+<lb />Il le falloit entendre aux repetitions,
+<lb />Proner ſa Comedie, élever ce chef-d’œuvre,
+<lb />Il nous alloit tous enrichir.
+<lb />De ce mátin plus humble, &amp; cherchant à gauchir,
+<lb />Le parterre luy ſemble aſpic, ſerpent, couleuvre,
+<lb />Lans ſon premier couroux difficile à flecnir,
+<lb />L’affronter eſt, dit-il, une terrible choſe,
+<lb />Combattu, mais trop tard de ces reflexions,
+<lb />Je viens de le laiſſer dans les convulſions.
+<lb />On doit aux violons cette metamorphoſe,
+<lb />Qui du premier coup d’archet
+<lb />L’ont rendu ſourd &amp; muct.
+<lb />D’abord il regardoit allumer les chandelles,
+<lb />Sans trop paroître ſe troubler;
+<lb />Mais la toile levée, on la vu chanceler,
+<lb />Rougir, palir, ceder à ces frayeurs mortelles,
+<lb />La peur entierement a troublé ſon eſprit,
+<lb />I! extravague &amp; ne ſçait ce qu’il dit,
+<lb />Quoiqu’on luy repreſente, ii raiſonne pantoufle.
+<lb />Sa Comedie en poche il tremble &amp; n’entend rien,
+<lb />Nous ne la ſçavons pas cependant aſſez bien,
+<lb />Pour la joüer ſans qu’on nous ſouſfle,
+<lb />Nous ſommes bien embaraſſez,
+<lb />Je n’ay vũ de mes jours une choſe pareille.
+</p>
+<sp type="MainZone-Sp"><lb />Licidas qui rit.
+<lb />Ne riez point, autant vous en pend à l’oreille,
+<lb />Depuis duez long-temps vous nous en menacez;
+</sp>
+<sp type="MainZone-Sp"><lb />LICIDAS.
+<lb />Peut-on vous écouter ſans un plaiſir extrême?
+<lb />Vôtre recit a tant d’appas,
+<lb />Que je veux aller voir moy-même l’embarras
+<lb />main ſomme jarquex iey troy ſempiy de luy-mẽ<lb />me.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Je confeſſe pour moy que j’en ris de bon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Pour moy ſans connoîtte l’Auteur,
+<lb />l’ay pitié de ſa confiance,
+<lb />Et j’eſtime beaucoup ſa peur.
+<lb />L’une de l’amour propre eſt une douce erreur.
+<lb />Laune un eſet de la prudence.
+<lb />Cette peur le rendra plus ſage à l’avenir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV
+<lb />MADAMOISELLE BEAUVAL, DAMON,
+<lb />LE GASCON, ERASTE.
+</p>
+<sp type="MainZone-Sp"><lb />MADAMOISELLE BEAUVAL.
+<lb />JOus ne pouviez, Monſieur, plus à propos ve<lb />7
+<lb />nir.
+<lb />Qui peut mieux qu’un Gaſcon en fait de hardieſſe,
+<lb />Mener les gens tambour battant?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />à Mademoiſelle Beauval, à Damon, à Eraſte.
+<lb />Parlez. Ah te voila! ſerviteur : hé bien! qu’eſt-ce?
+<lb />S agitii tone ley d'un expieſt important?
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />D’encourager l’Auteur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Qu’eſt-ce donc qu’il craint tant?
+<lb />Queron n’accompagne ſa piece
+<lb />De quelque concert éclatant.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />vous vona dans le fait ians que je vous l’expli<lb />que.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />J’entends les gens à demy mot.
+<lb />Eh donc! de s’en fâcher l’Auteur eſt-il ſi ſot?
+<lb />Cet homme aſſurément n’aime pas la Muſique.
+<lb />bazatene, cela dont-il vous falentir?
+<lb />Nous ſommes quelques bonnes lames,
+<lb />Qui ferons un orcheſtre à vous bien divertir.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy?
+<lb />M. BEAUVAL.
+</sp>
+<sp type="MainZone-Sp"><lb />E n 1e derre
+<lb />Cela vous déplaît?
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Ouy, beaucoup ſans mentir.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Ah! je n’ay ſçu jamais rien refuſer aux Dames;
+<lb />Et ſi vous m’en priez, je puis vous garantir.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Tu connois les auteurs de ces nobles aubades.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Si je le connois, ils ſont tous
+<lb />Mes amis &amp; mes camarades.
+<lb />C’eſt une gloire parmy nous
+<lb />D’inventer ſur ce point quelque mode nouvelle;
+<lb />L’un fait bien le haut bois, r'autie ie eriauuioniſez.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />En cet art, Dieu mercy, tu n’eſt pas le dernier.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Ah! c’eſt en quoy ſans vanité j’eſſele,
+<lb />Je fais faire un ſiflet tout neuf ſur ce modelle,
+<lb />En montrant un monſtrucux ſiftat.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Celuy-là ſuffiſoit, on n'en ſçauroit trouver
+<lb />De meilleur pour joüer long-temps le premies
+<lb />róle,
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />je crois pourtant luſer dans cet hyver,
+<lb />Si la Troupe nous tient parole.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />ERASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Tve nous promce on pas
+<lb />Des nouveautez de toutes ſortes,
+<lb />Comieue, ſerieux, tout franchira le pas?
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Mais ſi ces nouveautez étoient bonnes?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />N’importe.
+</sp>
+<sp type="MainZone-Sp"><lb />ERASTE.
+<lb />Quelle façon de decider?
+<lb />De bonne foy je m’étonne
+<lb />Que l’on ne trouve plus perſonne
+<lb />Qui vueille ſe hazarder
+<lb />Pour s’expoſer ſur la Scene:
+<lb />Il faut eſtre averé fou,
+<lb />C’eſt s’aller rompre le cou,
+<lb />La chûte eſt toujours certaine;
+<lb />Cependant vous rebutez
+<lb />Tel à force de vous craindre,
+<lb />Qui pouroit un jour atteindre
+<lb />Peut-eftre aux grandes beautez.
+<lb />Vous ſiflez d’une maniere
+<lb />A deſeſperer les gens;
+<lb />Ou reſſuſcitez Moliere,
+<lb />On lojes plus ilidufgens.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Contre cette raiſon tu ne peux te défendre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Ferons-nous pour vous vaincre un effort ſuperflu?
+<lb />Daigner tranquhement aujourd’huy nous enten<lb />dre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Jourez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Oüy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />2 disce nea
+<lb />C’eſt un point reſolu,
+<lb />cetle Plece d’abbia lur ion noi ma depiu.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Quoy, vous ne voulez pas vous rendre?
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Ecoutez ſur ce nom, je ſuis vôtte valet,
+<lb />A plus que de recits d’un modeſte ſiflet,
+<lb />Et vous &amp; vôtre Aureur vous deviez vous attendre,
+<lb />On en preparoit un chœur,
+<lb />Au ſeul titre de Grondeur.
+<lb />Il ne promet rien d’agreable,
+<lb />Rien que de tintamarre un ennuveux tiſſu.
+<lb />Je le conçois ainſi, mardi je ſuis un Diable.
+<lb />Je ne demords jamais de ce que j’ay conçû.
+<lb />Dans tout norre Aimagnat on connoît ma con<lb />ſtance,
+<lb />Sur les bords de Garonne, à Foix, à Taraſcon,
+<lb />Ma fermeté paſſe toute croyance;
+<lb />Cependant je nie rends à vous par compiaiſance,
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />Je vous ſuis obligée.
+</sp>
+<sp type="MainZone-Sp"><lb />Au moins point de Gaſcon;
+<fw><lb />B
+</fw><lb />En ce cas ſans quartier la guerre recommence,
+<lb />Non par aucun chagrin: pourquoy ſe gendarmer.
+<lb />Voyans que nous faiſons le vif des Comedies?
+<lb />Que Gaſcon vrais ou faux, ont le don de charmer,
+<lb />Pardy l’on doit bien nous aimer,
+<lb />Puiſque l’on aime tant nos mauvaiſes copies;
+<lb />Mais la varieté fut toujours de mon goût,
+<lb />Et depuis certain temps je ne vois autre choſe,
+<lb />Que Gaſcon là, Gaſcons icy, Gaſcons par tout.
+<lb />Et vertubleu cela.... me pouſſe à bout,
+<lb />Que la Gaſcogne au moins pour un temps ſe re<lb />poſe;
+<lb />J’en ſuis las.
+</sp>
+<sp type="MainZone-Sp"><lb />Bia. DElloynn D.
+<lb />On n’en fait aucune mention,
+<lb />Je vous jure, Monſieur, dans la Piece nouvelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />A cette condition,
+<lb />Va, je prens le Grondeur ſous ma proteſſion.
+</sp>
+<sp type="MainZone-Sp"><lb />M. BEAUVAL.
+<lb />. dire à l’Auteur cette bonne nouvelle.
+</sp>
+<p type="MainZone-Head"><lb />SCLNE
+<lb />V.1
+<lb />ERASTE, DAMON, LE GASCON.
+</p>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Admire ta preſomption,
+<lb />Crains que le Protecteur ne ſoit ſiſſe luy-meme.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Que je rirois de ton erreur extrême,
+<lb />Mais tu me fais compaſſion.
+<lb />Palaſandis, je ſçay qu’à ma devotion
+<lb />l’aurois en un moment plus de trois cens flamber<lb />ges,
+<lb />j’ay du credit dans les Auberges.
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />On le ſçait bien, tu dois par tout ta penſion.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Que je crains pour ta Commiſlion.
+</sp>
+<sp type="MainZone-Sp"><lb />LE GASCON.
+<lb />Ne crains rien, de ce pas j’y vôle;
+<lb />Je l’ay promis, puis-je m’en diſpenſer?
+<lb />On peut Ianc commencer;
+<lb />Cependant ſur ma parole,
+<lb />J'en répond.
+</sp>
+<sp type="MainZone-Sp"><lb />La caution
+<lb />ERASTE.
+<lb />Me paroît un peu vereuſe,
+<lb />Et ſur un tel garant je tiens l’attention
+<lb />Du Public choſe douteuſe,
+</sp>
+<sp type="MainZone-Sp"><lb />DAMON.
+<lb />Sans vouloir me préoccuper,
+<lb />J’attends peu d’un Aureur dont la peur eſt exttéme<lb />Mais pour l'amour de luy, du Public, de nous-me<lb />me,
+<lb />Je ſouhaite de me tromper.
+</sp>
+<p type="MainZone-Other"><lb />B ij
+</p>
+<p type="MainZone-Head"><lb />ACTEURS.
+<lb />Bi. ORfeiniD, Mienecin
+</p>
+<p type="MainZone-Entry"><lb />TERIGNAN, fils de M. Grichard, Amamt
+<lb />de Cſarice.
+</p>
+<p type="MainZone-Entry"><lb />HORTENSE, fille de M. Grichard.
+</p>
+<p type="MainZone-Entry"><lb />ARISTE, frere de M. Grichard.
+</p>
+<p type="MainZone-Entry"><lb />MONDOR, Amant d’Hortenſe.
+</p>
+<p type="MainZone-Entry"><lb />delllasas, iseitallsa ds denhini
+</p>
+<p type="MainZone-Entry"><lb />DAILLON, Iiſs ut M. Giichatd.
+</p>
+<p type="MainZone-Entry"><lb />M. MAMURRA, Precepteur de Brillon</p>
+<p type="MainZone-Entry"><lb />CATAU, Servante d’Hortenſe.
+</p>
+<p type="MainZone-Entry"><lb />LOLIVE, Valet de M. Grichard.
+</p>
+<p type="MainZone-Entry"><lb />Un Laquais de M. Grichard.
+</p>
+<p type="MainZone-Entry"><lb />Un Prevoſt de Maiſtre à Dancer.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt chez M. Grichard.
+</p>
+<p type="MainZone-Head"><lb />LE GRONDEUR,
+<lb />COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />I
+<lb />SCENE PREMIERE,
+<lb />TERIGNAN, HORTENSE.
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />AIS, ma ſœur, pourquoy ce
+<lb />Dorenccuens 1
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Nvous ie igaurons quand mon
+<lb />pere reviendra de la Ville.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Il faudroit le ſçavoir plûtôt.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Vous avez envoyé Lolive chez mon on<lb />cle, &amp; moy Catau chez Clarice pour s’en
+<fw><lb />A ii
+</fw><lb />eidiciier, na ſarana clen tos des
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Qu’ils tardent à venit, &amp; que je ſouf<lb />fre dans Iincertitude oil je ſuis.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Voicy déja Catau.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CATAU, TERIGNAN, HORTENSE.
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />E' bien! qu’as-tu appris chez Cla<lb />I Trice?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Monſieur de Saint Alvar ſon pere étoit
+<lb />dedr, ce Ciaſice ircton pu, encore levccs
+<lb />Mais.....
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Quoy: mais.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ne connoiſſez-vous pas à mon air que
+<lb />e vous apporte de bonne nouvelles:
+</sp>
+<sp type="MainZone-Sp"><lb />HORTESSE.
+<lb />Et quelles?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous ſerez mariez ce ſoir l’un &amp; l’autre.
+<lb />La maiſon de Monſieur de Saint Alvar eſt
+<lb />toujours remplie de preparatifs qu’on y
+<lb />fait pour vos nopces.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Je vous-le diſois bien, mon ſrere.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Je ne ſetay point en reros que je ne ſça<lb />ene la taiton du fefardement d’hier au
+<lb />ſoir de la propre bouche de mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Va donc voir s’il eſt revenu</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Bon, revenu; &amp; ne l’entendrions-nous
+<lb />pas s’il étoit au logis? Ceſſe-t il de crier,
+<lb />de gronder, de tempẽter, tant qu’il y eſt?
+<lb />&amp; les voiſins eux-mêmes ne s’apercoivent<lb />ils pas quand il entre ou quand il ſort?
+</sp>
+<sp type="MainZone-Sp"><lb />de2 de aved.
+<lb />Au moins ſeconde-nous bien aujour<lb />d’huy; quoyqu’il faſſe, nous avons reſola
+<lb />de le contenter.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />De le contenter? ma foy il faudroir eſtre
+<lb />bien fin, avoüez que c’eſt un terrible mor<lb />tel que Monſieur vôtre pere.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Nous ſommes obligez de le ſouffeir tel
+<lb />qu'ie eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Les valets &amp; les ſervantes qui entrent
+<lb />ceans, n’y demeurent tout au plus que
+<lb />cinq ou ſix jours. Quand nous avons be<lb />ſoin d’un domeſtique, il ne faut pas ſon<lb />ger à le trouver dans le quartier ni même
+<lb />dans la Ville, il faut l’envoyer querir en
+<lb />un païs où l’on n’ait point oüy parler de
+<lb />Monſieur Grichard le Medecin. Le petit
+<lb />Brillon vôtre ſrere, qu’il aime à la rage,
+<lb />a changé de Precepteur trois fois dans ce
+<lb />mois-cy, parce qu’ils ne le châtioient pas
+<lb />à ſa fantaiſie. Moy-même je ſerois déja
+<lb />Diou toues uee Iey pour
+<lb />vous..... Mais voicy Lolive.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LOLIVE, TERIGNAN, HORTENSE
+<lb />CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />E' bien! que t’a dit mon oncle?
+</sp>
+<sp type="MainZone-Sp"><lb />11
+<lb />LOLIVE.
+<lb />Monſietu, d’abord il m'a demandé ſi
+<lb />Monſieur vôtre pere, à qui il m’a donné,
+<lb />étoit bien content de moy. Je luy ay ré<lb />pondu que je n’étois pas trop content de
+<lb />luy, &amp; que depuis deux jours que je le ſers,
+<lb />ii ne ill a pau se Penlole,,
+</sp>
+<sp type="MainZone-Sp"><lb />TARIGNAN.
+<lb />Eh laiſſe tout cela! &amp; me dis ſeulement
+<lb />Anna pamt lcu peuquoy mon mariage
+<lb />avec Clarice a été differé.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Et s’il n’a rien appris de nouveau ſur le
+<lb />mien avec Mondor.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />den a ddyn Jojois venlss,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh viens-y donc!
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Dans le moment que je m’informois de
+<lb />vos affaitos, le pere de Clarice eſt entré,
+<lb />&amp; il n’a pas eu le temps de me parler.
+</sp>
+<sp type="MainZone-Sp"><lb />AERIORANS.
+<lb />Tu n’as donc rien appris?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Pardonnez-moy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />C'eſt donc en écoutant ce qu’ils ont dita
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oüy, Madamoiſelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Et deſuoy la lomcena ellcictondss
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je vais vous le dire; ils ſe ſont tirez à
+<lb />l’écart, ils m'ont fait ſigne de m’éloigner
+<lb />ils ont parlé tout bas, &amp; je n’ay tien ctl<lb />tendu.
+</sp>
+<sp type="MainZone-Sp"><lb />CITAU.
+<lb />Te voila bien inſtruit.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVL.
+<lb />Mieux que tu ne penſes.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Mais à ce compte-là tu ne peut rien
+<lb />R 32
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Pardonnez-moy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Mon oncle te la donc dit, ou quelqu'au<lb />tre aprés que Monſieur de Saint Alvar a
+<lb />été lorty?
+</sp>
+<sp type="MainZone-Sp"><lb />Aus
+<lb />Pardonnez-moy, Madamoiſelle.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh comment diantre le ſçair-tu donc?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oh donne-toy patience! Vous ne con<lb />noiſſez pas encore tous mes talens; on ſe
+<lb />cache des valets quand on i queique lecret
+<lb />à dire: &amp; moy depuis que je ſers, je me
+<lb />ſuis fait une étude de deviner les gens.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />l'eſte de Timbeciſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oüy, &amp; j’y ay ſi bien réuſſi, que lorſque
+<lb />deux perſonnes dont je ſçay les affaires
+<lb />diſcoutent enſemble avec un peu d’action,
+<lb />je ne veux que les voir en face, &amp; je ga<lb />gerois à leur geſte, &amp; à l’air de leur viſage,
+<lb />de vous raporter mot pour mot ce qu’ils
+<lb />ont dit.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />du dls Mamla nl.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />MMais enun que loupçonne-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Que vos affaires ont changé de face.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />A quoy las-tu reconnu?
+</sp>
+<sp type="MainZone-Sp"><lb />v L
+<lb />Premierement, à ce que Monſieur de
+<lb />Saint Alvar n’a rien voulu dite devant moy
+<lb />à Monſieur Ariſte.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Ah! ma ſœur, il n’y a que trop d’appa<lb />rence.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je ne vous ay pas encore tout dit.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Oyais tu queique ſuole de plus;
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oh que oüy! A peine le pere de Clarice
+<lb />a ouvert la bouche, que voicy comme vô<lb />tre oncle luy a répondu. Remarquez bien
+<lb />Cecje.
+<lb />1! fait des aclious d’un hemme ſupris &amp; en celere.
+</sp>
+<sp type="MainZone-Sp"><lb />OnLMO.
+<lb />Que diantre veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Quoy tu ne le vois pas? cela eſt pour<lb />tant plus clair que le jour, &amp; Monſieur
+<lb />lel cuseyene eolduuxcdrci.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />je mn en doute aiſtz.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Et Macamoncne duiſi</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Je n’y comprens rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je vais vous l’expliquer. Quand vôtre
+<lb />oncle faiſoit ainſi, Il refait les meſnes ſigues.
+<lb />vous jugez bien qu’il étoit ſurpris, étonné,
+<lb />&amp; en colere de ce que Monſieur de Saint
+<lb />Alvar venoit de luy dire: ces actions par<lb />lent d’elles-mêmes. Tenez, voyez ſi avec
+<lb />ces geſtes-là il pouvòit luy dire autre choſe
+<lb />que
+<lb />que cecy. Quoy vous avez changé de ſen<lb />uiment? que me dites-vous là? eſt-il poſ<lb />Alole2
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Que diſoit à cela Monſieur de Saint Al<lb />var?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />MxINy qu'a ly MM quim.
+<lb />Antion d’us henme qui fait ais exeuſes.
+</sp>
+<sp type="MainZone-Sp"><lb />CATMU.
+<lb />Et que veulent dire ces actions-là?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Pour celles-là elles ſont équivoques.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Point, je les trouve auſſi claires que les
+<lb />Riiliese
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Expliquez-les donc pour voir.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAO.
+<lb />Eh explique-les toy-même, puiſque tu
+<lb />as commencé.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Cela peut ſignifier qu’il luy faiſoit des
+<lb />excuſes d’avoir été obligé de changer de
+<lb />ſentimens. Voyez j’en ſuis bien fâché, je
+<lb />n’ay pû faire autrement, Mouſieur Gri<lb />chard l’a voulu: ou bien cela pourroit en<lb />core ſignifier que l’abſence de Mondor a
+<lb />été cauſe qu’on a differé vos mariages.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Quoy tu trouve tout cela dans ces geſ<lb />LC35
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je gagetois qu’il ne s’en faut pas une
+<lb />ſillabe.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />C’eſt un fou, vous dis-je, cela ne peur
+<lb />eſtre, Clarice eſt fille unique de Monſieur
+<lb />de Saint Alvar, qui eſt un riche Gentil<lb />homme amy de vôtre pere: Mondor eſt un
+<lb />homme de qualité, dont le bien &amp; le me<lb />rite répondent à la naiſſance: vos maria<lb />Meest11 1a parſole cii
+<lb />donnée, les Contracts ſont dreſſez, il n’y
+<lb />a qu’a nguer; n'ne nçait ce qu’il dit.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />ſe ne croy pourtant pas m’eſtre trompé,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Cependant tu n’as rien oüy?
+</sp>
+<sp type="MainZone-Sp"><lb />BO L
+<lb />Non, mais j’ay vû; &amp; les actions des
+<lb />hommes iont moni tiompeuſes que leurs
+<lb />paroles.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN<lb />Je tremble qu’il ne diſe vray</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous vous arré̂tez a des Viſons, o ioy
+<lb />je vieus de voir des preparatiſs de nopces.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Et ce ſont peut-eſtre ces preparatiſs qui
+<lb />ont rebuté Monſieur Grichard. Tu ſçais
+<lb />qu’il a une parfaite averſion pour tour ce
+<lb />qui s’apelle feſtin, bals, aſſemblée, diver<lb />tiſſemens, &amp; enſin pour tout ce qui peut
+<lb />inſpirer la joye.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Quoy qu’il en ſoit, va faire exactement
+<lb />ce que mon pere t’a commandé quand il
+<lb />eſt ſorty, afin qu’a ſon retour il ne trouve
+<lb />icy aucun ſujet de ſe mettre en colere.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Adieu truchement de malheur, va faite
+<lb />des Coſimeneeles lur let griisces de no<lb />tre ſinge.
+</sp>
+<p type="MainZone-Head"><lb />e dd d aaM
+<lb />AVM
+<lb />TERIGNAN, HORTENSE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />NE que Lolive vient de nous dire re<lb />double mes alarmes.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Auriez-vous fait connoître à vôtre pere
+<fw><lb />C.
+</fw><lb />ue vodo ceue ſmoutcun de CCuasce;
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Moy, non aſſurément, il me ſoupçonne
+<lb />au contraire d’aimer Nerine la fille d’un
+<lb />Medecin qui n’eſt pas trop de ſes amis; &amp;
+<lb />pour le laiſſer dans ſon erreur lorſqu’il me
+<lb />propoſa hier la belle Clarice, je feignis
+<lb />de n’y conſentir qu’à regret.
+</sp>
+<sp type="MainZone-Sp"><lb />CMTAUS
+<lb />Vous fîtes fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Il ignore auſſi mes ſentimens pour Mon<lb />dor, &amp; croit même que je ne l’ay jamais
+<lb />vû non plus que luy, à cauſe qu’il eſt preſ<lb />que toujours à l’armée.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Tant mieux, gardez-vous bien de luy
+<lb />faire connoître que ces mariages vous plai<lb />ſent: les eſprits rebours comme le ſien, ne
+<lb />veulent jamais ce qu’on veut, &amp; veulent
+<lb />CeujMTao.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />On frape, &amp; même rudement: voy qui
+<lb />c’eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ce ſera ſans doute vôtre pere: non, Dieu
+<lb />mercy, c’eſt Monſieur Ariſte.
+<fw><lb />4
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V.
+<lb />ARISTE, TERIGNAN, HORTENSE,
+<lb />CATMV.
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />E' bien, mon oncle, comment vont
+<lb />AInos aſfaires?
+</sp>
+<sp type="MainZone-Sp"><lb />Dore insuie
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />An Cier:
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Quoy mon oncle?
+</sp>
+<sp type="MainZone-Sp"><lb />Ceop l ILs
+<lb />Võtre pere me ſuit, retirez-vous, laiſ<lb />secomoy luy paller, jevcun tacher de le
+<lb />ramener à la raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Seroit-il poſſible?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Rerirez-vous, dis-je, &amp; m’attendez dans
+<lb />votre appartement, j’iray vous rendre<lb />compte de tout; &amp; viſte il vient.
+<lb />C. iij.
+<fw><lb />..
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh tôt, retirons-nous, voici l’orage, la
+<lb />tempeſte, la greſle, le tonnerre, &amp; quel<lb />que choſes de pis. Sauve qui peut.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />MONSIEUR GRICHARD, LOLIVE,
+<lb />ARISTE.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ourreau me feras-tu toujours frapes
+<lb />Ddeux heures à la porte?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Monſieur je travaillois au jardin; au pre<lb />mier coup de marteau j’ay couru ſi viſte,
+<lb />que je ſuis tombé en chemin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRRCIIARV.
+<lb />Je voudrois que tu re fuſſe rompu le cou,
+<lb />double chien, que ne laiſſe-tu la porte ou<lb />verte,
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Eh! Monſieur, vous me grondâtes hier
+<lb />à cauſe qu’elle l’étoit: quand elle eſt ou<lb />verte vousyvous fâchez, quand elle eſt fer<lb />mée vous vous ſâchez auſſi; je ne ſçay plus
+<lb />comment faire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment faire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Mon frere, voulez vous bien?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />On domez-vons patience! commens
+<lb />faire coquin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Eh, mon frere, laiſſez-la ce vaſet, &amp;
+<lb />ſouffrez que je vous parle de.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Momieul ſon ſiere, quand vous gron<lb />dez vos valets, on vous les laiſſe gronder.
+<lb />en repos.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il faut luy laiſſer paſſer ſa fougue.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment faire infame.
+</sp>
+<sp type="MainZone-Sp"><lb />LODIVI.
+<lb />Oh ça, Monſieur, quand vous ſerez<lb />forty voulez-vous que je laiſſe la porte ou<lb />verte?
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />M. GRICHARD,
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Voulez-vous que je la tienne ferméer
+</sp>
+<sp type="MainZone-Sp"><lb />NOſſ.
+<lb />M. GRICHARD.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Si faut-il Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Encore tu raiſonneras yvrogne.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il me ſemble aprés tout, mon frere, qu’il
+<lb />ne raitome pas mai, &amp; ron doit eltre
+<lb />bien-aiſe d’avoir un valet raiſonnable.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et il me ſemble à moy, Monſieur mon
+<lb />frere, que vous raiſonnez fort mal: oüy,
+<lb />Ton doit eitre biem aite duvoir un valet
+<lb />raiſonnable, mais non pas un valet raiſon<lb />neur.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Morbſeu j’enrage d’avoir raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Te tairas-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />BOEEVLI
+<lb />Monſieur, je me ſerois hacher; il faut
+<lb />qu’une porte ſoit fermée ou ouverte: choi<lb />ſiſſez, comment la voulez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je te l’ay dit mille fois coquin. Je la
+<lb />veux...... je la: mais voyez ce maraut-là,
+<lb />eſt-cé à un valet à me venir faire des queſ<lb />cions: Si je te prend traître, je te montze<lb />ray bien comment je la veux. Vous riez,
+<lb />je penſe, Monſieur le Juriſconſulte?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Moy, point; je ſçay que les valets ne
+<lb />font jamais les choſes comme on leur dit.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />vous ſir aver pourtait donné ce coquin<lb />là.
+</sp>
+<sp type="MainZone-Sp"><lb />ANT3IE.
+<lb />Je croyois bien faire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh je croyois; ſçachez Monſieur le
+<lb />rieur que je croyois n’eſt pas langage d’un
+<lb />homme bien ſenſé.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Eh laiſſons cela, mon frere, &amp; permet<lb />tez que je vous parle d’une affaire plus im<lb />portante dont je ſerois bien-aiſe.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Non, je veux auparavant vous faite
+<lb />voir à vous-melme comment je ſuis ſet yy
+<lb />de ce pendait-la, aſſt que vous ne veiez
+<lb />pas aprés me dire que je me fâche ſans ſu<lb />jet; vous allez voir, vous allez voir. As
+<lb />tu balayé l’eſcalier?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oüy, Monſieur, depuis le haut juſqu’en
+<lb />bas.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Er la coul 2
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Si vous y trouvez une ordure comme
+<lb />cela, je veux perdre mes gages.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tu n’a pas fait boire la mule?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />An : Momſeur, deniandez-le aux voi<lb />ſins qui m’ont vû paſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Luy as-tu donné l’avoine?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oüy, Monſieur, Guillaume y étoit
+<lb />preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />Me GRIOIARD.
+<lb />Mais tu n’as point porté ces bouteilles
+<lb />de Quinquina où je t’ay dit?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Pardonnez-moy, Monſieur, &amp; j’ay ra<lb />ffalle las vundes.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et mes Lettres les as-tu portez à la poſ<lb />te? Hem.....
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Peſte, Monſieur, je n’ay eu garde d’y
+<lb />manquer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICEMRICE.
+<lb />Je t’ay défendu cent fois de racler ton
+<lb />maudit violon; cependant je r’ay entendu
+<lb />de maliia
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ce matin? ne vous ſouvient-il pas que
+<lb />vous me les miſtes hier en mille pieces.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je gagerois que ces deux voyes de bois
+<lb />ſont encore.....
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Elles ſont logées, Monſieur. Vraimenr
+<lb />depuis cela j’ay aidé à Guillaume à met<lb />tre dans le grenier une charetée de foin,
+<lb />j’ay arroſé tous les arbres du jardin, j’ay
+<lb />moyplep lnees, j’ay beché trois plan<lb />ches, &amp; j’ache vois l’autre quand vous avez
+<lb />frapé.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh! il faut que je chaſſe ce coquin-là;
+<lb />jamais valet ne m'’a fait enrager comme
+<lb />celuy-cy, il me feroit mourir de chagrin<lb />liors d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Que diable a-t-il mangé?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE le plaignant.
+<lb />Retire-toy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />montordonemoicrorhino, AxDIE.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />N verité, mon frere, vous eſtes d’une
+<lb />étrange humeur à ce que je voy: vous
+<lb />ne prenez pas des domeſtiques pour en
+<lb />eſtre ſervy, vous les prenez ſeulement pour
+<lb />devon aa piſin ds Svonder.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! vous voila d’humeur à jazer.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Quoy, vous voulez chaſſer ce valet à
+<lb />cauſe qu’en faiſant tout ce que vous luy
+<lb />Coimiancez ce du deia, iine vous donic
+<lb />pas ſujet de le gronder, ou pour mieux di<lb />re vous vous fâchez de n’avoir pas dequoy
+<lb />vous fâcher.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Courage, Monſieur l’Avocat, controllez
+<lb />bien mes actions.
+</sp>
+<sp type="MainZone-Sp"><lb />ARIJIE.
+<lb />Eh! mon frere, je n’étois pas venu icy
+<lb />pou:
+<lb />pour cela; mais je ne puis m'empêcher de
+<lb />vous plaindre, quand je vois qu’avec tous
+<lb />les ſujets du monde d’eſtre content, vous
+<lb />étes toujours en colere.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il me plaît ainſi.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Eh je le voi bien! tout vous rit, vous
+<lb />vous portez bien, vous avez des enfans
+<lb />bien nez, vons étes veuf, vos affaires ne
+<lb />ſaauroient mieux aller; cependant on ne
+<lb />voit jamais ſur vôtre viſage cette tranquil<lb />lité d’un pere de famille qui répand la
+<lb />joye dans toute ſa maiſon: vous vous tour<lb />meiſtez tans cene, &amp; vous toummentez par
+<lb />conſequent tous ceux qui ſont obligez de
+<lb />vivre avec vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! cecy n’eſt pas mauvais. Eſt-ce que
+<lb />je ne ſuis pas homme d’honneur?
+</sp>
+<sp type="MainZone-Sp"><lb />ARDTE.
+<lb />Perſonne ne le conteſte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A-t-on rien à dire contre mes mœurs?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Non ſans doute.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je ne ſuis, je penſe, ni fourbe, ni avare,
+<fw><lb />D
+</fw><lb />ni menteur, ni babillard comme vous
+<lb />Sces.s...
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il eſt vray, vous n’avez aucun de ces vi<lb />ces qu’on a joüez juſques-a-preſent ſur le
+<lb />Theâtre, &amp; qui frapent les yeux de tout
+<lb />le monde; mais vous en avez un qui em<lb />poiſonne toute la douceur de la vie, &amp;
+<lb />qui peut-eſire eſt plus incommode dans la
+<lb />ſocieté que tous les autres. Car enfin on
+<lb />peut au moins vivre quelquefois en paix
+<lb />avec un fourbe, un avare, &amp; un menteur;
+<lb />mais on n’a jamais un ſeul moment de re<lb />pos avec ceux que leur malheureux tempe<lb />lamiem porte ircie coujcurs imenc a, qu'un
+<lb />rien met en colere, &amp; qui ſe font un triſte
+<lb />plaiſir de gronder &amp; de criailler ſans ceſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Aurez-vous bien-tôt achevé de me mo<lb />raliſer? je commence à m’échauffer beau<lb />coup.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE.
+<lb />Je le veux bien, mon frere, laiſſons ces
+<lb />conteſtations. On dit aujour d’huy que
+<lb />vous vous mariez.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />On dit, on dit; dequoy ſe meſle-t-on?
+<lb />le veudrois bien ſçavon qui iont ces gens<lb />là.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Ce ſont des gens qui y prennent intereſt.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je n’en ay que faire moy; le monde n’eſt
+<lb />remply que de ces preneurs d’intereſt, qui
+<lb />dans le fond ne ſe ſoucient non plus de
+<lb />nous que de Jean de Verd.
+</sp>
+<sp type="MainZone-Sp"><lb />Al Io-i L.
+<lb />Oh! il n’y a pas moyen de vous parler.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICRARD.
+<lb />Il faut donc ſe taire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Mais pour vôtre bien on auroit des cho<lb />dae u veua alles
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il faut donc parler.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE<lb />Vous étiez hier dans le deſſein de marier
+<lb />avantageulement vos enfans.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Cel le pounon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />ils conſentirent Tun &amp; Taulre à votre
+<lb />velonté?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />J'aurois bien voulu voir le contraire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Tout le monde loüoit vôtre choix?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qeit dcquoy jo ne me louciois guerre,
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Aujourd’huy ſans que l’on ſçache pour<lb />quoy vous avez tout d’un coup changé de
+<lb />deſſein.
+</sp>
+<sp type="MainZone-Sp"><lb />21eBL La
+<lb />Pourquoy non?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Aprés avoir promis vôtre fille à Mon<lb />dor, vous voulez la donner aujourd’huy à
+<lb />Monſieur Fadel, qui n’a pour tout merite
+<lb />que d’eſtre beau-frere de Monſieur de Sainz
+<lb />duavels
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Que vous importe?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE.
+<lb />Et vous voulez épouſer cette meſme Cla<lb />rice que vous avez promiſe à vôtre fils?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Bon, promiſe, qu’il compte là-deſſus.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE.
+<lb />En conſcience, mon frere, croyez-vous
+<lb />que dans le monde on approuve vôtre
+<lb />conduite?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ma conduite. Eh! croyez-vous en con<lb />ſcience, Monſieur mon ſiete, que je iren
+<lb />mette fort en peine?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Cependantes....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh! cependant. Cependant chacun fair
+<lb />chez luy comme il luy plaît, &amp; je ſuis le
+<lb />maître de moy &amp; de mes enfans.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Pour en eſtre le maître, mon frere, il y
+<lb />a bien des cuoles que la biensſccauce ne
+<lb />permet pas de faire: car ſi......
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />O ſi, car, mais..... je n’ay que faire de
+<lb />vos conſeils, je vous l’ay dit plus de cent
+<lb />fois.
+</sp>
+<sp type="MainZone-Sp"><lb />ARIS I La
+<lb />Si vous voulez pourtant y faire un peu
+<lb />de reflexion?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICIIARD.
+<lb />Encore! vous ne ſeriez donc pas d’avis
+<lb />que j’épouſaſſe Clarice?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />je crains que vous ne vous en repentiez,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il eſt vray quelle convient mieux à Te<lb />rignan.
+</sp>
+<sp type="MainZone-Sp"><lb />Sans doute.
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et vous ne treuvez vas à vropet noi
+<fw><lb />b
+<lb />
+</fw><lb />plus que je donne Hortenſe à Monſieur
+<lb />*adci2
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />C’eſt un imbecile, j’apprehende que vous
+<lb />me fendles voue me Hessmameureule.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tres-malheureuſe! En effet comme vous
+<lb />dites. Ainſi, vous croyez que je ferois beau<lb />coup mieux de revenir à mon premier deſ<lb />ſein?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Tres-aſſeurement.
+</sp>
+<sp type="MainZone-Sp"><lb />Aiit e na la ſilade
+<lb />Et vous avez pris la peine de venir ici
+<lb />exprés pour me le dire?
+</sp>
+<sp type="MainZone-Sp"><lb />ARBSTE<lb />l’ay crû y eſtre obligé pour le repos de
+<lb />vôtre famille.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Fort bien; c’eſt donc-là vôtre avis?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Oüy, mon frere.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tant mieux, j’auray le plaiſir de rompre
+<lb />deux mariages, &amp; d’en faire deux autres
+<lb />contre vôtre ſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Mais vous ne ſongez pas.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et je vay tout à l’heure chez Monſieur
+<lb />Rigaut mon Notaire pour cela.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Quoy vous allez?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Eeneloune
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />SRCILLON, MONSIEUR GRICHARD,
+<lb />ARISTE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />t, ſoicy Brillon qui vous che?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Que veut ce fripon?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD luy jettant ſon Livre
+<lb />ait nez.
+<lb />Nous verrens cela tantôt,
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Mon pere, mon pere, j’ay fait aujour<lb />d’huy mon thême ſans faute: tenez, voyez,
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Eh mon pere! voyez-le à cette heure, je
+<lb />vous en prie.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je n’ay pas le loiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />2LEBl AV.
+<lb />Vous l’aurez lû dans un moment.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je n’ay pas mes lunettes.
+</sp>
+<sp type="MainZone-Sp"><lb />BRTLLON.
+<lb />Je vous le liray.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Eh! voila le plus preſſent petit droſle qui
+<lb />lit au ſiondee
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Vous aurez plûtôt fait de le contenter.
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Je vay vous lire le François, &amp; puis je
+<lb />Veus iauya Eutienommes.......... au
+<lb />moins ce n’eſt pas du Latin obſeur comme
+<lb />le meme dher, von venes que vous eſi<lb />cendrez bien celuy-cy.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le pendart!
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Les hommes qui ne rient jamais &amp; qui
+<lb />2<lb />grondent toujours, ſont lemnileles à ces
+<lb />beſtes i-ecesqu:......
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD luy donnant uu ſeuſſies.
+<lb />Tient, va dire à ton ſot de Precepteu?
+<lb />qu’il te donne d’autres rhêmes.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Le pauvre enfant!
+</sp>
+<sp type="MainZone-Sp"><lb />la la le a d esa
+<lb />Belle education!
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON pleurant.
+<lb />Oüy, ouy, vous me frapez quand je
+<lb />fais bien, &amp; moy je ne veux plus étudier.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Si je te prends?
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Pelte lent des Eiciese du Lacin 2
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Atrens perit entagé, attens.
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Oüy, oüy, attens qu’on m’y ratrape.
+<lb />.
+<lb />Il dechire ſon Livre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le foüet, maraut, le foüet.
+</sp>
+<sp type="MainZone-Sp"><lb />DRTLLON.
+<lb />Oüy da le foüet, i’en vay faire autant
+<lb />tout à l’heure de ma Grammaire &amp; de mon<lb />Deſpautere.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tu la payeras. Ce petit maraut abuſe
+<lb />tous les jours de la tendreſſe que j’ay pour
+<lb />luj.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Voila deja un petit Grichard tour craché.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Que marmottes-tu la?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />e dis, nionueur, que le pezat Gnchard
+<lb />s’en va bien fâché.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Sont-ce là tes affaires impertinente?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et moy je veux avoir tort.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Comme il vous plaira, O ça, mon frere,
+<lb />revenons je vous prie à l’affaire dont je
+<lb />viens de vous parler.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ne vous ay-je pas dit que je vais de ce
+<lb />pas chez Monſieur Rigaut mon Notaire:
+<lb />Serviteur. Mais que me veur encore cer
+<lb />animal?
+<fw><lb />1
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />MAMURRA, M. GRICHARD,
+<lb />ARISTE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />Onſieur.......
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qu'en-ce, nromeur; vous prenez tres-
+<lb />mal vôtre temps. Monſieur Mamurra, al<lb />sez-vous en donner le fouet à Brillon.
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Abiit, effugit, evaſit, erupit.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Brillon s’eſt ſauvé?
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Oüy, Monſieur, effugit.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICIARD.
+<lb />Ces animaux-là ne ſçauroient s’empê<lb />cher de cracher du Latin. Parle François,
+<lb />ou cay toy Pedant fieffé.
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Puiſque telle eſt vôtre volonté, ſit pro
+<lb />rætione voluntas.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Encore. Eh! de par tous les Diables pat<lb />lez François ſi tu veux ou ſi tu peux, ex<lb />etemelle de cempes
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Soit, nous liſons dans Arriaga</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Eh bien !'bourreau, dy-moy qu’a de
+<lb />commun Arriaga avec la fuite de Brillon?
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Oh ça, Monſieur, puiſque vous voulez
+<lb />qu’on vous parle François; je vous ditay
+<lb />que vous avez donné un ſoufflet à mon
+<lb />diſciple fort mal-à-propos. Il a lucerè in<lb />cendie tous ſes Livres, &amp; s’eſt ſauvé: la
+<lb />correction eſt neceſſaire concedo; mais il
+<lb />n’eſt rien de plus dangereux que de châtier
+<lb />quelqu’un ſans ſujet, on revolte l’eſprit au
+<lb />lieu de le redreſſer, &amp; la ſincerité pater<lb />nelle &amp; magiſtrale, dit Arriaga.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Toujours Arriags. Teſte incurrable! ſors
+<lb />d’icy tout à l’heure toy &amp; ton maudit Ar<lb />riaga, &amp; n’y temets le pied de ta vie ſi tu
+<lb />ne me rameines Brillon.
+</sp>
+<sp type="MainZone-Sp"><lb />MAMURRA.
+<lb />Monfieur.
+</sp>
+<p type="MainZone-Other"><lb />M. GRI</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Hors d’icy, te dis-je, &amp; va le chercher
+<lb />tout à l’heure.
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />MONSIEUR GRICHARD, ARISTE,
+<lb />CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />JOus ne voulez donc rien écouter?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />serviteur. Hé, Lolive, qu’on ſcelle ma
+<lb />mule, je reviens dans un moment pour al<lb />ler voir un malade qui m’attend.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />ARISTE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Uel homme!
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />A qui le dites-vous?
+<fw><lb />E
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Si tu ſçavois quel deſſein bizarre il 2
+<lb />roime?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />l’en ſçay plus que vous. Roſine la fille
+<lb />de chambre de Clarice vient de m’infer<lb />mer de tout. De vineriez-veus pourquoy
+<lb />depuis mervorte freles eit mis en teſte
+<lb />d’épouſer Clarice?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE<lb />Peut-être la beauté?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Tarare la beauté: c’eſt bien la beauté
+<lb />MAunſtene qui prente au mome comme ſui.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Qu’eſt-ce donc?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous ſçavez, Monſieur, que nous avions
+<lb />tous conſeillé à Clarice d’affecter de pa<lb />roître ſevere &amp; rude aux domeſtiques en
+<lb />preienée de Momeur Grichard, afin de
+<lb />gagner ſes bonnes graces, &amp; de l’obliger a
+<lb />conſentir au marlage de Tenignan avec
+<lb />elle?
+</sp>
+<sp type="MainZone-Sp"><lb />Je le ſçay.
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Hé bien ! hier au ſoir vôtre frere étoit
+<lb />dans la chambre de Monſieur de Saint Al<lb />var, Clarice étoit dans la ſienne qui y ré<lb />pond: Roſine vint à faire quelque baga<lb />telle. Clarice prit de là occalion de gron<lb />der. Monſieur Grichard entendant querel<lb />ler cette fiile, quitta bruſquement Mon<lb />iieur de Saint Alvar, &amp; alla ſe mettre de
+<lb />la partie. La pauvre creature fut relancée
+<lb />comme il faut, ſa maîtreſſe fit ſemblant
+<lb />de la chaſſer; &amp; depuis ce moment nôrre
+<lb />Grondeur a conçu pour elle une eſtime qui
+<lb />n’eſt pas imaginable, &amp; qui va juſques à
+<lb />la vouloir épouſer.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Eſt-il poſſible?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />D'abord il le propoſa à Monſieur de
+<lb />Saint Alvar. Comme il eſt facile il y con<lb />ſentit, à condition que Monſieur Grichard
+<lb />donneroit Hortenſe à Monſieur Fadel ſon
+<lb />beau-frere, qui eſt un homme qui luy eſt à
+<lb />charge.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Clarice le ſçait-elle?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAO.
+<lb />Elle en eſt au deſeſpoir. Je viens de luy
+<lb />parler, elle a déja fait des plaintes à ſon
+<lb />pere qui commence à ſe repentir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />A quel prix que ce ſoit il faut rompre ce
+<fw><lb />deſſein,
+<lb />E
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Nous avons déja concerté avec Clarice
+<lb />&amp; Roſine ce qu’il y a à faite pour cela, &amp;
+<lb />la fuite de Brillon me fait ſonger à un ſtra<lb />ragéme dont il faut que je me ſerve.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Que pretens-tu faire?
+</sp>
+<sp type="MainZone-Sp"><lb />OſIIIO
+<lb />Je vous le diray plus à loiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Allons donc avertir Terignan &amp; Hor<lb />tenſe, &amp; prenons enſemble des meſures
+<lb />pour agir de concert.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Allons, nôtre Grondeur ſera bien fin s’il
+<lb />ne donne dans les pauueuux que je luy vais
+<lb />tendre.
+<fw><lb />1-2.
+</fw><fw><lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />II
+<lb />SCENE IREMIENE,
+</p>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />A maudite beſte qu'une Mule
+<lb />quinteuſe! le vilain hemme
+<lb />qu’un Medecin hargneux! qu’un
+<lb />pauvre garçon eſt a plaindre
+<lb />d’avoir à lervir ces deux animaux-la! &amp;
+<lb />que le Ciel les a bien fait l'un pour l’autre!
+<lb />Ouf, me voila tout hors d'haleine; mais,
+<lb />Dieu mercy, c’eſt pour la derniere fois.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CATAU, LOLIVE.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />H te voila! je te cherchois: d’ou
+<lb />Aviens-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je viens de planter nôtre chagrin de Me<lb />decin ſur ſa chagrine de mule; ils ont en<lb />fin détalé d’icy aprés avoir fait l’un &amp; l’au<lb />tre le diable à quatre: pour recompenſe
+<lb />ils m’ont donné mon congé.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ton congé !
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ov, Monſſeur Olchard poftoit la pa<lb />role; n’eſt pas un grand malheur.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />J'en ſuis perſuadée. Mais avant que le
+<lb />jour ſe paſſe, je te donneray ſi tu veux le
+<lb />moyen de te vanger de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Quoique la vengeance ne ſoit pas d’une
+<lb />belle ame, me voila preſt à tout, &amp; tu peux
+<lb />diſpoſer de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Nous avons compté là deſſus. Mais a<lb />vant toutes choſes, va te mettre en ſenti<lb />nelle au coin de la ruë; &amp; quand tu verras
+<lb />venir de loin nôtre Grondeur, viens viſte
+<lb />m’avertir. Voicy ma Maîtreſſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ATOIePEEDD GAIIC.
+</p>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />On oncie &amp; mon frere ſont allez
+<lb />Y Lavertir Clarice de ſe rendre icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Fort bien. Vous, ſi vôtre pere vous pro<lb />pors de voue matler aret monſieur Fadel,
+<lb />faites ſemblant d’eſtre ſoûmiſe à ſa volon<lb />te, &amp; ne Tamtez pomt par un refus.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Mais ſi une fois j’ay dit oüy?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Et bien vous direz non.
+</sp>
+<sp type="MainZone-Sp"><lb />da i leleeM.
+<lb />Ne te fâche point ma pauvre Catau.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Laiſſez-vous donc conduire.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Mais ſi ce que tu entreprends ne reüſſis
+<lb />point?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Oh! faites donc à vẽstre teſte</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Mon Dieu que tu eſt prompte! Je crains
+<lb />de me voir mariée au plus imbecille &amp; au
+<lb />plus maſfait de tous les hommes.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous ne ſeriez pas la ſeule. Je connois
+<lb />de jeunes &amp; belles perſonnes comme vous,
+<lb />qui ont pour époux de petirs magots
+<lb />d’hommes; mais auſſi en revanche je con<lb />nois de beaux &amp; grands jeunes hommes qui
+<lb />ont pour épouſes de petites guenuches de
+<lb />henutto e compenſé dans
+<lb />le monde, &amp; l’avarice fait tous les jours
+<lb />ces aſſortimens bizatres.
+</sp>
+<sp type="MainZone-Sp"><lb />HORIENSE.
+<lb />Le malheur des autres eſt une foible con<lb />ſolation.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />6 ja, puiſque vous voulez tant raiſon<lb />ner, que pretendriez-vous faire ſi, malgré
+<lb />ce que penttepreno, vôtre pere s'opiniã<lb />troit à vous donner à Monſieur Fadel?
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />le ne ſçay....... mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />Mourir!
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Oüy, te dis-je, mourit,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Et il vous ne pouviez pas mourii
+</sp>
+<sp type="MainZone-Sp"><lb />Ubëir.
+<lb />HORTENSE.
+</sp>
+<sp type="MainZone-Sp"><lb />Obéir!
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Duy Cutau, obens o ne mne qui d de la
+<lb />vertu n’a point d’autre party à prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />le ne ſuis pas moy tout.à-fait de cet
+<lb />avis-là. Il eſt vray que la vertu défend à une
+<lb />fille d’épouſer contre la volonté de ſes pa<lb />rens un homme qui luy plaît; mais la ver<lb />tu ne tuy ſenena pas de yoppoiet à ſeux
+<lb />volonté, quand ils veulent luy donner pour
+<lb />époux un homme qui ne luy plaît point.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Mon pere n’eſt pas fait comme les au<lb />tres: &amp; ſi j’ay une fois conſenti, te dis-je...
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Bon, conſenti. Allez, Mademoiſelle, en
+<lb />fair de mariage une fille a ſon dit &amp; ſon
+<lb />dédit : mais nous n’en viendrons pas-là:
+<lb />laiſſez ſeulement agir Clarice, &amp; faites ce
+<lb />que je vous dis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />DOEEVD, IORIERSE, CMIAG.
+</p>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Arre, garre, Monſieur Grichard, gar<lb />Are, garre.
+</sp>
+<sp type="MainZone-Sp"><lb />Eſt-il entré?
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, ouſiaume a sammene la voituce,
+</sp>
+<sp type="MainZone-Sp"><lb /> HORTENSE.
+<lb />Et mon pere?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Un petit accident la fait deſcendre à deux
+<lb />pas d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Et quel accident?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Il paſſoit avec ſa mule devant la porte
+<lb />d’un de nos voiſins. Un barber, à qui la fi<lb />gure a déplû; s’eſt mis tout d’un coup à
+<lb />japper. La muie a eu peur, ene u fait un
+<lb />demy tour à droite, &amp; Monſieur Grichare
+<lb />En cuuy umuougaucheioi le payé.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Deſten biene;
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, il gronde à cette heure le barbet,
+<lb />vous l’aurez icy dans un moment.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />je me reume daiis ma cenambre, j'appre<lb />hende ſa mauvaiſe humeur.
+</sp>
+<sp type="MainZone-Sp"><lb />CIIAO.
+<lb />Il a été bien-tôt de retour?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />C’eſt qu’il a trouvé beſogne faite, à ce
+<lb />que m’a dit Guillaume.
+</sp>
+<sp type="MainZone-Sp"><lb />MI4IOL
+<lb />On avoit peut-être envoyé querir un
+<lb />autre Medecin?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, mais le malade s’eſt impatienté:
+<lb />&amp; voyant que Monſieur Grichard tardoit
+<lb />trop à venir, il eſt party ſans ſon ordre.
+</sp>
+<sp type="MainZone-Sp"><lb />CATA.
+<lb />Il l’a trouvé mort?
+</sp>
+<sp type="MainZone-Sp"><lb />Tu l’as dit.
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Cela luy arrive tous les jours. Mais jo
+<lb />l’entens; retire-toy qu’il ne te voye point,
+<lb />Va dire à Clarice de venir promptement,
+<lb />elle te dira ce que tu as à faire: de ton cõ<lb />té écoute.
+<lb />Eidy para dreue,
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+</sp>
+<p type="MainZone-Other"><lb />C’eſt aſſez</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V.
+<lb />MONSIEUR GRICHARD, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />11: paibſen canaiſſe, je vous appren<lb />dray à tenir à l’attache vôtre chien
+<lb />de chien.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Mais auſſi, voyez ce maraut de voiſin,
+<lb />on ſuy a dit mille fois, ce coquin! cer in<lb />ſolent! Mort de ma vie, Monſieur, laiſſez<lb />moy faire, je luy laveray la teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Cette fille a quelque choſe de bon. Bril<lb />lon n’eſt-il point revenu?
+</sp>
+<p type="MainZone-Other"><lb />M. GRI</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Non, Monſieur.
+<fw><lb />"
+<lb />1
+<lb />tos cuatertẽt, πut p Aιnτπ
+<lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ce petit fripon-là me fera mourir de
+<lb />chagrin, &amp; ſon animal de Precepteur?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il l'eſt allé chercher, &amp; ne reviendra
+<lb />pas ſans vous le ramener.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />i Iela oien.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VI.
+<lb />MONSIEUR GRICHARD, CATAG,
+<lb />MONSIEUR FADEL, UN LAQUAIS.
+</p>
+<sp type="MainZone-Sp"><lb />LE LAQUAIS.
+<lb />Onſieur Fadel demande à vous voir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qu’il entre. Il faut que je faſſe un peu
+<lb />cauſer ce jeune homme, pour voir s’il eſt
+<lb />auſſi nigaud qu’on dit. Monſieur Fadel parcit. Ap<lb />prochez, mon gendre pretendu....... Hé
+<lb />approchez! vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Hé mettez-vous encore plus prés! vous
+<lb />devez ſçavoir que Monſieur n’aime pas à
+<lb />EIeL.
+</sp>
+<sp type="MainZone-Sp"><lb />Soit.
+<lb />M. FADEL.
+<lb />M. GRICHARD le recardant à chaque
+<lb />demande qu’il luy fait pour voir
+<lb />s’il parlera.
+<lb />On ca: on veue me faite croire que je
+<lb />marie ma filie à un ſor.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüais!
+<lb />M. IADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je n'en crois rien, puiſque je vous, la
+<lb />donnes
+</sp>
+<sp type="MainZone-Sp"><lb />Aſt 2
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et avec une groſſe dor.
+</sp>
+<sp type="MainZone-Sp"><lb />Oh, oh!
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />je ravois prouuue a uu certain Mondal
+<lb />qui eſt abſent.
+</sp>
+<sp type="MainZone-Sp"><lb />Voyez!
+<lb />M. TADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mais je vous prefere à luy.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy!
+<lb />M. FADEL.
+<fw><lb />»
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />n’icra aettape quand il vienara,
+</sp>
+<sp type="MainZone-Sp"><lb />Aſt, ah:
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Pour moy j’épouſe vôtre parente Cla<lb />rice.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy da!
+<lb />Ml. FADEE</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oüais! oh, oh! ah! oüy! voyez! ouy
+<lb />da! N’avez-vous que cela à me dire?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />E vuu apul, ſala feie.
+</sp>
+<sp type="MainZone-Sp"><lb />ON, on 2
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oüy, mais ſon ſtiſ eſt bien laconique.
+</sp>
+<sp type="MainZone-Sp"><lb />La, la!
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />ſi ne vous rompra pas la ſente.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Un grand parleur eſt encore plus in<lb />commode.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />J'en ſçay, Monſieur, plus de quatre qui
+<lb />s’en oh, oh! oüy! &amp; ah ah! n’auroient
+<lb />ſouvent rien à dire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il faut que je le mene à Hortenſe, peut.
+<lb />etie parſera-til devant elle?
+</sp>
+<sp type="MainZone-Sp"><lb />Oh, oh!
+<lb />M. FADEL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Venez donc.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Allez voir vôtre Maîtreſſe, Monſieur
+<lb />oh, oh! A quel imbecil veut-on donner
+<lb />une fille comme elle? je l’empêcherai
+<lb />bien.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VII.
+<lb />TERIGNAN, ARISTE, LOLIVE,
+<lb />CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />U eſt mon frere?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il vient d’entter dans la chambre d’Hor<lb />tenſe avec Monſieur Fadel, ils n’auront pas
+<lb />longue converſation enſenble.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Puissje eiler *
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ouy, mais depeche-toy.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Clarice ſera ici dans un moment.
+</sp>
+<sp type="MainZone-Sp"><lb />Tant mieux.
+<lb />CATAU.
+<lb />Dans cette Scene Lolive vegarde roujeurs ſi Menſieur Grithjarà
+<lb />n zien point.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE à Catau.
+<lb />J’ay trouvé Brillon.
+</sp>
+<sp type="MainZone-Sp"><lb />dne ſsens s
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je Iay meue enez Mommeor.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Tu as bien fait.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Il n’en ſortira pas ſans ton ordre.
+</sp>
+<sp type="MainZone-Sp"><lb />ATAU.
+<lb />Ceit unez, Clalice cu mtiuit de ce quẽ
+<lb />tu as à faire?
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Va te preparer à joüer ton rôle.
+</sp>
+<p type="MainZone-Other"><lb />F iij
+</p>
+<sp type="MainZone-Sp"><lb />J'y vay.
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Je ne croy pas que Monſieur Grichard
+<lb />conmome ſrop ten vitazes.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Luy! depuis deux jours que je le ſers,
+<lb />il ne m’ajamais regardé en face; il ne con<lb />noît perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />va ville qun le d lencontle Icla
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />HORIENSE, TERIGNAN, ARISIE,
+<lb />CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />H je reſpire! Monſieur Fadel eſt ſor<lb />aHecy, ce mon pere eit eutré dans ſon
+<lb />cabinet fort triſte de la fuite de Brillon.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il ne le reverra qu’à bonnes enſeignes;
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Comment?
+<fw><lb />pcaqu
+<lb />emeger temm
+<lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />HORTENSE, TERIGNAN, ARISTE,
+<lb />CATAU, MONSIEUR GRICHARD
+<lb />dans le fond du Theâtre.
+<fw><lb />CAIMOS
+<lb />(Ous le ſçaurez quand il ſera temps,
+</fw></p>
+<sp type="MainZone-Sp"><lb />HORTENSE appercevant Mon<lb />penn orouura.
+<lb />Ah! voila mon pere, il aura peut-être
+<lb />entendu ce que nous venons de dire.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Luy! &amp; ne ſçavez-vous pas que lorſque
+<lb />ſa gronderie ſe change en ce noir chagrin
+<lb />où le voila plongé, il ne voit ni n’entend
+<lb />perſonne? je gagerois qu’il ne s’eſt pas
+<lb />ſeulement apperçû que nous ſoyons icy.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il faudroit le preparer à la viſite de Cla<lb />rice. Abordez-le, mon neveu.
+<lb />Chacun à meſure qu’il parle r'éloigre de Menſieur Grichard
+<lb />sui eſt au fend du Theãtre.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN,
+<lb />Je n’oſerois,
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Vous, Hortene.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Je tremble.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Toy donc Catau.
+</sp>
+<sp type="MainZone-Sp"><lb />La peſte!
+<lb />LADI60
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Mais d’où luy peut venir cette ſombre
+<lb />mélancolie?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il y a une heure qu’il n’a grondé per<lb />ſot ne.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD ſe promenant en colere.
+<lb />C’eſt une choſe étrange! Je ne trouve
+<lb />perſonne avec qui je puiſſe m’entretenir un
+<lb />ſeul moment, ſans eſtre obligé de me met<lb />tre en colere. Je ſuis bon pere, mes enfans
+<lb />me deſeſperent. Bon maître, mes domeſti<lb />ques ne ſongent qu’à me chagriner. Bon
+<lb />voin, leuis chiens ie dechainent contre
+<lb />moy, juſques à mes malades; témoin ce<lb />luy d’aujourd’huy : vous diriez qu’ils meu<lb />rent exprés pour me faire enrager.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il faut que je l’aborde. Mon frere, je
+<lb />ſuis vôtre ſerviteur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Sel vlsemns
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />D’ou vient que vous eſtes triſte?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je ne ſçay.
+</sp>
+<sp type="MainZone-Sp"><lb />dndnuMinca Le
+<lb />Mais qu’avez-vous, mon pere?
+</sp>
+<sp type="MainZone-Sp"><lb />Rien<lb />Me ORRCIARD.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAO.
+<lb />Vous trouvez-vous mal, Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />A cosss
+<lb />M. GRICHARD.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Me peut onicavon t.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tay toy.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Voulez-vous, Monſieur?..
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Quon ie laies
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Voicy qui vous réjoüira, Monfieur, je
+<lb />viens de voir entrer Clarice.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Clarice! qu’on ſe retite &amp; viſte, à Herune,
+<lb />Allons, vous auſſi, vous m’échauffez la
+<lb />bile avec vos airs poſez.
+<fw><lb />----.--
+<lb />
+<lb />2-
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />X.
+<lb />MORMIEDI GRCIIAID, ARCISTE,
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Our vous, ſi vous pretendez me venir
+<lb />T donner les ſots conſeils de tantôt, vous
+<lb />lciez imcux d'aſer vol chez vous à l'on
+<lb />vous demande?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Non, mon frere, puiſque vous voulez
+<lb />abſolument vous marier, &amp; que Clarice
+<lb />vous plaît, à la bonnt heute.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Vous allez voir quelle difference il y a
+<lb />d’eie a vos goguenaides de iemnes qui ne
+<lb />ſongent qu’a la bagatelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Je le veux croire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />I'ay beſoin d’une perſonne comme elle,
+</sp>
+<sp type="MainZone-Sp"><lb />ARSSIL
+<lb />Il faut-vous ſatisfaire.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je ne puis pas ſuffire moy ſeul à tenir
+<lb />en crainte une famille, &amp; à pourvoir aux
+<lb />affairés du dehiors.
+</sp>
+<sp type="MainZone-Sp"><lb />Sans doute.
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tandis que je tiendray moy ceux du lo<lb />gis dans le devoir, elle ira à la ville gron<lb />der le marchand, le boucher, le cordon<lb />nier, l’épicier; &amp; malheur à qui nous fera
+<lb />quelque fraſque. Mais la voicy, vous allez
+<lb />voir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />CLARICE, MONSIEUR GRICHARD,
+<lb />ARISTE.
+</p>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />JOus me voyez, Monſieur, dans un ſi
+<lb />V grand excés de joye, que je ne puis
+<lb />vous l'exprimer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment donc! d’où vous vient certe
+<lb />oye ſi déteglée?
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Mon pere vient de m’accorder tout ce
+<lb />que je luy ay demande.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et que luy avez-vous demandé?
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Tout ce qui pouvoit me faire plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />II. ONICIIARDE
+<lb />Mais encore?
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Il m’a rendu maitreſſe de tous nos ap<lb />prêts de nopces.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Quels apprêts faut-il donc tant pour?....
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Comment, Monſieur, quels apprêts?
+<lb />les habits, le feſtin, les violons, les haut<lb />bois, les maſcarades, les concerts, &amp; le bal
+<lb />ſur tout que je veux avoir tous les ſoirs
+<lb />pendant quinze jours.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment diable!
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Vous voyez cet habit, c’eſt le moindre
+<lb />de douze que je me ſuis fait ſaire. J’en ay
+<lb />commandé autant pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Pour moy!
+</sp>
+<p type="MainZone-Other"><lb />CLARICE.
+</p>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Ouy, mais il n’y en a encore que deux
+<lb />de faites qu'on vous apportera ce ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A moy:
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Ouy, Monſieur, croyez-vous que je
+<lb />puiſſe vous ſouffrir comme vous êtes; il
+<lb />ſenibie que vous portiez ie deüil des ma<lb />lades qui meurent entre vos mains.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Elle eſt folle.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Il faut quitter cet équipage lugubre,
+<lb />Ie Paencle al Mun piu Says
+</sp>
+<sp type="MainZone-Sp"><lb />Un habit plus gay à un Medecin!
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Sans doute; puiſque nous nous marions
+<lb />enſemble, il faut ſe mettre du bel air.
+<lb />deren voue m paeumn qi poneixz dis
+<lb />habit cavalier?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Elle extravague.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Pour le feſtin, nous avons deux tables
+<lb />de trente couverts;je viens d’ordonner moi<lb />même en quel endroit de la ſalie je veux
+<lb />qu’on place les violons, &amp; les haubois.
+<fw><lb />C
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mhais ſonsesa vous .. s.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />jay prepare une maſcarade charmante.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A la fin...
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Quand nous aurons danſé une bonne
+<lb />heure, nous ſortirons tous deux du bal
+<lb />ſans tien dite, &amp; nous nous déguiſerons,
+<lb />en Venus, &amp; vous en Adonis.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je perds patience.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Que nous allons danſer! c’eſt ma folie
+<lb />que la danie; au mois jay déja retenu
+<lb />quatre lacquais qui jouïent parfaitement
+<lb />bien du violon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Quatre lacquais!
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Ouy, Momſeur, deux pour vous &amp;
+<lb />deux pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Quand nous ſerons matiez, je veux que
+<lb />vous ayez le bal cuer nous tons les jouts
+<lb />de la vie, &amp; que nõtre maiſon ſoit le ren<lb />dez-vous de toutes les perſonnes qui ai<lb />meront un peu le plaiſir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XII.
+<lb />ROSINE, CLARICE, GRICHARD,
+<lb />ARISIE.
+</p>
+<sp type="MainZone-Sp"><lb />ROSINE.
+<lb />Aauaim ioueno nuonsde maſ<lb />T'A que ſont au logis, venez-les voir au
+<lb />plus vîte, ils ſont les plus jolis du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />N’eſt-ce pas là cette gueuſe que vous
+<lb />chaſſâtes hier?
+</sp>
+<sp type="MainZone-Sp"><lb />CLANTCE.
+<lb />Ouy, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et vous l’avez repriſe?
+</sp>
+<sp type="MainZone-Sp"><lb />CLANCE.
+<lb />Je ne puis m’en paſſer, elle eſt de la
+<lb />meilleur hemeur du monde, elle chante
+<lb />ou danſe toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Hé, Madame, qu’on eſt mal ſervi des
+<lb />G ij
+<lb />Fauramlaa da ccesaauaras.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />le le croy, mais j’aime mieux être plus
+<lb />mal ſervie, &amp; avoir des domeſtiques tou<lb />jours gais: je tiens que les gens qui ſont
+<lb />auprés de nous nous communiquent mal<lb />gré que nous en ayons, leur joye ou leur
+<lb />triſteſſe, &amp; je n’aime point le chagrin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />An! quelqu’un la entorceſee depuis
+<lb />hier.
+</sp>
+<sp type="MainZone-Sp"><lb />ROSINE.
+<lb />Venez donc, Madame, on vous attend
+<lb />avec impatience.
+</sp>
+<sp type="MainZone-Sp"><lb />CLARICE.
+<lb />Adieu, Monſieur, je meurs d’envie de
+<lb />voir vos habits &amp; les miens, &amp; j’ay laiſ<lb />ſé au logis Monſieur Canary qui m’at<lb />tend.
+<fw><lb />3
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />XIII.
+<lb />ROSINE, MONSIEUR GRICHARD,
+<lb />ARISIL.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ui eſt-ce Monſieur Canary?
+</sp>
+<sp type="MainZone-Sp"><lb />ROSINE.
+<lb />Son Maître à chanter. Ma foy, Mon<lb />ſieur, vous allez voir la perle des femmes,
+<lb />la plûpart aiment a gronder les domeſti<lb />ques, &amp; à chagriner leurs maris. Pour cel<lb />le-la? oh je vous répons qu’il fera bon
+<lb />avec elle; que tout aille de travers dans
+<lb />un ménage, elle ne s’émeut de rien: c’eſt
+<lb />la meilleure des femmes, tenez, Monſieur,
+<lb />depuis cinq ans que je la ſers, je ne l’a
+<lb />rue quhier en colcres
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mais dis-moy, ſon pere ſeroit-il pas
+<lb />cauſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ROSINE.
+<lb />Monſieur, je vous demande pardon, il faut
+<lb />que j’eſſaye auſſi mon habit de maſque.
+<fw><lb />F iij
+</fw><lb />mettre dans l’eſprit que tout ce qu’on luy
+<lb />a on ley ne venon poit denes
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Laiſſez-le aller, Monſieur de Saint Al<lb />var nous tient la main.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Nous aurons de la peine à le faire re<lb />noncer à Clarice.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />J’ay plus d’une corde à mon arc, il ne
+<lb />tiendra pas contre le tour que je vais luy
+<lb />faire jouer, je vous l’ay dit, nôtre Gron<lb />deur ſera bien-tôt de retour, il ne trou<lb />vera perſenne où il eſt allé, il n’a que la
+<lb />ruë à traverſer, cachez-vous dans le coin
+<lb />de certe chambre, écoutez ce qui ſe paſſe<lb />ra icy, &amp; quand vous jugerez que la choſe
+<lb />aura été pouſſée aſſez loin, venez à ſon
+<lb />ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Mais ne diſois-tu pas que tu voulois
+<lb />qu’il n’y eût perſonne au logis.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />J’ay fait retirer Hortenſe &amp; Terignan,
+<lb />&amp; vôtre frere a chaſſé aujourd’huy tous
+<lb />ſes domeſtiques: mais le voicy déja, allez
+<lb />vite vous cacher.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVI.
+<lb />MONSIEUR GieGrllte, EH IAU,
+<lb />ASMIN.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />H bien, Monſieur, vous venez de
+<lb />Echez Monſieur de Saint Alvar?
+</sp>
+<sp type="MainZone-Sp"><lb />DEſoure enerij,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />On dit qu’il y aura grand bal ce ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je ſçay qu’on a promis douze piſtoles
+<lb />aux violons, porte leur-en vingt-quatre,
+<lb />&amp; qu’ils n’aillent point ce ſoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh, Monſieur, cela ſera inutile: ſi Cla<lb />rice a envie de les avoir, elle leur en don<lb />nera cinquante, &amp; cent s’il les faut. le
+<lb />connois les femmes du monde, elles n’é<lb />pargnent rien pour ſe ſatisfaire, &amp; la fa<lb />cilité avec laquelle la pluſpart jertent l’ar<lb />gent fait ſoupçonner, malgré qu’on en
+<fw><lb />-"
+</fw><lb />diu «qui me unvoute pauneusp.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mais je ſçay, coquine, que ce n’eſt point
+<lb />Clarice.
+</sp>
+<sp type="MainZone-Sp"><lb />JASMIN.
+<lb />Monſieur, un Monſieur vous demande.
+</sp>
+<sp type="MainZone-Sp"><lb />i 2i &amp; bas.
+<lb />Bon, voicy mon homme.
+</sp>
+<sp type="MainZone-Sp"><lb />dIe dirrellanD.
+<lb />Qui eſt-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />ASMIN.
+<lb />Il dit qu’il s’appelle Monſieur Ri.....
+<lb />Ri..... Attendez, Monſieur, je vais en<lb />ELTEI REAIHFCTE
+<lb />M. GRICHARD le prenant par les oreilles.
+<lb />vlens. 34, AIpon.
+</sp>
+<sp type="MainZone-Sp"><lb />ASMIN.
+<lb />Ahi, ahi, ahi.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh! Monſieur, aut lu aren arraché
+<lb />les cheveux, vous êtes cauſe qu’il apris la
+<lb />perruque, vous luy arracherez les oreilles,
+<lb />&amp; on n’en a pas pour de l’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je te l’apprendray..... C’eſt ſans doute
+<lb />Monſieur Rigaut mon Notaire, je ſçay ce
+<lb />que c’eſt, fais-ſe entrer: ne pouvoit-il pas
+<lb />prendre une autre neure pour m'apporter
+<lb />de l’argent? peſte ſoit des importuns!
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVII.
+<lb />LOLIVE en Maître à danſer, MONSIEUR
+<lb />GRICHARD, CATAU,
+<lb />LE IREVOSI.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Uais! ce n’eſt point-là mon homme,
+<lb />qui êtes-vous avec vos reverances.
+<lb />BOETTEſiafunn du gruuues tecepances.
+<lb />Monſieur, on m’appelle Rigaudon à
+<lb />vous rendre mes tres-mumples Jervices.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD à Catau.
+<lb />N’ay-je point vû ce viſage quelque part?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />na jamne nuuupumſeniieis.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Eh bien, Monſieur Rigaudon, que vou<lb />lez vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Voús donner cette lettre de la part de
+<lb />Ma demoiſelle Clarice.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Donnez...... Je voudrois bien ſçavoir
+<lb />qui a appris à Clarice à plier ainſi une
+<lb />lettre: voila une belle figure de lettre: un
+<lb />beau colſcnet: voyons ce qu’ene chante.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU bas tandis qu’il déplie la lettre
+<lb />Jamais peut-être amant ne s’eſt plaint de
+<lb />pareille choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD lit.
+<lb />Tout le monde me marie avec le plus
+<lb />bru...... de tous les hommes, je veux deſa<lb />buſer les gens, &amp; pour cet effet il faut que ce
+<lb />ſoir voits &amp; moi commencions le bal: elle eſt
+<lb />folle.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Continuez, Monſieur, je vous prie.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARDlit.
+<lb />vuux made un que vuu, nt jpavex pas dan<lb />ſer, mais je vous envoye le premier homme
+<lb />du monde
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />A Monſieur Grichard quile regarde depuisles pieds juſqu'à la tét<lb />Ah! Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GICICHARD lit.
+<lb />Qui vous en montrera dans moins d’une
+<lb />heitre aittant qu’il en faut pour vous tirer d’af<lb />faire. Que j’apprenne à danſer?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Achevez, s’il vous plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICTIHIeOut incore.
+<lb />Et ſi vous m’aimeZ, veus apprendrez
+<fw><lb />de
+</fw><fw><lb />Qmau
+</fw></sp>
+<sp type="MainZone-Sp"><lb />de lui la bourée,
+<lb />CLARICE.
+<lb />En colere.
+<lb />La bourée? Moy la bourée? Monſieur
+<lb />le premier homme du monde, ſçavez<lb />vous bien que vous riſquez beaucoup icy.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />dnitona, cromneui, dans un quaite d heu<lb />te, vous la danſerez à miracle.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD redoublant ſa colere.
+<lb />Monſieur Rigaudon, je vous feray jet<lb />ter par les feneſtres, ſi j’appelle mes do<lb />meſtiques.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU bas à M. Grichard.
+<lb />Il ne falloit pas les chaſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />L'OLIVE faiſant ſigne à ſon Prevoſt
+<lb />de joiter de la viole.
+<lb />Allons, gai. Ce petit prélude vous met<lb />tra en humeur, faut-il vous tenir par la
+<lb />main, ou ſi vous avez quelque principe?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD portant ſa colere à
+<lb />l'extrémité.
+<lb />Si vous ne faires enfermer ce maudir
+<lb />violon, je vous arracherai les yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Parbleu! Monſieur, puiſque vous le
+<lb />prenez ſut ce ton-là, vous danſerez tout
+<lb />a l’heure.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je danſerai, traitre?
+<fw><lb />H
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ouï morbleu vous danſerez. J’ai ordre
+<lb />de Clarice de vous faire danſer, elle m’a
+<lb />payé pour cela, &amp; ventre bleu! vous dan<lb />Il tiee ſmn épée qu’il met ſous ſon bras.
+<lb />lerez; empeche-toi qu’il ne loſte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Aii; je iuis mo.r, quer cntage d hom<lb />me m’a envoyé cette folle?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU place M. Grichard à un coin
+<lb />dus theâtre &amp; va parler à Lolive.
+<lb />Je vois bien qu’il faut que je m’en mêle,
+<lb />centen nous là, Monſieur, laiſſez-moi lui
+<lb />parler: Monſieur, faites-nous la grace
+<lb />d’aller dire à Monſieur de Saint Alvar...
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE<lb />Ce n’eſt pas lui qui nous a fait venir ici,
+<lb />je veux qu’il danſe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Hauiie bourreau! Le bourreuu.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Conſiuerer s n vous plaît, que Monſieur
+<lb />eſt un homme grave.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je veux qu’il danſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Un fameux Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Je veux qu’il danſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous pourriez devenir malade, &amp; en avoir
+<lb />Delomn.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD tirant Catau.
+<lb />Ouï, dis-lui que quand il voudra, ſans
+<lb />qu’il lui en coûte rien, je le ferai ſaigner
+<lb />&amp; purger tout ſon ſou.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />je’iren ay que ſane, je veux qu’i danté
+<lb />ou morbleu.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD entre ſes dents.
+<lb />Le bourreau!
+<lb />CATAU revenant auprés de Grichard,
+<lb />Monſieur il n’y a rien à faire, cet enra<lb />ge ne mremtona, pommt docunon, il arrivera
+<lb />ici quelque malheur, nous ſommes ſeuls
+<lb />au logis.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il eſt vrai.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Regardez un peu ce drôle-là, il a mé<lb />chunte paishrenome,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD le regardant de
+<lb />cote en tremblant,
+<lb />Ouï, il a les yeux agars.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Se dépêchera-t’on?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Au ſecours! voiſins, au ſecours!
+</sp>
+<p type="MainZone-Lg"><lb />H ij
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Bon, au ſecours, &amp; ne ſçavez-vous pas
+<lb />que tous vos voiſins vous verroient voler
+<lb />&amp; égorger avec plaiſir. Croyez-moi, Mon<lb />ſieur, deux pas de bourrée vous ſauveront
+<lb />peur-être la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARE.
+<lb />Mais ſi on le ſçait, je paſſerai pour fou.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />L’amour excuſe toutes les folies, &amp; j’ai
+<lb />oüi dire à IAonſieut Mammura que lorſ<lb />qu’Hercale étoit amoureux, il ſila pour la
+<lb />Reine Omphale.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Our, riercure ind, mais riexcule ne
+<lb />danſa pas la bourée, &amp; de toutes les dan<lb />ſes, c’eſt celle que ie hais le plus.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh bien, il faut le dire, Monſieur vous
+<lb />en montrera une autre.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ouida, Monneur, voulez-vous les me<lb />nuets ?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Les menuets?.... non.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />La gavotte?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARDA
+<lb />La gavotte ? non....
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ee pane pau:.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le paſſe-pied ?.... Ron.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Et quoi donc? tracanas, tricotez, rigau<lb />dons? en voila à choiſir, à choiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />ivon, non, non, je ne vois dien la qui
+<lb />m’accommode.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Vous voulez peut-être une danſe gravs
+<lb />&amp; ſerieuſe?
+</sp>
+<sp type="MainZone-Sp"><lb />D.
+<lb />Oüy, ſerieuſe, s’il en eſt, mais bien ſe<lb />rieuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LULIVE.
+<lb />Et bien la courante, la bocane, la ſa<lb />rabande?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Non, non, non.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oh, que dientre voulez-vous donc ?
+<lb />demandez vous même, mais hâtez-vous.
+<lb />ou par la mort.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Allons, puiſqu’il le faut, j’apprendrãs
+<lb />quelques pas de la..... la.....
+</sp>
+<p type="MainZone-Other"><lb />H 2
+</p>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Quoi, ee la.? ...M .*.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />je ne ſçai.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Vous vous mocquez de moi, Monſieur,
+<lb />vous danſerez la bourée, puiſque Clarice
+<lb />De Vou jou dtite ve
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVIII.
+<lb />ARTSTE, MONSIEUR GRICHARD,
+<lb />LOLIVE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />Uf.
+<lb />M. GRTCHARD.
+</sp>
+<sp type="MainZone-Sp"><lb />HACGTE.
+<lb />Qu'eſt-ceci.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />C’eſt que......
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Que vois-je !
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Cet inſolent vouloit......
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />ſion mrere appienure à danſer!
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />je vous dis que ce maraut....,
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE..
+<lb />A vôtre âge!
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mais quand on vous dit.....
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIE.
+<lb />On ſe mocqueroit de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! voici l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Je ne le ſouffrirai point.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh, de par tous les diables écouter<lb />moi donc, jaſeur eternel, piailleur infati<lb />gable, on vous dit que c’eſt ce coquin qui
+<lb />me veut faire danſer par force.
+</sp>
+<sp type="MainZone-Sp"><lb />Par force!
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD avec chagrin.
+<lb />Et oüi, par force.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Oüi, Monſieur, la bourée.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Et qui vous a fait h'hardi, Monſieut;
+<lb />que de venir ceans?
+</sp>
+<p type="MainZone-Other"><lb />H iiij
+</p>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Monſieur, Monſieur, j’y viens de bon<lb />ne part, &amp; je m’en vais dire à Mademoi<lb />ſelle Clarice comment on y reçoit les gens
+<lb />Muelle emoje.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh, je n’y puis plus tenir, il faut que
+<lb />’aille chercher ce vieux fou de Monſieur
+<lb />de Saint Alvar, chanter poüille à Clarice.
+<lb />à ſon peie &amp; à tous ceux que je trouverai
+<lb />chez lui.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIX.
+<lb />ARISTE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />Eſ TIAO.
+<lb />E voila parti, que dites-vous de Lõ<lb />Elive!
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />C’eſt un fort joli garçon. Oh! pour le
+<lb />coup je crois mon nele delabme de ciẽ<lb />rice
+</sp>
+<sp type="MainZone-Sp"><lb />ATAU.
+<lb />Ce n’eſt pas tout, il faut le ramenener
+<lb />à ſon premier deſſein, &amp; c’eſt à quoi
+<lb />nous devons aller travailler ſans perdre un
+<lb />inſtant.
+</sp>
+<p type="MainZone-Head"><lb />ACTE III
+<lb />SCENE PREMIERE.
+<lb />LOLIVE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />40
+<lb />It3e iis
+<lb />CATAU.
+<lb />UE viens tu chercher ici? pour<lb />quoi n'’as-in pas pris ton autre
+<lb />équipage? Si Monſieur Grichard
+<lb />revenoit....
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Il lui reſte encore Clarice &amp; Fadel à
+<lb />quereller.
+</sp>
+<sp type="MainZone-Sp"><lb />Il peut te ſurprendre, &amp; te reconnoî<lb />tre.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Bon reconnoître, tu ne ſçaurois croire
+<lb />la vertu qu’ont les beaux habits pour chan<lb />ger les gens comme nous. Se mêler de pi<lb />roüeter &amp; porter un ſiabit uore, jenton<lb />nois plus de quatre à qui il n’en faut pas
+<lb />davantage, pour ne ſe connoître pas eux-
+<lb />meiles.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Qu’as-tu donc à me dire?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Bien des choſes ſur ce que tu veux que
+<lb />je faſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />OAIIUL
+<lb />Dis-les donc viſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Puiſque Mondor eſt arrivé, qu’il le ſer<lb />ve de ſes gens....
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il n’a amené avec lui que ce Valet de
+<lb />chambre dont nous avous déja fait l’Au<lb />monier, que nous avons envoyé à Mon<lb />ſieur Grichard. Il n'y a que toi qui puiſſe
+<lb />schever ce que tu as commencé.
+</sp>
+<sp type="MainZone-Sp"><lb />ROLIVE.
+<lb />Je ne ſçaurois.
+</sp>
+<sp type="MainZone-Sp"><lb />Poltron.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Conſidere tout ce que tu me fais entre<lb />prendre dans une journée. Brillon ſert à
+<lb />tes deſſeins, tu me le fais enlever; tu crains
+<lb />que Mamurra ne parle, tu me le fais te<lb />nir enfermé; tu me fais faire une peur ter<lb />rible à un fort honnête Medecin, qui eſt
+<lb />pour en avoir la fiévre.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Culle la Sueline.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Et tu veux que je lui donne encore une
+<lb />plus chaude allarme.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />re voila bien malade! n’as-tu pas éte
+<lb />bien payé de ta leçon de danſe?
+</sp>
+<sp type="MainZone-Sp"><lb />Il eſt vrai.
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ne le ſeras-tu pas au double de cette
+<lb />voconus expedition?
+</sp>
+<sp type="MainZone-Sp"><lb />Je le croi.
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CNTAU.
+<lb />Et n’as-tu pas le plaiſir de te vanger
+<lb />d’un homme qui t’a mis dehors ſans ſujet?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, ma réputation m’eſt chere.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />On garuesla, on ne pretenu pas te l’o<lb />ter; mais compte que ſi tu ne fais pas ce
+<lb />que tu as promis à Mondor, tu dois être
+<lb />aſſuré de mille coups de baſton.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Mais ſi je le fais, &amp; que Monſieur Gri<lb />chard me découvre, crois-tu qu’il m’é<lb />pargne?
+</sp>
+<p type="MainZone-Other"><lb />CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />En ce cas tu riſquerois peut être quel<lb />que bagatelle; mais de ce côté-la les
+<lb />coups ſont incertains, &amp; tres-ſeurs du cô<lb />té de Mondor auſſi bien que les cinquan<lb />ie piſtoles qu’il t’a promiſes, ſi tu le ſers.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ceci mérite un peu de réflexion; oüi je
+<lb />vois que de toutes parts je riſſque le bâ<lb />ton, me voila dans un grand embarras,
+<lb />quel parti prendre? Batu peut être du
+<lb />tóté de Monſieur Grichard, roſſé à coup
+<lb />ſeur du côté de Mondor; criminel à ne
+<lb />mue pas ce que je lui arpromis, crimi<lb />réi a le faire; des bâtons aujour d’hui
+<lb />l n al pius que lecHoia.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Tu es dans le fait.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Hé bien, il n’y a plus à heziter, coups
+<lb />de bacon pouecoans domluu, mtaut ſe
+<lb />déterminer en faveur de ceux qui ſeront
+<lb />accompagnez d’un lenitif de cinquante
+<lb />piſtoles: mais qui m’en ſera caution?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Qui? Mondor, qui donneroit toutes
+<lb />choſes pour ne perdre pas ce qu’il aime,
+<lb />Terignan, Hortenſe, Clarice, Ariſte, es<lb />:u content?
+<fw><lb />I
+</fw></sp>
+<sp type="MainZone-Sp"><lb />180111
+<lb />LOLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />Encore?
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, te dis-je, donne-moi une caution
+<lb />que je puiſſe prendre au corps.
+</sp>
+<sp type="MainZone-Sp"><lb />Et bien moi?
+<lb />DARTAU.
+</sp>
+<sp type="MainZone-Sp"><lb />Toi?
+<lb />LOLTVE.
+</sp>
+<sp type="MainZone-Sp"><lb />Moi.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />je le venl.
+<lb />L'OLIVE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Va donc te preparer.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU ſeule
+<lb />Enfin voila nôtre affaire en bon train.
+<lb />&amp; ſi nos amans ſont heureux ils m’en au<lb />ront toute l’obligation.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+<lb />i IAEDE, enPllos
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ais que vois-je? ce ſot de Fadel
+<lb />N) viendroit-il mettre quelque obſtacle
+<lb />à nos deſſeins? Il ne m’incommodera pas
+<lb />long-temps, ſi ſes queſtions ne ſont pas
+<lb />plus ſongties que mes reponſes.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Je cherche võtre Monſieur Grichard.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous?
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Il a paſſé chez moi.
+</sp>
+<sp type="MainZone-Sp"><lb />Lui?
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL,
+<lb />Mais il ne m’y a pas trouvé.
+</sp>
+<sp type="MainZone-Sp"><lb />Non?
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Il me fait un beau tour aujourd’hui.
+<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Ouj 2
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Il ne veut plus me donner Hortenſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüais.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Et moi je viens lui dire que je ne m’en
+<lb />ſoucie guerre.
+</sp>
+<sp type="MainZone-Sp"><lb />Voyez.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Je ferai une meilleure alliance.
+</sp>
+<sp type="MainZone-Sp"><lb />Ouldse
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />Tattends bien apres la fille.
+</sp>
+<sp type="MainZone-Sp"><lb />Bon.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />miaeLAnMe Mme
+<lb />Croit-il avoir affaire à un ſot?
+</sp>
+<sp type="MainZone-Sp"><lb />Ho, ho.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. TADEL.
+<lb />Je lui ferai bien voir que je ne ſuis pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah, ah.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. IADEE.
+<lb />Ne manquez pas de lui dire au moins.
+</sp>
+<sp type="MainZone-Sp"><lb />NOIIe
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />M. FADEL.
+<lb />je me mocque de lui.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy.
+<lb />CATAU.
+</sp>
+<sp type="MainZone-Sp"><lb />aue a Ma d ne
+<lb />Et il s’en repentira.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ha, ha; me voila délivrée de cet im<lb />portun Dieu merci. Allons avertir ma
+<lb />Maîtreſſe de l’arrivée de Mondor; mais le
+<lb />voici lui-même. O Ciel! quelle impruden<lb />ce! ne pouviez-vous pas attendre Hor<lb />tente clez clatice, que veneuivous faite
+<lb />2c12
+</sp>
+<p type="MainZone-Head"><lb />MAERERERO
+<lb />MONDOR, CATAU,
+</p>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />L y a une heure que je n’entens plus
+<lb />Iparler de toi, où eſt cette grande ardeur
+<lb />que tu m’as fait voir à mon arrivée? Je
+<lb />1 iij
+<lb />ne vois ni ta Maîtreſſe, ni toi, ni l’hom<lb />lule dlue eu davois ill endejeis
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il eſt chez Clarice de l’heure que je vous
+<lb />parle, &amp; Hortenſe y ſera bien-tôt. Je vais
+<lb />l’avertir, retournez-vous-en vîte l’y at<lb />tendre.
+</sp>
+<sp type="MainZone-Sp"><lb />MAGILOR.
+<lb />Mais te dépêcheras-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Et allez, vous dis-je.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Hâte-toi donc.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh hâtez-vous vous-même.
+</sp>
+<sp type="MainZone-Sp"><lb />MIONDOR.
+<lb />Si tu ſçavois que les momens me du<lb />rent.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Si vous ſçaviez que vous me pezez.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Viens au moins bien-tôt.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh commencez par vous en aller, mort
+<lb />de ma vie que les gens ſont ſots quand ils
+<lb />ſont amoureux. Cela ſeroit capable de re<lb />froidir l’inclination que j’ai de leur ren<lb />dre ſervice. Hors d’ici, vous dis-je, mais
+<lb />peſte ſoit de vous, voici Monſieur Gri<lb />chard. Il nous a vûs enſemble, nous ne
+<lb />pouvons l’éviter, que ferons-nous? At<lb />tendez, par bonheur il ne vous connoiſt
+<lb />point, conſultez-le ſur la premiere choſe
+<lb />qui vous viendra en tête, il vous expedira
+<lb />bien tôt, &amp; vous viendrez me retrouver:
+<lb />en tout cas je vous envoyerai Ariſte pour
+<lb />vous dégager.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Laiſſe-moi faire, je vais lui tenir des
+<lb />dilcours qui me feront bien-tot chaſſer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />MONSIEUR GRICHARD, CATAU,
+<lb />MONDOR.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ui eſt cet homme-là? encore un Mai<lb />tre à danſer?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Que dites-vous-là! prenez garde qu’ii
+<lb />ne vous entende, diable c’eſt un homme
+<lb />de la premiere condition, qui ſur quelque
+<lb />maladie extraordinaire veut avoir de voz
+<lb />ordonnances,
+<fw><lb />104 LE GRONDEUR
+<lb />M. GRICHARD.
+<lb />Qu’il ſe dépêche.
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V.
+<lb />M. GRICHARD, MONDOR.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ue demandez-vous? de quel maî
+<lb />Z vous plaignez-vous? vous avez un
+<lb />inage de niie,
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Aum, Monſeur ne fuis-je pas malade,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Que voulez-vous donc? le devenir?
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />mvon, Mnouileur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Dites-moi donc au plutôt ce que vous
+<lb />vouſez.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Je ſçai, Monſieur, que vous êtes un
+<lb />tres-habile homme.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICITARD.
+<lb />Boint de panegyrique.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Je crois que vous n’ignorez aucun des
+<lb />ſecrets....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />l’ignore celui de me délivrer des impor<lb />tuns, hé bien aux ſecrets?
+</sp>
+<sp type="MainZone-Sp"><lb />ia dna ſ a Ree.
+<lb />Vous n’avez pas de temps à perdre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />En voila déja de perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Je n’ai à vous dire qu’un mor.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Eh, en voila plus de cent.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />par oui ulle qui y a des lecrte peu
+<lb />ſe faire aimer, qu’on donne certains breu<lb />vages, certains Philtres....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment diable! pour qui me prenez<lb />Pohs e
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Pour un tres-ſçavant &amp; tres-honnête
+<lb />homme.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et-vous me demandez des ſecrets pour
+<lb />vous faire aimer?
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Eh non, Monſieur, graces à Dieu, la
+<lb />ſucure nl y apoury à que de reſte.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARE.
+<lb />Af. volci un fat.
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Il y a trois ou quatte femmes qui m’in<lb />commodent à force d’être entêtées de moi.
+<lb />J’aime ailleurs à la rage: il y a des ſecrets
+<lb />pour ſe faire aimer, apprenez-m’en quel<lb />qu’iin, je vous prle, poſit ine fendre in<lb />different.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A ces femmes qui vous aiment à la fo<lb />lie?
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Oul, Rloliſleur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Prenez....
+</sp>
+<sp type="MainZone-Sp"><lb />Fort bien.
+<lb />MONDOR.
+</sp>
+<sp type="MainZone-Sp"><lb />L BATLARD.
+<lb />Deux ou trois fois ſeulement,
+</sp>
+<sp type="MainZone-Sp"><lb />J’entens.
+<lb />MONDOR.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Auſſi mal vôtre temps avec elles que
+<lb />vous le prenez avec moi. elles vous hai<lb />ront plus que tous les diables, adieu,
+</sp>
+<sp type="MainZone-Sp"><lb />Bon.
+<lb />MOMDere,
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VI.
+<lb />a Oſiaa jieloE.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />L m’avoit bien trouvé en état d’écouter
+<lb />Iſes balivernes. Je ſuis au deſeſpoir de la
+<lb />fuite de Brillon. Hé bien, m’apportez<lb />vous des nouvelles de ce petit pendard?
+</sp>
+<sp type="MainZone-Sp"><lb />ARYyT L..
+<lb />Carau l’eſt allé chercher; mais vous ne
+<lb />paſtirez pas demam?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A la pointe du jour.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Et ieia cone apres avoir donné ordre à
+<lb />l’affaire de Monſieur de Saint Alvar.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />L'ordre eſt tout donné.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Comment donc.?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je n’en veux plus entendre parler.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Je vous admire, mon frere, hier vous
+<lb />vouliez donner Terignan à Clarice, &amp;
+<lb />Hortenſe à Mondor. Ce matin vous vou<lb />liez épouſer Clarice, &amp; donner vôtre fille
+<lb />à Monſieur Fadel, &amp; ce ſoir vous ne vou<lb />lez faire ni l’un, ni l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Non;non, non, de par tous let diables.
+<lb />non.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Voila cependant trois fois de bon com<lb />pre, que vous changez de ſentiment dans
+<lb />un jour,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />l'en veux changer trente s’il me plaît,
+<lb />&amp; aſin qu’on ne m’en vienne plus rompre
+<lb />la tête, je ſuis bien aiſe de m’être engagé
+<lb />en vôtre preſence de partir demain matin
+<lb />pour anler von a la campagne te Seigneur
+<lb />malade qui m’a fait l’honneur de m’en<lb />voyer ſon Aumônier.
+</sp>
+<sp type="MainZone-Sp"><lb />AA Ia Ae IRe
+<lb />Mais au moins avant que de partir, vous
+<lb />devriez prendre quelque ajuſtement avec
+<lb />Monſieur de Saint Alvar.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRelinli
+<lb />Je n’en ferai rien,
+</sp>
+<p type="MainZone-Other"><lb />ARISTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />nà de pumaus aſſlis.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />je m’en mocque,
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Vons lui avez donné vôtre parole.
+</sp>
+<sp type="MainZone-Sp"><lb />en4 a Rlaliia la ni.
+<lb />Qu’il la garde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE
+<lb />Il vient de vous dire à vous-même qu’il
+<lb />ſçavoit le moyen de vous la faire tenir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je l’en deffie.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />n xeit mis en frais pour ces marlages.
+<lb />M. GRICHARD Catau épie.
+<lb />Pourquoi s’y mettoit-il?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Vous ſerez comdamné à de grands dom<lb />mages &amp; intereſts.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh, vous ne les payerez pas pour moi<fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Non, mais.....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Aprés ce que j’ai vû de Clarice, quand
+<lb />il m’en devroit coûter tout mon bien, &amp;
+<lb />que toute la terre s’en mêleroit, j’aimerois
+<lb />mieux être pendu, roüé, grillé que d’é<lb />pouſer cette creature.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />CATAU, MONSIEUR GRICHARD,
+<lb />ARISTE.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />d a ne sinlasss
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qu'elt-ce ?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Brillon s’eſt enrôle.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Aesalaua .
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Oui, Moneur, emtolé pour aller à la
+<lb />guerre.
+</sp>
+<sp type="MainZone-Sp"><lb />CGRRCHARD.
+<lb />A la guefte?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />On s’eſt mocqué de toi.
+</sp>
+<sp type="MainZone-Sp"><lb />ATAU.
+<lb />Meſſieurs, j’ai parlé moi-même au
+<fw><lb />seisene ce nl euphamos
+</fw></sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le Hipon.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Quel malheur!
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ouï, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mais ce Capitaine eſt un enragé, &amp; il
+<lb />ſe fera caſſer, d’entôler des garçons de
+<lb />quinze ans, on veut aujourd’hui de grands
+<lb />ſoldats.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />C’eſt ce que je lui ai dit. Il m’a répon<lb />du que cela étoit bon pour ceux qui vont
+<lb />en Tianure, en Piemiont, ou en Allema<lb />gne; mais que pour lui, il lui étoit per<lb />mis d’enrôler de jeunes garçons.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />De jeunes garçons? le traître?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Our, Momteur, n’a oiuie, a ce qu’il dit.
+<lb />de les mener ſi loin, ſi loin, qu’avant qu’ils
+<lb />y foient atrivez, ils auront tous de la
+<lb />barbe.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment diantre; &amp; où les mene-t’il?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Tenez, Monſieur, de peur de l’oublier
+<lb />K ij
+<lb />je me le ſuis fait écrire ſur cette carte,
+<lb />vojeL.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A...... à Madagaſcar...... Brillon à
+<lb />Madagaſcar?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ils diſent, Monneur, que ce ieſt pas
+<lb />loin de l’autre monde.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />C’eſt ſans doute, mon frere, pour cette
+<lb />coſonnie dout vous avez oui parler. Voia
+<lb />un garçon perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />En pleurant.
+<lb />CATAU.
+<lb />Helas, Monſieur, je viens de voir ce
+<lb />pauvre enfant, on l’a déja habillé de vert
+<lb />avec un bonnet à la dragonne
+<lb />En riazt.&amp;...
+<lb />on ſui fait apprendre à joüer du tambour.
+<lb />Tenez, Monſieur, cela fait rire &amp; pleu<lb />rer.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Et où loge ce maudit Capitaine, que je
+<lb />lui aille laver la tête ?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il ne loge point, il campe toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Viens, mene-moi où tu Ias vu. Il faut
+<lb />que j’aille trouver ce Turc, &amp; que.,,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />DadeE- vous. en Glens
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment, coquine?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Eh bien, Monſieur, vous pouvez y aller,
+<lb />mais je vous avertis au moins, de faire
+<lb />rotte teſtamient, ce ue prendre congé de
+<lb />vos malades.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qu’eſt-ce à dire?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />C’eſt à dire, Monſieur, que ce Capitai<lb />ne cherche par tout des Medecins pour les
+<lb />mener en ce pais-là.
+</sp>
+<sp type="MainZone-Sp"><lb />ARIDIC.
+<lb />Des Medecins? gardez-vous bien d’y
+<lb />aller.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Voici pour moi un jour bien malencon<lb />treux.... C’eſt le ſeul de mes enfans qui
+<lb />promet quelque choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il eſt vrai qu’il vous reſſemble déja com<lb />me deux gouttes d’eau.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il faut que tu y retcuriſez avec de Par<lb />gent, &amp; que..,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Monſieur, ils m’entôleront, le Sergent
+<lb />me vouloit prendre moi, ſi je ne me fuſſe
+<lb />promptement ſauvée. Il dit qu’ils ont or<lb />dre d’y mener auſſi des ſilles.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tubieu! voila de terribles enrôleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous mocquez-vous, Monſieur Mamur<lb />ra à voulu y aller pour chercher Brillon: a
+<lb />ſon langage, on l’a pris pour un Medecin;
+<lb />vous ſcrvez qu’il parle comme un fou,
+<lb />d’abord il a été encoffré. Je ne l’ai pas
+<lb />vâ, mais je l’ai entendu heurler dans :ne
+<lb />ciſmiore, ou n jule eis suein comme din
+<lb />poſſedé, cependant ils partent demain
+<lb />matin.
+</sp>
+<sp type="MainZone-Sp"><lb />ARBSIE.
+<lb />Il faut y envoyer quelqu’un en dili<lb />gence.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mlais qui trlaaneie pourions-nous trouver
+<lb />qui ſoit à l’abri de l’entôlement?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAGa M. Onchard bas.
+<lb />Eh, priez Monſieur que voila.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qui lui?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU vus.
+<lb />Eh vraiment ouï, lui. Il ne riſque rien,
+<lb />oinintaqquomaule dirvueues euce pays-ſa,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />On s’en paſſeroit bien en celui-ci.....
+<lb />Allez-y donc, &amp; à quelque prix que ce
+<lb />ſoit.....
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Je n’épargnerai rien aſſurément, &amp; je
+<lb />rous fatuenetar biiſon, ou jy perdrai
+<lb />mon latin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICIIAND.
+<lb />Vous ne perdriez pas grand choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Monſieur, vous pourriez encore trou<lb />ver ce Sapicaine cnes ſon oncle.
+</sp>
+<sp type="MainZone-Sp"><lb />Soii oncic 2
+<lb />ARISTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Monſieur de Saint Alvar.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Quoi ce Capitaine eſt donc ce neveu
+<lb />dont il nous a ſi ſouvent parlé?
+</sp>
+<sp type="MainZone-Sp"><lb />CNTAU.
+<lb />Oüi, Monſieur, &amp; il devoit aller pren<lb />dre congé de lui, je crois qu’il y eſt a pre<lb />ſent.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />J'y cours pour ne le pas manquer, il n’y
+<lb />a qu’un pas d’ici, dans ui ſioment je vous
+<lb />rens réponſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VIII.
+<lb />HONSIEUR GRCHARD, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />E crains bien, Monſieur, qu’on ne
+<lb />veuille pas lui rendre vôtre fils.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Pourquoi non, gueuſe?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Ce Capitaine fait litiere d’argent, c’eſt
+<lb />un Marquis de vingtmille livres de rente.
+<lb />Il a un equipage de Prince, &amp; ſes gens
+<lb />m’on dit que le Roi lui a donné le gouver<lb />homtoite nonidagaſcar.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Il faut que tous les diables ſoient dé<lb />chalhez aujoura hui contre mos,
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU bas.
+<lb />Pas tous encore. Que je plains ce pau<lb />vre enfant.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Morbleu! ſi ce Seigneur malade que je
+<lb />dois aller voir demain étoit à Paris, je
+<lb />ſerois bien voir à ce Capitaine..... Mais
+<lb />que cherche ici ce ſoldat?
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />LOLIVE en ſoldat avec une halbarde,
+<lb />M. GRICHARD, CATAO.
+</p>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />H! Monſieur, c’eſt le Sergent de ce
+<lb />LA Capitame.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Peut-ẽtre il me vient rendre Brillon,
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Brillon? non.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD bas en tremblant.
+<lb />Oh, oh, c’eſt ce coquin de Maître à
+<lb />danſer.
+</sp>
+<sp type="MainZone-Sp"><lb />Ca IAO apnis sein aproenee pour le
+<lb />regarder.
+<lb />Monſieur, c’eſt lui-même, je ne l’avois
+<lb />pas d’abord reconnu.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Oüi, Monſu, depuis que je n’ai eu l’hon<lb />neur de vous voir, on m’a offert une hale<lb />barde. Je ne ſuis plus Rigaudon, je ſuis
+<lb />à preſent Monſieur de la Motte à vous
+<lb />ſcivir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />La peſte te creve.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />je viene vous pasen, nioiuu, o n’avoir
+<lb />aucune rancune de l’affaire de tantôt.
+</sp>
+<sp type="MainZone-Sp"><lb />Me GRICIIARD.
+<lb />Le diable t’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Si vous avez quelque choſe ſut le cœur,
+<lb />pourtant....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Monſieur Rigaudon, ou Monſieur de
+<lb />la Motte, con me il vous plaira, ſortez
+<lb />viſte d’ici, &amp; laiſſez-moi en repos.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />viens auſſi, Monſu, pour vous aver<lb />dnnd punonomamuplumo de lle vous
+<lb />faire pas attendre demain matin.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Qu’eſt-ce a dire?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />C’eſt à dire, Monſu, que vous ſoyez
+<lb />preſt pour partir à quatre heures.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRIEHARD
+<lb />Qui moi?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Pous iſſaihe , ſsiolo.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU le copiant,
+<lb />Vous ſe prenez pour un autre, Monſu.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Non, ma belle enfant, non, n’eſt-il pas
+<lb />Monſu Grichard? Vous irez, Monſu, d’ici
+<lb />à Breſt dans le caroſſe de mon capitaine,
+<lb />&amp; la vous vous euoatquelez en bonne
+<lb />compagnie.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Quel galimatias me faites-vous-là?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Galimatias, Monſu, n’avez-vous pas
+<lb />ptomms de paren ucmammaim a liomme
+<lb />que mon Capitaine a envoyé ici tout à
+<lb />l'heure?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Vous équivoquez, Monſu, Monſieur n’a
+<lb />promis de partir demain matin qu’à un
+<lb />Aumrornsose.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />juitement, voila J’anaſc. Ceh lAu<lb />mônier de nôtte Regiment.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! je ſuis perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Mais c’eſt pour aller voir un Seigneur ma<lb />lade à la campagne, que Monſieur a promis
+<lb />de partir.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Eh bien, voila ce que c’eſt auſſi. Cette
+<lb />campagne c’eſt idagaſcar. Bon païs, &amp;
+<lb />ce Seigneu: amtade c’eſt le Viceroi de l’iſſe,
+<lb />brave homme.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! qu’ai-je fait, quai-je fait?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />vous ſetez morbieu lun premuer Mede<lb />cin, je vous en donne ma parole.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Quoi, Monſieur, vous irez auſſi à Ma<lb />dagaſcar?
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />J’enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Aſſurément Monſu ira, il en a donné ſa
+<lb />parole par écrit, &amp; mon Capitaine le fe<lb />ra bien marcher.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD oh! ſe dit avec fureur.
+<lb />Oh! je n’en puis plus. Va-t’en dire,
+<lb />lecierat, a con humomer, à toil Capitaine,
+<lb />à ton Viceroi, &amp; a tous les Madagaſca<lb />riens qu’ils ne ſe joüent pas a la colere
+<lb />d’un Medecin.
+</sp>
+<sp type="MainZone-Sp"><lb />LOL.IVE.
+<lb />Monſu, Monſu, vous êtes homme d'hon<lb />neur, &amp; puiſque vous vous y etes engagé
+<lb />vous irez....
+</sp>
+<p type="MainZone-Other"><lb />M. CRICH.
+</p>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ouï, traître, j’irai tout à l’heure faire
+<lb />aſſeibler la Paculte.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Et moi le Regiment: nous verrons qui
+<lb />l'emportera.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICELLE.
+<lb />Ceci intereſſe tous mes confreres.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Hh! Monſu, ſi vous pouviez en emme<lb />ner quelqu’un avec vous, le beau coup. Il
+<lb />n’en reſteroit encore que trop pour Paris.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />X.
+<lb />ARISTE, MONSIEUR GRICHARD,
+<lb />LOLIVE, CATAU.
+</p>
+<sp type="MainZone-Sp"><lb />ARISIE.
+<lb />ſy ne veut point abſolument vous
+<lb />Ureudre vôtre fils.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il y a bien d’autres affaires.
+</sp>
+<sp type="MainZone-Sp"><lb />Corment?
+<lb />ARISTE<fw><lb />L
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Voila Monſieur qui va auſſi à Mada<lb />gaſcar.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Mon frere?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Il s’y eſt engagé, on l’a ſurpris, vous
+<lb />y étiez preſent, cet Aumônier....
+</sp>
+<sp type="MainZone-Sp"><lb />ARISIL.
+<lb />Ah! je vois ce que c’eſt, quelle trahiſon?
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Vous mocquez-vous, Monſu, il fera
+<lb />fortune en ce pays-là, on n’y eſt pas en<lb />mauuo dceua ace d dssse essles
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le bourreau!
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVM.
+<lb />C’eſt le plus beau ſejour du monde pour
+<lb />les gens de ſa profeſſion.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />uue cuaese.
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Ceſt de la que vemneut toutes les dio<lb />gues ſpeciſiques.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />L'infame!
+</sp>
+<sp type="MainZone-Sp"><lb />LOLIVE.
+<lb />Quel plaiſir pour un Meueem ue ſe voir
+<lb />à la ſource de la caſſe, du ſené &amp; de la
+<lb />Rhubaibe!
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD en fureur.
+<lb />Il faut que j’étrangle ce ſcelerat.
+<lb />LOLIVE lui preſentant la halcbarde.
+<lb />Alte là. Adieu, Monſu. Si vous n’étes
+<lb />chez mon Capitaine demain matin à qua<lb />ne heures, vous aurez ici à cinq, trente
+<lb />ſoldats logez a diſcretion. Serviteur, juſ<lb />qu’au revoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Je ſoupçonne, Monſieur, quelque cho<lb />ſe dont ii faut que j’aille m’éclaircir. Il y a
+<lb />iei quelque trahiion.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />XI.
+<lb />MONSIEUR GRICHARD, ARISTE.
+</p>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />JOila, mon frere, ce que vous coûte
+<lb />Y vôtre gronderie, le ſoufflet que vous
+<lb />avez donné a Brillon eſt cauſe de tour. Le
+<lb />petit fripon s’eſt allé enrôler, &amp; a donné
+<lb />lieu à la piece qu’on vous à faite; vous
+<lb />aurez de la peine à veus en drer, je vous
+<lb />l'ai dit mille fois, vôtre mauvaiſe humeur
+<fw><lb />*
+</fw><lb />»auy ucuste ccujeulas dise
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! courage, il eſt queſtion de cher<lb />cher des expedients pour qu’on ne nous
+<lb />mene Frillon &amp; moi à Madagaſcar, &amp; la
+<lb />demangeaiſon de moraſiſer vous prend.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Pour mois, je ne vois pas quels expe<lb />dients employer où l’argent eſt inutile:
+<lb />aux maux ſans temede le plus court eſt de
+<lb />prendre patience. Cependant la prudence
+<lb />vent.......
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah! quel homme! Sçavez-vous bien,
+<lb />Monſieur mon frere, que j’aimerois mieux
+<lb />aller mille fois à Madagaſcar, à Siam, &amp;
+<lb />à Monomotapa, que d’entendre moraliſer
+<lb />ſi hors de ſaiſon. Voila-t’il pas ce qu’on
+<lb />vous reprochoit l’autre jour à l’audiance,
+<lb />aui nezâtes une heure ſur les anciens Ba<lb />biloniens, &amp; il étoit queſtion au procés
+<lb />d’une Cheure volée, j’enrage quand je
+<lb />vois......
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />XII.
+<lb />TERIGNAN, M. GRICHARD
+<lb />Ail1ol le
+</p>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />On pere, je ſçay le tour qu’on vous
+<lb />Ma joüé, i'ay découvert d’où cela
+<lb />vient, &amp; je viens vous dire qu’il ne tien<lb />diu qou rous ue ne pomis aſler à Mada<lb />gaſcar, &amp; de r’avoir mon frere ſans qu’il
+<lb />rous en coute neu.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Comment?
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Monſieur de Saint Alvar eſt cauſe de tout,
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />niolſeur de Saiſit Mivas;
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Eul-meme: par maſſieur, il eſt procſie pa<lb />rent de ce Capitaine...
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Je ſçai qu’il eſt ſon oncle, acheve.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Eh bien, il s’eſt allé plaindre à ſon neveu
+<fw><lb />...
+<lb />L23
+</fw><lb />que vous lui avez manqué de parole, &amp;
+<lb />que c’eſt le plus ſenſible affiont qu’en
+<lb />puſſe Iaſſe à un Gthmnomme
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Le maudit vieilſard?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Il avoit bien dit qu’il ſçavoit le moyen de
+<lb />ſe vanger.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Ce Capitaine a juré qu’il vous emmeneroit
+<lb />vous &amp; mon frere ſi vous n'epouſiez Cla<lb />rice.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Moy? que j’épouſe cette baladine? J’aime.
+<lb />oes cesfe Tse
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Je vais donc lui dire qu’il n'y a rien à faire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTE.
+<lb />Attendez mon neveu. Prenons icy un ex<lb />pedient pour contenter tout le monde, il
+<lb />uoiomubeſtre indiffent qui de vous deux
+<lb />épouſe Clarice.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />All mnon encie je vous chten.
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Quoy mon oncle, épouſerai-je un homme
+<lb />qui me menera au bout du monde.
+</sp>
+<sp type="MainZone-Sp"><lb />Cir lOr.
+<lb />Allez Mademoiſelle je connois des ſemmes
+<lb />qui font bien voir plus de païs à leurs
+<lb />Epoux.... Mais les contracts ſont dreſſez
+<lb />&amp; voici nos gens qui artivent tout a
+<lb />propos.
+</sp>
+<p type="MainZone-Head"><lb />Di Mee
+</p>
+<p type="MainZone-Head"><lb />M. RIGAUT dans le fond du Theâtre,
+<lb />M. de S. ALVAR, CLARICE,
+<lb />TERIGNAN, ARISTE, ſur la
+<lb />d-oite, M. GRICHARD dant le mi<lb />lieu MOSESCTENSE,
+<lb />DATAO, &amp; SRIELON, jur Ja
+<lb />genche.
+</p>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Onſieur, ſur la parole qui m’a eſté
+<lb />NI donnée de vôtre part, voila võtre fils
+<lb />que je vous rameine avec plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRIIISRU.
+<lb />Vous m’avez pourtant traitté.... Mais
+<lb />laiſſons cela; nous en dirons deux mors
+<lb />quelque jour; &amp; mon écrit?
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />le vous le rendray quuiid vouenarer igné
+<lb />les deux Contracts.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Sisnoms done.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur.
+<lb />MAMURA.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Oh! vat’en a Madagaſcar toy.
+</sp>
+<sp type="MainZone-Sp"><lb />BRILLON.
+<lb />Mioir pere lamez moy aner, je vous prié,
+<lb />avec Monſieur le Marquis.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRECRAND.
+<lb />Paix fripon.
+</sp>
+<sp type="MainZone-Sp"><lb />M. de S. ALVAR.
+<lb />Allons Monſieur ſignons, s’il vous plaiſt.
+<lb />c’eſt à vous à commencer
+</sp>
+<sp type="MainZone-Sp"><lb />BI. GRICIIAAD.
+<lb />Ah commencez vous-même ſi vous vou<lb />lez.
+</sp>
+<sp type="MainZone-Sp"><lb />M. de S.ALVAR.
+<lb />Ii ſigne
+<lb />Ne perdons point de temps en compli<lb />micno Aiſttenes, i cie cueis
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />A ſigne.
+<lb />Ho bien donnez que je ſigne.
+</sp>
+<sp type="MainZone-Sp"><lb />TERIGNAN.
+<lb />Mon pere, je vous declare au moins,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Signe ſeulement. Il ſigne,
+</sp>
+<sp type="MainZone-Sp"><lb />HORTENSE.
+<lb />Je ne veul pas aſcr....
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHAR.
+<lb />Depêche-toy. Ah ah, je vous ferai bien
+<lb />voir que je ſuis le maître.
+<lb />Elle ſigne &amp; Clarice auſſi,
+</sp>
+<sp type="MainZone-Sp"><lb />RIGAUT.
+<lb />Il ne reſte à ſigner que M. Mondor.
+<lb />MON DON aprts avoir ſigné,
+<lb />Voila qui eſt fait.
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Mondor! Qu'eſt-ce à dire?
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Oüy, Monſieur, voila Mondor. C’eſt
+<lb />lui qui par mon ordre vous avoit enrôlé
+<lb />vous &amp; Brillon. C’eſt moy qui l’avoit fait
+<lb />Marquis &amp; Gouverneur de Madagaſcar.
+<lb />li renonce à cette heure au Marquiſat &amp;
+<lb />au Gouvernement. Il a tout ce qu’il ſou<lb />ſluredos,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Ah peſte maudite, je t’étrangleray, &amp;
+<lb />toy, ſcelerate s’eſt donc ainſi.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />Monſieur, elle n’a fait que ſuivre vôtre
+<lb />volonté. Vous la voulûtes hier donner à
+<lb />Mondor, vous lui donnez aujourd’hui, de
+<lb />quoy vous plaignez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />MONDOR.
+<lb />Monſieur l’honneur de vôtre alliance, l’a<lb />Moul. . ...
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRICHARD.
+<lb />Tarrare! l’honneur, l’amour.... Ah!
+<lb />j’enrage, je creve, me voila vendu, trom<lb />pé, trahy, aſſaſſiné de tont coſtez, mais tu
+<lb />ſeras pendu fauſſaire execrable.
+</sp>
+<sp type="MainZone-Sp"><lb />RIGAUT.
+<lb />Ma foy, Monſieur, vous ne ferez pendre
+<lb />perſonne, ces deux contracts ſont dans mon
+<lb />regiſtre par votte ordre depuis hier, vous
+<lb />les ſignez aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />(ISTE rian'.
+<lb />Mon frere ſi vous eſtiez d’une autre hu<lb />meur, nous aurions pris d’autres meſures,
+</sp>
+<sp type="MainZone-Sp"><lb />M. GRECHAND s en Atant
+<lb />Morbleu! il en coûtera la vie à plus de
+<lb />quatre.
+</sp>
+<sp type="MainZone-Sp"><lb />CATAU.
+<lb />De ſes malades, peut-être; mais allons
+<lb />nous réjoüir, &amp; que le Grondeur ſe pende
+<lb />s’il veut.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<lb />nouvelles imprimées ſur le Quai des Au<lb />guſtins, à l’Image S. Loüis, avec le prix
+<lb />qu’elles ſe vendent reliées.
+</p>
+<sp type="MainZone-Sp"><lb />LES OEUVRES DE M. POISSON, contenant;
+</sp>
+<p type="MainZone-P"><lb />Lubin ou le Sot vangé, le Baron de la Craſſe,
+<lb />l’Aprés-ſoupé des Auberges, le Fou de qualité, le
+<lb />Poëte Baſque, les faux Moſcovites, la Hollande
+<lb />maiade, les Pemmes coquetter y le Fou divettiſ<lb />ſant, la Gonicule ialocicle yun: toies 3.liv.
+</p>
+<p type="MainZone-Head"><lb />Oeuvres de Monſieur de Capiſtron.
+</p>
+<sp type="MainZone-Sp"><lb />Virginie, Arminius, Andronic, Alcibiade, Pho<lb />cion, Tiridate, en un volume 4. liv.
+</sp>
+<sp type="MainZone-Sp"><lb />Oeuvres de M. Pradon.
+<lb />Piraſme &amp; Tiſbé, Tamerlan, Phedre &amp; Hipe<lb />lite, la Troade, Statira, Regulus, un tome 3. I.
+</sp>
+<p type="MainZone-Other"><lb />Oeuvres de M. de Hauteroche.
+</p>
+<sp type="MainZone-Sp"><lb />Criſpilt Muncien, le Deuir, Criſpin Medecin,
+<lb />le Cocher Comedien, la Dame inviſible, ou l’Eſ<lb />prit folet, les Bourgeoiles de Qualité, un volu<lb />me 2. liv.
+</sp>
+<p type="MainZone-Other"><lb />Oeuvres de M. de la Chapelle.
+</p>
+<p type="MainZone-Entry"><lb />Zaïde, les Caroſſes d’Oneans, eſcopatie &amp;
+<lb />Thelephonte, un tome 2. liv.
+</p>
+<p type="MainZone-Head"><lb />Oeuvres de M. Baron.
+</p>
+<p type="MainZone-P"><lb />Le Rendez-vous des Thuilleries, les Euleve<lb />mens, l’Homime à bonne fortune, la Coquerte
+<lb />&amp; la Faulte pruce, en uu tomij(liv.
+</p>
+<p type="MainZone-Head"><lb />dreserea es D. D lescobore.
+</p>
+<p type="MainZone-P"><lb />L'Eſté des Coquettes, la Folle enchere, la Mai<lb />ſon de Campagne, l’Impromptu de garniſon,
+<lb />l’Opera de village, les Bourgeoiſes à la mode, un
+<lb />tome 3. liv. 1o. ſ.
+</p>
+<p type="MainZone-Head"><lb />De divert Atheurs.
+</p>
+<p type="MainZone-P"><lb />Geta, Brutus, Adraſte, Anne de Bretagne, le
+<lb />Pariſien, la ruë S. Denis, Criſpin Chevalier, les
+<lb />Fragmens de Moliere, Delie paſtorale, le Fils ſup<lb />poſé, la jeune Liſimene, la Nopce de Village, les
+<lb />Amours de Diane &amp; d’Endimion, la Fille Capi<lb />tanle 3ia Teine juge be Taitie y le Miatiage de
+<lb />rien, le Gentil-homme de Beauce, le Comedien
+<lb />Poëte.
+</p>
+<p type="MainZone-P"><lb />L’on imprime de l’Autheur du Grondeur le
+<lb />Muet, le Concert ridicule, le Seeret revelé, Ballet
+<lb />extravagant.
+</p>
+<p type="MainZone-Head"><lb />L’IM PROPMTU
+<lb />DE
+<lb />GARNISON
+<lb />COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />A PARIS
+<lb />Chez THOMAS GUILLAIN, à la
+<lb />deſcente du Pont-neuf, proche les
+<lb />Auguſtins, à l’lmage S. Loüis.
+</p>
+<p type="MainZone-Other"><lb />M. DC. LXXXXIII.
+<lb />Avec Privilege du Roy.
+</p>
+<p type="MainZone-Head"><lb />L’IM PROPMTU
+<lb />DE
+<lb />GARNISON
+<lb />COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />A PARIS
+<lb />Chez THOMAS GUILLAIN, à la
+<lb />deſcente du Pont-neuf, proche les
+<lb />Auguſtins, à l’lmage S. Loüis.
+</p>
+<p type="MainZone-Other"><lb />M. DC. LXXXXIII.
+<lb />Avec Privilege du Roy.
+</p>
+    </body>
+  </text>
+</TEI>

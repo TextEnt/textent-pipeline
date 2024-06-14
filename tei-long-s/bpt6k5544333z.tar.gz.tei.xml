@@ -1,0 +1,3055 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antiochus, tragi-comédie . Par T. Corneille</title>
+        <author>Corneille, Thomas</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb302721614"/>
+          <author>
+            <persName>Corneille, Thomas</persName>
+          </author>
+          <title>Antiochus, tragi-comédie . Par T. Corneille</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1666" cert="high" resp="BNF">1666</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />.
+<lb />..
+<lb />... ..
+<lb />.... .-. .-
+</fw>
+<p type="MainZone-Head"><lb />ANTIOCHVS,
+<lb />TRAGI-ÇOMEDIE.
+<lb />Par T. CORNEILLE.
+<fw><lb />–
+</fw></p>
+<p type="MainZone-Head"><lb />A
+<lb />PARIS,
+<lb />Chez LOVIS BILLAINE, au Palais,
+<lb />au ſecond Pilier de la grand' Salle, à la
+<lb />Palme, &amp; au grand Ceſar.
+</p>
+<p type="MainZone-Head"><lb />M. DC. LXVI.
+<lb />AVEC PRIVILEGE DV ROX
+<fw><lb />2
+<lb />8.
+<lb />MA.
+<lb />- -
+<lb />E
+<lb />13
+<lb />4
+<lb />2.
+<lb />Source gallica.bnf.fr ( Bibliothèque nationale de France
+</fw><fw><lb />3
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />AV
+<lb />LECTEVR.
+</p>
+<p type="MainZone-P"><lb />*
+<lb />16
+<lb />L n’y a rien de plus connu que
+<lb />le ſujet de cette Tragi-Comedie.
+<lb />Valere Maxime le propoſe comme
+<lb />vn rare exemple de la tendreſſe dont vn
+<lb />qure qu vupuoie poun fon Fils, &amp; Appian
+<lb />Plutarque qui l’eſtendent vn peu da<lb />ntage, portent plus haut cette derniere
+<lb />ion de Seleucus que tout ce qu’il auoit
+<lb />it auparauant de plus illuſtre. L’vſage
+<lb />nos mœurs n’a point ſouffert que j’aye
+<lb />iuy l’exacte verité de l’Hiſtoire dans le
+<lb />mariage effectif qui eſtoit déja entre luy
+<lb />
+<lb />Stratonice auant qu’il la cedaſt à ſon
+<lb />Tils, mais ſi ie ſemble auoir affoibly par
+<lb />ce qu’vn ſi extraordinaire effoit luy a
+<lb />it acquerir de gloire, du moins ceux
+<lb />i n’ont qu’vne mediocre ferueur pour
+<lb />Sacrement, n’auront point à m’oppoſer
+<fw><lb />H
+</fw><fw><lb />rSaMP
+</fw><lb />AV LECIEVR.
+<lb />que la reſolution de ſe défaire de ſa fem<lb />me n’eſt pas la matiere d’vn grand triom<lb />phe. Ié me ſuis particulierement attaché
+<lb />à donner à Antiochus le caractere de ce
+<lb />profond reſpect qui l’empeſcha de receuoir
+<lb />perſonne dans ſa confidence, &amp; le fit re<lb />ſoudre à mourir pluſtoſt de la fiévre lente
+<lb />qui le conſumoit, qu’a chercher quelque
+<lb />ſecours par l’adueu d’vne paßion qu’il
+<lb />voyoit trop condamnable pour ne la de<lb />teſter pas luy meſme. S’il s’échappe à la
+<lb />découurir à Stratonice, c’eſt parce qu’il
+<lb />la ſçait entierement intereſſée à luy gar<lb />der le ſecret, &amp; pluſtoſt pour luy faire
+<lb />voir la neceßité de ſa retraite, que par
+<lb />aucune eſperance de l’heureux changement
+<lb />qui arriue dans ſa fortune. I’en ay tiré cét
+<lb />aduantage que l’échange du Portrait ayant
+<lb />fait connoiſtre à Arſinoé tout ce que
+<lb />le Prince s’obſtinoit à taire, m’a donnê
+<lb />lieu de luy faire joüer le perſonnage du
+<lb />Medecin Eraſiſtrate que me fourniſſoit
+<lb />l’Hiſtoire, &amp; d’en conſeruer ainſi les plus
+<lb />conſiderables circonſtances. Ceſt a vous
+<fw><lb />3
+<lb />E
+</fw><fw><lb />2
+</fw><lb />16
+<lb />juger ſi j’ay bien ou mal reüßy. La
+<lb />pluſpart des Auditeurs ont paru aſſeZ ſatis<lb />H
+<lb />faits de la repreſentation de cé Poëme, &amp;
+<lb />ſaurois mauuaiſe grace de regarder ceux
+<lb />iqui s’y ſont mal diuertis, comme des Cen<lb />iſeurs trop ſeueres, ou des Critiques intereſ<lb />iſez. Chacun a ſon gouſt pour la Comedie,
+<lb />&amp; quelques belles que puiſſent eſtre les cho<lb />fes, il ſuffit qu’elles ne plaiſent pas à ceux
+<lb />qui les condamnent pour leur donner droit
+<lb />là celuy de les traiter d’Ennemis. C’eſt bien
+<lb />uuent ſans ſçauoir ſon nom qu’ils pu<lb />blient ce qu’ils penſent de ſon Ouurage, &amp;
+<lb />'il eſt quelquefois des ſuffrages briguez
+<lb />pour attirer plus d’approbation qu’on n’en
+<lb />merite, ie croy que la Cenſure peut auoir
+<lb />llieu, ſans que l’Enuie y ait toute la part
+<lb />ue l’amour propre nous luy fait donner.
+</p>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Priuilege du Roy, en
+<lb /> datte du dixhuitiéme Février mil ſix
+<lb />L cens ſoixante-ſix, Signé par le Roy
+<lb />en ſon Conſeil, BERTHAVLT: Il eſt per<lb />mis au Sieur THOMAS CORNEILLE
+<lb />de faire imprimer vne Piece de Theatre
+<lb />de ſa Compoſition, intitulée Antiochus,
+<lb />pendant cinq années : Et deffences ſont
+<lb />faites à tous autres de l’imprimer, à pei<lb />ne de tous dépens, dommages &amp; inte<lb />reſts, &amp; de trois mil liures d’amende, &amp;
+<lb />autres peines portées par leſdites Lettres.
+</p>
+<p type="MainZone-Head"><lb />Imprimée aux dépens de l’Autheur.
+</p>
+<p type="MainZone-P"><lb />Et ledit Sieur de Corneille a cedé le
+<lb />preſent Priuilege à Guillaume de Luyne,
+<lb />&amp; Gabriel Quinet, ſuiuant l’accord fait
+<lb />entr’eux.
+</p>
+<p type="MainZone-P"><lb />Et ledit de Luyne &amp; Quinet ont fait
+<lb />part dudit Priuilege à Thomas Iolly &amp;
+<lb />Loüis Billaine, ſuiuant auſſi l’accord fait
+<lb />entr’eux.
+<fw><lb />14
+</fw><fw><lb />Regiftré ſur le Liure de la Communauté des
+<lb />4
+<lb />I
+<lb />6
+<lb />*
+<lb />EE
+<lb />E
+<lb />
+<lb />E
+<lb />2
+<lb />Libraires le 19. tour de Féurier 1666.
+<lb />Signe,
+<lb />PIGET, Syndic.
+<lb />Les Exemplaires ont eſté fournis.
+</fw></p>
+<p type="MainZone-P"><lb />cheué d’imprimer le 6. iour de Mars 1666.
+<lb />à Roüen, par L. MAVRRT.
+<fw><lb />
+</fw><fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />ACTEVRS.
+</p>
+<p type="MainZone-Entry"><lb />SELEVCVS, Roy de Syrie.
+</p>
+<p type="MainZone-Entry"><lb />STRATONICE, Fille de Demetrius
+<lb />Roy de Macedoine.
+</p>
+<p type="MainZone-Entry"><lb />ANTIOCHVS, Fils de Seleucus.
+</p>
+<p type="MainZone-Entry"><lb />ARSINOE’, Niepce de Seleucus.
+</p>
+<p type="MainZone-Entry"><lb />TIGRANE, Fauory de Seleucus.
+</p>
+<p type="MainZone-Entry"><lb />PHENICE, Confidente de Stratonice.
+</p>
+<p type="MainZone-Entry"><lb />BARSINE, Confidente d’Arſinoé.
+</p>
+<p type="MainZone-Entry"><lb />Suite.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt dans la Capitale de Syrie.
+<fw><lb />ANTIOCH'
+<lb />1RS
+</fw></p>
+<p type="MainZone-Head"><lb />INARCRTVU,
+<lb />TRAGI-COMEDIE
+</p>
+<p type="MainZone-Head"><lb />IETE
+<lb />I.
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />PREMIERE.
+<lb />ANTIOCHVS, TIGRANE.
+</p>
+<sp type="MainZone-Sp"><lb />
+<lb />
+<lb />ANTIOCHVS.
+<lb />N vain à cét appas vous voulez que ie
+<lb />cede,
+<lb />C’eſt redoubler mon mal que m’offrir
+<lb />ce remede,
+<lb />Si par l’éclat d’vn Trône on peut le ſoulager.
+<lb />uoy qu’aux plus vertueux la Couronne ſoit chere,
+<fw><lb />A
+</fw><fw><lb />–
+</fw><lb />De quel front accepter les droits du Diadême,
+<lb />Si ie n’ay pas appris à regner ſur moy-meſme,
+<lb />Et par quelle aſpre ſoif du vain tiltre de Roy
+<lb />Preudre vn Empire ailleurs que ie n’ay pas ſur moy?
+<lb />Non, non, l’auidité de cette independance
+<lb />Ne m’en a point encot laiſlé voir l’eſperance,
+<lb />Et quoy qu’elle fuſt juſte au rangoù ie ſuis né,
+<lb />Ie puis viure content ſans eſtre couronné.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Seigneur, chacun connoit auec quel auantage
+<lb />Vne entiere vertu regle voſtre courage,
+<lb />Et trop de grands effets l’expoſent à nos yeux
+<lb />Pouï laiſſer croire en vous vn Prince ambitieux;
+<lb />Mais le Roy, que pourſuit l’impatiente enuie
+<lb />De rendre ce grand jour le plus beau de ſa vie,
+<lb />Languira dans ſes vœux, ſi pour les voir remplis
+<lb />Eſpouſant Stratonice il ne couronne vn Fils;
+<lb />L’excez de ſon amour pour cette belle Reyne
+<lb />Veut tout ce qu’a d’éclat la grandeur Souueraine,
+<lb />Et croit mal ſeconder la gloire de ſon choix
+<lb />S’il ne la place au Trone au milieu de deux Roys.
+<lb />Souffrez donc que par là d’vn auguſte Hymenée
+<lb />Nous voyions auec pompe éclater la journée,
+<lb />Et que de tant d’appreſts qui marquent ſa grandeur
+<lb />Voſtre Couronnement augmente la ſplendeur.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />L'éclat qui le ſuiuroit n’a rien qui m’ébloüiſſe,
+<lb />Ie ſçay que Seleucus adore Stratonice,
+<lb />Qu’il ne vit que pour elle, &amp; que jamais l’Amour
+<lb />Ne prit tant d’intereſt aux pompes d’vn grand jour;
+<lb />Mais lors qu’il luy conſacre vne ardeur toute pure,
+<lb />Sa bonté pour vn Fils vers elle eſt vne injure,
+<lb />Paiſque par ce partage il la priue des droits
+<lb />D’étendre juſqu’à moy la gloire de ſes loix;
+<fw><lb />At
+</fw><lb />Ainſi, mon cher Tigrane, à quoy qu’il ſe prépare,
+<lb />Il faut que mon refus pour elle ſe declare,
+<lb />Et mette vn prompt obſtacle à l’injuſte projet
+<lb />Qui pour me couronner luy dérobe vn Sujet.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Seigneur, quand ſous vos loix il met la Phenicie,
+<lb />Seleucus regne encor ſur toute la Syrie,
+<lb />Et croit que plus d’éelat ſuit le don de ſa foy
+<lb />S’il luy ſoûmet en vous les hommages d’vn Roy;
+<lb />Mais ſi de ce refus vous vous trouuez capable,
+<lb />C’eſt l’effer du chagrin dont l’excez vous accable.
+<lb />Déja depuis long-femps vne morne langueur
+<lb />Eſtale dans vos yeux l’ennuy de voſtre cœur;
+<lb />Rien n’en ſçauroit forcer l’abatement funeſte,
+<lb />a ſeule ſolitude eſt le bien qui vous reſte,
+<lb />hetoutee que jamuie la oour eut de plus doux
+<lb />Semble n’eſtre que geſne, &amp; ſupplice pour vous.
+<lb />Chacun ſurpris de voir ce changement extréme....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Helas! Tigrane, helas! j’en ſuis ſurpris moy-meſme,
+<lb />Et de ce noir chagrin les accez languiſſants
+<lb />Accablent ma raiſon, &amp; confondent mes ſens.
+<lb />En vain tout mon courage à leur trouble s’oppoſe,
+<lb />Plus j’en reſſents l’effet, moins j’en trouue la cauſe,
+<lb />Et pour la découurir, rien ne s’offre à mes yeux
+<lb />Que l’Aſtre qui nous force, ou le couroux des Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Quoy, d’vn Aſtre ennemy la dure violence....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ouy, Tigrane, aujourd’huy croyez-en mon ſilence.
+<lb />Si quelque ennuy ſecret me faiſoit ſoûpirer,
+<lb />Pourrois-je ſi long-temps vous le voir ignorer,
+<lb />vous dont l’amitié me fut toûjours ſi chere, (taires
+<lb />u’il n’eſt rien que la mienne ait encor pû vous
+<lb />A vous à qui l’Eſtat par vos ſoins conſerué
+<lb />Doit auec moy le jour que vous m’auez ſauué?
+<fw><lb />4ix
+</fw></sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />C’eſt trop vous ſouuenir d’vn ſi foible ſeruice
+<lb />Quand par vous la Princeſſe à ma flame eſt propice,
+<lb />I’aimois, &amp; ma raiſon condamnant mes deſirs,
+<lb />Vn reſpect trop ſeuere eſtouffoit mes ſoûpirs.
+<lb />Niepce de Seleucus, &amp; Fille de ſon Frere,
+<lb />Le rang d’Arſinoé les forçoit à ſe taire.
+<lb />Vous auez auprés d’elle authoriſé mes vœux,
+<lb />Tiré le doux adueu qui doit me rendre heureux,
+<lb />Et les plus grands exploits que mon zele imagine
+<lb />Sont au deſſous du prix que le Roy me deſtine;
+<lb />Mais, Seigneur, ſi j’oſois dans vn eſtat ſi doux,
+<lb />Lors que ie vous dois tout, me plaindre vn peu de
+<lb />vous,
+<lb />Ie dírois qu’en ſecret cette humeur ſombre &amp; noire
+<lb />Suſpendant mon bonheur met obſtacle à mas
+<lb />gloire;
+<lb />D’vn jour grand &amp; fameux les ſuperbes appreſts
+<lb />Sont pour le reculer des pretextes ſecrets,
+<lb />Et la pompe qui manque à l’Hymen d’vne Reyne,
+<lb />C’eſt d’vn mal inconnu la gueriſon certaine.
+<lb />Le Roy qu’alarme en vous vn ſort trop rigoureux,
+<lb />Si vous n’eſtes content, refuſe d’eſtre heureux,
+<lb />Et comme vn meſme jour également propice
+<lb />Doit m’approchant du Trône y placer Stratonice,
+<lb />Mes vœux les plus preſſants en vain l’oſent haſter
+<lb />Quand voſtre inquietude y ſemble reſiſter.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Et c’eſt auſſi par là que mon ame abatuë
+<lb />Se liure toute entiere au chagrin qui me tuë,
+<lb />I’en ſouffre d’autant plus que le bonheur du Roy
+<lb />Dépend de l’Hymen ſeul qu’il differe pour moy.
+<fw><lb />
+<lb />4
+</fw><lb />Puiſqu’enfin juſques là ſa bonté l'inquiete,
+<lb />voyer le pour luy fafre agréer ma retraite.
+<lb />Peut-eſtre vn mois ou deux dans vn autre ſejour
+<lb />Me rendront le repos que ie pers à la Cour,
+<lb />Sa pompe m’embaraſſe, &amp; mon inquietude
+<lb />Pour calmer ſes tranſports veut de la ſolitude,
+<lb />C’eſt vn bien que vos ſoins me peuuent obtenir.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Moy, Seigneur, de la Cour chercher à vous bannir?
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />ANTIOCHVS.
+<lb />Ce volontaire exil que mon chagrin m’impoſe
+<lb />A droit ſeul de calmer la peine qu’il me cauſe,
+<lb />cy tout m’importune, &amp; le trouble où ie ſuis
+<lb />Dans le bonheur d’autruy trouue vn ſurcroiſt
+<lb />d’ennuis;
+<lb />de men nay, mais moncœur, quelques ſoins que
+<lb />61
+<lb />j’employe,
+<lb />Repouſſe malgré-moy tous les ſujets de joye,
+<lb />Ie languis, ie ſoûpire, &amp; ie ne ſçay pourquoy;
+<lb />Migrane, encor vn coup allez trouuer le Roy,
+<lb />Et d’vne Feſte Auguſte où ſeul ie mets obſtacle,
+<lb />Par mon éloignement preſſez l’heureux ſpectacle.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Mais, Seigneur, ce deſſein...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Rien ne peut l'ébranſler,
+<lb />C'eſt me ſeruir enfin que d’oſer luy parler,
+<lb />D’vn Roy qui vous cherit craignez-vous la colere?
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Mes vœux les plus ardents n’aſpirent qu’à vous
+<lb />M
+<lb />plaire,
+<lb />Et voſtre ſeul deſir ſeruant de regle au mien,
+<lb />Ae parleray, Seigneur, mais ie n’obriendray rien.
+<fw><lb />A iij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />II.
+</p>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />ry le juſte projet où l’honneur te conuie,
+<lb />O Fuy de ces triſtes lieux, ou pluſtoſt de la vie,
+<lb />Ingrat Antiochus, &amp; du moins par ta mort
+<lb />Tâche de rachepter la honte de ton ſort.
+<lb />Auſſi-bien cét exil où ton chagrin aſpire,
+<lb />De tes ſens reuolrez te rendra-t’il l’empire?
+<lb />Y crois-tu de ta flame écouter moins l’ardeur,
+<lb />Et pour changer de lieux, changeras-tu de cœur?
+<lb />Non, non, ce cœur en vain croit vaincre ſa foi<lb />bleſſe,
+<lb />Son deſtin eſt d'aimer. il aimera ſans ceſſe,
+<lb />Et quoy que ta raiſon offre à le ſecourir,
+<lb />Il cherit trop ſon mal pour en vouloir guerir.
+<lb />Ah, lâche! à quel orgueil ta paſſion t’entraine!
+<lb />Porter inſolemment tes vœux juſqu’à la Reyne,
+<lb />Adorer Stratonice, &amp; violer la foy
+<lb />Qu’vn Fils doit à ſon Pere, vn Sujet à ſon Roy !.
+<lb />La ſienne eſtant déja l’heureux prix de ſa flame,
+<lb />Par ce gage receu n’eſt-elle pas ſa femme,
+<lb />Et pour bannir vn feu que tu nourris en vain,
+<lb />Faut-ilartendre, helas! qu’elle ait donné ſa main?
+<lb />Songe, ſonge à l’horreur de ce ſecret murmure
+<lb />Qu’à tes vœux inſenſez oppoſe la Nature,
+<lb />Et voy de ton amour les tranſports odieux
+<lb />Bleſſer également les hommes &amp; les Dieux.
+<lb />Par ce fatal Portrait dont la perte t’accable
+<lb />Ces Dieux ſemblent t'oiifir pirrecouroluuoraeſe;
+<fw><lb />C.–
+<lb />"
+</fw><fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />
+</sp>
+<p type="MainZone-Lg"><lb />Al nourriſſoit ta flame, il en flatoit l’ardeur,
+<lb />Ce qui charmoit tes yeux ſe grauoit dans tou cœur,
+<lb />Et lors qu’à mille ſoins ce Portrait te couuie,
+<lb />Tu pers en le perdant le ſeul bien de ta vie.
+<lb />Mais las! en d’autres mains que ſert qu’il ſoit paſſé,
+<lb />Si de ce triſte cœur il n’eſt pas effacé?
+<lb />Fy vois, j’y vois toûjours vne adorable Reyne
+<lb />Augmenter mon amour, &amp; redoubler ma peine,
+<lb />Tobſerue auec plaiſir ces merueilleux accords
+<lb />Des charmes de l’eſprit, &amp; des graces du corps;
+<lb />Et ſans ceſſe y trouuant mille ſujets d’eſtime,
+<lb />Cette meſme raiſon qui m’en faiſoit vn crime,
+<lb />Contrainte de ceder à des traits ſi puiſſants,
+<lb />Je range contre moy du party de mes ſens.
+<lb />Aimons donc, puiſqu’enfin c’eſt vn mal neceſſaire;
+<lb />Mvais aiſons teuiement pour ſouffrir &amp; nous taire,
+<lb />Et cherchons dans l’exil qui ſeul eſt mon recours,
+<lb />La ſin de cét amour par celle de mes jours.
+<lb />à mon dernier ſoûpir pouſſé pour Stratonice
+<lb />’vn feu ſi criminel bornera l’injuſtice,
+<lb />Et mon ſecret caché juſtifiant ma foy
+<lb />e rendra... mais ô Dieux! c’eſt elle que ie voy.
+<lb />Dans quel trouble me jette vne ſi chere veuë!.
+<lb />uyons, ce ſeul moyen m’épargne le ſoucy...
+</p>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />STRATONICE, ANTIOCHVS,
+<lb />11IEANO M.
+</p>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Voy, Prince, c’eſt donc moy qui vous chaſſe!
+<lb />d’icy?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Si vous fuir bleſſe en vous l’honneur du Diadême,
+<lb />Ou pout le pardumner a qui le rurt loy meline;
+<lb />Iugez ſi de mes maux ie puis venir à bout,
+<lb />Ie taſche de me perdre, &amp; me trouue par tout.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Si vous trouuet par tout eſt pour vous vn ſupplice,
+<lb />Prince, reſoluez-vous à vous reudre juſtice;
+<lb />Et quoy que pour vos ſens le chagrin ait d’appas,
+<lb />Vous vous couſolerez de ne vous perdre pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ceſt par où ma raiſon rédouble ſes alarmes,
+<lb />L’habitude au chagrin y fait trouuer des charmes,
+<lb />Et j’apprehende bien de ne guerir iamais
+<lb />D’vn mal où malgré moy ie ſens que ie me plais.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Si vous vous y plaiſez, vous eſtes moins à plaindre
+<lb />Que ceux à qui pour vous ſa rigueur dõne à craindre,
+<lb />Il leur oſte vn repos qu’il vous laiſſe acquerir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Helas! eſt-ce eſtre heureux que ſe plaire à ſouffrir?
+<lb />Vn mal n’eſt-il plus mal s’il flate en apparence,
+<lb />Et pour nous eſtre cher perd-il ſa violence?
+<fw><lb />
+<lb />
+</fw><fw><lb />4.1
+</fw><lb />Non, non, ſes traits pour nous ſont d’autant plus
+<lb />E2
+<lb />perģans.
+<lb />Que pour ſurprendre l’ame, il abuſe les ſens;
+<lb />Qu’à peine il nous fait prendre vn chagrin volontaire
+<lb />Qu’vn Aſtre imperieux uous le rend neceſlaire,
+<lb />Et force vn cœur ſeduit par cette trahiſon
+<lb />Au refus du ſecours que preſte la raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Du mal pour qui le cœur à la raiſon s’oppoſe
+<lb />(ſe,
+<lb />Le charme eſt dãs l’effet beaucoup moins qu’en la cau<lb />Et pour voir quel remede on y peut appliquer,
+<lb />Qui la connoiſt ſi bien la deuroit expliquer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Triſte, confus, reſveur, ſi ce mal peut me plaire,
+<lb />C’eſt ſans ſçauoir pourquoy la peine m’en eſt chere,
+<lb />Et quand vn pareil trouble embaraſſe l’eſprit,
+<lb />Qui ſçait mal ce qu’il ſent ſçait bien peu ce qu’il dit.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Le Roy trop viuement partage voſtre peine,
+<lb />ctour ne pas faire effort...
+<fw><lb />
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />H
+<lb />ANTIOCHVS.
+<lb />C’eſt-là ce qui me geſne,
+<lb />Son déplaiſir m’accable, &amp; comme vn noir deſtin
+<lb />Par l’éclat de la Cour redouble mon chagrin,
+<lb />Je croy pour quelque temps qu’il luy ſera moins rude
+<lb />De ſouffrir ma retraite en quelque ſolitude.
+<lb />Noila ce qu’aujourd’huy ie luy fais demander,
+<lb />our tirer ſon adueu daignez me ſeconder,
+<lb />adame, &amp; par vos ſoins...
+<fw><lb />*.
+<lb />61
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quoy, Prince, dois-je croire
+<lb />u’en ſecret ce chagrin porte enuie à ma gloire,
+<lb />t que dans voſtre cœur vn mouuement jaloux,
+<lb />ors qu’on m’appelle au Trône...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, que me dites-vous
+<lb />Qu’à l'ardeur de mes vœux le juſte Ciel réponde,
+<lb />Et vous eſtes ſoudain la Maiſtreſſe du Monde;
+<lb />Si le Sceptre en eſt beau, quoy que vous preſumiez,
+<lb />Qu’il le mette en mes mains, ie le mets à vos pieds.
+<lb />Dans ce degré pompeux, loin que l’éclat m’en geſne
+<lb />Ie ne veux qu’adorer, voir, &amp; ſeruir ma Reine,
+<lb />Elle ſeule en eſt digne, &amp; pour mieux l’éleuer...
+<lb />Mais Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Vous auez lieu de ne pas acheuer,
+<lb />Et le trouble ſur vous peut prendre quelque empire
+<lb />Quand la ciuilité vous engage à trop dire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Pourquoy de ce reproche affecter la rigueur?
+<lb />Ma bouche ne dit rien ſans l’adueu de mon cœur,
+<lb />Et ce brillant amas de vertus &amp; de charmes...
+<lb />Madame, de mon mal le Roy prend trop d’alarmes,
+<lb />Propoſez ma retraite, &amp; de grace, obtenez...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Prince, ie monte au Trône, &amp; vous m’abandonnez!
+<lb />Fuir d’en eſtre témoin eſt-ce cherir ma gloire?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, ſi vous connoiſſiez tout ce qu’il en faut croire...
+<lb />Adieu, Madame, adieu, dans le trouble où ie ſuis,
+<lb />Penſer, fuir, &amp; me taire, eſt tout ce que ie puis.
+<fw><lb />18
+</fw></sp>
+<p type="MainZone-Head"><lb />
+<lb />SCENE IV.
+<lb />TRATONICE, PHENICE.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />V j'ay peu de lumiere, ou le Prince, Madame,
+<lb />Cherche à cacher vn mal dont la ſource eſt dans
+<lb />Iaine.
+<lb />Tandis qu’il vous parloit, ſes timides regards,
+<lb />S’il rencontroit vos yeux, erroient de toutes parts,
+<lb />Languiſſant, interdit, plein d’vn deſordre extréme,
+<lb />Si
+<lb />oſois m’expliquer, ie dirois qu’il vous aime,
+<lb />Et que par tant d’appas s’eſtant laiſſé charmer...
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb />TRATONICE.
+<lb />Quoy, Phenice, tu crois qu’il me pourroit aimer?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Ie crains de dire trop, mais s’il faut ne rien taire,
+<lb />Ie croy qu’il le pourroit, &amp; ne pas vous déplaire;
+<lb />He l'air dont vous parlez, c’eſt ſans trop de cou<lb />roux...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Perce. qua d ſis.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Mais que me dites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />ue te peut dire vne ame eſtonnée, abatuë,
+<lb />ui dans ce qu’elle doit voit tout ce qui la tuë,
+<lb />t qui de ſon deuoir redoublant les efforts,
+<lb />luſtoſt que le trahir, ſouffrira mille morts?
+<lb />uy, Seleucus, Phenice aura ce qu’il eſpere,
+<lb />areceu ma foy dans la Cour de mon Pere,
+<fw><lb /> 3
+</fw><lb />Par là ieſuis ſa Femme, &amp; mon malheur en vain
+<lb />Fait trembler ma conſtance à luy donner ma main.
+<lb />Quand le bien de l’Eſtat conclut cét Hymenée,
+<lb />Pourquoy deſlors, helas! ne fut-elle donnée?
+<lb />Falloit-il pour la pompe en voir le jour remis,
+<lb />Et me laiſſer le temps de connoiſtre ſon Fils?
+<lb />Taudis que Seleucus de retour en Syrie
+<lb />Songe aux appreſts d’vn ſort qui va m’oſter la vie,
+<lb />Le Prince Antiochus chez mon Pere à ſon tour
+<lb />En ſuperbe appareil vient charmer noſtre Cour.
+<lb />Attendant qu’en ces lieux il doiue me conduire
+<lb />Mon repos à le voir commence à ſe deſtruire,
+<lb />L’air galand, l’ame noble, vn courage éleué,
+<lb />Tout ce qui marque enfin vn Heros acheué,
+<lb />Aux Courſes, aux Tournois, pour luy toute la gloireſ
+<lb />Son adreſſe par tout ſçait traiſuer la victoire,
+<lb />Et ie ſens malgré moy que ſans ceſſe vainqueur.
+<lb />En-emportant le prix, il emporte mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Antiochus ſans doute a tout ce qui doit plaire,
+<lb />Mais déja voſtre main eſtoit deuë à ſon Pere,
+<lb />Et lors que voſtre cœur ſe ſentit enflamer...
+</sp>
+<sp type="MainZone-Sp"><lb />TRATONICE.
+<lb />Helas! ſçait-on qu’on aime en commençant d’aimer.
+<lb />Et l’Amour qui d’vn cœur cherche à ſe rendu.
+<lb />maiſtre,
+<lb />Tant qu’on peut reſiſter, ſe laiſſe-t’il connoiſtre?
+<lb />Non, non, &amp; mon malheur aujourd’huy me l'ap
+<lb />prend,
+<lb />C’eſt en ſe déguiſant que l’Amour nous ſurprend.
+<lb />Auant qu’aucun ſoupçon découure ſa naiſſance
+<lb />Dans l’ame qu’il attaque il prend intelligence,
+<lb />Et de ſon feu ſecret l’induſtrieux pouuoir
+<lb />S’acquiert des partiſans qui l’y font receuoir.
+</sp>
+<p type="MainZone-Other"><lb />D'v
+<lb />D'vn tendre &amp; doux panchaut l’appas imperceptible
+<lb />La diſpoſe d’abord à ſe rendre ſenſible;
+<lb />Vn peu d’émotion qui marque ce qu’elle eſt
+<lb />ELuy rend en vain ſuſpect vn trouble qui luy plaiſt,
+<lb />D'vn merite parfait les images preſſantes
+<lb />Luy peignent auſſi-toſt ces douceurs innoceutes,
+<lb />Et des ſens ébloüis par ce charme trompeur
+<lb />La vertu qu’elle admire authoriſe l'erreur,
+<lb />Le cœur qu’en ont ſeduit les ſlateuſes amorces
+<lb />Pour ſe vaincre en tour temps ſe répõd de ſes forces;
+<lb />puour fonit du fecouis que luy fait la raiſon
+<lb />Il laiſſe agir ſans crainte vn ſi ſubtil poiſon,
+<lb />Il en aime l’appas, il le gouſte, il luy cede,
+<lb />aC’eſt aſſez qu’au beſoin il en ſçait le remede;
+<lb />Er quand le mal accreu preſſe d’y recourir,
+<lb />L'habitude eſt forinée, on n’en peut plus guerir.
+<lb />C’eſt ainſi que d’abord mon imprudence extréme
+<lb />» Me laiſſa conſentir à me trahir moy-meſme,
+<lb />Dedans Antiochus ie ne ſçay quoy de grand
+<lb />Exigea de mon cœur le tribut qu’il luy rend.
+<lb />Ce cœur trop plein pour luy d’vne eſtime empreſſée
+<lb />N’en crut ny mon deuoir ny ma gloire bleſſée,
+<lb />I’admirois ſans ſcrupule vn Prince ſi parfait,
+<lb />Ie voulois eſtimer, &amp; j’aimois en effet,
+<lb />t mon cœur de mes ſens negligeant l’artifice
+<lb />Peuſoit fuir vne erreur dont il eſtoit complice.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />ais de ce triſte amour quel peut eſtre l'eſpoir?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Phenice, encore vn coup, ie feray mon deuoir,
+<lb />t quoy qu’Antiochus trouue trop à me plaire,
+<lb />a main ſuiura ma foy, ie ſuis toute à ſon Pere;
+<lb />ais enfin ie voudrois pouuoir croire aujourd’huy
+<lb />n’il reſſentiſt pour moy ce que ie ſens pour luy;
+<lb />Que le meſme panchant dont la force m’entraiſne
+<lb />Par mon funeſle Hymen luy donnaſt meſme geſne;
+<lb />Que tremblant d’vn deuoir où ie ne puis manquer,
+<lb />Il vouluſt me le dire, &amp; n’oſaſt s’expliquer;
+<lb />Que ſa fiere douleur par le reſpect contrainte
+<lb />A ſes confus ſoûpirs abandonnaſt ſa plainte,
+<lb />Et l’étoufaſt d’vn air, qui dans ces durs combats
+<lb />Me laiſſaſt deuiner ce qu’il ne diroit pas.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V.
+<lb />SELEVCVS, STRATONICE
+<lb />PHENICE, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Adame, tout eſt preſt, &amp; la Syrie en peine
+<lb />M De rendre promptement ſon hommage à ſa
+<lb />Reyne,
+<lb />N’attend plus que demain pour voir ſelon ſes vœux,
+<lb />Et Stratonice au Trône, &amp; Seleucus heureux:
+<lb />Vn ſeul trouble s’oppoſe au comble de ma joye,
+<lb />Toûjours à ſes chagrins ie voy le Prince en proye,
+<lb />Et ne pouuant les vaincre, il taſche obſtinement
+<lb />A m’arracher l’adueu de ſon éloignement.
+<lb />I’ay ſans doute à rougir dans l’amour qui m’enflame,
+<lb />Que d’autres intereſts puiſſent trop ſur inon ame;
+<lb />Mais peut-eſtre ce Fils a-t’il des qualitez
+<lb />A rendre ſon malheur digne de vos bontez,
+<lb />I’implore leur ſecours, empeſchez qu’il nous quitte,
+<lb />Si j’ay trop de tendreſſe, il a quelque merite,
+<lb />Et ie vous deuray tout, ſi rompant ſon deſſein
+<lb />Vous obtenez qu’au Trône il vous preſte la main,
+<fw><lb />
+</fw><fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quel que ſoit voſtre amour, il me feroit injure,
+<lb />Seigneur, s’il eſtoufoit la voix de la Nature,
+<lb />Et vous auoit ſeduit juſqu’à vous détacher
+<lb />Des ſoins où vous oblige vn intereſt ſi cher.
+<lb />Iamais dans vn deſtin à nos vœux ſi contraire
+<lb />Pour vn Fils plus illuſtre on n’a veu craindre vn Pere;
+<lb />Mais en vain nos ſouhaits haſtent la gueriſon
+<lb />Des inquiets tranſports qui troublent ſa raiſou.
+<lb />Tandis qu’aupres de vous vous voulez qu’on l’arréte,
+<lb />Il m’employe à vous faire agréer ſa retraite,
+<lb />Et l’éclat des appreſts qu’étale voſtre Cour,
+<lb />Bleſſe autant ſon chagrin qu’il flate voſtre amour.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Qu'eſperer donc, Madame, &amp; quel Dieu fauorable
+<lb />Luy rendra le repos dont la perte m’accable?
+<lb />Comme fur les parens Iambition peut tout,
+<lb />Par là de ſes ennuis j’ay crû venir à bout:
+<lb />Quand ma main vous appelle au Trône de Syrie,
+<lb />I’aime à luy voir remplir celuy de Phenicie,
+<lb />Et penſe que ſur luy dans vn chagrin ſi noir
+<lb />La douceur de regner aura quelque pouuoir;
+<lb />EMais bien loin qu’à ce charme il ſe montre ſenſible,
+<lb />igrane m’en rapporte vn refus inuincible,
+<lb />t ne découure rien qui puiſſe m’éclaircir
+<lb />D’vn mal que tous nos ſoins ne peuuent adoucir.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />'eſt par là que j’en voy la fuite plus à craindre,
+<lb />uoy que ſouffre lePrince, on ne peut que le plaindre,
+<lb />t l’amour pateruel vous fait en vain chercher
+<lb />ar où guerir vn mal qu’il ſe plaiſt à cacher.
+<lb />’ay déja fait effort pour vaincre ſon ſilence,
+<lb />ais ie l’ay veu s’aigrir par cette violence,
+<lb />Et craignant d’oſer trop...
+</sp>
+<sp type="MainZone-Sp"><lb />B ij
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Ah, rout vous eſt permis,
+<lb />Et vous ſeule auez droit de me rendre mon Fils.
+<lb />Vos ſoins y peuuent tout, employez-les, de grace,
+<lb />A détourner vn ſort dont l’horreur nous menace,
+<lb />Et pour lire en ſon cœur malgté ſon noir deſtin,
+<lb />Contraignez-vous encor à flater ſon chagrin.
+<lb />Quand vous le preſſerez, peut-eſtre aura-t’il peinc
+<lb />A ne pas expliquer le trouble qui le geſne;
+<lb />Sur tout arrachez-luy ce deſſein de partir,
+<lb />Madame, c’eſt à quoy ie ne puis conſentir.
+<lb />Tandis que vos bontez en rompront l’injuſtice,
+<lb />I’iray preſſer le Ciel de nous eſtre propice,
+<lb />Et par des vœux ſoûmis deſarmant ſon couroux,
+<lb />Luy demander pour luy ce que j’attens de vous.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+<fw><lb />3
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE II.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE,
+<lb />ARSINOE', BARSINE.
+</p>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />VOY, lors que ſa langueur va juſques à
+<lb />l'extréme,
+<lb />Le trouble qui la ſuit fait connoiſtre
+<lb />qu’il aime?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Oüy, Baiſine, &amp; le Prince a beau ſe déguiſer,
+<lb />L’amour ſeul à ce trouble a droit de l'expoſer,
+<lb />Dans ſon cœur malgré luy mes ſoupçons me font
+<lb />lire.
+</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />Ce peut eſtre pour vous qu’Antiochus ſoûpire,
+<lb />Et par là, quoy qu’il cache, il vous ſeroit aiſé
+<lb />De connoiſtre le mal que vous auriez cauſé.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINGE.
+<lb />Tu crois qu’il m’aimeroit, luy dont l'ardent ſuffrage
+<lb />A des vœux de Tigrane authoriſé l’hommage:
+<lb />Me l’a fait agréer, &amp; ſur l’adueu du Roy
+<lb />Aſſeure à ſon amour &amp; mon cœur &amp; ma foy?
+<lb />B iij
+</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />Peu voudroient d’vn Riual fauoriſer la flame,
+<lb />Mais, Madame, il n’eſt rien que n’oſe vne grãde ame,
+<lb />Et Tigrane à ſon Prince ayant ſauué le jour,
+<lb />Tout me deuient ſuſpect quand il ſert ſon amour.
+<lb />Pour triompher du ſien, le forcer au ſilence,
+<lb />L’amitié s’eſt pû joindre à la reconnoiſſance,
+<lb />Et quoy qu’il ſe contraigne à ſoûpirer tout bas,
+<lb />L’excez de ſon chagrin ne le trahit-il pas?
+<lb />Peut-il mieux expliquer qu’il cede ce qu’il aime?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSTNOE.
+<lb />C’eſt ce eruel effort qui l’arrache à luy-meſme,
+<lb />Mais lors qu’il ſę ſoûmer à cetre affreuſe loy,
+<lb />La Reyne en ce qu’il ſouffre a plus de part que moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Stratonice?
+<lb />BARSINE.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Elle-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />Et vous le pouuez eroire
+<lb />Dans le peu d’intereſt qu’il montre pour ſa gloire?
+<lb />Quand chacun à l’envy s’y fait voir empreſſé
+<lb />Du plus foible deuoir il ſe croit diſpenſé,
+<lb />Iamais il ne luy parle, &amp; la fuyant ſans ceſſe...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />S’il l'a fuit, ce n’eſt pas ſon chagrin qui l’en preſſe,
+<lb />Il fuit, il eraint des yeux trop ſçauans à charmer,
+<lb />Et craindre vn bel objet, Barſine, c’eſt l’aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />Quoy, c’eſt-là de ſa flame vne preuue certaine?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Non, mais enfin j’en croy ce portrait de la Reyne,
+<lb />Qui trouué ſur mes pas me laiſſe peu douter
+<lb />D’vn feu que ſon reſpect empeſche d’ẽclater.
+<fw><lb />
+</fw><fw><lb />
+<lb />B
+</fw><lb />Depuis que le hazard m'en fait depoſitaire.
+<lb />Sa perte eſt vn malheur dont on aime à ſe taire,
+<lb />Et pour le recouurer, tour autre qu’vn Amant,
+<lb />N’ayant rien à cacher, s’en plaindroit hautement,
+<lb />Elle tire vne boëte de Portnuit qu’elle
+</sp>
+<sp type="MainZone-Sp"><lb />montre à Barſine.
+<lb />Voy de nouueaus, Barſine, auec quel auantage
+<lb />Ce qui doit l’enfermer eſtale ſon ouurage,
+<lb />Admire tout autour quels pompeux oruements.
+<lb />Luy fournit à l’envy léclat des diamants:
+<lb />Tant de profuſion, comme elle eſt peu commune,
+<lb />Marque en qui la peut faire vne haute fortune,
+<lb />Et la Boëte eſt d’vn prix qui ne fait que trop voir
+<lb />Qu’vn Prince à l’enrichir a montré ſon pouuoir;
+<lb />Outre que ie la trouue en ce lieu ſolitaire
+<lb />Où l’on voit chaque jour Antiochus ſe plaire,
+<lb />Sous ces Arbres toufus dont l’agreable frais
+<lb />Pour qui cherche à reſver à de ſi doux atraits, (cante.
+<lb />Croy moy, de mes ſoupçons la preuue eſt conuain</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />S’ils ne vous trõpent point, la diſgrace eſt touchante,
+<lb />Car c’en eſt vne enfin ſous qui trembler d’effroy
+<lb />D’eſtre Riual enſemble, &amp; d’vn Pere, &amp; d’vn Roy,
+<lb />Mais d’vn Roy qui d’ailleurs adore Stratonice.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Il faut que cét amour aujourd’huy s’éclairciſſe,
+<lb />Cette Boëte y peut tout, &amp; pour m’en aſſeurer
+<lb />Aux yeux d’Antiochus ie n’ay qu’à m’en parer.
+<lb />De ſon trouble à la voir penſes-tu qu’il ſoit maiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />BARSINE.
+<lb />Le feu qu’il rient caché par là ſe peut connoiſtre,
+<lb />Mais n’oubliez-vous point ce que vous auez fait,
+<lb />Que par vous cette Boëte a changé de Portrait?
+<lb />Pour celuy de la Reyne elle enferme le voſtie.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />C’eſt exprés que le mien tient la place de l’autre.
+<lb />A moins qu’vn tel échange aidaſt à m’éclaircir,
+<lb />En vain par cét eſſay j’y croirois reuſſir.
+<lb />Le Prince auroit ſur ſoy peut-eſtre aſſez d’empire
+<lb />Pour ne rien laiſſer voir de ce qu’il n’oſe dire;
+<lb />Et ſur quelque pretexte il pourroit trouuer jour
+<lb />A reprendre vn Portrait ſi cher à ſon amour;
+<lb />Au lieu que par la Boëte ayant vn ſeur indice
+<lb />Que ie garde en mes mains celuy de Stratonice,
+<lb />L’ardeur de retirer ce depoſt precieux
+<lb />Luy fera découurir ce qu’il cache le mieux,
+<lb />Ou s’il peut me laiſſer en quelque incertitude,
+<lb />Du moins ie joüiray de ſon inquietude,
+<lb />Il parlera par elle, &amp; quand... Mais ie le voy,
+<lb />Pour le contraindre moins, Barſine, éloigne-toy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ANTIOCHVS, ARSINOE’.
+</p>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Eigneur, eſt-il poſſible, &amp; pourra-t'on le croire,
+<lb />QQue vous-meſme ayez mis obſtacle à vôtre gloire,
+<lb />Et que lors que le Roy cherche à vous couronner
+<lb />Voſtre adueu pour vn Trône ait peine à ſe donner?
+<lb />L’éclat du nouueau rang qui d’vne pompe inſigne...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTTOCHVS.
+<lb />Sa bonté l’a ſurpris quand il m’en a crû digne,
+<lb />Mais mon zele à ſes ſoins auroit mal répondu
+<lb />Si j’auois accepté ce qui ne m’eſt pas deu,
+<lb />Ie ſuis né ſon Sujet, &amp; fais gloire de l’eſtre.
+<fw><lb />4.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />ites que de vos ſens le chagrin eſt le maiſtre,
+<lb />Et que tout voſtre cœur s’en laiſſant accabler.
+<lb />Me qur doit fauouert ſert à le redoubler.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />eſt vray qu’il an’emporte, &amp; qu’en vain mon
+<lb />adreſſe
+<lb />S’efforce de bannir ou cacher ma foibleſſe,
+<lb />algré moy ie luy cede, &amp; ſon ſubtil poiſon
+<lb />'vne vapeur maligne infecte ma raifon,
+<lb />Jans ceſſe elle s’abyſme, &amp; ſon trouble... de grace,
+<lb />Fraites...
+<fw><lb />ſ<lb />3
+<lb />l
+<lb />
+<lb />8
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Et bien, Seigneur, que faut-il que ie faſſe?
+<lb />ous ne dites plus rien, &amp; tout à coup vos yeux....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />examine vn trauail &amp; riche &amp; curieux,
+<lb />t trouue en cette Boëte vn chef-d’œuure ſi rare
+<lb />u’il ſemble en l’admirant que mon eſprit s’égare,
+<lb />a façon eſt nouuelle, &amp; j’en eſtime l’art.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />oute riche qu’elle eſt, ie la tiens du Hazard.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />uoy, Madame, en vos mains le Hazard l’a remiſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />üy, Seigneur, &amp; c’eſt là ce qui fait ma ſurpriſe,
+<lb />ue qui pour l’enrichir n’a rien fait épargner,
+<lb />iſſe en ſouffrir la perte, &amp; n’en rien témoigner.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />dmire comme vous qu’on la tienne ſécrete,
+<lb />faite,
+<lb />e ce qu’en ce modele on peut faire imiter.
+<fw><lb />&amp;
+</fw><lb />Pour vn trauail charmant dont la garde m’eſt chere
+<lb />Vn ouurage pareil me ſeroit neceſſaire,
+<lb />Et ie ne ſçaurois mieux en regler le projet...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />I'eſtimois ce depoſt, &amp; j’en auois ſujet,
+<lb />Mais ie vous l’abandonne, &amp; ne veux pour partage
+<lb />Que reprendre vn Portrait....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, c’eſt me faire outrage,
+<lb />En me le conſiant ne craignez rien pour luy,
+<lb />Et ſouffrez que ſa veuë amuſe mon ennuy,
+<lb />La Peinture eut toûjours dequoy me ſatisfaire.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Si j’en croy ce qu’on dit, celle-cy doit vous plaire,
+<lb />Et comme enfin, Seigneur, vous vous y connoiſſez,
+<lb />Dites-moy d’vn coup d’œil ce que vous en penſez,
+<lb />Les traits en ſont hardis, &amp; la main...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS l’empeſchant d’ouurir la boëte.
+<lb />Non, Madame,
+<lb />Déja la reſuerie occupe trop mon ame,
+<lb />Et du moins deuant vous c’eſt à moy d’éuiter
+<lb />Tout ce que ie préuoy qui pourroit l’augmenter,
+<lb />Du Peintre en ce Portrait examinant l’adreſſe
+<lb />I’oublierois malgré moy...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Seigneur, ie vous le laiſſe,
+<lb />Quoy que ſur ce trauail j’aye à vous conſulter,
+<lb />La Reyne qui paroiſt m’oblige à vous quiter.
+<fw><lb /><lb />2
+<lb />
+<lb />e3
+<lb />
+<lb />1a
+<lb />1
+<lb />
+<lb />*
+<lb />3
+<lb />fet
+<lb />E
+<lb />A
+<lb />3
+<lb />*84
+<lb />R„
+<lb />3
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+<lb />b 1VS.
+</p>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Tbien, Madame, enfin le Roy me fait-il grace?
+<lb />L Conſent-il au deſtin dont la rigueur me chaſſe,
+<lb />EEt que loin de la Cour ie tâche à retrouuer
+<lb />La douceur du repos dont ie me ſens priuer?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Seigneur, pour vous le rendre eſperez tout d’vn Pere,
+<lb />Il n’eſt rien qu’à ſon Fils ſa tendreſſe prefere,
+<lb />Mais c’eſt trop vous flater de croire qu’aiſement.
+<lb />Il donne ſon adueu pour voſtre éloignement,
+<lb />Ce deſſein l’épouuante, en parler c’eſt vn crime.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Il faut donc qu’en mes maux ſans ceſſe ie m’abyſme,
+<lb />Que ſans ceſſe vne triſte &amp; mortelle langueur....
+</sp>
+<sp type="MainZone-Sp"><lb />Tout le monde auec vous partage ſa rigueur,
+<lb />Mais quand pour l’adoucir vous cherchez la retraite,
+<lb />La Cour n’a-t’elle rien dont l’éclat vous arréte?.
+<lb />N’y voyez-vous par tout qu’Objets à dédaigner?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, ce n’eſt pas par là qu’il m’en faut éloigner.
+<lb />S’il eſt rien dont l’appas ou me flate, ou m’attire,
+<lb />C’eſt-là que ie le vois, c’eſt-là que ie l’admire,
+<lb />Et l’Vniuers entier n’a rien d’vn ſi haut prix
+<lb />Qui vaille les douceurs dont ie m’y ſens ſurpris;
+<lb />Mais dans le trouble obſcur de mon ame abatuë,
+<lb />Mon bonheur fait mon mal, ce qui me plaiſt, me tuë,
+<fw><lb />*-
+<lb />brmm<lb />
+<lb /><lb />2
+<lb />H
+</fw><lb />Et mon chagrin funeſte a l’art d’empoiſonner
+<lb />Tous les biens que le Ciel cherche à m’abandonner.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quoy? toûjours ce chagrin ſans m’en dire la cauſe?
+<lb />I’auois creu que ſur vous ie pouuois quelque choſe,
+<lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Si dans ce pouuoir vous trouuez quelque appas,
+<lb />Il ne va que trop loin, ne vous en plaignez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Vous me cachez vos maux, &amp; ie pourrois vous croire?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Mais, Madame, ſongez qu’il y va de ma gloire,
+<lb />Et que ie la trahis ſi j’oſe découurir
+<lb />Ce qu’en vain ma raiſon a taſché de guerir.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quoy que pour vn grãd cœurla raiſon ait d’amorces,
+<lb />Où la paſſion regne elle reſte ſans forces,
+<lb />Et ſur tout ſes conſeils font peu d’impreſſion
+<lb />Quand le mal naiſt d’amour, ou vient d’ambition.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, pour l’ambition j’en crains peu la ſurpriſe,
+<lb />Plus ie ſuis prés du Trone, &amp; plus ie le mépriſe,
+<lb />Et lors qu’on vous y place, il me ſeroit moins doux
+<lb />D’aller donner des loix que d’en prendre de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Cet illuſtre mépris ſied bien aux grands courages,
+<lb />Mais chaque paſſion excite ſes orages,
+<lb />Et tel qu’vn plus haut rang ne peut inquieter,
+<lb />Aux troubles de l’amour a peine à reſiſter.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />ANTIOCHVS.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Vous ſoûpirez!
+</sp>
+<p type="MainZone-Other"><lb />ANTIO.
+<fw><lb />
+</fw></p>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Il eſt vray, ie ſoûpire,
+<lb />Et dis peut-eſtre plus que ie n’ay crû vous dire;
+<lb />Mais ſi j’explique trop ce qu’en vain ie combats,
+<lb />Songez que c’eſt à vous à ne m’entendre pas.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb /> Quoy, Prince? il ſe peut donc que l'amour...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, Madame,
+<lb />Vous auez arraché ce ſecret de mon ame,
+<lb />Et quand rien ſur ce point ne pouuoit m’ébranler,
+<lb />Vous blaſmiez mon ſilence, il a falu parler;
+<lb />Mais ne pretendez point pour finir mon martyre
+<lb />Que j’accepte l’oubly que vous m’allez preſcrire,
+<lb />Et que ma paſſion puiſſe prendre la loy
+<lb />Du pouuoir aoioiu que vous auez ſur mox.
+<lb />Auec toute l’ardeur dont vn cœur ſoit capabſe
+<lb />I’aime ce que iamais on vit de plus aimable,
+<lb />Et trouueray toûjours vn ſort bien moins amer
+<lb />A mourir en aimant, qu’à viure ſans aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quoy que de mes conſeils voſtre amour ſemble
+<lb />craindre,
+<lb />I'en croy le feu trop beau pour le vouloir éteindre;
+<lb />Mais ie ne comprens point quel bizarre pouuoir
+<lb />Le forçant au ſilence arme ſon deſeſpoir.
+<lb />Outre qu’en vain ſans ceſſe on veut qu’il ſe contrai<lb />gne,
+<lb />Vous n’eſtes pas d’vn rang qu’aiſément on dédaigne.
+<lb />Ou ſi rien en aimant ne vous peut ſecourir,
+<lb />Du moins on plaint vn mal qu’on ne ſçauroit guerir:
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Nonmon, à mon deſtin le Ciel veut que ie cede,
+<lb />Madalhe, il faut mourir, mon mal eſt ſans remede;
+<lb />Ce n’eſt pas qu’en effet la douceur d’eſtre plaint
+<lb />Ne ſoulágeaſt les maux dont mon cœur eſt atreint;
+<lb />Mais pour flater le trouble où leur rigueur m’expoſe,
+<lb />Il faudroit eſtre plaint de celle qui les cauſe,
+<lb />Et dans l'obſtacle affreux qui s’offre à reſpecter,
+<lb />C’eſt eſtre criminel que de le ſouhaiter.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE..
+<lb />I'ignore quel obſtacle elle vous montre à craindre;
+<lb />Mais pour vous ſoulager s’il ne faut que vous plain<lb />dre,
+<lb />Quelque auſtere vertu qui la force d’agir,
+<lb />C’eſt vn bien qu’elle peut accorder ſans rougir.
+<lb />Pour moy, ſi ſur ſon cœur, quaud elle a tout le voſtre,
+<lb />Ie puis...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Vous y pouuez ſans doute plus qu’vne autre,
+<lb />Et ſi ie me ſouffrois l’eſpoir d’vn bien ſi doux,
+<lb />Mon amour ne voudroit l’attendre que de vous,
+<lb />Mais ſi-toſt que j’aurois... Ie ſçay trop que ma flame...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Et bien, Prince, acheuez.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />N’en parlons plus, Madame,
+<lb />I'oubliois vn deuoir que mon reſpect ſoûtient,
+<lb />Ie m’allois égarer, mais ma raiſon reuient,
+<lb />Et tant qu’vn coup fatal borne enfin ma miſere,
+<lb />Ie voy qu’il faut languir, ſoûpirer, &amp; me taire.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Pour vous en pouuoir croire, il faut qu’aupara<lb />uant...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Madame, au nom des Dieux n’allez pas plus auant.
+<lb />Tant que j’aime en ſecret j’aime auec innocence,
+<lb />Mats enfin ie la pers ſi j’en fais confidence,
+<lb />Et c’eſt peut eſtre aſſez dans vn ſort ſi cruel
+<lb />De viure malheureux, ſans mourir criminel.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Aprés ce que ſur vous ie dois auoir d’empire,
+<lb />Prince, c’eſt m’outrager que s’en vouloir dédire,
+<lb />Et ſoupçonner qu’vn zéle auſſi faux qu’indiſcret...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Madame, encor vn coup laiſſez-moy mon ſecret.
+<lb />Vous meſme qui voulez qu’vn libre adueu l’exprime,
+<lb />S’il eſchape à mon eœur, vous m’en ferez vn crime,
+<lb />Et ſans voir par quel ordre il l’oſe reueler,
+<lb />Vous me demanderez qui m’aura fait parler;
+<lb />Ne vous expoſez point pour vouloir trop cõnoiſtre...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Vos malheurs ſont au point de ne pouuoir s’accroi<lb />ſtre,
+<lb />Et quand ie n’agirois qu’afin de vous trahir...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Enfin vous le voulez, il faut vous obeïr,
+<lb />Mais j’atteſte les Dieux, ſi ie romps le ſilence,
+<lb />Que voſtre ordre à mon feu fait cette violence,
+<lb />Et que juſqu’au tombeau fans cette dure loy
+<lb />Ce ſeroit vn ſecret entre mon cœur &amp; moy.
+<lb />Puiſqu’il faut expliquer pour qui ce cœur ſoûpire,
+<lb />Vous meſme dites-vous ce que ie ne puis dire,
+<lb />Ce Portrait trop aimable, &amp; trop propre à charmer
+<lb />Vous montrera l’Objet que ie n’oſe nommer.
+<lb />Il luy donne le Portrait qu’il a receu d’Arſinoé.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Cet excez de reſpect marque vne ame incapable...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Et bien, qu’ordonnez-vous d’vn Amant déplorable?
+<lb />A tout ſon deſeſpoir faut-il l’abandonner,
+<lb />Ou le plaindre d’vn ſort qu’il n’a pû déiourner?
+<lb />C ij
+<lb />Mais voſtre teint ſe change, &amp; ce front qui s’al<lb />tere...
+<lb />C’en eſt fait, ie le voy, j’ay deu, j’ay deu me taire,
+<lb />Et l’amour dont ie ſuis l’indiſpenſable loy,
+<lb />Quand j’en nomme l’Objet, eſt vn crime pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Voſtre choix me furprend, &amp; quelque haut merite
+<lb />Que cet amour ſe peigne en l’Objet qui l’excite...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, ſi par le merite il pouuoit s’excuſer,
+<lb />Qui n’approuueroit pas ce qu’il me fait oſer?
+<lb />A l’orgueil de mes vœux ne faites point de grace,
+<lb />Mais épargnez l’objet qui les force à l’audace,
+<lb />Iamais rien de ſi beau ne parut ſous les Cieux,
+<lb />Iamais rien de ſi vif ne ſceut charmer nos yeux,
+<lb />De la Diuinité c’eſt l’image viſible,
+<lb />Pour ne l’adorer pas il faut eſtre inſenſible,
+<lb />Et quand ce libre adueu preſſe voſtre couroux,
+<lb />Le malheur eſt pour moy, mais le crime eſt de vous.
+<lb />Quoy que preſt d’expirer ſous l’horreur du ſilence,
+<lb />I’ay voulu de mon feu cacher la violence,
+<lb />I’ay voulu déguiſer à quels charmes ſoûmis...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Pourquoy ce long ſilence à qui tout eſt permis?
+<lb />Ie dois à ce Portrait l’adueu de voſtre flame,
+<lb />Et ſur ce qu’il m’apprend...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Rendez-le moy, Madame,
+<lb />Mon amour le demande; &amp; dans ſon deſeſpoir..
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ce n’eſt pas de ma main qu’il doit le receuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS:
+<lb />Quoy, me le refuſer! O rigueur impreueuë!
+<lb />Et bien, priuez mes yeux d’vne ſi chere veuë,
+<fw><lb />
+<lb />14
+<lb />
+</fw><lb />Vous n’empeſcherez point que graué dans mon
+<lb />cœur
+<lb />Du beau feu qui m’embraſe il n’augmente l’ardeut.
+<lb />C’eſt-là que malgré vous j’adoreray ſans ceſſe
+<lb />Les traits d’vne charmante &amp; diuine Princeſſe.
+<lb />Qu’vn hommage ſecret luy ſoûmettant ma foy...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Prince, adieu, c’en eſt trop.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Madame, écoutez- moy.
+<lb />orie ne paitorcor mon amour à ſe taire,
+<lb />I’ay du ſang à répandre, il peut vous ſatisfaire,
+<lb />Ie vous l'offre, &amp; mon mal deuiendra plus leger...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Tigrane qui paroiſt ſçaura le ſoulager,
+<lb />Gonmompeurteu poervous, vous luy pouuez tour
+<lb />dire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />ANTIOCHVS, TIGRANE.
+</p>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Our adoucir les maux dont voſtre cœur ſoupire,
+<lb />T Seigneur, ſe pourroit-il que mon zéle &amp; mes
+<lb />ſoins...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIGCHVS.
+<lb />Mon chagrin pour reſver ne veut point de témoins,
+<lb />Accordez ce relaſche à mon ame abatuë.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Quoy, vous me déguiſez la douleur qui vous tuë?
+<lb />Et l'amitié, Seigneur, vous y fait conſentir?
+<lb />C iij
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ie vous l’ay déja dit, Tigrane, il faut partir,
+<lb />C’eſt tout ce que ie ſçay.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Ie n’oſe vous promettre
+<lb />Que le Roy ſur ce point vueille rien vous permettre,
+<lb />D'vn congé ſi funeſte il condamne l'eſpoir,
+<lb />Et plein d’impatience il demande à vous voir.
+<lb />Mais ſi ie m’en rapporte à ce qu’a dit la Reyne,
+<lb />Il ſemble que ie puis ſoulager voſtre peine,
+<lb />Et qu’à me l’expliquer vous faiſant quelque effost...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Voyons le Roy, Tigrane, &amp; laiſſons faire au Sort.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+<fw><lb />3
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE III.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />SELEVCVS, ANTIOCHVS, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />RINCE, n’eſperez point que jamais ie
+<lb />conſente
+<lb />A ce cruel depart qui flate voſtre attente.
+<lb />S’il faut de vos ennuys partager le tourment
+<lb />I'en prefere la peine à voſtre éloignement,
+<lb />De voſtre veuë au moins laiſſez-nous l’auantage;
+<lb />Mais enfin ſe peut-il que rien ne vous ſoulage,
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />SELEVCVS, STRATONICE
+<lb />ANTIOCHVS, PHENICE, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />SELEYCVS.
+<lb />V'auez-vous fait pour moy? vous auez veu mo
+<lb />Fils,
+<lb />Madame, &amp; de vos ſoins ie me ſuis tout promis,
+<lb />Dans le trouble où l’engage vn deſtin trop contraire
+<lb />A-t’il pû vous cacher ce qu’il aime à nous taire?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />S’il eſtoit quelque ſoin qui le puſt adoucir,
+<lb />Les bontez de la Reyne auroient dû reüſſir,
+<lb />Mais dans mes ſens confus, Seigneur, tel eſt c
+<lb />trouble,
+<lb />Que plus on le combat, plus ie ſens qu’il redouble,
+<lb />Et malgré moy ſans ceſſe interdit, eſtonné..
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />A d’éternels ennuys il ſe croit deſtiné,
+<lb />Mais quel que ſoit le mal à qui ſa raiſon cede,
+<lb />Peut-eſtre eſt-il aiſé d’en trouuer le remede,
+<lb />Et l’on n’ignore pas où l’on doit recourir
+<lb />Quand on n’a dans vn cœur que l’amour à guerir.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Quoy, mon Fils aimeroit?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS:
+<lb />Qu’auez-vous dit, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ouy, Seigneur, ſon chagrin eſt l'effet deſa flame,
+<lb />Son cœur de ſon ſecret obſtinément jaloux...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />h, Madame, eſt-ce là ce que j’ay crû de vous?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />'en rougy point, mon Fils; ſi l'adueu t’en fait honte,
+<lb />oy qu’il n’eſt point de cœur que l’Amour ne ſur<lb />monte,
+<lb />tt pour authoriſer celuy qui t’a ſurpris,
+<lb />onge que ton Pere aime auec des cheueux gris.
+<lb />uelques brulants tranſports où cette ardeur t’en<lb />traine,
+<lb />uis-je les condamner quand j’adore la Reyne,
+<lb />t prefere en l’aimant la gloire de ſes fers
+<lb />cente de me von maiſtre de I'Vniuers?
+<lb />ime donc puiſqu’enfin aimer n’eſt pas vn crime,
+<lb />ais aime pour te rendre vn ſecours legitime,
+<lb />uelque cœur que l’amour te force d’attaquer
+<lb />our voir finir tes maux tu n’as qu’à t’expliquer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />eigneur, trop de bonté pour moy vous intereſſe,
+<lb />'aime, en vain ie voudrois vous cacher ma foibleſſe,
+<lb />On vous en a trop dit, mais enfin c’eſt du temps
+<lb />Que dépend dans mes maux le ſecours que j’attens,
+<lb />Vaincre ma paſſion en eſt le ſeul remede.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />A tant d’aueuglement ſe peut-il qu’elle cede
+<lb />Que dans ce qu’authoriſe vn abſolu pouuoir,
+<lb />Tu n’oſes luy fouffrir la douceur de l’eſpoir?
+<lb />Voy dans toute l’Aſie, a-t’elle aucune Reyne
+<lb />Qui dédaignaſt l'honneur d’auoir cauſé ta peine?
+<lb />Ou s’il te plaiſt d’aimer dans vn deſtin plus bas,
+<lb />Pour l’éleuer à roy choiſy qui tu voudras,
+<lb />Ma tendreſſe y conſent, &amp; tu n’as rien à taire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Haſtez la gueriſon d’vn Amant trop diſcret,
+<lb />Madame, vous ſçauez le reſte du ſecret?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ouy, scigneur; &amp; ie puis...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ne dites rien, Madame;
+<lb />Vous n’auez que trop fait d’auoir trahy ma flame,
+<lb />Bornez-la des malheurs qu’on ne peut reparer,
+<lb />Et laiſſez-moy mourir ſans me deſeſperer.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Souffrir que ſous l’amour vn ſi grand Prince expire!
+<lb />Ce Portrait vous dira ce qu’il n’oſe vous dire,
+<lb />Seigneur, voyez pour qui ſon cœur eſt preuenu.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS pendant que Seleucus regarde
+<lb />le Portrait.
+<lb />Enfin l'on ſçait mon crime, &amp; tout vous eſt connu,
+<lb />L’Aſtre qui m’en a fait vn deſtin neceſſaire
+<lb />Dérobe à mon reſpect la gloire de me taire,
+<lb />Et pour comble d’horreur dans vn mal ſi preſſant
+<lb />Il ne m’eſt plus permis de mourir innocent;
+<lb />C’eſtoit par là pourtant que ie flatois ma peine,
+<lb />Et ſi j’ay découuert mon ſecret à la Reyne,
+<lb />I’auois quelque ſujet de croire qu’à ſon tour
+<lb />Elle voudroit m’aider à cacher mon amour.
+<lb />L’adueu qu’elle en a fait demande mon ſuplice,
+<lb />Ordonnez-le, Seigneur, &amp; vous faites juſtice,
+<lb />Déja ce que pour vous j’y prenois d’intereſt
+<lb />Par l'exil que ie preſſe auoit fait mon arreſt.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />O vertu ſans exemple! ô cœur trop magnanime!
+<lb />Ne parle point, mon Fils, ny d’exil ny de crime,
+<lb />Quoy qu’oppoſe à ta flame vn ſcrupuleux deuoir,
+<lb />c’eſt trop, c’eſt trop longs temps luy deffedre l'eſpoir,
+<lb />Ie répons du ſuccez, aime ſans plus rien craindre.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Que pour moy juſques- là vous vueilliez vous con<lb />traindre!
+<lb />Ah, pluſtoſt qu’abuſer de vos rares bontez,
+<lb />Puiſſent croiſtre ces maux que j’ay trop meritez,
+<lb />Puiſſent...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCYS.
+<lb />Ie ſçais à quoy ton grand cœur te conuie,
+<lb />Tu dois tout à Tigrane, il t’a ſauué la vie,
+<lb />Mais le trouble où t’abyſme vn long &amp; dur ennux,
+<lb />Quoy qu’il ait fait pour toy, te rend quite vers luy,
+<lb />u n’as que troppayé ce fidelle ſeruice.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ie crains peu qu’en mon cœur jamais rien l'affoi<lb />oline,
+<lb />Mais pourquoy m’aduertir de ce que ie luy doy?
+<lb />Tigrane...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Le voicy, laiſſe parler ton Roy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III.
+<lb />SELEVCVS, ANTIOCHVS,
+<lb />STRATONICE, TIGRANE,
+<lb />PHENICE, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />SELEVCVS à Tigrane.
+<lb />Our arracher ton Prince au tourment qui l'ac<lb />2
+<lb />cable,
+<lb />D’vn grand &amp; rare effort ſens-tu ton cœur capable?
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Au prix de tout mon ſang j’aſpire à le montrer,
+<lb />beigneur...
+<lb />. *3
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS:
+<lb />Dans ſes ennuys on vient de penetrer;
+<lb />Il en cachoit la cauſe auec vn ſoin extréme,
+<lb />Mais tout eſt éclaircy, te le diray-je? il aime,
+<lb />Et ſon feu qu’au ſilence il a toûjours contraint,
+<lb />A cauſé tous les maux dont tu le vois atteint.
+<lb />Puiſque d’Arfinoé dépend ſon ſeul remede,
+<lb />Il faut qu’à ſon amour ton amitié la cede,
+<lb />Et qu’vn heureux hymen commence dés demain
+<lb />A luy rendre vn repos qu’il attend de ſa main. 
+</sp>
+<sp type="MainZone-Sp"><lb />AAA IRSdrATD.
+<lb />(menée
+<lb />Moy, Seigneur? la Princeſſe! Ah Dieux! qu’à Fhy<lb />Tigrane..
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Son malheur tient ton ame eſtonnée,
+<lb />Tu crains de luy rauir ce qui plaiſt à ſes yeux,
+<lb />Mais enfin à l’Eſtat tes jours ſont precieux.
+<lb />Queique attemte qu'n iente a ce grand coup de
+<lb />foudre,
+<lb />Pour conſeruer ta vie il ſçaura s’y reſoudre,
+<lb />Ie répons de ſon zele, &amp; connoy trop ſa foy.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Vous le pouuez, Seigneur, ie dois tout à mo
+<lb />Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />On s’abuſe, Tigrane, &amp; c’eſt en vain qu’on penſe...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Aſſez &amp; trop long-temps tu t’es fait violence,
+<lb />Laiſſe enfin éclater vn amour trop diſcret,
+<lb />Va voir Arſinoé, ie te rends ſon Portrait,
+<lb />D'vn gage ſi charmant la garde eſt toûjours chere.
+<lb />ANTIO
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS regardant le Portrait.
+<lb />Confus, hors de moy-meſme, &amp; contraint de me
+<lb />caneli.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Dans l’excez du bonheur les ſens ſont interdits.
+<lb />Enfin ie n’ay plus rien à craindre pour mon Fils.
+<lb />Madame, c’eſt à vous que j’en dois l’auantage,
+<lb />Mais ne dédaignez pas d’acheuer voſtre ouurage,
+<lb />Et puiſqu’à la Princeſſe il faut tout declarer,
+<lb />Par vn premier aduis venez-l’y preparer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Madame, ſe peut-il...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ouy, perdez vos alarmes.
+<lb />Vos vœux pour la Princeſle auront aſſez de charmes,
+<lb />Et ſi pour la toucher quelque ſoin m’eſt permis,
+<lb />Ie vous y ſeruiray comme ie l’ay promis.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />ANTIOCHVS, TIGRANE,
+</p>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />IE ne demande plus d’où partoit le ſilence
+<lb />IQui de voſtre ſecret m’oſtoit la connoiſſance,
+<lb />Seigneur, il eſt donc vray qu’vn reuers trop fatal
+<lb />M’appreſtoit la douleur de vous voir inon Riual,
+<lb />extréme.
+<lb />Porter ſur mon amour...
+<lb />
+<lb />23
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Quoy, Tigrane, &amp; vous-meſme
+<fw><lb />Vóus croyez que mon cœur pour la Princeſſe
+</fw></sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />(atteint...
+<lb />Ah, ce n’eſt pas dequoy ma paſſion ſe plaint.
+<lb />Arſinoé ſans doute a tous les aduantages
+<lb />Dont l'éclat puiſſe plaire aux plus nobles courages,
+<lb />Et comme rien n’échapé à qui peut tout charmer,
+<lb />Puiſque vous la voyiez, vous auez dû l’aimer;
+<lb />Ie me plains ſeulement que l’adueu de ma flame
+<lb />Ne m’ait pas attiré le ſecret de voſtre ame,
+<lb />Mon reſpect joint alors à ce que ie vous doy
+<lb />Euſt eſté pour me vaincre vne aſſez forte loy.
+<lb />Dans ces commencemens, quelque ardeur qui nous
+<lb />preſle,
+<lb />Des ſens encor ſoûmis la raiſon eſt maiſtreſſe,
+<lb />Et contraint en naiſſant d’en eſtouffer l’appas,
+<lb />Si le cœur en ſoûpire, il ſoûpire tout bas;
+<lb />Mais auant qu’éclater vous m’auez laiſſé prendre
+<lb />Tout l’eſpoir qu’vn beau feu puiſſe jamais attendre,
+<lb />Vous auez couſenty que ce cœur ainoureux
+<lb />Touchaſt le doux moment qui m’alloit rendre
+<lb />heureux,
+<lb />Demain l’Hymen deuoit couronner ma victoire,
+<lb />Demain ie deuois eſtre au faiſte de la gloire,
+<lb />Et par l’affreux reuers d’vn trop funeſte ſort,
+<lb />Le jour de mon triomphe eſt celuy de ma mort,
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS:
+<lb />Non, non, quoy qu’il arriue, aimez en aſſeurance,
+<lb />Les maux dont vous tremblez ne ſont qu’en appa<lb />rence,
+<lb />C’eſt de mon ſeul repos que le Sort eſt jaloux,
+<lb />Tigrane, croyez-m’en, la Princeſſe eſt à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Elle eſt à moy, Seïgneur! &amp; le puis-je pretendre
+<lb />Quand c’éſt me l’arracher que me la vouloir rendre,
+<fw><lb />2
+</fw><fw><lb />„
+<lb />2
+</fw><lb />Et que voſtre vertu par cét illuſtre effort
+<lb />M’expliquant mon deuoir fait l’arreſt de ma mort?
+<lb />Au peril de vos jours chercher à vous contraindre,
+<lb />C’eſt combatre mon feu, c’eſt m’apprendre à l’é<lb />teindre,
+<lb />Et croiſtre d’autant plus de ſi ſenſibles coups
+<lb />Qu’il ne m’eſt pas permis de me plaindre de vous.
+<lb />Encor ſi vous diſiez qu’à l’eſpoir qu’on me vole
+<lb />Vous voulez que pour vous ma paſſion s’immole,
+<lb />Et qu’vn ordre abſolu me forçaſt d’étoufer
+<lb />Vn feu dont voſtre cœur n’auroit pû triompher,
+<lb />Ie vous demanderois ſi vous auriez dû croire
+<lb />Que j’obtinſſe pluſtoſt cette triſte victoire,
+<lb />Et ſi pour renoncer à l’eſpoir le plus doux
+<lb />I’aurois ou plus de force, ou moins d’amour que
+<lb />vous.
+<lb />Ie vous demanderois parquelle grandeur d’ame
+<lb />Ie pourrois plus ſur inoy que vous ſur voſtre flame,
+<lb />Et pourquoy juſqu’au jour où j’attens tout mon bien
+<lb />On m’auroit tout promis pour ne me donner rien;
+<lb />Mais plus vous me cedez, moins ce bien me de<lb />meure,
+<lb />Quand vous voulez mourir, l’honneur veut que ie
+<lb />meure,
+<lb />Et meure au deſeſpoir d’eſtre encor vers le Roy
+<lb />Coupable des ennuys que vous ſouffrez pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ils ſont grands, ie l'aduouë, &amp; i’ay lieu de m’en
+<lb />plaindre,
+<lb />Mais s’il m’eſtoit permis de ne me point con<lb />traindre,
+<lb />Et de vous faire voir à quels rudes combats...
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />D ij
+<lb />Dites que la Princeſſe agrée en vain ma flame,
+<lb />Qu’elle a tout voſtre cœur, qu’elle a toute voſtre
+<lb />ame,
+<lb />Qu’auant que la ceder vous verrez tout perir,
+<lb />Ie mourray de l’entendre, &amp; ie cherche à mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Quoy? vous me reduirez à vous dire ſans ceſſe
+<lb />Que ie ne pretens rien au cœur de la Princeſſe,
+<lb />Que loin que mon eſpoir combate voſtre feu,
+<lb />Ie ſuis preſt...
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Ah, Seigneur, pourquoy ce deſaueu?
+<lb />N’auez-vous pas au Roy declaré quel empire...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />I’ay parlé ſans ſçauoir ce que j’ay voulu dire,
+<lb />Ou pluſtoſt dans les maux dont ie ſuis attaqué,
+<lb />On a crû mon ſilence, il s’eſt mal expliqué.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Et ce Portrait, Seigneur?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />En vain on me l’oppoſe,
+<lb />S’il ſemble auoir trop dit n’en cherchez point la
+<lb />cauſe,
+<lb />Mon cœur dont ce myſtere augmente l’embarras,
+<lb />Ne vous peut éclaircir ce qu’il ne conçoit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Ie le conçois, Seigneur, mon deſeſpoir vous geſne,
+<lb />Vous m’en mõtrez l’exemple, il faut ceder ſans peine;
+<lb />S’applaudir en donnant ce qu’on a de plus cher,
+<lb />Et démentir l’amour qu’on ne peut s’arracher.
+<lb />Et bien, quoy que ſur nous ſon pouuoir ſoit extréme,
+<lb />Si vous y renoncez, j’y renonce de meſme.
+<lb />Dequoy que la Princeſſe ait paru me flater,
+<lb />Vous engager ſon cœur c’eſt ne me rien oſter,
+<fw><lb />4
+<lb />Mα
+</fw><fw><lb />
+</fw><lb />Si j’eus long-temps l’eſpoir que le Roy vous aſſeure,
+<lb />Ie le pris ſans amour, ie le perds ſans murmure,
+<lb />Sa main pour mon bonheur n’auoit rien d’importãt,
+<lb />En eſt-ce aſſez, Seigneur, &amp; viurez-vous content?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Pour l’eſperer jamais ma diſgrace eſt trop forte.
+</sp>
+<p type="MainZone-Head"><lb />SONNE
+<lb />V
+<lb />ANTIOCHVS, ARSINOE', TIGRANE,
+<lb />BARSINE.
+</p>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Adame, retenez vn Amant qui s’emporte,
+<lb />M Sa mort ſera l’effet d’vn ordre qu’il reçoit,
+<lb />Son deſeſpoir la preſſe, &amp; c'eſt luy qu’il en croit.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Quoy que de Seleucus le Ciel m’ait fait dependre,
+<lb />Tigrane ſçait de moy ce qu’il a droit d’attendre;
+<lb />Mais comme enfin cét ordre a droit de l’étonner,
+<lb />De grace, apprenez-moy ce qui l’a fait donner.
+<lb />Qu’auez-vous dit, Seigneur, dont ſon ame abatuë...
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Qu’il meurt d’amour pour vous, que cét amour le
+<lb />Et que preſſé d’ennuys, la langueur qui les ſuit (tuë,
+<lb />Eſt l'effet de l’eſtat où vous l’auez reduit.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE à Antiochus.
+<lb />Sous quelque dur ſoupçon que Tigrane languiſſe,
+<lb />Ie me connoy, Seigneur, &amp; ie vous rends juſtice,
+<lb />Ce qui le fait trembler étonue peu ma foy;
+<lb />Mais encor vne fois qu’auez-vous dit au Roy?
+<lb />Luy deuiens-je ſuſpecte, &amp; m’auez-vous nommée?
+<lb />D iij
+</sp>
+<sp type="MainZone-Sp"><lb />Non, Madame, &amp; ſa flame en vain s’eſt alarmée,
+<lb />Le nom d’Arſinoé ne m’eſt point échapé,
+<lb />Et ſi le Roy ſe trompe, il veut eſtre trompé.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Helas: pour exprimer tout l’amour qui l’inſpire,
+<lb />Montrer voſtre Portrait n’eſt-ce pas aſſez dire,
+<lb />Et fur l’heureux depoſt d’vn gage ſi charmant
+<lb />Peut-il moins aduoüer que le tiltre d’Amant?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE..
+<lb />M’a-t’on dit vray, Seigneur, qu’expliquãt voſtre peine
+<lb />Vous ayez laiſſé voir mon Portrait à la Reyne,
+<lb />Et iounert que le Roy...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Madame, vous ſçauez
+<lb />Que plaignant les ennuys qui me ſont reſeruez:
+<lb />Vous-meſme...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Et bien, Seigneur?
+<lb />.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Que cherchez vous, Madame?
+<lb />Son trouble n’eſt-il pas le témoin de ſa flame?
+<lb />Vous faut-il vn témoin plus fort, plus aſſeuré,
+<lb />Et Tigrane a t’il tort s’il meurt deſeſperé?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ses tranſports iront loin ſi voſtre amour n’arreſte
+<lb />L'injuſte deſeſpoir où ce Portrait le jette,
+<lb />Il eſt vray qu’on l’a veu, mais ſans trop s’alarmer,
+<lb />Qu’il attende...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSENOE.
+<lb />Ie voy ce qu’ilfaut preſumer,
+<lb />Et penetre à la fin ſous quel ſecret empire....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTTOCHVS:
+<lb />Ah, Madame, ſur tout gardez-vous de rien dires
+<lb />Ou pluſtoſt du ſiſence où ie dois m’obſtiner
+<lb />Gardez-vous malgré moy d’oſer rion douiner,
+<lb />Loin d’adoucir mes maux ce ſeroit les accroiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Pour ne les guerir pas ils ſe font trop connoiſtre,
+<lb />Et d’vn amour contraint le dur accablement,
+<lb />Sans qu’on deuine rien, parle aſſez clairement.
+<fw><lb />l'
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />O deuoir, ô reſpect dont la loy trop ſeuere
+<lb />Quand ie veux m’expliquer me cõdamne à me taire!
+<lb />Ie ne vous dis plus rien, mais pour m’en conſoler,
+<lb />Les effets parleront ſi ie n’oſe parler.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />ARSINOÉ, TIGRANE, BARSINE.
+</p>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Adame, c’eſt donc là...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Vous n’eſtes pas à plaindre
+<lb />Autant que voſtre amour vous engage à le craindre.
+<lb />Quelque ordre dont l'éclat menace voſtre eſpoir,
+<lb />Il ſuffit que c’eſt moy qui dois le receuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Contre l’ordre du Roy que peut voſtre conſtance?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Par luy, par ſon adueu ma flame a pris naiſſance;
+<lb />Tigrane, &amp; c’eſt aſſez pour m’acquerir les droits
+<lb />D’appuyer hautement la gloire de ſon choix.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />A fuiure ce proiet quand le Prince vous aime;
+<lb />Songez vous que déja ſa langueur eſt extréme,
+<lb />Qu'on en voit chaque jour redoubler les accez,
+<lb />Qu’on tremble de la ſuite?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Attendez le ſuccez,
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Ily va de ſa vie, &amp; quand le peril preſſe,
+<lb />Vous voulez..
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Sa vertu bannira ſa foibleſſe,
+<lb />Ou s’il eſſaye en vain de contraindre ſes vœux,
+<lb />Le Roy n’a qu’à vouloir, &amp; le Prince eſt heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Et ne le veut.il pas quand ſon ordre m’arrache...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Voſtre heur eſt toûjours ſeur, quelque ombre qui le
+<lb />Ne vous alarmez point.
+<lb />(cache,
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Quoy? garder quelque eſpoir,
+<lb />Quand pour le rẽdre heureux le Roy n’a qu’à vouloir?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Ie vous le dis encor malgré voſtre ſurpriſe,
+<lb />La gueriſon du Prince au Roy ſeul eſt remiſe,
+<lb />Mais il eſt dangereux en de tels embarras
+<lb />D’oſer trop s’expliquer ce qu’on ne comprend pas.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />C’eſt ſans m’expliquer rien que ie puis vous entẽdre,
+<lb />Qu'à mon malheur d’obſcur pour ne le point com<lb />Ne vois-je pas...
+<lb />(prendre?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />A dieu, gardez toûjours ma foy,
+<lb />Ie vous en diray plus quand j’auray veu le Roy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACIE IV
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />F
+<lb />STRATONICE.
+<lb />LATEVSE illuſion que j’ay trop oſé croire,
+<lb />Doux abus de mon cœur par mes deſirs
+<lb />trompé,
+<lb />Ceſſez pour me punir d’oppoſer à ma gloire
+<lb />Le pouuoir que ſur luy vous auez vſurpe.
+<lb />D’vn vray merite en vain j’eus peine à me deffendre,
+<lb />En vain ie l’écoutay ſur la foy de l’amour,
+<lb />S’il triompha par lâ de ce cœur foible &amp; tendre,
+<lb />Le noble &amp; juſte orgueil qui cherche à me le rendre,
+<lb />En doit triompher à ſon tour.
+</sp>
+<sp type="MainZone-Sp"><lb />Ouy, pour en arracher cette eſtime enflamée
+<lb />Dont mon deuoir trop tard ſe ſentit alarmer,
+<lb />Il ſuffit de l’affront de n’eſtre point aimée
+<lb />A qui ſur cét eſpoir s’eſtoit permis d’aimer.
+<lb />Voy donc auec mépris tout ce qu’eut d’eſtimable
+<lb />Ce Prince qui ſur toy prenoit trop de pouuoir;
+<lb />Mais d’vn pareil effort eſt on ſi-toſt capable,
+<lb />Et pour ceſſer d’aimer ce que l’on trouue aimable,
+<lb />Helas! n’a t’om qu’à le vouloir?
+<lb />Ie ſçay que le dépit qu’vn autre Objet l’emporte
+<lb />Semble juſqu’à la hayne attirer tous nos ſoins,
+<lb />Qu'à nos yeux la plus rude à peine eſt aſſez forte;
+<lb />Mais pour vouloir haïr on n’en aime pas moins.
+<lb />L'ardeur de ſe vanger par là de ce qu’on aime
+<lb />Hauſſe le prix d’vn cœur vainement attaqué,
+<lb />Et ſentir dans ce trouble vne colere extréme
+<lb />C’eſt moins le dédaigner, que vanger ſur ſoy-meſme
+<lb />La honte de l’auoir mauqué.
+</sp>
+<p type="MainZone-P"><lb />Ainſi ne prétens point auoir éteint ta ſſame
+<lb />Par ce brûlant couroux qui te defend d’aimer;
+<lb />Le vif reſſentiment qui l’étouffe en ton ame
+<lb />Ne fait que l’aſſoupir pour mieux ſe rallumer.
+<lb />La ſeule indifference eſt la marque certaine
+<lb />D’vn cœur que la raiſon ou ſoulage, ou guerit,
+<lb />Et loin que les tranſports de colere &amp; de hayne
+<lb />De ce cœur indigné puiſſent caliner la peine,
+<lb />C’eſt dequoy l’amour ſe nourrit.
+</p>
+<sp type="MainZone-Sp"><lb />Cependant quand l’Hymen étonne ta conſtance,
+<lb />Que ta lâche vertu fremit de ton deuoir,
+<lb />T’oſeras-tu vanter de cette indifference
+<lb />Qui fait ſeule acquerir ce que tu crois vouloir?
+<lb />T’apprend-elſe à ceder à l’oubly ne ceſſaire
+<lb />De tant de vœux ſecrets que tu te crus permis,
+<lb />Et dans l’inſtant fatal qu’vn deſtin trop ſeuere
+<lb />T’aduertit que demain tu dois ton cœur au Pere,
+<lb />Peux-tu ne point ſonger au Fils?
+</sp>
+<p type="MainZone-Other"><lb />Dures extrémitez où l’ame partagée...
+</p>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />STRATONICE, PHENICE.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Adame, ſçauez-vous que vous eſles vangée?
+<lb />Ml En vain Antiochus ſe flatoit d’eſtre heureux,
+<lb />La fiere Arſinoé n’en peut ſouffrir les vœux,
+<lb />Et ſi le Roy pretend vſer de ſa puiſſance,
+<lb />Elle ſȩait comme il faut ſignaler ſa conſtance,
+<lb />C’eſt aſſez qu’à Tigrane elle ait donné ſa foy,
+<lb />Voila ce qui ſe dit.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Et que reſout le Roy?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Pour vaincre ſes refus on croit qu’il l’ait mandée,
+<lb />Mais dans le pur amour dont elle eſt poſſedée,
+<lb />Les ordres violents qu’elle va receuoir
+<lb />N’en feront dans ſon cœur qu’affermir le pouuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Qu’importe du ſuccez à mon ame alarmée?
+<lb />Pour refuſer d’aimer n’eſt elle point aimée,
+<lb />Et quoy que ſa fierté braue l’ordre du Roy,
+<lb />En vois-je moins ailleurs ce que ie crus à moy?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />L’amour d’Antiochus n’a pû trop vous ſurprendre,
+<lb />Mais comme à ſon Hymen vous ne pouuiez pre<lb />tendre,
+<lb />C’eſt du moins quelque charme à voſtre eſprit
+<lb />jaloux
+<lb />De le voir dans ſes vœux auſſi trompé que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Que tu penetres mal l’ennuy qui me ſurmonte!
+<lb />Si le Prince eſt trompé, Phenice, il l'eſt ſans honte,
+<lb />Et n’apoint à rougir de s’eſtre répondu
+<lb />Du ſuecez qu’à ſa flame il croyoit eſtre deu.
+<lb />Il ſçauoit qu’à Tigrane Arſinoé fidelle
+<lb />Verroit auec chagrin qu’il ſoûpiraſt pour elle,
+<lb />Et pourſuiuant vn cœur pour vn autre enflamé,
+<lb />Il aimoit aſleuré de n’eſtre point aimé.
+<lb />Mais qui n’auroit point crû qu’vne ſecrete flame
+<lb />M’auoit abandonné l’empire de ſon ame?
+<lb />De ſes yeux interdits la confuſe langueur
+<lb />Sembloit de ſon deſtin m’expliquer la rigueur,
+<lb />A ſes ſouhaits pour moy rien ne pouuoit ſuffire,
+<lb />Il parloit, s’égaroit, &amp; craignoit de trop dire.
+<lb />S’il alloit quelquefois juſques à m’admirer,
+<lb />Se taiſant tout à coup ie l’oyois ſoûpirer,
+<lb />Et de ſon feu ſecret j’auois pour aſſeurance
+<lb />Ses regards, ſes ſoûpirs, ſa crainte, &amp; ſon ſilence.
+<lb />Cependant j’ay trop crû ce ſilence trompeur.
+<lb />Ah, ſi tu connoiſſois tout ce que ſouffre vn cœur,
+<lb />Quand au gré de ſes vœux ſe flatant d’eſtre aimée
+<lb />On croit oüir ſon nom, &amp; qu’vne autre eſt nommée!
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />C’eſt ſans doute vn chagrin qu’on ne peut conce<lb />uoir,
+<lb />Mais dequoy peut ſe plaindre vn amour ſans eſpoir?
+<lb />Que perd-on en perdant ce qu’on n’a pû pretendre?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />La gloire d’auoir pris ce qu’on auoit crû prendre,
+<lb />Et de pouuoir du moins ne ſe point reprocher
+<lb />Qu’on ne meritoit pas ce qu’on n’a ſçeu toucher.
+<lb />Outre que dans le rang où le Ciel m’a fait naiſtre,
+<lb />Ie rougiſſois d’vn feu que ie ſentois s’accroiſtre,
+<fw><lb />Ec
+</fw><lb />Et pour en conſoler ma ſeuere fierté
+<lb />Ie voulois m’excuſer ſur la Fatalité,
+<lb />Voir le meſme Aſcendant par vne égale amorce
+<lb />Forcer Antiochus de meſme qu’il me force,
+<lb />Et pouuoir imputer mes vœux trop euflamez
+<lb />Au panchant inuincible où nous eſtions formez;
+<lb />Mais lors qu’à mon deſtin le ſien eſt ſi contraire
+<lb />A fembie que ma hame ait eſté velontaire,
+<lb />Et que mon cœur exprez pour mandier le ſien
+<lb />Se ſoit permis des vœux dout ie n’attendois rien.
+<lb />Peut-eſtre, helas! peut-eſtre à m’expliquer trop
+<lb />prompte,
+<lb />De ces vœux indiſcrets j’ay découuert la honte,
+<lb />I’ay pû luy douner lieu de s’en apperceuoir,
+<lb />De voir toute mon ame, &amp; c’eſt mon deſeſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Sur ce ſcrupule en vain voſtre fierté s’alarme,
+<lb />Il aime Arſinoé, cét amour ſeul le charmé,
+<lb />Son cœur à cette idée entierement rendu,
+<lb />Quoy que vous ayez dit, n’aura rien entendu,
+<lb />Et loin de voir pour luy que voſtre ame enflamée,
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ah, pour le remarquer que ne m’a-t’il aimée,
+<lb />Et quand à s’enhardir mon feu luy donnoit jour,
+<lb />Que ne l’ay-je pû voir éclairé par l’amour?
+<lb />N’y penſons plus, Phenice, ou croyons qu’il s’obſtine
+<lb />A brauer l’Aſcendant qui pour moy le domine,
+<lb />Et que pour l'en punir, les Dieux l'ont fait pancher:
+<lb />Où d’autres vœux receus l’empeſchent de toucher.
+<lb />Mais ſans doute frapé d’vne mortelle atteinte
+<lb />Tigrane que ie voy vient m’adreſſer ſa plainte,
+<lb />Tandis que ſa douleur ſe ſoulage auec moy,
+<lb />Va ſçauoir, s’il ſe peut, les ſentimens du Roy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />STRATONICE, TIGRANE.
+</p>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Y N reuers trop cruel trauerſe voſtre flame
+<lb />V Pour pouuoir m’étõner du trouble de vôtre ame;
+<lb />Mais du moins c’eſt beaucoup que malgré ſa rigueur
+<lb />D’vn triomphe ſecret vous gouſtiez la douceur.
+<lb />I’apprens que de vos feux la Princeſſe charmée
+<lb />Fait vanité d’aimer autant qu’elle eſt aimée,
+<lb />Et que ſur ſa couſtance on ne ſçauroit gagner
+<lb />D’en immoler la gloire à celle de regner.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Madame, le Deſtin m’eſt d’autant plus contraire
+<lb />Qu’au moment qu’il m’accable il conſent que j’eſ<lb />Et par de faux appas ébloüiſſant ma foy
+<lb />Me force d’appuyer ce qu’il fait contre moy.
+<lb />Antiochus renonce à m’oſter ce que j’aime,
+<lb />(pere,
+<lb />D’Arſinoé pour moy la conſtance eſt extréme,
+<lb />Et quoy qu’on faſſe enfin, ſi ie les croy tous deux,
+<lb />Rien ne peut mettre obſtacle au ſuccez de mes feux.
+<lb />Du Prince cependant le déplaiſir s’augmente,
+<lb />Son chagrin eſt plus noir, ſa langueur plus traiſnante,
+<lb />Et ſi de ſa vertu j’oſe me préualoir,
+<lb />Sa mort preſque certaine étouffe mon eſpoir.
+<lb />Iugez ſi mes ennuys en ont moins d’amertume.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Peut-eſtre il n’aime pas autant qu’on le preſume,
+<lb />Et puiſqu’à ſon bonheur il cherche à reſiſter
+<lb />On peut croire....
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />Ah, Madame, il n’en faut point douter,
+<lb />La Princeſſe le charme, il l’adore, &amp; ſon ame
+<lb />Peut à peine ſuffire à l’excez de ſa flame,
+<lb />Iamais vn plus beau feu ne regna ſur vn cœur,
+<lb />Mais vn foible ſernice en arreſte l’ardeur;.
+<lb />Il ne peut oublier qu’vn ſort digne d’enuie
+<lb />M’a fait ſauuer ſes jours au peril de ma vie,
+<lb />Et par reconnoiſſance il s’obſtine à ſon tour
+<lb />A donner aujourd’huy la ſienne à mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ie voy ce qui vous geſne, vne amitié ſi pure
+<lb />Vous force à refuſer ce qu’elle vous aſſeure;
+<lb />Mais au moins voſtre amour dans ce reuers fatal
+<lb />N’a point à redouter le bonheur d’vn Riual,
+<lb />Painqu a tous pielerer ia Princeſſe conſtante
+<lb />Sçaura trop....
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />C’eſt par là que mon malheur s’augmente.
+<lb />On m’apprend que le Roy de tant d’amour ſurpris
+<lb />M’impute pour ſon choix ce qu’elle a de mépris,
+<lb />Et que ſi juſqu’au bout il la trouue obſt née
+<lb />A refuſer l’honneur de ce grand Hymenée,
+<lb />Comme il m’en croit la cauſe, il veut que dés de<lb />main
+<lb />Moy-meſme ie choiſiſſe à qui donner ma main.
+<lb />La Princeſſe par là de ſa foy dégagée
+<lb />N’aura plus dans ſes vœux à reſter partagée,
+<lb />Et voyant mon deuoir porter ma flame ailleurs,
+<lb />Cedera ſans ſcrupule à des deſtins meilleurs.
+<lb />S’il eſt vray qu’on m’appreſte vn ſi cruel ſupplice
+<lb />I’implore vos bontez contre tant d’injuſtice,
+<lb />Par pitié de mes maux détournez-en l'effet,
+<lb />Il ſuffit de l’effort que mon deuoir s’eſt fait,
+<fw><lb />E ij
+</fw><lb />Pourquoy preſſer l'éclat d’vn deſeſpoir funeſte?
+<lb />Ma douleur le commence, elle répond du reſte,
+<lb />Et n’aura pas beſoin, pour terminer mes jours,
+<lb />De ſouffrir que mon bras luy preſte du ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />Si le Prince...
+<lb />STRATONICE.
+</sp>
+<sp type="MainZone-Sp"><lb />TIGRANE.
+<lb />A ſes yeux il faut cacher mon trouble,
+<lb />Et puiſque mon malheur par ſa vertu redouble,
+<lb />Ie vous laiſle empeſcher qu’vne vaine pitié
+<lb />N’immole dans ſon cœur l’amour à l’amitié.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />STRATONICE, ANTTOCHVS.
+</p>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Rince, enfin il eſt temps que ce chagrin s’efface,
+<lb />I Tigrane ſans murmure accepte ſa diſgrace,
+<lb />Et pour finir vos maux renonçant à l’eſpoir....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Pour les finir ?helas! en a-t’il le pouuoir?
+<lb />Non, non, ces triſtes maux dont ma flame eſt ſuiuie
+<lb />N’auront jamais de fin qu’en celle de ma vie,
+<lb />Et pour quitter ces lieux ie me voy diſpenſé
+<lb />D’attendre le congé que vous auez preſſé..
+<lb />Demain le Roy vous place au Trône de Syrie,
+<lb />I’eu ſeray le témoin, mon deuoir m’y conuie,
+<lb />Mais ma fuite ſuiura la pompe de ſon choix,
+<lb />Et ie vous parle icy pour la derniere fois.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />L’hymen d’Arſinoé..
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ie le voy bien, Madame,
+<lb />Vous conſentez pour elle au beau feu qui m’enflame,
+<lb />Mais l’excuſeriez-vous ſi de ce feu charmé
+<lb />I'aduoüois que c’eſt vous qui l’auez allumé?
+</sp>
+<sp type="MainZone-Sp"><lb />Moy, Prince?
+<lb />STRATONICE.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Il n’eſt plus temps, Madame, de vous taire
+<lb />Qu’Arſinoé n’a rien de ce qui peut me plaire.
+<lb />Ne me demandez point quel fatal contre-temps
+<lb />M’a fait luy donner part aux ennuys que ie ſens,
+<lb />Comme vn malheur toûjours eſt la ſource d’vn autre,
+<lb />Vous dounant ſon Portrait j’ay crû moutrer le vôtre,
+<lb />Et ſur le faux rapport de vos yeux abuſez
+<lb />On l’accuſe des maux que vous m’auez cauſez.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Et vous ne craignez point d’exciter ma colere?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Qu'elle éclate, Madame, elle m’eſt neceſſaire,
+<lb />Et quoy que mes ennuys doiuent trãcher mes jours;
+<lb />Pour en haſter l’effet il leur faut du ſecours.
+<lb />Dure neceſſité de mon malheur extréme!
+<lb />I’aſpire à la douleur d’irriter ce que j’aime,
+<lb />Et pour mourir pluſtoſt, forcé de me trahir,
+<lb />I'ay beſoin de chercher à me faire haïr.
+<lb />Par là mon deſeſpoir preſſant ſa violence...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONIC.E.
+<lb />Ce tranſport va trop loin, &amp; dit plus qu’il ne penſe,
+<lb />Mais ie dois excuſer ce triſte excez d’ennuys
+<lb />Qui vous fait malgré vous oublier qui ie ſuis.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />N’excuſez point mon crime, il n’a rien que j’ignore,
+<lb />C’eſt vous qui me charmez,vous que mõ cœur adore,
+<fw><lb />E iij
+</fw><lb />Et ce cœur qu’à vous voir vn prompt amour ſurprit,
+<lb />En vous l’oſant jurer, ſçait trop bien ce qu’il dit.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Si c’eſt ſans voſtre adueu qu’il s’en eſt rendu maiſtre,
+<lb />Vous deuriez au moins l’empeſcher de paroiſtre,
+<lb />Et ne me pas reduire à ſonger à punir
+<lb />Quand la pitié de moy voudroit tout obtenir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Pour moy dans mes malheurs ſa voſtre ſeroit vaine,
+<lb />D’autres cherchent l’amour, ie cherche voſtre haine.
+<lb />Pour prix des plus beaux feux à qui l’on pûſt ceder,
+<lb />Aprés ce que ie ſouffre, eſt-ce trop demander?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Quoy que voſtre douleur de cette haine eſpere,
+<lb />Ne la meritez point ſi vous me voulez plaire,
+<lb />Et me cachant l’amour qui tient vos ſens ſeduits,
+<lb />Laiſſez-moy la douceur de plaindre vos ennuis.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Plaindre d’vn malheureux la diſgrace inhumaine.
+<lb />C’eſt montrer quelque pente à ſoulager ſa peine,
+<lb />Et pour flater la mienne au point qu’elle ſe voit,
+<lb />Si c’eſt moins qu’il ne faut, c’eſt plus qu’on ne luy
+<lb />doit.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Si le Ciel à mon choix... Mais qu’eſt-il neceſſaire..
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />N’acheuez point ſi-toſt
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />C’eſt à moy de me taire,
+<lb />Mon deſtin le demande, il luy faut obeir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Mais enfin ſi le Ciel vous euſt laiſſé choiſir?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Que vous eſtes cruel! Ah!
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Voſtre cœur ſoûpire?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ce ſoûpir eſchapé...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Parlez, que veut-il dire?
+<lb />M’apprend-il que mes vœux des voſtres ſecondez...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Que me demandez-vous puiſque vous l’entendez?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Quoy? voſtre hymen me liure au plus cruel ſupplice
+<lb />Sans que de mes malheurs voſtre eœur ſoit complice,
+<lb />Et ſi voſtre ſeul choix auoit reglé vos vœux,
+<lb />I'aurois pû par mes ſoins meriter d’eſtre heureux?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Prince, n'abuiez point a vne pitié trop tendre
+<lb />Qui m’a fait dire plus qu’on ne deuoit entendre,
+<lb />Et ſans quelques ſoûpirs n’a pû-me laiſſer voir
+<lb />L’aſpre neceſſité de ſuiure mon deuoir.
+<lb />Il pourra tout ſur moy, mais en l’oſant promettre
+<lb />I’auoüęray qu’en ſecret ie tremble à m’y ſoumettre,
+<lb />Et que l’ordre à mon cœur auroit eſté plus doux
+<lb />Si le Ciel m’euſt ſouffert d’en diſpoſer pour vous.
+<lb />C’eſt alors qu’on m’euſt veuë en receuant le voſtre...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, Madame, il en a diſpoſé pour vn autre,
+<lb />Et dequoy que pour moy vous vous ſentiez preſſer,
+<lb />Voſtre main eſt promiſe, il n’y faut point penſer.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Ie ſuis deuë à l’Eſtat, il me fait ſa victime.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />C’eſt à moy cependant à payer pour ce crime,
+<lb />A ſoûpirer ſans ceſſe, &amp; languir conſumé
+<lb />De l'ennuy de pouuoir, &amp; n’oſer eſtre aimé.
+<fw><lb />Pour en cacher l'excez blaſmerez-vous ma fuite?
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Non, Prince, &amp; dans l’eſtat où mon ame eſt reduite
+<lb />I’y conſens d’autant plus que ſa triſte rigueur
+<lb />Sauuera ma vertu des troubles de mon cœur.
+<lb />La pitié de vos maux dés l’abord y fit naiſtre
+<lb />Vn chagrin inquiet que ie n’oſay connoiſtre;
+<lb />Mais ſi le charme en plut à mes ſens alarmez.
+<lb />Il ſe rend plus ſenſible à voir que vous m’aimez,
+<lb />Malgré moy ie ſuccombe à ce qu’il a d’amorce,
+<lb />I'aime l’appas flateur dont le pouuoir m’y force,
+<lb />Et quand ie vous eſtime, vn ſentiment confas
+<lb />M’engage à ſoûpirer de n’oſer rien de plus.
+<lb />Allez, Prince, &amp; daignez m’épargner vne veuë
+<lb />Qui me fait oublier à qui ma main eſt deuë,
+<lb />Non qu’enfin ma raiſon en ait moins de pouuoir,
+<lb />Mais j’écoute, &amp; c’eſt trop pour qui ſçait ſon de<lb />uoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />De vos bontez pour moy ce dernier témoignage
+<lb />Pour ce cruel deuoir eſt ſans doute vn outrage,
+<lb />Mais enfin par ma mort s’il peut ſe reparer,
+<lb />Conſolez-vous, Madame, il n’a guere à durer.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Si voſtre éloignement s’eſt rendu neceſſaire,
+<lb />Songez que voſtre vie a lieu de m’eſtre chere,
+<lb />Et que l’honneur touſiours permettant d’eſtimer...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTTOCHVS.
+<lb />Helas! Madame, helas! ie viurois pour aimer.
+<lb />Pourriez-vous à ce prix conſentir à ma vic?
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Viuez pour n’aimer plus, c’eſt moy qui vous en prie,
+<lb />Ou ſi ce triſte effort paſſe voſtre pouuoir,
+<lb />Prince, viuez du moins pour ne le plus vouloir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ainſi, quelques ennuis que j’aye encor à craindre,
+<lb />Vous n’aurez qu’à vouloir pour ceſſer de m’en plaiu<lb />dre?
+<lb />Voſtre cœur auſſi-toſt ſe rendant tout à ſoy....
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Prince, adieu, plus j’écoute, &amp; moins ie me connoy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Et bien, il faut ſuruiure à cet adieu funeſte,
+<lb />Il faut voir voſtre Hymen, j’ordonneray du reſte;
+<lb />Mais au moins ſi l'honneur apres ce triſte iour
+<lb />N’oſe plus vous ſouffrir de plaindre mon amour,
+<lb />Attendant que ma mort en efface le crime,
+<lb />Madame, aſſeurez moy de toute voſtre eſtime,
+<lb />Me la promertez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />SIRATONICE.
+<lb />Ouy, ie vous la promets,
+<lb />Fuyez, &amp; s’il ſe peut, ne me voyez jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, ſi c’eſt pour jamais que le Ciel nous ſepare,
+<lb />Madame, ſouſtenez ma raiſon qui s’égare,
+<lb />Et qu’vn moment encor... elle fuit, &amp; ie voy....
+<fw><lb />-:
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V
+<lb />ANTIOCHVS, ARSINOE'.
+</p>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Eigneur, le Roy me mande, &amp; vous ſçauez
+<lb />pourquoy.
+<lb />Auant que luy parler j’ay crû deuoir m’inſtruire
+<lb />De ce que vous jugez que ie luy doiue dire,
+<lb />I’agiray par voſtre ordre, &amp; viens le receuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Qu’ay-je à dire, ou pluſtoſt qu’auez-vous à ſçauoir?
+<lb />Rendez Tigrane heureux, vous l’aimez, il vous aime.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Ie ſçay ce que ie dois à ſon amour extréme,
+<lb />Mais quand le Roy prétend diſpoſer de ma main,
+<lb />Eſt-ce à moy de brauer le pouuoir Souuerain?
+<lb />Mon refus vaincra-t’il, &amp; puis-ie, quoy que j’oſe,
+<lb />Soûtenir vu eſpoir où le voſtre s’oppoſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Moy, ie m’oppoſe au feu dont vous eſtes charmez?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Quoy? n’auez-vous pas dit au Roy que vous m’aimez,
+<lb />Que pour moy voſtre cœur ſecretement ſoûpire?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, Madame! pourquoy me l’auez-vous fait dire?
+<lb />Voſtre Portrait, helas!
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Seigneur, il me ſuffit,
+<lb />Ie voy ce que ſans vous ie m’eſtois déja dit,
+<lb />Vous brûlez pour la Reyne, &amp; l'amour...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ouy, Madame,
+<lb />Vous auez malgré moy penetré dans mon ame,
+<lb />Et ce qu’obſtinément j’aurois toûjours caché,
+<lb />De ce cœur amoureux vous l’auez arraché,
+<lb />I’adore Stratonice, &amp; l’ardeur qui me preſſe
+<lb />M’eſt vn ordre abſolu de l’adorer ſans ceſſe.
+<lb />Cependant par l’erreur de ſon Portrait changé
+<lb />A viure ſous vos loix on me croit engagé,
+<lb />Tigrane me condamne, &amp; telle eſt ma contrainte
+<lb />Qu’il faut par mon ſilence authoriſer ſa plainte.
+<lb />C’eſt à vous qui cauſez le trouble où ie me voy
+<lb />A rompre l’injuſtice où s’emporte le Roy,
+<lb />A montrer pour Tigrane vn cœur aſſez fidelle...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Ie ſçay vos intereſts, vous connoiſtrez mon zele.
+<lb />Quelque excez qu’à ſon feu le Roy ſemble ſouffrir,
+<lb />Son âge....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Pour mettre auprés de vous mon crime en éuidence
+<lb />Le Deſtin par ſurpriſe a trahy mon ſilence;
+<lb />Mais ſi vous m’accuſez, il n’eſt rien que ma ſoy
+<lb />Pour ſe juſtiſier ne tente contre moy.
+<lb />Pour démentir l’ardeur de mon ame embraſée
+<lb />J’aduoüeray que c’eſt vous qui me l’aurez cauſée,
+<lb />Et que l’honneur me force à mourit de langueur
+<lb />Pour ne pas à Tigrane arracher voſtre cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Mais que diray-je au Roy qui veut que j’obeïſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Obtenons que demain ſon Hymen s’accompliſſe,
+<lb />Tandis qu’vn peu de tẽps, malgré vos premiers feux.
+<lb />Diſpoſera voſtre ame à couronner mes vœux.
+<lb />Regardant ce delay comme vn bonheur ſupréme,
+<lb />Promettez tout alors, ie promettray de meſme,
+<lb />Et l’Hymen acheué, quoy que vueille le Roy,
+<lb />Ie vous rends à Tigrane en me rendant à moy.
+<lb />Mais ne refuſez point, pour ſoulager ma peine,
+<lb />De remettre en mes mains le Portrait de la Reyne,
+<lb />Sa veuë adoucira...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />I’ay ſujet d’en douter,
+<lb />Mais ce n’eſt point à moy, Seigneur, à reſiſter,
+<lb />Ce Portrait eſt à vous, ie ſçauray vous le rendre.
+<lb />Tandis ie vay ſçauoir quel conſeil ie dois prendre,
+<lb />Voir à quoy l’on aſpire, &amp; ſur l’ordre du Roy
+<lb />Regler &amp; ma réponſe, &amp;ce que ie vous doy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+</p>
+<p type="MainZone-Other"><lb />ACTE
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />PREMIERE.
+<lb />SELEVCVS, ARSINOE'.
+</p>
+<sp type="MainZone-Sp"><lb />E
+<lb />RINCESSE, enfin c’eſt trop vous en vou<lb />loir defendre,
+<lb />Il eſt temps de ceder, il eſt temps de vous
+<lb />rendre,
+<lb />Le beau feu dont pour vous mon Fils eſt conſumé
+<lb />Ne le rend pas peut-eſtre indigne d’eſtre aimé.
+<lb />Ne dites point qu’ailleurs voſtre main eſt promiſe,
+<lb />Pour le bien de l’Eſtat l’inconſtance eſt permiſe,
+<lb />Et Tigrane à ſon Prince immolant ſon eſpoir
+<lb />Par ce trait de vertu vous en fait vn deuoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Vous parlez, commandez, il faut qu’il oheïſſe;
+<lb />Mais, Seigneur, noſtre Sexe a ſouuent le malheur
+<lb />D’embraſſer la reuolte auec plus de chaleur.
+<lb />23
+<lb />Comme au rang que ie tiens c’eſt vne peine extréme
+<lb />De pouuoir ſe reſoudre, à prononcer qu’on aime;
+<lb />Quelques charmes d’ailleurs qui flatent nos ſou<lb />haits,
+<lb />Qui l’a dit vne fois ne s’en dédit jamais.
+<lb />Par d’inuiſibles nœuds, par de ſecretes flames,
+<lb />Sans nous, ſans noſtre adueu le Ciel vnit nos ames,
+<lb />Et ſur l’heureux rapport qui fait ce doux lien
+<lb />Tigrane eſt voſtre choix, j’y puis regler le mien.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Il le fut, ie l’aduouë, &amp; j’auois lieu de croire
+<lb />Que voſtre Hymen pour luy n’eſtoit point trop de
+<lb />gloire,
+<lb />La ſienne qu’éleuoient mille fameux exploits,
+<lb />Pour grand que fuſt ce prix, authoriſoit mon choix:
+<lb />Mais plûtoſt que ceder quãd luy-meſme il vous cede
+<lb />Verrez-vous tout perir ſans ſecours, ſans remede,
+<lb />Et mon Trône pour vous eſt il d’vn ſi bas prix
+<lb />Qu’il ne merite pas que vous ſauuiez mon Fils?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />S’il eſt quelque remede où le mal ſemble extréme
+<lb />Vous le cherchez en moy quãd il l’a dans luy-meſme;
+<lb />Et que de ſes ennuys il voit la gueriſou
+<lb />s’il oſe conſentir à croïre ſa raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />(ure,
+<lb />C’eſt en vain qu’il l’écoute, en vain qu’il la veut ſui<lb />Pluſtoſt que n’aimer plus il ceſſera de viure,
+<lb />Pour étouffer ſa flame il n’eſt rien qu’il n’aitfaït,
+<lb />La langueur qui le tuë en eſt le triſte effet.
+<lb />Tout à l’heure en mes bras paſmé, plein de foibleſſe,
+<lb />Chacun l’a veu ceder à l’ennuy qui le preſſe,
+<lb />On craint tout pour ſa vie, &amp; contre voſtre Roy...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Mais pour donner mon cœur, ce cœur eſt-il à moy?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Si voſtre amour ſe plaint d’vn effont ſi funeſte,
+<lb />Accordez voſtre main, le Ciel fera le reſte,
+<lb />Et le temps au deuoir prendra ſoin de fournir
+<lb />La force du panchant qui n’a pû vous vnir.
+<lb />D'vn Prince infortuné preuenez la diſgrace,
+<lb />Il y va de ſes jours, ſon deſtin les menace,
+<lb />Sauuez-le, ſauuez-moy, pour l’obtenir de vous
+<lb />Faudra-t’il qu’on me voye embraſſer vos genoux?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Ce ſeroit trop, Seigneur, &amp; ce haut caractere...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Si c’eſt trop pour vn Roy, c’eſt trop peu pour vn pere,
+<lb />Qui d’vn Fils aux abois plaignant le triſte ſort
+<lb />Abandonneroit tout pour empeſcher ſa mort.
+<lb />I’en voy le coup certain dans ces dures contraintes
+<lb />Dont voſtre ingrat refus redouble les atteintes,
+<lb />Ce n’eſt qu’abatement dans ſes ſens deſolez,
+<lb />Et s’il perit enfin, c’eſt vous qui l’immolez.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Cét amour qu’à nos yeux il tâche de contraindre
+<lb />Merite la pitié qui vous porte à le plaindre;
+<lb />Mais par quel droit, Seigneur, m’expoſer aujourd’huy
+<lb />A l'horteur d’vn tourment dont vous tremblez pour
+<lb />luy?
+<lb />Meſme ſort eſt à craindre où regne meſme flame,
+<lb />Ce qui perce ſon cœur doit déchirer mon ame,
+<lb />Et dans l’ardeur d’vn feu qui n’oſe attendre rien,
+<lb />S’il languit ſans repos, qui répondra du mien?
+<lb />I’aime, &amp; quand cét amour par voſtre ordre a ſçeu
+<lb />naiſtre,
+<lb />Ie n’ay point à rougir de le laiſſer paroiſtre,
+<lb />Tigrane a des vertus dont le ſecret pouuoir
+<lb />Par mes vœux les plus doux preuenoit mon deuoir,
+<lb />Mon cœur ſur vn appuy ſi fort, ſi legitime,
+<lb />Se liura ſans ſcrupule à toute ſon eſtime,
+<lb />Et ces ie ne ſçay quoy dont ie me vis charmer
+<lb />Sont des nœuds que vous-meſme euſtes ſoin de for<lb />mer.
+<lb />Pour me promettre ailleurs puis-je en rompre la
+<lb />chaiſne?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />L’effort eſt grand ſans doute, &amp; j’en conçois la peine,
+<lb />Mais lors qu’Antiochus à la mort ſe reſout,
+<lb />L’Eſtat ſouffre em ſa perte, &amp; vous luy deuez tout.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />L’amour qu’on a flaté juſqu’à luy tout promettre
+<lb />Aux maximes d’Eſtat a peine à ſe ſoûmettre,
+<lb />Et pour ſauuer vn Fils quoy que tout ſemble doux,
+<lb />Ie n’en veux point, Seigneur, d’autre juge que vous.
+<lb />Stratonice vous charme, &amp; vous ſentez pour elle
+<lb />Tout ce qu’vn rare Objet attend d’vn cœur fidelle,
+<lb />Dans cét excez d’amour, preſt à la poſſeder,
+<lb />Si le Prince l’aimoit, la pourriez-vous ceder?
+<lb />Ie répons de me vaincre, aſſeurez-m’en l’exemple.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Iamais douleur n’auroit de matiere plus ample,
+<lb />I'oſeray l’aduoüer, mais le Ciel m’eſt témoin
+<lb />Que pour ſauuer mon Fils j’irois encor plus loin,
+<lb />Ie ne reſeruerois Sceptre ny Diadême.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />C’eſt promettre en grand cœur, le feriez-vous de
+<lb />meſme?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Me puniſſent les Dieux s’il m’en falloit preſſer.
+<lb />L’exemple vous eſt ſeur, qui vous fait balancer?
+<lb />Songez qu’vn Fils ſi cher ſans qui ie ue puis viure...
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Si l’exemple eſt certain vous n’auez qu’à le ſuiure,
+<lb />Voſtre tendreſſe en vain me l’offre pour époux,
+<lb />Le Prince aime la Reyne, &amp; tout dépend de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />Il aime.
+<lb />SELEVCVS.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Et quoy, Seigneur? vous promettez ſans peine,
+<lb />Et quand il faut agir, l’engagement vous geſne.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Voſtre amour prend le change, &amp; croit m’inquieter,
+<lb />Mais ſur l’adueu du Prince on n’a point à douter,
+<lb />Et de voſtre Portrait l’éclatant témoignage
+<lb />Fait trop voir qui des deux attire ſon hommage.
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Ce Portrait me conuainc d’auoir touché ſon cœur,
+<lb />Mais quand vous le voudrez vous ſortirez d’erreur,
+<lb />De tout ce que ie dis j’ay la preuue certaine.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Quoy? dans ſa paſſion a-t’il nommé la Reyne?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />Non, &amp; trop de reſpect captiue ſes ſouhaits
+<lb />Rour eraiure qu’irs cenappe à la nommer jamais.
+<lb />Son ſecret étouffé n’en fera rien connoiſtre,
+<lb />Ie le tairay demeſme, &amp; vous en eſtes maiſtre.
+<lb />C’eſt à vous ſeulement à penſer, à bien voir
+<lb />Ce que de cét amour il vous plaiſt de ſçauoir,
+<lb />Ie vous laiſſe en reſoudre, &amp; pour plus d’aſſeurance
+<lb />Que le Prince pour moy n’a rien de ce qu’on penſe,
+<lb />Quoy que ſur ſes ennuys on vueille m’imputer,
+<lb />I’abandonne ma main s’il la veut accepter.
+<lb />Promettez-la, Seigneur, c’eſt ſans trahir Tigrane
+<lb />Qu’à cét effort pour vous mon deuoir me condamne;
+<lb />Mais ſi l'offre en déplaiſt à ſon eſprit confus,
+<lb />Gardez-vous de douter d’où partent ſes refus.
+</sp>
+<p type="MainZone-Other"><lb />F iij
+<fw><lb />M
+<lb />..22
+<lb /></fw></p>
+<p type="MainZone-Head"><lb />SCENE II.
+</p>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />H, pour ne point douter de ſon indigne flame
+<lb />IXIl ſuffit du deſordre où ſe plonge mon ame,
+<lb />Et la tremblante horreur ſous qui mon cœur gemit,
+<lb />Sans qu’on m’explique rien, ne m’en a que trop dit.
+<lb />Et bien, Roy ialheureux, qu’vn excez de tendreſſe
+<lb />Dans le ſort de ton Fils en aueugle intereſſe,
+<lb />La cauſe de ſes maux te rendoit inquiet,
+<lb />Tu la voulois ſçauoir, te voyla ſatisfait.
+<lb />Vn feu pareil au tien l’attache à Stratonice,
+<lb />Ton bonheur fait ſa mort, le ſien fait ton ſupplice,
+<lb />Et quoy que ſa vertu triomphe du deſir,
+<lb />Il meurt ſi tu ne meurs, c’eſt à toy de choiſir.
+<lb />Quoy? le flateur appas de ce feu temeraire
+<lb />Luy peut-il donnet droit d’eſtre Riual d’vn Pere,
+<lb />Et voyaut à quel point on m’auoit ſçeu charmer,
+<lb />N’a-t’il pas dû, l’ingrat, ſe defendre d’aimer,
+<lb />De ſes vœux par reſpect arreſter l’injuſtice?
+<lb />Mais ſi ſon deuoir cede, il cede à Stratonice,
+<lb />Et quelque effort qu’il fiſt pour ſe faire écouter,
+<lb />Qui la voit &amp; l’admire a-t’il à conſulter?
+<lb />Non, non, il faut qu’il aime, &amp; ſi tu tiens à crime
+<lb />Qu’vn Fils n’ait point borné cét amour à l’eſtime,
+<lb />Songe à cant de beautez dont les charmes preſſans
+<lb />Pour t’enflamer ſur l’heure ébloüirent tes ſens,
+<lb />Songe à ce noble amas de vertus &amp; de graces
+<lb />Qui ſçeut de tes vieux ans fondre ſoudain les glaces.
+<lb />Ce fils pour adorer ce qui ſurprit ta foy
+<lb />N’auoit-il pas vn cœur &amp; des yeux comme toy?
+</sp>
+<sp type="MainZone-Sp"><lb />Mais pourquoy rappeller dans mon ame inſenſée
+<lb />Le penetrant appas des traits qui l’ont bleſſée?
+<lb />Pour ſouſtenir tes vœux par les ſiens trauerſez
+<lb />Crains-tu, lâche, crains-tu de n’aimer point aſſez?
+<lb />Songe, ſonge pluſtoſt que ſous le poids de l’âge!
+<lb />L’amour ne peut offrir qu’vn ridicule hommage,
+<lb />Et que ſous le ſilence vn Fils preſt d’expirer
+<lb />T’apprend à la raiſon comme il faut deferer.
+<lb />O combat, dont le trouble oppoſe dans mon ame
+<lb />L’Objet de ma tendreſſe à celuy de ma flame!
+<lb />De mon cœur l’vn &amp; l’autre attire tous les vœux,
+<lb />Et ſans eſtre à pas vn il eſt à tous les deux.
+<lb />S’il oſe conſentir que l’Amour s’en aſſeure,
+<lb />C’eſt vn triomphe amer dont tremble la Nature,
+<lb />Et quand vers la Nature il a quelque retour,
+<lb />C’eſt vn triomphe affreux qui fait trembler l’Amour.
+<lb />Mais d’où vient qu’à l’eſpoir cét amour ſe refuſe?
+<lb />Arſinoé peut-eſtre ou s’abuſe, ou t’abuſe.
+<lb />Eſclaircy-toy d’vn mal qu’elle aime à découurir;
+<lb />Mais quand tu l’auras ſceu, le voudras-tu guerir?
+<lb />Dure neceſſité d’vne ame combatuë!
+<lb />Ie veux croire ma gloire, &amp; ma gloire me tuë,
+<lb />Et mon cœur que toûjours trop de tendreſſe émeut
+<lb />Voulant tout ce qu’il doit n’oſe voir ce qu’il veut,
+<lb />Pour conſeruer mon Fils il faut perdre la Reyne,
+<lb />Il faut.... mais le voicy que ſon chagrin amene.
+<lb />Dieux, qui voyez le trouble où ie ſuis abyſmé,
+<lb />Ne ſe pourroit-il point qu’il n’euſt jamais aimé?
+<fw><lb />
+<lb />»
+<lb />E
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />SELEVCVS, ANTIOCHVS.
+</p>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />ORince; oſtez moy d’vn doute, il ne faut plus
+<lb />A
+<lb />rien taire,
+<lb />Si ce que l’on m’a dit eſt vn rapport ſincere,
+<lb />Vous nous trahiriez tous à cacher plus long-temps...
+</sp>
+<sp type="MainZone-Sp"><lb />Seigneur.
+<lb />ANTIOCHVS.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />I'en ay receu des aduis importants,
+<lb />Et vous ſeul pouuez tout pour me tirer de peine.
+<lb />I’apprens qu’au vif éclat des beautez de la Reyue...
+<lb />Ne me déguiſez rien, que dit-on à la Cour
+<lb />Des pompes que pour elle appreſte mon amour?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Seigneur, qu’en peut-on dire? on vous aime &amp; re<lb />ſpecte.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />L'aueugle deference à ma gloire eſt ſuſpecte,
+<lb />Elle en forme vn ſcrupule, &amp; me fait preſumer
+<lb />Qu’auec des cheueux gris il m’eſt honteux d’aimer,
+<lb />A moy-meſme en ſecret mes vieux ans me font peine
+<lb />Quand j’oſe ſoûpirer pour vne jeune Reyne,
+<lb />I’aime à fuir le murmure, &amp; c’eſt ſur vos aduis...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Seigneur, oubliez-vous....
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Non, non, parlez, mon Fils,
+<lb />Je ne demande point que vous flatiez ma flame,
+<lb />Duurez-moy voſtre cœur, ie vous ouure mon ames
+<lb />Ie puis auoir trop crû ce doux empreſſement
+<lb />Qui m’a fait accepter la qualité d’Amant,
+<lb />Mais ſi l’âge où ie ſuis repugne à l’Hymenée,
+<lb />Quels qu’en ſoient les appreſts, ma main n’eſt pas
+<lb />donnée,
+<lb />Et ie veux qu’aujourd’huy vous reſolviez pour moy
+<lb />S’il faut que j’abandonne, ou retire ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Comme de ma raiſon le deſordre eſt extréme,
+<lb />Vous prendrez mieux, Seigneur, ce conſeil de vous<lb />meſme,
+<lb />Ou pluſtoſt l’Amour ſeul a droit de decider
+<lb />Ce ſcrupule de gloire où ie vous voy ceder,
+<lb />Ceſt luy qu’il en faut cloire, il connoit ſeul voſtre
+<lb />ame,
+<lb />Mais apres tout l'éclat qu’a cherché voſtre flame,
+<lb />Croiray-je qu’vn moment puiſſe auoir refroidy
+<lb />Ce feu dont voſtre cœur s’eſt toûjours applaudy?
+<lb />Croiray-je qu’à vos yeux la Reyne moins aimable...
+</sp>
+<sp type="MainZone-Sp"><lb />SBLEVCVS.
+<lb />Douter ſi Stratonice eſt toûjours adorable!
+<lb />Elle pour qui le Ciel par de rares efforts
+<lb />Semble auoir épuiſé ſes plus riches treſors!
+<lb />Elle à qui tous les cœurs, gagnez ſans reſiſtance...
+<lb />Mais n’examine point enfin ce que j’en penſe,
+<lb />Et croy ton Pere preſt à reprendre ſa foy,
+<lb />S’il faut ce ſacrifice à la gloire d’vn Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Non, non, aimez, Seigneur, ie voy trop quel empire
+<lb />A ſur vous cét amour qu’il vous plaiſt d’en dédire,
+<lb />En tout âge il eſt beau de brûler de ſes feux,
+<lb />Viuez pour Stratonice, &amp; rendez-vous heureux.
+<lb />Auſſi bien dans l’accord qu’il vous faudroit enfrain<lb />Demetrius ſon Pere auroit lieu de ſe plaindre, (dre
+<lb />Et la guerre auſſi-toſt...
+</sp>
+<sp type="MainZone-Sp"><lb />Il faudroit...
+<lb />SELEVCVS.
+<lb />Afin de l’empeſcher
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Quoy? l'affront s’en pourroit-il cacher,
+<lb />Et manquer de parole où l’on voir que la fienne....
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Voſtre main ſupléeroit au defaut de la mienne,
+<lb />Et ſans rompre l’Accord...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Que dites-vous, Seigneur?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Ie ſçay quel coup, mon Fils, c’eſt porter ſur ton cœur,
+<lb />Vn changement ſi dur l’arrache à la Princeſſe,
+<lb />Mais....
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />I’ay promis, Seigneur, de vaincre ma foibleſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Non, ſi tu ſouffres trop par ce nouueau projet,
+<lb />Ie conſens que ton feu ne change point d’objet,
+<lb />Et pour t’en épargner le funoſte ſupplice,
+<lb />Ie ſuis preſt, s’il le faut, d’épouſer Stratonice.
+<lb />I’ay meſme à t’annoncer le bonheur le plus grand,
+<lb />Comme Tigrane cede, Arſinoé ſe rend,
+<lb />Pout couronner tes vœux ſa main eſt toute preſte:
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Tigrane a de ſon cœur merité la conqueſte,
+<lb />Et luy voler ſa main quand il garde ſa foy,
+<lb />C’eſt le deſeſperer ſans rien faire pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />(pire...
+<lb />Quoy, lors que ſur tes ſens l’amour prend tant d’em</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Y'ay dit ſur cét amour ce que j’auois à dire.
+<lb />Quelque éclat qu’il ait fait, laiſsõs Tigrane heureux,
+<lb />Le temps ſera pour moy, c’eſt tout ce que ie veux.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Ie ſçay qu’il peut beaucoup, mais quitte l’artifice,
+<lb />Auapds..
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Quoy, Seigneur?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Aimes-tu Stratonice?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Si j’aime Stratonice! ah Dieux, qu’ay-je entendu?
+<lb />Mon hommage ſans doute à Stratonice eſt dû,
+<lb />Ie la dois reuerer, Stratonice eſt ma Reyne,
+<lb />Mais que vers Stratonice vn fol amour m’entraiſne,
+<lb />Que Stratonice ait pû m’ébloüir, m’enflamer?
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Tu la nommes ſouuent pour ne la point aïmer.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Helas! pour écouter vn feu ſi temeraire
+<lb />Oublierois-je, Seigneur, que vous eſtes mon Pereè
+<lb />Ah, pluſtoſt mille morts...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Va, c’en eſt trop, mon Fils,
+<lb />Ie découure l’abyſme oû ton reſpect t’a mis,
+<lb />Tu m’immoles ta vie, &amp; j’aime à te la rendre.
+<lb />Quelques charmes d’abord auoiẽt ſceu me ſurprẽdre,
+<lb />Mais puiſque ton amour peut dégager ma foy,
+<lb />Sans que j’en ſouſtre rien, Stratonice eſt à toy,
+<lb />Aime-la, j’y renonce, &amp; me ſouuiens à peine
+<lb />Que mon Hymen conclu te la donnoit pour Reyne.
+<lb />D'vn cœur auſſi content que le ſort m’en eſt doux
+<lb />I'ay déja ſans effort banny de ma memoire..
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Gardez, Seigneur, gardez d’oſer trop vous en croire,
+<lb />Quoy que voſtre bonté s’offre à ſacrifier
+<lb />Oublier tout ſi-toſt c’eſt ne rien oublier.
+<lb />Mais pourquoy m’en promettre vne preuue ſi vaine?
+<lb />Vous le ſçauez, Seigneur, ie n’aime point la Reyne,
+<lb />Eſpouſez-la, de grace, &amp; ſi ce n’eſt aſſez...
+<lb />Mais, o Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />A la voir, Prince, vous rougiſſez,
+<lb />Parlons-luy, cette épreuue eſt encor neceſſaire,
+<lb />Vous ſçaurez mieux apres ce que vous pourrez faire.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />IV.
+<lb />SELEVCVS, STRATONICE,
+<lb />ANTIOCHVS, TIGRANE,
+<lb />PHENICE, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Eigneur, Tigrane a crû deuoirencor par moy
+<lb /> Vous donner aujourd’huy des preuues de ſa foy,
+<lb />Et malgré les ennuys dont la rigueur le preſſe,
+<lb />Il vient vous aſſeurer que ſi de la Princeſſe
+<lb />Vos ſouhaits dés l’abord ne peuuent obtenir...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Son zele m'eſt connu, qu’on la faſſe veuir.
+</sp>
+<sp type="MainZone-Sp"><lb />Seigneur...
+<lb />TIGRANE.
+<lb />SELEVCYS.
+<lb />Lors qu’à Tigrane on voit tout ſi contraire,
+<lb />Quoy
+<lb />Madame, vous pouuez ordonner qu’il eſpere,
+<lb />Quoy que d’Arſinoé le Prince ſoit charmé
+<lb />Il ſçaura l’oublier s’il eſt ailleurs aimé;
+<lb />Mais il faut qu’il le ſoit d’vn Objet adorable,
+<lb />D’vn Objet en merite à ſoy ſeul comparable,
+<lb />Et cet Objet ſi rare, &amp; préferable à tous,
+<lb />S’il faut m’expliquer mieux, ne peut eſtre que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Seigneur, dans ma ſurpriſe agréez mon ſilence,
+<lb />I’ay cedé ſans murmure aux loix de ma naiſſance,
+<lb />Par elles ie vous dois &amp; ma main &amp; ma foy,
+<lb />L’vne eſt à vous déja, l’autre eſt encore à moy,
+<lb />Et ſi mon Hymenée eſt pour vous vne geſne,
+<lb />Ie puis....
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Dans mes Eſtats vous deuez eſtre Reyne,
+<lb />Et ie ne manque à rien ſi mon Fils couronné
+<lb />Vous aſſeure le rang qui vous eſt deſtiné.
+<lb />Mon amour s’en eſmeut, mais ie voy qu’à mon âge
+<lb />L’Hymen où j’aſpirois eſt pour vous vn outrage,
+<lb />Et d’ailleurs il y va d’étouſſer tant d’ennuis...
+</sp>
+<sp type="MainZone-Sp"><lb />STRATONICE.
+<lb />Mon deuoir a toûjours reglé ce que ie puis;
+<lb />Seigneur, apres cela ie n’ay rien à vous dire.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />A ce que veur le Roy gardez-vous de ſouſcrire,
+<lb />Pour moy de ſa tendreſſe il croit trop les appas,
+<lb />Madame, il vous adore.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Et ne l’aimes-tu pas?
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Aimer la Reyne? ô Ciel!
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Et bien, il t’en faut croire,
+<lb />Mais ſi de ſon Hymen tu rejettes la gloire,
+<lb />G
+<fw><lb />la
+</fw><fw><lb />
+</fw><lb />Fay qu’elle-meſme au moins puiſſe apprendre de toy
+<lb />Que ſes charmes ſont peu pour ſurprendre ta foy,
+<lb />Qu'vn mépris...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Moy, j’aurois du mépris pour la Reyne!
+<lb />Seroit-il pour ce crime vne aſſez rude peine?
+<lb />Iamais tant de beautez n’eurent droit de charmer,
+<lb />Mais, Seigneur, ie ne dois ny ne la veux aimer,
+<lb />Pen atteite les Dieux, &amp; l'de ina roiblene,
+<lb />Voſtre ame...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Accepte donc la main de la Princeſſe,
+<lb />E la laie a tonciola.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V
+<lb />SE LEVCVS, STRATONICE,
+<lb />MTISGIO, IPIDPIVOE,
+<lb />TIGRANE, PHENICE,
+<lb />BARSINE, Suite.
+</p>
+<sp type="MainZone-Sp"><lb />ARSINOE.
+<lb />ELle eſt à luy, Seigneur,
+<lb />S’il peut pour l’accepter faire ſuiure le cœur,
+<lb />Mlals la Reynle...
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ah, Madame! &amp; vous-meſme oſez dire...
+<lb />Mais, Seigneur, vous voyez à quoy ſa flame aſpire,
+<lb />Pour épargner Tigrane elle veut m’imputer...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Il eſt temps de reſoudre, &amp; non de conſulter,
+<lb />Puiſqu’elle offre ſa main c’eſt à toy de la prendre,
+<lb />le n’en croy que ce gage.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Et bien, il me faut rendre,
+<lb />Ceder à mon deſtin. Donnez, Princeſſe, helas!
+<lb />Seigneur, c’eſt de Tigrane aſſeurer le trépas,
+<lb />Des jours qu’il m’a ſauuez eſt-ce la récompenſe?
+</sp>
+<sp type="MainZone-Sp"><lb />ARSINOE donnant au Roy le Portrait
+<lb />de Stratonice.
+<lb />Ce Portrait confondra ſon obſtiné ſilence,
+<lb />L’ayant trouué, Seigneur, ſans qu’il en ait ſçeu rien,
+<lb />Pour lire daus ſon cœur j’ay ſuppoſé le mien,
+<lb />On m’impute par là ce qu’il ſent pour la Reyne.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Connois-tu ce Portrait.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Ordonnez de ma peine,
+<lb />Il faut punir le crime où l’amour m’a fait choir,
+<lb />C’eſt tout ce que ie puis &amp; connoiſtre &amp; ſçauoir.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />(me,
+<lb />Non, mon Fils, contre toy ne crains rien de ma fla<lb />La Reyne, ie l’aduouë, auoit touché mon ame,
+<lb />Mais apres les efforts que s’eſt fait ton amour
+<lb />Il eſt beau que du mien ie triomphe à mon tour,
+<lb />Ie t’en fais poſſeſſeur &amp; Roy de Phenicie.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />Que tout voſtre heur s’immole à celuy de ma vie!
+<lb />Non, non, pluſtoſt, Seigneur, abandonnez vn Fils,
+<lb />Ie vaincray ma foibleſſe, &amp; ie vous l’ay promis.
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Ceſſe d’en vouloir croire vn reſpect qui te tuë,
+<lb />Tu dois vaincre ta flame, &amp; la mienne eſt vaincuë.
+<lb />Ie vous l’auois bien dit, que pour ſauuer ſes jours
+<lb />Ie n’attendois plus rien que de voſtre ſecours,
+<lb />Madame, à ſox eſpoir vous rendrez-vous contraire?
+</sp>
+<sp type="MainZone-Sp"><lb />sTRATONICE. 
+<lb />Ma réponce, Selgneur, dépend du Roy mon Pert,
+<lb />Ses ſeules volõutez ont droit de m’engager.
+</sp>
+<sp type="MainZone-Sp"><lb />M SELEVCVS.
+<lb />A donner ſon adueu nous ſçaurons l’obliger.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOGHVS.
+<lb />Seigueur, encor vn coup....
+<fw><lb />** *.
+<lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Obey ſans replique,
+<lb />C'eſt tout ce que ie veux que ton deuoir m’explique.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />O bonté ſans égale, ô vertu dont l'éclat
+<lb />Loin de punir vn Fils récompenſe vn ingrat!
+<lb />Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Apres l’ennuy des plus rudes alarmes
+<lb />Tigrane de l’eſpoir gouſtera mieux les charmes,
+<lb />S’y rendra tout entier, attendant l’heureux jour
+<lb />Qui rempliſſant ſes yœux, couronne voſtre amour.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />E3
+</fw><lb />Madame, à ſox eſpoir vous rendrez-vous contraire?
+</p>
+<sp type="MainZone-Sp"><lb />sTRATONICE. 
+<lb />Ma réponce, Selgneur, dépend du Roy mon Pert,
+<lb />Ses ſeules volõutez ont droit de m’engager.
+</sp>
+<sp type="MainZone-Sp"><lb />M SELEVCVS.
+<lb />A donner ſon adueu nous ſçaurons l’obliger.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOGHVS.
+<lb />Seigueur, encor vn coup....
+<fw><lb />** *.
+<lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Obey ſans replique,
+<lb />C'eſt tout ce que ie veux que ton deuoir m’explique.
+</sp>
+<sp type="MainZone-Sp"><lb />ANTIOCHVS.
+<lb />O bonté ſans égale, ô vertu dont l'éclat
+<lb />Loin de punir vn Fils récompenſe vn ingrat!
+<lb />Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />SELEVCVS.
+<lb />Apres l’ennuy des plus rudes alarmes
+<lb />Tigrane de l’eſpoir gouſtera mieux les charmes,
+<lb />S’y rendra tout entier, attendant l’heureux jour
+<lb />Qui rempliſſant ſes yœux, couronne voſtre amour.
+</sp>
+<p type="MainZone-Other"><lb />FIN.
+<fw><lb />E3
+</fw></p>
+    </body>
+  </text>
+</TEI>

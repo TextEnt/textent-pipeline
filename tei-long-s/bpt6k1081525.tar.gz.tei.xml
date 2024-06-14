@@ -1,0 +1,2815 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La mort d'Agrippine : tragédie / par Mr de Cyrano Bergerac</title>
+        <author>Cyrano de Bergerac, Savinien de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30293803j"/>
+          <author>
+            <persName>Cyrano de Bergerac, Savinien de</persName>
+          </author>
+          <title>La mort d'Agrippine : tragédie / par Mr de Cyrano Bergerac</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1654" cert="high" resp="BNF">1654</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A PARIS,
+<lb />Chez CHARLES DE SERCY, au Palais, dans la Salle
+<lb />Dauphine, à la bonne Foy couronnée.
+<lb />e de à F.</p>
+<p type="MainZone-Head"><lb />M. DC. LIV.
+<lb />AVEC TRIVILEGE DV ROY.
+<fw><lb />Source gallicabnffr (Bibliothèque nationale de France
+</fw><fw><lb />urce
+<lb />cabnffr (Bibliothèque nationale
+<lb />de
+</fw></p>
+<p type="MainZone-Head"><lb />LE LIBRAIRE
+<lb />AV LECTEVR.
+<fw><lb />ON cher Lecteur, apres vous
+</fw><fw><lb />ɇ auoir donné l’impreſſion d’vn ſi
+<lb />&amp; bel ouurage, j’ay crû vous deuoir
+<lb />vn volume des Lettres du meſme
+<lb />Autheur, pour ſatisfaire entierement voſtre
+<lb />curioſité. Il y en a qui contiennent des Deſ<lb />criptions: Il y en a de Satiriques: Il y en a de
+<lb />Burleſques: Il y en a d’Amoureuſes, &amp; tou<lb />tes ſont dans leur genre ſi excellentes &amp; ſi
+<lb />propres à leurs ſujets, que l’Autheur paroiſt
+<lb />auſſi merueilleux en Proſe qu’en Vers. C’eſt
+<lb />ac
+<lb />vn iugement que vous en ſerez, non pas
+<lb />auec moy, mais auec toùs les hommes d’eſ<lb />prit qui connoiſſent la beauté du ſien. Ie fais
+<lb />rouler la Preſſe auec autant de diligence
+<lb />qu’il m’eſt poſſible pour vous en donner le
+<lb />contentement, &amp; à moy celuy de vous faire
+<lb />aduoüer que ie vous ay dit la verité.
+</fw></p>
+<p type="MainZone-Head"><lb />A
+<lb />MONSEIGNEVR
+<lb />LE
+<lb />DVC D’ARPAION.
+<lb />ONSEIGNEVR,
+</p>
+<p type="MainZone-Head"><lb />Quoy qu’Agrippine ſoit ſortie du ſang de ces
+<lb />Princes, qui naiſſoient ſeulement pour comman<lb />der aux hommes, &amp; qui ne mouroient, que pour
+<lb />eſtre appellez au rang des Dieux; ſes diſgraces
+<lb />l’ont renduë encore plus celebre que la gloire de
+<lb />ſon berceau; Il ſemble qu’elle n’ait eu le grand Au<lb />guſte pour Ayeul, qu’afin de ſentir auec plus d’af<lb />front, le regret de ſe voir derober l’Empire, ſon
+<lb />legitime patrimoine: Ceſar ne l’auoir honorée de
+<lb />l’alliance de Tibere, que pour l’attacher de plus
+<lb />pres à ſon Tyran, &amp; ne luy auoir donné pour ma<lb />ry, le plus grand Heros de ſon ſiecle, que pour en
+<lb />faire la plus affligée &amp; la plus inconſolable de tou<lb />tes les veufues: de ſorte qu’ayant touſiours veſcu
+<lb />dans la douleur &amp; la perſecution, il eſt certain
+<lb />qu’elle prefereroit le repos du tombeau à cette ſe<lb />conde vie que ie luy donne, ſi voulant l’expoſer
+<lb />au iour, ie luy cherchois vn moindre Protecteur,
+<lb />que celuy qui dans la conſeruation de Malthe, l’a
+<lb />eſté de toute l’Europe. Quelque maligne que ſoit
+<lb />la Planete qui dominẽ au ſort de mon Heroyne,
+<lb />ie ne croy pas qu’elle puiſſe luy ſuſciter des enne<lb />mis qu’impuiſſans, quand elle aura le ſecours de
+<lb />voſtre grandeur: vous, MONSEIGNEVR,
+<lb />que l’Vniuers regarde comme le chef d’vn corps
+<lb />qui n’eſt compoſé que de parties nobles, qui auez
+<lb />fait trembler iuſques dans Conſtantinople, le Ty<lb />ran d’vne moitié de la terre, &amp; qui auez empeſché
+<lb />que ſon Croiſſant, dont il ſe vantoit d’enfermer
+<lb />le reſte du Globe, ne partageaſt la ſouueraineté
+<lb />de la mer, auec celuy de la Lune: mais tant de glo<lb />rieux ſuccez ne ſont point des miracles pour vne
+<lb />perſonne, dont la profonde ſageſſe éblouyt les
+<lb />plus grands Genies, &amp; en faueur de qui Dieu ſem<lb />ble auoir dit par la bouche de ſes Prophetes, * que
+<lb />le ſage auroit droit de commander aux Aſtres. Atris.
+<lb />Agrippine, MONSEIGNEVR, qui pen<lb />dant le cours de ſa vie les a ſans relaſche expe<lb />rimenté contraires, effarouchée encore aujour<lb />d’huy de la cruauté des Empereurs qui ont
+<lb />pourſuiuy ſon ombre iuſques chez les morts:
+<lb />Entre les bras de qui ſe pouuoit-elle ietter auec
+<lb />plus de confiance, qu’entre ceux d’vn redoutable
+<lb />Capitaine, dont le ſeul bruit des armes, a garanty
+<lb />&amp; raſſeuré Veniſe, cette puiſſante Republique,
+<lb />où la liberté Romaine s’eſt conſeruée iuſqu'en
+<lb />nos iours: Receuez-la donc, s’il vous plaiſt,
+<lb />MONSEIGNEVR, fauorablement, accordez
+<lb />vn azile à cette Princeſſe, qu’elle n'a pù trouuer
+<lb />dans vn Empire qui luy appartenoit. Ie ſçay que
+<lb />faiſant profeſſion d’vne inuiolable fidelité pour
+<lb />noſtre Monarque, vous la blaſmerez peut-eſtre
+<lb />d’auoir conſpiré contre ſon Souuerain, quoy
+<lb />qu’elle n’ait pourſuiuy la mort de Tibere, que
+<lb />pour vanger celle de Germanicus, &amp; n’ait eſté
+<lb />infidelle ſujette, que pour eſtre fidelle à ſon
+<lb />Eſpoux: mais en faueur de ſa vertu, elle eſpere
+<lb />cette grace de voſtre-bonté, dont elle ne ſera pas
+<lb />ingrate; car elle m’a promis que ſa reconnoiſſance
+<lb />publiera par tout les merueilleux éloges de voſtre
+<lb />vertu, qui donne plus d’éclat à voſtre ſang,* qu’elle
+<lb />n’en a receu de luy, encore que la ſource en ſoit
+<lb />&amp; les Com-Royalle: Ceux de voſtre prudence dans les negotia<lb />louze, dont tions les plus importantes de l’Eſtat, que l’on nous
+<lb />propoſe comme vn portrait acheué de la ſageſſe:
+<lb />gné en leru- Ceux de voſtre valeur dans les combats, dont el<lb />le regle les euenements, au prejudice du pou<lb />uoir abſolu que la fortune s’en eſt reſerué; &amp; ceux
+<lb />enfin, MONSEIGNEVR, de voſtre cou<lb />rage qui n’a iamais veu de peril qu’au deſſous
+<lb />de luy. Ces conſiderations me font eſperer que
+<lb />la genereuſe Agrippine ayant eſté preſente à
+<lb />toutes les vistoires de ſon Heros, elle n’ignorẽ
+<lb />pas en quels termes elle doit parler des voſtres, &amp;
+<lb />ie ſuis meſme certain qu’elle leur rendra iuſtice,
+<lb />ſans qu’on l’accuſe de flaterie; car ſi vous eſtes
+<lb />d’vn merite à ne pouuoir eſtre flaté, elle eſt auſſi
+<lb />d’vn raug a ne pouuoir flater. Mais, MONSEI<lb />GNEVR, que pourroit-elle dire qui ne ſoit con<lb />gneur L. D. nu de toute la terre, vous l’auez veuë preſqu’en<lb />tiere en victorieux, * &amp; par vn prodige inouy, vo<lb />en France,en ſtre viſage meſme n’y eſt gueres moins connu que
+<lb />ſon nom. Souffrez donc que ie vous offre cette
+<lb />ne, Italie, Princeſſe, ſans vous rien promettre d’elle, que cet
+<lb />Malthe, ve- adueu public qu’efie rient rous lune; qu'enfin elle
+<lb />a trouué vn Heros plus grand que Germanicus:
+<lb />Au reſte elle ceſſera de deplorer ſes malheurs; ſi par
+<lb />le tableau de ſa pitoyable auanture, elle vous don<lb />ne au moins quelque eſtime de ſa conſtance, &amp;
+<lb />moy ie me croiray trop-bien recompenſé du pre<lb />ſent que ie luy fais de cette ſeconde vie, ſi n’eſtant
+<lb />plus que memoire, elle vous fait ſouuenir que ie
+<lb />ſuis,
+</p>
+<p type="MainZone-Other"><lb />MONSEIGNEVR,
+<fw><lb />-23..
+<lb />.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Voſtre tres-humble, tres-obeyſ<lb />ſant, &amp; tres-paſſionné ſeruiteur,
+<lb />DE TYRANO DERGERAC.
+<fw><lb />3C LE 2
+<lb />.i.. 29..-112b
+</fw></sp>
+<sp type="MainZone-Sp"><lb />irb lla
+<lb />4
+</sp>
+<sp type="MainZone-Sp"><lb />b3l so
+<fw><lb />1 ? baiesmine ad
+<lb />. .
+</fw></sp>
+<p type="MainZone-Head"><lb />NOE.
+<lb />Mi
+<lb />TIBERE, Empereur de Rome.
+<lb />.
+<lb />NS
+</p>
+<p type="MainZone-Entry"><lb />DEPIARVO, Eadory do Pibero... .
+</p>
+<p type="MainZone-Entry"><lb />NERVA, Senateur, Confident de l’Empereur.
+</p>
+<p type="MainZone-Entry"><lb />TERENTIVS, Confident de Sejanus.
+</p>
+<p type="MainZone-Entry"><lb />AGRIPPINE, Veuſve de Germanicus.
+<fw><lb />Lri Mieia u.
+</fw></p>
+<p type="MainZone-Entry"><lb />CORNELTE, ſa Confidente.
+</p>
+<p type="MainZone-Entry"><lb />LIVILLA; Sœur de Germanicus &amp; Bru
+<lb />de l’Empereur.
+</p>
+<p type="MainZone-Entry"><lb />FVRNIE, ſa Confidente.
+</p>
+<p type="MainZone-Entry"><lb />Trouppe de Gardes.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt à Rome dans vne Salle
+<lb />du Palais de Tibere.
+</p>
+<p type="MainZone-Head"><lb />LA MORT
+<lb />DINRITETEVE
+<lb />CEREIENIATD
+<lb />TRAGEDIE.
+</p>
+<p type="MainZone-Head"><lb />TICRE
+<lb />I
+<lb />SCENE PREMIERE.
+<lb />AGRIPPINE, CORI ELIE.
+</p>
+<sp type="MainZone-Sp"><lb />221
+<lb />E
+<lb />E
+<lb />BM
+<lb />AGRIPPINE.
+<lb />E te vais retracer le tableau de ſa gloire,
+<lb />Mais feins encor apres d’ignorerſonhiſtoire,
+<lb />Et pour me rẽdre heureuſe vne ſeconde fois,
+<lb />Preſſe moy de nouueau de conter ſes explois.
+<lb />Il doit eſtre en ma bouche auſsi bien qu’en mon ame,
+<lb />Pour deuoir chaque inſtant vn triomphe à ſa femme,
+<lb />mmnnbiejuu je point de diſcours ſuperflus,
+<lb />Ie t'en parle ſans ceſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Et i’atens....
+<lb />CORNELIE.
+<lb />It ne m'en ſouuient plus.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Apprens donc comme ce ieune Alcide,
+<lb />Fut des geans du Rhin le ſuperbe homicide,
+<lb />Et comme à ſes coſtez faiſant marcher la mort,
+<lb />Jl eſchauffa de ſang les riuieres du Nort,
+<lb />Mais pour voir les dangers où dans cette conqueſte,
+<lb />La grandeur de ſon ame abandonna ſa teſte,
+<lb />Pour voir ce que ſon nom en emprunta d’eſclat,
+<lb />Eſcoute le recit de ſon dernier combat.
+<lb />Deſ-ja noſtre Aygle en l’air balançoit le tonnerre,
+<lb />Dont il deuoit bruſſer la moitié de la terre,
+<lb />Quand on vint rapporter au grand Germanicus,
+<lb />N’on voyoit l’Allemand ſous de vaſtes eſcus,
+<lb />Marcher par vn chemin couuert de nuicts ſans nombre,
+<lb />L’eſclat de noſtre acier en diſsipera l’ombre;
+<lb />(Dit-il) &amp; pour la charge, il leue le ſignal
+<lb />Sa voix donne la vie à des corps de metal;
+<lb />Le Romain par torrens ſe reſpand dans la pleine,
+</sp>
+<p type="MainZone-Lg"><lb />Le Coloſſe du Nort ſe ſouſtient à grand peine,
+<lb />Son enorme grandeur ne luy ſert ſeulement,
+<lb />Qu'à montrer à la Parque vn plus grand logement,
+<lb />Et tandis qu’on heurtoit ces murailles humaines,
+<lb />Peur eſpargner le ſang des legions Romaines,
+<lb />Mon Heros ennuyé du combat qui traiſnoit,
+<lb />Se cachoit preſqu’entier dans les coups qu’il donnoit;
+<lb />Là des bras emportez, la des teſtes briſées,
+<lb />Des troupes en tombant ſous d’autres eſcraſées,
+<lb />Font fremir la campagne au choc des combattans,
+<lb />Comme ſi l’Vniuers trembloit pour ſes enfans.
+<lb />De leurs traits aſſemblez l’effroyable deſcente
+<lb />Forme entr’eux &amp; la nuë vne voûte volante,
+<lb />Sous qui ces fiers Tytans honteux d’vn ſort pareil,
+<lb />Semblent vouloir cacher leur deffaite au Soleil.
+<lb />Germanicus y fit ce qu’vn Dieu pouuoit faire,
+<lb />Et Mars en le ſuiuant creut eſtre temeraire.
+<lb />Ayant fait du Germain la ſanglante moiſſon,
+<lb />Il prit ſur leurs Autels leurs Dieux meſme à rançon,
+<lb />Afin qu’on ſceut vn iour par des exploits ſi braues,
+<lb />Qu'vn Romain dans le Ciel peut auoir des eſclaues.
+<lb />O! quel plaiſir de voir ſur des monceaux de corps,
+<lb />Qui marquoient du combat les tragiques efforts,
+<lb />Dans vn liure d’airain la ſuperbe victoire,
+<lb />Grauer Germanicus aux faſtes de la gloire.
+</p>
+<p type="MainZone-Lg"><lb />A
+</p>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Voſtre Eſpoux ſoubmettant les Germains à ſes loys,
+<lb />Ne voulut que leur nom pour prix de ſes exploits:
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Du couchant à l’aurore ayant porté la guerre,
+<lb />Noſtre Heros parut aux deux bouts de la terre,
+<lb />En vn clein-d’œil ſi prõpt qu'on peut dire aujourd’huy
+<lb />Qu’il deuança le iour qui couroit deuant luy;
+<lb />On crût que pour deffẽdre en tous lieux nôtre Empire,
+<lb />Ce Jupiter ſauueur ſe vouloit reproduire,
+<lb />Et paſſant comme vn traict tant de diuers climats,
+<lb />Que d’vn degré du Pole il ne faiſoit qu’vn pas,
+<lb />Dans ces Pays bruſlez où l’arene volante,
+<lb />Sous la marche des ſiens eſtoit eſtincelante;
+<lb />De cadavres pourris il infecta les airs,
+<lb />Il engraiſſa de ſang leurs ſteriles deſerts,
+<lb />Afin que la moiſſon pouuant naiſtre en ces plaines,
+<lb />Fourniſt de nourriture aux legions Romaines,
+<lb />Que par cét aliment noſtre peuple orgueilleux
+<lb />Sucçaſt auec leur ſang quelque amitié pour eux,
+<lb />Et qu’vn iour le ſuccez d’vn combat ſi tragique,
+<lb />Pût reconcilier, l’Europe auec l’Affrique,
+<lb />Enfin tout l’vniuers il ſe ſeroit ſouſmis,
+<lb />Mais il eut le mal-heur de manquer d’ennemis.
+<lb />Mon cher Germanicus eſtoit donc ſur la terre.
+<lb />Le ſouuerain arbitre &amp; de paix &amp; de guerre,
+<lb />Et ſe trouuoit ſi haut par deſſus les humains,
+<lb />Que ſon pied ſe poſoit ſur le front des Romains,
+<lb />Alors qu’en Orient terminant ſa carriere,
+<lb />Dans la ſource du iour il perdit la lumiere,
+<lb />Et pour vn lict ſuperbe à ſon dernier ſommeil,
+<lb />Il s'alla repoſer au berceau du Soleil.
+<lb />Voilà comme il veſcut &amp; ie te veus encore,
+<lb />Peindre dans ſon couchant cét aſtre que i’adore,
+<lb />Affin que le mal-heur de mon illuſtre eſpoux,
+<lb />Par ces triſtes tableaux réueille mon couroux,
+<lb />npquu punuuuorteuis ubla fin de ſa vie,
+<lb />Ie m'excite à hair ceux qui l’ont pourſuiuie,
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />C’eſt accroistre vos maux.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ne me refuſe pas
+<lb />D'écouter le recit d’vn ſi ſanglant treſpas,
+<lb />Où mon cœur deſchiré de bourreaux inuiſibles
+<lb />En iroit émouuoir les rochers inſenſibles.
+<lb />
+</sp>
+<p type="MainZone-Other"><lb />A iij
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Tibere qui voyoit les pleurs de l’Vniuers,
+<lb />Conjurer mon Eſpoux de le tirer des fers,
+<lb />Et qui ſçauoit aſſez qu’au milieu des batailles
+<lb />Ses Amis luy ſeroient de viuantes murailles;
+<lb />Comme vn acier tranchant, comme vn bruſlant tiſon,
+<lb />Du filet de ſes iours, il approcha Piſon:
+<lb />Piſon part il s’auance, &amp; dans chaque Prouince
+<lb />Qu’il oyoit retentir des armes de mon Prince,
+<lb />Par des coups non ſanglants, des meurtres de la voix,
+<lb />Ce laſche terniſſoit l’éclat de ſes exploix.
+<lb />Mais ſemblable au rocher, qui battu de l’orage,
+<lb />De la mer qui le bat ſemble eſtre le naufrage,
+<lb />Le nom de mon Heros par le choc affermi
+<lb />Refléchiſſoit les coups deſſus ſon ennemy.
+<lb />Jl arriue, &amp; mon Prince ignorant ſa malice,
+<lb />D'vn veritable amour payoit ſon artifice.
+<lb />Quand nous viſmes tomber ce demy-Dieu Romain
+<lb />Sous l’inuiſible coup d’vne inuiſible main,
+<lb />Vne bruſlante fiévre allume ſes entrailles;
+<lb />Il contemple viuant ſes propres funerailles.
+<lb />Ses arteres enflés d’vn ſang noir &amp; pourry,
+<lb />Regorgent du poiſon dont ſon cœur eſt nourry:
+<lb />A qui le conſidere, il ſemble que ſes veines
+<lb />D'vne liqueur de feu ſont les chaudes fontaines,
+<lb />Des ſerpens enlacés qui rampent ſur ſon corps,
+<lb />Ou des chemins voutez qui meinent chez les morts;
+<lb />La terre en trembla meſme, afin que l’on pût dire
+<lb />Que ja fievre cauſou des fiſons à l’Empire.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Iamais la mort ne vint d’vn pas ſi diligent.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Et Piſon toutefois le treuue encor troplent;
+<lb />Pour le precipiter, ioignant le ſortilege,
+<lb />Du poiſon ſans horreur il monte au ſacrilege,
+<lb />Et donne à terracer par des charmes couuers
+<lb />Le demon des Romains au demon des Enfers.
+<lb />Ainſi l’Enfer, les Cieux, la Nature &amp; l’Enuie,
+<lb />Vnirent leurs fureurs contre vne ſeule vie.
+<lb />----
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Ha! ne condamnez, point la lâcheté du ſort!
+<lb />Pour perdre vn ſi grand homme il faut plus d’vne mort.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />D'vn rouge tenebreux ſa chair enſanglantée,
+<lb />Fut le triſte teſmoin, que Nature irritée
+<lb />Produiſit du poiſon, afin de ſe purger.
+<lb />Du crime dont à Rome on eût pu la charger.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Les Autheurs de ſa mort meritoient ſes ſupplices.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ie ſçauray les punir auecque leurs complices,
+<lb />Piſon eſt deſia mort, &amp; bien-toſt l’Empereur
+<lb />Liuilla, Sejanus, ſentiront ma fureur:
+<lb />Ce couple criminel, qu’vn adultere aſſemble,
+<lb />S’eſtans ioints pour le perdre expireront enſemble:
+<lb />Ils ſuivront mon Eſpoux, ces lâches ennemis
+<lb />utous mes enfans ne m'ont laißé qu’vn fils.
+</sp>
+<p type="MainZone-Head"><lb />MAT
+<lb />SEIANVS, AGRIPPINE, CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />2
+<lb />SEIANVS.
+<lb />Adame, la nouuelle, en eſt trop aſſeurée,
+<lb />ML'Empereur ce matin eſt ſorty de Caprée,
+<lb />Il marchedroit à Rome accompagné des ſiens,
+<lb />Des Soldats Allemans,&amp; des Pretoriens:
+<lb />Et l’on croit que demain, nous verrons à nos portes
+<fw><lb />Trois
+</fw><lb />Rrei tit jes Degions, e cmquume Generies.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />C’eſt vn ſujet de ioye, &amp; non pas de douleur:
+<lb />Ennuyé de l’attendre il court à ſon malheur,
+<lb />Et n’approche de Rome en homme de courage.
+<lb />Que pour nous eſpargner la peine du voyage;
+<lb />Voy comme aueuglement il vient chercher l'Autel,
+<lb />Frappons, cette victime attend le coup mortel:
+<lb />Mais gardons qu’échappant au couteau du Miniſtre
+<lb />Sa fuitte ne deuienne vn preſage ſiniſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Sans auancer nos iours, pour auancer ſa mort,
+<lb />Regardons ſon naufrage à couuert dans le port.
+<lb />Et gauchiſſons de ſorte en montant à l’Empire
+<lb />Que ſelon le ſuccés nous puißions nous dédire.
+<lb />L'Empereur qui connoiſt tous vos deſſeins formez,
+<lb />Ignore que ie trempe à ce que vous tramez;
+<lb />Il m'eſcrit qu’il eſpere, aßiſté de ma brigue,
+<lb />indre auec le Senat tout le peuple à ſa Ligue.
+<lb />Ce traict de confiance eſt vn gage aſſeuré
+<lb />Qu'il ne ſoupçonne point que i’aye conjuré:
+<lb />2
+<lb />Ainſi quoy que d’affreux ſon courroux entreprenne,
+<lb />Ie vous tiendray touſiours à couuert de ſa haine:
+<lb />Prononcés ſon arreſt irreuocablement;
+<lb />Esnuu purip tannu comus naſtondenon lentement.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Conduis ma deſtinée, außi bien la fortune,
+<lb />Triomphans ou vaincus nous doit eſtre commune:
+<lb />Mais ſçache, ſi de moy tu pretens diſpoſer,
+<lb />Que le Thrône eſt le Temple où ie dois t’eſpouſer.
+<lb />Informe Liuilla du retour de Tybere,
+<lb />De peur que ſa ſurpriſe effarouche ſon Pere:
+<lb />Moy i’iray cependant ſolliciter nos Dieux,
+<lb />Ils me doiuent ſecours puis qu’ils ſont mes Ayeux.
+</sp>
+<p type="MainZone-Head"><lb />SEDTL III
+<lb />AGRIPETNE, CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPIINE.
+<lb />V'en dis-tu, Cornelie? Enfin,
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Enfin, Madame,
+<lb />Du traiſtre Sejanus deuiendrez-vous la femme?
+<lb />Faut-il que l’Aſſaßin de voſtre cher Eſpous,
+<lb />Se trace par ſon crime vn chemin tuſqu’à vous?
+<lb />Que dans ſon meurtrier voſtre mary ſe treuue,
+<lb />Et vienne ſe ſauuer dans le lict de la Veufue?
+<lb />Quoy! n’entendez-vous point le grand Germanicus,
+<lb />Porté ſur vn monceau de cadavres vaincus,
+<lb />S’écrier des Enfers: Femme ingratte &amp; perfide;
+<lb />Tu vas jombro ia rute binee mon nomoide?
+<lb />Voyla comme il ſe plaint, ce Heros outragé,
+<lb />Que ſa Veufue en dix ans n’a pas encor vangé.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Moy, de mes ennemis ie deuiendrois la Mere!
+<lb />Moy qui les dois punir du crime de leur Pere!
+<lb />Rouge encor de mon ſang, il viendroit l’Aſſaßin,
+<lb />En qualité d’Eſpoux me preſenter la mein!
+<lb />Donc mes fils en mes ſlancs ne pourroient treuuer place,
+<lb />Sans augmenter le nom du bourreau de ma race!
+<lb />Donc auec eux naiſtroit, malgré tout mon amour,
+<lb />L’execrable deuoir de les priuer du iour!
+<lb />Donc ces infortunez, ſans le pouuoir conneſtre,
+<lb />Seroient mes ennemis auant meſme que d’eſtre!
+<lb />Deuiendroient criminels entre les mains du Sort,
+<lb />Et pour auoir vécu meriteroient la mort!
+<lb />Du plus vil des Romains ie me ferois vn Maiſtre!
+<lb />Et veufue d’vn Heros i’eſpouſerois vn traiſtre!
+<lb />Ha! ne m'accaſe point de tant de lâcheté,
+</sp>
+<p type="MainZone-Lg"><lb />Et penetre vn peu mieux dans mon cœur irrité;
+<lb />Voy iuſqu’où doit aller le courroux d’Agrippine,
+<lb />Qui l’oblige à flatter l’autheur de ſa ruine,
+<lb />Et combien il eſt grand, puis que pour l’occuper,
+<lb />Eſtant ce que ie ſuis, ie m'abbaiſſe à tromper:
+<lb />Quy, i’abhorre ce monſtre; apres l’auoir rauie,
+<lb />Pour le tuer encor ie luy rendrois la vie,
+<lb />Et ie voudrois qu’il püt, ſans tout à fait perir,
+<lb />Et ſans ceſſe renaiſtre, &amp; ſans ceſſe mourir.
+<lb />Mais, helas! ie ne puis me vanger de Tybere,
+<lb />Que par la ſeule main de mon lâche aduerſaire:
+<lb />Car Seianus vainqueur luy percera le flanc,
+<lb />Ou Sejanus vaincu payera de ſon ſang;
+<lb />Si Tybere y demeure, alors ie ſuis vengée,
+<lb />Si contre Sejanus la Fortune eſt rengée,
+<lb />Ie verray ſatisfaite entrer au monument
+<lb />De mon Eſpoux meurtry le premier inſtrument.
+<lb />Mais Liuilla paroiſt, i’éuite ſa preſence,
+<lb />Elle hayt ma rencontre, &amp; la ſienne m'offence.
+</p>
+<p type="MainZone-Head"><lb />1EIVE.
+<lb />IV
+<lb />LIVILLA, SEIANVS, TERENTIVS.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Ay vt au ouir en Thompne on Empt reur Romain,
+<lb />IS’auancer contre nous le tonnerre à la main,
+<lb />Ce n’eſt pas l’ennemy que ie crains dauantage.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ha dites-moy ſon nom, cette longueur m’outrage,
+<lb />Vous le plaindrez pluſtoſt que vous ne le craindrez,
+<lb />Et i'attens, pour agir, ce que vous reſoudrez.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Eſcoute. Auparauant qu’vn refus m’ait bleßée,
+<lb />Sur tout ce que tu crains applique ta penſée,
+<lb />Propoſe-toy le fer, la flame &amp; le poiſon,
+<lb />Fais iuſque dans ton cœur deſcendre ta raiſon,
+<lb />Et t’informe de luy, quoy que ie te demande,
+<lb />S’il eſt preſt d’accorder tout ce qu’ilapprehende.
+</sp>
+<p type="MainZone-Lg"><lb />B iij
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Il eſt tout preſt, Madame, à remplir vos ſouhaits,
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Encure ton coup, prens parde à ce que tu promets,
+<lb />Ce que ie veux ſera peut-eſtre ta ruine.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />N'importe parlez, c’eſt?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />C’eſt la mort d'Agrippine.
+</sp>
+<sp type="MainZone-Sp"><lb />EIANVS.
+<lb />D’Agrippine, Madame, helas y penſez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />D'Agrippine, ma ſœur, qui conſpire auec nous:
+<lb />tihon mury jom ma huint eſt tomve pour victime,
+<lb />Mon cœur apres velu ne connoiſt plus de crime;
+<lb />Ieune encor &amp; timide en mon timide ſein,
+<lb />Il oſa me pouſſer à ce noble deſſein:
+<lb />Et toy perfide Amant, dont l’amour me diffame.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Tremperay-je ma main dans le ſang d’vne femme?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Ie fais, pour m’animer, à ce coup plein d’effroy,
+<lb />Des efforts bien plus grands que tu n’en fais ſur toy
+<lb />J’entends de toutes parts le ſexe &amp; la nature,
+<lb />Qui me font de ce meurtre vne horrible peinture:
+<lb />Mais, femme, ie pourray voir du ſang ſans horreur,
+<lb />Et parente, ſouffrir qu'on égorge ma ſœur?
+<lb />Ie l’ay trop offenſée, &amp; la mort qui m'effraye
+<lb />Eſt le ſeul appareil qui peut fermer ſa playe.
+<lb />On voit fumer encor de ſes plus chers parens,
+<lb />Sur la route d’Enfer les veſtiges ſanglans;
+<lb />Rien qu'vn cercueil ne couure vn ecte de la ſorte,
+<lb />Et pour elle ou pour moy c’eſt la fatale porte,
+<lb />Par qui le ſort douteux d’vn ou d’autre coſté,
+<lb />Mettra l’vn des partis en pleine liberté.
+<lb />Encor ſi mon treſpas ſatisfaiſoit ſa haine:
+<lb />Mais de ta mort, peut-eſtre, elle fera ma peine,
+<lb />Puis qu’elle a deſcouuert au gré de ſon courroux,
+<lb />A l’éclat de ma flame vn paſſage à ſes coups;
+<lb />Donc pour me conſeruer, conſeruant ta perſonne,
+<lb />Sauue-moy des frayeurs que ſa rage me donne.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Non, non, detrompez-vous de ces vaines frayeurs;
+<lb />Elle croit l’Empereur cauſe de ſes malheurs,
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Elle feint de le croire;
+<lb />Pour vn temps ſur ſa haine elle endort ſa memoire,
+<lb />Mais crains-la d’autant plus qu’elle craint de s’ouurir,
+<lb />C’eſt pour elle trop peu de te faire mourtr;
+<lb />Si par ta mort toy-meſme aſſouuiſſant ſa rage,
+<lb />Tu n’en es l’inſtrument, &amp; n’en haſtes l’ouurage;
+<lb />Quoy! ie t’ay de mon frere immolé iuſqu’au nom!
+<lb />Sur ſon fameux debris eſleué ton renom,
+<lb />Et chaßé, pour complaire à toy ſeul où i’aſpire,
+<lb />De mon lict &amp; du iour l’heritier de l’Empire!
+<lb />Je ſemblois vn Lyon ſur le Thrône enchaiſné,
+<lb />Qui t'en gardoit l’abord comme à toy deſtiné.
+<lb />I'ay fait à ton amour au peril de la tombe,
+<lb />Des Heros de ma race vn funeſte hecatombe,
+<lb />Et ne prejugeant pas obtenir les ſouhaits
+<lb />D'vn ſi grand criminel, que par de grands forfaits;
+<lb />On m'a veu promener encor ieune, encor fille,
+<lb />Le fer &amp; le poiſon par toute ma famille,
+<lb />Et rompre tous les neuds de mon ſang, de ma foy,
+<lb />Pour n’eſtre plus liée à perſonne qu’à toy;
+<lb />Chaque inſtant de ma vie eſt coupable d’vn crime,
+<lb />Paye au moins tant de ſang du ſang d’vne victime,
+<lb />Ie n’en bruſle de ſoif qu'afin de te ſauuer,
+<fw><lb />Du
+</fw><lb />Du bras qu’à ton malheur ce ſang fera leuer;
+<lb />Oſe donc, ou permets, quand on joindra noſtre ame,
+<lb />Que ie ſois ton mary, ſi tu n'es que ma femme,
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Du precipice affreux preſt à nous engloutir,
+<lb />Agrippine &amp; ſon rang nous peuuent garantir;
+<lb />Prodiguons ſa puiſſance à terracer Tybere;
+<lb />Quand elle aura ſans nous deſtruit noſtre Aduerſaire.
+<lb />Nous trouuerons par elle vn trhône dans le port,
+<lb />Et ſerons en eſtat de ſonger à ſa mort.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Tu m’en donnes parole, hé bien ie ſuis contente,
+<lb />Eeſpoir que ten auray, ſaticra mon attente,
+<lb />A Iupiter vengeur ie vais offrir des vœux;
+<lb />Si pourtant d’vn tel coup i’oſe parler aux Dieux:
+<lb />Car le crime eſt bien grand de maſſacrer Tybere.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Tyliere ce Tjran qui fit mourir ton Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Ha! le traiſtre en mourra, fais, fais moy ſouuenir,
+<lb />Quend d’iniuſtes remords viendront m’entretenir,
+<lb />Afin de s’oppoſer au meurtre de Tybere,
+<fw><lb />3
+<lb />-
+</fw><fw><lb />3
+<lb />in
+</fw><lb />Que Tybere eſt celuy qui fit mourir mon Pere.
+</sp>
+<p type="MainZone-Head"><lb />G17
+<lb />SEIANVS, TERENTIVS.
+</p>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Amoler Agrippine à l’objet de ton feu,
+<lb />I La victime ſera plus noble que le Dieu.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Que coustonnoiſſeZ matte ſujet quim enflame.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Quoy! Liuilla n’eſt point....
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Non ie la hay dans l’ame,
+<lb />Et quoy qu’elle m’adore, &amp; qu’elle ait à mes vœux
+<lb />Immolé ſon Eſpoux, fon frere &amp; ſes neveux,
+<lb />Ie la trouue effroyable, &amp; plus ſa mainſanglante
+<fw><lb />-- -
+<lb />
+</fw><lb />Execute pour moy, plus elle m’épouuente:
+<lb />Ie ne puis à ſa flame appriuoiſer moncœur,
+<lb />Et iuſqu’à ſes bienfaits me donnent de l’horreur:
+<lb />Mais i’ayme ſa riualle auec vne couronne,
+<lb />Et ie bruſle du feu que ſon éclat luy donne;
+<lb />De ce bandeau Royal les rayons glorieux,
+<lb />Augmentent la beauté des rayons de ſes yeux,
+<lb />Et ſi l’ãge fleſtrit l’éclat de ſon viſage,
+<lb />L’éclat de ſa couronne en repare l’outrage.
+<lb />Enfin pour exprimer tous ſes charmes diuers,
+<lb />Sa foy me peut en dot apporter l’Vniuers.
+<lb />Quoy que de ſon Eſpoux ma ſeule ialouſie,
+<lb />Par les mains de Piſon ayt terminé ſa vie,
+<lb />Elle a touſiours penſé que des raiſons d'Fſtat
+<lb />Ont ponße t'Empereur a te idune attentat.
+<lb />Ainſi, Terentius, vn royal hymenée
+<lb />Doit bien-toſt à ſon ſort vnir ma deſtinée,
+<lb />Vn diadéme au front en ſera le lien.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Le cœur d’vne Amaz one eſtoit digne du tien.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Tel ialoux de mon rang tenteroit ma ruine,
+<lb />Qui n’oſera choquer vn Eſpoux d’Agrippine,
+<lb />Ce nœud m’affermira dans le thrône vſurpé,
+<lb />Et ſon fils qui me haït, dans ſa fureur trompé,
+<lb />Au profond de ſon ame, arreſtant ſa colere,
+<lb />Craindra de s’attaquer au mary de ſa Mere,
+<lb />Ou forcée de le perdre, auec moins de courroux
+<lb />Elle en pardonnera le meurtre à ſon Eſpoux.
+<lb />Mais allons preparer dans la pompe celebre
+<lb />Du retour de Tybere vne pompe funebre.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />ACIE.
+<lb />II.
+<lb />SCENE PREMIERE.
+<lb />TIBERE, NERVA.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />tttpen e cache beaucoup plus
+<lb />De pointes ſous le front qu’il n’en paroiſt deſſus;
+<lb />De ma triſte grandeur i’ay veü Rome idolaſtre:
+<lb />Mais que i’ay pour regner d’ennemis à combatre.
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />C’eſt trop te défier de ton noble deſtin,
+<lb />Agrippine te haït, mais elle eſt fomme enfin.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Que de iuſtes frayeurs s’emparent de mon ame!
+<lb />Le grand Germanicus me combat dans ſa femme!
+<lb />De ce Prince au tombeau, le nom reſſuſcité,
+<lb />C iij
+<lb />Semble accourir aux vœux qui l’ont ſollicité;
+<lb />Sous mon Thrône abbatu, ce nouuel Encelade
+<lb />Du profond des Enfers à ma Cour retrograde,
+<lb />Et iette vn cry ſi haut, que du bruit effrayé,
+<lb />Je doute s’il foudroye ou s’il eſt foudroyé.
+<lb />Par vn ſouffle bruſlant que ſa rage reſpire,
+<lb />Il eſmeût la reuolte au ſein de mon Empire,
+<lb />Et le perfide encor pour brauer mes deſſeins,
+<lb />-.
+<lb />Me combat à couuert dans le cœur des Romains.
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />D'vn tout ſi dangereux pers le dangereux reſte</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ie ſçay bien qu'Agrippine à mes iours eſt funeſte:
+<lb />Mais ſi lans l’acheuer ma haine l’ent reprend,
+<lb />Le courroux qui l’anime en deuiendra plus grand;
+<lb />Et ſi dans le Senat on la treuue innocente,
+<lb />Ie la force à venger cette iniure ſanglante.
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Que me dis-tu, Seigneur? elle eſt coupable?
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />En quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />D'eſtre ou d’auoir eſté plus puiſſante que toy.
+<lb />Elle remeineau choq les bandes allarmées,
+<lb />Caſſe ou nomme à ſon gré les Empereurs d’Armées
+<lb />Montre en Caligula ſon Ayeul renaiſſant:
+<lb />Intimide le foible, achepte le puiſſant,
+<lb />Emplit ton cabinet de ſes penſionnaires:
+<lb />Enfin iuſqu’à ta Garde &amp; tes Legionnaires.
+<lb />Falut-il ſe noircir d’vne lâche action,
+<lb />Sont generalement à ſa deuotion.
+<lb />Elle eſt ambitieuſe, elle te croit coupable,
+<lb />Crains qu’elle ne corrompe vn ſeruiteur de table;
+<lb />Rarement vn grand Roy que l’on peut enuier,
+<lb />Eſchappe du poiſon donné par l'heritier.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />O Ciel! ſi tu veux perdre vn Empereur de Rome,
+<lb />Que ſon treſpas au moins ſoit l’ouurage d’vn homme?
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Ceſar, pour préuenir ſes deſſeins furieux,
+<lb />Elle eſt dans ton Palais, qu’on l’égorge à tes yeux?
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />L’êquité nous oblige à plus de retenuë,
+<lb />On ne l’a qu’accusée, &amp; non pas conuaincuë,
+<lb />e
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Le ſceptre qu’en tes mains diſpute ſon renom,
+<lb />Dans tes mains esbranlé, ne tient plus qu’à ton nom,
+<lb />Cours le prix d’vne gloire en gloire ſans ſeconde,
+<lb />Au bout de la carriere eſt le Thrône du monde:
+<lb />Mais encor qu’il puiſſe eſtre à tous deux deſtiné,
+<lb />Qui l’at teindra plutoſt y ſera couronné;
+<lb />En partant le premier deuance donc ſa courſe,
+<lb />Et coupe les ruiſſeaux du torrent dés la ſource:
+<lb />Quoy? ſupporteras-tu ſans honte ou ſans effroy,
+<lb />Que l'Empire balance entre vne femme &amp; toy?
+<lb />Pers, pers, cet te orgueilleuſe auant qu’elle connoiſſe
+<lb />De tonregne esbrante la morlelle foibleſſé.
+<lb />Vn ſoupçonde reuolte à l’apparence ioint,
+<lb />Eſt vn crime d’eſtat qu'on ne pardonne point:
+<lb />Ceſar, il la faut perdre.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ouy, Nerua, ie la donne,
+<lb />Sans rien examiner au bien de ma Couronne,
+<lb />Elle mourra.
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />ieſar....
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Elle moutin, mau Elchx.
+<lb />Commient
+<lb />Comment me deſrober au peuple furieux,
+<lb />Car ſi de ce combat i’emporte la victoire,
+<lb />Son ſang pour la vanger peut iallir ſur ma gloire,
+<lb />C’eſt vn foudre grondant ſuſpendu preſt à cheoir,
+<lb />Qu’au deſſus de ma teſte il ne faut pas mouuoir,
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Non, Seigneur, non, ſa perte eſt &amp; ſeure &amp; facille.
+</sp>
+<sp type="MainZone-Sp"><lb />TIDERE.
+<lb />Il faut donc l’engager à ſortir de la ville.
+<fw><lb />it
+</fw></sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Elle iroit, la ſuperbe, en cent climats diuers
+<lb />Promener la reuolte aux bouts de l’Vniuers,
+<lb />Et iettant du diſcord la ſemence feconde,
+<lb />Armeroit contre toy les deux moytiez du monde,
+<lb />Elle vniroit les bras de tout le genre humain,
+<lb />Ioindroit les deux Soleils du Parthe &amp; du Germain,
+<lb />Prouoqueroit la paix à te faire la guerre,
+<lb />Et ſur toy ſeul enfin renuerſeroit la terre.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Pour l’empeſcher d’agir il faut la raſſeurer,
+<lb />Si ſon crime paroiſt feindre, de l’ignorer:
+<fw><lb />D
+</fw><lb />Et puis, quand nous aurons le ſecours que i'eſpere
+<lb />La mienne à decouuert brauera ſa colere;
+<lb />Mais la voici, n’importe il la faut regaler,
+<lb />D'vne offre dont l’éclat ſuffit pour l’aueugler.
+<lb />Voy comme ſon front cache &amp; montre ſa vengeance,
+<lb />Et dans quelle fierté la ſuperbe s’auance?
+<lb />Pour me tromper encor elle vient en ces lieux:
+<lb />Mais eſcoute nous feindre à qui feindra le mieux.
+</sp>
+<p type="MainZone-Head"><lb />
+<lb />I.
+<lb />TIBERE, AGRIPPINE, SEIANVS,
+<lb />NERVA, TERENTIVS.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE
+<lb />TON retour impreueu, tes gardes redoublées,
+<lb />A Trois fortes legions prés de Rome aſſemblées,
+<lb />M’ont fait auec raiſon craindre quelque attentat.
+<lb />Ou contre ta Perſonne, ou contre ton Eſtat:
+<lb />C’eſt pourquoy dans vn temps ſuſpect à ma Patrie,
+<lb />Où le Romain troublé, s’atrouppe, s’arme &amp; crie,
+<lb />J’ameine à ton ſecours mes proches, mes amis,
+<lb />Et iom ttna que mon iung mc peut auur ſouſmis</sp>
+<sp type="MainZone-Sp"><lb />TIBERE bas à Nerua.
+<lb />L'impudente Nerua! Genereuſe Princeſſe,
+<lb />Ie ne puis par ma bouche exprimer ma tendreſſe:
+<lb />Car vn moindre preſent que le Thrône d’vn Roy
+<lb />Ne ſçauroit m’acquiter de ce que ie te doy;
+<lb />De Rome à ce deſſein i’approche mon Armée,
+<lb />Pour forcer cette Eſclaue au ioug accouſtumée,
+<lb />D’adorer dans ton fils ce Prince bien-aymé;
+<lb />L’Image d’vn Heros qu'elle a tant eſtimé:
+<lb />Oüy, ie viens ſur ſon front depoſer ma Couronne,
+<lb />Et quiconque oſera choquer ce que i’ordonne,
+<lb />45
+<lb />C’eſt vn traiſtre, vn mutin, qu’en vaſſal plein de cœur
+<lb />I’immoleray moy-meſme au nouuel Empereur.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Qui renonce à ſa gloire en offrant ſa Couronne,
+<lb />mem dommmne yopeypun quumemabandonne;
+<lb />Tu m’eſtimes beaucoup de me la preſenter,
+<lb />Mais ie m’eſtime trop pour pouuoir l’accepter;
+<lb />C’eſt en la refuſant qu'on s’en doit rendre digne,
+<lb />Ie veux que l’Vniuers en iuge par ce ſigne.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Auguſte ton Ayeul contre les droicts du ſan
+<lb />7,
+</sp>
+<p type="MainZone-Other"><lb />D
+<lb />1
+<lb />M’adopta pour monter apres luy dans ſon rang::
+<lb />Quoy qu’auecque ton ſexe il connut ton audace,
+<lb />Il n’oſa te choiſir pour occuper ſa place;
+<lb />Il euſt peur, connoiſſant combien, ſans ſe flater,
+<lb />La Machine du monde eſt peſante à porter,
+<lb />Que d’un poids inégal à la grandeur de l’ame,
+<lb />Cet énorme fardeau tombât ſur vne femme,
+<lb />Et qu’vn Scept re appuyé d’vne ſi foible main,
+<lb />Souſtint mal la grandeur de l’Empire Romain:
+<lb />Mais quoy que ſa prudence, en brauant la Nature,
+<lb />T’ait rauy la Couronne auec beaucoup d’injure;
+<lb />Puis qu’auiourd’huy ſon ſang en tes bras affoiblys.
+<lb />A dans ceux de ton fils ſes forces reſtablys,
+<lb />Ie le veux eſleuer pandroit hereditaire
+<lb />Apres un interregne au Thrône de ſon Pere.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Fille du grand Ceſar que ie dois imiter, 
+<lb />Ie le cede au Heros qu’il crût le meriter,
+<lb />Pour montrer par vn chois, außi, grand, außi iuſte,
+<lb />Dhboſume ufig Omaum l'eſprie d'Auguſte.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />1..i.2
+<lb />Et par cette raiſon ſon eſprit &amp; ſon ſang
+<lb />r<lb />3
+<lb />Sont des droicts à ton fils pour monter à mon ran
+<lb />I’en ay le Diadéme, &amp; d’vne foy ſincere,
+<lb />
+<lb />At te cena renait uu ſus tujant itucu uu Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Auec vn Diadéme on n’attache pas bien
+<lb />Vn cœur tout genereux qui veut aymer pour rien,
+<lb />..-----
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Pour te la conſeruer, i’ay receu la Couronne,
+<lb />Ie te la rends, Princeſſe.
+<lb />3 3sel Mi .
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Et moy ie, te la donne.
+<fw><lb />Lue-Las leb LL
+</fw></sp>
+<sp type="MainZone-Sp"><lb />dlar..
+<lb />IBERE.
+<lb />Mais comme i'en diſpoſe au gré de tes parens,
+<lb />C’eſt moy' qui te la donne.
+<fw><lb />*U
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ACRIPETNE.
+<lb />Et moy ie te la rends.
+<lb />As-tu droict d’eſperer que cette ame hautaine
+<lb />En generoſité ſuccombe ſous là tienne.
+<lb />-.--
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE,
+<lb />.i. . :. Lel E ce.-..
+<lb />Ca. ..
+<lb />Eſcoute dans ton ſein ton cœur te démentir.
+<lb />-
+<fw><lb />-ie:.
+</fw></sp>
+<p type="MainZone-Other"><lb />De iij
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Qui choiſit par raiſon ne peut ſe repentir.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Tu me hays, &amp; tu veus eteindre par enuie
+<lb />La plus belle action don cumt mu vre,
+<lb />Ah! pardonne à l’honneur du Monarque des Rois.
+<lb />Ou de ton Pere en nous reſpecte au moins le chois.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Aux ſiecles à venir quelque iour à ta gloire,
+<lb />Nos Neueus eſtonnez apprendront dans l’hiſtoire
+<lb />Qu'vn Roy de ſa Couronne à deſpoüillé ſon front,
+<lb />Et ces meſmes Neueus à ma gloire apprendront
+<lb />Qe ce Prince en fit l’offre à la ſeule perſonné
+<lb />Qui pouuoit refuſer l’éclat d’vne Couronne,
+<lb />Et que l’ordre des Dieux luy voulut deſigner,
+<lb />De peur qu'on ſevon Roy ue tepat de regner.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Regne, ie te l’ordonne, &amp; regnant fais conneſtre
+<lb />Que tu ſçais m'obeïr encor comme à ton Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPTTIJE.
+<lb />Regnt ie te l’ordonne, &amp; reſpectant ma loy,
+<lb />Obeys pour montrer que tu n’es plus mon Roy:
+<lb />Regne, &amp; puis que tu veux me rendre Souueraine,
+<lb />Montre en m’obeyſſant, que ie ſuis deſia Reyne,
+<lb />Reprends donc ta Couronne, außi bien couronner
+<lb />Celle qui te commande eſt ne luy rien donner.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Taſche, mon Sejanus, d’esbranler ſa conſtance,
+<lb />Toy, qui lis dans mon cœur, &amp; vois ce que ie penſe;
+<lb />Tu luy découuriras les ſecrets de mon cœur,
+<lb />mutos vaſtes deſſeins que i’ay pour ſa Grandeur.
+</sp>
+<p type="MainZone-Head"><lb />LIEIII
+<lb />SEIANVS, AGRIPPINE, TERENTIVS.
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ors que contre ſoy-meſme auec nous il conſpire,
+<lb />E Quelle raiſon vous meut à refuſer l'Empire?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Alors que dans ton ſein mon Portraict fut tracé,
+<lb />Le Portraict de Tibere en fut-il effacé?
+<lb />Ou des- accouſtumé du viſage d'vn traiſtre,
+<lb />L’as-tu veû ſans le voir &amp; ſans le reconnoiſtre?
+<lb />Je t’excuſe pourtant, con, tu ne l’as point veù,
+<lb />Il eſtoit trop maſqué pour eſtre reconnû;
+<lb />Vn hommesfrant, ouuert, ſans-haine, ſans colere,
+<lb />Incapable de peur, ce n’eſt point là Tibere,
+<lb />Dans tout ce qu’il paroiſt, Tibere n’eſt point là:
+<lb />Mais. Tibere eſt caché derriére tout cela;
+<lb />De monter à ſon Thrône il ne m’a pourſuiuie,
+<lb />Qu'a deſſein d’eſpier s’il me faiſoit enuie;
+<lb />Et pour peu qu’a ſon offre il m'eût veû balancer,
+<lb />Conclurre aueuglément que ie l’en veus chaſſer:
+<lb />Mais quand il agiroit d’vne amitié ſincere,
+<lb />Quand le reſſentiment des bien-faits de mon Pere.
+<lb />Ou quand ſon repentir euſt mon chois appellé
+<lb />A la poſſeßion du bien qu’il m’a vollé,
+<lb />Sçache que ie prefere à l’or d’vne Couronne
+<lb />Le plaiſir furieux que la vengeance donne;
+<lb />Point de Sceptre aux deſpens d’vn ſi noble courroux,
+<lb />Et du vœu qui me lie à venger mon Eſpoux.
+<lb />Mais bien loin qu’acceptant la ſupréme Puiſſance,
+<lb />Ie perde le motif d’vne iuſte vengeance:
+<lb />Ie veux qu’il là retienne, afin de maintenir
+<lb />Agrippine &amp; ſa racé au droict de le punir;
+<lb />Si je l’euſſe accepté, ma vengeance aſſouuie
+<lb />N’auroit peü ſans reproche attenter ſur ſa vie,
+<fw><lb />Et
+</fw><lb />Et ie veux que le rang qu’il me retient à tort,
+<lb />Me conſerue touſiours vn motif pour ſa mort.
+<lb />D'ailleurs c’eſt à mon fils qu’il remettoit l’Empire,
+<lb />Eſt-ce au nom de ſubjet où ton grand cœur aſp i e?
+<lb />Penſes-y meurement, quel que ſoit ton deſſein,
+<lb />Tu ne m'eſpouſeras que le Sceptre à la main.
+<lb />Muau aaieu, va ſonder ou tena tout ce myſtere,
+<lb />Et confirme touſiours mon refus à Tybere.
+</sp>
+<p type="MainZone-Head"><lb />SCLEVETV
+<lb />SEIANVS, TERENTIVS.
+</p>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Ar les cuiſans ſoucis ou flotte l’Empereur,
+<lb />I Du peril où tu cours meſure la grandeur,
+<lb />Crains que dans le complot comme vn ſage Interprette,
+<lb />De la moitié connuë il paſſe à la ſecrette:
+<lb />Car ie veux que le Ciel ſecondant tes ſouhaits,
+<lb />Tu meine ta Victoire ou tendent tes projets:
+<lb />D’vne marche du Thrône Agrippine approchée,
+<lb />La ſoif de ſe vanger non encor eſtanchée,
+<lb />Et par vn ſi grand coup ne redoutant plus rien,
+<lb />Elle voudra du ſang, &amp; peut-eſtre le tien:
+<lb />Peut-eſtre qu’en ton lict aux brat de l’Hymenée,
+<lb />Le fer de ſon Eſpoux attend ta deſtinée,
+<lb />Que ſa douleur ſecrette eſpere, en te tuant,
+<lb />Vanger ſon mary mort ſur ſon mary viuant,
+<lb />Et qu’a ce cher Eſpoux qui regle ſa colere,
+<lb />Elle veut immoler le vainqueur de Tibere:
+<lb />Donc pour ſauuer ta teſte abandonne la Cour,
+<lb />Tu connois la Fortune &amp; ſon funeſte amour.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Mettre les voilles bas n’ayant point perdu l’Ourſe,
+<lb />Ie ſuis trop esbranlé pour retenir ma courſe,
+<lb />Ie veux monter au Thrône, ou m’en voir accabler:
+<lb />Car ie ne puis ſi tard commencer à trembler.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Superbe, ta naiſſance y met vn tel obſtacle,
+<lb />Que pour monter au Thrône il te faut vn miracle.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Mon ſang n’eſt point Royal, mais l’heritier d’vn Roy
+<lb />Porte-t’il vn viſage autrement fait que moy?
+<lb />Encor qu’vn toict de chaume eût couuert ma naiſſance,
+<lb />Et qu’vn Palais de marbre eût logé ſon enfance,
+<lb />Qu’il fut né d’vn grand Roy, moy d’vn ſimple Paſteur,
+<lb />Son ſang auprés du mien eſt-il d’autre couleur?
+<lb />Mon nom ſeroit au rang des Heros qu’on renomme
+<lb />Si mes predeceſſeurs auoient ſaccagé Rome:
+<lb />Mais ie ſuis regardé comme vn homme de rien,
+<lb />Car mes predeceſſeurs ſe nommoient gens de bien;
+<lb />Vn Ceſar cependant n’a gueres bonne veuë,
+<lb />Dix degrez ſur ta teſte en bornent l’eſtenduë,
+<lb />Il ne ſçauroit auplus faire monter ſes yeux
+<lb />Que depuis ſon berceau iuſques à dix Ayeux:
+<lb />Mais moy ie retrograde aux cabanes de Rome,
+<lb />Et depuis Sejanus iuſques au premier homme;
+<lb />Là n’eſtant point borné du nombre ny du chois,
+<lb />Pour quatre Dictateurs i’y rencontre cent Rois.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Mais le crime eſt affreux de maſſacrer ſon Maiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Mais on deuient au moins vn magnifique traiſtre;
+<lb />Qet piuiſir ſous ſes pieds de tenir aux abois
+<lb />Celuy qui ſous les ſiens fait gemir tant de Rois;
+<lb />Fouler impunément des teſtes couronnées,
+<lb />Faire du genre humain toutes les deſtinées;
+<lb />Mettre aux fers vn Ceſar, &amp; penſer dans ſon cœur
+<lb />Cét Eſclaue iadis eſtoit mon Empereur.
+</sp>
+<p type="MainZone-Lg"><lb />E
+<lb />1
+</p>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Peut-eſtre en l’abatant tomberas-tu toy-meſme,
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Pourueu que ie l’entraiſne auec ſon diadéme,
+<lb />Je mourray ſatisfait, me voyant terracé
+<lb />Sous le pompeux debris d’vn Thrône renuersé:
+<lb />Et puis mourir n’eſt rien, c’eſt acheuer de naiſtre,
+<lb />vn'Eſciaue mer mouiut pout umertir ſon Maiſtre:
+<lb />Aux malheurs de la vie on n’eſt point enchaiſné,
+<lb />Et l’ame eſt dans la main du plus infortuné.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Mais n’as-tu point d’horreur pour vn tel parricide?
+</sp>
+<sp type="MainZone-Sp"><lb />OLIANVJ.
+<lb />Je marche ſur les pas d’Alexandre &amp; d’Alcide,
+<lb />monpeu iu qunon oumionn ue ttuiſtre, de voleur,
+<lb />Aux hommes demy-Dieux doiue abatre le cœur?
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Mais d’vn coup ſi douteux peux-tu preuoir l’iſſuë?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />De courage &amp; d’eſprit cette trame eſt tiſſuë:
+<fw><lb /></fw><lb />Si Ceſar maſſacré, quelques nouueaux Titans
+<lb />Eſleuez par mon crime au Thrône où ie pretens,
+<lb />Songent à s’emparer du pouuoir Monarchique.
+<lb />I’appelleray pour lors le peuple en Republique,
+<lb />Et te tuy feruy vou qut par des toupi ſa grans
+<lb />Rome n’a point perdu, mais changé ſes Tyrans.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Tu connois cependant que Rome eſt Monarchique,
+<lb />Qu'elle ne peut durer dans l’Ariſtocratique,
+<lb />Et que l Aigle Romaine aura peine à monter,
+<lb />Quand elle aura ſur ſoy plus d’vn homme à porter,
+<lb />Reſpecte &amp; crains des Dieux l’effroyable tonnerre.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Il ne tombe iamais en Hyuer ſur la terre,
+<lb />I’ay ſix mois pour le moins à me mocquer des Dieux,
+<lb />En ſuitte ie feray ma paix auec les Cieux.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Ces Dieux renuerſeront tout ce que tu propoſes,
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Vn peu d’Encens bruſlé rajuſte bien des choſes;
+<lb />–
+</sp>
+<p type="MainZone-Lg"><lb />E iij
+</p>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Qui les craint ne craint rien.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ces enfans de l’effroy,
+<lb />Ces beaux riens qu’on adore, &amp; ſans ſçauoir pourquoy,
+<lb />Ces alterez du ſang des beſtes qu’on aſſomme,
+<lb />Ces Dieux que l’homme a faict, &amp; qui n’ont point faict
+<lb />E Doinine.
+<lb />Des plus fermes Eſtats ce fantaſque ſouſtien,
+<lb />Va, va, Terentius, qui les craint, ne craint rien.
+</sp>
+<sp type="MainZone-Sp"><lb />TERENTIVS.
+<lb />Mais s’il n’en eſtoit point, cette Machine ronde?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Oüy, mais s’il en eſtoit, ſerois-je encore au monde?
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />DETANVSS IERENTIVS.
+<lb />LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Voy tu reſtes à Rome, &amp; le Foudre grondant
+<lb />Ne pourra t'éueiller ſi ce n'eſt en tombant?
+<lb />Fuy, fuy, tout eſt perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />L’Empereur ſçait la trame?
+</sp>
+<sp type="MainZone-Sp"><lb />DEJPALA.
+<lb />Tout eſt perdu, te dis-je?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ah! pourſuiuez, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Tu n’as plus qu’vn moment.
+<fw><lb />Tibere......
+</fw><fw><lb />t-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />auue ut gratt, pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Au nom des Dieux, Sejanus, ſauue-toy.
+</sp>
+<sp type="MainZone-Sp"><lb />DETANVS.
+<lb />Apprenez-nous au moins qui vous rend ſi troublée?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />I’ay honte de l’effroy dont ie ſuis accablée:
+<lb />Mais on peut bien trembler quand le Ciel tremble außi,
+<lb />Eſcoute donc ſurquoy ie m’eſpouuente ainſi.
+<lb />Des poings du Victimaire aujourd’huy nos hoſties,
+<lb />Le couſteau dans la gorge en fureur ſont parties,
+<lb />L’Aruſpice a treuué le cœur defectueux,
+<lb />Les poulmons tous fleſtris, &amp; le ſang tout bourbeux,
+<lb />La chair du Sacrifice au brazier petillante,
+<lb />DEEMME Esaaless 3
+<lb />Le bœuf n’a pas eſté mortellement atteint,
+<lb />L’encenſoir allumé par trois fois s’eſt eſteint,
+<lb />Il eſt ſorty de terre vne vaine figure;
+<lb />On n’a point veu manger les oyſeaux de l’Augure,
+<lb />Le Sacrificateur eſt cheü mort en riant,
+<fw><lb />Le
+</fw><lb />Le Temple s’eſt fermé du coſté d’Orient,
+<lb />Il n’a tonné qu’a droitte,&amp; durant cét extaſe
+<lb />Iay veu nos Dieux foyers renuerſez de leurbaZe.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Quoy! ces preſages vains eſtonnent ton courrous?
+<lb />Ils ſont contre Tibere, &amp; non pas contre nous.
+<lb />Si les Dieux aux mortels découuroient leurs myſteres,
+<lb />On en liroit au Ciel les brillans caracteres:
+<lb />Mais quoy qu’il en puiſſe eſtre, il ſera glorieux
+<lb />D’auoir fait quelque choſe en dépit de nos Dieux:
+<lb />Car ſi noſtre fureur ſuccombe à la fortune,
+<lb />Au moins dans les tranſports d’vne rage commune
+<lb />Nous pourſuiurons Tibere auec tant de courrous
+<lb />Que l’on verra ſuër le deſtin contre nous.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Le deſtin graue tout ſur des tables de cuiure,
+<lb />On ne deſchire pas les feüillets d’vn tel Liure.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Acheuons donc le crime, où ce Dieu nous aſtraint,
+<lb />C’eſt luy qui le commet, puis qu’il nous y contraint.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Mon eſprit eſt remis, &amp; ton noble courage,
+<lb />Quoy qu’anonce le Ciel eſt vn heureux preſage,
+<lb />Allons de cent argus Tibere enuironner,
+<lb />Arreſtons les auis qu’on luy pourroit donner,
+<lb />Et puis qu’il ne tient pas tout le ſecret encore,
+<lb />Coupons vers neſtre bout la moitié qu’il ignore.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTEIII
+<lb />SCENE PREMIERE.
+<lb />AGRIPPINE, CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />IAnglante Ombre qui paſſe &amp; repaſſe à mes yeux
+<lb />I NFantôme dont le vol me pourſuit en tous lieux,
+<lb />1es trauaux, iont treſpas, ta lamentable hiſtoire,
+<lb />Reuiendront-ils ſans ceſſe offenſer ma memoire?
+<lb />Ah! tréue, cher Eſpoux, ſi tu veux m’affliger,
+<lb />Preſte-moy pour le moins le temps de te vanger.
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Il vient vous conſoler de ſa cruelle abſence.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Il vient, il vient pluſtoſt me demander vengeance;
+<lb />Te ſouuient-il du temps qu’au fort de ſes douleurs,
+<lb />Couronné dans ſon lict de ſes amis en pleurs,
+<lb />Il crioit, O Romains, cachez-moy cette offrande,
+<lb />C’eſt vn bras, non des yeux, que mon ſort vous demande.
+<lb />Mes plus grands ennemis n’ont rien tant deſiré,
+<lb />Que de me voir vn iour digne d’eſtre pleuré.
+<lb />A de plus hauts penſers eſleuez donc voſtre ame,
+<lb />Pleurer Germanicus, c’eſt le venger en femme,
+<lb />On me plaindra par tout où ie ſuis renommé:
+<lb />Mais pour vous, vangez-moy ſi vous m’auez aymé;
+<lb />Car, comme il eſt honteux à qui porte vne eſpéc,
+<lb />D’auoir l’ame à pleurer mollement occupée,
+<lb />Si du ſang reſpandu ſont les pleurs d’vn Romain,
+<lb />I’eſpere que vos yeux ſeront dans voſtre main:
+<lb />Forcez, donc mes bourreaux de ſouſpirer ma perte,
+<lb />C’eſt la ſeule douleur qui me doit eſtre offerte;
+<lb />Ouy, chercheZ, pourſuiuez, iuſquà la terre ouurir,
+<lb />La terre parlera pour vous les deſcouurir.
+<lb />Que par les yeux ſanglans de cent mille bleſſures,
+<lb />Leurs corps défigurez pleurent mes auantures,
+<lb />iqn ltmpir ce mot de Piſon,
+<lb />Son ame abandonna ſa mortelle priſon,
+<lb />Et s’enuola meſlée au nom de ce perfide,
+<lb />Comme pour s’attacher auec ſon homicide:
+<lb />Enfin ie l’ay veü paſle, &amp; mort entre mes bras,
+<lb />Il demanda vengeance, &amp; ne l’obtiendroit pas!
+<lb />Vn ſi laſche refus!
+</sp>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />L’aymez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+</sp>
+<p type="MainZone-Other"><lb />Je l’adore.
+</p>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Madame cependant Tibere vit encore.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Attens encorcvn peu, mon deplorable Eſpoux,
+<lb />Tu le verras bien-toſt expirant ſous mes coups,
+<lb />Et rauy par le ſort aux mains de la Nature,
+<lb />Son ſang à gros boüillons croiſtre chaque bleßure.
+<lb />Son eſprit par le fer, dans ſon ſiege eſpuisé,
+<lb />Pour ſentir tout ſon mal en tous lieux diuisé,
+<lb />Entre cent mil éclairs de l’acier qui flambloye,
+<lb />Gemiſſant de douleur, me voir paſmer de ioye,
+<lb />muueuntnure, percé de cent glaiues aigus,
+<lb />Que l’effroyable nom du grand Germanicus,
+<lb />Qu’il eſt doux au milieu des traicts qu’on nous décoche,
+<lb />De croire eſtre offensé quand la vengeance approche,
+<lb />Il ſemble que la ioye au milieu de mes ſens,
+<lb />Reproduiſe mon cœur par tout où ie la ſens;
+</sp>
+<sp type="MainZone-Sp"><lb />Pour former du Tyran l’image plus horrible
+<lb />Chaque endroit de mon corps deuient intelligible
+<lb />Afin que toute entiere en cét accez fatal,
+<lb />Ie renferme, ie ſente &amp; comprenne ſon mal,
+<lb />Vſurpant les deuoirs de ſon mauuais genie,
+<lb />Ie l’attache aux douleurs d’vne lente agonie;
+<lb />Ie conte ſes ſanglots, &amp; i’aſſemble en mon ſein
+<lb />Les pires accidens de ſon cruel deſtin;
+<lb />Ie le voy qui paſlit, ie voy ſon ame errante
+<lb />Couler deſſus les flots d’vne écume ſanglante.
+<lb />L’eſtomac enfoncé de cent coups de poignard,
+<lb />N’auoir pas vn amy qui luy iette vn regard,
+<lb />S’il penſe de ſa main boucher. vne bleſſuse
+<lb />Son ame s’échaper par vne autre quuérture:
+<lb />Enfin ne pouuant pas m'exprimer à moitté,
+<lb />Ie le conçois reduit à me faire pitié.
+<lb />Voy quels tranſports au ſein d’vne femme offensée,
+<lb />Cauſe le ſouuenir d’vne injure paßée,
+<lb />Si la Fortune inſtruite à me deſobliger
+<lb />M’oſtoit tous les moyens de me pouuoir vanger,
+<lb />Puirtj ijue me reſoudre à vaincre ma colere,
+<lb />Ie m’irois poignarder, dans les bras de Tibere,
+<lb />Afin que ſoupçonné de ce tragique effort,
+<lb />Il attiraſt ſur luy la peine de ma mort.
+<lb />Au moins dans les Enfers i’emporterois la gloire
+<lb />Delaiſſer, quoy que femme, vn grãd nõ dans l’Hiſtoire:
+<lb />Mais te aiſcours ſieu mat à qui cherché du ſang.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous!
+<lb />CORNELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />4
+<lb />Oüy moy, de Ceſar ie veux percer le flanc,
+<lb />Et iuſques ſur ſon thrône herißé d’halebardes,
+<lb />Ie veux, le maſſacrant au milieu de ſes Gardes,
+<lb />Voir couler par ruiſſeaux de ſon cœur expirant,
+<lb />Tout le ſang corrompu, dont ſe forme vn Tiran.
+</sp>
+<p type="MainZone-Head"><lb />SOLEVDIE
+<lb />TIBERE, AGRIPPINE, CORNELIE.
+<lb />TROVPPE DE GARDES.
+<lb />PID LRE la ſurprenant.
+<lb />Ourſuiuez,
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Quoy, Seigneur?
+<lb />--- -
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ou ie vous ay ſurpriſe.
+<lb />Le propos deteſtable
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ah! ce propos damnable,
+<lb />D’vne ſi grande horreur tous mes ſens trauailla,
+<lb />Que l’objet du fantoſme en ſurſaut m’eſueilla.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Quoy! cela n'eſt qu'vn ſonge, &amp; l’horrible blaſpheme
+<lb />Qui chocque des Ceſars la Majeſté ſupréme,
+<lb />Ne fut dit qu’en dormant?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Non, Ceſar, qu’en dormant:
+<lb />Mais les Dieux qui pour lors nous parlent clairement,
+<lb />Par de certains effets, dont ils meuuent les Cauſes;
+<lb />En nous fermant les yeux nous font voir toutes choſes;
+<lb />Eſcoute donc, Seigneur, le ſonge que i’ay fait,
+<lb />Afin que le recit en deſtourne l’effet.
+<lb />Ie reclamois des Dieux la ſageſſe profonde,
+<lb />De regir par tes mains les affaires du monde,
+<lb />Quand les ſacrez Pauots qui nous tombent des cieux,
+<lb />D'vn ſommeil prophetique ont attaché mes yeux;
+<lb />Apres
+<lb />Apres mille embarras d’eſpeces mal formées,
+<lb />Que la chaleur vitalle entretient de fumées,
+<lb />Ie ne ſçay quoy de bleſme &amp; qui marchoit vers moy,
+<lb />A crié par trois fois, Crſar, prends garde à toy.
+<lb />Vn grand bruict außi-toſt m’a fait tourner viſage,
+<lb />Et i’ay veu de Ceſar la paliſſante Image,
+<lb />Qui couroit hors d’haleine en me tendant les bras,
+<lb />Oüy Ceſar, ie t’ay veû menacé du treſpas.
+<lb />Mais comme à ton ſecours ie vollois, ce me ſemble,
+<lb />Nombre de meurtriers qui couroient tous enſemble,
+<lb />T'ont percé ſur mon ſein, Brutus les conduiſoit,
+<lb />Qui loing de s’eſtonner du grand coup qu’il oſoit,
+<lb />Sur ſon Thrône, a-t’il dit, herißé d’halebardes,
+<lb />Ie veux, le maſſacrant au milieu de ſes Gardes,
+<lb />Voir couler par ruiſſeaux de ſon cœur expirant
+<lb />Tout le ſang corrompu dont ſe form? vn Tyran.
+<lb />Ten eſtois la Seigneur, quand tu m'as entenduë.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />La reſponſe eſt d’eſprit &amp; n’eſt pas mal conceuë.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Hà, Ceſar, il n’eſt plus d’azyle en ta maiſon,
+<lb />Quoy! tu tiens pour ſuſpects de fer &amp; de poiſon
+<lb />Iuſques à tes parens, auec qui la nature
+<lb />T’attache par des nœuds d’immortelle tiſſure;
+<lb />Connois mieux Agrippine, &amp; ceſſe d’opprimer;
+<lb />Auec ceux que ton ſang oblige de t’aymer,
+<lb />Ceux que ſouſtient ton rang. Sejanus par exemple,
+<lb />Superbe, ſanguinaire, homme à bruſler vn Temple,
+<lb />Sejantsers Mais qui pour ton ſalut accepteroit la mort,
+<lb />Ne peut eſtre accuſé ny ſoupçonné qu'à tort.
+<lb />Et cependant, Ceſar, vn fourbe, vn laſche, vn traiſtre,
+<lb />Pour gaigner en flateur l’orcille de ſon Maiſtre,
+<lb />Peut te dire auiourd’huy.
+<fw><lb />SCLNE IIE
+<lb />TIBERE, AGRIPPINE, SEIANVS.
+<lb />AGRIPPINE continuë ſans voir Seianus.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Eianus te trahit,
+<lb />Il empiete à pas lents ton Thrône, &amp; l’enuahit,
+<lb />Il gaigne à ſon party les Familles puiſſantes,
+<lb />Il ſe porte heritier des maiſons opulentes,
+<lb />Il brigue contre toy la faueur du Senat.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS bas.
+<lb />O Dieux elle m’accuſe!
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Il renuerſe l’Eſtat.
+<lb />Il ſeme de l’argent parmy la popul ace.
+<lb />SEIANVS bas à Agrippine en ſe iettant aux pieds
+<lb />de l’Empereur.
+<lb />Nous perirons, Madame, &amp; ſans implorer grace.
+<lb />Qüy, Seigneur, il eſt vray i’ay conjuré.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Qui toy!
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />On peut te dire pis encor de luy, de moy:
+<lb />Mais à de tels rapports il eſt d’vn Prince ſage
+<lb />De ne pas eſcouter vn foible teſmoignage.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS bas.
+<lb />Imprudent qu’ay-je fait? tout eſt deſeſperé.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Mais enfin, Sejanus luy-meſme a conjuré,
+<lb />Il l’aduoüe.
+</sp>
+<sp type="MainZone-Sp"><lb />M.
+<lb />SEIARICVV.
+<lb />Oüy, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />L’eußiez-vous creû, Princeſſe?
+</sp>
+<sp type="MainZone-Sp"><lb /> SEIANVS.
+<lb />I'ay conjurè cent fois ta profonde ſageſſe,
+<lb />De ne point eſcouter ces laſches ennemis
+<lb />Qui te rendent ſuſpects Agrippine &amp; ſon fils;
+<lb />Ne ſouffre pas, Seigneur, qu’vne ame deſloyale
+<lb />Deſgorge ſon venin ſur la maiſon Royale,
+<lb />Tout le Palais deſia fremit de cet affront,
+<lb />Et ta couronne meſme en tremble ſur ton front,
+<lb />Rome en eſt offenſée, &amp; le peuple en murmure,
+<lb />Preuiens de grands malheurs, Ceſar, ie t’en conjure!!
+<lb />Je t’en conjure encar par l’amour des Romains,
+<lb />Et par tes tniſtes pleurs uont ie mouine tes mains.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment.
+<lb />TIBERE.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Tes Legions qui s’approchent de Rome,
+<lb />Réueillent en ſurſaut la ville d’vn grand ſomme;
+<lb />Elle croit que tu veux abreuuer ſes rempars
+<lb />De ce qui reſte encor du ſang de nos Ceſars,
+<lb />Et qu’apres tant de ſang que ta ſoif ſe deſtine,
+<lb />Tu viens pour te baigner dans celuy d’Agrippine.
+<lb />Le Peuple en tous ſes bras commence à ſe mouuoir,
+<lb />Il faict aux plus ſenſez tout craindre &amp; tout pouuoir.
+<lb />Pout te l’oſter de force il reſout cent carnages,
+<lb />Autour dé ton Palais il porte ſes images,
+<lb />Il braue, il court, il crie, &amp; preſque à ton aſpect,
+<lb />Mhenace inſolemment, de perdre tout reſpect,
+<lb />Eſtouſſe en fon perteal ta reuoue nuiſante.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Agrippine arreſtez,ſi le deſordre augmente,
+<lb />Yn deſaueu puplic aux yeux de ces mutins,
+<lb />En vous iuſtifiant, calmera nos déſtins,
+<lb />Vos efforts feront voir ſi le ver qui vous ronge,
+<lb />Meditoit le recit d’vn complot ou d’vn ſonge,
+<lb />Eſteignez au pluſtoſt le feu que ie preuoy,
+<lb />Ou vun refoint &amp; vom at penr unce moy,
+<lb />C’eſt pour l’intimider, les rayons de ma veüe,
+<lb />Comme ceux du Soleil, reſoudront cette nuïe.
+<lb />-
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Il ſeroit à propos qu’on te vit eſcorté,
+<lb />De grands deſſeins par la ſouuent ont auorté.
+<lb />-- -- -
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />DLEE
+<lb />IN
+<lb />SEIANVS, AGRIPPINE, CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ve vous m’auez faict peur?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Que vous m’aueZ troublée?
+<lb />Je ſens mon ame encor de ſurpriſe accablée?
+<lb />Confeſſer au Tyran la coniuration?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Mais vous, luy reueler la conſpiration?
+<lb />I’ay creû que voſtre cœur vous prenoit pour vn autre,
+<lb />I'en ay ſenty mon front rougintutenun voſtre,
+<lb />Et i’apellois deſia la mort auec fierté,
+<lb />Pour eſpargner ma honte à voſtre laſcheté,
+<lb />Pour en perdre au tombeau la funeſte memoire,
+<lb />Et pour ne pas enfin ſuruiure à voſtre gloire:
+<lb />Oüy, i’allois ſans laſcher ny ſouſpir ny ſanglot,
+<fw><lb />1.4
+</fw><lb />Moy ſeul pour mourir ſeul m’accuſer du complot,
+<lb />Et vous iuſtifiant, quoy que mon ennemie,
+<lb />Combler par mon treſpas voſtre nom d’infamie.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Vous m’offenſez, cruel, par cet emportement,
+<lb />Mon amour en depoſt vous tient lieu de ſerment,
+<lb />Puis que c’eſt vne loy du Dieu qui nous aſſemble,
+<lb />Que ſi vous periſſez, nous perißions enſemble,
+<fw><lb />*
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Si i’ay de grands ſoupçons, ce n’eſt pas ſans ſujet,
+<lb />Ce que i’eſpere eſt grand, &amp; mon ſort eſt abjet,
+<lb />Vous faites releuer le bonheur de ma vie,
+<lb />D’vn bien que l’Vniuers regarde auec enuie;
+<lb />Et c’eſt pourquoy ie tremble au front de l’Vniuers,
+<lb />Quand deſſus mon threſor ie voy tant d’yeux ouuers,
+<lb />Ouy, i’ay peur qu'Agrippine ici bas ſans ſeconde,
+<lb />Efteuce un fommer de vEmprre uu monde,
+<lb />Comme vn prix de Heros, comme vne autre Toyſon,
+<lb />Ne réchauffe le ſang de quelqu’autre Iaſon,
+<lb />Et cette peur, helas! doit bien eſtre ſoufferte
+<lb />En celuy que menaſſe vne ſi grande perte.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Non, croyez, Sejanus, auec tous les humains.
+<lb />Que ie ne puis ſans vous acheuer mes deſſeins,
+<lb />Et que vous connoiſtreZ dans peu comme moy-meſme,
+<lb />Si veritablement Agrippine vous ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Enfin, quoy que Ceſar puiſſe faire auiourd’huy,
+<lb />La peur dont i’ay tremblé retombera ſur luy,
+<lb />Il faut que ie me rende auprés de ſa perſonne,
+<lb />De peur qu’vn entretien ſi ſecret ne l’eſtonne,
+<lb />Vous ſorteZ en public pour tromper le Tyran,
+<lb />Et gueriſſez vn mal qui n’eſt pas aſſeZ grand,
+<lb />Contre trois Legions qui frapent à nos portes,
+<lb />Tous les Pretoriens &amp; cinquante Cohortes,
+<lb />Nos gens eſpouuentez, ne feroient que du bruict,
+<lb />Et n’en recueilleroient que la mort pour tout fruict,
+<lb />Attendons que l’aſpect d’vn Aſtre moins contraire,
+<lb />Dedans ſon Iſle infame entraiſme encor Tibere,
+</sp>
+<p type="MainZone-Other"><lb />SCENE
+</p>
+<p type="MainZone-Head"><lb />S
+<lb />O
+<lb />TENE
+<lb />AGRAATIRESCORNELIE,
+<lb />LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />A Diſcorde allumant ſon tragique flambeau,
+<lb />LVous conſacre, Madame, vn ſpectacle aſſez beau,
+<lb />Et ie viens comme ſœur, prendre part à la ioye,
+<lb />Que laßé de vos maux le Deſtin vous enuoye,
+<lb />Le Peuple ſouſleüé pour vn Exploict ſi grand,
+<lb />Vous tient comme en ſes bras à couuert du Tyran,
+<lb />Et ce tranſport ſubit aueugle &amp; plein de zele,
+<lb />Teſmoigne que les Dieux ſont de voſtre querelle.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Les Dieux ſont obligez de venger mon Eſpoux;
+<lb />Si les Dieux icy bas doiuent iuſtice à tous,
+<lb />Deux partis ont chargé leur balance équitable,
+<lb />Agrippine outragée, &amp; Tibere coupable
+<fw><lb />H
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LIVILLA. S.
+<lb />Pour ſe bien acquitter ils vous couronneront.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIP-PIN-E.
+<lb />....
+<lb />ns s’atquiteront vien quana us, me vungeront,
+<lb />C’eſt la mort que ie veux, non le rang du Monarque.
+<fw><lb />. A ... *
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LIVTLLA.
+<lb />12
+<lb />Se ioindre à Sejanus n’en eſt pas vne marque.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ie fais encore pis, ie me ioins auec vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Vous nous auteZ long-temps cache voſtre courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ie regle à mon deuoir les tranſporis de mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Au deuoir en effet vous reglez voſtre flame:
+<lb />Car comme l’amour ſeul eſt le prix de l’’amour,
+<lb />Seianus vous aymant, vous l’aymeZ à ſontour.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Il vous ſied mieux qu’à moy d’aymer vn adultere,
+<lb />Apres l’aſſaßinat d’vn Eſpoux &amp; d’vn frere.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Sont-ils reſſuſcitez pour vous le reueler?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />S’ils ſortoient du cercueil, ils vous feroient trembler.
+</sp>
+<sp type="MainZone-Sp"><lb />EVAn El.
+<lb />Cette ardeur dont i’embraſſe, &amp; preſſe leur vengeance
+<lb />De l'Enuie &amp; de vous ſauue mon innocence.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Si ſans exception voſtre main les vangeoit,
+<lb />Vous verſeriez, du ſang qui vous affoibliroit:
+<lb />Mais quãd vous vangerez leurs Ombres magnanimes,
+<lb />Vous les deſrobereZ tout au moins deux Victimes.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Vous pourriez m’attendrir par de telles douleurs,
+<lb />Qu'enfin i'accorderois Seianus à vos pleurs.
+</sp>
+<p type="MainZone-Other"><lb />H i
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Si m’en faiſant le don vous faites vn miracle,
+<lb />I'en promets à vos yeux le tragique ſpectacle:
+<lb />Mais il vous eſt vtile, &amp; vous le garderez,
+<lb />Pour le premier Eſpoux, dont vous vous laſſerez.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Quiconque oſe inuenter ce crime abominable,
+<lb />Du crime qu’il inuente il a l’eſprit capable;
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Voſtre langue s’emporte, apaiſeZ ſa fureur,
+<lb />Ce n’eſt pas le moyen d’acquerir vn vainqueur,
+<lb />Que vous dites m’aymer, auec tant de conſtance:
+<lb />Car su mayme, u recout ta moute de voffence.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Seianus vaut beaucoup, vous deuez l’eſtimer.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Son merite eſt trop grand pour pouuoir m’exprimer:
+<lb />Mais Tibere eſtant mort, que nous auons en butte;
+<lb />Setanus à ſon tour ſera noſtre diſpute,
+<lb />Il doit eſtre immolé pour victime entre nous,
+<lb />Ou bien de voſtre frere, ou bien de mon Eſpoux,
+<lb />Adieu donc,&amp; de peur que dans la ſolitude,
+<lb />Voſtre ialoux ſoupçon n’ait de l’inquietude,
+<lb />I’engage à ma parole vn ſolemnel ſerment,
+<lb />Qiune fois poins ueſfeut dauei coit popre Amant,
+</sp>
+<p type="MainZone-Head"><lb />OOETEVN
+<lb />VI
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA ſeule. 2-
+<lb />Ites, dites le voſtre, Agrippine infidelle,
+<lb />Qui de Germanicus oubliant la querelle,
+<lb />Deuenez ſans reſpect des droicts de l’amitié,
+<lb />De ſon lâche Aſſaßin l’execrable moitié.
+<lb />Femme indigne du nom que ſouſtient voſtre race,
+<lb />Et qui du grand Auguſte aueZ perdu la trace,
+<lb />Rougiſſez en voyant voſtre Eſpoux au tombeau,
+<lb />D'eſtouffer ſa memoire au lict de ſon bourreau?
+<lb />Mais que dis-je, inſenſée, ah mon trouble eſt extréme!
+<lb />Ce reproche honteux rejallit ſur moy-meſme,
+<lb />Puis que de rang égal, &amp; filles d’Empereurs,
+<lb />Nous tombons elle &amp; moy dans les meſmes erreurs.
+<lb />Elle ayme ce que i’ayme, &amp; quoy que ie contemple
+</sp>
+<p type="MainZone-Lg"><lb />H iij
+<lb />De lâche dans ſon cœur, ſon cœur ſuit mon exemple,
+<lb />Et puis il s’eſt donné, mais le traiſtre eſt-il ſien,
+<lb />M’ayant faict ſa Maiſtreſſe, a-t’il droict ſur mon bien?
+<lb />Non, ſi par ſon Hymen ma naiſſance i’affronte,
+<lb />I'en cueilleray la gloire ayant ſemé la honte,
+<lb />Pour me le conſeruer ie hazarderay tout,
+<lb />Je n'entreprendray rien que ie ne pouſſe à bout.
+<lb />Rien par qui dans ſa mort mon bras ne ſe ſignalle,
+<lb />Si ie puis deſcouurir qu’il ſerue ma Riualle.
+<lb />Qu'il y penſe, ou bien-toſt des effets inhumains
+<lb />Feront de ſon ſuplice vn exemple aux Romains;
+<lb />Oüy, par les Dieux vengeurs, lâche, ie te proteſte,
+<lb />Si ton manque de foy me puroiſt manifeſte,
+<lb />Qu’auant que le Soleil ait ſon char remonté,
+<lb />Tu ſeras comme ceux qui n’ont iamais eſté.
+</p>
+<p type="MainZone-Other"><lb />Fin du troiſieſme Acte.
+<fw><lb />*
+</fw></p>
+<p type="MainZone-Head"><lb />ACTEIV
+<lb />DOBES IIDMRENC.
+<lb />TIBERE, SEIANVS.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Nfin Rome eſt ſoumiſe, &amp; mes Trouppes logées
+<lb />Sont autour du Palais en bataille rangées,
+<lb />Et ie puis foudroyer d vn bras victorieux
+<lb />Ces ſuperbes Titans qui s’oſent prendre aux Dieux;
+<lb />Ie dois par Agrippine ouurir leurs ſepultures,
+<lb />Sa mort decidera toutes nos aduantures,
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Seigneur, daigne en ſon ſang le tien conſiderer,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Quand’i’ay de mauuais ſang ie me le fais tirer.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Prends garde außi de perdre Agrippine innocente,
+<lb />D’vn coup ſi dangereux la ſuitte m’épouuente,
+<lb />Rome publie a faux par de ſi prompts effets,
+<lb />Que pour t’abandonner à de plus grands forfaits,
+<lb />Tu chaſſe le teſmoin de qui l'aſpect t’affronte,
+<lb />Et punis la vertu dont l’éclat te fait honte.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Quoy la craindre &amp; n'oſer meltre on terme à ſes iours!
+<lb />Ou bien la laiſſer viure,&amp; la craindre touſiours?
+<lb />L’vn m’eſt trop dangereux, l’autre m’eſt impoßible.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Seigneur, comme elle rend ſon abord acceßible,
+<lb />Qu'vn Eſpion fidelle euente ſes ſecrets,
+<lb />Ie m’offre à cet employ.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ie l’ay mandée exprez.
+<lb />Ce langage muet des yeux auecque l’ame,
+<lb />Me pourra découurir le complot qu’elle trame,
+<lb />Ie feindray de ſçauoir qu’elle en veut à mes iours,
+<lb />Afin que ſi ſon front paſlit à ce diſcours,
+<lb />Il ſoit, pour la conuainere, vn indice contr'elle;
+<fw><lb />Ou
+</fw><lb />Ou ſi plein de fierté ſon front ne la decelle,
+<lb />Me croyant en ſecret du complot aduerty,
+<lb />Elle abandonne au moins l’intereſt du party.
+<lb />Briſons là, Sejanus, ie la voy qui s’auance,
+<lb />A la faire parler obſerue ma prudence.
+</sp>
+<p type="MainZone-Head"><lb />CCEERIE
+<lb />TIBERE, SEIANVS, AGRIPPINE,
+<lb />CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Voy barbare! vouloir ton Pere aſſaßiner
+<lb />Au moment glorieux qu’il te va couronner?
+<lb />N’aprehende-tu point, ame fiere, ame ingrate,
+<lb />Cuuu feu de mon amour ta lâcheté n’éclatte,
+<lb />Et qu’en l’air cette main qui m’aſſaßinera,
+<lb />Ne rencontre la main qui te couronnera?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Moy, Seigneur?
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Toy, perfide!
+<fw><lb />3
+</fw></sp>
+<sp type="MainZone-Sp"><lb />AGRIPEINE..
+<lb />Enfin qui le depoſe?
+</sp>
+<sp type="MainZone-Sp"><lb />TIB
+<lb />E
+<lb />E.
+<lb />l.3
+<lb />
+<lb />Demande à Sejanus? il en ſçait quelque choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />L’eſtois preſent, Madame, à ce triſte rapport.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />D’où vient qu’à ce diſcours tu te troubles ſi fort?
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Pour paroiſtre innocente, il faut eſtre coupable.
+<lb />D’vne prompte replique on eſt bien plus capable,
+<lb />Parce que t'onapporit au tompivr attiart, 
+<lb />Contre l’accuſateur vn eſprit preparé.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE..
+<lb />Deffends, deffends-toy mieux. 
+<fw><lb />.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />AGRIPMBINE.
+<lb />Ie pourrois l’entreprendre:
+<lb />Mais ie t'offenſerois ſi i’oſois me deffendre
+<lb />Ce ſeroit vne preuue à la poſterité,
+<lb />Que ta mort eſtoit iuſte &amp; pleine d’equité,
+<lb />Si ton cœur teſmoignoit par la moindre ſurpriſe,
+<lb />Soupçonner ma vertu de l’auoir entrepriſe,
+<lb />Ie veux donc a ta gloire eſpargner cet aſſront,
+<lb />Tu vois mon innocence &amp; la lis ſur mon front,
+<lb />Agrippine, Ceſar? attenter ſur ta vie,
+<lb />Non, tu ne le crois pas, mais ce Monſtre d’Enuie,
+<lb />Dont le ſouffle ternit la candeur de ma foy,
+<lb />A ſans doute apoſte des teſmoins contre moy:
+<lb />Car tout Rome connoiſt qu’il veut par ma ruine,
+<lb />Eſleuer ſa maiſon ſur celle d’Agrippine.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Tout ce déguiſement ne te peut garantir,
+<lb />Ton iour eſt arriué, ſuperbe, il faut partir,
+<lb />Et l'Eſtat en peril a beſoin de ta teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />GRIPPINE.
+<lb />Iiun urinamtit tol? qu'on frappe, ie ſuis preſte,
+<lb />Tibere eſtant icy, ie voy l’Executeur:
+<lb />Mais apprens-moy mon crime &amp; mon Accuſateur?
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Tu desbauches le Peuple à force de largeſſes,
+</sp>
+<p type="MainZone-Lg"><lb />i
+<lb />Tu gagnes dans le Camp mes Soldats par promeſſes,
+<lb />Tu parois en public, tu montes au Senat,
+<lb />Tu brigues pour les tiens les charges de l’Eſtat,
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Tibere ne reproche à mon ame Royale,
+<lb />Que d'eſtre genereuſe, affable &amp; liberale,
+<lb />Et comme criminelle, à mort il me pourſuit.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />La Vertu deuient crime en faiſant trop de bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Dile page dudlomt pou ocaspom ton regne,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Mon amour Paternel à tes fils le teſmoigne.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Cet amour Paternel les a tous glorieux,
+<lb />EſleueZ de ta table, à la table des Dieux:
+<lb />Et de ſi beaux feſtins tu regales les noſtres,
+<lb />Qu'apres ceux de Tibere ils n’en gouſtent plus d’autres.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Romains, i’ay la bonté d’eſtre le Protecteur
+<lb />De celle qui me tient pour vn empoiſonneur,
+<lb />je ſuis enjant d Auguſe.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Il m’en ſouuient, Tibere,
+<lb />Tu nacquis en ce temps qu’à mon bien-heureux Pere,
+<lb />Toute choſe a lenut ſuccedant à la fous,
+<lb />Fortune luy donnoit des enfans à trois mois.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Si ie ne tiens de luy le iour que ie reſpire,
+<lb />Au-moins, comme a ſon fils, il m'a laißé l’Empire,
+<lb />Et ce ſage Empereur nous rendit par ſon choix,
+<lb />Toy l’Eſclaue ſouſmis, moy le Maiſtre des Loix.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ne fais point vanitè d’vn choix illegitime,
+<lb />Son Orgueil te choiſit, &amp; non pas ſon eſtime,
+<lb />dune donmo enmmpus,upn que a pinuers
+<lb />Regrettaſt le malheur d’auoir changé ſes fers,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Parricide, ton Pere eſprouue ton audace:
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Tu reſpectes mon Pere en deſtruiſant ſa race,
+<lb />uj
+<lb />Tu luy baſtis vn Temple, &amp; conſacrant ce lieu,
+<lb />Tu n’y fais immoler que les Parents du Dieu;
+<lb />Ce n’eſt pas dans le tronc d’vne Idole muëtte,
+<lb />Que repoſe ſon ame &amp; ſa forme ſecretté,
+<lb />C’eſt dans moy, c’eſt dans ceux qui ſortent de mon flanc,
+<lb />Ne crois pas mes douleurs de criminelles fautes,
+<lb />Que pouſſe le regret du Sceptre que tu m’oſtes:
+<lb />Mais eſcoute, Tyran. La cauſe de mon deüil,
+<lb />C’eſt d’entendre gemir l’Echo d’vn vain cercueil,
+<lb />Vne Ombre deſolée, vne Image parlante,
+<lb />Qui me tire la robbe auec ſa main tremblante;
+<lb />Vn Phantôme tracé dans l’horreur de la nuict,
+<lb />Que i’entends ſangloter au cheuet de mon lict,
+<lb />Le grand Germanicus, dont les Manes plaintiues,
+<lb />M’appellent pour le ſuiure, aux infernales riues,
+<lb />Et de qui quand ie dors, d’vn pas remply d’effroy,
+<lb />Le Spectre ſouſpirant vient paſſer deuant moy:
+<lb />Pone fuus, mon Eſpoum, muu pultens pour deſcendre;
+<lb />Que i’aye réchauffé de ſang ta froide cendre,
+<lb />Aux pieds do vu putuo minoio ron bourreau,
+<lb />Et de ſon corps ſanglant remply ton vain Tombeau,
+<lb />Que ſi le Ciel iniuſte eſt ſourd à ma requeſte...
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ton bras, à ſon defaut, attaquera ma teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Qui m’empeſche, Tyran, ſi c’eſtoit mon deſſein,
+<lb />De plonger tout à l’heure vn poignard dans ton ſeins
+<lb />Aais, bis en jeurert, tuy enfat a vn Alcide
+<lb />Rougiroit de combatre vn Aonſtre ſi timide,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Mlllansson 5
+<lb />Et trauaillant toy-meſme à ta conuiction,
+<lb />Tu t’eſpargnes la gehenne.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ah! ſi ie ſuis blaſmable,
+<lb />Mon Orgueil, non pas moy, de mon crime eſt coupable,
+<lb />Et mon cœur échauffé de ce ſang glorieux,
+<lb />Qui ſe ſouuient encor d’eſtre ſorty des Dieux;
+<lb />Au nom de parricide, ardent &amp; plein de flame,
+<lb />Taſche par ſon tranſport d’en repouſſer le blaſme,
+<lb />Et ſans voir que mon Prince eſt mon accuſateur,
+<lb />Il reuolte ma voix contre mon Empereur,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ah! ſi mon ſang t’émeut il merite ta grace,
+<lb />L’Orgueil n’eſt pas vn crime aux Enfans de ma race:
+<lb />Mais comme d’vn ſoupçon la noirceur s’effacant,
+<lb />Laiſſe éncor quelque tâche au nom de l’Innocent
+<lb />De peur que trop de iour deſillant ma paupiere,
+<lb />Dans mon cœur malgré moy iette trop de lumiere,
+<lb />I'abandonne des lieux, où ie crains de trop voir,
+<lb />Reſte icy par mon ordre auecque plein pouuoir.
+<lb />Pour ton Fils ie l’emmeine, il ſera dans Caprée
+<lb />De noſtre intelligence vne chaiſne aſſeurée.
+<lb />mun muueſfe de Rome enerne von ſenne Eſprir,
+<lb />Et ſa fleur ſans éclorre en bouton s’y fleſtrit.
+</sp>
+<p type="MainZone-Head"><lb />MCEEE
+<lb />e0
+<lb />AGRIPPINE, SEIANVS, CORNELIE.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Qu'il eſt à propos de ſçauoir ſe contraindre,
+<lb />Mais comment ſe forcer quand on ne ſçauroit
+<lb />craindre?
+<lb />Dans mon abaiſſement incapable d’effroy,
+<lb />Ceſar me ſemble encor bien au deſſous de moy;
+<lb />Le nom de mon mary, mon rang &amp; ma naiſſane
+<lb />Enflent tous mes diſcours d’vne maſle aſſeurance.
+<lb />La terre a beau plier ſons cet Vſurpateur,
+</sp>
+<p type="MainZone-Other"><lb />Mon
+<lb />Mon ſang me fait regner ſur ce laſche Empereur;
+<lb />Encor qu’inſolemment le ſuperbe me braue,
+<lb />ro ne puis m’abaiſſer à flatter mon Eſclaue,
+<lb />Quoy mon fils a Caprée!
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />O Ciel!
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ah Sejanus!
+<lb />La fureur me ſaiſit, ie ne me connois plus,
+<lb />Vou-tu pas ſon deſſein?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ce rusé Politique,
+<lb />Le cache aux yeux de Rome &amp; de la Republique,
+<lb />Son amitié trauaille à le faire oublier,
+<lb />De l’azile qu’il donne il ſe fait le Geolier,
+<lb />Et vous des-vniſſant à faux tiltre de Pere,
+<lb />Oſte la mere au fils &amp; le fils à la mere.
+<lb />Ah! Madame, il eſt temps de faire agir la main,
+<lb />Dont le coup doit vn Maiſtre à l’Empirè Romain,
+<lb />Allez, deſcendre au Camp, mutineZ les Gensdarmes
+<lb />Faites-les ſouuenir d’auoir porté les armes,
+<lb />D’auoir en cent climats planté nos pauillons,
+<lb />Et fauché par la mort tant d’affreux Bataillons,
+</sp>
+<p type="MainZone-Lg"><lb />Sans qu’il reſte à pas vn pour vingt ans de ſeruices,
+<lb />Que des cheueux blanchis, de larges cicatrices,
+<lb />Des cadaures antez deſſus des membres morts,
+<lb />Et des troncs ſuruiuans la moitié de leurs corps:
+<lb />Pour les picquer d’honneur, vous direz de leurs Peres,
+<lb />Que vous les auez veus parmy nos aduerſaires,
+<lb />Peſle-meſle entaſſez, &amp; ſanglants qu’ils eſtoient,
+<lb />S’enterrer ſous le poids des corps qu’ils abatoient,
+<lb />Percer des eſcadrons les murailles ferrées,
+<lb />Faire auec vn bras ſeul plus que deux Briarées,
+<lb />Et qu’au lict de la mort ces vaincus triomphans,
+<lb />Vous ont recommandé leurs malheureux enfans:
+<lb />Que c’eſt bien la raiſon que vous ſeruiez de mere
+<lb />A ceux dont voſtre Eſpoux eſtoit iadis le Pere,
+<lb />Que tout ſon patrimoine il leur auoit laißé,
+<lb />Mais que le Teſtament par Ceſar fut caßé.
+<lb />Allez, cela finy, de rang en rang paroiſtre,
+<lb />Flater chaque ſoldat, feindre de le connoiſtre,
+<lb />Et iettant à la foule vne ſomme d’argent,
+<lb />Proteſtés qu’au Palais d’vn œil ſi diligent,
+<lb />On veille vos diſcours, vos penſers, voſtre vie,
+<lb />Qu’vn don plus genereux attireroit l’enuie:
+<lb />Mais qu’en vn grand deſſein, s’ils vous veulent ayder,
+<lb />Et vous metire en eſtat de pouuoir commander,
+<lb />Vous leur reſtiturez ce fameux heritage,
+<lb />Que leur Pere mourant leur laiſſoit en partage,
+</p>
+<sp type="MainZone-Sp"><lb />CORNELIE.
+<lb />Si leur ame en ſuſpens ſemble encor heſiter,
+<lb />Vous ſçaurez par ces mots leur courage exciter;
+<lb />Quoy vous, mes compagnons, dont l’ardente colere
+<lb />Fit trembler autrefois le Thrône de Tibere,
+<lb />Qui diſpenſieZ la vie &amp; la mort aux humains,
+<lb />Qui portiez des combats la Fortune en vos mains;
+<lb />Qui vouliez au Tyran arracher la Couronne
+<lb />Pour des crimes legers dont le couuroit ſon Thrône,
+<lb />Vous ſembleZ l’adorer deſſus ſon Thrône aßis,
+<lb />Quand il eſt deuenu le bourreau de ſes fils?
+<lb />Où s’en eſt donc allé cette noble furie,
+<lb />Et ce feu qui veilloit au bien de la Patrie?
+<lb />Le Ciel d’vn coup de foudre eſpargneroit vos mains,
+<lb />S’il oſoit vſurper la charge des. Romains;
+<lb />MarcheZ donc ſans tremblerſur les pas d’vne femme,
+<lb />Eſpuiſez d’vn Vieillard ce qui luy reſte d’ame,
+<lb />Que ſi d’vn eſprit foible en cet illuſtre employ,
+<lb />Vous craignez le peril, ne frappez qu’apres moy.
+<lb />Ce diſcours acheué, du haut de leur Tribune,
+<lb />Auec vn front égal attendez la fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE à Sejanus.
+<lb />Mais ſans que de l’Eſtat nous déchirions le flanc,
+<lb />Que le ſang de Tibere eſpargne tant de ſan
+<lb />8
+</sp>
+<p type="MainZone-Lg"><lb />R
+<lb />Umpu-moy l’attaquer ſeule en face de Rome,
+<lb />Il ne merite pas de tomber ſous vn homme.
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Madame, en ma faueur ne vous expoſez point;
+<lb />Attendons au party le ſoldat qui ſe joint;
+<lb />Du plus ſeur au plus prompt ne faites point d’eſchangé.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Periſſe l’Vniuers pourueu que ie me vange.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ouy vous ſerez vengée, ouy, Madame, &amp; bien-toſt,
+<lb />Voſtre Ayeul dans le Ctel le demande aſſez haut,
+<lb />Et du fonds des Enfers voſtre Eſpoux vous le crie:
+<lb />Atatiis poun om mnuinoutemte vonfennes voſtre vie,
+<lb />Vous me l’aueZ promis.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ouy, va, ie m'en ſouuiens,
+<lb />Mais vne Ombre qui crie empeſche nos liens;
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Hé quoy! Germanicus peut-il trouuer eſtrange
+<lb />Que ſa Veufue ſe donne à celuy qui le vange?
+</sp>
+<sp type="MainZone-Sp"><lb />LIPPINE.
+<lb />Non, ſa Veufue à ſon gré te fera ſon Eſpoux;
+<lb />Tu ſeras ſon Riual ſans qu’il en ſoit jaloux;
+<lb />Il joindra de ſon nom la force à ton audace,
+<lb />Pourueu qu’en le vengeant tu merites ſa place.
+<lb />A ces conditions que ie paſſe auec toy,.
+<lb />Deſſous le ſceau d’Hymen te t’engage ma foy:
+<lb />Maïs il faut, ſi tu veux que le contract s’obſerue,
+<lb />Vengeant Germanicus le venger ſans reſerue,
+<lb />Et quand ton bras aura ſes Manes conſolés,
+<lb />Et tous ſes meurtriers a ſon Ombre immolez,
+<lb />Mes faueurs enuers toy pour lors ſeront ſi grandes,
+<lb />Que ie t’eſpouſeray ſi tu me le demandes.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Quoy vous m’aymeZ, Madame, &amp; ie l’aprens de vous?
+<lb />Quoy ie puis eſperer d’eſtre vn iour voſtre Eſpoux?
+<lb />Et l’excez du plaiſir dont mes ſens ſont la proye,
+<lb />Ne me ſçauroit encor faire expirer de ioye:
+<lb />Si le ſort ne veut pas que ie meure d’amour.
+<lb />Ny que ſans voſtre aueu ie ſois priué du iour,
+<lb />Du moins ie vous diray iuſqu’au ſouſpir extréme,
+<lb />Poyez mourir d’amour Sejanus qui vous ayme.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Adieu ma ſœur, approche, oſte-luy les ſoupçons
+<lb />Qu'elle pourroit auoir que nous la trahiſſons.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ah! Madame, elle peut nous auoir eſcoutée,
+<lb />Elle marche à grands pas &amp; paroiſt tranſportée.
+</sp>
+<p type="MainZone-Lg"><lb />K iij
+</p>
+<p type="MainZone-Head"><lb />S
+<lb />SRATE
+<lb />IV
+<lb />SEIANVS, LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb /> le ſort ne veut pas que ie meure d’amour,
+<lb />Ny que ſans voſtre aueu ie ſois priué du iour
+<lb />Du moins ie vous diray iuſqu’au ſoupir extréme,
+<lb />Voyez mourir d’amour Sejanus qui vous ayme:
+<lb />Mais toy me haïs-tu, laſche, autant que ie te hays
+<lb />Et que veut ma fureur te hayr deſormais?
+<lb />Tu l’as priſe pour moy, cette aymable Princeſſe,
+<lb />Tu penſois me parler &amp; me faire careſſe:
+<lb />Comme ie ſuis pour toy de fort mauuaiſe humeur,
+<lb />Tu prenois des leçons à fléchir ma rigueur;
+<lb />Ingrat tu punis bien ce que fit mon courage,
+<lb />Quand ie ſacriſiay mon Eſpoux à ta rage.
+<lb />Eſt-ce trop peu de choſe, &amp; pour te meriter,
+<lb />Aides crimes plus grands faut-il encor monter?
+<lb />I’ay.tué mes Neveux, i’ay fait perir mon Frere,
+<lb />Et ie ſuis ſur le poinct d’égorger mon Beaupere:
+<lb />Du creux de ton neant ſors, Sejanus, &amp; voy
+<lb />Le Tbrône où mes forfaits t’ont eſleué ſans toy?
+<lb />Si pour des coups ſi grands, tu te ſens trop timide.
+<lb />Rends-moy l’Aſſaßinat, rends-moy le Parricide,
+<lb />Et pour me rendre vn crime encor plus deſplaiſant,
+<lb />Traiſtre, rends-moy l’amour dont ie t’ay fait preſent?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Comment agir, Madame, auec vne Princeſſe,
+<lb />Dont il faut meſnager l’eſprit auec adreſſe?
+<lb />A qui tous nos deſſeins paroiſtroient furieux,
+<lb />Sans le bandeau d’Amour qui luy couure les yeux.
+<lb />Helas! ſi dans mon ſein vous voyeZ la contrainte,
+<lb />Dont deſchire mon cœur, cette cruelle feinte;
+<lb />Quand lai haine me force à trahir l’amitié,
+<lb />Peut-eſtre en cet eſtat vous ferois-ie pitié:
+<lb />Les larmes dont ie feins vouloir prendre ſon ame,
+<lb />Luy montrent ma douleur bien pluſtoſt que ma flame.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />O Dieux! qu’on a de peine à prononcer l’arreſt
+<lb />Quand on veut condamner vn ennemy qui plaiſt?
+<lb />auumneyomime ,Omuruponvonfuſe,
+<lb />Comme vn luge irrité ſoy-meſme ſe recuſe,
+<lb />Ton crime parle en vain, ie n’oſc l'eſcouster ?ias
+<lb />I'ay peur qu’il ne me force à n'en hoiruoir donter:
+<lb />Quoy que ſenſiblement ta trahiſon m'offenſe;
+<lb />Ie mne la cache afin d’arreſter ma vengeance,
+<lb />Ou ſi plus clairement il' me faut exprimer,
+<lb />Ie me la cache afin de te pouuoir aymer.
+<lb />C’en eſt trop, Sejanus, ma douleur eſt contenté,
+<lb />La plus foible raiſon ſuffit pour vne Amante,
+<lb />Et malgré mon ſoupçon contre toy ſi puiſſant,
+<lb />Parce que ie t’aymay ie te crois innocent.
+<lb />Adieu, voy l'Empereur, aßiege ſa Perſonne,
+<lb />Qu'en tous lieux ton aſpect l’eſpouuente &amp; l’eſtonne.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Ie ſçay que l'Empereur ne peut eſtre aduerty
+<lb />Du nom des conjurez qui forment le party,
+<lb />Cependant plus ma courſe approche la barriere,
+<lb />Timo mou tunoveoute (y mo turc en untneif.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Va, va, ne tremble point, aucun ne te trahit.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Vne ſecrette horreur tout mon ſang.enuahit:
+<lb />Ie ne ſçay quoy me parle, &amp; ie ne puïs l’entendre,
+<lb />Ma raiſon dans. mon cœur s’efforce de deſcendre,
+<lb />Mais encor que re'bruict ſoit vn bruict mal diſtinct,
+<lb />Ie ſons que ma raiſon de cede à mon inſtinct;
+<lb />Cette raiſon pourtans redeuient la Maiſtreſſe,
+<lb />Frappons, voyla l’hoſtie, &amp; l’occaſion preſſe,
+<lb />Auſsi bien quand le coup me pourroit accabler,
+<lb />Dejuna, peur mouen; mmi, in ne peut trembler.
+</sp>
+<p type="MainZone-Head"><lb />CCEAVE
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Intrigue eſt découuert, les laſchẽs m’ont trahie:
+<lb />Ils m’en ont fait l’affront, ils en perdront la vie;
+<lb />D’vn eſprit ſatisfait ie les verray mourir,
+<lb />Et periray contente en les faiſant perir.
+<lb />O vous, mes chers nepueux, mon eſpoux &amp; mon frere,
+<lb />Ma fureur a trouué le moyen de vous plaire,
+<lb />Pour vous rendre le faix du tombeau plus leger
+<lb />De tous vos aſſaſsins, elle va vous vanger;
+<lb />Et par des coups ſi grands, ſi pleins, ſi legitimes,
+<lb />Que ie ſeruy vompripoun uuuibre des victimes:
+<lb />Mais le temps que ma bouche employe à ſoûpirer,
+<lb />Preſte à nos criminels, celuy de reſpirer:
+<lb />Haſtons-nous, car enfin du iour qu’ils me trahiſſent,
+<lb />Ils me l’ont dérobé cét air dont ils jouyſſent.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatrieſme Acte.
+</p>
+<p type="MainZone-Head"><lb />A.
+<lb />SCENE PREMIERE<lb />TIBERE, LIVILLA, FVRNIE.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />T Nhomme qu'en dormant la fortune élena</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Que de l’obſcurité ton amitié ſauus,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Sejanus, dont la teſte, vnie à ma perſonne,
+<lb />Empliſſoit auec moy le rond de ma Couronne,
+<lb />En vouloir à mes iours? Il en mourra l’ingrat;
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Par ſa punition, aſſeure ton Eſtat.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ie veux qu’en ſon trépas la Parque s’étudie,
+<lb />A prolonger ſa peine au delà de ſa vie:
+<lb />Qu’il meure &amp; qu’vn ſanglot ne luy ſoit point permis,
+<lb /> mivarreſte tes jeuivat tons jes Blnemss;
+<lb />Et qu’il ſoit trop peu d’vn pour la douleur entieré,
+<lb />Dont il doit ſeruir ſeul d’eſpace &amp; de matiere.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />A quelque extremité qu'aille ſon chaſtiment,
+<lb />Tu te vanges d’vn traiſtre encor trop doucement:
+<lb />Mais! Seigneur, ſans peril le pourras-tu détruire,
+<lb />Et n’eſt-il plus, le laſche, en eſtat de te nuire.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Il eſt pris le ſuperbe, on inſtruit ſon procez,
+<lb />Et ie le voy trembler de ſon dernier accez;
+<lb />Auſsi-toſt que ta bouche à l’eſtat ſecourable,
+<lb />M'eut découuert l’Auteur de ce crime execrable,
+<lb />Pour l’éloigner des ſiens auecque moins d’éclat,
+<lb />I’ay fait dans mon Palais aſſembler le Senat;
+<lb />Mais c’eſt auec deſſein d’attirer ce perfide,
+<lb />Et pouuoir en ſes yeux lire ſon parricide.
+<lb />Les conuocquez, ſont gens à ma deuotion:
+<lb />Le Conſul eſt inſtruit de mon intention:
+<lb />On fait garde par tout, &amp; par tout ſous les armes
+<lb />Le Soldat tient la Ville, &amp; le peuple en allarmes:
+<lb />Cependant au Palais le coupable arreſté,
+<lb />Et du rang de Tribun par ma bouche flatté,
+<lb />Vient d’entrer au Senat pour ſortir au ſuplice;
+<lb />Il n’a plus d’autres lieux à voir qu’vn precipice.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />beigneur, &amp;re dagrippint en uecon reſolu?
+<lb />Tu dois l’exterminer de pouuoir abſolu:
+<lb />Cét eſprit inſolent d’vn trop heureux menſonge,
+<lb />Croit t’auoir ſur ſon crime endormy par vn ſonge.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ce ſonge fabuleux ne ma point endormy,
+<lb />Au deſſein de la perdre, il m’a plus affermy:
+<lb />De l’attentat qui trouble vne ame embaraſſée,
+<lb />La parole eſt toüjours auprés de la penſée,
+<lb />Et le cœur agité par quelque grand deſſein,
+<lb />Esbranle malgré ſoy la bouche auec le ſein.
+<lb />Non, ma fille, elle court à ſon heure derniere,
+<lb />Et ſans qu’elle le ſçache, on la tient prìſonniere:
+<lb />I’ay corrompu ſes gens, dont l’eſcorte ſans foy
+<lb />La garde iour &amp; nuit non de moy, mais pour moy;
+<lb />Et ſes plus confidents que mon eſpargne arreſte,
+<lb />A mes pieds ſi ie veux apporteront ſa teſte:
+<lb />Mais ie la flatte afin que ſon Arreſt fatal,
+<lb />Quand il la ſurprendra luy faſſe plus de mal.
+</sp>
+<p type="MainZone-Head"><lb />SEBEVN RY
+<lb />NERVA, TIBERE, LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />ERVA.
+<lb />Eigneur, il eſt iugé; quand on a leu ta lettre,
+<lb />Sans que pour luy perſonne ayt oſe s’entremettre,
+<lb />Comme ſi ſon mal-heur eſtoit contagieux,
+<lb />Chacun de ſon viſage a détourné les yeux;
+<lb />Ce puiſſant Sejanus, ſi grand, ſi craint n’aguiere,
+<lb />Cette Diuinité du noble &amp; du vulgaire,
+</sp>
+<p type="MainZone-Lg"><lb />L iij
+<lb />A qui le peuple au Temple appendoit des Tableaux,
+<lb />A qui l’on decernoit des triomphes nouueaux,
+<lb />Qu’on regardoit au thrône auec idolatrie.
+<lb />Nommé par le Senat, Pere de la Patrie,
+<lb />Dans vn corps où pour tel chacun l’auoit tenu,
+<lb />N'a point trouué d’enfans qui l’ayent reconnu;
+<lb />Ils l’ont condamné tous d’vne voix vnanime,
+<lb />Ais ſupplice du roc pour expier ſon crime:
+<lb />Ce coupable eſt deja dans la court deſcendis,
+<lb />Où par l’Executeur ton ordre eſt attendu.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Cœſar au nomdes Dieux, commande qu’on l’ameine,
+<lb />Il importe à ta vie, il importe à ma haine,
+<lb />Qu'auant le coup fatal nous puiſsions nous parler;
+<lb />Car i’ay d’autres ſecrets encor à reueller.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Fais qu’il monte, Nerua.
+<lb />2
+<lb />R12
+</sp>
+<p type="MainZone-Head"><lb />S
+<lb />LENVDIII
+<lb />TIBERE, LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />CEtte haute indulgence
+<lb />nidt juiprvna &amp; m'oblige à la recomnoiſſance;
+<lb />Aſin donc que Cœſar demeure ſatisfait,
+<lb />Et que ma courtoiſie eſgale ſon bien-fait,
+<lb />Ie luy veux découurir le plus grand des complices.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Par ſon nom, Liuilla, couronne tes ſeruices:
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Ouure les yeux ſur moy tyran, c’eſt Liuilla;
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />La fureur de ma bru paſſeroit iuſques là?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Appelle-tu fureur vn acte de Juſtice?
+</sp>
+<sp type="MainZone-Sp"><lb />L. Lni re Es
+<lb />Donc de mon aſſaſsin, ma fille eſt la complice?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Non, ie ne la ſuis pas, Tibere, il eſt le mien;
+<lb />Lay ſorme tattentat, mais te mat-heur eſt ſien,
+<lb />Du maſſacre d’vn monſtre il ſort aſſez d’eſtime,
+<lb />Pour diſputer l’honneur d’en auoir fait le crime:
+<lb />Quy, ce fut moy, Tyran, qui l’armay contre toy.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />La femme de mon fils conſpirer contre moy?
+</sp>
+<p type="MainZone-Other"><lb />LIVILLA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Moy femme de ton fils, moy fille de ton frere,
+<lb />I'allois te poignarder, toy mon Oncle &amp; mon Pere,
+<lb />Par cent crimes, en vn me donner le renom
+<lb />De commettre un forfait qui n’eut point eu de nom;
+<lb />Moy ta niepce, ta bru, ta couſine, ta fille,
+<lb />Moy qu’attachent par tout les nœuds de ta famille,
+<lb />Ie menois en friomphe à ce coup inhumain,
+<lb />Chacun de tes parens t’eſgorger par ma main;
+<lb />Ie voulois prophaner du coup de ma vengeance
+<lb />Tous les degrez du ſang, &amp; ceux de l’alliance,
+<lb />Violer dans ton ſein la nature &amp; la loy:
+<lb />Moy ſeule reuolter tout ton ſang contre toy;
+<lb />Et monſtrer qu’vn Tyran dans ſa propre famille,
+<lb />Peut trouuer vn Bourreau, quoy qu’il n’ait qu’vne
+<lb />fille,
+<lb />I’ay tué mon Epoux; mais i’euſſe encor fait pis,
+<lb />Afin de n’eſtre plus la femme de ton fils:
+<lb />Car i’auois dans ma couche à ton fils donné place,
+<lb />Pour eſtre en mes Enfans maiſtreſſe de ta race,
+<lb />Et pouuoir à mon gré reſpandre tout ton ſang,
+<lb />Lors qu’il ſeroit contraint de paſſer par mon flanc:
+<lb />Si ie tay découuert la reuolte ſecrette,
+<lb />Dont ce couple maudit complottoit ta défaite;
+</sp>
+<p type="MainZone-Lg"><lb />M
+<lb />C’eſt que mon cœur ialoux de leurs contentemens,
+<lb />N'a peu que par le fer des-vnir ces Amans;
+<lb />Et dans mon deſeſpoir ſi ie m’accuſe encore,
+<lb />C’eſt pour ſuiure au tombeau, Sejanus que i’adore;
+<lb />Oze donc, oze donc quelque choſe de grand,
+<lb />Ie brûle de mourir par les mains d’vn Tyran.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ouy, tu mouras Perfide; Et quoy que ie t’immolle,
+<lb />Pour punir ta fureur, ie te tiendray parole;
+<lb />Tu verras ſon ſupplice, il accroiſtra ton deüil,
+<lb />Tes regards eſtonnez le ſuiuront au cercueil:
+<lb />Il faut que par tes yeux ſon deſaſtre te tuë,
+<lb />Et que toute ſa mort ſe loge dans ta veuë:
+<lb />Obſeruez-là, Soldats, faites garde en ces lieux;
+<lb />Et pendant les tranſports de leurs triſtes adieux,
+<lb />Qu'on la traiſne à la mort, afin que ſa tendreſſe
+<lb />Ne pouuant s’aſſouuir, augmente ſa triſteſſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV
+<lb />LIVILLA, FVRNIE.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />E! bien, Furnie; he! bien? Le voila ce grand
+<lb />TI iour,
+<lb />Dont la lumiere eſteinte eſteindra mon amour:
+<lb />Mais elle m’abandonne &amp; n’ozeroit m’entendre
+<lb />Déja de mon deſtin chacun ſe veut déprendre,
+<lb />Et comme ſi des morts i’auois ſuby la Loy;
+<lb />Les viuans ont horreur de s’approcher de moy.
+<fw><lb />M ij
+</fw></sp>
+<p type="MainZone-Head"><lb />SCEIVE
+<lb />LIVILLA, SEIANVS, NERVA.
+</p>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Nfin ſur le penchant de ta proche ruine,
+<lb />ENy l’amour de Cœſar, ny l’amour d’Agrippine,
+<lb />Ny pour tes intereſts tout le peuple aſſemblé,
+<lb />Ny l’effort du party dont noſtre Aigle a tremblé,
+<lb />Ree peunent ruempien uj guremmmtu feſte
+<lb />Du Tonnerre grondant que ma vengeance appreſte:
+<lb />Ton trépas eſt iuré, Liuilla l’entreprend,
+<lb />Et la main d’vne femme a fait vn coup ſi grand.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Nous deuant aſſembler ſous la loy d’Hymenée,
+<lb />Me pouuois-ie promettre vne autre deſtinée?
+<lb />Vous eſtes trop ſçauante à perdre vos Eſpous,
+<lb />On ſe joint à la mort, quandon ſe joint à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Ton amour m’enſeigna ce crime abominable,
+<lb />Peut-on eſtre innocent lors qu’on aime vn coupable;
+<lb />J'eus recours aux forfaits pour t’atacher à moy,
+<lb />Tu n'eſpouſeras point Liuilla malgré toy;
+<lb />Mais Agrippine auſsi ne ſera point ta femme,
+<lb />Ne pouuant eſtouffer cette ardeur qui t'enflame
+<lb />Sans t'arracher la vie, où loge ton amour
+<lb />uu prruunt du iour,
+<lb />Precipiter le vol de mon heure fatalle,
+<lb />Que de te voir heureux aux bras de ma riualle.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />La mort, dont vous penſez croiſtre mon deſeſpoir,
+<lb />Déliurera mes yeux de l’horreur de vous voir:
+<lb />Nous ſerons ſeparez, eſt-ce vn mal dont ie tremble?
+</sp>
+<sp type="MainZone-Sp"><lb />LIVILLA.
+<lb />Tu te trompes encor, nous partirons enſemble:
+<lb />La Parque au lien de rompre allongera nos fers;
+<lb />Je t'accompagneray iuſques dans les Enfers:
+<lb />C’eſt dans cette demeure à la pitié cachée,
+<lb />Que mon ombre ſans ceſſe à ton ombre attachée,
+</sp>
+<p type="MainZone-Other"><lb />M iij
+<lb />De ſon vol eternel fatiguera tes yeux,
+<lb />Et ſe rencontrera pour ta peine en tous lieux,
+<lb />Nous partirons enſemble, &amp; d’vne eſgale courſe
+<lb />Mon ſang auec le tien ne fera qu’vne ſource,
+<lb />Dont les ruiſſeaux de feu par vn reflus commun
+<lb />Peſle-meſle aſſemblez &amp; confondus en vn,
+<lb />Se joindront chez les morts d’vne ardeur ſi commune,
+<lb />Que la Parque y prendra nos deux ames pour vne,
+<lb />Mais Agrippine vient, ſes redoutables yeux
+<lb />Ainſi que de ton cœur me chaſſent de ces lieux.
+</p>
+<p type="MainZone-Head"><lb />DCEEVEE V
+<lb />AGRIPPINE, SEIANVS, NERVA.
+</p>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Emeure, Sejanus, on te l’ordonne, arreſte:
+<lb />V le te vien annoncer qu’il faut perdre la teſte;
+<lb />Rome en foule déja court au lieu de ta mort.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />D’uncourage au deſſus des injures du ſort,
+<lb />Ie tiens qu’il eſt ſi beau de choir pour voſtre cauſe,
+<lb />Qu’vn ſi noble mal-heur borne tout ce que i’oſe;
+<lb />Et déja mes trauaux ſont trop bien reconnus,
+<lb />S’il eſt vray qu'Agrippine ait pleuré Sejanus.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Moy pleurer Sejanus? Moyte pleurer, Perfide?
+<lb />Ie verray d’vn œil ſec la mort d’vn Parricide:
+<lb />Ie voulois, Sejanus, quand tu t’offris à moy,
+<lb />T’eſgorger par Tibere, ou Tibere par toy,
+<lb />Et feignant tous les iours de t’engager mon ame,
+<lb />Tous les iours en ſecret ie deuidois ta trame.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Il eſt d’vn grand courage &amp; d’vn cœur genereux,
+<lb />De ne point inſulter au ſort d’vn mal-heureux:
+<lb />Mais i'en ſçay le motif; pour effacer la trace
+<lb />Des ſoupçõs qui pourroiẽt vous joindre à ma diſgrace,
+<lb />Vous brauez mes mal-heurs encor qu’auec regret,
+<lb />Afin de vous purger d’eſtre de mon ſecret:
+<lb />Madame, ce n'eſt pas connoiſtre mon gente:
+<lb />Car i'aurois fort bien ſceu mourir ſans compagnie.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ne t’imagines pas que par vn feint diſcours,
+<lb />Ie taſche vainement à prolonger mes iours;
+<lb />Car puis qu’à l’Empereur ta trame eſt découuerte,
+<lb />Il a ſceu mon complot &amp; reſolu ma perte:
+<lb />Auſsi i’en ſouſtiendray le coup ſans reculer,
+<lb />Mais ie veux de ta mort plainement me ſouler,
+<lb />Et gouſter à longs traits l’orgueilleuſe malice,
+<lb />D’auoir par ma preſence augmenté ton ſuplice.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />De ma mortalité ie ſuis fort conuaincu;
+<lb />Hé! bien, ie dois mourir, parce que i’ay vécu:
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Mais as-tu de la mort, contemplé le viſage,
+<lb />Conçois tu bien l’horreur de cét affreux paſſage;
+<lb />Connois-tu le deſordre ou tombent leurs accords,
+<lb />Quand l’ame ſe dépend des attaches du corps?
+<lb />L’image du tombeait qui nous tient compagnie,
+<lb />Qui trouble de nos ſens la paiſible harmonie,
+<lb />Et ces derniers ſanglots dont auec tant de bruit
+<lb />La nature eſpouuante vne ams qui s'enfuit?
+</sp>
+<p type="MainZone-Other"><lb />Voila
+<lb />Voila de ton deſtin le terme eſpouuantable.
+</p>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Puis qu’il en eſt le terme il n’a rien d’effroyable,
+<lb />La mort rend inſenſible à ſes propres horreurs;
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Mais vne mort honteuſe eſtonne les grands cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />A.IAI.Rv a3.
+<lb />Mais la mort nous guerit de ces vaines chimeres;
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Mais ta mort pour le moins paſſera les vulgaires:
+<lb />Eſcoute les mal-heurs de ton dernier Soleil:
+<lb />Car ie ſçay de ta fin le terrible appareil
+<lb />De joye &amp; de fureur la populace eſmeuë,
+<lb />Va pour aigrir tes maux, en repaiſtre ſa veuë.
+<lb />Tu vas ſentir chez toy la mort s’inſinuer,
+<lb />Par tout où la douleur ſe peut diſtribuer:
+<lb />"
+<lb />Tu vas voir les Enfans te demander leurs Peres;
+<lb />Les femmes leurs marts, &amp; les freres leurs freres;
+<lb />Qui pour ſe conſoler en foule s’eſtouffans,
+<lb />Iront voir à leur rage immoler tes Enfans:
+<lb />Ton fils ton heritier à la haine de Rome,
+<lb />Va tomber, quoy qu’enfant, du ſupplice d’vn homme,
+<lb />Et te perçant du coup qui percera ſon flanc,
+<lb />Il eſteindra ta race &amp; ton nom dans ſon ſang:
+<lb />Ta fille deuant toy par le Bourreau forcée,
+<lb />Des plus abandonnez bleſſera la penſée,
+<lb />Et de ton dernier coup la nature en ſuſpens
+<lb />Promenera ta mort en chacun de tes ſens:
+<lb />D’vn ſi triſte ſpectacle es-tu donc à l’eſpreuue?
+</sp>
+<sp type="MainZone-Sp"><lb />ETANVS.
+<lb />Cela n’eſt que la mort, &amp; n’a rien qui m’eſmeuue.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Et cette incertitude où meine le trépas?
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />Eſtois-ie mal-heureux, lors que ie n’eſtois pas?
+<lb />Vne heure apres la mort noſtre ame euanouie,
+<lb />Sera ce qu’elle eſtoit vne heure auant la vie:
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Mais il faut, t’annonçant ce que tu vas ſouffrir,
+<lb />Que tu meure cent fois auant que de mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />SEIANVS.
+<lb />I’ay beau plonger mon ame &amp; mes regards funebres
+<lb />Dans ce vaſte neant &amp; ces longues tenebres,
+<lb />I'y rencontre par tout vn eſtat ſans douleur,
+<lb />Qui n’eſleue à mon front ny trouble ny terreur;
+<lb />Car puiſque l’on ne reſte apres ce grand paſſage;
+<lb />Que le ſonge leger d’vne legere image;
+<lb />Et que le coup fatal ne fait ny mal ny bien
+<lb />Viuant, parce qu’on eſt, mort, parce qu’on eſt rien:
+<lb />Pourquoy perdre à regret la lumiere receué,
+<lb />Qu'on ne peut regretter apres qu'elle eſt perdué;
+<lb />Penſez vous m'eſtonner par ce foible moyen,
+<lb />Par l’horreur du Tableau d’vun eſtre qui n’eſt rien,
+<lb />Non quand ma mort au Cielluiroit dans vnComette,
+<lb />Elle me trouuera dans vne ferme aſsiette,
+<lb />Sur celle des Catons ie m'en vais encherir,
+<lb />Et ſi vous en douttez venez me voir mourir.
+<lb />Marchez Gardes,
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Marchez. Ie te rends grace, ô Rome,
+<lb />D’auoir d’vn ſi grand cœur partagé ce grand homme;
+<lb />Cur te ſuis feurt, au momis so uonconge le ſort
+<lb />Du grand Germanicus, par vne grande mort.
+</sp>
+<p type="MainZone-Head"><lb />OCLEVEVRE
+<lb />TIBERE, AGRIPPINE.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />E vous cherche, Madame, auec impatience,
+<lb />I Et viẽs vous faire part du fruit de ma vengeance;
+<lb />Sejanus par ſa mort vous va faire raiſon,
+<lb />Et venger hautement voſtre illuſtre Maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Cœſar ie te rends grace, &amp; te ſuis obligée
+<lb />Du traiſtre Sejanus enfin tu m'as vengée;
+<lb />Tu payes mon Eſpoux de ce que ie luy doy,
+<lb />Mais quel bras aujourd’huy me vengera de toy
+<lb />La ſuite de ta mort m’aſſeurant de la ſienne,
+<lb />Ma vengeance voloit toute entiere à la tienne;
+<lb />Mais dans ce grand project, dont i’attẽdois mon bien,
+<lb />Son trépas impreueu n'a point cauſe le tien,
+<lb />Où ſera mon recours, ma famille outragée,
+<lb />Sur le tombeau d’vn ſeul n'eſt qu'à demy vengée;
+<lb />Si ie veux donc m'en faire vne entiere raiſon,
+<lb />Ta teſte pour victime eſt deuë à ma Maiſon:
+<lb />Ouy, ie dois t’arracher &amp; l’Empire &amp; la vie,
+<lb />Par cent coups redoublez contenter mon enuie;
+<lb />Sejanus abattu, renuerſer ſon appuy,
+<lb />Te noyer dans ſon ſang, t’immoler deſſus luy,
+<lb />Et d’vne main cruelle en deſſerrant ta veué̈,
+<lb />Te contraindre de voir que c’eſt moy qui te tuë.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Ha! c’eſt trop Agrippine;
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Ah! c’eſt encor trop peu,
+<lb />Il faut que ton eſprit aueuglé de ſon feu,
+<lb />Tombant pour me punir dans vn tranſport infâme,
+<lb />Comble tes laſchetez du meurtre d’vne femme.
+</sp>
+<p type="MainZone-Lg"><lb />N iij
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Mais ie t’ay conuaincuë, &amp; ton crime aueré
+<lb />Rend ton Arreſt ſans tache &amp; mon front aſſeuré.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Comme ie ſçay, Tyran, ce que ton cœur eſtime,
+<lb />Que le crime te plaiſt à cauſe qu’il eſt crime,
+<lb />Si le trépas m'eſt deu t’empeſche ton tranſport
+<lb />De gouſter le plaiſir d’en commettre à ma mort.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Aop rouonnen lu mors, puumtre ivn audace,
+<lb />Depuis quand auec nous es-tu rentrée en grace,
+<lb />Pour allonger tes maux ie te veux voir nourrir
+<lb />Vn trépas eternel dans la peur de mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Enfin, laſche Empereur, i’apperçois ta foibleſſe
+<lb />A trauers l’eſpaiſſeur de toute ta ſageſſe,
+<lb />Et du déguiſement dont fait ta vanité
+<lb />Vn ſpecieux pretexte à ta timidité:
+<lb />Quoy, Tyran, tu paſlis ton bras en l’air s’arreſte,
+<lb />Lors que d’vn front ſans peur, ie t’apporte ma teſte;
+<lb />Prens garde, mon Bourreau, de ne te point troubler,
+<lb />Tu manqueras ton coup, car ie te fais trembler.
+<lb />Que d’vn ſang bien plus chaud, &amp; d’vn bras bien
+<lb />plus ferme,
+<lb />De tes derniers Soleils i'accourcirois le terme,
+<lb />Auec combien de ioye &amp; combien de vigueur,
+<lb />Ie te ferois deſcendre vn poignard dans le cœur;
+<lb />En tout cas ſi ie tombe au deçà de l’ouurage,
+<lb />Te laiſſe entor ou fes beralier ue marape,
+<lb />Qui fera pour venger les maux que i’ay ſouffers,
+<lb />Rejallir iuſqu'à moy ton ſang dans les Enfers.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Qu'on l’oſte de mes yeux cette ingrate vipere:
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Onte nommoit ainſi, quand tu perdis ton Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Enfin perſecuté de mes proches parens,
+<lb />Et dedans ma famille au milieu des ſerpens,
+<lb />I'imiteray, Superbe, Hercule en ce rencontre.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />O Ile digne rapport d' Hercule auec vn Monſtre;
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Qu'on eſgorge les ſiens, hormis Caligula.
+</sp>
+<sp type="MainZone-Sp"><lb />AGRIPPINE.
+<lb />Pour ta perte, il ſuffit, de ſauuer celuy-là.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />VIII.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Elle &amp; de Sejanus, les ames déloyalles,
+<lb />AD Arriueront enſemble aux plaines infernalles;
+<lb />Mais pour Terentius, à l’vn &amp; l’autre vny,
+<lb />Perdant tout ce qu’il aime, il eſt aſſez puny.
+</sp>
+<p type="MainZone-Other"><lb /> SCENE IX.
+</p>
+<p type="MainZone-Head"><lb />Eſar!
+<lb />ERVA.
+</p>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />TIBERE, NERVA.
+</p>
+<sp type="MainZone-Sp"><lb />TIBERE.
+<lb />Hé bien Nerua,
+</sp>
+<sp type="MainZone-Sp"><lb />ERVA.
+<lb />I'ay veu la Cataſtrophe
+<lb />D'vne femme ſans peur, d’vn Soldat Philoſophe,
+<lb />Sejanus a d’vn cœur qui ne s’eſt point ſoûmis,
+<lb />Maintenu hautement ce qu’il auoit promis;
+<lb />Et Liuilla de meſme eſciatante de gloire,
+<lb />N'a pas d’vn ſeul ſoûpir offenſe ſa memoire:
+<lb />Enfin plus les Bourreaux qui les ont menaſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />IBERE.
+<lb />Sont-ils morts l’vn &amp; l’autre?
+</sp>
+<sp type="MainZone-Sp"><lb />NERVA.
+<lb />Ils ſont morts,
+</sp>
+<sp type="MainZone-Sp"><lb />TIBERE.
+</sp>
+<p type="MainZone-Other"><lb />C’eſt aſſez
+</p>
+<p type="MainZone-Head"><lb />EATRAICA DV ARIVILEUE DV ROY.
+</p>
+<p type="MainZone-P"><lb />Ar Grace &amp; Priuilege du Roy donné à Paris le 16. Decem<lb />Bbre 1653. Signé GALONGE’. Il eſt permis au ſieur de
+<lb />L BERGERAC, de faire imprimer, vendre &amp; diſtribuer par
+<lb />tout noſtre Royaume deux Liures intitulez, La mort d’Agrippine,
+<lb />Tragedie, &amp; vn Volume de Lettres, pendant le temps &amp; eſpace de
+<lb />neuf ans, à compter du iour que leſdits Liures ſeront acheué d’im<lb />primer: Defendant tres-expreſſement à toutes perſonnes de quel<lb />que qualité &amp; condition qu’elles puiſſent eſtre, d’imprimer ou
+<lb />contrefaire leſdits Liures, ny d’en vendre &amp; debiter d’autres que
+<lb />ceux imprimez par ledit Expoſant, ou de ſon conſentement, à
+<lb />pemle aux contreuenans detrois mniſuies d’ainende, deſpens,
+<lb />dommages &amp; intereſts, &amp; confiſcation des exemplaires qui ſe
+<lb />trouueront d’autre impreſſion que de la ſienne, ainſi qu’il eſt plus
+<lb />au long porté par leſdites Lettres de Priuilege.
+</p>
+<p type="MainZone-P"><lb />Ledit ſieur de BERGERAC a cedé &amp; tranſporté ſon Priuilege
+<lb />à CHARLES DE SERCY, ſuiuant l’accord fait entr’eux.
+</p>
+<p type="MainZone-Head"><lb />EATRAICA DV ARIVILEUE DV ROY.
+</p>
+<p type="MainZone-P"><lb />Ar Grace &amp; Priuilege du Roy donné à Paris le 16. Decem<lb />Bbre 1653. Signé GALONGE’. Il eſt permis au ſieur de
+<lb />L BERGERAC, de faire imprimer, vendre &amp; diſtribuer par
+<lb />tout noſtre Royaume deux Liures intitulez, La mort d’Agrippine,
+<lb />Tragedie, &amp; vn Volume de Lettres, pendant le temps &amp; eſpace de
+<lb />neuf ans, à compter du iour que leſdits Liures ſeront acheué d’im<lb />primer: Defendant tres-expreſſement à toutes perſonnes de quel<lb />que qualité &amp; condition qu’elles puiſſent eſtre, d’imprimer ou
+<lb />contrefaire leſdits Liures, ny d’en vendre &amp; debiter d’autres que
+<lb />ceux imprimez par ledit Expoſant, ou de ſon conſentement, à
+<lb />pemle aux contreuenans detrois mniſuies d’ainende, deſpens,
+<lb />dommages &amp; intereſts, &amp; confiſcation des exemplaires qui ſe
+<lb />trouueront d’autre impreſſion que de la ſienne, ainſi qu’il eſt plus
+<lb />au long porté par leſdites Lettres de Priuilege.
+</p>
+<p type="MainZone-P"><lb />Ledit ſieur de BERGERAC a cedé &amp; tranſporté ſon Priuilege
+<lb />à CHARLES DE SERCY, ſuiuant l’accord fait entr’eux.
+</p>
+    </body>
+  </text>
+</TEI>

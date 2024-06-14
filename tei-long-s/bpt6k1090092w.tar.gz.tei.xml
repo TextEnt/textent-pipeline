@@ -1,0 +1,2376 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adraste, tragédie</title>
+        <author>Ferrier de La Martinière, Louis</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729529x"/>
+          <author>
+            <persName>Ferrier de La Martinière, Louis</persName>
+          </author>
+          <title>Adraste, tragédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1680" cert="high" resp="BNF">1680</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A PARIS.
+<lb />Chez JEAN RIBOU, au Palais, dans la Salſe
+<lb />Royale, à l’Image Saint Loüis.
+</p>
+<p type="MainZone-Head"><lb />M. DC. LXXX.
+<lb />AVEC PERMISSION.
+</p>
+<p type="MainZone-Head"><lb />PREFACE.
+</p>
+<p type="MainZone-P"><lb />E n’entreprens point l’Apologie
+<lb />de cette Piece. J’avouë ingenû<lb />ment qu’elle a ſes defauts. Mais
+<lb />je ne puis m’empécher de répon<lb />dre à quelques Perſonnes qui n’ont pas
+<lb />aprouvé que je la dénoüaſſe par un San<lb />glier. Depuis quand ne nous eſt-il plus
+<lb />permis de finir nos Tragédies par la mort
+<lb />d’un Monſtre? Le Dragon d’Hyppolite,
+<lb />celuy d’Andromede, &amp; la Chimere de Bel<lb />lérophon, ont-ils trouvé des Cenſeurs?
+<lb />Eſt-ce qu’ils croyent qu’un Sanglier n’eſt
+<lb />pas aſſez redoutable, &amp; qu’il ne donne pas
+<lb />une idée aſſez grande du péril où s’expoſe
+<lb />celuy qui le va combatre? S’ils avoient
+<lb />quelque connoiſſance de l’Antiquité, ils ne
+<lb />me feroient pas une pareille objection. Les
+<lb />Anciens nous ont toûjours peint le Sanglier
+<lb />comme un Animal furieux. Celuy qui ra<lb />vageoit la Montagne d’Erimanthe, occupa
+<lb />la valeur d’Hercule, &amp; il compoſe un des
+<lb />Travaux de ce Héros. Qu’eſt-il de plus
+<lb />fameux, je ne dis pas ſeulement dans la
+<lb />Fable, mais méme dans l’Hiſtoire, que le
+<lb />Sanglier de Calidoine? Combien de Princes
+<lb />s’aſſemblerent pour le domter? Si ſa défaite
+<lb />eut été ſi facile, Méleagre auroit-il craint
+<lb />de l’entreprendre ſans le ſecours de Théſée,
+<lb />&amp; auroit-il voulu abaiſſer le courage de ce
+<lb />grand Homme à un Exploit qui en auroit
+<lb />été indigne? Mais ſans chercher des juſti<lb />fications dans les exemples, il doit me ſuf<lb />fire qu’Hérodote dont j’ay tiré mon Sujet,
+<lb />dit dans ſon premier Livre que la choſe s’eſt
+<lb />ainſi paſſée. Je ne penſe pas qu’un Poëte
+<lb />ſoit reſponſable des évenemens de ſon Hiſ<lb />toire, quand la raiſon &amp; la vray-ſemblance
+<lb />ne s’y opoſent pas. Mes Cenſeurs veulent
+<lb />toutefois que je ſois garant d’un autre inci<lb />dent qu’elle me fournit. C’eſt la mort d’Atys.
+<lb />Ils diſent qu'Adraſte eſt un mal-adroit, &amp;
+<lb />ils imputent à ſon peu d’adreſſe le caprice
+<lb />du Sort, qui le rend le meurtrier de ſon
+<lb />Amy. Les mémes malheurs n’arrivent-ils
+<lb />pas tous les jours, &amp; n’en avons-nous pas
+<lb />pluſieurs exemples chez les Anciens. Plu<lb />tarque, dans la Vie d’Alexandre le Grand,
+<lb />dit que Craterus fut bleſſé aux deux cuiſſes
+<lb />par un Dard que Perdiccas avoit lancé
+<lb />contre un Ichneumon. Ce fut par une pa<lb />reille fatalité que Telégone tua ſon Pere
+<lb />Uliſſe, &amp; que Perſée oſta la vie à Acriſius.
+<lb />Ce ſont des coups du Deſtin que la prudence
+<lb />humaine ne ſçauroit éviter, &amp; dont un
+<lb />Auteur Dragmatique n’eſt point obligé de
+<lb />rendre compte. J’avouë que j’en devois
+<lb />rendre un plus exact de ce que deviennent
+<lb />Adraſte &amp; Héſione à la fin de la Tragédie.
+<lb />A la premiere Repréſentation j’avois ſatis-
+<lb />fait à l’exactitude que le Théatre demande.
+<lb />Voicy comment. Adraſte n’ayant pû obtenir
+<lb />de Créſus la mort qu’il luy demandoit, alloit
+<lb />luy-méme s’immoler aux manes de ſon Amy.
+<lb />Héſione ayant apris que ſon Amant avoir
+<lb />malheureuſement tué Atys, venoit ſe jetter
+<lb />aux pieds du Roy pour luy demander la
+<lb />grace d’un ſi cher Coupable. Dans le méme
+<lb />moment elle en aprenoit la mort par un recit
+<lb />de ſix Vers que faiſoit Lycaſte, &amp; elle ſor<lb />toit du Théatre dans le deſſein de ne luy
+<lb />point ſurvivre. Mais tant de Morts fai<lb />ſoient languir l’Action, &amp; fatiguoieut le
+<lb />Spéctateur. On jugea plus à propos de laiſſer
+<lb />à ſon imagination lexsin de ſupléer à la
+<lb />**14..
+<lb />sularite de l’Action. Je n’ignore point
+<lb />que cela n’eſt pas dans les regles, &amp; je me
+<lb />le reproche le premier. Mais c’eſt perdre trop
+<lb />de temps à juſtifier la conduite de cette
+<lb />Piece. Je turjje an Beureur la liberté d’en
+<lb />juger.
+</p>
+<p type="MainZone-Head"><lb />ACTEURS.
+</p>
+<p type="MainZone-Entry"><lb />CRESUS, Roy de Lydie.
+</p>
+<p type="MainZone-Entry"><lb />ATYS, Fils de Créſus.
+</p>
+<p type="MainZone-Entry"><lb />ninitiioin, iin uu ltoy de Phrigie,
+</p>
+<p type="MainZone-Entry"><lb />MESIONE, Pillicenle PIigienne.
+</p>
+<p type="MainZone-Entry"><lb />ERIXENE, Reyne de Cilicie.
+</p>
+<p type="MainZone-Entry"><lb />CLEONE, Confidente d’Héſione.
+</p>
+<p type="MainZone-Entry"><lb />ISMENE, Confidente d’Erixene.
+</p>
+<p type="MainZone-Entry"><lb />LYCASTE, Confident d’Atys:
+</p>
+<p type="MainZone-Entry"><lb />GARDES.
+</p>
+<p type="MainZone-Entry"><lb />ARCAS, Capitanſe ues Gaiues de Créſue
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt dans une Salle d’un Château
+<lb />aupres de Sardis, Capitale de Lydie.
+</p>
+<p type="MainZone-Head"><lb />ADRAS
+<lb />LRAGEDIE.
+</p>
+<p type="MainZone-Head"><lb />ACTE PREMIER
+<lb />SCENE PREMIERE.
+<lb />ADRASTE, ATYS.
+</p>
+<sp type="MainZone-Sp"><lb />
+<lb />z
+<lb />M
+<lb />ATYS.
+<lb />RINCE, je dois beaucoup à l’amitié
+<lb />ſincere
+<lb />Qui vers moy vous conduit en ce lieu
+<lb />ſolitaire.
+<lb />N’en doutez point; ſenſible à ce que je vous doy,
+<lb />J’avois pour vous l’ardeur que vous avez pour moy,
+<lb />Et brûlant de revoir un Amy ſi fidelle,
+<lb />I’allois de mon retour vous mander la nouvelle.
+<lb />Vous m’avez prévenu. J’en rends graces aux Dieux.
+<lb />Quel plaiſir de revoir mon Adraſte en ces lieux!
+<lb />Et qu’il m’eſt doux, aprés tant de peines paſſées,
+<lb />De verſer dans ſon ſein mes ſecretes penſées!
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Je l’avoüeray, Seigneur, un murmure ſecret
+<lb />A mon cœur contre vous échapoit à regret.
+<lb />Hé quoy, diſois-je, Atys que j’eſtime, que j’aime,
+<lb />En qui j’ay crû longtemps voir un autre moy-même,
+<lb />De Délos en Lydie eſt enfin de retour,
+<lb />Et je n’en ſuis inſtruit qu’avec toute la Cour?
+<lb />Pourquoy ſe cache-t-il? Quel important miſtere
+<lb />Le dérobe à nos yeux, aux yeux du Roy ſon Pere?
+<lb />Impatient d’aprendre un deſſein inconnu,
+<lb />De Sardis où j’eſtois je ſuis icy venu.
+<lb />Le deſir de vous voir, aprés trois mois d’abſence,
+<lb />A redoublé l’ardeur de mon impatience.
+<lb />Heureux, malgré les maux dont m’accablẽt les Dieux,
+<lb />De revoir un Amy qui me rerme les yeux,
+<lb />Avant que contre moy leur fureur aſſouvie
+<lb />Ait terminé le cours d’une mourante vie.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Hé quoy, de vos remords encore importuné,
+<lb />Eſtes-vous à périr toûjours plus obſtiné?
+<lb />Depuis deux ans entiers que quitant la Phrigie,
+<lb />Du ſang de vôtre Frere innocemment rougie,
+<lb />Et du Roy vôtre Pere abandonnant la Cour,
+<lb />Vous vintes chez le mien fixer vôtre ſejour;
+<lb />Trop fidelle vangeur d’un crime involontaire,
+<lb />Vous avez ſatisfait aux manes de ce Frere.
+<lb />Il mourut par vos mains, il eſt vray; mais le Sort
+<lb />Doit eſtre ſeul chargé du crime de ſa mort.
+<lb />Quãd le Ciel malgré nous veut nous rẽdre coupables,
+<lb />Des crimes des Mortels les Dieux ſont reſponſables,
+<lb />Leur foudre n’eſt point duë à de pareils forfaits,
+<lb />Et l’on eſt innocent aprés les avoir faits.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Dois-je me pardonner, ſi les Dieux me pardonnent?
+<lb />A d’éternels chagrins mes remords m’abandonnent,
+<lb />L’image d’une mort trop préſente à mes yeux,
+<lb />Punit un Criminel qu’ont épargné les Dieux.
+<lb />Je ne puis effacer de ma triſte mémoire
+<lb />Ce jour qui me coûta mon repos &amp; ma gloire,
+<lb />Eois que pres u cpouler une Pimeene... Helas,
+<lb />Que d’ennuis pour mon cœur ont ſuivy ce trépas!
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Oüy, je ſçay, cher Adraſte, à quels maux il vous livre,
+<lb />Que loin d’une Princeſſe il vous force de vivre,
+<lb />Qu’un Frere ſeul n’eſt pas l’objet de vos douleurs,
+<lb />Qu’ainſi que luy l’amour a ſa part à vos pleurs,
+<lb />Et qu’en ſon deſeſpoir vôtre ame trop conſtante
+<lb />Compte parmy ſes maux l’abſence d’une Amante,
+<lb />Mais ce dernier chagrin fait rarement mourir,
+<lb />L’amour cauſe ce mal, l’amour peut le guerir.
+<lb />La Cour du Roy mon Pere en Beautez ſi fertile,
+<lb />Preſente à vôtre cœur un remede facile.
+<lb />En eſt-il qui ne mit ſon plaiſir le plus doux.
+<lb />A voir dans ſes liens un Captif tel que vous,
+<lb />Et qui promte à tarir la ſource de vos larmes.
+<lb />D’un triomphe ſi grand n’aplaudit à ſes charmes?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Hé, croyez-vous qu’un cœur triſte, deſeſperé,
+<lb />Et déja plein d’un feu dont il eſt devoré.
+<lb />Puiſſe encore s’ouvrir à quelque ardeur nouvelle?
+<lb />I’ay trop aimé, Seigneur, pour n’eſtre pas fidelle.
+<lb />J’eſtois aimé, j’aimois... Ah mortel ſouvenir!
+<lb />De mon bonheur paſſé pourquoy m’entretenir?
+<lb />Les Dieux, pour m’accabler d’une plus rude peine,
+<lb />Font durer un amour plus cruel que leur haine.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Vous-même à vos ennuis n’allez pas vous offrir;
+<lb />On ſurmonte ſes maux quand on ſçait les ſouffriz.
+<lb />Armez vôtre vertu contre leur violence,
+<lb />D’un Amy qui vous parle imitez la conſtance.
+<lb />Quelque tranquilite que j’affecte à vos yeux,
+<lb />Je ſuis autant que vous perſecuté des Dieux,
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Autant que moy, Seigneur! Ah Ciel le peut-on eſtre?
+<lb />A de pareils diſcours puis-je vous reconneſtre?
+<lb />Fiis de l’heureux Crelus dont les lameux exploits.
+<lb />De l’Afie embraſée épouvantent les Rois,
+<lb />Amant &amp; preſque Epoux de l’aimable Erixene,
+<lb />Se peut-il...
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Son hymen fait ma plus dure peine.
+<lb />Cet aveu vous ſurprend, Prince, je le vois bien;
+<lb />Je ſçay tout vôtre ſort, aprenez tout le mien.
+<lb />Lors qu’en ſa pieté toûjours ferme &amp; crédule,
+<lb />Mon Pere pour mes jours geſné d’un vain ſcrupule,
+<lb />M’eut, pour calmer l’effroy qui troubloit ſon repos,
+<lb />Envoyé conſulter l’Oracle de Délos.
+<lb />Un favorable vent nous pouſſant vers cette Iſle,
+<lb />Rendit à nos Vaiſſeaux l’abord promt &amp; facile,
+<lb />Pouſſé par un deſtin que m’apreſtoit l’amour,
+<lb />Je conſultay l’Oracle &amp; preſſay mon retout.
+<lb />Délos eſtoit à peine à nos yeux diſparuë,
+<lb />Qu’un Vaiſſeau Lycien s’offrit à nôtre veuë.
+<lb />Vous ſçavez que ce Peuple en ſa haine affermy.
+<lb />De Créſus dans la Grece eſt le ſeul ennemy.
+<lb />Je l’aborde, &amp; bientôt, pour taire tout le reſte,
+<lb />J’emporte une victoire à mon repos funeſte.
+<lb />J’entre avec mes Soldats dans le Vaiſſeau rendu.
+<lb />Helas! à ce malheur me ſerois-je attendu?
+<lb />A peine y ſuis-je entré, qu’une aimable Princeſſe,
+<lb />Brillant de cet éclat que donne la jeuneſſe,
+<lb />Frape tout à la fois &amp; mes yeux &amp; mon cœur,
+<lb />Et triomphe à l’inſtant de ſon propre Vainqueur.
+<lb />Les cris des Matelots, ſes pleurs &amp; ſes alarmes,
+<lb />5
+<lb />Sembloient à ſa beauté donner de nouveaux charmes,
+<lb />Immobile, confus, &amp; plus qu’elle ſurpris,
+<lb />Ie tâche à raſſurer ſes timides eſprits.
+<lb />Mes reſpects, mes regards, tout, juſqu’à mon ſilencs.
+<lb />Dcres jeux ſur mon cœur luy marque la puiſfince,
+<lb />Et mon trouble luy dit au défant de ma voix,
+<lb />Qu’en luy donnant des fers, moy-même j’en reçois.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Nos vœux trouverent-ils quelque accés aupres d’elle?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Non, Prince, à mes ſoûpirs ma Captive rebelle,
+<lb />Indiférente autant que j’eſtois empreſſé,
+<lb />Paya tous mes tranſports d’un ſilence glacé.
+<lb />Ses yeux d’un ſeul regard m’honorerent à peine.
+<lb />J’impute à ſa frayeur les marques de ſa haine.
+<lb />J'eſpere que ſon cœur remis de ſon effroy,
+<lb />Ecoutera l’amour qui luy parle pour moy.
+<lb />Je l’ameine en Lydie, &amp; craignantque mon Pere
+<lb />Ne la vit d’un regard ou chagrin ou ſevere,
+<lb />Je la cache en ces lieux, &amp; viens loin de la Cour
+<lb />Chercher l’occaſion d’agir pour mon amour.
+<lb />T’aprens par mille cris qu’un long deüil accompagne,
+<lb />Qu’iin affreux Sanglier ravage la Campagne,
+<lb />Porte aux lieux d’alentour la terreur &amp; la mort,
+<lb />Et du triſte Pactole enſanglante le bord.
+<lb />L’amour veut de ſa mort avoir toute la gloire,
+<lb />Il me montre quel fruit ſuivra cette victoire,
+<lb />Me flate qu’à l’envy le Peuple Lydien,
+<lb />S’il me doit ſon repo, s voudra faire le mien,
+<lb />Et que par un tel coup à ſes Etats utile,
+<lb />Mon Pere à mes ſouhaits deviendra plus facile.
+<lb />Vains projets! ma Captive étoufe ces deſſeins;
+<lb />Quand j’aurois tout vaincu, vaincrois-je ſes dédains?
+<lb />Tendreſſe, ſoins, pitié, rien enfin ne la touche,
+<lb />Je ne puis arracher un ſeul mot de ſa bouche,
+<lb />En des pleurs éternels je la voy ſe noyer,
+<lb />En vain la main d’Atys s’offre à les eſſuyer.
+<lb />L’Ingrate, pour tout prix des maux où je m’expoſe,
+<lb />Me demande la mort que ſa rigueur me cauſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Quel ſujet contre vous revolte ſes apas,
+<lb />Luy fait à vôtre amour préferer le trépas?
+<lb />Bourquoy ces pleurs? d’où vient l’ennuy qui la devore?
+<lb />Quel eſt enfin ſon nom, ſa race?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ie l’ignore,
+<lb />Prince. C’eſt un ſecret qu’on s’obſtine à cacher.
+<lb />D’elle &amp; des ſiens en vain j’ay voulu l’arracher;
+<lb />Mais ſon air noble &amp; grand, ſa fierté, ſon courage,
+<lb />Du ſang dont elle ſort, tout me rend témoignage.
+<lb />Que de charmes! Quel cœur... Mais je veux qu’en ces
+<lb />lieux,
+<lb />Prince, de ſa beauté vous jugiez par vos yeux.
+<lb />Je l’attens. C’eſticy qu’aux pleurs abandonnée,
+<lb />Elle vient en ſecret plaindre ſa deſtinée.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ADRASTE, ATYS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />ERixene, Seigneur..
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Hé bien.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Arrive iey.
+</sp>
+<sp type="MainZone-Sp"><lb />O Dieux!
+<lb />AIIO.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Le Roy bientôt doit arriver auſſy.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Le Roy la ſuit! Quel coup! Mes feux pour l’Etrãgere,
+<lb />Me livrent au courroux d’une Amante &amp; d’un Pere.
+<lb />J’en douterois en vain. Unis pour me troubler
+<lb />De reptoches l’un l’autre ils viennent m’accabler,
+<lb />Ah Ciel !
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />C’eſt trop tarder.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Que veux tu?
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Lt tamps pieſſe.
+<lb />Il faut aller, Seigneur, recevoir la Princeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Prince, vous le voyez, une ſevere Loy
+<lb />Veut que j’aille au devant d’Erixene &amp; du Roy.
+<lb />Ne ſuivez point mes pas. Voyez mon Inhumaine,
+<lb />Peignez luy mon amour, ma conſtance &amp; ma peine.
+<lb />Poul la touenei, nelas !dans tout votre entretien,
+<lb />Que n’avez-vous pourelle un cœur comme le mien?
+<lb />Elle vient. Que d’attraits!
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ADRASTE, ATYS, HESIONE,
+<lb />CLEONE, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ADRASTE à part.
+<lb />AH Dieux, c’eſt Héſione:
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Que voy-je, juſte Ciel! Ah ſoûtiens-moy, Cleone.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS à Héſione.
+<lb />Vous vous troublez. Helas! Quoy toujours ce
+<lb />courroux?
+<lb />Toûjours ma veuë eſt-elle un ſuplice pour vous,
+<lb />Madame? Je le voy, ma plainte vous offenſe,
+<lb />Je vay vous épargner l’ennuy de ma préſence.
+<lb />Mais un autre moy-même, un Amy plein de foy,
+<lb />Adraſte, aupres de vous demeurera pour moy.
+<lb />Souffrez que de mon cœur interprete fidelle,
+<lb />Il vous peigne des maux confiez à ſon zele.
+<lb />Daignez l’entendre au moins, Madame, &amp; qu’au<lb />jourd huy,
+<lb />Vôtre haine pour moy n’aille pas juſqu’à luy.
+</sp>
+<p type="MainZone-Head"><lb />OCENEEV..
+<lb />ADRASTE, HESIONE, CLEONE.
+</p>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />ESt-ce vous que je voy? Ma Princeſſe en Lydie?
+<lb />Au raport de mes yeux faut-ilque je me fie?
+<lb />M’attendois-je au bonheur dont me comble ce jour?
+<lb />Quel favorable Dieu vous rend à mon amour?
+<lb />Quoy cõtre mõ eſpoir, je puis donc voir ces charmes,
+<lb />Pour qui j’ay ſi longtemps répandu tant de larmes?
+<lb />Que de maux loin de vous a ſoufert vôtre Amant,
+<lb />Traînant de Ville en Ville un long baniſſement!
+<lb />Sans apuy, ſans Patrie, en proye à ma miſere,
+<lb />Obſedé nuit &amp; jour de l’Ombre de mon Frere,
+<lb />Des Hommes &amp; des Dieux éprouvant le courroux,
+<lb />Mon plus cruel tourment fut d’étre loin de vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Faut-il de mes ennuis que je vous entretienne?
+<lb />Peignant vôtre douleur, vous avez peint la mienne,
+<lb />Toûjours triſte, toûjours me noyant dans mes pleurs,
+<lb />Je craignois que la mort n’eut finy vos malheurs.
+<lb />Vôtre Pere qui touche à ſon heure fatale,
+<lb />Agité d’une crainte à mes frayeurs égale,
+<lb />Voulut pour raſſurer ſes eſprits incertains,
+<lb />Envoyer à Délos aprendre vos deſtins.
+<lb />Je brigue cét employ, je veux aller moy-même
+<lb />Demãder cõpte aux Dieux des jours de ce que j’aime,
+<lb />Et ſur vôtre deſtin reglant mon triſte ſort,
+<lb />Aprendre de l’Oracle, ou ma vie, ou ma mort.
+<lb />Je n’oſois confier à des cœurs moins fidelles
+<lb />Le ſoin de m’afftanchir de mes craintes mortelles,
+<lb />Mon ſexe, le péril, tout devoit m’arreſter;
+<lb />Vais ſur tant de raiſons l’amour ſçeut l’emporter.
+<lb />Je partis. Mon depart fut pour tous un miſtere,
+<lb />Le Roy me fit donner une Suite étrangere,
+<lb />Et pour mieux aſſurer ſon ſecret &amp; le mien,
+<lb />Je montay par ſon ordre un Vaiſſeau Lycien.
+<lb />Nous allions vers Délos, quand plus infortunée,
+<lb />Comme Eſclave en ces lieux je me vis amenée.
+<lb />Que de pleurs j’ay verſez! Pour en tarir le cours,
+<lb />Mon cœur vous appella cent fois à ſon ſecours.
+<lb />Mais pourquoy retracer cette funeſte image?
+<lb />Un plein calme aujourd’huy ſuccede à cet orage.
+<lb />Je pardonne au Deſtin tous mes malheurs paſſez.
+<lb />Il les repare bien. Ie vous voy. C’eſt aſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Ii, Madame, ces lieux tout baignez de nos larmes,
+<lb />Nous préparent encor de nouvenles aldimes.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Hé, quittons-les, Seigneur, ces lieux remplis d’effroy,
+<lb />Dans les Champs Phrigiens retournez avec moy.
+<lb />Hâtez l’heureux effet des prieres publiques,
+<lb />Venez ſacrifier à vos Dieux domeſtiques,
+<lb />Remplir des Phrigiens les ſouhaits les plus doux,
+<lb />Leur raporter la joye exilée avec vous,
+<lb />Conſoler par vos ſoins la vieilleſſe d’un Pere,
+<lb />Et redonner l’éclat à ſa Cour ſolitaire.
+<lb />Je n’oſe icy méler mon intereſt au ſien.
+<lb />Ol vode amaut pouitait ctont egarau Mien,
+<lb />La priere, Seigneur, d’une fidelle Amante,
+<lb />Ne devroit pas ſur vous eſtre la moins puiſſante.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Qui moy, que j’aille encor voir ces funeſtes lieux
+<lb />Où j’ay trop éprouvé la colere des Dieux?
+<lb />Vous ne me verrez plus, triſtes bords du Scamandre,
+<lb />Soüillez encor du ſang qu’ils me firent répandre.
+<lb />Quels charmes ma Patrie auroit-elle pour moy?
+<lb />Ma Patrie eſt icy, puis que je vous y voy.
+<lb />Le lieu le plus ſauvage avec vous peut me plaire.
+<lb />Jouïſſe qui voudra des Etats de mon Pere,
+<lb />Du bonheur de regner je ne ſuis point jalous,
+<lb />Sceptre, gloire, grandeurs, je trouve tout en vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Si c’eſt un ſi grand bien pour vous que ma préſence,
+<lb />Ce bien, Prince, en ces lieux eſt-il en aſſurance?
+<lb />Ignorez-vous qu’Atys a de l’amour pour moy?
+<lb />Nous ſommes en des lieux dont ſon Pere eſt le Roy.
+<lb />Il me pourſuit, helas! Que peut faire Héſione?
+<lb />Vous n’eſtes point jalous des droits d’une Couronne,
+<lb />Dateo vous, ne mon eceur ſerei-vous plus jalous?
+<lb />Au pouvoir d’un Rival m’abandonerez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Que je vous abandonne! Ah, ma belle Princeſſe,
+<lb />Me ſoupçonneriez-vous d’une telle foibleſſe?
+<lb />Si vôtre cœur helas! ſi peu ſeûr de ma foy,
+<lb />Croit mon amour ſi foible, il n’en a point pour moy.
+<lb />Je ſçay qu’icy Captive, en bute à mille alarmes,
+<lb />Vous n’avez que ma main pour eſſuyer vos larmes.
+<lb />Entre le Prince &amp; vous balançay-je aujourd’huy?
+<lb />J’ay plus d’amour pour vous, que d’amitié pour luy.
+<lb />Je ſoûpire, il eſt vray, lors que je conſidere
+<lb />Qu’au repos dun Amy mon bonheur eſt contraire.
+<lb />Mon cœur par vos beautez juge de ſon amour,
+<lb />Je crains que s’il vous pert, il ne perde le jour.
+<lb />Mon ame à la pitié pource cher Prince ouverte,
+<lb />M’en reproche déja l’inévitable perte,.
+<lb />D’une telle pitié ne vous offenſez pas,
+<lb />Elle n’outrage point mes feux, ny vos apas.
+<lb />Toûjours conſtant, toûjours preſt à tout entreprẽdre.
+<lb />Contre Atys, contre tous jeſçauray vous défendre,
+<lb />Mais ſouffrez qu’à vos yeux je me plaigne du Sort,
+<lb />Qui me rend malgré moy la cauſe de ſa mort.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />De vôtre ſort, Seigneur, laiſſez-moy la conduite,
+<lb />L’amitié par l’amour ne ſera pas détruite;
+<lb />Je ſçauray m’arracher de ma capacité,
+<lb />Sans qu’Atys contre vous en puiſſe étre irrité.
+<lb />Cher Prince, cependant à mes deſirs fidelle,
+<lb />Ne luy découvrez point nôtre ardeur mutuelle;
+<lb />Peut-eſtre à ſa fureur il croiroit tout permis,
+<lb />Et deux Amis rivaux ſont bientôt ennemis,
+<lb />Voila la ſeule Loy que j’oſe vous preſcrire,
+<lb />Je vais exécuter ce que le Ciel m’inſpire,
+<lb />Adieu. Vivez, Seiglieur, ce lalis vous alarmer,
+<lb />N’ayez point d’autre ſoin que celuy de m’aimer,
+</sp>
+<p type="MainZone-Other"><lb />Evn vu Fremner Acte.
+<fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />RECTE
+<lb />II
+<lb />SCENE PREMIERE.
+<lb />ERIXENE, ATYS, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Y, Seigneur, je me plains de vôtre ne<lb />gligence,
+<lb />n veritable Amant a plus d’impatience.
+<lb />e croiray-je de vous? Quoy, ſi prés de
+<lb />la Cour
+<lb />Faire durer l’abſence apres vôtre retour?
+<lb />Irritée en ſecret je vous venois moy-méme
+<lb />Reprocher un affront ſenſible quand on aime.
+<lb />D’un amoureux courroux projets trop ſuperflus!
+<lb />A peine je vous voy, qu’il ne m’en ſouvient plus;
+<lb />IIn mouvement plus doux ſuccede à ma colere.
+<lb />Je ſens que je n’ay plus de reproche à vous faire.
+<lb />Mais lors que mon amour me fait tout oublier,
+<lb />Prince, n’oubliez pas de vous juſtifier.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Madame, inſtruit qu’un Monſtre affamé de carnage,
+<lb />Du Pactole ſanglant deſoloit le rivage,
+<lb />Je voulois de ſon ſang faire rougir mes traits,
+<lb />Avant que d’aller rendre hômage à vos attraits.
+<lb />Je l’avoüeray, j’ay crû, Madame, qu’un tel crime,
+<lb />Loin de vous offenſer, méritoit vótre eſtime,
+<lb />Et que vôtre grand cœur ſoufriroit ſans courroux
+<lb />Que mon nom avalitilioy peut alier juiqu'à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Vous n’aviez, dites-vous, qu’un intereſt de gloire.
+<lb />Que j’aurois, juſte Ciel, de plaiſir à le croire!
+<lb />Mais on diſoit, Seigneur, qu’un intereſt d’amour
+<lb />Vous faiſoit en ces lieux cacher vôtre rétour;
+<lb />Qu’au mépris d’une Reyne, Amant d’une Captive,
+<lb />Vous nourriſſiez prés d’elle une flâme furtive.
+<lb />Erixene à ce bruit n’a point ajoûté foy,
+<lb />Je l’ay crû trop indigne, &amp; de vous &amp; de moy.
+<lb />Il doit vous ſouvenir que le feu Roy mon Pere
+<lb />Fit de tous mes Etats Créſus dépoſitaire,
+<lb />Et que j’ay pour garans d’un Hymen aſſuré,
+<lb />Sa parole, &amp; l’amour que vous m’avez juré.
+<lb />Allons trouver Créſus, &amp; luy faire connaître
+<lb />Que vous eſtes pour moy tel que vous devez étre.
+</sp>
+<sp type="MainZone-Sp"><lb />Madame....
+<lb />ATYS.
+</sp>
+<sp type="MainZone-Sp"><lb />ERTAENE.
+<lb />Hé quoy, Seigneur, vous ſemblez héſiter.
+<lb />Quand tout parle pour moy, qui peut vous arréter?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />La Cour, le Roy luy-méme, &amp; toute la Lydie.
+<lb />B ij
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />naulte, due antes tens.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ce qu’il faut que je die.
+<lb />Eſt-il temps, juſte Ciel, de former ces liens?
+<lb />Oubliez-vous quels maux preſſent les Lydiéns?
+<lb />Voulez-vous les braver par un pareil ſpéctacle?
+<lb />Que ſçait on ſi leurs cris n’y métroient point d’ob<lb />ſtacle?
+<lb />Ou du moins en ſecret condamnant nos deſirs,
+<lb />Voudroient-ils bien méler leur joye à nos plaiſirs,
+<lb />Et les Dieux aprouver un Hymen plein d’alarmes
+<lb />Qui n’auroit pour tous chants que des cris &amp; des lar<lb />mes?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Ne vous fatiguez point d’un ſoin ſi curieux,
+<lb />L’amour à ſe geſner eſt moins ingénieux.
+<lb />Mais ſi de nos diſcours il faut bannir la feinte,
+<lb />Prince, je ne voy pas d’où vous vient cette crainte.
+<lb />Vôtre trouble apuyé de ſi foibles raiſons,
+<lb />Pourroit ouvrir mon àme à de juſtes ſoupçons.
+<lb />Le recit qu’on m’a fait n’eſt que trop véritable;
+<lb />Qui s’excuſe ſi mal eſt ſans-doute coupable.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Quoy, vous croiriez, Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Oüy, Perfide, je crois
+<lb />Qu'Atys n’eſt plus pour moy ce qu’il fut autrefois,
+<lb />Qu’une Eſclave inconnuë a captivé ton ame,
+<lb />Qu'elle eſt le vil objet d’une plus vile flâme,
+<lb />Que tu veux l’élever au Trône de Créſus,
+<lb />Que tu n’és qu’un Ingrat, que tu ne m’aimes plus.
+<lb />Tes refus, tes regars, ton trouble, ton ſilence,
+<lb />Mon cœur, tout en un mot me dit ton inconſtance;
+<lb />Mais ſi tu dis qu’encor tu me gardes ta foy,
+<lb />Je démentiray tout, pour ne croire que toy.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Non, Madame. C’eſt trop abuſer une Reyne,
+<lb />Je n’affecteray point une aſſurance vaine,
+<lb />Ie vous trahis. Mon cœur qui m’accuſe en ſecret,
+<lb />Vous livre un Criminel, qui ne l’eſt qu’à regret.
+<lb />Vous méritiez un cœur plus fidelle &amp; plus tendre,
+<lb />Je rends à vos vertus ce que je dois leur rendre,
+<lb />Vôtre Hymen me promet un eternel bonheur,
+<lb />Mille autres à l’envy brigueroient cet honneur,
+<lb />Et lors que je refuſe un cœur comme le vôtre,
+<lb />Mon refus fait ma peine. En faur-il chercher d’autre?
+<lb />D’un fier emportement n’armez point vos apas,
+<lb />Vous vous vangez aſſez en ne vous vangeant pas.
+<lb />Abandonnez mon ame au torrent qui l’entraîne,
+<lb />Je ſuis plus digne, helas, de pitié que de haine.
+<lb />Objet infortuné d’un deſtin rigoureux,
+<lb />Malgré moy je nourris un amour malheureux,
+<lb />J’aime un cœur qui me fuit, je fuis un cœurqui
+<lb />m’aime,
+<lb />Je trahis mon devoir, vous, mon Pere, &amp; moy-méme.
+<lb />Madame, tant de maux vous ſemblent-ils trop douxx
+<lb />Y vouiet-vous encor jomdre votle conllouxs
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Ce ſont donc des dédains que tes vœux me deman<lb />dent,
+<lb />Cruel! Hé bien, tes vœux auront ce qu’ils prétẽdent,
+<lb />Je romps tous les liens qui m’attachent à toy,
+<lb />Tu peux ſans m’outrager diſpoſer de ta foy;
+<lb />Je vay ſans t’honorer d’un reproche inutile,
+<lb />Chez mes Ciliciens joüir d’un ſort tranquile;
+<lb />Rien ne me retient plus. Je vay partir.... Seigneur,
+<lb />A vous abandonner ne forcez pas mon cœur.
+<lb />Je voy bien à travers le courroux qui m’anime,
+<lb />Que je vous puis encor pardonner vôtre crime.
+<lb />Immolez-moy l’Objet dont vous étes épris,
+<lb />Renvoyez-le. Je mets vôtre grace à ce prix.
+<lb />Vous vous tallenn puy vouiouun plououu ta Captive,
+<lb />Fay qu’à tes vœux trompez une Eſclave ſouſcrive,
+<lb />Place-la ſur ce Trone ou je devois monter,
+<lb />Voila tout le malheur qu’on te peut ſouhaiter.
+</sp>
+<sp type="MainZone-Sp"><lb />Elle ſort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />ATYS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />C Es reproches ſont-dûs à l’Ingrat qui la quite;
+<lb />Je prens part aux ennuis où je la précipite.
+<lb />Dieux, de combien de maux je me ſens déchirer,
+<lb />An malheur de mes jours tout ſemble conſpirer,
+<lb />Tout m’accable aujourd’huy, l'Etrangere, Erixene,
+<lb />L’une par ſon amour, &amp; l’autre par ſa haine,
+<lb />Raſſurons toutefois nôtre eſprit alarmé.
+<lb />Lycaſte, j’aime trop, pour n’étre pas aimé.
+<lb />L’Ingrate peut un jour de venir moins cruelle,
+<lb />J’eſpere tout du temps, &amp; d’un Amy fidelle,
+<lb />Peut-étre par des ſoins plus puiſſans ſur ſon cœur,
+<lb />Adraſte aura pour moy deſarmé ſa rigueur.
+<lb />Il vient.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ATYS, ADRASTE, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ATYS continuë.
+<lb />HE' bien, l’amour m’eſt il toûjours con<lb />traire?
+<lb />vous a-t-on ceoute: Que laut-i que perpère?
+<lb />M’aime-t-on, ou plutôt, Prince, me hait-on moins,
+<lb />Et mon repos eſt-il l’ouvrage de vos ſoins?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />nanorepoe, ouigneur, de vous leur peur dépendre,
+<lb />A vos ſens agitez la raiſon doit le rendre.
+<lb />Etoufez vôtre amour, ſource de vos douleurs,
+<lb />Ou bien préparez-vous à d’éternels malheurs,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Barbare Amy, pourquoy par ce diſcours ſincere,
+<lb />D’un Amant malheureux accroître la miſere?
+<fw><lb />A
+</fw><lb />Que ne me diſiez-vous que mes pleurs &amp; le temps
+<lb />Surmonteroient un jour ſes dédains trop conſtans,
+<lb />Qu’elle peut renoncer à ſon indiférence,
+<lb />Que je me puis encor permetre l’eſpérance,
+<lb />Que l’amour à mon cœur prepare un ſort plus doux?
+<lb />Que ſçay-je enfin, Cruel, que ne me trompiez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Hé, pourquoy voulez-vous, Seigneur, que je vous
+<lb />flate?
+<lb />Je dois vous conſeiller d’oublier une Ingrate,
+<lb />Son cœunu tos ioupiro parrumour ent ſermé,
+<lb />Un autre l’aime, enfin un autre en eſt aimé.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ah Dieux, de mes tranſports je ne ſuis plus le maître!
+<lb />Quel que ſoit ce Rival, faites-le moy connaître,
+<lb />Des mépris de l’Ingrate il me fera raiſon,
+<lb />La retende cit vaie e net pius de lailon.
+<lb />Si je ne puis toucher le cœur de la Cruelle,
+<lb />Je perceray le cœur qui ſoûpire pour elle.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />D uimiirou femieme jaiouu votre amour prévenu
+<lb />Médite le trépas d’un Rival inconnu;
+<lb />Mais quelque impétueux que ce tranſport puiſſe étre,
+<lb />Quand vous le connoîtrez, vous le plaindrez peut<lb />étre.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />De cette lâcheté me ſoupçonneriez-vous?
+<lb />Ah Dieux! cette penſée offenſe mon courroux.
+<lb />Où trouver un Rival que tout mon cœur déteſte?
+<lb />Son bonheur plus qu’à moy luy deviendra funeſte,
+<lb />Pour aller le punir faut-il paſſer les Mers?
+<lb />J’iray pour me vanger au bout de l’Univers.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Nous pouvez vous vanger, &amp; vous vanger ſans peine,
+<lb />Seigneur. Le ſort le livre à toute vôtre haine.
+<lb />Ce Prince dont l’ardeur traverſe vôtre amour...
+</sp>
+<sp type="MainZone-Sp"><lb />APIO.
+<lb />Hé bien, Prince, achevez.
+</sp>
+<sp type="MainZone-Sp"><lb />ahu nalro l do
+<lb />Reſpire en cette Cour,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />En cette Cour! Il craint ſi peu de me déplaire.
+<lb />Ah, Prince, decouvrons ce Rival teméraire.
+<lb />Si ma vive douleur peut encor vous toucher,
+<lb />Cher Adraſte, aidez-moy vous-méme à le chercher.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Vous croyez voir, Seigneur, vôtre peine adoucie,
+<lb />Si du ſort d’un Rival vôtre ame eſt éclaircie;
+<lb />Mais pour vôtre repos, ſouhaitez que les Dieux
+<lb />Pour jamais, s’il ſe peut, le cachent à vos yeux.
+<lb />Adieu,
+<fw><lb />11
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />ATYS, LICASIE.
+</p>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />QUe me veut dire une fuite, un ſilence,
+<lb />Qui ſur mille inalheurs étend ma défiance?
+<lb />L’embarras de mon cœur eſt moins confus pour
+<lb />moy,
+<lb />Que tout ce que j’entens, que tout ce que je voy.
+<lb />Toy qui nous écoutois, dy-moy, que dois-je croire?
+<lb />Trouves-tu quelque jour dans une nuit ſi noire?
+<lb />Parle. Dans ſes malheurs le plus ſage eſt ſans yeux,
+<lb />Et qui les ſent le moins, les diſcerne le mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Tant de reflexion, ociglieur, me ſemble vaine,
+<lb />Lors qu’à la verité l’aparence nous mene.
+<lb />Adraſte d’un Rival vous menace aujourd’huy;
+<lb />Ie connoy ce Rival.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Et quel eſt-il?
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />c’eſt luy,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Luy-même.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Un tel ſoupçon l’outrage?
+<lb />Pour un crime ſi noir il a trop de courage.
+<lb />Il oſeroit trahir l’amitié qui nous joint?
+<lb />L’Etrangere à ſes yeux.... Non, je ne te croy point.
+<lb />Pourtant lors que j’y penſe, il me ſemble, Lycaſte,
+<lb />Qu'à ſon aſpect tantôt j’ay vû rougir Adraſte;
+<lb />Son deſordre a paru dans ſes yeux interdits;
+<lb />Ton trouble, tout répond à ce que tu me dis.
+<lb />Se pourroit-il, grãds Dieux, que mon Amy parjure....
+<lb />Non, contre tes ſoupçons ſa vertu me raſſure.
+<lb />Mais de tout en amour on doit ſe défier;
+<lb />Il faut bannir ma crainte, ou la juſtifier.
+<lb />Suy-le, obſerve ſes yeux auprés de l’Etrangere;
+<lb />S’il s’eſt tû, ſes regars ne ſçauront pas ſe taire.
+<lb />L’amout le plus ſecret ſe trahit aiſément.
+<lb />Emprunte pour le voir les regars d’un Amant.
+<lb />Je ne te dis plus rien. Va faire agir ton zele:
+<lb />Mon devoir, tu le ſçais, auprés du Roy m’appelle.
+<lb />Mais il vient, je le voy. Cours, Lycaſte, &amp; revien
+<lb />M’éclaircir... Puiſſes-tu ne m’éclaircir de rien.
+<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />CRESUS, ATYS, ARCAS.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />ENfin apres trois mois &amp; de crainte &amp; d’abſence;
+<lb />Les Dieux à mes ſouhaits rendent vôtre préſence.
+<lb />Mais pourquoy peu ſenſible à mes empreſſemens,
+<lb />Vous dérober mon Fils à mes embraſſemens?
+<lb />Pourquoy de vos regars priver les yeux d’un Pere?
+<lb />De vos deſſeins cachez j’ay percé le miſtere.
+<lb />Vous aimez. Vótre amour vous fait tout oublier,
+<lb />Vous avez trop de cœur pour oſer le nier.
+<lb />Je lis ſur vôtre front une honte craintive;
+<lb />On n’en peut trop avoir d’aimer une Captive.
+<lb />On m’offenſe en brûlant d’un amour inſenſé,
+<lb />Mais en me le cachant, on m’a plus offenſé.
+<lb />Quoy, par crainte avec moy faloit-il jamais feindre?
+<lb />En ne déguiſant rien vous aviez moins à craindre.
+<lb />Ignorez-vous pour vous ma facile bonté?
+<lb />Que ſçay-je à quel exoes dne mout pomemonté,
+<lb />Si par un aveu libre &amp; plein de confiance,
+<lb />Vous euſſiez de mon cœur tenté la complaiſance?
+<lb />Ma bonté mépriſée armeroit mon courroux,
+<lb />Si je pouvois, mon Fils, m’irriter contre vous,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Hé, c’eſt plutót, Seigneur, vótre amour que ma
+<lb />crainte,
+<lb />Qui m’a de ce ſilence impoſé la contrainte.
+<lb />Par de nouveaux ſouhaits devois-je fatiguer
+<lb />Une bonté toûjours preſte à ſe prodiguer?
+<lb />Ma timide raiſon à mes vœux opoſée,
+<lb />A voulu ménager votre amour épuiſée,
+<lb />Et ne vous point donner le déplaii lecret
+<lb />De Mr accorder peut-etre une grace à regret.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />N’importe. Ce chagrin m’auroit eſté moins rude
+<lb />Que le fimple ſoupçon de vôtre ingratitude,
+<lb />A quel amour Atys s’eſt-il abandonné?
+<lb />Eſt-il à vous ce cœur que vous avez donné?
+<lb />Ma promeſſe l’engage aux charmes d’Erixene.
+<lb />9u quenc en amabie, &amp; de pius qu’elle eſt Reyne.
+<lb />Si pour vous engager elle manquoit d’apas,
+<lb />Son Sceptre à ce defaut ne ſupléroit-il pas?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Hé, croyez-vous qu’un Sceptre ait tant dequoy me
+<lb />plaire,
+<lb />Seigneur? Puis-je en mãquer, ayant Créſus pour Pere?
+<lb />Vôtre bras redouté des Grecs &amp; des Perſans,
+<lb />A joint à vos Etats tant d’Etats floriſſans.
+<lb />Mais quand vótre valeur que le Deſtin ſeconde,
+<lb />Me laiſſeroit un jour tous les Trônes du Monde.
+<lb />Helas! qu’auroit ce rang de ſi charmant en ſoy,
+<lb />Si l’ennuy qui me ſuit y montoit avec moy?
+<lb />L’heureux repos n’eſt point un fruit de la Obdronne.
+<lb />Ce n’eſt point la grandeur, c’eſt le cœur qui le dõne.
+<lb />Le mien ſeroit rongé de chagrins &amp; de ſoins,
+<lb />D’autãt plus malheureux qu’on me le croiroit moins,
+<lb />Et lors qu’on envieroit ma grandeur importune.
+<lb />Moy méme d’un Sujet j’envierois la fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Oüy, mon Fils, il eſt vray, les Rois ont leurs ennuis
+<lb />Je l’éprouve ſouvent tout heureux que je ſuis,
+<lb />A de ſoucis cuiſans leur Sceptre les engage,
+<lb />Mais de plus nobles ſoins occupent leur courage.
+<lb />S’apliquer ſans relâche au bien de ſes Sujets,
+<lb />D’un Ennemy puiſſant confondre les projets,
+<lb />Pour témoin de ſes faits prendre toute une Armée,
+<lb />A ſon mérite ſeul devoir ſa renommée,
+<lb />Etre de l’Univers &amp; l’amour &amp; l’effroy,
+<lb />Voila, mon Fils, voila des ſoins dignes d’un Roy.
+<lb />Son grand cœur n’admet point de moindre inquié<lb />tude,
+<lb />Le reſte eſt un plaiſir, &amp; non pas une étude,
+<lb />Et l’amour, bas employ d’un cœur encor plus bas,
+<lb />Amuſe une grande ame, &amp; ne l’occupe pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Je n’excuſeray point un amour qui vous bleſſe,
+<lb />Mais ſouvent les grands cœurs ont eu cette foibleſſe,
+<lb />Ces lieux jadis témoins d’un feu plus fortuné,
+<lb />Virent aux pieds d’Omphale Hercule proſterné.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Je crains que vôtre ardeur ne vous ſoit plus fatale,
+<lb />Que ne luy fut honteux ſon amour pour Omphale.
+<lb />Un Grec de l’Etrangere eſt peut-étre l’Epoux.
+<lb />Juſqu’où vont les fureurs de ce Peuple jaloux?
+<lb />Helene vit pour elle armer toute la Gréce,
+<lb />Troye éteinte en ſentit la fureur vangereſſe;
+<lb />Que ſçait-on fi ſes Rois de nouveau conjurez,
+<lb />Ne viendroient point punir vos feux mal aſſurez,
+<lb />Avec mille Vaiſſeaux vous ravir vótre proye,
+<lb />Et faire de Sardis une nouvelle Troye?
+<lb />Voulez-vous irriter des Peuples belliqueux,
+<lb />Aujourd’huy que je vay me liguer avec eux?
+<lb />Cyrus, Maître déja de toute la Médie,
+<lb />D’un œil ambitieux devore la Lydie;
+<lb />Je veux le prévenir. L’Oracle conſulté,
+<lb />M’aſſure du ſuccés dont je me ſuis flaté;
+<lb />Et s’il faut qu’à ſa voix l’évenement réponde,
+<lb />Je dois priver Cyrus de l’Empire du Mondé.
+<lb />N’allez donc pas, mon Fils, par d’indignes amours,
+<lb />Des Grecs contre moy ſeul tourner tous les ſecours,
+<lb />Et vous-méme ſervant d’obſtacle à ma victoire,
+<lb />M’arracher à la ſois mon repos &amp; ma gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ne craignez rien, Seigneur, pour vous, pour vos
+<lb />Etats,
+<lb />L’Etrangere, ny moy, ne les troublerons pas;
+<lb />Elle n’y portera ny le rer liy la fatrie,
+<lb />Et ne fera, Seigneur, la guerſe qu’a mon ame.
+<lb />Verrez-vous ſans pitié ces combats douloureux
+<lb />Où malgré moy m’expoſe un amour malheureux?
+<lb />Vous pourriez...
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Arreſtez, Je crains d’en trop entendre,
+<lb />Je ſens mon cœur pour vous trop facile &amp; trop tendre;
+<lb />Peut-étre qu’à ma honte il pourroit accorder
+<lb />Tout ce que vos ſoûpirs m’oſeroient demander.
+<lb />C 1
+<lb />Mon Fils, n’abuſez point icy de ma foibleſſe,
+<lb />Songez qu’à ce refus ma gloire s’intéreſſe,
+<lb />Et ne me forcez point d’aprouver un amour
+<lb />Dont ſans doute mon front rougiroit quelque jour.
+<lb />Etoufez une ardeur indigne de paraître;
+<lb />Maître du Mõde un jour n’ayez point d’autre Maître,
+<lb />Allez, &amp; plus ſoûmis à la raiſon, à moy,
+<lb />Ceſſez d’aimer mon Fils, ou bien aimez en Roy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du Second Acte.
+</p>
+<p type="MainZone-Head"><lb />RETE III
+<lb />SCENE PREMIERE.
+<lb />ATYS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />ON, il ne fut jamais de trahiſon plus noire,
+<lb />Mon cœur ne peut encor ſe réſoudte à te
+<lb />croire,
+<lb />Et de tout l’Univers l’affreux renverſe<lb />ment -
+<lb />Me ſeroit un ſujet d’un moindre étonnement.
+<lb />Adraſte me trahit. Apres ſa perfidie,
+<lb />Dieux! à qui deſormais faut-il que l’on ſe fie?
+<lb />Mais de tout par tes yeux t’es-tu bien éclaircy?
+<lb />Tu t’es trompé peut-étre, &amp; me trompes auſſy.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />A en douter pius, j’ay vu cet Amij peu mecre
+<lb />Avec des yeux d’Amant regarder l’Etrangere,
+<lb />Luy parler en ſecret, s’attacher à ſes pas;
+<lb />Ses yeux, tout marque un cœur trop plein de ſes
+<lb />apas.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Le Perfide! En ſon ſang il lavera ſon crime,
+<lb />Perdons-le. Amon courroux je dois cette victime.
+<lb />C iij
+<lb />Que veux-tu faire, Atys? Luy-méme qu’a-t-il fait?
+<lb />Il aime l’Etrangere, eſt-ce un ſi grand forfait?
+<lb />Quel cœur en la voyant, eſt maiſtre de luy-méme?
+<lb />Je la vis, je l’aimay. Ses yeux l’ont veüe, il l’aime,
+<lb />Son cœur vient d’imiter la foibleſſe du mien,
+<lb />Mon amour doit icy juſtifier le ſien.
+<lb />Mais quoy, l’Ingrat trahit l’amitié qui nous lie,
+<lb />Mes dons, ſa foy, l’honneur, &amp; je le juſtifie?
+<lb />Non, je dois à ſon crime un ſuplice eternel;
+<lb />Quand il tua ſon Frere, il fut moins criminel.
+<lb />Allons percer le cœur d’un Rival qui m’outrage,
+<lb />De l’Objet qui le charme arrachons en l’image,
+<lb />Et que ſon châtiment à ma fureur permis,
+<lb />Epouvante à jamais les perfides Amis.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Où courez-vous? Calmez ce tranſport de vangeanee
+<lb />Doutez-vous que le Roy, Seigneur, ne s’en offence;
+<lb />Adraſte eſt criminel. Vous voulez le punir,
+<lb />Bornez vôtre courroux à le faire bannir.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Veux-tu par ſon exil que je me deshonore?
+<lb />'out perfide qu’il eſt, je le chéris encorè.
+<lb />Dois-je pour ſatisfaire un tranſport amoureux,
+<lb />nſulter aux douleurs d’un Prince malheureux?
+<lb />votre amitie paſſée, &amp; la ſongue miſere,
+<lb />a gloire, la pitié, tout retient ma colere,
+<lb />t mon cœur ſe refuſe en cet inſtant fatal,
+<lb />e plaiſir de haïr, &amp; de perdre un Rival.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />lé bien, à vôtre amour préferez vôtre gloire,
+<lb />emportez ſur vous-méme une entiere victoire,
+<lb />irdonnez-luy ſon crime, &amp; loin de le haïr....
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Moy, juſques à ce point je pourrois me trahir?
+<lb />Il m’outrage, &amp; mon cœur promt à luy faire grace;
+<lb />Laiſſeroit à mes yeux triompher ſon audace?
+<lb />Non, c’eſt trop écouter la voix de l’amitié,
+<lb />Rien ne me retient plus, ny gloire, ny pitié,
+<lb />Il recevra de moy la peine qu’il merite.
+<lb />Lycaſte, il eſt ingrat, il faut que je l’imite;
+<lb />De ſon exemple affreux ſervons-nous contre luy,
+<lb />Et violons des droits qu’il viole aujourd’huy.
+<lb />Mais, dy-moy, penſes-tu qu’à mes pleurs inſenſible,
+<lb />L’Etrangere à ſes vœux lort moms haccemble?
+<lb />voncœur t’a-t-iiemole s’entendre avec le ſien?
+<lb />Qu'as-tu vû? Que crois-tu? Parle, &amp; ne cache rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Oüy, s’il vous faut, Seigneur, diie te que je penſe,
+<lb />pay erai apeleevon de leur incenigence,
+<lb />Et lire dans les yeux d’Adraſte ſatisfait,
+<lb />Qu'en s’efforçant de plaire, il plaiſoit en effet.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ah Ciel! à ce diſcours je ne ſuis plus le méme,
+<lb />Il aima l’Etrangere, &amp; l’Etrangere l’aime.
+<lb />L’aimer eſt un grand crime ; en étre aimé, grands
+<lb />Dieux,
+<lb />Eſt de tous les forfaits le plus noir à mes yeux.
+<lb />Ma fureur chancelante en eſt fortifiée,
+<lb />Et quoy qu’elle entreprenne, elle eſt juſtifiée.
+<lb />Feignons de n’aimer plus, pour apaiſer le Roy,
+<lb />Beut-eſtre que le temps... Mais il vient, je le voy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CRESVS, ATIS, LYCASIE, ARCAS.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />HE' bien, de mes conſeils quel ſuccés dois-je at<lb />tendre,
+<lb />Mon Fils? A mes raiſons eſt-on preſt à ſe rendre?
+<lb />Voulez-vous me combler ou de joye, ou d’ennuy,
+<lb />Etre de mes vieux jours le ſuplice, ou l’apuy,
+<lb />Et dois-je vous parler indulgent, ou ſevere,
+<lb />Ou comme vôtre Maître, ou comme vôtre Pere?
+<lb />Qu’avez-vous réſolu?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />D’obeïr.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />liui, mion Fils,
+<lb />Qu’il m’eſt doux de vous voir ſouſcrire à mes avis,
+<lb />Et que de ſon erreur vótre ame revenuë
+<lb />En de honteux liens ne ſoit plus retenuë!
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Un Pere a ſur ſon Fils un pouvoir abſolu,
+<lb />Et c’eſt aſſez pour moy que vous l’ayiez voulu?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Et c’eſt trop peu pour moy que cette obeïſſance
+<lb />Qui ſuit ſervilement les loix de la naiſſance.
+<lb />Ce n’eſt point obeït, qu’obeïr par devoir,
+<lb />Je hais ces faux reſpects qu’arrache le pouvoir;
+<lb />Un Fils dans tous les ſiens toûjours libre &amp; ſincere.
+<lb />Ne doit point en Eſclave obeïr à ſon Pere,
+<lb />Mais il doit par amour ſe ranger ſous ſes loix,
+<lb />Et ſuivre la raiſon qui parle par ſa voix.
+<lb />Je fais pourtant, mon Fils, grace à vôtre foibleſſe,
+<lb />C’eſt l’effet, je le voy, d’un reſte de tendreſſe,
+<lb />Pour aider vótre cœur à vaincre ſon amour,
+<lb />L’Etrangere à jamais ſort demain de la Cour.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Quoy, vous pourriez, Seigneur, luy faire cet outrage?
+<lb />Voulez-vous l’expoſer aux périls d’un voyage?
+<lb />Son rang &amp; ſa beauté....
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Mon Fils, ne craignez rien,
+<lb />Mon propre honneur m’engage à ménager le ſien;
+<lb />J’ay tout préveu Par moy, chargé de ſa conduite,
+<lb />Adraſte aura le ſoin de marcher à ſa ſuite,
+</sp>
+<sp type="MainZone-Sp"><lb />Adraſtre!
+<lb />ATYS.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Doutez-vous que pour vous &amp; pour moys
+<lb />Son zele avec plaiſir n’accepte cet employ?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Seroit-il digne d’elle, &amp; du Roy de Lydie,
+<lb />Qu'on la commît aux ſoins d’un Banny de Phrigie?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Depuis quand contre luy tenez-vous ce diſcours?
+<lb />Ne vous ſeroit-il plus ce qu’il vous fut toûjours?
+<lb />N'eſt-il plus cet Amy toûjours ferme &amp; ſolide,
+<lb />Si fidelle....
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Il n’en fut jamais de plus perfide.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />o ciel. que dites-vous, &amp; que dois-je penſet?
+<lb />Expliquez-vous? Parlez?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Daignez m’en diſpenſer,
+<lb />Mais ſi de quelque égard vótre bonté m’honore,
+<lb />Epargnez-moy l’ennuy de le revoir encore.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Dans quel étonnement plongez-vous mes eſprits?
+<lb />Sa préſence vous bleſſe! Eſt-ce haine, ou mépris?
+<lb />Croiray-je vôtre plainte injuſte, ou légitime?
+<lb />Pour vous juſtifier, aprenez-moy ſon crime.
+<lb />Je le voy, ſes malheurs ont peut-étre aujourd’huy
+<lb />Fatigué les bontez que vous eûtes pour luy.
+<lb />Fils de Roy, n’ayez pas une ame ſi commune,
+<lb />Il faut des Malheureux reſpecter l’infortune,
+<lb />Et touchez d’un malheur qui peut tomber ſur nous,
+<lb />En eux des Immortels revérer le courroux.
+<lb />Si vôtre amitié laſſe inſulte à ſa miſere,
+<lb />Rougiſſez d’un diſcours digne de ma colere;
+<lb />Craignez celle des Dieux contre Adraſte irritez,
+<lb />Vous méritez ſes maux quand vous leur inſultez
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />J'oublirois à ce point vôtre exemple, &amp; ma gloire?
+<lb />Ah, vous vous faites tort, ſi vous pouvez le croire.
+<lb />Devez-vous concevoir ces indignes ſoupçons
+<lb />1
+<lb />Contre un Fils dés l’abſence inſtruit par vos leçons?
+<lb />Fidelle à la vertu que vous m’avez tracée,
+<lb />Mon cœur ne dément point ſa conduite paſſée.
+<lb />D’un trop juſte dépit contre Adraſte animé,
+<lb />J’ay lieu de le haïr autant que je l’aimay
+<lb />Quoy qu’un pareil diſcours vous paroiſſe incroyable,
+<lb />Puis que je vous le tiens, croyez.le veritable.
+<lb />Ne me demandez pas des témoins ſuperfſus,
+<lb />La parole d’Atys doit ſuffire à Créſus.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />mhe fumt, Je croy ra peme Iegititne;
+<lb />Mais dois-je le punir, ſi j’ignore ſon crime?
+<lb />Ma gloire, &amp; non la vôtre, exige un mot de vous;
+<lb />Ce mot juſtifira ſa peine, &amp; mon courroux.
+<lb />Adraſte arrive.
+</sp>
+<sp type="MainZone-Sp"><lb />Prince, mon Fils murmure, &amp; ſe plaint qu’on l’ofleſe,
+<lb />Venez-vous l’apaiſer par quelque déference?
+<lb />Le courroux des Amis eſt facile à calmer,
+<lb />Il eſt prompt à s’éteindre, &amp; lent à s’alumer;
+<lb />Reüniſſez vos cœurs par des nœuds plus fidelles,
+<lb />L’amitié renoüée a des forces nouvelles.
+<lb />Je ne veux point géner vos éclairciſſemens;
+<lb />Lycaſte, ſois témoin de leurs embraſſemens.
+<lb />Il ſort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />ADRASTE, ATYS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />QUoy, Seigneur, croyez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Je croy ce qu’il faut croire.
+<lb />Ne vous excuſez point, Prince, pour vôtre gloire;
+<lb />Votre crime eſt moins grãd, ſi vous l’excuſez moins,
+<lb />De vótre ingratitude on a de ſeûrs témoins,
+<lb />Vôtre aſſurance en vain m’oblige à vous répondre,
+<lb />Vous ne méritez pas qu’on daigne vous confondre,
+<lb />Votre exemple odieux nuiroit a ces Etats,
+<lb />Sortez-en. C’eſt ainſy qu’on punit les Ingrats.
+</sp>
+<sp type="MainZone-Sp"><lb />Atys ſort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+</p>
+<sp type="MainZone-Sp"><lb />ADRASTE ſeul.
+<lb />(QUoy, quand me reprochãt un trop juſte ſilence,
+<lb />je viens de mon amour luy faire confidence,
+<lb />Atys m’apelle ingrat! Dieux, témoins de ma foy,
+<lb />vous ſçavez ſi jamais on le fut moins que moy.
+<lb />Helas! parmy les maux dont l’horreur m’environne,
+<lb />Je n’avois pour tout bien que le cœur d’Héſione,
+<lb />Et
+<lb />Et ce bien acheté par de longues douleurs,
+<lb />Eſt la ſource aujourd’huy de mes nouveaux malheurs.
+<lb />Car enfin je le vois, inſtruit de ma tendreſſe,
+<lb />Atys veut m’éloigner des yeux de ma Princeſſe.
+<lb />Eſt-ce ainſy que l’on traite un Amy malheureux?
+<lb />Ah! Prince, je croyois Atys plus genéreux,
+<lb />Et quoy qu’à ſon amour, quoy qu’à ſa haine en bute,
+<lb />J’expoſerois pour luy ces jours qu’il perſécute.
+<lb />Fuyons. Mais pourquoy fuir? Dois-je attendre du
+<lb />Sort
+<lb />De vivre encore aſſez pour chercher loin la mort.
+<lb />Ma perte eſt le ſeul but où tend vôtre injuſtice.
+<lb />Atys, que vous importe en quels lieux je périſſe?
+<lb />Permetez-moy du moins d’expirer en ces lieux:
+<lb />D’un ſpéctacle ſi doux pourquoy priver vos yeux?
+</sp>
+<p type="MainZone-Head"><lb />SSEIVE VI
+<lb />ERIXENE, ADRASTE, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />ADNRS IE tomtane.
+<lb />Uſqu'à vous ma diſgrace eſt-elle parvenuë,
+<lb />Madame? &amp; venez-vous...
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Prince, elle m’eſt connuë,
+<lb />Atys n’eſt qu’un Ingrat, je le ſçais; &amp; je viens
+<lb />A vos reſſentimens joindre encore les miens.
+<lb />L’injute qu’on m’a faite eſt égale à la vótre,
+<lb />2
+<lb />A finir nos malheurs aidons-nous l’un &amp; l’autre,
+<lb />Fuyons. Quitons un lieu de nos larmes témoin,
+<lb />Des affronts qu’on nous fait allons rougir plus loin.
+<lb />Un Prince tel que vous ne manque point d’azile,
+<lb />Je vous en preſente un plus doux &amp; plus tranquile,
+<lb />Chez mes Ciliciens, Seigneur, ramenez-moy.
+<lb />Dés longtemps à leur Reyne ils demandent un Roy.
+<lb />Atys apres ſon crime eſt indigne de l’étre,
+<lb />Soyez-le. A mes Sujets venez montrer un Maître,
+<lb />Partons. Allons braver nos deſtins rigoureux,
+<lb />Et que nôtre malheur ſerve à nous rendre heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Hé! quel bonheur, grands Dieux, peut attendre Eri<lb />xene
+<lb />D’un Prince ſans relâche occupé de ſa peine,
+<lb />Et qui d’un noir chagrin ſans ceſſe déchiré
+<lb />Touche preſque au trépas ſi longtemps deſiré?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Et ce ſont ces malheurs que ne cauſe aucun crime.
+<lb />Qui pour le trilte Auraite augmentent mon eſtin e:
+<lb />Mais quand j’aurois, Seigneur, un cœur moins ge<lb />néreux,
+<lb />Malheureuſe, je dois aimer les Malheureux.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />D’une aveugle bonté vôtre eſtime l’ouvrage,
+<lb />Mais en de ſeûrs périls ce deſſein nous engage.
+<lb />Comment fuir de ces lieux, Madame? Songez-vous
+<lb />Qu’Atys eſt vôtre Amant, &amp; preſque vôtre Epoux?
+<lb />O Ciel! veut-on qu’aux yeux de ſa Cour étonnée
+<lb />J’enleve une Princeſſe à ſon Lit deſtinée,
+<lb />Que par un tel forfait je noirciſſe ma foy,
+<lb />Et mérite les maux qu’il trame contre moy?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Vous redoutez Atys! Ah frayeurs inutiles!
+<lb />Il verroit nótre fuite avec des yeux tranquiles,
+<lb />Et loin de l’empécher, que ſçay-je méme helas!
+<lb />Si l’Ingrat en ſecret ne la preſſeroit pas?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Madame, à ce diſcours vôtre bouche ſoûpire,
+<lb />Ce ſoûpir en dit plus que vous ne vouliez dire.
+<lb />Võtre cœur pour Atys ſent encor de l’amour.
+<lb />Conſervez-vous le droit d’étre à luy quelque jour?
+<lb />A-t-il pour l’Etrangere expliqué ſa penſée?
+<lb />Son ame entre elle &amp; vous eſt encor balancée.
+<lb />Pourquoy briſant des nœuds qu’il n’oſe délier,
+<lb />Hâter ſon changement, &amp; le juſtifier?
+<lb />Attendez. Il viendra par de finceres larmes
+<lb />Expier une erreur glorieuſe à vos charmes.
+<lb />Je veux qu’il ait d’une autre adoré les apas;
+<lb />Quand il l’aimoit, Madame, il ne vous voyoit pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Ah! que le Ciel, ſoigneux de vanger mon injure,
+<lb />Ne fait-il ſous mes loix revenit mon Parjure?
+<lb />Quel plaiſir de le voir pleurant à mes genoux,
+<lb />Pourſuivre en vain un cœur qui ſeroit tout à vous?
+<lb />Quel triomphe pour moy de joüir de ſa peine,
+<lb />De le faire ſervir de Miniſtre à ma haine,
+<lb />Et pour éterniſer ma joye &amp; ſon ennuy,
+<lb />D’étre par vôtre hymen hors d’état d’étre à luy?
+<lb />Mais on me flate icy d’une vaine eſpérance,
+<lb />L’amour ſuccede-t-il à tant d’indiférence,
+<lb />Et viendra-t-il, l’Ingrat... N’en doutez point, Sei<lb />gneur,
+<lb />sadenals ny vadaaporde Mon edul.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Dire ainſy que l’on hait, c’eſt dire que l’on aime.
+<lb />Madame. Votre amour ſe trahit de luy-méme.
+<lb />Souffrez que plus que vous favorable à vos feux,
+<lb />Je vous laiſſe toûjours maîtreſſe de vos vœux,
+<lb />Que je fuye une gloire à la vótre outrageuſe,
+<lb />Mon bonheur à jamais vous rendroit malheureuſe,
+<lb />Vôtre repos m’oblige à n’y point conſentir,
+<lb />Je veux vous épargner l’horreur d’un repentir.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Seigneur, de trop de ſoins vótre eſprit s’embarraſſe,
+<lb />En vous offrant ma foy, j’ay crû vous faire grace,
+<lb />Et ne m’eſtimois pas ſi peu que de penſer
+<lb />Qu’à l’accepter on dût ſeulemant balancer.
+<lb />Atys m’outrage moins par ſa lâche inconſtance,
+<lb />Il peut par des raiſons palier ſon offence,
+<lb />Me dire qu’à regret il me manque de foy,
+<lb />Par ſon nouvel amour s’excuſer envers moy,
+<lb />S’en prendre à l’aſcendant d’un Aſtre qui l’entraîne:
+<lb />Prétextes d’un Ingrat qui veut rompre ſa chaîne.
+<lb />Mais vous, Seigneur, mais vous qui juſques à ce jour
+<lb />Avez fermé vôtre ame aux chagrins de l’amour,
+<lb />Et qui toûjours armé de vôtre indiférence,
+<lb />Avez des plus beaux yeux combatu la puiſſance,
+<lb />Sur quel prétexte icy pouvez-vous apuyer
+<lb />L’injurieux refus qu’il me faut eſſuyer?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Sur quel prétexte! helas, ſi vous pouviez connaître..,
+<lb />Un cœur n’eſt pas toûjours tout ce qu’il paroît étre,
+<lb />Et ſans aller plus loin vous chercher un garant,
+<lb />Un cœur qui vous refuſe eſt-il indiférent?
+<lb />L’Etrangere....
+</sp>
+<sp type="MainZone-Sp"><lb />ERTTINE.
+<lb />Achevez, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Adieu, Madame,
+<lb />Ma bouche a ſçeu trahir le ſecret de mon ame,
+<lb />Ene en a dit anct partes teimles comius.
+<lb />Pour vous juſtifier mon trouble &amp; mes refus.
+</sp>
+<p type="MainZone-Head"><lb />SCENEVI.
+<lb />ERIXENE, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />ESmene, qu’a-t-il dit, ou qu’a-t-il voulu dire?
+<lb />Il ſemble ſe confondre, il me quite, il ſoûpire,
+<lb />D’un deſordre pareil que dois-je préſumer?
+<lb />Par l’Etrangere auſſy s’eſt-il laiſſé charmer?
+<lb />Dy-moy, l’aimeroit-il? L’aimer! quelle aparence?
+<lb />L’amour en un ſeul jour peut-il prendre naiſſance?
+<lb />Vaines refléxions qui flatez mon tourment,
+<lb />Souvent pour s’enflâmer faut-il plus d’un moment?
+<lb />Il l’aime. Ah quelle peine à ma peine eſt égale!
+<lb />Tu me détruits par tout, odieuſe Rivale,
+<lb />D’eux-mémes tous les cœurs vont ſe mettre à tes
+<lb />piez,
+<lb />Et moy je n’obtiens pas des ſoûpirs mandiez.
+<lb />Iſmene, vangeons-nous. Faiſons qu’on la renvoye.
+<lb />A mon ame affligée accordons cette joye,
+<lb />Et joüiſſons au moins du vain ſoulagement
+<lb />De voir deſeſperer &amp; l’un &amp; l’autre Amant.
+<lb />Tout me rit. Avec moy Créſus d’intelligence,
+<lb />Va de tout ſon pouvoir apuyer ma vangeance.
+<lb />Iſmene, allons contre elle irriter ſes eſprits;
+<lb />Qu’elle parte demain, je demeure à ce prix.
+<lb />elle vient. Son abord rend mon ame alarmée.
+<lb />Dieux, le cruel Objet qu’une Rivale aimée!
+</sp>
+<p type="MainZone-Head"><lb />SCENE VII.
+<lb />HESIONE, ERIXENE,
+<lb />ISMENE, CLEONE.
+</p>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />VX Auanſe, partonnez n'je viens en ces lieux
+<lb />he mon aſpect peut-étre importuner vos yeux,
+<lb />tt ſi plus loin encore oſant pouſſer l’audace,
+<lb />e vous viens toute en pleurs demander une grace,
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />moy, Madame?
+<fw><lb />2
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Helas! Captive, ſans apuy,
+<lb />A qui puis-je qu’à vous m’adreſſer aujourd’huy?
+<lb />A vous, que la pitié, mon ſexe, &amp; ma miſere,
+<lb />Doivent Ieudie iennble au lort d’une Etrangeree
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Quel langage! Eſt-ce à moy qu’on daigne l’adreſſer?
+<lb />Vos apas juſques-là doivent-ils s’abaiſſer?
+<lb />Vous, Madame, emprunter une voix ſupliante
+<lb />En des lieux où l’amour vous rend toute puiſſante?
+<lb />Vous faire quelque grace eſt hors de mon pouvoir;
+<lb />C’eſt à vous d’en donner, &amp; non d’en recevoir.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />N’inſultez pas, Madame, aux maux d’une Princeſſe,
+<lb />Le Ciel veut aujourd’huy qu’Héſione s’abaiſſe;
+<lb />Captive, ſans rougir, je puis m’humilier,
+<lb />C’eſt pour ma liberté que je viens vous prier.
+<lb />Faites, vous le pouvez, que le Roy me permete
+<lb />De faire de Lydie une promte retraite,
+<lb />Et d’aller en des lieux plus chers à mes ſouhaits,
+<lb />Tarir bientôt mes pleurs, &amp; vanter ſes bienfaits.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Nous parler de depart! Ce langage m’étonne.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />J’en demande l’aveu, faites qu’on me le donpe.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />On deniande lourent ce qu’oneramt d’obtenir,
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />cument, nje le eranis, tous les Dieux mie punir.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Doit-on haïr des lieux où tout aime vos charmes?
+<lb />vôtre abſence à trop d’yeux fera verſer des larmes,
+<lb />Sur tout, que deviendra cet Amant ſi ſoûmis?
+</sp>
+<sp type="MainZone-Sp"><lb />HESTONE.
+<lb />Madame, il me ſuivra.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Dieux !
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Il me l’a promis.
+</sp>
+<sp type="MainZone-Sp"><lb />FRIXENE.
+<lb />Il l’a promis, l’Ingrat! Ah, Ciel, quelle foibleſſe!
+<lb />Mais vôtre amour trop tot compte lar la promeſſe,
+<lb />Vos vœux ne ſeront pas ſuivis d’un plein effet.
+<lb />Je ſçauray détourner l’outrage qu’il me fait,
+<lb />Et peut-étre punir l’audace qui vous porte,
+<lb />Madame, à m’oſer faire un aveu de la ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />En quoy mérite-t-il cet éclat de courroux?
+<lb />Nous nous aimons. Pourquoy vous en offenſez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Pourquoy je m’en offenſe! Ah, mortelle ſurpriſe,
+<lb />A ten pu vous domer la loy qu'Amu promiſe?
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Son cœur avant qu’à vous m’engagea cette foy;
+<lb />Avant qu’il vous eût veuë, il ſoûpiroit pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Il ſoûpiroit pour vous !
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Oüy, preſque dés l’enfance
+<lb />Dans les Champs Phrigiens nos feux prirent naiſ<lb />ſance,
+<lb />Il m’aimoit tendrement, je ne l’aimois pas moins,
+<lb />Nous borniõs à nous plaire &amp; nos vœux &amp; nos ſoins.
+<lb />Qui l’eut crû, qu’oubliant une Amante fidelle,
+<lb />Adraite bruleroit d’une flame nouvelle?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Adraſte, dites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />C’eſt ce Prince charmant
+<lb />Dont vos apas ont fait un infidelle Amant.
+<lb />Que tantôt avec moy, l’Ingrat a bien ſçeu feindre!
+<lb />Ses ſermens, ſes trãſports, me défendoiẽt de craindre,
+<lb />Et ſes yeux s’accordant avec tous ſes diſcours,
+<lb />M’ont dit qu’il fut fidelle, &amp; le ſeroit toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Il l’eſt auſſy. Je puis en rendre témoignage,
+<lb />J’ay mal interpreté vôtre innocent langage,
+<lb />Je voy par ſon vray ſens mes ſoupçons démentis,
+<lb />Vous me parliez d’Aſtrate, &amp; je parlois d’Atys.
+<lb />J’ay crû qu’à ſon amour vous vous étiez renduë.
+<lb />Faites grace aux tranſports d’une Amante éperduë,
+<lb />Madame, &amp; pardonnez ſi mes ſoupçons jalous
+<lb />Ont fait trop éclater ma douleur contre vous.
+<lb />Je vay par tous les ſoins dont je ſeray capable,
+<lb />Reparer une offenſe, helas! trop pardonnable.
+<lb />Allons tirer du Roy le ſeûr conſentement,
+<lb />Trop heureule d’avoir un n'hdelle Amant.
+</sp>
+<p type="MainZone-Other"><lb />Fin du Troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />RCTL
+<lb />SCENE PREMIERE.
+<lb />ERIXENE, ATYS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />UY, tu ne verras plus ta charmante Hé<lb />ſione,
+<lb />Elle eſt libre, elle part; ainſy le Itoy l’or<lb />donne.
+<lb />Mais pour te mieux punir, ſçache, Ingrat, que c’eſt
+<lb />Qui fais à mon courroux ſervir l’ordre du Roy. (moy
+</sp>
+<sp type="MainZone-Sp"><lb />Vous, Madame?
+<lb />ATYS.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Moy-méme. A ma ſeule priere,
+<lb />Créſus vient de briſer les fers de l’Etrangere.
+<lb />’ay voulu que ma main te porta de tels coups;
+<lb />S’ils te venoient d’une autre, ils me ſeroient moins
+<lb />doux.
+<lb />Tu gémis. Grace au Ciel, ma haine eſt ſatisfaite,
+<lb />J’en recueille aujourd’huy le fruit que je ſouhaite.
+<lb />T’accabler eſt le but où tendent tous mes ſoins;
+<lb />Tu trahirois mes coups, ſi tu les ſentois moins.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Oüy, je les ſens, autant que le veut vôtre haine.
+<lb />J’avoüeray plus encor. Je mérite ma peine;
+<lb />Mais du party du Roy moins promte à vous ranger,
+<lb />Vous deviez luy laiſſer le ſoin de vous vanger.
+<lb />Par un courroux trop bas pour un ſi grand courage,
+<lb />Vous vous outragez plus que je ne vous outrage.
+<lb />Si vous vouliez punir un infidelle Amant,
+<lb />Le dédain vous vangeoit mieux que l’emportement.
+<lb />De vos intentions moins modeſte interprete,
+<lb />Un autre en tireroit une gloire ſecrete,
+<lb />Et peut-étre ſon cœur triomphant devant vous.
+<lb />S’aplaudiroit d’avoir excité ce courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Ah, cruel, je t’entens. Ton ame indiférente
+<lb />Regarde d’un méme œil l’Ennemie &amp; l’Amante.
+<lb />Tu ne daignes pas voir ſi mon cœur en ce jour
+<lb />Perſécute le tien par haine, ou par amour.
+<lb />Mais croy qu’en ſes mépris par les tiens affermie,
+<lb />Ton Amante devient ta mortelle Ennemie.
+<lb />L’amour n’a point de part aux maux que je te fais,
+<lb />Et plus que tu ne veux, je ſens que je te hais.
+<lb />Pretendois-tu que lente à vanger ſon offenſe,
+<lb />Erixene d’Aſtrate imitât la conſtance,
+<lb />Et que contre un Ingrat n’éclatant qu’à demy,
+<lb />Amante fut auſſy tranquile que l’Amy?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Que voulez-vous me dire, &amp; ſur quel nouveau crime
+<lb />Adraſte peut fonder un courroux légitime?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Sur quel crime! Tu veux le bannir de ces lieux,
+<lb />Tu pourſuis en Tyran ſa Princeſſe à ſes yeux,
+<lb />Tu troubles un amour né depuis leur enfance,
+<lb />A l’infidelité tu joins la violence.
+<lb />Tu luy fais plus de maux que les Dieux ennemis,
+<lb />Et tu dis quel courroux luy peut étre permis!
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Qu'entens-je, juite Ciel! Quoy, l’aimable Etrangere
+<lb />Eſt l’Objet qu’il aimoit à la Cour de ſon Pere?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Tu feins de l’ignorer pour ſauver ta vertu;
+<lb />Mais ſi tu l’ignorois, pourquoy l’oprimois-tu?
+<lb />Ton crime en eſt plus noir. Pour étre moins cou<lb />pable,
+<lb />Dy que comme Rival ta colere l’accable.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Oüy, j’ay crû qu’il l’étoit, mais depuis ce ſeul jour.
+<lb />Je ſerois innocent, s’il m’eut dit ſon amour.
+<lb />Je ne veux point par là ſurprendre vôtre eſtime,
+<lb />Mon crime eſt une erreur, mais l’erreur eſt un crime.
+<lb />Elle eſt le juſte effet du celeſte courroux.
+<lb />Oüy, Dieux, à ce revers je reconnoy vos coups.
+<lb />Quand une fois un cœur trop ſoigneux de ſe plaire
+<lb />S’écarte du ſentier de la Vertu ſevere,
+<lb />Au précipice ouvert chaque pas le conduit,
+<lb />Par un crime leger un plus grand eſt produit,
+<lb />Et la fureur du Ciel ſe réglant ſur la nôtre,
+<lb />Pour punir ce grand crime en fait cõmetre un autre.
+<lb />Coupable envets Adraſte, &amp; coupable envers vous,
+<lb />Je puniray ce cœur &amp; parjure &amp; jaloùs.
+<lb />Repoſez-vous ſur moy du ſoin de mon ſuplice.
+<lb />Je vous le jure encor, je me feray juſtice.
+<lb />A ce dernier ſerment vous pouvez vous fier,
+<lb />Ma mort aux yeux de tous va me juſtifier.
+</sp>
+<sp type="MainZone-Sp"><lb />Ta mort!
+<lb />ERIXENE.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Elle eſt, Madame, &amp; juſte &amp; néceſſaire;
+<lb />je ne puis qu’en mourant cener de vous déplaire,
+<lb />Poſſedé d’un fatal &amp; criminel amour,
+<lb />Pour l’étoufer, il faut que je perde le jour.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Hé bien, Perfide, meurs. L’équité, tout l’ordonne,
+<lb />A tes mauvais deſtins mon courroux t’abandonne.
+<lb />Mon cœur verra ta mort ſans en étre alarmé.
+<lb />Plaindroit-il un trépas que luy-méme a tramé?
+<lb />Oüy, par tes propres mains c’eſt moy qui t’aſſaſſine,
+<lb />Mes coups produiront ceux que ton cœur ſe deſtine.
+<lb />ale vona parvende au comole de nes veux,
+<lb />Plus que je n’eſperois je te rends maiheureux.
+<lb />Tu te hais, tout te hait, ton Amy, ton Amante;
+<lb />Tu veux périr, péris. Adieu, je pars contente.
+<lb />Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Malheureux que je ſuis! Lâche Amy, foible Amant,
+<lb />J’ay fait un double crime, &amp; l’ay fait vainement.
+<lb />Pour punir des forfaits que mon cœur ſe reproche,
+<lb />Obtenons de Créſus.... Je le voy qui s’aproche.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CRESVS, ATYS, LYCASTE, ARCAS.
+</p>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />DU ſort de l’Etrangere étes-vous éclaircy?
+</sp>
+<sp type="MainZone-Sp"><lb />AAO,
+<lb />Oüy, Seigneur, je ſçay tout.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESVS.
+<lb />Et je ſçay tout auſſy.
+<lb />Je ſçay par quels motifs vôtre injuſte colere
+<lb />A voulu contre Adraſte armer celle d’un Pere,
+<lb />Ainſy donc vos deſirs par le ſuccés déçeus
+<lb />Vouloient à vôtre crime aſſocier Créſus.
+<lb />Ah, mon Fils, eſt-ce ainſy que lia gionre vous touche?
+<lb />Ne me verrez vous plus que la plainte à la bouche?
+<lb />Aux yeux de tout mon Peuple, &amp; de toute ma Cour,
+<lb />Me ferez-vous rougir tant de fois en un jour?
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ne me condamnez point ſur la ſimple aparence,
+<lb />Une fatale erreur m’a ravy l’innocence;
+<lb />Mais ſans perdre de temps à me juſtifier,
+<lb />Aux yeux de l’Univers je ſçauray l’expier.
+</sp>
+<p type="MainZone-Lg"><lb /> 5
+<lb />Un Monſtre trop connu par ſon cruel ravage,
+<lb />Fait à vos Lydiens craindre &amp; ſentir ſa rage.
+<lb />Souffrez que j’aille....
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Le percer de mes coups.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Vous, mon Fils! Juſte Ciel, que me demandez-vous?
+<lb />L’audace de vos vœux fait trembler vôtre Pere.
+<lb />Songez combien me coûte une Teſte ſi chere.
+<lb />Tant de précautions, tant de ſoins empreſſez,
+<lb />Déja de vôtre eſprit ſeroient-ils effacez?
+<lb />Ma craintive tendreſſe a par ſa prévoyance
+<lb />Des menaces du Ciel garanty vôtre enfance,
+<lb />Vôtre vie eſt un bien par mes ſoins acheté.
+<lb />Ne m’ôtez pas, mon Fils, ce qui m’a tant coûté.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Je ſçais en quelle tendre &amp; longue inquiétude
+<lb />Vous jetta de mes jours la ſcrupuleuſe étude,
+<lb />Je ne l'oubliray point, &amp; vos bienfaits, Seigneur,
+<lb />Sont pour étre effacez trop gravez dans mon cœur.
+<lb />Mais enfin pardonnez une modeſte plainte,
+<lb />Vôtre amitié trop loin a pouſſé vôtre crainte;
+<lb />Par je ne ſçay quel ſonge alarmé pour mes jours.
+<lb />Vous en avez dans l’ombre enſevely le cours.
+<lb />Ma jeuneſſe ſans gloire, inconnuë &amp; captive,
+<lb />Dans une Cour guerriere a languy ſeule oiſive.
+<lb />Quand la guerre occupoit Créſus &amp; ſes Héros,
+<lb />Atys ſeul gémiſſoit dans un triſte repos.
+<lb />Il eſt temps que honteux de cette longue enfance,
+<lb />J’affranchiſſe mon nom d’un eternel ſilence,
+<lb />Et que cherchant la gloire attachée aux travaux,
+<lb />52
+<lb />Pande momdres eaploits je monte a de plus hauts,
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Non, vous n’obtiendrez point une funeſte grace
+<lb />Qui hâteroit le coup dont le Ciel vous menace.
+<lb />Je ſçay ce qu’à Délos l’Oracle a répondu,
+<lb />Mon ſonge avec ſa voix ſemble s’étre entendu.
+<lb />Tâchez à l’éluder par vôtre vigilance,
+<lb />Le Ciel cede ſouvent à l’humaine prudence,
+<lb />Et les ſages Mortels, par des ſoins plus certains,
+<lb />Peuvent ſe dérober aux Arreſts des Deſtins.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Non, Seigneur, dans le Ciel nôtre mort eſt écrite.
+<lb />L’Homme ne franchit point cette borne preſcrite,
+<lb />Et ſes précautions le font précipiter
+<lb />Dans les mémes malheurs qu’il tâche d’éviter.
+<lb />C’eſt ainſy que des Dieux la grandeur ſouveraine
+<lb />Se plaît à ſe joüer de la foibleſſe humaine.
+<lb />Si pres de ma naiſſance ils ont marqué ma mort.
+<lb />Tous vos ſoins ne ſçauroient m’arracher à mon ſort.
+<lb />Mais, Seigneur, moderez vos douleurs &amp;vos craintes,
+<lb />L’Oracle en doit luy-méme adoucir les atteintes,
+<lb />C’eſt par un trait, dit-il, que finiront mes jours.
+<lb />Sa menace entre-t-elle au péril où je cours?
+<lb />De ſa rigueur icy vous devez moins vous plaindre;
+<lb />En fixant vôtre crainte, il vous défend de craindre.
+<lb />Pourquoy par vos frayeurs prévenant mon trépas,
+<lb />Croire à la fois l’Oracle, &amp; ne le croire pas?
+<lb />S’eſt-il envelopé d’une réponſe obſcure?
+<lb /> ciuignon tous, Seigneur, quand le Ciel vous
+<lb />raſſure?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Ce que je crains! Quel Pere eut jamais plus que moy
+<lb />De ſujets d’un plus grand &amp; d’un plus juſte effroy?
+<lb />Un ſonge affreux, les Dieux, leur menace étonnante,
+<lb />Et plus que tout enfin mon bonheur m’épouvante.
+<lb />Par je ne ſçay quel ſort trop commun parmy nous,
+<lb />De ſes propres bienfaits le Ciel devient jalous,
+<lb />Et pour faite éclater ſa puiſſance ſupréme,
+<lb />Il renverſe un bonheur élevé par luy-méme.
+<lb />Sur cent Peuples conquis les Dieux m’ont couronné,
+<lb />Ils m’ont comblé d’un Regnɇ &amp; long &amp; fortuné,
+<lb />Et leurs bontez pour moy prodigues &amp; fidelles,
+<lb />Ont marqué tous mes jours par des faveurs nou<lb />velles.
+<lb />Je redoute aujourd’huy ces Dieux trop complaiſans,
+<lb />Je crains, mon Fils, je crains leurs ſoins &amp; leurs
+<lb />préſens,
+<lb />Que par tant de bienfaits leur fureur ne groſſiſſe,
+<lb />Et que de mon bonheur leur Bras ne me puniſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Ce bonheur, pour tomber, a trop de fondement,
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Si je vous pers, mon File, il tombe en un moment,
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />C’eſt trop craindre, Seigneur. Ouvrez-moy la car<lb />riere
+<lb />Où m’apellent les cris de la Lydie entiere;
+<lb />Ces cris que ſes malheurs luy font en vain pouſſer,
+<lb />Vous demandent un Bras qui les faſſe ceſſer.
+<lb />Ces momens conſumez en des paroles vaines,
+<lb />Retardent &amp; ma gloire, &amp; la fin de ſes peines.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />En quelle horreur me jette un pareil mouvement!
+<lb />Le Monſtre m’en fait moins que vôtre aveuglement.
+<lb />Le teméraire excés de tant de confiance,
+<lb />Des Dieux ſourds à ma voix marque mieux l’incle<lb />mence.
+<lb />Quand ils ont d’un Mortel réſolu le trépas,
+<lb />Ils luy cachent l’abyme entr’ouvert ſous ſes pas,
+<lb />Et font que croyant loin ſa prochaine ruïne,
+<lb />Il ſe livre en aveugle au coup qui l’aſſaſſine.
+<lb />Vous ne partirez point, je ne le puis ſouffrir,
+<lb />Ou Créſus au péril s’ira luy-méme offrir,
+<lb />Partager, ou piutot attirer iur ia teſte
+<lb />L’infaillible malheur que le Ciel vous apreſte,
+<lb />Se mettre obſtinément entre le Monſtre &amp; vous,
+<lb />Et périr par ſa rage, ou mourir par vos coups.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Je le voy bien, il faut à vos ordres fidelle,
+<lb />Que de l’obeïſſance Atys ſoit le modelle,
+<lb />Et que mon triſte cœur en ce malheureux jour
+<lb />Vous immole ſa gloire ainſy que ſon amour.
+<lb />Souhaitez-vous encore un nouveau ſacrifice?
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Oüy, mon Fils, cõtre Adraſte on ſçait vôtre injuſtice.
+<lb />Vous deyez avec luy vous réconcilier;
+<lb />Voyez le. Cela ſeul peut vous juſtifier.
+<lb />S’humilier ainſy, c’eſt étre magnanime,
+<lb />On doit rougir de honte en commettant un crime,
+<lb />Muis querque enoit que coute dilong uuuiſſement,
+<lb />En reparant ce crime, on rougit noblement.
+</sp>
+<sp type="MainZone-Sp"><lb />ATYS.
+<lb />Je vay le voir. La gloire, un Pere, tout l’ordonne,
+<lb />Mon cœur méme ſouſcrit à l’ordre qu’on me donne.
+<lb />Mais ſi mon mauvais ſort préſentoit à mes yeux....
+<lb />Du malheur que je crains, préſervez-moy, grands
+<lb />Dieux.
+<lb />Adieu; otiglleur.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III..
+<lb />CRESVS, ARCAS.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />IL part. Cher Arcas, quelle joye!
+<lb />Conçois-tu les tranſports où mon ame eſt en proye?
+<lb />Le plaiſir que je ſens n’eſt pas trop acheté
+<lb />Par toutes les douleurs dont je fus agité.
+<lb />Atys n’entreprend plus une triſte conqueſte,
+<lb />Au péril tant prédit j’ay dérobé ſa teſte.
+<lb />Oüy, l’Oracle des Dieux m’alarme en vain pour luy;
+<lb />L’Oracle eſt éludé, s’il échape aujourd’huy.
+<lb />Du Deſtin deſormais je ne dois plus me plaindre,
+<lb />-
+<lb />Et le fruit de ma crainte eſt de ne plus rien craindre.
+<lb />Je triomphe du Sort, Arcas. Quelle douceur
+<lb />D’élever pres du Roy ſon heureux Succeſſeut!
+<lb />Et quand l’âge où le Ciel à la Parque nous livre,
+<lb />De laiſſer un cher Fils qui nous faſſe revivre!
+<lb />Et quel Fils! Tu l’as vû. Quel zele a-t-il pour moy?
+<lb />Il me chérit en Pere, il me reſpecte en Roy,
+<lb />de iui tous les deins tlla volonte puitante,
+<lb />En luy trouve toûjours une ame obeïſſante.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />CRESVS, ARCAS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />AH détournez, Seigneur, un malheur aſſuré.
+<lb />Le Prince contre luy luy-méme conjuré,
+<lb />Et ſervant du Deſtin la haine opiniâtre,
+<lb />Contre le Monſtre enfin malgré vous va combatre.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Lyeaſte, il va combatre! Ah Deſtins ennemis!
+<lb />Eſt-ce ainſy qu’il me tient ce qu’il m’avoit promis:
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Il cherchoit ſon Rival pour remplir ſa promeſſe.
+<lb />Il l’a trouvé, Seigneur, aux pieds de ſa Princeſſe,
+<fw><lb />3
+</fw><lb />Soit qu’un pareil ſpectacle ait aigry ſa douleur,
+<lb />Ou qu’il ne veüille pas ſurvivre à ſon malheur;
+<lb />Dérobons à leurs yeux ma préſence importune
+<lb />Laiſſons-les, m’a-t-il dit, joüir de leur fortune;
+<lb />La mort eſt le ſeul Dieu qui me peut ſecourir,
+<lb />Lycaſte. Ils ſont heureux, c’eſt à moy de mourir.
+<lb />Alors ſans écouter ny mes cris, ny mes larmes,
+<lb />Il marche, je le ſuis. Il va prendre ſes armes,
+<lb />Et vers le Mont prochain précipitant ſes pas,
+<lb />court chercher malgré moy, la gloire, ou le trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Ah Ciel, quelle fureur! Gardes, qu’on cherche Adraſte;
+<lb />Je ne le verray plus, il périra, Lycaſte,
+<lb />L’Oracle le menace, il va remplir ſon ſort,
+<lb />Et puis qu’il veut mourir, je le croy déja mort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />CRESUS, ADRASTE, LYCASTE,
+<lb />ARCAS.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS continuë.
+<lb />VEnez, Prifice, au fecours d'un Pere miſérable,
+<lb />Mon Fils court afronter ſa perte inévitable,
+<lb />'ous pouvez meſurer ma crainte &amp; mon ennuy
+<lb />ar l’amour violent que j’eus toûjours pour luy,
+<lb />u malheureux Créſus accordez une grace,
+<lb />uivez-le pour ſervir de frain à ſon audace,
+<lb />Vous pouvez, je le ſçay, le haïr juſtement,
+<lb />Mais, Prince, immolez-moy vôtre reſſentiment.
+<lb />Plus pour moy que pour luy prenez ſoin de ſa vie;
+<lb />Ma perte de ſa mort ſeroit bientôt ſuivie,
+<lb />On vous pourroit un jour reprocher mon trépas,
+<lb />Du eimle de mon Fils ne me puniſſez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Et quel crime a-t-il fait qui ne ſoit excuſable?
+<lb />Mon malheur &amp; le Sort l’ont rendu ſeuls coupable;
+<lb />Il crût que d’Héſione épris depuis ce jour,
+<lb />J’oſois impunément traverſer ſon amour.
+<lb />Son erreur, il l’a dit, a ſéduit ſa vangeance,
+<lb />Je dois de ſon courroux accuſer mon ſilence,
+<lb />Il ne m’eſt pas moins cher. Oüy, de ſa fuite inſtruit,
+<lb />J’allois le ſuivre. Icy vos ordres m’ont conduit.
+<lb />Mes vœux avoient déja prévenu vos prieres.
+<lb />Pour exciter mon bras, ſont-elles neceſſaires?
+<lb />Oublirois-je, Seigneur, que vos ſoins genéreux
+<lb />Ont fixê pres de vous l’exil d’un Malheureux,
+<lb />Et que vôtre bonté de tant d’honneurs ſuivie,
+<lb />Malgré moy-méme, a ſçeu m’attacher à la vie?
+<lb />Elle eſt ui de ron dons. Prouit a vous l’immoler,
+<lb />Où l’apelle Créſus Adraſte doit voler,
+<lb />Borner tous ſes deſirs à celuy de vous plaire,
+<lb />Et rendre au Fils les ſoins dont l’honora le Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Vous pouvez par un ſeul les reconnoître tous.
+<lb />Ramenez-moy mon Fils, je tiendray tout de vous.
+<lb />Aujourd’huy de ſes pas obſervateur fidelle,
+<lb />En défendant ſes jours, prouvez-moy vôtre zele.
+<lb />Ne le laiſſez jamais échaper de vos yeux,
+<lb />J’attens plus de vos ſoins que je n’attens des Dieux.
+<lb />S’il faut vous exciter par un noble ſalaire,
+<lb />Je livre à vôtre amour vôtre belle Etrangere.
+<lb />Elle vient. Tariſſez la ſource de vos pleurs,
+<lb />Vous verrez aujourd’huy finir tous vos malheurs,
+<lb />Madame. Vôtre Amant va bientôt vous conduire,
+<lb />Faites-vous un bonheur qu’on ne puiſſe détruire,
+<lb />Vivez heureux, partez. Mais, Prince, auparavant
+<lb />Ramenez en ces lieux mon cher Atys vivant,
+<lb />Ce Fils ſans qui leijour &amp; me peſe &amp; m’offence,
+<lb />Ce Fils ma ſeule joye, &amp; ma ſeule eſpérance.
+<lb />Il ſort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />HESIONE, ADRASTE, CLEONE.
+</p>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />IL eſt donc vray, Seigneur, qu’apres ce triſte jour
+<lb />je nauray plus de fers que les fers de l’Amour?
+<lb />Ah, Prince, quel plaiſir pour vôtre heureuſe Amante
+<lb />D’aller bientôt revoir le rivage du Xante!
+<lb />Et pour vous exprimer mes ſouhaits les plus doux,
+<lb />Quel plaiſir de l’aller revoir avecque vous!
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />La Fortune envers moy s’eſt trop tôt démentie,
+<lb />De ſes dons trop hâtez mon ame ſe défie.
+<lb />Mais affranchiſſons-nous de ce trouble incertain,
+<lb />A ſe déterminer contraignons le Deſtin;
+<lb />Allons.
+</sp>
+<sp type="MainZone-Sp"><lb />HESIONE.
+<lb />Ou courez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Suivre Atys. Le temps preſſe.
+<lb />e vais en le ſauvant délivrer ma Princeſſe.
+<lb />Si les Dieux ſont toûjours eonſtans dãs leur couroux,
+<lb />L’Amour contre les Dieux fera du moins pour nous.
+</sp>
+<p type="MainZone-Head"><lb />EEC
+<lb />TE
+<lb />SCENE PREMIERE.
+<lb />ERIXENE, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Uoy, vous ne parlez plus de départ ny
+<lb />de fuite?
+<lb />De tous vos grands projets je ne voy
+<lb />ponit la lite.
+<lb />Pour jamais de ces lieux vous alliez vous
+<lb />bannir,
+<lb />Madame; maintenant qui peut vous retenir?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Iſmene, je-ne-ſçay, mais mon ame incertaine
+<lb />Se fait de ce départ une ſenſible peine.
+<lb />J’en crains la ſeule image, &amp; j’ignore pourquoy
+<lb />En des lieux pleins d’ennuis je me plais malgré moy.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Vous ne le ſçavez pas! Vous vous trompez Madame
+<lb />Pour vous en éclaircir, conſultez bien vôtre ame.
+<lb />Vous aimez. Que ſert-il icy de vous flater?
+<lb />Et ſi ce n’eſt l’amour, qui peut vous arreſter?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Ne me fais point, Iſmene, une pareille injure.
+<lb />Moy j’aimerois encore un Ingrat, un Parjure,
+<lb />Qui porte ailleurs un cœur qu’autrefois j’enflâmay?
+<lb />Ah je le hais, Iſmene, autant que je l’aimay.
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Préparez donc vôtre ame à la douceur nouvelle
+<lb />De voir bien-toſt punir cet Amant infidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />ARIAENE.
+<lb />Punir! Que me dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Preſſé par ſon malheur,
+<lb />Atys contre le Monitre eprouve la valeur.
+<lb />Vous le ſçavez. Les Dieux vangeurs de l’innocence.
+<lb />Luy vont faire en ſon ſang laver ſon inconſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Le Prince périroit, Iſmene? Ah quel ennuy!
+</sp>
+<sp type="MainZone-Sp"><lb />ISMENE.
+<lb />Si vous ne l’aimez plus, pourquoy craindre pour! y?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Oüy, je ne le dois pas; je le confeſſe, Iſmene,
+<lb />Il ne mérite pas la pitié d’Erixene.
+<fw><lb />F ij
+</fw><lb />Domptons l’indigne effroy dont je me ſens ſaiſir,
+<lb />Et voyons, s’il ſe peut, ſa perte avec plaiſir.
+<lb />Mais apres tout, pourquoy ſouhaiter qu’il périſſe?
+<lb />N’a-t-il pas reparé toute ſon injuſtice?
+<lb />Ma Rivale à partir s’apreſte en ce moment;
+<lb />Il ſouſcrit, tu le ſçais, à ſon éloignement.
+<lb />Quel plus grand ſacrifice aurois-je pû prétendre,
+<lb />Et de ſon repentir que puis-je plus attendre?
+<lb />Peut-eſtre tu croiras qu’il obeït au Roy,
+<lb />Chere Iſmene? Je veux le croire comme toy.
+<lb />Mais il ſe peut auſſi que cherchant à me plaire,
+<lb />Ir fuit prus ſon panchant que l’ordre de ſon Pere,
+<lb />Que lous mes loix encore l’anjour l'a içeu ranger,
+<lb />Et qu’il change aujourd’huy pour ne jamais changer.
+</sp>
+<sp type="MainZone-Sp"><lb />TOMEND.
+<lb />S’il venoit à vos pieds vous demander ſa grace....
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Eſt-il crime en amour qu’un repentir n’efface?
+<lb />Eſpoir trompeur, tu prens trop d’empire ſur moy.
+<lb />L’Ingrat ne ſonge point à me rendre ſa foy,
+<lb />Et ſa bouche tantoſt &amp; ſincere, &amp; cruelle,
+<lb />M’a trop inſtruite, helas, du cœur de l’Infidelle.
+<lb />C’en eſt fait, ma pitié diſparoit ſans retour,
+<lb />Son crime eſt à mes yeux plus grand que mon amour.
+<lb />Ma vertu ſur mes ſens ſe rendra ſouveraine,
+<lb />Et je ne feray rien indigne d’une Reyne.
+<lb />Iſmene, toutefois attendons en ces lieux
+<lb />Ce que de mon deſtin ordonneront les Dieux.
+</sp>
+<sp type="MainZone-Sp"><lb />Le Roy vient.
+<lb />ISMENE.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />CRESUS, EMAENE, IOMENES
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />AH Madame, en quel effroy me jette
+<lb />D’un teméraire Fils l’entrepriſe indiſcrete?
+<lb />Mon alarme pour luy redouble à tout moment,
+<lb />Mon cœur eſt agité d’un noir preſſentiment,
+<lb />Il me ſemble toujours qu’un recit trop fidelle
+<lb />Va de la mort d’Atys m’aſſurer la nouvelle,
+<lb />Qu’on me l’amene pâle, affreux, enſanglanté,
+<lb />Tel qu’un Songe autrefois me l’a repréſenté.
+<lb />Faut-il qu’ingénieux à prévoir noſtre peine,
+<lb />Dieux, à nous accabler nous aidions vôtre haine,
+<lb />Et que dans l’avenir regardant de trop loin,
+<lb />A nous tyranniſer nous prenions tant de ſoin?
+<lb />Pourquoy faut-il toûjours que la raiſon barbare
+<lb />Coure au devant des maux que le Ciel nous prépare?
+<lb />Nos craintes ſont ſouvent plus rudes que vos coups;
+<lb />Grãds Dieux, ſans menacer, que ne nous frapez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Seigneur, le coup toûjours ne ſuit pas la menace;
+<lb />Le bras déja levé, les Dieux font ſouvent grace.
+<lb />Du ſoin de l’avenir repoſez-vous ſur eux,
+<lb />Et ne vous rendez pas vous-méme malheureux.
+<lb />Peut-étre vous n’aurez aucun ſujet de plainte,
+<lb />Et vôtre crainte enfin ne ſera qu’une crainte.
+<lb />E iij
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Je le ſouhaite helas! plus que je ne le croy.
+<lb />Toûjours de grands malheurs ſuivent un grãd effroy.
+<lb />Des volontez du Ciel trop fidelle Interprete,
+<lb />Mon cœur m’en avertit par une voix ſecrete;
+<lb />Son préſage, Madame, &amp; ſes affreux avis,
+<lb />D’infaillibles malheurs ſeront enfin ſuivis.
+<lb />Quand verray-je finir ma douleur incertaine?
+<lb />Mais on vient. C’eſt Arcas.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CRESVS, ERIXENE, ARCAS, ISMENE.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS continue.
+<lb />AHtire moy de peine,
+<lb />Arcas? Que fait mon Filse vit-il? a-t-il vécu?
+</sp>
+<sp type="MainZone-Sp"><lb />ARCAS.
+<lb />Il reſpire, Seigneur, &amp; le Monſtre eſt vaincu.
+<lb />Promt, il alloit luy ſeul ſe commettre à ſa rage,
+<lb />Mais Adraſte plus promt a trompé ſon courage,
+<lb />Emporté d’une ardeur dont je fus le témoin,
+<lb />Il l’a bientót atteint, quoy qu’il fut déja loin.
+<lb />Le Prince à ſon abord &amp; ſe trouble &amp; s’étonne,
+<lb />Il ſemble s’offenſer du ſecours qu’on luy donne,
+<lb />Et voir d’un œil jaloux que des Bras étrangers
+<lb />Partagent du Combat la gloire &amp; les dangers.
+<lb />Toutefois il admire &amp; le ſoin &amp; le zele
+<lb />D’un Amy conſtamment genéreux &amp; fidelle,
+</sp>
+<sp type="MainZone-Sp"><lb />57
+</sp>
+<p type="MainZone-Lg"><lb />Auteur &amp; compagnon de mon malheureux ſort,
+<lb />Venez voir, luy dit-il, ma victoire, ou ma mort.
+<lb />Il marche. Adraſte ſuit, luy parle, s’étudie
+<lb />A luy faire, s’il peut, une ame moins hardie,
+<lb />Et du feu de ſon zele animant ſes diſcours,
+<lb />Il l’exhorte ſans ceſſe à ménager ſes jours.
+<lb />Au pied du Mont Tmolus nous arrivions à peine,
+<lb />Quand le Monſtre eſt ſorty de la Foreſt prochaine.
+<lb />A ſon farouche aſpect le cœur le plus conſtant,
+<lb />D’une ſecrete horreur eſt atteint à l’inſtant.
+<lb />Son ſoufle fait ſecher l’herbe qu’il empoiſonne,
+<lb />Son poil cõme un rempart le couvre &amp; l’environne,
+<lb />La menace ſe peint ſur ſon front furieux,
+<lb />Et le feu de ſa rage étincelle en ſes yeux.
+<lb />Il a d’un Sanglier la hydeuſe aparence,
+<lb />Le fer eſt moins tranchant que ſa double défenſe.
+<lb />Pour s’exciter au meurtre il n’attend pas nos coups;
+<lb />Irrité par nos cris, il vient fondre ſur nous.
+<lb />Sa fureur dans ſon cours s’accroît &amp; ſe ralume,
+<lb />Et ſa gueule eſt ſoüillée &amp; de ſang &amp; d’écume.
+<lb />En vain nos traits ſur luy tombent de toutes parts,
+<lb />Il eſt, ou paroît étre à l’épreuve des Dards.
+<lb />Mais Atys plus heureux, ou plutoſt plus habile,
+<lb />Trouve enfin à bleſſer un endroit plus facile.
+<lb />D’un Javelot mortel il luy perce le flanc;
+<lb />Le Monſtre gémit, tombe, &amp; nage dans ſon ſang,
+<lb />De ſes frémiſſemens il remplit le rivage,
+<lb />Vainement ſa douleur veut ralumer ſa rage,
+<lb />Sa foibleſſe le trompe, il ne ſe trouve plus,
+<lb />Sa fureur ſe conſume en élans ſuperflus,
+<lb />
+<lb />Las &amp; preſque ſans vie, il cede à ſa foibleſſe,
+<lb />On craint d’en aprocher, quelque mort qu’il paroiſſe;
+<lb />Mais le Prince intrépide &amp; promt à tout oſer,
+<lb />D’un vain reſte de ſang veut encor l’épuiſer;
+<lb />Il court armé d’un fer aſſouvir ſon courage.
+<lb />Son bras aura ſans-doute achevé ſon ouvrage;
+<lb />Mes yeux n’ont pas été témoins des derniers coups,
+<lb />Mon zele impatient m’a fait voler vers vous,
+<lb />Et courit vous donner des nouvelles certaines
+<lb />D un lucces qui mitvos craintes e llos pemes,
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Atys reſpire! O Ciel, le trop heureux Créſus,
+<lb />D’aucun vœu deſormais ne t’importune plus.
+<lb />Quelle main ſecondant ta valeur fortunée,
+<lb />T’a fait en ce Combat vaincre ta deſtinée?
+<lb />C’eſt Adraſte, mon Fils. Ses ſoins &amp; ſon ſecours,
+<lb />De la fureur du Monſtre ont garanty tes jours.
+<lb />O jour heureux! Ma joye au comble parvenuë,
+<lb />Ne peut étre en mon cœur plus longtemps retenuë.
+<lb />Madame, partagez un tranſport ſi charmant,
+<lb />Créſus recouvre un Fils, Erixene un Amant.
+<lb />Perdez le ſouvenir de ſon dernier outrage,
+<lb />De ſon retour vers vous ma parole eſt un gage.
+<lb />Vous allez bientót voir cet illuſtre Vainqueur
+<lb />Mettre enſemble à vos pieds ſa cõqueſte &amp; ſon cœur.
+<lb />N’alterez point les biens que ce jour nous prépare,
+<lb />Par le reſſentiment d’un crime qu’il repare.
+<lb />Allons entre ſes bras oublier nos douleurs.
+<lb />Venez. Mais que nous veut Lycaſte tout en pleurs?
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />CRESUS, ERIXENE, ARCAS,
+<lb />ISMENE, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS continuë.
+<lb />Uel iujet nicomiu te fait verſer des larmes,
+<lb />Aujourd’huy que mon Fils fait ceſſer nos alarmes?
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />LYCASTE.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Ce jour heureux ſoufre-t-il tes ſoûpirs?
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Un eternel chagrin ſuivra vos vains plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Lycaſte, que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />E Peno lEs
+<lb />Que le Prince eſt ſans vie.
+</sp>
+<sp type="MainZone-Sp"><lb />Il n’eſt plus.
+<lb />CRESUS.
+</sp>
+<sp type="MainZone-Sp"><lb />ERIXENE.
+<lb />Dieux cruels, vous m’avez trop ſervie.
+<lb />Mais tu diſois, Arcas, que le Monſtre étoit mort,
+<lb />Qu'Atys vivoit, pourquoy nous faire un faux raporx
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Oüy, Madame, il vivoit, &amp; tout brillant de gloire,
+<lb />Il couroit remporter une pleine victoire,
+<lb />Lors que contre le Monſtre un Dard lancé ſoudain
+<lb />Le tiouverur la toute, &amp; luy perce le ſein.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />O malheur annoncé par l’Oracle celeſte!
+<lb />nlain que falloit furaite en ce moment funeſte?
+<lb />Avoit-il oublié tout le ſoin de mon Fils?
+</sp>
+<sp type="MainZone-Sp"><lb />ALono lu.
+<lb />Adraſte, helas! Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Tu pleures, tu pâlis.
+<lb />Tu ne me répons pas. Cet Amy ſi fidelle
+<lb />A-t-il ſuivy mon Fils dans la nuit eternelle?
+<fw><lb />←
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Il voit le jour, Seigneur. Mais o comble d’ennuy,
+<lb />Ce Dard....
+</sp>
+<sp type="MainZone-Sp"><lb />Acheve.
+<lb />CRESUS.
+</sp>
+<sp type="MainZone-Sp"><lb />LYCASTE.
+<lb />Il vient, vous l’aprendrez de luy,
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />CRESUS, ADRASTE, ERIXENE,
+<lb />ARCAS, LYCASTE.
+</p>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />HE' bien, Prince, mon Fils eſt donc une Ombre
+<lb />vaine,
+<lb />Et l’eternel butin de la Parque inhumaine?
+<lb />Cependant de ſes jours vous m’aviez répondu.
+<lb />Je vous l’ay confié, me l’avez-vous rendu?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Vôtre colere eſt juſte, &amp; trop duë à mon crime.
+<lb />Hatez-vous d’immoler cette triſte Victime.
+<lb />Rien ne me peut, Seigneur, excuſer envers vous,
+<lb />Et je viens me livrer à tout vôtre courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Votre crime s’impole une trop dure peine.
+<lb />Il laiſſe plus de place aux plaintes qu’à la haine,
+<lb />Et méme je dévrois n’en adreſſer qu’au Sort,
+<lb />Si la raiſon régloit un douloureux tranſport.
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Non, non, tant de bonté bleſſe vôtre juſtice;
+<lb />Au crime du Coupable égalez le ſuplice.
+<lb />72
+<lb />Je mérite, Seigneur, le plus affreux tourment.
+<lb />Faut-il pour me punir balancer un moment?
+<lb />Ordonier queit fer me raviſſe une vie
+<lb />Qu’au Prince vôtre Fils cette main a ravie.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Que dites-vous? Ce Dard qui m’en prive aujour<lb />d’huy....
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Je l’ay lancé. Les Dieux l’ont guidé contre luy.
+</sp>
+<sp type="MainZone-Sp"><lb />Anennanss
+<lb />Ciel, que viens-je d’entendre! Elle ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />O douleur imprévenë!
+<lb />Je pers mon Fils, &amp; c’eſt Adraſte qui le tuë!
+<lb />Adraſte, aux ſoins de qui je l’avois confié,
+<lb />Eſt le méme, grands Dieux, qui l’a ſacrifié.
+<lb />Quelque cher qu’il me ſoit, que l’Aſſaſſin périſſe:
+<lb />Aux manes de mon Fils je dois ce ſacrifice.
+<lb />Hola, Gardes, à moy. Qui peut me retenir?
+<lb />C’en eſt fait, puniſſons. Et qui faut-il punir?
+<lb />Adraſte, helas! O Ciel, ſi ſourd a ma priere,
+<lb />Tu voulois immoler mon Fils à ta colere,
+<lb />Pour m’adoucir l’horreur de ce coup inhumain,
+<lb />Que ne te ſervois-tu du moins d’une autre main?
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Et c’eſt nôtre amitié qui me rend plus coupable.
+<lb />Je dois mourir. Donnez un Arreſt équitable.
+<fw><lb />Dej</fw><lb />Déja dans ma fureur je l’aurois prévenu,
+<lb />Si les Gardes d’Atys ne m’avoient retenu.
+<lb />Ecoutez moins la voix d’une pitié cruelle.
+<lb />Faites tomber, Seigneur, ma teſte criminelle.
+<lb />Puniſſez aujourd’huy les crimes que j’ay faits,
+<lb />Et dérobez ma vie à de nouveaux forfaits.
+<lb />Je ſuis né ſous l’aſpect d’un Aſtre ſanguinaire,
+<lb />J’ay tué mon Amy, tranché les jours d’un Frere:
+<lb />72
+<lb />Que ſçay-je dans quel ſang je tremperois ma main?
+<lb />Ma mort importe aux jours de tout le Genre humain.
+<lb />Les Dieux m’ont trop longtẽps laiſſé ſoüiller la Terre,
+<lb />unl Fer faſſe aujourd’huy l’office uu ronnerre,
+<lb />ntoulel avec moy mille eies divels,
+<lb />Et d’un lâche Aſſaſſin délivrez l’Univers.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />En demandant la mort en vain tant attenduë,
+<lb />Vous mõtrez encor mieuxqu’elle vous eſt moins duë,
+<lb />Vous étes, je le voy, de ces Infortunez,
+<lb />Au crime, en dépit d’eux, par le Sort entraînez.
+<lb />La Terre trop ſouvent a vû de vos ſemblables,
+<lb />Et gémy du malheur de ces fameux Coupables.
+<lb />Que les Dieux indignez ont fait ainſi que vous
+<lb />Servir d’exemple affreux à leur vaſte courroux.
+<lb />A de plus longs malheurs võtre ame condamnée
+<lb />N’a pas encor remply toute ſa deſtinée.
+<lb />Quelque juſte à mes yeux que ſoit vôtre trépas,
+<lb />Les Dieux ſourds à vos cris ne l’aprouveroient pas.
+<lb />Vivez. Ainſi le veut le colere celeſte.
+<lb />Mais purgez ces Climats de vôtre aſpect funeſte.
+<lb />Fuyez, &amp; vagabond allez en d’autres lieux
+<lb />Porter vôtre infortune &amp; la haine des Dieux,
+</sp>
+<sp type="MainZone-Sp"><lb />ADRASTE.
+<lb />Hé fixez par ma mort le cours de ma miſere,
+<lb />Puniſſez comme Roy, vangez-vous comme Pere.
+<lb />Regardez vôtre Fils défait, pâle, ſanglant.
+<lb />Son ſang doit échaufer vôtre courroux trop lent,
+<lb />Apaiſez par le mien ſa chere Ombre plaintive.
+<lb />Il m’apelle, il m’attend ſur l’infernale Rive,
+<lb />A ſes deſirs, aux miens, accordez mon trépas.
+<lb />Vous le tuez encore en ne le vengeant pas.
+<lb />On ſe tait! à mon crime on refuſe ſa peine!
+<lb />On la laiſſe à mon choix, elle en eſt plus certaine.
+<lb />Ouy, c’eſt tropm’obſtiner a mandier la mort.
+<lb />On eſt, quand on le veut, le maître de ſon ſort. Il ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />CRESUS.
+<lb />Leaces de lia douſeur en affoiblit l’atteinte,
+<lb />Ferme mes yeux aux pleurs, &amp; mabouche à la plainte.
+<lb />Ah malheureux Créſus! Ciel! ne m’épargne pas.
+<lb />Frape. Le moindre coup ſuffit pour mon trépas.
+<lb />On l’emporte.
+</sp>
+<p type="MainZone-Other"><lb />Permis d’imprimer. Fait le 29. Mars 1680.
+<lb />DE LA REYNIE.
+<fw><lb />t
+</fw></p>
+    </body>
+  </text>
+</TEI>

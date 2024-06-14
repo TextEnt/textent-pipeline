@@ -1,0 +1,1492 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amadis de Grèce, tragédie [par A. Houdar de La Motte], représentée par l'Académie royale de musique</title>
+        <author>La Motte, Antoine de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30729994t"/>
+          <author>
+            <persName>La Motte, Antoine de</persName>
+          </author>
+          <title>Amadis de Grèce, tragédie [par A. Houdar de La Motte], représentée par l'Académie royale de musique</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1699" cert="high" resp="BNF">1699</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />AVEC PRIVILEGE DE SA MAJESTE'.
+<fw><lb /> mui Av M
+<lb />iue uu a d vn vl
+<lb />
+<lb />1
+<lb />4
+<lb />
+<lb />
+<lb />7. M
+<lb />
+<lb /> P
+<lb />
+<lb />21 2
+<lb />am doprulu d To8
+<lb /> d
+<lb />
+<lb />24
+<lb />DIUM IG
+<lb />71
+<lb />2
+<lb />10
+<lb />
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />A
+<lb />R
+<lb />I
+<fw><lb />4
+<lb />
+</fw></p>
+<p type="MainZone-Head"><lb />Q
+<lb />AND ROY, c’eſt vainement qu’en
+<lb />t’offrant mon Ouvrage,
+<lb />cout ſemble à Te loüer exciter mon courage;
+<lb />Vainement mon ardeur m’en veut faire un:
+<lb />1
+<lb />Ma Plume ſe refuſe à ce pénible employ;
+<lb />La langue deſormais pour aider nôtre zéle,
+<lb />N’a plus de tour heureux ni de grace nouvelle.
+</p>
+<p type="MainZone-Lg"><lb />Mille fameux Auteurs à Ta gloire ont écrit;
+<lb />Si LOUIS a tout fait, Apollon à tout dit.
+<lb />De Ton Regne naiſſant, il a dit les miracles;
+<lb />Ta Valeur toûjours prête à forcer les obſtacles;
+<lb />Cent Peuples en courant ſubjuguez à la fois,
+<lb />Mais auſſi-toſt heureux que ſoûmis à Tes Loix;
+<lb />La rebelle Hereſie à tes pieds terraſſée,
+<lb />D’un cahos tenebreux Themis débarraſſée;
+<lb />Le Duel ſans honneur chaſſé de tes Etats,
+<lb />La Nobleſſe formée à de juſtes combats;
+<lb />Les Arts Riches par toy des beautez ſouveraines
+<lb />Qu’ils eurent autrefois dans Rome &amp; dans Athenes;
+<lb />Tous Tes inſtans marquez par les Vertus d’un Roy,
+<lb />Et Tes Fils par Tes ſoins rendus dignes de Toy.
+<lb />Que ces heureux Sujets ont illuſtré de Plumes!
+<lb />Qu’écrire à Ta loüange aprés tant de Volumes?
+<lb />Non qu’encore aujourd’huy Tes nouvelles Vertus
+<lb />De nos Ecrits pour Toy n’exigent les tributs.
+<lb />Cent Travaux tous les jours de nouveau T’éterniſent
+<lb />La mariére s’accroît; mais les forces s’épuiſent,
+<lb />Et nos Vers dépourvûs de ſel &amp; d’agrémens
+<lb />N’ont pour Tes faits nouveaux que de vieux ornemens.
+<lb />L’Art aprés tant d’efforts, impuiſſant pour Ta Gloire,
+<lb />Se doit d’un ſoin ſi beau repoſer ſur l’Hiſtoire:
+<lb />Qu'elle ſeule Te loüe, &amp; que de mes Ecrits
+<lb />Tes plaiſirs deſormais ſoient l’objet &amp; le prix.
+<fw><lb />22 3 3 MTuC
+</fw></p>
+<p type="MainZone-Head"><lb />A
+<lb />CTEU
+<lb />4
+<lb />P
+<lb />A
+<lb />RS
+<lb />DU PROLOGUE.
+<fw><lb />O M0
+</fw></p>
+<sp type="MainZone-Sp"><lb />1
+<lb />Z
+<lb />I
+<lb />RPHE’E, Enchantereſſe,
+<lb />ZIRENE, Enchanteur, Amy de
+<lb />Zirphée.
+<lb />TROUPE de Femmes de la ſuite
+<lb />de Zirphée.
+<lb />TROUPE de Genies.
+<lb />TROUPE de Statuës animées.
+<lb />TROUPE d’Eſprits volants.
+</sp>
+<p type="MainZone-Head"><lb />PROLOGUE.
+<fw><lb />LE Théatre repreſente un Monpment magnifique
+<lb />élevé à la gloire d’Amadis de Grece. Aux cô<lb />tez d’une Allée de Lauriers on voit des Statuës
+<lb />qui marquent les Vertus de ce Héros Au mi<lb />lieu eſt un Amphithéatre, ſur lequel s’éleve
+<lb />une Piramide entre quatre Colonnes, dons
+<lb />les Pié d’eſtaux ſont orneznde Bas-reliefs, qui
+<lb />repreſentent les Exploits d’Amadis: La Pyra<lb />mide a de pareils ornements. On y voit de<lb />plus le Chiffre d’Amadistentre deux Renom<lb />mérs, &amp; au haut l’ardente Epée, qui étoit la
+<lb />Deviſe de ce Chevalier.
+<lb />A Lot buisno mommnc a eompjonl acue
+</fw></p>
+<sp type="MainZone-Sp"><lb />Aub MOAIZIIR PoHI EE.V
+<lb />Out célebre icy le courage
+<lb />D’un Vainqueur dont le Monde admira
+<lb />les Travaux.
+<lb />Q Ce Monument eſt un bommage.
+<lb />Que mon Art voulut rendre au plus grãd des Héros:
+<lb />D'Amadis j'y traçay l'Hiſtoire,
+<lb />Mais on ne luy doit plus ce Titre glorieux,
+<lb />Ce ſejour n’eſt plus fait pour annoncer ſa gloire,
+<lb />D’autres Exploits vont embellir ces lieux.
+<lb />Eſprits qui me ſerveZ, rempliſſez mon attenté,
+<lb />Volez, volez de toutes parts,
+<lb />Effacez les Travaux que ce lieu repreſente,
+<lb />Qu’une Hiſtoire plus éclatante
+<lb />Etonne &amp; charme les regards.
+<lb />Eſprits qui me ſervez, rempliſſeZ mon attente,
+<lb />Volez, volez, de toutes parts.
+<lb />Stioupuri II
+<lb />Pluſieurs Eſprits volent à l’ordre de Zirphée &amp; vien<lb />nent changer les Bas-reliefs qui repreſentent les Travaux
+<lb />du Roy au lieu de ceux d’Amadis. Deux Eſprits enle<lb />vent l’ardente Epée du haut de la Pyramide, &amp; deux au<lb />tres y viennent poſer un Soleil.
+<lb />da
+</sp>
+<sp type="MainZone-Sp"><lb /> ZIRPHE’E.
+<lb />1
+<lb />Que tout icy s’anime, &amp; que tout me réponde.
+<lb />Toutes les Statuës s’animent, ſortent de leurs Attitudes
+<lb />&amp; s’uniſſent avec Zirphée pour Celebrer la gloire du Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E &amp; LE CHOEUR.
+<lb />Pour chanter ce Vainqueur élevons nos Concerts,
+<lb />Son Nom remplit la Terre &amp; l’Onde,
+<lb />Il est l’honneur de l’Univers,
+<lb />Son Eloge eſt gravé dans tous les cœurs du Monde.
+<lb />Des
+</sp>
+<sp type="MainZone-Sp"><lb />Des Géniés applaudiſſent au deſſein de Zirphée par
+<lb />leurs Danſes, &amp; les femmes de ſa ſuite ſe meſſent avec
+<lb />eux.
+<lb />ZIRENE étonné de la nouvelle hiſtoire que le
+<lb />Monument repreſente.
+<lb />Que d'Exploits éclatans s’offrent à mes regards!
+<lb />Quel Héros ſur ſes pas enchaiſne la Victoire?
+<lb />S
+<lb />uil avai a Ennemis! qu'il briſe de Remparts!
+<lb />En vain tout l’Univers s’arme contre ſa gloire,
+<lb />Il triomphe de toutes parts.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Que d’exploits éclatans s’offrent à nos regards!
+<lb />Quel Héros ſur ſes pas enchaiſne la Victoire?
+<lb />Qu’il abat d’Ennemis! qu’il briſe de Remparts!
+<lb />En vain tout l’Univers s’arme contre ſa gloire,
+<lb />Il triomphe de toutes parts.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E.
+<lb />Coûtez, Mortels, une Paix ſalutaire,
+<lb />C’eſt vn Héros qui s’en rend le ſoütien,
+<lb />Vous rendre heureux eſt ſa plus douce affaire;
+<lb />Il bannit la Guerre,
+<lb />N’en craigneZ plus rien,
+<lb />Il prend le ſoin du bonheur de la Terre,
+<lb />Et c’eſt au Ciel qu’il ſe remet du ſien.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Coûtez, Mortels, une Paix ſalutaire,
+<lb />C’eſt un Héros qui s’en rend le ſoûtien,
+<lb />Vous rendre heureux est ſa plus douce affaire;
+<lb />Il bannit la Guerre,
+<lb />N’en craignez plus rien,
+<lb />Il prend le ſoin du bonheur de la Terre,
+<lb />Et c’eſt au Ciel qu’il ſe remet du ſien.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E &amp; ZIRENE.
+<lb />Ses ſoins ont ramené le calme ſur la Terre;
+<lb />S
+<lb />ue par ſes ſoins il régne à jamais,
+<lb />8
+<lb />'il eſt le Héros de la Guerre,
+<lb />Il eſt encor le Héros de la Paix.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E.
+<lb />Volez volez, dans ſon Empire,
+<lb />Plaiſirs, prevenez tous ſes veux,
+<lb />C’eſt le plus grand Roy qui reſpire,
+<lb />Qu’il ſoit toûjours le plus heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Volez, volez, dans ſon Empire,
+<lb />Plaiſirs, prévenez tous ſes vœux,
+<lb />C’eſt le plus grand Roy qui reſpire,
+<lb />Qu'il ſoit toûjours le plus heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E.
+<lb />Aprés avoir ſervi ſa gloire,
+<lb />Il faut pour ſes plaiſirs nous unir aujourd’huy,
+<lb />Qu’un ſpectacle pompeux luy retrace l’Hiſtoire
+<lb />D'un illustre Painqueur qui ne céde qu'a luy.
+</sp>
+<p type="MainZone-Other"><lb />lm du Troiogue.
+</p>
+<p type="MainZone-Head"><lb />le
+<lb />ACTLURS
+<lb />DE LA TRAGEDIE.
+<lb />MADIS DE GRECE.
+<lb />LE PRINCE DE THRACE.
+<lb />NIQUE’E, Fille du Soudan de Thébes.
+<lb />HELISSE, Magicienne.
+<lb />ZIRPHE’E, Enchantereſſe, Tante de Niquée.
+<lb />Troupes de Bergers, de Bergeres &amp; de Paſtres.
+<lb />Un Berger.
+<lb />Une Bergere.
+</p>
+<p type="MainZone-Entry"><lb />On fecona Berger.
+</p>
+<p type="MainZone-Entry"><lb />Troupe de Chevaliers &amp; de Princeſſes enchantées.
+</p>
+<p type="MainZone-Entry"><lb />’Un Chevalier enchanté.
+</p>
+<p type="MainZone-Entry"><lb />Une Princeſſe enchantée.
+</p>
+<p type="MainZone-Entry"><lb />Troupe ut Magiciens.
+</p>
+<p type="MainZone-Entry"><lb />Troupe de Démons.
+</p>
+<p type="MainZone-Entry"><lb />Troupe de Matelots &amp; de Matelottes.
+</p>
+<p type="MainZone-Entry"><lb />Un Maielot.
+</p>
+<p type="MainZone-Entry"><lb />Un ſecond Matelot.
+<fw><lb />L’ombre du Prince de Thrace.
+<lb />Troupe d’Eſprits ſous la forme de Guerriers.
+<lb />Autre Troupe d'Eſprits ſous la forme de divers Peuples.
+<lb />Autre Troupe d'Eſprits ſous la forme des Beautez les plus fameuſes.
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE PREMIER.
+<lb />Le Théatre repreſente les Jardins de Méliſſe, d’où
+<lb />l’on découvre dans le fonds la Tour de Niquée.
+<lb />La Scene ſe paſſe dans la Nuit.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />AMADIS, LE PRINCE DE THRACE.
+</p>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Endant que le ſommeil ferme icy tous les
+<lb />yeux,
+<lb />Allons, Prince, marchons, où m’attend
+<lb />la Victoire;
+<lb />Arrachons-nous aux charmes de ces lieux,
+<lb />Ils n’ont que trop contraint mon amour &amp; ma gloire.
+<fw><lb />AMADIS DE GRECE.
+<lb />LE PRINCE DE THRACE.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />La Gloire aſſeZ long-tems vous a vû ſous ſes Loix,
+<lb />Tout vous aſſure une illuſtre memoire,
+<lb />Amadis a luy ſeul achevé plus d’Exploits,
+<lb />Que l’avenir n’en pourra croire.
+<lb />Répondez, en ces lieux à de tendres deſirs,
+<lb />Meliſſe ſent pour vous la flame la plus belle;
+<lb />Ainuue uppus font ieſu fruil de jes ſoupirs;
+<lb />Quand ſon Art à vos yeux raſſemble les plaiſirs,
+<lb />C’eſt ſon amour qui les appelle.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ah! c’eſt de cet amour que je fais mon tourment.
+<lb />uand ce Palis s’offrit a mon paſſage,
+<lb />J'allois finir l’enchantement
+<lb />De la Princeſſe qui m’engage.
+<lb />anieiffe par ſes foins me retint dans ſa Cour,
+<lb />Je crus que ſon accueil naiſſoit de ſon eſtime;
+<lb />Mais puiſqu’il est l’effet de ſon fatal amour,
+<lb />Prince, je me ferois un crime
+<lb />De le nourrir par un plus long ſéjour.
+</sp>
+<sp type="MainZone-Sp"><lb />PRINCE DE THRACE.
+<lb />Pour prix d’une flame ſi tendre
+<lb />Vous vouleZ qu’elle meure &amp; vous l’abandonnez
+<lb />C
+<lb />uoy! ſa beaute ne peut-elle vous rendre
+<lb />Tout l'amour que vous luy donneZ
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Tu ſçais l’objet à qui je rends les armes,
+<lb />Et tu peux me vanter de ſi foibles attraits!
+<lb />les yeux qui connoiſſent ſes traits,
+<lb />Peuvent-ils trouver d’autres charmes?
+<lb />Il luy montre le Portrait de Niquée.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE à part.
+<lb />Ah! que ce ſouvenir redouble mes allarmes.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Déja le bruit de ma valeur
+<lb />A ſçû fléchir pour moy cette auguſte Princeſſe,
+<lb />Il faut par mille efforts meriter mon bonheur
+<lb />Et justifier ſa tendreſſe.
+<lb />Ne tardons plus, aſſûrons dés ce jour
+<lb />Et mes plaiſirs &amp; ma mémoire.
+<lb />Qu'il eſt doux d’accroistre ſa gloire.
+<lb />De ce qu’on fait pour ſon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Je ne m’oppoſe plus au ſoin qui vous agite,
+<lb />Je combattois en vain un ſi preſſant deſir.
+<lb />Demeurez. Je vais voir pour cacher nôtre fuite
+<lb />L’endroit que nous devons choiſir.
+<lb />Il ſort &amp; va avertir Méliſſe.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DEOXIEME.
+</p>
+<sp type="MainZone-Sp"><lb />AMADIS ſeul.
+<lb />Nuit! déploye icy tes voiles les plus ſombres.
+<lb />O Sommeil, ſous tes Pavots aſſoupi tous les yeux:
+<lb />Pour fuir de ces funeſtes lieux
+<lb />Prêtez-moy le ſecours du ſilence &amp; des ombres.
+<lb />Amour, obtiens pour moyqu’ils rempliſſent mes vœux;
+<lb />Mon cœur a droit de le prétendre.
+<lb />Tu n’as jamais ſervi de ſi beaux feux
+<lb />Ni ſatisfait d’Amant ſi tendre.
+<lb />O nuit! dépleje tey res oules les peus ſombres;
+<lb />Sommeil, ſous tes Pavots aſſoupi tous les yeux;
+<lb />Pour fuir de ces funeſtes lieux.
+<lb />meneo moy le fecours au piente &amp; des ombres.
+</sp>
+<p type="MainZone-P"><lb />La nuit ſe diſſipe, une clarté magique éclaire les
+<lb />Jardins, il y naît des Berceaux, &amp; des Fontai<lb />nes, &amp; une Troupe champêtre ſuſcitée par
+<lb />Méliſſe, vient s’oppoſer au départ d’Amadis.
+</p>
+<p type="MainZone-Lg"><lb />Que voy-je! quel prodige! ô Cieux!
+<lb />A quel Astre la nuit céde-t-elle ces lieux?
+<lb />D’où vient qu’une Beauté nouvelle
+<lb />Eclate icy de toutes parts?
+<lb />Quel ſpectacle! qui vous appelle?
+<lb />Et quel enchantement vous offre à mes regards?
+<lb />SCENE III.
+</p>
+<p type="MainZone-Head"><lb />SCENE TROISIE'ME.
+<lb />AMATDIO
+<lb />Troupe de Bergers, de Bergeres, &amp; de Paſtres.
+</p>
+<sp type="MainZone-Sp"><lb />Un BERGER.
+<lb />Vec l’amour tout peut nous plaire,
+<lb />Q luur nest enuimum juns jon fecours:
+<lb />Il eſt le ſeul qui ſçait nous faire
+<lb />D’aimables lieux &amp; de beaux joürs.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />CedeZ a nos Chanſons, cédez à nos Muſettes,
+<lb />Joüiſſez en ces lieux des charmes les plus doux,
+<lb />Les oyſeaux, les échos de ces belles retraites,
+<lb />Pour vous y retenir s’uniſſent avec nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Deux BERGERS.
+<lb />Tout doit icy fléchir un cœur ſauvage,
+<lb />Nos bois charmans
+<lb />Sont faits pour les amans.
+<lb />Ils ſont toûjours
+<lb />Parez d’un vert feüillage:
+<lb />Ah! que leur ombrage
+<lb />Est d’un doux ſecours.
+<lb />Que de beaux jours,
+<lb />L’Amour nous y prépare,
+<lb />Heureux qui s’égare
+<lb />Dans leurs beaux détours:
+<lb />Heureux qui s’égare
+<lb />Avec les amours.
+</sp>
+<sp type="MainZone-Sp"><lb />Un BERGER.
+<lb />L’amour eſt pour le bel âge;
+<lb />Le plus tendre eſt le plus ſage:
+<lb />L’amour eſt pour le bel âge
+<lb />Livrons-nous à ſes langueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LECHOEUR.
+<lb />Lamour eſi pour te bel âge;
+<lb />Le plus tendre eſt le plus ſage:
+<lb />L’amour eſt pour le bel age,
+<lb />Livrons-nous à ſes langueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE BERGER.
+<lb />Il ſe plaist dans nos bocages
+<lb />Pour bleſſer les cœurs ſauvages,
+<lb />Il ſe cache ſous les fleurs:
+<lb />L’amour eſt pour le bel âge;
+<lb />Le plus tendre est le plus ſage:
+<lb />L’amour eſt pour le bel âge,
+<lb />Livrons-nous à ſes langueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CHOEUR.
+<lb />L’amour est pour le bel âge,
+<lb />Le plus tendre eſt le plus ſage<lb />L’amour eſt pour le bel age,
+<lb />Livrons-nous à ſes langueurs.
+<lb />Trop heureux ceux qu’il engage,
+<lb />L’amour eſt un eſclavage
+<lb />Mais ſes fers ont des douceurs.
+</sp>
+<sp type="MainZone-Sp"><lb />Une BERGERE.
+<lb />AAtmons vous uuns ia feuneſſe,
+<lb />Eh! que faire ſans tendreſſe!
+<lb />Aimons tous dans la jeuneſſe,
+<lb />L’amour est le bien des cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CHOEUR.
+<lb />Aimons tous dans la jeuneſſe,
+<lb />Eh! que faire ſans tendreſſe!
+<lb />Aimons tous dans la jeuneſſe,
+<lb />L’amour est le bien des cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LA BERGERE.
+<lb />Chaque tems a ſa ſageſſe,
+<lb />Attendons que la vieilleſſe
+<lb />Vienne éteindre nos ardeurs.
+<lb />Aimons tous dans la jeuneſſe,
+<lb />Eh! que faire ſans tendreſſe!
+<lb />Aimons tous dans la jeuneſſe,
+<lb />L’amour est le bien des cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE CHOEUR.
+<lb />Aimons tous dans la jenneſſe,
+<lb />Eh! que faire ſans tendreſſe!
+<lb />Aimons tous dans la jeuneſſe,
+<lb />L’amour eſt le bien des cœurs.
+<lb />Qu'avec nous il ſoit ſans ceſſe,
+<lb />Il nous plaiſt quand il nous bleſſe,
+<lb />Tous ſes coups ſont des faveurs.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS,
+<lb />Ceſſez, cette importune feſte,
+<lb />C’est vainement qu’en ces lieux on m’arreſte.
+</sp>
+<p type="MainZone-Head"><lb />CENE QUATRIE’ME.
+<lb />AMADIS, MELISSE, LE PRINCE
+<lb />de Thrace.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Uoy, tout trompera mon eſpoir?
+<lb />Amadis, ſe peut-il que rien ne vous flêchiſſe?
+<lb />Ah! du moins, ſi ſur vous leur voix est ſans pouvoir,
+<lb />Cedez à celle de Meliſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ce n’eſt qu’à la voix du devoir
+<lb />Qu’il faut qu’un grand cœur obéiſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />MELIS SE.
+<lb />C’en est donc fait, tu pars, tu braves ma douleur,
+<lb />Je n’ay pour t’arreſter que d’inutiles charmes;
+<lb />Ingrat, mets-tu ta gloire à mépriſer mes larmes?
+<lb />Ton bonheur dépend-t’il de me percer le cœur?
+<lb />Ah! plus je m’attendris, moins je te vois ſenſible,
+<lb />Tu détourne les yeux, &amp; déja tu me fuis.
+<lb />Tu te fais un ſuplice horrible
+<lb />D'estre ençor aux lieux où je ſuis.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Meliſſe, ce n’eſt qu'à la gloire......
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Non, non, ne pourſuit pas ce langage odieux,
+<lb />e ſçais trop ce que je dois croire,
+<lb />L’amour, le ſeul amour, t’arrache de ces lieux,
+<lb />L’image de Niquée a porté dans ton ame
+<lb />Des feux dont tu fais ton bonheur......
+<lb />Son nom même, ſon nom vient d’emouvoir ton cœur,
+<lb />Et tes yeux trahiſſent ta flame.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Pourquoy voulez-vous m’engager
+<lb />uand je ſuis ſous les loix d’un autre?
+<lb />Un cœur capable de changer
+<lb />Ne ſeroit pas digne du vôtre.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />uoy! cruel, c’eſt donc peu de le voir dans tes yeux!
+<lb />Tu m’oſes faire encor un aveu ſi funeſte.
+<lb />Je ne t’ay donc offert qu’un amour odieux
+<lb />Et qu'un cœur que le tien déteſte?
+<lb />En vain j’ay raſſemblé les plaiſirs &amp; les jeux,
+<lb />En vain j’ay de mon Art épuiſé la puiſſance;
+<lb />Pour toy tout devenoit affreux,
+<lb />Par mes ſoûpirs &amp; ma préſence.
+<lb />’’en eſt trop le dépit ſuccéde à mon tranſport.
+<lb />Je ne te retiens plus, tu peux partir..... barbare,
+<lb />Va braver les perils que le ſort te prépare,
+<lb />Cours, vole à ta Princeſſe, ou plûtoſt à la mort.....
+<lb />A la mori! Quoy, ion tuur ia prefere à Meliſſe?
+<lb />Tu me quittes pour la chercher?
+<lb />Mon deſeſpoir, mes pleurs, n’ont rien qui t’attendriſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Il ne m’eſt pas permis de m’en laiſſer toucher.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Suis-donc, cruel, une gloire fatale,
+<lb />Va perir pour d’autres appas.
+<lb />Que des monſtres ſur toy, la rage ſe ſignale,
+<lb />ue cent Geans affreux te li vrent cent combats,
+<lb />Et qu’un gouffre de flame achevant ton trépas,
+<lb />Te vomiſſe expirant aux pieds de ma Rivale.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />O Ciel! peut-on former des vœux ſi pleins d’horreur:
+<lb />Ah! fuyons, ma preſence irrite ſa fureur.
+</sp>
+<p type="MainZone-Head"><lb />CENE CINQUIE’ME.
+<lb />MELISSE, ſeule.
+</p>
+<sp type="MainZone-Sp"><lb />E cruel m’abandonne, il fuit, il me déteſſe,
+<lb />E Dieux! quel ſupplice il me fait éprouver!
+<lb />Je luy parois un objet plus funeſte,
+<lb />Que les monſtres qu’il va braver.
+<lb />Eh bien, ingrat, céde au feu qui t’entraîne,
+<lb />Pourſuis tes amoureux projets;
+<lb />Mais en vain ta valeur te répond du ſuccés,
+<lb />Au nes purte uunt eſptrance vaine,
+<lb />Les Monſtres, les Geans peuvent eſtre défaits;
+<lb />Mais tu ne peux vaincre ma haine.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Other"><lb />ACTEII.
+</p>
+<p type="MainZone-Head"><lb />(a d.
+<lb />2
+<lb />TI
+<lb />Le I'fieatre repreſente le Perron enflâmé
+<lb />qui deffendoit la Gloire de Niquée.
+</p>
+<p type="MainZone-Head"><lb />CENE PREMIERE.
+<lb />AMADIS, LE PRINCE DE THRACE.
+<lb />1
+</p>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Es feux excitent mon courage,
+<lb />C’eſt le dernier peril qu’il me reſte à ten<lb />Cent monstres vainement m'on oppoſé leur
+<lb />rage,
+<lb />Tu me les as vus ſurmonter;
+<lb />Et je me ſuis fait un paſſage
+<lb />Teint du ſang des Geans qui vouloient m’arreſter.
+<lb />Mais qu’annoncent ces mots? il faut nous en in<lb />Juallla2
+<lb />Haſtons-nous de les lire,
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE lit ces mots, qui
+<lb />ſont écrits ſur le Perron.
+<lb />Un ſeul peut paſſer dans ces feux,
+<lb />On feut uon puiouuonum giune immortelle;
+<lb />C’eſt l’Amant le plus genereux,
+<lb />Et le Heros le plus fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ah! je connois icy ma flame &amp; ma valeur,
+<lb />Le ſort va remplir ja promeſſe;
+<lb />Non, je n’en doute plus, je touche a mon bonheur,
+<lb />Je ſuis preſt de voir ma Princeſſe,
+<lb />Mille ſecrets plaiſirs l’annoncent à mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />Au Prince de Thrace.
+<lb />Cner Printe, ſois neureux autant que je vais l’eſtre,
+<lb />Puiſſe le Ciel combler tout tes deſirs;
+<lb />Ce n’eſt plus que par tes plaiſirs,
+<lb />Que les miens pourront croistre.
+<lb />Il s’avance pour traverſer les flâmes.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Arreſte, &amp; connois-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Qu'entends-je? je fremy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />J'oppoſe encor ce bras à bon audace
+<lb />Combats dans le Prince de Thrace,
+<lb />Ton Rival &amp; ton ennemy.
+</sp>
+<sp type="MainZone-Sp"><lb />Ciel!
+<lb />AMADIS.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Plus charmé que toy des trais de ta Princeſſe,
+<lb />Et reduit par ſon choix à n’en eſperer rien,
+<lb />Je voulois troubler ta tendreſſe,
+<lb />Tout mon bonheur estoit de traverſer le tien.
+<lb />Pour te retenir chez Méliſſe
+<lb />De ton départ j’ay couru l’avertir:
+<lb />Mes ſoins ont esté vains, tu trouves tout propice.
+<lb />Moy ſeul à ton bon-heur je ne puis conſentir.
+<lb />C’eſt pour moy le dernier ſuplice,
+<lb />Ton trépas ou le mien ſçaura m’en garentir.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Traiſtre, perfide Amy, quelle rage te guide!
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Ah! ne m’accable point de ces noms rigoureux,
+<lb />Nos vertus dépendoient du ſuccés de nos vœux,
+<lb />Et tu ſerois l’Amy pernde,
+<lb />Si tu n’eſtois l’Amant heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />En vain tu prodigues ta vie,
+<lb />Ton ſang me fut trop cher pour y tremper mes mains;
+<lb />Je veux punir ta perſaté
+<lb />En te forçant de voir le bonheur que tu crains.
+</sp>
+<p type="MainZone-Other"><lb />Il traverſe les flâmes.
+<fw><lb />SCENE DEUXIE'ME.
+<lb />LE PRINCE DE THRACE.
+<lb />IL m'échape, il brave ma rage;
+<lb />Allons, il faut le ſuivre au milieu de ces feux;
+<lb />Mais quel pouvoir ſecret m'en deffend le paſſage?
+<lb />Tout ſe briſe... o deſtin, faut-il le voir heureux?
+<lb />Meliſſe, c'est à toy de vanger noſtre outrage.
+<lb />Il ſort &amp; va implorer le ſecours de Méliſſe.
+<lb />Le Perron enflâmé ſe briſe au bruit du tonnerre, &amp;
+<lb />laiſſe voir la Gloire de Niquée, où elle paroiſt ſous un
+<lb />Pavillon magnifique, au milieu de Chevaliers &amp; de Prin<lb />ceſſes enchantées avec elle,
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE TROISIE’ME.
+<lb />AMADIS NIQUEE, Troupe de Che<lb />valiers &amp; de Princeſſes enchantées.
+</p>
+<sp type="MainZone-Sp"><lb />NIQUE'E deſcend de ſon Trône.
+<lb />U’entends-je? de quel bruit ont retenty ces lieux?
+<lb />OCiel! est-ce mon Héros qui paroiſt à mes yeux?
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Que d'attraits, quelle gloire extreme!
+<lb />Princeſſe, que mon cœur éprouve un ſort charmant
+<lb />Quand je romps vostre enchantement,
+<lb />Je demeure enchanté moy-meſme.
+<lb />2IdAME
+<lb />Un prix trop éclatant couronne mes exploits,
+<lb />Je vous vois, je vous aime, &amp; je puis vous le dire;
+<lb />Non, pour tous les tranſports que je ſens à la fois
+<lb />Tout mon cœur ne ſçauroit ſuffire.
+</sp>
+<sp type="MainZone-Sp"><lb />IQUE’E.
+<lb />Qu'il m'eſt doux d’enflamer d’une ſi vive ardeur
+<lb />Un Héros pour qui la Victoire.....
+<lb />Mais, n'est-ce point un ſonge, eſtes-vous ce vain<lb />queur,
+<lb />Vois-je cet Amadis ſi chery de la Gloire?
+<lb />Helas! tout m'engage à le croire,
+<lb />Vos exploits, mes yeux &amp; mon cœur<lb />Qu'ay-je dit? où m'emporte un excés de tendreſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Craignez-vous de me faire un aveu trop charmant.
+</sp>
+<sp type="MainZone-Sp"><lb />NIQUE’E.
+<lb />Non, vous ſçavez trop ma foibleſſe,
+<lb />Je la cacherois vainement.
+<lb />Mais pourquoy mon amour craindroit-il de paroître,
+<lb />Dois-je rougir des trais dont je me ſens bleſſer?
+<lb />La Gloire helas! peut-elle s’offencer
+<lb />D’une flâme qu’elle a fait naiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ah! j’éprouve en cet inſtant même
+<lb />Le moment le plus doux de mon plus heureux jour;
+<lb />Vous m'aimez, ma gloire eſt extrême,
+<lb />Et mon bonheur égale mon amour.
+</sp>
+<sp type="MainZone-Sp"><lb />UE’E.
+<lb />L’éclat de vos vertus &amp; celuy de vos armes
+<lb />Engageoient le Ciel meſme à couronner vos vœux,
+<lb />ue ne redouble-t’il mes charmes
+<lb />Pour vous rendre encor plus heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />F
+<lb />IQUE’E &amp; AMADIS.
+<lb />Cedons-nous l’un à l’autre une douce victoire,
+<lb />Uniſſons à jamais nos cœurs &amp; nos deſirs;
+<lb />Voſire eſtime eſt toute ma gloire,
+<lb />Et voſtre amour tous mes plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />NIQUE’E.
+<lb />Témoins d’une ſi belle flâme,
+<lb />Vous qu’avec moy Zirphée enchanta dans ces lieux;
+<lb />Par les Chans &amp; les Sons les plus harmonieux
+<lb />CelebreZ l’ardeur de noſtre ame.
+<lb />Les Chevaliers &amp; les Princeſſes de diverſes Nations
+<lb />qui eſtoient enchantées avec Niquée celebrent ſon bon<lb />heur &amp; la gloire d’Amadis.
+</sp>
+<sp type="MainZone-Sp"><lb />Un CHEVALIER enchanté.
+<lb />Chantons une beauté qui charme tous les cœurs,
+<lb />Offrons à ſes deſirs la plus galante feſte;
+<lb />Ses attraits ont fait la conqueſte
+<lb />Du Vainqueur des Vainqueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Chantons ſa Victoire,
+<lb />Celebrons ſa Gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />Une PRINCESSE enchantée.
+<lb />Celebrons Amadis &amp; r’animons nos voix,
+<lb />Son bras &amp; ſes vertus forcent tout à ſe rendre;
+<lb />Les charmes les plus doux &amp; le cœur le plus tendre,
+<lb />Sont l’heureux prix de ſes Exploits.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Chantons ſa Victoire,
+<lb />Gelebrons ſa Gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />Une PRINCESSE enchantée.
+<lb />Suivons un doux penchant, formons d’aimables
+<lb />nœuds, anoidaloo sònpill povs aoomnodfonto atbioſtou
+<lb />Pourquoy paſſer nos jours à nous contraindre,
+<lb />O 100
+<lb />Quand l’amour dans nos cœurs vient allumer ſes
+<lb />feux,
+<lb />m AAiu
+<lb />Min ne doit les ereindre,
+<lb />Les maux qu’on en peut craindre
+<lb />Sont doux à ſouffrir,
+<lb />Loin de nous en plaindre,
+<lb />Craignons d’en guérir.
+</sp>
+<sp type="MainZone-Sp"><lb />SECOND COUPLET.
+<lb />Rendons-nous à l’amour, il doit combler nos vœux,
+<lb />N'en craignons point les ſoins ni les allarmes,
+<lb />Luy
+<fw><lb />
+<lb />2
+</fw><lb />Luy ſeul nous rend heureux;
+<lb />Pour les cœurs amoureux
+<lb />Tout eſt doux juſqu’aux larmes:
+<lb />Amour, nos cœurs s’empreſſent
+<lb />De ſentir tes coups,
+<lb />Plus tes tratis nous pleſſent,
+<lb />Plus ils ſemblent coua.
+<fw><lb />41
+<lb />14
+</fw></sp>
+<p type="MainZone-Other"><lb />Un nuage qui avance ſur le Théatre s’ouvre
+<lb />&amp; fait voir Meliſſe ſur un Dragon.
+<fw><lb />d
+<lb />dAMA
+</fw></p>
+<p type="MainZone-Head"><lb />CENE QUATRIE’ME.
+<lb />AMADIS, NIQUE’E, MELISSE.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Remble, Amadis, tu vois ce qui m’ameine,
+<lb />Ma préſence t’annonce un ſupplice fatal.
+<lb />Démons, veneZ ſervir ma haine,
+<lb />Tranſportez, ſon Amante, où l’attend ſon Rival.
+<lb />Des Démons enlevent Niquée.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah! Ciel.
+</sp>
+<p type="MainZone-Other"><lb />AMADIS.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Que la fureur, que la rage inhumaine
+<lb />Détruiſent ce Palais trop cher à tes deſirs.
+<lb />Va, porte en d’autres lieux tes cris &amp; tes ſoûpirs,
+<lb />Que ton heureux Rival joüiſſe de ta peine,
+<lb />Et que ton deſeſpoir croiſſe par ſes plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS à Meliſſe qui part.
+<lb />Arreſte, implacable furie,
+<lb />O Dieux, me livrez-vous à cette barbarie!
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Head"><lb />1E
+<lb />
+<lb />Le Théatre repreſente une Plaine, cou<lb />pee de queiques ruiſſeaux, &amp; au mi<lb />lieu la Fontaine de la Verité d’Amour,
+<lb />once de colonnes &amp; de Statuës.
+</p>
+<p type="MainZone-Head"><lb />CENE PREMIERE
+</p>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ue deviens-je! où m’emporte un de<lb />ſeſpoir affreux!
+<lb />e traverſe au hazard les Foreſts &amp;
+<lb />les Plaines,
+<lb />Je fais tout retentir de mes cris douloureux,
+<lb />Et par tout mes plaintes ſont vaines.
+<lb />Il s’appuye ſur un arbre, &amp; le murmure des ruiſſeaux
+<lb />le tire de ſon abb atement.
+</sp>
+<sp type="MainZone-Sp"><lb />Vous, dont le bruit ſe mêle à mes triſtes accents,
+<lb />Coulez, charmans ruiſſeaux, répondez-moy ſans
+<lb />ceſſe,
+<lb />Murmurez avec moy des maux que je reſſens.
+<lb />Helas! on m’a ravy l’objet de ma tendreſſe;
+<lb />D’inutiles ſoûpirs, des regrets impuiſſans,
+<lb />
+<lb />Sont l’unique bien qu’on me laiſſe:
+<lb />Vous, dont le bruit ſe mêle à mes tristes accents,
+<lb />Coulez, charmans ruiſſeaux, répondez-moy ſans
+<lb />ceſſe,
+<lb />Murmurez, avec moy des maux que je reſſens.
+<lb />Mais quoy! je reconnois cette Grotte enchantée,
+<lb />Ses Eaux de leur deſtin inſtruiſent les Amans.
+<lb />Il faut que mon ame agitée
+<lb />Y trouue du ſecours, ou de nouveaux tourmens.
+<lb />Il regarde dans la Fontainc.
+<lb />Que vois-je! ô coup mortel! Puis-je en douter en<lb />core?
+<lb />Mon Rival aux genoux de l’objet que j’adore!
+<lb />Tous deux ſemblent contens. Eſt-il poſſible, ô Cieux!
+<lb />Ainuin purjurt sah! l'infidellé!
+<lb />Helas! il eſt trop vray... Je le vois à ſes yeux:
+<lb />La perfide luy jure une ardeur éternelle.
+<lb />O ſort, je puis enfin défier ton couroux;
+<lb />Voilà le dernier de tes coups.
+<lb />domn dulm Il tombe évanoüy ſur un gazon<fw><lb />
+</fw></sp>
+<p type="MainZone-Head"><lb /> DEUXIE’ME.
+<lb />AMADIS, MELISSE.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE, s’approche d’Amadis.
+<lb />H bien, es-tu contente, inhumaine Meliſſe?
+<lb />ESon cœur d’aſſez de maux ſe ſent-il déchirer?
+<lb />Cruelle, aſſouvi-toy de ſon dernier ſupplice,
+<lb />Soule-toy du plaiſir de le voir expirer.
+<lb />Quoy? puis-je vouloir qu’il expire?
+<lb />Non, non, le meſme coup me raviroit le jour:
+<lb />Helas! plus je le vois &amp; plus mon cœur ſoûpire:
+<lb />Ciel! tout mourant qu’il eſt, qu’il m’inſpire d’amour!
+<lb />Qu'il vive. Oppoſons-nous à ſa langueur mortelle.
+<lb />Amadis, Amadis, vivez, c’eſt trop ſouffrir;
+<lb />Reconnoiſſez la voix qui vous appelle
+<lb />Cher Prince
+<lb />AMADIS entr’ouvrant les yeux.
+<lb />Ah! laiſſez-moy mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Pour un indigne cœur, faut-il tant s’attendrir?
+<lb />Vôtre Princeſſe eſt infidelle.
+<lb />Vivez:
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Fousuiffez moy mourir.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Quoy? vous ne perdrez point cette cruelle envie?
+<lb />Vous verrez, ſans pitié mes ſoûpirs &amp; mes pleurs?
+<lb />Helas! ſi vous mourrez, je meurs:
+<lb />Voulez-vous m’arracher la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS ſe leve, ſans penſer à Meliſſe.
+<lb />Malheureux, n’eſt-ce point quelque charme trom<lb />peur?
+<lb />Mes yeux l’ont ils bien vû.... quelle foibleſſe ex<lb />trême,
+<lb />Laſche, pour tromper ma douleur
+<lb />Je cherche à m’abuſer moy-meſme.
+<lb />Quoy? cet objet de mon amour
+<lb />Poun qurſe ſui reveut a tous tes autres charmes,
+<lb />Luy, pour qui Meliſſe en ce jour
+<lb />Ma vû braver ſa fureur &amp; ſes larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Le cruel! il m’outrage, &amp; ſçait que je l’entends.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS continuë, ſans penſer à elle.
+<lb />e cœur dont j’attendois le bonheur de ma vie
+<lb />Me livre aux plus cruels tourmens;
+<lb />Le meſme jour, témoin de ſes ſermens,
+<lb />L’eſt auſſi de ſa perfidie.
+<lb />Et je vis! ma douleur n’a pas tranché mes jours!
+<lb />Il faut donc de ce fer emprunter le ſecours.
+<lb />Il tire ſon épée pour s’en fraper Meliſſe s’en ſaiſit.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Arreſtez, Amadis.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Ah! barbare Meliſſe:
+<lb />N'eſt-ce donc pas aſſez, des maux que j’ay ſoufferts?
+<lb />Mes tourmens vous ſont ils ſi chers
+<lb />Pour ne pouvoir ſouffrir que la mort les finiſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Ne peux-tu ſans mourir terminer ton ſupplice?
+<lb />Conſens à de nouveaux ſoûpirs:
+<lb />Naime pius qui te hait, &amp; ne hais plus qui t’aime,
+<lb />Mes ſoins préviendront tes deſirs,
+<lb />J'en feray mon bonheur ſuprême,
+<lb />Mon amour ſur tes pas conduira les plaiſirs,
+<lb />C’eſt aſſez qu’avec eux tu me ſouffres moy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Non, non, vos vœux offerts, &amp; les miens mépriſe?
+<lb />Ne me rendront point infidelle.
+<lb />Gardez ces vains plaiſirs que vous me propoſez,
+<lb />Je ne veux rien de vous, cruelle,
+<lb />que le irepas que vous me refuſez.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Quuj i touſours onurme aunt ingrate,
+<lb />Les injustes mépris ne ceſſeront jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />En vain ſa perfidie éclatte,
+<lb />Je l’aime encore autant que je vous hais.
+<lb />Vous me l’aveZ ravy cet objet que j’adore;
+<lb />Vous avez ſervy mon Rival;
+<lb />Sans vous, ſans ce ſecours fatal,
+<lb />L’ingrate m'aimeroit encore.
+<lb />Je ne puis trop vous déteſter,
+<lb />Tous mes malheurs ſont vostre ouvrage.
+<lb />Inhumaine achevez.... qui peut vous arreſter,
+<lb />N'oſeZ-vous dans mon ſang conſommer vostre
+<lb />Je voudrois pour vous irriter
+<lb />Pouvoir vous faire encor quelque nouvel outrage:
+<lb />FrapeZ, vous devez vous haſter,
+<lb />Je ſens qu’à chaque inſtant je vous hais d’avan<lb />tage,
+</sp>
+<p type="MainZone-Other"><lb />MELISSE.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Je céde enfin, c'eſt trop ſouffrir,
+<lb />Mon cœur à ſa rage ſe livre;
+<lb />Mais, n’eſpere pas de mourir,
+<lb />Cruel, dans les tourmens je veux te faire vivre.
+<lb /> iePaz Due
+<lb />Que l’horreur regne en ces deſerts,
+<lb />Qu’il devienne pour luy l’image des enfers.
+<lb />Des Demons volans briſent les ornemens de la Fon<lb />taine, ils déracinent les Arbres, &amp; renverſent les Ro<lb />chers; l’Amour effrayé s’envole, &amp; le Théatle ſe chan<lb />ge en un Enfer.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Et vous de mes fureurs, Ministres redoutables,
+<lb />Accourez, accourez; veneZ ſervir mes vœux.
+<lb />Des Magiciens viennent, à la voix de Meliſſe, &amp; ſe
+<lb />préparent à ſervir ſa fureur.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Faites naistre en ces lieux des Monſtres effroyables,
+<lb />Qu'on n’y reſpire que des feux.
+<lb />Il ſort des Monſtres du ſein de la terre, &amp; il tombe
+<lb />une pluye de feu.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Qu'on ne puiſſe inventer des horreurs comparables,
+<lb />Et que l’Enfer ſoit moins affreux.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Nous ſommes preſts à ſervir ta fureur
+<lb />Exerçons à ſes yeux un funeſte ravage,
+<lb />Que le Barbare apprenne à redouter ta rage,
+<lb />puirtns dans ſes eſprits l’épouvante &amp; l’horreur.
+<lb />Les Monſtres &amp; les Démons s’uniſſent pour le ſupplice
+<lb />d’Amadis.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR de Magiciens.
+<lb />, Amadis, crains la mort, crains les fers,
+<lb />Cet émbraZement, ce ravage,
+<lb />Les rochers renverſez, les abîmes ouverts,
+<lb />Dom les eſſais de noſtre rage.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />A quoy par ces horreurs penſez-vous me contraindre!
+<lb />Amadis peut mourir, mais il ne ſçauroit craindre.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Ceſſez, il doit ſentir de plus vives douleurs,
+<lb />je iuy reſerve une amre peine.
+<lb />Qu'il aille en mon Palais éprouver les malheurs
+<lb />Qu’il vient de voir dans la Fontaine,
+<lb />Son deſeſpoir au mien ne ſçauroit eſtre égal,
+<lb />S’il ne voit ſa Princeſſe adorer ſon Rival.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />A 
+<lb />4
+<lb />TI
+<lb />A0
+<lb />Le Theatre repreſente un endroit du
+<lb />Palais de Meliſſe borné de la Mer.
+</p>
+<p type="MainZone-Head"><lb />SCENE FREMIE’RE.
+<lb />MELISSE, LE PRINCE DE THRACE.
+<lb />LE PRINCE DE THRACE.
+</p>
+<sp type="MainZone-Sp"><lb />E parois, Amadis, aux yeux de la Prin<lb />ceſſe,
+<lb />Elle me jure une fidelle ardeur.
+<lb />Mais c'eſt à mon Rival que ſon ſer<lb />ment s’adreſſe,
+<lb />Et vous trompez ſes yeux ſans ſeduire ſon cœur.
+<lb />Que me ſert ce ſecours, elle eſt toûjours la meſme.
+<lb />Rien ne briſe le nœud que ſon cœur a formé.
+<lb />Plus elle aſſûre qu'elle m’aime,
+<lb />Plus je connois qu'Amadis eſt aimé,
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />C’eſt pour voſtre Rival une tendreſſe vaine,
+<lb />Vous l’empeſchez d’en goûter les appas;
+<lb />Faites vos plaiſirs de ſa peine,
+<lb />Vous estes trop heureux de ce qu’il ne l’eſt pas.
+<lb />Demeurez en ces lieux, attendez la Princeſſe,
+<lb />Je veux rendre Amadis témoin de vos diſcours
+<lb />Pour voir l’ingrat ſenſible à ma tendreſſe,
+<lb />Il faut de ſon dépit emprunter le ſecburs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Quoy P'uc oum iu Prineeſſe Amadis va paroiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Ne craigneZ rien, ſes yeux doivent le méconnoiſtre.
+<fw><lb />A
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE DEUXIE’ME.
+<lb />LE PRINCE DE THRACE. A
+</p>
+<sp type="MainZone-Sp"><lb />Elas! rien n’adoucit l’excés de mon mal<lb />II heur.
+<lb />Vous, flots impetueux qui battez ce rivage,
+<lb />Non, jamais les vents en fureur
+<lb />N'ont excité ſur vous un plus affreux orage,
+<lb />Que celuy qui trouble mon cœur.
+<lb />Je me ſens penetré d’une ſecrette horreur,
+<lb />Tout l’accroiſt, rien ne la ſoûlage;
+<lb />Je trahis mon amy ſans ſervir mon ardeur;
+<lb />Mon innocence &amp; mon bonheur
+<lb />Ont fait enſemble un funeſte naufrage.
+<lb />Vous, flots impetueux qui battez ce rivage,
+<lb />Non, jamais les vents en fureur
+<lb />N'ont excité ſur vous un plus affreux orage,
+<lb />Que celuy qui trouble mon cœur.
+</sp>
+<p type="MainZone-Lg"><lb />Il faut ſortir de ce trouble fatal
+<lb />Par le trépas de mon Rival.
+<lb />On vient; La Princeſſe s’avance,
+<lb />Contraignons-nous en ſa preſence.
+</p>
+<p type="MainZone-Head"><lb />SCENE TROISIE'ME.
+<lb />ALLNIQUEE
+<lb />qui prend le Prince de Thrace pour Amadis.
+</p>
+<sp type="MainZone-Sp"><lb />NIQUE’E.
+<lb />Madis, tout nous rit en ce charmant ſe<lb />jour,
+<lb />Meliſſe céde à nostre amour;
+<lb />En faveur de nos feux, elle a vaineu ſa haine.
+<lb />Une nouvelle feste, en ces lieux, dans ce jour.
+<lb />Va par ſon ordre encor celebrer noſtre chaiſne.
+<lb />Aien tuor uit doux flimea comviera nos deſirs....
+<lb />Mais cet air interdit m’apprend que je m’abuſe;
+<lb />Quoy! tout conſpire à nos plaiſirs,
+<lb />Et voſtre cœur ſeul s’y refuſe?
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Ah! mon trouble eſt l’effet de l’excés de mes feux,
+<lb />Si je vous aimois moins, je ſerois plus heureux.
+</sp>
+<sp type="MainZone-Sp"><lb />QUE’E.
+<lb />O Ciel! que dites-vous? ma ſurpriſe eſt extrême,
+<lb />Puis-je entendre ces mots d’une bouche que j’aime!
+<lb />Eſt-ce ainſi qu’on doit s’enflâmer?
+<lb />Un cœur vraiment touché, cherit ſon eſclavage,
+<lb />Le mien, en vous aimant, autant qu’il peut aimer,
+<lb />Voudroit encor vous aimer davantage.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PRINCE DE THRACE.
+<lb />Non, voſtre cœur pour moy, n'eſt pas aſſez épris.
+<lb />La gloire ſeule allume voſtre flâme.
+<lb />Vous cédeZ à l’éclat du grand Nom d’Amadis.
+<lb />Plûtoſt qu’à l’ardeur de mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />UE’E.
+<lb />Je n’entends rien à ce détour;
+<lb />Mais tout m’eſt cher en vous, &amp; la gloire &amp; l’a<lb />mour.
+<lb />Promettons-nous cent fois la plus vive tendreſſe;
+<lb />Que rien n’en finiſſe le cours.
+<lb />Le plus doux ues puijue eſt de s’aimer ſans ceſſe.
+<lb />Et de ſe le dire toüjours.
+<lb />Ce Concert nous annonce une Feſte Galante,
+<lb />Voyons les Jeux qu’on nous preſente.
+</sp>
+<p type="MainZone-Head"><lb />OA MELISSE.
+<lb />Une Troupe de Matelots vient par l’ordre de Meliſſe
+<lb />executer les Jeux qu’elle a fait preparer.
+</p>
+<p type="MainZone-Head"><lb />H
+<lb />SCENE QUATRIE’ME.
+<lb />NIQUE’E, LE PRINCE DE THRACE,
+</p>
+<sp type="MainZone-Sp"><lb />LE CONDUCTEUR de la Feſte.
+<lb />Oûtez, malgré les vents, la plus charmante
+<lb /> paix,
+<lb />Ne craignez plus le naufrage,
+<lb />Vivez heureux, triomphez, à jamais
+<lb />Des écüeils &amp; de l’orage.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Goûtez, malgré les vents, la plus charmante paix,
+<lb />Ne craignez plus le naufrage,
+<lb />ViveZ heureux, triomphez à jamais
+<lb />Des écüeils &amp; de l’orage.
+</sp>
+<sp type="MainZone-Sp"><lb />Un MATELOT.
+<lb />Le vent nous appelle,
+<lb />La Saiſon eſt belle,
+<lb />Il faut y'embarquer.
+</sp>
+<p type="MainZone-Other"><lb />CHOEUR.
+</p>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Le vent nous appelle,
+<lb />La Saiſon eſt belle,
+<lb />Il faut s’embarquer.
+</sp>
+<sp type="MainZone-Sp"><lb />Le MATELOT.
+<lb />Pourquoy ſe deffendre
+<lb />D’un commerce tendre,
+<lb />C’eſt perdre, qu’attendre;
+<lb />ue pouvons-nous riſquer.
+<lb />Le vent nous appelle,
+<lb />La Saiſon est belle,
+<lb />Il faut s’embarquer.
+</sp>
+<sp type="MainZone-Sp"><lb />OLOR.
+<lb />Le vent nous appelle,
+<lb />La Saiſon est belle,
+<lb />Il faut s’embarquer.
+</sp>
+<sp type="MainZone-Sp"><lb />e MATELOT.
+<lb />Sans verſer des larmes,
+<lb />Ni ſouffrir d’allarmes,
+<lb />Un port plein de charmes
+<lb />Ne peut nous manquer,
+<lb />uand un cœur s’engage
+<lb />Au temps du bel âge,
+<lb />Les vents ni l’orage,
+<lb />N'oſent l'attaquer.
+<lb />Le vent nous appelle,
+<lb />La Saiſon eſt belle,
+<lb />Il faut s’embarquer.
+</sp>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Le vent nous appelle,
+<lb />La Saiſon eſt belle,
+<lb />Il faut s’embarquer.
+<lb />Pendant la Feſte, le Prince de Thrace apperçoit Ama<lb />dis, &amp; ſort pour le combatre.
+</sp>
+<sp type="MainZone-Sp"><lb />N
+<lb />IQUE’E.
+<lb />Le chercheray-je en vain, que faut-il que je penſe.
+<lb />Qui peut me ravir ſa preſence.
+<lb />CeſſeZ, Jeux importuns, d’animer nos deſirs,
+<lb />Vous ne ſçauriez calmer l’ennuy qui me devore,
+<lb />C’eſt dans les yeux du Héros que j’adore,
+<lb />Que mon cœur cherche ſes plaiſirs.
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQUIE’ME.
+<lb />MELISSE, NIQUE’E.
+</p>
+<sp type="MainZone-Sp"><lb />AESIOGL.
+<lb />QUai-je vû, Dieux cruels!
+</sp>
+<sp type="MainZone-Sp"><lb />QUE’E.
+<lb />De quoy dois-je vous plaindre,
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSÉ.
+<lb />Apprend tout, je ne veux plus feindre.
+<lb />Sous les traits d'Amadis, je t’offrei. jea Rival,
+<lb />Ton cœur luy promettoit d’éternelles tendreſſes,
+<lb />ſe rendois Amadis temoin de tes promeſſes;
+<lb />Helas! j’en eſperois un ſuccés moins fatal.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy!
+<lb />NIQUE’E.
+</sp>
+<sp type="MainZone-Sp"><lb />AiuEFooa
+<lb />Le Prince n’a pû ſoûtenir ſa préſence,
+<lb />ſe t'ay vvu à Amadis defier le couroux;
+<lb />Mais Amadis d’un fer qu’a ſaiſi ſa vengeance.
+<lb />L’a fait en combattant expirer ſous jes coups.
+</sp>
+<sp type="MainZone-Sp"><lb />IQUE’E.
+<lb />Pourquoy me trompieZ-vous par cette reſſemblance.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Va, ne crains plus d’erreur, tu vas voir ton Amant,
+<lb />Mais tu ne le verras que pour voir ſon tourment.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+</p>
+<p type="MainZone-Head"><lb />TIO
+<lb />2
+<lb />T
+<lb />Le Ifieatre reprerente amliltre affreux,
+<lb />deſtiné aux enchantemens de Meliſſe.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Ieux! quelle horreur s’empare de mon
+<lb />ame!
+<lb />Cruelle, dans quel ſang veux-je éteindre
+<lb />ma flame!
+<lb />Mais l’Ingrat m’y contraint, rien ne peut l’attendrir,
+<lb />Plus je l’adore &amp; plus il me déteſte.
+<lb />Ah! joüiſſons du moins de la douceur funeſte
+<lb />De m’en vanger &amp; de mourir.
+<lb />On m’ameine Amadis, &amp; l’obiet qui l’engage:
+<lb />Amour, fors de mon cœur &amp; laiſſe agir ma rage.
+</sp>
+<p type="MainZone-Head"><lb />CENE DEUXIE'ME.
+<lb />MELISSE, AMADIS enchaîné, NIQUE’E
+<lb />enchainée.
+</p>
+<sp type="MainZone-Sp"><lb />QUEE.
+<lb />Qlel! ſur qui ſa fureur va-t’elle s’exercer?
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Epuiſez ſur moy ſeul voſtre haîne implacable.
+</sp>
+<sp type="MainZone-Sp"><lb />TOus DEUX.
+<lb />Si noſtre amour a pù vous offencer,
+<lb />Ne frapez que mon cœur, il eſt le plus coupable.
+</sp>
+<sp type="MainZone-Sp"><lb />AaDEloon levane le bras fur IxMladis.
+<lb />Barbare, c’est par toy que je vais commencer.
+</sp>
+<sp type="MainZone-Sp"><lb />Ah Ciel!
+<lb />NIQUE’E s’évanoüit.
+</sp>
+<sp type="MainZone-Sp"><lb />niuuleo ne
+<lb />Mais d’où me vient cette pitié ſoudaine?
+<lb />Par quel charme mon bras ſe ſent-il arreſter?
+<lb />Ah! ma flâme eſt encor plus forte que ma haïne,
+<lb />Et je ſens tous les coups que je te veux porter.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Helas! de quoy me ſert la pitié qui vous preſſe,
+<lb />Quand je tremble pour ma Princeſſe.
+<lb />Ah! voyez de quels maux elle ſent la rigueur.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Quoy! peux-tu te flatter que ſon ſort m’attendriſſe?
+<lb />Non, tu la plains, ſa mort va faire ton ſuplice,
+<lb />Je veux te frapper dans ſon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />Juſte Ciel!
+<lb />AMADIS.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Mais c’est peu pour vanger ma tendreſſe,
+<lb />Je te veux avec elle enchanter en ces lieux.
+<lb />Tu la verras mourir ſans ceſſe,
+<lb />Et le ſang ruiſſelant du ſein de ta Princeſſe,
+<lb />Sera l’unique objet qui frapera tes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Qu'entends-je! ô Ciel: quelle furie!
+<lb />Dieux, qui voyez ces projets inhumains,
+<lb />Protégez-vous la barbarie?
+<lb />Que ſert la foudre dans vos mains?
+<lb />Ah préveneZ la cruelle Meliſſe!
+<lb />N’attendez pas l’effet de ſon couroux,
+<lb />Que vos Foudres vangeurs l’écraſent ſous leurs coups,
+<lb />Ou que la Terre l’engloutiſſe.....
+<lb />Que dis-je malheureux! j’anime ſes fureurs.
+<lb />Ah! je tombe à vos pieds, rendez-vous à mes pleurs,
+<lb />Cédez, à nostre amour, &amp; ſurmontez le vostre.
+<lb />uoy! voulez-vous punir nos cœurs
+<lb />D’avoir eſté faits l’un pour l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Te piemrs Cles joupns jent oums
+<lb />Cruel, ils m’outragent encore.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS, en ſe relevant.
+<lb />O Mort! arrache-moy de ſes barbares mains;
+<lb />Ce n'est plus que toy que j’implore.
+<lb />Il s’abandonne à ſon deſeſpoir &amp;
+<lb />s’appuye contre un Rocher.
+</sp>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Manes de ſon Rival, Prince trop malheureux,
+<lb />Obéïs à ma voix, ſors du Royaume ſombre;
+<lb />Pour un enchantement affreux,
+<lb />Mon Art attend le ſecours de ton ombre:
+<lb />Viens te joindre avec moy pour contraindre le ſort
+<lb />A ſervir ma fureur extréme;
+<lb />Hâte-toy, ſors des lieux où t’enchaîne la Mort,
+<lb />Et oiono in utuunu le oungu uoy-même.
+<lb />Manes de ſon Rival, Prince trop malheureux,
+<lb />Obéis à ma voix, ſors du Royaume ſombre;
+<lb />Pour un enchantement affreux,
+<lb />Mon Art attend le ſecours de ton ombre.
+<lb />Une noire vapeur s’éléve dans les Airs;
+<lb />L’Ombre vient ſeconder ma rage.
+</sp>
+<p type="MainZone-Head"><lb />SCENE TROISIE’ME.
+<lb />L’Ombre du Prince de Thrace.
+<lb />Acteurs de la Scene précedente.
+</p>
+<sp type="MainZone-Sp"><lb />L'OMBRE.
+<lb />Es cris ont pénétré juſqu’au ſombre rivage,
+<lb />TEt je ſors malgré moy du ſejour des Enfers,
+<lb />Les Dieux vangeurs de l’injuſtice
+<lb />Protégent contre toy ces fideles Amans,
+<lb />Et m’impoſent pour mon ſuplice
+<lb />De venr t'annoncer la fin de leurs tourmens.
+</sp>
+<p type="MainZone-Other"><lb />Il diſparoiſt.
+</p>
+<p type="MainZone-Head"><lb />CENE QUATRIE’ME.
+<lb />MELISSE, AMADIS, NIQUE’E
+<lb />qui a repris ſes eſprits.
+</p>
+<sp type="MainZone-Sp"><lb />MELISSE.
+<lb />Ciel! injuſte Ciel! barbare violence.
+<lb />JQuoy? je ne puis punir des mépris odieux.
+<lb />Est-ce donc pour vous ſeuls, impitoyables Dieux!
+<lb />Que vous reſervez, la vengeance?
+<lb />Non,
+</sp>
+<sp type="MainZone-Sp"><lb />Non, non, malgré voſtre ſecours
+<lb />Il faut que ma Rivale expire....
+<lb />Elle veut avancer vers Niquée;
+<lb />&amp; ſe ſent arreſter.
+<lb />Mais je le veux en vain.,. vous defendez ſes jours.
+<lb />Le Ciel &amp; les Enfers, contre moy tout conſpire,
+<lb />0I
+<lb />je vous emiens, granus Dieux, u jaut finir mon ſort,
+<lb />Et l’Arreſt de ſa vie eſt l’Arreſt de ma mort.
+</sp>
+<sp type="MainZone-Sp"><lb />Elle ſe frape.
+<lb />C’en eſt fait, Amadis, ta flâme eſt triomphante;
+<lb />Ton Ennemie expire ou plûtôt ton Amante.
+<lb />Mais toy, ne me hais plus, pardonne à ma fureur
+<lb />Les maux que je t’ay voulu faire......
+<lb />Helas! tu t’attendris, tu me vois ſans horreur,
+<lb />Voilà le ſeul état où je pouvois te plaire,
+<lb />C’estoit ton unique deſir......
+<lb />Auis je muſpoious; je chancelle,
+<lb />Un froid mortel vient me ſaiſir,
+<lb />Trop heureuſe en tombant uans ta nuit eternelle,
+<lb />Si ma mort t’arrache un ſoûpir.
+</sp>
+<sp type="MainZone-Sp"><lb />Que je la plains!
+<lb />NIQUE’E
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />Que ſon ſort eſt tragique!
+</sp>
+<sp type="MainZone-Sp"><lb />TOUS DEUX.
+<lb />Mais, quel éclat! quels Sons harmonieux!
+<lb />Qui peut changer ees triſtes lieux
+<lb />En un ſejour ſi magnifique?
+<lb />LAntre ſe change en un Palais eclatant, &amp; Zirphée
+<lb />paroiſt ſur un nuage.
+</sp>
+<sp type="MainZone-Sp"><lb />E.
+<lb />Que vois-je? eſt-ce Zirphée, en croiray-je mes yeux!
+</sp>
+<p type="MainZone-Head"><lb />SCENE CINQUIE'ME.
+<lb />ZIRPH’EE, AMADIS, &amp; NIQUE’E.
+</p>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E.
+<lb />IOus vos maux ſont finis, ceſſez de vous en
+<lb />plaindre,
+<lb />Qu'un tendre Himen vienne les reparer.
+<lb />Voſtre amour n’a plus rien à craindre
+<lb />Qu’il n'ait plus rien à deſirer.
+</sp>
+<sp type="MainZone-Sp"><lb />AMADIS.
+<lb />An: pouvois-je eſperer une faveur ſi grande?
+</sp>
+<sp type="MainZone-Sp"><lb />JE’E.
+<lb />Que ne vous dois-je point pour de ſi doux bien faits.
+</sp>
+<sp type="MainZone-Sp"><lb />ZIRPHE’E.
+<lb />Aimez-vous à jamais,
+<lb />C’eſt tout le prix que j’en demande.
+<lb />Vous, qui vous empreſſez pour ſervir mes deſirs,
+<lb />Par mille Jeux nouveaux, celebrez leurs plaiſirs.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />NIQUE’E, AMADIS, ZIRPHE’E.
+<fw><lb />Des Eſprits ſous la forme de Guerriers, portent des
+<lb />Drapeaux où ſont repreſentez les Exploits d’Amadis.
+<lb />D’autres, ſous la forme de divers Peuples, dont Ama<lb />dis a ſoûtenu la gloire, portent des Couronnes ou des
+<lb />Trophées; &amp; d’autres, ſous la forme des Beautez les
+<lb />plus fameuſes, viennent rendre hommage à la beauté
+<lb />de Niquée.
+</fw></p>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Ue les Ris, que les Jeux regnent dans ces
+<lb />retraites,
+<lb />Formons les plus charmans Concerts,
+<lb />1n dues Tumcems, que te Son der Trom<lb />pettes
+<lb />En faſſent retentir les Airs.
+<lb />
+</sp>
+<p type="MainZone-P"><lb />Fin du cinquiéme &amp; dernier Acte.
+</p>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />NIQUE’E, AMADIS, ZIRPHE’E.
+<fw><lb />Des Eſprits ſous la forme de Guerriers, portent des
+<lb />Drapeaux où ſont repreſentez les Exploits d’Amadis.
+<lb />D’autres, ſous la forme de divers Peuples, dont Ama<lb />dis a ſoûtenu la gloire, portent des Couronnes ou des
+<lb />Trophées; &amp; d’autres, ſous la forme des Beautez les
+<lb />plus fameuſes, viennent rendre hommage à la beauté
+<lb />de Niquée.
+</fw></p>
+<sp type="MainZone-Sp"><lb />CHOEUR.
+<lb />Ue les Ris, que les Jeux regnent dans ces
+<lb />retraites,
+<lb />Formons les plus charmans Concerts,
+<lb />1n dues Tumcems, que te Son der Trom<lb />pettes
+<lb />En faſſent retentir les Airs.
+<lb />
+</sp>
+<p type="MainZone-P"><lb />Fin du cinquiéme &amp; dernier Acte.
+</p>
+    </body>
+  </text>
+</TEI>

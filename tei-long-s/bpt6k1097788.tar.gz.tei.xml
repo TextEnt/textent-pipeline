@@ -1,0 +1,2830 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Sophonisbe / tragédie de Mairet, dédiée à Monseigneur le garde des seaux [sic]</title>
+        <author>Mairet, Jean</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb308628329"/>
+          <author>
+            <persName>Mairet, Jean</persName>
+          </author>
+          <title>La Sophonisbe / tragédie de Mairet, dédiée à Monseigneur le garde des seaux [sic]</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1635" cert="high" resp="BNF">1635</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />1
+<lb />1aA
+<lb />SOPHONISBE,
+<lb />TRAGEDIE
+<lb />DE MAIRET.
+<lb />DEDIEE,
+<lb />A MONDETGNEVR
+<lb />LE GARDE DES SEAVX.
+</p>
+<p type="MainZone-Head"><lb />
+<lb />R
+<lb />Chez PIERRE ROCOLET, au Palais en la
+<lb />gallerie des Priſonniers, aux Armes de la Ville.
+</p>
+<p type="MainZone-Head"><lb />M. DC. XXXV
+<lb />AVEC PRIVILEGE DV ROY.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />MONSEIGNEVR
+<lb />MESSIRE
+<lb />TIEICRD SECVIEN,
+<lb />GARDE DES SEAVX DE FRANCE.
+</p>
+<sp type="MainZone-Sp"><lb />NICNEVR,
+<lb />Eſtant naturellement bien-faiſant,
+<lb />comme vous eſtes, &amp; n'ayant iamais
+<lb />manqué de matiere pour le faire dignement pare<lb />cuiſque les plus belles charges du Parlement,
+<lb />que vous auez ſoutennes auec tant de ſuffiſance
+<lb />&amp; de probité, ſont les honorables degrez par ou l’on
+<lb />vous a fait monter à la grandeur de celle que vous
+<lb />exercez, mainienn; Il eſt impoßible que vous
+<lb />n'ayez obſerué que les bien-faits ont cela de propre
+<lb />de rendre ceux qui les ont receus plus hardis ou plus
+<lb />importuns à s’en procurer de nouueaux, &amp; qu'vne
+<lb />premiere faueur eſt ordinairement la ſemence d’vne
+<lb />ſeconde. Pour moy, MONSEIGNEVR, c'eſt en ſui<lb />te de la permißion que vous m'auez donnée ſous võ<lb />tre Seau de mettre ma Sophoniſbe au iour, que i’oſe
+<lb />vous demander encore, &amp; que vous m'accorderez, s’il
+<lb />vous plaiſt, celle de vous la dediers puis qu’il eſt
+<lb />vray que ie ne ſçaurois mieux la mettre en lumiere,
+<lb />qu'en luy communiquant quelque rayen de la voſtre,
+<lb />que tout le monde regarde, comme vne des plus pu<lb />res &amp; des plus eſclatantes de noſtre temps. Les teſ<lb />moignages que vous aueZ rendus deuant quelques<lb />vns de mes amis, que cette piece vous auoit aſſez,
+<lb />contenté ſur le Theatre, me font eſperer qu’elle ne
+<lb />vous déplaira pas dans le cabinet: ſi ce n’eſt point
+<lb />pecher contre le bien public, que de luy deſrober vne
+<lb />heure de voſtre loiſir, pour ma ſatis faction-particu<lb />liere. Cependant, MONSEIGNEVR, quel<lb />que bon-heur, ou quelque applaudiſſement qu’eet o<lb />cette Tragedie, qui ſe peut vanter d’auoir tiré des
+<lb />ſouſpirs des plus grands cœurs, &amp; des larmes des
+<lb />plus beaux yeux de France; ie ne laiſſe pas de vous de<lb />mander grace pour elle &amp; pour moy; ne doutant pas
+<lb />qu’auec les clartés d’eſprit &amp; de iugement que vous
+<lb />auez, vous n'y remarquiez des defauts qui n'ont pas
+<lb />eſté deſcouuerts iuſques icy. C’eſt pourquoy ne treu<lb />uez pas mauuais que i'eſſaye en cecy de vous cor<lb />rompre, afin de vous auoir plisſtoſt en qualité de
+<lb />fauorable Protecteur, que de Juge equitable. I’au<lb />rois trop à craindre pour moy, ſi vous me vouliez
+<lb />faire iuſtice, &amp; me iuger ſelon mes œuures qui
+<lb />n'ont rien de rare ou de bon, que de porter en teſte
+<lb />vn caractere que la meſdiſance ny les années ne
+<lb />pourront iamais effacer; Ie veux dire ce tres-illuſtre
+<lb />nom de SEGVIER, que vous portez, &amp; qui fut
+<lb />autre-fois de ſi bonne odeur en la perſonne de ce
+<lb />grand Preſident voſtre oncle, de glorieuſe me moire,
+<lb />de qui l’amour pour les bonnes lettres, l’integrité de
+<lb />vie pour ſoy-meſme, &amp; la iuſtice pour tout le mon<lb />de, reuiuent en vous, comme en ſon digne &amp; verita<lb />ble ſucceſſeur. Ie ſuis,
+</sp>
+<p type="MainZone-Other"><lb />Voſtre tres humble, &amp; tres-obeyſſant
+<lb />ſeruiteur, MAIRET.
+</p>
+<p type="MainZone-Head"><lb />AV LECIEVR.
+</p>
+<p type="MainZone-P"><lb />ME ſujet de ceſte Tragedie eſt dans Tite Liue, Poly<lb />be, &amp; plus au long dans Apian Alexandrin. Il eſt
+<lb />vray que i’y ay voulu adiouſter pour l’embelliſſe<lb />ment de la piece, &amp; que i’ay meſme changé deux incidents
+<lb />de l’Hiſtoire aſſez conſiderables, qui ſont la mort de Siphax,
+<lb />que i’ay fait mourir à la bataille, afin que le peuple ne treuuât
+<lb />point eſtrange que Sophoniſbe eût deux maris viuants: &amp;
+<lb />celle de Maſſiniſſe, qui veſcut iuſques à l’extréme vieilleſſe.
+<lb />Les moins habiles doiuent croire que ie n’ay pas alteré l’hi<lb />ſtoire ſans ſujet, &amp; les plus delicats verront, s’il leur plaiſt en
+<lb />prendre la peine, la deffence de mon procedé dans Ariſtote.
+<lb />Sanè conſtat ex bis non Poëtæ eſſe ipſa facta propria narrare, ſed quẽ<lb />admodũ geri quiuerint, vel verißimile, vel omnino neceſſarium fuerit,
+<lb />&amp; c.Et pour les modernes,qu’ils ayent la curioſité de me voir
+<lb />iuſtifier dans les deux diſcours que le Comte Proſper Bona<lb />relli adreſſe à vn de ſes amis nommé Antoine Brun, pour ſon
+<lb />Solyman, que i’eſpere habiller vn de ces iours à la Fran<lb />çoiſe: c’eſt en la derniere impreſſion de l’année? L
+<lb />XXXII. Tant y a que ie fais faire à Maſſiniſſe ce qu’il de<lb />uoit auoir fait, &amp; que la fin de la Tragedie eſtant la commi<lb />ſeration, ie ne la pouuois pas mieux treuuer qu’en le faiſant
+<lb />mourir. Si ie mets iamais ma Cleopatre au iour, ie m’eſtẽdray
+<lb />dauantage ſur cette matiere:cependant l’experience a montré
+<lb />ſur le Theatre, que ie n’ay point mal fait de m’eſloigner vn
+<lb />peu de l’hiſtoire.
+</p>
+<p type="MainZone-P"><lb />E ROY par ſes Lettres de Priulege, dattées du cinquieſme Fe<lb />Uurier, mil ſix cents trente-cinq, ſignées, par le Roy en ſon
+<lb />Conſeil, LE CONTE, &amp; ſeellées du grand ſeau de cire jaune, a
+<lb />permis au Sieur Mairet de faire imprimer, faire vendre &amp; diſtri<lb />buer par tel Libraire ou autre que bon luy ſemblera, trois Liures
+<lb />de Theatre, intitulez, a Sophonisbe, La Virginie: &amp;, Le Duc d’oſ<lb />ſonne. Faiſant defences à tous Libraires, Imprimeurs, &amp; autres de
+<lb />quelque qualité qu’ils ſoient, d’imprimer leſdits Liures, en vendre ny
+<lb />diſtribuer par tout le Royaume, pays &amp; terres de ſon obeyſſance,
+<lb />ſans le conſentement dudit ſieur Mairet, ou ceux qui auront charge
+<lb />de luy, pendant le temps de neuf ans, à compter du iour qu’ils ſeront
+<lb />acheuez d’imprimer, ſur peine aux contreuenans de confiſcation
+<lb />des exemplaires, &amp; de trois cents liures d’amende; A condition qu’il
+<lb />ſera mis deux exemplaires de chacun deſdits Liures en la Biblio<lb />theque du Roy: &amp; vn exemplaire de cnacun en ceſe du Sr. Seguier
+<lb />Garde des Seaux, auant que de les expoſer en vente, à peine de nul<lb />lité du priuilege, comme il eſt amplement porté par l’original des
+<lb />preſentes.
+</p>
+<p type="MainZone-P"><lb />Tieun Mutlennuvato vimpine le priuilege à luy donné,
+<lb />Là PIERRE ROCOLET, Marchand Libraire à Paris, pour en
+<lb />ioüyr entierement, &amp; pour le temps yporté, ſuiuen: le Contract paßé entre<lb />eux pardeuant les Noraires de Paris.
+</p>
+<p type="MainZone-P"><lb />Acheué d’imprimer le Mardy 22.May 1635.
+</p>
+<p type="MainZone-Entry"><lb />Les aeux exemplaires ont eſté baillez en la bibliotheque du Roy.
+</p>
+<p type="MainZone-P"><lb />Fautes ſuruenües en l’impreſſion.
+<lb />Page 27. au lieu de s’imagine, liſez imagine. Page 42. au lieu de Mada<lb />me, liſez la Reyne. Page 65. liſez, qui me l’auoit cauſe. Page 87. tout le
+<lb />pouuoir Romain, liſeZ tout vn peuple.
+</p>
+<p type="MainZone-Head"><lb />LES TERSONNAOES QVI PARLENT.
+</p>
+<p type="MainZone-Entry"><lb />SIPHAX
+</p>
+<p type="MainZone-Entry"><lb />Roy de Numidie.
+</p>
+<p type="MainZone-Entry"><lb />AIIIHON.
+<lb />General de Siphax.
+</p>
+<p type="MainZone-Entry"><lb />MASSINISSE Ennemy de Siphax.
+</p>
+<p type="MainZone-Entry"><lb />SCIPION Conſul Romain.
+<fw><lb />LELIE
+</fw></p>
+<p type="MainZone-Entry"><lb />Lieutenant de Scipion.
+</p>
+<p type="MainZone-Entry"><lb />CALIODORE Domeſtique de Sophoniſbe.
+<fw><lb />ARISTON Soldat Romain.
+<lb />SOPHONISBE Femme de Siphax, &amp; amoureuſe
+</fw></p>
+<p type="MainZone-Entry"><lb />PHENICE, &amp;
+<fw><lb />de Maſſiniſſe.
+<lb />CORISBE Ses confidentes.
+</fw></p>
+<p type="MainZone-Entry"><lb />La Scene eſt dans Cyrte, ville
+<lb />de Numidie.
+</p>
+<p type="MainZone-Head"><lb />DORTIORIOEE
+<lb />TRAGEDIE
+<lb />DE MAIRET.
+</p>
+<p type="MainZone-Head"><lb />RICTE
+<lb />SCENE I
+<lb />I
+<lb />SYPHAX. SOPHONISBE.
+</p>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />VOY perfide? s’entendre auec mes en<lb />nemis;
+<lb />mis?
+<lb />Bn Eſt-ce là cét amour que tu m’auois pro<lb />Est-ce là cette foy que tu m'auois donnée,
+<lb />Et le ſacré respect qu’on doit à l’Hymenée?
+<fw><lb />A
+</fw><lb />Ingrate Sophoniſbe, as-tu ſi-tost perdu
+<lb />La memoire du ſoin que Syphax t’a rendu?
+<lb />Quelque inégalité qui ſoit entre nos âges,
+<lb />Parmy mille ſubjets de ſoupçons &amp; d’ombrages,
+<lb />Qu'vn mary plus credule eut pris à tout propos,
+<lb />Ay-je rien entrepris qui troublaſt ton repos?
+<lb />As-tu pas touſiours eu, comme Reyne abſoluë,
+<lb />Toute la liberté que toy-meſme as vouluë?
+<lb />Cependant ton caprice ennemy de mon bien,
+<lb />Trahit ingratement mon honneur &amp; le tien.
+<lb />STu ſçais que pour complaire a ceſte vieille hayne,
+<lb />Que ta race eut touſiours pour la race Romaine,
+<lb />I'ay quitté l’amitié de ce Peuple puiſſant,
+<lb />Par où te conſeruois mon Eſtat floriſſant.
+<lb />Sans tes mauuais conſeils, à qui i'ay voulu plaire.
+<lb />On ne me verroit pas destruit comme ie ſuis,
+<lb />Ny l’esprit aueuglé d’vn nuage d’ennuis.
+<lb />I'aurois deſſus le front ma couronne affermie,
+<lb />Car i’aurois Rome encore &amp; la Fortune amie.
+<lb />Mais quoy? m'ayãt perdu de gloire &amp; de bon-heur,
+<lb />Il te reſtoit encore à me perdre d’honneur.
+<lb />Il te reſtoit encor pour comble de malice,
+<lb />A te lier d’amour auecque Maßiniſſe.
+<lb />Ie veux que ie te peſe, &amp; que mes cheueux gris,
+<lb />Soient à tes ieunes ans vn ſubiect de meſpris;
+<lb />Hay moyſi tu le veux, abhorre ma perſonne:
+<lb />Mais que t'ont fait les miens, que t’a fait ma Courõne,
+<lb />Pour faire un ennemy l’obiect de tes deſirs?
+<lb />Ne pouuois-tu treuuer où prendre tes plaiſirs,
+<lb />Qu’en cherchant l’amitié de ce Prince Numide,
+<lb />Qui te rend tout enſemble impudique &amp; perfide;
+<lb />Veu que tu ne ſçaurois l’aymer ſans me hayr,
+<lb />Ny t’entendre auec luy ſans me vouloir trahir.
+<lb />Je n'a y pour mon malheur que trop de connoiſſance,
+<lb />Du ſujet dont ta flame a tiré ſa naiſſance:
+<lb />Tu l’as touſiours aymé, depuis le iour fatal,
+<lb />Qu'il te fut accordé par ton Pere Aſdrubal,
+<lb />Et quedeles regaras valtemne empotjonnce,
+<lb />Me fit prendre pour moy ce funeſte Hymenée.
+<lb />Heureux dans ce mal-heur, ſi le meſme flambeau,
+<lb />Qui nous mit dans le lit, nous eut mis au tombeau.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ha! Sire, pleuſt aux Dieux m’eußiez vous eſcoutée
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Que me pourrois-tu dire impudente, effrontée?
+<lb />A ij
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ce qui m'exempteroit de ces noms odieux;
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Oüy, ſi i’eſtois perclus de l’esprit &amp; des yeux;
+<lb />Ouy, ſi ie ne ſçauois quelle eſt ton eſcriture,
+<lb />Conuainc-moy toutes fois d’erreur &amp; d’impoſture:
+<lb />Je ſeray ſatisfait quand tu te purgeras;
+<lb />Fais-le donc ſi tu peux, &amp; tu m’obligeras.
+<lb />Il luy monſtre ſa lettre:
+<lb />Deſaduouras-tu point ces honteux caracteres,
+<lb />Complices &amp; teſmoins de tes feux adulteres?
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Non, Sire, ils ſont de moy, ie ne le puis nier,
+<lb />Et n'ay pas entreprts de me iuſti fier
+<lb />nunommunneſpnomo ue oipiou upudence;
+<lb />Il eſt vray, i'a y failly, mais c’eſt par imprudence:
+<lb />C’eſt manque de conduite, &amp; pour vous auoir teu
+<lb />Vn genereux deſſein que mon cœur auoit eu,
+<lb />Dont ma bouche en effect vous deuoit rẽdre conte.
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />O Dieux! as-tu perdu le ſens auec la honte?
+<lb />Ta faute, ce dis-tu, vient de m’auoir caché
+<lb />Le genereux deſſein de commettre vn peché;
+<lb />O responſe indiſcrette autant comme inſenſée!
+<lb />Explique, explique mieux ta confuſe penſée:
+<lb />Excuſe ton offenſe au lieu de l’agrauer,
+<lb />Et ne te ſouille pas au lieu de te lauer.
+<lb />Songe a ce que tu dis, &amp; que iamais oreille
+<lb />N'ouit extrauagance à la tienne pareille:
+<lb />Remets donc ton eſprit de ſa cheute eſtourdy;
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Vous prenez mal le ſens des choſes que ie dy,
+<lb />Ie veux dire, Seigneur, a fin que ie m'explique,
+<lb />Que iamais le flambeau d’vn amour impudique,
+<lb />Quoyquevon entrojes, nem eſchanſjale pein,
+<lb />Et que i’auois eſcrit pour vn autre deſſein:
+<lb />C’eſt par où ie pretends prouuer mon innocence,
+<lb />Si vostre Majeſté m'en donne la licence.
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Parlez, parlez, Madame, &amp; ſi vous le pouuez,
+<lb />Mettez vôtre innocẽce au poinct que vous deuez.
+<lb />C’est le plus grand plaiſir que vous me ſçauriez faire
+<lb />Mais qu’auecque zaiſon i'ay crainte du contraire!
+<fw><lb />A iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Sire, vous voyez trop à quelle extremité
+<lb />Les armes des Romains vous ont precipité;
+<lb />Voſtre Empire perdu, voſtre Ville aßiegée,
+<lb />Et l’armee.ennemie à nos portes logée,
+<lb />De nos meilleurs ſoldats les courages faillis,
+<lb />Nos dehors enportez, nos remparts aſſaillis,
+<lb />Et qu’il n’eſt qua ſi plus en le puiſſance humaine,
+<lb />De repouſſer de nous l’inſplence Romaine.
+<lb />Moy, qui Cartaginoiſe, &amp; vray ſang d’Aſdrubal,
+<lb />N'ay tamais reconnu ny creint vn pire mal,
+<lb />Que celuy dont le ſort affligeroit ma vie,
+<lb />Si ce peuple odieux la tenoit aſſeruie;
+<lb />I'ay ereu qu’il ſeroit bon de m’acquerir de loin,
+<lb />Vn bras qui conſeruaſt ma franchiſe au beſoin:
+<lb />C’eſt pourquoy i’eſcriuois au Prince Maßiniſſe,
+<lb />Sous vne feinte amour couurant mon artifice;
+<lb />Et pour vous mieux prouuer la choſe comme elle eſt,
+<lb />Que voſtre Majeſté regarde s’il luy plaiſt,
+<lb />Que meſpriſant la fleur des Princes d’Italie,
+<lb />Et le grand Scipion, &amp; le ſage Lelie,
+<lb />I'ay voulu m'aſſeurer de l’aßiſtance d’vn,
+<lb />A qui le nom Lybique auec nous fut commun.
+<fw><lb />4
+</fw><lb />Voilà, Sire, en deux mots la cauſe veritable,
+<lb />De l’erreur qui me rend apparemment coupable:
+<lb />Mais tes Dieux apres tout que lt prens a veſmoins
+<lb />Sçauent bien, en effect, que ie ne ſuis rien moins.
+</sp>
+<sp type="MainZone-Sp"><lb />S
+<lb />YPHAX.
+<lb />Croy pluſtoſt que ces Dieux ennemis des parjures,
+<lb />Vangeront en cecy nos communes injures:
+<lb />Et qu’vn iour desjà proche ils puniront ſur toy,
+<lb />Le mespris que ton cœur a faict d’eux &amp; de moy.
+<lb />Ie te tiens ſi tu veux innocente &amp; pudique:
+<lb />Mais tu te ſouuiendras qu’vn Eſprit prophetique
+<lb />T’annonce par ma-voix, qu’vn ſuccez mal-heureux
+<lb />Doit ſuiure de bien-pres tes deſſeins amoureux.
+<lb />C’eſt la ſeule raiſon qui peut faire à ceſte heure,
+<lb />Que ſans punition ton offenſe demeure,
+<lb />ADinump mecux quute oreomen faſſe ia raiſon,
+<lb />Que ſi ie la tirois du fer ou du poiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Quoy donc voſtre ſoupçon rejette mes excuſes?
+<lb />O Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />deguiſe mieux tes inutiles ruſes,
+<lb />De qui le faux eſclat ne ſçauroit m’eſblouir,
+<lb />Adieu, ie ne veux plus ny te voir, ny t'oüir.
+</sp>
+<sp type="MainZone-Sp"><lb />Va t’en, va, que ſur toy ma cholere n’eſclate,
+<lb />Femme ſans foy, ſans cœur, &amp; ſur toutes ingrate.
+<lb />Elle rentre.
+<lb />Va reſpandre plus loin tes infidelles pleurs,
+<lb />Et me laiſſe tout ſeul auecque mes douleurs.
+<lb />Il demeure ſeul.
+<lb />O Ciel pouuois-tu mieux me teſmoigner ta ha yne,
+<lb />Qu’en mettãt dãs mõ lict ceſte impudique Heleine,
+<lb />Ou plutoſt cette peſte, &amp; ce fatal tiſon,
+<lb />De qui deſia la flame embraze ma maiſon?
+<lb />Quel Roy ſans cette horreur de la foy coniugale,
+<lb />Auroit vne fortune à ma fortune eſgale?
+<lb />Soit maudit à iamais le lieu, l’heure, &amp; le iour,
+<lb />Que ſon aſpect charmeur me donna de l’amour.
+<lb />Quand i’aurois en vn iour trois batailles perduës,
+<lb />Et cent places de marque aux ennemis renduës,
+<lb />I'euſſe encor moins perdu, qu’alors que ſa beauté
+<lb />Me fit perdre le ſens auec la liberté.
+<lb />Depuis que cette t'ache eut obſcurcy ma vie,
+<lb />La mauuaiſe fortune a ma faute ſuiuie.
+<lb />Il n’eſt point de mal-heur qui ne m'ait accueilly,
+<lb />Et bien plus que mon corps mon esprit a vieilly.
+<lb />Deputs, mon tugement a bien moins de lumiere,
+<lb />Et ſemble eſtre decheu de ſa force premiere.
+<fw><lb />Tout
+</fw><lb />Tout ce que i’entreprens, me ſuccede à rebours,
+<lb />Soit manque de bon-heur, ou manque de diſcours.
+<lb />O trois &amp; quatre fois mal-heureux Hymenée!
+<lb />Qui rend de mes vieux ans la courſe infortunée.
+</sp>
+<sp type="MainZone-Sp"><lb />AEEE
+<lb />SCENE II.
+<lb />I
+<lb />PHILON, General de Syphax.
+<lb />IRE, l’on n’attend plus que voſtre Majeſté,
+<lb />Pour charger Maßiniſſe au cõbat appreſté.
+<lb /> Deſia ſes Legions de trop d’heur inſolentes,
+<lb />Ont tiré loin du camp leurs enſeignes volantes;
+<lb />Et vos gens hors la ville en bataille rangez,
+<lb />Iurent de n’y rentrer que vainqueurs &amp; vangez.
+<lb />Tandis que leurs esprits la vengeance reſpirent,
+<lb />Il les faudroit mener au combat qu’ils deſirent,
+<lb />De peur qu'à differer ils ne perdent ſans fruit,
+<lb />Ceſte boüllante ardeur que la victoire ſuit.
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Allons, &amp; plai ſe aux Dieux qu’vn treſpas honorabls
+<lb />Me deliure bien-toſt d’vn ſort ſi deplorable.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILON.
+<lb />Quoy, Sire, &amp; depuis quand voſtre cœur abbatu,
+<lb />Laiſſe-t’il au mal-heur accabler ſa vertu?
+<lb />D’où vient qu’en vos diſcours, &amp; ſur voſtre viſage,
+<lb />On remarque les traicts d'vn ſiniſtre preſage?
+<lb />Vous n’eſtes pas encor ſi mal-traicté du ſort,
+<lb />Que vous ſoyez reduit à deſirer la mort:
+<lb />Et aoy qe tuſ quiey tà Portune contratre,
+<lb />Nous ait faict tout du pis qu’elle nous pouuoit faire,
+<lb />Si faut-il esperer que ſa legereté,
+<lb />La fera reuenir à voſtre Majeſté:
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Ha! Philon, ſouuiens-toy que la Fortune eſt fâme,
+<lb />Et que de quelque ardeur que Syphax la reclame,
+<lb />Elle eſt pour Maßiniſſe, &amp; qu'elle a ymera mieux.
+<lb />Suiure vn ieune Empereur, qu'vn autre deſia vieux:
+<lb />Mais que ce n’est pas là le ſubiect de ma creinte,
+<lb />Ny de l'extreme deuil dont mon ame eſt atteinte?.
+<lb />Ma vie eſt bien ſoumiſe à de pires dangers.
+<lb />Et tous mes ennemts ne ſont pas eſtrangers.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILON.
+<lb />Comment, Stre, queiqu vn entre vos domeſtiques,
+<lb />A-t il fait contre vous d’infidelles pratiques?
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Ouy, ie ſuis odieux à ceux de ma mai ſon,
+<lb />Qui me deuroient cherir auec plus de raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILON.
+<lb />Il faut donc dans leur ſang auecque promptitude,
+<lb />Noyer leur perfidie, &amp; leur ingratitude;
+<lb />Le ſecret de l’affaire eſt de les preuenir,
+<lb />Et voſtre ſeureté conſiſte à les punir.
+<lb />Mais qui ſont ces ingrats, ces courages perfides,
+<lb />Qui peuuent conceucir des penſers homicides,
+<lb />Pour le plus digne Roy qui ſoit en l’Vniuers,
+<lb />Et que ne les perd-on, puis qu’ils ſont deſcouuers?
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Pource qu’en les perdant ie me perdrois moy-meſme,
+<lb />Qui tous traiſtres qu’ils ſont les excuſe &amp; les ayme.
+<lb />B2
+<lb />C’eſt en quoy ma fortune eſt digne de pitié,
+<lb />D’auoir encor pour elle vn reſte d’amitié,
+<lb />Au lieu de la punir de mespris &amp; de hayne.
+</sp>
+<sp type="MainZone-Sp"><lb />Pour elle?
+<lb />THIEON.
+</sp>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Oüy, cher Philon, ie parle de la Reyne,
+<lb />Et veux bien confier à ton eſprit diſcret,
+<lb />Vn malheur que ie tiens pour toust autre ſecret,
+<lb />I'ay des preuues en main qui te feront parétre,
+<lb />Que ſi ie ſuis troublé, i’ay bien ſubiect de l’eſtre:
+<lb />Et que la peur qu’imprime vn ennemy vainqueur,
+<lb />N'eſt pas ce qui m’abbat le viſage &amp; le cœur;
+<lb />Voy ce papier honteux, &amp; par ſon eſcriture,
+<lb />Aprens à meſme temps, &amp; plains mon auanture.
+<lb />Il lit.
+<fw><lb />LETTRE DE SOPHONISBE
+</fw></sp>
+<sp type="MainZone-Sp"><lb />A MASSINISSE<lb />J'Oyez à quel mal-heur mon Deſtin eſt ſoumis;
+<lb />Le bruit de vos vertus, &amp; de voſtre vaillance,
+<lb />Me contraint aujourd’huy d’aymer mes ennemis,
+<lb />D’vn ſentiment plus fort que n’eſt la bien-veillance.
+<lb />Et bien aurois-tu creu que ſous tant de beauté,
+<lb />Logeaſt tant de malice et de deſloyauté?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILON.
+<lb />Certes les Dieux encor n’ont point fait de courage,
+<lb />Qui ſoit ineſbranlable aux coups de cét orage;
+<lb />Et c’eſt auec raiſon que le vostre auiourd’hu y,
+<lb />Pour vn ſi grãd mal-heur monſtre vn ſi grãd ennuy.
+<lb />Mais, Sire, il faut pen ſer quec' eſt aux grãdes ames,
+<lb />A ſou ffrir les grãds maux, &amp; que fẽmes ſont fâmes:
+<lb />Courons remedier d’vn courage conſtant,
+<lb />Au danger le plus proche, &amp; le plus important.
+<lb />Dongeis epuem uo pirtupumu uu puiſſance Romaine,
+<lb />Vous deſtruiſez außi les deſſans de la Rẽyne:
+<lb />Qu'il eſt bon cependant d’obſeruer de plus pres,
+<lb />Par des yeux vigilans qu’on y peut mettre expres.
+</sp>
+<sp type="MainZone-Sp"><lb />SIEHAX.
+<lb />Allons, Philon, allons, où le Deſtin m’appelle,
+<lb />Et que ma mort contente vne Eſpouſe in fidelle.
+<lb />Cependant Maßiniſſe,
+</sp>
+<p type="MainZone-Other"><lb />PHILON.
+</p>
+<p type="MainZone-Other"><lb />A Dieux il a bleſmy.
+<lb />B iii.
+</p>
+<sp type="MainZone-Sp"><lb />SYPHAX.
+<lb />Pour te faire vn preſent digne d’vn ennemy,
+<lb />Et te ſouhaiter pis que le fer ny la flame,
+<lb />Ie te ſouhaite encor Sophoniſbe pour fâme,
+</sp>
+<p type="MainZone-Head"><lb />ADTEL
+<lb />OCLNE IIE
+<lb />SOPHONISBE, &amp; PHENICE</p>
+<sp type="MainZone-Sp"><lb /> SOPHONISBE.
+<lb />A. Pnenite, i eſt uray quil a manque
+<lb />de for
+<lb />MN Qu’il a remis ma lettre entre les mains
+<lb />du Roy,
+<lb />Et que ſon imprudence,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />aſſeurez-vous, Madame,
+<lb />Que l’Eunuque en rec y n'eſt point digne de blâme,
+<lb />Et qu’il ne vous manqua ny de foy, ny d’eſprit,
+<lb />Nyde conſtance meſme, alors qu’on le ſurprit.
+<lb />Ne ſoupçonnez donc plus ſa franchiſe eſprouuée,
+<lb />Et ſçacheZ comme quoy la choſe eſt arriuee.
+<lb />Deſ-jà ce malheureux ſans nuls empeſchemens,
+<lb />Eſtoit preſt à ſortir de nos retranchemens,
+<lb />Et d’vn camp endormi ſe couler dans vn autye;
+<lb />Quand ſon propre mat-heur, au ßi bien que le vostre
+<lb />Sur la pointe dis iour le fit tomber és mains
+<lb />D'vn eſquadron errant-de cheuaux Africains,
+<lb />Qui comme fugitif entr’eux le deſpouillerent,
+<lb />Et ſi ſoigneuſement à l’enuy le fouïllerent,
+<lb />Que l’vn d’eux aperceut le papier attaché
+<lb />Dans le bord de ſa robe, où nous l’auions caché;
+<lb />Et tous pour profiter d’vne telle auanture,
+<lb />Le rendirent au Roy, ſans en faire ouuerture:
+<lb />Ainſi le pauure Eſilque à ſa rage expoſé,
+<lb />Merite d’eſtre plaint, &amp; non d’estre accuſé,
+<lb />Voila comme en effect la choſe s’eſt paſſee.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Cependant Ma ßiniſſe ignore ma penſee,
+<lb />Ce glorieux Vainqueur eſt encore à ſçauoir
+<lb />Le mauuais traictement qu’il me fait receuoir.
+<lb />Combien luy va couſter l’amour que ie luy garde,
+<lb />Et comme à ſon ſubiect mon honneur ſe hazarde!
+<lb />Dieux que i’approcherois du comble de mes vœux,
+<lb />S’il ſçauoit ſeulement le bien que ie luy veux!
+<lb />J’esprouuerois au moins hors de l’incertitude,
+<lb />Ou ſa reconnoiſſance, ou ſon ingratitude.
+<lb />Phenice, penſeZ-vous que s’il connoiſſoit bien,
+<lb />Qu'il poſſede mon cœur, il me donnaſt le ſien?
+<lb />Mes yeux à voſtre auis ont-ils aſſez de charmes,
+<lb />Pour cét esprit nourry dans la fureur des armes?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Que trop, que trop, Madame, &amp; ie ne doute pas,
+<lb />Que ce teune Vainqueur ne cede à vos apas;
+<lb />Puis qu'on a veu Syphax en l’hyuer de ſon ãge,
+<lb />Conceuoir tant de feux pour vn ſi beais viſage;
+<lb />Luy de qui les cheueux ont blanchy ſous l’armet,
+<lb />Ala ſuttte du bien que la gloire promet.
+<lb />CroyeZ aſſeurément que s’il vous auoit veué̈,
+<lb />Auec tous les attraits dont vous eſtes pourueué,
+<lb />Il ſeroit ſans raiſon, s’il ne changeoit vn iour
+<lb />Les lauriers de la guerre aux myrthes de l’amour,
+<lb />Si ce n'eſt qu’autre part ſa franchiſe aſſeruie,
+<lb />De toute autre amitié luy fiſt perdre l’enuie:
+</sp>
+<p type="MainZone-Other"><lb />Car
+<lb />Car à bien diſcourir, il n’eſt pas apparent,
+<lb />Qu'il att pû conſeruer vn cœur indifferent,
+<lb />T'army tant de beautez dont l'Espagne ſe vante.
+</p>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />O Dieux!que ce ſoupçon me trouble &amp; m'eſpouuãte!
+<lb />Et que ie ſouffrirois, ſi mon amour trompé,
+<lb />Treuuoit en Maßiniſſe vn cœur preoccupé!
+<lb />Certes autant de fois que mon ame inſenſée,
+<lb />2 Ccllals s urnenar deſis ceſse paſee 3
+<lb />Nourrice, autant de fois i’ay changé de couleur,
+<lb />Et mes ſens interdits ont monſtré ma douleur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Mais, Madame, apres tout, cette amour découuerte,
+<lb />Cauſe viſiblement voſtre honte &amp; ma perte.
+<lb />Le Roy teſmoigne aſſez par le bruit qu'il a fait,
+<lb />Que toutes vos raiſons ne l’ont pas ſatis fait,
+<lb />Et ie crains qu’au retour du combat qui l’arreſte,
+<lb />Il ne faſſe eſclatter la derniere tempeſte.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Rien moins, ie connois trop la puiſſance d’Amour,
+<lb />Pour craindre que le Roy me faſſe vn mauuais tour;
+</sp>
+<p type="MainZone-Lg"><lb />Celle qu’il a pour moy ne luy ſçauroit permettre,
+<lb />De me deshonorer ſur vne ſimple lettre:
+<lb />Ila puny ma faute en me la reprochant,
+<lb />Et s’il m’euſt vou lu perdre, il l’euſt faict ſur le champ,
+<lb />C’eſt en quoy mon offenſe eſt plus blaſmable encore,
+<lb />De tromper laſchement vn mary qui m’adore:
+<lb />Mais vn ſecret Deſtin que ie ne puis forcer,
+<lb />Contre ma volontém'oblige à l’offencer:
+<lb />Moy-meſme mille fois ie me ſuis eſtonnée,
+<lb />Et de ma paßion, &amp; de ma deſtinée.
+<lb />Encare à ce matin ie pleurois en reſvant
+<lb />Au mal-heur inconu qui me va pour ſuiuant;
+<lb />Faiſant reflexion ſur monerreur extreſme,
+<lb />Ie ne pouuois treuuer que ie fuſſemoy-meſme,
+<lb />Et que dans la rigueur d’vn temps ſi mal-heureux,
+<lb />Ie peuſſe conceuoir des penſers amoureux.
+<lb />Helas, il paroiſt bien que l’Amour pour mes crimes,
+<lb />M’alluma dans le cœur ces feuxillegitimes!:
+<lb />Car enfin ilarriue, ou ſouuent; ou tou ſiours,
+<lb />Que l’aiſe &amp; le repos engendrent les Amours:
+<lb />Mais qu’ils ayẽt pris naiſſãce au milieu des allarmes,
+<lb />Et qu’ils ayent allumé leurs flãbeaux dans les larmes,
+<lb />C’eſt bien vn accident außi prodigieux,
+<lb />Que d’vn ſort non commun il eſt preſagieux.
+<fw><lb />re
+</fw></p>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Madame tout eſt preſt, &amp; pour le ſacrifice,
+<lb />Et pour le vœu public;
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Allons y donc Phenice,
+<lb />Et de peur de prier contre mon proprebien,
+<lb />En adorant les Dieux ne leur demandons rien.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />LA
+<lb />SORETOTIODE
+<lb />TELECEDTE
+<lb />DE MAIRET.
+</p>
+<p type="MainZone-Head"><lb />ATOSE
+<lb />SCENE I.
+<lb />II
+<lb />SOPHONISBE, CORISBE, &amp; PHENICE</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />N fin toute la ville eſt deſſus la muraille,
+<lb />D’où, cõme d’vn theatre, elle void la bataille,
+<lb />5572 Et voſtre Majeſte, ſans aller loin d’icy,
+<lb />Si c’eſtoit ſon plaiſir, la pourroit voir außi.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Non, i’ay trop de fra yeur, &amp; ſuis trop deſolée,
+<lb />Pour voir ceſte mortelle &amp; douteuſe meſlée,
+<lb />Où Mars &amp; la Fortune acheuent le Deſtin,
+<lb />Et du peuple Africain, &amp; du peuple Latin.
+<lb />Mais ſi vous ſouhaitez ce tragique ſpectacle,
+<lb />Pour le voir ſans danger ainſi que ſans obſtacle,
+<lb />Rendez-vous au ſommet de la plus haute tour.
+<lb />D’ois l’œil deſcouure à plain tous les chãps d’alentour;
+<lb />Et que de temps en temps l’vne ou l’autre deſcende,
+<lb />Pour m'aſſeurer touſiours des maux que i’apprehẽde:
+<lb />Car quelque grand combat que Syphax ayt rendu,
+<lb />I'en espere ſi peu, que ie le tiens perdu,
+<lb />Tant nos communs deſſeins ont vn malheur eſtrange.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISDE.
+<lb />Madame, en vn moment la fortune ſe change,
+<lb />Fait rire bien ſouuent ceux qu’elle a fait pleurer,
+<lb />Et ſoumet ſa malice à qui peut l’endurer,
+<lb />I3
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE ſeule.
+<lb />O ſageſſe!ôraiſon? adorables lumieres.
+<lb />RendeZ à mon eſprit vos clartez couſtumieres,
+<lb />u
+</sp>
+<sp type="MainZone-Sp"><lb />Et ne permettez pas que mon cœur endormy,
+<lb />Faſſe des vœux ſecrets pour ſon propre ennemy,
+<lb />Ny que mes paßions auiourd’huy me reduiſent
+<lb />Avouloir le ſalut de ceux qui me deſtruiſent.
+<lb />Mais ie reclame en vain cette foible raiſon,
+<lb />Puis que c’eſt vn ſecours qui n'est plus de ſaiſon;
+<lb />Et qu'il faut obeïr à ce Dieu qui m’ordonne
+<lb />De fuiure les conſeils que ſa fureur me donne.
+<lb />Ie ne puis ignorer qu'à ce meſme moment,
+<lb />Que ie paſſe ma vie auec tant de tourment,
+<lb />Ce ieune Conquerant ne ſonge &amp; ne trauaille,
+<lb />Aioindre ma Couronne au gain d’vne bataille;
+<lb />Et qu'il ne fut rauy de m’auoir en ſes mains,
+<lb />Pour ſeruir de trophée aux triomphes Romains.
+<lb />Cependant tant s’en faut que ie bruſle d’enuie,
+<lb />De conſeruer ma gloire aux deſpens de ſa vie,
+<lb />Qu'il eſt tres-aſſeuré que ie mourrois de deuil,
+<lb />Si le glatue des miens l’auoit mis au cercueil.
+<lb />O! vous hommes vaillants de qui les funerailles
+<lb />Se font dans la meſlée au pied de nos murailles,
+<lb />Et qui farſant bouclier &amp; rempart de vos corps,
+<lb />SouſteneZ du Romainles ſuperbes efforts;
+<lb />Que vous employez mal ceſte valeur inſigne,
+<lb />Pour vn ſubiectangrat, qui n'en fuit iamais digne:
+<fw><lb />L</fw></sp>
+<sp type="MainZone-Sp"><lb />Aquoy tant de combats,ſi grands &amp; ſi connus,
+<lb />Auec tant de valeur donnez &amp; ſouſtenus;
+<lb />Si bien loin d’obliger, voſtre courage offence
+<lb />Celle dont voſtre zele entre prend la deffence?
+<lb />Puis que ſon intereſt en amour conuert y,
+<lb />Lu y fait aymer le Chef de contraire part y.
+<lb />Que vous ſert de deffendre auecque tant de peine,
+<lb />Les portes &amp; les tours qui couurent voſtre Reine,
+<lb />Si deſia l’inſenſée ayme tant ſon vainqueur,
+<lb />Que d’en porter l’image au milieude ſoncœur?
+<lb />Que vous ſert de deffendre vne place rendué,
+<lb />En voulant conſeruer ſa liberté perduë?
+<lb />Plutoſt, braues ſujets, armeZ-vous contre moy,
+<lb />Qui ſuis le plus mortel des ennemis du Roy;
+<lb />Et qui fais de mon cœur le temple et la retraite,
+<lb />De celuy qui pourſuit voſtre entiers deffaite.
+<lb />Reuenez du combat, ou vainqueurs ou vaincus,
+<lb />M’accabler ſous le faix de vos larges eſcus,
+<lb />Moy qui trahis mon nom, ma gloire, &amp; ma patrié,
+<lb />Pour aymer Maßiniſſe auec idolatrie.
+<lb />O funeſte rencontre! ô mal-heureux moment,
+<lb />Ois le ſort me fit voir ce viſage charmant!
+<lb />Quel orgueil vers le Ciel, ou quelle ingratitude,
+<lb />Auoit pù m'attirer vn chaſtiment ſi rude?
+</sp>
+<sp type="MainZone-Sp"><lb />Quel crime enuers l’Amour pouuois-ie auoir commis,
+<lb />Qu'il a iuré ma perte auec mes ennemis?
+<lb />En fin ſi ma de ffaicte importoit à ſa gloire,
+<lb />Il pouuoit l’eſtablir par vne autre victoire.
+<lb />Mais qui ne cognoiſt pas qu'en ceſte occaſion,
+<lb />Il la cherchoit bien moins que ma con fu ſion?
+<lb />Eſtoit-ce, Sophoniſbe, vn crime neceſſaire,
+<lb />D’aymer vn Ma ßiniſſe, vn mortel aduerſaire,
+<lb />Vn amy des Romains, &amp; de qui la valeur
+<lb />Donne les derniers coups a mon dernier mal-heur;
+<lb />Puis qu'en ce meſme inſtant que ie plains &amp; ſouspire,
+<lb />Peut-eſtre que Syphax a perdu ſon Empire,
+<lb />Et que dans peu de temps: mais voicy de retour
+<lb />Orces fiues fans touteur, qui vrennent ue la tour:
+<lb />Leur crainte me faict peur:n’importe, allons entendre
+<lb />Ce qu’il faut que ie ſçache, &amp; que ie n'oſe apprendre.
+<lb />Et bien qu’aueZ-vous veu?
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE.
+<lb />Qui ſe verra iamais.
+<lb />le plus rude combat,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />O Dieux! le cœur me bat,
+<fw><lb />Et
+</fw><lb />Et m annonce deſla que nous auons du pire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />C’eſt re qu’aſſeurement nous ne ſçaurions vous dire,
+<lb />Car ou re que de ſoy la diſtance des lieux,
+<lb />Montroit confuſement les obiects à nos yeux:
+<lb />C’eſt qu'vn nuage eſpais de poudre &amp; de fumée,
+<lb />Nous empeſchoit de voir &amp; l’vne &amp; l’autre armée.
+<lb />Nous voyions ſeulement eſclatter dans les airs,
+<lb />A trauers la poußiere vne ſuitte d’eſclairs,
+<lb />Qui ſortoient à longs traits de flammes ondoyantes,
+<lb />De l’acier bien poly de leurs armes luyſant es;
+<lb />numan joemsceobonis poiſeauelempeetemps,
+<lb />Meſlez &amp; confondus aux coups des combatans,
+<lb />De qui le bruit terrible en frappant nos oreilles,
+<lb />Nous portoit dans l’esprit des frayeurs nompareilles.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Außi n’auons-nous pû ma compagné ny moy,
+<lb />Souſtenir plus long-temps ces matieres d’effroy:
+<lb />C’eſt la raiſon pourquoy nous ſommes deſcenduës,
+<lb />Et tremblantes d’horreur, &amp; de crainte eſperduës.
+</sp>
+<sp type="MainZone-Sp"><lb />Et le peuple?
+<lb />SOPHONISBE.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'
+<lb />Le peuple! il eſt ſur les remparts,
+<lb />Qui pouſſe vers le Ciel ſes cris &amp; ſes regards,
+<lb />Autant pour teſmoigner ſa foibleſſe ordinaire,
+<lb />Que pour encourager les noſtres à bien faire:
+<lb />Et lon en voit beaucoup par des chemins diuers,
+<lb />Aller faire leurs vœux dans les Temples ouuers:
+<lb />De maniere que Cirte en toute ſon enceinte,
+<lb />N'eſtrte qu'vn grad tableau de deſordre &amp; de crain<lb />Mais apres tãt de maux, poßible que les Dieux, (te.
+<lb />Changeront autourd’huy nos fortunes en mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ha! Coriſbé, le Sort a iuréma ru yne,
+<lb />Et la puiſſance humaine a choequé la diuine:
+<lb />Les Dieux, que mon bon-heur a ſans doute laſſez,
+<lb />Ne ſont pas ſatisfaits de mes mal-heurs paſſez,
+<lb />Et ie m'oſe moy-meſme à moy-meſine predire,
+<lb />Qu’ils me gardent encor quelque choſe de pire.
+<lb />Les ſonges que ie fais depius deux ou trois nuits,
+<lb />Ne me preſagent pas de vulgaires ennuis:
+<lb />Et ce qui m’en aſſeure auec plus de ſcience,
+<lb />C’eſt que moy, qui bien loin de leur donner creance,
+<lb />Les a y touſiours tenus ridicules, trompeurs,
+<lb />Et produits d’vn amas de großieres vapeurs,
+<lb />Ie ne puis m’empeſcher ſi bien, que ie reſiſte
+<lb />De croire à ces derniers, qui n'ont rien que de triſte.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Madame, volontiers nos ſeules paßions,
+<lb />Sans ſuitte &amp; ſans deßein font ces impre ßions;
+<lb />Et noſtre fantaiſie en dormant simagine,
+<lb />Suiuant les qualitez de l’humeur qui domine,
+<lb />Si les penſers du iour ſont remplis de ſoucy,
+<lb />Les ſonges de la nuict ſeront faſcheux au ßi.
+<lb />Vra yment vous n’auez, garde en l’eſtat où vous eſtes,
+<lb />De ſonger des feſtins, des dances, &amp; des feſtes.
+<lb />Voſtre eſprit inquiet, triſte, noir, ſoucieux,
+<lb />Ne vous produira pas des ſonges gracieux.
+<lb />Ne redoutez, donc plus ces monſtres en peinture,
+<lb />Et ne preſumeZ pas de voir voſtre auanture
+<lb />Dans ces miroirs obſcurs, qui dõnent, quoy que faux,
+<lb />Aux credules esprits de veritables maux.
+<lb />Mais quelqu'vn ce me ſemble a fait bruit à la porte;
+<lb />Iray-ie ouurir?
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Allez, c’eſt quelqu'vn qui m'apporte
+<lb />La nouuelle du bien ou du mal que i’attens.
+</sp>
+<p type="MainZone-Lg"><lb />D
+</p>
+<p type="MainZone-Head"><lb />ACIE II.
+<lb />SCENE II.
+<lb />CALTODORE, Meſſager.
+<lb />A! Phenice, le Roy!
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Dieux! qu'eſt-ce que i’entens?
+<lb />Mais de grace de peur de ſurprendre la Reyne,
+<lb />Deſguiſe lu y d’abord le ſubiect qui t’ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Si feray, ſi ie puis; mais i'aprehende bien,
+<lb />Qu'vn esprit penetrant &amp; clair comme eſt le ſien,
+<lb />Ne le découure trop,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Et bien, Caliodore;
+<lb />Le Deſtin de iadis nous pourſuit-il encore?
+<lb />Et ce meſme mal-heur tant de fois esprouué,
+<lb />A-t’il à nos deſpens le combat acheué?
+<lb />Parlez; ſi peu d’eſpoir de mon bon-heur me reſte,
+<lb />Que ie n’attens de vous qu'vn meſſage funeſte.
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Madame, il eſt bien vray que le Ciel en courrous,
+<lb />Frappe encore auiourd’huy viſiblement ſur nous,
+<lb />Et qu’il eſt mal-aiſé de vaincre la Fortune,
+<lb />Quand elle veut monſtrer ſa derniere rancune.
+<lb />Certes iamais l’eſpoir de voir noſtre vertu,
+<lb />Releuer auiourd’huy voſtre Empire abbatu,
+<lb />Ne flata noſtre armée auec plus d’apparence,
+<lb />Et ne la fit combatre auec plus d’aſſeurance.
+<lb />D’abord tout a fait iour aux merueilleux efforts,
+<lb />Dont nous auons couuert la campagne de morts.
+<lb />Deux fortes Legions ſuperbement armées,
+<lb />Et preſque de tout temps à vaincre accouſtumées,
+<lb />N’a yant pû ſouſtenir nos bataillons preſſez,
+<lb />Ont tombé ſur les leurs, qu’elles ont renuerſezs
+<lb />Et ſe monſtrant alors à la peur acce ßibles,
+<lb />Ont perdu contre nous le tiltre d’Inuincibles,
+<lb />A ce premier ſucceZ plus forts qu'auparauant,
+<lb />Nous pouſſons hardiment nos armes plus auant:
+<lb />Le Roy tout le premier payant de ſa perſonne,
+<lb />Nous conduit à leur camp, que l’on nous abandonne
+</sp>
+<p type="MainZone-Lg"><lb />D
+<lb />
+<lb />Par vn combat ſi foible &amp; ſi peu reſolu,
+<lb />Que nous pouuions iuger qu’on l’auoit bien voulu,
+<lb />Et que ce ſtratageme eſtoit vn coup de maiſtre,
+<lb />Comme l’euenement le fit bien-toſt pareſtre.
+<lb />Car au lien d’acheuer l’ouurage glorieux,
+<lb />Qui deuoit couronner nos fronts victorieux,
+<lb />Le ſoldat en deſordre imprudemment s'engage,
+<lb />Tant à bruſler le camp, qu’à piller le bagage;
+<lb />Et ſoulant de butin ſon auare apetit,
+<lb />Ne ſent pas que par là ſon ardeur s’alentit.
+<lb />Sur cét amuſement l’ennemy ſe r’allie;
+<lb />D'vn coſté Mlaßiniſſe, &amp; de l’autre Lelie,
+<lb />Sans nous donner loiſir de reprendre nos rangs,
+<lb />Viennent fondre ſur nous, comme deux fiers torrens.
+</p>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Que ſert de me cacher le poignard qui me tuë?
+<lb />Non, non, il faut mourir la bataille eſt perdué.
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Vous l’aueZ dit, Madame, et c’eſt la verité;
+<lb />Meſmes iltfaut tout dire à voſtre Majeſté,
+<lb />C’eſt que ſi les Romains, comme il eſt trop à croire,
+<lb />Meſnagent mieux que nous le fruict de leur victoire,
+<lb />Ils entreront dans Cirte au ßi facilement,
+<lb />Que s’ils n’y treuuoient pas vn ſoldat ſeulement:
+<lb />Le peuple espouuanté leur ouurira les portes,
+<lb />Des qu’il verra venir leurs premiexes cohortes.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Le Roy par conſequent eſt mort, ou priſonnier?
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE..
+<lb />Ue tous nos maux publtes c’esticyte dernter;-
+<lb />Il eſt vray qu’en monſtrant fa valeur infinie,
+<lb />Ce Prince mal-heureux a ſã trame finie. 
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONIS.B.E.<lb />Pluſtoſt qu'il eſt heureux de n'auoir pas veſcu,
+<lb />Pour eſtre à la mercyde ecux qui l’ont vaincu!
+<lb />, Et qu’il eſt importun de conſeruer ſa vie,
+<lb />.. En vn temps où la mort est ſi digne d’enuie!
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Madame, en vn mal-heur ſi grand, &amp; ſi preſſant,
+<lb />Il faut faire pareſtre vn eſprit agiſſant,
+<lb />Et penſer qu’en l’eſtat où vous eſtes reduite,
+<lb />Vous deuez ſur le champ vous reſoudre à la fuite,
+<lb />En pareil accident les pleurs ſont ſuperflus,
+<lb />Et la perte du temps ne ſe repare plus.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Bons Dieux! quel bruit de peuple entremeſlé de
+<lb />piallsres,
+<lb />Replonge mon esprit en de nouuelles craintes?
+<lb />
+</sp>
+<p type="MainZone-Head"><lb />TECEEEE
+<lb />SCENE III.
+</p>
+<sp type="MainZone-Sp"><lb /> CALIODORE.
+<lb />M Adame attendeZ-moy, i'iray voir s’il vous
+<lb />plaiſt,
+<lb />DES D’ou prouient ce tumulte,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />luy, ſçachez ce que c’eſt.
+<lb />Elle demeure ſeule, parlant à ſes Elles.
+<fw><lb />O vous
+</fw><lb />D vous de mes trauaux compagnes genereuſes,
+<lb />Faut-il que mes mal-heurs vous rendent mal<lb />heureuſes?
+<lb />Et que l’affection que vous aueZ:pour moy,
+<lb />Mette voſtre diſgrace au poinct où ie la voy?
+<lb />*
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Hé! Madame, plaignez voſtre ſeule infortune,
+<lb />Et ſouffrez qu’auec vous elle nous ſoit commune:
+<lb />En cela ſeulement le Sort nous fait plaiſir,
+<lb />Et veut bien nous traitter ſelon noſtre de ſir.
+<lb />Ceſte meſme rigueur du mal qui nous afflige,
+<lb />En la ſouffrant pour vous nous plaiſt &amp; nous oblige:
+<lb />Comme nous euſmes part à vos prosperitez,
+<lb />Il faut bien nous ſentir de vos aduerſitez.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />O Miracle de foy, d’amour &amp; de ſageſſe,
+<lb />Digne d’vn autre Sort, &amp; d’vne autre Maïſtreſſe?
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE' reuenu.
+<lb />Madame il n’eſt plus temps ny de dißimuler,
+<lb />Ny de vous taire vn mal qui ne ſe peut celer.
+<fw><lb />L
+</fw><lb />La ville s’eſt renduë, ou du moins ſe va rendre,
+<lb />Et delà vient le bruit que nous venons d’entendrɇ́.
+<lb />Maßiniſſe en perſonne eſt deuant nos remparts,
+<lb />Où chacun pour le voir accourt de toutes parts.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Jl faut donc à mon ayde appelant mon courage,
+<lb />Euiter par la mort la honte du ſeruage.
+<lb />Sus donc, qui de vous trois me preſtera la matn,
+<lb />Qui de vous au beſoin ſera le plus humain?
+<lb />Toy fidelle ſubiect, ſi ma cheute certaine,
+<lb />Me laiſſe encor ſur toy la qualité de Reyne,
+<lb />Employe ton eſpée à cét acte d’amour,
+<lb />(Puis que c’eſt m’aymer bien que me priuer du iour,)
+<lb />De ſpeſche, et n'attẽds pas que Rome ayt l’aduantage
+<lb />De triompher en moy de l’honneur de Cartage.
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Pour tels commandemens mon cœur a proteſté,
+<lb />De n'obe yr iamais à voſtre Majeſté.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Helas! de quel endroitesperer du remede,
+<lb />Si les miens auiourd’huyme refu ſent leur ayde?
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Comme on ne doute point qu’vn mal deſesperé,
+<lb />N'ayt touſiours en la mort vn remede aſſeuré,
+<lb />Ce remede eſt außi le dernier qu’on eſſa ye,
+<lb />Et qu’on doit appliquer à la derniere playe.
+<lb />Pour moy ie ſuis d’auis qu’oubliant le treſpas,
+<lb />Vous tiriez du ſecours de vos propres apas.
+<lb />v omtt aures pasteſoin ue beaucoupd'artifice;
+<lb />L
+<lb />Pour vous rendre agreable aux yéux de Maßiniſſe,
+<lb />Eſſa yeZ de gaigner ſon inclination,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Pleuſt aux Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Il eſtieune, &amp; d'vne nation,
+<lb />Qui par toute l Afrique eſt la plus renommée,
+<lb />Pour aymer au ßi-toſt, &amp; vouloir eſtre ãymée.
+<lb />De grace, au nom des Dieux eſſayez, le pouuoir,
+<lb />Que ſur vn cœur Numide un bel uil doit auoir,
+<lb />Et donneZ ceſte espreuue à nos communes larmes.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ie n’attends rien du tout du coſté de mes charmes.
+<lb />Ce remede, Phenice, eſt ridicule &amp; vain;
+<lb />Il vaut mieux ſe ſeruir de celuy de la main,
+<lb />Et d’vncoufgenereux, digne de mon courage,
+<lb />Me iettẽr dans le port en dẽpit de l’örage:
+<lb />Mais pour voüs contenter, ie me force, &amp; veux bien
+<lb />Faire vne laſcheté qui ne ſerue de rien.
+<fw><lb /><lb />2*2 2l M.L.
+<lb />- **.4*
+<lb />.. . A
+<lb /><lb />ranemmiiy Salmiamu Tell,aex u
+<lb />Vi....*.
+<lb />A..12.Hi:
+</fw><fw><lb />*
+<lb />*)
+</fw></sp>
+<p type="MainZone-Head"><lb />LA
+<lb />SOATEONVISDE
+<lb />PRCIESEDIE
+<lb />DE MAIRET.
+</p>
+<p type="MainZone-Head"><lb />PICEE
+<lb />SCENE I.
+<lb />TII.
+</p>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />RACE aux Dieux, ceſte inſigne &amp; der<lb />niere victoire,
+<lb />A Me rend tous les rayons de ma premiere
+<lb />Il eſt mort ce barbare &amp; la ſche Vſurpateur, (gloire.
+<lb />Qui de tant de combats fut l’obiect &amp; l’autheur.
+</sp>
+<sp type="MainZone-Sp"><lb />E iij
+<lb />Le Ciel par ſa ruyne a fait voir à la terre,
+<lb />Qu'vn ſuccez mal-heureux ſuit vne iniuſte guerre.
+<lb />O vous à qui ie doy la fortune &amp; l’honneur,
+<lb />Inſtruments &amp; teſmoin us mon dernier bon-heûr,
+<lb />Croyez, chers compagnons, dont les armes prẽſperes,
+<lb />M’ont ouuert le chemin au throſne de mes peres;
+<lb />Que par vos longs trauaux mon repos reſtably,
+<lb />N'eſt pas dans mon eſtime vn bien digne d’oubly.
+<lb />Ie ſçay trop quel ſalaire exigent vos ſeruices,
+<lb />Et que t'ingrauinde eſt te pine nou des oices.
+<lb />Mais il nous reſte encore à faire vne action,
+<lb />Qui conduiſe ma gloire à ſa perfection.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIP.
+<lb />Magnanime Empereur, dispoſeZ de nos vies;
+<lb />Et ſi vous conceuez, de plus hautes enuies,
+<lb />Si l’Eſtat de Syphax ne vous contente pas,
+<lb />Pouſſez vos vœux plus outre, et nous ſuiurõs vos pas.
+<lb />Sous l’auœu du Senat vous pouuez entreprendre
+<lb />De nous mener plus loing que ne fut Alexandre.
+<lb />Vous poſſedez l’amour de quatre Legions,
+<lb />Qui vous peuuent donner autant de regions,
+<lb />Et qui ne cedent pas à ces vieilles Phalanges,
+<lb />Qui cirent tant de mers et de terres eſtranges.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ie ne refuſe pas, inuincibles Romains,
+<lb />Ny ces cœurs genereux, ny ces puiſſantes mains,
+<lb />Qui par tout l’Vniuers quand les cauſes ſont bonnes,
+<lb />Oſtent comme il leur plaiſt, &amp; donnent les Couronnes.
+<lb />Je ſçay que vous m'unez &amp; que voſtre amitié,
+<lb />Eſtablit ma puiſſance &amp; leccroit de moitté.
+<lb />En fin que vous pourries, ſi vous le voulieZ faire,
+<lb />Rendre toute l’Afrique à mes vœux tributaire:
+<lb />Mais ſes bons mouuemens que vous auez pour moy,
+<lb />Se doiuent reſeruer pour vn meilleur employ;
+<lb />Et pour l’acheuement d’vne plus grande choſe,
+<lb />Que cent quelenna, &amp; que ae vns propoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIP.
+<lb />CommandeZ ſeulement, &amp; dites ce qu’il faut.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Aller droit au Palais, &amp; l’ompartez d’aſſaut,
+<lb />S’il eſt vray, comme on dit, qu’il faſſe reſiſtance;
+<lb />Non que de ſoy le lieu ſoit de telle importance,
+<lb />Qu’il faille abſolument, ſans attendre à demain,
+<lb />Ais prix de noſtre ſang l’auoir à coups de main;
+</sp>
+<p type="MainZone-Lg"><lb />Mais c’eſt que Sophoniſbe à l’extreme reduite,
+<lb />S'y trouue enuelopée auec toute ſa ſuite.
+<lb />Or ie crains qu’attendant iuſqu'à demain matin,
+<lb />Ceſte longueur ne nuiſe à l’Empire Latin:
+<lb />Car ſi ceſte Africaine, außi fine que belle,
+<lb />Employe à ſe ſauuer quelque ruſs nouuelle,
+<lb />Il a touſiours en elle vn puiſſant ennemy,
+<lb />Et nous n'auons gaigné ny vaincu qu'à demy;
+<lb />Outre que ceſte Reyne en beautez nompareille,
+<lb />Doit de noſtre triomphe accomplir la merueille,
+<lb />Qui ſans ceſt ornement ſera defectueux,
+<lb />Et rendra moins brillans vos actes vertueux.
+<lb />Allons donc de ce pas attaquer ceste place,
+<lb />Que deffend vne foible et la ſche populace:
+<lb />Que s’il faut l’emporter par vn ſanglant moyen,
+<lb />Separez le ſoldat d’auec le citoyen:
+<lb />Eſpargnez, s’il ſe peut, ce peu vaillantes ames,
+<lb />Et ſur tout reſpectez la Princeſſe &amp; ſes fâmes,
+<lb />Et qu’en faueur du ſexe, ou de la qualité,
+<lb />On ne faſſe à pas vne aucune indignité.
+</p>
+<p type="MainZone-Head"><lb />AERE IEA.
+<lb />SCENE II.
+<lb />SOPHONISBE, PHENICE, CORISBE.
+<fw><lb />D..L-141 12
+</fw></p>
+<sp type="MainZone-Sp"><lb />2
+<lb />OPHONISBE.
+<lb />(
+<lb /> HENICE encore vn coup, tandis qu’il
+<lb />m'eſt loiſible,
+<lb />( faillible.
+<lb />Me Que i’applique à mes maux vnremede in<lb />Celuy que ie propoſe, outre qu’il eſt honteux,
+<lb />Ne promet qu'vn effect extremement douteux:
+<lb />Le pouuoir de mes yeux, s’il faut que ie le tente,
+<lb />Vaut moins que le ſecours que ma main me preſente:
+<lb />C’eſt le plus prompt de tous, comme le plus certain,
+<lb />Et le plus digne außi d’vn courage hautain.
+<lb />Un ſeul coup de poignard eſpuiſera mes veines,
+<lb />Et preſque ſans douleur acheuera mes peines:
+<lb />Ha! que deſia ſans vous i’aurois bien eſuité,
+<lb />La honte &amp; le mal-heur de la captiuité!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIP.
+<lb />DonneZ-vous, s’il vous plaiſt, vn peu de patience,
+<lb />Et de voſtre beauté faites experience;
+<lb />Sçachez coqu'elle vaut, &amp; ce que vous pouueZ:
+<lb />Mais comment le ſçauoir, ſi vous ne l’eſprouuez?
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />De fait la des fiance ou Madame ſe treuue;
+<lb />Ne peut venir d’ailleurs que d’vn mãque d’espreuue.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Coriſbé prenez garde à l’eſtat où ie ſuïs,
+<lb />Et par la; comme moy voyez ce que ie puis.
+<lb />Quand hier i’aurois eſté la vtuante peinture
+<lb />Des plus rares beautez qu’on voit en là Nature,
+<lb />Le moyen que mes yeux conſeruent auiourd'huy,
+<lb />Vne extreme beauté ſous-vn extreme ennuy?
+<lb />Et n’ayant plus enmoy-que-des attraits vulgaires,
+<lb />Ils ne toucheroient point, ou ne toucheroient gueres:
+<lb />De ſorte qu'apres tout ie conclus qu’il vaut mieux,
+<lb />Eſſa yer le ſecours de la main que des yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Madame, ſi vos yeux n’ont pas aſſez d’amorce,
+<lb />Vos mains au pis aller auront aſſez de force,
+<lb />Pour vous faire ſentir la pointe d’vn poignard:
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Mais peut-eſtre qu'alors ie le voudray trop tard,
+<lb />Et que ie n'auray pas vn glaiue qui me tue.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIP.
+<lb />Ce que le fer ne peut la douleur l’effectuë,
+<lb />Tant de chemins diuers conduiſent au tre ſpas,
+<lb />Que qui n’en treuue point, veut bien n’en treuuer pas:
+<lb />Il faut donc, s’il vous plaiſt, vous reſoudre à la vie,
+<lb />Et rauir la franchiſe à qui vous l’a rauie.
+<lb />Pour moy ie ne voy point qu'a voſtre ſeul aſpect,
+<lb />Il ne bruſle d’amour, et tremble de reſpect:
+<lb />Et qu'à ſon iugement vous n'emportiez la pomme
+<lb />Sur toutes les beautez de Capouë &amp; de Romme.
+<lb />Au reſte la douleur ne vous a point eſteint,
+<lb />Ny la clarté des yeux, ny la beauté du teint:
+<lb />Vos pleurs vous ont lanée, &amp; vous eſtes de celles,
+<lb />Qu'vn air triſte &amp; dolent rend encore plus belles.
+<lb />Vos regards languiſſants font naiſtre la pitié,
+<lb />Que l’amour ſuit par fois, &amp; touſiours l’amitié;
+<lb />Neſtant riende pareil aux effects admirables,
+<lb />Que font dãs les beaux cœurs des beautés miſerables.
+<lb />Croyez que Ma ßiniſſe eſt vn viuant rocher,
+<lb />Si vos perfections ne le peuuent toucher,
+<lb />Et qu’il eſt plus cruël qu'vn Tygré d’Hircanie,
+<lb />S’il exerce enuers vous la moindre tirannie.
+</sp>
+<p type="MainZone-Head"><lb />ACIP III.
+<lb />SCENE IIT.
+</p>
+<sp type="MainZone-Sp"><lb />CALIODORE ſuruenant.
+<lb />lα ADAME, Maßiniſſe eſt dans la
+<lb />grande court,
+<lb />AaN Qu’on prendroit pour vn Temple où tout le
+<lb />monde accourt,
+<lb />Tant ſes ſoins d’empeſcher le deſordre &amp; l’outrage,
+<lb />Des plus espouuantez aſſeurent le courage;
+<lb />Au reſte ſi benin, que voſtre Majesté
+<lb />oit veatrcoap esperer de jon bumuatre.
+<lb />Mais le degré Royal retentit ce me ſemble,
+<lb />D’vn grand bruit de boucliers:
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ha! Phenice, ie tremble.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />C’eſt pourtant maintenant qu’il ſe faut aſſeurer,
+<lb />Et luy tirer des traits qu’il ne puiſſe parer,
+<lb />Fiij
+<lb />Si toſt qu’il entrera faictes luy la harangue,
+<lb />Que la nece ßité vous mettra ſur la langue;
+<lb />Et dont les doux regards &amp; les ſoûpirs frequents
+<lb />Faſſent les plus beaux traicts, &amp; les plus eloquents,
+<lb />Au reste vn ieune esprit facilement s’engage,
+<lb />Par la douceur des yeux, du geſte &amp; du langage,
+<lb />Que voſtre Majeſté ne refuſe donc pas,
+<lb />D'attaquer ſon vainqueur auec tous ſes appas.
+</sp>
+<sp type="MainZone-Sp"><lb />VOEV DE SOPHONISBE A L’AMOVR.
+<lb />Voicy, puiſſant Amour, vn ſubiect aſſez ample,
+<lb />Pour laiſſer de ta force vn memorable exemple.
+<lb />Entreprens ce miracle, afin que les mortels,
+<lb />De ſoüpirs &amp; dentens tjenauffent tes autels:
+<lb />Fay-donc, &amp; ie te vouë vn Temple magni fique,
+<lb />Comme au Reſtaurateur des affaires d’Afrique.
+</sp>
+<p type="MainZone-Head"><lb />AOTE
+<lb />III.
+<lb />SCENE IIII.
+<lb />MASSINISSE. SOPHONISBE.
+<lb />PHENICE. CORISBE'
+<fw><lb />MASSENISSE
+<lb />entrant auec ſes ſoldats.
+</fw></p>
+<sp type="MainZone-Sp"><lb />&amp;OLDATS attendez-moy, n’entrez pas
+<lb />plus auant,
+<lb />La majesté du lieu ne veut point de ſuit
+<lb />uane..
+<lb />Autant que ſa douleur ſa beauté nous la monſtre,
+<lb />Qui d’vn pas triſte &amp; lent nous vient à la rencon
+<lb />tre..
+</sp>
+<sp type="MainZone-Sp"><lb />HARANGVE DE MASSINISSE
+<lb />Madame, ie ſçay bien que c’eſt renouteler,
+<lb />Ou croiſtre vos-ennu ys, que de vous en parler;
+<lb />Et qu’il me ſieroit mieux d’auoir la bouche cloſe,
+<lb />Que de vous conſoler du mal que ie vous cauſe.
+<lb />Mais vos Dieux &amp; les miens, à qui rien n'eſt ſegret,
+<lb />Sçauent qu’en vous perdant ie vous perds à regret;
+<lb />Et qu’en quelque façon mon bon-heur m'importune,
+<lb />Pource qu'il ne me vient que de voſtre infortune.
+<lb />Mais puis que le Deſtin, pour mõſtrer qu’il vous hait,
+<lb />N'a pas laiſſé la choſe au gré de mon ſouhait,
+<lb />TreuueZ bon que mon cœur vous iure par ma bouche,
+<lb />Que tres-ſenſiblement voſtre douleur le touche;
+<lb />Et qu’il diminuroit &amp; vos maux &amp; vos ſoins,
+<lb />Si pour y prendre part il vous en reſtoit moins.
+<lb />Ne m’eſtant pas permis d’empeſcher vos miſeres,
+<lb />Ie fera y pour le moins qu’elles vous ſoient legeres;
+<lb />Et ſi ie ne le puis, i'auray ſoin en tout cas
+<lb />Que de nouueaux mal-heurs ne les agrauent pas,
+<lb />Et qu’on vous traitte en Reyne, &amp; non pas en captiue;
+<lb />Rendez donc l’aſſeurance à voſtre ame craintiué,
+<lb />Et que voſtre douleur ſe diſpoſe à ſonger,
+<lb />En quoy les miens ou moy la pouuons ſoulager.
+<fw><lb />RES</fw><fw><lb />RESPONSE DE SOPHONISBE.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />C’eſt bien tres-iuſtement, ô Vainqueur magnanime,
+<lb />Que le monde eſt remply du bruit de voſtre eſtime:
+<lb />Vos rares qualitez m’aprennent la raiſon
+<lb />Du mal-heur obſtiné qui ſuit noſtre maiſon.
+<lb />Leur eſclat eſt ſi grand, que la Fortune meſme,
+<lb />Toute aueugle qu'elle eſt, les cognoiſt &amp; les ayme;
+<lb />Et vous fauori ſant agit ſi ſagement,
+<lb />Qu'elle monſtre en cela qu’elle a du iugement.
+<lb />Mais pour le iuſte prix d’vne vertu ſi haute,
+<lb />Si par de plus grands biens que ceux qu’elle nous oſte,
+<lb />L’inconſtante n'adiouſte à vos prosperitez,
+<lb />Vous aueZ beaucoup moins que vous ne meritez.
+<lb />Aſſez de Conquerants à force de puiſſance,
+<lb />Rengent les Nations à leur obeyſſance;
+<lb />Mais fort peu ſçauent l’art de vaincre les eſprits,
+<lb />Et de bien meriter le Sceptre qu’ils ont pris.
+<lb />Il n'appartient qu’à vous de faire l’vn &amp; l’autre,
+<lb />C'eſt la propre vertu d’vn cœur comme le voſtre:
+<lb />Meſme c’eſt vn Deſtin, que les Roys ennemis
+<lb />Sont d’abord odieux à ceux qu’ils ont ſoumis,
+<lb />Où voſtre courtoiſie, ô Vainqueur debonnaire,
+<lb />Faict vn miracle en moy qui n'eſt pas ordinaire.
+</sp>
+<sp type="MainZone-Sp"><lb />Tant s’en faut que voſtre heur m’oblige à murmurer,
+<lb />Que ie demande aux Dieux de le faire durer;
+<lb />Et vous n'aurez iamais vne grandeur parfaite,
+<lb />Que lors que vous aurez, ce que ie vous ſouhaite.
+<lb />Les preſens que le Sort vous fait à mes despens,
+<lb />Ne ſont pas le ſubiect des pleurs que ie reſpans;
+<lb />Ie voy voſtre bon-heur, ſans haine, &amp; ſans enuie,
+<lb />Et ie plains ſeulement le malheur de ma vie,
+<lb />Qui m’eſt d’autant plus dur, que m’ayant tout oſté,
+<lb />Esperance, Repos, Fortune, Liberté,
+<lb />Pour faire de tout painct mon Deſtin pitoyable,
+<lb />Il m'oſte le moyen de me rendre croyable.
+<lb />Dans la condition du temps où ie me voy,
+<lb />Ie vous ſeray ſuſpecte, ou peu digne de foy.
+<lb />Vot ais n'a yant quaſi prus qu'esperer &amp; que craindre,
+<lb />Il me ſieroit fort mal de flater ou de feindre;
+<lb />El le nle banol, jl labos vaencte.
+<lb />L'Empire de Syphax par vne laſcheté.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE,
+<lb />Ma Compagne, il ſe prend.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />O Dieux! que de merueilles,
+<lb />Enchantent à la fois mes yeux &amp; mes oreilles!
+<lb />Certes iamais esprit n’eut vn plaiſir ſi doutx,
+<lb />Que celuy que ie ſens d’eſtre eſtimé de vous.
+<lb />Mars n’a point de Lauriers dont la gloire me touche,
+<lb />Au prix d’eſtre loué d’vne ſi belle bouche:
+<lb />Mais ie n'aura y iamais qu’vn bon-heur imparfait,
+<lb />Si vostre compliment n’eſt ſuiuy de l’effect;
+<lb />Si vous ne teſmoignez eſtimer Maßiniſſe,
+<lb />En lu y donnant ſubiect de vous rendre ſeruice.
+<lb />Commãdez donc, Madame, eſprouuez auiourd’huy
+<lb />Lt pouuoir abſoin que vous auez ſur lut y;
+<lb />Et tout mal-heur le ſuiue, au cas qu’il ne vous ſerue.
+<lb />Aux choſes qu’il pourra, ſans feinte et ſans rẽTerue.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Grand Roy, puis quil vous faut vn ſujet mal-heu<lb />Où pouuoir exercer vos actes genereux;
+<lb />Pour ne me rendre pas voſtre grace inutile,
+<lb />Ie ne vous feray point de requeſte inciuile.
+<lb />Creux,
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />La victoire eſt à nous, ou ie n’y connoy rien.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Non, ie ne veux de vous ny puiſſance ny bien:
+<lb />Ie ne demande pas à vos mains liberales,
+<lb />Ny mon Sceptre perdu, ny ſes pompes royales:
+<lb />Car i’atteſte les Dieux, que quand ie les aurois,
+<lb />Auec l’ame &amp; le cœur ie vous les donnerois:
+<lb />Mais ſi le ſentiment de la miſere humaine,
+<lb />Vous fait auoir pitié d’vne dolente Re yne,
+<lb />N'aguere l’ornement de ſa condition,
+<lb />Et maintenant l’obiect de la compa ßion;
+<lb />Donnez-moy l'vn das deux, ou que iamais le Tibre,
+<lb />Ne me reçoiue eſclaue, ou que ie meure libre.
+<lb />Nous vous en coniurons mes diſgraces et moy,
+<lb />Par le nom Africain, par le tiltre de Roy,
+<lb />De qui la Majeſté de tout temps ſacre-ſainte,
+<lb />Souffriroit en ma honte vne publique atteinte:
+<lb />Par les Sceptres que i'eus, par ceux que vous auez,
+<lb />Par ces ſacrez, genoux de mes larmes laueZ,
+<lb />Par ces vaillantes mains touſiours victorieuſes,
+<lb />Bref par vos actions en tout ſi glorieuſes.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Dieux! faut-il qu’vn Vainqueur expire ſous les coûs
+<lb />De ceux qu’il a vaincus?
+<fw><lb />Madame, leuez-vons,
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Non, Seigneur, que mes pleurs n'obtiennent ma de<lb />mande:
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Vous obteneZ eacor vne choſe plus grande;
+<lb />C’eſt vn cœur que beauté n'a iamais aſſeruy,
+<lb />Et que preſentement la voſtre m'a rauy.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />L’outrageuſe rigueur de voſtre procedure:
+<lb />Mais ſçachez, que iamais vn genereux Vainqueur,
+<lb />N'a faigea ſon vaincu d’vn langage moqueur.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ha! Madame, perdez ceſte iniuſte creance,
+<lb />Qui dans ſa fauſſeté me nuit, &amp; vous offence;
+<lb />Iugez mieux des respects qu’vn Prince doit auar,
+<lb />Et dans voſtre beauté voyez voſtre pouuoir.
+<lb />Trop de gloire pour moy ſe treuue en ma deffaitt
+<lb />Pour la de ſaduoüer, et la tenir ſecrette.
+<lb />VanteZ-vous d’auoir faict auec vos ſeuls regards.
+<lb />Ce que n’ont iamais pü ny les feux, ny les dards,
+</sp>
+<p type="MainZone-Lg"><lb />ih
+<lb />Il eſt vray, i’affranchis vne Reine captiue,
+<lb />Mais de la liberté moy-meſme ie me priue:
+<lb />Mes tranſports violents, &amp; mes ſoupirs non feints,
+<lb />Vous deſcouurent aſſeZ le mal dont ie me plains.
+</p>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Certes ma vanité ſeroit trop ridicule,
+<lb />Ou i’aurois vn eſprit extrémement credule,
+<lb />Si ie m'imaginois qu'en l’eſtat ou ie ſeus,
+<lb />Captiue, abandonnée, au milieu des ennuis,
+<lb />Le cœur gros de ſoûpirs, &amp; les yeux pleins de larmes,
+<lb />Ie conſeruaſſe encor des beautez &amp; des charmes,
+<lb />Capables d’exciter vne ardente amitié.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Aee ſe oruy que u aburdruy jenty la pitié;
+<lb />Mais comme le Soleil ſuit les pas de l’Aurore,
+<lb />LAmour qui l’a ſuiuie, &amp; qui la ſuit encore,
+<lb />A ſait en vn inſtant dans mon cœur embrazé,
+<lb />Le plus grand changement qu’il ait iamais caisſé.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Il eſt trop vielent pour eſtre de durée:
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ouy, car en peu de temps la mort m’eſt aſſeurée.
+<lb />Si vous ne conſolez, d’vn traictement plus doux,
+<lb />Celuy qui deſormais ne peut viure ſans vous.
+<lb />2
+<fw><lb />-
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Comme de plus en plus cét eſprit s’embaraſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Donnez-moy l’vn des deux, la mort, ou voſtre grace.
+<lb />Nous vous en coniurons mes paßions &amp; moy,
+<lb />Non par la dignité de Vainqueur &amp; de Roy, (tre,
+<lb />Puis qu'Amour me fait perdre &amp; l’vn &amp; l’autre ti<lb />Mais par mon triſte Sort, dont vous eſtes l’arbitre;
+<lb />Par mon ſang enflammé, par mes ſoüpirs brûlans,
+<lb />Mes tranſports, mes deſirs, ſi prompts, ſi violents,
+<lb />Par vos regards, ces traicts de lumiere &amp; de flame,
+<lb />Dont i'ay ſenty les coups au plus profond de l’ame:
+<lb />Et par ces noirs tirans dont i’adore les loix,
+<lb />Ces vainqueurs des vainqueurs, vos yeux maiſtres
+<lb />En fin parla ralſo que vols m'anez oſtée, ( des Rois;
+<lb />RendeZ-moy la pitie que ie vous ay preſtée:
+<lb />Ou s’il faut dans mon ſang noyer voſtre courrous,
+<lb />Que ce fer par vos mains m'immole à vos genous:
+<lb />Uictime infortunée &amp; d'amour &amp; de hayne:
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />I'oſtre mort au contraire augmenteroit ma peiue
+<lb />Mate plaignez, ô grand Roy, voſtre ſort &amp; le mien,
+<lb />Qui par nece ßité rend le mal pour le bien:
+<lb />Ie vous plains de ſouffrir, &amp; moy ie ſuis à plaindre,
+<lb />D’allumer vn braſier que ie ne puis eſteindre.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Quand onn'a point de cœur, ou qu’il eſt endurcy;
+</sp>
+<sp type="MainZone-Sp"><lb />SOIHONTSDE.
+<lb />C’eſt pour en auoir trop que ie vous parle ainſi.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ce diſcours cache vn ſens que ie ne puis entendre:
+<fw><lb />7
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ce diſcours toutes fois eſt facile à comprendres
+<lb />Le deplorable estat de ma condition,
+<lb />Mempe ſche de reſpondre à voſtre affection:
+<lb />La vefue de Syphax est trop infortunée,
+<lb />momr uoiiinjinge en ſecond Hymenée;
+<lb />Et ſon cœur genereux formé d’vn trop bon ſang,
+<lb />Pour faire vne action indigne de ſon rang:
+<lb />Car en fin lai Fortune auec toute ſa rage,
+<lb />M'a bien osté le Sceptre, &amp; non pas le courage.
+<lb />le ſçay
+<lb />Je ſçay qu'vſant des droicts de Maistre &amp; de Vain<lb />Vous pouuez me traicter auec toute rigueur:ſqueur,
+<lb />Mais i’ay creu iuſqu’icy que vostre ame est trop hau<lb />Pour le ſimple penſer d’vne ſi laſche faute. (te,
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Croyés-le encor, Madame, &amp; ſçachez qu'en ce poinct,
+<lb />Voſtre creance &amp; moy ne vous trõperons point.
+<lb />Donc pour vous faire voir que c’eſt la belle voye,
+<lb />Par ou te veux monter au comble de ma tõ ye;
+<lb />Puis que Syphax n’eſt plus, il ne tiendra qu’à vous,
+<lb />D’auoir en Maßiniſſe vn legitime espous.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Quelles Reynes au monde en beautez ſi parfaictes,
+<lb />Ont iamais merité l’honneur que vous me faictes?
+<lb />O merueilleux excez de grace &amp; de bon-heur,
+<lb />Qui met vne Captiue au lict de ſon Seigneur!
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Puis que vous me rendez le plus heureux des hõmes,
+<lb />Ma violente ardeur, &amp; le temps ois nous ſommes,
+<lb />Ne me permettent pas de beaucoup differer
+<lb />Vn bien le plus parfaict qu’on ſçauroit eſperer.
+<lb />C’eſt pourquoy treuuez bon qu’en la forme ordinaire,
+<lb />Le flambeau d’Hymenée auiourd’huy nous eſclaire,
+<lb />Tant pour haster le temps d’vn bien qui m'eſt ſi cher,
+<lb />Que pour d’autres raiſons qui pourroiẽt l’empeſcher,
+<lb />Et que pour le preſent il faut que ie vous taiſe;
+<lb />Cependant permetteZ que ie prenne à mon aiſe
+<lb />Vn honneſte baiſer, pour gage de la foy,
+<lb />Que le Dieu conjugal veut de vous et de moy.
+<lb />Il la baiſe
+<lb />O transports! ô baiſer de nectar &amp; de flamme,
+<lb />A quel rauiſſement eſleues-tu mon ame!
+<lb />Madame,s’il vous plaiſt, i’iray voir mes ſoldats,
+<lb />Et les ordres donnez ie reuiens ſur mes pas.
+<lb />Adieu, vous voyez trop en mon viſage bleſme,
+<lb />Que m'arracher de vous, c'eſt m'oſter a moy-meſme.
+<lb />Il s’en va</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />O miracle d’amour à nul autre pareil!
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Peut eſtre vne autrefois vous ſuiurez mon conſeil?
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ha! Phenice, il eſt vray qu’vne telle merueille,
+<lb />Fait que tres-iuſtement ie doute que ie veille,
+<lb />Et qu’vn ſonge trompeur n’abuſe mes eſprits.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />Madame, le Numide eſt tellement eſpris,
+<lb />Son bra ſier eſt ſi grãd, qu’il ne vous faut pas creindre,
+<lb />Que rien que le treſpas ait pouuoir de l’eſteindre.
+<lb />Cependant en cecy la prudence des Dieux,
+<lb />Contre nos ſentimens a fait tout pour le mieux.
+<lb />S’il auoit auiourd’huy voſtre lettre receué̈,
+<lb />Vos deſſeins n’auroient pas vne ſi bonne iſſuë.
+<lb />S’il ſçauoit ſeulement que vous l’auez chery,
+<lb />Uous l’auriez pour amant plutoſt que pour mary.
+<lb />Croyez, aſſeurément que voſtre modeſtie,
+<lb />Fait de ſa paßion la meilleure partie.
+<lb />C’eſt pourquoy tenez bon, &amp; ne relaſches point,
+<lb />Que l’ouurage entrepris ne ſoit au dernier poinct.
+<lb />Apres quand vous ſereZ ſa veritable fâme,
+<lb />Uous pourrez luy montrer voſtre premiere flame,
+<lb />Afin qu'il vous cheriſſe auecque plus d’ardeur,
+<lb />Voyant que vous l’aymez, et non pas ſa grandeur.
+<lb />Allons donc acheuer les appreſts neceſſaires
+<lb />Au reſtabliſſement du bien de vos a ffaires.
+<lb />Mais quel ſuiect, Madame, auez-vous de reſuer?
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Phenice, ie ne ſçay ce qui doit m’arriuer:
+</sp>
+<sp type="MainZone-Sp"><lb />H
+<lb />Mais quelque doux preſent que le bõ-heur m’enuoye,
+<lb />Mon cœur ne gouſte point vne parfaicte ioye.
+<lb />Syphax n’a pas encor les honneurs du tombeau,
+<lb />Et d’vn ſecond Hymen i’allume le flambeau;
+<lb />Certes punauhaie toinre ix tixotois peunce,
+<lb />Me donne du remords &amp; de la repugnance.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Madame il eſt bien vray qu’en vne autre ſaiſon,
+<lb />Vous auriez, ces penſers auec tuſte raiſon:
+<lb />Mais ſongeZ qu’en l’eſtat où vous eſtes reduite,
+<lb />C’eſt la nece ßité qui fait voſtre conduite.
+<lb />Mille raiſons d’Eſtat que vous n’ignorez pas,
+<lb />Sont de voſtre action l’excuſe &amp; le compas.
+<lb />Celles de voſtre rang ſont touſiours dispenſées,
+<lb />u attacher leur conduite à toutes ces penſees.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Allons donc trauailler à noſtre liberté,
+<lb />Et cedons aux rigueurs de la nece ßité.
+</sp>
+<p type="MainZone-Other"><lb />Fin du 3. Acte.
+</p>
+<p type="MainZone-Head"><lb />LA
+<lb />COTIIOTCISEE
+<lb />TIOÆTGDDTE
+<lb />DE MAIRET.
+</p>
+<p type="MainZone-Head"><lb />TICED IIIE.
+<lb />SCENE I.
+<lb />MASSINISSE, SOPHONISBE.
+</p>
+<sp type="MainZone-Sp"><lb />QMe
+<lb />MASSINISSE.
+<lb />VELQVE inſigne bon-heur dont ie ſois
+<lb />redeuable
+<lb />Amgin Aux careſſes du Sort qui m'eſt ſi fauorable,
+<lb />H iij
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt icy le plus grand qui m’ayt iamais ſuiu y,
+<lb />Ouy, Madame, il eſt vray que ie ſuis plus rauy
+<lb />De voir que voſtre amour à la mienne responde,
+<lb />Que ſi i'auois ſoumis tous les peuples du monde.
+<lb />I'ayme plus de moitié quand ie me ſens ayme,
+<lb />Et ma flame s’accroiſt pour vn cœur enflamé.
+<lb />Dans la poſſe ßion d’vne beauté de glace,
+<lb />La plus chaude fureur s’alentit &amp; ſe laſſe.
+<lb />Vn plaiſir legitime en veut vn de retour,
+<lb />Et l’amour ſeulement eſt le prix de l’amour.
+<lb />Comme par vne vague vne vagues trrite,
+<lb />Vn ſoûptr amoureux par vn autre s'excite.
+<lb />Quand les chaines d’Hymen eſtreignent deux
+<lb />eſprits,
+<lb />Vn baiſer ſe doit rendre außi-toſt qu’il eſt pris.
+<lb />De ſorte que touſiours la plus honneſte fâme,
+<lb />Eſt celle qui teſmoigne vne plus viue flame:
+<lb />C’eſt là que ſa vertu ſe monſtre en ſon ardeur,
+<lb />Et que la retenuë eſt de mauuaiſe odeur.
+<lb />Pour moy, quoy que deſia ma paßion fut telle,
+<lb />Que ſa force excedãt toute force mortelle,
+<lb />Mes deſirs toutes fois ont accreu de moitié,
+<lb />Depuis que i'ay connu voſtre ardente amitié.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Il me faudroit la voix de l’Eloquence meſme,
+<lb />Pour vous repreſenter à quel poinct ie vous ayme.
+<lb />Il ſuffit que pour trop, &amp; trop bien vous aymer,
+<lb />Il n'eſt point de diſcours qui le puiſſe exprimer.
+<lb />Pourtant, &amp; c’eſt icy la peur qui m'aſſaſine,
+<lb />Voſtre eſprit abuſé peut-eſtre s’imagine,
+<lb />Que mon affection toute pure qu’elle eſt,
+<lb />Meſle dans ſa ferueur quelque peu d’intereſt.
+<lb />naunnuinepouontquemnu jo fuoncommuine,
+<lb />Regarde Maßiniſſe, &amp; non pas ſa fortune:
+<lb />Et qu'en pareil degré de fortune &amp; d’ennuy,
+<lb />Ce qu’il a faict pour moy, ie l’aurois faict pour luy.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ie ne ioenx puurie ſmoin des cnoſes que vous dites,
+<lb />Que mon propre bon-heur,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Mais vos propres merites.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />A propos où naſquit, en quel temps, &amp; pourquoy,
+<lb />La bonne volonté que vous auez, pour moy<lb />De grace accordez-moy le plaiſir de l’entendre,
+<lb />YObplaiſtall.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Volontiers, ie m’en vay vous l’apprendre.
+<lb />Vous ſçaueZ qu’autres fois nous fuſmes ſur le poinct,
+<lb />De conclure vn Hymen qui nes' acheua point.
+<lb />Ce Prince mal-heureux, à qui les Deſtinées
+<lb />Vouloient ſacri fier mes premieres années,
+<lb />Fut cauſe que mon pere à ſes vœux complaiſant,
+<lb />Rompit le nœud ſacré qui nous lie à preſent.
+<lb />Cependant ſous l’eſpoir d’eſtre vn iour voſtre fâme,
+<lb />l'auois conceu pour vous vne ſecrette flame,
+<lb />Et receu dans l’eſprit vne douce langueur,
+<lb />Dont le temps m'eut guerie auecque ſa longueur;
+<lb />Si l’eſtrange accident que vous allez entendre,
+<lb />N'eut r’allumé ce feu qui mouroit ſous ſa cendre.
+<lb />Vous ſouuient-il du iour que Syphax et les ſiens,
+<lb />Sortirent pour forcer vos Maſſeßiliens?
+<lb />Il ſe paſſa pour vous auecque tant de gloire,
+<lb />Que vous en deueZ bien conſeruer la memoire.
+<lb />Car par voſtre vertu les noſtres repouſſeZ,
+<lb />Vous laiſſerent venir iuſqu'au bord des foſſez.
+</sp>
+<p type="MainZone-Other"><lb />Où ie
+<lb />Où ie vous vis combatre auec tant de vaillance,
+<lb />Que i’eus deſià pour vous aſſez de bienueillance,
+<lb />Pour ne ſouhaiter pas qu'vn ſuccez mal-heureux.
+<lb />Acheuast à mes yeux vos exploicts valeureux:
+<lb />Mais lors que de la tour cu ie m'eſtois placée,
+<lb />Je vis de vostre armet la viſiere hau ßée,
+<lb />Que pour cous ra fraiſchir vous leuaſtes expres;
+<lb />Et qu'i me fut pernus d’obſeruer d’aſſez pres
+<lb />Ce vi ſage ou l’Amour, &amp; le Dieu de la Thrace,
+<lb />Meſlent tant de douceur auecque tant d’audace;
+<lb />De là ie commençay de vendre mon pays,
+<lb />Et de là dans mon cœur les miens furent trahis.
+<lb />D'vne fleche de feu i’eus l’ame outrepercée,
+<lb />De ſorte que de tous ie fus la plus bleßée:
+<lb />Il eſt vra y qu’a preſent mon mal eſt apaiſé,
+<lb />Par la main de celuy qui vous l’auoit cauſé;
+<lb />Et que la gueriſon qui s’en eſt enſuiuie,
+<lb />Me le fera benir tout le temps de ma vie.
+</p>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Certes ie ſuis heureux d’vne telle façon,
+<lb />Que ma proſperité me donne du ſoupçon:
+<lb />Ie treuue deſormais ma fortisne ſi grande,
+<lb />Que i'en ſuis aueuglé, ſi ie ne l’apprehende.
+<lb />Le bon-heur a cela de la mer et du flus,
+<lb />Qu’il doit diminuër ſi toſt qu’il ne croiſt plus.
+<lb />Mais s’il faut que les Cieux, cãme c’eſt leur coütume
+<lb />Faſſent à la douceur ſucceder l’amertume,
+<lb />Que tout ſeul, s’il ſe peut, ie boiue tout le fiel,
+<lb />Que reſpandroit ſur nous la cholere du Ciel.
+<lb />tblat que dent ct fotdux tonuert à ta Romaine;:
+<lb />Ha! mon cher Ariſton, quel ſuiet vous ameine?
+<lb />Et que faict Scipion?
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Sire, il vient d’arriuer
+<lb />Purvom mande par moyae teoeninirener.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ou lanee-ous laiſjes
+</sp>
+<sp type="MainZone-Sp"><lb />ARISTON.
+<lb />Dans la ſale prochaine
+<lb />Où ſeulement Lelie auec luy ſe promeine.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ouy, i’iray le treuuer dans vn moment d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHON-ISBE.
+<lb />Ien'attens riende bon de ce meſſage-cy.
+<lb />Ce nom de Scipion m'eſt de mauuais preſage.
+</sp>
+<sp type="MainZone-Sp"><lb />O Dieux!
+<lb />MASSINISSE.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE,
+<lb />Et quey, beignem, oom onangeZ de viſage
+<lb />Quel ſujet auez-vous de vous inquieter?
+</sp>
+<sp type="MainZone-Sp"><lb />AMoollvooE.
+<lb />Nul, que le deplaiſir que i’ay de vous quitter.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />nn Ie prompt enangomomimreuo encorc'autre choſe;
+<lb />Et voſtre inquietude a toute vne autre cauſe:
+<lb />Dites la verité, vous craignez le pouuoir
+<lb />De celuy qui vous mande, &amp; que vous allez voir?
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Il eſt vray que ie crains que ce courage auſtere,
+<lb />N'empeſche nos plaiſirs, ou qu’il no les altere;
+<lb />Ie voy ma deſtinée, &amp; ſçay que Scipion
+<lb />Eſt venu pour troubler noſtre ſainte vnion.
+<lb />C’eſt pourquoy i'ay voulu haſter ma procedure:
+<lb />Car la choſe eſtant faite, il faudra qu’il l’endure.
+<lb />Il ſera moins faſché que ſi i’euſſe attendu,
+<lb />D’accomplir noſtre Hymen quand il l’euſt deffendu.
+<lb />Ii ne faut pas douter qu’il ne me ſollicite,
+<lb />Me preſſe, &amp; me tourmente, afin que ie vous quitta
+<lb />Meis que vif aux Enfers ie ſois precipité,
+<lb />Si tamais ie conſens à ceſte laſcheté.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Que ie perde plutoſt la lumiere celeſte,
+<lb />Que de voir mon amour vous deuenir funeſte.
+<lb />Non, non, ſi Scipion, comme on n’en doute point,
+<lb />Veut ſeparer en nous ce que l’Hymen a joint,
+<lb />Jl faut que vous faßiez toute choſe poſsible,
+<lb />Pour vaincre la rigueur de ce cœur inſenſible:
+<lb />Que ſi rien ne le peut, ie vous demande au moins,
+<lb />Au nom de tous les Dieux de nõs nopces teſmõins,
+<lb />Et par la pureté de l’Amour coniugale,
+<lb />De conſeruer en moy la dignité Royale.
+<lb />En fin ie vous coniure autant que ie le puis,
+<lb />De vous bien ſouuenir de ce que ie vous ſuis.
+<lb />Ne ſouffreZ pas qu'vn iour voſtre femme enchainée,
+<lb />Soit dans vn Capitole en triomphe menée.
+<lb />Ie ne vous parle plus comme hier ie vous parlois,
+<lb />En vefue de Syphax, &amp; ſuiette à vos lois;
+<lb />Ie ſçay bien que le nœud qui nos ames aſſemble,
+<lb />Confond pareillement nos intereſts enſemble;
+<lb />Que vous deueZ ſouffrir des maux qu’on me fera,
+<lb />Et que c'eſt de tous deux que l’on triomphera.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />I'ay pour voꝰ trop d’amour, pour moy trop de courage,
+<lb />Pour ſouffrir, ſans me perdre, vn ſi ſenſible outrage:
+<lb />Mais on n'en viendra pas à ceſte extremité;
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ie connoy Scipion, &amp; ſa ſeuerité.
+</sp>
+<sp type="MainZone-Sp"><lb />NISSINISSE.
+<lb />Ie vous donne ma foy que quoy qu’il en arriue,
+<lb />Rome ne verra point oupnonſoe captiue,
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Me le promettez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Oüy ie vous le promets:
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Allons donc, mon esprit eſt content deſormais.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />lre AIS vous, qui par vn lõg &amp; familier vſage
+<lb />Vous deuez, mieux connoiſtre en cét esprit
+<lb />Bolinse,
+<lb />Quel remede à ſon mal vous ſemble le plus ſeur?
+<lb />Eſt-ce la violence, ou ſi c’eſt la douceur?
+<lb />Et duquel maintenant faut-il que te me ſerue?
+</sp>
+<sp type="MainZone-Sp"><lb />Meſi
+<lb />L’vn perd ſouuente fois ce que l’autre conſerue:
+<lb />Noroy que le dernier y fera plus que tout;
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Et moy, que le premier en viendra mieux à bout.
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />La douceur neantmoins eſt le meilleur dictame,
+<lb />Que l’on puiſſe appliquer aux maux d’vne belle ame.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Mais quand vne belle ame a perdu la raiſon,
+<lb />Ce remede eſt ſans force, ou n’eſt plus de ſaiſon;
+<lb />Ce qu'a faict Maßiniſſe eſt ſi deſraiſonnable,
+<lb />Qu'à peine mon esprit le treuue imaginable;
+<lb />Et marque en ſa raiſon vn telde ſreiglement,
+<lb />Qu'il porte ſon excuſe en ſon aueu glement:
+<lb />Loin de s’imaginer que ſans beaucoup de peine,
+<lb />On tire ce Pâris du ſein de ſon Helene;
+<lb />Ie crains que cét Hymen augmentant ſa fureur,
+<lb />Ne luy faſſe plus outre eſteindre ſon erreur;
+<lb />Et que le meſme esprit qui le fit entreprendre,
+<lb />Ne porte ſamanie à le vouloir deffendre.
+<lb />En ce cas nous voyons à quelle extremité
+<lb />Ceſte funeſte Amour l’auroit precipité.
+<lb />Mais le voic y venir, triſte, &amp; ſans contenance;
+<lb />Eſſayons la douceur auant la violence.
+<lb />Ie treuue cependant qu’il ſeroit à propos,
+<lb />Et pour noſtre conduite, &amp; pour nostre repos,
+<lb />D’aller prendre nous-meſme, &amp; le temps &amp; la peine.
+<lb />Que nos gardes ſans bruit s’aſſeurent de la Reine.
+</sp>
+<p type="MainZone-Head"><lb />ACTE IV
+<lb />SCENE III.
+<lb />MASSINISSE. SCIPION.
+</p>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />T bien, cher Maßiniſſe, eſt-il ſous le Soleit
+<lb />Vn Roy dont le bõ-heur ſoit au voſtre pareil?
+<lb />1992 Quoy? bons Dieux! dans le cours d’vne
+<lb />meſmetournée
+<lb />Recouurer vn Royaume, &amp; faire vne Hymenée?
+<lb />Pour moy ie ne crois pas que ſans enchantement,
+<lb />On puiſſe aller plus loing, &amp; plus legerement.
+<lb />Certes quand le recit de toutes ces merueilles,
+<lb />De Lelie &amp; de moy vint frapper les oreilles,
+<lb />Tous deux pouſſez pour vous d’vne meſme amitié;
+<lb />O grands Deeux! diſmes-nous, c’eſt trop de la moitié.
+<lb />En effect vous pouuieZ, ſans ternir voſtre gloire,
+<lb />Vous contenter pour lors de la ſeule victoire.
+<lb />Il meſtoit pas beſoin de faire en meſme temps,
+<lb />Deux exploits ſi fameux, &amp; ſi fort importans:
+<lb />Mais peut-eſtre eſt-ce vn bruit qui court à l’auãture,
+<lb />Et que toute vne armée a creu par conjecture.
+<lb />De moy mon iugement iuſqu’icy ſuſpendu,
+<lb />Ne conceura iamais cét Hymen pretendu,
+<lb />Que la confeßion qu'en fait la Renommée,
+<lb />Par voſtre propre adueu ne me ſoit confirmée.
+<lb />Oſtez-nous donc de doute, &amp; faites s’il vous plaiſt,
+<lb />Que nous ſçachions de vous la choſe comme elle eſt.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Icy le ſens commun ne veut pas que ie cache,
+<lb />Ce qu’il faut au ßi-bien que tout le monde ſçache;
+<lb />Et la terre &amp; le Ciel exigent mon adueu,
+<lb />Sur vn miſtere ſainct, que l’vn &amp; l’autre a veu.
+<lb />Enfin i’abuſerois de vostre patience,
+<lb />Si ie vous en parlois contre ma conſcience.
+<lb />Il eſt vray, Scipion, que Sophoniſbe &amp; moy,
+<lb />Auons pris &amp; donné la coniugale foy,
+<lb />Et nous ſommes lieZ d’vne cheſne ſi ſaincte,
+<lb />Qu'on ne ſçauroit ſans crime en deffaire l’estrainte.
+<lb />Je voy bien que de ſia vostre ſeuerité,
+<lb />Condamne mon amour &amp; ma legereté.
+<lb />Dautãt mieux que voſtre ame eſt encore à conneſtre,
+<lb />Ce qu’il peut ſur vn cœur dont il s’eſt rendu maiſtre:
+<lb />Außi dans mon malheur te ſerois trop heureux,
+<lb />Si i’auois vn Cenſeur autre fois amoureux:
+<lb />Mlais a yant au contraire vn Scipion pour Iuge,
+<lb />Quel ſera mon espoir? où ſera mon refuge?
+<lb />Et de quelles raiſons me faudra-t’il vſer,
+<lb />S’il n'a iamais connu ce qui peut m'excuſer?
+<lb />S’il ignore d’amour la puiſſance ſupreſme,
+<lb />Qui ſemte &amp; fait majaute, &amp; texcuſe cue-meſme;
+<lb />Et quelle grace en fin puis-ie attendre de luy,
+<lb />Si par ſes ſentimens iliuge ceux d’autru y?
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Il eſt vray que touſiours i’ay gardé ma franchiſe,
+<lb />De ſe prendre aux filets où la voſtres eſt priſe,
+<lb />Et touſiours eſuité ces folles paßions,
+<lb />Comme vn chemin çontraire aux belles actions.
+<lb />Ce n’eſt pas que mon ſein ſouſtienne vn cœur de roche,
+<lb />Impene trable aux traicts que l’amour nous deſcoche:
+<lb />La main qui fit le voſtre a fait le mien auſsi,
+<lb />Et la ſeule vertu me le rend endurcy.
+<lb />C'eſt auec ce bouclier qu’il falloit ſe deffendre,
+<lb />Et mon exemple ſeul vous le deuoit apprendre.
+</sp>
+<p type="MainZone-Lg"><lb />Ha! mon cher Maſsiniſſe, il falloit en effect, Ifait.
+<lb />Vous deffendre vn peu mieux que vous n’auez pas
+<lb />Ie ſçay que dés long-temps les Hiſtoires ſont pleines
+<lb />Des transports amoureux des meilleurs Capitaines;
+<lb />Mais où trouuera-t’on que les plus ſignalez,
+<lb />Puiſſent eſtre en fureur aux voſtres eſgalez?
+<lb />Maſsiniſſe en vniour, voit, ayme, et ſe marte,
+<lb />A-t on iamais parlé d’vne telle furie?
+<lb />Bien plus, l’aueuglement de ſa raiſon eſt tel,
+<lb />Qu’il entre dans le lict d’vn ennemy mortel,
+<lb />D'vn Syphax, d’vn tyran, de qui l’injuste eſpée,
+<lb />A ſur ſon pere mort la couronne vſurpée:
+<lb />Certes ſi pour vanger la mort de nos parens,
+<lb />Il falloit espouſer les vefues des tyrans,
+<lb />Les voſtres qu’il perdit, ont toute l’allegeance
+<lb />Qu'ils pourroient deſirer d’vne telle vengeance:
+<lb />Il eſt vray que chacun en ſon propre intereſt
+<lb />Se rend compte à ſoy-meſme, &amp; fait cõme il luy plaiſt;
+<lb />Et par ceſte raiſon vous auteZ creu poſsible,
+<lb />Qu'en cette affaire-cy tout vous eſtoit loi ſible:
+<lb />Mais à mon iugement il eſt bien mal-aiſé,
+<lb />Que le voſtre en ce poinct ne ſe ſoit abuſé.
+<lb />Peut-eſtre croyez-vous que par cét Hymenée,
+<lb />Sophoni ſhe ſoit vostre, &amp; qui vous l’a donnée?
+</p>
+<p type="MainZone-Lg"><lb />R3
+<lb />Par quelle authorité preneZ vous le butin,
+<lb />Qui doit appartenir à l'Empire Latin?
+<lb />Ne ſçauez-vous pas bien que c’eſt là ſon partagé,
+<lb />Et qu’il vous reſtablit dedans voſtre heritage?
+<lb />Par le congé de qui l’auez-vous entrepris?
+<lb />Non, non, noſtre Allié, rappellez vos eſprits,
+<lb />La plus courte fureur eſt touſiours la meilleure:
+<lb />Quittez donc Sophoniſbe, &amp; la rendeZ ſur l’heures
+<lb />C’eſt par là ſeulement que vous ſeront rendus
+<lb />Le repos et l’honneur, que vous auez, perdus.
+</p>
+<sp type="MainZone-Sp"><lb />Evl ſNoo lLAe Es.
+<lb />Quel hõneur, ô grands Dieux! &amp; quel repos en l’ame
+<lb />Peut auoir vn mar y d’abandonner ſa fâme?
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />N a yant pat eſpouſer, puis qu'elle eſtoit à nous,
+<lb />Ce mariage eſt nul au iugement de tous.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Et la force &amp; le droict veulent que ie la rende;
+<lb />Elle eſt voſtre, il eſt vray, mais ie vous la demande.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Ie ferois vne faute indigne de pardon,
+<lb />Si ie vous octroyois vn ſi funeſte don.
+<lb />Accorder ce preſent à l’ardeur qui vous brûle,
+<lb />Ce ſeroit vous donner la chemiſe d Hercule.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />S’il m’eſt icy permis de vous rendre preſens,
+<lb />Les ſeruices rendus dés mes plus ieunes ans;
+<lb />Et ſi dans le paßé ie puis au ßi comprendre,
+<lb />Tous ceux qu’à l’aduenir ie deſire vous rendre;
+<lb />Ma triſteſſe auiourd’huy vous coniure par eux,
+<lb />De ne me rauir pas ce ſalaire amoureux.
+<lb />Non que toute ma vie en ſeruices paßée,
+<lb />Ne fuſt trop dignement deſia recompenſée:
+<lb />Mais à quoy tant d’honneur &amp; de biens ſuperflus,
+<lb />Si l’on m'oſte celuy que i’eſtime le plus?
+<lb />Ie ſçay que demandant la choſe qu'on me nie,
+<lb />Ie demande vn threſor de valeur infinie;
+<lb />Au ßi n'appartient-il qu'aux Romains ſeulement,
+<lb />De m'accorder vn don qui vaille infiniment.
+<lb />Faictes-moy donc encor cette derniere grace,
+<lb />Par ces mains que ie baiſe, &amp; ces pieds que i’ẽbraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Leuez-vous, Maßiniſſe, et vous reſſouuenez,
+<lb />De conſeruer l’honneur du rang que vous tenez:
+<fw><lb />R iij
+</fw><lb />Oüy, comme vostre amy, qui plains voſtre infortune,
+<lb />Ie vous accorde tout, ſans difference aûcune,
+<lb />Mais d’autre part auſsi, comme vostre Empereur,
+<lb />Qui plains &amp; blaſme en vous cette aueugle fureur,
+<lb />Pour la derniere fois il faut que ie vous nie.
+<lb />Ce qu’exige de moy vostre mauuais Genie:
+<lb />Dopronpouneuonomupquit de tel intereſt,
+<lb />Que rien ne peut changer cét immuable arrest,
+<lb />Neceſſaire au ſalut de la choſe publique:
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />O mortelle ſentence!ô decrett yrannique!
+<lb />Quoy donc de tant de coups mon eſtomac ouuert,
+<lb />Et tout mon triste corps de bleſſures couuert,
+<lb />Dont vous fustes iadis le teſmoin oculaire,
+<lb />Ne pourront m'obtenir vn plus digne ſalaire?
+<lb />M a-t'on veu tant de fois vne picque à la main,
+<lb />Soustenir la grandeur de l’Empire Romain,
+<lb />Pour me voir maintenant demander auec larmes,
+<lb />Ce que i’ay merité par le ſang &amp; les armes?
+<lb />Mais celuy qui le viden fait ſi peu de cas,
+<lb />Qu'il eſt à preſumer qu’il ne s'en ſouutent pas.
+<lb />Montrez, montrez-vous donc mes bleſſures fermées,
+<lb />Vaines marques d’honneur par le fer imprimées,
+<lb />Telles, s’il ſe pouuoit, que vous estiez alors
+<lb />Que vous fiſtes tomber ce miſerable corps:
+<lb />Voyez ſi vous changeant en de ſanglantes hbouches,
+<lb />Vous n’adoucirez point ſes ſentimens farbnches.
+<lb />O Dieux! rien ne l’eſmeut, o cœur ſans amitié,
+<lb />Et ſourd à la priere, &amp; ſourd à la pitié!
+<lb />Icy il ſe pourmene ſans rien dire.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Laiſſons-le vn peu nager dans la melancholie,
+<lb />Et nous ſeruons apres de l’eſprit de Lelie.
+<lb />Bon, il vient à propos.</sp>
+<p type="MainZone-Head"><lb />AOTE EV.
+<lb />SCENE IV
+<fw><lb />LELIE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />ET bien, ſerend-il pa?
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Vous voyez comme il reſue, et chemine à grands pas<lb />Aaieu, ie vous te taige, eſfayt Se vous prie,
+<lb />De calmer doucement les flots de ſa furie:
+<lb />Comme il eſt violent,Il pourroit s’emporter,
+<lb />Et moy ie feray mieux de ne pas l’eſcouter.
+<lb />Il rentre,
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Non ie n'en feray rien, la choſe eſt reſoluë;
+<lb />Ou l’on m'y contraindrade puiſſance abſolue.
+<fw><lb />Ces
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Ces mots interrompus de ſouſpirs redoublez,
+<lb />Montrent qu’il a les ſens extremement troublez;
+<lb />Les tragiques penſers où ie voy qu’il ſe plonge,
+<lb />Irritent ſa fureur, &amp; l’ennuy qui le ronge:
+<lb />C eſt pourquhy de bonne heure il faut l’en diuertir;
+<lb />Et quoy
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Non, Scipion, ie n’y puis conſentir.
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />L'excez de ſa douleur l’aueugle, &amp; le tranſporte,
+<lb />Quoy, vous meſconnoiſſez vos amis de la ſorte?
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ha! Lelie, il eſt vray que ie croyois parler
+<lb />Acét inexorable,
+</sp>
+<sp type="MainZone-Sp"><lb />Qui plaint vostre aduanture.
+<fw><lb />Il vient de s'enaller,
+</fw></sp>
+<p type="MainZone-Other"><lb />LELIE.
+<fw><lb />E
+</fw></p>
+<sp type="MainZone-Sp"><lb />MASSINESSE.
+<lb />Oridicule choſe!
+<lb />Ie prustiirmonauuumure, &amp;c eſe iuyuut la cauſe.
+<lb />Ha! qu'vn parfait amy ſe treuue rarement!
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Croyez que Scipion vous ayme aſſeurément:
+<lb />Il vous ayme, &amp; ſur tout c’eſt en ceſte rencontre,
+<lb />Que pour voſtre ſalut ſon amitie ſe monſtre.
+<lb />Conſiderez, de grace, &amp; ſans vous emporter,
+<lb />Quel eſt le grand threſor qu’il voudroit vous oſter:
+<lb />C’eſt la vefue d’vn Roy, qui cent fois en ſa vie
+<lb />Apar cent cruautez, la voſtre pourſuiitie;
+<lb />Employant contre vous le fer et le poiſon,
+<lb />Apres auoir deſtruit toute voſtre maiſon.
+<lb />Pour elle, à ce qu’on dit, c’eſt vne belle choſé:
+<lb />Mais voyons ſon esprit, &amp; les maux qu’elle cauſe.
+<lb />Auant que le poiſon de ſes regards charmans,
+<lb />Eut mis le vieux Syphax au rang de ſes amans,
+<lb />Ce Prince eſtoit-il pas, oſté la perfidie,
+<lb />Le plus grand que iamais ait veu la Numidie?
+<lb />Et dés qu’ils fitrent joints par le nœud coniugal,
+<lb />Fut-il iamais mal-heur à ſon mal-heur égal?
+<lb />Elle ne ceſſa point, que pour plaire à ſa hayne;
+<lb />Il n’euſt abandonné la puiſſance Romaine;
+<lb />Et par ceſte imprudence, à ſa perte animé,
+<lb />Ceux qu’il a yma iadis, et dont il fut aymé.
+<lb />Q vous dont la vertu, le cœur, &amp; la vaillance,
+<lb />Sont le plus cher obiect de noſtre bien-veillance;
+<lb />Poyee ſe funs fufetitou ertrignons auiourd'huy,
+<lb />Que le meſme rocher ne vous perde auec luy.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Croyez, mon cher Lelie, auecque certitude,
+<lb />Que ſur tous actes noirs ie hay l’ingratitude;
+<lb />Et qu’il n’eſt ny beauté, ny coniugale loy,
+<lb />Qui m'eſloigne tamais de ce que ie vious doy.
+<lb />Ie tiens tout du Senat, &amp; ſçay quel aduantage,
+<lb />A l'Empire Romain ſur celuy de Cartage:
+<lb />Non, non, cher Confident, affaurez, Soipion,
+<lb />De la ſincerité demona ffection;
+<lb />3
+<lb />
+<lb />Dites-luy que iamais ceſte innocente Reyne
+<lb />Ne me dinertira de l’amitié Romaine,
+<lb />Qu'on oſtera plũtoſt les feuxde firmament;
+<lb />Enfin qu'il ait pitié d’vn miſerable amant.
+</sp>
+<p type="MainZone-Lg"><lb />L
+<lb />Taſchez de m'adoucir ce courage inſenſible,
+<lb />fen'eſpere qu'en vous;
+</p>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />I'y feray mon poßible.
+<lb />Pauure esprit aueuglé, qui ne reconnois pas,
+<lb />Quorunounne pooum nuec ſes faux appas!
+<lb />Certes ie plains ton ſort, quoy qu'en cét Hymenée. -
+<lb />Ton obſtination faſſe ta deſtinée.
+</sp>
+<p type="MainZone-Other"><lb />Fin du 4. Acte.
+<fw><lb />LA
+</fw></p>
+<p type="MainZone-Head"><lb />SOPHONISBE,
+<lb />INIGEDIE
+<lb />DE MAIRET.
+</p>
+<p type="MainZone-Head"><lb />IIOEE
+<lb />SCENE I.
+</p>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb /> VEles Dieux tous parfaicts de nature qu’ils
+<lb />ſont,
+<lb />(nous font!
+<lb />2mo Teſmoignent d’inconſtãce aux preſents qu’ils
+<lb />Qu'il eſt aysé de voir au mal-heur de ma vie,
+<lb />Que nos prosperiteZ leur cauſent de l’enuie!
+</sp>
+<sp type="MainZone-Sp"><lb />L iij
+</sp>
+<sp type="MainZone-Sp"><lb />Et qu’ils ne donnent point vn plaiſir ſans douleur,
+<lb />De peur qu'vn bien entier ne ſoit ſemblable au leur:
+<lb />En vain dans le deſtin des affaires humaines,
+<lb />D’autres ſe promettront des volupteZ certaines,
+<lb />Si ie monſtre auiourd’huy que le meſme Soleil,
+<lb />Qui vit hier mon bon-heur à nul autre pareil,
+<lb />Comme de ſia ſon chars' alloit cacher ſous l’onde,
+<lb />Que me ſert la puiſſance &amp; le tiltre de Roy,
+<lb />Si dans mon propre Eſtat on me donne la loy?
+<lb />Que me ſert le Laurier qui me couure la teſte,
+<lb />S’il ne peut empeſcher la prochaine tempeſte,
+<lb />Dont s’en va foudroyer ma gloire &amp; mes plaiſirs
+<lb />Ce mortel ennem'y des amoureux de ſirs;
+<lb />Ce naturel chagrin, qui n'aymant rien luy-meſme,
+<lb />Ne ſçauroit approuuer ny ſouffrir que l’on ayme:
+<lb />Enfin, dequoy me ſert l’audace &amp; la valeur,
+<lb />Si i’ay les bras liez en ce dernier mal-heur?
+<lb />Helas! ſi ce threſor de beautez, &amp; de charmes,
+<lb />Comme ie l’ay gaigné par la force des armes;
+<lb />Par les armes außi ſe pouuoit conſeruer,
+<lb />Que ne ferois-je point afin de le ſauuer?
+<lb />S’il me falloit dompter le monſtre d’Andromede,
+<lb />Mon malheur en ma main treuueroit ſon remede:
+</sp>
+<p type="MainZone-Lg"><lb />S’il me falloit encor aller contre les morts,
+<lb />Sur les pasd’vn Hercule, eſprouuer mes efforts;
+<lb />Et l’arracher des fers comme vn autre Theſée,
+<lb />Mon Amourme rendroit ceſte entrepriſe ayſée.
+<lb />Mais ayant à combattre vn monſtre renaiſſant,
+<lb />Vne fiere Harpie, vn Aigle rauiſſant,
+<lb />De qui le vol s’eſtend par tout noſtre hemiſphere,
+<lb />Que pourrois-ie entreprẽdre? ou que pourrois-ie faire
+<lb />Qui n'excedaſt l’effort &amp; le pouuoir humain?
+<lb />Forceray-ie moy ſeul tout le pouuoir Romain?
+<lb />Ou feray-ie moy ſeul ce qu’en ſeize ans de guerre,
+<lb />N'a pu faire Hannibal, ny par mer, ny par terre?
+<lb />Non, non, ma Sophoniſbe, il n’y faut plus penſer,
+<lb />Noſtre Sort n’eſt pas tel qu’on le puiſſe forcer:
+<lb />C'eſt la ſeule douceur qui vous peut rendre mienne,
+<lb />Hors cela, mon eſpoir n'arien qui le ſouſtienne:
+<lb />Poßible que Lelie aura mieux reüßy
+<lb />Que ie n’oſe esperer. O grands Dieux! le voicy,
+<lb />Qui me vient prononcer ma derniere ſentence:
+<lb />Sus, mon cœur à ce coup arme toy de conſtance.
+</p>
+<p type="MainZone-Head"><lb />MSTE
+<lb />V:
+<lb />SCENE II.
+<lb />LELIE. MASSINISSE.
+</p>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Tbien, mon cher Lelie, irons-nous à la mort?
+<lb />Venez-vous m'annoncer le naufrage ou le
+<lb />port?
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Sire, c’eſt à regret que ie ſuis le miniſtre,
+<lb />Et le triste porteur d’vn mandement ſiniſtre;
+<lb />I’ay charge de vous dire, &amp; de vous ordonner,
+<lb />De rendre Sophoniſbe, ou de l’abandonner,
+<lb />Comme choſe au public, vtile &amp; neceſſaire,
+<lb />Aduiſez maintenant ce que vous voulez faire?
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Me perdre, &amp; par ma mort aprendre à tous les Rois,
+<lb />Cruels
+<lb />Ane ſuiure iamais ny vos mœurs, ny vos lois,
+<lb />Cruels, qui ſous le nom de la choſe publique,
+<lb />Vſez impunement d’vn pouuoir tyrannique;
+<lb />Et qui pour teſmoigner que tout vous eſt permis,
+<lb />Traictez vos Alliez comme vos ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />edde enye epuquoncumasouvtoutes cesfumées
+<lb />En ſemblables tranſports ne ſe ſoient conſumées,
+<lb />La fureur diminué à force de parler:
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Ha! que ſi le paßé ſe pouuoit r’appeller,
+<lb />Ie m’empeſcherois bien de ſeruir de matiere,
+<lb />A la ſeuerité de ton humeur altiere;
+<lb />Peuple vain, qui croirois n'auoir pas triomphé,
+<lb />A moins d’vn pauure Roy ſous ſes fers eſtouffé.
+<lb />C’eſt par ceſte raiſon, ou publique, ou priuée,
+<lb />(Puis qu’vn particulier l’a poßible treuuée)
+<lb />Que de force abſoluë on me fait rendre vn bien,
+<lb />Sans lequel ie ne veux, ny n'eſpere plus rien.
+<lb />Oüy, Lelic, il importe à la gloire d’vn homme,
+<lb />Que ma femme elle-meſme aille eſclaue dans Rome;
+<lb />Et que ſa vanité ſeule ſemblable à ſoy,
+<lb />Triomphe à meſme temps de Syphax &amp; de moy.
+<lb />O bien-heureux vreillard dont la trame eſt finie,
+<lb />Sur le poinct qu’il tomboit ſous voſtre tyrannie!
+<lb />*
+</sp>
+<p type="MainZone-Lg"><lb />Ri
+<lb />Et moy tres-mal-heureux d’eſprouuer à preſent,
+<lb />Cõbien meſme aux vainqueurs voſtre ioug eſt peſant
+<lb />Qu’il s’en ſaiſiſſe donc, qu’il l’enleue &amp; l’entraine,
+<lb />Ceſte deſesperée &amp; pitoyable Reyne;
+<lb />Il faut que ſon triomphe ayt tout ſon ornement:
+<lb />Ie n’y contredis plus, ie l’ay fait vainement:
+<lb />Suſfit, ſi te ne puis y faire plus d'obſtacle,
+<lb />Que ma mort preuiendra cét indigne spectacle.
+</p>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Il luy faut pardonner ces violans transports:
+<lb />Mais parlons maintenant, qu’il a tout mis dehors.
+<lb />Sire, ſi vous pouuiez, à force d’inuectiues,
+<lb />Rendre vos paßions &amp; vos douleurs moins viues,
+<lb />Ie vous conſeillerois de les continuër,
+<lb />Tant que voſtre ſouffrance en pût diminuër.
+<lb />DeſcrieZ deuant moy le ioug de noſtre Empire,
+<lb />I'y conſens, &amp; dira y qu’il eſt encore pire:
+<lb />Mais ie ne puis ſouffrir que vous blaſmiez, à tort
+<lb />Vn homme qui vous plaint, &amp; vous a yme ſi fort;
+<lb />Et dont l’ambition n'eſt pas ſi deſreglée,
+<lb />Que vous la conceuez, en vostre ame aueuglée.
+<lb />Vous ſçaueZ, &amp; le temps vous y fera ſonger,
+<lb />La raiſon qui l’oblige à vous de ſobliger.
+<lb />Ie ne la diray point, vous l’ayant deſia dite;
+<lb />C’eſt pourquoy iugez mieux d’vn ſi rare merité.
+<lb />Que de vous figurer que pour ſa vanité,
+<lb />Il voulut vous traicter auec indignité.
+<lb />Il cognoiſt voſtre cœur, il en fait trop de conte;
+<lb />Bref, il vous a yme trop pour chercher voſtre honte:
+<lb />Jl ne veut rien de vous, ſinon que vous rendiez,
+<lb />Celle qui vous perdroit, ſi vous ne la perdiez;
+<lb />Et pour l’amour de vous &amp; de voſtre Hymenée,
+<lb />Elle ne ſera point en triomphe menée.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />A quoy donc Scipion la veut-il deſtiner?
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />C’eſt à vous maintenant à vous l'imaginer,
+<lb />Vous ſçauez du Senat l’ordonnance dernieré,
+<lb />Par laquelle arriuant qu’elle fut priſonniere,
+<lb />Il nous eſt à tous deux expre ßement enjoint,
+<lb />De l’enuoyer à Rome, &amp; de n’y manquer point:
+<lb />Regardez maintenant ſi vous auez enuie
+<lb />De luy ſauuer l’honneur aux deſpens de la vie;
+<lb />Et ne vous plaignez, plus, puis qu’à bien diſcourir,
+<lb />Voſtre amy luy fait grace, en la laiſſant mourir.
+</sp>
+<p type="MainZone-Lg"><lb />E1 7
+</p>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Quelle grace, ô bons Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />C’eſt pourtant la plus grandé
+<lb />Qui ſe puiſſe accorder, &amp; que le temps demande.
+<lb />Sire, releuant donc voſtre esprit abbatu,
+<lb />D’vne nece ßité faictes vne vertu.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Helas! quelle vertu voulez-vous que ie faſſe,
+<lb />Qui ne ſoit ridicule, &amp; de mauuaiſe grace?
+<lb />nontez oons qnoto momno im iefuge Jeramné.
+<lb />Rendray-ie encore grace au Iuge ſouuerain,
+<lb />De qui l’arreſt ſanglant a conclu ma ris yne,
+<lb />Ou ſi'ic parfera y le oras quim'aſa ßine:
+</sp>
+<sp type="MainZone-Sp"><lb />EDuIEs.
+<lb />La plus haute vertu qu’on exige de vous;
+<lb />C’eſt de ſouffrir vn mal qui nous afflige tous.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Jl faut lien le ſouffrir, puis que mon impuiſſance
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Ie veux dire ſouffrir auecque patience,
+</sp>
+<sp type="MainZone-Sp"><lb />En vous repreſentant que par ceſte action,
+<lb />Uous gaigneZ vn laurier ſur voſtre paßion,
+<lb />Que Romme, le Senat, &amp; toute l’Italie,
+<lb />A qui d’oreſnauant voſtre Sceptre s’allie.
+<lb />Si vous preneZ pour eux ceſte fortune en gré,
+<lb />Vous cherirent ancor en vn plus haut degré.
+<lb />Regardez, s’il vous plaïſt, vos dernieres conqueſtes
+<lb />Le trouble ou vous eſtiez, &amp; le calms où vous eſtes:
+<lb />Ne m’auourez-vous pas que vous ſertez ingraz,
+<lb />Et point ous peu ſoigneux du bien de voſtre Eſtat,
+<lb />Si vous nous obligiez par quelque violence,
+<lb />A retrancher pour vous de noſtre bien-veillance:
+<lb />Quel malheur &amp; pour voꝰ &amp; pour tous les Romains.
+<lb />S’il leur falloit deffaire auec leurs propres mains,
+<lb />Leur plus conſiderable &amp; plus parfait ouurage?
+<lb />Mails popons gurolese ple Gonbss cons omtage,
+<lb />Quoy, pour vn deſplaiſir qu’il vous fait auiourd’huy,
+<lb />Perdra-t’il cent bien-faits que vous tenez de luy?
+<lb />Ne condamnez, donc point auecque vos murmures
+<lb />Nynos mœurs, n'y nos loix,
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />O Dieux qu’elles ſont dures:
+<lb />En effet il eſt vray, ie ſerois plus qu'ingrat,
+<lb />Si ie ne reſpondois aux biens-faits du Senat:
+<fw><lb />M 2
+</fw><lb />Mais ie ſerois moins qu’hõme, ou biẽ plus que barbare,
+<lb />Si ie ne fremiſſois du mal qu'on me prepare:
+<lb />Et bien n’en parlons plus, m'y voilà reſolu,
+<lb />At paut ciente bomoir,quund Rome l’a voulu.
+<lb />O mary deplorable! O mal-heureuſe fâme!
+</sp>
+<sp type="MainZone-Sp"><lb />Haura
+<lb />Sire, n’y ſongez plus.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Arrachez-moy donc l’ame:
+<lb />Quoy qu'en vain, carencore on m'y verra ſonger
+<lb />Au milieu des Enfers:
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Que veut ce Meſſager?
+<lb />C’eſt infailliblement la Reyne qui l’enuoye,
+<lb />Il faut bien empeſcher qu'elle ne le reuoye.
+</sp>
+<p type="MainZone-Head"><lb />AOTE
+<lb />SCENE III.
+<lb />V
+</p>
+<sp type="MainZone-Sp"><lb />MESSAGER.
+<lb />IRE, quand vous lirez, le papier que voicy,
+<lb /> Vous ſçaurez le ſuject pourquoyie ſuis icy,
+</sp>
+<sp type="MainZone-Sp"><lb />LETTRE DE SOPHONISBE.
+<lb />rien ne peut flechir la rigueur obſtinée,
+<lb />ODe ceux que mon courage a fait mes ennemis,
+<lb />Plutoſt qu’eſtre captiue en triomphe menée,
+<lb />Donnez-moy le preſent que vous m’auez promis.
+</sp>
+<sp type="MainZone-Sp"><lb />a
+<lb />MASSINTSSE.
+<lb />Oüy, ie ſuis obligé de tenir ma promeſſe,
+<lb />Ie vay vous le porter; puis que l’heure me preſſe,
+<lb />Et que la ſeule mort peut finir voſtre ennu y:
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Sire, ne le donnez que par la main d’autruy.
+<lb />Vos maux en la voyant s’augmenteront,
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+</sp>
+<p type="MainZone-Other"><lb />N'importe.
+</p>
+<sp type="MainZone-Sp"><lb />Croyez-moy.
+<lb />LELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISJE.
+<lb />Non, Lelie, il faut que ie le porte.
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Vous ne le fereZ pas, ce n'eſt que temps perdu:
+</sp>
+<sp type="MainZone-Sp"><lb /> MASSINISSE.
+<lb />Et pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />i..i
+<lb />LELIE.
+<lb />C’eſt vn poinct qu’on vous a deffendu,
+<lb />De peur que cette veué accreut voſtre ſupplice.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Bien donc, que de tout poinct mon Deſtin s’accõpliſſe:
+<lb />Tu le vois, mon amy, qu’auec tout mon pouuoir,
+<lb />Il ne m'est pas permis ſeulement de la voir.
+<lb />O Dieux! ſouffrireZ-vous qu’vne iniuſte puiſſance,
+<lb />Regne ſur vos enfans auectant de licence?
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Ce violent eſprit s’eſchape à tout moment,
+<lb />Certes il eſt à plaindre en ſon aueuglement.
+<lb />Ie crains quelque reuolte en ſon amgagitée,
+<lb />Le voila qui rumine,
+<fw><lb />....
+<lb />·
+<lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />La pierre en eſt iettéez
+<lb />Mon amy vien querir ce funeſte preſent,
+<lb />Allons, Lelie, allons, vousy ſerez preſent.
+<fw><lb />E2.
+<lb />Cau
+</fw></sp>
+<p type="MainZone-Head"><lb />AEIE.
+<lb />V
+<lb /> 2
+<lb />SOPHONISBE. CORISBE’. PHENICE.
+</p>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb /> ADAME, voſtre humeur craintiue, &amp;
+<lb />ſoucienſe,
+<lb />MAR A vous inquieter eſt trop ingenieuſe.
+<lb />Le moindre objet vous trouble; vn ſonge, vne vapeur,
+<lb />Vn corbeau qui croaſſe, en fin tout vous fait peur.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Phenice, croyez-moy, ie ſuis venue aux termes;
+<lb />Où doiuent s’eſbranler les esprits les plus fermes:
+<lb />Le mal-heur qui m'attend eſt ſi prodigieux,
+<lb />Les ſignes que t'en ay ſont ſi preſagieux,
+<lb />Et tous ſi clairement marquent ma deſtinée,
+<lb />Que vous qui m'aſſeurez, en ſerez eſtonnée. (gnit,
+<lb />Vous ſçauez qu’hier au ſoir lors qu’Hymen nous joi
+<lb />Par deux diuerſes fois ſon flambeau s’eſteignit,
+</sp>
+<sp type="MainZone-Sp"><lb />Que meſme à ce matin vne brebis frapée,
+<lb />S’eſt de la main du Preſtre &amp; du Temple eſchapée,
+<lb />Et qu’eſtant ramenée auec le coup mortel,
+<lb />La foudre a conſumé la victime &amp; l'autel.
+<lb />Deux funeſtes oyſeaux dans l’horreur des tenebres,
+<lb />Ont troublé mon repos auec leurs cris funebres:
+<lb />Encore auiourd’huy meſme au leüer du Soleil,
+<lb />Vn ſonge espouuentable a cauſé mon reſueil.
+<lb />Du mal-heureux Syphax l’image enſanglantée,
+<lb />Auec ces triſtes mots à moy s’eſt preſentée.
+<lb />Ingrate, ie reuiens de l’eternelle nuict,
+<lb />Pour t’aſſeurer encor du mal-heur qui te ſuit:
+<lb />D’vn mary mesprisé le courroux legitime,
+<lb />Te demande aux Enfers, oüt apelle ton crime:
+<lb />Adieu, tes voluptez feront naufrage au port,
+<lb />Ie te l’ay dit viuãnt, &amp; ie te le dy mort.
+<lb />Là certes le ſommeil à la crainte a fait place,
+<lb />Et ie me ſuis treuutée außi froide que glace:
+<lb />Puis embraſſant le Roy, par vn contraire effet,
+<lb />La peur a fait en moy ce que l’Amour euſt fait.
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />Il eſt vray qu’apres tout voila des pronoſtiques,
+<lb />Qui ſont auant-coureurs d’auantures tragiques.
+<lb />Mais le Pere des Dieux à qui tout eſt permis,
+<lb />En deſtourne l’effect deſſus nos ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Ce qui me met en peine auec plus d’apparence,
+<lb />C’eſt l’extreme longueur de ceſte conference:
+<lb />Le Roydoreſnauant met trop à reuenir;
+<lb />Pour croire auec rarſon; qu’il ait pù m'obtenir:
+<lb />Mais voicy de retoür celuy par qui la vie,
+<lb />Me ſera conferuée; ou me ſera rauie.
+<fw><lb />....
+</fw><fw><lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />AETE
+<lb />SCENE V
+</p>
+<sp type="MainZone-Sp"><lb />Nel
+<lb />MESSAGER.
+<lb />p Die ſuis mal-heureux de ſeruir d’inſtris-
+<lb />ment,
+<lb />MPN A la fureur du Sort!
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Auancez, hardiment:
+<lb />Monſtrez-moy ce papier, donnez-moy ce breuuage,
+<lb />Par où i’eniteray la honte du ſeruage.
+</sp>
+<sp type="MainZone-Sp"><lb />LETTRE DE MASSINISSE,
+<lb />A SOPHONISBE.
+<lb />Vis qu’il faut obeyr à la neceſſité,
+<lb />T Receuez de ma part ceſte coupe funeſte,
+<lb />De tant de biens que i’eus, c’eſt le ſeul qui me reſte.
+<lb />Er lerdernier teſmoin de ma fidelité.
+<lb />N iij
+<lb />O Dieux! que ce preſent m'apporteroit de joye,
+<lb />Si ie pouuois baiſer la main qui me l’enuoye:
+<lb />Dictes, Caliodore, et ne me trompeZ point,
+<lb />Auez-vous obſerué ce qui vous fut enjoint?
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Madame, en le voyant vous auoürieZ vous meſme,
+<lb />Qu'ainſi que ſon amour ſa douleur eſt extreme:
+<lb />La couleur du trespas dont ſon viſage eſt peint,
+<lb />Monſtre de quel ennuy ſon eſprit eſt atteint.
+<lb />Mon amy, m’a-t’il dit, va-t’en dire à Madame,
+<lb />Que Romme ne veut pas qu'elle viue ma fâme,
+<lb />Et que c’eſt ſa vertu qu’on ne ſçauroit ſouffrir,
+<lb />Qui fournit le poiſon que tu lu y vas offrir.
+<lb />Il porte dans le cœur vne mort ſi ſoudaine,
+<lb />Que preſque en vninſtant il acheue ſa peine.
+<lb />Apres en m’embraſſant, &amp; me parlant tout bas,
+<lb />Afin que les Romains ne l’entendiſſent pas;
+<lb />Iure-luy, m’a-t’il dit, que la main de la Parque,
+<lb />M’euſt pou ßé le premier dans la fatale barque,
+<lb />Neſtoit qu’apres ma mort nos communs ennemis,
+<lb />Perdroient le ſouuenir de ce qu’ils m’ont promis.
+<lb />Qu'eile s’aſſeure donc, qu’vn treſpas digne d’elle.
+<lb />Luy prouuera dans peis que ie lu y ſuis fidelle.
+<lb />Auec ces derniers mots il s’eſt eſuanoüy;
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />O de parfaicte amour teſmoignage inoüy!
+</sp>
+<sp type="MainZone-Sp"><lb />EIIENICE
+<lb />O barbares Romains! ô Ciel impitoyable!
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Enfin voicy l’effet de mon ſonge effroyable:
+<lb />Vous voyeZ maintenant que ce n'eſt pas à tort,
+<lb />Que ie prenois pour moy tous ces ſignes de mort.
+<lb />Mais il m’eſt au ßi doux de mourir que de viure,
+<lb />Puiſque mon Ma ßiniſſe a iuré de me ſuiure.
+<lb />Monſire donc, cher Espoux, ta conſtance &amp; ta foy,
+<lb />Et ne differe pas vn inſtant apres moy.
+<lb />Ouy, pour trop te cherir ie te ſuis inhumamne,
+<lb />Tant i'ay peur que peut-eſtre, vne Dame Romaine,
+<lb />Par l’ordre des Romains, mes tyrans &amp; les tiens,
+<lb />Ne prenne aupres de toy la place que i'y tiens.
+<lb />Cori ſbé ie vous prie, &amp; vous au ßi Phenice,
+<lb />De me faire vn plaiſir auant que ie finiſſe,
+<lb />Me l’accordereZ-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CORISBE'.
+<lb />He! Madame, parlez:
+<lb />Commandez ſeulement-
+</sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />--Puis que vous le voulez;
+<lb />Ie vous commande donc comme voſtre Maiſtreſſe,
+<lb />De contenir ſi bien la douleur qui vous preſſe,
+<lb />Que vos pleurs n'y vos cris ne deshonorent pas
+<lb />La gloire qui doit ſuiure vn ſi noble treſpas.
+<lb />N'eſt-ce point à mes iours vne gloire aſſez grande,
+<lb />Que tous obſcurs qu’ils ſont Rome les apprehende?
+<lb />Nos vainqueurs ſont vaincus, ſi nous leur teſmoi<lb />gnons,
+<lb />(gnons.
+<lb />Qu’ils nous craignent bien plus que nous ne les crat<lb />Sus donc ne perdons plus en diſcours infertiles,
+<lb />Corompe qu’il faut donner aux effets plus vtiles.
+<lb />Déliurons les Romains de la peur, &amp; du mal,
+<lb />Que leur pourroit cauſer la fille d’Aſdrubal.
+<lb />Elle auale le poiſou.
+</sp>
+<sp type="MainZone-Sp"><lb />PHENICE.
+<lb />O Dieux! c’eſt maintenant que nous ſommes perduës!
+<fw><lb />Ils
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SOPHONISBE.
+<lb />Certes ſi les Romains vous auoient entenduës,
+<lb />Iis auroient bien raiſon de penſer à ce coup, (coup,
+<lb />Que les maux qu’ils nous font nous affligent beau<lb />Non, non, teſmoignens-leur que s’ils n’ont riẽ de pire,
+<lb />Nous n’auons pas ſujet de craindre leur Empire,
+<lb />Et leur oſtons par là le plaiſir &amp; l’orgueil,
+<lb />Qui les tranſporteroient, s’ils ſçauoient noſtre dueil.
+<lb />Mais la Parque dans peu me fermera la bouche;
+<lb />Mes filles aydez-moy, portez-moy ſur ma couche,
+<lb />Et que ie meure au moins deſſiss le meſme lict,
+<lb />Où mon funeſte Hymen hier au ſoir s’accomplit.
+</sp>
+<p type="MainZone-Head"><lb />ECIA
+<lb />CENE VI.
+<lb />SCIPION. MASSINISSE. LELIE.
+<fw><lb />10
+</fw></p>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />L'eſt vray qu’en cecy voſtre conſtance eſt telle,
+<lb />Qu'on la doit courõner d’vne gloire immortelle;
+<lb />Außi ne doutez, pas que Rome, &amp; le Senat,
+<lb />N’en faſſent quelque iour vn merueilleux eſtat.
+<lb />Sophoni ſbe n’eſt pas la derniere des fâmes,
+<lb />Aſſez d’autres encor ſont dignes de vos flames.
+<lb />Quand voſtre tugement ſe ſera reconnu,
+<lb />Vous benirez le mal qui vous eſt aduenis,
+<lb />Si l'on peut dire mal vn fortuné veufuage,
+<lb />Que ie n'ay ſouhaitté que pour voſtre aduantage:
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />O Dieux, quel aduantage!
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />En vne autre ſaiſon,
+<lb />Vous en connoiſtrez mieux la ſuite, &amp; la raiſon:
+<lb />Etut à mun auuio com tes a patt comprendre,
+<lb />Dans la charge &amp; le ſoin qu’il en a voulu prendre;
+<lb />Au moins ſi vos tranſports ne me font point douter,
+<lb />Qu'il ayt pû vous les dire, &amp; vous les eſcouter.
+</sp>
+<sp type="MainZone-Sp"><lb />LELIE.
+<lb />Seigneur, par ſa froideur, &amp; par ſa retenuë,
+<lb />On voit que ſa raiſoneſt vn peureuenué;
+<lb />Et ie ne doute point qu’il ne confeſſe vn iour,
+<lb />Aquel poinct de mal-heur l’eüt porté cette amour.
+<lb />Et qu’on n'a traüaillé que pour ſa ſeule gloire:
+<lb />Außi deuez-vous, Sire, en perdre la memoire,
+<lb />Bannir ces noirs ſoucis, vous diuertir ailleurs,
+<lb />Et donner vos penſers à des objects meilleurs.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />La cheute de Syphax vous laiſſe vne matiere,
+<lb />Capable d’exercer vne ame toute entiere.
+<lb />Vn Royaume nouueau fournit aſſez dequoy
+<lb />Occuper le loiſir, &amp; l’eſprit de ſon Roy.
+<lb />C’eſt à ſi digne employ que voſtre ame occupée,
+<lb />Se guerira dans peu du traict qui l’a frappéé,
+<lb />Et que Lelie &amp; moy vous verrons cenſurer,
+<lb />L’aueugle paßion qui vous faict murmurer.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Je vous tromperay-bien auant que le iour paſſe:
+</sp>
+<p type="MainZone-Head"><lb />AQTE
+<lb />V
+<lb />SCENE VII.
+</p>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />  Conſtance incroyable! ô mortelle diſgrace?
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />MASSINISSE,
+<lb />Ha Dieux! la Reyne eſt morte!
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Oüy, Sire, c’en eſt faict:
+<lb />Helas! iamais poiſon n’eut vn ſi prompt effect.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Et bien, mes Souuerains, aurez-vous agreable,
+<lb />Que n'ayant pu la voir en ſa ſn tamentable,
+<lb />Nous la fa ßions au moins apporter deuant nous?
+<lb />Oüy, vous en trouuerez le ſpectacle ſi dous:
+<lb />Il eſt ſi neceſſaire au bien de voſtre Empire,
+<lb />Que i'obtiens ma demande.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Il faut te laiſſer dire.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />Voyons donc ce threſor de grace &amp; de beauté,
+<lb />Mon amy, que ſur l’heure il nous ſoit apporté.
+</sp>
+<sp type="MainZone-Sp"><lb />CALIODORE.
+<lb />Si voſtre Majeſté de ſire qu’on luy monſtre
+<lb />Ce pitoyable obiect, il eſt içy tout contre.
+<lb />Eus porte pue pu euimnons (jiimeno puxeme [5
+<lb />Et vous le pourreZ voir de l’endroit que voic y,
+<lb />En leuant ſeulement ceſte tapißerie.
+</sp>
+<sp type="MainZone-Sp"><lb />La chambre paroiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Ie crains que ceſte veuë eſueille ſa furie.
+</sp>
+<sp type="MainZone-Sp"><lb />MASSINISSE.
+<lb />icy le Meſſeger tentrs
+<lb />O veuë! ô de ſeſpoir! regardeZ maintenant,
+<lb />O vous Conſul Romain, &amp; vous ſon Lieutenant;
+<lb />Si ie vous a vrendis l’aueugle obeyſſance,
+<lb />Que voſtre authorité veut de mon impuiſſance.
+<lb />Ay-je eſté, qu’il vous ſemble, ou rebelle, ou trop lent.
+<lb />A l’execution dece coup violent?
+<lb />OſteZ-vous tout ſabięct de ſoupçon &amp; de craint?
+<lb />Et voyez, ſi ſa mort eſt point vne mort feinte.
+</sp>
+<sp type="MainZone-Sp"><lb />O 23
+</sp>
+<sp type="MainZone-Sp"><lb />Uoyez ſi de ſon teint les roſes &amp; les lis,
+<lb />Dans l’hyuer de la mort ſont bien enſeuelis:
+<lb />Obſeruez, ces yeux clos, conſiderez-la toute,
+<lb />Tant qu’il ne vous demeure aucun ſubiect de doute.
+<lb />Mais ſans conſiderer ſes yeux ny ſa couleur,
+<lb />Il ne faut regarder que ma ſeule douleur:
+<lb />Jl ne faut qu'obferuer le dueil qui me tranſporte,
+<lb />Pour croire aſſeurément que Sophoni'ſbe eſt morte.
+<lb />Elle eſt morte, &amp; ma main par cét aſſaßinat,
+<lb />M’a voulu rendre quitte enuers voſtre Senat:
+<lb />Si la reconnoiſſance aux biens-fatts ſe meſure,
+<lb />Ceſte ſeule action le paye auec vſure.
+<lb />Par cet acte teſmoin de voſtre cruauté,
+<lb />I’ay mis dans le tombeats l’amour &amp; la beanté:
+<lb />Enfin par ceſte mort qui fait voſtre aſſeurance,
+<lb />Uous n'auez plus de peur, ny moy plus d’eſperance.
+<lb />Ne me dites donc plus queie ſerois ingrat,
+<lb />Et bien peu ſoucieux du bien de mon Eſtat,
+<lb />Si ie vous obligeois par quelque violence,
+<lb />A retrancher pour moy de voſtre bien-veillance.
+<lb />Quant à moy de ſormais tuilt m'eſt indifferent,
+<lb />Et quant à mon Eſtat mia douleur vous le rend
+<lb />rres m’auoir oſté le de ſer de lalvre,
+<lb />os biens, ny vos honneurs ne me font point enuie.
+<lb />V ſurpeZ l’Vntuers de l’vn à l’autre bout,
+<lb />Ie n’y demande rien, ie vous le cede tout.
+<lb />Rendez-moy ſeulement vne choſe donnée
+<lb />Par Hymen, par l’Amour, &amp; par la Deſtinée:
+<lb />En vn mot donneZ-moy ce que vous craignez, tous,
+<lb />Et te ferayplasriepe &amp; pius contem que vous.
+<lb />Rendez-moy Sophoni ſbe:
+</sp>
+<sp type="MainZone-Sp"><lb />SCIPION.
+<lb />Allons nous-en, Lelie;
+<lb />Puis que noſtre preſence irrite ſa folie,
+<lb />Et que nous ne voyons fer ny poiſon ſur luy,
+<lb />Laiſſons-le par la plainte adoucir ſon ennuy.
+<lb />Ils rentrent.
+</sp>
+<sp type="MainZone-Sp"><lb />ASTE
+<lb />SCENE VIII.
+<lb />Plainte de Maſſiniſſe, ſur le corps
+<lb />.. de Sophoniſbe.
+<lb />5
+<lb />E IRACLE de beauté, Sophoniſbe mon ame,
+<lb />dle Que ie n'oſe appeller de ce doux nõ de fame,
+<lb />AM Tant les chaſtes plaiſirs d’Hymen &amp; de
+<lb />Junon
+<lb />M’ont duré peu de temps pour te donner ce nom;
+<lb />Viue ſource autrefois d'Amour &amp; d’Eloquence,
+<lb />Où la Mort maintenant a logé le-ſilence;
+<lb />Belle bouche, beaux yeux, de tant d’attraits pourueus,
+<lb />Pour mon contentement &amp; trop &amp; trop peu veus;
+<lb />Vous auez donc perdu ces puiſſantes merueilles,
+<lb />Qui de ſroboient les cœurs,&amp; charmoient les oreilles?
+<lb />Clair Soleil, la terreur d’vn iniuſte Senat,
+<lb />Et dont l'Aigle Romain n’a pù ſouffrir l’eſclat;
+<fw><lb />Doncques
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Doncques voſtre lumiere a donné de l’ombrage?
+<lb />Donc vous eſtes cœuuert d’vn eterne.nuege,
+<lb />Et ſans aucun Midy, là Mort &amp; le Ueſtin
+<lb />Confondent voſtre ſoir auec voſtre matin!
+<lb />Triſte &amp; ſuperbe lict preſque en meſme iournée,
+<lb />Teſmoin de mon veufuage &amp; de mon Hlymenée?
+<lb />Falloit-il que le Cielà ma perte obſtiné,
+<lb />M’oſtât ſi toſt le hien que tu m'auois donné?
+<lb />Felicité rauie außi-toſt que connuez
+<lb />Sophoni ſbe, en vn mot, qu’eſtes-vous deuenue?
+<lb />Mais Dieux! que ma demande a bien peu de raiſon,
+<lb />Puiſque ma propre main a fourny le poiſon,
+<lb />Qui fait qu'elle m’attend ſur le riuage ſombre,
+<lb />Du mon fidelle Esprit va rejondre ſon ombre;
+<lb />L'eſt là, cruel Senat, que tes ſuperbes lois;
+<lb />Ne feront point trembler les miſerables Rois.
+<lb />Un poignard; malgré tòy, trompant tat yrannie,
+<lb />M’accorde le repos que ta rigueur me nie.
+<lb />Cependant en mourant, ô Peuple ambitteux!
+<lb />I'apelleray ſur toy la cholere des Cieux.
+<lb />Puiſſes-tu rencontrer, ſoit en paix, ſoit en guerre,
+<lb />Toute choſe contraire, &amp; ſur mer, &amp; ſur terre.
+<lb />Que le Tage, &amp; le Pô contre toy rebellez,
+<lb />Te reprennent les biens que tu leur as volez:
+</sp>
+<sp type="MainZone-Sp"><lb />Il tire le poignard caché ſous ſa robe.
+<lb />Sophonisbe en cecy t'a voulu preuenir;
+<lb />Et puiſqne tes efforts n'ont pû la retenir,
+<lb />Donne toy poür fe moins le plaiſir de la ſuiure,
+<lb />Et ceſſe de mourir enatheuant de viure.
+<lb />Montre que les rigueurs du Romain ſans pitié,
+<lb />Peuuent tout ſur l’Amant, &amp; rien ſur l’amitié.
+<lb />Que Mars faiſant de Romme vne ſeconde Troye,
+<lb />Donne aux Cartaginois tes richeſſes en proye,
+<lb />Et que daus peu de temps le dernier des Romains
+<lb />En finiſſe la race auec ſes propres mains:
+<lb />Mais conſumer le temps en des plaintes friuoles,
+<lb />Et flater ſa douleur auecque des paroles,
+<lb />C’eſt à ces laſches cœurs que l’eſpoir de guerir,
+<lb />Perſuade pluſtoſt, que l’ardeur de mourir,
+<lb />Meurs mi ſerable Prince, &amp; d’vne main hardie.
+<lb />Ferme l’acte ſanglant de cette tragedie.
+</sp>
+<p type="MainZone-Other"><lb />Il ſe tuë.
+</p>
+<p type="MainZone-Other"><lb />FIN.
+</p>
+<p type="MainZone-P"><lb />Contraste insutfisant
+<lb />NF 2 43-120-14
+</p>
+<p type="MainZone-P"><lb />Contraste insutfisant
+<lb />NF 2 43-120-14
+</p>
+    </body>
+  </text>
+</TEI>

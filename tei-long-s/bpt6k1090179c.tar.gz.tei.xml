@@ -1,0 +1,4405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Phantosme, comédie</title>
+        <author>Nicole, Claude</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb447296145"/>
+          <author>
+            <persName>Nicole, Claude</persName>
+          </author>
+          <title>Le Phantosme, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1656" cert="high" resp="BNF">1656</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />A MADAME
+<lb />DE BONNELLE.
+</p>
+<p type="MainZone-Other"><lb />ADAME,
+</p>
+<p type="MainZone-P"><lb />It y a quelques années que ie ſuisen doute, ſi ie dois
+<lb />prendre la liberté de vous dédier vne de mes Tradu<lb />ctions: Cette pensée, ou pluſtoſt la paſſion que i’en ay
+<lb />bu, a eſté iuſques icy puiſſamment combatuë par le
+<lb />respect que ie dois à voſtre Naiſſance &amp; à voſtre Per<lb />ſonne; &amp; i’ay touſiours trouué de la vanité &amp; de l’in<lb />ſolence à fairevoir à l’ouuerture de quelqu’vn de mes
+<lb />ouurages vn Nom illuſtre comme le voſtre, &amp; qui eſt
+<lb />en veneration à toute l’Europe. D’autre coſté, MA<lb />DAME, les preſſantes obligations que i’ay à vos bon<lb />tez ſont venues en foule pour deſtruire ma timidité,
+<lb />&amp; apres tout m’ont perſuadé que vous agréeriez
+<lb />l'hommage d’vne perſonne à qui vous n’auez pas re<lb />fusé vne protection genereuſe &amp; effectiue. Celui-cy que
+<lb />ie vous preſente n’eſt pas du caractere &amp; de la beauté
+<lb />que ie ſouhaiterous: Et en effet, MADAME, à moins
+<lb />de vous offrir quelques ſorts &amp; genereux ſentimens
+<lb />de Morale, de Politique, ou de Cabinet, puis-je eſpe<lb />rer que vous y daigniez ietter les yeux, &amp; qu’vn Co<lb />mique de l’Antiquité puiſſe les diuertir, &amp; ſatisfaire
+<lb />en quelque ſacon vn Eſprit vaſte &amp; éclairé comme le
+<lb />voſtre. En verité, MADAME, tout ce que la Fable
+<lb />&amp; l’Hiſtoire nous ont appris de merueilleux des plus
+<lb />excellentes Perſonnes de voſtre beau Sexe, n’eſt que
+</p>
+<p type="MainZone-P"><lb />Combre ou le foible crayon de vos vertus &amp; de vor
+<lb />umieres; &amp; ſi elles nous les ont repreſentées vail<lb />antes &amp; courageuſes dans les Batailles, de combien
+<lb />la fermeté de voſtre Ame a-l’elle paru au deſſus de
+<lb />tes effets, lors que vous l’auez ſi glopieuſemeut témoi<lb />gnée en des occaſions de remarque &amp; d’vtilité pour
+<lb />Ie bien du Royaume? De ſorte que ſi nous en voulons
+<lb />faire le paralele auec Vous, nous ſerons obligez de
+<lb />dire que tout l’auantage dont l’on les a releuées, leur
+<lb />eſt commun auec les brutaux &amp; les baibares, &amp; que le
+<lb />voſtre eſt celuy que l’on a admiré dans la conduite &amp;
+<lb />l'esprit des Philoſophes. Que peut-on dire de leur ge<lb />neroſité, ſi l’on la compare auec celle que vous exercez
+<lb />tous les iours à la veuë de toute la France? Et qu’a<lb />t’on tû marquer de ſi illuſtre das toutes leurs actions
+<lb />qui puiſſe aller du pair auec la protection &amp; la vie
+<lb />que vous donnez à plus de vingt mille Ames dans
+<lb />noſtre ſeule Prouince? Mais, MADAME, le nombre
+<lb />&amp; la quantité des belles choſes que i’aurois à loüer ex
+<lb />voſtre incomparable Perſonne, me ferment la bouche,
+<lb />&amp; ie n’oſe pas meſme parler de ces qualitez éclatan<lb />tes qui regnent ſur les Hommes ſans Sceptre &amp; ſans
+<lb />Diadéme, &amp; que vous poſſedez plus auantageuſement
+<lb />qu’aucune autre de voſtre Sexe. S’il eſtoit permis de
+<lb />les exagerer, pourroit-on pas dire auec juſtice que la
+<lb />Nature n’a iamais trauaillé auec tant de proportion
+<lb />&amp; de juſteſſe qu’en cette ad mirable taille qui vous eſi
+<lb />particuliere, &amp; que l’Idolatrie ne donnoit qu’à ſes
+<lb />Déeſſes? Pourroit-on pas dire, ſans vous ſlater,
+<lb />qu’elle n’a iamais aſſemblé en vn ſeul compas tant de
+<lb />treſors de grace &amp; d’intelligence, &amp; qu’elle a fait
+<lb />plus d’vn miracle en vous donnant à Vous ſeule, ce
+<lb />qu’elle ménage pour vn milliou de teiles à qui elle
+<lb />MADAME,
+</p>
+<p type="MainZone-P"><lb />ſait ſes plus pretieuſes liberalitez? Ie ne parle point,
+<lb />MADAME, de la grandeur de voſtre Maiſon, ny de
+<lb />celle de voſtre alliance, il me ſuffit de dire que l’vne
+<lb />&amp; l’autre ſont des ſources ſecondes en Cordons bleus,
+<lb />en Hermines, &amp; en Couronnes, &amp; qu’il ne leur man<lb />que que la Souueraine. Apres cela, MADAME, il
+<lb />ſeroit ridicule à vne plume groſſiere comme eſt la
+<lb />mienne d’en entreprendre les Eloges: Il y a de cer<lb />taines choſes ſi releuées, qu’elles laiſſent bien loin la
+<lb />plus elegante expreſſion; celles qui vous regardent
+<lb />ſont de cette nature, &amp; leurs brillans ne trouuent
+<lb />point dans l’Eloquence ny de termes ny de pensées
+<lb />pour en faire les Panegiriques. Cela eſtant abſolu<lb />ment vray, de quelles raiſons vn malbeureux Pro<lb />uincial comme moy auiboriſera-t’il l’indigne preſent
+<lb />qu’il vous fait? &amp; par quelles paroles touchantes
+<lb />vous peut-il obliger à le receuoir benignement, ſi ce
+<lb />n’eſt qu’eſtant infiniment au deſſous du merite de
+<lb />vous eſtre offert, au moins eſt-il proportionné à celuy
+<lb />qui vous le preſente, &amp; qu’il ne peut en autre maniere
+<lb />vous rendre des marques plus ſenſibles de ſa grati<lb />tude &amp; de ſa trer-humble reconnoiſſance. Enſin, MA<lb />DAME, il eſt bien eſtrange que pour les témoigner
+<lb />pabliquement, ie vous donne vne Comedie; &amp; neant<lb />moins ie ne deſeſpere pas que vous n’ayez la bonté de
+<lb />la receuoir auec voſtre generoſité ordinaire, qui
+<lb />n’ajant point de bornes ny de limites, s’eſtendra en<lb />tore juſques à me permettre de vous demander auec
+<lb />vn tres-profond reſpect la qualité de,
+</p>
+<p type="MainZone-Other"><lb />Voſtre tres-humble, tres-obligé.
+<lb />&amp; tres-obeiſſant ſeruiteur,
+<lb />NICQLE,
+</p>
+<p type="MainZone-Head"><lb />Au cher Amy Lecteur.
+</p>
+<p type="MainZone-P"><lb />Voy qu’il y ait quelque temps que cet ou<lb />Qurage ſoit ſorty de ma plume, ce n’eſtoit en
+<lb />nulle maniere mon deſſein de le donner à l’impreſ<lb />ſion, auant qu’il eut paſſé par le Theatre. Il eſt de
+<lb />la nature de ceux qui y ſont bien receus, &amp; qui ont
+<lb />l’art de plaire par la viuacité de l’action animée par
+<lb />celuy qui le fait valloir, &amp; qui le repreſente. Plaute
+<lb />nous l’a donné eu Latin ſous le titre de Moſtellaria,
+<lb />&amp; cet ingenieux Autheur, qui à mon gré a mieux
+<lb />reuſſy dans la leçon que Terence meſme, l’a eſti<lb />mée comme vne des plus acheuées de vingt pieces
+<lb />qu’il a compoſées pour le Theatre. Il eſt bien ſéant
+<lb />à vn Copiſts de faire quelque eloge de ſon origi<lb />nal, mais ie ne me ſens pas aſſez fort pour entre<lb />prendre celuy-cy, &amp; ie craindrois que la bonne
+<lb />opinion &amp; l’eſtime que i’ay pour luy, ne me fit paſ<lb />ſer pour extrauagant, ou pour pis encore, ſi i'a<lb />uançois ce que i’ay ſur le cœur en ſa faueur, au pre<lb />iudice des beaux ouurages de Lælius &amp; de Scipion.
+<lb />Pour ce qui eſt du Sel &amp; de l’Vrbanité Attique, ie
+<lb />ne ſuis pas aſſez verſé ny aſſez délicar dans la con<lb />noiſſance des beautez de la langue Latine pour en
+<lb />décider, &amp; ie m’en tiens au ſentiment de Varron,
+<lb />ſans y auancer le mien. Il y a eu quantité d’autres
+<lb />ſçauans, celebres, &amp; bien marquez dans les Lettres,
+<lb />qui luy ont donné de grands auantages, &amp; il me
+<lb />ſuffit d’auoir ces grands Genies de mon coſté, ſan
+<lb />ſoüiller la pureté de leurs opinions par le meſlang
+<lb />de la mienne. Ie viens à l’inuention, qui eſt à mon
+<lb />gré l’ame de la Comedie, &amp; que ie trouue ſi admi<lb />rable dans tous ſes ouurages, que ie ne croy pas
+<lb />qu’aucun des Grecs &amp; des Latins y ayent plus heu<lb />reuſement reuſſy; &amp; i’oſe dire que s’il auoit traitté
+<lb />l’amour auec, vn peu plus de galanterie qu’il n’a
+<lb />fait, &amp; vn peu plus d’eſtenduë, il ne luy manque<lb />roit rien des graces du Theatre. Mais il me ſemble,
+<lb />Amy Lecteur, que tu m’accuſe deſia de faire trop<lb />l'entendu, de vouloir reſoudre &amp; décider des diſe<lb />rends où de grands perſonnages ont eſté parties
+<lb />contraires &amp; oppoſées; ie reçoy ton aduertiſſe<lb />ment en gré, &amp; ie conſens que le procez demeure,
+<lb />encore partagé, ſans me faire trop de feſte. Ie re<lb />uiens à la Traducuon que ie te donne; &amp; pour par<lb />ler premierement du titre qu’elle porte, i’ay crû
+<lb />que ie ne pouuois luy en donner vn plus intel<lb />ligible, ſans pretendre pourtant à le confondre.
+<lb />auec celuy d’vne merueilleuſe riece que i’ay veu,
+<lb />auec plaiſir repreſenter ces derniers iours, qui eſt
+<lb />bien au deſſus de la mienne, &amp; qui eſt du celebre
+<lb />Autheur des Riuales. Il y a quelques epiſſodes &amp;
+<lb />quelques mediocres ornemens que i’y ay apporté;
+<lb />mais c’eſt ſi peu de choſe, que ie les ay crû indife<lb />rents pour diminuer ou pour enrichir l'original de
+<lb />Plaute. Voila, noſtre Amy, ce que i’auois à te dire,
+<lb />ſur ce ſujet; ie te laiſſe la liberté pleniere d’en iuger
+<lb />cõme il te plaira, apres t’auoir aduerty à la loüange
+<lb />&amp; l’honneur de ma Comedie, qu’elle eſt aſſez ex<lb />traordinaire, puis qu’elle ne finit pas par vn Ma<lb />rage, qui eſt aſſez ſouuent fait a la haſte,
+</p>
+<p type="MainZone-Entry"><lb />ACTEVR
+<lb />STREPHON, Vallet de Liſtan.
+</p>
+<p type="MainZone-Entry"><lb />CERASTE, Eſclaue.
+</p>
+<p type="MainZone-Entry"><lb />LISTAN, fils de Periandre.
+</p>
+<p type="MainZone-Entry"><lb />PHILISE, Maiſtreſſe de Liſtan.
+</p>
+<p type="MainZone-Entry"><lb />IVSTINE, Suiuante.
+<fw><lb />I
+</fw></p>
+<p type="MainZone-Entry"><lb />FLORIS, Maiſtreſſe de Calliante.
+</p>
+<p type="MainZone-Entry"><lb />CALLIANTE.
+</p>
+<p type="MainZone-Entry"><lb />PERIANDRE.
+<lb />CLEANDRE, Banquier.
+</p>
+<p type="MainZone-Entry"><lb />CRISAVRE.
+</p>
+<p type="MainZone-Entry"><lb />PHANIS QVE, Vallet de Calliante.
+<lb />Autre Vallet de Calliante.
+<lb />Autres Vallets.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt à Nicoſie en Cypre.
+<fw><lb />1
+</fw></p>
+<p type="MainZone-Head"><lb />PHA
+<lb />COME
+<lb />LE
+<lb />SME,
+<lb />DE PLAVTE.
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />E
+<lb />PREMIERE.
+<lb />STREPHON, CERASTE, Eſclaues.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />S veux-tu pas quitter l’odeur de la marmite!
+<lb />NSors, reſte de gibet, infame Paraſite.
+<lb />Eſclaue malheureux, digne de mille coups,
+<lb />ii nous viens reprocher des paſſe-temps ſi doux.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />O l'infolent coquin!
+<fw><lb />A
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il faut que tu ſois yure,
+<lb />Toy qui viens cenſurer noſtre façon de viure,
+<lb />Vraymẽt ie ſuis d’auis que mõ cher Maiſtre &amp; moy
+<lb />Suiuions tes ſentimens &amp; releuions de toy!
+<lb />Penſe à ſortir d’icy, ſoigne a la Meſtairie,
+<lb />Va paiſtre tes troupeaux le long de la prairie,
+<lb />Et nous permets d’vſer en plaiſirs innocens
+<lb />Le Printemps de noſtre âge, &amp; la fleur de nos ans:
+<lb />Sors, maraut, où mes poings võt faire la vengeance
+<lb />De tes brutalitez, &amp; de ton inſolence.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Pourquoy me frappes-tu, traiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Tes ſots propos
+<lb />Meritent qu’on te briſe &amp; les nerfs &amp; les os.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Tu l'as mieux merité, mais ie ſouſfre l’injure,
+<lb />Ame laſche &amp; ſans foy, perfide creature,
+<lb />Méconnoiſlant vallet du meilleur des humains,
+<lb />Ton inſolence enfin paſſera par mes mains.
+<lb />Periandre arriué d’vn penible voyage
+<lb />Sçaura que tu cotromps ſon fils en ſon ieune âge
+<lb />Toy laſche coufident d’vne impudique amour,
+<lb />Et nous ioûrons alors à beau jeu beau retour.
+</sp>
+<sp type="MainZone-Sp"><lb />COMEDIE.
+<lb />Laiſſe le reuenir, luy qu’abſent tu conſommes
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O le brutal eſprit! ô le derniet des hommes!
+<lb />Qui iamais a conceu que l’on pût conſommez
+<lb />Vn fujet éloigné de cent mille de mer?
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Ie ſuis mauuais bouffon, il faut que ie l’aduduë
+<lb />Toy tu l’es excellent, tout le monde te louë,
+<lb />Tour le monde applaudit à tes diſcours hardis,
+<lb />Et l’on fait le recueil des bons mots que tu di:
+<lb />Mais il faudie bientoit changer de batterie;
+<lb />Ie te veux dans deux iours voir à la Meſtairie
+<lb />Tout accablé de fers, deteſtable coquin,
+<lb />Tourner, comme vn cheual, la meule du Moulin.
+<lb />Ie te veux voir courbé ſous le poids de tes chaines.
+<lb />Non, non, ne les crains pas, donne-toy du bon
+<lb />temps,
+<lb />Noye dans les plaiſirs tous les eſprits contens,
+<lb />Ruine la maiſon de noſtre commun Maiſtre,
+<lb />Débauche luy ſon fils, ſois ingrat, laſche, traiſtre.
+<lb />Donne luy des conſeils &amp; des impreſſions,
+<lb />Et luy fais aſſouuir toutes tes paſſions:
+<lb />Luy qui fut autrefois l’honneur de la jeuneſſe,
+<lb />Et qui depuis ſix mois que tu l’as approché,
+<lb />N’eſt plus que le crayon d’vn ieune débauché.
+<lb />C’eſt l’obligation dont il t’eſt redeuable,
+<lb />'oy qui d'vn fils bien né fais vn enfant coupable.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O le graue Cenſeur! ô la belle lecon!
+<lb />En venté, Ceraſte, eſt-ce de ta façon?
+<lb />Certes, ie ſuis d’auis d’apprendre d’vn infame
+<lb />Aurc quelles vertus l’on forme vne belle ame.
+<lb />Oüy, ie me ſeruiray de tes inſtruclions,
+<lb />Eſt-ce point la le but de tes intentions?
+<lb />Va, maraut, va veiller aux fonctions ruſtiques,
+<lb />Et me laiſſe le ſoin des emplois heroiques;
+<lb />Va labourer la terre, &amp; fendre les guerets,
+<lb />Fay gemir ſous le ſoc les ſillons de Cerés,
+<lb />Va paiſtre tes troupeaux. Pour moy toutes me
+<lb />Muite.
+<lb />S’employront deſormais à remplir les bouteilles,
+<lb />Ie veux eſtre galand, ie me veux adjuſter,
+<lb />Ie veux donner le Bal, afin de t’inſulter,
+<lb />Au peril de mon dos ie me veux mettre au monde
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Tonaudace, coquin, n’eut iamais deſeconde.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Tu replique, pendart? ô le Bouc imparſait!
+<lb />Il m’a preſque tué de ce ſoûpir infect:
+<lb />Peſte de l’odorat; l’ail, &amp; la pourriture,
+<lb />T’ont corrompu le foye, &amp; gaſté la freſſure:
+<lb />Tu m’en viens d’exhaler vne ſi ſale odeur,
+<lb />Qu’elle m oſte l’halcine, &amp; m’empeſte le cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Ole nez delicat! ô l’homme d’importance!
+<lb />Nous ne pouuõs pas tous nous parſumer d’eſſence
+<lb />Nous ne pouuons pas tous manger de bons mor<lb />ceaux.
+<lb />Pour moy qui me pais d’ail, ie doy ſentir les aux.
+<lb />Toy qui vis à la table, égal auec ton Maiſtre,
+<lb />Toy que la vanité fait déja méconnaiſtre,
+<lb />Qui te mets au haut bout, toy qui vis d’Ortolans,
+<lb />Qui ne t’yvres iamais que de vins excellens,
+<lb />Ceſſe de te railler du ſort d’vn miſerable;
+<lb />Vn bonheur mal fondé n’eſt pas ſouuent durable
+<lb />Ie viuray bienheurcunj rluant innocemment.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ce pendart eſt pourueu d'vn beau raiſonnement!
+<lb />Tu veux rraitter d’égal, ou ce diſcours m’abuſe,
+<lb />Mais ta préſomption te condamne &amp; t’accuſe:
+<lb />Tu n’as receu le iour qu’afin de me ſeruir,
+<lb />Tu dois mourir de faim; moy ie dois m’aſſouuir.
+<lb />Et donner a mes ſens, au gré de mon enuie,
+<lb />Les plus cheres douceurs que reſpire la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Pendant qu’il t’eſt permis, ne les épargne pas.
+<lb />Saoule-toy des plaiſirs que donne vn bon fepas:
+<lb />Mon Maiſtre de retour fera tourner la chance,
+<lb />Et ie te voy danſer au bout d’vne potence.
+<fw><lb />11
+</fw></sp>
+<sp type="MainZone-Sp"><lb />A iij
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ce bien i’aniuera, traiſtre, non pas à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Tu l’as mieux merité, reſerue la pour toy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ton caquet importun commence à me déplaire:
+<lb />Maraut, pour éuiter de me mettre en colere,
+<lb />Dis-mey ce qui t’ameine: as tu quelque beſoin
+<lb />De choſe qui regarde ou ta charge, ou ton ſoin?
+<lb />Parle, mais promptement, ie ſuis las de t’entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Ne te l’ay-je pas dit? ie ne puis plus attendre,
+<lb />Baille-moy de l’argent, ou me fournis de grin,
+<lb />Ou bien toſt les trouppeaux s’en vont penir de fain.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Et bien i’ypenſeray, va retourne au village,
+<lb />Va, malheureux oy. cau de ſuneſte preſage,
+<lb />De plus illuſtres ſoins occupent mes eſprits:
+<lb />Ie m’en vais a la Place acheter des Perdrix,
+<lb />*14
+<lb />Des Levraux, des Phaiſans, &amp; tout ce que la table
+<lb />A de plus délicat &amp; de plus delectable:
+<lb />Ie dois faire l’appreſt d’vn ſuperbe feſtin,
+<lb />Et ie vais m'informer où ſe boit le bon vin.
+<lb />Cette occupation te plairoit fort ſans doute.
+<lb />Tu repliques, pendart?
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Il faut que ie t’écoute,
+<lb />Mais auant peu de iours ie me verray venge.
+<lb />Lors ne m’épargne pas, ſi ie puis t’obliger,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Fay ce que tu pourras, ſi la bonnefortune
+<lb />Releue quelque iour ta baſſeſſe importune.
+<lb />Pour moy qui la reſſens, ne trouue pas mauuais
+<lb />Sr ie vis bienheureux &amp; content deſormais.
+<lb />Pour tes prédteuom,ien en ſuis guere en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE.
+<lb />Si tu ne me crois pas, au moins qu’il te ſouuienne
+<lb />Qu’vn mal ineſperé nous arriue ſouuent,
+<lb />Et qu’vn bien qui nous plaiſt s’enfuit cõme le vent.
+<lb />Profite d’vn conſeil qu’auiourd’huy ie te donne,
+<lb />Et préuoy le malheur qui pend ſur ta perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Va, va, i’y penſeray lors qu’il en ſera temps,
+<lb />Mais i’avpour ce iourd’hui des foins plus importãs.
+<lb />Ie te laiſſe, maraut.
+</sp>
+<sp type="MainZone-Sp"><lb />CERASTE 10
+<lb />
+<lb />1
+<lb />O qu’il fait peu d’eſtime
+<lb />D’vn ſalutaire auis qui luy fait voir ſon erime!
+<lb />Vous qui tenez les yeux inceſſamment ouuers,
+<lb />Qui ne les fermez point au bien de l'Vniuers,
+<lb />Dieux de l’Onde &amp; du Ciel, Puiſſances eternelles,
+<lb />Ramenez Periandre, &amp; luy donnez des aiſles,
+<lb />Détournez vn malheur que i’auois preſſenty;
+<lb />Deux ans ſont écoulez depuis qu’il eſt party,
+<lb />Et qu’il s’eſt embarqué pour l’Iſle de Candie.
+<lb />Sauuez-lé, iuſtes Dieux, c’eſt vne ame hardie,
+<lb />Vn amy genereux, vn vieillard complaiſant,
+<lb />Et pour dire en vn mot, vn homme bienfaiſant:
+<lb />S’il ne reuient bien toſt, ſa fortune eſt perduë,
+<lb />Ses biens ſont diſſipez, &amp; ſa maiſon fonduë;
+<lb />Son Fils a conſommé depuis ſon partement
+<lb />Tout l’argent &amp; tout l’or qu’il gardoit cherement,
+<lb />Et ne manquera pas de diſſiper le reſte,
+<lb />Sans vn viſible effet de la bonté celeſte.
+<lb />Mais ſortons, le voicy, ie ne le ſçaurois voir,
+<lb />Depuis qu’il a quitté l’honneur &amp; ſon deuoir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+</p>
+<sp type="MainZone-Sp"><lb />LISTAN ſeul.
+<lb />’Ay long-temps medité d’vne entrepriſe vaine
+<lb />I Sur la condition de la Nature humaine;
+<lb />Mille penſers errans du deſtin des humains,
+<lb />Enfantez par l’eſprit, ont paſſé par mes mains:
+<lb />I’ay fait mille argumens auec leurs conſequences,
+<lb />Pour chercher l’aſcendãt qui préſide aux naiſſances,
+</sp>
+<p type="MainZone-Lg"><lb />Et i’ay fait maintesfois dans mon cœur abaiſſé
+<lb />(Si mes débordemens m’en ont encor laiſſé)
+<lb />Vne comparaiſon d’vn ieune homme ſans vice
+<lb />Auecque les beautez d’vn nouuel Edifice:
+<lb />Alors qu’il eſt dreſſé ſur de bons fondemens,
+<lb />Et qu’il eſt accomply de tous ſes ornemens,
+<lb />Tout le monde le louë, on l’eſtime, on l’enuie,
+<lb />Chacun y veut vſer vne part de ſa vie,
+<lb />L’on en prend le modele afin de l’imiter:
+<lb />Mais ſi quelque maraut a droict de l’habiter.
+<lb />Quelque homme pareſſeux &amp; de mauuais ménage,
+<lb />C’eſt vn vice important, vne tache en l’ouuragé.
+<lb />Faute de le ſoigner, l’on le voit déperir,
+<lb />Il neglige le temps qui le peut ſecourir:
+<lb />Le vent fait-il tomber vne tuile du faiſte,
+<lb />Qui reſiſte d’abord aux coups de la tempeſte,
+<lb />Si le Maiſtre ſoigneux ne le fait recouurir,
+<lb />Les moindres accidens enfin le font perir:
+<lb />Il pleut ſur les defauts, l’eau diſſout les murailles,
+<lb />Elle fond le ciment iuſques dans leurs entrailles;
+<lb />Cet éclatant trauail perit de la ſaçon,
+<lb />Et l’on n’en peut pourtant accuſer le Maçon,
+<lb />La pareſſe eſt vn mal, dans le tẽps où nous sõmes,
+<lb />Qui regne &amp; qui cõmande à la p’uſpart des hõmes;
+<lb />Tout le monde auiourd’huy prẽd &amp; boit ce poiſon,
+<lb />Mais il faut appliquer noſtre comparaiſon.
+<lb />Vn Enfant eſt-il né, ſon Pere le façonne,
+<lb />Il eſt ſon Directeur, il veille à ſa perſonne.
+<lb />Il dreſſe ſa ieuneſſe, il l’éleue, il l’inſtruit,
+<lb />C’eſt vn ieune arbriſſeau dont il attend le fruit,
+<lb />C’eſt ſon ſang, c’eſt ſon tout, &amp; ſes cheres delices,
+<lb />Il luy met dans le cœur l’auerſion des vices,
+</p>
+<p type="MainZone-Lg"><lb />Et rien n’eſt épargné pour en faire vn ſujet
+<lb />Qui ſerue aux ieunes cœurs de modele &amp; d’objet.
+<lb />Vn Pere tout rauy le met il hors de Page,
+<lb />Luy fait-il entreprendre vn illuſtre voyage
+<lb />Qui doit faire l’eſſay de ſes trauaux guerriers,
+<lb />L'on luy choiſit vn Chef vieilly dans les lauriers,
+<lb />C’eſt lors qu’on s’apperçolt des vertus ou du vice
+<lb />Qui doiuent embellir ou perdre l’Edifice:
+<lb />Alors l’on peut iuger de ſa perfection.
+<lb />Pour moy iuſqu’a ce temps ie fus ſans paſſion,
+<lb />Et ie pouuois ſeruir à toute la ieuneſſe
+<lb />D’vn modele accomply d’honneur &amp; de ſageſſe:
+<lb />Mais peu de temps apres ie changeay tout a fait,
+<lb />D’acheué que i’eſtois ie deuins imparfait;
+<lb />Des ſentimens brutaux corrompirent mon ame,
+<lb />Qui receut les braſiers d’vne impudique flame;
+<lb />I’oubliay l’artiſan, i’oubliay mon deuoir,
+<lb />Et i’embraſſay des maux que ie pouuois préuoir,
+<lb />Vne laſche pareſſe, ainſi qu’vne tempeſte,
+<lb />Entra dedans mon cœur, elle en fit ſa conqueſte,
+<lb />Et mina tellement tous mes ſens infectez,
+<lb />Qu’ils furent dés l’inſtant corrompus &amp; gaſtez.
+<lb />I’eſtois lors découuert, &amp; mon ame fut priſe;
+<lb />Amour, ce fier Tyran, aſſeruit ma franchiſe,
+<lb />Il détrempa mon cœur, il ſuborna mes ſens,
+<lb />Et n’y fit plus regner que des vœux languiſſans;
+<lb />La Vertu du depuis fut ma fiere ennemie,
+<lb />I’abandonnay l’honneur pour ſuiure l’inſamie,
+<lb />I’abhorray les conſeils que l’on m’auoit donnez,
+<lb />Et mon cœur permit tout a mes ſens ſubornez,
+<lb />Ma generoſité fut toute corrompuë.
+<lb />Mais las. ce n’eſt pas tout, la douleur qui me tuë
+<lb />Vient de ma conſcience, &amp; des reſſentimens
+<lb />Que mon eſprit conçoit de mes débordemens;
+<lb />Mais ce qui plus m’afflige au mal qui me poſſede,
+<lb />C’eſt qu’il eſt incurable, &amp; qu’il eſt ſans remede:
+<lb />Ie fay de beaux deſſeins de vomir le poiſon,
+<lb />Mais mon cœur reſiſte, il fuit ſa gueriſon;
+<lb />Et mon ame eſt au poinct, tant elle eſt aueuglée,
+<lb />Qu’elle ſuit laſchement mon ardeur déreglée.
+<lb />Dure condition de mon malheureux ſort!
+<lb />Ie ſuis parmy l’orage, &amp; ie ſuis pres du port.
+<lb />I’y voudrois aborder, mais i’ay trop de foibleſſe,
+<lb />Mon courage s’abat, le moindre effort me bleſſe,
+<lb />Ma paſſion le fuit, &amp; ie dois auoüer
+<lb />Que l’Amour eſt l’eſcueil où ie vais échoüer.
+<lb />Hé bien, échoüons donc, faiſons vn beau naufrage,
+<lb />Philiſe veut de moy ce veritable hommage,
+<lb />Rendons luy ſans regrer, elle veut m’éprouuer;
+<lb />Ie meurs éloigné d’elle, allons la retrouuer.
+</p>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />PHILISE, IVSTINE, LISTAN.
+</p>
+<sp type="MainZone-Sp"><lb />PHILISEa IVSTINE, dans vne chambre où elle
+<lb />s’ajuſte.
+<lb />Amais auec tant d’art ie n’ornay mon viſage,
+<lb />l Iamais l’ambition de plaire dauantoge
+<lb />Ne me fit employer les ſoins &amp; l’agrément
+<lb />Qui peuuent reſveiller la flame d’vn Amant.
+<lb />Que les eaux auiourd’huy m’ont eſté ſalutaires!
+<lb />Et que le bain a crû mes graces ordinaires!
+<lb />Iuſtine, à ton aduis, mon teint eſt-il charmant?
+<lb />Et peut-on, ſans m’aimer, me ſouffrir vn moment
+<lb />Sçauroit-on reſiſter au trait que ie décoche.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Non pas, à moins d’vn cœur &amp; d’vne ame de roche
+<lb />Pour moy i’ay grand regret de n’eſtre pas garçon,
+<lb />Ie vous ferois l’amour, mais de bonne façon:
+<lb />Quoy que ie ſois pour vous inutile à bien faire,
+<lb />Voſtre beauté m’émeut, ie ne m’en ſçaurois taire.
+<lb />Dieux!peuſſay-je éprouuer le changement d’Iphis.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Hé bien, que ferois-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Ie me ferois beau Fils:
+<lb />Quelque part qu’ait Liſtan dans voſtre bõne grace
+<lb />Ie me promettrois bien de luy ſouffler ſa place.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Tu te trompe, Iuſtine, il eſt trop bien chez moy,
+<lb />Tu ſçis quelle eſt ſa flame, &amp; ce que ie luy doy?
+<lb />Il m’a fait la faueur de m’auoir affranchie,
+<lb />Et c’eſt de ſes bienfaits que ie ſuis enrichie.
+<lb />Me conſeillerois-tu d’eſtre ingrate à ce poincti
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Non, vous eſtes fidele, &amp; ie ne le ſuis point:
+<lb />Il m’eſt bien mal-ai é de refuſer perſonnę.
+<lb />Quand on ſe dõne à moy, par ma foy ie me donne;
+<lb />Mon cœur ſe rend bien toſt quand il eſt combatu,
+<lb />Erle ne Içay pourtant ſi c’eſt vice ou vertu.
+<lb />Pous vous, vous vous plaiſez à viure d’autre ſorte,
+<lb />Suiuez vos mouuemẽs, &amp;moy les miẽs, n’importé,
+<lb />Ie ne controle rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />C'eſt comme ie l’entens:
+<lb />Ainſi ſans conteſter nous paſſerons le temps.
+<lb />Mais dis-moy ſans mentir, ma fidele Iuſtine,
+<lb />Serois-je ſi parfaite? ay-je ſi bonne mine?
+<lb />Dis-noy la verité, parlons ſans compliment,
+<lb />Puis-je eſperer de plaire à mon fidele Amant?
+<lb />Liſtan eſt vn objet que mon ame idolâtre,
+<lb />Le pourray-je charmer?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Voſtre gorge eſt d’albâtre,
+<lb />Vos yeux ſont des brillãs, leurs traits ſont accõplis,
+<lb />Voſtre bouche de roſe, &amp; voſtre teint de lis,
+<lb />Voſtre taille eſt charmante &amp; parfaitement belle,
+<lb />Vous eſtes des beautez l’adorable modelle,
+<lb />Vous bleſſerez par tout où vous voudrez frapper,
+<lb />Apres cela, Philiſe, en peut-il échapper?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Tout-beau, tout-beau, Iuſtine, on me raille.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />O ma Reine,
+<lb />Peut-on voir vos beaux yeux ſans adorer ſa chainet
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN caché qui les entend.
+<lb />La voicy ma Déeſſe: ô Dieux que de beautez
+<lb />Conſondent à la ſois mes eſprits enchantez!
+<lb />Entendons leurs diſcours.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />O ma chere Maiſtreſſe,
+<lb />Que vous auez d’appas, de grace, &amp; de jeuneſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN caché.
+<lb />Que l’eſprit de Iuſtine eſt doux &amp; complaiſant!
+<lb />Ce diſcours me rauit, il merite vn preſent;
+<lb />Elle l’aura, ma foy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE à Iuſtine.
+<lb />Que dis-tu de ma robe?
+<lb />Voy-tu qu’elle me pare &amp; qu’elle m’accomode?
+<lb />Que dis-tu des galans, des nœuds, des diamans?
+<lb />Trouues-tu quelque éclat dans ces ajuſtemens?
+<lb />I'en veux faire à Liſtan vne agreable offrande.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Ce n’eſt pas ces bijoux que le galand demande,
+<lb />Si i’eſtois de ſon ſexe &amp; de ſa qualité,
+<lb />Ie ferois plus d’eſtat de voſtre nudité.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Qu'elle boufonne bien! qu’elle entend raillerie!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Iomie m velnte, ums mmoy, ie t’en prie.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Ie vous la dis, ma foy, mais ie ne puis ſouffrir
+<lb />Qu’vne Fille d’eſprit qui peut tout conquerir,
+<lb />Soꝰ le ioug d’vn ſeul hõme auiourd’hui s’aſſeruiſſe,
+<lb />Pendant que mille cœurs meurẽt pour ſon ſeruice,
+<lb />Faites moy des galans, changez-en chaque iour,
+<lb />C’eſt comme on reüſſit en l’Empire d’Amour:
+<lb />Vn ſeul Amant, Philiſe, eſt beaucoup incomode,
+<lb />La Foy n’eſt qu’vn abus qui n’eſt plus à la mode;
+<lb />Plus vous aurez d’Amans au gré de vos deſirs,
+<lb />Et plus vous gouſterez de biens &amp; de plaiſirs;
+<lb />La loyauté ſied mal pour vne Courtiſane.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Qu’as-tu dit, mal-heureuſe? ô la bouche profane!
+<lb />B
+<lb />Ie reuoque le don que ie t’ay tantoſt fait.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE à Iuſtine.
+<lb />Ce diſcours me déplaiſt, briſons- là tout à fait.
+</sp>
+<sp type="MainZone-Sp"><lb />O la ſimplicité!
+<lb />IVSTINE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Cette leçon m’offenſe.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Tu crois donc ton Liſtan vn miracle en conſtance,
+<lb />Tu crois certainement qu’il doit touſiours bruſler,
+<lb />Voy que tu dois vieillir, &amp; qu’il ſe peut ſaouler.
+</sp>
+<sp type="MainZone-Sp"><lb />Ie ne l'eſpere pas.
+<lb />PHILISE.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Il arriue des choſes
+<lb />Que nous n’eſperons pas: voy-tu, cueille les roſes
+<lb />Pendant qu’vn beau Printẽps les épãd ſur ton teint,
+<lb />N’attens pas la ſaiſon où l’age les eſteint:
+<lb />Mon exemple, Philiſe, eſt capable d’inſtruire,
+<lb />Tu connois Liſidas, tu ſçauois ſon martyre,
+<lb />Tu ſçais qu’il ra’adoroit plus paſſionnément,
+<lb />Il m’a pourtant quittée, il n’eſt plus mon Amant:
+<lb />Mais i’ay donné bon ordre à n’eſtre pas duppée,
+<lb />Quand il quitta la place, elle eſtoit vſurpée.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Me pourrois-je empeſcher de luy creuer les yeux?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />I'aimeray Liſtan ſeul, i’en atteſte les Cieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />O que ie ſuis heureux! qu’elle eſt cõſtante &amp; belle!
+<lb />Ie feray vanité de vendre tout pour elle<lb />Quand i’auray tout mangé, ie ſeray riche aſſez,
+<lb />Touruen que tesducours loient vraymẽt auancez.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE à Philiſe.
+<lb />Voila pourtant, Philiſe, vn chemin déplorable
+<lb />Qui mene à l’Hoſpital, il eſt inéuitable
+<lb />A qui ſe veut prquer de ce haut ſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Liſtan en eſt bien digne, il aime conſtamment,
+<lb />Si ie m’en piquois moins, ie ſerois bien ingrate:
+<lb />Il a tous les attraits dont noſtre eſprit ſe flate,
+<lb />De toutes les vertus il ne luy manque rien,
+<lb />I’ay ſon cœur tout a moy, ie luy donne le mien,
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Tu te repentiras de tes fauſſes maximes.
+</sp>
+<sp type="MainZone-Sp"><lb />B iii.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Ces mains t’étouferont pour expier tes crimes.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Ie ne le pretens pas.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />C’eſt à toy d’y ſonger.
+<lb />Le remors eſt ſans fruit quãd il nous vient ronger;
+<lb />Mais puis qu’il te cherit d’vne ſi chaſte flâme,
+<lb />Tu deurois eſſayer de deuenir ſa femme.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Ie ne m’empeſche point de tous ces intereſts,
+<lb />Mon amour n’a pour but que d’aimables progrés,
+<lb />Ie ſuis les voluptez qu’inſpire ma penſée,
+<lb />Et mon affection n’eſt point intereſſée.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN ſeul.
+<lb />Si ie t’auois perda, beau miracle d’amour,
+<lb />Ce ſeroit à regret que ie verrois le iour;
+<lb />Afin de te r’auoir, bel Aſtre qui m’éclaire,
+<lb />Ie vendrois tout mon bien, ie liurerois mon Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Et que deuiendront donc tant d’Amãs malheureux
+<lb />Qui ſoûpiret pour vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />S’ils ſont bien genereux,
+<lb />En me voyant bruſler d’vne amitié fidele,
+<lb />Ma conſtance accroiſtra ſeur eſtime &amp; ieur zele.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Dieux! ſi mon Pere mort m’auoit laiſſé ſon bien,
+<lb />Ie luy donnerois tout, &amp; n’en retiendrois rien.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE à Philiſe.
+<lb />Mais enfin vous ſçauez que Liſtan ſe ruine,
+<lb />Et qu’il n’a quaſi plus que frire en ſa cuiſine;
+<lb />Nous luy diſſipons tout ſans ordre &amp; ſans raiſon,
+<lb />Et nous l’auons tantoſt plumé comme vn Oiſon;
+<lb />Il ſera touſiours libre, &amp; d’humeur dépenſiere.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Tu connoiſtras que non, perfide, &amp; la premiere:
+<lb />Si tu n’as que ma table, où prendre tes repas?
+<lb />La faim dans peu de iours haſtera ton trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Si tu me veux parler de l’objet qui m'engage,
+<lb />Conte moy les vertus dont le Ciel le partage,
+<lb />Parle de ſes bontez, de ſes perfections,
+<lb />C’eſt le moyen de plaire à mes affections;
+<lb />Sinon n’on parle point, ou parlons d’autre choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />L’excellent Aduocat! qu’il plaide bien ma cauſe:
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Hé bien, puis qu’il vous plaiſt ie n’en parleray plus,
+<lb />Tous mes raiſonnemens ſont icy ſuperflus,
+<lb />I’ay crû candidement que i’eſtois obligée
+<lb />A ces petits aduis, m’en voila déchargée.
+<lb />Ie ne replique plus, ſuiuez vos ſentimens.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />C’eſt biẽ dit, dõne-moy mes plus beaux ornemens,
+<lb />Apporte mon miroir, va ma chere mignonne.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Qu’en auez-vous beſoin? vne ieune perſonne
+<lb />Parfaite comme vous, toute pure, &amp; ſans fard,
+<lb />Ne doit point conſulter ny la glace, ny l’art,
+<lb />Vous eſtes des Beautez le miroir adorable.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Ce propos me rauit, il eſt tres-veritable,
+<lb />Va, ie veux oublier tout ce qui s’eſt paſſé.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Mon poil, à ton aduis, eſt-il bien agencé?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Voſtre extréme beauté n’eut iamais de ſeconde:
+<lb />Si vous vous portez biẽ, tout va le mieux du mõde.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />O le perfide eſprit!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Apporte-moy du blanc,
+<lb />Ie ſens vne chaleur qui m’échauffe le ſang,
+<lb />Qui ſans difficulté me rougit le viſage,
+<lb />Donne-m’en promptement.
+</sp>
+<sp type="MainZone-Sp"><lb />ETATAN.
+<lb />L’admirable langage!
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Vous vous moquez de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Ie le dis tout de bon.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Il vaudroit tout autant vous bailler du charbon,
+<lb />C’eſt comme qui prendroit del encre la plus noire
+<lb />Pour embellir l’albaſtre, ou pour blanchir l’yuoire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Qu'elle raille à propos!
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Conſultez ce miroir:
+<lb />Hé bien, faut-il du fard pour vous faire valoir?
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Dieux! ie croy qu’il reçoit vn baiſer de ſa bouche;
+<lb />Ie m’en vais le briſer, i’enrage qu’il la touche.
+</sp>
+<sp type="MainZone-Sp"><lb />Eſſuyez-vous.
+<lb />IVSTINE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Me le demandez-vous?
+<lb />Vous ſentirez l’argent, &amp; voſtre Amant ialoux
+<lb />Croira que vous aurez vn Galant qui vous donn
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Je n’aprehende pas que Liſtan me ſoupçonne.
+<lb />Donne-moy des parfums?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Il n’en eſt pas beſoin,
+<lb />Vous pouuez, ſur ma foy, vous épargner ce ſoin:
+<lb />Laiſſez aux vieilles gens le muſc &amp; la ciuette,
+<lb />Mépriſez hautement la boucle &amp; la garſette,
+<lb />N’vſez point de parſum, &amp; ſçachez apres tout
+<lb />Qu’il faut pour ſentir bon, ne ſentit rien du tout.
+<lb />Alors que la ciuette à la ſueur s’allie,
+<lb />C’eſt vn charmant ragouſt, vne ſauce accomplie,
+<lb />C’eſt vn pot où l’on met mille mets diferens:
+<lb />Ie dis la verité, i’en ay bien des garens.
+</sp>
+<sp type="MainZone-Sp"><lb />Quii
+<lb />PHILISE.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Ceux qui ſont ſoumis au ioug des laides femmes,
+<lb />Cęux de qui l’auarice a fait naiſtre les flâmes,
+<lb />Qui pour auoir du bien ſe ſont faits les valets.
+<lb />De vieilles de cent ans, de malheureux ſquelets,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Laiſſons tous ces diſcours, &amp; parle auec franchiſe:
+<lb />Suis-ie bien?
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Vne belle eſt touſiours fort bien miſe,
+<lb />C’eſt aux vieilles ſans dents à ſe parer d’habits,
+<lb />Tirer vn faux éclat des perles, des rubis,
+<lb />Se mettre vn pied d’eſpais de plaſtre, &amp; de ceruſe,
+<lb />Et cacher les defauts dont le temps les accuſe.
+<lb />Vne ieune beauté ne ſe doit point farder.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Nous tardons trop, mon cœur, allons les abordet,
+<lb />à Ph. A quoy s’occupe icy mon Ange tutelaire?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Ie m’ajuſte, Liſtan, ſeulement pour vous plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Ta grace naturelle eſt ton ajuſtement,
+<lb />Que l’on doit ſouhaiter en vn ſujet charmant;
+<lb />Et tu fais mal, mon cœur, d’ẽ chercher d’eſtrãgere,
+<lb />Mais ieveux auiourd’huy que noꝰ aſſiõs grad chere
+<lb />à luſt Oſte tous ces bijoux &amp; tous ces affiquets,
+<lb />Il faut couurir la table, &amp; l’orner d’autres mets.
+<lb />Veux-tu pas, mõ cher cœur, que nous mãgions en<lb />nemient?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Ie veux ce qu’il te plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />L STAN.
+<lb />Iuſtine, que t’en ſemble?
+<lb />Donne ordre là dedãs, qu’on ſerue, &amp; prõptement
+<lb />Vn régal d’importance.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />O le doux compliment!
+<lb />Ie m’y vais employer, n’en ſoyez point en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Mon cœur, faiſõs vn tour dans la chãbre prochaine,
+<lb />Qu’on nous vienne appeller quand on aura ſeruy.
+<lb />à Ph. Que i’eſtime les fers dont tu m’as aſſeruy!
+<lb />Que ie fais vanité d’vn ſi doux eſclauage!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE
+<lb />C’eſt à moy d’en benir la gloire &amp; l’auantage:
+<lb />Commande abſolument, i’obeïray touſiours
+<lb />A qui fait auiourd’huy le bonheur de mes iours.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />RANOEE
+<lb />I
+<lb />SCENE PREMIERE.
+<lb />CALLIANTE, FLORIS, CLI<lb />MANTE, PARTHENOR,
+<lb />Affranchis, PAGES.
+</p>
+<sp type="MainZone-Sp"><lb />CEEIIIE a Jes affranchis.
+<lb />Limante, Parthenor, Pages, que l’on m’aporte
+<lb />C Mon Flambeau chez Liſtan? ie ne veux point
+<lb />d’eſcorte,
+<lb />Ie m’en veux reuenir lors que ie l’auray veu.
+</sp>
+<sp type="MainZone-Sp"><lb />PAGE. bas.
+<lb />Nous n'y manquerons pas. Mon cher Maiſtre 2
+<lb />bien beu.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Vous n’y voulez donc pas eſtre lõg-temps à table?
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Que ce diſcours me plaiſt! que Floris eſt aimable!
+<lb />Si peu que tu voudras, i’en ſors preſentement,
+<lb />Clndor nous a traittez aſſez ſuperbement:
+<lb />Mais ie hay les appreſts auec ceremonie,
+<lb />Et pour cette raiſon i’ay fauſſé compagnie;
+<lb />Et puis ie ne peux viure abſent de tes beaux yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />O l’obligeant diſcours!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />I'en iure par les Dieux.
+<lb />Tu voix bien que i’ay beu: mais..
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Qu’il eſt agreable!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />C’eſt quand on eſt bien ſaoul que l'on eſt veritabl
+<lb />Ie le ſuis, peu s’en faut, ie ne le puis cacher.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Sois cõme tu voudras tu m’es touſiours bien chi
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Embraſſe-moy, mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />O l'aimable caprice!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Souſtiens-moy ie t’en prie, &amp; ſois ma conductrie
+<lb />I'ay chinqué, ſans mentir, chez Clindor tout le iou
+<lb />Mais pourtant mon yvreſſe eſt vn effet d’amour,
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Ie le croy, Calliante, &amp; ie m’en tiens heureuſe.
+<lb />Mais gardons de tomber.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Tu te mocques, railleuſe
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Nullement, ie prens garde à conduire tes pas;
+<lb />Sans tomber tous les deux, nous ne tomberons!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Mais où me conduis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />La memoire admirable!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />C’eſt bien dit, allons nous mettre à table
+<lb />Il nous ſera grand chere, il le faut confeſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Pour ce iour, cher amy, tu t'en pourrois paſſer,
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Nous y rencontrerons &amp; Iuſtine &amp; Philiſe:
+<lb />Là nous mediterons quelque gaye entrepriſe,
+<lb />Et nous nous employrons à nous bien diuertir.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Allons, me voicy preſte à te ſuiure &amp; partir.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Conduis-moy par la main, i’aurois peine, ie meure,
+<lb />S’il me falloit tout ſeul retrouuer ſa demeure,
+<lb />Tant l’yvreſſe a broüillé mon foible iugement.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Ie t'y conduiray bien; la main, mon cher Amant.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />STREPHON ſeul.
+</p>
+<sp type="MainZone-Sp"><lb />Ve ievais auiourd'hui medõner au cœur ioye!
+<lb />Que ie cours d’allegreſſe où mon Maiſtre
+<lb />m’enuoye!
+<lb />Ie m'en vais pres du Port chercher preſentement
+<lb />Quantité de g bier, &amp; des mets largement:
+<lb />Il me faut eſlayer de trouuer la Muſique,
+<lb />C’eſt ce qui me contente, &amp; c’eſt dõt ie me pique:
+<lb />Ie chante volontiers, mais ie bois encor mieux,
+<lb />Et ie prefere au chant vn vin delicieux.
+<lb />Ha ſi noſtre Vieillard, qui ſeul nous fait la guerre,
+<lb />Auoit deſſus le corps cinq ou ſix pieds de terre;
+<lb />S’il auoit trauerſé le Palais tenebreux, (reun
+<lb />Qu’il nous feroit beau voir! que nous ſerions heu<lb />Mais peut eſtre eſt-il mort, que ſçait-on, ie l’eſperc
+<lb />La Mer nous a défaits de ſon humeur ſeuere,
+<lb />L’on n’en oit point parler; mais ie m’amuſe icy,
+<lb />Et ce n’eſt pas enfin mon plus preſſant ſoucy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CALLIANTE, FLORIS, LISTAN
+<lb />PHILISE, IVSTINE, PAGE.
+<fw><lb />La toille eſt tirée, &amp; la chambre paroiſt, où ils ſont
+<lb />à table.
+</fw></p>
+<sp type="MainZone-Sp"><lb />r
+<lb />LISTAN.
+<lb />VV ſois le bien venu, cher amy que i’eſtime,
+<lb />I Toy que i’ay fait l’objet d’vne amitié ſas
+<lb />crime,
+<lb />A qui i’ouure mon cœur, &amp; tous mes ſentimens,
+<lb />Prens part, ie te conjure, à nos contentemens,
+<lb />Donnons-nous aux plaiſirs, pendant que la fortun
+<lb />Nous permet de ioüir de ſa faueur commune;
+<lb />Eſtouffons la rigueur &amp; le fiel des deſtins
+<lb />Dans les jeux innocens, &amp; parmy les feſtins;
+<lb />N’épargnõs nuls plaiſirs, cependant que mon Pen
+<lb />Eſt abſent, loin de nous, ou mort, comme i’eſpen
+<lb />Ie veux donner le Bal, ie vous veux réjoüir,
+<lb />Paſſons le temps, Floris, veux-tu pas en ioüir.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />O le charmant deſſein! Amy, ie te conuie
+<lb />D’auoir ces ſentimens le reſte de ta vie.
+<lb />Pour le Bal, ſur ma foy, tu t’en peux diſpenſer,
+<lb />Calliante n’eſt pas en eſtat de danſer,
+<lb />Iu von tomnenv endort 
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE yure.
+<lb />Ha changez de langage,
+<lb />I'entreprens vn faſcheux &amp; penible voyage,
+<lb />Mon Vaiſſeau part du Port, ie ſuis deſlus les flots,
+<lb />Et ma vie eſt commiſe à l’att des Marelots.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Vous vous extrauaguez, mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Que veux-tu dire?
+<lb />N’es-tu pas comme moy ſur le bord du Nauire?
+<lb />A-t’on pas leué l’anchre, &amp; mis la voile au vent?
+<lb />Voicy la pleine Mer, où i’y ſuis peu ſçauant.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Eſtrange effet du vin! Dieux quelle fantaiſie!
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Non, ce n’eſt point le vin, c’eſt vne freneſie.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Ne vous exprimez point, vn moment de repos
+<lb />Luy fera bien changer ces fantaſques propos.
+<lb />Mon cœur, rentre en toy-meſme?
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />O Dieux! vn prompt orage
+<lb />Semble nous menacer de perte &amp; de naufrage;
+<lb />C iij
+<lb />Lair eſt tout plein de feux qui font briller la nuit,
+<lb />Vn effroyable iour dont la clarté nous luit;
+<lb />L’eau tourne inceſſammẽt ſous levent qui la berce,
+<lb />Ce foudre décoché iuſqu’au centre la perce;
+<lb />L’air n’eſt plus qu’vu nuage effroyable à mes yeux
+<lb />Qui couure deſormais le bel émail des Cieux.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Reprens tes ſentimens, fidele Calliante.
+<lb />Nous ſommes chez Liſtan.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Qu'elle eſt extrauagante!
+<lb />Hé quoy, ne vois-tu point que c’eſt pour tõ reſpect
+<lb />Que la peur me ſaiſit, que le vent m’eſt ſuſpect?
+<lb />Si ie n’auois pour but de conſeruer ta teſte,
+<lb />Ie rirois des efforts d’vne fiere tempeſte;
+<lb />Mais i’ay peur de ta perte, &amp; c’eſt la mõ tourment.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Ie ſuis en ſeureté, ne craignez nullement.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Plus nous voguons auant, &amp; plus l’onde eſt cruelle,
+<lb />Dieux! ſous vn poids trop grãd le Nauire chãcelle;
+<lb />Si nous n’y donnons ordre, il s’en va ſubmerger.
+<lb />Sauuons-nous, mes amis, il le faut décharger,
+</sp>
+<sp type="MainZone-Sp"><lb />Il iette tout ce qui eſt ſur la table.
+<lb />Iettons tous ces paquets, le peril eſt extréme,
+<lb />Et perdõs tous ces biens pour ſuiure ce que i’aime
+<lb />Le vent les conduira dans le plus prochain Port,
+<lb />Et nous appaiſerons la colere du ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Bons Dieux! que faites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />I’agis en cet orage,
+</sp>
+<sp type="MainZone-Sp"><lb />Et pour noſtre ſalut, &amp; pour noſtre aduantage.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Mais vous renuerſez tout.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Le Vaiſſeau trop chargé,
+<lb />paiyuoute periroit, s’il n’eſtoit allegé.
+<lb />Aidez-moy ſeulement; mais la vigueur me laiſſe,
+<lb />Ie manque de puiſſance, &amp; le ſommeil me preſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Grace aux Dieux, il s’endort, laiſſons-le repoſer.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Au moins obligez-moy, Liſtan, de l’excuſer,
+<lb />Pardonnez à ſon vin, mon cœur vous en conjure.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />cetuemmmeyliumj muuic vne injure;
+<lb />Il peut, &amp; vous auſſi, diſpoſer librement
+<lb />De ce qui m’appartient, ie dis ſans compliment.
+<lb />Mais il s’eſt endormy, faiſons quelqu’autre choſe,
+<lb />Et nous diuerciſſons cependant qu’il repoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />C’eſt bien dit, ie le veux, ordonnez ſeulement,
+<lb />Nous conclurons apres le diuertiſſement,
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Voicy Strephon qui vient.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />O la triſte grimacer
+<lb />Que d’vn ſanglant deſtin ſon aſpect nous menace!
+<fw><lb />11
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />STREPHON reuenant du Port, LIS.
+<lb />TAN, CALLIANTE endormy,
+<lb />PHILISE, IVSTINE, FLORIS.
+</p>
+<p type="MainZone-Head"><lb />STREPHON entrant dans la chambre.
+</p>
+<sp type="MainZone-Sp"><lb />Dieux! que m’a-t’on dit? nous ſommes tous
+<lb />O perdus,
+<lb />Mon eſprit eſt trouble, mes ſens ſont confondus,
+<lb />Le Deſtin a iuré noſtre perte aſſeurée.
+<lb />Que nos biens ſont gliſſans &amp; de peu de durée!
+<lb />Dieux, pourquoy perdez-voꝰ les eſprits innocens!
+<lb />Mais à quoi bõ me plaindre en des maux ſi preſsãs!
+<lb />Ha nous ſommes perdus, ie ne vois poinr d’adreſſe
+<lb />Qui no9 puiſſe aſſiſter au malheur qui nous preſſes
+<lb />I’ay veu dedans le Port vn ſi faſcheux eſcueil,
+<lb />Qu’il faut abſolument qu’il ſoit noſtre cercueil.
+<lb />Mon Maiſtre eſt de retour, il me faut feire entẽdie.
+<lb />Ha ſi quelqu’vn pour moy vouloit ſe laiſſer pendre,
+<lb />Ie luy deurois beaucoup; qu’il me feroit plaiſir!
+<lb />O vous, qui tranſportez d’vn auare deſir,
+<lb />Pour quelque petit gain hazardez voſtre vie,
+<lb />Et qui ne craignez pas qu’elle vous ſoit rauie,
+<lb />Si vous voulez pour moy vous laiſſer attacher
+<lb />A l’in ame gibet où l’on me va brancher,
+<lb />Ie vous dõne cẽt ſrãcs, pourueu qu’on voꝰimmole,
+<lb />Et qu’vne prompte mort vous oſte la parole:
+<lb />Apres ſi vous pouuez les venir demander,
+<lb />Vous me trouuerez preſt à vous les accorder.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Que dit cet inſolent? ce par.ſite infame?
+<lb />ne uiau, touteſt-il preſt?
+</sp>
+<sp type="MainZone-Sp"><lb />Liſtan<lb />STREPHON.
+<lb />Il faut changer de game,
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Que veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Helas! &amp; vous &amp; moy...
+</sp>
+<sp type="MainZone-Sp"><lb />Queſt-ce?
+<lb />LISTAN.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />oonmies perdus, c’eſt tout de bon.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Voſtre Pere eſt icy.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Bons Dieux! quelle impudence.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Nous ſommes tous perdus, ie l’ay veu d’aſſeurance.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Helas! que m’as-tu dit?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Oüy ie l’ay veu, c’eſt luy.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Quoy, de tes propres yeux?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON
+<lb />Quoy donc, des yeux d’autruy?
+<lb />Il s’approche, il s’en vient.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Que fais-je, miſerable:
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Me le demandes-tu? tu bofres, tu tiens table,
+<lb />Tu paſſes bien ton temps.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Mais, dis-moy, l’as-tu veu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Luy-meſme à ſon abord m’a pris au dépourueu.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Helas! ie ſuis perdu. Strephon, ſois moy fidele.
+<lb />Que feray-je? dis-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mais qui dort ſur ce lit?
+<lb />I’en ſuis fort en ceruelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Calliante.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Floris,
+<lb />Eſueille-lé, mais viſte, ou nous ſommes peris.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Calliante, debout. O la faſcheuſe hiſtoire!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Ie ne dors pas, mõ cœur, que l’on me verſe à boire,
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Il nous faut bien chanter deſſus vn autre ton.
+<lb />Le Pere de Liſtan...
+</sp>
+<sp type="MainZone-Sp"><lb />Eſt-il mort?
+<lb />CALLIANTE
+<lb />Dieux faites luy pardon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il reuient, il eſt dans Nicoſie.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Quoy, du fond des Enfers?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Hruune de dltes
+<lb />Il eſt en freneſie.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Hé bien, faites-lé retourner,
+<lb />S’il vient auec deſſein de nous importuner.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Malheureux, que feray-je en ce triſte rencontre?
+<lb />Iray-je au precipice où le ſort me le montre?
+<lb />Pourray-je l’éuiter lors qu’il eſt ſous mes pas?
+<lb />Et n’ayaut point d’appuy, n’y tomberay-je pas?
+<lb />Mon eſprit n’y voit point ny d’art, ny de reſources:
+<lb />Alors qu’on meurt de ſoif, doit-on chercher des
+<lb />ſources?
+<lb />Il faut perir, &amp; rien ne me peut conſeiller.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Calliante eſt recheu, il le faut reſveiller.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Cher amy, leue-toy, mon Pere eſt au riuage,
+<lb />Le voicy qui s’en vient.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />N’importe, bon courage;
+<lb />S’il fait le moindre bruit, ie le gripe au collet;
+<lb />Donne-moy mon eſpée, ou bien vn piſtolet,
+<lb />Si ie ne t’en défais, dis que ie ſuis vn laſche.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Portez-lé là-dedans, tout ce diſcours me faſche,
+<lb />Il n’eſt bon qu’à nous nuire &amp; nous embaraſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Ma foy, ie n'en puis plus, i’enrage de piſſer;
+<lb />Ie piſſeray par tout, où le Diable m’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />O Dieuxt ie ſuis perdu, mon eſperance eſt morte.
+<lb />Strephon, que ſerons-nous?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous en veux ſortir.
+<lb />Ne deſeſperez rien,
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Helast le peux-tu bien?
+</sp>
+<sp type="MainZone-Sp"><lb />STREFHON.
+<lb />Ne vous en peinez point. Pourueu que Periandi
+<lb />N’approche point d’icy, ſi ie luy puis defendre
+<lb />D'entrer dans le logis, ſerez-vous ſatisfait?
+<lb />S’il le croit vn cercueil, vn Enfer tout à fait,
+<lb />Auray-je bien ſeruy Liſtan &amp; ſa Maiſtreſſe;
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Tu ſerois libre alors.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />I’en reçoy la promeſſe.
+<lb />Mais rentrez là-dedans, &amp; fermez les verroux:
+<lb />Voila tout voſtre mal.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Mais que deuiendrons-nous?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O qu’il fait l’empeſché! cauſez aucc Philiſe,
+<lb />C’eſt la chere beauté dont voſtre ame eſt épriſe.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Et moy Strephon, &amp; moy, car Calliante dort.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous pouuez l’eſveiller, Floris, il n’eſt pas mort.
+<lb />Enfin
+<lb />Enfin paſſez le temps, comme ſi Periandre,
+<lb />Roſty ſur vn bucher, eſtoit reduit en cendre.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Ce diſcours eſt plaiſant, mais la luite en fait peur.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie la vais diſſiper ainſi qu’vne vapeur:
+<lb />Entrez viſte, Floris, &amp; P'hiliſe, &amp; Iuſtine;
+<lb />Moy ie vais cependant trauailler à la mine,
+<lb />Afin que mon Vieillard ne s’en puiſſe ſauuer.
+<lb />Ce ſoir, auant la nuit, ie vous viens retrouuer,
+<lb />Montez ſur le Balcon; ſur tout ie vous conuie
+<lb />De ne faire aueun bruit, il y va de ma vie.
+<lb />Entrez.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Cela vaut fait, nous ne branlerons pas.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Si iuſques à la porte il auance ſes pas,
+<lb />Soit qu’il frappe, qu’il crie, ou qu’il ſe deſeſpere,
+<lb />Ne luy répondez point; s’il ſe met en colere,
+<lb />Ie l’appaiſeray bien, laiſſez-moy cet employ.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Dieux! aſſiſtez les ſeins qu’il ſe donne pour moy,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Donnez-moy voſtre clef, que ie ferme la porte,
+<lb />Ie veux eſtre aſſeuré que perſonne n’en ſorte,
+<lb />Apres ie vous reſpons de tout l’euenement.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />La voicy, cher Strephon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Entrez preſentement,
+<lb />Entrez, ne craignez rien, tout va le mieux du mõde
+<lb />Il les ſaut enfermer, mais la ſemure en gronde,
+<lb />Et la clef auec peine y tourne librement.
+<lb />Depuis que le bon homme a fait l’embarquement
+<lb />La maiſon, grace aux Dieux, n’a point eſté fermés
+<lb />Auſſi depuis ce temps elle eſt bien parfumée;
+<lb />Au lieu d’ail &amp; d’oignon qu’elle ſentoit iadis,
+<lb />C’eſt du nez à preſent le florant Paradis;
+<lb />L’odeur des mets exquis l’ont ſi bien embaumée
+<lb />Qu’on ſe pourroit nourir de la ſeule fumée.
+<lb />Fermons-la, s’il ſe peut, &amp; taſchons de ſranchir
+<lb />Vn paſſage douteux, mais qui peut m’enrichir.
+<lb />I’auray la lib ié, ſi i’en ſauue mon Maiſtre:
+<lb />Dieux! ſi vous eſtes bons, faites-le moy paraiſtr
+<lb />C’en eſt fait, tout va bien, i’ay gagné mon proce
+<lb />Les Dieux m’ont inſpiré, i’en auray bon ſuccés:
+<lb />Ie vais ſi bien fermer...
+</sp>
+<sp type="MainZone-Sp"><lb />LE PAGE ſort.
+<lb />Strephon..
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qui t'oblige à ſortir?
+<lb />Quelle impudenc
+</sp>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />La pure obeïſſance:
+<lb />Mon Maiſtre te conjure auiourd’huy d’empeſche
+<lb />Periandre..
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />De quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />D’entrer dans le logis.
+<lb />De le venir chercher,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qu’il dorme en aſſeurance,
+<lb />Il le fuira bien-toſt, comme toy la potence.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PAGE.
+<lb />Mais cela ſe peut-il?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie veux que ſa maiſon
+<lb />Luy ſoit plus en horreur qu’vn cachot de priſon.
+<lb />Va, rentre, &amp; ne ſors plus, ie vais fermer la porte:
+<lb />Si tu ſors d’aujourd’huy, que le Diable m’emporte.
+<lb />C’eſt a moy maintenant à faire mon deuoir,
+<lb />La fourbe eſt d’importance, il y ſaut tout préuoir:
+<lb />Mais i’en ſortiray bien, i’ay l’art &amp; la ſoupleſle,
+<lb />Pour faire ſucceder l’effet de ma promeſſe.
+<lb />Que le bon homme vienne, il ne m’importe plus,
+<lb />Deſormais tous mes ſoins me ſeront ſuperflus,
+<lb />I’ay dequoy le dupper, ie ne ſuis plus en peine.
+<lb />Mais le voicy qui vient, il eſt tout hors d’haleine:
+<lb />Dieux qu’il eſt échauffé, l’on le va rafraiſchir,
+<lb />Ie m’en vais m’éloigner, &amp; ie vais m’affranchir.
+</sp>
+<p type="MainZone-Head"><lb />SCENEV.
+<lb />PERIANDRE. STREPHON.
+</p>
+<sp type="MainZone-Sp"><lb />PERIANDRE ſeul.
+<lb />Nfin, graces aux Dieux qui préſidẽt ſur l’onde,
+<lb />I Ie reuoy la lumiere, &amp; ie reuiens au monde;
+<lb />Car c’eſt bien eſtre mort que d’eſtre ſur les flots,
+<lb />Où le vent enragé ſe rit des Matelots.
+<lb />Me voicy de retour d’vn penible voyage,
+<lb />Apres auoir ſauué mon Vaiſſeau du naufrage,
+<lb />Ie reuoy mon pais, ie reuoy ma maiſon,
+<lb />Et croy que i’ay couru l’vne &amp; l’autre horiſon.
+<lb />D i
+<lb />Que mon am- eſton braue, &amp; qu'elle eſtoit hardie
+<lb />Alors que i’entrepris le deſſein de Candie!
+<lb />Que ce hardy projet eſtoit mal raiſonné!
+<lb />Si i’y retourne plus, i’y veux eſtre berné:
+<lb />Si ie reuois iamais les flots que du riuage,
+<lb />Si jamais ie me fie à leur trompeur viſage,
+<lb />I'auray perdu l’eſprit, i’auray perdu le ſens.
+<lb />Que l’on m’y cherche enfin, de bõ cœur i’y cõſens,
+<lb />Certe ils ont eu de moy la derniere viſite,
+<lb />Ie leur deuois encor, mais enfin i’en ſuis quitte,
+<lb />Et ie romps auec eux.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ce n’eſt pas ſant ſujet.
+<lb />Que n’engloutiſſent-ils ce malheureux objet!
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que mõ retour va plaire à tous mes domeſtiques
+<lb />Les Dieux en receuront des prieres publiques.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ils en auroient de moy, s’ils t’auoient fait perir.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie me veux repoſer, ie ſuis las de courir,
+<lb />Deux ans ſont eſcoulez depuis que ie ſoûpire
+<lb />Apres mon cher païs
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qui t’en pourroit proſcrire
+<lb />Nous rendroit auiourd’huy de ſenſibles plaiſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE
+<lb />Charmante Nicoſie, objet de mes deſirs,
+<lb />Enfin ie te reuois.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ha c’eſt ce qui me tuë,
+<lb />Et c’eſt le deſeſpoir de mon ame abatuë.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Enfin ie te reuois, agreable maiſon,
+<lb />Qui ſeras deſormais ma fidele priſon,
+<lb />Ie ne te quitte plus; mais la porte eſt fermée,
+<lb />Heurtons, &amp; promptement: Dieux! mon ame eſt
+<lb />charmée
+<lb />Des plaiſirs innocens que ie vais receuoir.
+<lb />Liſtan, mon cher Liſtan, ie m’en vais te reuoir.
+<lb />Heurtõs encore vn coup; mais ie n’entẽs perſonne,
+<lb />On ne me répond point, ce ſilence m’eſtonne,
+<lb />On aura de ma mort fait quelque bruit ſecret,
+<lb />Nmon Fils, &amp; Strephon, en ſont morts de regret.
+<lb />Hurtons fort derechef, &amp; nous fai ons entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Quiheurte la
+<lb />STREPHON.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Strephon..
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O mon cher Periandre,
+<lb />Mon cher Maiſtre, eſt-ce vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu me vois de retour.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Les Dieux en ſoient benis! ô fauorable iourt
+<lb />Mais oſtons-nous d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Pourquoy? que veux-tu dire?
+<lb />Entrons dans le logis.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Non pas pour vn Empire:
+<lb />Ie n’en approche pas de vingt pas ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Retirez-vous, vous dis-je, &amp; promptement.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Entrons dans le logis.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />3
+<lb />Le Ciel vous en preſerue.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />N’approchez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O l’admirable vervel
+<lb />Entrons, c’eſt perdre temps.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Tout-beau, n’auancez pas,
+<lb />Si vous ne vous oſtez, vous courez au trépas,
+<lb />Et vous nous perdez tous.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Allons, tu n’es pas ſage.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ma foy, vous vous perdez.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Dis-moy donc la raiſon?
+<lb />Ridicule preſage!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />La voulez-vous ſçauoir?
+<lb />nelas: c’eſt vn malheur qu’on ne pouuoit préuoi
+<lb />Il eſtoit malaiſé d'éuiter cette perte.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Depuis ſix mois la maiſon eſt deſerte.
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Pour vn grand crime.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O Dieux! &amp; qui l’a faitt
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie fremis au penſer d’vn ſi ſanglant ſorfait.
+<lb />Monſeur, fethonacfious.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Quel eſt donc ce grand crime?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ce n’eſt qu’auec horeur que ma bouche l’exprime;
+<lb />Mes cheueux au penſer ſe dreſſent ſur mon front.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie veux en eſtre inſtruit.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Deux mots y ſuffiront.
+<lb />Celuy qui vous vendit cette maiſon funeſte,
+<lb />Que ie fuiray touſiours à l’égal de la peſte,
+<lb />Y poignarda ſon Hoſte auant voſtre marché.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O Dieux que medis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Son cadavre eſt caché
+<lb />Aufonds de voſtre caue, il me l’a dit luy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Comment t’apparut-il?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Triſte, anglant, &amp; bleſme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que tu me fais de peur!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il me dit en deux mots
+<lb />Que quelque peu de terre auoit couuert ſes os,
+<lb />Que ſon Hoſte ſçachant ſa valiſe eſtre pleine
+<lb />D’or &amp; de diamans, d’vne rage inhumaine,
+<lb />Peidant qu’il repoſoit, l’auoit aſſaſſiné.
+<lb />Iugez ſi ce diſcours ne m’a point eſtonné.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Pour moy i’en fuſſe mort.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il me dit dauantage,
+<lb />Que l’on le rebutort à l’inſernal paſſage,
+<lb />Parce qu’il eſtoit mort d’vn trépas violent.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que deuiendra-t’il donc?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />D'vn diſcours froid &amp; lent,
+<lb />Il me dit quittez-moy cette maiſon pollue,
+<lb />Ie la veux habiter.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Hat la ftayeur me tuë,
+<lb />N’yrentrons point, Strephon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Voſtre Fils du depuis,
+<lb />Qui ne me croyoit point, le vit par pluſieurs nuits
+<lb />D'vn effroyable voix il luy parla de meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERTANDRE.
+<lb />Il s’en deuoit fuir.
+<fw><lb />D
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Sa peur eſtoit extrémez
+<lb />A quelque temps de la nous quittâmes auſſi.
+<lb />Mais Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Què veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />E loignons nous d’iey.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Qu'eſt-ce? ie meurs de peur.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />I'ay veu branler la porte,
+<lb />Et ie crains que bien-toſt ce vieux ſpectre ne ſorte.
+<lb />Auez-vous pas frappé?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE
+<lb />C'eſtoit ſans y penſer.
+</sp>
+<sp type="MainZone-Sp"><lb />DIRHTHON.
+<lb />Hat vous allez vous perdre, &amp; nous embaraſſer,
+<lb />Il va vous aſſommer.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANORE.
+<lb />Et toy?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſtautre choſe,
+<lb />I’ay fait paix auec luy, ie ne crains pas qu’il oſe,
+<lb />Nous sõmes trop amis. Mais que i’entẽs de bruit,
+<lb />Ce caquet importun me pert &amp; me détruit.
+<lb />Il entend cauſer Liſtan &amp; Calliane.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu trembles neantmoins.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt pour vous, Periandre.
+</sp>
+<sp type="MainZone-Sp"><lb />Eſcoute.
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Eſloignez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PLRIANDRE.
+<lb />Quel conſeil dois-je prendrer
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />Si ma fourbe s’éuente, aujourd’huy ie ſuis mort
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />I’accuſois l’injuſtice du ſors.
+</sp>
+<sp type="MainZone-Sp"><lb />De quoy?
+<lb />PFRIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qui vous preſente vn ſi faſcheux obſtacle.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Mais querant à cela?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Conſultons-en l’Oracle.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />S’il n’en veut pas ſortir, c’eſt en vain ſe peiner.
+<lb />Ha, ma chere maiſon, faut-il t’abandonner?
+</sp>
+<sp type="MainZone-Sp"><lb />STR PHON.
+<lb />Fuyez, i’entens du bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />t toy, que veux-tu faire?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Pour moy ie n’ay nen fait qui luy puiſſe déplaire,
+<lb />Ce n’eſt pas comme vous qui troublez ſon repos.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Et la frayeur pourtant t’a tranſi iuſqu’aux os
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Moy, i'ay peur des viuans.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Comment? que veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />tuyez, c’eſt le conſeil que ie vous veux preſcrire:
+<lb />Fuyez, dis-je, &amp; priez Hercule, &amp; tous les Dieux,
+<lb />Qu’ils chaſſẽt ce phãtoſme hors de ces triſtes lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />PER ANDRE.
+<lb />Allons dedans le Temple implorer ſa puiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Allons-y, ie vous ſuis, c’eſt ſa ſeule aſſiſtance
+<lb />ui vous peut deliurer du ſpectre &amp; de la peur.
+<lb />bas. O Dieux! perdez la duppe, &amp; ſauuez le trom<lb />peur.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+<fw><lb />
+<lb />2
+<lb />01
+<lb />d.204
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE III
+<lb />SCENE PRE MIERE.
+<lb />STREPHON, LISTAN, PHILISE,
+<lb />CALLIANTE, FLORIS,
+<lb />&amp; IVSTINE, au Balcon.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON ſeul.
+<lb />Fpendant que mon Maiſtre eſt à chercher Li
+<lb />O ſandre,
+<lb />Pour luy parler du meurtre, &amp; luyfaire reprendre
+<lb />Ce logis execrable où l’on parle aux eſprits,
+<lb />Ie m’en vais acheuer mon ouurage entrepris,
+<lb />Ie m’en vais retrouuer Liſtan &amp; ſa Maiſtreſſe,
+<lb />Et taſcher d’adoucir leur crainte &amp; leur triſteſſe.
+<lb />Ie m’enferre, il eſt vray, dans vn hardy deſſein;
+<lb />Mais que pouuois-je faire, ayant la mort au ſein,
+<lb />La frayeur dans l’eſprit, le deſeſpoir dans l’ame?
+<lb />Pouuois-je alors ourdir vne plus prompte trame
+<lb />Qui pût épouuanter ce malheureux vieillard?
+<lb />Et pouuois-je à propos agir auec plus d’art?
+<lb />Les Dieux, dont la bonté m’inſpira la penſée,
+<lb />La feront reüſſir, ils me l’ont auancée;
+<lb />Ft i’eſpere auiourd’huy d’en benir le ſuccés,
+<lb />Puis qu’ils m’ont ſecouru dãs mes plus forts accés.
+<lb />Quelque
+<lb />Quelque méchãtqu’on ſoit, quelque perdu Athleté,
+<lb />Qu on trouue ſon ſeçours dans la Bonté celeſte,
+<lb />Quoy qu’on ait offenſé la Iuſtice des Dieux,
+<lb />Ils reçoiuent touſjours les larmes de nos yeux,
+<lb />Et ne ſont iamais ſourds à noſtre ſyndereſe.
+<lb />Mais allons au Balcon. Que de tranſports &amp; d’aiſe.
+<lb />Si ie puis terminer ce faſcheux diferend.
+<lb />Sans y mettre mon dos, ou mon col pour garend!
+<lb />Calliãte, Liſtan, Foris, toute la troupe, Il les apelle.
+<lb />He uien, que faites-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Tu vois, ie tiens la couppe.
+<lb />Pour me deſenyurer, i’ay repris du vin frais,
+<lb />Et i’ay beu largement.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſtoit à nouueaux frais.
+<lb />C’eſt fort bien en effet appliquer la recepte.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Et mon Pere, Strephon, quelle prompte défaite
+<lb />L’a fait ſortir d’icy?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />La crainte &amp; la terreur.
+<lb />Il va trouuer Liſandre, il eſt fort en ſureur:
+<lb />C’eſt pour noſtre logis, il veut qu’il le reprenne.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Cõment? explique-toy, tu noꝰ mets tous en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Comme il vouloit entrer, ie luy perſuadé...
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy donc?
+<lb />LISTAN.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Que d’vn Phantolme il eſtoit obſedé,
+<lb />Qu’il nous auoit chaſſez, qu’il auoit fait le diable
+<lb />Et qu’enfin la maiſon n’eſtoit plus habitable,
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Dieux! que dira Liſandre?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il ſera bien ſurpris,
+<lb />Luy qui n’a iamais veu de Lutins ny d’eſprits:
+<lb />Mais ie ne pouuois pas l'éloigner d’autre ſorte.
+<lb />Il alloit enfoncer la ſerrure &amp; la porte.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Acheue iuſqu’au bout, nous n’eſperons qu’en te
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il faut bien eſſayer, tout le ſoin eſt pour moy:
+<lb />Mais au moins quand ie ſuë, &amp; lors que mon cœr
+<lb />tremble,
+<lb />Beuuez vn coup à moy quãd vous beuuez ensẽbi
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Va, nous n’épargnons pas le vin à ta ſanté;
+<lb />Elle fait vne part de noſtre volupté,
+<lb />Lors que nous la beuuons, &amp; Floris &amp; Philiſe
+<lb />Prennẽt le verre en main ſans peine &amp; ſans remiſe
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Oüy quãd vous la beuuez, mais c’eſt fort rarement.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Plus que tu ne croirois.
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Strephon, à tout moment.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous m’obligez beaucoup, mais apres tout i’eſper
+<lb />De vous faire raiſon, ſi nous ſortons d’affaire,
+<lb />Ie m’en vais eſſayer.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Et nous, que faire icy?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Dlantre, c’eſt à moy ſeul cet important ſoucy,
+<lb />eſcoutez. Au retour du triſte Periandre
+<lb />Car s’il reuient icy vous nous pourrez entendre)
+<lb />amde remajerd vne mortelle peur,
+<lb />ancez par ces conduits vne ardente vapeur,
+<lb />Brulez de la raiſine, enflâmez ces lieux ſombres,
+<lb />Et luy ſaites parler des ſpectres &amp; des ombres.
+<lb />Tenez, voila la clef, pour les faire ſortis;
+<lb />Voila des fondemens, c’eſt à moy d’y baſtir,
+<lb />C’eſt à moy de conduire &amp; d’acheuer l’ouurage.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />acheue, ener ouepnon, cent pers pas courage.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />le n’ay pas commencé, pour le deſeſperer:
+<lb />Aentrez, laiſſez-moy faire, allez vous retirer.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Souuiens-toy qu’en tes mains eſt noſtre deſtinée,
+<lb />Et que tu la peux rendre ou triſte ou fortunée.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Retirez-vous, vous dis-je, &amp; me laiſſez agir.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Ciel! fay nos iuſtes vœux heureuſement ſurgir.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Aentrez, &amp; promptement, i’apperçoy la tempeſte,
+<lb />Periandre reuient, allez; &amp; qu’on s’appreſte
+<lb />A luy faire vne peur, qu’il ne puiſſe guerir.
+<lb />Ce ſeroit vn grand coup, s’il en pouuoit mourir!
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />STREPHON, PERIANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />E' bien, d’où venez-vous? auez-vous veu Li<lb />TI ſandre?
+</sp>
+<sp type="MainZone-Sp"><lb />ouy.
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Que vous a-t’il dit?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il ne pouuoit m’entendre.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous l’auez bien ſurpris!
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Nullement.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />En effet
+<lb />Confeſſe-t'il le meurtre, &amp; dit-il qu’il l’a fait?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRÉ.
+<lb />Il eſt bien éloigné de l’aueu d’vn tel crime;
+<lb />Ce diſcours impréueu le tranſporte &amp; l’anime,
+<lb />Il eſt fort en colere, &amp; iure de venger
+<lb />Sa reputation que l’on veut outrager.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Sçauez-vous vn moyen pour terminer l’affaire?
+<lb />Cherchós vn Magiſtrat, mais qui me veüille croire.
+<lb />Aupres de qui i’obtienne vn fauorable accés;
+<lb />Et lors ſois-je pendu, s’il ne pert ſon procés.
+<lb />bas. Tout va mal, ie ſuis pris, où ſera mon reſuge?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que parles-tu, pendart, de procez &amp; de Iuge?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Rien du tout; mais enfin l’auez-vous bien preſſé?
+<lb />Ie croy que ce diſcours l’a bien embaraſſé.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Point du tout, il ſe mocque, il dit que ie ſuis yure,
+<lb />Qu'on luy fait vn affrõt, qu’il n’y veut pas ſuruiure;
+<lb />Que tout autre que moy qui l’en ſoupçonneroit,
+<lb />Periroit de ſa main.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il eſt vrayment adroit,
+<lb />Il ſe ſçait bien defendre Et de l’argent de l’Hoſte
+<lb />En auez vous parlé? quoy?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Son ame eſt trop haute
+<lb />Pour luy faire penſer ce noir aſſaſſinat;
+<lb />Et qu’il eſt preſt enfin d’en répondre au Senat,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Enfin, à ſon diſcours, il n’en eſt pas coupable.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il dit que i’ay reſvé cette importune fable.
+<lb />I'y ſuis bien empeſché, Strephon, que ferõs-nous?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous l’ay deſia dit.
+</sp>
+<sp type="MainZone-Sp"><lb />psie.
+<lb />PERIANDRE.
+<lb />
+<lb />Il eſt bien en couroux.
+<lb />
+<lb />E iij
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Prenons, vous dis-je, vn Iuge fauorable
+<lb />Qui me croye ſur tout ſincere &amp; veritable,
+<lb />Qui ne reuoque point la loy de mes diſcours:
+<lb />Si ie ne le conuainc, accourciſſez mes iours.
+<lb />Mais qu’eſt-ce que ie voy? la maiſõ toute en flâmer
+<lb />Hat ie meurs de frayeur.
+<lb />L’on brule de la raiſine dans le logis.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />La peur me perce l’ame.
+<lb />Fuyons, fuyons, Strephon, ſuyons. O iuſtes Dieun
+<lb />Trouueiay-je vn avile aujourd’huy ſous les Cieux?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Non, non, ne tremblez pas, c’eſt peut-eſtre l’image
+<lb />De ce pauure meurtry. Monſieur, prenez courage;
+<lb />Pour moy i’ay l’aſſeurance &amp; l’art de luy parler,
+<lb />Quand il ſort dãs vn corps qu’il emprunte de l’air.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Non, ie n'en feray rien. na, perfide Liſandre,
+<lb />Ton crime eſt aueré, ie te vais faire pendre,
+<lb />Ie ſeray ta partie, &amp; s’il eſtoit beſoin
+<lb />Ie ſerois ton Bourreau, ton luge, &amp; ron témoin.
+<lb />nia Dieux! ie ſuis perdu; qu’eſt-ce que ie découure?
+<lb />La porte, mais pluſtoſt voy la terre qui s’ouure.
+<lb />O Dieux! ie meurs de peur: vn mort paſle &amp; ſan<lb />glant... Vn ombreſoit couuect d’vu linge, auec
+<lb />vn maſque paſle
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt ce pauure defunt, qu’vn deſtin violent,
+<lb />Par la meſchanceté de ſon Hoſte infidelle,
+<lb />A donné pour victime à la Parque cruelle.
+<fw><lb />0
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />9 Dieux qu’il eſt affieux, &amp; qu’il me fait pitiét
+<lb />Mais il me fait encor plus de peur la moitié.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il ne vous fera rien, il va parler ſans doute.
+<lb />Monſieur, ne branlez pas, il veut que l’on l’écoute,
+<lb />Il vous attrapera, ſi vous vous penſez fuir.
+<lb />Demeurez, audlement...
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />né bien, il ſaut l’oüir:
+<lb />Mais s’il parle lõg-temps, ie répandray des ſauces,
+<lb />Ie n’en puis deſia plus.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Nous lauerons vos chauſſes.
+<lb />bas Ie voudrois à ce prlx eſtre quitte aujourd’huy.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il me pourſuit, Strephon, &amp; ie n’ay pas fuy;
+<lb />Ie meurs, ie n’en puis plus: ôfuneſte auanture!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ne ſoyez pas ſi laſche, hé ie vous en conjure.
+</sp>
+<sp type="MainZone-Sp"><lb />L’OMBRE.
+<lb />Tyran qui m’as meurtry, qui m’as rauy le iour,
+<lb />Barbare, indigne cœur d’vn ſi fidele amour...
+</sp>
+<sp type="MainZone-Sp"><lb />2
+<lb /> PERIANDRE.
+<lb />Iſt-ce à moy qu’il en veut, Strephon?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Nenny.
+<fw><lb />
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />
+<lb />PERIANDRE
+<lb />Où me mettray-je enfm?
+<lb />Ie tremble.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Le bon homme va l'emble:
+<fw><lb />
+</fw><lb />Monſieur, arreſtez-vous, il ne vous ſera rien,
+<lb />Il parle de Liſandre.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Oüy dea, ie le voy bien;
+<lb />Mais i’ay peur qu’à la fin ma preſence le faſche,
+<lb />Et qu’il s’adreſſe à moy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Non, il n’eſt pas ſi laſche.
+</sp>
+<sp type="MainZone-Sp"><lb />L'OMBRE.
+<lb />Faut-il que par ta main ie perde le repos,
+<lb />Et que la terre encor ſoit peſante à mes os?
+<lb />Deux ans ſe ſont paſſez depuis que ie ſoûpire,
+<lb />Pour paſſer dans la Barque en l’infernal Empire:
+<lb />Mais Charon ne vient point me paſſer chez les
+<lb />morts,
+<lb />Et me renuoye encor pour inſormer mon corps;
+<lb />Mais il eſt plein de vers, &amp; telle eſt ma diſgrace,
+<lb />Qu’il me faut habiter cette maudite place,
+<lb />Ce logis deteſtible, infame monument,
+<lb />Iuſqu’a ce que Minos en diſpoſe autrement.
+<lb />1
+<lb />Ie m’en vais y rentrer, le deſtin me l’ordonné.
+<lb />Il rentre au logis.
+</sp>
+<sp type="MainZone-Sp"><lb />P RIANDRE.
+<lb />O Dieux! ie n’en puis plus, que cette voix m’étõnes
+<lb />Il prononçoit le mien en prononçant ſon ſort;
+<lb />Ie le croyois viuant, &amp; ie me croyois mort.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Hé bien, il eſt rentré, que vous dira Liſandre
+<lb />Quand vous luy parlerez?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE. 
+<lb />Ie le vais faire pendre,
+<lb />Ie le puis à preſent, &amp; ſans rien hararder.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ne precipitez rien, il faut s’accommoder,
+</sp>
+<sp type="MainZone-Sp"><lb />Il renea roſtreargent.
+<lb />PERIANDRE..
+<lb />Ie l’entens, ou ie iure
+<lb />De luy faire aujourd’huy la plus ſanglante injure
+<lb />Dont vn homme d’honneur puiſſe iamais rougir.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mon Maiſtre, appaiſez-vous, &amp; me laiſſez agir.
+</sp>
+<sp type="MainZone-Sp"><lb />PTRIANDRE.
+<lb />Ie veux aller chez luy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous y ſers d’eſcorte.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Fuyons, ſuyons, Strephon, i entens brãler la porte.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CLEANDRE Banquier. STREPHON,
+<lb />PERIANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />CLEANDRE ſeul.
+<lb />Amais il ne ſe vit vn ſi malheureux temps,
+<lb />IIamais l'on ne trouua de ſi mauuais inſtans
+<lb />A mettre ſon argent à credit ſur la place;
+<lb />Quand i’y baille le mien, mõ cœur eſt tout de glace,
+<lb />Ie ſens qu’on me l’arrache en ſortãt de mes mains,
+<lb />Et ces efforts pourtant reſtent ſoibles &amp; vains:
+<lb />Ie trouue tant d’appas dans le gain qu’il apporte,
+<lb />Qu’il me ſeroit faſcheux d’en vſer d’autre ſorte,
+<lb />C’eſt vn gros intereſt qui nous vient volontiers,
+<lb />Et n’eſtoit le hazard de nos Banqueroutiers,
+<lb />Tous les plus raffinez en prendroient la ſcience:
+<lb />Mais la peur de la peſte, &amp; quelque bienſcance,
+<lb />Font que ce beau trafic ne ſe prattique pas
+<lb />Par ceux qui ſans mentir beniroient ſes appas.
+<lb />Pour moy ie ne voy nen qui ſi fort iucommode,
+<lb />Le plaiſir en eſt doux, &amp; l’vſage à la mode.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE retournant auec Strephon.
+<lb />Il a ma foy bien fait de quitter la maiſon,
+<lb />Il faudra toſt ou tard qu’il m’en ſaſſe raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />Ie l’entens bien ainſi. Mais i’apperçoy Cleandre;
+<lb />na voicy l’ennemy qui me pouuoit ſurprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE
+<lb />Voicy venir Sttephon, ie m’en allois chez luy:
+<lb />Il faudra que Liſtan me contente aujourd’huy,
+<lb />Il eſt à bout du temps, il me doit deux années,
+<lb />Auec mon principal.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Cruelles deſtinées
+<lb />Falloit-il rencontrer, &amp; ſi mal à propos,
+<lb />Celuy qui vient icy trauerſer mon repos?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Strephon? hola, Strephou?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Bon jour, Seigneur Cleandre,
+<lb />Ie ne vous voyois pas,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie ne puis plus attendre,
+<lb />Mon argent eſt-il preſt? le temps eſt expiré
+<lb />Que ie deuois atcendre.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O qu’il eſt alteré!
+<lb />bas. Il n’eſt pas bien compté.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Que dis tu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />D4
+<lb />Rien, Cleandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />le ir rhy deſia dit, ie ne puis plus attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />bas. Que ie ſuis malheureux en l’eſtat où ie ſuis!
+<lb />Ie ne vois point de fin à mes triſtes ennuis.
+<lb />O Deſtin.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie ne dis rſen, Cleandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie te l’ay deſia dit, ie ne puis plus attendre.
+<lb />Mon argent, ie le veux.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Dieux! que vous criez haut.
+<lb />bas Ce traiſtre me confond, &amp; me met en defaut.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE
+<lb />Quand ie feray grand bruit, l’argẽt en vaut la peine.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />A quoy ſert de crier? voſtre ſomme eſt certaine.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie ſçay bien qu’elle l’eſt, mais ie veux de l’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous faites plus de bruit qu’vn Recors de Sergent.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />O que ie voy de vuide en ta pauure cert elle?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Si tu veux mieux parler, dis en mon eſcarcelle.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />It mon argent enfin?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Veux-tu le principal?
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Et l’intereſt auſſi ie le veux.
+</sp>
+<sp type="MainZone-Sp"><lb />STR PHON.
+<lb />bas. Le brutal!
+<lb />Ie croy qu’il eſt aiſé d’auoir l’vn comme l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />Que dis-tu?
+<lb />CLEANDR.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qu’il faut bien que vous ayez le voſtre
+<lb />Le principal eſt preſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Et l’intereſt auſſi?
+<lb />Ie le veux emporter auant qu’eſtre hors d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous le porteray; retirez-vous, Cleandre.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Ie te l’ay dit vingt fois, ie ne puis plus attendre,
+<lb />Ie veux mon in treſt.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />bas. Il n’a point d’autre ton.
+<lb />Va, tu meriterois mille coups de baſton.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que veut cet inſolent, Strephon? quelle diſpute?
+<lb />Que dit-il, d’intereſt? parle.
+<fw><lb />STREPHON
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il me perſecute.
+<lb />'A cleandre. Le Pere de Liſtan que tu vois de retour,
+<lb />Payera l’intereſt iuſques au dernier iour.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Fais luy moy dõc payer? ie ſuis preſt de le prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il ne fait qu’arriuer: Es-tu point las d’attendre?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que veut-il à mon Fils? que parle-t’il d’argent?
+<lb />ondenes.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt vn maraut qui n’a point d’entregent.
+<lb />Voulez-vous m’obliger? faites que l’on l’aſſomme
+<lb />Atoups de laes d’argent, cet impertinent homme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE.
+<lb />Si c’eſt de ces coups là que tu me veux meurtrir,
+<lb />Tu vas ſans murmurer gayement me voir ſouffrir:
+<lb />Mais ie veux l’intereſt.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que vous doit-on Cleandre?
+<lb />Ie ſuis las de vous oüyr.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE
+<lb />Et moy plus las d’attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Liſtan a pris de luy mil eſcus.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />La raiſon?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſtoit pour acheter vne belle maiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />De qui?
+<lb />PERIANDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt... attendez, ma memoire eſt labile,
+<lb />Ie ne le puis trouuer? d’vn Marchand de la Ville.
+<lb />Promettez-luy, Monſieur, d'en faire le payement.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie ne m’engage pas, Strephon, ſi promptement,
+<lb />Parlons de la maiſon: quoy, l’a-t’il achetée?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Depuis quatre ou cinq iours.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Belle? bien ajuſtée?
+<lb />Eſt-elle en bon quartier? pourrions-nous l’habitert
+<lb />Parle, ie meurs deſia de l’aller viſiter.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous y conduiray: mais contentez cet homme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Cleandre, c’eſt aſlez, ie reſpons de la ſomme.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE
+<lb />Et de mes intereſts! car ie les veux auoir.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Et l’intereſt auſſi: Venez icy ce ſoir,
+<lb />Ie vous les bailleray.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE ſortant.
+<lb />Me voicy hors de peine;
+<lb />Puis qu’il a répondu, ma debte eſt bien certaine.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Allons voir ce logis.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />O Dieux! ie ſuis perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Iſt-il en belle aſſierte? eſt il point trop vendu
+<lb />Reſpons-moy. Que dis-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />bas. Quelle penible geſne!
+<lb />Mõſieur, c’eſt deuãtvous, c’eſt la maiſon prochaine.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />En bonne foy, Strephon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Oüy, c’eſt de bonne foy.
+<lb />bas. Si vous la payez bien, c’eſt le Palais d’vn Roy
+</sp>
+<sp type="MainZone-Sp"><lb />PÉRIANDRE.
+<lb />Que i’approuue, Liſtan, cette humeur ménagerei
+<lb />Ie te veux voir vn iour reſſembler à ton Pere.
+<lb />Frappes-y donc, Strephon? allons, ie la veux voir.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas
+<lb />Ce coup de foudre enfin abat tout mon eſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />ILRTANDRE.
+<lb />Appelle nous quelqu’vn.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Le voiſin a des femmes
+<lb />Dont il diuertiſſoit ſes amoureuſes flâmes;
+<lb />Afin de bien vſer de la ciuilité,
+<lb />Prenons &amp; leur loiſir &amp; leur commodité.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />C’eſt mon intention, va prendre la loy d’elles.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON. (telles,
+<lb />Grands Dieux! déliurez-moy de ces frayeurs mor<lb />Ie ſuis au bout du champ, ie ne puis plus courir,
+<lb />Ie m’en vais échoüer, ie ſuis preſt de perir.
+<lb />Mais on ouure: O bons Dieux! c’eſt Criſaure luy<lb />meſme,
+<lb />Cherchõs pour le trõper quelque prõt ſtratageme,
+<lb />Reſvons, il en eſt temps, &amp; taſchons d’empeſcher
+<lb />Le bris de mon Vaiſſeau ſur ce fatal rocher.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />CRISAVRE, ST REPHON.
+<lb />PERIANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />CRISAVRE ſeul.
+<lb />Amais ie ne veſcus auec tant d’elegance,
+<lb />I Iamais l’on ne me fir vn régal d’importance
+<lb />Comparable à celuy que ie viens d’auler.
+<lb />Ce qu’enfante la terre, &amp; ce que produit l’air,
+<lb />Mis en biſque ou ragouſt auec le jus d’orange,
+<lb />Aupres de ces grands mets, ne ſont que de la fange.
+<lb />Ma femme m’a traitté délicieuſement.
+<lb />Mais elle veut trop vendre vn ſi bon traittement,
+<lb />Elle ſe veut coucher, &amp; veut la ſenſuelle,
+<lb />Qu’encore qu’il ſoit iour ie me couche auec elle,
+<lb />Mais ie me ſuis moqué de ſes vœux trop ardens,
+<lb />Ha! qu’elle fait le diable à preſent la-dedans.
+</sp>
+<sp type="MainZone-Sp"><lb />STREDHON bas.
+<lb />Il eſt en belle humeur.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Au diantre la carogne,
+<lb />Sous ombrequ’elle eſt riche, elle chãte, elle grogne,
+<lb />Elle veut que ie ſois facile &amp; complaiſant
+<lb />A tout ce qu’il luy plaiſt: ha l’eſprit ſuffiſant:
+<lb />I’enrage tous les iours qu’il faille vſer ma vie
+<lb />Auec cette enragée, &amp; ſuiure ſon enuie,
+<lb />C’eſt biẽ malgré mes dẽts. Vous autres gardez vous
+<lb />Et d'vne femme riche, &amp; d’vn eſprit ialoux.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O le braue garçon! ie reprens bon courage,
+<lb />Ie m’en vais luy parler, ſans reſver dauantage.
+<lb />Bon jour, Seigneur Criſaure, officieux amy,
+<lb />Dont l’eſprit bien-faiſant ne ſert point a demy,
+<lb />Les Dieux ſoient auec vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Et qu’ils te ſoient propices,
+<lb />He uiun que men cœur?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mes fideles ſeruices
+<lb />S’en vont dans le rebut, negligez deſormais,
+<lb />Et mes fers plus ſerrez qu’ils ne furent iamais.
+<lb />Eſtrange changement: triſte metamorphoſe:
+</sp>
+<sp type="MainZone-Sp"><lb />ERISAVRE.
+<lb />Il faut qu’il ſoit bien grãd, mais cõte m’en la cauſe.
+<lb />Liſtan eſt ton bon Maiſtre, &amp; vous viuez chez vous
+<lb />Parmuy des paſſetemps qui me ſemblent bien doux:
+<lb />Vous gouſtez les plaiſirs où l’age vous conuie,
+<lb />Et donnez à vos ſens tous les biens de la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Helas! c’eſtoit iadis; mais tout eſt bien changé,
+<lb />Dãs vn gouffre d’ennuis les Dieux nous ont plógé.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Comment? que veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vn orage effrorable
+<lb />Briſe noſtre Navire, &amp; le met ſur le ſable.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE
+<lb />Ce beau raiſonnement ne m’a guere échairey.
+<lb />F iij
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Que voulez-vous de plus? Periandre eſt icy,
+</sp>
+<sp type="MainZone-Sp"><lb />Periandre?
+<lb />CRISAVRE.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt luy.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Strephon, garde la corde,
+<lb />Tes affaires vont mal.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Grace, miſericorde,
+<lb />C’eſt de vous que i’attẽs mõ plus preſſant ſecours,
+<lb />Seigneur, voꝰ pouuez toutdeſormais ſur mes iours,
+<lb />Ne nous décelez pas, vous ſçauez nos dépenſes,
+<lb />Vous ſçauez nos excés &amp; nos intemperances,
+<lb />Cachez les, s’il vous plaiſt, ne les découurez point.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Non, ie te le promets.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />I'auois à vous prier...
+<lb />I’auois vn autre poinct,
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE
+<lb />Mais, dis-moy, voſtre Maiſtre
+<lb />N’en a-t’il rien appris?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il n’en fait rien paroiſtre;
+<lb />Il eſt tranquille &amp; net comme vn beau iour d’Eſté,
+<lb />Il me vient de charger d’vne inciuilité;
+<lb />Vous luy pardonnerez, le bon homme vous prie
+<lb />Qu’il puiſſe voir vos bains &amp; voſtre galerie,
+<lb />Il veut ſur ce modele inſtruire ſon Maçon,
+<lb />Pour en faire baſtir de la meſme façon.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Ouy des, des volontiers.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />
+<lb />Il n’oſoit l’entreprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Ma maiſon pour le moins, Strephon, n’eſt pas à
+<lb />vendre.
+</sp>
+<sp type="MainZone-Sp"><lb />Il le ſçait bien.
+<lb />STREPHON.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Tu peux diſpoſer du logis.
+<lb />Mais quel eſt ſon deſſein?
+</sp>
+<sp type="MainZone-Sp"><lb />STR PHON.
+<lb />Il veut pouruoir ſon Fils,
+<lb />Et luy faire ajuſter promptement pour ſa femme
+<lb />Vn bel appartement, c’eſt le ſoin qui l’enflâme;
+<lb />Le voſtre a des beautez qu’on ne peut trop vanter,
+<lb />Auſſi voudroit-il bien les pouuoir imiter.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Il ſe moque de moy, le mien n’eſt point commode.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt le plus beau deſſein, &amp; le plus à la mode.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Non, il a des defauts qu’on ne ſçauroit cacher,
+<lb />Vous ſeriez les premiers à me les reprocher;
+<lb />Le Soleil y répand ſa lumiere a toute heure,
+<lb />Ilen eſt importun.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />L’agreable demeure!
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Non, non, elle n’a point ces belles qualitez.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il brule de deſir d’admirer ſes beautez.
+<lb />Luy promettrez-vous pas d’en repaiſtre ſa veuë?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Oüy certe, &amp; volontiers, s’il la trouue pourueuë
+<lb />De quelques ornemens dont vous puiſſiez vſer,
+<lb />Il eſt chez moy le maiſtre, il en peut diſpoſer.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vais donc l’appeller: Mon Maiſtre, ô Periandre?
+<lb />bas. Que l’on vante par tout les beaux faits d’Ale<lb />xadre,
+<lb />Ie les mets au deſſous des exploits d’vn valet.
+<lb />Voicy mon ſecond Aſne, ou mon ſecond Mulet,
+<lb />Ie m’envais le baſter, mais d’vn baſt d’importance;
+<lb />C’eſt aſſez, taiſons-nous, Periandre s’auance.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Hé bien, que dit Criſaure? eſtoit-il empeſché?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mille penſers faſcheux le tenoient attaché,
+<lb />Il ne peut digerer dans ſon ame abatuë
+<lb />Le marché qu’il a fait, c’eſt vn coup qui le tuë.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Pourquoy le faiſoit-il?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O Dieux qu’il eſt faſché;
+<lb />Il m’offre cinq cens francs pour rompre le marché.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie ne le ferois pas, s’il m’en offroit deux milles.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il pleure de regret.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Les pleurs ſont inutiles,
+<lb />Puis qu’il a fait marché, ie la veux poſſeder.
+<lb />S’il la trouuoit ſi rare il la deuoit garder.
+<lb />amons ton lamanon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Cnſaure eſt à la porte;
+<lb />Voyez, il vous attend. h25 Le plaiſir le tranſporte.
+<lb />àCrij. Monſieur, voicy mon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Il eſt le bien venu.
+<lb />2 Per Crete, mon cher voiſin, vous a bien retenu:
+<lb />Mais enfin, grace aux Dieux, apres vn long voyage,
+<lb />Vous baiſez en repos voſtre natal riuage.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Oüy, grace à ces bons Dieux, enfin ils ont permis
+<lb />Moutetour en ces lleux pour ſeruir mes amis.
+<lb />Vous en eſtes du nombre.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Ha! ce diſcours m’honore:
+<lb />Mais voulez-vous pas voir le logis?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Oüy, Criſaure,
+<lb />Au moins ſi l’on le peut ſans vous incommoder.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />l’on n’incommode point où l’on peut cõmander.
+<lb />Le logis eſt à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas à Periandre.
+<lb />Au moins ie vous ſupplie
+<lb />N’aigriſſez point ſa bile &amp; ſa melancolie;
+<lb />Il eſt au deſeſpoir du marché qu’il a fait,
+<lb />N’en parlez point du tout.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie n’ay garde, en effet
+<lb />Ie ſerois inciuil.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Vſez-en librement.
+<lb />Entrez, il eſt tout voſtre,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE bas.
+<lb />Quel bonheur eſt le noſtre!
+<lb />Que Liſtan auiourd’huy m’oblige puiſſamment!
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Voudriez-voꝰ point vn guide, vſez-en frãchement,
+<lb />nelogu dicà vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie le ſçay d’aſſeurance,
+<lb />Mais ie n’en dois vſer qu’auecques déference.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Il eſt voſtre, vſez-en ſans aucun compliment,
+<lb />Il eſta vous enfin.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie le ſçay conſtamment.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à Pu Indre tausbus
+<lb />Au moins en ma faueur cachez voſtre alegreſſe,
+<lb />Et ne redoublez pas ſa fievre &amp; ſa triſteſſe;
+<lb />Ne l’entretenez point du prix ny du marché.
+</sp>
+<sp type="MainZone-Sp"><lb />PER IANDRE.
+<lb />Ie n’ay garde, Strephon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O Dieux! qu’il eſt faſché.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie m’en apperçoy bien.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE crie à ſes valets.
+<lb />Quelqu’vn? hola Leandre?
+<lb />Conduiſez au logis le Seigneur Periandre,
+<lb />Et qu’on luy faſſe voir le neuſ appartement.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />non; Phuj orch tout ſeul.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Vſez-en librement,
+<lb />Commandez-y par tout, vous en eſtes le maiſtte.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Taunmeies deors.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à Periandre.
+<lb />Ils vous font bien paraiſtre
+<lb />Qu’il eſt dans les dedans ajuſté comme il faut.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Viſitez, Periandre, &amp; le bas &amp; le haut.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que ce portail eſt beau! Dieux qu’il eſt magnifique!
+<lb />Eſt-il Cornitnien, ou bien d’ordre Dorique?
+<lb />Il m’a charmé les yeux, ie le veux obſeruer.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Auſſi couſta-t’il bon pour lefaire éleuer.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à Periandre.
+<lb />Auſſi couſta-t’il bon, eſcoutez les tendreſſes;
+<lb />Il va mourir d’ennuy.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Va, ie plains ſes foibleſſes;
+<lb />Plus ie voy le logis, &amp; plus i’en ſuis rauy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Trois Marchands en offroient de l’argent à l’enuy;
+<lb />Mais ie conclu pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O l’heureuſe auanture!
+<lb />O le parfait logis! l’admirable ſtructure!
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />En eſtes-vous content?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Oüy certe auec raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Entrez, &amp; viſitez le cœur de la maiſon.
+<lb />Il crie chezluy. Ho quelqu’vn conduiſez...
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Non, ie vous en conjure
+<lb />Tréue de ces façons, ie les prens pour injure,
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />La maiſon eſt à vous, voyez.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie le ſçay bien.
+<lb />Entre dedãs, Strephon, &amp; prẽs bien garde au chien
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il dort, ne craignez point.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Voy s’il eſt à la cheſne.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Vous y pouuez paſſer ſans frayeur &amp; ſans peine,
+<lb />Il ne mordit iamais, il ne ſçait que japper.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Attache-lé, Strephon, qu’il ne puiſſe échapper.
+</sp>
+<sp type="MainZone-Sp"><lb />STRÉPHON.
+<lb />Que vous eſtes poltron: entrez ſans défiance.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDR.
+<lb />C’eſt ce chien ſen ment qui ſait ma repugnance
+<lb />Entrons, ie le veux bien, mais ne me quitte pas.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous me verrez ſans ceſſe attaché ſur vos pas.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />TE
+<lb />T
+<lb />SCENE PREMIERE.
+<lb />STREPHON, PERIANDRE.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />E' bien, qu’en dites-vous, Monſieur? que
+<lb />IT vous en ſemble?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Icy la cymmetrie à la grace s’aſſemble,
+<lb />Icy l’art m’a fait voir de merueilleux e Ete.
+<lb />que mes yeux, cher Strephon, ont eſté ſat sſaits;
+<lb />Ha que i’en ſuis content:
+</sp>
+<sp type="MainZone-Sp"><lb />STRPHON.
+<lb />Et le prix de la vente
+<lb />e trouuez-vous trop haut?
+</sp>
+<sp type="MainZone-Sp"><lb />FRIANDRE.
+<lb />Ne crains pas que i’intente,
+<lb />our le diminuer, ny cauſe ny procez:
+<lb />e n’eſt qu’en la beauté que ie voy de l’excés.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />luez-vous remarqué ces belles baluſtrades.
+<lb />es eſtuues, ces bains, &amp; ces riches façades,
+<lb />es pilaſtres pompeux, &amp; ſi bien arrangez?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Empereurs Romains n'.ſtoiet pas mieux logez
+<lb />Il n’en a pas payé ſeulement le portique.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il u'en a pas payé ſeulement vne brique;
+<lb />C’eſt vn tres-grand marché.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tres-grand, certainement,
+<lb />I'en ſuis tout hors de moy. Si tout preſentement
+<lb />Criſaure me donnoit deux fois encor ma ſomme,
+<lb />Ie la refuſerois.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous parlez en braue homme.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais vous n’auez enfin cette obligation,
+<lb />PERIANDRE.
+<lb />Que tu fis lors, Strephon, vne belle actiont
+<lb />Ne doute pas auſſi quę ie ne m’en ſouuienne.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Al’affranchiray vous point?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Si la mai on eſt mienne,
+<lb />Tu te peux aſſeurer d’auoir la liberté.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />En doutez-vous encore? en auez-vous douté?
+<lb />I’en ay payé l'argent, ie l’ay pris de Cleandre;
+<lb />Ce ſont les mille eſeus que vous luy deuez rendr
+<lb />Criſaute les toucha, que voulez-vous de plus?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />De ioye &amp; de plaiſirmes ſens ſont ſuſpendus;
+<lb />Pardonne-moy, Strephon, cette fortune eſt
+<lb />Qu’elle a quaſi rendu mon eſprit infidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous n’en douterez plus quand vous y logerez;
+<lb />Mas pour les m'ile ecus-.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ils ſont bien aſſeurez;
+<lb />Ne t'ẽ mets point en peine, auãt que ie me couche,
+<lb />Ie veux abſolument que Cleandre les touche.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Si vous le trouuez bon, ie les luy porteray.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Laiſſe m’en le ſoucy; va, va, i’y pouruoiray.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Pourriez-vous conceuoir la moindre défiance...
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Nõ pas cela, Strephon; mais pour plus d’aſſeurãce,
+<lb />Et pour plus de repos, ie les luy veux porter.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il ſuion de moy pour vous en acquiter:
+<lb />Iuſqu’icy, grace aux Dieux, ma foy vous eſt cõnuë,
+<lb />Et vous auez pû voir mon ame toute nuë;
+<lb />lous n’auez pas ſujet de vous plaindre de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />uſſi n’ay-je pas trop pris de creance en toy.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />que vous eſtes ingrat à tous mes bons oſſices!
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Nõ, n6, ie m’en ſouuiẽs, mais ie crains les malices:
+<lb />aſqu’icy, grace aux Dieux, ie t’ay mis en defaut,
+<lb />e veux continuer.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt préuoir comme il faut.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDR.
+<lb />a ſomme en ce rencontre eſt aſſez d’importance,
+<lb />qui menite bien vn peu de preuoyance.
+<fw><lb />G i
+</fw></sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Tout comme il vous plaira.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Mais, Sttephon, va chercher
+<lb />Mon Fils, &amp; promptement, va-t’en luy reprocher
+<lb />Que mon heureux retour luy donne peu de ioye,
+<lb />Et qu’il eſt pareſſeux quand le Ciel me renuoye;
+<lb />Ne reuiens point ſans luy, ie ne m’en puis paſſer.
+<lb />Que ie ſeray content, ſi ie puis l’embraſſer!
+<lb />Ie m’en vais cependant au Temple de Neptune
+<lb />Remercier le Ciel de ma bonne fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON ſeul.
+<lb />Moy, ie vais au Balcon conſoler nos Amans,
+<lb />Iuſqu’icy tout va bien: Dieux tout bõs &amp; clemens
+<lb />Apres les longs trauaux d’vn ſi faſcheux voyage,
+<lb />Iettez-nous dans le Port à l’abry de l’orage,
+<lb />It faites reüſſir vn genereux deſſein
+<lb />Qui déchire mon cœur, &amp; me perce le ſein,
+<lb />Liſtan? mon cher Liſtan?
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LISTAN, FLORIS, IVSTINE
+<lb />PHILISE, CALLIANTE,
+<lb />STREPHON, au Balcon.
+</p>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />C’eſt Strephon qui m’apelle.
+<lb />Cher amy, la fortune eſt-elle encor cruelle?
+<lb />Le ſort n’eſt-il point las de nous perſecuter?
+<lb />Que deuons-nous attendre? &amp; que dois-je tenter?
+<lb />Noſtre fourbe à la fin eſt-elle découuerte?
+<lb />Mon Pere le ſçait-il? a-t’il iuré ma perté?
+<lb />Pouuons-nous eſperer quelque perit ſuccés?
+<lb />Quelle ſera la fin d’vn ſi faſcheux procés?
+<lb />Au miſerable poinct où ie voy nos affaires,
+<lb />Les Aſtres n’õt pour nous que des regards ſeueres:
+<lb />Auſſi pour en borner &amp; la ſuite &amp; le couts,
+<lb />Il nous faut, cher Strephon, plus qu’vn commun
+<lb />dacoul.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il eſt vray que le ſort a pour nous des malices
+<lb />Qui n’offrent à mes yeux que d’affreux precipices:
+<lb />leuojmarle moyende nous en garantir,
+<lb />Et i’y tombe plus bas, lors que i’en veux ſortir:
+<lb />Ie fais ce que ie puis, ie broüille, i’embaraſſe,
+<lb />Ie mets fourbe ſur fourbe, enfin ie les entaſſe
+<lb />Pour ébloüir les yeux de noſtre bon vieillard:
+<lb />Mais i’ay peur à la fin du ſuccés de mon art,
+<lb />Iuſqu’icy tout va bien, mais ie tremble &amp; ie ſuë
+<lb />Lors que i’en conſidere &amp; la ſuite &amp; liſſuë,
+<lb />y voy tant d’embarras &amp; de difficultez,
+<lb />ue mes eſprits conſus en ſont épouuantez.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Helas! que ferons-nous, ſi tu les deſeſpere?
+<lb />Comment flechirons nous la colere d’vn Pere,
+<lb />qui ne nous parlera que de feux &amp; de fers?
+<lb />la! prenons le chemin qui conduit aux Enfers,
+<lb />ien que la ſeule mort ne peut eſtre a mon aide.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />a fare conſtancet ô l’excellent remeder
+<fw><lb />G iij
+</fw><lb />Non, non, prenez courage, il n’eſt pas encor temps
+<lb />De finir de vos iours l’agreable printemps.
+<lb />Quand nous aurõs trouué mille faſcheux obſtacles,
+<lb />Quand nous aurons tenté le ſecouis des miracles,
+<lb />Que l’art nous manquera, que tout ſera perdu,
+<lb />Maſcience en deſordre, &amp; mon ſens confondu,
+<lb />Quand nous aurons en vain épuiſé les malices,
+<lb />Quand on nous fera voir les appreſts des ſupplices,
+<lb />Quand les morts déniront de nous y ſecourir,
+<lb />C’eſt alors qu’il faudra ſe reſoudre à mourir:
+<lb />Mais à propos des morts, certe il faut que i’auouë
+<lb />Que celuy qui le fit merite qu’on le louë;
+<lb />Le bon homme en effet le prit pour vn Eſprit.
+<lb />Qui le ious ſi bien?
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Iuſtine l'entreprit.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Elle y reüſſit bien, elle y fit des merueilles,
+<lb />tIle charma ſes yeux, &amp; trompa ſes oreilles.
+<lb />Pour moy ie ſuis d’auis que s’il reuient icy,
+<lb />L’on luy redouble encor ſa peur &amp; ſon ſoucy:
+<lb />Mais cõment pûtes vous prõptement, &amp; ſans faute,
+<lb />Ajuſter vos diſcours à l’hiſtoire de l’Hoſte?
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Nous t’auions entendu, car tu parlois fort haut,
+<lb />Et c’eſt ce qui ſeruit à luy donner le ſaut.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Iuſtine eſt admirable, il faut que ie confeſſe
+<lb />Qu'on ne pouuoit agir auecques plus d’adreſſe:
+<lb />Mais ie tarde icy trop, ie m’en vais vous laiſſer,
+<lb />Ma duppe eſt eſtonnée, il faut l’embaraſſer.
+<lb />Adieu, priez l’Enfer de nous eſtre propice,
+<lb />Puis que c’eſt aux Lutins a nous faire ſeruice.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Soigne à nous, cher Strephon, n’y pers pas vn mo<lb />ment.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Veille pour tes amis.
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Sers les fidelement.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />En obligeant Liſtan, oblige Calliante,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />In’eſt point de peril que pour luy ie ne tente.
+<lb />ldieu, pour le ſeruir i’ay le courage haut,
+<lb />e uuis batne le ler cependant qu’il eſt chaut.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />peux Vallets de Calliante qui le cherchent.
+<lb />Le premier ſeul, appellé Phaniſque.
+</p>
+<sp type="MainZone-Sp"><lb />Eſpriſe qui voudra la qualité d’Eſclaue,
+<lb />VIA qui peut diſpoſer de la clef de la caue,
+<lb />la tiens tres-illuſtre, &amp; croy certainement
+<lb />u’il n’eſt point ſoꝰle Ciel de deſtin ple charmant.
+<lb />eſt des ſonctions qui ſont plus éclatantes;
+<lb />lais pour moy qui les hay, ie les tiens moins plai<lb />ſantes,
+<lb />oy que le ſoin du vin occupe ſeulement,
+<lb />qui puis à ſouhait en vſer librement.
+<lb />Doux charme de mon ame, agreable breuuage,
+<lb />Dont la chere liqueur a gagné mon courage,
+<lb />Sois moy touſiours fidele, &amp; ne me quitte pas;
+<lb />Ou ie priray l’Enfer de s’ouurir ſous mes pas.
+<lb />Viue le Cabaret, &amp; viue la débauche,
+<lb />C’eſt là que ie fais offre à mon petit cœur gauche
+<lb />Du plus libre entretien, &amp; des plus doux plaiſirs
+<lb />Dont vn voluptueux ſçait flatter ſes deſirs.
+<lb />La ie ſuls Empereur, ie commande à la trouppe:
+<lb />Mais quel commãdement? c’eſt de vuider la coupe
+<lb />C’eſt de faire raiſon, de boire des ſantez,
+<lb />C’eſt d’vnir à Bachus toutes ſes volontez,
+<lb />C’eſt d’enroler ſon nom ſous ſes drapeaux illuſtres
+<lb />C’eſt de luy demander d’aller iuſqu’a cent luſtres,
+<lb />Afin de les vſer dedans vn Cabarẽt
+<lb />Parmy ſes eſtendarts de blanc &amp; de clairet
+<lb />Voila le ſeul employ qui diuertit ma vie,
+<lb />Et c’eſt l’vnique ſoin dont elle eſt pourſuiuie.
+<lb />Neglige qui voudra cette condition,
+<lb />Pour moy ie la cheris auecque paſſion:
+<lb />Quand ie ſerois ſorty du plus beau ſang de Grece,
+<lb />Quand i’aurois dãs mõ lit Helene pour Maiſtreſſé
+<lb />Quand i’aurois tout l’empire aſſerui ſous mes loit
+<lb />Ie ne chercherois point de plus nobles emplois:
+<lb />Viue le Cabaret, viue ſon libre vſage,
+<lb />Viue cet Ocean qui n’a iamais d’orage,
+<lb />Viue cet air tranquille où l’on vit en repos,
+<lb />Viue ce ſon charmant &amp; des plats &amp; des pots,
+<lb />Viue ce doux concert &amp; la douce harmonie
+<lb />Qui ſçait ſi bien charmer le chagrin d’vn Genie,
+<lb />Viue ces libertez qui chatoüillent nos ſens,
+<lb />Viue ce vin qu’on donne à Bachus pour encens,
+<lb />Viue l’yurognerie, &amp; ſes ſacrez orgies:
+<lb />Viue ce bon ſyrop, viue ſes cacogies,
+<lb />Viue ces beaux ſoûpirs qu’il nous faut exhaler,
+<lb />Viue ces chers ragouſts qu’il nous faut aualer,
+<lb />Viue vn treteau briſé, viue la nappe graſſe,
+<lb />Viue les brocs ternis, &amp; la vineuſe taſſe,
+<lb />Viue enfin, pour tout diré, vn ſi doux paſſetemps
+<lb />Qui nous égale aux Rois qui ſont les plus contene:
+<lb />Pour moy ie veux blanchir, s’il eſt vray qu’on blan<lb />chiſſe,
+<lb />Dans les rauiſſemens d’vn ſ'cher exercice,
+<lb />Et ie iure à Bachus, luy qui peut tout ſur moy,
+<lb />De ne chercher iamais vn plus illuſtre employ.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+</p>
+<p type="MainZone-Head"><lb />Le ſecond Vallet.
+</p>
+<sp type="MainZone-Sp"><lb />* Oicy l’heure où ie dois aller chercher mon
+<lb />Maiſtre.
+<lb />Qu’eſt deuenu Phaniſque? il ſe moque le traiſtre,
+<lb />eſt à la tauerne, il eſt à s’enyurer;
+<lb />Moy ie ſuis à courir, ie ſuis à m’alterer.
+<lb />Cependant que ce laſche a tous les auantages
+<lb />ui peuuent arriuer aux plus doux eſclauages;
+<lb />Cependant qu’il ioüit de la felicité,
+<lb />De ſe voir careſſé, de ſe voir bien traitté,
+<lb />ſoy ie ſuis au rebut, &amp; i’ay toute la peine,
+<lb />to ſoins reſtent ſans fruit, ma vigilance eſt vaine.
+</sp>
+<p type="MainZone-Lg"><lb />Dieux! que vous a-t’il fait pour vous eſtre ſi chert
+<lb />Calliante le court, ie ne puis l’approcher,
+<lb />A tous les affranchis il eſt conſiderable,
+<lb />Il dort quand il luy plaiſt, il ſe met a la table;
+<lb />Enfin il eſt le Maiſtre, &amp; le Maiſtre eſt vallet,
+<lb />Tout ſon plus grãd trauail c’eſt de rẽdre vn poulet
+<lb />C’eſt de plaire à Floris, luy conter des ſornettes,
+<lb />Donner à ſa beauté de riches epitetes,
+<lb />Luy parler de l’amour que mon Maiſtre reſſent,
+<lb />Luy iurer que pour elle il eſt tout languiſſant,
+<lb />Que c’eſt à ſes beautez à luy rendre la vie,
+<lb />Faire le bon vallet, iurer qu’il la conuie
+<lb />De conſeruer les iours d’vn ſi fidele Amant.
+<lb />Tout cela bagatelle, &amp; tres-froid compliment:
+<lb />Quand il s’eſt acquitté d’vn ſi beau miniſtere,
+<lb />Viue le cabaret, viue la bonne chere,
+<lb />C’eſt en ce lieu qu’il va délaſſer ſon eſprit,
+<lb />C’eſt la que tout luy plaiſt, c’eſt la que tout luy rit,
+<lb />Sa liberalité qui n’a point de ſeconde,
+<lb />Auec profuſion s’eſtend ſur tout le monde.
+<lb />Voila toute ſa peine, &amp; voila comme il vit;
+<lb />Nous autres cependant que le ſort aſſeruit
+<lb />Sous vne loy plus rude &amp; bien plus importune,
+<lb />Auons touſiours pour nous la mauuaiſe fortune,
+<lb />Nos ſeruices frequens ne ſont à rien comptez,
+<lb />Nous ſommes déplaiſans, nous ſommes rebutez,
+<lb />Parce que nos emplois ne vont pas aux delices,
+<lb />L’on fait fort peu de cas de tous nos bons offices,
+<lb />Sans ceſſe on nous cõmande, &amp; parmy nos trauaul
+<lb />Mille coups d’éguillon nous découurent les os.
+<lb />Dure condition où le Ciel nous fait naiſtre!
+<lb />Mais qu’y faire? en vn mot le deſtin eſt le maiſtre,
+<lb />Il diſpoſe à ſon gré du bonheur des humains,
+<lb />Il en fait comme il veut, il eſt entre ſes mains,
+<lb />Il en eſt l’artiſan, nies tourne, il s’en iouë,
+<lb />Les vns ſont éleuez, les autres dans la bouë.
+<lb />83
+<lb />Et c’eſt comme il luy plaiſt que nous reüſſiſſons,
+<lb />Car ſon caprice en fait de toutes les façons.
+<lb />Mais cependant qu’icy i’epilogue à mon aiſe,
+<lb />Sur vne queſtion ou ſur vne fadaiſe.
+<lb />Ie fais mal mon deuoir, mon Maiſtre m’attendra;
+<lb />Si ie tarde vn moment, mon dos en répondra.
+<lb />Allons, c’eſt chez Liſtan qu’il eſt en compagnie;
+<lb />Mais i’apperçoy Phaniſque, ha! mõ mauuais genie.
+<lb />Me le fait rencontrer, le perfide qu’il eſt.
+</p>
+<sp type="MainZone-Sp"><lb />PHANISQVE extrant.
+<lb />A quoy diable mentit; ee bkuuage me plaiſt
+<lb />Ie l’aime, il me cherit, i’ay pour luy des tendreſſes
+<lb />Telles que les Amãs pour leurs cheres Maiſtreſſes;
+<lb />I’en viens de mettre vn trait iuſqu’aupres de mon
+<lb />cœur,
+<lb />Et ie ſens qu’il me rend la force &amp; la vigueur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />O l’yurogne parfait! l’infame Paraſite!
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Ha! voicy Clitophon, il rumine, il médite,
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />Faut-il eſtre reduit à luy faire la Cour?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Noſtre Maiſtre, maraut, eſt-il point de retourt
+</sp>
+<sp type="MainZone-Sp"><lb />Pourquoy?
+<lb />LE SECOND.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />L’as-tu cherché?
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />Non pas, qu’en veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />O l’étrange impudence: il faut que ie l’admire.
+<lb />T’ay-je pas commandé de le chercher?
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />Te ieut iobeit?
+<lb />né bien
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Coquin, tu n’en fais rien.
+<lb />Ie te feray donner mille coups d’eſtriuieres.
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />Ce ſont là des preſens qui ne nous couſtent guel
+<lb />Mais dois-tu pas auſſi ſeruir à la maiſon?
+<lb />e
+<lb />N’es-tu donc point eſclaue? as-tu quelque raiſon
+<lb />Qui puiſſe t’exempter du ſeruice ordinaire?
+<lb />As-tu la liberté? n’es-tu que volontaire?
+<lb />As-tu pouuoir ſur nous? me dois-tu commande
+<lb />Dis-moy tes qualitez, ie ſuis preſt de ceder:
+<lb />Mais tant que tu ſeras commę ie ſuis eſclaue,
+<lb />Tranche de l’important, &amp; du maiſtre, &amp; du brau
+<lb />Fay ce que tu pourras pour nous faire haïs,
+<lb />Ie ne conſentiray iamais à t’obeïr;
+<lb />Ie te l’ay deſia dit, ie te le dis encore.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQV
+<lb />
+<lb />Ce maraut a beſoin d’vn iullet d’elebore.
+<lb />Quoy tute méconnois, &amp; ne me connois plus?
+<lb />Sçais-tu ce que ie puis? ton eſprit eſt conlus.
+<lb />N’as-tu point remarqué l’étroitte confidence
+<lb />Dont mon Maiſtre me traitte auecque dépẽ dant
+<lb />Toutes mes actions t’ont-elles point fait voir
+<lb />Si i’ay dans la maiſon quelque petit pouuoir?
+<lb />Rap
+<lb />Rappelle ton eſprit, ton bon ſens t’abandonne,
+<lb />Mais ie ſuis bienfaiſant, &amp; ie te le pardonne,
+<lb />Ie pers le ſouuenir de ta temerité,
+<lb />Et ie ſuis indulgent à ta brutalité.
+<lb />Allons donc, cher Liſtan, retrouuer Calliante.
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND bas.
+<lb />Tautairque roneme aſa voix arrogante?
+<lb />baut. Allons-y, ie le veux: mais eſcoute vn amy,
+<lb />Et ne le traitte pas en laſche, en ennemy,
+<lb />Montre-toy genereux, montre-toy magnanime,
+<lb />Et ne mal-traitte pas ceux que le ſort opprime.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Comment? que veux-tu dire?
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />D’oublier le paſſé.
+<lb />Eſcoute, oblige-moy
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Ie t’en donnema ſoy,
+<lb />Ie ne m’en ſouuiens plus, va i’en pers la memoire,
+<lb />Et pour te le prouuer ie veux payer à boire.
+<lb />Vafrapper chez Liſtan.
+</sp>
+<sp type="MainZone-Sp"><lb />LE SECOND.
+<lb />I’y vais, &amp; promptement,
+<lb />I’obeïs, cher Phaniſque, à ton commandement.
+<lb />Si quelqu’vn veut ſeruir cette innocente porte,
+<lb />u’il l’ouure ſans tarder, qu’il l’ouure, &amp; qu’il en
+<lb />ſorte,
+<lb />2
+<lb />Sa charitable main luy ſauuera cent coups,
+<lb />Ou bien ie m’en vais rõpre &amp; ſerrure &amp; verroux.
+</sp>
+<sp type="MainZone-Sp"><lb />Il frappe à la porte.
+<lb />Perſonne ne répond, ils ſont à la tauerne,
+<lb />ls ſont à s’enyvrer, ou le diable me berne.
+<lb />Hola quelqu’vn à nous? hola, dis-je, Strephon?
+<lb />Eſclaue ambirieux, froid &amp; triſte bouſon.
+<lb />Perſonne ne répond, tout eſt dans le ſilence;
+<lb />Nagueres tout nageoit dans la réjoüiſſance,
+<lb />L’on danſoit, l’on chantoit tout le long de la nuit
+<lb />A preſent tout eſt triſte, on n’entẽd point de bruit.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />PERIANDRE Les Valets qui heurtent.
+</p>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Velle ſorte de gens vient heurter à ma portel
+<lb />QTout-beau, Meſſieurs, tout-beau, le Diable
+<lb />vous emporte.
+<lb />Pourquoy vouloir de force entrer dans ma maiſont
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Si l’on ouure bien-toſt, i’en auray ma raiſon,
+<lb />Ie mettray tout dedãs, quoy que mõ Maiſtre en die.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie croy que nous ioüons icy la Comedie.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Ne veut-on pas ouurir?
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tout-beau, que voulez-vous!
+<lb />La rage les tranſporte, ou ces coquins ſont ſaouls.
+<lb />Que cherchez-vous icy?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Mon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Qui ton Maiſtre?
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE
+<lb />Il n’a pas l’honneur de me connaiſtre.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Enfin qui cherche-tu?
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Qui mange là-dedans.
+<lb />
+<lb />Calliante en vn mot
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ha le pauure idiot!
+<lb />Retire-toy, maraut, la maiſon eſt deſerte,
+<lb />Perſonne ne l’habite: ô Dieuxt c'eſt la ma perte.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Et Liſtan, pauure ſot, n’y demeure-i’il pas?
+</sp>
+<sp type="MainZone-Sp"><lb />Non, te dis-je.
+<lb />PERIMNDRE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Tu ments.
+<lb />
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />0111
+<lb />O l’étrange embaras!
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Hier i’y beu tout le ſoir, &amp; touteſa iournée.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Iniſtre, depuis ſix mois elle eſt abandonnée,
+<lb />Et tu me viens raillet.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Vous reſvez.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />n iure par les Dieux.
+<lb />Nullement;
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />L’étrange ſentiment!
+</sp>
+<sp type="MainZone-Sp"><lb />H
+<lb />Mais ie te veux guerir de cette freneſie.
+<lb />Depuis que Periandre a quitté Nicoſie,
+<lb />Depuis cet heureux iour, nous beuuõs, noꝰ dãſons
+<lb />Tantoſt auec le Bal, &amp; tantoſt aux chanſons:
+<lb />Nous n’auõs point manqué de cõcers de muſique
+<lb />Ce logis eſt vn lieu d’alegreſle publique,
+<lb />L’on y boit, l’on y chanté &amp; la nuit &amp; le iour,
+<lb />Enfin c’eſt le Palais de Bachus &amp; d’Amour.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />vons qui vafort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Tout eſt dans l’opulence.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Et qui fait, le ſçais-tu, cette belle dépenſe?
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt Liſtan.
+<lb />PHANISQVE.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Quel Liſtan?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Le Fils de Periandre.
+<lb />Ie ne connois que luy,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ha mourons auiourd’huy:
+<lb />Mais eſcoute, viença: ton Maiſtre, Calliante,
+<lb />Vient-il icy ſouuent?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />A toute heure il y hante,
+<lb />Ie l’y vois ſans manquer le ſoir &amp; le matin.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu pourrois, camarade, auoir pris de ton vin.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment
+<lb />2
+<lb />PHANISQVE.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu te méprens.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Non, c’eſt chez Periandre,
+<lb />Ie n’équiuoque point, ie me fais bien entendré,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Le Pere de Liſtan?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Qui depuis ſon depart
+<lb />A plumé, peu s’en faut, ce malheureux Vieillard:
+<lb />C’eſt luy-meſme, Liſtan, le Maiſtre de Philiſe,
+<lb />Qui depuis quelque mois luy rendit ſa franchiſe,
+<lb />Qui l’acheta.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Conidlen.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Et puis il l’affranchit.
+<lb />Attendez. vn talent,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Le laſchet l’inſolentt bas.
+<lb />C’eſt ce meſme Liſtan qui boit auce ton Maiſtrez
+<lb />Qui diſſipe ſon bien?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />C’eſt luy-meſme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERTANDRE.
+<lb />bas. Le traiſtre!
+<lb />Qui depuis quatre iours acheta du voiſin
+<lb />Cette belle maiſon demeure d’vn Lutin?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Ie ne ſçay point cela, i’ay peur de me méprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Qui la paya depuis de l’argent de Cleandre?
+<fw><lb />H iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHAN SQVE.
+<lb />Ie n’en ſçay rien non plus.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />10
+<lb />Que ie ſuis affligé!
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />C’eſt pluſtoſt au Vieillard dont le bien eſt mangé.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />na que ce débauché me donne de coleret
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Vous eſtes volontiers des amis de ſon Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que tu tiens miſtrable?
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Oüy, iuſqu’au dernier poinct.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Dy-moy ſes veritez, &amp; ne me trompe point.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />L’argent qu’il débourſa pour acheter Philiſe,
+<lb />L’amour extrauagant dont ſoname eſt épriſe,
+<lb />Sont peu de choſe aupres des prodigalitez
+<lb />Et des profuſions qu’il fait de tous coſtez:
+<lb />Sur tout il a chez luy qui commande &amp; gouuerne,
+<lb />Vn miſerable Eſclaue, vn pillier de tauerne,
+<lb />Ou pluſtoſt de gibet, l’execrable Strephon,
+<lb />Le foutbe deteſtable &amp; dangereux boufon;
+<lb />Il pourroit conſommer tout le bien d’vn Empire.
+<lb />Malheureux Periandre! ha mon cœur en ſoûpire;
+<lb />S’il reuient quelque iour, ie prédy ſon trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE
+<lb />Tu n’en doy point douter, ſi tu ne me mens pas,
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Pourquoy vous mentirois-je?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Helas
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />1 Carl at „
+<lb />Il ne m’importe.
+<lb />Mais allons, Clitophon, heurte encore à la porte.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Puisqu’õ ne répõd point, pourquoyveux-tu fraper?
+<lb />A la fin, cher amy, tu t’y pourrois tromper;
+<lb />Tupourrois à la nn t’en repentir ſans doute.
+<lb />L'on brule de la raiſine dans la maiſon, &amp; vn Ombre
+</sp>
+<sp type="MainZone-Sp"><lb />paroiſt par le Balcon. PHANISQVE.
+<lb />Dieux! qu’eſt-ce que ie voy? tout eſt en flâme.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />a mmami
+<lb />Eſcoute.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANTSQVE.
+<lb />C’eſt vn Diable d’Enfer que ie voy de mes yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />L’OMBRE au Balcon.
+<lb />Retirez-vous, mortels, de ces funeſtes lieux,
+<lb />Fuyez les deſormais comme des lieux proſanes,
+<lb />Et n’interrompez plus le repos de mes manes,
+<lb />Où vous m’obligerez à vous tordre le col.
+</sp>
+<sp type="MainZone-Sp"><lb />PHANISQVE.
+<lb />Si i’en approche auſſi, dis que ie ſuis vn fol:
+<lb />Ce mort ne me plaiſt point, ce diable m’épouuãte
+<lb />Allons chercher ailleurs Floris &amp; Calliante.
+</sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />PERIANDRE.
+<lb />O Dieux quel embaras! quel deſordre eſt-ce cy?
+<lb />Ie vais chercher Liſtan, i’en veux eſtre éclaircy,
+<lb />Quand ie l’auray trouué, ie perdray ma colere,
+<lb />Il eſt rouſiours mon Fils, &amp; moy touſiours ſon pere,
+<lb />C’eſt vn ieune euenté que l’âge a fait faillir,
+<lb />L’on ne peut eſtre ſage à moins que de vieillir.
+<lb />Fin du quatriéme Acte.
+</sp>
+<p type="MainZone-Head"><lb />ACIE
+<lb />SCENE PREMIERE.
+<lb />STREPHON, LISTAN, CAL.
+<lb />LIANTE, les Femmes, au Balcon.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />A foy i’y ſuis a bout, ie n’y puis plus que cou<lb />M are.
+<lb />Mon eſperance enfin s’en va reduire en poudre,
+<lb />Ie manque de conduite au deſſein entrepris,
+<lb />Tant de oifficulrez rebutent mes eſprits:
+<lb />Conſultez-vous Liſtan, couſultez Calliante,
+<lb />Pour moy ie voy ma perte, elle eſt trop apparente
+<lb />Ie ne me croyois pas homme a me repentir,
+<lb />Mais i’y ſuis tout a fait, à quoy ſert de mentir.
+<lb />Au diantre des plaiſirs, qui depuis deux années
+<lb />Nous ont fait conſommer de ſi cheres iournées;
+<lb />Diantre ſoit de l’Amour &amp; de vos paſſetemps,
+<lb />Quen’en preniez vo'moins, no' ſeriõs plus cõtens.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Quoy dans cet embarras Strephon ſe deſeſpere?
+<lb />Luy que ie regardois conime vn Dieu tutelaire,
+<lb />Luy de qui i’attendois la fin de nos trauaux,
+<lb />Luy qui peut faire ſeul &amp; nos biens &amp; nos maux.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Helas! ie n’y puis rien, &amp; c'eſt ce qui m’afflige.
+<lb />Ie ſçay bien mon deuoir, ie ſçay ce qu’il exigé,
+<lb />eijyue que ie dois a l’excés des bontez
+<lb />Qui m’ont oſté le poids des fers que i’ay portez,
+<lb />Et ie ne manque pas par la reconnoiſſance,
+<lb />Mais ie manque de force, &amp; ie ſuis ſans puiſſance;
+<lb />Ie voudrois biẽ agir, mais mes bras sõt trop cours,
+<lb />Et ie reſte auiourd’huy ſans art &amp; ſans ſecours.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Helas! que ferõs-nous? Strephon, tu m’abandõnes.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Quoy, laiſſer laſchement de ſi cheres perſonnes!
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Quoy, pour noꝰaſſiſter, Strephon mãque de cœur!
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Quoy, Strephon deuiẽt foible, &amp; s’abat par la peur!
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN
+<lb />Quoy, n’auoir pl9 pour moi d’amour &amp; de tẽdreſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILISE.
+<lb />Quoy, manquer d’amitié pour ſa chere Maiſtreſſe!
+</sp>
+<sp type="MainZone-Sp"><lb />IVSTINE.
+<lb />Quoy, manquer à Iuſtine apres tant de ſermens!
+</sp>
+<sp type="MainZone-Sp"><lb />FLORIS.
+<lb />Quoy, refuſer ſon aide à de triſtes Amans!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Helas! vous me lancez des traits qui percent l’ame,
+<lb />Mais c’eſt auec grãd tort que voſtre ardeur me blâ<lb />Ie ſais ce que ie puis, ie l’ay fait iuſqu’icy, (me;
+<lb />Mais helas c’eſt en vain, &amp; rien n’a reüſſy.
+<lb />Ne doutez pas qu’encor mon eſprit ne trauaille,
+<lb />Quel que preſent peril qui le preſſe &amp; l’aſſaille,
+<lb />Pour taſ-her de franchir vn ſi cangereux pas,
+<lb />Mais je ſu cés me peine, &amp; ie ne le voy pas.
+<lb />Eſperons tout des Dieux. rour vous, ô Calliante.
+<lb />Si le Ciel n’eſt conforme à ma fragile attente,
+<lb />Donnez le dernier coup, donnez-nous par pitié
+<lb />Ce que l’on doit aux loix d’vne tendre amitié,
+<lb />Intercedez pour nous, ſortez par là-derriere,
+<lb />Iettez-vous aux genoux d’vn exorable pere,
+<lb />Et priez pour vn Fils qui luy fut touſiours cher;
+<lb />C’eſt l’vnique ſecret, c’eſt dequoy le toucher.
+<lb />Adieu.
+<lb />44
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Ne doutez pas du zele qui m’enflâme,
+<lb />C’eſt pour aimer Liſtan que le Ciel fit mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />LISTAN.
+<lb />Que cette affection m’oblige puiſſaimment!
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Ie la ſçay mieux mõtrer, quefaite vn compliment
+<fw><lb />2
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />PERIANDRE, CRISAVRE.
+</p>
+<sp type="MainZone-Sp"><lb />PERIANDRE ſeul.
+<lb />Al ie ſuis hors de sẽs, le Ciel quoy que ie faſſe,
+<lb />ITMet, pour mieux m’acabler, diſgrace ſur diſ<lb />grace;
+<lb />Le deſeſpoir ſans doute a fait fuir Liſtan,
+<lb />Ie voy tout contre moy, tout s’appreſte à mon dan.
+<lb />Suis-je en Cypres eſt-ce icy ma chere Nicoſie?
+<lb />Non, quelque enchantement broüille ma fantaiſie;
+<lb />Au lieu de mon pais, quelque Sorcier maudit,
+<lb />Dans vne Iſle inconnue, inconnu me rendir.
+<lb />Ie ſuis enſorcelé: Mais i’apperçoy Criſaure,
+<lb />ſl peut bien ſoulager le ſoin qui me deuore,
+<lb />nie mui mrreſter. D’où venez-vous ainſi?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />D’où vous vient, periandre, vn ſi preſſant ſoucy?
+<lb />Demander d’où ie viens eſt vn ſoin inutilę.
+<lb />Sçauez-vous où ie vais? ie vais ſouper en Ville;
+<lb />Si vous auiez deſſein de me traitter ce ſoir,
+<lb />Il falloit plus matin me le faire ſçauoir,
+<lb />Ie vous l’aurois rendu.
+<lb />
+<lb />14
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ce n’eſt pas où ie penſe,
+<lb />l’ay bien dans mon eſprit vné autre imparience,
+<lb />Ce n’eſt pas à manger que ie coure a preſent.
+<lb />Mais de grace deux mots, ſoyez moy complaiſant
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Hé biẽ, que voulez-vous? me voicy preſt d’entẽdre
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />N’auez-vous pas touché mille eſcus de Cleandre
+<lb />par les mains de Liſtan?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE
+<lb />le ne ſçay ce que c’eſt.
+<lb />ras-vn ſolſculement,
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Vour les aura baillez.
+<lb />Strephon aſſeurément
+<lb />1
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Encore moins.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Eſtoit pour le marché.
+<lb />Criſaure
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Quel marché? ie l’ignore.
+<lb />Sans doute vous reſvez.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Non, non, mais ie voy bien
+<lb />Ce marché vous déplaiſt, vous cherchez le moyen
+<lb />D’en rompre le traitté.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Vous dormez, periandre.
+<lb />Quel traitté? qu’eſt-ce dõc? ie n’y puis riẽ cõpredre
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Le traitté qu’il a fait depuis mon partement:
+<lb />Eſtes-vous bien contẽt au moins pour le payemẽ
+<lb />Si vous ne l’eſtes pas, il y faut ſatisfaire.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />prenez de bons boüillons, ſi vous me voulez croire
+<lb />Vous en auez beſoin pour rétablir vos ſens.
+</sp>
+<sp type="MainZone-Sp"><lb />PFRIANDRE.
+<lb />Eſt-ce ainſi qu’en raillant l’on reçoit les abſens?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRÉ
+<lb />1
+<lb />1
+<lb />Ie ne vous raille point, que me voulez-vous dire?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Strephon vous a parlé, cela vous doit ſuffire.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Il m’a tantoſt parlé, ie ne le cele pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Quoy, que vous a-t’il dit? ô l’étrange embaras!
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Que vous vouliez baſtir à la mode nouuelle,
+<lb />Que mon appartement vous ſeruoit de modele,
+<lb />Que vous en vouliez vn de la meſme façon.
+<lb />Et que pour cet effet vous auiez vn Maçon.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Que ie voulois baſtir?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />C’eſtoit là ſa harangue.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie luy veux arracher cette perfide langue,
+<lb />Moy ie voulois baſtir?
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Voila ce qu’il m’a dit.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie ne ſuis plus à moy, ie demeure interdit,
+<lb />Ie luis mort, autant vaut.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Mais, voiſin, ie vous prie,
+<lb />Strephon eſt donc l’autheur de cette broüillerie?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il me broüille l’eſprit, &amp; débroüille mon bien,
+<lb />Le perfide qu’il eſt, mais enfin ie le tien:
+<lb />eſcoutez-moy, Criſaure, &amp; m’obligez de grace...
+<lb />Strephon eſcouie à vn bout du Theatre.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Commandez ſeulement: que faut-il que ie faſſe:
+<lb />L’on vous obeïra.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Preſtez-moy vos vallers,
+<lb />Et force nerfs de bœuf.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Ils ſetont bien-toſt preſts.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />aites-les moy venir, que ie les mette en garde.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHONbas.
+<lb />c’eſt à moy qu’on en veut, l’affaire me regarde.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Et qu’en voulez-vousfaire?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Eſcoutez ſeulement.
+<lb />Ce pẽdart de Strephõ, l’autheur de mõ tourment.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Vous voulez l’eſtriller?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />C’eſt toute mon enuie;
+<lb />Ie le veux enfermer le reſte de ſa vie,
+<lb />Ie veux de mille coups luy déchirer la peau,
+<lb />Ie veux que ſes feſtins ſoient du pain &amp; de l’eau;
+<lb />Et pour concluſion, apres cette abſtinence,
+<lb />Ie le veux voir languir au bout d’vne potence.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHONTAS.
+<lb />Me voila d’importance auiourd’huy regalé.
+<lb />Diantre, il eſt liberal.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE,
+<lb />Allons, c’eſt trop tarder,
+<lb />Appellez vos vallets, il faut que ie me yange.
+<lb />Criſaure, vous verrez vn chaſtiment eſtrango
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Entrons dans le logis, ie les vais appreſter,
+<lb />Pour vous bien obeïr, &amp; vous bien contenter.
+</sp>
+<sp type="MainZone-Sp"><lb />P. RIANDRE,
+<lb />Vous ferez, cher Cri aure vn œuure meritoire.
+</sp>
+<sp type="MainZone-Sp"><lb />CRISAVRE.
+<lb />Faites-moy cependant quelque part de l’hiſtoire
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Allons, ie le veux bien, vous ſerez eſtonné
+<lb />Des eſtranges aſſaurs qu’vn pendart nva donné
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />STREPHON, PERIANDRE,
+<lb />CRISAVRE, Quatre grands Vallets.
+</p>
+<sp type="MainZone-Sp"><lb />STREPHON ſeul.
+<lb />Ve ie fais peu de cas d’vn hõme ſans courage!
+<lb />OVn zeſt dans mon eſprit paſſe pour dauãtage,
+<lb />Vn zeſt eſt peu de choſe, &amp; pourtant i’en ſais cas
+<lb />Plus que d’vn cœur craintif, d’vn cœur abjet &amp; bas,
+<lb />La foibleſſe ſied mal aux haures entrepriſes!
+<lb />Etqu'ene eit uageleure mors qu’on viẽt aux priſes!
+<lb />Eſclaue que ie ſuis, ie n’ay point ce defaut,
+<lb />I’ay l’ame bien placée, &amp; le cœur noble &amp; haut,
+<lb />Ie voy des chaſtimens que mon Maiſtre prépare,
+<lb />Ie voy preſt pour mon dos vn traittement barbare;
+<lb />Et tout cela pourtant ne m'épouuante point.
+<lb />Ie reſte ſans frayeur iuſques au dernier poinct,
+<lb />Ie ſçay ce qu’il faut faire en cette conjoncture;
+<lb />Vne affaire embroüillée, il la faut rendre obſcure,
+<lb />Il faut de plus en plus touſiours l’embaraſſer,
+<lb />Afin que les plus fins ne la puiſſent percer.
+<lb />Voila comme i’en fais. Mais voicy periandre
+<lb />En bonne compagnie. 
+<lb />PERIANDRE, criſaure, &amp; quatre Vallets,
+<lb />auec des norſs de bœuf.
+<lb />Allons.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />Dois-je l’attendre?
+<lb />Oüy, ie ſçay le moyen de ſortir de ſes mains.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE aux Vallets.
+<lb />Soyez, pour m’obeïr, cruels &amp; inhumains,
+<lb />Aſſommez-le de coups; mais rentrez dans la pont
+<lb />Si-toſt que ie crieray que chacun de vous ſorte:
+<lb />Qu’on luy donne cent coups, &amp; puis l’on le liera,
+<lb />Apres dans vn cachot l'on le deualera.
+<lb />Pour moy ie vais l’attendre, il ne tardera gueres,
+<lb />Appreſtez cependant ces longues eſtriuieres,
+<lb />Ie veux l’entretenir, &amp; luy montrer d’abord
+<lb />Vn vilage content, ſans courroux, ny tranſport.
+<lb />Ie vous appelleray.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />Le perfide! le traiſtre!
+<lb />Pouuois-je eſtre aſſeruy ſous vn plus meſchant
+<lb />Maiſtre?
+<lb />Mais il n’eſt pas à bout de ſes pretentions.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />I’aſſouuiray ſur luy toutes mes paſſions:
+<lb />na que n’eſt-il icy: mais ie m’en vais l’attendré.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à Periandre.
+<lb />Si vous cherchez Strephon, le voicy, Periandre.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu viens fort à propos. Et mon Fils, l’as-tu veu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il a penſé mourir d’vn plaiſir impréueu:
+<lb />Alors que l’on a ſceu voſtre heureuſe venuë,
+<lb />L’alegreſſe auſſi-toſt par tout s’eſt répanduë,
+<lb />Et tous vos ſeruiteurs ont fremy de plaiſir.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Liſtan vient-il me voir?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C'eſt là tout ſon deſit.
+<lb />Dans vn moment d’icy vous aurez ſa preſence.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />I’en ſeray fort content; mais eſcoute, ie penſe
+<lb />Que le voiſin Criſaure eſt de mauuaiſe foy:
+<lb />Ten iy ce ſenmmen.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Et la raiſon pourquoy?
+</sp>
+<sp type="MainZone-Sp"><lb />PFRIANDRE.
+<lb />Ilne vous connoiſt point, il ne ſçait qui vous eſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />A quoy bon, mon bon Maiſtre, à quoy bon ces ſor<lb />nettes?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Non, ie ne raille point, il ne vous connoit pas;
+<lb />Au moins me l’a-t’il dit.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />C’eſt qu’il a l’eſprit bas.
+<lb />Mais l’argent, qu’en dit-il? il a touché la ſomme.
+</sp>
+<sp type="MainZone-Sp"><lb />PRIANDRE.
+<lb />Iliure bien que non.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />O l’impertinent homme!
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il eſt preſt d’affirmer deuant qui ie voudray
+<lb />Qu’il ne vendit iamais...
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Penſez vous qu’il ſoit vray?
+<lb />Non, non, c’eſt vn menteur.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />De plus il me conjure
+<lb />Defaire à ſes Vallets endurer la torture,
+<lb />Afin de tirer d’eux tout ce qu’ils en ſçauront.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Hne le fera pas, car ils le conuaincront.
+<fw><lb />I iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Il le fera, Strephon, ne t’en mets pas en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Laiſſons là ſes Vallets, &amp; luy donnons la geſne,
+<lb />Il eſt plus à propos de commencer par luy;
+<lb />C’eſt aſſez, s’il confeſſe, il n’aura plus d’appuy.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />rour ce conſentement, ie doute qu’il le donne.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />S’il n’y veur conſentir, que le Iuge en ordonne.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />C’eſt aſſez de ſes gens, ie les vais appeller.
+</sp>
+<sp type="MainZone-Sp"><lb />SR PHON
+<lb />bas. Quelque ſot ſeroit pris. Faites les moy parler?
+</sp>
+<sp type="MainZone-Sp"><lb />Il ſe met à vi. Autel d’Hercule.
+<lb />Moy ie prens cependant cet Autel pour refuge;
+<lb />Hercule eſt auiourd’huy mon azile &amp; mon Iuge.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE ayant fait ſortir les Vallets.
+<lb />Que fais-tu la, maraut?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Parlez ciuilement.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Veux-tu pas t'approcher?
+</sp>
+<sp type="MainZone-Sp"><lb />STRPHON.
+<lb />Non pas ſi promptement.
+<lb />Si i’auois fait le ſor en cette conjoncture,
+<lb />Ma foy vous me mettriez en mauuaiſe poſture.
+<lb />Laiſſerois-je ma place à des gueux de Vallets?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Si quelqu’vn d’eux la prens, ie gagne mon procez,
+<lb />Ce mauuais procedé fait condamner Criſaure,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Au diantre ſi i’en ſors, ie vous le dis encore,
+<lb />Hercule eſt mon ſecond, ie ne le quitte point,
+<lb />Cet Autel me plaiſt fort, i’y coudray mõ pourpoint.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Quitte pour vn moment, quitte là cet aſyle.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON
+<lb />Vous venez me parler, ſi ie vous ſuis vtile?
+<lb />Vous vous embaraſſez de nouueaux incidens.
+<lb />bus. Il deteſte, il enrage, &amp; peſte entre ſes dents.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Leue-toy ſeulement vn moment, ie t’en prie.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Traittons ſans compliment, tréue de raillerie.
+<lb />Si vous voulez de moy quelque conſeil ſecret,
+<lb />Ie vous rendray bien mieux ſur vn bon tabouret,
+<lb />Et puis ce lieu ſacré le rendra plus fidele.
+</sp>
+<sp type="MainZone-Sp"><lb />PERTANDRE.
+<lb />Ie n’ay iamais douté des faueurs de ton zele:
+<lb />Approche-toy, Strephon.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Non, ie n’en feray rien.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Mais me reconnois-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ie vous connois fort bien.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Quitte-là cet Autel, ou par les Dieux ie iure
+<lb />D’en faire par la faim ta triſte ſepulture.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Non, ne l’eſperez pas, ie ne crains point la faim,
+<lb />Ie ſuis plus préuoyant, tenez, voila du pain;
+<lb />Et de peur que la ſoif ne ſoit mon ennemie,
+<lb />Voila mon cher ſecours, voila ma chere amie.
+<lb />Illui motre du pain, &amp; vne bouteille de vm ou il boit.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />o Dieux le mis perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Qui vous fait ſoûpirerr
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu m’as lancé des traits que ie ne puis parer,
+<lb />Tu m’as pris par le nez, laſche, perſide, impie.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Il n’eſt pas bien mouché, car i’y voy la roupie.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu te moques, pendart, mais ie ſçay tous vos tours,
+<lb />Infames débauchez, execrables vautours,
+<lb />Qui m’auez tout courant rõgé iuſqu’aux entrailles:
+<lb />Tu m’as tout diſſpé, tu t’en ris, tu me railles,
+<lb />Mais voicy l’heureux iour, &amp; voicy le moment
+<lb />Où ie te vais punir d’vn rude chaſtiment.
+<lb />Qu’on apporte du bois, viſte? &amp; que l’on l’enflâme,
+<lb />Ie m’en vais le roſtir &amp; griller iuſqu’a l’ame.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ne me roſtiſſez pas, ie vaux bien mieux boüilly.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDDE.
+<lb />Ha ie vous montreray que vous auez failly:
+<lb />Tu ſeiuiras d’exemple a tous les domeſtiques.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Oüy de Vallet fidele.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Infame, tu repliques.
+<lb />Mais dis-moy, ce cher Fils, lors de mon partement,
+<lb />Comment te le laiſſay-je?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ignorez-vous comment,
+<lb />Auec deuxyeux, deux mains, vn nez, &amp; deux oreilles;
+<lb />Les a-t’il pas encori vous me contez merueilles:
+<lb />En a-t’il rien perdu, ſi ce n’eſt quelques dents
+<lb />En mangeant voitte bien?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O diſcours impudens!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Voicy ſon cher amy, le braue Calliante.
+<lb />fanent e Meme lge</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />CALLIANTE, PER. STREPHON.
+</p>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />O rencontre charmante!
+<lb />Monſieur, ie ſuis rauy de vous voir en ces lieux
+<lb />Auec ce bon viſage, &amp; i’en rens grace aux Dieux.
+<lb />Comme voſtre arriuée eſtoit fort incertaine
+<lb />(Qui rempliſſoit Liſtan de trauail &amp; de peine)
+<lb />Vous trouuerez chez vous vn fort mauuais apreſt;
+<lb />Allons-nous en chez moy, le ſouper eſt tout preſt:
+<lb />Faites-moy cette grace, &amp; ſans ceremonie.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Cette ciuilité vrayment eſt inſinie,
+<lb />Certes vous m’obligez &amp; me comblez d’honneur?
+<lb />Mais enfin ie ne puis receuoir ce bonheur,
+<lb />Letrauail de la Mer, &amp; celuy du voyage,
+<lb />M’obligent au repos.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Non, non, prenez courage,
+<lb />Faites-moycet honneur, ne me refuſez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />uelas! i’ay plus beſoin d’vn lit que d’vn tepas.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Cette requeſte eſtiuſte, accordez-luy de grace.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />na! ie ſeche tout vif du ſoin qui m’embaraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à Periandre.
+<lb />Si vous ne pouuez pas au moins ciuilement,
+<lb />promettez-luy pour moy, i’iray oertainement.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Tu te railles, pendart, mais ma végeance aproche.
+<lb />le te roueray de coups.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Eſpargnez ma caboche.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Laiſſez-là ce mataut, allons-nous en ſoupet.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON bas.
+<lb />Ce mâtin d’auiourd’huy ne fera que iapper.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE à Strephon.
+<lb />Mais toy, que fais-tu la?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ce phantoſme m’étonne,
+<lb />Et ce ſacré refuge aſſeure ma perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />O l’inſolent coquin!
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Ceſſez de m’offenſer,
+<lb />Et nous éclairciſſons ſans nous embaraſſer:
+<lb />Apres comptez ma vie au braue Calliante,
+<lb />Souffrez que deuant luy noſtre procez s’intente,
+<lb />Ie l’accepte pour Iuge.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />né bien, i’en ſuis content,
+<lb />N’as-tu pas débauché Liſtan que i’aimois tant?
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Oüy, ie l’ay débauché, ie ne m’en puis dédire;
+<lb />Il ſçait par mes leçons tout manger &amp; tout frire,
+<lb />Et c’eſt à moy qu’il doit ce bel enſeignement.
+<lb />Mais quoy, les gens d’hõneur viuẽt-ils autrement?
+<lb />pouſſe-t’on leur ieuneſſe en quelqu’autre habitude?
+<lb />Et tous les ieunes gens font-ils vne autre eſtude?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ce traiſtre eſt captieux, ie m’en doy bien garder.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />prenez-moy pour arbitre, &amp; ie vais décider.
+<lb />à Strephon. Retire-toy de là.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Si vous prenez ma place,
+<lb />plener paememenemanayeur qui me glace;
+<lb />Autrement le party ſeroit trop inégal.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />na! que ie ſuis traitté d'vn eſtrange régal.
+<lb />Mais i’ay moins de regret à toute la dépenſe,
+<lb />A leurs profuſions, qu’a ſon impenitence,
+<lb />Le traiſtre encor s’en moque, &amp; ſa temerité
+<lb />Le porte iuſque la, qu’il en fait vanité,
+<lb />Apres m’auoir fourbé d’vne inſolente ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Vous le meritez bien, ou le Diable m’emporte.
+<lb />De qui ſe rira-ton, ſi ce n’eſt d’vn vieux fous?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ce traiſtre n’a pour but que d’aigrir mon courour.
+<lb />Helas: ſi l’on ſçauoit cette triſte infortune.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Elle ſeroit ſans doute &amp; publique &amp; commune,
+<lb />Et l’on la traitteroit bien-toſt comiquement,
+<lb />rour en donner au peuple vn diuertiſſement
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ce traiſtre m’aſſaſſine auec ſon impudence.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Qu’on ſe taiſe, Strephon, ie t’impoſe ſilence,
+<lb />Et vous eſcoutez-moy. Liſtan eſt mon amy,
+<lb />Sans luy ie ne vis pas, ou ie vis à demy;
+<lb />I’ay part à ce qu’il fait, il partage de meſme
+<lb />Toutes mes actions, c’eſt vn autre moy-meſmę
+<lb />Dans les excés commis depuis voſtre départ,
+<lb />I’ay certes, ie l’auouë, vne tres-grande part;
+<lb />I’eſtois ſon confident, i’approuuois ſes ieuneſſes,
+<lb />Alors qu’il diſſipoit vos biens &amp; vos richeſſes;
+<lb />Ses imprudens conſeils eſtoient bien-toſt ſuiuis,
+<lb />Car ma facilité paſſoit à ſon aduis:
+<lb />Mais il faut pardonner aux caprices de l'âge,
+<lb />Il eſt bien difficile &amp; d’eſtre ieune &amp; ſage;
+<lb />Et comme i’ay trempé dans ſa profuſion,
+<lb />Ie la veux reparer en cette occaſion,
+<lb />Ie fraye à la moitié de toute la dépenſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Vous me reſſuſcitez auec cette eloquence,
+<lb />Mon Fils ne pouuoit pas choiſir vn Orateur
+<lb />rlus prompr a me gagner, mais, cher mediateur,
+<lb />payerez-vous Cleandre?
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Et quoy donc?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Ie pardonne
+<lb />A mõ Fils, à Strephon, mon couroux m’abãdonne,
+<lb />C’eſt ieuneſſe en effet, ie n’y veux plus penſer.
+<lb />à Strephon. Va, fay venir Liſtan, ie le veux embraſſer.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mais me pardonnez-vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Va, ſois en aſſeurance.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />N’auriez-vous point auſſi quelquę reminiſſence?
+</sp>
+<sp type="MainZone-Sp"><lb /> PERTANDRE.
+<lb />Non, va, l’oubhrdy tout.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON ſortant de l'Autel.
+<lb />Que me voila diſpos!
+<lb />l’ay la ceruelle alerte, &amp; les ris en repos;
+<lb />le vais querir Liſtan, &amp; toute la cabale:
+<lb />Au moins ne tremblez plus pour cette Ombre in<lb />fernale,
+<lb />
+<lb />Ce n’eſtoit en effet qu’vne ſimple vapeur,
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Va, ie ſuis aſſeuré, ie n’auray point de peur.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Mais au moins pardonnez à Liſtan, à Philiſe.
+<lb />A Iuſtine, a Floris, pardonnez ſans ſurpriſe.
+</sp>
+<sp type="MainZone-Sp"><lb />
+<lb />PERIANDRE.
+<lb />Se l’ay-je pas promis? Calliante a ma foy,
+<lb />e leur pardonne à tous.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON à la porte de la maiſon qui
+<lb />appelle Liſtan.
+<lb />Liſtans ie l’apperçoy.
+<lb />eriandre pardonne à toutes vos ieuneſſes,
+<lb />lenez aſſeurément receuoir ſes careſſes.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE à Calliante.
+<lb />ous payerez Cleandre.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />2
+<lb />Ha! chaſſez ce ſoucy.
+<fw><lb />
+<lb />1
+<lb />
+<lb />
+<lb />K
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />LISTAN, PHILISE, IVSTINE,
+<lb />FLORIS.
+</p>
+<sp type="MainZone-Sp"><lb />LISTAN à Periandre.
+<lb />Stes-vous aſſez bon pour me ſouffrir icy?
+<lb />L Mon pere, mon ſauueur, à qui ie dois la vie:
+<lb />Vous à qui, peu s’en faut, ie l’ay tantoſt rauie,
+<lb />pouuez-vous me ſouffrir embraſſer vos genoux?
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />Va, Liſtan, Calliante a flechy mon couroux,
+<lb />C’eſt à luy que tu dois l'effet de ma clemence.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />Monſieur, ne parlons plus de pardon ny d’offence,
+<lb />Embraſſez voſtre Fils, oublions le paſſé,
+<lb />Faites en galant homme &amp; deſ-intereſſé;
+<lb />Le ſouuenir déplaiſt des choſes déplaiſantes;
+<lb />N’y ſongeõs plus du tout, &amp; penſons aux preſentes,
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />Sçauez-vous le ſecret pour n’y penſer iamais?
+<lb />Noyons ce ſouuenir dans le vin deſormais.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />C’eſt tres-bien raiſonner, allons dõc, chere troupé
+<lb />Allons faire la vie, allons vuider la coupe;
+<lb />reriandre, il nous faut réjoüir aujourd’huy,
+<lb />Il faut chaſſer de nous la triſteſſe &amp; l’ennuy.
+<lb />Strephon, va-t’en chez noꝰ voir ſi la nappe eſt miſe
+<lb />Phaniſque &amp; le vallet qui cherchent Calliante.
+<lb />laniſque vient icy, ſa preſence eſt requiſe
+<lb />ur nous bien appreſter vn ſeſtin comme il faut.
+<lb />rephon, que l’on l’eſcorte, &amp; qu’õ mõte à l’aſſaut.
+</sp>
+<sp type="MainZone-Sp"><lb />STREPHON.
+<lb />la! c’eſt où ie me plaiſt, &amp; c’eſt en ces batailles
+<lb />que ie franchis des forts, &amp; force des murailles;
+<lb />ous y verrez combattre &amp; triompher mon bras.
+<lb />cleandre paroiſt.
+<lb />lais Cleandre ſuruient; l’importun embaras!
+</sp>
+<sp type="MainZone-Sp"><lb />CLEANDRE à Pertandre.
+<lb />lé bien, me payrez-vous à preſent, reriandre?
+<lb />vous l’ay deſia dit que i'eſtois las d’attendre:
+<lb />lais vous m’auez promis, &amp; i’eſpere de vous...
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE.
+<lb />ous ſerez ſatisfait, entrez, entrez chez nous,
+<lb />llons, mes chers amis, allons, ie vous conuie
+<lb />gouſter les plaiſirs d’vne innocente vie;
+<lb />ſlons boire d’autant à toutes nos ſantez.
+</sp>
+<sp type="MainZone-Sp"><lb />PERIANDRE.
+<lb />llons, cher Calliante, éprouuer vos bontez
+<lb />Ils entrent.
+</sp>
+<sp type="MainZone-Sp"><lb />CALLIANTE ſeul.
+<lb />le faut enyvrer, il ſera plus traittable,
+<lb />uand il ſera gaillard au ſortir de la table,
+<lb />pres en cet eſtat i’en viendray bien à bout,
+<lb />t ie me promets bien de rajuſter le tout.
+</sp>
+<sp type="MainZone-Sp"><lb />Aux vallets de Criſaure.
+<lb />our vous voſtre preſence eſt fort peu neceſſaire,
+<lb />t l’on ſe peut paſſer de voſtre miniſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />FIN.
+<lb />La Comedie finit ſans Mariage.
+</sp>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Priuilege du Roy, donné à Paii
+<lb />Tle 10. iour de Decembre 1655. Signé Par l
+<lb />Roy en ſon Conſeil, BZRAVD: Il eſt permis
+<lb />CHARLES DE SERCY, Marchand Libraire à Pars
+<lb />d’imprimer, ou faire imprimer, vendre &amp; debiter
+<lb />Le Phautoſme, Comedie, du ſieur Nicole, en tel
+<lb />caracteres, &amp; autant de fois que bon luy ſem
+<lb />blera, durant le temps &amp; eſpace de cinq ans,
+<lb />compter du iour que ladite Comedie ſera acheues
+<lb />d’imprimer pour la premiere fois. Et defenſe
+<lb />ſont faites à toutes perſonnes, de quelque qualut
+<lb />&amp; condition qu’elles ſoient, de l’imprimer, fait
+<lb />imprimer, vendre &amp; debiter, ſans le conſentement
+<lb />de l’Expoſant, à peine de deux mil liures d’amen<lb />de, confiſcation des exemplaires contrefaits, &amp; de
+<lb />tous deſpens, dommages &amp; intereſts, ainſi que plus
+<lb />au long il eſt porté au Priuilege.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté, le ii.
+<lb />Iuillet 1656. conformément à l’Arreſt du Parle<lb />ment du9. Avril1653 Sigat BAUARD Syndic.
+</p>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />AR Grace &amp; Priuilege du Roy, donné à Paii
+<lb />Tle 10. iour de Decembre 1655. Signé Par l
+<lb />Roy en ſon Conſeil, BZRAVD: Il eſt permis
+<lb />CHARLES DE SERCY, Marchand Libraire à Pars
+<lb />d’imprimer, ou faire imprimer, vendre &amp; debiter
+<lb />Le Phautoſme, Comedie, du ſieur Nicole, en tel
+<lb />caracteres, &amp; autant de fois que bon luy ſem
+<lb />blera, durant le temps &amp; eſpace de cinq ans,
+<lb />compter du iour que ladite Comedie ſera acheues
+<lb />d’imprimer pour la premiere fois. Et defenſe
+<lb />ſont faites à toutes perſonnes, de quelque qualut
+<lb />&amp; condition qu’elles ſoient, de l’imprimer, fait
+<lb />imprimer, vendre &amp; debiter, ſans le conſentement
+<lb />de l’Expoſant, à peine de deux mil liures d’amen<lb />de, confiſcation des exemplaires contrefaits, &amp; de
+<lb />tous deſpens, dommages &amp; intereſts, ainſi que plus
+<lb />au long il eſt porté au Priuilege.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté, le ii.
+<lb />Iuillet 1656. conformément à l’Arreſt du Parle<lb />ment du9. Avril1653 Sigat BAUARD Syndic.
+</p>
+    </body>
+  </text>
+</TEI>

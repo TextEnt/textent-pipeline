@@ -1,0 +1,2339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Indegonde, tragédie</title>
+        <author>Montauban, Jacques Pousset de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb447296772"/>
+          <author>
+            <persName>Montauban, Jacques Pousset de</persName>
+          </author>
+          <title>Indegonde, tragédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1654" cert="high" resp="BNF">1654</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<fw type="fw"><lb />
+</fw>
+<p type="MainZone-Head"><lb />LDE
+<lb />ONDE.
+<lb />TRAGEDIE.
+<fw><lb />1S,
+</fw><fw><lb />LL'AVMD DE LVINE, al
+<lb />Palais, en la Salle des Merciers, ſous
+<lb />la montée de la Cour des Aydes.
+</fw></p>
+<p type="MainZone-Head"><lb />M. DC. LIV.
+<lb />AVEC PRIVILEGE DV ROT.
+</p>
+<p type="MainZone-P"><lb />DAR Grace &amp; Priuilege du Roy,
+<lb />I donné à Paris le 22. Septembre
+<lb />1653. Il eſt permis à GVILLAVME
+<lb />DE LVINE, Marchand Libraire en
+<lb />noſtre bonne Ville de Paris, de fai<lb />re imprimer, vendre &amp; debiter
+<lb />Indegonde, Tragedie. En telle mar<lb />Je &amp; caractere que bon luy ſem<lb />blera, pendant le temps &amp; eſpace de
+<lb />euf ans, à compter du iour qu’elle
+<lb />ſera acheuee d’imprimer: Et def<lb />fenſes ſont faites à tous Imprimeurs
+<lb />&amp; Libraires &amp; autres, de l’imprimer
+<lb />ſur les peines plus amplement por<lb />tées audit Priuilege.
+</p>
+<p type="MainZone-P"><lb />Acheué d’imprimer pour la premiere
+<lb />fois le io. Iuillet 1654.
+<fw><lb />Les Exemplaires ont eſté fournis.
+</fw><fw><lb />TEVRS.
+<lb />LEVIGILDE.
+<lb />Roy d'Eſpagne.
+</fw></p>
+<p type="MainZone-Entry"><lb />HERMENIGILDE, Fils de Leuigilde.
+<fw><lb />RECAREDE,
+<lb />Frere de Hermenigilde.
+</fw></p>
+<p type="MainZone-Entry"><lb />NUEGONDE, Fille de France, Femme de
+<lb />Hermenigilde.
+</p>
+<p type="MainZone-Entry"><lb />OISINTHE, Femme en ſecondes Nopces
+<lb />de Leuigilde.
+</p>
+<p type="MainZone-Entry"><lb />ATRE IVGES.
+<lb />CLEONTE.
+<lb />Gentilhomme Eſpagnol,
+</p>
+<p type="MainZone-Other"><lb />La Scene eſt à Madrid.
+<fw><lb />INDEGONDE
+</fw></p>
+<p type="MainZone-Head"><lb />INDEGONDE
+<lb />TRAGEDIE.
+</p>
+<p type="MainZone-Head"><lb />SCENE
+<lb />I
+<lb />HERMENIGILDE,
+<lb />CLEONTE.
+</p>
+<sp type="MainZone-Sp"><lb />Q
+<lb />HERMENIGILDE.
+<lb />OY mouir en Seuille! &amp; touſiours
+<lb />aſſiegez!
+<lb />s’il faut mourir Cleonte, il faut mouris
+<lb />vangez,
+<lb />Ce iour verra finir le mal qui m’importune,
+<lb />Et d’vn dernier effort la derniere fortune.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />Sous lerarmes. Seigácus, r'ay mis tous vos Soldau
+<lb />Qui cherchent la victoire ou l’honneur du treſpas.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE,
+<lb />Pour ce dernier combat en qui mon bras eſpere;
+<lb />Le ſecours arriué de l’Empereur Tybere
+<lb />Tout proche de nos murs en ee meſme moment.
+<lb />N’attend que le ſignal de mon commandement,
+<lb />Qel combat toutefois! lors que ie conſiderc
+<lb />Où qu’vn pere me pert ou que ie pers vn pere,
+<lb />Que la neceſſité m’impoſe cette loy
+<lb />De meſurer ma foudre à celle de mon Roy,
+<lb />Qu’en cette occaſion d’vne contraire courſe,
+<lb />Le ſang que i’ay receu tourne contre ſa ſource.
+<lb />Et qu’enfin ſi. le Ciel me quitte ou me defend.
+<lb />Ie finis en coupable ou pleure en triomphants
+<lb />Eſpagne, cher pays témoin de ma naiſſance
+<lb />De ma gloire premiere &amp; de ma decadence,
+<lb />Toy qui vis la Couronne au pied de mon berceau,
+<lb />Regarde quelle main me creuſe le tombeau.
+<lb />Ne parlons plus d’amour, la ſource en eſt tarie:
+<lb />Si ie verſe ton ſang pardonne moy, Patrie:
+<lb />La plus grande faueur que i’ay de mes malheurs.
+<lb />C’eſt de moüiller ton ſein ou de ſang ou de pleurt,
+<lb />Funeſte extremité qui fais touie ma peine,
+<lb />Où me reduit enfin l’Empire d'vne Reyne.
+<lb />Qui par l’iniuſte hymen que le deſtin voulut
+<lb />Eſt au Roy maintenant ce que ma Mere fut g
+<lb />Mais quoy que iuſqu’icy cette ame déloyalle
+<lb />Qui partage le thiône &amp; la couche Royalle,
+<lb />S'efforce de me perdre &amp; d’vſurper mon bien,
+<lb />Ie porterois encor honneur à ce lien
+<lb />Si ſeul i'euſſe reſté le ſuiet de ſa rage,
+<lb />Si ma chere moitié n’euſt point receu d’outrage
+<lb />Conſtant iuſqu’à ce coup lors elle me bleſſa
+<lb />Et pour cette moitié le tout s’intereſſa!
+<lb />Mon cœir deuint ſenſible &amp; toute ma penſée,
+<lb />Fut de vanger vn iour Indegonde offenſée.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />INDEGONDE, HERME<lb />NIGILDE.
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGILDEt
+<lb />V pleures, ma Princeſſe, &amp; la louleur rab<lb />I bat</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />qu’aue vous reſolu?
+</sp>
+<sp type="MainZone-Sp"><lb />IIERMENIGILDE.
+<lb />De donner le combat;
+<lb />Noſtre eſpoir deſormais ne git que dans nos armes;
+<lb />Appaiſe ta douleur, du moins tary ces larmes,
+<lb />Par elles ſeulement mon cœur eſt combattu,
+<lb />Et ie ſens affoiblir ce que i’ay de vertu.
+<lb />Penſe que le combat du fils contre le pere
+<lb />Eſt iuſte aſſeurément quand il eſt neceſſaire.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Ie ſuis foible, Seigneur, pardonnez à mes pleurs,
+<lb />I’ay ſceu iuſques icy combattre mes douleurs;
+<lb />Mais ce deſſein m’eſtonne, Helas! de part ou d’au<lb />tre
+<lb />Peut-on verſer du ſang qui ne ſoit pas le voſtre?
+<lb />Que pouuez vous trouuer de gloire en vos pro<lb />jets,
+<lb />Si dans vos ennemis vous voyez vos ſubiets?
+<lb />Etſi de ce combat dont ie me ſens complice,
+<lb />La victoire, Seigneur, vous doit eſtre vn ſuppl
+<lb />ce?
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Non, ie te veux vanger, &amp; mourir ſatisfaict
+<lb />De l’outrage ſanglant que la Reyne t’a fait.
+<lb />Ne te ſouuient-il plus que c’eſt vne Arrienne
+<lb />Qui voulut que ta foy ceſſaſt d’eſtre Chreſtienne,
+<lb />Lors que ſa cruauté dedans vn froid eſtang
+<lb />Penſant placer ton œœur fit glacer tout ton ſang?
+<lb />Que ton nom, que ton rang ſurent ſans priui<lb />legc
+<lb />Et qu’elle t’a touché de ſa main facrilege?
+<lb />Mais elle vid brûler malgté cette rigueur
+<lb />Dans la glace des eaux les flammes de ton cœur:
+<lb />On te teceut ainſi lors que noſtre hymenée
+<lb />T euſt fait abindonner la France où tu ſus née,
+<lb />Où ton ſang eſt au thrône &amp; balance en ſes mains
+<lb />Le Sceptre le plus beau qui commande aux he
+<lb />mains.
+<lb />A peine daus Madrid le Ciel veut qu’on te voye,
+<lb />Que l’Eſpagne deuint le tombeau de ta ioye;
+<lb />Mais helas ! c’eſtoit peu qu’on nous eut outregez,
+<lb />Nous fuyons en ces lieux, nous ſommes aſſie
+<lb />gez:
+<lb />Ou m’impute auſſi-toſt le crime de l’enuie,
+<lb />D'arricher à mon pete &amp; le Sceptre &amp; la vie,
+<lb />Et la Reyne à tant fait, pour nous perſecuter,
+<lb />Qu’vn pere en nous perdant croit beaucoup me
+<lb />riter.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Ie ſouffre les malheurs qu’va beau-pere m’ea,
+<lb />uoye;
+<lb />Mais ie ſuis voſtre femme, &amp; c’eſt toute mi
+<lb />ioye;
+<lb />Encor que vous fuſſiez heritier d’vn grand Roy,
+<lb />I’aymois Hermenigilde &amp; luy donnay ma foy;
+<lb />Ie ne regarday poiſt l’éclat qui l’enuironne,
+<lb />Et i’eſpouſay le Prince &amp; non pas la Couronne:
+<lb />Ainſi qu’on vous enleue, &amp; le thrône &amp; le bien
+<lb />I'ay ce que ie demande &amp; ne puis perdie iin.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />C’eſt par cette vertu qui n’a point de ſeconde,
+<lb />Que ie connois le prix de ma chere Indegonde,
+<lb />Et cette connoiſſance augmente ma douleur
+<lb />De voir tant de vertu ſouffrir tant de malheur.
+<lb />Mais cette meſme foy que tu m’as enſeignée
+<lb />Par qui nous ſommes ioints plus que par l’hyme<lb />née,
+<lb />Qui fait ſouffrir les maux &amp; mépriſer les biens
+<lb />Sans doute par mon bras vient rompre nos liens.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />seigneur, le Ciel d’vn Prince a benit noſtre cou<lb />che
+<lb />Et c'eſt ſon intereſt auiourd'huy qui nous tou,
+<lb />che;
+<lb />Né dans le fein de Mars comme en celuy d’amour
+<lb />Sel yeux vireut la guerre auſſi toſt que le iour.
+<lb />I’aſtre de ſa naiſſance éclaira ſa milere,
+<lb />Il fut malheureux fils d’vn plus malheureux pere,
+<lb />Le ſuccez du combat ne regarde que luy;
+<lb />Et c’eſt, mon cherl Eſpoux, ce qui fait mon en<lb />nuy;
+<lb />Car ſans plus vous flatter d’vn fantoſme de gloirg
+<lb />Si le ſort des combats vous oſte la victoire,
+<lb />Comme la Reyne haït vous faut-il enſeigner
+<lb />Que vous perdrez le thrône &amp; le droit de regner?
+<lb />Ainſi vos yeux vn iour en des mains eſtrangeres
+<lb />Verront honteuſement le Sceptre de vos peres,
+<lb />Et mon fils en naiſſant au thrône deſtiné
+<lb />Receura quelque iour la loy qu’il eut donné.
+<lb />Contre tous nos malheurs mon courage inuincible
+<lb />Deuient à cette peur moins ferme &amp; plus ſenſible,
+<lb />Et par des mouuemens iuſtes &amp; non contraints
+<lb />Si ie ſuis mere i’ayme, &amp; ſi i’ayme ie crains.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Pour voir en d’auires mains ma Couronne vſur<lb />rée
+<lb />Il faut bien des combats &amp; bien des coups d’épée,
+<lb />Il n’en va pas ainſi: banniſſez voſtre ennuy,
+<lb />Vn combat ſans peril nous deliure aujourd’huy;
+<lb />Nous ſommes les plus forts-
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+</sp>
+<sp type="MainZone-Sp"><lb />Ouy, mais c’eſt contre vn pere;
+<lb />HERMENIGILDE.
+<lb />En l’eſtat où ie ſuis, dy donc, que dois-ie faire
+</sp>
+<sp type="MainZone-Sp"><lb />NDEGONDE.
+<lb />Ce que depuis long-temps vn pere veut de vous,
+<lb />Demandez-luy pardon, embraſſez ſes genoux,
+<lb />C’eſt ce que veut de nous noſtre ſort déplorable,
+<lb />Vous eſles malheureux &amp; n’eſtes point coupable,
+<lb />Mais il faut oubliant la naiſſance &amp; le nom,
+<lb />Trahit vo lre innocence &amp; demander pardon;
+<lb />Puis qu’il le veut ainſi, pourquoy mettre en ba
+<lb />lance
+</sp>
+<sp type="MainZone-Sp"><lb />Le peril d’vn combat &amp; voſtre oberſſance?
+<lb />HERMENIGILDE.
+<lb />Que ie ſuis malheureux en mon auerſité
+<lb />D’eſtre encor ſoupçonné de cette laſcheté.
+<lb />Ah! de ma liberté la trop indigne voye I
+<lb />Aux dépends de l’honneur iniuſte &amp; fauſſe ioye?
+<lb />Qu’ay-ie fait, 6 grand Dieu! quel crime ay-ie
+<lb />commis
+<lb />Que ma femme deuienne vn de mes ennemis?
+<lb />D'vn crime ſuppoſé l’adueu ſeroir vn crime,
+<lb />Et ma peine auſourd' huy deuiendroit legitimę;
+<lb />Mais libre ie ſuis né, libre ie veux mourir.
+<lb />Sans qu'vne laſcheté me vienne ſecourit:
+<lb />Si tout nous abandonne en nos perils extrémes,
+<lb />Demeurons pour le moins les maiſtres de nous?
+<lb />meſmes,
+<lb />Que la bouche iamais ne demente le cœur<lb />Et mourons les vainqueurs au milieu du Vainqueur.
+<lb />Ne m’en parlez-donc plus voſtre conſeil m’oa<lb />trage j
+<lb />Si r’ay peu de fortune au moins i’ay de coura,
+<lb />Et quelle ſeureté peut-on m’auoir promis;
+<lb />Quelle foy rencontrer parmy mes ennemis?
+<lb />Où trouuer le pardon qu’on veut que ie demande
+<lb />Si le Prince obeyt, ſi ſa femme commande?
+<lb />Si l’on n’eſcoute point l’amour ny la raiſon?
+<lb />Si tout eſt criminel? ſi tout eſt mahiſon?
+<lb />Commandez-moy plutoſt de donner cent batail;
+<lb />les,
+<lb />De mourir conſtamment au pied de nos murail<lb />les;
+<lb />I'ayme mieux dans le choix de ce commandement
+<lb />Mourir auec honneur que viure laſchement: *.
+<lb />Le Roy ne veut de moy cette action infame
+<lb />Que pour iuſtifier les crimes de ſa Femme,
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />VN GARDE, HERMENI.
+<lb />GILDE, INDE<lb />GONDE.
+</p>
+<sp type="MainZone-Sp"><lb />LE GARDE.
+<lb />E Prince Recarede à la porte arreſté
+<lb />EDemande à vous parler.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Qu’il vienne en ſeureté?
+<lb />Allez, faites ouurir Capitaine des Gardes
+<lb />C’eſt mon frere; &amp; é'eſt luy Sceptre que tu res
+<lb />gardes.
+<lb />Quelque ſoin que ce frere ayt de me ſecourir,
+<lb />ſi ie ne vis en Prince, en Prince il faut mourin
+<lb />Lt qu'aucune raiſon ne me donne l'enuie
+<lb />Par vne laſcheté de conſeruer ma vie.
+<lb />Tant qu’il voudra de moy de laſches actions
+<lb />Ie n’eſcouteray point ſes propoſitions.
+<lb />Qui demande pardon meritoit vn ſupplice,
+<lb />On me parle de grace &amp; moy ie veux iuſtice.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV
+<lb />RECAREDE, HER.
+<lb />MENIGILDE,
+<lb />INDEGONDE.
+</p>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />E la part de mon Roy voſtre pere &amp; le mien,
+<lb />U le fais auecque vous ce dernier entretien:
+<lb />Il eſt encor en vous d’appaiſer la tempeſte
+<lb />Dont le coup dangereux menaſſe voſtre teſte.
+<lb />Car quoy que dans ce iour elle doiue éclatter
+<lb />Elle eſt daiis vne main qu’vn fils peut arreſter ;
+<lb />Il n’eſt point contre vn Roy d’armes qui ſoient
+<lb />proſperes,
+<lb />Le Ciel entre touſiours en la cauſe des Peres;
+<lb />Mais quand l’aueugle ſort qui conduit les com<lb />bats
+<lb />Par la cheute d’vn Roy vous rendroit ſes Eſtats
+<lb />Quels funeſtes lauriers! &amp; quelle triſte gloire!
+<lb />Il vous faudroit porter le deüil de la Victoire,
+<lb />Plaindre voſtre triomphe &amp; le moüiller de pleurs,
+<lb />Et mourir de regret apres tant de malheurs.
+<lb />Penſez pour rappeller voſtre party du noſtre
+<lb />Que le ſang de ce Prince eſt la ſourée du voſtre,
+<lb />Que pour vous obliger encor plus que du iour
+<lb />Sa main vous a donné l’objet de voſtre amour
+<lb />Quand le myſtere ſainct d’vne eſtrainte feconde
+<lb />Attacha voſtre vie à celle d’Indegonde;
+<lb />Pouuez-vous conſeruer apres ce ſouuenir
+<lb />Le deſſein de combattre &amp; celuy de punir?
+<lb />Quoy que ſenſiblement la Reyne vous outrage
+<lb />Mon frere, croyez-moy, quittez ce grand courage;
+<lb />Rendez Seuille au Roy qui ſe tient offenſé,
+<lb />Et pour vous pardonner vous veut voir abaiſſé;
+<lb />De cette humilité doit naiſtre voſtre gloire,
+<lb />Sans répandre de ſang vous aurez la Victoire,
+<lb />Et l’eſpoir de regner que vous teniez perdu
+<lb />Satii ia ibit d’vn Soldat Vous peut-eſtre rendu.
+<lb />Pour ſuiure mes conſeils vous auez l’auantage
+<lb />D’auoir d’vn pere Roy la parole pour gage.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Le ſoupçon du periltient vos ſens arreſtez,
+<lb />Mais que redoutez-vous apres ces ſeuretez?
+<lb />Pouuez-vous conſeruer quelque reſte de craind
+<lb />Apres la foy des Rois inuiolable &amp; ſaincte?
+<lb />Ie vous en prie encor par voſtre cher enfant,
+<lb />Qui mourra malheureux s’il ne vit triomphant,
+<lb />Pir l’amour d’vne femme, &amp; les pleurs d’vne
+<lb />mere,
+<lb />Et puis qu'en voſtre Roy vous trouuez voſtre pere,
+<lb />Que l’amour ſe rencontre auecque le pouruoir,
+<lb />Eſperez tout du Prince &amp; de voſtre deuoir.
+<lb />Donc de tant de malheurs interrompez la courſe,
+<lb />Et puiſez auiourd'huy la grace dans ſa ſource,
+<lb />Mettez les armes bas, Seigneur, rendez ces lieux;
+<lb />Et conſeruez ce ſang pour le répandre mieux,
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILD'E.
+<lb />Hé bien! vous le voulez de puiſſance abſoluë,
+<lb />It n’y reſiſte plus mon ame eſt reſoluë,
+</sp>
+<sp type="MainZone-Sp"><lb />Inae gonde.
+<lb />Mais, &amp; ſouuenez-vous de ce dernier diſcouri;
+<lb />Mon frere, quoy qu’on faſſe, on en veut à mei
+<lb />iours,
+<lb />Et vous teconnoiſtrez que par cét artifice
+<lb />La Reyne pour me perdre attend que i’obeïſle;
+<lb />Lors vous verrez l’effect du ſuccez attendu,
+<lb />Lots vous ſerez trompé, lors ie ſeray perdu:
+<lb />Mais ſuiuant ce conſeil funeſte ou fauorable,
+<lb />Ouy ie rendray Seuille &amp; me feray coupable;
+<lb />Si ie fais quelque choſe indigne de mon ranf
+<lb />I’obeïs à la voix de l’amour &amp; du ſang.
+<lb />Sr le ſuccez m’arriue ainſi que l’on l’eſpere,
+<lb />I’obeïs à la voix d’vne femme &amp; d'vn frere?
+<lb />Si malgré ces ſermens on me manque de foy,
+<lb />l'obeys à la voix &amp; d’vn pere &amp; d’vn Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Ce ſont illuſions que la crainte a tracées,
+<lb />Des fantoſmes depeur qui troublent vos penſées;
+<lb />Le Roy reprend le cours de ſes affections,
+<lb />Et la Reyne finit ſes perſecutions.
+<lb />Viuez donc en repos, que voſtre eſprit ſoit calmé
+<lb />Apres tant de Cyprez vous receurez la Palme;
+<lb />Mais c’eſt trop reſiſtet aux faciles moyens
+<lb />Qui vous donnent vn Sceptre &amp; vous rendent vos
+<lb />biens.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ha! ne me parlez point de biens &amp; de Couron;
+<lb />ne
+<lb />Ie preuoy mon malheur, &amp; vous les a' andonne,
+<lb />Mon cœur craint plus le mal qu’il n’eſpere le
+<lb />bien ;
+<lb />Vous me promettez tout, on ne me rendra rien.
+</sp>
+<sp type="MainZone-Sp"><lb />NDEGONDE.
+<lb />Seigneur, eſperez mieux de la fin de nos peines,
+<lb />Les paroles des Rois ſont toutes ſouueraines,
+<lb />Le Prince eſt obligé de nous garder la foy
+<lb />Et quand il a parlé ſa parole eſt ſa loy.
+<lb />Mais ſi pour ces raiſons vous ne quittez les as,
+<lb />mes,
+<lb />12
+<lb />Si vous voulez combatire au moins voyez mes
+<lb />larmes;
+<lb />D’elles ſeules, Seigneur, ie ſuiuray vos combats
+<lb />Soit que le ſort ſuccede ou ne ſuccede pas;
+<lb />Quel eſpoir reſte-il alors que la Victoire.
+<lb />Eſt vn obiect de pleurs beaucoup plus que de gloire?
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Pleurs, éloquantes pleurs, grand ſouuenir d’amour.
+<lb />Puiſſant diſcours des yeux, nuages d’vn beau iour
+<lb />Ie ſeray criminel ſi ie ne vous eſſuye;
+<lb />Ie cede à ſon auis quand le voſtre l’appuye.
+<lb />Ouy ie me rends, Madame,, &amp; vous veux témoi<lb />gner
+<lb />Qu'en vous obeïſſant ie m’eſtime regnet i
+<lb />Voſtre ſeul intereſt me fit prendre les armes,
+<lb />ladentanuot dd lang pour elluyer vos larmes i
+<lb />Mais puis que vous craignez les choſes à venir
+<lb />Celle qui meut mon bras peut bien le retenir y
+<lb />Irop heureux ſi la Reyne eſtouffant ſon enuie
+<lb />Nous accorde du moins le repos &amp; la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Ces ſouhaits ſont pour ceux à qui vous comman;
+<lb />dez,
+<lb />lous aurez beaucoup plus que vous ne demandez,
+<lb />l’eſt trop peu que de viure &amp; c’eſt choſe commune,
+<lb />ſais de viure &amp; regner c’eſt-la voſtre fortune;
+<lb />ſperez la mon freie, &amp; penſez que de droit
+<lb />oſtre pere Monarque &amp; l’Eſtat vous la doit:
+<lb />luſſi de cette part ie vous porte aſſeurance
+<lb />que vous partageręz la Royale puiſſance,
+<lb />i que du haut du thrône où s’affiſent les Rois,
+<lb />inſi qu’auparauant vous donnerez des loixs
+<lb />eſt-là viure &amp; regner que viure de la ſorte.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />i la haine ceſſoit ou deuenoit moins forte.
+<lb />e pourrois eſperer vn thrône qui m’eſt deu i
+<lb />t remontęr vn iour d’où ie ſuis deſcendu;
+<lb />ſais quoy qu’on me promette on le fait par maxi<lb />1.
+<lb />Et la Reyne en vn mot veut acheuer ſon crime;
+<lb />I’obeys toutesfois, &amp; puis qu’on me veut voir.
+<lb />Pour me remettre en grace aux termes du deuoir
+<lb />Vous pouuez aſſeurer &amp; la Reyne &amp; mon pere
+<lb />Que ie demanderay le pardon que i’eſpere,
+<lb />Et que pour cét effect ce cœur s’humiliant
+<lb />Ils verront à leurs pieds vn Prince ſuppliant;
+<lb />Eſt-ce aſſlez?
+</sp>
+<sp type="MainZone-Sp"><lb />REGAREDE.
+<lb />Ouy mon frere, &amp; c’eſt ce qu’on demindei
+<lb />Enfin, graces au Ciel, voſtre victoire eſt grande,
+<lb />Et pour vous faite rendre vn floriſſant Eſtat.
+<lb />Vous auez appris l’art de vaincre ſans combat;
+<lb />Nous verrons auiourd’huy la fin de nos querelles,
+<lb />Ie vais eſtre porteur de ces bonnes nouuelles,
+<lb />Preparez-vous touſiours à receuoir le Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENTGILDE.
+<lb />Il faut donc voir la Reyne &amp; receuoir ſa loy!
+<lb />Ha, Madame! iugez quelle eſt voſtre puiſſance,
+<lb />Vous me faites quitter le cœur de ma naiſſance,
+<lb />Et quand pour vous vanger ie veux armer mon bras,
+<lb />Si-toſt que vous parlez ie mets les armes bas.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Que ce iour eſt pour vous plein d’honneur &amp; de
+<lb />gloire
+<lb />Qui ſur vos paſſions vous donne la victoire.
+</sp>
+<p type="MainZone-Other"><lb />Fin du premier Acte.
+</p>
+<p type="MainZone-Head"><lb />ENE I.
+<lb />HERMENIGILDE, IN<lb />DEGONDE, LEVIGILDE,
+<lb />GOISINTHE, RECARE<lb />DE, CLEONTE.
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGHLDE.
+<lb />RAND Prince à vos genoux
+<lb />vous voyez vos enfans
+<lb />Non plus comme autresfois pom<lb />peux &amp; triomphans
+<lb />Au iour de mon hymen le plus
+<lb />beau de ma vie,
+<lb />MMD Mais deux triſtes obiets &amp; de
+<lb />haine &amp; d’enuie;
+<lb />Le malheur to tesfois de ma fortune eſt tel
+<lb />Qu’il faut qu’vn innocent deuienne eriminel:
+<lb />Car on veut que ma voix non ſeulement tefuſe
+</sp>
+<sp type="MainZone-Sp"><lb />De me deffendre, Sire, il faut qu’elle m'aecuſe;
+<lb />Voicy donc deuant vous ce coupable arreſté
+<lb />Ce Prince criminel, ce ſuiet reuolté,
+<lb />Si la loy de l’Eſtac vous demande ſa teſte
+<lb />Commandez ſeulement, la voila toute preſte,
+<lb />Trop heuroix s’il euſt peu mourir au meſme iour
+<lb />Qu’en voſtre cœur pour luy l’on vid mourir l’a<lb />mour.
+<lb />Met yeux n’euſſent point veu cette triſte auantu,
+<lb />Ie3
+<lb />Qui bleſſe l’amitié, les loix &amp; la nature,
+<lb />Dũ pere &amp; de ſon fils les eſprits diuiſez
+<lb />Les ſentimens du ſang pour le ſang épuiſer,
+<lb />Ce Soleil pour mes iours ſi foible dans ſa courſe,
+<lb />Et ce torrent d’amour tary iuſqu’à ſa ſource.
+<lb />Indegonde le ſang de tant d’illuſtres Rois,
+<lb />Le chef-d’œuure du Ciel, celuy de voſtre choix
+<lb />N’auroit pas veu ſuruiure à ſa honte derniere
+<lb />Ce eœur qui ſeroit mort en ſa gloire premiere:
+<lb />Mais le Ciel a permis qu’on doutaſt de ma foy,
+<lb />Qu’on creut que i’en voulois au thrône de mon
+<lb />Roy,
+<lb />Et voſtre Maieſté pour m’oſter ma deffence
+<lb />Met le ſceau ſur ma bouche &amp; m’impoſe ſilence:
+<lb />Ie pourrois demander iuſtice à voſtre nom,
+<lb />Mais on veut que le crime appelle le pardon,
+<lb />Ouy, ie demande grace &amp; mon bonheur inſigne,
+<lb />Eſt de la receuoir &amp; de m’en croire indigne.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Nous auons meſme cœur tous deux &amp; meſme voix.
+<lb />Ce Prince infortuné vient de parler pour trois,
+<lb />Pour luy, mon fils &amp; moy: ces trois illuſtres teſtes
+<lb />Vous demandent le port apres tant de tempeſtes,
+<lb />Penſez à leur naiſſance ainſi qu’à leurs trauaux,
+<lb />Et tariſſez grand Roy la ſource de leurs maux.
+<lb />Vous auez le pouuoir de punir ou d’abſoudre,
+<lb />Mais les ſoumiſſions ne forment pas la foudre,
+<lb />La vapeur de l’encens deſarme l’immortel
+<lb />Et s’il porte vn tonnerre il le quitce à l’Autel.
+<lb />ſue, conſiderez deux ans de ſeruitude,
+<lb />Et qu'enfin nous ſouffrons le mal par habitude,
+<lb />Que l’on nous méconnoit &amp; mon Eſpoux &amp; moy.
+<lb />Et que tous deux pourtant auons vn pere Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE:
+<lb />Puis que de voſtre part ie voy l'obeyſſanee,
+<lb />Le paſſé deſormais ie paſſe ſous ſilence,
+<lb />Et pour vous pardonner i’écoute encor la voix
+<lb />De l’amour &amp; du ſang qui fait taire les loix;
+<lb />Par celles de l’Eſtat vous eſtiez ma victime;
+<lb />Mais quoy le criminel fait pardonner au crime,
+<lb />Indegonde ſans doute attire ma pitlé,
+<lb />L’obiet de voſtre amour l’eſt de mon amitié,
+<lb />Et toute ma colere à ce coup diuertie
+<lb />Ie ne puis perdre vn tout dont elle eſt Ta partie;
+<lb />Ouy vos ſoumiſſions ont deſarmé ma main,
+<lb />Et appeller la grace &amp; l’amour dans mon ſein.
+<lb />quercomeir preniez-vous de me faire la guette?
+<lb />Mon corps quoy que mourant vous peſoit- il ſur
+<lb />terre,
+<lb />Et ne deuiez-vous pas en mon &amp;g-penchant
+<lb />Adorer le Soleilencore que couchant?
+<lb />Quand le ſort du ſuccez m’euſt derobé la gloire
+<lb />N’euſſiez-vous pas rougy d'vne telle victoire?
+<lb />Auriez-vous bien peu voir voſtre pere enchaiſné,
+<lb />Vous demander le iour luy qui vous l’a donné?
+<lb />Mais nous ſommes exemps de toutes ces alarmes,
+<lb />Et mon amour n’a rien laiſſé faite à mes armes,
+<lb />Si mon bras ſçait punir, mon cœur ſçait pardon;
+<lb />net
+<lb />Et la guerre &amp; la paix égallement donner:
+<lb />Mais de mes ennemis perdez l'intelligence,
+<lb />Et n’armez voſtre bras iamais qu’à ma deffenſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ie ne me deffends point, toutesfois ie le puis,
+<lb />Vous me croyez coupable ouy. Sire, ie le ſuis,
+<lb />Ji voſtre Maieſté conçoit cette creance
+<lb />le commence à doute de ma propre innocen<fw><lb />B ij
+</fw><lb />Les Rois ſont peu trompez aux ſentimens qu'lls
+<lb />ont,
+<lb />Leurs ſubiects ſont touſiours ce qu’ils penſent qu’il<lb />ſont,
+<lb />Eux ſeuls nous font icy valoir ce que nous ſom<lb />mes,
+<lb />Et le Ciel en leurs mains a mis le pois des hom<lb />mes.
+<lb />Accuſé que ie ſuis je fus pourtant vn iour
+<lb />Le lien bien-heureux qui ioignit voſtre amour;
+<lb />Le grge precieux d’vne flimire loyale
+<lb />Et le fruict couronné d’vne couche Royale,
+<lb />I’ay veſcu cependant de meſme qu’vn banny
+<lb />Malheureux innocent, &amp; toutesfois puny.
+<lb />S’il faut par mon trépas contenter voſtre enuie,
+<lb />Ie ſuit deſia guery du deſir de la vie,
+<lb />Mes ennuis tous les jours m’apprennent à mourit
+<lb />Si cette mort vous plaiſt l’on m’y verra courir:
+<lb />Que ſi i’en ſuis touché c’eſt quand ie conſidere,
+<lb />Qu’au temps où ie me vois ie ſuis Eſpoux &amp; Peres
+<lb />Mon amour ſans bleſſer ma generofité
+<lb />Permet bien à mon cœur ce traict de pieté.
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE.
+<lb />De cette heurcuſe paix ie partage la ioye,
+<lb />Le Ciel en ſoit beny, c’eſt luy qui nous l’enuoye,
+<lb />Qui comble mes ſouhaits &amp; qui fait en ce iour
+<lb />D'vn theatre de guerre vn theatre d’amour.
+<lb />I’ay pleuré les maveurs qui ſuiuoient voſtre ab<lb />ſence,
+<lb />Contre vn pere irrité i’ay pris voſtre deffenſe;
+<lb />Et lors que ſa iuſtice agiſſoit contre vous,
+<lb />I’ay deſarmé ſon bras &amp; calmé ſon couroux:
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Si pour tant de bontez ie n’ay point de harangue.
+<lb />Que mon cœur vous ſuffiſe au deffaut deima langue,
+<lb />le l’engage, Madame, à maintenir ma foy,
+<lb />Et vous rendre l’amour que vous auez pour moy,
+<lb />Par vous ie voy le port apres vn grand orage
+<lb />Et c’eſt voſtre ſecours qui fait ceſſer l’outrage.
+<lb />gans vous l’on nous verroit &amp; mon Eſpouſe &amp; moy
+<lb />L'object de la iuſtice &amp; du courroux d’vn Roy:
+<lb />Mais c’eſt voſtre bonté qui fait tous ces miracles
+<lb />Et qui force pour moy toute ſorte d’obſtacles.
+<lb />Q vous Roy genereux: à quilie dois le iour,
+<lb />Vous qui pour vos enfans rappellez voſtre amour,
+<lb />lugez par mon reſpect de ma reconnoiſſance;
+<lb />La grandeur du bien fait demande le ſilence,
+<lb />Et de mes ſentimens la voix &amp; la chaleur
+<lb />Ne ſe peut expliquer qu’en langage de cœur,
+<lb />Cœur qui tient de vous ſeul &amp; mouuement &amp; vie,
+<lb />Cœur qui prent la parole &amp; qui vous remercie,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Enfin le Ciel a fait reüſſir mes ſouhaits
+<lb />Et me fait voir le iour qui vous donne la paix,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Mon fils, viuez en Prince &amp; de grandeur égale
+<lb />Partagez auec moy la puiſſance Royale,
+<lb />Et comme auparauant aydez-moy deſormais
+<lb />A ſouſtenir du Sceptre &amp; l’honneur &amp; le faix:
+<lb />Mais &amp; pour mieux encor confirmer voſtre grace,
+<lb />Approchez mes enfans &amp; que ie vous embraſſe,
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE, bas.
+<lb />Ce fauorable accueil te ſera cher vendu,
+<lb />Taruyne eſt iurée, &amp; le piege eſt tendu.
+<lb />Et tu verras bien-toſt éclatet ſur ta teſte
+<lb />De mon iuſte courroux la derniere tempeſte,
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HERMENIGILDE
+<lb />RECAREDE.
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGIEDE.
+<lb />Our vous remetciet ainſi que ie le dois
+<lb />TCher frere, i’ay du cœur &amp; ie n’ay point de
+<lb />Reix ;
+<lb />Vous rendez auiour d’huy par certe paix proſpere
+<lb />Et le pere à ſon fils &amp; le fils à ſon pere,
+<lb />Le repos à l’Eſtat, tous les peuples contents,
+<lb />Pourueu que ce bonheur puiſſe durer long tempst
+<lb />Pour toutes ces bontez qu’en vn frere i’admire
+<lb />Ie vous offre le rang qui m’aſſeure l’Empire,
+<lb />Ie ſuis né le premiet, vous eſtes né plus tand
+<lb />Ie vous donne par choix ce que i’eus par hazaid:
+<lb />Sans offenſer les loix en pareille auanture
+<lb />Mon amour pourra bien ce que peut la naiure.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Vous ſaites trop d’eſtat d’vn ſeruice rendu,
+<lb />Vous m’en remerciez, mais il vous eſtoit deuz
+<lb />Puis qu’il a reüſſi ſelon mon eſperance,
+<lb />La gloire du ſuccez en eſt la recompenſe;
+<lb />Et ie ſuis plus heureux que je ne fus iamais
+<lb />D’acheuer vn ouurage &amp; d’amour &amp; de paix.
+<lb />Viuez-donc pour regner, les droits de la Couronne
+<lb />Ne ſe cedent iamais, c’eſt le Ciel qui les donne,
+<lb />Et qui graue les traits de la Diuinité
+<lb />Sur cæluy qu’il appelle au nom de Maieſté;
+<lb />Il faut qu’vn peuple entier flechiſſe à ceite maique
+<lb />Imprimée en naiſſant ſur le front d’vn Monarque;
+<lb />Et l’homme ainſi choiſi pour luy donner la loy.
+<lb />Ne peut quitter l’honneur de cet Auguſte employ
+<lb />Sans mépriſer la mai qui luy donnne vn tonnerre
+<lb />Et fait vn vaiſſeau d’or d'vn ouurage de terte.
+<lb />Vous eſtes deſormais au deſſus du malheur,
+<lb />Et la ioye auiourd’huy ſuccede à la douleur.
+<lb />Enfin voſtre moitié digne ſang de la France
+<lb />Va poſſeder en paix l’honneur de ſa naiſſancez
+<lb />Et comme elle peut ſeule animer vos plaiſirs
+<lb />Voſtre proſperité va paſſer ſes deſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Il n’eſt rien d’éleué qui ne craigne la cheute,
+<lb />Plus on eſt en haureur &amp; plus on eſt en butte;
+<lb />La foudre de ſes coups eſpargne les valons
+<lb />Et ne ſrappe iamais que la cime des mons.
+<lb />Il ſemble que ce iour doiue finir ma peine,
+<lb />Mais ma ſortune tremble &amp; ie crains fort la Reynei
+<lb />Sous ſes feints complimens mes yeux ont veu parles
+<lb />3onhtrnouir; daiphe de bien diſſimuler.
+<lb />Ie crains tout d’vne femme &amp; d’vne belle-mere,
+<lb />Ie connois ſon Empire &amp; ce que peut mon perẽ,
+<lb />La Reyne de l’Eſtat gouuerne le vaiſſeau,
+<lb />Elle porte le Sceptre &amp; le Roy le bandeau,
+<lb />Si bien qu’en cette paix ie voy peu d’aſſeurance,
+<lb />La Reyne eſt ſans amour &amp; le Roy ſans puiſſancel
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />L'vn &amp; l’autre pourtant vous témoignent aſſez
+<lb />Qu’ils veulent oublier les deſordres paſſez;
+<lb />Mais ſans que touresfois i’approuue voſtre crainte,
+<lb />Quand la Reyne pour vous n’auroit qu’vne amour.
+<lb />feinto,
+<lb />A quoy que ſon eſprit ſe porte contie vous,
+<lb />Que peuuent acheuer ſa haine &amp; ſon courroux?
+<lb />Car ne preſumez pas contre toute apparence
+<lb />Que le Roy ſoit iamais de ſon intelligence,
+<lb />Le Prince a plus de ſoin de maintenir ſa ſoy,
+<lb />Et pour eſtre fidelle il eſt &amp; pere &amp; Roy.
+<lb />Chaſſez-donc de l’eſprit cette peur importune,
+<lb />Qui vient troubler encor voſtre bonne fortunes
+<lb />staille eſpand des fleurs de l’vn à l’autre beur
+<lb />A iiij
+<lb />Vous vous faites la guerre &amp; la paix eſt par tour.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Pourueu que le ſuccez à mes ſouhaits reſponde,
+<lb />Ie m’eſtime auiourd’huy le plus heureux du monde.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CLEONTE, HERMENI<lb />GILDE, RECAREDE.
+</p>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />Eigneur, toute la Cour murmure contre vous;
+<lb />DDeſia voſtre bon-heur a trouué des ialoux;
+<lb />On dit que quelque paix que vous feignez de ſai<lb />6e,
+<lb />Vous voulez eſtre Roy par le tréſpas d’vn peren
+<lb />On parle d’vne lettre eſtrite à l’Empereur,
+<lb />Que la Reyne, dit-on, a ſurpriſe au porteur,
+<lb />Et qu’enfin vous rendiez cette place à Tybere.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Que vous auois-ie dit? Ie ſuis perdu, mon frere,
+<lb />Et la Reyne pour voir reüſſir ſon deſſein,
+<lb />Me ſuppoſe vne lettre &amp; contrefait mon ſeing:
+<lb />Non, non, i’eſpere en vain releuer de ma cheute,
+<lb />Ilfaut iuſqu’à la fin que l’on me perſecute.
+<lb />Credule que ie ſuis! vn pere me ſurprend!
+<lb />Et la foy qu’il engage eſt le piege qu’il tend !
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />En ces ſortes de bruits la Cour eſt ſi fertile,
+<lb />Que de n’en croire point eſt bien le plus vtiley
+<lb />N’ayez point la-deſſus voſtre eſprit arreſté,
+<lb />Le peuple en ſes diſcours n’a point de fermeté;
+<lb />Des ſecrets de l’Eſtat l’hiſtoire non conneuë
+<lb />Eſt dans le cœur du Prince ainſi que dans la nuë,
+<lb />Li dehaine ou d’amour ſe forme ſans eſclat
+<lb />Le foudre qui punit ou qui deffend l’Eſtat;
+<lb />Peu deſſus la montagne entrent en conferen?
+<lb />ce
+<lb />Le peuple la regarde auecque reuerence,
+<lb />Et ne penetre point d’vn eſprit curieux
+<lb />Ce que le Souuerain veut cacher à ſes yeux.
+<lb />Ainſi quand voſtre perteiy ſeroit arreſtée,
+<lb />(Mais deſtourne le Ciel qu’elle y ſoit proiei,
+<lb />tée,)
+<lb />Qui peut auoir appris ſans eſtre bien deceu,
+<lb />Ce que le Prince ſeul &amp; ſon Genie ont ſceu?
+<lb />Outre que voſtre paix eſt trop bien affermie,
+<lb />2
+<lb />Et que la Reyne enfin n’eſt point voſtre enne?
+<lb />mie.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Vous la connoiſſez mal, c’eſt dedans ce moment
+<lb />Que cette paix me liure à ſon reſſentiment;
+<lb />Ce n’eſt que de ſa part que ie crains quelque tras
+<lb />me,
+<lb />Car elle me hait tant, elle hait tant ma Fem,
+<lb />me,
+<lb />Qu’il eſt bien mal aiſé que ſon cœur en ce ious
+<lb />Sur des cendres de haine allume de l’amour.
+<lb />Mais grace à l’immortel i’ay beaucoup de conſtan,
+<lb />ce
+<lb />Ie veux que mon courage égale ma naiſſan<lb />Ct
+<lb />Et preſt de tout ſouffrir de mon ſort inhu<lb />main
+<lb />Paroiſtre Souuerain dans vn mal ſouuerain.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Vos ſoupçons criminels font iniure mon fie<lb />re
+<lb />A la foy d’vn grand Prince, à l’amour d’vn box
+<lb />nue:
+</sp>
+<p type="MainZone-Lg"><lb />Des plus beaux de nos iours ce iour eſt le plas
+<lb />besu,
+<lb />On vous fait des Autels, vous penſez au tom<lb />beau,
+<lb />Vous craignez le Cyprez quand vous voyez la
+<lb />palme,
+<lb />Vous redoutez l’orage alors que tout eſt cal<lb />me,
+<lb />Et tout vous ſuccedant de meſme qu’il vous
+<lb />plaiſt
+<lb />Vous n’eſtes pas contant quand tout le monde
+<lb />l'eſt.
+<lb />Mais quand la Reyne enfin violente &amp; cruelle;
+<lb />Ne voudroit pas quitter cét eſprit de querelle,
+<lb />Entendroit-on le bruit de ces reſſentimens,
+<lb />Parmy les cris de ioye &amp; d’applaudiſſemens,
+<lb />Dont on voit auiourd’huy retentir nos murailles,
+<lb />Comme au plus heureux iour des plus grandes be<lb />sailles?
+<lb />Eſperez bien plutoſt que ſuiuant nos ſouhaits
+<lb />Efle rendri la paix à qul nous rend la paix,
+<lb />Le temps vous apprendra que voſtre crainte eſt
+<lb />vaine!
+<lb />Et qu’elle a de l’amour autant qu’elle eut de haine,
+</p>
+<p type="MainZone-Head"><lb />SCENE IV
+<lb />ALCANDRE, HERME<lb />NIGILDE, RECARE<lb />DE, CLEONTE.
+</p>
+<sp type="MainZone-Sp"><lb />ALCANDRE.
+<lb />Ar le commandement exprez que ie reçoy,
+<lb />Tle m’aſſeure de vous, Seigneur, de par le Roy,
+<lb />Gardes approchez-vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE, ayant tiré ſon épée.
+<lb />Arreſte, ô mon eſpée
+<lb />Autresfois dans le ſang ſi vaillamment trempée
+<lb />Fer glorieux connois ta foibleſle auiourd'huy
+<lb />C’eſt vn pere qui parle, il faut baiſſer pour luy,
+<lb />Ie la rends. Ouy, ma peur ſans doute eſtoit bien
+<lb />vaine,
+<lb />La Reyne a de l’amour autant qu’elle eur de haines
+<lb />Hé bien ! mon frere, hé bien?
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Le cœur preſſé d’ennuis,
+<lb />Ie ne vous puis répondre en l’eſtat où ie ſuis;
+<lb />Que puis ie dire icy qui n’offenſe mon pere?
+<lb />Ha Prince infortuné cher &amp; malheureux frere!
+<lb />Il falloit done ainſi que ton Pere &amp; ton Roy,
+<lb />Te manquaſt à la fois, &amp; d’amour &amp; de foy?
+<lb />Mais cela ne ſe peut, tu te méprends Alcandre.
+</sp>
+<sp type="MainZone-Sp"><lb />ALCANDRE.
+<lb />C’eſt l’ordre exprez du Roy, Ie voudrois me meſ<lb />pendre.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ce m’eſt pas tout encor, il faut que nous voyons
+<lb />Vn Soleil ſans pitié perdre vn de ſes Rayons;
+<lb />Vn des Dieux de la terre abattre ſon image,
+<lb />Vn pere par le fer deſtruire ſon ouurage;
+<lb />Car enfin ie preuoy ſans eſpoir de ſecours
+<lb />Que c’eſt ce qui m’attend par la fin de mes iours;
+<lb />Vn crime commencé n’eſt rien ſi l’on n’acheue.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Quelle foy! quel ſerment! quelle paix, quelle tréve!
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENTGILDE.
+<lb />Mon cher frere ceſſez de plaindre mes malheurs,
+<lb />Car on condamnera meſme iuſqu’à vos pleurs
+<lb />Vos ſoûpirs ſont contez en ce temps miſerable,
+<lb />Si vous continuez vous deuiendrez coupable.
+<lb />Cleonte, ſi tu peux deſtourne promptement
+<lb />De ma chere Princeſſe vn pareil traittement,
+<lb />Et donne luy l’aduis que ie croy neceſſaire.
+<lb />De paſſer en Afrique &amp; ſe rendre à Tibere.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />I'obeyray, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Allons où veut le ſort;
+<lb />Soit dans vne priſon, ſoit tout droit à la mort,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE. ſeul.
+<lb />Inexorable Reyne! Impitoyable pere
+<lb />Ie ne veux plus de iour ſi ie n’ay plus de frere:
+<lb />Adieu iuſtice, amour, nature, bonne foy,
+<lb />Vous venez de mourir dans le cœur de mon Roy.
+</sp>
+<p type="MainZone-Other"><lb />Fin du ſecond Acte.
+</p>
+<p type="MainZone-Head"><lb />CENE I
+<lb />LEVIGILDE, ET QVATRE
+<lb />IVGES.
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Vous qui de mes loix eſtes depoſi<lb />taires
+<lb />Qui girdez de l'Eſtat les auguſtes
+<lb />Myſteres,
+<lb />Souuerains Magiſtrats, Iuges, vi<lb />quantes loix,
+<lb />Arbitres des humains, ſoulagement des ſois,
+<lb />Vous me voyez monter au thrône de luſtice,
+<lb />Pour nous parler d’vn erime &amp; iuger du ſupplice.
+<lb />Le coupable eſt illuſtre, &amp; de meſme que moy
+<lb />Qui luy donné le iour naſquit pour eſtre Roy;
+<lb />Ouy, c’eſt mon fils ingrat qui contre moy s’ani<lb />me,
+<lb />C
+<lb />Qui medite ma mort pour regner par vn crime;
+<lb />Et pour ſe voir plutoſt en mon thrône éleué
+<lb />Veut finir de mes iours le cours preſque acheué:
+<lb />I’ay dequoy le conuaincre en ſa propre eſcriture,
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREMIER IVGE.
+<lb />Sire, le crime eſt grand, il trouble la nature,
+<lb />Mais pour le croire il faut, comme il eſt ſans pa;
+<lb />reil,
+<lb />Qu’il paroiſſe à nos yeux plus clair que le Soleil;
+<lb />Pour auoir de tout point la preuue indubitable,
+<lb />Pratiquons la couſtume, entendons le coupable,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Il eſt iuſte; &amp; le veux qu’on le faſſe venir.
+<lb />Et pour mieux le conuaincre &amp; pour mieux le pu;
+<lb />nir,
+<lb />Ce iour ſera celuy d’vne grande tempeſte.
+<lb />Alcandre amene nous cette coupable teſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE 2. IVGE.
+<lb />Grand Prince, s’il eſt vray que le ſang reuolté
+<lb />’Attente ſur les iours de voſtre Maieſté,
+<lb />Que ſon ambitiom à voſtre thrône aſpire
+<lb />Il faut qu’vn granſ exemple aſſeure voſtre Empire
+</sp>
+<sp type="MainZone-Sp"><lb />LE 3. IVGE.
+<lb />Il ne faut pas auſſi qu’aucun reſſeniiment
+<lb />Ou de haine, ou d’enuie entre en ce iugement;
+<lb />Le congé d’accuſer que donne le Monarque
+<lb />Eſt d’vn eſtat perdu la plus certaine marque,
+<lb />Par là l’on ſe deffait de ceux qu’on n’ayme pas,
+<lb />Et les plus innocens ſont dignes du trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE 4. IVGE.
+<lb />Puis qu’vn pere auiourd’huy contre ſon fils s’ani<lb />me
+<lb />Nou, iugerons par là de la grandeur du crime;
+<lb />Et ſaus en plus ſçauoir mon ientiment eſt tel
+<lb />Qe quand vn pere accuſe, vn fils eſt criminel,
+</sp>
+<p type="MainZone-Head"><lb />SCENE II
+<lb />HERMENIGILDE, LEVI<lb />GILDE, ALCANDRE,
+<lb />Les quatre Iuges.
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />(AI ie le voy paroiſtre; approche teſte in<lb />TT gratte,
+<lb />Voy ſi dans cét Eſtat l’ambition te flatte,
+<lb />Regarde bien ce thrône où tu voulois monter,
+<lb />La foudre que ie riens que tu voulois m’oſter,
+<lb />Et par ce triſte ieu que la fortune iouë
+<lb />luge ſi tu n’es pas au plus bas de ſa rouë;
+<lb />Reconnois maintenant &amp; ton pere &amp; ton Roy
+<lb />Deſpouïllé de l’amour qu’il auoit eu pour toy.
+<lb />Falloit-il te preſſer? &amp; porter tant d’enuie
+<lb />A ce peu qui me reſte &amp; de ſang &amp; de vie?
+<lb />Mais tu voulois regner &amp; me faire mourir,
+<lb />Tybere en tes deſſeins te deuoit ſecourir;
+<lb />Il ne ſçauroit pourtant encor rien te promettre,
+<lb />Car il n’a pas receu cette effroyable lettre;
+<lb />De toute la fureur qui regne dans ton ſein,
+<lb />Eſcoute ce qu’eſcrit ta parricide main.
+</sp>
+<p type="MainZone-Head"><lb />SVPPOSE’E.
+</p>
+<p type="MainZone-Lg"><lb />L’abry d’vne paix certaine Leul
+<lb />A Qui fait icy taut repoſer,
+<lb />Tybere tu peux tout oſer,
+<lb />gilde.
+<lb />Et me mettre au thrône ſans peine,
+</p>
+<p type="MainZone-Lg"><lb />Quoy, perfide ainſi douc tu traittes ton Parleà
+<lb />pays,
+<lb />Hermer<lb />Indigne de regner aux lieux que tu trahus! nigilde.
+</p>
+<p type="MainZone-Lg"><lb />Il faut que pour toutes viſtimes Jl lit
+<lb />Vne Reyne indigne du rang
+<lb />L'ennemy iuré de mon ſang
+<lb />encor.
+<lb />Meure vne fois pour tous ces crimes.
+</p>
+<p type="MainZone-Lg"><lb />Elle viura perfide &amp; regnera touſiours, à Herme<lb />Et ton treſpas certain aſſeurera ſes iours, nigilde.
+</p>
+<p type="MainZone-Lg"><lb />Qu'vn vieillard amoureux la ſuiue; Il continuö
+<lb />N’a-il pas aſſez veu le iour?
+<lb />Il eſt bien iuſte qu’à mon tour,
+<lb />Comme luy ie regne &amp; ie viue,
+<lb />à lire.
+<lb />Ie preuiendray cruel ce dangereux deſſein, Il pour<lb />Faites luy reconnoiſtre &amp; ſa Lettre &amp; ſon ſuit Her<lb />ſeing.
+<lb />menigil<lb />Conſidere à loiſir cette deſpeſche infame de.
+<lb />Où tu traçois ma mort &amp; celle de ma femme;
+<lb />Regarde, reconnoy cét eſcrit odieux,
+<lb />Le crime de ta main le deuient de tes yeux;
+<lb />Mais voy comme le Ciel me guide &amp; t’abandon<lb />ne;
+<lb />Tu rencontre des fers au lieu d’vne couronne,
+<lb />Au lieu de tant de gloire vn trépas aſſeuré;
+<lb />N’es-tu pas dans le thrône enfin tant deſiré?
+<lb />Commande, fay mourir &amp; la Reyne &amp; ton pere,
+<lb />Qu’vne grande victime appaiſe ta colere.
+<lb />On ne t’obeyt point, malheureux Prince, &amp; quoy
+<lb />As tu ſi-toſt perdu la qualité de Roy?
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Si ie parle, grand Roy, ce n’eſt pas que i’eſpere
+<lb />Que iamais mes diſeours perſuadent mon pere,
+<lb />L’on a deſia ſigné l’Arreſt de mon trépas,
+<lb />Soit, ou que ie m’excuſe, ou ne m’excuſe pas:
+<lb />Mais il eſt de ma gloire &amp; de mon innocence
+<lb />Que l’on n’impute point ma mort à mon ſilence.
+<lb />I’auois mis apres Dieu, dont ie tiens la clarté,
+<lb />Toute mon eſperance en voſtre Maieſté;
+<lb />Ce n’eſt pas d’auiourd’huy que la Reyne m’ou<lb />trage,
+<lb />Sa haine en vieilliſſant s’allume dauantage;
+<lb />Contre tous ſes deſſeins ie n’oppoſois touſiours
+<lb />Que d’vn pere appaiſé l’amour &amp; le ſecours:
+<lb />Mai que l’homme ſe trompe aux choſes qu’il eſ<lb />pere !
+<lb />Ie ne rencontre en vous qu’vn Iuge tres-ſeuere,
+<lb />Qui monte ſur le thrône afin de m’en chaſler,
+<lb />Et qui n’eſt eſleué qu’afin de m’abbaiſſer.
+<lb />Que puis-ie deuiner du malheur qui m’accable?
+<lb />N’ay-ie plus d’innocence? oy ſuis-ie encor cou<lb />pable?
+<lb />Lors qu’au ſein de la paix mon eſprit aſſeuré
+<lb />Ne s’imaginois rien contre moy coniuré,
+<lb />Que d’vn bon-heur prochain i’auois tant de pro<lb />meſſes,
+<lb />Que vous auiez pour moy ſeulement des careſſes
+<lb />Ie viens d’eſtre arreſté fous ces trompeurs appas
+<lb />Et dans voſtre Palais &amp; preſque entre vos bras.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVTGILDE.
+<lb />Deffend-toy ſeulemenr du crime qu'on t’impoſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ie n’y penſay iamais, la Reyne le ſuppoſe;
+<lb />Quoy, Sire, croyez-vous que i’aurois proieté
+<lb />D’attenter ſur les iours de voſtre Maieſté?
+<lb />Ce crime n’eut jamais d’exemple ſur la terrę.
+<lb />Et ſa ſeule penſée eſt digne du tonnerre.
+<lb />Cette lettre eſt d’vn auire, &amp; cét eſcrit ſans ſoy
+<lb />Eſt d’vn plus criminel, mais plus heureux que moy,
+<lb />La Reyne pres de ſoy tient de ces mains adroittes
+<lb />Et ne manque iamais de lettres contrefaites.
+<lb />Ha, Sire! Si ma mere eſtoit encor au iour
+<lb />I’aurois de mon coſlé la iuſtice &amp; l’amour,
+<lb />Mon innocence icy ne ſeroit pas en peine,
+<lb />Ie n’aurois iamais eu de maratre pour Reyne,
+<lb />Et ce Soleil d’amour pour moy tant abaiſſé
+<lb />Seroit encor au cœur d’où vous l’auez chaſſé,
+<lb />Grande Reyne deſcends du ſiege de ta gloire,
+<lb />Quitte ce Ciel d’azur &amp; ce thrône d’yuoire,
+<lb />Aiſiſte à ce procez pour moy ſi dangereux,
+<lb />Et iuge ſi ie ſuis coupable ou malheureux;
+<lb />Rappelle au ſouuenir d’vn pere qui l’oublie
+<lb />Les funeſtes momens du relle de ta vie,
+<lb />Lors que nous embraſſant &amp; Recarede &amp; moy,
+<lb />Les yeux moüillez de pleurs tu coniurois le Roy,
+<lb />Par les forces d’amour qui lors ſe recueillirent
+<lb />D’empeſcher les malheurs qui depuis m’accueilli<lb />rent,
+<lb />D'eſtre pour ſes enfans vne ſource d’amour,
+<lb />Et de leur conſeruer &amp; le rang &amp; le iour.
+<lb />Nos fortunes depuis en vous ſeul appuyées,
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />Nos larmes de vos mains ſe virent eſſuyées,
+<lb />Et croiſſans ſous vos yeux dans vn Regne aſſez
+<lb />doux!
+<lb />Ie m’eſtois rendu digne &amp; du Sceptre &amp; de vous.
+<lb />Alors entre mes mains i’auois voſtre tonnerre,
+<lb />Sous mon nom ſe faiſoit &amp; la paix &amp; la guerre,
+<lb />Ce malheureux chargé de chaiſnes &amp; d’ennuy,
+<lb />Eſtoit lors de vos iours l’eſperance &amp; l’appuy,
+<lb />Et voſtre Maieſté que la vengeance inſpire
+<lb />Se repoſoit ſur luy du faix de ſon Empire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Cette ſocieté du ſouuerain pouuoir
+<lb />Au lieu des ſentimens d’amour &amp; de deuoir
+<lb />N’a produit en ton cœur qu’vn deſſein de me nuire,
+<lb />D'vſer de ce pouuoir afin de me deſtruire,
+<lb />D'vſurper mon Eſtat quand moins ie le iugeois
+<lb />Et de poſſeder ſeul ce que tu partageois,
+<lb />Mais pourſuy.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Le temps vint qu’vn lien genereux
+<lb />Dont la vie eſt eſtrainte &amp; qui fait l’homme heu<lb />reux
+<lb />Couronna mon amour du plus beau prix du monde
+<lb />Et vous donna pour bru la Princeſſe lndegonde,
+<lb />Princeſſe aſſeurément ſeule ſemblable à ſoy
+<lb />Vrinceſſe, Fille, Sœur, &amp; Niepce d’vn grand Roy,
+<lb />Ie tieus de voſtre main cette haute alliance,
+<lb />Que voſtre Maieſté me choiſit en la France;
+<lb />Mais celle dont le rang eſt fatal à l'Eſtat,
+<lb />N a pû de ce Soleil longtemps ſouffrir l'éclar
+<lb />Elle craint la vertu qui reproche ſoncrime,
+<lb />Et par cette raiſon cette femme s’anime.
+<lb />Ie ne veux point parler de l’inhumanité
+<lb />Dont la cruelle vſa contre tant de beauté;
+<lb />Des extrémes douleurs la voix eſt le ſilence,
+<lb />Quand on en parle moins mieux on dit ce qu’on
+<lb />penſe;
+<lb />Mais lors qu’on m’eut appris (helas il qui l’euſt
+<lb />penſé?)
+<lb />L.
+<lb />C. iiij
+</sp>
+<p type="MainZone-Lg"><lb />La vertu d’Indegonde en en eſtang glacé
+<lb />Ses perſecutions, l’horreur d’vn ſi grand crime
+<lb />Et le nom du Bourreau d’vne telle victime.
+<lb />Quand i’aurois employé pour vanger cet affront
+<lb />Dont deuant vous encor, Sire, rougit mon front,
+<lb />Et la flamme &amp; le fer comme i’euſſe peu faire,
+<lb />Qui lors auroit blamé l’excez de ma colere?
+<lb />Mais l’honneut que ie dois à voſtre Maieſté
+<lb />A fait que ma douleur n’a iamais éclatté,
+<lb />Mon cœur vid eſtouffer auecque patience,
+<lb />Tous mes reſſentimens en mon propre ſilence:
+<lb />Seuille en eſt témoin où ie me retité
+<lb />Atrendant pour mes iours vn temps plus aſſeuré.
+<lb />La Reyne qui me hait fait que l’on interprete.
+<lb />Et qu’on impute à crime vne luſte recraitte,
+<lb />On veut que ie m’entende auccque les Romains
+<lb />Pour vous faire tomber la Couronne des mains,
+<lb />Aiuſi perſuadé par la Reyne animéc
+<lb />Vous vinſtes m’aſſieger auecque voſtie armée,
+<lb />I’ay ſouſtenu deux ans de vos armes l'effoit,
+<lb />I’ay ſouffert plus de mal que n’en donne la mort i
+<lb />Mais par vne conſtance &amp; forte &amp; non commu<lb />ne
+<lb />I’ay ſceu reduire en art ce qu’on nomme fortu<lb />ne.
+<lb />Vous m’auez attaqué, ie me ſuis deffendu,
+<lb />On a traitté ma paix, lors ie me ſuis rendu
+<lb />A des conditions que l’eſprit le plus ſage
+<lb />Loin de les accepter eut pris pour vn outrage.
+<lb />I’ay pourtant obey, i’en ay ſuiuy la loy,
+<lb />Mais n’en induiſez point de preuue contre moy.
+<lb />Le pardon qu’on m’a fait ne prouue pas l’offenſez
+<lb />Si ie l’ay demandé ce fut par violence,
+<lb />Contre mon innocence &amp; ce que ie deuois,
+<lb />Et vous &amp; voſtre femme auez forcé ma voix!
+<lb />Pompe de cette paix, vains triomphes de ioye
+<lb />Prophete des ma heurs qu’apres la Cour m'enuoye;
+<lb />Eſpoirs nez &amp; deſtruits, triſte ouurage d’vn iour
+<lb />Phantoſme de bon-heur, fayſſe image d’amour,
+<lb />Sacrifces où pend ll glane qui me tur
+<lb />Pompe de cette paix qu’eſt-vous deueuuë?
+<lb />Pour me faire mourir pourquoy me couronner?
+<lb />Et ne me reçoit-on que pour m’abandonner?
+<lb />C’eſt à vous maintenant marques de ma miſere
+<lb />iiens qui m’enchaiſnez de parler à mon pere,
+<lb />Fers, meubles des priſons, fardeau des criminels
+<lb />Meſſagers de la peine &amp; triſtes &amp; mortels,
+<lb />Des ſupplices honteux teſmoins inſeparables,
+<lb />L’honneur des innocens, la honte des coupables,
+<lb />Declarez à mon Roy ſi vous eſtes coutens
+<lb />D'enchaiſner à ſes yeux vn Princeſi long-temps,
+<lb />Mais vn Prince innocent qui de luy tient la vie,
+<lb />Et de qui la vertu ſe connoiſt par l’enuie;
+<lb />Voila tout mon procez, voila ce que i’ay fait :
+<lb />Ie ſuis fort innocent, mais la Reyne me hait.
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Elle ne tehait pas, mais elle hait ton crime,
+<lb />Et par cette raiſon ſçache qu’elle s’anime.
+<lb />Il ne tient pas à toy qui touſiours nous trahis,
+<lb />Que tu n’oſtes ta femme à ton prorre pays;
+<lb />Ie ſçay qu’elle euſt deſſein de paſſer en Afrique
+<lb />Pour ſe rendre à Tybere &amp; c’eſt ce qui me pie<lb />que.
+<lb />Se rendre à l’ennemy du Sceprre que ie tiens
+<lb />A celuy qui combat la foy des Arriens!
+<lb />De ce qui m’appartient en faire ſa conqueſte!
+<lb />Ce conſçil dang-reux te couſtera la teſte,
+<lb />Tu veux donc acheuer tes crimes iuſqu’au bout,
+<lb />Ne diſſimule rien, perfide, ie ſçay tout;
+<lb />Cleonte eſt priſonnier &amp; ta femme arreſtée,
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Depuis qu’elle eſt ma femme elle eſt perſecutée,
+<lb />Ouy, ce ſont mes conſeils, mais ſans effect ſui<lb />uis,
+<lb />Quand ie fus arteſté ie donnay cét aduis.
+<lb />Quelle honte, ô grand Roy, qu’elle cherche vn
+<lb />azile
+<lb />Qu'elle ne peut trouuer dans le ſein de Seuille!
+</sp>
+<sp type="MainZone-Sp"><lb />Indegonde.
+<lb />Ie vous parle hardiment: le ſuis bien malheu
+<lb />reux
+<lb />Mais tout chargé de fers i’ay le cœur genereux;
+<lb />Et ſi ie l’auois moins au fort de ma miſere
+<lb />Ie n’aurois iamais ſceu que vous eſtes mon pere,
+<lb />LEVIGILDE.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas !ſi tu l’as ſceutu l'as bien oublié.
+<lb />Ces fers en ſont témoins dont tu te vois lié;
+<lb />Si ton cœur en auoit conſerué la momoire.
+<lb />Tu he te verrois pas au tombeau de ta gloire,
+<lb />Et contre le reſpect que tu dois à mes iourz
+<lb />Tu n’aurois pas penſé d’implorer du ſecours,
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Alors que voſtre ſiege eſtoit deuant Seuille
+<lb />Ie receu de Tybere vn ſecours inutile
+<lb />Au lieu de m’en ſeruir ie me viens rendre à vous,
+<lb />Et mes ſoumiſſions ont paru deuant tous.
+<lb />Les trouppes maintenant toutes congediées
+<lb />Rendent mes actions aſſez iuſtifiées:
+<lb />Si depuis i’ay rien fait digne d’eſtre repris,
+<lb />Contre vos ſacrez iours ſi i’ay rien entrepris;
+<lb />Si l’écrit que i’ay veu n’eſt le crime d’vn au;
+<lb />tre,
+<lb />Que le Ciel ioigne icy ſa iuſtice à la voſtre<lb />Regnez, sire, regnez, qu’vne femme n’ait pas
+<lb />La gloire d’auoir mis voſtre fils au trépas:
+<lb />Découurez, s’il ſe peut ſa perfidie extréme,
+<lb />Elle en veut à ma vie, elle en veut à nous-meſme!
+<lb />Elle en veut à l’Eſtat, &amp; ces choſes font foy
+<lb />Qu’elle ayme le Royaume &amp; n’ayme pas le Roy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Ha! c'eſt trop m’offenſer ame ingrate &amp; ialou<lb />ſe
+<lb />Auec plus de reſpect parle de mon Eſpouſe:
+<lb />Mais tire-moy d’vn doute, &amp; declare au Se;
+<lb />nat
+<lb />Quelle foy dans ton cœur tu tiens en mon Eſlat.
+<lb />Parle, as iu renoncé pour comble de miſeres,
+<lb />A la foy de mon peuple, à celle de tes peres?
+<fw><lb />1. –
+</fw></sp>
+<p type="MainZone-Lg"><lb />HERMENIGILDE.
+<lb />Ouy, Sire, ie l’ay fait &amp; i'y renonce encor,
+<lb />Et i’ay d’vne autre foy deſcouuejt le threſor,
+<lb />La gloire que i’en ay veut que ie le confeſſe,
+<lb />Ie dois tout ce bon-heur à ma chere Princeſſe;
+<lb />C’eſt la ſource ou ſans peur des peuples irri<lb />tez
+<lb />Mon eſprit a puiſé ces hautes verirez
+<lb />Ces myſteres du Ciel dont mon ame eſt certai<lb />ne,
+<lb />Adorables eſcueils de la ſcience humaine.
+<lb />Ie ſçay que cette foy dont mon cœur a fait choix
+<lb />Paſſe pour vn grand crime en l’eſprit de vos
+<lb />loix ;
+<lb />Mais ſçichez que ce crime au milieu des ſuppli<lb />ces
+<lb />A tait de les bourreaux quelquefois ſes compli<lb />ces,
+<lb />Sa conqueſte autresfois des plus grands Conque
+<lb />rans
+<lb />Et ſes adorateurs de ſes propres tyrans.
+<lb />Le trépas pour ce crime eſt toute mon enuie.
+<lb />Ceux qui meurent ainſi ne changent que de viei
+<lb />Que ie ſerois heureux ſi i’auois acheté
+<lb />Au prix de tout mon ſang cette immortalité!
+<lb />Ouy, Sire, pour l’honneur qu’vn ſupplice me li<lb />ure
+<lb />Si vous voulez ma mort menacez-moy de vi<lb />ure,
+<lb />Car ſi voſtre pitié me venoit ſecourit,
+<lb />Ie mourrois de regret de ne pouuoir mourir.
+<lb />Reſpandez donc ce ſang ſans que ce ſang vous
+<lb />touche,
+<lb />Et puniſlez ce cœur de l’adueu de ma bouche.
+<lb />Illuſtres Senateurs, Iuges, eſprits des loix
+<lb />Contre moy pour ma mort ie demande vos voix,
+<lb />Vous connoiſſez le crime, ordonnez du ſupplice,
+<lb />Icy le criminel vous demande iuſtice,
+<lb />Et de quelque trépas qu’on menace ſon ſort
+<lb />Sa gloire eſt en ſon crime &amp; ſa gloire en ſa morti
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />qu’on l'oſte de mes yeux, qu’on redouble ſes chaiſ<lb />nes,
+<lb />Va malheureux enfant qui fais toutes mes peines,
+<lb />Tu te vantes, perfide, afin de me trahir
+<lb />D'vne foy qui t’enſeigne à me deſobeyr,
+<lb />Du party de ton Roy le deſerteur infame
+<lb />Sans que ie deſaduouë Eſclaue de ta Femme.
+<lb />Fidelles Conſeillers ordonnez de ſon ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />LE PREMIER IVGE.
+<lb />Quoy qu’il foit voſtre fils ie conclus à ſa mort.
+</sp>
+<sp type="MainZone-Sp"><lb />LE 2. IVGE.
+<lb />Puis qu’il s’accuſe, Sire, &amp; fait gloire du crime,
+<lb />Mon aduis eſt pareil, ſa mort eſt legitime,
+</sp>
+<sp type="MainZone-Sp"><lb />LE 3. IVGE.
+<lb />Ce changement de foy le rend coupable à tous,
+<lb />Et luy rauit le droit de regner apres vous,
+<lb />Que voſtre Maieſté s’il luy plaiſt conſi lere
+<lb />Que le Ciel vous fic Prince auant qu’il vous fit Pere,
+<lb />Et que pour acheuer vn exemple d’eſclat
+<lb />Vous n’eſtes rien au ſang pour tout eſtre à l’Eſtat.
+</sp>
+<sp type="MainZone-Sp"><lb />LE 4. IVGE.
+<lb />Sire, d’vn peu de temps differez voſtre foudre;
+<lb />Mon aduis eſt d’attendre &amp; de ne rien reſoudre, à
+<lb />Le temps acheue tout, eſperez tout de luy.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Pere, que feras-tu dans vn ſi grand ennuy?
+<lb />Senateurs c’eſt aſſez, que chacun ſe te ire
+<fw><lb />SCENE
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />III
+<lb />LEVIGILDE, ſeul,
+</p>
+<sp type="MainZone-Sp"><lb />Ouuemens affoiblis reprenez voſtre Empire<lb />NENature, amour, honneur faites-moy ſouuenir
+<lb />Que c’eſt mon propre fils que mon bras va punir.
+<lb />A ce doux nom de fils que le ſang authoriſe
+<lb />Moncouroux n’a rien fait que l’amour ne deſtruiſe:
+<lb />De l’autre part ie voy ſans vn prochain ſecours.
+<lb />La cheute de mon thrône &amp; celle de mes iours,
+<lb />Le changement de foy menace ma Couronne,
+<lb />L’eremple eſt perilleux s’il faut que ie pardonne;
+<lb />La ſupréme raiſon qui regne dans l’Eſtat
+<lb />Me demande ſa reſte apres cét attentat.
+<lb />A tous ces ſentimens que le Sceptre authoriſe
+<lb />Mon amour n’a rien fait que l’éclat ne deſtruiſe.
+<lb />Ie ſuis Roy, ie ſuis pere, &amp; ie dois en ce tang
+<lb />L’exemple à mon Eſtat &amp; l’amour à mon ſang:
+<lb />Helas! qu’en m’éleuant le ſort me fut contraire:
+<lb />Pourquoy ſuis-ie Monarque? ou pourquoy ſuis-ie
+<lb />Pere?
+<lb />Que ie ſuis affligé du Sceptre que i’ay pris,
+<lb />LEt que le thrône enfin me déplaiſt à ce prix:
+<fw><lb />
+<lb />,v
+</fw></sp>
+<p type="MainZone-Head"><lb />CENE I.
+<lb />LEVIGILDE, GOISINTHE,
+<lb />RECAREDE.
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE:
+<lb />QE ne te puis mon fils accorder ta deman:
+<lb />MIIE L’Eſtat eſt en peril &amp; ſa faure eſt trop
+<lb />A3e
+<lb />grande:
+<lb />Ceſle de me prier, &amp; laiſſe agit pour toy
+<lb />Ce que peut la luſtice entre les mains d’vn Roy:
+<lb />La Couronne t’attend apres la mort d’vn frere,
+<lb />Et tu dois ſouhaitter l’effect de ma colere.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Sire, i’ay plus d’amour &amp; moins de laſcheté,
+<lb />Ie demande ſa vie à voſtre Maieſté,
+<lb />Et la demande au nom de toutes vos Prouinces
+<lb />38
+<lb />Põur le plus malheureux des enfans &amp; des Prin<lb />ces.
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE.
+<lb />Recarede, pourquoy reſiſtez vous ſi fort
+<lb />A l’eſpoir de regner que vous donne ſa mort?
+<lb />Sa cheute vous eſleue au rang qu’il abandonne.
+<lb />Et parmy ſa dépouille on treuue vne Couronne.
+<lb />Ne deſtournez-donc point l’Arreſt de ſon treſ<lb />pas
+<lb />Qui vous met en eſtat de ne le plaindre pas.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />L’amour ne ſouffre point qu’icy ie delibere,
+<lb />Ie quitte là Couronne &amp; vous demande vn
+<lb />frere
+<lb />Sire, ne perdez pas vn Prince de ce rang.
+<lb />Celuy qui comme moy partage voſtre ſang,
+<lb />Dont les mains de Lauriers &amp; de Palmes char<lb />gées
+<lb />Ont tant mis à vos pieds de Villes aſſiegées,
+<lb />Cét aymable vainqueur des peuples &amp; des cœurs
+<lb />Ce Prince infortuné plus grand que ſes mal<lb />heurs,
+<lb />Cét arbitre de paix, cette foudre de guerre
+<lb />L’appuy de voſtre Eſtat, la gloire de la terre.
+<lb />Faltes grace, grand Roy, iel’eſpete de vous
+<lb />Par ces ſacrez genoux que i’embraſſe à genoux,
+<lb />Par ce doux nom de pere, &amp; le ſang qui l’ani<lb />me,
+<lb />Par ces vaillans exploits qui furent voſtre eſti<lb />ime,
+<lb />Par ſa chere moitié l’honneur de voſtre choix,
+<lb />Par ſon fils jce ruiſſeau de la ſource des Rois,
+<lb />Ou perdez-nous tous deux d’vne cheute commu<lb />ne,
+<lb />Nous auons meſme ſang ayons meſme fortune;
+<lb />Ouy, Sire, ie ſuis preſt de ſuiure mon aiſné,
+<lb />Et vous rendre le ſang que vous m’auez donné;
+<lb />ſans luy ie tiens du Ciel les faueurs importu<lb />nes,
+<fw><lb />1
+</fw><lb />Et toutes mes grandeurs pour mauuaiſes foitu.
+<lb />nes.
+<lb />Quittez-donc cét eſprit contre vn fils animé
+<lb />Ou verſez tout le ſang que vous auez formé:
+<lb />Car dedans quelque eſtat que les choſes demeu<lb />rent
+<lb />Il faut qu’vn Prince viue ou que deux Princes meu,
+<lb />rent,
+<lb />Et que ie ſois enfin par vn ſemblable fort,
+<lb />Compagnon de ſa vie ou celuy de ſa mort.
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE.
+<lb />Princeoutre que le temps n’eſt pai ſi miſerable
+<lb />Qu’on ne ſepare bien l’innocent du coupable,
+<lb />Sçachez qu’à diuertir vn treſpas arreſté
+<lb />On ſe rend criminel de leze-Maieſté,
+<lb />Qu’on offenſe le Roy quand on deffend vn fre<lb />Et qu’il faut apres tout obeyr &amp; ſe taire.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE, reſvant,
+<lb />Ha mon fils! ha mon ſang.
+</sp>
+<sp type="MainZone-Sp"><lb />Sans le reſpect du Roy
+<lb />Reyne indigne du nom ie parlerois à toy;
+<lb />Toy ſeule, es de nos maux la ſource malheu<lb />reuſe,
+<lb />Toy ſeule veux ſa mort, ô Femme imperieu,
+<lb />Si i’obeïſſois moins tu ne me ſerois rien,
+<lb />Mais à cauſe du Roy i'honore le lien,
+</sp>
+<sp type="MainZone-Sp"><lb />Ha Sire!
+<lb />GOISINTHE.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />LEVIGILDE.
+<lb />Mouuemens d’amour &amp; de colere
+<lb />Que vous! me balancez! ſuis-ie Monarque ou
+<lb />Pere?
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Sire, vous eſtes Pere &amp; le flambeau du iour
+<lb />Ne voit point ſous les Cieux vn plus grand nom
+<lb />d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />GOISTNTHE.
+<lb />Sire), vous eſtes Prince &amp; vous auez en terre
+<lb />Pour vanger &amp; punir l’eſpée &amp; le tonnerre,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Si vous ne pardonnez le Ciel en rougira,
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE.
+<lb />Si vous ne puniſſez voſtre Eſtat perira,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />L’Eſtat a ſon appuy.
+</sp>
+<sp type="MainZone-Sp"><lb />GOÏSINTHE:
+<lb />Son appuy c’eſt l’exemple;
+<lb />Il faut perdre l’image ou voir biuſlet le Temple,
+<lb />Le Prince pour regner eſt ſeul intereſſé
+<lb />De rendre la iuſtice à ſon thrône offenſé,
+<lb />Et ſe doit détacher pour vanger ſon iniure
+<lb />muprareureits liens que ſerre la nature.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />bien qu'n meuler
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Ha ! grand Roy qu'vn reſte d’amitié
+<lb />Allume en voſtre cœur vn rayon de pitié;
+<lb />Perdez les criminels &amp; les mettez en poudre,
+<lb />Mais deſrobez vn fils aux coups de voſtre fou:
+<lb />dre;
+<lb />Vn Monarque eſt ſon Pere &amp; des Rois ſes ayeux
+<lb />Et la foudre des Dieux ne frappe pas les Dieux.
+<lb />Penſez qu’on doit vn Sceptre à ſes mains enchaiſ<lb />nées
+<lb />Et qu’il faut eſpargner les teſtes couronnées.
+<lb />Reuoquez cét A rreſt qui fait tout mon ennuy,
+<lb />Du moins que ie le voye ou que ie parle à luy,
+<lb />Si pour ſa ſeule foy voſtre courroux s’anime,
+<lb />Si ſa Religion fait ſeule tout ſon crime,
+<lb />Si vous croyez par là voſtre Eſtat en danger,
+<lb />Sire, ie me promets de le faire changer.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Ouy, ie vous le permets &amp; vous promets ſa graz
+<lb />2
+<lb />s’il vient à renoncer à la foy qu’il embraſſe,
+<lb />D iij
+<lb />Sinon vous le ſçauez ie de puis pardonner
+<lb />Attendez, par mon ordre on deuoit l’amener
+<lb />Vous le verrez bien toſt.
+</sp>
+<sp type="MainZone-Sp"><lb />GOISINTHE.
+<lb />Il y perdra ſa peine,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE, ſeul.
+<lb />Inſolente tu voy l’ouurage de ta haine!
+<lb />Tu ſouhaittes ſa mort &amp; mon pere y conſent!
+<lb />Helas! que d’ennemis à perdre vn innocent.
+<lb />Eſcoute iuſte Ciel ma genereuſe enuie
+<lb />Et conſerue ſes iours aux dépens de ma Hermeni<lb />Yie.
+<lb />gilde entre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HERMENIGILDE,
+<lb />GARDES.
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGILDEI
+<lb />9Rince que la fortune braue
+<lb />TIe regne en vn thrône de fers,
+<lb />Ie ne commande plus, ie ſers,
+<lb />De Souuerain ie ſuis Eſclaue,
+<lb />L’on ne reconnoiſt plus ny mon nom ny mon
+<lb />D rang,
+<lb />Ie ſuis ſans Couronne &amp; ſans Pere,
+<lb />Et ton bras ſans pitié me vient ouurir le flane,
+<lb />Afin que ſa Femme en colere,
+<lb />Treuus dequoy ſe fatisfaire,
+<fw><lb />–
+</fw></sp>
+<p type="MainZone-Lg"><lb />Eſpoirs de Couronne &amp; d’Empire
+<lb />Sans regret ie veux vous quitter,
+<lb />Et d’auoir pû vous meriter
+<lb />Eſt toute la gloire où i’aſpire,
+<lb />Le Sceptre comme l’eau s’écoule de mes mains?
+<lb />I’eſtois né pour portet la foudre,
+<lb />Et deſployer du thrône vn iour ſur les humainz
+<lb />Le droit de punir &amp; d’abſoudre,
+<lb />Mais la mort vient pour me diſſoudre
+<lb />Et mes eſpoirs ſe treuuent vains,
+</p>
+<p type="MainZone-Lg"><lb />Depuis que mon Pere Monarque
+<lb />Sans amour comme ſans pitié
+<lb />Entre les mains de ſa moitié
+<lb />De ſon pouuoir laiſſa la marque;
+<lb />Le peuple malheureux qui gemit ſous l’effort,
+<lb />D’vne tyrannique puiſſance
+<lb />Se plaint inceſſamment de cét iniuſte ſort,
+<lb />Qui veut qu’vne femme balance
+<lb />Et la peine &amp; la recompenſe
+<lb />Le droit &amp; de vie &amp; de mort.
+</p>
+<p type="MainZone-Lg"><lb />Tu regnes, ô ſuperbe Royne!
+<lb />Et ton eſprit né violent
+<lb />A rendu le Sceptre ſanglant
+<lb />Et par tout allumé la haine,
+<lb />Pareille à l’inſolent qui rauy de tirer
+<lb />Le char du Soleil ſur les nuës
+<lb />Ne rourut dans les airs qu’afin de s’égarer,
+<lb />Et par des routes inconnuës
+<lb />Ne ſçachant pas les auenuës
+<lb />Bruſſa tout au lieu d’éclairer.
+</p>
+<p type="MainZone-Lg"><lb />Seigneur, puiſſant Dieu de nos Peres,
+<lb />Ta main a briſé nos liens,
+<lb />Que te rendra pour tant de biens
+<lb />Mon cœut inſtruit de tes Myſteres?
+<fw><lb />D iiij
+</fw><lb />Ce que ie puis eſt peu pour ce que ie te doy:
+<lb />L’amour qui va punir mon crime.
+<lb />D’auoir ſuiuy trop tard les traces de ta loy,
+<lb />Dans vn ſupplice legitime,
+<lb />Va t’offrir mon corps en victime,
+<lb />Et de mon ſang ſceller ma foy.
+</p>
+<p type="MainZone-Lg"><lb />Ouy, i'attens le moment qui ſelon mon enuie;
+<lb />Auecque mes ennuis doit terminer ma vie.
+</p>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />RECAREDE, HERME.
+<lb />NIGILDE.
+</p>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />On frere, eſt ce de vous que i’apprens mon
+<lb />M Anen:
+<lb />Ie l’aime tout coupable &amp; tout ſanglant qu’il eſts
+<lb />C’eſt dedans mon trépas que ie treuue ma gloire
+<lb />Le champ de la bataille eſt le champ de victoi<lb />Ie bruſle de ſouffrir le ſupplice appreſté
+<lb />Puis que cette mort mene à l’immortalité,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE:
+<lb />Non, mon frere, ie viens pour me rendre coupas
+<lb />lble,
+<lb />Pour m’accuſer icy du mal qui vous accable;
+<lb />Moy ſeul vous ay chargé des chaiſnes que ie voy,
+<lb />Voes ſuiuiſtes ma foy, ie la ſuiuis du Roy,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais la foy de ce Prince eſt vne foy friuole
+<lb />Et nous ſommes tous deux trompez par ſa paru<lb />le,
+<lb />Compagnon de mon ſang, cher frere, mon aiſné,
+<lb />Faut-il donc que mes yeux vous voyent enchaiſ<lb />né?
+<lb />Hat parole d’vn Roy donnée &amp; peu tenuë,
+<lb />Foy ſans foy, faux éclat, image de la nuë,
+<lb />Exemple dangereux pour les autres mortels,
+<lb />On viole la foy iuſques ſur les Autels!
+<lb />Celle que donne vn Roy branle deſſus ce Siege;
+<lb />Et ce depoſt ſacré treuue ſon ſacrilege.
+<lb />Mais ſi par ce ſuccez funeſte &amp; malheureux
+<lb />Ie vous paroy ſans foy ie ſeray genereux;
+<lb />Dedan, mon déplaiſir voicy qui me con- Jl rire vn
+<lb />ſole,
+<lb />poignard.
+<lb />C’eſt dequoy ie rendray l’honneur à ma parole;
+<lb />Mon frere, ma douleur m’impoſe cette loy
+<lb />De payer de mon ſang pour mon pere &amp; pour
+<lb />moy.
+<lb />le veux pour vous vanger me charger de ſon cris
+<lb />me,
+<lb />Et pour deux criminels payer d’vne victime.
+<lb />Prenez, prenez ce fer, donnez le coup mortel,
+<lb />Vous voyez deuant vous la victime &amp; l’Autel,
+<lb />Frappez.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE:
+<lb />Que mon deſtin eſt triſte &amp; pitoyable,
+<lb />Qui fait que l’innocent ſe prend pour le coupa<lb />ble?
+<lb />Quitte pour ſe trahir tout ce qu’il a d’humain,
+<lb />Et cherche le treſpas qu’il demande à ma main!
+<lb />Faut-il que le malheur de mes Methamorphoſes
+<lb />Emporte auecque ſoy le deſordre des choles?
+<lb />Qu’vn innocent s’accuſe, &amp; pour finir ſes iours
+<lb />D’vne main enchaiſnée implore le ſecours!
+<lb />Non, mon frere, quittez ces marques de foibleſ,
+<lb />ſe,
+<lb />Outre que ce deſſein &amp; m’eſtonne &amp; me bleſle,
+<lb />Et que mon cœur n’eſt pas de ces cœurs inhu<lb />mains;
+<lb />Pour l'execution voyez ſi i'ay des mains.
+<lb />Viuez donc pour monter d’où l’on me precipite,
+<lb />Et ſucceder vn iour au Sceptre que ie quitte;
+<lb />Mon temps eſt acheué, le voſtte va courit,
+<lb />C’eſt à vous de regner, c’eſt à moy de mourir,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Cher frere, voſtre vie eſt en voſtre puiſſance,
+<lb />Témoignez à mon pere vn peu d’obeyſſance.
+<lb />Abandonnez la foy qui fait voſtre malheur
+<lb />Ce crime dangereux de la bouche &amp; du cœur.
+<lb />Rallumez ce flambeau dont les viues lumieres
+<lb />Commencent d’eſclairer dés le temps de nos pe;
+<lb />res,
+<lb />Qui brûle ſur le thrône &amp; que le Souuerain
+<lb />Pour luire à cét Eſtat reçoit de main en main;
+<lb />Cette ancienne foy qui repne ſur nos teſtes,
+<lb />La ſource de la paix &amp; celle des tempeſtes,
+<lb />Des peuples le lien, l’appuy des Conqueraps,
+<lb />Le ſouſtien des Autels, la crainte des Tyrans,
+<lb />Et pour dire en vn mot, le pouuoir qu’on luy don<lb />ne
+<lb />Celle qui dans vos mains aſſeure la Couronne;
+<lb />Ouy, ie vous parle inſtruit des volontez du Roy,
+<lb />Vous reprendrez le Sceptre en reprenant la foy:
+<lb />Ces glorieuſes mains ſous ces fers affligées,
+<lb />Reprendront ces lauriers dont on les vit chargéess
+<lb />Vous verrez à vos loix tous ces peuples ſoumis,
+<lb />Enfin voſtre bon-heur n’aura plus d’ennemis,
+<lb />Mais ſi vous demeurez touſiours inexorable,
+<lb />Si vous aymez l’erreur qui vous rend ſi coupable,
+<lb />Si, Prince, de l’Eſtit vous quittez l’intereſt,
+<lb />Helas! par mon ſilence apprenez voſtre arreſt,
+<lb />Et puis qu’il faut parler, pour nous reduire en pou:
+<lb />dre,
+<lb />I’ay veu ſortir l'eſclair preſt d’entendre la fou<lb />dre,
+<lb />Si vous n’abandonnez par vn puiſſant effoz
+<lb />Va vaiſſeau de naufrage en vous ſauuant au poit,
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Vos diſcours pleins d’erreur autant que d’élo<lb />quence
+<lb />Font remarquer en vous ce vice de naiſſance,
+<lb />Ce vieil crime du cœur dont l’Eſtat infecté,
+<lb />Veut rendre criminels tous ceux qui l’ont quit<lb />té,
+<lb />Pour moy qui de ce mal n’ay plus l’ame ſaiſie,
+<lb />Qui quitte le party que tient voſtre hereſie,
+<lb />Ie plains voſtre malheur, de qui la trahiſon
+<lb />Vous fit naiſtre coupable &amp; nourrir de poiſon.
+<lb />Loin de faire pitié ie vous doy faire enuie,
+<lb />Le treſpas que i’attens vaut mieux que voſtre vie,
+<lb />Et mon gain eſt ſi grand pour le peu que ie pers
+<lb />Que lie vous laiſſe vn Sceptre &amp; ne veux que mes
+<lb />fers.
+<lb />Par des ſuittes qu’on croit iuſtes &amp; neceſſaires
+<lb />Voſtre Religion ſuit celle de vos Peres,
+<lb />Et par vne raiſon d’exemple dangereux
+<lb />S’ils furent criminels il faut l’eſtre comme eux,
+<lb />Vous ſuiuez vn flambeau qui mene au precipice,
+<lb />Vous ſortez ſans vertu d’vne ſource de vice,
+<lb />Et naiſſant dans la foy du peuple &amp; de la Cour
+<lb />Vous receuez l’erreur auſſi-toſt que le iour.
+<lb />Helas! ſi ie pouuois! pour comble de ma gloire
+<lb />D'vne ſeule conqueſte acheuer ma Victoire,
+<lb />Que ie m’eRimerois heureux d’auoir veſcu,
+<lb />Vovant ſuiure mon char par vn frere vaincu.
+<lb />Ce bon-heur n’eſt pas loin, mais quoy qu’il fit ma
+<lb />ioye,
+<lb />Le Ciel veut que ie meure auant que ie le voye.
+<lb />Car apprenez enfin, vous qu’on doit couronner
+<lb />Si les mourans, mon frere, ont droit de deuiner,
+<lb />Si la derniere voix de l’homme peut predire,
+<lb />Que la foy que ie tiens viura ſous voſtre Empire,
+<lb />Qu’on vous verra changer &amp; vos loix &amp; vos mœurs
+<lb />Et que vous brûlerez l’idole de vos cœurs.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Noſtre foy doit durer malgré tous les deſaſtres
+<lb />Autant que dureront le Soleil &amp; les Aſtres;
+<lb />Helas! n’eſperez point vn ſi grand changement,
+<lb />Vn ſi ferme ſouſtien tombe mal-aiſément.
+<lb />Pour le faire branſler, il faut bien des machines.
+<lb />Et la foy de l’Eſtat viura dans ſes ruynes;
+<lb />Car comme de l'Empire elle eſt l’appuy premier.
+<lb />C’en eſt le cœur auſſi qui mourra le dernier.
+<lb />Non, non penſez plutoſt à finir voſtre peine.
+<lb />Et que ſi vous mourez vne inſolente Reyne
+<lb />Sur la Mere &amp; ſon Fils verſera tout ſon fiel.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ils ſont &amp; l'vn &amp; l’autre entre les mains du Ciels
+<lb />Et doiuent par ma peine aux Princes peu commune
+<lb />Apprendre à s’abbaiſſer aux coups de la fortu<lb />ne ,
+<lb />Qui n’a dacception ny du lieu ny du rang.
+<lb />Et qui confond la bouë auec l’illuſtre ſang.
+<lb />Mais ie voy ma Princeſſe.
+<fw><lb />
+<lb />SCENE
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE IV
+<lb />INDEGONDE, HERME<lb />NIGILDE, RECAREDE.
+<fw><lb />HERMENIGILDE.
+</fw></p>
+<sp type="MainZone-Sp"><lb />HElas: tu te hazardes.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Le Roy me l’a permis &amp; ma donné des Gardes;
+<lb />Ie n’euſſe iamais creu te voir où ie te voy,
+<lb />C’eſt ainſi, cher Eſpoux, qu’on nous manque de
+<lb />foy.
+<lb />Trop heureux toutesfois ſi tu ſçais bien combat<lb />tre,
+<lb />Si ce monſtre d’erreur ne peut rien pour t’abbat<lb />tre,
+<lb />Si la loy de l’Eſtat ne peut rien ſur ta foy,
+<lb />Et ſi ta foy touſiours eſt ta premiere loy.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENTGILDE.
+<lb />Ouy, ie ſçauray combatre &amp; gagner la victoire,
+<lb />Et te nommer toufiours la ſource de ma gloire,
+<lb />Ny Sceptre ny grandeur ne ſçauroient m’eſmou<lb />uoir
+<lb />Et ma Religion eſt mon premier deuoir.
+<lb />Ma femme ne crains point que ie ne meure ferme,
+<lb />Il faut eſtre conſtant iuſques au dernier terme,
+<lb />L’on garde la Couronne au dernier combauant, 9
+<lb />Et noſtre dernier iour eſt le plus important,
+<lb />Supplices ny bourreaux n’ont rien que i’apprehen<lb />de!
+<lb />Mon frere apres cela veut il que ie me rende?
+<lb />Et ne iuge-il point quel doit eſtrę mon ſort
+<lb />Puis qu’il voit ma moitié me ſouhaitter la mort?
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Ma ſœur! que faites-vous? quel eſt cet artifice!
+<lb />Vous luy perſuadez de ſouffrir le ſupplice!
+<lb />Conſiderez l’eſtat où ſon malheur l’a mis,
+<lb />Et ne l’offenſez pas plus que ſes ennemis.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Vous en iugerez mieux ſi le Ciel qui m’eſcoute
+<lb />Vous fait la grace vn iour d’eſclaicir voſtie doute;
+<lb />Et vous ouure les yeux pour voir la verité,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />La verité, ma ſœur, eſt de noſtre coſté,
+<lb />Au cœur de cét Eſtat elle ſeule preſide;
+<lb />Mais c’eſt en d’autres lieux que ce point ſe decide,
+<lb />Il eſt temps de penſer à conſeruer vos iours;
+<lb />Mon frere, le temps preſſe &amp; le mal croit touſiours.
+<lb />Et quoy? tant de raiſons.....
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE,
+<lb />N’ont rien qui perſuade!
+<lb />Mais i’apperçoi venir la derniere Ambaſſade.
+</sp>
+<p type="MainZone-Head"><lb />SCENE
+<lb />V
+<lb />LE COMMISSAIRE,
+<lb />RECAREDE, HER.
+<lb />MENIGILDE, IN<lb />DEGONDE.
+</p>
+<p type="MainZone-P"><lb />LE COMMISSAIRE apportant dans
+<lb />vn baſſin vne eſpée &amp; vne Couronne.
+</p>
+<sp type="MainZone-Sp"><lb />DRince des deux preſens que vous oſſre le Roy
+<lb />I Le choix eſt en vos mains par le choix de la
+<lb />foy;
+<lb />La Couronne &amp; l’eſpée offres d’vn grand Monar<lb />que
+<lb />D’amour &amp; de pouuoir eſt la derniere marque.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE, prenant la Couronne &amp; la
+<lb />preſentant à ſon Frere.
+<lb />Receuez de ma main.....
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ce que ma main vous rend.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />La Couronne eſt à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Le Sceptre vous attend,
+<lb />Mou ame pour ce choix n’eſt pes fort occupée.
+<fw><lb />E ij
+</fw><lb />Ie quitte la Couronne &amp; Ie choiſis l'Eſpée.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Ce choix, mon cher Eſpoux, eſt bien digne de
+<lb />toy,
+<lb />Counge, Hermenigilde, &amp; meurs ferme en i
+<lb />foy.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Ie ne recule point à mon heure derniere
+<lb />Et ie veux acheuer la courſe toute entiere.
+</sp>
+<sp type="MainZone-Sp"><lb />LECOMMISSAIRE.
+<lb />Puis que vous refuſez vn ſi preſent ſecours
+<lb />Diſpoſez-vous, Seigneur, à la fin de vos iours;
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Cruelle Reyne, enfin ta haine eſt aſſouuie,
+<lb />Ton deſſein reüſſit, ie vay perdre la vie;
+<lb />Mais milgré ton Atreſt qui vient d’en ordonner
+<lb />C’eſt ta ſanglante main qui me va couronner.
+<lb />Criminel inſtrument du bon-heur de ma gloire,
+<lb />Coupable du moment qui donne vne victoire,
+<lb />Qui penſes m’immoler &amp; me viens ſecourir,
+<lb />Ie commence i t’aymer quand tu me fais mourir,
+<lb />Prends courage, mon cœur, allons s’il eſt poſſi<lb />ble
+<lb />Où brille vne lamiere aux yeux inacceſſible,
+<lb />Où celuy qui m’attend à ſoy-meſme pareil
+<lb />A pour ſon marche-pied le thrône du Soleil.
+<lb />Deuant qui, de ſa voix les Meſſagers fidelles,
+<lb />Eſblouis de clarté ſe couurent de leurs aiſles,
+<lb />Et qui nous appellant par les afflictions
+<lb />Tire de ſes threſors nos perſecutions:
+<lb />N’ayons point de regret de quitter de la bouë,
+<lb />De quitter vn theatre où la fortune iouë.
+<lb />Et par aueuglement le plus grand qu’elle ayt eu
+<lb />Recompenſe le vice &amp; punit la vertu.
+<lb />De cette verité teſmoin trop veritable,
+<lb />Chere &amp; chaſte moitié, Princeſſe déplorable,
+<lb />C’eſt de toy que ie tiens par tes ſages diſcours
+<lb />L’art de ſçauoir mourir pour reuiure touſiours;
+<lb />Que le Ciel qui m’entend te ſauue de la Reyne,
+<lb />Que par ma ſeule mort elle borne ſa haine<lb />Qu'elle eſcoute pour toy l’amour &amp; la pitié,
+<lb />Et conſerue de moy la meilleure moitié:
+<lb />Ainſi ie reuiuray dans toy, dans mon image
+<lb />De noſtre amour commun le ſeul &amp; le cher gage,
+<lb />Dans mon fils; à ce mot ſi ie verſe des pleurs
+<lb />Pardonne-moy, Seigneur, ces marques de dou<lb />leurs;
+<lb />Mais pardonne ſur tout, à la Reyne, à mon pe<lb />Eſclaire leurs eſprits de ta ſaincte lumiere,
+<lb />Que l’vn &amp; l’autre à qui la mort me va à rauir
+<lb />Apprennent par ma mort, à touſiours te ſerdit.
+<lb />Profitent du treſpas que par eux tu m’enuoyes,
+<lb />Et cherchent dans mon ſang la trace de tes voyes,
+<lb />Mon frere, que mon fils qui perd tout auiour<lb />d’huy
+<lb />Tieuue ei vous delorian Vn veritable appuy;
+<lb />Il porte voſtre nom, c’eſt vn ſang qui vous tous
+<lb />che,
+<lb />Et la voix de ce ſang vous parle par ma bouche.
+<lb />Sur tout, dites àu Roy, qu’innocent, inuaincu
+<lb />Ie meurs dans le reſpect ainſi que i’ay veſcu
+<lb />Et que iuſqu’à la mort ie vais ſans reſiſtance;
+<lb />Couronner mon amour par mon obeyſſance.
+<lb />Adieu, mon frere, adieu, regnez heureuſement,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Ie vous reſpons du cœur &amp; des yeux ſeulement.
+</sp>
+<sp type="MainZone-Sp"><lb />HERMENIGILDE.
+<lb />Adieu, ma chere femme, il faut que ie te quitte,
+<lb />Et que de tes leçons auiourd’huy ie profite.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Adicu, fidelle Eſpoux, adieu iuſques alor<lb />E iij
+</sp>
+<p type="MainZone-Lg"><lb />Qu'ainſi que nos eſprits nous rejoindrons nes
+<lb />corps;
+<lb />Son ſupplice tout preſt le deſrobe à ma veuë,
+<lb />A ce triſte départ ie me ſens toute eſmeuë,
+<lb />Ma generoſité balance à ce trépas,
+<lb />Et ie verſe des pleurs où ie ne conſens pars
+</p>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+<fw><lb />2.
+</fw></p>
+<p type="MainZone-Head"><lb />SCENE I
+<lb />INDEGONDE;
+<lb />RODRIGVES.
+</p>
+<sp type="MainZone-Sp"><lb />Lo
+<lb />INDEGONDE.
+<lb />NFIN, le Prince eſt mort, &amp; ſa
+<lb />trame eſt coupée
+<lb />Par le trenchant acier d’vne fa<lb />tale épée;
+<lb />De mon fidelle Eſpoux le temps
+<lb />eſt acheué,
+<lb />La Reyne eſt ſatisfaite &amp; l’orage
+<lb />a creué.
+</sp>
+<sp type="MainZone-Sp"><lb />RODRIGVES.
+<lb />Ouy, Madame, mes yeux ont veu dans ce ſup;
+<lb />plice
+<lb />Tomber cette victime au pied du ſacrifice,
+<lb />La terr ele portoit, le Ciel en fut ialoux,
+<lb />JE iii.
+<lb />Tant qu’il a pû parler il a parlé de vous,
+<lb />Il eut iuſques au treſpas voſtre nom dans la beus
+<lb />che,
+<lb />Sa mort luy paroiſt belle &amp; n’a rient qui le tou<lb />iche,
+<lb />Et par vn coup iniuſte autant comme inhumain
+<lb />Il tombe auec plaiſir ſous vne infame main.
+<lb />Ainſi le Prince eſt mort, la nature bleſſée,
+<lb />L'humanité perduë &amp; l’amour offenſée,
+<lb />Vous perdez vn Eſpoux, chacun pert auiour?
+<lb />d’huy,
+<lb />La terre ſon exemple &amp; l'Eſtat ſon appuy.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />A ce uiſte recit dont mon ame eſt ſurpriſe,
+<lb />Mon courage ſe pert, ma conſtance s’épuiſe,
+<lb />Mais il faut reſiſter à de ſi rudes coups,
+<lb />Et dedans ma douleur rencontrer mon Eſpoux.
+<lb />Ouy, ie croy, ma douleur, qui fais tout mon re;
+<lb />mede
+<lb />Que i’ay mon cher mary tant que ie te poſſede,
+<lb />Que ie retrouue en toy ce que ie pers en luy,
+<lb />Que ie ceſſe par toy d’eſtre veufue auiourd’huy,
+<lb />Que pour vn mary mort c’eſt toy qui m’es ren<lb />duë,
+<lb />Et que tu me tiens lieu de ma moitié perduë.
+<lb />Ne me quitte donc point, trauaille inceſſamment
+<lb />A former dans mon cœur vn noble ſentiment
+<lb />Tel qu’on le doit auoir pour vne mort ſi chere,
+<lb />Et qui ne tienne rien d’vne aueugle colere.
+<lb />Ne verſez point mes yeux de larmes ſur ſon ſang.
+<lb />Mon Eſpoux naſquit Prince, il eſt en plus haut
+<lb />rang;
+<lb />Il porta la Couronne, il en porte vne encore
+<lb />Qui ne peſe pas tant &amp; qui bien plus l’honore;
+<lb />Qui ne releue point ny des loix ny du temps
+<lb />Et que le Ciel enfin garde à ſes combattans.
+<lb />Ie ſçay que ma douleur eſt la douleur publique,
+<lb />Qu’on ne peut appeller ma perte domeſtique,
+<lb />Qu’elle afflige l’Eſtat, qu’elle eſtonne les loix,
+<fw><lb />
+</fw><lb />Deſtruir l’ordre du ſang, &amp; fait craindre les Roisi.
+<lb />Mais plaindray-ie vn vainqueur tombé ſous ſes
+<lb />tophees?
+<lb />Croiray ie ſes vertus ſous le glaiue eſtouffées?
+<lb />Penſeray-ie que mort il ceſſe d’eſtre Roy?
+<lb />Et le puis ie pleurer ſans douter de ma foy?
+<lb />Non, ne trahiſſons point ny mon cœur, ny ſa
+<lb />cendre,
+<lb />Retenons des ſoupirs qui ſe feroient entendre,
+<lb />Honorons vn treſpas que l’on doit deſirer,
+<lb />Et ſuiuons vn Eſpoux au lieu de le pleurer.
+</sp>
+<sp type="MainZone-Sp"><lb />RODRIGVES.
+<lb />Ha! quece ſentiment eſt genereux &amp; iuſte;
+<lb />Digne certainement d’vne naiſſance auguſte !
+<lb />Pour voir ſans murmurer ce beau ſang reſpandu,
+<lb />Vn cher Eſpoux trahy, ſon Empire perdu,
+<lb />lcentaun par amour te qu’abbat la Fortune,
+<lb />Il ne faut pas auoir vne vertu commune,
+<lb />Mais ie voy Stephanie.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II
+<lb />STEPHANIE, INDEGONDE,
+<lb />RODRIGVE.
+<fw><lb />–
+</fw></p>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Er bien que dit le Roy?
+</sp>
+<sp type="MainZone-Sp"><lb />STEPHANIE.
+<lb />Il ſe fond en regrets, ſon crime eſt ſon effroyi
+<lb />Du Prince maintenant il connoiſt l’innocence,
+<lb />Par celuy qui preſſé du remords de l’offenſe,
+<lb />Se iettant à ſes pieds s’eſt luy-meſme accuſé
+<lb />D’eſtre le triſte autheur de l'eſcrit ſuppoſé:
+<lb />Ma main, Sire, dit-il, a commis l’impoſture.
+<lb />I’ay du Prince imité le ſeing &amp; l’eſcriture,
+<lb />La Reyne ce ſeruice a de moy demandé,
+<lb />Et ce crime important à ma main commandé.
+<lb />Ie ne m’excuſe point de l’ordre de la Rey<lb />ne,
+<lb />Ie confeſſe la faute &amp; demande la peine,
+<lb />Ie merite cent feux pour cét acte inhumain.
+<lb />Et mon corps doit brûler à cauſe de ma main.
+<lb />Alors le Roy pouſſé de rage &amp; de colere,
+<lb />Pour commencer ſa peine &amp; iuſte &amp; neceſſaire
+<lb />L’a fait charger de fers &amp; mener en ptiſon;
+<lb />Sa douleur maintenant eſt ſans comparaiſon
+<lb />Rien ne peut l’eſgaller que l’excez de la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE!
+<lb />39
+<lb />Graces à l’immortel mon mal en touche vn au<lb />tre,
+<lb />L’amour retourne au cœur dont on le fit ſortir,
+<lb />Et qui commit le crime en eſt au repentir,
+<lb />Mon courage eſt bien haut, ie ſens qu’il faut deſ<lb />cendre,
+<lb />Et que mes pleurs icy trempent vn peu de cendre,
+<lb />Car enfin ie ne puis reſiſter à l’effort
+<lb />Qui veut que malgré moy ie pleure vn mary mort.
+<lb />Sortez-donc mes ſouſpirs auecque violence,
+<lb />Mon Epoux ne vit plus, quittons noſtre ſilence,
+<lb />Il a parlé de nous, parlons auſſi de luy,
+<lb />Et pour vn grand treſpas ayons vn grand ennuy.
+<lb />Quoy donc mon cher Eſpoux n’eſt plus rien que
+<lb />pouſſiere?
+<lb />Vn des Dieur de latcriea pridu la lumiere!
+<lb />On n’a point reſpecté ny le nom ny le rang i
+<lb />L’enuie a decidé les intereſts du ſang!
+<lb />Le Soleil, des clartez l’inepuiſable ſource
+<lb />Pour acheuer ce iour ſembloit preſſet ſa courſe,
+<lb />Afin de ne pas voir vn homme, vn pere, vn Roy I
+<lb />Perdre l’humanité, l’affection, la foy.
+<lb />Foy de tous les Autels à mon Eſpoux donnée!
+<lb />Mais, foy qui l’as trompé, parole empoiſonnée!
+<lb />Helas! qu’il ſe voit bas pour s’eſtre veu ſi haut!
+<lb />Quelle cheute, grand Dieu, du thtône à l’eſchaf.
+<lb />faur !
+<lb />Quelle proportion de la gloire au ſupplice!
+<lb />Du Prince à la priſon ! du fils au ſacrifice!
+<lb />De la foudre des Rois au ſupplice des Rois !
+<lb />Et des Maiſtres des loix à la peine des loix !
+<lb />Grandes extremitez qu’vne femme a ſçeu ioindre,
+<lb />Mais qui tiendroit à honte vn crime qui fut moin<lb />dre,
+<lb />Et qui pour paruenir à ſes intentions
+<lb />A ſçeu faire approcher ces oppoſitions.
+<lb />Ainſi Pere inhumain depuis que pour ta femme
+<lb />On te vid allumer vne ſeconde flamme
+</sp>
+<sp type="MainZone-Sp"><lb />Pour ce fils malheureux que ru viens d’eſtouffer
+<lb />Tu fus vn Ciel d’aiarin, vne terre de fer,
+<lb />Tu meſconnus ton ſang, ta femme prit la place
+<lb />Pour elle tout de feu, pour ton fils tout de glacex
+<lb />Et cette femme a fait par vn crime nouueau
+<lb />Du fils vne victime, &amp; du pere vn bourreau.
+<lb />O ſang de mon Eſpoux, grande ſource de vie,
+<lb />Le crime d'vn grand Roy, l’ouurage de l’enuie,
+<lb />Qui des grands deſormais ne pourra redouter
+<lb />Si tu mouilles le thrône où tu deuois monter?
+<lb />Si tu n’as point de voix qu’vn pere veille entendre?
+<lb />Et ſi qui t’a formé ſe plaiſt à te reſpandre?
+<lb />Quoy! n’as-tu plus mon cœur ta generoſité?
+<lb />Qui te fait emporter à cette laſcheté?
+<lb />Pleurer vn mary mort au champ de la victoire
+<lb />C’eſt ternir ſes lauriers, ou douter de ſa gloire.
+<lb />Le treſpas des Heros n’eſt pas vn triſte ſort,
+<lb />Ils ne viuent iamais ſi bien qu’apres la mort.
+<lb />Reiettons donc ces pleurs où le ſang s’intereſſe,
+<lb />Ce ſont marques d’amour, mais auſſi de foibleſſe;
+<lb />Poſſedons la vertu toute pure qu’elle eſt,
+<lb />Et beniſſons le Ciel, avmons ce qui luy plaiſt.
+<lb />Pour m’eſprouuer encor s’il veut ioindre à ma
+<lb />peine
+<lb />La mort de mon cher fils que i'eſtime prochaine,
+<lb />S’il faut perdre en vn iour la ſource &amp; le ruyſſeau,
+<lb />Ie verray conſtamment l’vn &amp; l’autre au tombeau,
+<lb />Seigneur pardonnez-moy ces foibleſſes premieres,
+<lb />Noſtre eſprit quelquefois eſgare ſes lumieres,
+<lb />Et priſonnier du corps ne leue pas touſiours
+<lb />Les yeux au haut des monts d’où deſcend ſon ſe<lb />cours.
+</sp>
+<sp type="MainZone-Sp"><lb />RODRIGVES.
+<lb />N’eſt-ce pas la brauer la fortune &amp; ſa hatne?
+<lb />Porter en vn corps foible vn cœur de Capitaine?
+<lb />Y faire par l’amour produire la valeur?
+<lb />Et mettre la vertu plus haut que le malheur?
+</sp>
+<sp type="MainZone-Sp"><lb />STEPHANIE,
+<lb />Madame, le Roy vient
+</sp>
+<p type="MainZone-Head"><lb />JCENE III.
+<lb />EVIGILDE, GOISINTHE,
+<lb />INDEGONDE, RE<lb />CAREDE.
+</p>
+<sp type="MainZone-Sp"><lb />LEVIGILDE:
+<lb />Sors infolente Reyne;
+<lb />t quitte mes Eſtats pour éuiter ta peine.
+</sp>
+<sp type="MainZone-Sp"><lb />1e....!
+<lb />GOISINTHE,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Sors malheureuſe &amp; ne rentre iamais
+<lb />Dans ces lieux affligez d’où tu chaſſes la paix:
+<lb />Que Cleonte ſoit libre: O vous femme affligée
+<lb />lous ne ſçauriez iamais aſſez eſtre vangée.
+<lb />De ſouſpirer mon crime apres l’auoir oſé,
+<lb />De n’eſt pas ſatisfaire au mal que i’ay cauſé,
+<lb />c’eſt ce que ie puis dans ma douleur extréme;
+<lb />e reſte eſt en vos mains &amp; dépend de vous-mef<lb />me,
+<lb />ſi vous voulez ma mort &amp; du ſang pour du ſang,
+<lb />Vengez-vous ſans pitié ie vous offre mon flanc.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />tire, ce m’eſt aſſez, puis que i’ay l’auantage
+</sp>
+<sp type="MainZone-Sp"><lb />D'auoir en ma douleur vn Roy qui la partaze?
+<lb />Mais pourquoy m’eſpargner dans vn crime coms
+<lb />mun,
+<lb />Et de deux criminels n’en faire mourir qu’vnx
+<lb />Sans doute mon treſpas eſt bien plus legitime,
+<lb />Puis que de mon Eſpoux i’ay conſeillé le crime,
+<lb />Et qu’il a de l’Eſtat abandonné la foy
+<lb />Par les inſtructions qu’il a receu de moy.
+<lb />Donc ſuiuant de vos loix la premiere iuſtice;
+<lb />Le crime eſtant de deux il faut qu’on me puniſſe,
+<lb />Afin que de tout point voſtre Eſtat ſoir vengé,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Ne perſecutez point vn Monarque affligé,
+<lb />Laiſſez-moy ſouſpirer &amp; ma perte &amp; la voſtre;
+<lb />Et ne trauerſez point ma douleur par vn au re,
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Que voſtre mal preſſant s’allege en ce malheur
+<lb />Par la ſocieté d’vne meſme douleur;
+<lb />Nos ſouſpirs ſont communs pour la mort de mon
+<lb />frere,
+<lb />Nous ſommes malheureux tous deux de ſa miſere,
+<lb />Et le ſang qu’auec luy ie partage en naiſſant
+<lb />M’oblige à ce regret iuſte quoy qu’impuiſſant.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Vne femme a regné..... mais i’apperçoy Cleon;
+<lb />Les yeux bagnez de pleurs &amp; tout chargé de honte,
+<lb />Il te faus conſoler fidelle ſeruireur,
+</sp>
+<p type="MainZone-Head"><lb />RCENVE
+<lb />IV
+<lb />CLEONTE, LEVIGILDE,
+<lb />INDEGONDE, RE<lb />CAREDE.
+</p>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />TE viens vous apporter vn ſurcroit de douleur;
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Et quoy? mon fils eſt mort !
+</sp>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />Il a ſuiuy ſon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Oueplorable mort!
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />O iour plein de miſere!
+<lb />Quitte malheureux Prince &amp; ton Sceptre &amp; tes
+<lb />lieux
+<lb />D'où tu vois que ta faute a monté iuſqu’aux Cieux.
+<lb />Tu commences ainſi la peine de ton crime;
+<lb />Seigneur pour t’appaiſer qu’vn Roy ſoit ta victime,
+<lb />Frappe vne illuſtre teſte &amp; m’oſte mon employ,
+<lb />Conſerue le Royaume &amp; viens perdre le Roy:
+<lb />Ie beniray ta main qui fera mon ſupplice,
+<lb />Mais qu’vn peuple innocent éuire ta iuſtice,
+<lb />N’eſtens point iuſqu’à luy la fureur de ton bras,
+<lb />Qu’il pleure mon peché, mais qu’il n’en ſouffre pas,
+<lb />Ainſi que ta pitié deſtourne de ma tetre ;
+<lb />Et la paſle famine, &amp; la peſte &amp; la guerre;
+<lb />Eſpargne l’innocent &amp; renferme en mon ſein
+<lb />Pour en moy tout punir, &amp; guerre, &amp; peſle, &amp; faim,
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Le deſſein que ie prends eſt d’eſtre en ma miſere
+<lb />Conſtante pour le fils ainſi que pour le pere.
+<lb />Cher fils, mon cher appuy, gage de mon amour,
+<lb />Qui vis en meſme-temps &amp; la guerre &amp; le iour,
+<lb />Ton malheur eſt ton prix, ta mort eſt ta victoire
+<lb />Tu ne ſuruiuras point au tombeau de ta gloire
+<lb />Tu ne te verras point eſclaue au lieu de Roy
+<lb />Et pour toy la Couronne a pery deuant toy.
+<lb />Ta mort en d’auues mains la rendra legicime?
+<lb />On y viendra par droit, on l’eut priſe parcrime,
+<lb />Et ton treſpas au moins qui te rauit ton rang
+<lb />La rendra par degréz à la ſuitte du ſang.
+<lb />Ie ne te pleure point lors que ie conſidere
+<lb />Que ta foy t’a donné le repos de ton pere,
+<lb />Et que tu vis encor en deſpit du tombeau
+<lb />Puis que cette lumiere eſclaira ton berceau.
+<lb />D'vn pere genereux chere image perduë,
+<lb />Fils de l’Aygle eſprouué qui le ſuis dans la nuë;
+<lb />Qui meſpriſe la terre &amp; qui d’vn vol pareil
+<lb />A pproches comme luy la couche du Soleil.
+<lb />Ton trépas peu m’eſtõne, &amp; bien loin de te plaindre
+<lb />I’attends le iour heureux pour te pouuoir atteindre,
+<lb />Ce jour ſera pour moy de triomphe &amp; de paix,
+<lb />Ie verray le bon-heur pour m’y ioindre à iamais,
+<lb />Et la meſme vertu qui maintenant s’employe
+<lb />A combattre mes pleurs moderera ma ioye.
+<lb />Adieu Sceptre, grandeurs, fortune des humains,
+<lb />I’auois pris de la bouë &amp; i’en laue mes mains,
+<lb />Mon eſprit eſt guery du ſouhait de l’Empire,
+<lb />Apres ce que i’ay veu ce n’eſt pas où i’aſpire,
+<lb />Ie ne veux point d’bonneur qui terniſſe mon rang
+<lb />Celuy qui tient l’Eſtat degoutte de mon ſang,
+<lb />Er n’a greu l’aſſeurer en ce droit legſtime
+<lb />Que par l’acheuement d’vn effroyable crime.
+<lb />Voyez Pere, voyez, ô Prince peu loyal
+<lb />Que le ſupplice encor fume du ſang Royal,
+<lb />La coupable eſt au thrône &amp; l’innocent expire
+<lb />Et tout ce mal, grand Roy, ſe fait ſous voſtre Eni<lb />pise.
+<lb />Non, non ie ne veux point de Couronne à ce prix?
+<lb />S’il faut regner ainſi i’ay le Sceptre à mépris,
+<lb />Ie fuis cette puiſſance en crimes ſi feconde,
+<lb />Et ſi ie veux regner ce n’eſt pas en ce monde,
+</sp>
+<sp type="MainZone-Sp"><lb />LEVTGILDE.
+<lb />Prodige de conſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />Inuincible vertu!
+</sp>
+<sp type="MainZone-Sp"><lb />STEPHANIE.
+<lb />Courage le plus haut qu’vne Amazone ayt eu f
+</sp>
+<sp type="MainZone-Sp"><lb />RECAREDE.
+<lb />Princeſſe incomparable à qui l’on doit vn Temple;
+<lb />Ce pays n’eſtoit pas digne de voſtre exemple:
+<lb />Ouy, Madame, c’eſt vous, en qui l’on a peu vois
+<lb />La raiſon ſouueraine autant que le pouuoir,
+<lb />Et qui, quand ce pouuoir depuis s’eſt veuldeſtruire,
+<lb />Deſſus vos paſſions conſeruez voſtre Empire,
+<lb />La fortune vous hait, mais par voſtre vertu
+<lb />L’on vous voit releuer voſtre thrône abattu.
+<lb />Le débris d’vn Eſtat n’a rien qui vous eſtonne,
+<lb />Vous ſçauez ſans Empire auoir vne Couronne,
+<lb />Sans Sceptre auoir l’éclat que les Princeſſes ont,
+<lb />Et la marque du ſang garde celle du front,
+</sp>
+<sp type="MainZone-Sp"><lb />CLEONTE.
+<lb />Les plus vaillans Heros que nous vante l’hiſtoire;
+<lb />De qui l’aage &amp; le temps conſeruent la memoire
+<lb />Ont tombé ſous les coups qu’on vous voit endures,
+<lb />Et touſiours le malheur les a fait murmurer.
+<lb />Ils ont eu les vertus de parade &amp; de montre,
+<lb />Mais ils n’ont peu du ſort ſupporter la rencontre.
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Que le Ciel qui connoiſt les ſ.crets de mon ceur,
+<fw><lb />F iij
+</fw><lb />Teſmoin de mon peché le ſoit de ma douléur.
+<lb />Mais, toy, ſuperbe eſprit, ambitieuſe Reyne,
+<lb />L’obiect de ma colere &amp; de toute ma haine,
+<lb />La honte de tout ſexe &amp; celle des humains,
+<lb />Qui dans mon propre ſang m’as fait tremper lez
+<lb />mains,
+<lb />Qu’il ne ſoit point pour toy d’azile ſur la terre,
+<lb />Que l’Vniuers entier te declare la guerre,
+<lb />Que ton crime par tout ſe preſente à tes yeux,
+<lb />Qu’il ſoit, &amp; ton ſupplice, &amp; ton ombre en tous
+<lb />lieux,
+<lb />Que iamais ton eſprit n’ait ny repos ny ioye,
+<lb />Que de tes ennemis tu deuiennes la proye,
+<lb />Et qu’apres ton treſpas on refuſe à tes os
+<lb />Le droit de ſepulture &amp; l’honneur du repos.
+</sp>
+<sp type="MainZone-Sp"><lb />INDEGONDE.
+<lb />Celuy qui ſe repent d’auoit fait vne offenſe
+<lb />Apreſque conſerué ſa premiere innocence;
+<lb />Le crime dont on pleure eſt preſque non commis:
+<lb />Mais pour mieux ſaire encor, aymez vos ennemis,
+<lb />De la ſoy que ie tiens c’eſt vne des maximes
+<lb />Que les ſouhaits contre eux ne ſont pas legitimes.
+<lb />Ha! malheureux Eſtat, eſclaue de tes ſens!
+<lb />Tu ne ſçais pas encor perdant les innocens,
+<lb />Qu’eux ſeuls peuuent d’icy deſtourner le tonnerre,
+<lb />Et que les gens de bien ſont le ſel de la terre,
+<lb />Que tu plaindras vn iour celuy que tu trahis
+<lb />Et qu’vn peu de vertu conſeruoit ton pays.
+<lb />Change de foy rebelle, &amp; vien pleurer tes crimes,
+<lb />Apprends à n’offrir plus de ſanglantes victimes,
+<lb />Quitte l’Arrianiſme, abandonne ces loix,
+<lb />Pers ce qui te perdroit ſi tu ne le perdois;
+<lb />Eſtouffe cette vieille &amp; funeſte ſemence,
+<lb />Et fidelle au Seigr eur, pleure &amp; fais penitence.
+<lb />Puiſſe arriuer le iour comme ie l’ay penſé,
+<lb />Que tu pleures le ſang que ton Prince a verſé,
+<lb />Qu'éclairé de la foy tu faſſes à ſa gloire
+<lb />Vn riche monument digne de ſa memoire,
+<lb />Et qu’ainſi Recarede aſſeure apres ſon ranz
+<lb />Iuſqu’aux ſiecles derniers ſon Empire à ſon ſang
+</sp>
+<sp type="MainZone-Sp"><lb />LEVIGILDE.
+<lb />Coupable de deux morts quel ſera mon refuge
+<lb />Où ie ne treuue point &amp; ma peine &amp; mon luge?
+<lb />Contre la main du Ciel qui me tiendra caché?
+<lb />Que les Rois ſont peu forts alors qu’ils ont peché!
+<lb />Quand ie porte par tout la frayeur &amp; la guerre
+<lb />Ma teſte en ce moment craint, vn coup de tonnerre,
+<lb />Ie tremble, enuironné de murs &amp; de Soldats,
+<lb />Et l’Vniuers entier ne m’aſſeureroit pas
+<lb />Quittons, quittons ces lieux! ce ſiege d’iniuſlice,
+<lb />Ce theatre faral d’vn infame ſupplice,
+<lb />Ces endroits malheureux de mon crime ſouïllez,
+<lb />Et du ſangde mon fils encore tous moüillez :
+<lb />Le mort veut de nos pleurs le tribut legitime,
+<lb />Mais iamais ma douleur n'eſgallera mon crime,
+</sp>
+<p type="MainZone-Other"><lb />Fin du 5. &amp; dernier Acte.
+</p>
+    </body>
+  </text>
+</TEI>

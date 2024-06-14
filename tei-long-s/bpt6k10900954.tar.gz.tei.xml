@@ -1,0 +1,3413 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Sœurs jalouses, ou l'Escharpe et le Brasselet, comédie</title>
+        <author>Lambert</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb44729532t"/>
+          <author>
+            <persName>Lambert</persName>
+          </author>
+          <title>Les Sœurs jalouses, ou l'Escharpe et le Brasselet, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1661" cert="high" resp="BNF">1661</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />M. DC. LXI.
+<lb />AVEC PRIVILEGE DV ROY.
+</p>
+<p type="MainZone-Head"><lb />ADVERTISSEMENT
+<lb />AVEECIEVIe.
+</p>
+<p type="MainZone-P"><lb />E ne t’impoſeray point pour la nouueauté
+<lb />Ide cette Piece, ily a deux ans, &amp; plus,
+<lb />qu’elle a eſté repreſentée pour la premiere
+<lb />fois. Quelques affaires plus importantes
+<lb />m’ont fait negliger le ſoin de la faire impri<lb />mer au temps conuenable; &amp; ie n’en euſſe
+<lb />iamais renouuellé le deſſein, ſi faiſant im<lb />primer la Magie ſans Magie, ie ne m'é<lb />tois veu ſollicité à la faueur de cette der<lb />niere de mettre encore celle-cy au jour: Si
+<lb />elle te paroiſt ſur le papier, ce qu’elle a paru
+<lb />dans ſa repreſentation, ie n’auray pas lieu
+<lb />de me repentir de l’auoir tirée de l'oubly où
+<lb />ie l’auois condamnée. Ie ne diſſimuleray
+<lb />pas que le ſujet eſt tiré de l’Eſpagnol; mais
+<lb />i’oſeray me flater que dans l’original il
+<lb />n’auroit pas eü vn ſuccés ſi fauorable ſur
+<lb />noſtre Scene; &amp; que pour le mettre en eſtat
+<lb />de ne déplaire pas, il a fallu le déguiſer de
+<lb />ſorte, qu’à voir enſemble l’original &amp; la
+<lb />copie, on auroit aſſez de peine à iuger par où
+<lb />ils ſe reſſemblent. Quoy qu’il en ſoit, vn tel
+<lb />ajuſtement m’a du moins autant couſté de
+<lb />reflexions que l’inuention de la Magie
+<lb />ſans Magie, qui n’a rien d’Eſpagnol que
+<lb />les Acteurs &amp; le lieu de la Scene: Si le ſtile
+<lb />de cette derniere te ſemble moins foible en
+<lb />quelques endroits, que celuy de celle-cy, tu
+<lb />me feras la grace de croire que le ſujet ne
+<lb />demandoit pas d’eſtre traitté plus forte<lb />ment; &amp; que s’il y a quelque choſe qui
+<lb />merite quelque legere approbation, c’eſt la
+<lb />petite œconomie dans vn ſujet de ſoy-méme
+<lb />aſſez bizarre. Ie te laiſſe la liberté de m’a<lb />corder ou refuſer ce peu d’eſtime, &amp; tu
+<lb />m'obligeras fort de croire que te ne cherche
+<lb />point à t’ébloüir par des préjugez qui me
+<lb />ſoient trop auantageux. Ie hazarde ces
+<lb />deux Pieces ſans teut tnertuer u'auire ap
+<lb />puy que dans le bonheur qu'elles ont eü d’a<lb />uoir eſté aſſez bien receuës ſur le Theatre;
+<lb />&amp; ie les priue meſme de l’ornement des
+<lb />Epiſtres dédicatoires, qui toutes brillantes
+<lb />du merite de ceux pour qui elles ſont tracées.
+<lb />en font ſouuent couler quelque impreſſion
+<lb />juſques ſur les Ouurages que nous leur con<lb />ſacrons: Certes ie ne doutay iamais que ces
+<lb />illuſtres Perſonnes ne leur communiquent vn
+<lb />éclat qu’ils ne ſçauroient auoir d’eux-meſ<lb />mes, &amp; que la protection qu’elles leurs ac<lb />cordent ne leur ſerue de puiſſante defenſe
+<lb />contre les traits de la calomnie &amp; de la
+<lb />Satyre; mais comme il faut parler haute<lb />ment de tout ce qu’ils ont de majeſtueux &amp;
+<lb />d’éclatant, pour en attirer l’influence, ne
+<lb />pouuant m’en acquiter de bonne grace,
+<lb />i’aime mieux me priuer d'vn ſecours ſi ne<lb />ceſſaire, pour me taire ſans ingratitude; &amp;
+<lb />ie m’y reſous d’autant plus volontiers, que
+<lb />ie m’épargne vn reproche que i’eſtime aſſez
+<lb />honteux, &amp; qu’on nous peut faire juſte<lb />ment, quand nous donnons des loüanges en
+<lb />demandant des graces, qui eſt de rendre par
+<lb />intereſt ce que nous deuons au merite, &amp;
+<lb />de faire l’’eloge de la Vertu pluſtoſt pour
+<lb />nous que pour elle-meſme. I’adjouſteray
+<lb />encore que ie me ſens trop foible pour de ſi
+<lb />hauts deſſeins, &amp; que ie ne voy rien de
+<lb />moins proportionné que l’objet &amp; la puiſ<lb />ſance, c’eſt à dire l'éleuation de tant de
+<lb />merites, &amp; la baſſeſſe de mon expreſſion.
+<lb />Ie ſçay bien que l’auantage que les Au<lb />theurs en eſperent les rend plus hardis, &amp;
+<lb />quelquefois plus ingenieux, pour bien
+<lb />crayonner des Soleils dont leurs Ouurages
+<lb />reçoiuent apres leurs plus belles lumieres:
+<lb />Mais iamais vn motif ſi bas ne m’éleuera
+<lb />au deſſus de mon inclination &amp; de mes for<lb />ces; &amp; ſi ie ne change d’humeur, i’aimeray
+<lb />mieux toûjours que l’on croye que i’intereſt
+<lb />n’aura iamais le pouuoir de me rendre plus
+<lb />ſaffifant, ou plus temeraire.
+<fw><lb />
+</fw></p>
+<p type="MainZone-Head"><lb />Extrait du Priuilege du Roy.
+</p>
+<p type="MainZone-P"><lb />DAR Grace &amp; Priuilege du Roy, donné à Paris
+<lb />T le neuf Nouembre 1660. Signé, Par le Roy en
+<lb />ſon Conſeil, BOVCHART; Il eſt permis à Charles
+<lb />de Sercy Marchand Libraire à Paris, d’imprimer ou
+<lb />faire imprimer, vendre &amp; debiter, quatre Pieces
+<lb />de Theatre, intitulées Le Bien Perdu recouuré, La
+<lb />Magie ſans Magie, Les Sœurs Ialouſes, &amp; Les Ra<lb />monneurs, en telle marge, tel caractere, &amp; autant
+<lb />de fois que bon luy ſemblera, &amp; ce pendant le temps
+<lb />de neuf ans entiers &amp; accomplis, à commencer du
+<lb />rour que leſdites Pieces ſeront acheuées d’imprimer
+<lb />pour la premiere fois. Et defenſes ſont faites à tous
+<lb />Libraires, Imprimeurs, &amp; autres perſonnes, de quel<lb />que qualité &amp; condition qu’elles ſoient, de les im<lb />primer, faire imprimer, vendre, &amp; debiter, ſans le
+<lb />conſentement de l’Expoſant, ou de ceux qui auront
+<lb />droict de luy, à peine aux contreuenans de trois
+<lb />mille liures d’amende, confiſcation des exemplaires
+<lb />contrefaits, &amp; de tous deſpens, dommages &amp; inte<lb />reſts, ainſi que plus au long il eſt porté audit Pri<lb />uilege.
+</p>
+<p type="MainZone-P"><lb />Regiſtré ſur le Liure de la Communauté le 18.
+<lb />Nouembre 1660. ſuiuant l’Arreſt de la Cour de
+<lb />Parlement. Signé, G. IoSSE, Syndic.
+</p>
+<p type="MainZone-P"><lb />Acheué d’imprimer pour la premiere fois
+<lb />le 7. Decembre 1660.
+</p>
+<p type="MainZone-P"><lb />Les exemplaires ont eſté fournis.
+</p>
+<p type="MainZone-Head"><lb />ACTEVRS.
+<lb />LE DVC DE FLORENCE.
+</p>
+<p type="MainZone-Entry"><lb />HENRY, Fauory du Duc.
+</p>
+<p type="MainZone-Entry"><lb />LYSIDE,
+<lb />CAMILLE.
+<lb />Sœurs amoureuſes d’Henry.
+</p>
+<p type="MainZone-Entry"><lb />Furmus, Pdle de Lynde &amp; Camille.
+</p>
+<p type="MainZone-Entry"><lb />MISE, Mepce de Fabic.
+</p>
+<p type="MainZone-Entry"><lb />OC IAVE, Amy d’Henry, &amp; Amoureux de Niſe.
+</p>
+<p type="MainZone-Entry"><lb />PHILIITIIt, Paiet d'Henry.
+</p>
+<p type="MainZone-Entry"><lb />CELIE, Suiuante de Lyſide.
+</p>
+<p type="MainZone-Entry"><lb />La Scene eſt à Pogge, lieu de plaiſance
+<lb />à fix milles de Florence.
+</p>
+<p type="MainZone-Head"><lb />CLS
+<lb />R.
+<lb />IALOVSES,
+<lb />L’ESCHARPE
+<lb />ET LE BRASSELET.
+<lb />COMEDIE.
+</p>
+<p type="MainZone-Head"><lb />A
+<lb />4
+<lb />1
+<lb />SCENE IREMILRI
+<lb />LYSIDE, CAMILLE, NISE,
+<lb />ſortant toutes trois voilées.
+</p>
+<sp type="MainZone-Sp"><lb />x
+<lb />2
+<lb />P
+<lb />LYSIDE.
+<lb />0
+<lb />I
+<lb />OVS partons trop matin pour aller voir
+<lb />Iulie,
+<lb />Faiſons par promenade vn tour dans la
+<lb />Prairie;
+<lb />L’éclat d’vn ſi beau jour, &amp; le Soleil naiſſant,
+<lb />i pour nous épargner ſemble encor languiſſant,
+<lb />Et ſur l’émail des fleurs embellit la peinture
+<lb />Qu’auec mille couleurs y forme la Nature,
+<lb />De tant de beaux objets ne vient nous ébloüir,
+<lb />Que pour nous inſpirer le deſſein d’en joüir.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Il faudroit pour s’y plaire, vne ame dégagée
+<lb />Des ſoucis importuns où ie me voy plongée;
+<lb />Et l’on ne peut gouſter ces plaiſirs innocens
+<lb />Dont les arbres, les fleurs, nous enchantent les ſens,
+<lb />Quand pour d’autres objets noſtre eſprit eſt en peine;
+<lb />I’aime la ſolitude, &amp; crains qu’on nous ſurprenne;
+<lb />Le Duc, pour nous chercher, viẽt ſouuẽtdãs ces lieux.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Nous nous voilons exprés pour nous échaper mieux;
+<lb />Tu pourras l’euiter ſans en eſtre apperceuë,
+<lb />Ou du moins en fuyant paſſer pour inconnuë.
+<lb />Enfin il t’importune en te faiſant la cour?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vn Souuerain me geſne en me parlant d’amour,
+<lb />l ame de pius enpius a viule lonltale,
+<lb />La pourſuite des Grands commence à me déplaire,
+<lb />Et ie ne cherche plus dans l’humeur où ie ſuis,
+<lb />Qu'vn lieu propre à réuer, &amp; nourrir mes ennuis.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Camille a des chagrins dont it connioy là cauſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />vous en auez, ma sœul, dont ie Içay quelque choſe,
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Si i’en ay comme vous, m’en voyez-vous parler?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />C’eſt que vous ſçauez feindre, &amp; mieux diſſimuler.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Vous conteſtez toûjours, &amp; iamais ce me ſemble
+<lb />On ne peut voir deux Sœurs plus mal d’accord en<lb />ſemble;
+<lb />L’vne &amp; l’autre ſans doute agit par paſſion.
+<lb />Et ie ne fçay d’où vient cette diuiſion.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />D’vne humeur à la mienne aſſez mal aſſortie.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ou bien plutoſt ma Sœur de trop de ſympatie;
+<lb />Aimant en meſme lieu, nous ſommes trop d’accota,
+<lb />Et l’vnité d’amour cauſe en nous ce diſcord.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous voulez meſurer mes paſſions aux voſtres;
+<lb />Mais es fedie sot trop grauspour en eueter d’autres,
+<lb />Henry vous eſt ſi cher, que voſtre eſprit jaloux
+<lb />croit que chacun l’eſtime, ou l’aime comme vous.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />vous l’aimez plus encor, ou ie ſuis bien trompée.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />C’eſt ainſi qu’on s’abuſe, eſtant préoccupée.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Mais de qui parlez-vous? eſt-ce du Comte Henry
+<lb />Qui tient rang chez le Duc de pren ier Fauory,
+<lb />Et depuis plus d’vn an eſt abſent de Florence?
+</sp>
+<sp type="MainZone-Sp"><lb />De luy-meſme.
+<lb />LYSIDE.
+</sp>
+<sp type="MainZone-Sp"><lb />N19E.
+<lb />Et vous deux l’aimez ſans qu’il y penſet
+<lb />our roniçant qu’a Madrid des procez importans,
+<lb />Sans qu’il ait d’autres ſoins, luyfont paſſer le temps,
+<lb />Et vous n’auez de luy ny lettres, ny nouuelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous croyez donc auſſi que ie l’aime comme elle?
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Ie croy ce qu’elle dit, &amp; ce que vous direz,
+<lb />Si vous m’apprenez tout.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vrayment vous le ſçaurez,
+<lb />Ie vous veux à ſa honte en faire confidence.
+<lb />Auant qu’il voyagea, nous eſtions à Florence;
+<lb />Là ce jeune Seigneur, pour s’inſtruire en amour,
+<lb />Nous voyoit chez mon Pere, &amp; nous faiſoit la cour;
+<lb />Comme il eſt fort galand, ma sœur eut l'auantage
+<lb />De prendre feu d’abord.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Et vous fuſtes ſi ſage
+<lb />D uecemre rar la Mlis pourtlnacrren onTort,
+<lb />De le prendre bien mieux que ie ne fis d’abord?
+<lb />D'vne pareille ardeur chacun vous voit ſaiſie.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous le voyez vous ſeule, &amp; c’eſt par jalouſie,
+<lb />C’eſt vn amour d’idée à tout autre inconnu;
+<lb />Mais le voſtre auſſi-toſt parût fort ingenu,
+<lb />vouo hites den laueuro, ee ceneo que mon Pere
+<lb />En cõceut quelque ombrage, &amp; nous fût plus ſeuere,
+<lb />Et vous ſçauez qu’ainſi vos feux trop éclatans
+<lb />Nous firent quelques jours fort mal paſſer le temps.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie brûlay pour Henry d’vne innocente flame,
+<lb />Et ne fis iamais rien qui fût digne de blâme;
+<lb />Pour mon adorateur ie ne pouuois pas moins,
+<lb />Et voyant tant d’amour, de reſpects, &amp; de ſoins,
+<lb />Ie le fauoriſay de quelque complaifance
+<lb />Moins par affection, que par reconnoiſſance;
+<lb />Mais lors que ſur la fin, pour éprouuer ma foy,
+<lb />Il s’approcha de vous ſans s’éloigner de moy,
+<lb />N’euſt eſté ſon depart, aiſément ie deuine
+<lb />Qu’il eût receu de vous faueurs, &amp; bonne mine.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous deuinez toûjours aſſez mal à propos.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />rort mal pour vos ſecrets, trop bien pour mõ repos.
+</sp>
+<sp type="MainZone-Sp"><lb />47
+<lb />LYSIDE.
+<lb />I’aime à vous voir jalouſe, &amp; de plus ie confeſſe
+<lb />Qu’il eût beaucoup pour moy d’amour &amp; de tẽdreſſe;
+<lb />Il mumuy le Pauout, &amp; le ne l’ammay point.
+<lb />Mais, Niſe, qu’en dis-tu? juge nous ſur ce poinct.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />I'apprens auec plaiſir voſtre amoureuſe hiſtoire;
+<lb />Mais ie doute de tout, &amp; ie ne ſçay qu’en croire;
+<lb />Elle aime; mais pour vous ie n’en veux pas juger;
+<lb />Pour Hentjy le leltmne ou trompeur, ou leger,
+<lb />Et i’apprehende fort, s’il reuient à Florence,
+<lb />Qu’il n’y retourne encor plus chargé d’inconſtance.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ten mourrois de regret.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />C’eſt mon moindre ſoucy.
+</sp>
+<sp type="MainZone-Sp"><lb />MYoE.
+<lb />Mais quelque Caualier s’auance, &amp; vient icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Hla! Niſe, c’eſt Henry.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Iuſte Cierne tilajeméme.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb /> fae veas alce:
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Celuy que ma Sœur aime.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Il reuient à propos pour vous mettre d’accord.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Eſprouuons ſa conſtance à ce premier abord,
+<lb />Et ſans nous découurir, voyons s’il eſt fidelle,
+<lb />Ou s’il a pû former quelque amitié nouuelle.
+</sp>
+<p type="MainZone-Lg"><lb />A iij
+</p>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />LELLLTIS PITIBIIPTIS LISIDE
+<lb />CAMILLE, NISE toutes trois voilées.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Nfin nous reuoyons ces agreables lieux
+<lb />LOù i’ay receu le jour de la bonté des Cieux.
+<lb />Que pour nous la Patrie a de merueilleux charmes!
+<lb />Ie ne puis, Phllippin, en retenir mes larmes,
+<lb />I’ay longtẽps fait des vœux pour cet heureux retour
+<lb />Qui me va rétablir dans les plaiſirs d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN luy montrant les Dames.
+<lb />Chut, Monfieur.
+</sp>
+<sp type="MainZone-Sp"><lb />Hone lemtes reguruant.
+<lb />Bon hazard! voicy de belles Dames.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Mais peut-eſtre, malheur! voicy de laides Femmes.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Leur port auantageux te dément d’aſſez loin.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Souuẽt lep oit houstrope, cen citqu mn laux témoin;
+<lb />Croyez, quand aux paſſans vne Femme ſe cache,
+<lb />Qu'elle eſt laide, ou qu’elle a quelque vilaine tache.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Nous en jugerons mieux les approchant de prés.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />On a deſſein ſur vous, &amp; l’on ſe cache exprés;
+<lb />Ce ſont à mon aduis quelques fauſſes Femelles;
+<lb />Adieu tous nos Ducats, ſi les Dones ſont belles;
+<lb />Ce n’eſt pas voſtre fait, tournez de ce coſté.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie les veux aborder par curioſité,
+<lb />Et c’eſt à mon aduis eſtre aſſez mal-habile,
+<lb />D’entreprendre à leurs yeux vne fuite inciuile.
+</sp>
+<sp type="MainZone-Sp"><lb />E LOIDE Va9.
+<lb />La voix nous peut trahir. O Dieux! il vient à nous.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Ne luy répondez rien, ie parleray pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY les abordant.
+<lb />Souffrez qu’vn Caualier qui prend à bon augure
+<lb />D’auoir en atriuune vhe tene adanture,
+<lb />Vous croyant l’ornement de ces aimables lieux,
+<lb />Auec vn cœul loumis le prerente a vos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE bas à Niſe.
+<lb />Dieux! qu’il reuient charmant!
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Muis le te plainis, Couſine,
+<lb />S’il eſt auſſi leger comme il en a la mine.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Que dites-vous tout bas, adorables Beautez?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Elles diſent, ma foy, que d’abord vous mentez.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRI.
+<lb />Ne veux-tu pas, maraut?..
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Si ce mot vous offenſe,
+<lb />dC ent Moy-memne qui ment.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Dieux! quelle extrauagance!
+<lb />Nous rougiſſons, Monſieur, de voſtre compliment;
+<lb />Mais ce Valet nous ſert de mauuais truchement.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />C’eſt vn mauuais Boufonqui toûjours cherche à rire,
+<lb />Et ſouuent ſe fait battre, à force d’en trop dire.
+<lb />A iiij
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie ne diray plus rien, de peur d’eſtre battu;
+<lb />Mais...
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Faites-le parler, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas à Philippin.
+<lb />Mais que veux-tu?
+<lb />Me veux-tu faire affront, traiſtre, auec ta folie?
+<lb />Madame, pardonnez...
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Mais que nous veut Celie?
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CELIE, LYSIDE, CAMILLE, NISE,
+<lb />HENRY, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />DOur vous venir trouuer le Duc eſt en chemin.
+<lb />L
+<lb />NISE bas à Camille.
+<lb />Il te cherche, Couſine.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILDE CHM
+<lb />O rigoureux deſtin!
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Fuyons, auant qu’icy le reſpect nous captiue;
+<lb />Mais s’il nous aperçoit, ie crains qu’il ne nous ſuiue.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Si vous craignez le Duc, &amp; s’il ſuruient icy,
+<lb />Ie puis vous deliurer de ce petit ſoucy;
+<lb />Comme il ne m’a point veu depuis vn an d’abſence,
+<lb />Que ie quittay ces lieux pour choſe d’importance,
+</sp>
+<sp type="MainZone-Sp"><lb />Et qu’il m’eſtime aſſez, i’oſe aſſez me flater
+<lb />Que mes ciuilitez le pourront arreſter.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE bas, mettant vne Bague en ſa bouche.
+<lb />Vſons de cet Anneau pour changer ma parole,
+<lb />Ie m’en vay luy répondre, &amp; bien joüer mon rôle.
+<lb />Vous m’obligez, Monſieur, &amp; ſi parfaitement,
+<lb />Que i’adjoûte ce don à mon remerciment;
+<lb />Agréez cette Eſcharpe, auec cette aſſeurance,
+<lb />Que c’eſt le moindre effet de ma reconnoiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY prenant vne Eſcharpe bleuë
+<lb />que Camille luy preſenté.
+<lb />Cette faueur m’étonne, &amp; i’en reſte confus,
+<lb />Iuſqu’au poinct d’en douter ayant les yeux deſſus.
+<lb />Voſtre bonté, Madame, infiniment me touche,
+<lb />Mo cœur enveutparler mieuxque ne fait mabouche;
+<lb />Mais mon reſſentiment paroiſtroit beaucoup mieux,
+<lb />Si i’eſtois éclairé d’vn rayon de vos yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie voudrois ſur ce poinct vous pouuoir ſatisfaire;
+<lb />Mais ſongeant à la fuite, il faut que ie difere,
+<lb />Vous me verrez poſſible auant la fin du jour.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE bas, mettant vne Bague en ſa bouche.
+<lb />La cruelle me tuë auec ce trait d’amour;
+<lb />Mais ie veux à mon tour luy rendre la pareille,
+<lb />Il faut panmeme ruſe aourer ſon oreille.
+<lb />Caualier, que le Sort rend l’objet de nos vœux,
+<lb />Pal vos cluilſtez vous en obligez deux;
+<lb />Et pour ne pas paroiſtre aux biẽfaits moins ſenſible,
+<lb />I’imite ma Compagne autant qu’il eſt poſſible.
+</sp>
+<sp type="MainZone-Sp"><lb />O Dieux!
+<lb />CAMILLE bas.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Ce Braſſelet dont ie vous fay preſent
+<lb />Vous aſſeure d’vn cœur auſſi reconnoiſſant;
+<fw><lb />A v
+</fw><lb />Receuez-le, Monſieur, auec meſme aſſeurance,
+<lb />Que c’eſt le moindre effet de ma reconnoiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ha! Madame, c’eſt trop pour vn Eſprit troublé,
+<lb />Et de trop de faueurs déja tout accablé:
+<lb />Ie dois à vos bontez cette faueur inſigne,
+<lb />Qu ine lurprend autant que ie m’en iuge indigne;
+<lb />Mais ne ſçauray-je point de quelle illuſtre main?..
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Nous ne nous cachons pas ſans quelque grãd deſſein;
+<lb />Mais à la Cour du Due, ir ron nous vort paroiſtre,
+<lb />Vous pourrez aiſement nous voir, &amp; nous cõnoiſtre;
+<lb />Adieu, ſoyez diſcret, &amp; ne nous ſuiuez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY les ſuiuant quelques pas.
+<lb />Ie vous obeïray, Fantômes pleins d’appas,
+<lb />Obligeantes Beautez que i’adore en idée,
+<lb />Et dont aueuglement mon ame eſt ponedee.
+<lb />Ie vay chercher le Duc; toy demeure vn moment,
+<lb />arporde la Suiuante, &amp; tache adroitehheut
+<lb />De ſçauoir la demeure, &amp; le nom de ces Dames.
+</sp>
+<sp type="MainZone-Sp"><lb />PHTLIPPTN.
+<lb />Et ſur tout ſi ce ſont Filles, Vefues, ou Femmes.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY s’en allant.
+<lb />Oüy, ne perds point de tẽps, aprẽs tout ce qu’il faut.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ne vous écartez pas, ie le ſçauray bien-toſt.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV
+<lb />CELIE, PHILIPPIN.
+<fw><lb />1L03-(
+</fw></p>
+<sp type="MainZone-Sp"><lb />CELIE bas. 
+<lb />1
+<lb />E connoy ce Valet; mais ie luy veux apprendre
+<lb />IQu’il s’eſtime vn peu trop quand il croit me ſur<lb />prendre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN l'arreſtant.
+<lb />Vn mot, belle Voſſée, ou laide; car enfin...
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Laiſſe-moy, belle, ou laide, &amp; paſſe ton chemin.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />C’eſt trop me rebuter, Voilée ou laide, ou belle.
+</sp>
+<sp type="MainZone-Sp"><lb />Que veux-tu?
+<lb />CELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie veux voir comme il faut qu’on t’appelle,
+<lb />Si ce nez qu’on nous cache eſt beau, laid, jeune, ou
+<lb />vieux.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE hauſſant ſon voile.
+<lb />Ie te veux contenter; prens garde, ouure les yeux,
+<lb />Tien, voy ſi mon viſage eſt de belle fabrique,
+<lb />» Il eſt à la moderne, ou s’il eſt à l’antique.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN la reconnoiſſant.
+<lb />Eſt-ce vne illuſion? que voy-je: ha! quel bonheur!
+</sp>
+<sp type="MainZone-Sp"><lb />Philippin!
+<lb />CELIE.
+<fw><lb />
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />* PHILIPPIN.
+<lb />Ma Celie! embraſſe-moy, mon cœur.
+<lb />ta rencontre icy m’eſt vn bonheur extréme!
+<lb />A v
+<fw><lb />6
+<lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Mon pauure Philippin, i'en puis dire de méme,
+<lb />Ie ne croyois iamais te reuoir pres de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Quej,ruisjerrume a mourirquau le luis ioin de toy?
+<lb />Croy-tu qu’ainſi l'amour ſottement me tranſporte?
+</sp>
+<sp type="MainZone-Sp"><lb /> CELIE.
+<lb />A quoy n’eſt point ſujet vn Homme de ta ſorte,
+<lb />Qui quitte ſon païs comme vn Enfant perdu?
+<lb />On peut eſtre aſſommé, tué, noyé, pendu,
+<lb />Ou relegué du moins pour long-temps en Galere.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ce dernier acci lent m’eſt comme hereditaire,
+<lb />Mes plus proches parens l’ont ſuby tour à tour,
+<lb />Et i’eſpere à mon rang y paſſer quelque jour.
+<lb />Cependant pres de toy i’incague la Fortune,
+<lb />Si tu veux reconnoiſtre vne ardeur non commune
+<lb />Dont par mille baiſers ie te vais aſſeurer.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />ne temprene pas tant, le te croy rans jurer.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Mais dy-moy ſeulement qui ſont ces inconnuës
+<lb />Qui nous font des preſens ſans vouloir eſtre veuës?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ton Maiſtre comme toy rencontre heureuſement;
+<lb /> en ayuue d caime.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />O rare éuenement!
+<lb />Rencontre qui rauit le Valet, &amp; le Maiſtre!
+<lb />Mais parlons de Lyſide, &amp; fay-la moy connaiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Que me veux-tu conter, tu connois les deux Sœurs?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Oüy; mais ie veux auſſi connoiſtre leurs faueurs,
+<fw><lb />C eſt le poinct, entens-tu?
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie commence à comprehdre;
+<lb />Mais de moy ſur ce poinct tu ne peux rien aprendre.
+</sp>
+<sp type="MainZone-Sp"><lb />TIILIEPINV.
+<lb />Pourquoy? Si ce ſecret ne t’eſt pas inconnu?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />I'auois les yeux ailleurs, &amp; ie n’en ay rien veu.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ha! parle franchement, &amp; me dis ce myſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />C’eſt vn poinct reſolu, i’ay fait vœu de me taire,
+<lb />Et ne point declarer ce ſecret important,
+<lb />Que ie ne Içache mieux s’il reuient plus conſtant:
+<lb />Souffre qu’auec ce mot de toy ie me ſépare,
+<lb />A
+<lb />Le bon Homme eſt toûjours &amp; chagrin &amp; bizarre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Quelle eſt lautre icomue?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Elle loge chez nous,
+<lb />C ent Niſe leur Couſine.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILPPIN.
+<lb />Elle a l’air aſſez doux.
+<lb />Pour toy quelqu’autre jour tu ſeras plus traittable.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE s’en allant.
+<lb />Non, ie tiens toûjours ferme, &amp; ſuis inébranlable.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie veux à mon plaiſir m’égayer aujourd’huy;
+<lb />Mais mon Maiſtre reuient, Octaue eſt auec luy;
+<lb />C’eſt le plus grãd malheur que le Ciel nous enuoye,
+<lb />De n’oſer éclater quand on eſt dans la joye.
+<fw><lb />.
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE V
+<lb />OCTAVE, HENRY, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />My, que i’ay de joye, &amp; que mon heur eſt grandi
+<lb />AATon retour me rauit autant qu’il me ſurprend
+<lb />I’ay languy juſqu’icy dans le cruel martyre,
+<lb />D'aitier, d’entre jaloux, &amp; de iroler ledie,
+<lb />Et i’aſpirois ſans ceſſe à ce rare bonheur
+<lb />De joüir de ta veuë, &amp; pour t’ouurir mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Tu peux en liberté me découurir ta peine;
+<lb />Mais ie crains qu’en ce lieu le Duc ne nous ſurprẽne;
+<lb />On m’a dit qu’il venoit, &amp; c’eſt poſſible icy.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Il auoit ce deſfein qui n’a pas reüſſy;
+<lb />Car quelques Deputez qui viennent de Florence,
+<lb />Pour luy donner aduis ſur choſe d’importance,
+<lb />L’obligent ſur ſes pas de rentrer au Palais,
+<lb />Et ie puis ſans rien craindre accõplir mes ſouhaits.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Enfin Octaue eſt pris ?
+</sp>
+<sp type="MainZone-Sp"><lb />OCIAVE.
+<lb />Oüy, ie perds ma franchiſe,
+<lb />Pour vn objet diuin, pour vne aimable Niſe;
+<lb />Niſe, qui par les droicts d’vne extréme beauté
+<lb />Se peut vanter icy d’eſtre vne Deïté.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie ne la connoy point, eſt-elle de Florence?
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />De Piſe, &amp; depuis peu nous auons ſa preſence,
+<lb />Le logis de Fabie eſt le lieu bienheureux
+<lb />Où ie voy quelquefois cet objet de mes vœux;
+<lb />Comme elle eſt ſa parente, il luy tient lieu de Pere:
+<lb />Mais voicy, cher Amy, ce qui me deſeſpere.
+<lb />Le Duc, depuis le temps qu’il tient icy ſa Cour,
+<lb />Aime auſſi chez Fabie, &amp; cache ſon amour,
+<lb />Et ie languis ainſi dans vne peine extréme,
+<lb />Ne ſçachant ſi c’eſt Niſe, ou ſes Filles, qu’il aimez
+<lb />Mais grace à ton retour, ie puis ſortir d’erreur,
+<lb />Et le Duc t’aime trop pour te cacher ſon cœur,
+<lb />Tu peux adroitement penetrer dans ſon ame;
+<lb />Et ſi Niſe en effet eſt l’objet de ſa flame,
+<lb />Ie te conjure, Amy, ſans vouloir me flater,
+<lb />De m’aduertir d’vn mal qu’on ne peut éuiter;
+<lb />Ie ſçay trop ce qu’on doit aux Puiſſances ſuprémes,
+<lb />Pour m’emporter iamais à des fureurs extrémes:
+<lb />Oüy, ie puis luy ceder vn bien ſi pré cieux;
+<lb />Mais plutoſt qu’il en faſſe vn trophée à mes yeux,
+<lb />I’iray porter ailleurs ma flame infortunée,
+<lb />Et ſous vn autre Ciel plaindre ma deſtinée.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />I'ay dans l’amour du Duc de puiſſans intereſts,
+<lb />Et pour vous, &amp; pour moy, i’y veilleray de pres;
+<lb />Mais quelques traits diuins que Niſe ait en partage,
+<lb />Ees deux bœurs, ce me ſemble, ont toûjours l'auãtage,
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Contre vn ſi bon Amy i’épargne mon tranſport;
+<lb />Auſſi bien ce Valet s’impatiente fort,
+<lb />Et fait pour vous parler, vn geſte aſſez étrange.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Pardonnez moy, Monſieur, c’eſt que ie me demange.
+<fw><lb />
+<lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ce maraut, pour me nuire, eſt toùjours indiſcret.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE s’en allant.
+<lb />Adieu, ie me retire, apprenez ſon ſecret.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+<lb />HENRY, PHILIPPIN.
+<lb />HENRY.
+<lb />He bisa? 
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />I’ay tout appris, &amp; ſans beaucoup d’adreſſe;
+<lb />La Suiuante en vn mot eſt ma vieille Maiſtreſſe,
+<lb />Nous auons fait l’amour ſeruant en meſme lieu;
+<lb />Elle a pleuré, Monſieur, parlant de noſtre adieu,
+<lb />Lors que pour vous feruii, &amp; vous ſuiure en Eſpagne,
+<lb />I’abandonnay Florence, &amp; me mis en campagne.
+</sp>
+<sp type="MainZone-Sp"><lb />Es-tu fou?
+<lb />HENRY.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Non, ma foy, ie parle tout de bon.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais les Dames?
+<lb />HENRY.
+<lb />0
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Lyſide.
+<lb />THIEIIEIN.
+<lb />Tremblez, en apprenant leur nom.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />O Dieux!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Camille, &amp; Niſe leur parente;
+<lb />Et Celie eſt le nom de la belle Suiuante.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Quoy, i’aurois pû d’abord rencõtrer les deux Sœurs?
+<lb />Ma Lyſide, &amp; Camille, &amp; ce ſont leurs faueurs?
+<lb />Mais viença, Filinpprlly iuquenle cle de Eyle,
+<lb />Cet adorable objet qui ſur mon cœur préſide?
+</sp>
+<sp type="MainZone-Sp"><lb />Deuinez?
+<lb />THILIPEIN.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Mais, badin, que puis-je i maginer?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ma foy, pour lespauon, ir le laut deumer.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ne me fay point languir, parle, c’eſt trop attendre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />ne n’en ſçay rien, vous dis-je, &amp; ie n’ay pû l’aprẽdre,
+<lb />La Suiuante l’ignore, ou bien entend le jeu;
+<lb />Les aimant toutes deux, il vous importe peu.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Traiſtre? &amp; ne ſçais-tu pas?..
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Rien, Monſieur, ſur mon ame.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Que la ſeule Lyſide eſt l’objet qui m’enflame:
+<lb />Il eſt vray que d’abord cajolant les deux Sœurs,
+<lb />Ie n’auois de l'amour que ſuiuant leurs faueurs;
+<lb />Camille m’en fit plus, ie l’aimay dauantage,
+<lb />Mais Lyſide apres tout emporta l'auantage,
+<lb />Les graces de l’Eſprit, auec celles du Corps,
+<lb />Firent pour me charmer de celeſtes accords;
+<lb />Brûlant d’vn ſi beau feu, ie partis de Florence,
+<lb />Et depuis mon amour s’eſt accrû par l'abſence;
+<lb />Mais auec tant d’excés, que ie veux expirer,
+<lb />Si Lyſide bientoſt ne s’en veut aſſeurer:
+<lb />Ainſi toûjours Amant, mais Amant plus fidelle,
+<lb />Je brûle de ſçauoir quelle faueur vient d’elle.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />C’eſt l’Eſcharpe.
+</sp>
+<sp type="MainZone-Sp"><lb />Te d nel in buijamia
+<lb />Ha! bonheur. 
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Non, c’eſt le Braſſelet.
+</sp>
+<sp type="MainZone-Sp"><lb />Quelle joye!
+<lb />HENRY le baiſant.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Rrlenter, lelignercen cnet.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Lors que ie ſuis à plaindre, inſenſé, tu veux rire?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Enfin c’eſt l'vne ou l’autre, &amp; ie ne ſçay qu’en dire;
+<lb />Les baiſant toutes deux, vous ne pouuez manquer.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />I’ay l’ame à la torture, &amp; tu te veux mocquer?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Non, Monſieur, croyez-moy, vintez ces deux Dames,
+<lb />Et vous découurirez les ſecrets de leurs ames;
+<lb />Les diſcours, les regards de ces jalouſes Sœurs,
+<lb />Vous feront aiſément juger de leurs faueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie ſuiuray ton aduis. Enfin par cette veuë
+<lb />Ie pourray m’éclaircir d’vn doute qui me tuë;
+<lb />L’amour du Duc me geſne, &amp; ie veux promptement
+<lb />Découurir ſur ce poinct leur ſecret ſentiment.
+</sp>
+<p type="MainZone-Head"><lb />ACTE
+<lb />II
+<lb />SCENE TEMTHRE.
+<lb />LE DVC, HENRY, OCTAVE,
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Eigneur, devosbõtez mõ ame eſt trop charmée.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />OReprens aupres de moy ta place accouſtumée,
+<lb />Ton recit, cher Freiy, mie plaite iffiniment,
+<lb />Et ie ſuis ſatisfait par cet éuenement;
+<lb />Qu'õ ſçachequ’en tous lieux ma faueur t’accõpagne,
+<lb />Et qu’elle t’a ſeruy meſme à la Cour d’Eſpagne.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />C’eſt par elle, Seigneur, que i’obtins bon ſuccez,
+<lb />Et me vis dégagé d’vn ennuyeux procez;
+<lb />L’effet en fut ſi prompt, qu’il paſſa mon attente.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />C eit en quoy pleinement ton retour me contente;
+<lb />Mais tu viens en eſtat de gouſter des plaiſirs
+<lb />Dãs des lieux où mon cœur n’eſt iamais sãs ſoûpirs:
+<lb />Ie reſſens des ennuis dont la rigueur m’accable,
+<lb />Et tu reuois ton Duc, mais ton Duc miſerable.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />La joye à ce diſcours fait place à la douleur,
+<lb />Et ie reuiens trop toſt pour voir voſtre malheur;
+<lb />Mais quel cruel deſtin à vos plaiſirs s’oppoſe?
+<lb />Ie prens part à vos maux ſans en ſçauoir la cauſe;
+<lb />Et ſi i’oſois, Seigneur...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ie te connoy diſcret,
+<lb />Et pour toy, cher Henry, ie n’ay point de ſecret.
+<lb />Octaue, de ina palt allel encener Pable,
+<lb />Qu’il me vienne trouuer.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE s’en allant.
+<lb />Ma peme en ifinie!
+<lb />On m’éloigne au moment qu’il s’agit de mon ſort.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC à Henry.
+<lb />Apprens donc que i’amour me procure la ſort;
+<lb />La Fille de Fabie a fait naiſtre ma peine,
+<lb />Et depuis ton depart elle eſt ma Souueraine.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />La Fille de Fabie! ha! l’accident fatal!
+<lb />Si c’eſt Lyſide, helas! mon Prince eſt mon Riual:
+<lb />Mais laquelle, Seigneur, peut paroiſtre aſſez belle,
+<lb />Pour obliger ſon Prince à ſoûpirer pour elle?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Si tu connois Camille, &amp; ſes attraits charmans,
+<lb />Me dois-tu demander quels yeux fõt mes tourmens?
+<lb />A deplus beaux vainqueurs peut-on rendre les armes,
+<lb />Et sãs s’y laiſſer prẽdre, éprouue-t’on leurs charmes?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Camille a des appas dignes de vous charmer;
+<lb />Mais vous n’en mãquez pas pourvous en faire aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />L’ingrate neantmoins eſt toûjours inſenſible,
+<lb />Son cœur eſt à ma flame vn Ciel inacceſſible;
+<lb />Et ſoit que mon amour, dont ie cache l’éclat,
+<lb />Luy ſemble à ſon honneur vn couuert attentat,
+<lb />Soit qu’en ſecret ſon cœur brûle d’vne autre flame,
+<lb />Tous mes ſoins juſqu’icy n’ont pû toucher mõ ame,
+<lb />Ie pourrois par l’hymen ébloüir ſes deſirs,
+<lb />Et la rendre facile à ſouffrir mes ſoûpirs;
+<lb />Et lors l’ambition ſur ſon eſprit ſeuere,
+<lb />Feroit ce que l’amour ſur ſon cœur n’a pû faire;
+<lb />Mais ie fay peu d’eſtat de vaincre vne Beauté,
+<lb />Par l’auantage ſeul de noſtre qualité.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Seigneur, voicy Fabie, Octaue vous l’ameine.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />FABIE, OCTAVE, LE DVC, HENRY.
+</p>
+<sp type="MainZone-Sp"><lb />LE DVC à Fabie.
+<lb />Vr vn bruit ſurprenant, &amp; qui me met en peine,
+<lb />OQu’Alphonſe ingrat toûjours à mes rares bontez,
+<lb />Auec mes ennemis fait de ſecrets traittez,
+<lb />Et forme dans Florence vne ligue nouuelle;
+<lb />Fabie, allez de pres obſeruer ce rebelle,
+<lb />Tenez-vous pres de luy, découurez ſon deſſein,
+<lb />Et me donnez aduis ſi ce bruit eſt certain;
+<lb />Enfin faites agir voſtre extréme prudence,
+<lb />Et ſans mon ordre exprés ne quittez point Florence.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ie fuis trop honoré, Seigneur, de cet employ,
+<lb />Et bien-toſt le ſuccés vous parlera pour moy;
+<lb />Mais i’ay peine à juger d’où vient cette nouuelle
+<lb />Qui vous fait ſoupçonner qu’Alphonſe eſt infidelles
+<lb />Il eſt par vos bienfaits entierement ſoûmis,
+<lb />Et ie ſçay qu’à Florence il a des ennemis,
+</sp>
+<sp type="MainZone-Sp"><lb />&amp; ples de voitre Aſteiſe ont deſſein de luy nuire.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Partez, plus ſeurement vous pourrez m’en inſtruire.
+</sp>
+<sp type="MainZone-Sp"><lb />bas. FABIE.
+<lb />I’obeïs. Mais ô Dieux! ie voy le Comte Henry
+<lb />Du Duc, &amp; de ma Fille, également chéry;
+<lb />Ce perfide aura lieu de parler à Camille,
+<lb />Cependant que ie fais vn voyage inutile;
+<lb />re n’y puis reſiſter, partons, puis qu’il le faut,
+<lb />Et faiſons que le Duc nous rappelle au plûtoſt.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ie l’éloigde auur joje, le penuanit ion abſence
+<lb />Ie prétens voir Camille auec plus d’aſſeurance.
+<lb />Mais Dieux! ie l’apperçoy ce merueilleux objet.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE à Henry.
+<lb />Ie vous ay dit ma flame, en voicy le ſujet.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />LYSIDE, CAMILLE, NISE, LE DVC,
+<lb />HENRY, OCTAVE.
+</p>
+<sp type="MainZone-Sp"><lb />LE DV C abordant Camille.
+<lb />Nfin ie vous rencontre, &amp; le hazard, Madame,
+<lb />LN’eſt pas toûjours contraire aux ſoins que prend
+<lb />ma flame;
+<lb />Ne pouuant longtẽps viure abſent devos beauxyeux,
+<lb />Ie vous cherche ſans ceſſe en ces aimables lieux:
+<lb />Mais helas! ſi toûjours vous m’eſtes inhumaine,
+<lb />Ie trouue en vous voyant, mon trépas &amp; ma peine.
+<lb />Et ces beaux yeux ainſi, par vn étrange ſort,
+<lb />Caurene en memme temps &amp; mna vie &amp; ma mort.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie ſouffre ces diſcours ſans y pouuoir répondre,
+<lb />Et leur ſuite, Seigneur, ne ſert qu’à me confondre;
+<lb />Mais dans ce compliment pour moy ſi glorieux,
+<lb />Prenez-vous vn ſecond pour m’embaraſſer mieux?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ie vous ameine Henry qui retourne d’Eſpagne,
+<lb />Satisfait du bonheur qui par tout l’accompagne;
+<lb />Luy qui n’eſt deſtiné qu’aux plus charmans plaiſirs,
+<lb />S’étonne à tous momens d’entendre mes ſoûpirs;
+<lb />Ie veux qu’il ſoit témoin des langueurs de mon ame,
+<lb />Heureux ſi ſon bonheur peut ſeruir à ma flame,
+<lb />Et ſi prenant le ſoin de vous prouuer ma foy,
+<lb />Il peut vaincre ce cœur, mais le vaincre pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ce Cauaner lalis ubute a de merueilſeux charmes,
+<lb />Et produit entre nous de redoutables armes;
+<lb />Il peut faire aiſément la conqueſte des cœurs,
+<lb />Puis qu’il reuient à nous tout chargé de faueurs.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE,
+<lb />Il nous veut témoigner par des fautes ſi cheres,
+<lb />Qu’il a veu d’aſſez pres les Dames étrangeres,
+<lb />Et que malgré les vœux de quelque Eſprit jaloux,
+<lb />Il s’eſt pû faire aimer ailleurs que parmy nous.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Pour remporter, Madame, vn ſi grand auantage,
+<lb />I’ay manqué de merite autant que de courage;
+<lb />Iamais d’vn tel bonheur mon cœur ne fût flaté,
+<lb />Et s’en jugeant peu digne, il l’a peu ſouhaité;
+<lb />I’ay paru, ie l’auouë, icy trop temeraire,
+<lb />Mais ailleurs i’ay fait voir vn defaut tout contraire.
+<lb />Pour ces rares faueurs, ie les tiens du hazard,
+<lb />Ce fût en ce païs que le Sort m’en fit part:
+<lb />Oüy, dans ce meſme lieu deux Dames inconnuës,
+<lb />Que ie croy toutefois de mille attraits pourueuës,
+<lb />Sas paroiſtre a mes yeux, m'ont fait ces deux presẽs.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />C’eſt d’abord pour brauer nos meilleurs Courtiſans.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMIELE.
+<lb />Mais qui des deux preſens vous eſt plus agreable?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />voiey pour mon amour vn emdion icuoutable:
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Comte, ſongez-y bien.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Dans le doute où ie ſuis,
+<lb />Ie ſauue ma conſtance autant que ie le puis.
+<lb />Ces illuſtres faueurs d’vne main inconnuë
+<lb />M’inſpirent juſtement beaucoup de retenuë;
+<lb />Et ſans que i’oſe enfin pancher plus d’vn coſté,
+<lb />Ie les chéris, Madame, auec égalité.
+<lb />De mon aueuglement c’eſt l’effet neceſſaire
+<lb />Qui me tient en balance, &amp; m’oblige à me taire;
+<lb />Car pour m’expliquer mieux dans ces obſcuritez,
+<lb />Ie crains trop d’offenſer l’vne de ces Beautez.
+</sp>
+<sp type="MainZone-Sp"><lb />BISIDE.
+<lb />Voſtre diſcretion ſans doute eſt aſſez rare;
+<lb />Mais pour ne point paroiſtre entierement bizarre,
+<lb />Vous pouuez contenter noſtre eſprit curieux,
+<lb />Nous diſant la couleur que vous aimez le mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Il a l’œil ſur l’Eſcharpe, &amp; ie juge à ſa mine
+<lb />Qu'il aime mieux le bleu, cette couleur diuine.
+<lb />Tout-beau, ce Braſſelet qu’il regarde encor mieux,
+<lb />Nous fait voir que le vert eſt le charme des yeux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vn ſi parfait Amant fait vœu d’eſtre fidelle,
+<lb />Sans ſe deſ-honorer par quelque amour nouuelle:
+<lb />Am conmne le bleu marque la loyauté,
+<lb />Ie voy plus clair que vous dans cette obſcuritó.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vn ſi parfait Amant, ſans eſtre temeraire,
+<lb />Peut dans ſa paſſion ſe vanter qu’il eſpere:
+<lb />Ainſi comme le vert marque vn eſpoir ſi doux,
+<lb />Dans cette obſcurité ie voy plus clair que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />Elle s’explique aſſez, &amp; d’vne main ſi chere
+<lb />Ie tiens ce Braſſelet qui permet que i’eſpere.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Certes i’ay de la peine à me bien figurer
+<lb />Pourquoy vous conſeillez aux Amans d’eſperer,
+<lb />mdis que lont par ligueur, ou plutoſt par caprice,
+<lb />On eſpere fort peu quand on vous fait ſeruice?
+<lb />Le vert marque l’eſpoir, mais toûjours par ihalheur
+<lb />Vos Amans n’ont pas lieu d’en porter la couleur.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Ie cõprens beaucoup mieux dãs pareille occurrence,
+<lb />Pourque j’irhautement vous louez la conſtance;
+<lb />Le bleu la marque auſſi, mais pour voſtre malheur
+<lb />Vos Amans n’ont pas lieu d’en aimer la couleur,
+<lb />Puis que ſoit par hazard, ou bien par voſtre faute,
+<lb />Quelque nouuelle amour auſſi-toſt vous les oſte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ha! c’eſt trop s’emporter, &amp; ce cruel diſcours
+<lb />Choque trop mon amour pour en ſouffrir le cours;
+<lb />Mais toûjours les deux Sœurs ont des piques nou<lb />Et s’aigriſſent ſouuent ſur ſimples bagatelles. Iuelles,
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Seigneur, voicy mon Pere.
+<lb />LE DVC ſe retirant auec Henry &amp; Octaue.
+</sp>
+<sp type="MainZone-Sp"><lb />Ha! l’importun Vieillard,
+<lb />Qui vient encor me nuire au poinct de ſon depart!
+</sp>
+<sp type="MainZone-Sp"><lb />CAMIEEA lEjſjde.
+<lb />Vous aimez donc Henry? vous voulez qu’il eſpere?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Oüy ie l’aime, &amp; n’en fais vn ſecret qu’à mon Pere.
+</sp>
+<p type="MainZone-Head"><lb />BCENSEVJ
+<lb />FABIE, LYSIDE, CAMILLE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />TE vous cherche par tout, &amp; ie dois deſormais
+<lb />TPrendre mieux garde à vous que ie ne fis iamais:
+<lb />Vous venez, m’a-t’on dit, de viſiter Iulie;
+<lb />Mais n’auez-vous rien veu paſſant dans la Prairie?
+<lb />Ie parle à vous, Camille. Enfin ce beau Galant,
+<lb />Qui pour vous en conter fût toûjours inſolent,
+<lb />Loojet de vonre amotiy de ceruſde ma haine,
+<lb />Henry, par ſon retour, renouuelle ma peine,
+<lb />Cet heureux Fauory reuient briller en Cour.
+<lb />bas.
+<lb />LYSIEE.
+<lb />Feignons. Henry, Monſieur, eſt icy de retour?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Oüy, ma Fille, &amp; bientoſt nous le verrons ſans doute
+<lb />Faire pour voſtre Sœur l'éclat que ie redoute.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Nous deuons y ſonger, il nous importe à tous.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vous feriez mieux, ma Sœur, de ne ſonger qu’à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Elle fût pour Henry toûjours des plus diſcrettes,
+<lb />Et iamais comme vous n’écouta ſes fleuret tes;
+<lb />Mais ſi ie jeune fou renouuelle ſes feux,
+<lb />I’y veux donner bon ordre, &amp; vous punir tous deux.
+</sp>
+<sp type="MainZone-Sp"><lb />ni Roe
+<lb />Henry m’eſt inconnu; mais ſans tant ſe contraindre,
+<lb />Vn Galand, tel qu’il ſoit, n’eſt pas ſi fort à craindre.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Vous ne ſçauez pas tout, ma Niepce; mais enfin
+<lb />Ce Galand, tel qu’il eſt, pour nous n’eſt que trop fin,
+<lb />Il a deſſein de rire en cajolant ma Fille,
+<lb />Et deſ-honore ainſi mon illuſtre Famille;
+<lb />Mais i’ay ſceu juſqu’icy trop bien tenir mon rang,
+<lb />Pour ſouffrit cet affront qu’onveut faire à mõ ſang
+<lb />Grace au Ciel, ie l’égale en courage, en nobleſſe,
+<lb />Ie le ſurpaſſe en gloire ayant moins de richeſſe,
+<lb />Et mes nobles Ayeux par des traits de valeur
+<lb />Aux dépens de leurs biẽs m’ont acquis de l’honneur;
+<lb />I’ay ſuiuy leur exemple, &amp; marchant ſur leur trace,
+<lb />I’ay moy-méme enchery ſur l’éclat de ma race:
+<lb />Ainſi dans ce païs toûjours ie me maintiens
+<lb />Chargé d’ans &amp; d’hõneur, mais peu chargé de biens:
+<lb />Cependant ce jeune Homme oſe s’en faire accroire,
+<lb />Iuſques à mépriſer ma vieilleſſe, &amp; ma gloire;
+<lb />Ses grands biens, &amp; du Duc la faueur &amp; l’apply,
+<lb />Me font conſiderer bien au deſſous de luy.
+<lb />A de plus hauts partis cet inſolent aſpire,
+<lb />Et c’eſt pour rire enfin qu’il brûle &amp; qu’il ſoûpire;
+<lb />Mais ſi le juſte ſort s’accorde à mes deſirs,
+<lb />Il doit porter ailleurs ſa flâme &amp; ſes ſoûpirs:
+</sp>
+<p type="MainZone-Lg"><lb />B ij
+<fw><lb />1
+</fw><lb />Vn ſeul poinct m’embaraſſe, il faut qu’en diligence
+<lb />Sans tarder d’vn moment ie parte pour Florence,
+<lb />Le Duc m’en ſollicite, &amp; i’en ay l’ordre exprés;
+<lb />Mais Lyſide en ma place y veillera de prés.
+</p>
+<sp type="MainZone-Sp"><lb />Moy, Monſieur?
+<lb />ELSIOE.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ie le veux, vous eſtes ſon aiſnée,
+<lb />Et d’ailleurs ie vous voy ſi ſage &amp; ſi bien née,
+<lb />Qu'en m’éloignant de vous, ie puis auec raiſon
+<lb />Remettre entre vos mains l’honneur de mà Maiſon;
+<lb />Ie vous la donne en garde, &amp; pendant mon abſence
+<lb />Elle doit comme à moy vous rendre obeïſſance;
+<lb />Mais ſur tout pour Henry, ne ſouffrez nullement
+<lb />Qu’il puiſſe en liberté luy parler vn moment.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />re pretens cinperener tte piuo qu'h lr ed epproche.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vouspouuez l’aſſeurer ſans craindre aucun reproche,
+<lb />Vous en aurez grand ſoin, &amp; ie ſçay bien pourquoy.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous deuez le ſçauoir, c’eſt pour vous &amp; pour moy,
+<lb />Pour l’intereſt commun d’vne Famille illuſtre
+<lb />Dont Irenr j Iachemiene voudrort ternir le luſtre;
+<lb />Et ie proteſte icy que s’il vous veut aimer,
+<lb />Cet inſolent n’a rien qui me puiſſe charmer,
+<lb />Ie ſeray ſur ce poinct ſa mortelle ennemie,
+<lb />Et pourray tout oſer contre ſa perfidie.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Que i’aime ces tranſports, &amp; cette noble ardeur
+<lb />D’vn cœur trop genereux, &amp; zelé pour l’honneur;
+<lb />Ne te relâche point, &amp; fay-toy voir, ma Fille,
+<lb />Digne du droict d'ainiene dir mia hoble patnille.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />(vain
+<lb />N’en doutez point, Monſieur, oüy ma Sœur croit en
+<lb />Sur voſtre éloignement former vn grand deſſein;
+<lb />Ie prétens l’obſeruer d’vne façon nouuelle,
+<lb />Et ie veux de ſi pres auoir les yeux ſur elle,
+<lb />Qu'elle aura de la peine à trouuer vn moment
+<lb />Pour parier en fecret, ou voir ſon cher Amant,
+<lb />Ny meſme en receuoir lettres, preſens, meſſage.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />C’eſt promettre beaucoup.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Ten Ieray dauantage,
+<lb />Et i’en auray, Monſieur, autant de ſoin que vous,
+<lb />Eſtant ſur ce ſujet d’vn cœur auſſi jaloux.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ma Fille, embraſſe-moy. Va, ſeconde ton Pere,
+<lb />Ie voy reuiure en toy les vertus de ta Mere,
+<lb />Elle a juſqu’à la mort aime lur toue rhomeur,
+<lb />Et de plus comme moy ie te voy de grand cœur,
+<lb />Ta vertu me rauit, ie t’aime auec tendreſſe,
+<lb />Sers d’exemple à ta Sœur, &amp; tiens moy ta promeſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Plus que vous ne croyez ſon amour me déplaiſt,
+<lb />Et pour l’authoriſer i’y prens trop d’intereſt.
+<lb />Pour Henry, s’il s’obſtine à l’aimer de la ſorte,
+<lb />Contre luy ma fureur en deuiendra plus forte:
+<lb />Plus Il feitimera, plus ie le veux hair,
+<lb />Et croyez qu’en cecy ie ne puis vous trahir.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMIDEL.
+<lb />En effet, car pour luy voſtre amour eſt extréme.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Monſieur, elle eſt jalouſe, &amp; c’eſt ſigne qu'elle aime.
+<lb />B iij
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Oüy, ie la voy toû jours dans ce déreglement;
+<lb />Mais de plus elle eſt fole, &amp; perd le jugement;
+<lb />Voſtre Sœur inſenſée, abhorre voſtre vie,
+<lb />Vous luy faites pitié, loin de luy faire enuie;
+<lb />mhe d crop de courage, ene ame trop lHonneur,
+<lb />Pour aimer comme vous ce charmant ſuborneur.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous dites vray, Monſieur; mais ie luy luis ſuſpecte,
+<lb />Plus ie hay ſon Amant, &amp; plus ie vous reſpecte.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ma Fille, c’eſt l’effet que produit ſon amour;
+<lb />Ie croy faire à Florence vn aſſez long ſejour,
+<lb />I’ay charge d’y reſter, &amp; juſqu’à nouuel ordre.
+<lb />Adieu, pres de Camille empeſche le deſordre,
+<lb />Et ſur tout pour Henty fay ce que tu promêts.
+<lb />Pour vous ſoyez plus ſage, &amp; n’y penſez iamais.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LYSIDE, CAMILLE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />yOus eſtes en ma garde, &amp; deſormais, Camille,
+<lb />V Vous brûlez pour Henry d’vne flame inutile;
+<lb />Il faut que i’en réponde, &amp; vous trouuerez bon
+<lb />Que ſouuent ſur ce poinct ie vous faſſe leçon.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Me faiſant des leçons, prenez les pour vous-méme,
+<lb />Ie fay gloire à vos yeux de me vanter que i’aime;
+<lb />I'aime Henry, ie l’auouë, &amp; pretens malgré vous
+<lb />Me railler auec luy de voſtre eſprit jaloux.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous ferez vn beau coup, &amp; i’oſe vous promettre,
+<lb />Que ſi vous le pouuez, ie veux vous le permettre;
+<lb />Mais vous Iuidant par tout, quoyqu’il puiſſe a rriuer,
+<lb />Ie ſçauray pres de luy toûjours vous captiuer.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />I’auray peine à parer cette ſuite importune;
+<lb />Mais vous courez, Lyſide, vne merille fortune,
+<lb />Ie porteray mes pas par tout où vous irez,
+<lb />Et rarement ſans moy vous le rencontrerez.
+</sp>
+<sp type="MainZone-Sp"><lb />NIJE.
+<lb />Par caprice d’amour voſtre raiſon s’égare;
+<lb />Se nuire l’vne à l’autre, eſt-ce vn plaiſir ſi rare?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />C’eſt mon plus grand bonheur, de nuire à ſes deſirs.
+</sp>
+<sp type="MainZone-Sp"><lb />LISIDE.
+<lb />Ie mets toute ma joye à troubier les plaiſirs.
+</sp>
+<p type="MainZone-Other"><lb />Fin du deuxiéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE III.
+<lb />SCENE FEMIERE.
+<lb />PHILIPPIN, CELIE.
+</p>
+<sp type="MainZone-Sp"><lb />TATLIPEIN.
+<lb />Voy, ne pourray-je enfin te parler vn mo<lb />ment ?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />En voicy la ſaiſon, tu le peux librement,
+<lb />Le bon Homme eſt party.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Que le Ciel le confonde,
+<lb />Et le faſſe bientoſt partir pour l’autre monde!
+<lb />I’ay fait pour t’attraper, plus de tours qu’vn jaloux,
+<lb />Mais ce Vieillard hargneux m’a faitfuir àtous coups;
+<lb />Manitenant le reſpire, &amp; pendant ſon abſence
+<lb />Nous pouuons ſeurement entrer en conference:
+<lb />Ie vay t’embaraſſer dans des propos d’amour,
+<lb />Dont pour te démeſler il faudra plus d’vn jour.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie ne m’étonne plus d’oüir tant de ſottiſes,
+<lb />En matiere d’amour ie ſuis des mieux appriſes,
+<lb />Ie ſçay ce qu’en vaut l’aulne; &amp; ne croy pas, badin,
+<lb />Que pour toy ie demeure en vn ſi beau chemin</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Tant pis, ce n’eſt pas là nouuelle qui me plaiſe,
+<lb />Ie te voudrois d’humeur plus ſimple, &amp; plus niaiſe;
+<lb />Mais qui diable ſans moy t’en a donc tant appris?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Mais n’es-tu point auſſi de ces jaloux Eſprits
+<lb />Qu’à tous coups par amour onvoit prẽdre la chevre?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Oüy, i’ay ſouuent l’accés d’vne jalouſe fievre.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Tâches de t’en guerir, &amp; ſçaches qu’à la Cour
+<lb />Les Filles comme nous prattiquent fort l’amour;
+<lb />Onvoit l’vn, onvoit l’autre, on diſcourt, on raiſonne,
+<lb />Et noſtre Amant doit eſtre vne bonne perſonne,
+<lb />Qui ſouffre nos Galands, &amp; ſans en dire mot.
+</sp>
+<sp type="MainZone-Sp"><lb />FHILIFIIN.
+<lb />Si ie t’en laiſſe aucun, ie veux paſſer pour ſot;
+<lb />Quand tu ſeras à moy, parbieu i’ay bonne enuie
+<lb />De te faire mener vn autre train de vie.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />C’eſt en vain que tu fais ces deſſeins violens,
+<lb />Tu ſeras mon Mary; mais i’auray des Galands
+<lb />Qui ſçauront mieux que toy ſoûpirer &amp; ſe plaindre;
+<lb />Ie me plais d’eſtre aimée, &amp; ne puis me contraindre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie pourray bien t’aimer juſqu’à deuenir fou,
+<lb />Te ſuiure à chaque pas, &amp; te ſauter au cou;
+<lb />Mais c’eſtpour te bien batre, ou le Diable m’emporte.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Si tu pouuois, méchant, me traitter de la ſorte,
+<lb />Ie pourrois ſur ton chef planter vn joly bois,
+<lb />Et te faire bientoſt montrer auec deux doigts.
+</sp>
+<p type="MainZone-Lg"><lb />BV
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Si tu me fais Cocu, tu tiendras de ta Mere,
+<lb />Et moy i’auray cela de feu Monſieur mon Pere;
+<lb />Mais nous raillõs tous deux, &amp; liouo ii'en rerõs rien,
+<lb />Et nous viurons enſemble ainſi que gens de bien.
+</sp>
+<sp type="MainZone-Sp"><lb />Sans doute.
+<lb />CELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Le plaiſir que i’y prens quand i’y ſonge,
+<lb />Faiſant ſur ce ſujet quelque joly menronge,
+<lb />Me fait preſqu’oublier mon Maiſtre, &amp; ſon ardeur;
+<lb />Enfin hous connontons rvne &amp; l'autre Iaueur.
+</sp>
+<sp type="MainZone-Sp"><lb />Comment?
+<lb />CELIE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHTLIPPIN.
+<lb />Par leurs diſcours la méche eſt découuerte,
+<lb />Mon Maiſtre ſe declare, &amp; pour la couleur verte.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />dinamne cout de pon, Il lc peut declarer.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Il eſt dans des tranſports qu’on ne peut figurer;
+<lb />Mais il vient à propos.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ha! que i’en ſuis rauie!
+<lb />Lyſide en meſme temps ſort ſans eſtre ſuiuie;
+<lb />Nous iugerons de tout au premier compliment.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HENRY, LYSIDE, PHILIPPIN, CELIE.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />L’heureuſe rencontre! agreable moment?
+</sp>
+<sp type="MainZone-Sp"><lb />LISIDE.
+<lb />Tout-beau, ſi de ma Sœur vous ſouhaitez la veuë,
+<lb />Elle me ſuit de pres.
+</sp>
+<sp type="MainZone-Sp"><lb />A elel L..
+<lb />Sa preſence me tuë;
+<lb />Mais puis-je dire vn mot, Madame, en liberté?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Oüy, parlez; mais ie veux vn mot de verité.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie ſuis trop ſatisfait, &amp; ma joye eſt extréme,
+<lb />Ie connoy la faueur de la Beauté que i’aime,
+<lb />Et puis qu’aux vrais Amans vous permettez l’eſpoir,
+<lb />Cet heureux Braſſelet m’en fait trop conceuoir,
+<lb />Il cauſe des dilcours qui charment ma memoire,
+<lb />Et comme il vient de vous, il fait toute ma gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />L’Eſcharpe eſt de ma Sœur, &amp; vous pouuez, Henry,
+<lb />Eſperer juſtement d’en eſtre encor chery.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />I’eſpere en vos bontez, i’eſpere en ma conſtance,
+<lb />De vous i’attens le prix de ma perſeuerance,
+<lb />Les faueurs de Camille ont pour moy peu d’appas,
+<lb />Ie l’eſtime, Madame, &amp; ie ne l’aime pas,
+<lb />B
+<lb />3
+<lb />Et ie reuiens vers vous auec la meſme flame
+<lb />Que vos perfections firent naiſtre en mon ame,
+<lb />Vous ſeule eſtes l’objet de mes ardens ſoûpirs,
+<lb />Et vos ſeules faueurs me comblent de plaiſirs;
+<lb />Pouuez-vous en douter, &amp; me croire volage?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Ie veux de voſtre amour vn plus ſeur témoignage,
+<lb />Et la langue ſouuent nous flate au meſme temps
+<lb />Que le cœur nous trahit par des vœux inconſtans;
+<lb />Dõnezmoy cette Eſcharpe, &amp; ſouffrezque i’obtienne
+<lb />L’éclatante laueur qu'onoppoie à la mienne;
+<lb />C’eſt par là que Camille a voulu me brauer,
+<lb />Et vous y conſentez, la voulant conſeruer.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ha! Madame, à mon gré c’eſt mal prouuer ſa flame,
+<lb />Par l’indigne mépris qu’on fait d’vne autre Dame;
+<lb />C’eſt manquer de reſpect, c’eſt auoir peu de cœur,
+<lb />Que payer d’vn outrage vne telle faueur;
+<lb />Souffrez que mon reſpect vous ſerue icy d’excuſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vne preuue d’amour iamais ne ſe refuſe;
+<lb />Et queir luenenient s en derend comme toy,
+<lb />S’il montre ſon reſpect, prouue aſſez mal ſa foy.
+<lb />Va, des dõs de ma Sœur rẽs-toy toûjours plus digne,
+<lb />Et garde par amour cette faueur inſigne.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY luy preſentant l’Eſcharpe.
+<lb />Ie la pourrois garder ſeulement par reſpect;
+<lb />Mais ſi ce procedé vous ſemble trop ſuſpect,
+<lb />Receuez-la, Madame, &amp; me croyez fidelle,
+<lb />Puis qu’ainſi dans mon cœur vous triõphez ſur elle.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE la prenant.
+<lb />I’ay lieu de croire encor vos vœux diſſimulez,
+<lb />Le temps m’aſſeurera du feu dont vous brûlez;
+<lb />Cependant ie veux bien que cet eſpoir vous flate
+<lb />Que ie ſuis diſpoſée à n’eſtre pas ingrate.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />P ay fecours aux lermens pour vous en aſſeurer,
+<lb />Et i’atteſte le Ciel...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Haſtez-vous de jurer,
+<lb />Ie voy ſortir Camille.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ila! Dleux! l'etrange peine!
+<lb />Souffrezque ie vous quitte auãt qu’on nous ſurprẽne,
+<lb />Ie n’oſe ſoûtenir ce bel œil irrité.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSTDE s’en allant en colere.
+<lb />Ha! ie connois, ingrat, ton infidelité;
+<lb />Va, tâche à la flechir, ie luy cede la place.
+</sp>
+<sp type="MainZone-Sp"><lb />ABIeReT euhiant larreſler.
+<lb />Ha! Madame, arreſtez, écoutez moy de grace.
+<lb />Comme il court apres, il laiſſe choir ſon Bra ſſelet.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />DAMITEDE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Lle fuit, &amp; de nous plutoſt que d’vn Amant
+<lb />EQui ſemble trop ſurpris de ſon reſſentiment;
+<lb />Mais ie ſuiuray par tout ma cruelle ennemie.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE ramaſſant le Braſſelet.
+<lb />Viens ioüir d’vn hazard dont tu ſeras rauie,
+<lb />Voicy le Braſſelet de ta ialouſe Sœur;
+<lb />Henry l’a laiſſé choir.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ha! Niſe, quel bonheur!
+<lb />Ie le mets à mon bras, &amp; veux que ma Riuale
+<lb />Reçoiue en le voyant vne atteinte fatale;
+<lb />Mais il faut faire effort ſur mes reſſentimens,
+<lb />Et d’vne feinte joye étouffer mes tourmens;
+<lb />Ie meurs de jalouſie, &amp; i’ay bien lieu de croire
+<lb />Que ie ne puis ſans ruſe obtenir la victoire;
+<lb />Henry m’eſt infidelle, il me manque de foy,
+<lb />Et reuient plus charmé de ma Sœur que de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />N13L.
+<lb />Le voicy qui retourne, il a connu ſa perte;
+<lb />Et s’il parle à ta Sœur, la fourbe eſt découuerte.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie ſçauray l'empeſcher, voy qu’il eſt en ſoucy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />HENRY, PHILIPPIN,
+<lb />CAMILLE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />E l’ay laiſſé tomber aſſez proche d’icy;
+<lb />ICherchons.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE montrant le Braſſelet.
+<lb />Mon Caualier, voſtre recherche eſt vaine.
+<lb />HENRY voulant prendre le Braſſelet.
+<lb />Voicy ce que ie cherche, &amp; vous m’oſtez de peine.
+<lb />Ha! Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE l'empeſchant.
+<lb />Tout-beau.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Moneur, que le vous plains!
+<lb />Il eſt perdu pour vous, puis qu’il eſt dans ſes mains.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ce refus eſt cruel, &amp; ie ne puis comprendre...
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />C’eſt ma conqueſte, Henry, ceſſez d’y rien pretendre.
+</sp>
+<sp type="MainZone-Sp"><lb />AENRI.
+<lb />Ie me jette à vos pieds pour vous en conjurer.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />LYSIDE, CAMILLE, NISE,
+<lb />HENRY, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />LYSIDE..
+<lb />Sa confuſion ie la feray rentrer,
+<lb />mmle teun farre ormiertette Elenarpe à ſa veuë,
+<lb />Elle fuira de honte en ſe voyant vaincuë,
+<lb />Mais, ô rigueur du Sort, eſt-ce Henry que ie voy,
+<lb />Qui fait gloire à ſes pieds de me manquer de foy?
+<lb />Voyons juſqu’à la fin cette étrange auanture.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Rendez-le moy, Madame, &amp; ie vous en conjure
+<lb />Par tout ce que vos yeux ont de charmes plus doux;
+<lb />Pour vous toucher le cœur, i’embraſſe vos genoux,
+<lb />Ie prétens vous l’offrir, &amp; vous en faire hommage,
+<lb />Et ie tiendray toûjours à plus grand auantage,
+<lb />Si vos rares bontez approuuent mes deſſeins,
+<lb />Deſe von a vos pleus plutoit qu'entie vos mains.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE bas.
+<lb />Puis-je eſtre mépriſée auec plus d’inſolence?
+</sp>
+<sp type="MainZone-Sp"><lb />Voicy Lyſide.
+<lb />NIJE.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />O Dieux! éuitons ſa preſence.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Mais qui dans ce hazard te pourra ſecourir?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />La fuite, &amp; c’eſt icy qu’il faut feindre, ou mourir.
+<lb />Elle tient mon Eſcharpe; ha! malheur qui m’étonnet
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Elle a mon Braſſelet, &amp; cet ingrat luy donne!
+<lb />CAMILLE s’en allant, &amp;luy montrant le Braſſelet.
+<lb />Vous le voyez, ma Sœur, i’ay profité du temps,
+<lb />Ie triomphe a vos yeux, &amp; mes vœux ſont contens.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE luy montrant l’Eſcharpe.
+<lb />I’ay joüy deuant vous d’vne meſme victoire,
+<lb />Et n’ay pas grand ſujet d’enuier voſtre gloire.
+</sp>
+<sp type="MainZone-Sp"><lb />Mellare
+<lb />D’vn plus rigoureux ſort peut-on eſtre attaqué!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ce n’eſt qu’vn petit jeu, les Belles ont trocqué;
+<lb />Mais peſte on vient à vous pour vous chanter injure.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Hé bien, volage Amant, cœur ingrat &amp; parjure,
+<lb />Voila de beaux témoins d’vne immuable foy;
+<lb />Tu me braues, cruel?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Madaine, ecoutez moy.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Ne t’ay-je pas oüy, lâche, inconſtant, perfide?
+<lb />Va, tu peux pour iamais renoncer à Lyſide.
+</sp>
+<sp type="MainZone-Sp"><lb />Hai ſouffrez.
+<lb />afelan l.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE s’en allant.
+<lb />Tes diſcours ſont icy ſuperflus;
+<lb />Traiſtre, ie t’abandonne, &amp; ne t’écoute plus.
+</sp>
+<p type="MainZone-Head"><lb />SCBEDVI.
+<lb />HENRY, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Lle fuit, l’inhumaine; ô rigoureux martire!
+<lb />LVoicy le coup mortel, il eſt temps que i’expire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Si vous auez du cœur, Monſieur, n’en faites rien,
+<lb />Vous eſtes innocent, &amp; l’affaire ira bien;
+<lb />Ne perdons point de tempe tir pluintes matiles,
+<lb />En matiere d’accord ie ſuis des plus habiles;
+<lb />Ie vay chercher Celie, &amp; l’inſtruire de tout,
+<lb />Et vous mourrez apres, ſi ie n’en viens à bout;
+<lb />I'y cours, voicy le Duc.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ha! fatale contrainte!
+<lb />Mais il fait comme nous quelque amoureuſe plaintes
+</sp>
+<p type="MainZone-Head"><lb />SCENEVII.
+<lb />LE DVC, HENRY.
+</p>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />yrannique loy! dure neceſſité,
+<lb />OD’aimer ſi conſtamment vne ingrate Beauté!
+<lb />Approche, cher Henry, voy l’ennuy qui m’accable:
+<lb />Mais quoy, ſçais-tu déja mon deſtin déplorable?
+</sp>
+<sp type="MainZone-Sp"><lb />IENRI.
+<lb />I’ignore tout, Seigneur, hors mon propre malheur;
+<lb />Mais qui pourroit en vous cauſer tant de douleur?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Helas! mon deſeſpoir trop juſtement éclate,
+<lb />Il faut ceſſer de viure, ou d’aimer cette ingrate.
+<lb />Quand i’éloigne Fabie, &amp; crois apparemment
+<lb />De pouuoir profiter de ſon éloignement;
+<lb />Lors que de mes reſpects ie m’oſe toût promettre;
+<lb />La cruelle me tuë auec vn mot de lettre,
+<lb />Et me mande en feignant des ſoins trop ſuperflus,
+<lb />Que juſqu’à ſon retour ie ne la voye plus.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Vos viſites, Seigneur, ont trop d’éclat pout elle,
+<lb />Et ſon honneur l’oblige à vous eſtre cruelle.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Mais plutoſt Finſenſée aime quelque Inconnu,
+<lb />D'vne ſecrette ardeur ſon cœur eſt préuenu,
+<lb />Le bonheur d’vn Riual fait toute ma diſgrace,
+<lb />Pour luy donner entrée on me fuit, on me chaſſe;
+<lb />Mais tu peux découurir ce ſecret important.
+</sp>
+<sp type="MainZone-Sp"><lb />Moy, Seigneur?
+<lb />HENRY.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Tu le peux, ne te troubles point tant,
+<lb />En voicy le moyen. Feins d’aimer ſa parente,
+<lb />Niſe, de ſes ſecrets l’vnique confidente;
+<lb />Mais fay que ton amour éclate ouuertement,
+<lb />Aſpire au nom d’Eſpoux, prenant celuy d’Amant;
+<lb />Cette Fille auſſi-toſt de cet hymen charmée,
+<lb />Et de plus ſe croyant parfaitement aimée,
+<lb />Te pourra découurir dans vn ſecret diſcours
+<lb />Quel eſt l’heureux Riual qui trouble mes amours;
+<lb />Mais ne croy pas gauchir, &amp; feindre l’entrepriſe,
+<lb />Car ie prétens moy-meſme en dire vn mot à Niſe:
+<lb />Ie croy ſapperceuoir, &amp; ie vay de ce pas
+<lb />L’aſſeurer que ton cœur brûle pour ſes appus</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY ſeul.
+<lb />Vre loy! triſte choix que ſa rigueur m’ordonner
+<lb />I)Helas! dãs ce malheur tout ſecours m’abãdõne,
+<lb />Et iamais on n’a veu ſous l’Empire d’Amour
+<lb />Vn malheureux mortel plus ſouffrir en vn jour;
+<lb />Pourray-je me reſoudre à paroiſtre perfide,
+<lb />Et meriter ainſi la haine de Lyſide?
+<lb />Quoy, ſans me découurir, &amp; la tirer d’erreur,
+<lb />Puis-je ſouffrir long-temps cette Belle en fureur?
+<lb />Mais voicy de mon Duc la colere inſenſée
+<lb />Qui reuient d’autre part en ma triſte penſée;
+<lb />Je le voy, ce grand Prince, &amp; toûjours irrité,
+<lb />Qui ſemble m’accuſer de trop de lâcheté;
+<lb />Et le puis-je ſouffrir dans ſon inquietude
+<lb />Se plaindre auec raiſon de mon ingratitude,
+<lb />Me vanter ma fortune, &amp; ce que ie luy dois,
+<lb />Et m’impoſer ainſi de neceſſaires loix?
+<lb />N’en déliberons plus, il faut te ſatisfaire,
+<lb />Triſte loy du deuoir à mes feux ſi contraire.
+<lb />Oüy, Duc, ie t’obeïs, ou plutoſt à l’honneur,
+<lb />Ce Tyran genereux d’vn inuincible cœur;
+<lb />Oüy, ie vay la chercher cette Amante fatale,
+<lb />Et donner à Lyſide vne feinte Riuale;
+<lb />Mais fuyons ſa preſence, &amp; du moins à ſes yeux
+<lb />Déguiſons s’il ſe peut ce feu pernicieux:
+<lb />Helas! puis qu’innocent ſa cruauté m’accable,
+<lb />Que puis-je en eſperer, en paroiſſant coupable?
+</sp>
+<p type="MainZone-Head"><lb />SCENEIA.
+<lb />PHILIPPIN, CELIE, HENRY.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />rOy comme il eſt rauy dans l’excés de ſes maux,
+<lb />Y Et repaſſe en ſecret ſes amoureux trauaux.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />O Dieux! qu’il eſt troublé!
+</sp>
+<sp type="MainZone-Sp"><lb />PHILPPIN.
+<lb />Courons à luy, Celie,
+<lb />Souuent le mal d’amour dégenere en ſolie.
+<lb />Bon courage, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Que me viens-tu conter?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Que naduadteanoit niaut leidleltel
+<lb />Bon courage, vous dis-je, &amp; ſur tout allegreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Conlolez-vous, Monſieur, car enfin ma Maiſtreſſe
+<lb />Connoiſt voſtre innocence, &amp; veut parler à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />215 Efnue auron plis des lenemens plus doux,
+<lb />Ce grand couroux ſe calme, &amp; ie retourne en grace!
+<lb />Dans l’excés de ma joye il faut que ie t’embraſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN ſe mettant entre-deux.
+<lb />La Belle vous rend grace, &amp; s’en peut bien paſſer,
+<lb />Ie ſuis le ſeul qu’elle aime, &amp; qui dois l'embraſſer;
+<lb />Vos careſſes plutoſt la mettroient en colere.
+</sp>
+<sp type="MainZone-Sp"><lb />CEEJC..
+<lb />Laiſſe faire à Monſieur, il ne m’importe guere,
+<lb />Ie pourray bien ſouffrir ſon aimable tranſport,
+<lb />Et ce n’eſt pas vn Homme à rebuter ſi fort.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Tu ſerois auec luy bientoſt appriuoiſée,
+<lb />Et ie croy de ta part la choſe fort aiſée.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Conte-moy tout, Celie, &amp; laiſſe ce badin.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />I'ay tout appris, Monſieur, eſtant dans le jardin.
+<lb />Là Camille auec Niſe en ſecret retirée,
+<lb />Se vantoit que Lyſide eſtoit deſeſperée,
+<lb />Et parloit là-deſſus de voſtre Braſſelet,
+<lb />Dont la perte a cauſé ce malheureux effet;
+<lb />I’en ay fait mon rapport, &amp; Lyſide m’a cruë,
+<lb />Et pour vous rendre heureux, ſouhaite voſtre venẽ:
+<lb />Mais on nous ſuit de pres, &amp; ie ne puis ſçauoir...
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Quoy, ne puis-je en ſecret luy parler, ou la voir?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie ne ſçay ſi ſa Sœur nous le pourra permettre.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie luy vais en tous cas cerlle vir mot de lettre,
+<lb />Attens-moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Mais, Monſieur, dépeſchez viſtement.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Philippin de ma part reuient dans vn moment.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Pujez dont, cal le voy Camille qui s’auance,
+<lb />Et vous deuez ſur tout éuiter ſa preſence.
+</sp>
+<p type="MainZone-Head"><lb />SCENEX.
+<lb />CAMILLE, NISE, CELIE.
+</p>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />n jueuuuie le Due me donne du ſoucy.
+<lb />NISE.
+<lb />Tallons pas, car cene eit aſez pres d’icy.
+</sp>
+<sp type="MainZone-Sp"><lb />Rentrez.
+<lb />CAMILLE à celie.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />I’attens Lyſide.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Elle vient; mais Celie
+<lb />Arreſte, &amp; de ma part cours viſte chez Iulie,
+<lb />Dis-luy que Niſe &amp; moy poſſible dés ce ſoir
+<lb />Pour de nouueaux ſecrets nous pourrons l'aller voir.
+<lb />Dépeche.
+</sp>
+<sp type="MainZone-Sp"><lb />ERETE sin auunt.
+<lb />I'obeïs. Ha! l’importun meſſage.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Tu peux en liberté m’en dire dauantage;
+<lb />Mais ne me cele rien, ſi tu veux mon repos.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Le recit n’eſt pas long, &amp; i'acheue en deux mots.
+<lb />I’eſtois ſeule à l'écart dans ce prochain boccage,
+<lb />Quand le Duc en paſſant m’a tenu ce langage.
+<lb />Songez-vous, m’a-t’il dit, à ce nouuel Amant
+<lb />Que vos yeux, belle Niſe, ont fait ſi promptement?
+<lb />Oüy, n’en rougiſſez point, adjoûta-t’il en ſuite,
+<lb />Vous le deuez aimer autant qu’il le merite,
+<lb />C’eſt le plus accomply qui paroiſſe à la Cour,
+<lb />Et vos yeux ont ſujet d’approuuer ſon amour,
+<lb />Puis qu’auec tant de gloire au moment qu’il arriue
+<lb />Voſtre Beauté l’arreſte, &amp; d’abord le captiue.
+<lb />A ce mot il me quitte apres auoir ſoûry,
+<lb />Et ie croy qu’en raillant il veut parler d’Henry;
+<lb />Mais il faut à ta Sœur en donner de l'ombrage,
+<lb />2
+<lb />Et femndre qu'a mo jemerme Henry tient ce langage.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Poſſible eſt-il bien vray.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Ialouſe, ne crains rien,
+</sp>
+<sp type="MainZone-Sp"><lb />Mais...
+<lb />CAMILLE.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Voicy ſon Valet, quittons cet entretien.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />PHILIPPIN, CAMILLE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN tenant vne lettre.
+<lb />TOn Maiſtre me renuoye, &amp; ie porte à Celie
+<lb />MVne lettre d’amour, ou plutoſt de folie;
+<lb />Car ie croy ſur ma foy qu’il perd le jugement,
+<lb />Et deuiendra bientoſt plus fou qu’il n’eſt Amant.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Pour auoir cette lettre, employons noſtre adreſſe.
+<lb />Elle s’approche de luy doucement, &amp; luy prend
+<lb />la lettre.
+<lb />Sans doute Philippin va trouuer ſa Maiſtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Auvolcul: na: Madaine...
+</sp>
+<sp type="MainZone-Sp"><lb />Ie veux voir...
+<lb />CAMILLE.
+<lb />Arreſte, &amp; parle bas,
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Non, ma foy, vous ne le verrez pas:
+<lb />Eſt-ce ainſi qu’aux Garçons les Dames font inſultes
+<lb />Lâchez donc, ou parbieu ie feray du tumulte.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Quoy, tu fais le fâcheux &amp; le mauuais Garçon?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ha! rendez-moy ma lettre, ou ie fay le Démon.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />AISIDE, CAMILLE, NISE,
+<lb />PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vel deſordre eſt cecy?
+</sp>
+<sp type="MainZone-Sp"><lb />PAIILITTIN.
+<lb />C’eſt vn cas pitoyable;
+<lb />C’eſtqu’on meprẽd à force, ou ie me dõne au diable.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE bas.
+<lb />Il eſt temps d’acheuer, Niſe ſeconde moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Elle déchire la lettre.
+<lb />Quoy, le tiaiitre nous braue, de nous manque de foy!
+<lb />Du moins ſur ce papier il faut que ie me vange.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Quoy, déchirer ma lettre? ha! la fureur étrange!
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Tiens, voila les effets de mon juſte courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Quel tranſport vous ſaiſit, ma Sœur, &amp; qu’auez vous?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Elle a le diable au corps, &amp; i’en répons, Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Henry n’eſt qu’vn perfide, Henry n’eſtqu’vn infame,
+<lb />Indigne de nos ſoins, indigne d’eſtre au jour,
+<lb />Il écriuoit à Niſe vne lettre d’amour,
+<lb />Et ie n’ay pû ſouffrir...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ha! l’inſigne impoſture!
+<lb />Il n’eſt rien de plus faux, Madame, &amp; ie vous jure...
+</sp>
+<sp type="MainZone-Sp"><lb />Tay toy.
+<lb />LYSIDE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie veux parler, dûſſay-je eſtre pendu.
+</sp>
+<sp type="MainZone-Sp"><lb />a Miullle
+<lb />Veux-tu nous démentir, traiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Bien entendu.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSTDE à Niſe.
+<lb />Donc Henry vous écrit, parlez auec franchiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />De ſa temerité ie ſuis encor' ſurpriſe:
+<lb />Ouy, ce trantie valet nous (rouuant à Tecart,
+<lb />M’eſt venu preſenter vn Billet de ſa part,
+<lb />Par où, nous a-t’il dit, il proteſte qu’il m’aime.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Moy i’ay fait ce meſſage? ha! l’impedence extréme!
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Peux-tu, pour le nier, eſtre aſſez impudent?
+<lb />L iiea Pautielaneule.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILPPIN.
+<lb />Et l’vne &amp; l’autre ment;
+<lb />On me l’a pris de force.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ha! quelle extrauagance!
+<lb />Des Filles auroient pû luy faire violence!
+<lb />voyez le bel Enrant pour le prendre au collet.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Vous l’auez fait pourtant, foy d’honneſte Valet.
+</sp>
+<sp type="MainZone-Sp"><lb />Quoy, traiſtre?
+<lb />CAMILLE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN s'en allant.
+<lb />Ie me ſauue, &amp; bien fou qui demeure,
+<lb />Vne Femme en fureur eſt à craindre, ou ie meure;
+<lb />Mon Maiſtre n’eſt pas loin, &amp; ie vay l’auertir
+<lb />Que vous auez ſur tout l’art de fort bien mentir.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />CAMILLE, LYSIDE, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vittons, quittõs, ma Sœur, vn Amant ſi volage:
+<lb />ZOu ſi l’amour en vous préuaut ſur cet outrage,
+<lb />Pour moy ie m’abandonne à de plus hauts deſirs,
+<lb />Et ſans émotion ie verray vos ſoûpirs;
+<lb />Ie ne ſuis plus jalouſe, &amp; vous laiſſe auec Niſe
+<lb />Partager ſa conqueſte, &amp; diſputer ſa priſe.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />De bon cœur i’y renonce, &amp; ie n’y prétens rien.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous pourriez vainement me diſputer mon bien;
+<lb />Pour croire à vos diſcours, vous eſtes ce me ſemble
+<lb />Sur vn poinee uouteux tiop bien d’accord ensẽbles
+<lb />Vos deſſeins ſõt fortbeaux, pouſſez les juſqu’aubout,
+<lb />Et nous ſçaurons bientoſt la verité de tout.
+</sp>
+<p type="MainZone-Other"><lb />Fin du troiſiéme Acte.
+<fw><lb />D2
+</fw></p>
+<p type="MainZone-Head"><lb />ACTE IV
+<lb />SCENE TREMIERE.
+</p>
+<sp type="MainZone-Sp"><lb />NISE ſeule.
+<lb />NFIN la nuit eſt proche, &amp; ce lieu ſolitaire
+<lb />A Me paroiſt plus charmant, moins le Soleil
+<lb />L2 l’éclaire;
+<lb />Dans cette obſcurité dont ſe couurent les Cieux,
+<lb />Oetaue queiquerois le prelente a mes jeue;
+<lb />Cet agreable Amant me fait mieux voir ſa peine;
+<lb />Mais ie voy dans ces prez Henry qui ſe promeine.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HENRY, PHILIPPIN, NISE.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />’Iſe eſt ſeule, &amp; ie puis ſans nuire à mon amour,
+<lb />NPour obeïr au Duc, luy faire vn peu la cour.
+</sp>
+<sp type="MainZone-Sp"><lb />Il l’arreſte.
+<lb />Ne fuyez pas, Madame, en vn champ de victoire,
+<lb />Où voſtre œil chaque jour brille auec tãt de gloire;
+<lb />Ou du moins en fuyant, que ce bel œil vainqueur
+<lb />Accepte la conqueſte, &amp; le don de mon cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Sans doute il extrauague, &amp; la prend pourvne autre:
+<lb />Arreſtez là, Monſieur, quel deſſein eſt le voſtre?
+<lb />Voitre raiſon s’egare, &amp; vous vous mécont ez;
+<lb />C’eſt Niſe, &amp; non Lyſide, à qui vous en contez.
+</sp>
+<sp type="MainZone-Sp"><lb />Tay-toy.
+<lb />HENRY.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Mais ſur ma foy c’eſt à vous à vous taire.
+</sp>
+<sp type="MainZone-Sp"><lb />SCENE III.
+<lb />LYSIDE, CAMILLE, HENRY,
+<lb />PHILIPPIN.
+<lb />LYSTDE bas à Camille.
+<lb />Voy, Niſe auec Henry?
+<lb />CAMILLE ſe cachant auec Lyſide.
+<lb />Découurons ce myſtere.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Quy, Macaine, attire pal des charmes il doux,
+<lb />I’ay pris, en vous voyant, le deſſein d’eſtre à vous;
+<lb />D’vn ſeul devos regards vosyeux ont fait ma chaine,
+<lb />Et ie viens comme Eſclaue au deuant de ma Reyne
+<lb />Vous offrir le reſpect qu’on doit aux Deïtez.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN l’interrompant.
+<lb />Vous perdez jugement, Monſieur, vous vous gaſtez,
+<lb />Ou vous eſtes ſans yeux, ou du moins ſans ceruelle;
+<lb />C’eſt Niſe encor' vn coup, ouurez bien la prunelle.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Oüy c’eſt Niſe, badin; mais tréue de diſcours,
+<lb />Où ie t’aſſommeray.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Peſte, il y court toûjours!
+<lb />Eſt-il fou? ou plutont eh voudroit-il à Niſe?
+<lb />Ha! la haute inconſtance, ou la haute ſottiſe!
+</sp>
+<sp type="MainZone-Sp"><lb />NDSE.
+<lb />Vous m’aimez donc, Henry?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie le jure à genoux,
+<lb />Et de plus, cher tojes, que le nuiie que vous.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE bas.
+<lb />mupaj pareſemmer, cet impoiteur infame?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE bas.
+<lb />Et ſi long-temps le traiſtre a regné dans mon ame?
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Mais vous eſtes volage, &amp; chaque objet nouueau,
+<lb />Quoy qu’il ait moins d’attraits, vous ſemble le plus
+<lb />De vos amours en le luis aiſer mhitruite, [ beau;
+<lb />Vous aimaſtes Camille, &amp; puis Lyſide en ſute.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Oüy, i’aimay ces deux Sœurs, mais fort legerement.
+</sp>
+<sp type="MainZone-Sp"><lb />Ha! le traiſtre!
+<lb />CAMILLE bas.
+</sp>
+<sp type="MainZone-Sp"><lb /> delse puo.
+<lb />Hai l'ingrati ha! l'infidele Amant!
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Mais pour vous ſans regret ie quitte l’vne &amp; l’autre;
+<lb />Car enfin leur beauté n’égale point la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />C’eſt trop, ie m’abandonne à mon juſte courroux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Accablons cet ingrat.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE à Henry.
+<lb />A nous, perfide, à nous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Mettez-vous à couuert, Monſieur, voicy l’orage.
+</sp>
+<sp type="MainZone-Sp"><lb />Helas!
+<lb />denne ra
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Quoy, deuant nous tu manques de courage?
+<lb />Pourſuy dans ton amour?
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Pourſuy dans tes mépris.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ssauuez-vous de leurs hiains auant que d’eſtre pr is;
+<lb />Fuyez, &amp; qu’en ce cas la fuite ne vous fâche;
+<lb />Deux Femmes en fureur valẽt bien qu’on ſoit lâche.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Quo y, tu fuis? ha! méchant.
+</sp>
+<sp type="MainZone-Sp"><lb />al alale re a auane
+<lb />Ie vais chercher la mort;
+<lb />Mais, Lynde, apprenez que le n’ay pas grand tort.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />LYSIDE, CAMILLE, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />LYSTDE.
+<lb />E ſa feinte douleur ma colere s’irrite.
+<lb />DQu’a-t’il cet impoſteur?
+<fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Il a ce qu’il mérite.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ie ſçauray comme il faut punir ſa lâcheté.
+<lb />C iiij
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Hé bien il aura lors ce qu’il a merité;
+<lb />Mais ma foy devos coups il ne craint plus l’atteinte,
+<lb />Et ſans luy vous pouuez acheuer voſtre plainte.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE s’en allant.
+<lb />Non, c’eſt trop diſcourir de cet eſprit leger
+<lb />Que i’eſtime trop peu pour m’en vouloir venger;
+<lb />Va, dis luy de ma part qu’il n’aura pas la gloire,
+<lb />Par haine, ou par mépris, d’occuper ma memoire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHTEIPPIN.
+<lb />C’eſt pour luy trop d’hõneur, i’en feray mon raport,
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Va, dis à cet ingrat que ie change de ſort,
+<lb />Qu’il a pû juſqu’icy captiuer ma penſée;
+<lb />Mais que fouſant aux pieds cette ardeur inſenſée,
+<lb />I’éleue mon amour vers vn illuſtre objet
+<lb />Dont il ne fût toûjours que l'indigne ſujet.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />C’eſt agir ſagement, Princeſſe pretenduë.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMTLLE sen allant.
+<lb />Oüy, ie veux pour iamais renoncer à ſa veuë;
+<lb />Et ſi l’amour du Duc s’accorde à mes deſirs,
+<lb />nccorder à luy feul de plus juſtes ſoûpirs.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN arreſtant Niſe.
+<lb />Vous partez ſans rien dire, ô Beautt qu’il adore?
+<lb />Ie doy de voſtre part faire virmenage encore.
+</sp>
+<sp type="MainZone-Sp"><lb />Oüy, dis luy...
+<lb />NISE.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Parlons bas, c’eſt vn mot de douceur.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE s’en allant.
+<lb />C’eſt vn mot dõt tout haut ie luy veux faire hõneur.
+<lb />Dis luy dõcqu’il perd tout pour envouloir trop dire,
+<lb />Et ſoit qu’il m’aime, ou non, que ie n’en fay que rire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Parbieu vous l’entendez, vous auez de l’eſprit,
+<lb />C’eſt pour le rendre ainſi plus ſage &amp; mieux cõtrit;
+<lb />Mais bien fou qui pour vousde trop d’amour ſepique.
+<lb />Le vuley dul leulent anez ilelalconque.
+</sp>
+<p type="MainZone-Head"><lb />Af l E 
+<lb />HENRY, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />(Ous retournez encor? mais ma foy c’en eſt fait,
+<lb />V On vous donne congé, ie vous le dis tout net;
+<lb />Niſe fait peu d’eſtat de voſtre humeur legere.
+</sp>
+<sp type="MainZone-Sp"><lb />Et Lyſide?
+<lb />HENRY.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIELIN.
+<lb />Lyſide eſt toûjours en colere;
+<lb />Mais pour y demeurer elle a le cœur trop de bon,
+<lb />Et veut tout oublier, juſques à voſtre nom.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb /> plano rouron momh. H laut dont que i’expire.
+</sp>
+<sp type="MainZone-Sp"><lb />PHJLIPPIN.
+<lb />Enfin c’eſt voſtre faute, &amp; cela c’eſt tout dire;
+<lb />Mon Maiſtre, mon amy, vous eſtes trop coquet,
+<lb />Et bien mal vous en prend d’auoir tant de caquet.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Tay-toy, n’adjouſte rien à ma douleur extréme,
+<lb />Fay pluſtoſt que ie parle à la Beauté que i’aime.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Il faut ſçauoir à qui, car vous en aimez trols;
+<lb />A faute de s’entendre, on ſe méprend par fois.
+<lb />CV
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Maraut, ne crains-tu point de me mettre en furie,
+<lb />Ceſſe de diſcourir, &amp; va chercher Cenie,
+<lb />Ou bien-toſt contre toy...
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Iy cours, point de tranſport.
+<lb />Mais que diray-je enfin?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Dy luy que ie ſuis mort,
+<lb />Si Lyſide vn moment n’écoute ma defenſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />no taj mentil pour vous, &amp; ientir d’importance;
+<lb />A quatre pas d’icy retirez-vous ſans bruit.
+</sp>
+<p type="MainZone-Head"><lb />SSCENEVI..
+<lb />PHILIPPIN, CELIE.
+<fw><lb />2
+</fw></p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ais où diable chercher quand il eſt déja nuit?
+<lb />NICe lieu la cit inconu,roy uu bruit ce me sẽble,
+<lb />Auançons hardiment; i’ay du cœur, mais ie tremble.
+<lb />Qui va là?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Philippin, eſt-ce toy?
+</sp>
+<sp type="MainZone-Sp"><lb />C’eſt elle.
+<lb />PHILIPPIN.
+<lb />Bon hazardi
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Parle donc, que iut eu men tuiu.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie te cherche par tout, mon aimable Celie,
+<lb />Et la nuit m’a ſurpris faiſant cette folie.
+<fw><lb />19
+</fw></sp>
+<sp type="MainZone-Sp"><lb />CERTE.
+<lb />Quoy, c’eſt folie, ingrat, de chercher mes appas?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Oüy, quand toûjours ie cherche, &amp; ne te trouue pas;
+<lb />Mais lors que tu parois, ô charmante Maiſtreſſe,
+<lb />La folie eſt heureuſe, ou pluſtoſt c’eſt ſageſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Viens-tu pour m’ébloüir auec ce beau diſcours?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />reoi, ieviens pour mon Maiſtre implorer tõ ſecours;
+<lb />Car enfin c’eſt pour luy qu’icy ie me promeine,
+<lb />Et mieux que mon amour c’eſt le ſien qui m’ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ton Maiſtre, comme toy, n’eſt qu'vn franc étourdy,
+<lb />es plas ioamme losencor que le ne dy:
+<lb />A-t’il beſoin de moy pour en conter à Niſe?
+<lb />Dois-je fauoriſer ſa nouuelle entrepriſe?
+<lb />Que pretend-il, le traiſtre?
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ha! treue de tranſport:
+<lb />o ine parle a Eynde, il jure qu’Il ert Inort;
+<lb />Rends luy pour vn moment cette Beauté viſible.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie voudrois le pouuoir; mais il eſt impoſſible,
+<lb />Fabie eſt de retour.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />O Ciel! &amp; quel malheur
+<lb />Nous a rendu ſi-toſt cet importun réueur?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Au milieu du chemin Alphonſe le rameine,
+<lb />Et ce jeune Seigneur luy ſauue ainſi la peine
+<fw><lb />E
+</fw><lb />D’aller juſqu’à Florence, &amp; d’y faire ſejour,
+<lb />Puis qu’il préuiẽt le Duc, &amp; viẽt luy-méme en Cour.
+<lb />Cependant nos deux Sœurs n’ont plus libre ſortie;
+<lb />Mais écoute, au defaut d’vn tour dans la i'fairie,
+<lb />Ma Maiſtreſſe au Balcon pourra prendre le frais.
+</sp>
+<sp type="MainZone-Sp"><lb />Seule?
+<lb />RAILIETIN.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie tâcheray qu’elle y demeure exprés.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ie vais ſur ta parole eir audertir mont Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />ouimtey car bienetont elſe y pourra paraiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Pourrons-nous y parler?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Oüy, va i’y parleray,
+<lb />Et poſſible de plus pour toy i’y chanteray.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Pia: c ent pour me combler d’vne joye infinie:
+<lb />Sçais-tu bien que ſur tout i’aime la ſymphonie,
+<lb />Et que moy-méme encor en b quarre, &amp; b mol,
+<lb />Pour chanter comme il faut, ie ſuis vn Roſſignol.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Oüy de ces Roſſignols qu’on nomme d’Arcadie,
+<lb />Et qui font de ſi loin oüir leur mélodie.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Non, ce n’eſt que de pres qu’on m’entẽd gazoüiller,
+<lb />Ie t’en feray rougir, toy qui me veux railler;
+<lb />Ie vais chercher dequoy faire icy des merueilles,
+<lb />Et t’en donner de pres au trauers des oreilles.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie t’attens au combat, ceſſe de cajoler.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Pour te vaincre plutoſt, ie ne fay que voler.
+<lb />Adieu, belle Guerriere en combat harmonique.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Adieu, beau Roſſignol du Païs Arcadique;
+<lb />Dépeſche, car i’attens au Balcon quelque bruit,
+<lb />Et le vais menager cet entretien de nuit.
+</sp>
+<p type="MainZone-Head"><lb />SCENEVII.
+<lb />CAMILLE, NTSE au Balcon,
+<lb />LYSIDE, CELIE.
+</p>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />E l’auouë entre nous, c’eſt en vain qu’on s’eſſaye
+<lb />IDe guerir noſtre cœur d’vne amoureuſe playe;
+<lb />Ouſquoj qu'a tous momnens on en ait le deſſein,
+<lb />Iamais ce trait mortel ne s’arrache du ſein,
+<lb />I’aime encor cet ingrat, &amp; ie croy que Lyſide
+<lb />que peut, quej au ene feigne, ouoner ce perfide,
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Sans doute, &amp; la voicy qui nous ſuit de trop pres,
+<lb />Pour ne pas conſeruer les meſmes intereſts.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Quoy, ne pourray-je auoir vn moment de reſerue,
+<lb />Sans qu’vne Sceur jalouſe à chaque pas m’obſerue?
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Vous prenez pour Henry quelque nouueau ſoucy,
+<lb />Et ne pouuant le voir, vous l'attendez icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Vous le cherchez vous-méme, &amp; i’en ſuis trop cer<lb />taine;
+<lb />Tmaine,
+<lb />Mais c’eſt pour luy paroiſtre vn peu moins inhu<lb />C’eſt pour luy pardomer lon Amuente
+<lb />Auant qu’il le ſouhaite, ou qu’il l’ait merité.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Viens, prens ton Lutn, Celie, &amp; chante par vengeãce;
+<lb />Mais chante contre Amour, &amp; ſa vaine puiſſance.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Vn air ſur ce ſujet eſt rare, &amp; peu commun.
+<lb />Et ſur tout parinj lous, toutcrois i'en ſçais vn
+<lb />Que fit vn pauure Amant trahy de ſa Maiſtreſſe,
+<lb />Et qui tout en chantant en mourut de triſteſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Par vn airque le Duc met en credit en Cour;
+<lb />Il eſt fait pour Camille, &amp; c’eſt auſſi pour elle
+<lb />Que i’entreprens d imour la puhante querelle.
+</sp>
+<p type="MainZone-Head"><lb />SCENE PII.
+<lb />LE DVC, HENRY, PHILIPPIN,
+<lb />LYSIDE, CAMILLE, NISE,
+<lb />CELIE, OCTAVE.
+</p>
+<sp type="MainZone-Sp"><lb />LE DVC à ſa ſuite.
+<lb />E Balcon n’eſt pas loin, faites les arreſter,
+<lb />LEtqu’au moindre ſignal ils ſoiẽtpreſts de chãter,
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />O fatale rençontre à mes deſſeins contrairet
+<lb />Celie accorde vn Luth.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN tenant vn Euth en main.
+<lb />O maudite auanture, &amp; qui me deſeſpere!
+<lb />Cojj lauura til me taire adec mnon inſcrument,
+<lb />Par qui i’eſperois vaincre vn objet ſi charmant?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Mais ſilence, écoutons, quelque jeune Merueille
+<lb />Auant noſtre Concert nous veut charmer l’oreille.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE chante.
+<lb />Amour, ſors enfin de mon cœur,
+<lb />Ton Empire eſt trop vain, tes chaiſnes trop cruelles,
+<lb />Tes plaiſirs ont peu de douceur,
+<lb />Et pour s’euanouir ils empruntent tes aiſles;
+<lb />Et l’on ne peut chérir ta Loy,
+<lb />A moins d’eſtre Enfant comme toy.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />La voi tient du Daicon.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />C’eſt Celie; ha! i’enrage
+<lb />De ne pouuoir répondre, &amp; faire mon ramage.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE chante.
+<lb />Amour eſt le Tyran des cœurs,
+<lb />Dile leurmonarque du momde, ottaue ſort
+<lb />Tout cede à ſes attraits vainqueurs, &amp; entend
+<lb />Il regne ſur la terre &amp; l’onde;
+<lb />Et pour s’exempter de ſes loix,
+<lb />ter.
+<lb />Les Souuerains perdent leurs droicts.
+<fw><lb />Niſe chan</fw></sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />C’eſt Niſe, &amp; ma Camille eſt ſans doute auec elle:
+<lb />Amour, ſois moy propice, &amp; rens-la moins cruelle,
+<lb />Approchons.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Quel bonheur! ſi-toſt que ie parois,
+<lb />L’objet de mes ſoûpirs m’enchante par ſa voix;
+<fw><lb />4
+</fw><lb />Mais i’entens quelque bruit autour de cette place,
+<lb />Cachons-nous, &amp; de pres voyons ce qui s’y paſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN ſe couchant au bord du Theatre.
+<lb />Ils vont s’embaraſſer en mille complimens,
+<lb />Et là paſſer la nuit comme de ſots Amans:
+<lb />Cependant le ſommeil répand ſur moy ſes charmes,
+<lb />Prenons quelque repos, &amp; mettons bas les armes;
+<lb />Quand ns auront lny, ie pretens a mon tour
+<lb />Donner ma Serenade, &amp; faire auſſi ma Cour.
+<lb />Il s’endort.
+<lb />LE DVC s’eſtant approché du Balcon.
+<lb />Voſtre voix, belle Niſe, a charmé mon oreille,
+<lb />Et par ſes doux accens mon eſpoir ſe réueille,
+<lb />Ie m’approche auec joye, &amp; dans l'obſcurité
+<lb />Ie cherche aupres de vous vn rayon de clarté;
+<lb />Montrez-moy la Déeſſe à mes feux ſi contraire,
+<lb />Faites durant la nuit que mon Soleil m’éclaire,
+<lb />Et i’ameine pour vous vi frihant renommé
+<lb />Que depuis ſon retour vos beaux yeux ont charmé.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE bas.
+<lb />Ha! ma Sœur, écoutons.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE.
+<lb />Il parle de ce traiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE bas.
+<lb />Voicy le coup fatal, mon Riual va paraiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />En vn mot, c’eſt Henry qui fait gloire à la Cour
+<lb />D’omſir a vos beautez vn cœur remply d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />NISE
+<lb />Ha! Seigneur, c’en eſt trop, épargnez ma foibleſſe,
+<lb />Vous voulez me railler auec la meſme adreſſe,
+<lb />Tous deux pour me joüer vous eſtes de concert.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />oy, n’a-t’il pas parſe d'vn tœul aiez ouuert?
+</sp>
+<sp type="MainZone-Sp"><lb />NISE.
+<lb />Ses diſcours n’ont eſté qu’vne agreable feinte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Non, non, ſa flame eſt pure, &amp; l'aueu ſans contrainte,
+<lb />Et le voicy luy-méme &amp; des yeux &amp; du cœur
+<lb />Qui reconnoiſt bien mieux voſtre œil pour ſon vain<lb />queur.
+<lb />à Henry bas.
+<lb />Parle donc, &amp; d’vn mot flate cette humeur vaine.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />Où me voy-je reduit? Iuſte Ciel, quelle geſne!
+<lb />Oüy, Madame, en effet c’eſt vne verité
+<lb />Que l'aueu qu’on vous fait de ma temerité.
+<lb />Sous l’Empire d’Amour ie brûle, ie ſoûpire,
+<lb />Vn pouuoir abſoiu me force à vous le dire;
+<lb />Mais quoy que ma parole ait aſſez de vigueur,
+<lb />Ie dis toute autre choſe &amp; des yeux &amp; du cœur.
+</sp>
+<sp type="MainZone-Sp"><lb />LYSIDE haut.
+<lb />Il n’en faut plus douter, apres cette aſſeurance
+<lb />aremj par tant d’amour paſſe voſtre eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />C’eſt Lyſide, hat grands Dieux, ie ſuis tout interdit;
+<lb />Madame...
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />C’eſt aſſez, vous en auez trop dit,
+<lb />Et nous pouuons, Henry, rendre ce témoignage,
+<lb />Que le cœur &amp; les yeux n’ont point d’autre langage.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Enfin ie vous y prens, adorable Beauté;
+<lb />Mais c’eſt trop diſputer ſur cette verité,
+<lb />Qu’õ chãte icyl’amour que vos yeux ont fait naiſtre,
+<lb />Et que l'ardeur d’Henry cede au feu de ſon Maiſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE s’en allant.
+<lb />Ha! traiſtre &amp; lâche Amy, ta faueur me détruit;
+<lb />Mais le jour vengera le crime de la nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />On chante.
+<lb />Si mon amour doit toûjours vous déplaire,
+<lb />Hé bien, cruelle, enfin puis-je vous plaire,
+<lb />Si ie quitte le jour?
+<lb />Ma mort n’eſt pas l’objet de voſtre enuie,
+<lb />vous demamer la mue mon amour,
+<lb />Plutoſt que celle de ma vie.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais quelque effort que faſſe voſtre haine,
+<lb />Vous n’aurez pas, trop aimable inhumaine,
+<lb />Cet injuſte plaiſir.
+<lb />Par vos rigueulo le pourraj rentire fame,
+<lb />Mais non iamais ſelon voſtre deſir
+<lb />Eteindre vne ſi belle flame.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Iugez de mon amour par ce rare deſſein
+<lb />Qu’inſpirent vos mépris au cœur d’vn Souuerain;
+<lb />Vous pouuez, cher objet, m’eſtre toûjours cõtraire..
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Quelqu’vn ſort du logis.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMTLLE.
+<lb />C’eſt peut-eſtre mon Pere;
+<lb />Auant qu’il vous ſurprenne, éloignez-vous d’icy,
+<lb />Et ſouffrez qu’à regret nous vous quittions auſſi.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC s’en allant.
+<lb />Bizarre effet du Sort!
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY le ſuiuant.
+<lb />Agreable ſurpri ſe!
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+<lb />FABIE, PHILIPPIN.
+</p>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Os Amans ont quitté leur nocturne entrepriſe,
+<lb />NLes concerts amoureux font alte, &amp; chacun fuit,
+<lb />Et ie fay le ſilence où ie cherche le bruit.
+<lb />qder conteil dois-je ſuiure? &amp; qui poura m’aprendre
+<lb />Ce que ie veux ſçauoir, &amp; que ie crains d’entendre?
+<lb />Indiſcrette Camille, en quel aueuglement?...
+</sp>
+<sp type="MainZone-Sp"><lb />PHIIPPIN s’éueillant en ſurſaut.
+<lb />I'y ſuis, i’y ſuis, vous dis-je, attendez vn moment;
+<lb />Que Lyide, Caniilie, de Iviſe, vos Maiſtreſſes,
+<lb />Qu’on a veu tour à tour attirer vos careſſes,
+<lb />Fanent auſſi ſilence, &amp; jurent par leur foy
+<lb />Qui ſçait le mieux chanter de Celie &amp; de moy.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE bas.
+<lb />Eſcoutons ce galand.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Durant la nuit entiere
+<lb />vous auez cajole malgre le pauure Pere,
+<lb />Qui veut faire le fin, &amp; n’eſt pourtant qu’vn ſot;
+<lb />Ie veux ſur ce ſujet chanter vn Air falot,
+<lb />Car ma foy ce Vieillard, de l’air qu’il ſe gouuerne,
+<lb />Entre deux bons amis, mérite qu’on le berne.
+</sp>
+<sp type="MainZone-Sp"><lb />Il chante.
+<lb />Rions, faiſons l'amour, la nuit nous eſt heureuſe,
+<lb />Rien ne s’oppoſe à nos plaiſirs,
+<lb />Noſtre Argus eſt couché, debout troupe amoureuſe,
+<lb />Contentons nos jeunes deſirs;
+<lb />Car quand le vieux Penard ſommeille,
+<lb />C’eſt lors qu’auec plaiſir noſtre amour ſe réueille.
+<lb />Il faut en liberté s’épanoüir la rate,
+<lb />Mocquons-nous de ce noble fat,
+<lb />Faiſons à qui mieux mieux que noſtre flame éclate,
+<lb />Donnons luy tous échet &amp; mat,
+<lb />Et dans Paldeur qui nous comoiniile,
+<lb />Chantons, viue l’Amour, &amp; nargue du bon Homme
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN continue.
+<lb />Hé bien, qu’en dites-vous? n’eſt-il pas bien drappé?
+<lb />Mais on m’a laiſſé ſeul, ou ie ſuis bien trompé,
+<lb />Mon Maiſtre a commencé le branle de ſortie,
+<lb />Les Belles du Balcon ont quitté la partie.
+<lb />Hola, Seigneur Henry? C’eſt tout de bon, ma foy,
+<lb />Ie ſuis ſeul, &amp; la nuit me fait trembler d’effroy;
+<lb />Fuyons, ie crains icy quelque triſte rencontre,
+<lb />Et que pour mon malheur le Vieillard ne ſe montre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+</p>
+<sp type="MainZone-Sp"><lb />FABIE ſeul.
+<lb />E pourrois me montrer de la bonne façon,
+<lb />IEt te payer, maraut, de ta ſotte chanſon;
+<lb />Mais pour mieux me venger, ie dois encor me taire,
+<lb />Et mne pas éuenter ce malheureux myſtere.
+<lb />Enfin i’ay tout appris, le piege eſt découuert,
+<lb />Mes ſoupços sõt tropvrais, c’eſt Henry qui me perd,
+<lb />Et l’honneur précieux d’vne Famille illuſtre
+<lb />Dont auec tant de ſoin i’ay conſerué le luſtre,
+<lb />Se voit reduit au poinct de n’auoir plus d’éclat,
+<lb />Par le mépris qu’en fait ce Mignon de l’Eſtat;
+<lb />Il s’en vante le traiſtre, &amp; le Duc l’authoriſe;
+<lb />Mais de quelque amitié dont il le fauoriſe,
+<lb />Il faut, pour rétablir l’honneur en ma maiſon,
+<lb />Que luy-méme, ou mon bras, m’en faſſe la raiſon;
+<lb />Ie yeux faire ma plainte, en demander vengeance,
+<lb />Et ſi ie ne l’obtiens d’vne injuſte Puiſſance,
+<lb />I’iray moy-méme apres tout vieux &amp; tout caſſé,
+<lb />Mais tout boüillant encor du ſang que i’ay verſe,
+<lb />Attaquer ce cruel, &amp; le punir d’vn crime
+<lb />Que la ſeule faueur peut rendre legitime;
+<lb />Ou ſi le Ciel enſemble a reſolu ma mort,
+<lb />Ie mourray plein d’honneur pour vn ſi noble effort.
+</sp>
+<p type="MainZone-Other"><lb />Fin du quatriéme Acte.
+</p>
+<p type="MainZone-Head"><lb />ACTE
+<lb />V
+<lb />SCENE PREMEERE.
+<lb />LE DVC, FABIE.
+</p>
+<sp type="MainZone-Sp"><lb />LE DVC voyant approcher Fabie.
+<lb />Voy, ne puis-je vn momẽt dãs cette Solitude
+<lb />Donner quelque relâche à mon inquietude,
+<lb />Sans que quelque importun toujours mal à
+<lb />Propos
+<lb />Vienne pour m’interrompre &amp; troubler mon repos?
+<lb />Me voulez-vous parler?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Seigneur, ſi Voſtre Alteſſe
+<lb />Duigne auoir quelque ſoin d’vne illuſtre Vieilleſſe,
+<lb />Si vous ne mépriſez la gloire de mes ans...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Que voulez-vous demoy, pariez ſans perdre temps.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Seigneur, i’ay de l’honneur, &amp; c’eſt tout l’heritage
+<lb />Que mes nobles Ayeux me laiſſent en partage;
+<lb />Ces Guerriers renommez qu’on a veus tant de fois.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ie ſuis aſſez inſtruit de leurs rares exploits;
+<lb />Ne venez-vous icy que pour vanter leur gloire,
+<lb />Et m’oſter les moyens d’en perdre la memoire?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Non, Seigneur; mais moyméme ainſi que mes Ayeux
+<lb />Ayant de ma valeur fait preuue en tant de lieux,
+<lb />Moy-méme ayant vieilly dans le gain des Batailles,
+<lb />Et ngnalc ines jours pal imie Imeranies,
+<lb />Mon bras ayant rendu mon nom aſſez brillant...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Hé bien, ie ſçais encor que vous fuſtes vaillant,
+<lb />Et que voſtre jeuneſſe aux combats animée
+<lb />Vous acquit de l’honneur, &amp; quelque renommée.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Donc, Seigneur, donc apres que mes fameux trauaux
+<lb />M’ont fait plus d’enuieux que d’illuſtres Riuaux,
+<lb />Apres qu’en tant de lieux i’ay porté la Victoire,
+<lb />La Fortune ennemie oſe brauer ma gloire,
+<lb />Et les biens me manquant pour ſouſtenir vn rang
+<lb />Digne de mon courage, &amp; digne de mon ſang...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />C’eſt aſſez, &amp; ie ſçay l’ennuy qui vous conſomme:
+<lb />Enſin vous eſtes pauure autant que vaillantHomme,
+<lb />Ie vous feray du bien, vos ſeruices paſſez
+<lb />Meritent en effet d’eſtre récompenſez,
+<lb />Et ie prétens vn jour dignement reconneſtre...
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Seigneur, ie ſuis content, &amp; fay gloire de l’eſtre,
+<lb />L’honneur ce digne objet des illuſtres ſoüpirs
+<lb />M’en récompenſe aſſez, &amp; borne mes deſirs,
+<lb />Ie me tiens aſſez riche ayant l’honneur de reſte;
+<lb />Mais pour venir au poinct qui m’eſt le plus funeſte,
+<lb />I’ay deux Filles, Seigneur...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Enfin ie vous entens,
+<lb />Vous demandez du bien, &amp; c’eſt pour vos Enfans,
+<lb />Ie les veux marier, n’en ſoyez plus en peine.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Seigneur, ce n’eſt pas là le ſujet qui m’ameine.
+</sp>
+<sp type="MainZone-Sp"><lb />Mais quoy donc?
+<lb />LE DVC.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />La richeſſe, &amp; l’éclat des grands biens
+<lb />N’a que fort peu d’apas pour moy, nypour les miens
+<lb />La gloire eſt le ſeul bien qui charme mon courage;
+<lb />Mais ie ne puis ſouffrir que ce noble auantage,
+<lb />Que cet honneur acquis pour vous auoir ſeruy,
+<lb />Me ſoit meſme à vos yeux injuſtement rauy;
+<lb />Et c’eſt icy, Seigneur, le ſujet de ma plainte,
+<lb />On donne à mon honneur vne mortelle atteinte,
+<lb />Ce que i’acquis en guerre, il faut qu’en voſtre Cour
+<lb />Ie le perde aujourd’huy par les ruzes d’amour;
+<lb />Dans ce lieu de repos on m’attaque, on m’affronte,
+<lb />D umour qu’on y prattique y fait toute ma honte:
+<lb />Mais helas! vous l’aimez l’autheur de mon ennuy,
+<lb />Et vous m’allez haïr en parlant contre luy.
+<fw><lb />2
+</fw></sp>
+<sp type="MainZone-Sp"><lb />LE DVC bas.
+<lb />Il cõnoiſt mon amour, ſans doute il ſçait que i’aime,
+<lb />Et s’il ſe plaint à moy, ce n’eſt que de moy-méme,
+<lb />Vous pouuez librement parler, &amp; contre tous,
+<lb />Sans craindre les effets d’vn injuſte courroux;
+<lb />Mais ſongez à me faire vn recit veritable
+<lb />Auant que d’éclater, &amp; nommer le coupable;
+<lb />ouo duez pris l’alarme, &amp; c’eſt ſur vn faux bruit.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Helas! de mes malheurs ie ſuis trop bien inſtruit;
+<lb />C’eſt Henry qui me perd, qui trouble ma famille,
+<lb />Qui ſe plaiſt ſans reſpect de cajoler ma Fille.
+</sp>
+<sp type="MainZone-Sp"><lb />Voſtre Fille?
+<lb />LE DVC.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Oüy, Seigneur, il eſt dans ce deſſein,
+<lb />Il cajole Camille, &amp; i’en ſuis trop certain,
+<lb />Meſme auant ſon départ il fit cette pourſuite,
+<lb />Ie croyois que l’abſence en dût rompre la ſuite;
+<lb />Mais ie voy qu’au contraire, &amp; de nuit &amp; de jour
+<lb />Il fait ouuertement éclater ſon amour;
+<lb />Comme il peut tout icy, l’inſolent me mépriſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC bas.
+<lb />Qu’entens-je, juſte Ciel! ha! l’indigne entrepriſe!
+<lb />Deuelranda danimes,
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ouy, Seigneur.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC. Et l’ingrat
+<lb />Meſme auant ſon depart en faiſoit grand éclat?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Il cachoit mieux ſot roun quar lis ont pris haiſſance;
+<lb />Mais depuis il s’en vante auec vne inſolence...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Et le traiſtre à moy ſeul en veut faire vn ſecret.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ie l’accuſe, Seigneur, &amp; c’eſt auec regret;
+<lb />Ie ſçay qu’il vous eſt cher à l’égal de vous-méme,
+<lb />Mais ie ne puis me taire en ma douleur extréme;
+<lb />Et ſi i’ay moins que luy de biens &amp; de faueur,
+<lb />rour iouſfir cet anrot, lay trop, i'aytrop d’hõneur;
+<lb />Voyez mon deſeſpoir, détournez-en la ſuite,
+<lb />Faites ceſſer enfin certe indigne pourſurte,
+<lb />Ou du moins qu’vn Hymen entre nous arreſté
+<lb />Soit garand de ſes feux, &amp; de leur purtte.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC bas.
+<lb />Ha! perfide; hat cruel, ne t’ay-je appris ma flame,
+<lb />Que pour renouueller cet amour dans ton ame?
+<lb />Ie t’éleue ſi haut, qu’on m’en peut mépriſer;
+<lb />Et pour me perdre, ingrat, tu veux en abuſer?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Quoy, Seigneur, ſi mõſoit, ſi madouleur vous touche,
+<lb />Ne pourray-je arracher vn mot de voſtre bouche?
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />aiiler, le veux drente encormmeun eclircy,
+<lb />Et maintenant ie réue à quelqu’autre ſoucy.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE s’en allant.
+<lb />Faueur, amour des Grañds, paſſionnez caprices,
+<lb />Voila de vos effets &amp; de vos injuſtices;
+<lb />Il eſt temps, ma valeur, de faire agir mon bras,
+<lb />Ou pour noſtre vengeance, ou pour noſtre trépas.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC ſeul.
+<lb />N’en doutons plus, ce traiſtre eſt aimé de Camille,
+<lb />Et ie prens pour la vaincre vne peine inutile,
+<lb />Si i’en ſuis mal-traitté juſqu’à perdre le jour,
+<lb />C’eſt bien moins par defaut que par excés d’amour.
+<lb />DõcHẽry mieux que moy peut toucher sõ courage;
+<lb />Vn ſujet fur non limee eſporte rauantage?
+<lb />O ſenſible rigueur! trop indigne mépris!
+<fw><lb />&amp;
+<lb />paeul, im sa d
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />HENRY, LE DVC.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />il douieur paront grande, ce r'en fuis tout ſurpris;
+<lb />OHa! Seigneur, qu’auez-vous? voſtre tranſport
+<lb />m’etoſine;
+<lb />Faut-il qu’au deſeſpoir ce grand cœur s’abandonne?
+<lb />Du moins apprenez-moy quel accident fatal?..
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />On t’aime, tropingrat, &amp; c’eſt là tout mon mal.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />De quel étonnement rempliſſez-vous mon ame?
+<lb />Qu’ay-je faitqui ſoit digne ou dehaine, ou de blâme,
+<lb />Epargnezmoy, Seigneur, ces regards furieux,
+<lb />Rappelfez vos eſprits, &amp; me connoiſſez mieux.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Prens-tu mes actions pour des extrauagances?
+<lb />Ie te connoy, perfide, &amp; mieux que tu ne penſes,
+<lb />Ton crime eſt découuert, Amant trop indiſcret,
+<lb />Camille eſt la Beauté que tu ſers en ſecret,
+<lb />Triomphe de ma ffame, &amp; va rire auec elle
+<lb />Du malheureux ſuccés de mon amour fidelle.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Moy, Seigneur? ha! croyez...
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC s’en allant.
+<lb />Ne me replique plus,
+<lb />Aſſez long-temps pour toy i’ay veſcu dans l’abus;
+<lb />Mais bien-toſt ton amour qui fait tout mon ſuplice,
+<lb />Fera toute ta peine auec plus de juſtice;
+<lb />Ie puis te perdre, ingrat, &amp; te rendre à mon tour
+<lb />Vn objet de pitié mieux qu’vn charme d’amour.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY ſeul.
+<lb />D’où me vient ce malheur, qui cauſe cet orage?
+<lb />Ce dernier coup de foudre étonne mon courage;
+<lb />Quoy, voir en meſme temps par vne double erreur
+<lb />Ma Maiſtreſſe en colere, &amp; mon Prince en fureur?
+<lb />De delmer marete gruna, mais non pas rans femede,
+<lb />Il faut qu’à ſa raiſon enfin la fureur cede,
+<lb />Tâchons de le tirer de ſon aueuglement.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III.
+<lb />CELIE, HENRY, PHILIPPIN.
+<fw><lb />CELIE.
+<lb />V courez-vous ſi viſte? attendez vn moment.
+</fw></p>
+<sp type="MainZone-Sp"><lb />Que veux-tu?
+<lb />HENRY.
+<lb />B 1j
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Quoy, Monſieur, fuyez-vous de ma veuë?
+<lb />Suis-je vn de ces objets dont le regard vous tuë?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Pardonne à ma douleur, excuſe mon tranſport,
+<lb />Ie ſçay que ta Maiſtreſſe a reſolu ma mort,
+<lb />le vals delelpere concenter lon endle,
+<lb />Et mon plus grand deſir c’eſt de fuir de la vie.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ou plutoſt de nos yeux, quand Niſe vous attend;
+<lb />Car enfin cet amour n’eſt que trop éclatant,
+<lb />Et de jour &amp; de nuit voſtre flame eſt viſible.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />N’adjouſte rien au mal qui m’eſt le plus ſenſible;
+<lb />Peux-tu me croire aueugle, &amp; ſoupçonner ma foy
+<lb />D'vn changement hõteux pour Lyfide &amp; pour moy?
+<lb />Que ne puis-je vn moment parler à cette Belle?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ie vous viens annoncer cette heureuſe nouuelle.
+<lb />Icy dans la Prairie, vn peu plus à l’écart,
+<lb />Vous l’y verrez venir dans vne heure au plus tard,
+<lb />Ce Billet de ſa main vous en donne aſſeurance,
+<lb />Il n’eſt rien d’impoſſible à ma perſeuerance,
+<lb />I’ay pris voſtre party, i’ay flaté ſon courroux,
+<lb />Euimil e ent tirence du lol quePapde tado.
+<fw><lb />HENRY s’approchant d’elle, &amp; la careſſant.
+<lb />Que ne te dois-je point pour tant de bons offices,
+<lb />Comment récompenſer ces obligeans ſeruices?
+</fw></sp>
+<p type="MainZone-Head"><lb />SCENE TV.
+<lb />PHILIPPIN, HENRY, CELIE.
+<lb />PHILIPPIN ſuruenant, &amp; ſe cachant.
+<lb />E les prens ſur le fait. Que diable eſt donc cecy?
+<lb />IMõ Maiſtre n’a-t Il ponit d'autle pras grad ſoucy?
+<lb />Pour me faire enrager, feroit-il la folie,
+<lb />Auec tant de Beautez, d’aimer encor Celie?
+</p>
+<sp type="MainZone-Sp"><lb />HENRY à Celie.
+<lb />Ma rie ent en tes mams, &amp; le Iuis tiop neureux
+<lb />Si tu in’aimes toûjours.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Il en eſt amoureuxr
+<lb />Oüy, peſte, il en eſt pris, &amp; de bon cœur i’enrage.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />I’eſtois preſt de mourli, ma vie eit ton ouurage,
+<lb />Et depuis que i’éprouue en toy tant de pouuoir,
+<lb />Ie reprens à ta veuë &amp; la vie, &amp; l’eſpoir.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Ma foy ie vous croyois déja mort de triſteſſe;
+<lb />Mais le cœur vous reuient en me faiſant carreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />a Mo engione, cenes a prens ce diaiant
+<lb />Pour te mieux aſſeurer de mon reſſentiment.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Vous l’offrez de bon cœur, &amp; ie le prens de méme.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Prẽs dõc, &amp; croy de plus que de bon cœur ie t’aime.
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE.
+<lb />Et vous croyez, Monſieur, que ie ſuis toute à vous.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN bas.
+<lb />Hat traiſtreſſe, eſt-ce ainſi que i’auray du deſſous?
+</sp>
+<sp type="MainZone-Sp"><lb />CELIE s’en allant.
+<lb />Adieu, nous vous verrons tantoſt dans la Prairie,
+<lb />I'y conduiray Lyſide.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Adieu, chere Celie.
+</sp>
+<p type="MainZone-Head"><lb />LENE V
+<lb />PHILIPPIN, HENRY.
+</p>
+<sp type="MainZone-Sp"><lb />T
+<lb />PHILIPPIN.
+<lb />Dieu, chere Celie. Eſprit traiſtre &amp; ſans foy,
+<lb />TAInfidele à Lyſide, &amp; plus encor' à moy,
+<lb />Bourreau de mes amours, vous cajoler Celie?
+<lb />Mais par la mort...
+</sp>
+<sp type="MainZone-Sp"><lb />LERRI
+<lb />Qu’as-tu? dis quelle eſt ta folie?
+<lb />Ie t’aſſomme, coquin, ſi tu veux diſcourir.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Dûſſiez-vous enrager, &amp; dûſſay-je en mourir,
+<lb />Vos menaces, ma foy, n’ont rien qui m’épouuente,
+<lb />Il faut qu'a lallomer du moms le ne contente.
+<lb />Maiſtre dénaturé, i’ay veu ta trahiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Te tairas-tu, maraut?
+</sp>
+<sp type="MainZone-Sp"><lb />. 4 
+<lb />PHILIPPIN.
+<lb />Pourquoy, ſi i’ay raiſon?
+<lb />Pour embraſer d’amour la maiſon de Fabie,
+<lb />Il te falloit encor ciitieprendre Celie?
+<lb />Mes ſeruices, ingrat, ſont fort bien reconnus,
+<lb />Mais le les porte ailſeurs, &amp; je ne t’en fay plus:
+</sp>
+<sp type="MainZone-Sp"><lb />Il luy jette vn Billet à terre.
+<lb />Ce Billet vient encor d’vne maiſon ſi chere.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY le ramaſſant.
+<lb />O Dieux! c’eſt de Lyſide.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Ou plutoſt de ſon Pere:
+<lb />Oüy, oüy, c’eſt vn dery du bon Honniiie en courroux
+<lb />ui ſe promet icy de te roüer de coups.
+<fw><lb />HENRY déployant le Billet.
+<lb />Quoy, luy me défier? ſa folie eſt extréme.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Si i’eſtois grand Seigneur, i’en ferois bien de méme,
+<lb />Teſlage de bon cœur de n’eſtre qu'vn Valet,
+<lb />Et de ne pouuoir pas luy ſauter au colet.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY apres auoir leu.
+<lb />Que peut faire de pis la Fortune ennemie,
+<lb />Qu'en meſme temps m’offrir &amp; Lyſide &amp; Fabie?
+<lb />Quoy, cette meſme place en meſme heure du jour
+<lb />M’eſt vn lieu de combat, vn rendez-vous d’amour?
+<lb />Dures extremitez où mon ame eſt reduite!
+<lb />Et l’honneur &amp; l’amour me defendent la fuite;
+<lb />Empeſchons toutefois qu’vn Pere furieux
+<lb />Ne ſurprene auec nous ma Lyſide en ces lieux;
+<lb />Amour, dans ce deſſein ſeconde mon adreſſe,
+<lb />Et permets-moy bien-toſt de joindre ma Maiſtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />l llnuli llia
+<lb />Si l’Amour a du cœur, il ſera contre vous.
+</sp>
+<sp type="MainZone-Sp"><lb />AENRTS en auant.
+<lb />Ie te réponds tantoſt, mais auec mille coups.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI.
+</p>
+<sp type="MainZone-Sp"><lb />PHILIPPIN ſeul.
+<lb />Ans attendre qu’ainſi, traiſtre, l’on me réponde,
+<lb />OIe vais faire des vœux que le Ciel te confonde;
+<lb />Mais quoy, muomiorte nu leeu mouerager,
+<lb />Ne puis-je le punir, ne puis-je m’en venger?
+<lb />Oüy, i’en ſçay le moyen, ſa peine eſt inutile,
+<lb />Car ie vais de ce pas en aduertir Camille,
+<lb />Et ie ſçay que la Belle a l’eſprit trop jaloux,
+<lb />Pour ne le pas troubler dans ce beau rendez-vous.
+<lb />D’ailleurs i’ay veu le Duc au bout de la Prairie,
+<lb />Qui ſemble eſtre égaré dans ſa mélancolie,
+<lb />Ie veux l’aller trouuer, &amp; faire adroitement
+<lb />Qu’il deuienne jaloux de ce perfide Amant,
+<lb />Qu’il rencontre auec luy la Beauté qu’il adore;
+<lb />Enfin, pour me venger, ie feray pis encore,
+<lb />Pour te faire connoiſtre, ô voleur de mon bien,
+<lb />Ce que peut vn Eſprit adroit comme le mien:
+<lb />Mais ie le vois encor, Octaue le rameine,
+<lb />Et le fait ſur ſes pas retourner dans la Plaine;
+<lb />Camille eſt au logis, entrons-y finement,
+<lb />Et pour nous mieux vẽger, faiſons tout prõptement.
+<fw><lb />VAB NABNAE A V
+<lb />SCENE VII.
+<lb />OCTAVE, HENRY.
+<lb />OCTAVE.
+<lb />Digaj qu'a tes denis ma preſence eſt contraire;
+<lb />IMais plutoſt que de fuir, ſonge à me ſatisfaire.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Amy, ie ſuis preſſé, que voulez-vous de moy?
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Ie n’ay qu’vn mot à dire, Amy lâcne de ſans foy,
+<lb />Et puis dans vn combat qui te ſera funeſte,
+<lb />Ma main par ton trépas acheuera le reſte;
+<lb />Ce lieu n’eſt que trop propre au deſſein que ie fais,
+<lb />Sans de plus longs diſcours d’en venir aux effets.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Ie n’ay que trop d’ardeur pour ſeconder la tienne,
+<lb />Tu ſçais que rarement i’attens qu’on me préuienne,
+<lb />Et que lors qu’il s’agit d’en venir aux effets,
+<lb />De longs &amp; vains diſcours ne me plûrent iamais;
+<lb />Mais à ce premier feu mon amitié s’oppoſe,
+<lb />Ie ſouffre ton tranſport pour en ſçauoir la cauſe.
+<lb />En quoy ſuis-je coupable, &amp; qu’ay-je enfin commis
+<lb />Qui puiſſe ine confondre auec tes ennemis?
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />O l’Amy genereux! qu’on a tort de s’en plaindre!
+<lb />Et dans ſa paſſion qu’il ſçait bien ſe contraindrer
+<lb />Ie t’ay donc découuert l’objet de mes ſoûpirs
+<lb />Pour faire naiſtre en toy de ſi lâches deſirs?
+<lb />Tu deuiens mon Riual, traiſtre, &amp; voila ton crime,
+<lb />Et ce qui juſtement à ta perte m’anime,
+<lb />Tu ne le peux nier, &amp; ie ſuis trop inſtruit
+<lb />Que tu cajoles Niſe, &amp; luy parle de nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Oüy, ie dois auoüer cette étrange pourſuite
+<lb />Dõnt helas! plus que toy i’apprehende la ſuite,
+<lb />Et ie ne puis encor t’apprendre les raiſons
+<lb />Qui te pourroient guerir de tes jaloux ſoupçons;
+<lb />Mais croy qu’en t’outrageant ie me fay violence,
+<lb />Et qu’vn juſte deuoir me contrait ad hienee.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Mauis cropeu Mcempeis de par ces vama diſcours
+<lb />Cherches-tu lâchement de prolonger tes jours?
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />FABIE, OCTAVE, HENRY.
+</p>
+<sp type="MainZone-Sp"><lb />FABIE à Henry.
+<lb />Voy, tu prens vn ſecõd, &amp; toy qui fais le braue,
+<lb />QQuand ie te mande ſeul, tu viens auec Octaue?
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Ie ſuis icy Fabie, &amp; c’eſt pour me venger,
+<lb />Ie ſçauray le punir, s’il a ſceu m’outrager;
+<lb />Souffrez que i’en obtienne vne prompte victoire.
+<lb />Ils mettent l’épée à la main.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />C’eſt à moy de le vaincre, &amp; i’en prétens la gloire,
+<lb />Laiſſez agir mon bras pour vn ſi juſte effort.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Ie te veux ſeul, Henry.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Moy feur ie veux ta mort.
+<lb />Octaue, permettez...
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY bas.
+<lb />Quelle crainte eſt la mienne!
+<lb />Que i’apprehende helas! que Lyſide ne vienne!
+<lb />Mais ô rigueur du Sort! c’eſt elle que ie voy.
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Quoy, mes Filles icy? juſte Ciel! quel effroy!
+<lb />Hepourduimermameur le voy Ie Duc paraiſtre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE DERNIERE.
+<lb />LYSIDE, CAMILLE, NISE, CELIE,
+<lb />I
+<lb />LE DVC, PHILIPPIN, HENRY,
+<lb />FABIE, OCTAVE.
+<lb />LE DVC mettant la main à l'épée.
+<lb />Rreſtez, c’eſt moyſeul qui dois punir ce traiſtre;
+<lb />XEDefens-toy, malheureux, ie t’attaque en Riual,
+<lb />Et l’amour malgré moy t’a rendu mon égal.
+</p>
+<sp type="MainZone-Sp"><lb />HENRY luy preſentant ſon épée.
+<lb />Moy, Seigneur? ha! plutoſt contentez voſtre enuie,
+<lb />Ie remets en vos mains mon épée &amp; ma vie,
+<lb />Ie n’y reſiſte point; ſi mon trépas vous plaiſt,
+<lb />Frappez, donnez le coup, auſſi bien que l’Arreſt.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Hal ne m’abuſes plus d’vn reſpect inutile;
+<lb />M’épargnes-tu, cruel, quand tu m’oſtes Camille?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Pour calmer les tranſports de mon Prince irrité,
+<lb />Madame, pardonnez à ma temerité,
+<lb />Si ie fais éclater cette ſecrette flame
+<lb />Dont vous ſeule auez ſceu le progrés dans mõ ame.
+<lb />Seigneur, voicy l’objet de ma fidelle ardeur,
+<lb />Lyſide eſt la Beauté qui captiue mon cœur;
+<lb />Il eſt vray que d’abord, &amp; deuant mon voyage,
+<lb />Ie fus pour les deux Sœurs inconſtant &amp; volage,
+<lb />L’vne &amp; l’autre à ſon tour attira mes deſirs;
+<lb />Mais cette Belle enfin cauſa tous mes ſoûpirs,
+<lb />Et depuis le moment qu’vn ſi beau feu m’anime,
+<lb />Ma conſtance en tous lieux fut exempte de crime,
+<lb />Si ce n’eſt qu’aujourd’huy dans ce charmant ſejour
+<lb />On me veüille imputer quelque nouuelle amour;
+<lb />Mais, Seigneur, vous ſçauez quelle Loy m’authoriſe,
+<lb />Et que pour vous ſeruir ie feignis d’aimer Niſe.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />C'eit par inonordre expres, le vous doy cet aueu.
+</sp>
+<sp type="MainZone-Sp"><lb />OCTAVE.
+<lb />Me voilaſſatistait, &amp; ie reſpire vn peu;
+<lb />De ce puiſſant Riual ie craignois trop les charmes.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Si ce recit eſt vray, qu’il m’épargne de larmes!
+</sp>
+<sp type="MainZone-Sp"><lb />AADIL.
+<lb />Mais que dois-je eſperer dè tous ces vains ſoûpirs?
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />L’Hymen où ie prétẽs fait mes plus grands plaiſirs.
+<lb />Noſtre accord vous plaiſt-il, &amp; pourra-t’il ſe faire?
+</sp>
+<sp type="MainZone-Sp"><lb />FABIE.
+<lb />Ie vous reçoy pour Gendre, excuſez ma colere,
+<lb />Vos premieres erreurs m’auoient préoccupé,
+<lb />Ie vous croyois moins ſage, &amp; ie me ſuis trompé;
+<lb />Mais quoy, toûjours l’amour vient troubler ma Fa<lb />Et ievoypour Camille vn autre feu qui brille. [mille,
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Oüy, mes feux ſont trop beaux pour ne pas éclater,
+<lb />Et l’Eſtat n’a plus rien qui me puiſſe arreſter.
+<lb />Il eſt temps, cher objet, que mon amour s’explique
+<lb />Par le pompeux éclat d’vne action publique,
+<lb />Et qu’vn iuitie nymen cieue vos beautez
+<lb />Au Trône qui vous charme, &amp; que vous meritez.
+</sp>
+<sp type="MainZone-Sp"><lb />CAMILLE.
+<lb />Ha! Seigneur, ce bonheur paſſe noſtre eſperance.
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Receuez-en ma foy pour plus digne aſſeurance.
+</sp>
+<sp type="MainZone-Sp"><lb />A I Iu0
+<lb />O Pere fortuné, par quel rare bonheur
+<lb />Ie voy mes jours comblez &amp; de biens &amp; d’honneur!
+</sp>
+<sp type="MainZone-Sp"><lb />LE DVC.
+<lb />Ainſi ſont reconnus vos renommez ſeruices;
+<lb />Qu’Octaue en méme temps ait part à nos delices.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Freias. de ce fueces le luis tout confondu,
+<lb />Les autres gagnent tout, &amp; moy i’ay tout perdu.
+<lb />Il ſe jette aux pieds d’Henry.
+<lb />Ha! Monſieur, en ce jour ſi remply d’allegreſſe...
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Que me demandes-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />PHIDITHEN.
+<lb />Pardon, &amp; ma Maiſtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />HENRY.
+<lb />Obtiens de nos bontez l’vn &amp; l’autre, &amp; de plus,
+<lb />Pour te mettre en menage, vn bon nombre d’écus.
+</sp>
+<sp type="MainZone-Sp"><lb />PHILIPPIN.
+<lb />Vn bon nombre d’écus? que t’en ſemble, Celie?
+<lb />Les étus ſont charmans, la perſonne eſt jolie,
+<lb />Voy ſi le cœur t’en dit pour vn party ſi beau?
+</sp>
+<sp type="MainZone-Sp"><lb />CEHIE.
+<lb />Ie yeux bien à ce prix me charger de ta peau.
+</sp>
+<sp type="MainZone-Sp"><lb />FIN.
+<fw><lb />2
+<lb />2
+<lb />4
+<lb />L
+<lb />2
+<lb />
+<lb />12)
+<lb />D
+<lb />2
+<lb />D1
+<lb />EL
+<lb />2
+<lb />2
+<lb />4
+<lb />2
+<lb />H
+<lb />2
+<lb />3
+<lb />{24
+</fw><fw><lb />2
+<lb />2
+<lb />A
+<lb />8
+<lb />4
+<lb />
+</fw></sp>
+    </body>
+  </text>
+</TEI>

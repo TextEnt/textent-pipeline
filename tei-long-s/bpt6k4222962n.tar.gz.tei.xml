@@ -1,0 +1,1641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Sérénade , comédie</title>
+        <author>Regnard, Jean-François</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb31188006b"/>
+          <author>
+            <persName>Regnard, Jean-François</persName>
+          </author>
+          <title>La Sérénade , comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1695" cert="high" resp="BNF">1695</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+<p type="MainZone-Head"><lb />mniluil du Prveuca duxcer.
+</p>
+<p type="MainZone-P"><lb />DAR Grace &amp; Privilege du Roy, donné à pa<lb />Tris le trentiéme jour de Janvier 1693. Signé,
+<lb />Par le Roy en ſon Conſeil, GAMART. Il eſt
+<lb />permis à THOMAS GUILLAIN de faire im<lb />primer vendre &amp; debiter les Oevres de Theatre du
+<lb />Sieuri P**. pendant le temps de ſix années, à
+<lb />compter du jour qu’elles ſeront imprimées pour la
+<lb />premiere fois, pendant lequel temps tres-expreſſes
+<lb />inhibitions &amp; défenſes à toutes perſonnes de quel<lb />que qualité &amp; condition qu’elles ſoient, de faire
+<lb />imprimer, vendre ny debiter leſdites Pieces de
+<lb />Theâtre d’autre Edition que celle de l’expoſant,
+<lb />ou de ceux qui auront droit de lui, à peine de
+<lb />trois mil livres d’amende, payable ſans déports
+<lb />par, chacun des contrevenans, de confiſcation des
+<lb />Exemplaires contrefaits, &amp; de tous dépens, dom<lb />mages &amp; intereſts, &amp; autres peines portées plus au
+<lb />long par leſdites Lettres de Privilege.
+</p>
+<p type="MainZone-Entry"><lb />Regiſtre jur te Erbre ne ta Commnavie des Im
+<lb />primeurs &amp; Libraires de la ville de Paris, le 4.
+<lb />dAvril 1693.
+<lb />Signé P. AUBOUIN, Syndic.
+</p>
+<p type="MainZone-List"><lb />Achevé d’imprimer pour la premiere fois, le
+<lb />23. Decembre 1694.
+</p>
+<p type="MainZone-Head"><lb />ACTEURS.
+<lb />Mr GRIFON. Pere de Valere.
+<fw><lb />VALERE, Amant de Leonore.
+<lb />Mad. ARGANTE, Mere de Leonore.
+</fw></p>
+<p type="MainZone-Entry"><lb />LEONORE.
+</p>
+<p type="MainZone-Entry"><lb />Mr MATHIEU.
+</p>
+<p type="MainZone-Entry"><lb />CAPIN,
+<lb />Valet de Valere.
+</p>
+<p type="MainZone-Entry"><lb />MARINE, Servante de Mad. Ar<lb />gante.
+<fw><lb />CHAMPAGNE, Valet de Mr Ma<lb />thieu<lb />MUSICIENS &amp; DANSEURS.
+</fw></p>
+<p type="MainZone-Other"><lb />LA
+</p>
+<p type="MainZone-Head"><lb />LA
+<lb />SERENADE,
+<lb />COMIEDIC.
+</p>
+<p type="MainZone-Head"><lb />SCENE PREMIERE.
+<lb />Mr MATHIEU, MARINE.
+</p>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />E vous dis encor une fois que
+<lb />Madame n’eſt pas au logis, &amp;
+<lb />qu’il faut que vous reveniez ſi
+<lb />vous voulez luy parler.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />A la bonne heure, je reviendray. Ce<lb />pendant Marine, dis luy que j’ay vendu
+<lb />un colier à la perſonne qui doit épouſer
+<lb />Mademoilelle ſa fille.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je voudrois, Monfieur Mathieu, que
+<lb />vous fuſſiez étranglé par voſtre gorge.
+<lb />avec voſtre diantre de colier. C’eſt dont
+<lb />vous qui vous eſtes meſlé de cette affaire?
+<lb />ne devriez-vous pas ſonger que les ma<lb />riages legitimes ne ſont point de voſtre
+<lb />competence. Un courtier d’uſure, comme
+<lb />vous, ne doit s’intriguer que d’affaires de
+<lb />contrebande, &amp; laiſſer les honneſtes filles
+<lb />en repos.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />A Dieu ne plaiſe, ma pauvre Marine,
+<lb />qu’on voye jamais aucun vray mariage de
+<lb />ma façon. Je ne fais point faire de marché
+<lb />à vie, c’eſt un métier trop perilleux. Une
+<lb />mile cre dile murchanarre qu'on he ſçau<lb />roit garantir, &amp; l’on n’en a pas plutoſt
+<lb />fait l’emplette, qu’on voudroit en eſtre
+<lb />défait a moitié de perte.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ouy, mais ceux qui font des mariages
+<lb />ne s’embaraſſent guere du ſuecés; &amp; quand
+<lb />ils ont receu leur pot de vin, &amp; que le
+<lb />poiſſon eſt dans la naſſe, ſauve qui peut.
+<lb />Vous connoiſſez du moins l’homme qu’on
+<lb />iuy deſtine, puiſque vous luy avez vendu
+<lb />un colier.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Je vay le luy livrer, &amp; en recevoir de
+<lb />l’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ce n'eit pas la ce que je demandt, quel
+<lb />homme eſt-ce?
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />C’eſt un fort honneſte homme, fort ri<lb />che, fort vieux, &amp; fort gouteux.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Que la peſte te créve.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Sa figure n’eſt peut eſtre pas des plus
+<lb />ragoutantes; mais comme vous ſçavez en<lb />tre l’utile &amp; l’agreable, il n’y a pas à ba<lb />lancer.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ouy pour des ladres comme vous, qui
+<lb />ne connoiſſent d’autre bon-heur que celuy
+<lb />d’amaſſer du bien, &amp; de faire travailler
+<lb />leur argent à gros, &amp; tres gros intereſt:
+<lb />mais pour une jeune perſonne, comme
+<lb />Leonore, qui cherche à paſſer ſes jours
+<lb />dans le plaiſir, vous trouverez bon, s’il
+<lb />vous plaiſt, vous &amp; Madame ſa mere,
+<lb />qu’elle préfere l’agreable à l’utile, &amp; que
+<lb />moy de mon coſté je faſſe tout mon poſſi<lb />ble pour rompre un mariage auſſi biſcornu
+<lb />que celuy-là.
+<fw><lb />4
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Helas ma pauvre enfant, romps, caſſe,
+<lb />briſe le mariage en mille pieces , je m’en
+<lb />ſoucie comme de cela. Je t’aideray meſme
+<lb />en cuy de beton, pourveu que tume faſſes
+<lb />payer de mes peines un peu graſſement.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Un peu graſſement! Eh mort de ma vie
+<lb />n’eſtes-vous pas déja aſſez gras? allez, vous
+<lb />devriez mourir de honte d’avoir une face
+<lb />qui a pour le moins deux aunes de tour.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Marine eſt toujours railleuſe; mais je ne
+<lb />ſonge pas que mon homme m’attend. Il
+<lb />veut donner tantoſt une Serenade à ſa
+<lb />Maîtreſſe, Muſiciens &amp; fille de chambre
+<lb />ont volontiers commerce enſemble, n’y
+<lb />en a-t’il point quelqu’un de tes amis a qui
+<lb />tu voulusiane gagner cet argent la?
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Qu’il aille au diable avec ſa Serenade. Je
+<lb />vay ſonger à luy donner l’aubade moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Ce mariage te met de mauvaiſe humeur.
+<lb />Je voudrois bien reſter plus long-temps
+<lb />avec toy, je ne m’y ennuye jamais.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Et moy je m’y ennuye toujours.
+</sp>
+<sp type="MainZone-Sp"><lb />Adieu.
+<lb />Mr MATHIEU.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE ſeule.
+<lb />Je prie le Ciel qu’il te conduiſe, &amp; que
+<lb />tu te puiſſe caſſer le cou. Il n’y auroit pas
+<lb />grand mal quand tous ces maquignons de
+<lb />mariages là ſeroient au fond de la riviere
+<lb />avec une bonne pierre au cou. Que je
+<lb />plains le pauvre Valere, il ne ſçait pas ſon
+<lb />malheur. J’ay une lettre à luy rendre de la
+<lb />pait de ma ihaitrene. voicy ion valet à
+<lb />propos.
+</sp>
+<p type="MainZone-Head"><lb />SCENE II.
+<lb />SCAPIN, MARINE.
+</p>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />On jour ma charmante.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Bon jour mon adorable.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Comment ſe porte ta Maîtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Mal.
+<lb />MARINE.
+<fw><lb />A iij
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Il y a toujours quelque choſe à refairẽ
+<lb />aux filles.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Et ton Maître?
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Il le portéroit aſſez bien s’il avoit un
+<lb />peu plus d’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je n’ay jamais connu un Gentilhomme
+<lb />plus gueux que celuy-là.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Monſieur Grifon, ſon pere, eſt bien ri<lb />che, maisil eit bien ladre.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Nous nous en apercevons.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Tel que tu me vois, je ſers mon Maître
+<lb />ſans gages &amp; incognito.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Comment incognito?
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Ouy, Monſieur Grifon ne ſçait pas que
+<lb />ſon fils a l’honneur d’eſtre à moy, il ne me
+<lb />connoiſt pas meſme, je loge en ville, &amp;
+<lb />je vis d’emprunt.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Tu fais ſouvent mauvaiſe chere.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Aſſez. Cela n’empeſche pas que je ne
+<lb />notirinle queijuelbis mon Maître quand
+<lb />ileſt mal avec ſon Pere.
+</sp>
+<sp type="MainZone-Sp"><lb />AMTINE.
+<lb />Voila un beau ménage.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Hé dis moi un peu.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je n’ay rien à te dire. Tien, rends cette
+<lb />lettre là à ton maître,
+</sp>
+<sp type="MainZone-Sp"><lb />TTIN.
+<lb />Comme tu fais Marine, regarde-moy un
+<lb />peu.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Hé bien que me veux-tu?
+</sp>
+<sp type="MainZone-Sp"><lb />AP
+<lb />IN.
+<lb />Vous plairoit-il ſeulement, ô beauté
+<lb />Leuparue ? me dire le contend de cette
+<lb />lettre.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je n’ay pas le temps.
+</sp>
+<sp type="MainZone-Sp"><lb />N.
+<lb />Tu me romps ſi ſouvent la teſte de ton
+<lb />babil, quand je te prie de ne dire mot.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />J’aime à faire le contraire de ce qu’on
+<lb />ſouhaite.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Le beau naturel! je te prie donc de té
+<lb />taire Marine, c’eſt le moyen de te faire
+<lb />parler.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je parleray s’il me plaiſt.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Et tant qu’il te plaira.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Et me tairay ſi je veux.
+</sp>
+<sp type="MainZone-Sp"><lb />e dlEllis
+<lb />Dis ſi tu peux mon enfant cela eſt diffi<lb />cile.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Mais voyez cet animal qui veut m’empê<lb />cher de parler.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />ye day oaider
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />vona encore un plaiant vnlage pour
+<lb />fermer la bouche à une femme.
+</sp>
+<sp type="MainZone-Sp"><lb />Fort bien.
+<lb />SCAPIN.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Fcycoy; ay ton pete, ny ta mere, ny
+<lb />toute ta peſte de generation ne me feroit
+<lb />pas rabattre une ſil labe.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Qu’elle eſt agreable.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Quand on parle bien on ne parle jamais
+<lb />trop.
+</sp>
+<sp type="MainZone-Sp"><lb />Cnil Ala
+<lb />Tu ne devrois pas parler ſouvent.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Va, va, quand je leray morte je me
+<lb />tairay aſſez.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Jamais tant que tu auras parlé.
+</sp>
+<sp type="MainZone-Sp"><lb />dli ni le la es
+<lb />Tu voudrois donc ſçavoir le contenu de
+<lb />la lettre.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN,
+<lb />Moy, point du tout, je ne veux rien
+<lb />ſçavoir.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE &amp; SCAPIN parlent
+<lb />enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Oh tu ſçauras pourtant malgré que tu
+<lb />en ayes, que ma maîtreſſe ſe marie au<lb />jourd’huy avec un homme qu’elle n’a ja<lb />mais veu, que ſa mere a terminé l’affaire,
+<lb />qu’elle prie Valere.... Que la peſte te
+<lb />créve, adieu.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Oh tu auras menti, &amp; il ne ſera pas dit
+<lb />que tu me feras entendre malgré moy.
+<lb />Je ne veux rien ſçavoir, laiſſe-moy en
+<lb />repos, garde tes nouvelles pour un autre.
+<lb />Le diable puiſſe t’étrangler, adieu.
+</sp>
+<p type="MainZone-Head"><lb />SCENE III
+</p>
+<sp type="MainZone-Sp"><lb />SCAPIN ſeul.
+<lb />Ar ma foy c’eſt une charmante choſe
+<lb />I qu’une femme! quelle docilité d’eſ<lb />prit? quelle complaiſance? Voila une des
+<lb />plus raiſonnables que je connoiſſe. Mais
+<lb />je m’amuſe icy, &amp; je dois aller prompte<lb />ment porter cette lettre à mon maître,
+<lb />car il eſt diablement amoureux, qui dit
+<lb />ainoureun, uit mipatient, &amp; qui dit impa<lb />tient, ſupoſe un homme qui a plûtôt don<lb />né un coup de pied au cul que le bon jour;
+<lb />mais le voila.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IV.
+<lb />VALERE, SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />E' bien Scapin, aprens-moy des nou<lb />I Ivelles de Leonore, l’as-tu veuë? que
+<lb />t’a dit Marine?
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Marine rien du tout. C’eſt une fille dont
+<lb />on ne ſçauroit tirer une parole.
+</sp>
+<sp type="MainZone-Sp"><lb />V ALERE.
+<lb />Marine ne t’a rien dit, &amp; elle qui parle tant.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />C’eſt juſtement ce qui fait qu’elle ne
+<lb />dit rien ; mais tout ce que j’ay pû com<lb />prendre de la volubiliré de ſon diſcours,
+<lb />c’eſt qu’il faut renoncer à Leonore; &amp; le
+<lb />pis que j’y trouve, c’eſt que nous n’avons
+<lb />pas un ſou pour nous en conſoler.
+</sp>
+<sp type="MainZone-Sp"><lb />A LERE.
+<lb />Quoy, que dis-tu? parle, explique-toy.
+<lb />Renoncer à Leonore.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Ouy Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et Marine ne t’a point dit la cauſe de
+<lb />ſon refroidiſſement.
+</sp>
+<sp type="MainZone-Sp"><lb />TFIN.
+<lb />Non Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy tu n’as pû penetrer.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Oh Monſieur, Marine eſt une fille im<lb />pemetrumiere
+</sp>
+<sp type="MainZone-Sp"><lb />V ALERE.
+<lb />Que je ſuis malheureux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Elle m’a ſeulement donné une petite
+<lb />lettce qui vous expliquera peut-eſtte
+<lb />mieux la choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Eh donne donc, maraut, donne donc.
+</sp>
+<sp type="MainZone-Sp"><lb />Il lit.
+<lb />Si vous m’aimez autant que je vous aime,
+<lb />nous ſommes les plus malheureuſes perſonnes
+<lb />du monde. Ma mere pretend me marier à
+<lb />un homme que je ne connois point. Dét ournez
+<lb />le malheur qui nous menace, &amp; ſoyez cer<lb />tain que je choiſiray plutoſt la mort, que d’eſtre
+<lb />jamais à d’autres qu’à vous.
+<lb />Scapin!
+<lb />SCAPIN.
+</sp>
+<sp type="MainZone-Sp"><lb />Monſieur.
+<lb />SCAPIN.
+</sp>
+<sp type="MainZone-Sp"><lb />TALERE.
+<lb />Que dis-tu de cette lettre-là?
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />je dis, Monſſeur, que ce n’eit pas là
+<lb />une lettre de change.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />Et je me laiſſeray enlever Leonore? non,
+<lb />non Scapin, à quelque prix que ce ſoit il
+<lb />faut empeſcher...
+</sp>
+<sp type="MainZone-Sp"><lb />N.
+<lb />Monſieur, le Ciel m’a donné des talens
+<lb />merveilleux pour faire des mariages; &amp;
+<lb />je puis dire, ſans vanité, qu’il n’y a guere
+<lb />de jour qu’il ne m’en paſſe quelqu’un par
+<lb />les mains. J’en aymeſme ébauché plus de
+<lb />mmle enma vie qui nont jamais eſte ache<lb />vez; mais j’aime trop la propagation de
+<lb />l’eſpece pour avoir le courage d’en rom<lb />pre aucun.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Que tu fais mal-à-propos le mauvais
+<lb />plaiſant. Il faut...
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Paix, voicy voſtre pere, le vilain uſu<lb />rier qui nous vendit ſi cher l’argent l’an<lb />née paſſée eſt avec luy.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Vient il luy demander te que je luy
+<lb />dois.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />I ieront mal adrene, ecoutons.
+</sp>
+<p type="MainZone-Head"><lb />SCENE V.
+<lb />RIl GRIFON,MrMATHIEU, VALERE,
+<lb />SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />MrGRIFON.
+<lb />E vous donnay il y a huit jours un ſac
+<lb />de mille francs à faire valoir dont j’ay
+<lb />voſtre billet Monſieur Mathieu.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Cela eſt vray Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />LAPIN.
+<lb />Le bon homme negocie avec les uſuriers
+<lb />auſſi bien que nous, mais ce n’eſt pas de
+<lb />la meſme maniere.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Nous ſommes convenus à trois mille
+<lb />huit cens livres, ce ſont encore deux cens
+<lb />Louis qu’il faut vous donner pour le co<lb />lier Monſieur Mathieu.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr MATHIEU.
+<lb />Ouy Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Cela nous accommoderoit bien</sp>
+<sp type="MainZone-Sp"><lb />d nEE IeEo
+<lb />Paix, tay toy.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Paſſez tantoſt chez moy, ou envoyez-y
+<lb />quelqu’un de voſtre part, avec un billet
+<lb />de voſtre main, cela ſuffira; c’eſt de l’ar<lb />gent comptant Monſieur Mathieu.
+</sp>
+<sp type="MainZone-Sp"><lb />Rle MIIIIIIEO.
+<lb />Je n’en ſuis point en peine, &amp; je vous
+<lb />laiſſe le colier Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Un colier de trois mille huit cens livres,
+<lb />le friant morceau.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VI..
+<lb />Mr GRIFON, VALERE, SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />H vous voila, mon fils, que faites-
+<lb />A vous là? y a-t’il long-temps que
+<lb />vous y eſtes.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Je ne fais que d’arriver.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Qui eſt cet homme là?
+</sp>
+<sp type="MainZone-Sp"><lb />TALERE.
+<lb />C’eſt mon pere...
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Quoy! c’eſt,
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Un Muſicien de l’Opera.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />hraurvane connomanee qu'ui Muſicien
+<lb />de l’Opera, ils meinent les gens au caba<lb />ret, &amp; il faut toujours payer pour eux.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Dequoy diantre vous aviſez-vous de me
+<lb />faire Muſicien? j’aimerois mieux eſtre tou<lb />te autre choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Tay toy.
+<lb />VALERE.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />O ç’a mon fils j’ay une nouvelle à vous
+<lb />apprendre, la preſence du Muſicien ne
+<lb />gâtera rien, &amp; peut-eſtre pourra-t’il nous
+<lb />Piule dulles,
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Voſtre imagination m’a fait Muſicien
+<lb />par hazard, vous verrez qu’il faudra que
+<lb />je le devienne par neceſſité.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je vais me marier.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Vous marier, vous mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />MTARITON.
+<lb />Moy-meſme en propre perſonne.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Je ne m’attendois pas à celuy-là.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GKTFON.
+<lb />Que dit Monſieur le Muſicien.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Je ne puis que vous loüer Monſieur, de
+<lb />former une entrepriſe ſi hardie. Vous avez
+<lb />eu le bon-heur d’enterrer une premiere
+<lb />femme, vous hazardez d’en prendre une
+<lb />ſeconde, le peril ne vous rebute point, ce<lb />la eſt fier, cela eſt grand, cela eſt heroï<lb />que; &amp; pour ma part, je n’ay garde de
+<lb />manquer d'aplauun à une ſelolution auſſi
+<lb />genereuſe que la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Voila un joly garçon.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />Ce que j’en ay dit, mon pere, n’eſt que
+<lb />par l’intereſt que je prens à voſtre ſanté.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ne t’en mets point en peine, ce ſont mes
+<lb />affaires.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Ouy Monſieur, que Monſieur voſtre
+<lb />pere vous donne ſeulement une belle-mere
+<lb />bien faite, belle, jeune, &amp; laiſſez-le faire
+<lb />vouo leten tury qu'i le toit temarié ſur
+<lb />ma parole.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Oh je ſuis ſeur qu’il en ſera content.
+<lb />C’eſt une fille à qui il ne manque rien. Ce
+<lb />que je voudrois de vous maintenant Mon<lb />ſieur de l’Opera, ce ſeroit que vous m’ai<lb />daſſiez à donner une petite Serenade à ma
+<lb />Maîtreſſe.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Une Serenade, dites-vous. Vous ne pou<lb />vez mieux vous adreſſer qu’à moy. Muſi<lb />que Italienne, Hrançoiſe, je ſuis un hom<lb />me à deux mains.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Tout de bon.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Demandez à Monſieur voſtre fils. Je
+<lb />ſuis le premier homme du monde pour les
+<lb />Serenades, il m’en doit encore deux ou
+<lb />trois.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ouy mon pere.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Ce n’eſt pas pour me vanter, mais en
+<lb />cas de Chanteurs ſimphoniſtes, Violiſtes,
+<lb />Theorbiſtes, Claveſſiniſtes, Operas, Ope<lb />rateurs, Operatrices. Madeloniſtes, Ca<lb />tiniſtes, Margotiſtes ſi difficiles qu’elles
+<lb />ſoient, j’ay tout cela dans ma manche.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je vouurois une serenade a bon mar<lb />ché.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Je ménageray voſtre bourſe, ne vous
+<lb />mettez pas en peine. Il ne nous faudra
+<lb />que trente-ſix Violons, vingt Haut-bois,
+<lb />uouze banes, iix Trompetes, vingt-qua<lb />tre Tambours, cinq Orgues, &amp; un Fla<lb />geolet.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Eh fy donc, voila pour donner une Se<lb />renade à tout un Royaume.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Pour les voix nous prendrons ſeulement
+<lb />douze baſſes, huit concordants, ſix baſ<lb />ſes tailles , autant de quintes, quatre hau<lb />tes contres, huit fauſſets &amp; douze deſſus,
+<lb />moitié entiers &amp; moitié hongres.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Vous nommez-là dequoy faire un re<lb />giment de Muſique.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Il ne faut pas moins de voix pour ac<lb />B iiij
+<lb />compagner tous les inſtrumens. Laiſſez<lb />nous faire, je veux qu’il y ait dans cette
+<lb />Muſique là une eſpece de perit charivary,
+<lb />qui conviendra merveilleuſement bien au
+<lb />Iijeti Tvotio urons Mronneur vonfe fils &amp;
+<lb />moy donner maintenant les ordres pour...
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Attendez, on doit m’amener ma Maî<lb />treſſe, je ſuis bien aiſe que vous la voyez,
+<lb />&amp; que vous m’en diſiez vôtre ſentiment
+<lb />l’un &amp; l’autre.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Prenez la bene &amp; jeune an moins, ſur
+<lb />tout d’humeur complaiſante, tous vos
+<lb />amis vous conſeilleront la meſme choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Allons nous-en, je me meurs d’inquietude.
+</sp>
+<p type="MainZone-Head"><lb />OCENE V II.
+<lb />Mr GRIFON, VALERE, SCAPIN,
+<lb />Mad. ARGANTE, LEONORE.
+</p>
+<sp type="MainZone-Sp"><lb />I
+<lb />Mr GRIFON.
+<lb />E vous avois-je pas bien dit qu’on
+<lb />( devoit l’amener. Voila la mere &amp; la
+<lb />ſille de chambre.
+</sp>
+<sp type="MainZone-Sp"><lb />TALERE.
+<lb />Que vois-je Scapin, c’eſt Leonore.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Autre incident.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Alions, ma nile, approenez, &amp; ſaluez
+<lb />le mary que je vous ay deſtiné.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Quoy, Madame, voila la perſonne...
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Qu’avez-vous donc, Mademoiſelle, eſt<lb />ce que Monſieur ne vous plaiſt pas?
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Je ne dis pas cela Madame, &amp; je n’auray
+<lb />jamais d’autres volontez que les vôtres.
+</sp>
+<sp type="MainZone-Sp"><lb />A LERE.
+<lb />Scapin elle obeït à ſa mere, je ſuis
+<lb />perdu.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Il y a de l’erreur de calcul.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Je ſuis ravy, ma fille, de vous voir des
+<lb />ſentimens raiſonnables, &amp; j’ay toujours
+<lb />bien jugé que vous ne voudriez pas me
+<lb />delebelle
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Vous deſobeïr, moy? j’aimerois mieux
+<lb />mourir que de faire quelque choſe qui
+<lb />vous déplut.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Voila une fille bien née, n’eſt-il pas
+<lb />vray.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />a Ju ſey du qui pro que, lur ma pa<lb />role.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Tout ce que j’ay à me reprocher, Ma<lb />dame, c’eſt que mon obeïſſance ait ſi peu
+<lb />de merite en cette occaſion, &amp; les choſes
+<lb />ronit dans uietut à me permietre d'avoüer,
+<lb />ſans honte, que voſtre choix &amp; mon incli<lb />nation ont un parfait raport enſemble.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Comme elle m’aime déja, cela n’eſt pas
+<lb />croyable.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />miain jayneu de me plumure, eſt-ce à
+<lb />moy de parler comme je fais, quand vous
+<lb />eſtes ſi peu ſenſible, Valere, aux bontez que
+<lb />ma mere a pour nous.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Comment donc Valere, a qui en avez<lb />vous.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Qu’eſt-ce que cela ſignifie.
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />IN.
+<lb />Nous aprochons du dénoument.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Que voulez vous dire avec voſtre Va<lb />lere.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Ne Mavez-vous pasuit, Madame, que
+<lb />vous aviez conclu mon mariage.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Qu’a de commun Valere avec voſtre
+<lb />mariage? c’eſt à Monſieur Grifon que
+<lb />voila que je vous marie.
+</sp>
+<sp type="MainZone-Sp"><lb />TION.
+<lb />Ouy mignonne, c’eſt moy qui auray
+<lb />I honneur que de...
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Vous Monſieur?
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Je voudrois bien, pour voir, que vous
+<lb />lle le douvamce pus Con.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Monſieur mon fils, par quelle avanture
+<lb />eſt-il mention de vous dans tout cecy.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Par une avanture fort naturelle mon
+<lb />pere.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Comment une avanture fort naturelle.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ouy, Monſieur, Mademoiſelle eſt fille,
+<lb />Monſieur eſt garçon, elle eſt aimable, il
+<lb />eſt joly homme, ils ont fait connoiſſance,
+<lb />ils s’aiment, ils ſont dans le gouſt de s’é<lb />pourter yruenfen là que de fort na<lb />turel.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Il n’eſt point queſtion de la nature là de<lb />dans, c’eſt la raiſon &amp; l’intereſt qui font
+<lb />aujourd’huy les mariages, Monſieur eſt le
+<lb />pere, Madame eſt la mere; la raiſon eſt de
+<lb />leur coſté, la nature eſt une ſotte, &amp; vous
+<lb />auſſi ma mie.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Il a raiſon.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Quoy à l’âge que j’ay, ma mere, vous
+<lb />voudriez me faire épouſer un homme
+<lb />comme Monſieur, vous n’y ſongez pas.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy a l'age que vous avez, mion pere,
+<lb />vous voudriez vous marier à une fille
+<lb />comme Malemoiſelle, je croy que vous
+<lb />reſvez.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />En verité, ma mere, vous eſtes trop rai<lb />ſonnable pour exiger de moy une choſe
+<lb />auſſi éloignée de bon ſens.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Serieuſement parlant, mon pere, vous
+<lb />n’eſtes point d’âge encore à radoter,
+</sp>
+<p type="MainZone-Other"><lb />Mad. ARGANTE.
+</p>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Ouais, &amp; où ſommes-nous donc, allons
+<lb />petite ridicule, qu’on donne tout.à-l’heu<lb />re la main à Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />ALINE.
+<lb />Non pas, Madame, s’il vous plaiſt.
+<fw><lb />
+<lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />MTGRIFON.
+<lb />Qu’eſt-ce à dire?
+</sp>
+<sp type="MainZone-Sp"><lb />A LERE.
+<lb />Avec voſtre permiſſion, mon pere, cela
+<lb />ne ſera pas, je vous aſſure.
+<lb />1(1111
+</sp>
+<sp type="MainZone-Sp"><lb />Ril GRITON.
+<lb />Cela ne ſera pas. Que dites-vous à cela,
+<lb />Monſieur le Muſicien.
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />PIN.
+<lb />Vous avez là un grand garçon bien mal
+<lb />moriginé Monſieur.
+<fw><lb />.
+</fw></sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Pendart.
+</sp>
+<sp type="MainZone-Sp"><lb />A LENE.
+<lb />Que diroit-on dans le monde, ſi en ma
+<lb />preſence je vous laiſſois faire une action
+<lb />auſſi extravagante que celle-là.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />ofi
+<lb />Quoy donc extravagante, comment
+<lb />donc? à t’on pere malheureux.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />A voſtre pere !
+<fw><lb />RO
+</fw></sp>
+<sp type="MainZone-Sp"><lb />5
+<lb />CAPIN.
+<lb />A voitre propre pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />Quand il ſeroit mon pere cent fois plus
+<lb />qu’il ne l’eſt encor, je ne ſouffriray point
+<lb />que l'amour luy rane tourner la cervelle
+<lb />juſqu’à ce point là.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Mais quelle Comedie joüons-nous donc
+<lb />icy, je vous demande pardon pour mon
+<lb />fils, Madame.
+<lb />0
+<lb />
+<lb />2
+</sp>
+<sp type="MainZone-Sp"><lb />dial Mliconltam
+<lb />Cela n’eſt rien, j’ay bien des excuſes à
+<lb />vous faire pour ma fille, Monſieur.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Voila des enfans bien obſtinez ; mais
+<lb />auſſi pourquoy vous expoſer à vous ma<lb />rier, ſans ſçavoir ſi Monſieur voſtre fils le
+<lb />voudra bien.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />S’il le voudra bien.
+</sp>
+<sp type="MainZone-Sp"><lb />3
+<lb />CAPIN,
+<lb />Monſieur, avec trois ou quatre cent
+<lb />piſtoles, ne pourrions-nous point le met<lb />de à la raiſon.
+<lb />
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je l’y mettray bien ſans cela.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Et moy je vous répons de cette petite
+<lb />impertinente-là, elle vous épouſera, où
+<lb />je la mettray dans un lieu d’où elle ne ſor<lb />tira de long-temps.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE
+<lb />jy demeureray plutot toute ma vie, que
+<lb />d’épouſer un homme que je n’aime point.
+</sp>
+<sp type="MainZone-Sp"><lb />MT GRIFON.
+<lb />Elle s’en va Madame.
+</sp>
+<sp type="MainZone-Sp"><lb />Mad. ARGANTE.
+<lb />Ne vous mettez pas en peine, je ſçauray
+<lb />la reduire, elle ſera voſtre femme aujour<lb />d’huy , où vous mourrez de mort ſubite.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />De mort ſubite. Voila à quoy vous m’ex<lb />poſez Monſieur le coquin. Laiſſe moy fai<lb />re, je veux l’épouſer à ta barbe, je m’en
+<lb />vais dépenſer tout mon bien pour m’en
+<lb />faire aimer, je luy donneray des preſens,
+<lb />des oijoux, des maitons, des contrats, des
+<lb />cadeaux, des feſtins, des Serenades. Des
+<lb />Serenades Monſieur le Muſicien; &amp; je luy
+<lb />feray des enfans pour te faire enrager.
+</sp>
+<sp type="MainZone-Sp"><lb />Oh pour celuy-là on vous en défie.
+</sp>
+<p type="MainZone-Head"><lb />SCENE VIII.
+<lb />VALERE, SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />On, Scapin, il n’y a point d’ex<lb />AN tremité où je ne me porte pour em<lb />peſcher ce mariage là.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Doucement, Monſieur, nous abaiſſerons
+<lb />ſes fumées d’amour. Il ne la tient pas en<lb />cor, j’ay pris le ſoin d’une Serenade, il
+<lb />vient de negocier un certain colier, laiſſez<lb />moy faire; mais le diable eſt que nous n’a<lb />vons point d’argent.
+</sp>
+<sp type="MainZone-Sp"><lb />A lalel.
+<lb />Ah mon pauvre Scapin cherche, imagi<lb />ne, invente des moyens pour en trouver,
+<lb />engage tout, vend tout, donne tout.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Hé que diable engager, que vendre ?
+<lb />poun toue meuble de immeuble vous n’a<lb />vez que voſtre habit &amp; le mien, encor le
+<lb />Tailleur n’eſt-il pas payé.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Quoy tu ne peux trouver.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Depuis que je travaille pour vous, les reſ<lb />lois de mon eſprit emprunteur ſont diable<lb />ment uſez...
+</sp>
+<sp type="MainZone-Sp"><lb />d M EuRa ds
+<lb />Mais quoy...
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Laiſſez-moy un peu réver tout ſeul. J’ay
+<lb />ma Serenade en teſte, ſi je pouvois avoir
+<lb />ſeulement dequoy payer les Muſiciens
+<lb />dont je me veun fertis
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />A quoy bon...
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />J’ay beſoin de me recueillir, vous dis-je,
+<lb />laiſſez-moy en repos, &amp; allez fortifier
+<lb />Leonore dans le deſſein de ne point épou<lb />ſer voſtre pere.
+</sp>
+<sp type="MainZone-Sp"><lb />ALERE.
+<lb />Il fauemruuiuitont te qu’il veut, j’ay
+<lb />beſoin de luy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE IX.
+</p>
+<sp type="MainZone-Sp"><lb />Ai
+<lb />I
+<lb />N.
+<lb />E n’eſt pas une petite affaire pour un
+<lb />C valet d’honneur d’avoir à ſoûtenir les
+<lb />intereſts d’un Maître qui n’a point d’ar<lb />gent. On s’acoquine à ſervir ces gredins<lb />là, je ne ſçay pourquoy, ils ne payent
+<lb />point de gages, ils querellent , ils roſſent
+<lb />quelquefois; on a plus d’eſprit qu’eux, on
+<lb />les fait vivre, il faut avoir la peine d’in<lb />venter mille fourberies dont ils ne ſont
+<lb />tout au plus que de moitié, &amp; avec tout
+<lb />cela nous ſommes les valets, &amp; ils ſont les
+<lb />Maîtres. Cela n’eſt pas juſte. Je pretens à
+<lb />l’avenir travailler pour mon compte; cecy
+<lb />mhy, je teux devemi Maitie a mon tour;
+<lb />mais que vois-je?
+</sp>
+<p type="MainZone-Head"><lb />SCENE X.
+<lb />CHAMPAGNE, SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />TIE' c’eſt toy mon pauvre Scapin.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Le beau Champagne en ce païs cy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Il y a ſix mois que je ſuis revenu , mais
+<lb />je ne me montre que depuis quinze jours.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Pourquoy donc?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Par une eſpece de ſcrupule, une lettre de
+<lb />cachet du Châtelet m’avoit deffendu de
+<lb />paroiſtre à la Ville, elle me preſcrivoit un
+<lb />temps pour voyager, mes voyagés ſont
+<lb />finis, je reparois ſur nouveaux frais.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Et que fais-tu à preſent? Je t’ay veu au<lb />derdi le plus uuron gilion, ce rolt dit en<lb />tre nous, le plus hardy coquin qu’il y euſt
+<lb />en France.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />J’ay quitté tout cela mon amy. La Juſti<lb />ce aujourd’huy à l’eſprit ſi mal tourné,
+<lb />il n’y a plus rien à faire dans le com<lb />merte. Bnle prena toujours les choſes du
+<lb />mauvais coſté, j’ay renoncé aux vanitez
+<lb />du monde, &amp; je me tuis jette dans la re<lb />forme.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Toy dans la reforme.
+</sp>
+<sp type="MainZone-Sp"><lb />CIHMTAGNE.
+<lb />Ouy mon enfant. Il faut faire une fin.
+<lb />Je me ſuis retiré, je preſte ſur gages.
+</sp>
+<sp type="MainZone-Sp"><lb />A P
+<lb />I
+<lb />N.
+<lb />La retraite eſt meritoire.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Ma foy il n’y a plus que ce métier là
+<lb />pour faire quelque choſe, il n’y a rien de
+<lb />tel, quand on a de l’argent d’en aider des
+<lb />partieuners danis leurs lleceſſitez preſ<lb />tantes.
+</sp>
+<sp type="MainZone-Sp"><lb />LAPIN.
+<lb />Voila un motif fort charitable.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Je me ſuis aſſocié d’un fort honneſte
+<lb />homme, qui eſt, je penſe, luy, aſſocié d’un
+<lb />autre fort nomeite nomie enez qui il
+<lb />m’envoye prendre deux mille huit cens
+<lb />livres.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Deux mille huit cens livres. Serions-
+<lb />nous aſſez heureux... Cela ſeroit admira<lb />ble, tu es aſſocié avec Monſieur Mathieu?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Avec Monſieur Mathieu; mais je ſuis un
+<lb />peu ſubalterne à la verité. Nous demeu<lb />rons enſemble, il me loge fort haut, me
+<lb />meuble modeſtement, m’habille chaude<lb />ment pour l’Eté, fraîchement pour l’Hy<lb />ver, me nourrit ſobrement, ne me donne
+<lb />point de gages, mais ce que je prens c’eſt
+<lb />pour moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Voila une bonne condition. Et dis-moy,
+<lb />es-tu toujours auſſi yvrongne qu’avant ta
+<lb />lettre de cachet.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Je bois beaucoup de vin, mais je ne l’ai<lb />me pas.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Tu vas donc recevoir deux mille huit
+<lb />cens livres.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Deux mille huit ceno iivres.
+</sp>
+<sp type="MainZone-Sp"><lb />N.
+<lb />Chez Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMEAONE.
+<lb />C’eſt le nom de noſtre aſſocié. Qui te
+<lb />I'a dit?
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Pout le furplus d’un colier que Monſieur
+<lb />Mathieu luy a vendu.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPACNE.
+<lb />Je l'ay ouy dire ainil.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Et tu as un billet de Monſieur Mathieu.
+<lb />pour marque que tu ne viens pas à faux.
+</sp>
+<sp type="MainZone-Sp"><lb />HAMPAGNE.
+<lb />Cela eſt comme tu le dis. Voila le billet.
+<lb />Hé d’où diantre ſçais-tu tout cela?
+</sp>
+<sp type="MainZone-Sp"><lb />Je ſuis l’aſſocié du fils de Monſieur Gri<lb />fon, moy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Quoy tu te meſſes auſſi...
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Nous ne ſommes aſſociez que pour em<lb />prunter nous autles ; le connois-tu Mon<lb />ſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />Non.
+<lb />CHAMPAGNE.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Te connoiſt-il ?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Je ne crois pas.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Tant mieux. Monſieur Grifon n’eſt pas
+<lb />au logis, &amp; en attendant qu’il vienne nous
+<lb />pouvons aller renouveller connoiſſance au
+<lb />Cabaret.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />De tout mon cœur, je ne refuſe point
+<lb />des parties d’honneur.
+</sp>
+<sp type="MainZone-Sp"><lb />AP
+<lb />V.
+<lb />Morbleu j’enrage. Voila un homme à
+<lb />qui j’ay affaire, mais ce ne ſera que pour
+<lb />un moment. Va-t’en m’attendre icy prés
+<lb />aux Barreaux verts, &amp; faire tirer bouteille.
+<lb />Voila un fripon que je friponneray ſur ma
+<lb />parole, ſi je puis ſeulement attraper le
+<lb />billet.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XI.
+<lb />Mr GRIFON, MARINE, SCAPIN.
+</p>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />E vous dis, Monſieur, que vous aurez
+<lb />J plus de peine que vous ne penſez à re<lb />duire cet eſprit là.
+</sp>
+<sp type="MainZone-Sp"><lb />I
+<lb />Ah, Monſieur, je vous cherchois pour
+<lb />vous dire que dans peu voſtre Serenade
+<lb />ſera en état.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Bon. Voila ma maiſon, &amp; voila celle de
+<lb />ma Maitiene.
+</sp>
+<sp type="MainZone-Sp"><lb />Tant mieux, cela eſt fort commode pour<lb />mon deſſein.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Tu dis donc, Marine, que tu viens de la
+<lb />part de Leonore.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ouy, Monſieur, pour vous faire des
+<lb />excuſes de ce qui s’eſt paſſé à voſtre en<lb />treveuë.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Elle revient à elle, j’en ſuis bien aiſe.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Elle eſt au deſeſpoir de n’avoir pû ſe
+<lb />contraindre devant Madame ſa mere;
+<lb />mais ene dit qu’enle vous lait trop pour
+<lb />ſe faire la moindre violence.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Voila un fort ſot compliment. Je n’ay
+<lb />que faire de ces excuſes là.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Elle ſçait trop bien vivre pour manquer
+<lb />à la civilité; elle m’a auſſi chargé de vous
+<lb />prier de ne point preſſer Madame ſa mere
+<lb />ſur voſtre mariage, &amp; de luy donner du
+<lb />temps pour s’accoûtumer à une figure auſſi
+<lb />extraordinaire que la voſtre.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Vous eſtes une impertinente ma mie, &amp;
+<lb />je ne ſçay...
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je vous demande pardon, Monſieur, je
+<lb />vous reſpecte trop pour vous rien dire de
+<lb />mon chef qui vous déplaiſe. Ce ſont les
+<lb />ſentimens de ma Maîtreſſe que je vous ex<lb />plique le plus clairement &amp; le plus ſuccin<lb />ment qu’il m’eſt poſſible.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je ne veux point ſçavoir ſes ſentimens
+<lb />tant
+<lb />tant qu’elle en aura d’auſſi ridicules.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Il ne tiendra pas à moy qu’elle ne chan<lb />ge, &amp; quelque averſion qu’elle ait pour
+<lb />vous, elle ne laiſſera pas de vous épouſer
+<lb />ſi elle m’en veut croire. Vous n’avez que
+<lb />voſtre âge, voſtre air, &amp; voſtre viſage
+<lb />contre vous dans le fond, je gagerois
+<lb />que vous avez les meilleures manieres du
+<lb />monde.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Voila une inſolente qui a mon nez me
+<lb />vient chanter poüille.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />C’eſt voſtre phiſionomie lugubre qui l’a
+<lb />d’abord effarouchée, elle en reviendra
+<lb />peut eſtre, &amp; vous aimera à la folie, que
+<lb />ſçait-on. Vous ne ſeriez pas le premier
+<lb />magot qui auroit épouſé une jolie fille.
+</sp>
+<sp type="MainZone-Sp"><lb />MT GRIFON.
+<lb />Malgré tout ce qu’elle me dit, je ne veux
+<lb />point me fâcher, elle peut me rendre ſervi<lb />ce. Tu me parois d’agreable humeur.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Je ſuis aſſez franche, comme vous voyez.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />C’eſt ce qui me ſemble. Je veux eſtre de
+<lb />tes amis, &amp; ſi le mariage ſe fait, ne te mets
+<lb />pas en peine: dis-moy un peu en confiden<lb />ce quelle ſorte de caractere eſt-ce que Leo<lb />nore, &amp; que faudroit-il que je fiſſe pour
+<lb />luy plaire.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Vous n’avez qu’à mourir, Monſieur,
+<lb />c’eit ie plus grand plaiſir que vous luy puiſ<lb />ſiez faire.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ce n’eſt pas là ce que je te demande. De
+<lb />quelle humeur eſt-elle?
+</sp>
+<sp type="MainZone-Sp"><lb />MIIINE.
+<lb />Ah! de l’humeur du monde la plus dou<lb />ce. je ne iuy comiois qu’un petit défaut.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Quel eſt-il.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />C’eſt, Monſieur, que quand elle s’eſt
+<lb />mis quelque choſe en teſte, &amp; qu’on s’a<lb />vile de la contreune, ene erſe, eſle peſte.
+<lb />elle jure, elle bat, elle mord, elle égra<lb />tigne, elle eſtropie meſme en cas de beſoin;
+<lb />mais dans le fond c’eſt une bonne enfant.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Voila une humeur bien douce vrayment,
+<lb />de uvec cela n’a-t’elle point quelque paſ<lb />ſion dominante.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Non, Monſieur, rien ne la domine, ell e
+<lb />a du gouſt pour toutes les belles manieres
+<lb />elle vend pour joüer tout ce qu’elle a, elle
+<lb />met ſes nipes en gages pour aller à l’Ope<lb />ra &amp; à la Comedie, elle court le Bal ſept
+<lb />fois la ſemaine ſeulement, elle feſſe ſon
+<lb />vin de Champagne à mervenie; &amp; ſur la
+<lb />fin du repas elle devient fort tendre.
+</sp>
+<sp type="MainZone-Sp"><lb />MFGRIFON.
+<lb />Tu crois donc qu’elle pourra m’aimer.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Ouy, Monſieur, ſur la fin d’un repas, &amp;
+<lb />je vais luy faire entendre que pour un ma<lb />Ly vous vaiez cent rois iineux qu’un autre.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Cela eſt vray au moins.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Aſſurément dans ce ſiecle-cy, quand un
+<lb />mary laiſſe faire à ſa femme tout ce qu’elle
+<lb />veut, c’eſt un homme adorable, on ne
+<lb />peut pas luy demander autre choſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ah, mon enfant, tu peux l’aſſurer de ma
+<lb />part que ſi jamais elle eſt ma femme, je ne
+<lb />la contraindray jamais en la moindre ba<lb />gatelle.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Commencez donc par ne point trop preſ<lb />ſer les affaires. Je vay luy propoſer vos
+<lb />conventions; &amp; comme il n’y a rien dans
+<lb />ces articles là qui repugne à la coutume, je
+<lb />ne doute point qu’elle ne les accepte.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Cette fille là a quelque choſe de bon dans
+<lb />ſes manieres. Ah, ah, voila une plaiſante
+<lb />ngure d nomte.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XII.
+<lb />Mr GRIFON, SCAPIN dé guiſé, une em<lb />plaſtre ſur l’œil.
+</p>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />E pourriez-vous point, Monſieur, me
+<lb />IV faire le plaiſir &amp; l’honneur de m’en<lb />ſeigner le logis de Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Que luy voulez-vous à Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Avoir l’avantage de luy rendre un petit
+<lb />billet que Mr Mathieu m’a fait l’honneur
+<lb />de me donner, afin que ledit Sieur Grifon
+<lb />me faſſe la grace de me compter deux mille
+<lb />huit cens livres reſtant à payer pour un
+<lb />colier que ledit Sieur Grifon a acheté du<lb />dit Sieur Mathieu.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />C’eſt moy qui ſuis Monſieur Grifon, &amp;
+<lb />où eſt le billet?
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Le voila Monſieur, je ne viens qu’a bon<lb />negenteigneur ous dureny omnvods plaiſt,
+<lb />la bonté de m’expedier.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ouy, voila l’écriture de Monſieur Ma<lb />thieu, mais je ne vous connois pas pour
+<lb />eſtre à luy.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />C’eſt une gloire que je ne merite pas
+<lb />Monſieur, je ſuis ſeulement ſon compere,
+<lb />Iſaac, Jerôme, Boiſme, Rouſſelet,
+<lb />Maiſtre Marchand Fripier ordinaire privi<lb />legié ſuivant la Cour. Si l’on peut vous y
+<lb />rendre quelque ſervice, vous n’avez qu’à
+<lb />diſpoſer de voſtre petit ſerviteur.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je vous ſuis obligé.
+</sp>
+<sp type="MainZone-Sp"><lb />N.
+<lb />J’ay des amis en ce païs-là, mon frere
+<lb />eſt aprentif partiſan chez le Commis du
+<lb />Secretaire de l’Intendant d’un homme
+<lb />d’affaire, &amp; mon oncle eſt le Sous-portier
+<lb />de l’hoſtel des Fermes.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ces amis-là ſont quelquefois plus utiles
+<lb />que d’autres.
+</sp>
+<sp type="MainZone-Sp"><lb />AP
+<lb />IN.
+<lb />Il eſt vray, Monſieur, j’ay autrefois par
+<lb />D iij
+<lb />leur moyen tiré mon parain des galeres, &amp;
+<lb />je ſauvay l’année paſſée une amande hono<lb />rable à Monſieur Mathieu; c’eſt ce qui
+<lb />fait qu’il a beaucoup de confiance en moy.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />vona un garçon bien ingenu, c’eſt dom<lb />mage qu’il luy manque un œil.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />J’abuſe de voſtre loiſir Monſieur; mais
+<lb />ce n’eſt pas ma faute, avec deux mille huit
+<lb />cenb ihrco vouoreren deburune de mes inp<lb />portunitez, &amp; je prendray congé de vous
+<lb />quand il vous plaira.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Quel original! ouy, ouy, je vay vous apor<lb />cer donmigene, vouo nuren quu attendre.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XIII.
+<lb />SCAPIN, VALERE, LEONORE,
+<lb />MARINE.
+</p>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />DAr ma foy voila qui ne va pas mal; mais
+<lb />I voicy mon Maiſtre avec ſa Maiſtreſſe, il
+<lb />ne me reconnoiſtra pas.
+</sp>
+<sp type="MainZone-Sp"><lb />LEONORE.
+<lb />Contez, Valere, que rien ne me peut faire
+<lb />changer.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Ah, charmante Leonore, que vous devez
+<lb />me parentre adorable avec de pareils ſen<lb />timens.
+</sp>
+<sp type="MainZone-Sp"><lb />SCAPIN.
+<lb />Monſieur je vous donne le bon jour. Y a<lb />t’il long-temps que vous eſtes en cette
+<lb />Ville? Vos affaires vont-elles bien, com<lb />ment gouvernez-vous la joye avec cet ai<lb />mable enfant?
+</sp>
+<sp type="MainZone-Sp"><lb />e la a ele ds
+<lb />Que me veut cet yvrogne-là? qui eſtes<lb />vous mon amy?
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Je ſuis un honneſte garçon, qui connois
+<lb />vos beſoins, &amp; qui viens vous offrir deux
+<lb />cens piſtoles que me va donner Monſieur
+<lb />ventre perc.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE. Scapin autant ſon
+<lb />amplâtre.
+<lb />C eſt toy bcapin, qui t’auroit reconnu.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Vous voyez, Monſieur, ce qu’on fait
+<lb />pour vous.
+</sp>
+<sp type="MainZone-Sp"><lb />4n i2 le liar.
+<lb />Par ma foy voila un méchant borgne.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />Et tu as trouvé le moyen de tirer deux
+<lb />cens piſtoles de mon pere?
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />Il va me les livrer. J’ay encore un colier
+<lb />à eſcarmoter, mais j’aurois beſoin tout-à<lb />l’heure de quelques gens de main.
+</sp>
+<sp type="MainZone-Sp"><lb />VALERE.
+<lb />rout-a-iieule, c out veux tu que je les
+<lb />cherche à preſent.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Monſieur je ſuis à voſtre ſervice. Pour la<lb />main je l’ay auſſi bonne que la langue.
+</sp>
+<sp type="MainZone-Sp"><lb />E AIANa
+<lb />Toy? mais ſerois-tu fille à travailler de
+<lb />nuit.
+</sp>
+<sp type="MainZone-Sp"><lb />MARINE.
+<lb />Pourquoy non? c’eſt dans ce temps-là
+<lb />que je triomphe. J’ay deux ou trois filles
+<lb />de mes amies qui ne m’abandonneront pas
+<lb />dans le beſoin.
+</sp>
+<sp type="MainZone-Sp"><lb />CAPIN.
+<lb />Bon, bon, il ne me faut pas de plus vail<lb />lans champions pour mon deſſein. Mais
+<lb />j’entens Monſieur Grifon, allez m’atendre
+<lb />au prochain détour, je vous diray dans un
+<lb />moment ce qu’il faudra faire.
+</sp>
+<p type="MainZone-Head"><lb />CENE XIV.
+<lb />MrGRIFON, SCAPIN. Scapin
+<lb />remettant ſon emplaſtre ſur l’autre œil,
+<lb />voyant Monfieur Grifon arriver.
+</p>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />L y a deux cens louys neufs dans cette
+<lb />Ibourſe, voyons ſi je ne me ſuis point
+<lb />trompé.
+</sp>
+<sp type="MainZone-Sp"><lb />APIN.
+<lb />
+<lb />Vous eſtes trop exact, &amp; vous ſçavez trop
+<lb />bien compter.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Il n’importe, Monſieur, pour plus gran<lb />de leurete.
+</sp>
+<sp type="MainZone-Sp"><lb />1
+<lb />Je ne regarderay point aprés vous, Mon<lb />ſieur le compere Mathieu me l’a deffendu.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Vous eſtes le maiſtre, ſerviteur.
+</sp>
+<sp type="MainZone-Sp"><lb />A
+<lb />IN.
+<lb />Voila dequoy payer la Serenade.
+<fw><lb />
+</fw></sp>
+<sp type="MainZone-Sp"><lb />SCENE XV.
+<lb />Mr GRIFON ſeul.
+<lb />Onfieur Mathieu ne laiſſe point
+<lb />M moiſir l’argent entre les mains de
+<lb />ceux qui luy doivent. Je luy devois, me voi<lb />la quitte. Je ne ſçay ce que cela ſignifie,
+<lb />mais je n’ay point bonne opinion de mon
+<lb />mariage. Moy qui n’ay jamais rien aimé, je
+<lb />m’aviſe de devenir amoureux à mon âge.
+<lb />O amour, amour. La nuit devient obſcure,
+<lb />&amp; le Muſicien devroit eſtre icy.
+</sp>
+<p type="MainZone-Head"><lb />SCENE XVI.
+<lb />MT GRIPON, CHAMPAGNE yure</p>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />LEra, lera, lera.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />’entends quelqu’un qui chante, ſeroit<lb />ce luy?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Palaſambleu je ſuis bien nourry. Ce
+<lb />Monſieur Scapin fait bien les choſes,
+<lb />ouy.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Qui va la, eſt-ce vous Monſieur le Mu<lb />ſicien.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Ouy à peu prés, c’eſt un yvrogne.
+</sp>
+<sp type="MainZone-Sp"><lb />MTGRITON.
+<lb />Paſſey voſtre chemin mon amy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Que je paſſe mon chemin.
+</sp>
+<sp type="MainZone-Sp"><lb />C30
+<lb />Mr GRIFON.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Ouy qui le pourroit.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Quel maraut eſt-ce icy.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Maraut, voila quelqu’un qui me con<lb />noiſt, je ſuis plus peſant que de coutume,
+<lb />&amp; je ne ſçay ſi mes jambes pourront por<lb />ter au logis tout le vin que j’ay bû.
+</sp>
+<sp type="MainZone-Sp"><lb />MrGRIFON.
+<lb />Ne ſeroit-ce point quelque emiſſaire de
+<lb />mon coquin de fils qui viendroit icy pour
+<lb />troubler la feſte, je veux m’en éclaircir.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Hola l’amy, qui parlez tout ſeul, ſuis-je
+<lb />loin de chez moy, par parantheſe.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Où loges-tu!?
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Hé parſambleu ſi je le ſçavois, je ne le
+<lb />demanderois pas.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Que cherches-tu dans ce quartier.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Je ne ſçay, je ne m’en ſouviens pas. I.
+<lb />ſuis pourtant venu pour quelque choſe. Ah
+<lb />Monſieur Grifon, le connoiſſez.vous ?
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Je ne me trompois pas, c’eſt un fripon.
+</sp>
+<sp type="MainZone-Sp"><lb />CiARERROIL.
+<lb />Juſtement; un fripon, un vilain, un feſſe
+<lb />Mathieu.
+</sp>
+<sp type="MainZone-Sp"><lb />ME GKIFON.
+<lb />A qui penſes-tu parler? C’eſt moy qui
+<lb />ſuis Monſieur Grifon.
+</sp>
+<sp type="MainZone-Sp"><lb />CHARIPMORE.
+<lb />Le diable emporte ſi je l’aurois deviné.
+<lb />Or donc pour revem à nos moutons, Mon<lb />ſieur Mathieu, cer autre vilain, ce ladre.
+</sp>
+<sp type="MainZone-Sp"><lb />Mr GRIFON.
+<lb />Ce pendart-là me fera perdre patience.
+</sp>
+<sp type="MainZone-Sp"><lb />CHAMPAGNE.
+<lb />Patience; ouy c’eſt bien dit, allons dou<lb />cement: ce Monſieur Matiieu done, com<lb />me de vilain à vilain il n’y a que la main,
+<lb />il eſt arrivé que par la concomitance d’un
+<lb />colier; enfin je ne me ſouviens pas bien de
+<lb />tout cela.
+<lb />Mr GRIFON.
+<fw><lb />Source gallica.bnffr ( Bibliothèque nationale de France
+</fw><fw><lb />Source gallica.bnffr ( Bibliothèque nationale de France
+</fw></sp>
+    </body>
+  </text>
+</TEI>
