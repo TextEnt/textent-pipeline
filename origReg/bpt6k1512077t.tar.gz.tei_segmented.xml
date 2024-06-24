@@ -1,0 +1,3868 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amadis de Grèce, tragédie [par A. Houdar de La Motte], représentée par l'Académie royale de musique</title>
+        <author>La Motte, Antoine de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30729994t"/>
+          <author>
+            <persName>La Motte, Antoine de</persName>
+          </author>
+          <title>Amadis de Grèce, tragédie [par A. Houdar de La Motte], représentée par l'Académie royale de musique</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1699" cert="high" resp="BNF">1699</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>AVEC PRIVILEGE DE SA MAJESTE'.</orig>
+          <reg>AVEC PRIVILÈGE DE SA MAJESTÉ.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>A R I</orig>
+          <reg>À R I</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Q AND ROY, c’eſt vainement qu’en t’offrant mon Ouvrage, cout ſemble à Te loüer exciter mon courage;</orig>
+          <reg> QND ROY, c'est vainement qu'en t'offrant mon Ouvrage, coût semble à Te louer exciter mon courage;</reg>
+        </seg>
+        <seg>
+          <orig>Vainement mon ardeur m’en veut faire un:</orig>
+          <reg>Vainement mon ardeur m'en veut faire un:</reg>
+        </seg>
+        <seg>
+          <orig>1 Ma Plume ſe refuſe à ce pénible employ;</orig>
+          <reg>1 Ma Plume se refuse à ce pénible emploi;</reg>
+        </seg>
+        <seg>
+          <orig>La langue deſormais pour aider nôtre zéle, N’a plus de tour heureux ni de grace nouvelle.</orig>
+          <reg>La langue désormais pour aider notre zèle, N'a plus de tour heureux ni de grâce nouvelle.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Mille fameux Auteurs à Ta gloire ont écrit;</orig>
+          <reg>Mille fameux Auteurs à Ta gloire ont écrit;</reg>
+        </seg>
+        <seg>
+          <orig>Si LOUIS a tout fait, Apollon à tout dit.</orig>
+          <reg>Si LOUIS a tout fait, Apollon à tout dit.</reg>
+        </seg>
+        <seg>
+          <orig>De Ton Regne naiſſant, il a dit les miracles;</orig>
+          <reg>De Ton Règne naissant, il a dit les miracles;</reg>
+        </seg>
+        <seg>
+          <orig>Ta Valeur toûjours prête à forcer les obſtacles;</orig>
+          <reg>Ta Valeur toujours prête à forcer les obstacles;</reg>
+        </seg>
+        <seg>
+          <orig>Cent Peuples en courant ſubjuguez à la fois, Mais auſſi-toſt heureux que ſoûmis à Tes Loix;</orig>
+          <reg>Cent Peuples en courant subjuguez à la fois, Mais aussitôt heureux que soumis à Tes Lois;</reg>
+        </seg>
+        <seg>
+          <orig>La rebelle Hereſie à tes pieds terraſſée, D’un cahos tenebreux Themis débarraſſée;</orig>
+          <reg>La rebelle Hérésie à tes pieds terrassée, D'un cahos ténébreux Themis débarrassée;</reg>
+        </seg>
+        <seg>
+          <orig>Le Duel ſans honneur chaſſé de tes Etats, La Nobleſſe formée à de juſtes combats;</orig>
+          <reg>Le Duel sans honneur chassé de tes États, La Noblesse formée à de justes combats;</reg>
+        </seg>
+        <seg>
+          <orig>Les Arts Riches par toy des beautez ſouveraines Qu’ils eurent autrefois dans Rome &amp; dans Athenes;</orig>
+          <reg>Les Arts Riches par toi des beautés souveraines Qu'ils eurent autrefois dans Rome et dans Athènes;</reg>
+        </seg>
+        <seg>
+          <orig>Tous Tes inſtans marquez par les Vertus d’un Roy, Et Tes Fils par Tes ſoins rendus dignes de Toy.</orig>
+          <reg>Tous Tes instants marqués par les Vertus d'un Roi, Et Tes Fils par Tes soins rendus dignes de Toi.</reg>
+        </seg>
+        <seg>
+          <orig>Que ces heureux Sujets ont illuſtré de Plumes!</orig>
+          <reg>Que ces heureux Sujets ont illustré de Plumes!</reg>
+        </seg>
+        <seg>
+          <orig>Qu’écrire à Ta loüange aprés tant de Volumes?</orig>
+          <reg>Qu'écrire à Ta louange après tant de Volumes?</reg>
+        </seg>
+        <seg>
+          <orig>Non qu’encore aujourd’huy Tes nouvelles Vertus De nos Ecrits pour Toy n’exigent les tributs.</orig>
+          <reg>Non qu'encore aujourd'hui Tes nouvelles Vertus De nos Écrits pour Toi n'exigent les tributs.</reg>
+        </seg>
+        <seg>
+          <orig>Cent Travaux tous les jours de nouveau T’éterniſent La mariére s’accroît;</orig>
+          <reg>Cent Travaux tous les jours de nouveau T'éternisent La marièvre s'accroût;</reg>
+        </seg>
+        <seg>
+          <orig>mais les forces s’épuiſent, Et nos Vers dépourvûs de ſel &amp; d’agrémens N’ont pour Tes faits nouveaux que de vieux ornemens.</orig>
+          <reg>mais les forces s'épuisent, Et nos Vers dépourvus de sel et d'agréments N'ont pour Tes faits nouveaux que de vieux ornements.</reg>
+        </seg>
+        <seg>
+          <orig>L’Art aprés tant d’efforts, impuiſſant pour Ta Gloire, Se doit d’un ſoin ſi beau repoſer ſur l’Hiſtoire:</orig>
+          <reg>L'Art après tant d'efforts, impuissant pour Ta Gloire, Se doit d'un soin si beau reposer sur l'Histoire:</reg>
+        </seg>
+        <seg>
+          <orig>Qu'elle ſeule Te loüe, &amp; que de mes Ecrits Tes plaiſirs deſormais ſoient l’objet &amp; le prix.</orig>
+          <reg>Qu'elle seule Te loue, et que de mes Écrits Tes plaisirs désormais soient l'objet et le prix.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>A CTEU 4 P A RS DU PROLOGUE.</orig>
+          <reg>À CTEU 4 P A RS DU PROLOGUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>1 Z I RPHE’E, Enchantereſſe, ZIRENE, Enchanteur, Amy de Zirphée.</orig>
+            <reg>1 I RPHE’É, Enchanteresse, ZIRENE, Enchanteur, Ami de Zirphée.</reg>
+          </seg>
+          <seg>
+            <orig>TROUPE de Femmes de la ſuite de Zirphée.</orig>
+            <reg>TROUPE de Femmes de la suite de Zirphée.</reg>
+          </seg>
+          <seg>
+            <orig>TROUPE de Genies.</orig>
+            <reg>TROUPE de Génies.</reg>
+          </seg>
+          <seg>
+            <orig>TROUPE de Statuës animées.</orig>
+            <reg>TROUPE de Statues animées.</reg>
+          </seg>
+          <seg>
+            <orig>TROUPE d’Eſprits volants.</orig>
+            <reg>TROUPE d'Esprits volants.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>PROLOGUE.</orig>
+          <reg>PROLOGUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Aub MOAIZIIR PoHI EE.</orig>
+            <reg>Aub MOAIZIR PoHI CE.</reg>
+          </seg>
+          <seg>
+            <orig>V Out célebre icy le courage D’un Vainqueur dont le Monde admira les Travaux.</orig>
+            <reg>V Out célèbre ici le courage D'un Vainqueur dont le Monde admira les Travaux.</reg>
+          </seg>
+          <seg>
+            <orig>Q Ce Monument eſt un bommage.</orig>
+            <reg>Q Ce Monument est un bommage.</reg>
+          </seg>
+          <seg>
+            <orig>Que mon Art voulut rendre au plus grãd des Héros:</orig>
+            <reg>Que mon Art voulut rendre au plus grand des Héros:</reg>
+          </seg>
+          <seg>
+            <orig>D'Amadis j'y traçay l'Hiſtoire, Mais on ne luy doit plus ce Titre glorieux, Ce ſejour n’eſt plus fait pour annoncer ſa gloire, D’autres Exploits vont embellir ces lieux.</orig>
+            <reg>D'Amadis j'y traçai l'Histoire, Mais on ne parler doit plus ce Titre glorieux, Ce jour n'est plus fait pour annoncer sa gloire, D'autres Exploits vont embellir ces lieux.</reg>
+          </seg>
+          <seg>
+            <orig>Eſprits qui me ſerveZ, rempliſſez mon attenté, Volez, volez de toutes parts, Effacez les Travaux que ce lieu repreſente, Qu’une Hiſtoire plus éclatante Etonne &amp; charme les regards.</orig>
+            <reg>Esprits qui me servez, remplissez mon attenté, Volez, volés de toutes parts, Effacés les Travaux que ce lieu représente, Qu'une Histoire plus éclatante Éonne et charme les regards.</reg>
+          </seg>
+          <seg>
+            <orig>Eſprits qui me ſervez, rempliſſeZ mon attente, Volez, volez, de toutes parts.</orig>
+            <reg>Esprits qui me servez, remplissez mon attente, Volés, volés, de toutes parts.</reg>
+          </seg>
+          <seg>
+            <orig>Stioupuri II Pluſieurs Eſprits volent à l’ordre de Zirphée &amp; viennent changer les Bas-reliefs qui repreſentent les Travaux du Roy au lieu de ceux d’Amadis.</orig>
+            <reg>Stioupuri II Plusieurs Esprits volent à l'ordre de Zirphée et viennent changer les Bas-reliefs qui représentent les Travaux du Roi au lieu de ceux d'Amadis.</reg>
+          </seg>
+          <seg>
+            <orig>Deux Eſprits enlevent l’ardente Epée du haut de la Pyramide, &amp; deux autres y viennent poſer un Soleil.</orig>
+            <reg>Deux Esprits enlèvent l'ardente Épée du haut de la Pyramide, et deux autres y viennent poser un Soleil.</reg>
+          </seg>
+          <seg>
+            <orig>da</orig>
+            <reg>da</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>1 Que tout icy s’anime, &amp; que tout me réponde.</orig>
+            <reg>1 Que tout ici s'anime, et que tout me réponde.</reg>
+          </seg>
+          <seg>
+            <orig>Toutes les Statuës s’animent, ſortent de leurs Attitudes &amp; s’uniſſent avec Zirphée pour Celebrer la gloire du Roy.</orig>
+            <reg>Toutes les Statues s'animent, sortent de leurs Attitudes et s'unissent avec Zirphée pour Célébrer la gloire du Roi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E &amp; LE CHOEUR.</orig>
+            <reg>ZIRPHÉL'E et LE CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Pour chanter ce Vainqueur élevons nos Concerts, Son Nom remplit la Terre &amp; l’Onde, Il est l’honneur de l’Univers, Son Eloge eſt gravé dans tous les cœurs du Monde.</orig>
+            <reg>Pour chanter ce Vainqueur élevons nos Concerts, Son Nom remplit la Terre et l'Onde, Il est l'honneur de l'Univers, Son Éloge est gravé dans tous les cœurs du Monde.</reg>
+          </seg>
+          <seg>
+            <orig>Des</orig>
+            <reg>Des</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Des Géniés applaudiſſent au deſſein de Zirphée par leurs Danſes, &amp; les femmes de ſa ſuite ſe meſſent avec eux.</orig>
+            <reg>Des Géniés applaudissent au dessein de Zirphée par leurs Danses, et les femmes de sa suite se messent avec eux.</reg>
+          </seg>
+          <seg>
+            <orig>ZIRENE étonné de la nouvelle hiſtoire que le Monument repreſente.</orig>
+            <reg>ZIRENE étonné de la nouvelle histoire que le Monument représente.</reg>
+          </seg>
+          <seg>
+            <orig>Que d'Exploits éclatans s’offrent à mes regards!</orig>
+            <reg>Que d'Exploits éclatants s'offrent à mes regards!</reg>
+          </seg>
+          <seg>
+            <orig>Quel Héros ſur ſes pas enchaiſne la Victoire?</orig>
+            <reg>Quel Héros sur ses pas enchaîne la Victoire?</reg>
+          </seg>
+          <seg>
+            <orig>S uil avai a Ennemis!</orig>
+            <reg> Suil avai a Ennemis!</reg>
+          </seg>
+          <seg>
+            <orig>qu'il briſe de Remparts!</orig>
+            <reg>qu'il brise de Remparts!</reg>
+          </seg>
+          <seg>
+            <orig>En vain tout l’Univers s’arme contre ſa gloire, Il triomphe de toutes parts.</orig>
+            <reg>En vain tout l'Univers s'arme contre sa gloire, Il triomphe de toutes parts.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Que d’exploits éclatans s’offrent à nos regards!</orig>
+            <reg>Que d'exploits éclatants s'offrent à nos regards!</reg>
+          </seg>
+          <seg>
+            <orig>Quel Héros ſur ſes pas enchaiſne la Victoire?</orig>
+            <reg>Quel Héros sur ses pas enchaîne la Victoire?</reg>
+          </seg>
+          <seg>
+            <orig>Qu’il abat d’Ennemis!</orig>
+            <reg>Qu'il abat d'Ennemis!</reg>
+          </seg>
+          <seg>
+            <orig>qu’il briſe de Remparts!</orig>
+            <reg>qu'il brise de Remparts!</reg>
+          </seg>
+          <seg>
+            <orig>En vain tout l’Univers s’arme contre ſa gloire, Il triomphe de toutes parts.</orig>
+            <reg>En vain tout l'Univers s'arme contre sa gloire, Il triomphe de toutes parts.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Coûtez, Mortels, une Paix ſalutaire, C’eſt vn Héros qui s’en rend le ſoütien, Vous rendre heureux eſt ſa plus douce affaire;</orig>
+            <reg>Coûtez, Mortels, une Paix salutaire, C'est un Héros qui s'en rend le soutien, Vous rendre heureux est sa plus douce affaire;</reg>
+          </seg>
+          <seg>
+            <orig>Il bannit la Guerre, N’en craigneZ plus rien, Il prend le ſoin du bonheur de la Terre, Et c’eſt au Ciel qu’il ſe remet du ſien.</orig>
+            <reg>Il bannit la Guerre, N'en craignez plus rien, Il prend le soin du bonheur de la Terre, Et c'est au Ciel qu'il se remet du sien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Coûtez, Mortels, une Paix ſalutaire, C’eſt un Héros qui s’en rend le ſoûtien, Vous rendre heureux est ſa plus douce affaire;</orig>
+            <reg>Coûtez, Mortels, une Paix salutaire, C'est un Héros qui s'en rend le soutien, Vous rendre heureux est sa plus douce affaire;</reg>
+          </seg>
+          <seg>
+            <orig>Il bannit la Guerre, N’en craignez plus rien, Il prend le ſoin du bonheur de la Terre, Et c’eſt au Ciel qu’il ſe remet du ſien.</orig>
+            <reg>Il bannit la Guerre, N'en craignez plus rien, Il prend le soin du bonheur de la Terre, Et c'est au Ciel qu'il se remet du sien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E &amp; ZIRENE.</orig>
+            <reg>ZIRPHÉL'É et ZIRENE.</reg>
+          </seg>
+          <seg>
+            <orig>Ses ſoins ont ramené le calme ſur la Terre;</orig>
+            <reg>Ses soins ont ramené le calme sur la Terre;</reg>
+          </seg>
+          <seg>
+            <orig>S ue par ſes ſoins il régne à jamais, 8 'il eſt le Héros de la Guerre, Il eſt encor le Héros de la Paix.</orig>
+            <reg>S Que par ses soins il règne à jamais, 8 'il est le Héros de la Guerre, Il est encor le Héros de la Paix.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Volez volez, dans ſon Empire, Plaiſirs, prevenez tous ſes veux, C’eſt le plus grand Roy qui reſpire, Qu’il ſoit toûjours le plus heureux.</orig>
+            <reg>Volez volez, dans son Empire, Plaisirs, prévenez tous ses veux, C'est le plus grand Roi qui respire, Qu'il soit toujours le plus heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Volez, volez, dans ſon Empire, Plaiſirs, prévenez tous ſes vœux, C’eſt le plus grand Roy qui reſpire, Qu'il ſoit toûjours le plus heureux.</orig>
+            <reg>Volez, volez, dans son Empire, Plaisirs, prévenez tous ses vœux, C'est le plus grand Roi qui respire, Qu'il soit toujours le plus heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Aprés avoir ſervi ſa gloire, Il faut pour ſes plaiſirs nous unir aujourd’huy, Qu’un ſpectacle pompeux luy retrace l’Hiſtoire D'un illustre Painqueur qui ne céde qu'a luy.</orig>
+            <reg>Après avoir servi sa gloire, Il faut pour ses plaisirs nous unir aujourd'hui, Qu'un spectacle pompeux-même retrace l'Histoire D'un illustre Painqueur qui ne cède qu'a tu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>lm du Troiogue.</orig>
+          <reg>lm du Trogue.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>le ACTLURS DE LA TRAGEDIE.</orig>
+          <reg>le ACTLURS DE LA TRAGÉDIE.</reg>
+        </seg>
+        <seg>
+          <orig>MADIS DE GRECE.</orig>
+          <reg>MADIS DE GRÈCE.</reg>
+        </seg>
+        <seg>
+          <orig>LE PRINCE DE THRACE.</orig>
+          <reg>LE PRINCE DE -THRACE.</reg>
+        </seg>
+        <seg>
+          <orig>NIQUE’E, Fille du Soudan de Thébes.</orig>
+          <reg>NIQUE’-E, Fille du Soudan de Thebes.</reg>
+        </seg>
+        <seg>
+          <orig>HELISSE, Magicienne.</orig>
+          <reg>HELISSE, Magicienne.</reg>
+        </seg>
+        <seg>
+          <orig>ZIRPHE’E, Enchantereſſe, Tante de Niquée.</orig>
+          <reg>ZIRPHÉLA, Enchanteresse, Tante de Niquée.</reg>
+        </seg>
+        <seg>
+          <orig>Troupes de Bergers, de Bergeres &amp; de Paſtres.</orig>
+          <reg>Troupes de Bergers, de Bergères et de Pastres.</reg>
+        </seg>
+        <seg>
+          <orig>Un Berger.</orig>
+          <reg>Un Berger.</reg>
+        </seg>
+        <seg>
+          <orig>Une Bergere.</orig>
+          <reg>Une Bergère.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>On fecona Berger.</orig>
+          <reg>On fécona Berger.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Chevaliers &amp; de Princeſſes enchantées.</orig>
+          <reg>Troupe de Chevaliers et de Princesses enchantées.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>’Un Chevalier enchanté.</orig>
+          <reg>Un Chevalier enchanté.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Une Princeſſe enchantée.</orig>
+          <reg>Une Princesse enchantée.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe ut Magiciens.</orig>
+          <reg>Troupe ut Magiciens.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Démons.</orig>
+          <reg>Troupe de Démons.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Matelots &amp; de Matelottes.</orig>
+          <reg>Troupe de Matelots et de Matelottes.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Un Maielot.</orig>
+          <reg>Un Maielot.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Un ſecond Matelot.</orig>
+          <reg>Un second Matelot.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE PREMIER.</orig>
+          <reg>ACTE PREMIER.</reg>
+        </seg>
+        <seg>
+          <orig>Le Théatre repreſente les Jardins de Méliſſe, d’où l’on découvre dans le fonds la Tour de Niquée.</orig>
+          <reg>Le Théâtre représente les Jardins de Mélisse, d'où l'on découvre dans le fonds la Tour de Niquée.</reg>
+        </seg>
+        <seg>
+          <orig>La Scene ſe paſſe dans la Nuit.</orig>
+          <reg>La Scène se passe dans la Nuit.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS, LE PRINCE DE THRACE.</orig>
+          <reg>AMADIS, LE PRINCE DE -THRACE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Endant que le ſommeil ferme icy tous les yeux, Allons, Prince, marchons, où m’attend la Victoire;</orig>
+            <reg>Endant que le sommeil ferme ici tous les yeux, Allons, Prince, marchons, où m'attend la Victoire;</reg>
+          </seg>
+          <seg>
+            <orig>Arrachons-nous aux charmes de ces lieux, Ils n’ont que trop contraint mon amour &amp; ma gloire.</orig>
+            <reg>Arrachons-nous aux charmes de ces lieux, Ils n'ont que trop contraint mon amour et ma gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>La Gloire aſſeZ long-tems vous a vû ſous ſes Loix, Tout vous aſſure une illuſtre memoire, Amadis a luy ſeul achevé plus d’Exploits, Que l’avenir n’en pourra croire.</orig>
+            <reg>La Gloire assez longtemps vous a vu sous ses Lois, Tout vous assure une illustre mémoire, Amadis a m seul achevé plus d'Exploits, Que l'avenir n'en pourra croire.</reg>
+          </seg>
+          <seg>
+            <orig>Répondez, en ces lieux à de tendres deſirs, Meliſſe ſent pour vous la flame la plus belle;</orig>
+            <reg>Répondez, en ces lieux à de tendres désirs, Melisse sent pour vous la flamme la plus belle;</reg>
+          </seg>
+          <seg>
+            <orig>Ainuue uppus font ieſu fruil de jes ſoupirs;</orig>
+            <reg>Ainuve uppus font ju fruil de jes soupirs;</reg>
+          </seg>
+          <seg>
+            <orig>Quand ſon Art à vos yeux raſſemble les plaiſirs, C’eſt ſon amour qui les appelle.</orig>
+            <reg>Quand son Art à vos yeux rassemble les plaisirs, C'est son amour qui les appelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt de cet amour que je fais mon tourment.</orig>
+            <reg>c'est de cet amour que je fais mon tourment.</reg>
+          </seg>
+          <seg>
+            <orig>uand ce Palis s’offrit a mon paſſage, J'allois finir l’enchantement De la Princeſſe qui m’engage.</orig>
+            <reg>Uand ce Palis s'offrit a mon passage, J'allais finir l'enchantement De la Princesse qui m'engage.</reg>
+          </seg>
+          <seg>
+            <orig>anieiffe par ſes foins me retint dans ſa Cour, Je crus que ſon accueil naiſſoit de ſon eſtime;</orig>
+            <reg>anieiffe par ses foins me retint dans sa Cour, Je crus que son accueil naissait de son estime;</reg>
+          </seg>
+          <seg>
+            <orig>Mais puiſqu’il est l’effet de ſon fatal amour, Prince, je me ferois un crime De le nourrir par un plus long ſéjour.</orig>
+            <reg>Mais puisqu'il est l'effet de son fatal amour, Prince, je me ferais un crime De le nourrir par un plus long sujour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRINCE DE THRACE.</orig>
+            <reg>PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Pour prix d’une flame ſi tendre Vous vouleZ qu’elle meure &amp; vous l’abandonnez C uoy!</orig>
+            <reg>Pour prix d'une flamme si tendre Vous voulez qu'elle meure et vous l'abandonnez Ç uoi!</reg>
+          </seg>
+          <seg>
+            <orig>ſa beaute ne peut-elle vous rendre Tout l'amour que vous luy donneZ</orig>
+            <reg>sa beauté ne peut-elle vous rendre Tout l'amour que vous lui avez</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Tu ſçais l’objet à qui je rends les armes, Et tu peux me vanter de ſi foibles attraits!</orig>
+            <reg>Tu sais l'objet à qui je rends les armes, Et tu peux me vanter de si faibles attraits!</reg>
+          </seg>
+          <seg>
+            <orig>les yeux qui connoiſſent ſes traits, Peuvent-ils trouver d’autres charmes?</orig>
+            <reg>les yeux qui connaissent ses traits, Peuvent-ils trouver d'autres charmes?</reg>
+          </seg>
+          <seg>
+            <orig>Il luy montre le Portrait de Niquée.</orig>
+            <reg>Il te montre le Portrait de Niquée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE à part.</orig>
+            <reg>LE PRINCE DE -THRACE à part.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que ce ſouvenir redouble mes allarmes.</orig>
+            <reg>que ce souvenir redouble mes alarmes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Déja le bruit de ma valeur A ſçû fléchir pour moy cette auguſte Princeſſe, Il faut par mille efforts meriter mon bonheur Et justifier ſa tendreſſe.</orig>
+            <reg>Déjà le bruit de ma valeur A su fléchir pour moi cette auguste Princesse, Il faut par mille efforts mériter mon bonheur Et justifier sa tendresse.</reg>
+          </seg>
+          <seg>
+            <orig>Ne tardons plus, aſſûrons dés ce jour Et mes plaiſirs &amp; ma mémoire.</orig>
+            <reg>Ne tardons plus. assurons dès ce jour Et mes plaisirs et ma mémoire.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'il eſt doux d’accroistre ſa gloire.</orig>
+            <reg>Qu'il est doux d'accroître sa gloire.</reg>
+          </seg>
+          <seg>
+            <orig>De ce qu’on fait pour ſon amour.</orig>
+            <reg>De ce qu'on fait pour son amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne m’oppoſe plus au ſoin qui vous agite, Je combattois en vain un ſi preſſant deſir.</orig>
+            <reg>Je ne m'oppose plus au soin qui vous agite, Je combattais en vain un si pressant désir.</reg>
+          </seg>
+          <seg>
+            <orig>Demeurez.</orig>
+            <reg>Demeurez.</reg>
+          </seg>
+          <seg>
+            <orig>Je vais voir pour cacher nôtre fuite L’endroit que nous devons choiſir.</orig>
+            <reg>Je vais voir pour cacher notre fuite L'endroit que nous devons choisir.</reg>
+          </seg>
+          <seg>
+            <orig>Il ſort &amp; va avertir Méliſſe.</orig>
+            <reg>Il sort et va avertir Mélisse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE DEOXIEME.</orig>
+          <reg>SCÈNE DEOXIEME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS ſeul.</orig>
+            <reg>AMADIS seul.</reg>
+          </seg>
+          <seg>
+            <orig>Nuit!</orig>
+            <reg>Nuit!</reg>
+          </seg>
+          <seg>
+            <orig>déploye icy tes voiles les plus ſombres.</orig>
+            <reg>déploie ici tes voiles les plus sombres.</reg>
+          </seg>
+          <seg>
+            <orig>O Sommeil, ſous tes Pavots aſſoupi tous les yeux:</orig>
+            <reg>Ô Sommeil, sous tes Pavots assoupi tous les yeux:</reg>
+          </seg>
+          <seg>
+            <orig>Pour fuir de ces funeſtes lieux Prêtez-moy le ſecours du ſilence &amp; des ombres.</orig>
+            <reg>Pour fuir de ces funestes lieux Prêtez-moi le secours du silence et des ombres.</reg>
+          </seg>
+          <seg>
+            <orig>Amour, obtiens pour moyqu’ils rempliſſent mes vœux;</orig>
+            <reg>Amour, obtiens pour moiqu'ils remplissent mes vœux;</reg>
+          </seg>
+          <seg>
+            <orig>Mon cœur a droit de le prétendre.</orig>
+            <reg>Mon cœur a droit de le prétendre.</reg>
+          </seg>
+          <seg>
+            <orig>Tu n’as jamais ſervi de ſi beaux feux Ni ſatisfait d’Amant ſi tendre.</orig>
+            <reg>Tu n'as jamais servi de si beaux feux Ni satisfait d'Amant si tendre.</reg>
+          </seg>
+          <seg>
+            <orig>O nuit!</orig>
+            <reg>Ô nuit!</reg>
+          </seg>
+          <seg>
+            <orig>dépleje tey res oules les peus ſombres;</orig>
+            <reg>dépleje te rés oules les pus sombres;</reg>
+          </seg>
+          <seg>
+            <orig>Sommeil, ſous tes Pavots aſſoupi tous les yeux;</orig>
+            <reg>Sommeil, sous tes Pavots assoupi tous les yeux;</reg>
+          </seg>
+          <seg>
+            <orig>Pour fuir de ces funeſtes lieux.</orig>
+            <reg>Pour fuir de ces funestes lieux.</reg>
+          </seg>
+          <seg>
+            <orig>meneo moy le fecours au piente &amp; des ombres.</orig>
+            <reg>mène -moi le secours au piente et des ombres.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>La nuit ſe diſſipe, une clarté magique éclaire les Jardins, il y naît des Berceaux, &amp; des Fontaines, &amp; une Troupe champêtre ſuſcitée par Méliſſe, vient s’oppoſer au départ d’Amadis.</orig>
+          <reg>La nuit se dissipe, une clarté magique éclaire les Jardins, il y naît des Berceaux, et des Fontaines, et une Troupe champ suscitée par Mélisse, vient s'opposer au départ d'Amadis.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Que voy-je!</orig>
+          <reg>Que vois-je!</reg>
+        </seg>
+        <seg>
+          <orig>quel prodige!</orig>
+          <reg>quel prodige!</reg>
+        </seg>
+        <seg>
+          <orig>ô Cieux!</orig>
+          <reg>ô Cieux!</reg>
+        </seg>
+        <seg>
+          <orig>A quel Astre la nuit céde-t-elle ces lieux?</orig>
+          <reg>À quel Être la nuit cède-t-elle ces lieux?</reg>
+        </seg>
+        <seg>
+          <orig>D’où vient qu’une Beauté nouvelle Eclate icy de toutes parts?</orig>
+          <reg>D'où vient qu'une Beauté nouvelle Éclate ici de toutes parts?</reg>
+        </seg>
+        <seg>
+          <orig>Quel ſpectacle!</orig>
+          <reg>Quel spectacle!</reg>
+        </seg>
+        <seg>
+          <orig>qui vous appelle?</orig>
+          <reg>qui vous appelle?</reg>
+        </seg>
+        <seg>
+          <orig>Et quel enchantement vous offre à mes regards?</orig>
+          <reg>Et quel enchantement vous offrent à mes regards?</reg>
+        </seg>
+        <seg>
+          <orig>SCENE III.</orig>
+          <reg>SCÈNE III.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE'ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>AMATDIO Troupe de Bergers, de Bergeres, &amp; de Paſtres.</orig>
+          <reg>AMATDIO Troupe de Bergers, de Bergères, et de Pastres.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Un BERGER.</orig>
+            <reg>Un BERGER.</reg>
+          </seg>
+          <seg>
+            <orig>Vec l’amour tout peut nous plaire, Q luur nest enuimum juns jon fecours:</orig>
+            <reg>Vec l'amour tout peut nous plaire, Q luur nest envimum juns jon secours:</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt le ſeul qui ſçait nous faire D’aimables lieux &amp; de beaux joürs.</orig>
+            <reg>Il est le seul qui sait nous faire D'aimables lieux et de beaux joürs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>CedeZ a nos Chanſons, cédez à nos Muſettes, Joüiſſez en ces lieux des charmes les plus doux, Les oyſeaux, les échos de ces belles retraites, Pour vous y retenir s’uniſſent avec nous.</orig>
+            <reg>Cédez à nos Chansons, cédez à nos Musettes, Jouissez en ces lieux des charmes les plus doux, Les oiseaux, les échos de ces belles retraites, Pour vous y retenir s'unissent avec nous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Deux BERGERS.</orig>
+            <reg>Deux BERGERS.</reg>
+          </seg>
+          <seg>
+            <orig>Tout doit icy fléchir un cœur ſauvage, Nos bois charmans Sont faits pour les amans.</orig>
+            <reg>Tout doit ici fléchir un cœur sauvage, Nos bois charmands Sont faits pour les amants.</reg>
+          </seg>
+          <seg>
+            <orig>Ils ſont toûjours Parez d’un vert feüillage:</orig>
+            <reg>Ils sont toujours Parés d'un vert feuillage:</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que leur ombrage Est d’un doux ſecours.</orig>
+            <reg>que leur ombrage Est d'un doux secours.</reg>
+          </seg>
+          <seg>
+            <orig>Que de beaux jours, L’Amour nous y prépare, Heureux qui s’égare Dans leurs beaux détours:</orig>
+            <reg>Que de beaux jours, L'Amour nous y prépare, Heureux qui s'égare Dans leurs beaux détours:</reg>
+          </seg>
+          <seg>
+            <orig>Heureux qui s’égare Avec les amours.</orig>
+            <reg>Heureux qui s'égare Avec les amours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Un BERGER.</orig>
+            <reg>Un BERGER.</reg>
+          </seg>
+          <seg>
+            <orig>L’amour eſt pour le bel âge;</orig>
+            <reg>L'amour est pour le bel âge;</reg>
+          </seg>
+          <seg>
+            <orig>Le plus tendre eſt le plus ſage:</orig>
+            <reg>Le plus tendre est le plus sage:</reg>
+          </seg>
+          <seg>
+            <orig>L’amour eſt pour le bel âge Livrons-nous à ſes langueurs.</orig>
+            <reg>L'amour est pour le bel âge Livrons-nous à ses langueurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LECHOEUR.</orig>
+            <reg>LECHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Lamour eſi pour te bel âge;</orig>
+            <reg>Lamour esi pour te bel âge;</reg>
+          </seg>
+          <seg>
+            <orig>Le plus tendre eſt le plus ſage:</orig>
+            <reg>Le plus tendre est le plus sage:</reg>
+          </seg>
+          <seg>
+            <orig>L’amour eſt pour le bel age, Livrons-nous à ſes langueurs.</orig>
+            <reg>L'amour est pour le bel age, Livrons-nous à ses langueurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BERGER.</orig>
+            <reg>LE BERGER.</reg>
+          </seg>
+          <seg>
+            <orig>Il ſe plaist dans nos bocages Pour bleſſer les cœurs ſauvages, Il ſe cache ſous les fleurs:</orig>
+            <reg>Il se plaît dans nos bocages Pour blesser les cœurs sauvages, Il se cache sous les fleurs:</reg>
+          </seg>
+          <seg>
+            <orig>L’amour eſt pour le bel âge;</orig>
+            <reg>L'amour est pour le bel âge;</reg>
+          </seg>
+          <seg>
+            <orig>Le plus tendre est le plus ſage:</orig>
+            <reg>Le plus tendre est le plus sage:</reg>
+          </seg>
+          <seg>
+            <orig>L’amour eſt pour le bel âge, Livrons-nous à ſes langueurs.</orig>
+            <reg>L'amour est pour le bel âge, Livrons-nous à ses langueurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHOEUR.</orig>
+            <reg>LE CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>L’amour est pour le bel âge, Le plus tendre eſt le plus ſageL’amour eſt pour le bel age, Livrons-nous à ſes langueurs.</orig>
+            <reg>L'amour est pour le bel âge, Le plus tendre est le plus sageL'amour est pour le bel age, Livrons-nous à ses langueurs.</reg>
+          </seg>
+          <seg>
+            <orig>Trop heureux ceux qu’il engage, L’amour eſt un eſclavage Mais ſes fers ont des douceurs.</orig>
+            <reg>Trop heureux ceux qu'il engage, L'amour est un esclavage Mais ses fers ont des douceurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Une BERGERE.</orig>
+            <reg>Une BERGÈRE.</reg>
+          </seg>
+          <seg>
+            <orig>AAtmons vous uuns ia feuneſſe, Eh!</orig>
+            <reg>AAtmons vous uns ja feunesse, Eh!</reg>
+          </seg>
+          <seg>
+            <orig>que faire ſans tendreſſe!</orig>
+            <reg>que faire sans tendresse!</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, L’amour est le bien des cœurs.</orig>
+            <reg>Aimons tous dans la jeunesse, L'amour est le bien des cœurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHOEUR.</orig>
+            <reg>LE CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, Eh!</orig>
+            <reg>Aimons tous dans la jeunesse, Eh!</reg>
+          </seg>
+          <seg>
+            <orig>que faire ſans tendreſſe!</orig>
+            <reg>que faire sans tendresse!</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, L’amour est le bien des cœurs.</orig>
+            <reg>Aimons tous dans la jeunesse, L'amour est le bien des cœurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA BERGERE.</orig>
+            <reg>LA BERGÈRE.</reg>
+          </seg>
+          <seg>
+            <orig>Chaque tems a ſa ſageſſe, Attendons que la vieilleſſe Vienne éteindre nos ardeurs.</orig>
+            <reg>Chaque temps a sa sagesse, Attendons que la vieillesse Vienne éteindre nos ardeurs.</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, Eh!</orig>
+            <reg>Aimons tous dans la jeunesse, Eh!</reg>
+          </seg>
+          <seg>
+            <orig>que faire ſans tendreſſe!</orig>
+            <reg>que faire sans tendresse!</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, L’amour est le bien des cœurs.</orig>
+            <reg>Aimons tous dans la jeunesse, L'amour est le bien des cœurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHOEUR.</orig>
+            <reg>LE CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jenneſſe, Eh!</orig>
+            <reg>Aimons tous dans la jennesse, Eh!</reg>
+          </seg>
+          <seg>
+            <orig>que faire ſans tendreſſe!</orig>
+            <reg>que faire sans tendresse!</reg>
+          </seg>
+          <seg>
+            <orig>Aimons tous dans la jeuneſſe, L’amour eſt le bien des cœurs.</orig>
+            <reg>Aimons tous dans la jeunesse, L'amour est le bien des cœurs.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'avec nous il ſoit ſans ceſſe, Il nous plaiſt quand il nous bleſſe, Tous ſes coups ſont des faveurs.</orig>
+            <reg>Qu'avec nous il soit sans cesse, Il nous plaît quand il nous blesse, Tous ses coups sont des faveurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS, Ceſſez, cette importune feſte, C’est vainement qu’en ces lieux on m’arreſte.</orig>
+            <reg>AMADIS, Cessez, cette importune fête, C'est vainement qu'en ces lieux on m'arrête.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE QUATRIE’ME.</orig>
+          <reg>CÈNE QUATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS, MELISSE, LE PRINCE de Thrace.</orig>
+          <reg>AMADIS, MÉLISSE, LE PRINCE de Thrace.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Uoy, tout trompera mon eſpoir?</orig>
+            <reg>Où, tout trompera mon espoir?</reg>
+          </seg>
+          <seg>
+            <orig>Amadis, ſe peut-il que rien ne vous flêchiſſe?</orig>
+            <reg>Amadis, se peut-il que rien ne vous flêchisse?</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>du moins, ſi ſur vous leur voix est ſans pouvoir, Cedez à celle de Meliſſe.</orig>
+            <reg>du moins, si sur vous leur voix est sans pouvoir, Cédez à celle de Melisse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt qu’à la voix du devoir Qu’il faut qu’un grand cœur obéiſſe.</orig>
+            <reg>Ce n'est qu'à la voix du devoir Qu'il faut qu'un grand cœur obisse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELIS SE.</orig>
+            <reg>MELIS SE.</reg>
+          </seg>
+          <seg>
+            <orig>C’en est donc fait, tu pars, tu braves ma douleur, Je n’ay pour t’arreſter que d’inutiles charmes;</orig>
+            <reg>C'en est donc fait, tu pars, tu braves ma douleur, Je n'ai pour t'arrêter que d'inutiles charmes;</reg>
+          </seg>
+          <seg>
+            <orig>Ingrat, mets-tu ta gloire à mépriſer mes larmes?</orig>
+            <reg>Ingrat, mets-tu ta gloire à mépriser mes larmes?</reg>
+          </seg>
+          <seg>
+            <orig>Ton bonheur dépend-t’il de me percer le cœur?</orig>
+            <reg>Ton bonheur dépend-t-il de me percer le cœur?</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>plus je m’attendris, moins je te vois ſenſible, Tu détourne les yeux, &amp; déja tu me fuis.</orig>
+            <reg>plus je m'attendris, moins je te vois sensible, Tu détourne les yeux, et déjà tu me fuis.</reg>
+          </seg>
+          <seg>
+            <orig>Tu te fais un ſuplice horrible D'estre ençor aux lieux où je ſuis.</orig>
+            <reg>Tu te fais un suplice horrible D'être ençor aux lieux où je suis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Meliſſe, ce n’eſt qu'à la gloire.</orig>
+            <reg>Mélisse, ce n'est qu'à la gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, ne pourſuit pas ce langage odieux, e ſçais trop ce que je dois croire, L’amour, le ſeul amour, t’arrache de ces lieux, L’image de Niquée a porté dans ton ame Des feux dont tu fais ton bonheur.</orig>
+            <reg>Non, non, ne poursuit pas ce langage odieux, e sçais trop ce que je dois croire, L'amour, le seul amour, t'arrache de ces lieux, L'image de Niquée a porté dans ton âme Des feux dont tu fais ton bonheur.</reg>
+          </seg>
+          <seg>
+            <orig>Son nom même, ſon nom vient d’emouvoir ton cœur, Et tes yeux trahiſſent ta flame.</orig>
+            <reg>Son nom même, son nom vient d'émouvoir ton cœur, Et tes yeux trahissent ta flamme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Pourquoy voulez-vous m’engager uand je ſuis ſous les loix d’un autre?</orig>
+            <reg>Pourquoi voulez-vous m'engager uand je suis sous les lois d'un autre?</reg>
+          </seg>
+          <seg>
+            <orig>Un cœur capable de changer Ne ſeroit pas digne du vôtre.</orig>
+            <reg>Un cœur capable de changer Ne serait pas digne du vôtre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>uoy!</orig>
+            <reg>uoy!</reg>
+          </seg>
+          <seg>
+            <orig>cruel, c’eſt donc peu de le voir dans tes yeux!</orig>
+            <reg>cruel, c'est donc peu de le voir dans tes yeux!</reg>
+          </seg>
+          <seg>
+            <orig>Tu m’oſes faire encor un aveu ſi funeſte.</orig>
+            <reg>Tu m'oses faire encor un aveu si funeste.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne t’ay donc offert qu’un amour odieux Et qu'un cœur que le tien déteſte?</orig>
+            <reg>Je ne t'ai donc offert qu'un amour odieux Et qu'un cœur que le tien déteste?</reg>
+          </seg>
+          <seg>
+            <orig>En vain j’ay raſſemblé les plaiſirs &amp; les jeux, En vain j’ay de mon Art épuiſé la puiſſance;</orig>
+            <reg>En vain j'ai rassemblé les plaisirs et les jeux, En vain j'ai de mon Art épuisé la puissance;</reg>
+          </seg>
+          <seg>
+            <orig>Pour toy tout devenoit affreux, Par mes ſoûpirs &amp; ma préſence.</orig>
+            <reg>Pour toi tout devenait affreux, Par mes soupirs et ma présence.</reg>
+          </seg>
+          <seg>
+            <orig>’’en eſt trop le dépit ſuccéde à mon tranſport.</orig>
+            <reg>’’en est trop le dépit succéde à mon transport.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne te retiens plus, tu peux partir.</orig>
+            <reg>Je ne te retiens plus, tu peux partir.</reg>
+          </seg>
+          <seg>
+            <orig>barbare, Va braver les perils que le ſort te prépare, Cours, vole à ta Princeſſe, ou plûtoſt à la mort.</orig>
+            <reg>barbare, Va braver les périls que le sort te prépare, Cours, vole à ta Princesse, ou plutôt à la mort.</reg>
+          </seg>
+          <seg>
+            <orig>A la mori!</orig>
+            <reg>À la mory!</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, ion tuur ia prefere à Meliſſe?</orig>
+            <reg>Quoi, ion tuur ja préfère à Melisse?</reg>
+          </seg>
+          <seg>
+            <orig>Tu me quittes pour la chercher?</orig>
+            <reg>Tu me quittes pour la chercher?</reg>
+          </seg>
+          <seg>
+            <orig>Mon deſeſpoir, mes pleurs, n’ont rien qui t’attendriſſe.</orig>
+            <reg>Mon désespoir, mes pleurs, n'ont rien qui t'attendrisse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Il ne m’eſt pas permis de m’en laiſſer toucher.</orig>
+            <reg>Il ne m'est pas permis de m'en laisser toucher.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Suis-donc, cruel, une gloire fatale, Va perir pour d’autres appas.</orig>
+            <reg>Suis-donc, cruel, une gloire fatale, Va périr pour d'autres appas.</reg>
+          </seg>
+          <seg>
+            <orig>Que des monſtres ſur toy, la rage ſe ſignale, ue cent Geans affreux te li vrent cent combats, Et qu’un gouffre de flame achevant ton trépas, Te vomiſſe expirant aux pieds de ma Rivale.</orig>
+            <reg>Que des monstres sur toi, la rage se signale, ue cent Geans affreux te li vrent cent combats, Et un Que de flame achevant ton rés, Sur vomisse la aux age se ma Signale,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>O Ciel!</orig>
+            <reg>Ô Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>peut-on former des vœux ſi pleins d’horreur:</orig>
+            <reg>peut-on former des vœux si pleins d'horreur:</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>fuyons, ma preſence irrite ſa fureur.</orig>
+            <reg>fuyons, ma présence irrite sa fureur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE CINQUIE’ME.</orig>
+          <reg>CÈNE CINQUIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>MELISSE, ſeule.</orig>
+          <reg>MÉLISSE, seule.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E cruel m’abandonne, il fuit, il me déteſſe, E Dieux!</orig>
+            <reg>E cruel m'abandonne, il fuit, il me détesse, E Dieux!</reg>
+          </seg>
+          <seg>
+            <orig>quel ſupplice il me fait éprouver!</orig>
+            <reg>quel supplice il me fait éprouver!</reg>
+          </seg>
+          <seg>
+            <orig>Je luy parois un objet plus funeſte, Que les monſtres qu’il va braver.</orig>
+            <reg>Je lui parais un objet plus funeste, Que les monstres qu'il va braver.</reg>
+          </seg>
+          <seg>
+            <orig>Eh bien, ingrat, céde au feu qui t’entraîne, Pourſuis tes amoureux projets;</orig>
+            <reg>Eh bien, ingrat, cède au feu qui t'entraîne, Poursuis tes amoureux projets;</reg>
+          </seg>
+          <seg>
+            <orig>Mais en vain ta valeur te répond du ſuccés, Au nes purte uunt eſptrance vaine, Les Monſtres, les Geans peuvent eſtre défaits;</orig>
+            <reg>Mais en vain ta valeur te répond du succès, Au nés purte uunt esptrance vaine, Les Monstres, les Geans peuvent être défaits;</reg>
+          </seg>
+          <seg>
+            <orig>Mais tu ne peux vaincre ma haine.</orig>
+            <reg>Mais tu ne peux vaincre ma haine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du premier Acte.</orig>
+          <reg>Fin du premier Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTEII.</orig>
+          <reg>ACTEII.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>a d.</orig>
+          <reg>a d.</reg>
+        </seg>
+        <seg>
+          <orig>2 TI Le I'fieatre repreſente le Perron enflâmé qui deffendoit la Gloire de Niquée.</orig>
+          <reg>2 TY Le J'fieâtre représente le Perron enflammé qui défendait la Gloire de Niquée.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>CENE PREMIERE.</orig>
+          <reg>CÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS, LE PRINCE DE THRACE.</orig>
+          <reg>AMADIS, LE PRINCE DE -THRACE.</reg>
+        </seg>
+        <seg>
+          <orig>1</orig>
+          <reg>1</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Es feux excitent mon courage, C’eſt le dernier peril qu’il me reſte à tenCent monstres vainement m'on oppoſé leur rage, Tu me les as vus ſurmonter;</orig>
+            <reg>Es feux excitent mon courage, C'est le dernier péril qu'il me reste à tenCent monstres vainement m'on opposé leur rage, Tu me les as vus surmonter;</reg>
+          </seg>
+          <seg>
+            <orig>Et je me ſuis fait un paſſage Teint du ſang des Geans qui vouloient m’arreſter.</orig>
+            <reg>Et je me suis fait un passage Teint du sang des Géants qui voulaient m'arrêter.</reg>
+          </seg>
+          <seg>
+            <orig>Mais qu’annoncent ces mots?</orig>
+            <reg>Mais qu'annoncent ces mots?</reg>
+          </seg>
+          <seg>
+            <orig>il faut nous en inJuallla2 Haſtons-nous de les lire,</orig>
+            <reg>il faut nous en inJallla2 Hâtons-nous de les lire,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE lit ces mots, qui ſont écrits ſur le Perron.</orig>
+            <reg>LE PRINCE DE -THRACE lit ces mots, qui sont écrits sur le Perron.</reg>
+          </seg>
+          <seg>
+            <orig>Un ſeul peut paſſer dans ces feux, On feut uon puiouuonum giune immortelle;</orig>
+            <reg>Un seul peut passer dans ces feux, On feut uon puiouuonum giune immortelle;</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt l’Amant le plus genereux, Et le Heros le plus fidelle.</orig>
+            <reg>C'est l'Amant le plus généreux, Et le Héros le plus fidèle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>je connois icy ma flame &amp; ma valeur, Le ſort va remplir ja promeſſe;</orig>
+            <reg>je connais ici ma flamme et ma valeur, Le sort va remplir a promesse;</reg>
+          </seg>
+          <seg>
+            <orig>Non, je n’en doute plus, je touche a mon bonheur, Je ſuis preſt de voir ma Princeſſe, Mille ſecrets plaiſirs l’annoncent à mon cœur.</orig>
+            <reg>Non, je n'en doute plus, je touche à mon bonheur, Je suis prêt de voir ma Princesse, Mille secrets plaisirs l'annoncent à mon cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Au Prince de Thrace.</orig>
+            <reg>Au Prince de Thrace.</reg>
+          </seg>
+          <seg>
+            <orig>Cner Printe, ſois neureux autant que je vais l’eſtre, Puiſſe le Ciel combler tout tes deſirs;</orig>
+            <reg>Cner Printe, sois neureux autant que je vais l'être, Puisse le Ciel combler tout tes désirs;</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt plus que par tes plaiſirs, Que les miens pourront croistre.</orig>
+            <reg>Ce n'est plus que par tes plaisirs, Que les miens pourront croître.</reg>
+          </seg>
+          <seg>
+            <orig>Il s’avance pour traverſer les flâmes.</orig>
+            <reg>Il s'avance pour traverser les flammes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Arreſte, &amp; connois-moy.</orig>
+            <reg>Arrête, et connais-moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'entends-je?</orig>
+            <reg>Qu'entends-je?</reg>
+          </seg>
+          <seg>
+            <orig>je fremy.</orig>
+            <reg>je frémis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>J'oppoſe encor ce bras à bon audace Combats dans le Prince de Thrace, Ton Rival &amp; ton ennemy.</orig>
+            <reg>J'oppose encor ce bras à bon audace Combats dans le Prince de Thrace, Ton Rival et ton ennemi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ciel!</orig>
+            <reg>Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Plus charmé que toy des trais de ta Princeſſe, Et reduit par ſon choix à n’en eſperer rien, Je voulois troubler ta tendreſſe, Tout mon bonheur estoit de traverſer le tien.</orig>
+            <reg>Plus charmé que toi des trais de ta Princesse, Et réduit par son choix à n'en espérer rien, Je voulais troubler ta tendresse, Tout mon bonheur était de traverser le tien.</reg>
+          </seg>
+          <seg>
+            <orig>Pour te retenir chez Méliſſe De ton départ j’ay couru l’avertir:</orig>
+            <reg>Pour te retenir chez Mélisse De ton départ j'ai couru l'avertir:</reg>
+          </seg>
+          <seg>
+            <orig>Mes ſoins ont esté vains, tu trouves tout propice.</orig>
+            <reg>Mes soins ont été vains, tu trouves tout propice.</reg>
+          </seg>
+          <seg>
+            <orig>Moy ſeul à ton bon-heur je ne puis conſentir.</orig>
+            <reg>Moi seul a ton bonheur je ne puis consentir.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt pour moy le dernier ſuplice, Ton trépas ou le mien ſçaura m’en garentir.</orig>
+            <reg>C'est pour moi le dernier suplice, Ton trépas ou le mien ceaura m'en garantir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Traiſtre, perfide Amy, quelle rage te guide!</orig>
+            <reg>Traître, perfide Ami, quelle rage te guide!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>ne m’accable point de ces noms rigoureux, Nos vertus dépendoient du ſuccés de nos vœux, Et tu ſerois l’Amy pernde, Si tu n’eſtois l’Amant heureux.</orig>
+            <reg>ne m'accable point de ces noms rigoureux, Nos vertus dépendaient du succès de nos vœux, Et tu serais l'Ami pernde, Si tu n'étais l'Amant heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>En vain tu prodigues ta vie, Ton ſang me fut trop cher pour y tremper mes mains;</orig>
+            <reg>En vain tu prodigues ta vie, Ton sang me fut trop cher pour y tremper mes mains;</reg>
+          </seg>
+          <seg>
+            <orig>Je veux punir ta perſaté En te forçant de voir le bonheur que tu crains.</orig>
+            <reg>Je veux punir ta persaté En te forçant de voir le bonheur que tu crains.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Il traverſe les flâmes.</orig>
+          <reg>Il traverse les flammes.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE’ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS NIQUEE, Troupe de Chevaliers &amp; de Princeſſes enchantées.</orig>
+          <reg>AMADIS NIQUE, Troupe de Chevaliers et de Princesses enchantées.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NIQUE'E deſcend de ſon Trône.</orig>
+            <reg>NIQUE descend de son Trône.</reg>
+          </seg>
+          <seg>
+            <orig>U’entends-je?</orig>
+            <reg>U'entends-je?</reg>
+          </seg>
+          <seg>
+            <orig>de quel bruit ont retenty ces lieux?</orig>
+            <reg>de quel bruit ont retenti ces lieux?</reg>
+          </seg>
+          <seg>
+            <orig>OCiel!</orig>
+            <reg>OCiel!</reg>
+          </seg>
+          <seg>
+            <orig>est-ce mon Héros qui paroiſt à mes yeux?</orig>
+            <reg>est-ce mon Héros qui paraît à mes yeux?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Que d'attraits, quelle gloire extreme!</orig>
+            <reg>Que d'attraits, quelle gloire extrême!</reg>
+          </seg>
+          <seg>
+            <orig>Princeſſe, que mon cœur éprouve un ſort charmant Quand je romps vostre enchantement, Je demeure enchanté moy-meſme.</orig>
+            <reg>Princesse, que mon cœur éprouve un sort charmant Quand je romps votre enchantement, Je demeure enchanté moi-même.</reg>
+          </seg>
+          <seg>
+            <orig>2IdAME Un prix trop éclatant couronne mes exploits, Je vous vois, je vous aime, &amp; je puis vous le dire;</orig>
+            <reg>2IdAME Un prix trop éclatant couronne mes exploits, Je vous vois, je vous aime, et je puis vous le dire;</reg>
+          </seg>
+          <seg>
+            <orig>Non, pour tous les tranſports que je ſens à la fois Tout mon cœur ne ſçauroit ſuffire.</orig>
+            <reg>Non, pour tous les transports que je sens à la fois Tout mon cœur ne saurait suffire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IQUE’E.</orig>
+            <reg>JQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'il m'eſt doux d’enflamer d’une ſi vive ardeur Un Héros pour qui la Victoire.</orig>
+            <reg>Qu'il m'est doux d'enflammer d'une si vive ardeur Un Héros pour qui la Victoire.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, n'est-ce point un ſonge, eſtes-vous ce vainqueur, Vois-je cet Amadis ſi chery de la Gloire?</orig>
+            <reg>Mais, n'est-ce point un songe, êtes-vous ce vainqueur, Vois-je cet Amadis si chéri de la Gloire?</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>tout m'engage à le croire, Vos exploits, mes yeux &amp; mon cœurQu'ay-je dit?</orig>
+            <reg>tout m'engage à le croire, Vos exploits, mes yeux et mon cœurQu'ai-je dit?</reg>
+          </seg>
+          <seg>
+            <orig>où m'emporte un excés de tendreſſe!</orig>
+            <reg>où m'emporte un excès de tendresse!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Craignez-vous de me faire un aveu trop charmant.</orig>
+            <reg>Craignez-vous de me faire un aveu trop charmant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NIQUE’E.</orig>
+            <reg>NIQUE-T.</reg>
+          </seg>
+          <seg>
+            <orig>Non, vous ſçavez trop ma foibleſſe, Je la cacherois vainement.</orig>
+            <reg>Non, vous savez trop ma faiblesse, Je la cacherais vainement.</reg>
+          </seg>
+          <seg>
+            <orig>Mais pourquoy mon amour craindroit-il de paroître, Dois-je rougir des trais dont je me ſens bleſſer?</orig>
+            <reg>Mais pourquoi mon amour craindrait-il de paraître, Dois-je rougir des trais dont je me sens blesser?</reg>
+          </seg>
+          <seg>
+            <orig>La Gloire helas!</orig>
+            <reg>La Gloire hélas!</reg>
+          </seg>
+          <seg>
+            <orig>peut-elle s’offencer D’une flâme qu’elle a fait naiſtre.</orig>
+            <reg>peut-elle s'offenser D'une flamme qu'elle a fait naître.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>j’éprouve en cet inſtant même Le moment le plus doux de mon plus heureux jour;</orig>
+            <reg>j'éprouve en cet instant même Le moment le plus doux de mon plus heureux jour;</reg>
+          </seg>
+          <seg>
+            <orig>Vous m'aimez, ma gloire eſt extrême, Et mon bonheur égale mon amour.</orig>
+            <reg>Vous m'aimez, ma gloire est extrême, Et mon bonheur égale mon amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UE’E.</orig>
+            <reg>UE'E.</reg>
+          </seg>
+          <seg>
+            <orig>L’éclat de vos vertus &amp; celuy de vos armes Engageoient le Ciel meſme à couronner vos vœux, ue ne redouble-t’il mes charmes Pour vous rendre encor plus heureux.</orig>
+            <reg>L'éclat de vos vertus et celui de vos armes Engageaient le Ciel même à couronner vos vœux, ue ne redouble-t-il mes charmes Pour vous rendre encor plus heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>F IQUE’E &amp; AMADIS.</orig>
+            <reg> FQUE'E et AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Cedons-nous l’un à l’autre une douce victoire, Uniſſons à jamais nos cœurs &amp; nos deſirs;</orig>
+            <reg>Cédons-nous l'un à l'autre une douce victoire, Unissons à jamais nos cœurs et nos désirs;</reg>
+          </seg>
+          <seg>
+            <orig>Voſire eſtime eſt toute ma gloire, Et voſtre amour tous mes plaiſirs.</orig>
+            <reg>Vosire estime est toute ma gloire, Et votre amour tous mes plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NIQUE’E.</orig>
+            <reg>NIQUE-T.</reg>
+          </seg>
+          <seg>
+            <orig>Témoins d’une ſi belle flâme, Vous qu’avec moy Zirphée enchanta dans ces lieux;</orig>
+            <reg>Témoins d'une si belle flamme, Vous qu'avec moi Zirphée enchanta dans ces lieux;</reg>
+          </seg>
+          <seg>
+            <orig>Par les Chans &amp; les Sons les plus harmonieux CelebreZ l’ardeur de noſtre ame.</orig>
+            <reg>Par les Chans et les Sons les plus harmonieux Clébrez l'ardeur de notre âme.</reg>
+          </seg>
+          <seg>
+            <orig>Les Chevaliers &amp; les Princeſſes de diverſes Nations qui eſtoient enchantées avec Niquée celebrent ſon bonheur &amp; la gloire d’Amadis.</orig>
+            <reg>Les Chevaliers et les Princesses de diverses Nations qui étaient enchantées avec Niquée célèbrent son bonheur et la gloire d'Amadis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Un CHEVALIER enchanté.</orig>
+            <reg>Un CHEVALIER enchanté.</reg>
+          </seg>
+          <seg>
+            <orig>Chantons une beauté qui charme tous les cœurs, Offrons à ſes deſirs la plus galante feſte;</orig>
+            <reg>Chantons une beauté qui charme tous les cœurs, Offrons à ses désirs la plus galante fête;</reg>
+          </seg>
+          <seg>
+            <orig>Ses attraits ont fait la conqueſte Du Vainqueur des Vainqueurs.</orig>
+            <reg>Ses attraits ont fait la conquête Du Vainqueur des Vainqueurs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Chantons ſa Victoire, Celebrons ſa Gloire.</orig>
+            <reg>Chantons sa Victoire, Clébrons sa Gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Une PRINCESSE enchantée.</orig>
+            <reg>Une PRINCESSE enchantée.</reg>
+          </seg>
+          <seg>
+            <orig>Celebrons Amadis &amp; r’animons nos voix, Son bras &amp; ſes vertus forcent tout à ſe rendre;</orig>
+            <reg>Célébrons Amadis et ranimons nos voix, Son bras et ses vertus forcent tout à se rendre;</reg>
+          </seg>
+          <seg>
+            <orig>Les charmes les plus doux &amp; le cœur le plus tendre, Sont l’heureux prix de ſes Exploits.</orig>
+            <reg>Les charmes les plus doux et le cœur le plus tendre, Sont l'heureux prix de ses Exploits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Chantons ſa Victoire, Gelebrons ſa Gloire.</orig>
+            <reg>Chantons sa Victoire, Gelebrons sa Gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Une PRINCESSE enchantée.</orig>
+            <reg>Une PRINCESSE enchantée.</reg>
+          </seg>
+          <seg>
+            <orig>Suivons un doux penchant, formons d’aimables nœuds, anoidaloo sònpill povs aoomnodfonto atbioſtou Pourquoy paſſer nos jours à nous contraindre, O 100 Quand l’amour dans nos cœurs vient allumer ſes feux, m AAiu Min ne doit les ereindre, Les maux qu’on en peut craindre Sont doux à ſouffrir, Loin de nous en plaindre, Craignons d’en guérir.</orig>
+            <reg>Suivons un doux penchant, formons d'aimables nœuds, anoidaloo sònpill props aoomnodfonto atbiostou Pourquoi passer nos jours à nous contraindre, Ô 100 Quand l'amour dans nos cœurs vient allumer ses feux, m SEs Min ne doit les éteindre, Les maux qu'on en peut craindre Sont doux à souffrir, Loin de nous en plaindre, Craignons d'en guérir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SECOND COUPLET.</orig>
+            <reg>SECOND COUPLET.</reg>
+          </seg>
+          <seg>
+            <orig>Rendons-nous à l’amour, il doit combler nos vœux, N'en craignons point les ſoins ni les allarmes, Luy Luy ſeul nous rend heureux;</orig>
+            <reg>Rendons-nous à l'amour, il doit combler nos vœux, N'en craignons point les soins ni les alarmes, Lu y seul nous rend heureux;</reg>
+          </seg>
+          <seg>
+            <orig>Pour les cœurs amoureux Tout eſt doux juſqu’aux larmes:</orig>
+            <reg>Pour les cœurs amoureux Tout est doux jusqu'aux larmes:</reg>
+          </seg>
+          <seg>
+            <orig>Amour, nos cœurs s’empreſſent De ſentir tes coups, Plus tes tratis nous pleſſent, Plus ils ſemblent coua.</orig>
+            <reg>Amour, nos cœurs s'empressent De sentir tes coups, Plus tes tratis nous plessent, Plus ils semblent coua.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Un nuage qui avance ſur le Théatre s’ouvre &amp; fait voir Meliſſe ſur un Dragon.</orig>
+          <reg>Un nuage qui avance sur le Théâtre s'ouvre et fait voir Melisse sur un Dragon.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>CENE QUATRIE’ME.</orig>
+          <reg>CÈNE QUATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS, NIQUE’E, MELISSE.</orig>
+          <reg>AMADIS, NIQUE'E, MÉLISSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Remble, Amadis, tu vois ce qui m’ameine, Ma préſence t’annonce un ſupplice fatal.</orig>
+            <reg>Remble, Amadis, tu vois ce qui m'amène, Ma présence t'annonce un supplice fatal.</reg>
+          </seg>
+          <seg>
+            <orig>Démons, veneZ ſervir ma haine, Tranſportez, ſon Amante, où l’attend ſon Rival.</orig>
+            <reg>Démons, venez servir ma haine, Transportés, son Amante, où l'attend son Rival.</reg>
+          </seg>
+          <seg>
+            <orig>Des Démons enlevent Niquée.</orig>
+            <reg>Des Démons enlèvent Niquée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Ciel.</orig>
+            <reg>Ciel.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>AMADIS.</orig>
+          <reg>AMADIS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Que la fureur, que la rage inhumaine Détruiſent ce Palais trop cher à tes deſirs.</orig>
+            <reg>Que la fureur, que la rage inhumaine Détruisent ce Palais trop cher à tes désirs.</reg>
+          </seg>
+          <seg>
+            <orig>Va, porte en d’autres lieux tes cris &amp; tes ſoûpirs, Que ton heureux Rival joüiſſe de ta peine, Et que ton deſeſpoir croiſſe par ſes plaiſirs.</orig>
+            <reg>Va, porte en d'autres lieux tes cris et tes soupirs, Que ton heureux Rival jouisse de ta peine, Et que ton désespoir croisse par ses plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS à Meliſſe qui part.</orig>
+            <reg>AMADIS à Mélisse qui part.</reg>
+          </seg>
+          <seg>
+            <orig>Arreſte, implacable furie, O Dieux, me livrez-vous à cette barbarie!</orig>
+            <reg>Arrête, implacable furie, Ô Dieux, me livrez-vous à cette barbarie!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du ſecond Acte.</orig>
+          <reg>Fin du second Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>1E Le Théatre repreſente une Plaine, coupee de queiques ruiſſeaux, &amp; au milieu la Fontaine de la Verité d’Amour, once de colonnes &amp; de Statuës.</orig>
+          <reg>1E Le Théâtre représente une Plaine, coupe de queiques ruisseaux, et au milieu la Fontaine de la Vérité d'Amour, once de colonnes et de Statues.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>CENE PREMIERE</orig>
+          <reg>CÈNE PREMIÈRE</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ue deviens-je!</orig>
+            <reg>Que deviens-je!</reg>
+          </seg>
+          <seg>
+            <orig>où m’emporte un deſeſpoir affreux!</orig>
+            <reg>où m'emporte un désespoir affreux!</reg>
+          </seg>
+          <seg>
+            <orig>e traverſe au hazard les Foreſts &amp; les Plaines, Je fais tout retentir de mes cris douloureux, Et par tout mes plaintes ſont vaines.</orig>
+            <reg>eût traverse au hasard les Forêts et les Plaines, Je fais tout retentir de mes cris douloureux, Et par tout mes plaintes sont vaines.</reg>
+          </seg>
+          <seg>
+            <orig>Il s’appuye ſur un arbre, &amp; le murmure des ruiſſeaux le tire de ſon abb atement.</orig>
+            <reg>Il s'appuie sur un arbre, et le murmure des ruisseaux le tire de son abat atement.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Vous, dont le bruit ſe mêle à mes triſtes accents, Coulez, charmans ruiſſeaux, répondez-moy ſans ceſſe, Murmurez avec moy des maux que je reſſens.</orig>
+            <reg>Vous, dont le bruit se mêle à mes tristes accents, Coulez, charmands ruisseaux, répondez-moi sans cesse, Murmurez avec moi des maux que je ressens.</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>on m’a ravy l’objet de ma tendreſſe;</orig>
+            <reg>on m'a ravi l'objet de ma tendresse;</reg>
+          </seg>
+          <seg>
+            <orig>D’inutiles ſoûpirs, des regrets impuiſſans, Sont l’unique bien qu’on me laiſſe:</orig>
+            <reg>D'inutiles soupirs, des regrets impuissants, Sont l'unique bien qu'on me laisse:</reg>
+          </seg>
+          <seg>
+            <orig>Vous, dont le bruit ſe mêle à mes tristes accents, Coulez, charmans ruiſſeaux, répondez-moy ſans ceſſe, Murmurez, avec moy des maux que je reſſens.</orig>
+            <reg>Vous, dont le bruit se mêle à mes tristes accents, Coulez, charmands ruisseaux, répondez-moi sans cesse, Murmurez, avec moi des maux que je ressens.</reg>
+          </seg>
+          <seg>
+            <orig>Mais quoy!</orig>
+            <reg>Mais quoi!</reg>
+          </seg>
+          <seg>
+            <orig>je reconnois cette Grotte enchantée, Ses Eaux de leur deſtin inſtruiſent les Amans.</orig>
+            <reg>je reconnais cette Grotte enchantée, Ses Eaux de leur destin instruisent les Amants.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut que mon ame agitée Y trouue du ſecours, ou de nouveaux tourmens.</orig>
+            <reg>Il faut que mon âme agitée Y trouve du secours, ou de nouveaux tourments.</reg>
+          </seg>
+          <seg>
+            <orig>Il regarde dans la Fontainc.</orig>
+            <reg>Il regarde dans la Fontainc.</reg>
+          </seg>
+          <seg>
+            <orig>Que vois-je!</orig>
+            <reg>Que vois-je!</reg>
+          </seg>
+          <seg>
+            <orig>ô coup mortel!</orig>
+            <reg>ô coup mortel!</reg>
+          </seg>
+          <seg>
+            <orig>Puis-je en douter encore?</orig>
+            <reg>Puis-je en douter encore?</reg>
+          </seg>
+          <seg>
+            <orig>Mon Rival aux genoux de l’objet que j’adore!</orig>
+            <reg>Mon Rival aux genoux de l'objet que j'adore!</reg>
+          </seg>
+          <seg>
+            <orig>Tous deux ſemblent contens.</orig>
+            <reg>Tous deux semblent contents.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il poſſible, ô Cieux!</orig>
+            <reg>Est-il possible, ô Cieux!</reg>
+          </seg>
+          <seg>
+            <orig>Ainuin purjurt sah!</orig>
+            <reg>Ainvin purjurt sah!</reg>
+          </seg>
+          <seg>
+            <orig>l'infidellé!</orig>
+            <reg>l'infidellé!</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>il eſt trop vray.</orig>
+            <reg>il est trop vrai.</reg>
+          </seg>
+          <seg>
+            <orig>Je le vois à ſes yeux:</orig>
+            <reg>Je le vois à ses yeux:</reg>
+          </seg>
+          <seg>
+            <orig>La perfide luy jure une ardeur éternelle.</orig>
+            <reg>La perfide amour jure une ardeur éternelle.</reg>
+          </seg>
+          <seg>
+            <orig>O ſort, je puis enfin défier ton couroux;</orig>
+            <reg>Ô sort, je puis enfin défier ton courroux;</reg>
+          </seg>
+          <seg>
+            <orig>Voilà le dernier de tes coups.</orig>
+            <reg>Voilà le dernier de tes coups.</reg>
+          </seg>
+          <seg>
+            <orig>domn dulm Il tombe évanoüy ſur un gazon</orig>
+            <reg>domn dulam Il tombe évanoui sur un gazon</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>DEUXIE’ME.</orig>
+          <reg>DEUXIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>AMADIS, MELISSE.</orig>
+          <reg>AMADIS, MÉLISSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE, s’approche d’Amadis.</orig>
+            <reg>MÉLISSE, s'approche d'Amadis.</reg>
+          </seg>
+          <seg>
+            <orig>H bien, es-tu contente, inhumaine Meliſſe?</orig>
+            <reg>H bien, es-tu contente, inhumaine Mélisse?</reg>
+          </seg>
+          <seg>
+            <orig>ESon cœur d’aſſez de maux ſe ſent-il déchirer?</orig>
+            <reg>ESon cœur d'assez de maux se sent-il déchirer?</reg>
+          </seg>
+          <seg>
+            <orig>Cruelle, aſſouvi-toy de ſon dernier ſupplice, Soule-toy du plaiſir de le voir expirer.</orig>
+            <reg>Cruelle, assouvi-toi de son dernier supplice, Soule-toi du plaisir de le voir expirer.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>puis-je vouloir qu’il expire?</orig>
+            <reg>puis-je vouloir qu'il expire?</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, le meſme coup me raviroit le jour:</orig>
+            <reg>Non, non, le même coup me ravirait le jour:</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>plus je le vois &amp; plus mon cœur ſoûpire:</orig>
+            <reg>plus je le vois et plus mon cœur soupire:</reg>
+          </seg>
+          <seg>
+            <orig>Ciel!</orig>
+            <reg>Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>tout mourant qu’il eſt, qu’il m’inſpire d’amour!</orig>
+            <reg>tout mourant qu'il est, qu'il m'inspire d'amour!</reg>
+          </seg>
+          <seg>
+            <orig>Qu'il vive.</orig>
+            <reg>Qu'il vive.</reg>
+          </seg>
+          <seg>
+            <orig>Oppoſons-nous à ſa langueur mortelle.</orig>
+            <reg>Opposons-nous à sa langueur mortelle.</reg>
+          </seg>
+          <seg>
+            <orig>Amadis, Amadis, vivez, c’eſt trop ſouffrir;</orig>
+            <reg>Amadis, Amadis, vivez, c'est trop souffrir;</reg>
+          </seg>
+          <seg>
+            <orig>Reconnoiſſez la voix qui vous appelle Cher Prince AMADIS entr’ouvrant les yeux.</orig>
+            <reg>Reconnaissez la voix qui vous appelle Cher Prince AMADIS entr'ouvrant les yeux.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>laiſſez-moy mourir.</orig>
+            <reg>laissez-moi mourir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Pour un indigne cœur, faut-il tant s’attendrir?</orig>
+            <reg>Pour un indigne cœur, faut-il tant s'attendrir?</reg>
+          </seg>
+          <seg>
+            <orig>Vôtre Princeſſe eſt infidelle.</orig>
+            <reg>Votre Princesse est infidèle.</reg>
+          </seg>
+          <seg>
+            <orig>Vivez:</orig>
+            <reg>Vivez:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Fousuiffez moy mourir.</orig>
+            <reg>Fousuiffez -moi mourir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>vous ne perdrez point cette cruelle envie?</orig>
+            <reg>vous ne perdrez point cette cruelle envie?</reg>
+          </seg>
+          <seg>
+            <orig>Vous verrez, ſans pitié mes ſoûpirs &amp; mes pleurs?</orig>
+            <reg>Vous verrez, sans pitié mes soupirs et mes pleurs?</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>ſi vous mourrez, je meurs:</orig>
+            <reg>si vous mourrez, je meurs:</reg>
+          </seg>
+          <seg>
+            <orig>Voulez-vous m’arracher la vie.</orig>
+            <reg>Voulez-vous m'arracher la vie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS ſe leve, ſans penſer à Meliſſe.</orig>
+            <reg>AMADIS se lève, sans penser à Melisse.</reg>
+          </seg>
+          <seg>
+            <orig>Malheureux, n’eſt-ce point quelque charme trompeur?</orig>
+            <reg>Malheureux, n'est-ce point quelque charme trompeur?</reg>
+          </seg>
+          <seg>
+            <orig>Mes yeux l’ont ils bien vû.</orig>
+            <reg>Mes yeux l'ont ils bien vu.</reg>
+          </seg>
+          <seg>
+            <orig>quelle foibleſſe extrême, Laſche, pour tromper ma douleur Je cherche à m’abuſer moy-meſme.</orig>
+            <reg>quelle faiblesse extrême, Lâche, pour tromper ma douleur Je cherche à m'abuser moi-même.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>cet objet de mon amour Poun qurſe ſui reveut a tous tes autres charmes, Luy, pour qui Meliſſe en ce jour Ma vû braver ſa fureur &amp; ſes larmes.</orig>
+            <reg>cet objet de mon amour Poun qurse su reçut à tous tes autres charmes, Lui, pour qui Melisse en ce jour Ma vu braver sa fureur et ses larmes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Le cruel!</orig>
+            <reg>Le cruel!</reg>
+          </seg>
+          <seg>
+            <orig>il m’outrage, &amp; ſçait que je l’entends.</orig>
+            <reg>il m'outrage, et sais que je l'entends.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS continuë, ſans penſer à elle.</orig>
+            <reg>AMADIS continue, sans penser à elle.</reg>
+          </seg>
+          <seg>
+            <orig>e cœur dont j’attendois le bonheur de ma vie Me livre aux plus cruels tourmens;</orig>
+            <reg>e cœur dont j'attendais le bonheur de ma vie Me livre aux plus cruels tourments;</reg>
+          </seg>
+          <seg>
+            <orig>Le meſme jour, témoin de ſes ſermens, L’eſt auſſi de ſa perfidie.</orig>
+            <reg>Le même jour, témoin de ses serments, L'est aussi de sa perfidie.</reg>
+          </seg>
+          <seg>
+            <orig>Et je vis!</orig>
+            <reg>Et je vis!</reg>
+          </seg>
+          <seg>
+            <orig>ma douleur n’a pas tranché mes jours!</orig>
+            <reg>ma douleur n'a pas tranché mes jours!</reg>
+          </seg>
+          <seg>
+            <orig>Il faut donc de ce fer emprunter le ſecours.</orig>
+            <reg>Il faut donc de ce fer emprunter le secours.</reg>
+          </seg>
+          <seg>
+            <orig>Il tire ſon épée pour s’en fraper Meliſſe s’en ſaiſit.</orig>
+            <reg>Il tire son épée pour s'en frapper Melisse s'en saisit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Arreſtez, Amadis.</orig>
+            <reg>Arrêtez, Amadis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>barbare Meliſſe:</orig>
+            <reg>barbare Melisse:</reg>
+          </seg>
+          <seg>
+            <orig>N'eſt-ce donc pas aſſez, des maux que j’ay ſoufferts?</orig>
+            <reg>N'est-ce donc pas assez, des maux que j'ai soufferts?</reg>
+          </seg>
+          <seg>
+            <orig>Mes tourmens vous ſont ils ſi chers Pour ne pouvoir ſouffrir que la mort les finiſſe?</orig>
+            <reg>Mes tourments vous sont ils si chers Pour ne pouvoir souffrir que la mort les finisse?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ne peux-tu ſans mourir terminer ton ſupplice?</orig>
+            <reg>Ne peux-tu sans mourir terminer ton supplice?</reg>
+          </seg>
+          <seg>
+            <orig>Conſens à de nouveaux ſoûpirs:</orig>
+            <reg>Cons à de nouveaux soupirs:</reg>
+          </seg>
+          <seg>
+            <orig>Naime pius qui te hait, &amp; ne hais plus qui t’aime, Mes ſoins préviendront tes deſirs, J'en feray mon bonheur ſuprême, Mon amour ſur tes pas conduira les plaiſirs, C’eſt aſſez qu’avec eux tu me ſouffres moy-meſme.</orig>
+            <reg>Naime pius qui te hait, et ne hais plus qui t'aime, Mes soins préviendront tes désirs, J'en ferai mon bonheur suprême, Mon amour sur tes pas conduira les plaisirs, C'est assez qu'avec eux tu me souffres moi-même.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, vos vœux offerts, &amp; les miens mépriſe?</orig>
+            <reg>Non, non, vos vœux offerts, et les miens méprise?</reg>
+          </seg>
+          <seg>
+            <orig>Ne me rendront point infidelle.</orig>
+            <reg>Ne me rendront point infidèle.</reg>
+          </seg>
+          <seg>
+            <orig>Gardez ces vains plaiſirs que vous me propoſez, Je ne veux rien de vous, cruelle, que le irepas que vous me refuſez.</orig>
+            <reg>Gardez ces vains plaisirs que vous me proposez, Je ne veux rien de vous, cruelle, que le ipas que vous me refusez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Quuj i touſours onurme aunt ingrate, Les injustes mépris ne ceſſeront jamais.</orig>
+            <reg>Quuj à toujours ouvrme aunt ingrate, Les injustes mépris ne cesseront jamais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>En vain ſa perfidie éclatte, Je l’aime encore autant que je vous hais.</orig>
+            <reg>En vain sa perfidie éclatte, Je l'aime encore autant que je vous hais.</reg>
+          </seg>
+          <seg>
+            <orig>Vous me l’aveZ ravy cet objet que j’adore;</orig>
+            <reg>Vous me l'avez ravi cet objet que j'adore;</reg>
+          </seg>
+          <seg>
+            <orig>Vous avez ſervy mon Rival;</orig>
+            <reg>Vous avez servi mon Rival;</reg>
+          </seg>
+          <seg>
+            <orig>Sans vous, ſans ce ſecours fatal, L’ingrate m'aimeroit encore.</orig>
+            <reg>Sans vous, sans ce secours fatal, L'ingrate m'aimerait encore.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne puis trop vous déteſter, Tous mes malheurs ſont vostre ouvrage.</orig>
+            <reg>Je ne puis trop vous détester, Tous mes malheurs sont votre ouvrage.</reg>
+          </seg>
+          <seg>
+            <orig>Inhumaine achevez.</orig>
+            <reg>Inhumaine achevez.</reg>
+          </seg>
+          <seg>
+            <orig>qui peut vous arreſter, N'oſeZ-vous dans mon ſang conſommer vostre Je voudrois pour vous irriter Pouvoir vous faire encor quelque nouvel outrage:</orig>
+            <reg>qui peut vous arrêter, N'oseZ-vous dans mon sang consommer votre Je voudrais pour vous irriter Pouvoir vous faire encor quelque nouvel outrage:</reg>
+          </seg>
+          <seg>
+            <orig>FrapeZ, vous devez vous haſter, Je ſens qu’à chaque inſtant je vous hais d’avantage,</orig>
+            <reg>Frappez, -vous devez -vous hâter, Je sens qu'à chaque instant je vous hais d'avantage,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MELISSE.</orig>
+          <reg>MÉLISSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Je céde enfin, c'eſt trop ſouffrir, Mon cœur à ſa rage ſe livre;</orig>
+            <reg>Je cède enfin, c'est trop souffrir, Mon cœur à sa rage se livre;</reg>
+          </seg>
+          <seg>
+            <orig>Mais, n’eſpere pas de mourir, Cruel, dans les tourmens je veux te faire vivre.</orig>
+            <reg>Mais, n'espère pas de mourir, Cruel, dans les tourments je veux te faire vivre.</reg>
+          </seg>
+          <seg>
+            <orig>iePaz Due Que l’horreur regne en ces deſerts, Qu’il devienne pour luy l’image des enfers.</orig>
+            <reg>iePaz Du Que l'horreur règne en ces déserts, Qu'il devienne pour lui l'image des enfers.</reg>
+          </seg>
+          <seg>
+            <orig>Des Demons volans briſent les ornemens de la Fontaine, ils déracinent les Arbres, &amp; renverſent les Rochers;</orig>
+            <reg>Des Demons volants brisent les ornements de la Fontaine, ils déracinent les Arbres, et renversent les Rochers;</reg>
+          </seg>
+          <seg>
+            <orig>l’Amour effrayé s’envole, &amp; le Théatle ſe change en un Enfer.</orig>
+            <reg>l'Amour effrayé s'envole, et le Thatle se change en un Enfer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Et vous de mes fureurs, Ministres redoutables, Accourez, accourez;</orig>
+            <reg>Et vous de mes fureurs, Ministres redoutables, Accourez, accourez;</reg>
+          </seg>
+          <seg>
+            <orig>veneZ ſervir mes vœux.</orig>
+            <reg>venez servir mes vœux.</reg>
+          </seg>
+          <seg>
+            <orig>Des Magiciens viennent, à la voix de Meliſſe, &amp; ſe préparent à ſervir ſa fureur.</orig>
+            <reg>Des Magiciens viennent, à la voix de Melisse, et se préparent à servir sa fureur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Faites naistre en ces lieux des Monſtres effroyables, Qu'on n’y reſpire que des feux.</orig>
+            <reg>Faites naître en ces lieux des Monstres effroyables, Qu'on n'y respire que des feux.</reg>
+          </seg>
+          <seg>
+            <orig>Il ſort des Monſtres du ſein de la terre, &amp; il tombe une pluye de feu.</orig>
+            <reg>Il sort des Monstres du sein de la terre, et il tombe une pluie de feu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'on ne puiſſe inventer des horreurs comparables, Et que l’Enfer ſoit moins affreux.</orig>
+            <reg>Qu'on ne puisse inventer des horreurs comparables, Et que l'Enfer soit moins affreux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Nous ſommes preſts à ſervir ta fureur Exerçons à ſes yeux un funeſte ravage, Que le Barbare apprenne à redouter ta rage, puirtns dans ſes eſprits l’épouvante &amp; l’horreur.</orig>
+            <reg>Nous sommes prêts à servir ta fureur Exerçons à ses yeux un funeste ravage, Que le Barbare apprenne à redouter ta rage, puirtns dans ses esprits l'épouvante et l'horreur.</reg>
+          </seg>
+          <seg>
+            <orig>Les Monſtres &amp; les Démons s’uniſſent pour le ſupplice d’Amadis.</orig>
+            <reg>Les Monstres et les Démons s'unissent pour le supplice d'Amadis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR de Magiciens.</orig>
+            <reg>CHOEUR de Magiciens.</reg>
+          </seg>
+          <seg>
+            <orig>, Amadis, crains la mort, crains les fers, Cet émbraZement, ce ravage, Les rochers renverſez, les abîmes ouverts, Dom les eſſais de noſtre rage.</orig>
+            <reg>, Amadis, crains la mort, crains les fers, Cet émbraZement, ce ravage, Les rochers renversez, les re ouverts, Dom les essais de notre rage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>A quoy par ces horreurs penſez-vous me contraindre!</orig>
+            <reg>À quoi par ces horreurs pensez-vous me contraindre!</reg>
+          </seg>
+          <seg>
+            <orig>Amadis peut mourir, mais il ne ſçauroit craindre.</orig>
+            <reg>Amadis peut mourir, mais il ne saurait craindre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ceſſez, il doit ſentir de plus vives douleurs, je iuy reſerve une amre peine.</orig>
+            <reg>Cessez, il doit sentir de plus vives douleurs, je jui réserve une amre peine.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'il aille en mon Palais éprouver les malheurs Qu’il vient de voir dans la Fontaine, Son deſeſpoir au mien ne ſçauroit eſtre égal, S’il ne voit ſa Princeſſe adorer ſon Rival.</orig>
+            <reg>Qu'il aille en mon Palais éprouver les malheurs Qu'il vient de voir dans la Fontaine, Son désespoir au mien ne saurait être égal, S'il ne voit sa Princesse adorer son Rival.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du troiſiéme Acte.</orig>
+          <reg>Fin du troisième Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>A  4 TI A0 Le Theatre repreſente un endroit du Palais de Meliſſe borné de la Mer.</orig>
+          <reg>A 4 TY A0 Le Théâtre représente un endroit du Palais de Melisse borné de la Mer.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE FREMIE’RE.</orig>
+          <reg>SCÈNE FREMIE'RE.</reg>
+        </seg>
+        <seg>
+          <orig>MELISSE, LE PRINCE DE THRACE.</orig>
+          <reg>MÉLISSE, LE PRINCE DE -THRACE.</reg>
+        </seg>
+        <seg>
+          <orig>LE PRINCE DE THRACE.</orig>
+          <reg>LE PRINCE DE -THRACE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E parois, Amadis, aux yeux de la Princeſſe, Elle me jure une fidelle ardeur.</orig>
+            <reg>E parais, Amadis, aux yeux de la Princesse, Elle me jure une fidèle ardeur.</reg>
+          </seg>
+          <seg>
+            <orig>Mais c'eſt à mon Rival que ſon ſerment s’adreſſe, Et vous trompez ſes yeux ſans ſeduire ſon cœur.</orig>
+            <reg>Mais c'est à mon Rival que son serment s'adresse, Et vous trompez ses yeux sans séduire son cœur.</reg>
+          </seg>
+          <seg>
+            <orig>Que me ſert ce ſecours, elle eſt toûjours la meſme.</orig>
+            <reg>Que me sert ce secours, elle est toujours la même.</reg>
+          </seg>
+          <seg>
+            <orig>Rien ne briſe le nœud que ſon cœur a formé.</orig>
+            <reg>Rien ne brise le nœud que son cœur a formé.</reg>
+          </seg>
+          <seg>
+            <orig>Plus elle aſſûre qu'elle m’aime, Plus je connois qu'Amadis eſt aimé,</orig>
+            <reg>Plus elle assure qu'elle m'aime, Plus je connais qu'Amadis est aimé,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt pour voſtre Rival une tendreſſe vaine, Vous l’empeſchez d’en goûter les appas;</orig>
+            <reg>C'est pour votre Rival une tendresse vaine, Vous l'empêchez d'en goûter les appas;</reg>
+          </seg>
+          <seg>
+            <orig>Faites vos plaiſirs de ſa peine, Vous estes trop heureux de ce qu’il ne l’eſt pas.</orig>
+            <reg>Faites vos plaisirs de sa peine, Vous êtes trop heureux de ce qu'il ne l'est pas.</reg>
+          </seg>
+          <seg>
+            <orig>Demeurez en ces lieux, attendez la Princeſſe, Je veux rendre Amadis témoin de vos diſcours Pour voir l’ingrat ſenſible à ma tendreſſe, Il faut de ſon dépit emprunter le ſecburs.</orig>
+            <reg>Demeurez -en ces lieux, attendez la Princesse, Je veux rendre Amadis témoin de vos discours Pour voir l'ingrat sensible à ma tendresse, Il faut de son dépit emprunter le secburs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy P'uc oum iu Prineeſſe Amadis va paroiſtre?</orig>
+            <reg>Quoi P'uc oum ju Prineesse Amadis va paraître?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ne craigneZ rien, ſes yeux doivent le méconnoiſtre.</orig>
+            <reg>Ne craignez rien, ses yeux doivent le méconnaître.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE DEUXIE’ME.</orig>
+          <reg>SCÈNE DEUXIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>LE PRINCE DE THRACE.</orig>
+          <reg>LE PRINCE DE -THRACE.</reg>
+        </seg>
+        <seg>
+          <orig>A</orig>
+          <reg>À</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Elas!</orig>
+            <reg>Élas!</reg>
+          </seg>
+          <seg>
+            <orig>rien n’adoucit l’excés de mon malII heur.</orig>
+            <reg>rien n'adoucit l'excès de mon malI heur.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, flots impetueux qui battez ce rivage, Non, jamais les vents en fureur N'ont excité ſur vous un plus affreux orage, Que celuy qui trouble mon cœur.</orig>
+            <reg>Vous, flots impétueux qui battez ce rivage, Non, jamais les vents en fureur N'ont excité sur vous un plus affreux orage, Que celui qui trouble mon cœur.</reg>
+          </seg>
+          <seg>
+            <orig>Je me ſens penetré d’une ſecrette horreur, Tout l’accroiſt, rien ne la ſoûlage;</orig>
+            <reg>Je me sens pénétré d'une secrète horreur, Tout l'accroît, rien ne la soulage;</reg>
+          </seg>
+          <seg>
+            <orig>Je trahis mon amy ſans ſervir mon ardeur;</orig>
+            <reg>Je trahis mon ami sans servir mon ardeur;</reg>
+          </seg>
+          <seg>
+            <orig>Mon innocence &amp; mon bonheur Ont fait enſemble un funeſte naufrage.</orig>
+            <reg>Mon innocence et mon bonheur Ont fait ensemble un funeste naufrage.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, flots impetueux qui battez ce rivage, Non, jamais les vents en fureur N'ont excité ſur vous un plus affreux orage, Que celuy qui trouble mon cœur.</orig>
+            <reg>Vous, flots impétueux qui battez ce rivage, Non, jamais les vents en fureur N'ont excité sur vous un plus affreux orage, Que celui qui trouble mon cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Il faut ſortir de ce trouble fatal Par le trépas de mon Rival.</orig>
+          <reg>Il faut sortir de ce trouble fatal Par le trépas de mon Rival.</reg>
+        </seg>
+        <seg>
+          <orig>On vient;</orig>
+          <reg>On vient;</reg>
+        </seg>
+        <seg>
+          <orig>La Princeſſe s’avance, Contraignons-nous en ſa preſence.</orig>
+          <reg>La Princesse s'avance, Contraignons-nous en sa présence.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE'ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ALLNIQUEE qui prend le Prince de Thrace pour Amadis.</orig>
+          <reg>ÀLLNIQUE qui prend le Prince de Thrace pour Amadis.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NIQUE’E.</orig>
+            <reg>NIQUE-T.</reg>
+          </seg>
+          <seg>
+            <orig>Madis, tout nous rit en ce charmant ſejour, Meliſſe céde à nostre amour;</orig>
+            <reg>Madis, tout nous rit en ce charmant séjour, Melisse cède à notre amour;</reg>
+          </seg>
+          <seg>
+            <orig>En faveur de nos feux, elle a vaineu ſa haine.</orig>
+            <reg>En faveur de nos feux, elle a vaine sa haine.</reg>
+          </seg>
+          <seg>
+            <orig>Une nouvelle feste, en ces lieux, dans ce jour.</orig>
+            <reg>Une nouvelle fête, en ces lieux, dans ce jour.</reg>
+          </seg>
+          <seg>
+            <orig>Va par ſon ordre encor celebrer noſtre chaiſne.</orig>
+            <reg>Va par son ordre encor célébrer notre chaîne.</reg>
+          </seg>
+          <seg>
+            <orig>Aien tuor uit doux flimea comviera nos deſirs.</orig>
+            <reg>Aien tuor uit doux flamimea comviera nos désirs.</reg>
+          </seg>
+          <seg>
+            <orig>Mais cet air interdit m’apprend que je m’abuſe;</orig>
+            <reg>Mais cet air interdit m'apprend que je m'abuse;</reg>
+          </seg>
+          <seg>
+            <orig>Quoy!</orig>
+            <reg>Quoi!</reg>
+          </seg>
+          <seg>
+            <orig>tout conſpire à nos plaiſirs, Et voſtre cœur ſeul s’y refuſe?</orig>
+            <reg>tout conspire à nos plaisirs, Et votre cœur seul s'y refuse?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>mon trouble eſt l’effet de l’excés de mes feux, Si je vous aimois moins, je ſerois plus heureux.</orig>
+            <reg>mon trouble est l'effet de l'excès de mes feux, Si je vous aimais moins, je serais plus heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>QUE’E.</orig>
+            <reg>QUE.</reg>
+          </seg>
+          <seg>
+            <orig>O Ciel!</orig>
+            <reg>Ô Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>que dites-vous?</orig>
+            <reg>que dites-vous?</reg>
+          </seg>
+          <seg>
+            <orig>ma ſurpriſe eſt extrême, Puis-je entendre ces mots d’une bouche que j’aime!</orig>
+            <reg>ma surprise est extrême, Puis-je entendre ces mots d'une bouche que j'aime!</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce ainſi qu’on doit s’enflâmer?</orig>
+            <reg>Est-ce ainsi qu'on doit s'enflammer?</reg>
+          </seg>
+          <seg>
+            <orig>Un cœur vraiment touché, cherit ſon eſclavage, Le mien, en vous aimant, autant qu’il peut aimer, Voudroit encor vous aimer davantage.</orig>
+            <reg>Un cœur vraiment touché, chérit son esclavage, Le mien, en vous aimant, autant qu'il peut aimer, Voudrait encor vous aimer davantage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PRINCE DE THRACE.</orig>
+            <reg>LE PRINCE DE -THRACE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, voſtre cœur pour moy, n'eſt pas aſſez épris.</orig>
+            <reg>Non, votre cœur pour moi, n'est pas assez épris.</reg>
+          </seg>
+          <seg>
+            <orig>La gloire ſeule allume voſtre flâme.</orig>
+            <reg>La gloire seule allume votre flamme.</reg>
+          </seg>
+          <seg>
+            <orig>Vous cédeZ à l’éclat du grand Nom d’Amadis.</orig>
+            <reg>Vous cédez à l'éclat du grand Nom d'Amadis.</reg>
+          </seg>
+          <seg>
+            <orig>Plûtoſt qu’à l’ardeur de mon ame.</orig>
+            <reg>Plutôt qu'à l'ardeur de mon âme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UE’E.</orig>
+            <reg>UE'E.</reg>
+          </seg>
+          <seg>
+            <orig>Je n’entends rien à ce détour;</orig>
+            <reg>Je n'entends rien à ce détour;</reg>
+          </seg>
+          <seg>
+            <orig>Mais tout m’eſt cher en vous, &amp; la gloire &amp; l’amour.</orig>
+            <reg>Mais tout m'est cher en vous, et la gloire et l'amour.</reg>
+          </seg>
+          <seg>
+            <orig>Promettons-nous cent fois la plus vive tendreſſe;</orig>
+            <reg>Promettons-nous cent fois la plus vive tendresse;</reg>
+          </seg>
+          <seg>
+            <orig>Que rien n’en finiſſe le cours.</orig>
+            <reg>Que rien n'en finisse le cours.</reg>
+          </seg>
+          <seg>
+            <orig>Le plus doux ues puijue eſt de s’aimer ſans ceſſe.</orig>
+            <reg>Le plus doux ues puijue est de s'aimer sans cesse.</reg>
+          </seg>
+          <seg>
+            <orig>Et de ſe le dire toüjours.</orig>
+            <reg>Et de se le dire toüjours.</reg>
+          </seg>
+          <seg>
+            <orig>Ce Concert nous annonce une Feſte Galante, Voyons les Jeux qu’on nous preſente.</orig>
+            <reg>Ce Concert nous annonce une Fête Galante, Voyons les Jeux qu'on nous présente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>OA MELISSE.</orig>
+          <reg>ÔA MÉLISSE.</reg>
+        </seg>
+        <seg>
+          <orig>Une Troupe de Matelots vient par l’ordre de Meliſſe executer les Jeux qu’elle a fait preparer.</orig>
+          <reg>Une Troupe de Matelots vient par l'ordre de Melisse exécuter les Jeux qu'elle a fait préparer.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>H SCENE QUATRIE’ME.</orig>
+          <reg>H SCÈNE QUATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>NIQUE’E, LE PRINCE DE THRACE,</orig>
+          <reg>NIQUE’-E, LE PRINCE DE -THRACE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CONDUCTEUR de la Feſte.</orig>
+            <reg>LE CONDUCTEUR de la Fête.</reg>
+          </seg>
+          <seg>
+            <orig>Oûtez, malgré les vents, la plus charmante  paix, Ne craignez plus le naufrage, Vivez heureux, triomphez, à jamais Des écüeils &amp; de l’orage.</orig>
+            <reg>Outez, malgré les vents, la plus charmante paix, Ne craignez plus le naufrage, Vivez heureux, triomphez, à jamais Des écueils et de l'orage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Goûtez, malgré les vents, la plus charmante paix, Ne craignez plus le naufrage, ViveZ heureux, triomphez à jamais Des écüeils &amp; de l’orage.</orig>
+            <reg>Goûtez, malgré les vents, la plus charmante paix, Ne craignez plus le naufrage, Vivez heureux, triomphez à jamais Des écueils et de l'orage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Un MATELOT.</orig>
+            <reg>Un MATELOT.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon eſt belle, Il faut y'embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut y'embarquer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CHOEUR.</orig>
+          <reg>CHOEUR.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon eſt belle, Il faut s’embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut s'embarquer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le MATELOT.</orig>
+            <reg>Le MATELOT.</reg>
+          </seg>
+          <seg>
+            <orig>Pourquoy ſe deffendre D’un commerce tendre, C’eſt perdre, qu’attendre;</orig>
+            <reg>Pourquoi se défendre D'un commerce tendre, C'est perdre, qu'attendre;</reg>
+          </seg>
+          <seg>
+            <orig>ue pouvons-nous riſquer.</orig>
+            <reg>Que pouvons-nous risquer.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon est belle, Il faut s’embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut s'embarquer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>OLOR.</orig>
+            <reg>OLOR.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon est belle, Il faut s’embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut s'embarquer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>e MATELOT.</orig>
+            <reg>Je MATELOT.</reg>
+          </seg>
+          <seg>
+            <orig>Sans verſer des larmes, Ni ſouffrir d’allarmes, Un port plein de charmes Ne peut nous manquer, uand un cœur s’engage Au temps du bel âge, Les vents ni l’orage, N'oſent l'attaquer.</orig>
+            <reg>Sans verser des larmes, Ni souffrir d'alarmes, Un port plein de charmes Ne peut nous manquer, uand un cœur engage Au temps du bel âge, Les vents ni orage, N'osent l'attaquer.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon eſt belle, Il faut s’embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut s'embarquer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Le vent nous appelle, La Saiſon eſt belle, Il faut s’embarquer.</orig>
+            <reg>Le vent nous appelle, La Saison est belle, Il faut s'embarquer.</reg>
+          </seg>
+          <seg>
+            <orig>Pendant la Feſte, le Prince de Thrace apperçoit Amadis, &amp; ſort pour le combatre.</orig>
+            <reg>Pendant la Fête, le Prince de Thrace aperçoit Amadis, et sort pour le combattre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>N IQUE’E.</orig>
+            <reg> IQUE’.</reg>
+          </seg>
+          <seg>
+            <orig>Le chercheray-je en vain, que faut-il que je penſe.</orig>
+            <reg>Le chercherai-je en vain, que faut-il que je pense.</reg>
+          </seg>
+          <seg>
+            <orig>Qui peut me ravir ſa preſence.</orig>
+            <reg>Qui peut me ravir sa présence.</reg>
+          </seg>
+          <seg>
+            <orig>CeſſeZ, Jeux importuns, d’animer nos deſirs, Vous ne ſçauriez calmer l’ennuy qui me devore, C’eſt dans les yeux du Héros que j’adore, Que mon cœur cherche ſes plaiſirs.</orig>
+            <reg>Cessez, Jeux importuns, d'animer nos désirs, Vous ne sauriez calmer l'ennui qui me dévore, C'est dans les yeux du Héros que j'adore, Que mon cœur cherche ses plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CINQUIE’ME.</orig>
+          <reg>SCÈNE CINQUIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>MELISSE, NIQUE’E.</orig>
+          <reg>MÉLISSE, NIQUE'E.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AESIOGL.</orig>
+            <reg>AÉSIOGL.</reg>
+          </seg>
+          <seg>
+            <orig>QUai-je vû, Dieux cruels!</orig>
+            <reg>QUai-je vu, Dieux cruels!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>QUE’E.</orig>
+            <reg>QUE.</reg>
+          </seg>
+          <seg>
+            <orig>De quoy dois-je vous plaindre,</orig>
+            <reg>De quoi dois-je vous plaindre,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSÉ.</orig>
+            <reg>MELISSÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Apprend tout, je ne veux plus feindre.</orig>
+            <reg>Apprend tout, je ne veux plus feindre.</reg>
+          </seg>
+          <seg>
+            <orig>Sous les traits d'Amadis, je t’offrei.</orig>
+            <reg>Sous les traits d'Amadis, je t'offrei.</reg>
+          </seg>
+          <seg>
+            <orig>jea Rival, Ton cœur luy promettoit d’éternelles tendreſſes, ſe rendois Amadis temoin de tes promeſſes;</orig>
+            <reg>jea Rival, Ton cœur avait promettait d'éternelles tendresses, se rendais Amadis témoin de tes promesses;</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>j’en eſperois un ſuccés moins fatal.</orig>
+            <reg>j'en espérais un succès moins fatal.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Quoy!</orig>
+            <reg>Quoi!</reg>
+          </seg>
+          <seg>
+            <orig>NIQUE’E.</orig>
+            <reg>NIQUE-T.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AiuEFooa Le Prince n’a pû ſoûtenir ſa préſence, ſe t'ay vvu à Amadis defier le couroux;</orig>
+            <reg>AivEFojà Le Prince n'a pu soutenir sa présence, se t'ai vu à Amadis défier le courroux;</reg>
+          </seg>
+          <seg>
+            <orig>Mais Amadis d’un fer qu’a ſaiſi ſa vengeance.</orig>
+            <reg>Mais Amadis d'un fer qu'a saisi sa vengeance.</reg>
+          </seg>
+          <seg>
+            <orig>L’a fait en combattant expirer ſous jes coups.</orig>
+            <reg>L'a fait en combattant expirer sous jes coups.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IQUE’E.</orig>
+            <reg>JQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Pourquoy me trompieZ-vous par cette reſſemblance.</orig>
+            <reg>Pourquoi me trompiez-vous par cette ressemblance.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Va, ne crains plus d’erreur, tu vas voir ton Amant, Mais tu ne le verras que pour voir ſon tourment.</orig>
+            <reg>Va, ne crains plus d'erreur, tu vas voir ton Amant, Mais tu ne le verras que pour voir son tourment.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du quatriéme Acte.</orig>
+          <reg>Fin du quatrième Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>TIO 2 T Le Ifieatre reprerente amliltre affreux, deſtiné aux enchantemens de Meliſſe.</orig>
+          <reg>TIO 2 T Le Jfieâtre reprerente amliltre affreux, destiné aux enchantements de Melisse.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ieux!</orig>
+            <reg>Jeux!</reg>
+          </seg>
+          <seg>
+            <orig>quelle horreur s’empare de mon ame!</orig>
+            <reg>quelle horreur s'empare de mon âme!</reg>
+          </seg>
+          <seg>
+            <orig>Cruelle, dans quel ſang veux-je éteindre ma flame!</orig>
+            <reg>Cruelle, dans quel sang veux-je éteindre ma flamme!</reg>
+          </seg>
+          <seg>
+            <orig>Mais l’Ingrat m’y contraint, rien ne peut l’attendrir, Plus je l’adore &amp; plus il me déteſte.</orig>
+            <reg>Mais l'Ingrat m'y contraint, rien ne peut l'attendrir, Plus je l'adore et plus il me déteste.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>joüiſſons du moins de la douceur funeſte De m’en vanger &amp; de mourir.</orig>
+            <reg>jouissons du moins de la douceur funeste De m'en venger et de mourir.</reg>
+          </seg>
+          <seg>
+            <orig>On m’ameine Amadis, &amp; l’obiet qui l’engage:</orig>
+            <reg>On m'amène Amadis, et l'objet qui l'engage:</reg>
+          </seg>
+          <seg>
+            <orig>Amour, fors de mon cœur &amp; laiſſe agir ma rage.</orig>
+            <reg>Amour, fors de mon cœur et laisse agir ma rage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE DEUXIE'ME.</orig>
+          <reg>CÈNE DEUXIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>MELISSE, AMADIS enchaîné, NIQUE’E enchainée.</orig>
+          <reg>MÉLISSE, AMADIS enchaîné, NIQUE enchaînée.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>QUEE.</orig>
+            <reg>QUE.</reg>
+          </seg>
+          <seg>
+            <orig>Qlel!</orig>
+            <reg>Qulel!</reg>
+          </seg>
+          <seg>
+            <orig>ſur qui ſa fureur va-t’elle s’exercer?</orig>
+            <reg>sur qui sa fureur va-t-elle s'exercer?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Epuiſez ſur moy ſeul voſtre haîne implacable.</orig>
+            <reg>Épuisez sur moi seul votre haine implacable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TOus DEUX.</orig>
+            <reg>TOutOus DEUX.</reg>
+          </seg>
+          <seg>
+            <orig>Si noſtre amour a pù vous offencer, Ne frapez que mon cœur, il eſt le plus coupable.</orig>
+            <reg>Si notre amour a puù vous offenser, Ne frappez que mon cœur, il est le plus coupable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AaDEloon levane le bras fur IxMladis.</orig>
+            <reg>AaDElon levane le bras fur IxMladis.</reg>
+          </seg>
+          <seg>
+            <orig>Barbare, c’est par toy que je vais commencer.</orig>
+            <reg>Barbare, c'est par toi que je vais commencer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ah Ciel!</orig>
+            <reg>Ah Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>NIQUE’E s’évanoüit.</orig>
+            <reg>NIQUE’E s'évanouit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>niuuleo ne Mais d’où me vient cette pitié ſoudaine?</orig>
+            <reg>niule ne Mais d'où me vient cette pitié soudaine?</reg>
+          </seg>
+          <seg>
+            <orig>Par quel charme mon bras ſe ſent-il arreſter?</orig>
+            <reg>Par quel charme mon bras se sent-il arrêter?</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>ma flâme eſt encor plus forte que ma haïne, Et je ſens tous les coups que je te veux porter.</orig>
+            <reg>ma flamme est encor plus forte que ma haine, Et je sens tous les coups que je te veux porter.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>de quoy me ſert la pitié qui vous preſſe, Quand je tremble pour ma Princeſſe.</orig>
+            <reg>de quoi me sert la pitié qui vous presse, Quand je tremble pour ma Princesse.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>voyez de quels maux elle ſent la rigueur.</orig>
+            <reg>voyez de quels maux elle sent la rigueur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy!</orig>
+            <reg>Quoi!</reg>
+          </seg>
+          <seg>
+            <orig>peux-tu te flatter que ſon ſort m’attendriſſe?</orig>
+            <reg>peux-tu te flatter que son sort m'attendrisse?</reg>
+          </seg>
+          <seg>
+            <orig>Non, tu la plains, ſa mort va faire ton ſuplice, Je veux te frapper dans ſon cœur.</orig>
+            <reg>Non, tu la plains, sa mort va faire ton supplice, Je veux te frapper dans son cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Juſte Ciel!</orig>
+            <reg>Juste Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais c’est peu pour vanger ma tendreſſe, Je te veux avec elle enchanter en ces lieux.</orig>
+            <reg>Mais c'est peu pour venger ma tendresse, Je te veux avec elle enchanter en ces lieux.</reg>
+          </seg>
+          <seg>
+            <orig>Tu la verras mourir ſans ceſſe, Et le ſang ruiſſelant du ſein de ta Princeſſe, Sera l’unique objet qui frapera tes yeux.</orig>
+            <reg>Tu la verras mourir sans cesse, Et le sang ruisselant du sein de ta Princesse, Sera l'unique objet qui frappera tes yeux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'entends-je!</orig>
+            <reg>Qu'entends-je?</reg>
+          </seg>
+          <seg>
+            <orig>ô Ciel:</orig>
+            <reg>ô Ciel:</reg>
+          </seg>
+          <seg>
+            <orig>quelle furie!</orig>
+            <reg>quelle furie!</reg>
+          </seg>
+          <seg>
+            <orig>Dieux, qui voyez ces projets inhumains, Protégez-vous la barbarie?</orig>
+            <reg>Dieux, qui voyez ces projets inhumains, Protégez-vous la barbarie?</reg>
+          </seg>
+          <seg>
+            <orig>Que ſert la foudre dans vos mains?</orig>
+            <reg>Que sert la foudre dans vos mains?</reg>
+          </seg>
+          <seg>
+            <orig>Ah préveneZ la cruelle Meliſſe!</orig>
+            <reg>Ah prévenez la cruelle Mélisse!</reg>
+          </seg>
+          <seg>
+            <orig>N’attendez pas l’effet de ſon couroux, Que vos Foudres vangeurs l’écraſent ſous leurs coups, Ou que la Terre l’engloutiſſe.</orig>
+            <reg>N'attendez pas l'effet de son courroux, Que vos Foudres vengeurs l'écrasent sous leurs coups, Ou que la Terre l'engloutisse.</reg>
+          </seg>
+          <seg>
+            <orig>Que dis-je malheureux!</orig>
+            <reg>Que dis-je malheureux!</reg>
+          </seg>
+          <seg>
+            <orig>j’anime ſes fureurs.</orig>
+            <reg>j'anime ses fureurs.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>je tombe à vos pieds, rendez-vous à mes pleurs, Cédez, à nostre amour, &amp; ſurmontez le vostre.</orig>
+            <reg>je tombe à vos pieds, rendez-vous à mes pleurs, Cédez, à notre amour, et surmontez le vôtre.</reg>
+          </seg>
+          <seg>
+            <orig>uoy!</orig>
+            <reg>uoy!</reg>
+          </seg>
+          <seg>
+            <orig>voulez-vous punir nos cœurs D’avoir eſté faits l’un pour l’autre.</orig>
+            <reg>voulez-vous punir nos cœurs D'avoir été faits l'un pour l'autre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Te piemrs Cles joupns jent oums Cruel, ils m’outragent encore.</orig>
+            <reg>Te piemrs Cles joupns jent oumés Cruel, ils m'outragent encore.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS, en ſe relevant.</orig>
+            <reg>AMADIS, en se relevant.</reg>
+          </seg>
+          <seg>
+            <orig>O Mort!</orig>
+            <reg>Ô Mort!</reg>
+          </seg>
+          <seg>
+            <orig>arrache-moy de ſes barbares mains;</orig>
+            <reg>arrache-moi de ses barbares mains;</reg>
+          </seg>
+          <seg>
+            <orig>Ce n'est plus que toy que j’implore.</orig>
+            <reg>Ce n'est plus que toi que j'implore.</reg>
+          </seg>
+          <seg>
+            <orig>Il s’abandonne à ſon deſeſpoir &amp; s’appuye contre un Rocher.</orig>
+            <reg>Il s'abandonne à son désespoir et s'appuie contre un Rocher.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Manes de ſon Rival, Prince trop malheureux, Obéïs à ma voix, ſors du Royaume ſombre;</orig>
+            <reg>Manes de son Rival, Prince trop malheureux, Obéis à ma voix, sors du Royaume sombre;</reg>
+          </seg>
+          <seg>
+            <orig>Pour un enchantement affreux, Mon Art attend le ſecours de ton ombre:</orig>
+            <reg>Pour un enchantement affreux, Mon Art attend le secours de ton ombre:</reg>
+          </seg>
+          <seg>
+            <orig>Viens te joindre avec moy pour contraindre le ſort A ſervir ma fureur extréme;</orig>
+            <reg>Viens te joindre avec moi pour contraindre le sort A servir ma fureur extrême;</reg>
+          </seg>
+          <seg>
+            <orig>Hâte-toy, ſors des lieux où t’enchaîne la Mort, Et oiono in utuunu le oungu uoy-même.</orig>
+            <reg>Hâte-toi, sors des lieux où t'enchaîne la Mort, Et oiono in utuunu le oungu ois-même.</reg>
+          </seg>
+          <seg>
+            <orig>Manes de ſon Rival, Prince trop malheureux, Obéis à ma voix, ſors du Royaume ſombre;</orig>
+            <reg>Manes de son Rival, Prince trop malheureux, Obéis à ma voix, sors du Royaume sombre;</reg>
+          </seg>
+          <seg>
+            <orig>Pour un enchantement affreux, Mon Art attend le ſecours de ton ombre.</orig>
+            <reg>Pour un enchantement affreux, Mon Art attend le secours de ton ombre.</reg>
+          </seg>
+          <seg>
+            <orig>Une noire vapeur s’éléve dans les Airs;</orig>
+            <reg>Une noire vapeur s'élève dans les Airs;</reg>
+          </seg>
+          <seg>
+            <orig>L’Ombre vient ſeconder ma rage.</orig>
+            <reg>L'Ombre vient seconder ma rage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE’ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>L’Ombre du Prince de Thrace.</orig>
+          <reg>L'Ombre du Prince de Thrace.</reg>
+        </seg>
+        <seg>
+          <orig>Acteurs de la Scene précedente.</orig>
+          <reg>Acteurs de la Scène précédente.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L'OMBRE.</orig>
+            <reg>L'OMBRE.</reg>
+          </seg>
+          <seg>
+            <orig>Es cris ont pénétré juſqu’au ſombre rivage, TEt je ſors malgré moy du ſejour des Enfers, Les Dieux vangeurs de l’injuſtice Protégent contre toy ces fideles Amans, Et m’impoſent pour mon ſuplice De venr t'annoncer la fin de leurs tourmens.</orig>
+            <reg>Es cris ont pénétré jusqu'au sombre rivage, TEt je sors malgré moi du séjour des Enfers, Les Dieux vengeurs de l'injustice Protégent contre toi ces fidèles Amants, Et m'imposent pour mon supplice De venr t'annoncer la fin de leurs tourments.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Il diſparoiſt.</orig>
+          <reg>Il disparaît.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>CENE QUATRIE’ME.</orig>
+          <reg>CÈNE QUATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>MELISSE, AMADIS, NIQUE’E qui a repris ſes eſprits.</orig>
+          <reg>MÉLISSE, AMADIS, NIQUE'E qui a repris ses esprits.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELISSE.</orig>
+            <reg>MÉLISSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ciel!</orig>
+            <reg>Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>injuſte Ciel!</orig>
+            <reg>injuste Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>barbare violence.</orig>
+            <reg>barbare violence.</reg>
+          </seg>
+          <seg>
+            <orig>JQuoy?</orig>
+            <reg>JIguoi?</reg>
+          </seg>
+          <seg>
+            <orig>je ne puis punir des mépris odieux.</orig>
+            <reg>je ne puis punir des mépris odieux.</reg>
+          </seg>
+          <seg>
+            <orig>Est-ce donc pour vous ſeuls, impitoyables Dieux!</orig>
+            <reg>Est-ce donc pour vous seuls, impitoyables Dieux!</reg>
+          </seg>
+          <seg>
+            <orig>Que vous reſervez, la vengeance?</orig>
+            <reg>Que vous réservez, la vengeance?</reg>
+          </seg>
+          <seg>
+            <orig>Non,</orig>
+            <reg>Non.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Non, non, malgré voſtre ſecours Il faut que ma Rivale expire.</orig>
+            <reg>Non, non, malgré votre secours Il faut que ma Rivale expire.</reg>
+          </seg>
+          <seg>
+            <orig>Elle veut avancer vers Niquée;</orig>
+            <reg>Elle veut avancer vers Niquée;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſe ſent arreſter.</orig>
+            <reg>et se sent arrêter.</reg>
+          </seg>
+          <seg>
+            <orig>Mais je le veux en vain.</orig>
+            <reg>Mais je le veux en vain.</reg>
+          </seg>
+          <seg>
+            <orig>,.</orig>
+            <reg>Ç,</reg>
+          </seg>
+          <seg>
+            <orig>vous defendez ſes jours.</orig>
+            <reg>vous défendez ses jours.</reg>
+          </seg>
+          <seg>
+            <orig>Le Ciel &amp; les Enfers, contre moy tout conſpire, 0I je vous emiens, granus Dieux, u jaut finir mon ſort, Et l’Arreſt de ſa vie eſt l’Arreſt de ma mort.</orig>
+            <reg>Le Ciel et les Enfers, contre moi tout conspire, 0I je vous emiens, granus Dieux, u jaut finir mon sort, Et l'Arrest de sa vie est l'Arrest de ma mort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Elle ſe frape.</orig>
+            <reg>Elle se frappe.</reg>
+          </seg>
+          <seg>
+            <orig>C’en eſt fait, Amadis, ta flâme eſt triomphante;</orig>
+            <reg>C'en est fait, Amadis, ta flamme est triomphante;</reg>
+          </seg>
+          <seg>
+            <orig>Ton Ennemie expire ou plûtôt ton Amante.</orig>
+            <reg>Ton Ennemie expire ou plutôt ton Amante.</reg>
+          </seg>
+          <seg>
+            <orig>Mais toy, ne me hais plus, pardonne à ma fureur Les maux que je t’ay voulu faire.</orig>
+            <reg>Mais toi, ne me hais plus, pardonne à ma fureur Les maux que je t'ai voulu faire.</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>tu t’attendris, tu me vois ſans horreur, Voilà le ſeul état où je pouvois te plaire, C’estoit ton unique deſir.</orig>
+            <reg>tu t'attendris, tu me vois sans horreur, Voilà le seul état où je pouvais te plaire, C'était ton unique désir.</reg>
+          </seg>
+          <seg>
+            <orig>Auis je muſpoious;</orig>
+            <reg>Auis je muspoious;</reg>
+          </seg>
+          <seg>
+            <orig>je chancelle, Un froid mortel vient me ſaiſir, Trop heureuſe en tombant uans ta nuit eternelle, Si ma mort t’arrache un ſoûpir.</orig>
+            <reg>je chancelle, Un froid mortel vient me saisir, Trop heureuse en tombant ans ta nuit éternelle, Si ma mort t'arrache un soupir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Que je la plains!</orig>
+            <reg>Que je la plains!</reg>
+          </seg>
+          <seg>
+            <orig>NIQUE’E</orig>
+            <reg>NIQUE</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>Que ſon ſort eſt tragique!</orig>
+            <reg>Que son sort est tragique!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TOUS DEUX.</orig>
+            <reg>TOUS DEUX.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, quel éclat!</orig>
+            <reg>Mais, quel éclat!</reg>
+          </seg>
+          <seg>
+            <orig>quels Sons harmonieux!</orig>
+            <reg>quels Sons harmonieux!</reg>
+          </seg>
+          <seg>
+            <orig>Qui peut changer ees triſtes lieux En un ſejour ſi magnifique?</orig>
+            <reg>Qui peut changer ces tristes lieux En un séjour si magnifique?</reg>
+          </seg>
+          <seg>
+            <orig>LAntre ſe change en un Palais eclatant, &amp; Zirphée paroiſt ſur un nuage.</orig>
+            <reg>LAntre se change en un Palais éclatant, et Zirphée paraît sur un nuage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E.</orig>
+            <reg>E.</reg>
+          </seg>
+          <seg>
+            <orig>Que vois-je?</orig>
+            <reg>Que vois-je?</reg>
+          </seg>
+          <seg>
+            <orig>eſt-ce Zirphée, en croiray-je mes yeux!</orig>
+            <reg>est-ce Zirphée, en croirai-je mes yeux!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CINQUIE'ME.</orig>
+          <reg>SCÈNE CINQUIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ZIRPH’EE, AMADIS, &amp; NIQUE’E.</orig>
+          <reg>ZIRPH'CE, AMADIS, et NIQUE'E.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>IOus vos maux ſont finis, ceſſez de vous en plaindre, Qu'un tendre Himen vienne les reparer.</orig>
+            <reg>JOus vos maux sont finis, cessez de vous en plaindre, Qu'un tendre Hymen vienne les réparer.</reg>
+          </seg>
+          <seg>
+            <orig>Voſtre amour n’a plus rien à craindre Qu’il n'ait plus rien à deſirer.</orig>
+            <reg>Votre amour n'a plus rien à craindre Qu'il n'ait plus rien à désirer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMADIS.</orig>
+            <reg>AMADIS.</reg>
+          </seg>
+          <seg>
+            <orig>An:</orig>
+            <reg>An:</reg>
+          </seg>
+          <seg>
+            <orig>pouvois-je eſperer une faveur ſi grande?</orig>
+            <reg>pouvais-je espérer une faveur si grande?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>JE’E.</orig>
+            <reg>JE’E.</reg>
+          </seg>
+          <seg>
+            <orig>Que ne vous dois-je point pour de ſi doux bien faits.</orig>
+            <reg>Que ne vous dois-je point pour de si doux bien faits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ZIRPHE’E.</orig>
+            <reg>ZIRPHÉLÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Aimez-vous à jamais, C’eſt tout le prix que j’en demande.</orig>
+            <reg>Aimez-vous à jamais, C'est tout le prix que j'en demande.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, qui vous empreſſez pour ſervir mes deſirs, Par mille Jeux nouveaux, celebrez leurs plaiſirs.</orig>
+            <reg>Vous, qui vous empressez pour servir mes désirs, Par mille Jeux nouveaux, célébrez leurs plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE DERNIERE.</orig>
+          <reg>SCÈNE DERNIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>NIQUE’E, AMADIS, ZIRPHE’E.</orig>
+          <reg>NIQUE’-E, AMADIS, ZIPHÉE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Ue les Ris, que les Jeux regnent dans ces retraites, Formons les plus charmans Concerts, 1n dues Tumcems, que te Son der Trompettes En faſſent retentir les Airs.</orig>
+            <reg>Que les Ris, que les Jeux règnent dans ces retraites, Formons les plus charmants Concerts, 1n dues Tumcems, que te Son der Trompettes En fassent retentir les Airs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du cinquiéme &amp; dernier Acte.</orig>
+          <reg>Fin du cinquième et dernier Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE DERNIERE.</orig>
+          <reg>SCÈNE DERNIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>NIQUE’E, AMADIS, ZIRPHE’E.</orig>
+          <reg>NIQUE’-E, AMADIS, ZIPHÉE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CHOEUR.</orig>
+            <reg>CHOEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Ue les Ris, que les Jeux regnent dans ces retraites, Formons les plus charmans Concerts, 1n dues Tumcems, que te Son der Trompettes En faſſent retentir les Airs.</orig>
+            <reg>Que les Ris, que les Jeux règnent dans ces retraites, Formons les plus charmants Concerts, 1n dues Tumcems, que te Son der Trompettes En fassent retentir les Airs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du cinquiéme &amp; dernier Acte.</orig>
+          <reg>Fin du cinquième et dernier Acte.</reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>
