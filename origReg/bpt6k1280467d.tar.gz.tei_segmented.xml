@@ -1,0 +1,5558 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L'Amour medecin, comedie, Par J. B. P. Moliere</title>
+        <author>Molière</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45796169x"/>
+          <author>
+            <persName>Molière</persName>
+          </author>
+          <title>L'Amour medecin, comedie, Par J. B. P. Moliere</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1666" cert="high" resp="BNF">1666</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>A PARIS, Chez NICUENSET ORAs,au troiſiéme.</orig>
+          <reg>À PARIS, Chez NICUENSET ORAs,au troisième.</reg>
+        </seg>
+        <seg>
+          <orig>Pilier de la grand' Sale du Palais, à l’Eſperance, &amp; à L, couronnée.</orig>
+          <reg>Pilier de la grand Sale du Palais, à l'Espérance, et à L, couronnée.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>DC.</orig>
+          <reg>DC.</reg>
+        </seg>
+        <seg>
+          <orig>LXVI.</orig>
+          <reg>LXVI.</reg>
+        </seg>
+        <seg>
+          <orig>AVEC PRIVILEGE DV ROYC TOH</orig>
+          <reg>AVEC PRIVILÈGE DU ROYC TOUH</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>S ME n’eſt icy qu’vn Mmple crayon;</orig>
+          <reg> SE n'est ici qu'est Mmple crayon;</reg>
+        </seg>
+        <seg>
+          <orig>vn petit impromptu, ι dont le Roy à voulu ſe faire vn diuertiſſement.</orig>
+          <reg>Un petit impromptu, dont le Roi à voulu se faire un divertissement.</reg>
+        </seg>
+        <seg>
+          <orig>Il eſt le plus precipité de tous ceux que ſa Maieſté m’ait commandez;</orig>
+          <reg>Il est le plus précipité de tous ceux que sa Majesté m'ait commandés;</reg>
+        </seg>
+        <seg>
+          <orig>Et lors que ie diray qu’il a eſté propoſé, fait, appris, &amp; repreſenté en cinq iours, ie ne diray que ce qui eſt vray.</orig>
+          <reg>Et lors que ici dirai qu'il a été proposé, fait, appris, et représenté en cinq jours, Seigneur ne dirai que ce qui est vrai.</reg>
+        </seg>
+        <seg>
+          <orig>Il n’eſt pas neceſſaire de vous aquertir qu’il di 1j y a beaucoup de choſes qui dependent de l’action;</orig>
+          <reg>Il n'est pas nécessaire de vous aquertir qu'il di 1j y a beaucoup de choses qui dépendent de l'action;</reg>
+        </seg>
+        <seg>
+          <orig>On ſçait bien que les Comedies ne ſont faites que pour eſtre ioüées, &amp; i ene conſeille de lire celle-cy qu’aux perſonnes qui ont des yeux pour découurir dans la lecture tout le jeu du Theatre:</orig>
+          <reg>On sais bien que les Comédies ne sont faites que pour être jouées, et y eue conseille de lire celle-cy qu'aux personnes qui ont des yeux pour découvrir dans la lecture tout le jeu du Théâtre:</reg>
+        </seg>
+        <seg>
+          <orig>Ce que ie vous diray, c’eſt qu’il ſeroit à ſouhaitter que ces lortes d’houurages puſſent toûjours ſe montrer à vous auec les ornemens qui les accompagnent chez le Roy.</orig>
+          <reg>Ce que ici vous dirai, c'est qu'il serait à souhaiter que ces lortes d'houvrages pussent toujours se montrer à vous avec les ornements qui les accompagnent chez le Roi.</reg>
+        </seg>
+        <seg>
+          <orig>Vous le verriez dans vn eſtat beaucoup plus ſupportable.</orig>
+          <reg>Vous le verriez dans un état beaucoup plus supportable.</reg>
+        </seg>
+        <seg>
+          <orig>&amp; les 11165e1.</orig>
+          <reg>et les 11651.</reg>
+        </seg>
+        <seg>
+          <orig>gymphonies de l’incomparable Monſieur Lully, meſſez à la beaute des Voix.</orig>
+          <reg>gymphonies de l'incomparable Monsieur Lully, messez à la beauté des Voix.</reg>
+        </seg>
+        <seg>
+          <orig>&amp; à l’addreſſe des Danſeurs, leur donnent, ſans doute des graces, dont ils ont toupaſſer.</orig>
+          <reg>et à l'adresse des Danseurs, leur donnent, sans doute des grâces, dont ils ont toupasser.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>EXTAICT DV PRIVILEGE du Roy.</orig>
+          <reg>EXTAICT DU PRIVILÈGE du Roi.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>JAR grace &amp; Priuilege du A Roy, donné à Paris, le 30.</orig>
+            <reg>JAR grâce et Privilège du A Roi, donné à Paris, le 30.</reg>
+          </seg>
+          <seg>
+            <orig>de Decembre 1665.</orig>
+            <reg>de Décembre 1665.</reg>
+          </seg>
+          <seg>
+            <orig>Signé, DE SEIGNEROLLE, &amp; ſeellé du grand Sceau de cire jaune, il eſt permis à lean Baptiſte Pocquelin de Moliere, Comedien de la Troupe de noſtre tres-cher, &amp; tres-amé Frere vnique le Duc d’Orleans, de faire imprimer vendre &amp; debiter pendant le temps &amp; eſpace de cinq ans, par tel Libraire ou Imprimeur que bon lui ſemblera vne piece de Theatre qu’il a cõpoſée, intitulée l’Amour Medecin:</orig>
+            <reg>Signé, DE SEIGNEROLLE, et seelé du grand Sceau de cire jaune, il est permis à léan Baptiste Pocquelin de Molière, Comédien de la Troupe de notre très-cher: et très humé Frère unique le Duc d'Orleans, de faire imprimer vendre et débiter pendant le temps et espace de cinq ans, par tel Libraire ou Imprimeur que bon lui semblera une pièce de Théâtre qu'il a cõposée, intitulée l'Amour Médecin:</reg>
+          </seg>
+          <seg>
+            <orig>auec défenſes à toutes perſonnes de reimprimer ou contrefaire, vendre ou diſtripuer ladite Piece ou partie d’icelle ſans ſa permiſſion, à peine de confiſcation des Exemplaires, &amp; de l’amende portée dans l’original.</orig>
+            <reg>avec défenses à toutes personnes de réimprimer ou contrefaire, vendre ou distripuer ladite Pièce ou partie d'icelle sans sa permission, à peine de confiscation des Exemplaires, et de l'amende portée dans l'original.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Regiſtré ſur le Liure de Communaute des Imprimeurs, Marchands Libraires de Paris, le 4 Ianuier 1666 Signé, PIGET Syndic.</orig>
+          <reg>Registré sur le Livre de Communaute des Imprimeurs, Marchands Libraires de Paris, le 4 Janvier 1666 Signé, PIGET Syndic.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ledit Sieur Moliere a cedé, quitté, &amp; tranſporté ſon droit de Priuilege à Pierre Treboüillet, Nicolas le Gras, &amp; Theodore Girard Marchands Libraires à Paris pour en joüir, ainſi qu’il eſt porté par leſdites Lettres de Priuilege, ſuiuant l’accord fait entr'eux.</orig>
+          <reg>Ledit Sieur Molière a cédé, quitté, et transporté son droit de Privilège à Pierre Trebouillet, Nicolas le Gras, et Théodore Girard Marchands Libraires à Paris pour en jouir, ainsi qu'il est porté par lesdites Lettres de Privilège, suivant l'accord fait entr'eux.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Acheué d’imprimer pour la premiere fois, le 15.</orig>
+            <reg>Achevé d'imprimer pour la première fois, le 15.</reg>
+          </seg>
+          <seg>
+            <orig>Ianuier 1666.</orig>
+            <reg>Janvier 1666.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>LES PERSONNAGES.</orig>
+          <reg>LES PERSONNAGES.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>D ORmome</orig>
+          <reg>D ORmome</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>muovibEheMn, veueur de Tapiſferies</orig>
+          <reg>muovibEheMn, veueur de Tapisferies</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>IOSSE, Olrevle.</orig>
+          <reg>JOSSE, Olrevle.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LVCINDE, Fille de Sganarelle.</orig>
+          <reg>LUCINDE, Fille de Séganarelle.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LYSETTE, ſuiuante de Lucinde.</orig>
+          <reg>LYSETTE, suivante de Lucinde.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>TOME’S,</orig>
+          <reg>TOME-S,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>DESFONANDRE'S, Y</orig>
+          <reg>DESFONANDRÉS, Y</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>MACROTON, &amp; Medecins.</orig>
+          <reg>MACROTON, et Médecins.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>L’OPERATEVR, Oruietan.</orig>
+          <reg>L'OPÉRATEUR, Orviétan.</reg>
+        </seg>
+        <seg>
+          <orig>Pluſieurs Triuelains &amp; Scaramouches.</orig>
+          <reg>Plusieurs Trivelains et Scaramouches.</reg>
+        </seg>
+        <seg>
+          <orig>LA COME ILe LA MVSIQVE.</orig>
+          <reg>LA COME ILe LA MUSIQUE.</reg>
+        </seg>
+        <seg>
+          <orig>LE BALLET.</orig>
+          <reg>LE BALLET.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>La Scene eſt à Paris dans vne Salle de la maiſon de Sganarelle.</orig>
+            <reg>La Scène est à Paris dans une Salle de la maison de Séganarelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>PROLOGVE.</orig>
+          <reg>PROLOGUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA COMEDIE.</orig>
+            <reg>LA COMÉDIE.</reg>
+          </seg>
+          <seg>
+            <orig>LA MVSIQVE ET LE BALLET LA COMEDIE.</orig>
+            <reg>LA MUSIQUE ET LE BALLET LA COMÉDIE.</reg>
+          </seg>
+          <seg>
+            <orig>à tour.</orig>
+            <reg>à tour.</reg>
+          </seg>
+          <seg>
+            <orig>Vittons, quittons nostre vaine querelle, Ne nous diſputons point nos talens tour Et d’vne gloire plus helle Picquons-nous en ce iour.</orig>
+            <reg>Vittons, quittons notre vaine querelle, Ne nous disputons point nos talents tour Et d'une gloire plus helle Picquons-nous en ce jour.</reg>
+          </seg>
+          <seg>
+            <orig>Vniſſons-nous tous trois d’vne ardeur ſans ſeconde.</orig>
+            <reg>Unissons-nous tous trois d'une ardeur sans seconde.</reg>
+          </seg>
+          <seg>
+            <orig>Pour donner du plaiſir au plus grand Roy du monde.</orig>
+            <reg>Pour donner du plaisir au plus grand Roi du monde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Tous trois.</orig>
+            <reg>Tous trois.</reg>
+          </seg>
+          <seg>
+            <orig>v nijjons-nuns.</orig>
+            <reg> vicjons-nuns.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA COMEDIE, De ſes trauaux plus grands qu'on ne peut croire, Il ſe vient quelquefois delaſſer parmy nous.</orig>
+            <reg>LA COMÉDIE, De ses travaux plus grands qu'on ne peut croire, Il se vient quelquefois délasser parmi nous.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il de plus grande gloire Dſe tevon neur plus doux.</orig>
+            <reg>Est-il de plus grande gloire Dse tevon neur plus doux.</reg>
+          </seg>
+          <seg>
+            <orig>Vniſſons-nous-tous-trois.</orig>
+            <reg>Unissons-nous-tous-trois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Tous trois.</orig>
+            <reg>Tous trois.</reg>
+          </seg>
+          <seg>
+            <orig>Vniſſons-nous.</orig>
+            <reg>Unissons-nous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>L’AMOV</orig>
+          <reg>L'AMOU</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LALETOVN MIESEOIAC.</orig>
+          <reg>LALETOUN MIESEOIAC.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE.</orig>
+          <reg>ACTE.</reg>
+        </seg>
+        <seg>
+          <orig>I.</orig>
+          <reg>I.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE I.</orig>
+          <reg>SCÈNE I.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE, AMINTE, LVENECE, MI.</orig>
+          <reg>SGANARELLE, AMINTE, LUENCE, MI.</reg>
+        </seg>
+        <seg>
+          <orig>GVILLAVME, M.</orig>
+          <reg>GUILAVME, M.</reg>
+        </seg>
+        <seg>
+          <orig>IOSSE.</orig>
+          <reg>JOSSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>2 8 SGANARELLE.</orig>
+            <reg>2 8 SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>ρι1:</orig>
+            <reg>§1:</reg>
+          </seg>
+          <seg>
+            <orig>Y:</orig>
+            <reg>Y:</reg>
+          </seg>
+          <seg>
+            <orig>A H, l’eſtrange choſe que la vie!</orig>
+            <reg>À H, l'étrange chose que la vie!</reg>
+          </seg>
+          <seg>
+            <orig>&amp; que ie  puisbien dire auec ce rand Philoſophe de l’AntiA quité, que qui terre a guerre a, &amp; qu’vn malheur ne vient iamais ſans l’autre.</orig>
+            <reg>et que personne puisbien dire avec ce rand Philosophe de l'AntiA quité, que qui terre a guerre a, et qu'un malheur ne vient jamais sans l'autre.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’auois qu’vne ſeule femme qui eſt morte.</orig>
+            <reg>Je n'avais qu'une seule femme qui est morte.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>GVILLAME.</orig>
+            <reg>GUILAME.</reg>
+          </seg>
+          <seg>
+            <orig>Et combien donc en voulezvous auoir?</orig>
+            <reg>Et combien donc en voulezvous avoir?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Elle eſt morte, Monſieur mon amy, cette perte m’eſt tres ſenſible, &amp; ie ne puis m’en reſſouuenir ſans pleurer.</orig>
+            <reg>Elle est morte, Monsieur mon ami, cette perte m'est très sensible, et personne ne puis m'en ressouvenir sans pleurer.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’eſtois pas fort ſatisfait de ſa conduite, &amp; nous auions le plus ſouuent diſpute enſemble;</orig>
+            <reg>Je n'étais pas fort satisfait de sa conduite, et nous avions le plus souvent dispute ensemble;</reg>
+          </seg>
+          <seg>
+            <orig>mais enfin, la mort r’ajuſte toutes choſes.</orig>
+            <reg>mais enfin, la mort rajuste toutes choses.</reg>
+          </seg>
+          <seg>
+            <orig>Elle eſt morte:</orig>
+            <reg>Elle est morte:</reg>
+          </seg>
+          <seg>
+            <orig>ie la pleure.</orig>
+            <reg>Elle la pleure.</reg>
+          </seg>
+          <seg>
+            <orig>Si elle eſtoit en vie, nous nous querellerions.</orig>
+            <reg>Si elle était en vie, nous nous querellerions.</reg>
+          </seg>
+          <seg>
+            <orig>De tous les enfans que le Ciel m’auoit donnés;</orig>
+            <reg>De tous les enfants que le Ciel m'avait donnés;</reg>
+          </seg>
+          <seg>
+            <orig>il ne m’a laiſſé qu’vne fille, &amp; cette fille eſt toute ma peine.</orig>
+            <reg>il ne m'a laissé qu'une fille, et cette fille est toute ma peine.</reg>
+          </seg>
+          <seg>
+            <orig>Car enfin, ie la voy dans vne melancolie la plus ſombre du monde, dans vne triſteſſe épouuantable, dont il n’y a pas moyen de la retirer;</orig>
+            <reg>Car enfin, votre la voy dans une mélancolie la plus sombre du monde, dans une tristesse épouvantable, dont il n'y a pas moyen de la retirer;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; dont ie ne ſçaurois meſme apprendre la cauſe.</orig>
+            <reg>et dont ici ne saurais même apprendre la cause.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy i’en perds l’eſprit, &amp; i’aurois beſoin d’vn bon conſeil ſur cette matiere.</orig>
+            <reg>Pour moi j'en perds l'esprit, et j'aurais besoin d'un bon conseil sur cette matière.</reg>
+          </seg>
+          <seg>
+            <orig>Vous eſtes ma niece:</orig>
+            <reg>Vous êtes ma nièce:</reg>
+          </seg>
+          <seg>
+            <orig>vous, ma voiſine.</orig>
+            <reg>vous, ma voisine.</reg>
+          </seg>
+          <seg>
+            <orig>&amp; vous mes comperes &amp; mes amis:</orig>
+            <reg>et vous mes compères et mes amis:</reg>
+          </seg>
+          <seg>
+            <orig>ie vous prie de me conſeiller tous ce que ie dois faire.</orig>
+            <reg>ici vous prie de me conseiller tous ce que Rome dois faire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>IOSSE.</orig>
+            <reg>JOSSE.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, ie tiens que la brauerie &amp; l’ajuſtement eſt la choſe qui reſioüit le plus les filles, &amp; ſi i’eſtois que de vous, ie luy acheterois dés auiourd’huy vne belie garniture de Diamans, ou de Rubis, ou d’Eſmeraudes.</orig>
+            <reg>Pour moi, ie tiens que la braverie et l'ajustement est la chose qui resioüit le plus les filles, et si j'étais que de vous, je lui achèterais dé auiourd’hui une bélie garniture de Diamants, ou de Rubis, ou d'Émeraudes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>GVILLAME.</orig>
+            <reg>GUILAME.</reg>
+          </seg>
+          <seg>
+            <orig>Et moy;</orig>
+            <reg>Et moi;</reg>
+          </seg>
+          <seg>
+            <orig>ſi i’eſtois en voſtre place, i’achetterois vne belle tenture de tapiſſerie de verdure, ou à perſonnages, que ie ferois mettre à ſa chambre, pous luy reſiouïr l’eſprit &amp; la veuë.</orig>
+            <reg>si j'étais en votre place, j'achèterais une belle tenture de tapisserie de verdure, ou à personnages, que sans ferais mettre à sa chambre, pous était réjouir l'esprit et la vue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AMINTE.</orig>
+            <reg>AMINTE.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, ie ne ferois point tant de façon, &amp; ie la marierois fort bien, &amp; ie piuitore que ie pourrois, auec cette perſonne qui vous la fit, dit-on, demanauijuj u quelque temps.</orig>
+            <reg>Pour moi, Seigneur ne ferais point tant de façon, et ie la marierais fort bien, et notre piuitore que sans pourrais, avec cette personne qui vous la fit, dit-on, demanaujuj u quelque temps.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>LVCRECE.</orig>
+          <reg>LUCRECE.</reg>
+        </seg>
+        <seg>
+          <orig>Et moy, ie tiens que voſtre fille n’eſt point du tout propre pour le Mariage.</orig>
+          <reg>Et moi, Seigneur tiens que votre fille n'est point du tout propre pour le Mariage.</reg>
+        </seg>
+        <seg>
+          <orig>Elle eſt d’vne complexion trop delicate &amp; trop peu ſaine, &amp; c’eſt la vouloir enuoyer bien-toſt en l’autre monde, que de l’expoſer comme elle eſt à faire des enfans.</orig>
+          <reg>Elle est d'une complexion trop délicate et trop peu saine, et c'est la vouloir envoyer bientôt en l'autre monde, que de l'exposer comme elle est à faire des enfants.</reg>
+        </seg>
+        <seg>
+          <orig>Le monde n’eſt point du tout ſon fait, &amp; ie vous conſeille de la mettre dans vn Conuent, où elle trouuera des diuertiſſemnens qui ſeront mieux de ſon humeur.</orig>
+          <reg>Le monde n'est point du tout son fait, et je vous conseille de la mettre dans un Convent, où elle trouvera des divertissements qui seront mieux de son humeur.</reg>
+        </seg>
+        <seg>
+          <orig>d arimoun Avleuedins;</orig>
+          <reg>d arimoun Avlèvedins;</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>Tous ces conſeils ſont admirables aſſeurement:</orig>
+          <reg>Tous ces conseils sont admirables assurément:</reg>
+        </seg>
+        <seg>
+          <orig>mais ie les tiens vn peu intereſſez, &amp; trouue que vous me conſeillez fort bien pour vous, Vous eſtes Orfevre, Monſieur Ioſſe, &amp; voſtre conſeil ſent ſon homme qui a enuié de ſe défaire de ſa marchandiſe.</orig>
+          <reg>mais était les tiens un peu intéressez, et trouve que vous me conseillez fort bien pour vous, Vous êtes Orfevre, Monsieur Josse, et votre conseil sent son homme qui a envoyé de se défaire de sa marchandise.</reg>
+        </seg>
+        <seg>
+          <orig>Vous vendez des tapiſſeries, Monſieur Guillaume, &amp; vous auez la mine d’auoir quelque tenture qui vous incommode.</orig>
+          <reg>Vous vendez des tapisseries, Monsieur Guillaume, et vous avez la mine d'avoir quelque tenture qui vous incommode.</reg>
+        </seg>
+        <seg>
+          <orig>Celuy que vous aymez, ma voiſine, a, dit-on.</orig>
+          <reg>Celui que vous aimez, ma voisine, a, dit-on.</reg>
+        </seg>
+        <seg>
+          <orig>quelque inclination pour ma fille, &amp; vous ne ſeriez pas faſchée de la voir la femme d’vn autre, Et qua ntavous, ma chere niece, ce n’eſt pas mon deſſein, comme on ſçait, de marier ma fille auec qui que ce ſoit, &amp; i’ai mes raisos pour cela.</orig>
+          <reg>quelque inclination pour ma fille, et vous ne seriez pas fâchée de la voir la femme d'un autre, Et qua navous, ma chère nièce, ce n'est pas mon dessein, comme on sait, de marier ma fille auec qui que ce soit, et j'ai mes raisos pour cela.</reg>
+        </seg>
+        <seg>
+          <orig>Mais le coſeil que vous me dõnez de la faire Religieuſe, eſt d’vne femme qui pourroit bien ſouhaitter charitablement d’eſtre mon heritiere vniuerſelle.</orig>
+          <reg>Mais le côteil que vous me donnez de la faire Religieuse, est d'une femme qui pourrait bien souhaiter charitablement d'être mon héritière universelle.</reg>
+        </seg>
+        <seg>
+          <orig>Ainſi, Meſſieurs &amp; Meſdames, quoy que tous vos conſeils ſoient les meilleurs du monde, vous trouuerez bon, s’il vous plaiſt, que ie n’en ſuiue aucun.</orig>
+          <reg>Ainsi, Messieurs et Mesdames, quoi que tous vos conseils soient les meilleurs du monde, vous trouverez bon, s'il vous plaît, que je n'en suive aucun.</reg>
+        </seg>
+        <seg>
+          <orig>Voila de mes donneurs de conſeils à la mode,</orig>
+          <reg>Voilà de mes donneurs de conseils à la mode,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>A liij</orig>
+          <reg>À lijà</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENL II.</orig>
+          <reg>SCENL II.</reg>
+        </seg>
+        <seg>
+          <orig>LVCINDE, SGANARELLE.</orig>
+          <reg>LUCINDE, SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARLLEE,</orig>
+          <reg>SGANARLLE,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ln  H, voila ma fille qui prend l’air.</orig>
+          <reg>Un H, voilà ma fille qui prend l'air.</reg>
+        </seg>
+        <seg>
+          <orig>Elle ne me void pas.</orig>
+          <reg>Elle ne me voit pas.</reg>
+        </seg>
+        <seg>
+          <orig>Elle ſoupire.</orig>
+          <reg>Elle soupire.</reg>
+        </seg>
+        <seg>
+          <orig>Elle leue les yeux au Ciel.</orig>
+          <reg>Elle lève les yeux au Ciel.</reg>
+        </seg>
+        <seg>
+          <orig>Dieu vous gard.</orig>
+          <reg>Dieu vous gard.</reg>
+        </seg>
+        <seg>
+          <orig>Bon iour ma mie.</orig>
+          <reg>Bon jour ma mie.</reg>
+        </seg>
+        <seg>
+          <orig>Hé bien, qu’eſt-ce!</orig>
+          <reg>Hé bien, qu'est-ce!</reg>
+        </seg>
+        <seg>
+          <orig>comme vous en va?</orig>
+          <reg>comme vous en va?</reg>
+        </seg>
+        <seg>
+          <orig>Hé!</orig>
+          <reg>Hé!</reg>
+        </seg>
+        <seg>
+          <orig>quoy toujours triſte &amp; melancolique comme cela, &amp; tu ne veux pas me dire ce que tu as.</orig>
+          <reg>quoi toujours triste et mélancolique comme cela, et tu ne veux pas me dire ce que tu as.</reg>
+        </seg>
+        <seg>
+          <orig>Allons donc, découure moy ton petit cœur, là ma pauure mie, dy, dy;</orig>
+          <reg>Allons donc, découvre moi ton petit cœur, là ma pauvre mie, dis, dis;</reg>
+        </seg>
+        <seg>
+          <orig>dy tes petites penſées à ton petit papa H mignon.</orig>
+          <reg>dis tes petites pensées à ton petit papa H mignon.</reg>
+        </seg>
+        <seg>
+          <orig>Courage.</orig>
+          <reg>Courage.</reg>
+        </seg>
+        <seg>
+          <orig>Veux-tu que ie te baiſe?</orig>
+          <reg>Veux-tu que Seigneur te baise?</reg>
+        </seg>
+        <seg>
+          <orig>vien.</orig>
+          <reg>viens.</reg>
+        </seg>
+        <seg>
+          <orig>I’enrage de la voir de cette humeur-là.</orig>
+          <reg>J'enrage de la voir de cette humeur-là.</reg>
+        </seg>
+        <seg>
+          <orig>Mais, dy moy, me veux-tu faire mourir de deſplaiſir, &amp; ne puis-je ſçauoir d’où vient cette grâde langueur.</orig>
+          <reg>Mais, dy moi, me veux-tu faire mourir de déplaisir, et ne puis-je savoir d'où vient cette grâde langueur.</reg>
+        </seg>
+        <seg>
+          <orig>Deſcouure m’en la cauſe, &amp; ie te promets que ie feray toutes choſes pour toy.</orig>
+          <reg>Découvre m'en la cause, et Seigneur te promets que ici ferai toutes choses pour toi.</reg>
+        </seg>
+        <seg>
+          <orig>Oüy, tu n’as qu’à me dire le ſujet de ta triſteſſe, ie t’aſſeure icy, &amp; te fais ſerment, qu’il n’y a rien que ie ne faſſe pour te ſatisfaire.</orig>
+          <reg>Oui, tu n'as qu'à me dire le sujet de ta tristesse, ie t'assure ici, et te fais serment, qu'il n'y a rien que je ne fasse pour te satisfaire.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt tout dire:</orig>
+          <reg>C'est tout dire:</reg>
+        </seg>
+        <seg>
+          <orig>eſt-ce que tu es jalouſe de quelqu’vne de tes compagnes, que tu voyue plus braue que toy?</orig>
+          <reg>est-ce que tu es jalouse de quelqu'une de tes compagnes, que tu voive plus brave que toi?</reg>
+        </seg>
+        <seg>
+          <orig>&amp; ſeroit-il quelque eſtoffe nouuelle dont tu vouluſſes auoir vn habit?</orig>
+          <reg>et serait-il quelque étouffe nouvelle dont tu voulusses avoir un habit?</reg>
+        </seg>
+        <seg>
+          <orig>Non.</orig>
+          <reg>Non.</reg>
+        </seg>
+        <seg>
+          <orig>Eſt-ce que ta chambre ne te ſemble pas aſſez parée, &amp; que tu ſouhaitterois quelque cabinet de la Foire Saint Laurent?</orig>
+          <reg>Est-ce que ta chambre ne te semble pas assez parée, et que tu souhaiterais quelque cabinet de la Foire Saint Laurent?</reg>
+        </seg>
+        <seg>
+          <orig>Ce n’eſt pas cela.</orig>
+          <reg>Ce n'est pas cela.</reg>
+        </seg>
+        <seg>
+          <orig>Aurois-tu enuie d’apprendre quelque choſe?</orig>
+          <reg>Aurais-tu envie d'apprendre quelque chose?</reg>
+        </seg>
+        <seg>
+          <orig>Et veux-tu que ie te donne vn Maiſtre pour te montrer à joüer du Claueſſin?</orig>
+          <reg>Et veux-tu que Rome te donne un Maître pour te montrer à jouer du Clavessin?</reg>
+        </seg>
+        <seg>
+          <orig>Nenny.</orig>
+          <reg>Nenni.</reg>
+        </seg>
+        <seg>
+          <orig>Aymerois-tu quelqu’vn, &amp; ſouhaitterois-tu d’eſtre mariee?</orig>
+          <reg>Aimerais-tu quelqu'eau, et souhaiterais-tu d'être marie?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENEIII.</orig>
+          <reg>SCENEII.</reg>
+        </seg>
+        <seg>
+          <orig>LYSETTE, SGANARELLE JEVCINDE</orig>
+          <reg>LYSETTE, SGANARELLE JEUCINDE</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>E bien, Monſieur, vous I Tvenez d’entretenir voſtre ile.</orig>
+            <reg>E bien, Monsieur, vous I Tenez d'entretenir votre île.</reg>
+          </seg>
+          <seg>
+            <orig>Auez-vous fceu la cauſe de ſa melancolie;</orig>
+            <reg>Avez-vous fceu la cause de sa mélancolie;</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, c’eſt vne coquine qui me fait enrager.</orig>
+            <reg>Non, c'est une coquine qui me fait enrager.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, laiſſez-moy faire, iel m’en vais la ſonder vn peu.</orig>
+            <reg>Monsieur, laissez-moi faire, jel m'en vais la sonder un peu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Il n’eſt pas neceſſaire, &amp; puis qu’elle veut eſtre de cette humeur, ie ſuis d’auis qu’on I’y lailſe.</orig>
+            <reg>Il n'est pas nécessaire, et puis qu'elle veut être de cette humeur, je suis d'avis qu'on J'y lailse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-moy faire, vous disje, peut-eſtre qu’elle ſe découurira plus librement à moy qu’à vous:</orig>
+            <reg>Laissez-moi faire, vous disje, peut-être qu'elle se découvrira plus librement à moi qu'à vous:</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, Madame, vous ne nous direz point ce que vous auez, &amp; vous voulez affliger ainſi tout le monde.</orig>
+            <reg>Quoi, Madame, vous ne nous direz point ce que vous avez, et vous voulez affliger ainsi tout le monde.</reg>
+          </seg>
+          <seg>
+            <orig>Il me ſemble qu’on n’agiſt point come vous faites, &amp; que ſi vous auez quelque repugnâce àvous expliquer à vn pere, vous n’en deuez auoir aucune à me deſcouurir vontie caul.</orig>
+            <reg>Il me semble qu'on n'agît point come vous faites, et que si vous avez quelque repugnâce àvous expliquer à un père, vous n'en devez avoir aucune à me découvrir vontie caul.</reg>
+          </seg>
+          <seg>
+            <orig>DresComeule.</orig>
+            <reg>DresComeule.</reg>
+          </seg>
+          <seg>
+            <orig>moy!</orig>
+            <reg>moi!</reg>
+          </seg>
+          <seg>
+            <orig>, louhaittez-vous quelque choſe de luy?</orig>
+            <reg>, Çouhaitez-vous quelque chose de lui?</reg>
+          </seg>
+          <seg>
+            <orig>il nous a dit plus d’vne fois qu’il n’eſpargneroit rien pour vous contenter.</orig>
+            <reg>il nous a dit plus d'une fois qu'il n'épargnerait rien pour vous contenter.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce qu’il ne vous donne pas toute la liberté que vous ſouhaitreriez, &amp; les promenades &amp; las cadeaux ne tenteroient-ils point voſtre ame?</orig>
+            <reg>Est-ce qu'il ne vous donne pas toute la liberté que vous souhaitreriez, et les promenades et las cadeaux ne tenteraient-ils point votre âme?</reg>
+          </seg>
+          <seg>
+            <orig>Heu.</orig>
+            <reg>Heu.</reg>
+          </seg>
+          <seg>
+            <orig>Auez-vous receu quelque deſplaiſir de quelqu’vn?</orig>
+            <reg>Avez-vous reçu quelque déplaisir de quelqu'un?</reg>
+          </seg>
+          <seg>
+            <orig>Heu.</orig>
+            <reg>Heu.</reg>
+          </seg>
+          <seg>
+            <orig>N’auriez-vous point quelque ſecrette inclination, auec qui vous ſouhaitteriez que voſtre pere vous mariaſt.</orig>
+            <reg>N'auriez-vous point quelque secrète inclination, avec qui vous souhaiteriez que votre père vous mariât.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, ie vous entens.</orig>
+            <reg>Ah, Seigneur vous entends.</reg>
+          </seg>
+          <seg>
+            <orig>Voila l’affaire.</orig>
+            <reg>Voilà l'affaire.</reg>
+          </seg>
+          <seg>
+            <orig>Que Diable, pourquoy tant de façons.</orig>
+            <reg>Que Diable, pourquoi tant de façons.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, le myſtere eſt découvert.</orig>
+            <reg>Monsieur, le mystère est découvert.</reg>
+          </seg>
+          <seg>
+            <orig>Et.</orig>
+            <reg>Et.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE l'Inte- rompaut Va, fille ingratte, ie ne te veux plus parler, &amp; ie te laiſſe dalis ton obſtination.</orig>
+            <reg>SGANARELLE l'Inte- rompaut Va, fille ingrate, quelque ne te veux plus parler, et de te laisse dalis ton obstination.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Mon pere, puis que vous voulez que ie vous diſe la choſe.</orig>
+            <reg>Mon père, puis que vous voulez que je vous dise la chose.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ouy, ie perds toute l’amitié que i’auois pour toy</orig>
+            <reg>Oui, Seigneur perds toute l'amitié que j'avais pour toi</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETSEIIE.</orig>
+            <reg>ETSEIIE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, ſa triſteſſe.</orig>
+            <reg>Monsieur, sa tristesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt vne coquine qui me veut faire mourir.</orig>
+            <reg>C'est assez coquine qui me veut faire mourir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Mon pere, ie veux bien.</orig>
+            <reg>Mon père, Seigneur veux bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt pas la recompenſe de t’auoir eſleuée comme i’ay fait.</orig>
+            <reg>Ce n'est pas la récompense de t'avoir élevée comme j'ai fait.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, Monſieur.</orig>
+            <reg>Mais, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Non, ie ſuis contr’elle, dans vne colere eſpouuentable.</orig>
+            <reg>SGANARELLE Non, je suis contre elle, dans une colère espouuentable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCTNDL.</orig>
+            <reg>LUCTNDL.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, mon pere.</orig>
+            <reg>Mais, mon père.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’ay plus aucune tendreſſe pour toy.</orig>
+            <reg>Je n'ai plus aucune tendresse pour toi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais.</orig>
+            <reg>Mais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE C’eſt vne friponne.</orig>
+            <reg>SGANARELLE C'est une friponne.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Avlalo.</orig>
+            <reg>Avlalo.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGNARELLE vne ingratte.</orig>
+            <reg>SGNARELLE une ingrate.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais.</orig>
+            <reg>Mais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>vno coquine quild mna iveut pas dire ce qu’elle a.</orig>
+            <reg>un coquine quild mna jeut pas dire ce qu'elle a.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETSETIE C’eſt vn mary qu’elle veut</orig>
+            <reg>ETSETIE C'est un mari qu'elle veut</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Faïſant sẽblant de ne pas entẽdre.</orig>
+            <reg>Faïsant semblant de ne pas entendre.</reg>
+          </seg>
+          <seg>
+            <orig>Ie l’abandonne.</orig>
+            <reg>Je l'abandonne.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn mary,</orig>
+            <reg>Un mari,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie la deteſte.</orig>
+            <reg>Je la déteste.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>vIl fliery .</orig>
+            <reg>vIl flier .</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Et la renonce pour ma fille.</orig>
+            <reg>Et la renonce pour ma fille.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn mary.</orig>
+            <reg>Un mari.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, ne m’en parlez point.</orig>
+            <reg>Non, ne m'en parlez point.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETOLTTL.</orig>
+            <reg>ETOLTTL.</reg>
+          </seg>
+          <seg>
+            <orig>Vn mary.</orig>
+            <reg>Un mari.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Ne m’en parlez point.</orig>
+            <reg>SGANARELLE Ne m'en parlez point.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn mary.</orig>
+            <reg>Un mari.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GANARELLE Ne m’en parlez point.</orig>
+            <reg>GANARELLE Ne m'en parlez point.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn mary, vn mary, vn mary.</orig>
+            <reg>Un mari, un mari, un mari.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE IV LIDEATEEVCINDE.</orig>
+          <reg>SCÈNE IV LIDEATEUCINDE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LYSETTE.</orig>
+          <reg>LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>N dit bien vray:</orig>
+          <reg>N dit bien vrai:</reg>
+        </seg>
+        <seg>
+          <orig>qu’il n’y a point de pires louids, que ceus qui ne veulent point entendre.</orig>
+          <reg>qu'il n'y a point de pires louids, que ceus qui ne veulent point entendre.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé bien, Lyſette, i’auois tort de cacher mon deſplaiſir, &amp; ie n’auois qu’à parler, pour auoir tout ce que ie ſouhaittois de mon pere:</orig>
+            <reg>Hé bien, Lysette, j'avais tort de cacher mon déplaisir, et notre n'avais qu'à parler, pour avoir tout ce que sans souhaitais de mon père:</reg>
+          </seg>
+          <seg>
+            <orig>tu le vois.</orig>
+            <reg>tu le vois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Par ma foy, voila vn vilain homme, &amp; ie vous auouë que i’aurois vn plaiſir extréme à luy jouër quelque tour.</orig>
+            <reg>Par ma foi, voilà un vilain homme, et je vous avoue que j'aurais un plaisir extrême à M jouër quelque tour.</reg>
+          </seg>
+          <seg>
+            <orig>Mais d’où vient donc, Madame, que iuſqu’icy vous m’auez cache voſtre mal?</orig>
+            <reg>Mais d'où vient donc, Madame, que jusqu'ici vous m'avez cache votre mal?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Helas, dequoy mauroit ſeruy de te le decouurir plûtoſt!</orig>
+            <reg>Hélas, dequoy maurait servi de te le découvrir plutôt!</reg>
+          </seg>
+          <seg>
+            <orig>&amp; n’aurois-je pas autant gagné à le tenir cache toute ma vie.</orig>
+            <reg>et n'aurais-je pas autant gagné à le tenir cache toute ma vie.</reg>
+          </seg>
+          <seg>
+            <orig>Crois-tu que ie n’aye pas bien preueu tout ce que tu vois maintenant, que ie ne ſceuſſe pas à fonds tous les ſentimens de mon pere;</orig>
+            <reg>Crois-tu que Dieu n'aie pas bien preu tout ce que tu vois maintenant, que ici ne sceusse pas à fond tous les sentiments de mon père;</reg>
+          </seg>
+          <seg>
+            <orig>que le rufus qu’il a fait porter à celuy qui m’a dem adée par vn amy, n’ait pas eſtouffé dans mon ame toute ſorte d’eſpoir.</orig>
+            <reg>que le rufus qu'il a fait porter à celui qui m'a dem adée par un ami, n'ait pas étouffé dans mon âme toute sorte d'espoir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, c’eſt cét inconnu qui vous a fait demander, pour qui vous.</orig>
+            <reg>Quoi, c'est cet inconnu qui vous a fait demander, pour qui vous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Peut-eſtre n’eſt-il pas honneſte à vne fille de s’expliquer ſi librement;</orig>
+            <reg>Peut-être n'est-il pas honnête à une fille de s'expliquer si librement;</reg>
+          </seg>
+          <seg>
+            <orig>mais enfin, ie t’auoüe que s’il m’eſtoit permis de vouloir quelque choſe, ce ſeroit luy que ie voudrois.</orig>
+            <reg>mais enfin, notre t'avoue que s'il m'était permis de vouloir quelque chose, ce serait quelque que ie voudrais.</reg>
+          </seg>
+          <seg>
+            <orig>Nous n’auons enſemble aucune conuerſation, &amp; ſa bouche ne m’a point declaré la paſſion qu’il a pour moy:</orig>
+            <reg>Nous n'avons ensemble aucune conversation, et sa bouche ne m'a point déclaré la passion qu'il a pour moi:</reg>
+          </seg>
+          <seg>
+            <orig>mais dans tous les lieux où il m’a pũ voir, ſes regards &amp; ſes actions m’ont touſiours parlé ſi tendrement, &amp; la demande qu’il à fait faire de moy, m’a paru d’vn ſi honneſte homme, que mon cœur n’a pù s’empeſcher d’eſtre ſenſible à ſes ardeurs;</orig>
+            <reg>mais dans tous les lieux où il m'a pun voir, ses regards et ses actions m'ont toujours parlé si tendrement, et la demande qu'il à fait faire de moi, m'a paru d'Un si honnête homme, que mon cœur n'a puù s'empêcher d'être sensible à ses ardeurs;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; cependant tu vois où la duretẽ de mon pere, reduit toute cette tendreſſe.</orig>
+            <reg>et cependant tu vois où la duretien de mon père, réduit toute cette tendresse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, laiſſez-moy faire, quelque ſuiet que i’aye de me plaindre de vous du ſecret que vous m’auez fait, ie ne veux pas laiſſer de ſeruir voſtre amour;</orig>
+            <reg>Allez, laissez-moi faire, quelque sujet que j'aie de me plaindre de vous du secret que vous m'avez fait, une ne veux pas laisser de servir votre amour;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; pourueu que vous ayez aſſez de reſolution.</orig>
+            <reg>et pourvu que vous ayez assez de résolution.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais que veux-tu que ie faſſe contre l’authorité d’vn pere?</orig>
+            <reg>Mais que veux-tu que ici fasse contre l'autorité d'un père?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; s’il eſt inexhorabie a ilies voum.</orig>
+            <reg>et s'il est inexhorabie a ilies voum.</reg>
+          </seg>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, allez, il ne faut pas ſe laiſſer mener cõme vn Oyſon, &amp; pourueu que l’honneur n’y ſoit pas offenſé, on peut ſe liberer vn peu de la tyrannie d’vn pere.</orig>
+            <reg>Allez, allez, il ne faut pas se laisser mener comme vn Oyson, et pourvu que l'honneur n'y soit pas offensé, on peut se libérer un peu de la tyrannie d'un père.</reg>
+          </seg>
+          <seg>
+            <orig>Que pretend-il que vous faſſiez?</orig>
+            <reg>Que prétend-il que vous fassiez?</reg>
+          </seg>
+          <seg>
+            <orig>N’eſtes-vous pas en âge d’eſtre mariée?</orig>
+            <reg>N'êtes-vous pas en âge d'être mariée?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; croitil que vous ſoyez de marbre?</orig>
+            <reg>et croitil que vous soyez de marbre?</reg>
+          </seg>
+          <seg>
+            <orig>Allez, encor vn coup, ie veux ſeruir voſtre paſſion, ie prens dés à preſent ſur moy tout le ſoin de ſes intereſts, &amp; vous verrez que ie ſçay des deſtours.</orig>
+            <reg>Allez, encor un coup, je veux servir votre passion, Elle prends dès à présent sur moi tout le soin de ses intérêts, et vous verrez que sans sais des détours.</reg>
+          </seg>
+          <seg>
+            <orig>Mais ie vois voſtre pere, rentrons, &amp; me laiſſez</orig>
+            <reg>Mais ici vois votre père, rentrons, et me laissez</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>DOLETI V DGANANELLE,</orig>
+          <reg>DOLETI V GANANELLE,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>L eſt bon quelque fois de ne point faire ſemblant dentendre les choſes qu’on n’entend que trop bien:</orig>
+          <reg>L est bon quelque fois de ne point faire semblant dentendre les choses qu'on n'entend que trop bien:</reg>
+        </seg>
+        <seg>
+          <orig>&amp; i’ay fait ſagement de parer la declaration d’vn deſir que ie ne ſuis pas reſolu de contenter.</orig>
+          <reg>et j'ai fait sagement de parer la déclaration d'un désir que je ne suis pas résolu de contenter.</reg>
+        </seg>
+        <seg>
+          <orig>A-t’on iamais rien veu de plus tyrannique cette couſtume où l’on veut aſſujettir les peres?</orig>
+          <reg>A-t-on jamais rien vu de plus tyrannique cette coutume où l'on veut assujettir les pères?</reg>
+        </seg>
+        <seg>
+          <orig>Rien de plus impertinent, &amp; de plus ridicule, que d’amaſſer du bien auec de grands trauaux, &amp; eſleuer vne fi le auec beaucoup de ſoin &amp; de tendreſſe, pour ſe deſpoüiller de l’vn &amp; de l’autre entre les mains d’vn homme qui ne nous touche de rien.</orig>
+          <reg>Rien de plus impertinent, et de plus ridicule, que d'amasser du bien avec de grands travaux, et élever une fi le Roi beaucoup de soin et de tendresse, pour se dépouiller de l'un et de l'autre entre les mains d'un homme qui ne nous touche de rien.</reg>
+        </seg>
+        <seg>
+          <orig>Non, non, ie me mocque de cét vſage, &amp; ie veux garder moiheiice ma fille pour moy.</orig>
+          <reg>Non, non, Seigneur me moque de cet usage, et votre veux garder moihéiice ma fille pour moi.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE</orig>
+          <reg>SCÈNE</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VI.</orig>
+          <reg>SCÈNE VI.</reg>
+        </seg>
+        <seg>
+          <orig>LISLITE, SGANVIIRLELE.</orig>
+          <reg>LISLITE, SGANVIRLELE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>N LYSETTE.</orig>
+            <reg> LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>H, malheur!</orig>
+            <reg>H, malheur!</reg>
+          </seg>
+          <seg>
+            <orig>ah diſgrace!</orig>
+            <reg>ah disgrâce!</reg>
+          </seg>
+          <seg>
+            <orig>ah, pauure Seigneur Sganareſſe !</orig>
+            <reg>ah, pauvre Seigneur Séganaresse !</reg>
+          </seg>
+          <seg>
+            <orig>’où pourray je te rencontrer?</orig>
+            <reg>Où pourrai -je te rencontrer?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE, Que dit-elle-là?</orig>
+            <reg>SGANARELLE, Que dit-elle-là?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>aiil fiiiſerabie pere.</orig>
+            <reg>aiil fiiserabie père.</reg>
+          </seg>
+          <seg>
+            <orig>que feras-tu?</orig>
+            <reg>que feras-tu?</reg>
+          </seg>
+          <seg>
+            <orig>quand tu ſçauras cette nouuelle.</orig>
+            <reg>quand tu sauras cette nouvelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Que ſera-ce?</orig>
+            <reg>Que sera-ce?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Avia pauule Ivlancrence</orig>
+            <reg>Avia pauvle Julancrence</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ſuis perdu.</orig>
+            <reg>Je suis perdu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Lyſette.</orig>
+            <reg>Lysette.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETSLTAL.</orig>
+            <reg>ETSLTAL.</reg>
+          </seg>
+          <seg>
+            <orig>Quelle infortune!</orig>
+            <reg>Quelle infortune!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANANLELE, Lyſette.</orig>
+            <reg>SGANANLELE, Lysette.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Qeruceident.</orig>
+            <reg>Quervceident.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Eyiette,</orig>
+            <reg>SGANARELLE Eyiette,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ly ſette.</orig>
+            <reg>Ly sette.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur.</orig>
+            <reg>Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’y a-t’il?</orig>
+            <reg>Qu'y a-t-il?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur ne pleurez donc point comme cela:</orig>
+            <reg>Monsieur ne pleurez donc point comme cela:</reg>
+          </seg>
+          <seg>
+            <orig>car vous me ſeriez rire.</orig>
+            <reg>car vous me seriez rire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GNARELLE Dy donc viſte.</orig>
+            <reg>GNARELLE Dis donc vite.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Voſtre fille toute ſaiſie des paroles que vous luy auel dites &amp; de la colere offroyable où elle vous a veu contre elle, eſt montée viſte dans ſa chambre, &amp; pleine de deſeſpoir, a ouuere la fenoime ui regarde ſur la riuiere.</orig>
+            <reg>Votre fille toute saisie des paroles que vous lui auel dites et de la colère offroyable où elle vous a vu contre elle, est montée vite dans sa chambre, et pleine de désespoir, a ouuère la fenoime ui regarde sur la rivière.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANVARELLL.</orig>
+            <reg>SGANVARELLL.</reg>
+          </seg>
+          <seg>
+            <orig>Hé bien.</orig>
+            <reg>Hé bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Alors, leuant les yeux au Ciel.</orig>
+            <reg>Alors, levant les yeux au Ciel.</reg>
+          </seg>
+          <seg>
+            <orig>Non, a-t’elle dit, il m’eſt impoſſible de viure auec le courroux de mon pere:</orig>
+            <reg>Non, a-t-elle dit, il m'est impossible de vivre avec le courroux de mon père:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; puiſqu’il me renonce pour ſa fille, ie veux mourir.</orig>
+            <reg>et puisqu'il me renonce pour sa fille, je veux mourir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Ele det leucce,</orig>
+            <reg>SGANARELLE Él dét leuce,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, Monſieur, elle a fermé tout poucement la feneſtre &amp; s’eſt allée mettre ſur ſon lict.</orig>
+            <reg>Non, Monsieur, elle a fermé tout poucement la fenêtre et s'est allée mettre sur son lit.</reg>
+          </seg>
+          <seg>
+            <orig>Là elle s’eſt priſe à pleurer amerement, &amp; tout d’vn coup ſon viſage à pally, ſes yeux ſe ſont tournez, le cœur luy a manque, &amp; elle m’eſt demeurée entre les bras.</orig>
+            <reg>Là elle s'est prise à pleurer amèrement, et tout d'un coup son visage à palli, ses yeux se sont tournés, le cœur a a manque, et elle m'est demeurée entre les bras.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Ah, ma fille!</orig>
+            <reg>SGANARELLE Ah, ma fille!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>A force de la tourmenter ie l’ay fait reuenir:</orig>
+            <reg>À force de la tourmenter ici l'ai fait revenir:</reg>
+          </seg>
+          <seg>
+            <orig>mais cela luy reprend de moment en moment, &amp; ie croy qu’elle ne B iij Pumera pue lu dunec.</orig>
+            <reg>mais cela y reprend de moment en moment, et ainsi crois qu'elle ne B ij Umera pue lu dunec.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE Champagne, Champagne Champagne viſte, qu’on m’aille querir des Medecins, &amp; en quantité, on n’en peut trop auoir dans vne pareille auanture.</orig>
+            <reg>SGANARELLE Champagne, Champagne Champagne vite, qu'on m'aille quérir des Médecins, et en quantité, on n'en peut trop avoir dans une pareille aventure.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, ma fille!</orig>
+            <reg>Ah, ma fille!</reg>
+          </seg>
+          <seg>
+            <orig>ma pauure fille!</orig>
+            <reg>ma pauvre fille!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du premier Acte.</orig>
+          <reg>Fin du premier Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>L.</orig>
+          <reg>L.</reg>
+        </seg>
+        <seg>
+          <orig>ENTRE-ACTE.</orig>
+          <reg>ENTRE-ACTE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACIE.</orig>
+          <reg>ACIE.</reg>
+        </seg>
+        <seg>
+          <orig>II.</orig>
+          <reg>II.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE I.</orig>
+          <reg>SCÈNE I.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE, LYSETTE.</orig>
+          <reg>SGANARELLE, LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>LYSETTE.</orig>
+          <reg>LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>VE voulez-vous 3 donc faire, Monzſieur, de quatre Medecins?</orig>
+          <reg>VE voulez-vous 3 donc faire, Monzsieur, de quatre Médecins?</reg>
+        </seg>
+        <seg>
+          <orig>N’eſt-ce pas aſſez d’vn pour tuer vne perſonne?</orig>
+          <reg>N'est-ce pas assez d'un grand tuer une personne?</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Taiſez-vous.</orig>
+            <reg>Taisez-vous.</reg>
+          </seg>
+          <seg>
+            <orig>Quatre conſeils vallent mieux qu’vn.</orig>
+            <reg>Quatre conseils valent mieux qu'un.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>B.</orig>
+            <reg>B.</reg>
+          </seg>
+          <seg>
+            <orig>iiij</orig>
+            <reg>jijà</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce que voſtre fille ne peut pas bien mourir, ſans le ſecours de ces Meſſieurs-Ia?</orig>
+            <reg>Est-ce que votre fille ne peut pas bien mourir, sans le secours de ces Messieurs-Ia?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGNARELLE Eſt-ce que les Medecins font mourir?</orig>
+            <reg>SGNARELLLE Est-ce que les Médecins font mourir?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Sans doute:</orig>
+            <reg>Sans doute:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; i’ay connu vn homme qui prouuoit, par bonnes raiſons, qu’il ne faut iamais dire vne telle perſonne eſt morte d’vne fiévre &amp; d’vne fluxion ſur la poictrine:</orig>
+            <reg>et j'ai connu un homme qui prouvait, par bonnes raisons, qu'il ne faut jamais dire une telle personne est morte d'une fièvre et d'une fluxion sur la poitrine:</reg>
+          </seg>
+          <seg>
+            <orig>mais elle eſt morte de quatre Medecins, &amp; de deux Apothicaires.</orig>
+            <reg>mais elle est morte de quatre Médecins, et de deux Apothicaires.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Chut, n’offenſez pas ces Meſſieurs-la.</orig>
+            <reg>Chut, n'offensez pas ces Messieurs-la.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LISETTE Ma foy, Monſieur, noſtre Chat eſt rechappé depuis peu, d’vn ſaut qu’il fit du haut de la maiſon dans la rue, &amp; il fut trois iours ſaus manger, &amp; lans pouuoir remuër ny pied ny patte;</orig>
+            <reg>LISETTE Ma foi, Monsieur, notre Chat est rechappé depuis peu, d'un saut qu'il fit du haut de la maison dans la rue, et il fut trois jours sa manger, et lans pouvoir remuer ni pieds ni patte;</reg>
+          </seg>
+          <seg>
+            <orig>mais il eſt bien-heureux de ce qu’il n’y a point de Chats Medecins:</orig>
+            <reg>mais il est bienheureux de ce qu'il n'y a point de Chats Médecins:</reg>
+          </seg>
+          <seg>
+            <orig>car ſes affaires eſtoient faites, &amp; ils n’auroient pas manqué de le purger, &amp; de le ſaigner.</orig>
+            <reg>car ses affaires étaient faites, et ils n'auraient pas manqué de le purger, et de le saigner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>voulen vous vous canejvous disje;</orig>
+            <reg>voulen vous vous canejvous disje;</reg>
+          </seg>
+          <seg>
+            <orig>mais voyez quelle impertinence.</orig>
+            <reg>mais voyez quelle impertinence.</reg>
+          </seg>
+          <seg>
+            <orig>Les voicy.</orig>
+            <reg>Les voici.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Prenez garde, vous allez eſtre bien édifié ils vous diront en Latin que voſtre fille eſt malade.</orig>
+            <reg>Prenez garde, vous allez être bien édifié ils vous diront en Latin que votre fille est malade.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MOLIU II.</orig>
+          <reg>MOLIV II.</reg>
+        </seg>
+        <seg>
+          <orig>MESSIEVRS TOME’S, DES FONANDRE'S, MACROTON, ET BAHYS, Medecins.</orig>
+          <reg>MESSIEURS TOME'S, DES FONANDRE'S, MACROTON, ET BAHYS, Médecins.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE, LYSETTE,</orig>
+          <reg>SGANARELLE, LYSETTE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ma fille onff mn</orig>
+            <reg>Ma fille on mn</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Ie veux dire qu’il y a beaucoup d’impureté dans ſon corps, quantité d’humeurs corrompues.</orig>
+            <reg>Je veux dire qu'il y a beaucoup d'impureté dans son corps, quantité d'humeurs corrompues.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, ie vous entens.</orig>
+            <reg>Ah, Seigneur vous entends.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>luib.</orig>
+            <reg>luib.</reg>
+          </seg>
+          <seg>
+            <orig>Ilous diiolis coiſſulter enſemble.</orig>
+            <reg>Ilous diolis coissulter ensemble.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Allons, faites donner des ſieges.</orig>
+            <reg>Allons, faites donner des sièges.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, Monſieur, vous en eſtes.</orig>
+            <reg>Ah, Monsieur, vous en êtes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Dequoy donc connoiſſezvous Monſieur?</orig>
+            <reg>Dequoy donc connoissezvous Monsieur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>De l’auoir veu l’autre iour, chez la bonne amie de Madaine volde fece.</orig>
+            <reg>De l'avoir vu l'autre jour, chez la bonne amie de Madaine volde fèce.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Comment ſe porte ſon Cocher?</orig>
+            <reg>Comment se porte son Cocher?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AIEHTIE.</orig>
+            <reg>AIEHTIE.</reg>
+          </seg>
+          <seg>
+            <orig>Fort bien, il eſt mort.</orig>
+            <reg>Fort bien, il est mort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mort.</orig>
+            <reg>Mort.</reg>
+          </seg>
+          <seg>
+            <orig>MI.</orig>
+            <reg>MI.</reg>
+          </seg>
+          <seg>
+            <orig>TONILS.</orig>
+            <reg>TONILS.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Oüy.</orig>
+            <reg>Oui.</reg>
+          </seg>
+          <seg>
+            <orig>LISETTE.</orig>
+            <reg>LISETTE.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Cela ne ſe peut.</orig>
+            <reg>Cela ne se peut.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETOETAL.</orig>
+            <reg>ETOTETAL.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne ſçay pas ſi cela ſe peut, mais ie ſçay bien que ceia eſt.</orig>
+            <reg>Je ne sais pas si cela se peut, mais Seigneur sais bien que cia est.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOMÉS.</orig>
+            <reg>TOMÊ.</reg>
+          </seg>
+          <seg>
+            <orig>Il ne peut pas eſtre mort, Vouu dnd LCe</orig>
+            <reg>Il ne peut pas être mort, Vouu dînd LCée</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Et moy ie vous dis qu’il eſt mort, &amp; enterre.</orig>
+            <reg>Et moi ici vous dis qu'il est mort, et enterre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Vous vous trompez.</orig>
+            <reg>Vous vous trompez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETSETTE.</orig>
+            <reg>ETSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie l’ay veu.</orig>
+            <reg>Je l'ai vu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOMES.</orig>
+            <reg>TOMES.</reg>
+          </seg>
+          <seg>
+            <orig>Cela eſt impoſſible.</orig>
+            <reg>Cela est impossible.</reg>
+          </seg>
+          <seg>
+            <orig>Hippocrate dit, que ces ſortes de maladies ne ſe terminent qu’au quatorze, ou au vingt-vn, &amp; il n’y a que ſix iours qu’il eſt tombé malade.</orig>
+            <reg>Hypocrate dit, que ces sortes de maladies ne se terminent qu'au quatorze, ou au vingt-un, et il n'y a que six jours qu'il est tombé malade.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Hippocrate dira ce qu’il luy plaira;</orig>
+            <reg>Hypocrate dira ce qu'il lui plaira;</reg>
+          </seg>
+          <seg>
+            <orig>mais le Cocher eſt mort.</orig>
+            <reg>mais le Cocher est mort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Paix, diſcoureuſe, allons ſortons d’icy.</orig>
+            <reg>Paix, discoureuse, allons sortons d'ici.</reg>
+          </seg>
+          <seg>
+            <orig>Meſſieurs, ie vous ſupplie de conſulter de la bone maniere.</orig>
+            <reg>Messieurs, Seigneur vous supplie de consulter de la bone manière.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy que ce ne ſoit pas la coûtume de payer auparauant;</orig>
+            <reg>Quoi que ce ne soit pas la coutume de payer auparavant;</reg>
+          </seg>
+          <seg>
+            <orig>toutefois de peur que ie l’oublie, &amp; afin que ce ſoit vne affaire faite, voicy.</orig>
+            <reg>toutefois de peur que ici l'oublie, et afin que ce soit affaire faite, voici.</reg>
+          </seg>
+          <seg>
+            <orig>Ils les paye, &amp; chacun en receuant l’argent, jui vn geſte different.</orig>
+            <reg>Ils les paie, et chacun en recevant l'argent, jui un geste différend.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE III.</orig>
+          <reg>SCÈNE III.</reg>
+        </seg>
+        <seg>
+          <orig>MESSIEVRS DESFONANDRE’S, TOME’S, MACROTON, ET BAHYS.</orig>
+          <reg>MESSIEURS DESFONANDRE'S, TOME'S, MACROTON, ET BAHYS.</reg>
+        </seg>
+        <seg>
+          <orig>1, sejejem Clonjente.</orig>
+          <reg>1, sejejem Clonjente.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Aris eſt eſtrangement grand, &amp; il faut faire de longs ttajets, quand la pratique donnne vn peu.</orig>
+            <reg>Aris est étrangement grand, et il faut faire de longs tajets, quand la pratique donnne un peu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S I’ay vn cheual merueilleux, &amp; cert vil ailimlal fatigable.</orig>
+            <reg>DESFONANDRÉS J'ai un cheval merveilleux, et cert vil ailimlal fatigable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Sçauez-vous le chemin que ma Mule a fait auiourd’huy.</orig>
+            <reg>Savez-vous le chemin que ma Mule a fait aujourd'hui.</reg>
+          </seg>
+          <seg>
+            <orig>I’ay eſté premierement tout contre l’Arſenal, de l’Arſenal au bout du Fauxbourg S.</orig>
+            <reg>J'ai été premièrement tout contre l'Arsenal, de l'Arsenal au bout du Faubourg S.</reg>
+          </seg>
+          <seg>
+            <orig>Germain, du Fauxbourg S.</orig>
+            <reg>Germain, du Fauxbourg S.</reg>
+          </seg>
+          <seg>
+            <orig>Germain au fond du Marais, du fond du Marais à la Porte S.</orig>
+            <reg>Germain au fond du Marais, du fond du Marais à la Porte S.</reg>
+          </seg>
+          <seg>
+            <orig>Honoré, de la Porte S.</orig>
+            <reg>Honoré, de la Porte S.</reg>
+          </seg>
+          <seg>
+            <orig>Honore au Fauxbourg S.</orig>
+            <reg>Honore au Faubourg S.</reg>
+          </seg>
+          <seg>
+            <orig>Iacques du Fauxbourg S.</orig>
+            <reg>Jacques du Faubourg S.</reg>
+          </seg>
+          <seg>
+            <orig>Iacques à la Porte de Richelieu, de la Porte de Richelieu icy, &amp; d’icy ie dois aller encor à la Place</orig>
+            <reg>Jacques à la Porte de Richelieu, de la Porte de Richelieu ici, et d'ic ie dois aller encor à la Place</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESEONANDRE’S, Mon cheual a fait tout cela auiourd’huy, &amp; de plus i’ay eſté à reuer voil vn malade.</orig>
+            <reg>DESEONANDRÉS, Mon cheval a fait tout cela aujourd'hui, et de plus j'ai été à rêver voil malade.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Mais à propos quel party prenez-vous dans la quere le des deux Medecins, Theophraſte, &amp; Artemius;</orig>
+            <reg>Mais à propos quel parti prenez-vous dans la quere le des deux Médecins, Théophraste, et Artemius;</reg>
+          </seg>
+          <seg>
+            <orig>car e’eſt vne affaite qui partage tout noſtre Corps.</orig>
+            <reg>car éte est une affaite qui partage tout notre Corps.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Moy, ie ſuis pour Artemius.</orig>
+            <reg>Moi, Seigneur suis pour Artemius.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOMES.</orig>
+            <reg>TOMES.</reg>
+          </seg>
+          <seg>
+            <orig>Et moy auſſi, ce n’eſt pas que ſon auis, comme on a veu, n’ait tué le malade, &amp; que celuy de Theophraſte ne fuſt beaucoup 1 meilleur aſſeurément:</orig>
+            <reg>Et moi aussi, ce n'est pas que son avis, comme on a vu, n'ait tué le malade, et que celui de Théophraste ne fût beaucoup 1 meilleur asseurément:</reg>
+          </seg>
+          <seg>
+            <orig>Mais enfin, il a tort dans les circonſtances, &amp; il ne deuoit pas eſtre d’vn autre auis que ſon Ancien.</orig>
+            <reg>Mais enfin, il a tort dans les circonstances, et il ne devait pas été d'un autre avis que son Ancien.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'en dites-vous?</orig>
+            <reg>Qu'en dites-vous?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Sans doute.</orig>
+            <reg>Sans doute.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut touſiours garder les formalitez, quoy qu’il puiſſe arriuer.</orig>
+            <reg>Il faut toujours garder les formalités, quoi qu'il puisse arriver.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy i’y ſuis ſeuere en Diable, à moins que ce ſoit entre amis, &amp; l’on nous aſſembla vn iour trois de nous autres auec vn Medecin de dehors, pour vne conſultation, où i’arreſtay toute l’affaire, &amp; ne voulus point endurer qu’on opinaſt ſi les choſes n’alloient dans l’ordre.</orig>
+            <reg>Pour moi j'y suis sévère en Diable, à moins que ce soit entre amis, et l'on nous assembla un jour trois de nous autres avec un Médecin de hors, pour une consultation, où j'arrêtai toute l'affaire, et ne voulût point endurer qu'on opinât si les choses n'allaient dans l'ordre.</reg>
+          </seg>
+          <seg>
+            <orig>Les gens de la maiſon faiſoient ce qu’ils pouuoient, &amp; la maladie preſſoit:</orig>
+            <reg>Les gens de la maison faisaient ce qu'ils pouvaient, et la maladie pressait:</reg>
+          </seg>
+          <seg>
+            <orig>mais ie n’en voulus point demordre, &amp; la malade mourut brauement pendant cette conteſtation.</orig>
+            <reg>mais ici n'en voulus point démordre, et la malade mourut bravement pendant cette contestation.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S C’eſt fort bien fait d’apprendie ada gens te vidroy de leur montrer leur bec jaune.</orig>
+            <reg>DESFONANDRES C'est fort bien fait d'apprendie ada gens te vitroi de leur montrer leur bec jaune.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>TOMES.</orig>
+          <reg>TOMES.</reg>
+        </seg>
+        <seg>
+          <orig>Vn homme mort, n’eſt qu’vn homme mort, &amp; ne fait point de conſequence;</orig>
+          <reg>Un homme mort, n'est qu'un homme mort, et ne fait point de conséquence;</reg>
+        </seg>
+        <seg>
+          <orig>Mais me formalite negligée, porte vn notable preiudice à tout le Corps des Medecins.</orig>
+          <reg>Mais me formalité négligée, porte un notable préjudice à tout le Corps des Médecins.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE IV.</orig>
+          <reg>SCÈNE IV.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE, MESSIEVRS LCTE S,DESFONANDRE’S, MACROTON, ET BAHIS,</orig>
+          <reg>SGANARELLE, MESSIEURS LCTE S,DESFONANDRE'S, MACROTON, ET BAIS,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>TOME'S.</orig>
+          <reg>TOME'S.</reg>
+        </seg>
+        <seg>
+          <orig>Vous vous mocquez.</orig>
+          <reg>Vous vous moquez.</reg>
+        </seg>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>DESFONANDRE’S.</orig>
+          <reg>DESFONANDRÉT.</reg>
+        </seg>
+        <seg>
+          <orig>Ie ne parleray pas le premier.</orig>
+          <reg>Je ne parlerai pas le premier.</reg>
+        </seg>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>TOME’S.</orig>
+          <reg>TOME'S.</reg>
+        </seg>
+        <seg>
+          <orig>Monſieur.</orig>
+          <reg>Monsieur.</reg>
+        </seg>
+        <seg>
+          <orig>M.</orig>
+          <reg>M.</reg>
+        </seg>
+        <seg>
+          <orig>DESFONANDRL'S.</orig>
+          <reg>DESFONANDRLS.</reg>
+        </seg>
+        <seg>
+          <orig>Monſieur.</orig>
+          <reg>Monsieur.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>Hé, de grace, Meſſieurs, laiſſez toutes ces ceremonies, &amp; longez que les enoles prei ſent.</orig>
+          <reg>Hé, de grâce, Messieurs, laissez toutes ces cérémonies, et longez que les enoles pré jour.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Ils parlent tous quatre enſemble.</orig>
+            <reg>Ils parlent tous quatre ensemble.</reg>
+          </seg>
+          <seg>
+            <orig>La maladie de voſtre fille M.</orig>
+            <reg>La maladie de votre fille M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE’S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>L’auis de tous ces Fraciheur.</orig>
+            <reg>L'avis de tous ces Fraciheur.</reg>
+          </seg>
+          <seg>
+            <orig>tous enſemble.</orig>
+            <reg>tous ensemble.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>MACROTON.</orig>
+            <reg>MACROTON.</reg>
+          </seg>
+          <seg>
+            <orig>Apres auon bieiconſulte.</orig>
+            <reg>Après avon bieiconsulte.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS, Pour railonner.</orig>
+            <reg>BAHYSS, Pour railonner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, Meſſieurs?</orig>
+            <reg>Hé, Messieurs?</reg>
+          </seg>
+          <seg>
+            <orig>parlez l’vn apres l’autre, de grace.</orig>
+            <reg>parlez l'un après l'autre, de grâce.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, nous auons raiſonné ſur la maladie de voſtre fille;</orig>
+            <reg>Monsieur, nous avons raisonné sur la maladie de votre fille;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; mon auis,, a moy, eſt, que cela procede d’vne grande chaleur de ſang:</orig>
+            <reg>et mon avis, à moi, est, que cela procède d'une grande chaleur de sang:</reg>
+          </seg>
+          <seg>
+            <orig>ainſi ie conclus à la ſaigner le pluſtoſt que vous pourrez.</orig>
+            <reg>ainsi ici conclus à la saigner le plustost que vous pourrez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE’S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Et moy, ie die que la fſaladie eſt vne porriture d’humeurs, cauſée par vne trop grande repletion;</orig>
+            <reg>Et moi, iemaire que la fsaladie est une porriture d'humeurs, causée par une trop grande réplétion;</reg>
+          </seg>
+          <seg>
+            <orig>ainſi ie conclus à luy donner de l’hemetique.</orig>
+            <reg>ainsi ici conclus à lui donner de l'hémétique.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ſouſtiens que l’hemetique la tuëra.</orig>
+            <reg>Je soutiens que l'hémetique la tuera.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Dehej y que ne luigide la fera mourir.</orig>
+            <reg>Déjà y que ne luigide la fera mourir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt bien à vous de faire l’habile homme.</orig>
+            <reg>C'est bien à vous de faire l'habile homme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, c’eſt à moy.</orig>
+            <reg>Oui, c'est à moi.</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ie vous preſteray le colet en tout genre d’érudition.</orig>
+            <reg>et petit vous prêterai le colt en tout genre d'érudition.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>me que vous fiſtes creuer ces iours paſſez.</orig>
+            <reg>me que vous fîtes cruer ces jours passés.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE’S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Souuenez vous de la Dame que vous auez enuoyée en l’autre monde, il y a troſs lours.</orig>
+            <reg>Souvenez vous de la Dame que vous avez envoyée en l'autre monde, il y a tross lours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vous ay dit mon auis.</orig>
+            <reg>Je vous ai dit mon avis.</reg>
+          </seg>
+          <seg>
+            <orig>ESFONANDRE'S.</orig>
+            <reg>ESFONANDRÉS.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vous ay dit ma penſeé.</orig>
+            <reg>Je vous ai dit ma pensé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Si vous ne faites ſaigner tout à Theure voſtre fille, c’eſt vne perſonne morte.</orig>
+            <reg>Si vous ne faites saigner tout à Theure votre fille, c'est une personne morte.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE’S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>Si vous la faites ſaigner, elle ne ſera pas enuie dans vn quart d’heure.</orig>
+            <reg>Si vous la faites saigner, elle ne sera pas envie dans un quart d'heure.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE</orig>
+          <reg>SCÈNE</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SCENE V.</orig>
+            <reg>SCÈNE V.</reg>
+          </seg>
+          <seg>
+            <orig>SGANARELLE, Mre.</orig>
+            <reg>SGANARELLE, Mre.</reg>
+          </seg>
+          <seg>
+            <orig>MACROTON, ET BAHYS, MEDECIN.</orig>
+            <reg>MACROTON, ET BAHYSS, MÉDECIN.</reg>
+          </seg>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>qui croire desdeux?</orig>
+            <reg>qui croire dédeux?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; quelle reſolution prẽdre ſur des auis ſi oppoſez?</orig>
+            <reg>et quelle résolution prendre sur des avis si opposés?</reg>
+          </seg>
+          <seg>
+            <orig>Meſſieurs, ie vous coniure de determiner mon eſprit, &amp; de me dire, ſans paſſion, ce que vous croyez le plus prôpre à ſoulager ma fille.</orig>
+            <reg>Messieurs, je vous conjure de déterminer mon esprit, et de me dire, sans passion, ce que vous croyez le plus prospre à soulager ma fille.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>MACROTON.</orig>
+            <reg>MACROTON.</reg>
+          </seg>
+          <seg>
+            <orig>Il parle en allongeant ſes mots.</orig>
+            <reg>Il parle en allongeant ses mots.</reg>
+          </seg>
+          <seg>
+            <orig>Mon-ſi eur.</orig>
+            <reg>Mon-si eur.</reg>
+          </seg>
+          <seg>
+            <orig>Dans.</orig>
+            <reg>Dans.</reg>
+          </seg>
+          <seg>
+            <orig>ces.</orig>
+            <reg>ces.</reg>
+          </seg>
+          <seg>
+            <orig>ma C ti-e-res.</orig>
+            <reg>ma Ç y-je-rés.</reg>
+          </seg>
+          <seg>
+            <orig>là.</orig>
+            <reg>là.</reg>
+          </seg>
+          <seg>
+            <orig>il.</orig>
+            <reg>il.</reg>
+          </seg>
+          <seg>
+            <orig>faut.</orig>
+            <reg>faut.</reg>
+          </seg>
+          <seg>
+            <orig>pro-ceder.</orig>
+            <reg>procéder.</reg>
+          </seg>
+          <seg>
+            <orig>auec-que.</orig>
+            <reg>avec-que.</reg>
+          </seg>
+          <seg>
+            <orig>cir-conſ-pection.</orig>
+            <reg>cir-cons-pection.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;.</orig>
+            <reg>et.</reg>
+          </seg>
+          <seg>
+            <orig>ne.</orig>
+            <reg>ne.</reg>
+          </seg>
+          <seg>
+            <orig>ri-en.</orig>
+            <reg>ri-en.</reg>
+          </seg>
+          <seg>
+            <orig>fai-re, comme.</orig>
+            <reg>fay-re, comme.</reg>
+          </seg>
+          <seg>
+            <orig>on dit, à la.</orig>
+            <reg>on dit, à la.</reg>
+          </seg>
+          <seg>
+            <orig>vo-lé-e.</orig>
+            <reg>vo-lé-e.</reg>
+          </seg>
+          <seg>
+            <orig>Dautant.</orig>
+            <reg>Dautant.</reg>
+          </seg>
+          <seg>
+            <orig>que.</orig>
+            <reg>que.</reg>
+          </seg>
+          <seg>
+            <orig>les.</orig>
+            <reg>les.</reg>
+          </seg>
+          <seg>
+            <orig>fau-tes.</orig>
+            <reg>fautes.</reg>
+          </seg>
+          <seg>
+            <orig>qu’on.</orig>
+            <reg>qu'on.</reg>
+          </seg>
+          <seg>
+            <orig>y.</orig>
+            <reg>y.</reg>
+          </seg>
+          <seg>
+            <orig>peut, fai-re.</orig>
+            <reg>peut, fait-re.</reg>
+          </seg>
+          <seg>
+            <orig>ſont.</orig>
+            <reg>sont.</reg>
+          </seg>
+          <seg>
+            <orig>ſe-lon.</orig>
+            <reg>se-lon.</reg>
+          </seg>
+          <seg>
+            <orig>noſ-tre.</orig>
+            <reg>nostre.</reg>
+          </seg>
+          <seg>
+            <orig>Maiſ-tre.</orig>
+            <reg>Mais-tre.</reg>
+          </seg>
+          <seg>
+            <orig>Hip-pocru touii ne, dan-ge-reu-ſe.</orig>
+            <reg>Hypocru toui ne, dan-ge -réu-se.</reg>
+          </seg>
+          <seg>
+            <orig>con-ſe-quen-ce.</orig>
+            <reg>conse-quen-ce.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS.</orig>
+            <reg>BAHYSS.</reg>
+          </seg>
+          <seg>
+            <orig>Celui-cy parle touſiours en bredoüillant.</orig>
+            <reg>Celui-cy parle toujours en bredouillant.</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray.</orig>
+            <reg>Il est vrai.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut bien prendre garde à ce qu’on fait.</orig>
+            <reg>Il faut bien prendre garde à ce qu'on fait.</reg>
+          </seg>
+          <seg>
+            <orig>Car ce ne ſont pas icy des ieux d’enfant;</orig>
+            <reg>Car ce ne sont pas ici des jeux d'enfant;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; quand on a failly, il n’ẽt pas ayſé de reparer le manquement, &amp; de reſtablir ce qu’on a gaſté.</orig>
+            <reg>et quand on a failli, il n'att pas aisé de réparer le manquement, et de rétablir ce qu'on a gâté.</reg>
+          </seg>
+          <seg>
+            <orig>Experimentum p riculo ſum.</orig>
+            <reg>Expérimentum p riculo sum.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt pourquoy il s’agiſt de raiſonner auparauant, comme il faut, de peſer meurement les choſes, de regarder le temperament des gens, d’examiner les cauſes de la maladie, &amp; de voir les reiriedes qu'on y doit apporter.</orig>
+            <reg>C'est pourquoi il s'agît de raisonner auparavant, comme il faut, de peser meurement les choses, de regarder le tempérament des gens, d'examiner les causes de la maladie, et de voir les reiriedes qu'on y doit apporter.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>L vn vd eitortue, &amp; I’autre court la poſte.</orig>
+            <reg> vn voit eitortue, et J'autre court la poste.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>MACROTON.</orig>
+            <reg>MACROTON.</reg>
+          </seg>
+          <seg>
+            <orig>Or.</orig>
+            <reg>Or.</reg>
+          </seg>
+          <seg>
+            <orig>Mon-ſi-eur, pour.</orig>
+            <reg>Mon-si-eur, pour.</reg>
+          </seg>
+          <seg>
+            <orig>venir.</orig>
+            <reg>venir.</reg>
+          </seg>
+          <seg>
+            <orig>au.</orig>
+            <reg>au.</reg>
+          </seg>
+          <seg>
+            <orig>fait.</orig>
+            <reg>fait.</reg>
+          </seg>
+          <seg>
+            <orig>ie.</orig>
+            <reg>On.</reg>
+          </seg>
+          <seg>
+            <orig>trou-ue.</orig>
+            <reg>trou-ue.</reg>
+          </seg>
+          <seg>
+            <orig>que.</orig>
+            <reg>que.</reg>
+          </seg>
+          <seg>
+            <orig>voſ-tre.</orig>
+            <reg>vostre.</reg>
+          </seg>
+          <seg>
+            <orig>fil-le.</orig>
+            <reg>fil-le.</reg>
+          </seg>
+          <seg>
+            <orig>a.</orig>
+            <reg>a.</reg>
+          </seg>
+          <seg>
+            <orig>v-ne, mala-di-e.</orig>
+            <reg>Une, mala-di-e.</reg>
+          </seg>
+          <seg>
+            <orig>chro-ni-que, &amp; qu’el-le.</orig>
+            <reg>chro-ni-que, et qu'elle.</reg>
+          </seg>
+          <seg>
+            <orig>peut.</orig>
+            <reg>peut.</reg>
+          </seg>
+          <seg>
+            <orig>pe-ri-cli-ter, ſi.</orig>
+            <reg>pétri-cli-ter, si.</reg>
+          </seg>
+          <seg>
+            <orig>on.</orig>
+            <reg>on.</reg>
+          </seg>
+          <seg>
+            <orig>ne.</orig>
+            <reg>ne.</reg>
+          </seg>
+          <seg>
+            <orig>luy.</orig>
+            <reg>On.</reg>
+          </seg>
+          <seg>
+            <orig>don-ne.</orig>
+            <reg>don-ne.</reg>
+          </seg>
+          <seg>
+            <orig>du.</orig>
+            <reg>du.</reg>
+          </seg>
+          <seg>
+            <orig>ſe-cours;</orig>
+            <reg>se-cours;</reg>
+          </seg>
+          <seg>
+            <orig>dau-tant.</orig>
+            <reg>dau-tant.</reg>
+          </seg>
+          <seg>
+            <orig>que.</orig>
+            <reg>que.</reg>
+          </seg>
+          <seg>
+            <orig>lesſim-ptõ-mes.</orig>
+            <reg>lessim-ptõours.</reg>
+          </seg>
+          <seg>
+            <orig>qu’el-le.</orig>
+            <reg>qu'elle-le.</reg>
+          </seg>
+          <seg>
+            <orig>à, ſont.</orig>
+            <reg>à, sont.</reg>
+          </seg>
+          <seg>
+            <orig>in-di-ca-tifs.</orig>
+            <reg>indi-ca-tifs.</reg>
+          </seg>
+          <seg>
+            <orig>d’v-ne.</orig>
+            <reg>d'une.</reg>
+          </seg>
+          <seg>
+            <orig>vapeur.</orig>
+            <reg>vapeur.</reg>
+          </seg>
+          <seg>
+            <orig>fu-li-gi neu-ſe.</orig>
+            <reg>fu-li-gy neuse.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;.</orig>
+            <reg>et.</reg>
+          </seg>
+          <seg>
+            <orig>mordi-can-te, qui lui, pi-co-te.</orig>
+            <reg>mordi-can-te, qui lui, pi-cote.</reg>
+          </seg>
+          <seg>
+            <orig>les.</orig>
+            <reg>les.</reg>
+          </seg>
+          <seg>
+            <orig>mem-bra-nes.</orig>
+            <reg>membra-nés.</reg>
+          </seg>
+          <seg>
+            <orig>du.</orig>
+            <reg>du.</reg>
+          </seg>
+          <seg>
+            <orig>cerue-au.</orig>
+            <reg>cerve-au.</reg>
+          </seg>
+          <seg>
+            <orig>Or.</orig>
+            <reg>Or.</reg>
+          </seg>
+          <seg>
+            <orig>cet-te.</orig>
+            <reg>cet-te.</reg>
+          </seg>
+          <seg>
+            <orig>va-peur.</orig>
+            <reg>va-peur.</reg>
+          </seg>
+          <seg>
+            <orig>que.</orig>
+            <reg>que.</reg>
+          </seg>
+          <seg>
+            <orig>nous, nom-mons.</orig>
+            <reg>nous, nom-mons.</reg>
+          </seg>
+          <seg>
+            <orig>en.</orig>
+            <reg>en.</reg>
+          </seg>
+          <seg>
+            <orig>Grec, At-mos.</orig>
+            <reg>Grec, At-mos.</reg>
+          </seg>
+          <seg>
+            <orig>eſt.</orig>
+            <reg>est.</reg>
+          </seg>
+          <seg>
+            <orig>cau-ſẽ-e.</orig>
+            <reg>cau-sẽ-je.</reg>
+          </seg>
+          <seg>
+            <orig>par.</orig>
+            <reg>par.</reg>
+          </seg>
+          <seg>
+            <orig>des.</orig>
+            <reg>des.</reg>
+          </seg>
+          <seg>
+            <orig>hu-meurs, pu-tri-des, te-naces, &amp;.</orig>
+            <reg>hu-meurs, pu-tri-des, te-naces, et.</reg>
+          </seg>
+          <seg>
+            <orig>con-glu-ti-neu-ſes, qui.</orig>
+            <reg>conglu-ty-neuses, qui.</reg>
+          </seg>
+          <seg>
+            <orig>ſont.</orig>
+            <reg>sont.</reg>
+          </seg>
+          <seg>
+            <orig>con-te-nu- es.</orig>
+            <reg>conte-nu-moi.</reg>
+          </seg>
+          <seg>
+            <orig>dans.</orig>
+            <reg>dans.</reg>
+          </seg>
+          <seg>
+            <orig>le.</orig>
+            <reg>le.</reg>
+          </seg>
+          <seg>
+            <orig>bas.</orig>
+            <reg>bas.</reg>
+          </seg>
+          <seg>
+            <orig>ven-tre.</orig>
+            <reg>ven-tre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS.</orig>
+            <reg>BAHYSS.</reg>
+          </seg>
+          <seg>
+            <orig>Et comme ces humeurs ont eſté là engendrées, par vne longue ſuceſſion de temps;</orig>
+            <reg>Et comme ces humeurs ont été là engendrées, par une longue sucession de temps;</reg>
+          </seg>
+          <seg>
+            <orig>elles s’y ſont recuites, &amp; ont acquis cette malignite, qui fume vers la region du cerueau.</orig>
+            <reg>elles s'y sont recuites, et ont acquis cette malignité, qui fume vers la région du cerveau.</reg>
+          </seg>
+          <seg>
+            <orig>MMACNORON.</orig>
+            <reg>MMACNORON.</reg>
+          </seg>
+          <seg>
+            <orig>Si.</orig>
+            <reg>Si.</reg>
+          </seg>
+          <seg>
+            <orig>bi-en, donc, que, pour.</orig>
+            <reg>by-en, donc, que, pour.</reg>
+          </seg>
+          <seg>
+            <orig>ti-rer, deſ-ta-cher, ar-ra-cher, ex-pul-ſer, é-ua-cu-er.</orig>
+            <reg>ty-rer, déta-cher, ar-ra-cher, ex-pulser, est-ua-cv-er.</reg>
+          </seg>
+          <seg>
+            <orig>leſ-dites.</orig>
+            <reg>les-dites.</reg>
+          </seg>
+          <seg>
+            <orig>hu-meurs, il.</orig>
+            <reg>hu-meurs, il.</reg>
+          </seg>
+          <seg>
+            <orig>fau-dra.</orig>
+            <reg>faudra.</reg>
+          </seg>
+          <seg>
+            <orig>vne, pur-ga-ti-on.</orig>
+            <reg>une, pur-ga-ty-on.</reg>
+          </seg>
+          <seg>
+            <orig>vi-gou-reuſe.</orig>
+            <reg>vi chouereuse.</reg>
+          </seg>
+          <seg>
+            <orig>Mais.</orig>
+            <reg>Mais.</reg>
+          </seg>
+          <seg>
+            <orig>au.</orig>
+            <reg>au.</reg>
+          </seg>
+          <seg>
+            <orig>pre-a-la-ble, ie.</orig>
+            <reg>pré-la-la-blé, Seigneur.</reg>
+          </seg>
+          <seg>
+            <orig>trou-ue.</orig>
+            <reg>trou-ue.</reg>
+          </seg>
+          <seg>
+            <orig>a.</orig>
+            <reg>a.</reg>
+          </seg>
+          <seg>
+            <orig>pro-pos, &amp;.</orig>
+            <reg>propô, et.</reg>
+          </seg>
+          <seg>
+            <orig>n’y.</orig>
+            <reg>n'y.</reg>
+          </seg>
+          <seg>
+            <orig>a.</orig>
+            <reg>a.</reg>
+          </seg>
+          <seg>
+            <orig>pas d’in-con-ue-ni-ent.</orig>
+            <reg>pas d'incon-ue-ni-ent.</reg>
+          </seg>
+          <seg>
+            <orig>d’vſer.</orig>
+            <reg>d'user.</reg>
+          </seg>
+          <seg>
+            <orig>de.</orig>
+            <reg>de.</reg>
+          </seg>
+          <seg>
+            <orig>pe-tits.</orig>
+            <reg>pe-tits.</reg>
+          </seg>
+          <seg>
+            <orig>re-me-des.</orig>
+            <reg>re-medes.</reg>
+          </seg>
+          <seg>
+            <orig>ano-dins, c’eſt.</orig>
+            <reg>ano-dins, c'est.</reg>
+          </seg>
+          <seg>
+            <orig>a.</orig>
+            <reg>a.</reg>
+          </seg>
+          <seg>
+            <orig>di-re, de.</orig>
+            <reg>di-re, de.</reg>
+          </seg>
+          <seg>
+            <orig>petits.</orig>
+            <reg>petits.</reg>
+          </seg>
+          <seg>
+            <orig>la-ue-ments, re-mol-liants.</orig>
+            <reg>laive-ments, remol-liants.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;.</orig>
+            <reg>et.</reg>
+          </seg>
+          <seg>
+            <orig>de-ter-ſifs, de.</orig>
+            <reg>de-ter-sifs, de.</reg>
+          </seg>
+          <seg>
+            <orig>iulets.</orig>
+            <reg>julets.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;.</orig>
+            <reg>et.</reg>
+          </seg>
+          <seg>
+            <orig>de.</orig>
+            <reg>de.</reg>
+          </seg>
+          <seg>
+            <orig>ſi-rops, ra-fraichiſ-ſans, qu’on meſ-le-radans.</orig>
+            <reg>si-rops, ra-fraîchis-puissants, qu'on mes-le-radans.</reg>
+          </seg>
+          <seg>
+            <orig>ſa pti-ſan-ne.</orig>
+            <reg>sa pti-san-ne.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS.</orig>
+            <reg>BAHYSS.</reg>
+          </seg>
+          <seg>
+            <orig>Apres nous en viendront à la purgation &amp; à la ſaignée, C iij que nous reïtererons s’il en eſt Deloni.</orig>
+            <reg>Après nous en viendront à la purgation et à la saignée, Ç ij que nous reïtererons s'il en est Déloni.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>MACROTON.</orig>
+            <reg>MACROTON.</reg>
+          </seg>
+          <seg>
+            <orig>ce-la, voſ-tre.</orig>
+            <reg>ce-la, vos-tre.</reg>
+          </seg>
+          <seg>
+            <orig>fil-le.</orig>
+            <reg>fil-le.</reg>
+          </seg>
+          <seg>
+            <orig>ne.</orig>
+            <reg>ne.</reg>
+          </seg>
+          <seg>
+            <orig>puiſſe, mou-rir;</orig>
+            <reg>puisse, mou-rir;</reg>
+          </seg>
+          <seg>
+            <orig>mais.</orig>
+            <reg>mais.</reg>
+          </seg>
+          <seg>
+            <orig>au.</orig>
+            <reg>au.</reg>
+          </seg>
+          <seg>
+            <orig>moins.</orig>
+            <reg>moins.</reg>
+          </seg>
+          <seg>
+            <orig>vous.</orig>
+            <reg>vous.</reg>
+          </seg>
+          <seg>
+            <orig>au-rez.</orig>
+            <reg>aurez.</reg>
+          </seg>
+          <seg>
+            <orig>fait.</orig>
+            <reg>fait.</reg>
+          </seg>
+          <seg>
+            <orig>quel-que.</orig>
+            <reg>quel-que.</reg>
+          </seg>
+          <seg>
+            <orig>cho-ſe, &amp;.</orig>
+            <reg>cho-se, et.</reg>
+          </seg>
+          <seg>
+            <orig>vous, au-rez.</orig>
+            <reg>vous, aurez.</reg>
+          </seg>
+          <seg>
+            <orig>la.</orig>
+            <reg>la.</reg>
+          </seg>
+          <seg>
+            <orig>coiiora tron quelle.</orig>
+            <reg>coiiora tron quelle.</reg>
+          </seg>
+          <seg>
+            <orig>Iclde mor-te.</orig>
+            <reg>Iclde mór-te.</reg>
+          </seg>
+          <seg>
+            <orig>dans.</orig>
+            <reg>dans.</reg>
+          </seg>
+          <seg>
+            <orig>les.</orig>
+            <reg>les.</reg>
+          </seg>
+          <seg>
+            <orig>for-mes.</orig>
+            <reg>formes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS.</orig>
+            <reg>BAHYSS.</reg>
+          </seg>
+          <seg>
+            <orig>Il vaut mieux mourir ſelon les regles, que de rechapper contre les regles.</orig>
+            <reg>Il vaut mieux mourir selon les règles, que de réchapper contre les règles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>dinnnllence le las Nous.</orig>
+            <reg>dinnllence le las Nous.</reg>
+          </seg>
+          <seg>
+            <orig>vous.</orig>
+            <reg>vous.</reg>
+          </seg>
+          <seg>
+            <orig>di-ſons.</orig>
+            <reg>di-sons.</reg>
+          </seg>
+          <seg>
+            <orig>ſin-cere-ment.</orig>
+            <reg>sin-cere-ment.</reg>
+          </seg>
+          <seg>
+            <orig>noſ-tre.</orig>
+            <reg>nostre.</reg>
+          </seg>
+          <seg>
+            <orig>pen-ſé-e.</orig>
+            <reg>pen-zé-e.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>BAHYS.</orig>
+            <reg>BAHYSS.</reg>
+          </seg>
+          <seg>
+            <orig>Et vous auons parlojomſe nous parlerions à noſtre propleneles</orig>
+            <reg>Et vous avons parlojomse nous parlerions à notre proplèneles</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>A Monſieur Macroton.</orig>
+            <reg>À Monsieur Macroton.</reg>
+          </seg>
+          <seg>
+            <orig>Ie.</orig>
+            <reg>Je.</reg>
+          </seg>
+          <seg>
+            <orig>vous, rends, tres-humbles.</orig>
+            <reg>vous, rends, très-humbles.</reg>
+          </seg>
+          <seg>
+            <orig>gra-ces.</orig>
+            <reg>gra-ces.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A Monſieur Bahys.</orig>
+          <reg>À Monsieur Bahys.</reg>
+        </seg>
+        <seg>
+          <orig>Et vous ſuis infiniment oblige duiu penle que vous duez priſe.</orig>
+          <reg>Et vous suis infiniment oblige dui vile que vous duez prise.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ca Mij</orig>
+          <reg>Ca Mijà</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>E voila iuſtement vn peu plus incertain que ie n’eſtois I auparauant.</orig>
+          <reg>E voilà justement un peu plus incertain que ici n'étais I auparavant.</reg>
+        </seg>
+        <seg>
+          <orig>Morbleu, il me vient vne fantaiſie.</orig>
+          <reg>Morbleu, il me vient une fantaisie.</reg>
+        </seg>
+        <seg>
+          <orig>Il faut que i’aille achetter de l’Oruietan, &amp; que ie lui en faſſe prendre.</orig>
+          <reg>Il faut que j'aille acheter de l'Orviétan, et que je lui en fasse prendre.</reg>
+        </seg>
+        <seg>
+          <orig>L’Oruietan eſt vn remede dont beaucoup de gens ſe ſont bien trouuez.</orig>
+          <reg>L'Oruiétan est un remède dont beaucoup de gens se sont bien trouvez.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VII.</orig>
+          <reg>SCÈNE VII.</reg>
+        </seg>
+        <seg>
+          <orig>L’OPERATEVR, SUANVANLLLL.</orig>
+          <reg>L'OPÉRATEUR, SUANVANLLLL.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ola.</orig>
+            <reg>Ola.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, ie vous I Iprie de me donner vne boete de voſtre Oruietan, que ie m’en vay vous payer.</orig>
+            <reg>Monsieur, Seigneur vous I Prie de me donner une boëte de votre Oruiétan, que Elle m'en vais vous payer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L’OPERATEVR.</orig>
+            <reg>L'OPÉRATEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Chantant.</orig>
+            <reg>Chantant.</reg>
+          </seg>
+          <seg>
+            <orig>Lor de tous les climats qu’entoure l’Ocean Peut il iamais payer ce ſecretd’importance?</orig>
+            <reg>Lor de tous les climats qu'entoure l'Océan Peut il jamais payer ce secretd'importance?</reg>
+          </seg>
+          <seg>
+            <orig>Mon remede guerit par ſa rare excellence,</orig>
+            <reg>Mon remède guérit par sa rare excellence,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>2 Plus de maux qu'on n'en peus nombrer dans tout vn an.</orig>
+          <reg>2 Plus de maux qu'on n'en pus nombrer dans tout un an.</reg>
+        </seg>
+        <seg>
+          <orig>la Galle, la Rogne, la Tigne, la Fiévre, la Peste, l'a Goute, Verole, Deſcente, Rougeoie, Otgrande puiſſance de l’Oruietan</orig>
+          <reg>la Galle, la Rogne, la Tigne, la Fièvre, la Peste, l'a Goute, Vérole, Décente, Rougeoie, Otgrande puissance de l'Oruiétan</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, ie croy que tout Por du monde n’eſt pas capable de payer voſtre remede:</orig>
+            <reg>Monsieur, ie crois que tout Por du monde n'est pas capable de payer votre remède:</reg>
+          </seg>
+          <seg>
+            <orig>tnais pourtant, voicy vne piece de trente ſols que vous pren drez, s’il vous plaiſt.</orig>
+            <reg>tais pourtant, voici une pièce de trente sols que vous pren rez, s'il vous plaît.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L’OPERATEVR.</orig>
+            <reg>L'OPÉRATEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Chantant.</orig>
+            <reg>Chantant.</reg>
+          </seg>
+          <seg>
+            <orig>Admirez mes bontez &amp; le peu qu’on vous vend, Ce treſor merueilleux que ma main vous diſpenſe, Vous pouuez auec luy brauer en aſſeurance, Tous les maux que ſur nous l’ire du Ciel reſpand:</orig>
+            <reg>Admirez mes bontés et le peu qu'on vous vend, Ce sor merveilleux que ma main vous dispense, Vous pouvez auecjours braver en assurance, Tous les maux que sur nous l'ire du Ciel répand:</reg>
+          </seg>
+          <seg>
+            <orig>la Gale, la Rogne, là Tigne, la Fiévre, la Peſte, la Gouté, Verole, Deſcente, Rougeole, 4 O grande puiſſance de l’Uruietan!</orig>
+            <reg>la Gale, la Rogne, là Tigne, la Fièvre, la Peste, la Gouté, Vérole, Descente, Rouge, 4 Ô grande puissance de l'Uruiétan!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du deuxiéme Acte.</orig>
+          <reg>Fin du deuxième Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>II.</orig>
+          <reg>II.</reg>
+        </seg>
+        <seg>
+          <orig>ENTRE-ACIL.</orig>
+          <reg>ENTRE-ACIL.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Luſieurs Triuelins &amp; pluI ſieurs Scaramouches, vallets de l’Operateur, ſe reſiouyſſent en dançant.</orig>
+            <reg>Lusieurs Trivelins et pluI sieurs Scaramouches, valets de l'Opérateur, se resiouyssent en dançant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACTE.</orig>
+          <reg>ACTE.</reg>
+        </seg>
+        <seg>
+          <orig>III.</orig>
+          <reg>III.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE I.</orig>
+          <reg>SCÈNE I.</reg>
+        </seg>
+        <seg>
+          <orig>MESSIEVRS FILERIN, TOME'SET DES FONANDRE’S.</orig>
+          <reg>MESSIEURS FILERIN, TOME'SET DES FONANDRE'S.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>7 M.</orig>
+            <reg>7 M.</reg>
+          </seg>
+          <seg>
+            <orig>FILERIN.</orig>
+            <reg>FILERIN.</reg>
+          </seg>
+          <seg>
+            <orig>’Auez-vous point 2 d’honte, Meſſieurs, de montrer ſi peu lοvde prudence pour des gens de voſtre âge, &amp; de OE E Amobr AMleutecii, vous eſtre querellez commé de jeunes eſtourdis?</orig>
+            <reg>’ De-vous point 2 d'honte, Messieurs, de montrer si peu lude prudence pour des gens de votre âge, et de OE E Amobr AMleutecii, vous chang querellez commé de jeunes étourdis?</reg>
+          </seg>
+          <seg>
+            <orig>Ne voyezvous pas bien quel tort ces ſortes de querelles nous font parmy le monde;</orig>
+            <reg>Ne voyezvous pas bien quel tort ces sortes de querelles nous font parmi le monde;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; n’eſt-ce pas aſſez que les ſçauans voyent les contrarietez, &amp; les diſſentions qui ſont entre nos Autheurs &amp; nos anciens Maiſtres, ſans deſcouurir encore au peuple par nos debats &amp; nos querelles, la forfanterie de noſtre Art.</orig>
+            <reg>et n'est-ce pas assez que les savants voient les contrariétés, et les dissentions qui sont entre nos Auteurs et nos anciens Maîtres, sans découvrir encore au peuple par nos débats et nos querelles, la forfanterie de notre Art.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, ie ne comprens rien du tout à cettẽ mechante Politique de quelquesvns de nos gens.</orig>
+            <reg>Pour moi, Seigneur ne comprends rien du tout à cettẽ méchante Politique de quelquesvns de nos gens.</reg>
+          </seg>
+          <seg>
+            <orig>Et il faut confeſſer, que toutes ces conteſtations nous ont deſcrié, depuis peû, d’vne eſtrange maniere, I &amp; que, ſi nous n’y prenons garde, nous allons nous ruîner nous-meſmes.</orig>
+            <reg>Et il faut confesser, que toutes ces contestations nous ont décrié, depuis péu, d'une étrange manière, I et que, si nous n'y prenons garde, nous allons nous ruîner nous-mêmes.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’en parle pas pour mon intereſt, Car, Dieu mercy, i'ay deſia eſtably mes petites affaires.</orig>
+            <reg>Je n'en parle pas pour mon intérêt, Car, Dieu merci, j'ai déjà établi mes petites affaires.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’il vente, qu’il pleuue, qu’il greſle, ceux qui ſont morts ſont morts, &amp; i’ay dequoy me paſſer des viuans.</orig>
+            <reg>Qu'il vente, qu'il pleuve, qu'il grêle, ceux qui sont morts sont morts, et j'ai dequoy me passer des vivants.</reg>
+          </seg>
+          <seg>
+            <orig>Mais enfin, toutes ces diſputes ne vallent rien pour la Medecine.</orig>
+            <reg>Mais enfin, toutes ces disputes ne valent rien pour la Médecine.</reg>
+          </seg>
+          <seg>
+            <orig>Puis que le Ciel nous fait la grace que depuis tant de ſiecles, on demeure infatué de nous:</orig>
+            <reg>Puis que le Ciel nous fait la grâce que depuis tant de siècles, on demeure infatué de nous:</reg>
+          </seg>
+          <seg>
+            <orig>ne deſabuſons point les hommes auec nos cacurtrextrauagautes, &amp; profitons de leur ſottiſe le plus doucement que nous pourrons.</orig>
+            <reg>ne désabusons point les hommes avec nos cacurtrextravagautes, et profitons de leur sottise le plus doucement que nous pourrons.</reg>
+          </seg>
+          <seg>
+            <orig>Nous ne ſommes pas les ſeuls, comme vous ſçauez, qui taſchons à nous preualoir de la foibleſſe humaine.</orig>
+            <reg>Nous ne sommes pas les seuls, comme vous savez, qui tâchons à nous prévaloir de la faiblesse humaine.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt là que va l’eſtude de la pluſpart du monde, &amp; chacun s’efforce de prendre les hommes par leur foible, pour en tirer quelque profit.</orig>
+            <reg>C'est là que va l'étude de la plupart du monde, et chacun s'efforce de prendre les hommes par leur faible, pour en tirer quelque profit.</reg>
+          </seg>
+          <seg>
+            <orig>Les flateurs, par exemple, cherchent à profiter de l’amour que les hommes ont pour les loüanges, en leur donnant tout le vain encens qu’ils ſouhaittent?</orig>
+            <reg>Les flatteurs, par exemple, cherchent à profiter de l'amour que les hommes ont pour les louanges, en leur donnant tout le vain encens qu'ils souhaitent?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; c’eſt vn art où l’on fait, comme on void des fortunes conſiderables.</orig>
+            <reg>et c'est un art où l'on fait, comme on voit des fortunes considérables.</reg>
+          </seg>
+          <seg>
+            <orig>Les Alchimiſtes tachent à profiter de la paſſion que l’on a pour les richeſſes, en promettant C des montagnes d’or à ceux qui les eſcoutent.</orig>
+            <reg>Les Alchimistes tachent à profiter de la passion que l'on a pour les richesses, en promettant Ç des montagnes d'or à ceux qui les écoutent.</reg>
+          </seg>
+          <seg>
+            <orig>Et les diſeurs d’Horoſcope, par leurs Predictions trompeuſes profitent de la vanité, &amp; de l’ambition des credules eſpits:</orig>
+            <reg>Et les diseurs d'Horoscope, par leurs Prédictions trompeuses profitent de la vanité, et de l'ambition des crédules épits:</reg>
+          </seg>
+          <seg>
+            <orig>mais le plus grand foible des hommes, c’eſt l’amour qu’il ont pour la vie, &amp; nous en profitons nous autres, par noſtre pompeux galimatias;</orig>
+            <reg>mais le plus grand faible des hommes, c'est l'amour qu'il ont pour la vie, et nous en profitons nous autres, par notre pompeux galimatias;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſçauons prendre nos auantages de cette veneration, que la peur de mourir, leur donne pour noſtre meſtier.</orig>
+            <reg>et savons prendre nos avantages de cette vénération, que la peur de mourir, leur donne pour notre métier.</reg>
+          </seg>
+          <seg>
+            <orig>Conſeruons-nous donc dans le degré d’eſtime où leur foibleſſe nous a mis, &amp; ſoyons de concert auprés des malades, pour nous attribuer les heureux ſuccez de la malade, &amp; rejetter ſur la Nature toutes les beueuës de noſtre art.</orig>
+            <reg>Conservons-nous donc dans le degré d'estime où leur faiblesse nous a mis, et soyons de concert auprès des malades, pour nous attribuer les heureux succès de la malade, et rejetter sur la Nature toutes les bues de notre art.</reg>
+          </seg>
+          <seg>
+            <orig>N’allons point, dis je, deſtruire ſottement les heureuſes preuentions d’vne erreur qui donne du pain a tant de perſonnes.</orig>
+            <reg>N'allons point, dis -je, détruire sottement les heureuses préventions d'une erreur qui donne du pain à tant de personnes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME’S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Vous auez raiſon en tout ce que vous dites;</orig>
+            <reg>Vous avez raison en tout ce que vous dites;</reg>
+          </seg>
+          <seg>
+            <orig>mais ce ſont chaleurs de ſang, dont par fois on n’eſt pas le maiſtre.</orig>
+            <reg>mais ce sont chaleurs de sang, dont par fois on n'est pas le maître.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>FILERIN.</orig>
+            <reg>FILERIN.</reg>
+          </seg>
+          <seg>
+            <orig>Allons donc, Meſſieurs, metcen Das couce raneune;</orig>
+            <reg>Allons donc, Messieurs, metcen Das couce raneune;</reg>
+          </seg>
+          <seg>
+            <orig>e falſons icy voſtre accommodement.</orig>
+            <reg>E fallsons ici votre accommodement.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>DESFONANDRE'S.</orig>
+            <reg>DESFONANDRÉT.</reg>
+          </seg>
+          <seg>
+            <orig>l’y conſefis.</orig>
+            <reg>l'y consefis.</reg>
+          </seg>
+          <seg>
+            <orig>Qun me palſe mon hemetique pour la malade dont il s’agiſt, &amp; ie luy paſſeray tout ce qu’il voudra pour le premier malade dont il ſera queſtion.</orig>
+            <reg>Qun me palse mon hémetique pour la malade dont il s'agît, ettord luy passerai tout ce qu'il voudra pour le premier malade dont il sera question.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>FILERIN.</orig>
+            <reg>FILERIN.</reg>
+          </seg>
+          <seg>
+            <orig>On ne peut pas mieux dire.</orig>
+            <reg>On ne peut pas mieux dire.</reg>
+          </seg>
+          <seg>
+            <orig>Et voila ſe mettre à la raiſon.</orig>
+            <reg>Et voilà se mettre à la raison.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AIDEJTONIASORES Cela eſt fait.</orig>
+            <reg>ÀIDEJTONIASORES Cela est fait.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>FILERIN.</orig>
+            <reg>FILERIN.</reg>
+          </seg>
+          <seg>
+            <orig>Touchez donc là.</orig>
+            <reg>Touchez donc là.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu.</orig>
+            <reg>Adieu.</reg>
+          </seg>
+          <seg>
+            <orig>Vne autrefois montrez plus de prudence.</orig>
+            <reg>Une autrefois montrez plus de prudence.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE II.</orig>
+          <reg>SCÈNE II.</reg>
+        </seg>
+        <seg>
+          <orig>MESSIEVRS TOME’S, M.</orig>
+          <reg>MESSIEURS TOME'S, M.</reg>
+        </seg>
+        <seg>
+          <orig>DESFONANDRE’S.</orig>
+          <reg>DESFONANDRÉT.</reg>
+        </seg>
+        <seg>
+          <orig>ETOEIAE.</orig>
+          <reg>ETOEIAE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE Voy, Meſſieurs, h&amp; vous voila, &amp; vous ne ſongez pas à reparer le tort qu’on vient de faire à la Medecine.</orig>
+            <reg>LYSETTE Vois, Messieurs, honneur vous voilà, et vous ne songez pas à réparer le tort qu'on vient de faire à la Médecine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Comment, qu’eſt-ce?</orig>
+            <reg>Comment, qu'est-ce?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn inſolent, qui a eu l’effronterie d’entreprendre ſur voſtre meſtier:</orig>
+            <reg>Un insolent, qui a eu l'effronterie d'entreprendre sur votre métier:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; qui ſans võtre ordonnance, vient de tuer vn homme d’vn grand coup de Madu aadla ddsorJe 4</orig>
+            <reg>et qui sans votre ordonnance, vient de tuer un homme d'un grand coup de Madu ala ddsore 4</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M.</orig>
+            <reg>M.</reg>
+          </seg>
+          <seg>
+            <orig>TOME'S.</orig>
+            <reg>TOME'S.</reg>
+          </seg>
+          <seg>
+            <orig>Eſcoutez, vous faites la railmundidmaisvom pes par nos mains quelque iour.</orig>
+            <reg>Écoutez, vous faites la railmundidmaisvom pes par nos mains quelque jour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>LYSETTE.</orig>
+          <reg>LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>Ie vous permets de me tuer lors que i’auray recours à vous.</orig>
+          <reg>Je vous permets de me tuer lors que j'aurai recours à vous.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>CLITANDRE.</orig>
+          <reg>CLITANDRE.</reg>
+        </seg>
+        <seg>
+          <orig>D Dieii, Ejiecees me M trouues-tu bien ainſi?</orig>
+          <reg>DIE Dieii, Ejiecees me M trouves-tu bien ainsi?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE III.</orig>
+          <reg>SCÈNE III.</reg>
+        </seg>
+        <seg>
+          <orig>LYSETTE, CLITANDRE.</orig>
+          <reg>LYSETTE, CLITANDRE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Le mieux du monde, &amp; ie vous attendois avec impatience.</orig>
+            <reg>Le mieux du monde, et ici vous attendais avec impatience.</reg>
+          </seg>
+          <seg>
+            <orig>Enfin, le Ciel m’a faite d’vn naturel le plus humain du monde, &amp; ie ne puis voir deux Amans ſoûpirer l’vn pour l’autre, qu’il ne me prenne vne tendreſſe charitable, &amp; vn deſir ardent de ſoulager les maux qn’ils ſouffrent.</orig>
+            <reg>Enfin, le Ciel m'a faite d'un naturel le plus humain du monde, et apprendre ne puis voir deux Amants soupirer l'un pour l'autre, qu'il ne me prenne quelque tendresse charitable, et un désir ardent de soulager les maux qn'ils souffrent.</reg>
+          </seg>
+          <seg>
+            <orig>Ie veux à quelque prix que ce ſoit, tirer Lucinde de la tyrannie ou elle eſt, &amp; la mettre en voſtre pouuoir.</orig>
+            <reg>Je veux à quelque prix que ce soit, tirer Lucinde de la tyrannie ou elle est, et la mettre en votre pouvoir.</reg>
+          </seg>
+          <seg>
+            <orig>Vous m’auez plû d’abord, ie me connois en gens, &amp; elle ne peut pas mieux choiſir.</orig>
+            <reg>Vous m'avez plu d'abord, on me connais en gens, et elle ne peut pas mieux choisir.</reg>
+          </seg>
+          <seg>
+            <orig>L’amour riſque des choſes extraordinaires, &amp; nous auons concerté enſemble vne maniere de ſtratagême, qui pourra peut-eſtre nous reüſſir.</orig>
+            <reg>L'amour risque des choses extraordinaires, et nous avons concerté ensemble une manière de stratagème, qui pourra peut-être nous réussir.</reg>
+          </seg>
+          <seg>
+            <orig>I’outes nos meſures ſont deſia priſes.</orig>
+            <reg>J'outes nos mesures sont déjà prises.</reg>
+          </seg>
+          <seg>
+            <orig>L’homme a qui nous auons affaire n’eſt pas des plus fins de ce monde:</orig>
+            <reg>L'homme à qui nous avons affaire n'est pas des plus fins de ce monde:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſi cette auanture nous manque, nous trouuerons mille autres voyes, pour arriuer à noſtre but.</orig>
+            <reg>et si cette aventure nous manque, nous trouverons mille autres voies, pour arriver à notre but.</reg>
+          </seg>
+          <seg>
+            <orig>Attendezmoy-là ſeulement, ie reuiens vous querir.</orig>
+            <reg>Attendezmoy-là seulement, je reviens vous quérir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE IV.</orig>
+          <reg>SCÈNE IV.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE, LYSETTE,</orig>
+          <reg>SGANARELLE, LYSETTE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Dequoy?</orig>
+            <reg>Dequoy?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>LYSETTE</orig>
+          <reg>LYSETTE</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Reſioüiſſez-vous, vous dis-Je.</orig>
+            <reg>Réjouissez-vous, vous dis-Je.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Dy-moy donc ce que c’eſt, &amp; puis ie me reſioüiray peuteſtre.</orig>
+            <reg>Dis-moi donc ce que c'est, et puis ie me réjouirai peutestre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>reſioüiſſiez auparauant:</orig>
+            <reg>réjouissiez auparavant:</reg>
+          </seg>
+          <seg>
+            <orig>que vous chantiez, que vous danciez.</orig>
+            <reg>que vous chantiez, que vous danciez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Surquoy?</orig>
+            <reg>Surquoy?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Sur ma parole.</orig>
+            <reg>Sur ma parole.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Allons donc, la lera la la, la lera la.</orig>
+            <reg>Allons donc, la lera la la, la lera la.</reg>
+          </seg>
+          <seg>
+            <orig>Que Diable!</orig>
+            <reg>Que Diable!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, voſtre fille eſt guerle.</orig>
+            <reg>Monsieur, votre fille est guerle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ma fille eſt guerie.</orig>
+            <reg>Ma fille est guérie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE Oüy, ie vous amene vn Medecin:</orig>
+            <reg>LYSETTE Oui, je vous amène un Médecin:</reg>
+          </seg>
+          <seg>
+            <orig>mais vn Medecin d’importance, qui fait des cures meruemeules, qui le mocque des autres Medecins.</orig>
+            <reg>mais un Médecin d'importance, qui fait des cures mervemeules, qui le moque des autres Médecins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Où eſt-il?</orig>
+            <reg>Où est-il?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vais le faire entrer.</orig>
+            <reg>Je vais le faire entrer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut voir ſi celuy-cy fera plus que les autres.</orig>
+            <reg>Il faut voir si celui-cy fera plus que les autres.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CLITANDRE, V En habit de Medecin SGANARELLE, LYSETTE, LYSETTE.</orig>
+          <reg>SCÈNE CLITANDRE, V En habit de Médecin SGANARELE, LYSETTE, LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>E voicy.</orig>
+          <reg>E voici.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>Voila vn MedeMcin quiala barbe bien ieune.</orig>
+          <reg>Voilà un MèdeMin quiala barbe bien jeune.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>mudeniee ne le meidre pas à la barbe;</orig>
+            <reg>mudeniee ne le meidre pas à la barbe;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ce n’eſt pas par le menton qu’il eſt habile.</orig>
+            <reg>et ce n'est pas par le menton qu'il est habile.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, on m’a dit que D I vous auiez des remẽdes admirebles,pour laire alrer a la lelle.</orig>
+            <reg>Monsieur, on m'a dit que D I vous aviez des remèdes admirebles,pour laire alrer à la lelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, mes remedes ſont differens de ceux des autres:</orig>
+            <reg>Monsieur, mes remèdes sont différents de ceux des autres:</reg>
+          </seg>
+          <seg>
+            <orig>Ils ont l’hemetique, les ſaignées.</orig>
+            <reg>Ils ont l'hémétique, les saignées.</reg>
+          </seg>
+          <seg>
+            <orig>les medecines, &amp; les lauemens:</orig>
+            <reg>les médecines, et les lauemens:</reg>
+          </seg>
+          <seg>
+            <orig>Mais moy, ie gueris par des paroles, par des ſons, par des lettrès, par des taiſlinans, &amp; par des anneaux conſtellez.</orig>
+            <reg>Mais moi, ie guéris par des paroles, pardes sons, par des lettrés, par des taislinans, et par des anneaux constellez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LTSETIE.</orig>
+            <reg>LTSETIE.</reg>
+          </seg>
+          <seg>
+            <orig>Que vous ay-je dit?</orig>
+            <reg>Que vous ai-je dit?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Voila vn grand homme.</orig>
+            <reg>Voilà un grand homme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE Monſieur, comme voſtre fille eſt là toute habillée dans vne chaiſe, le vais la fane paſſer icy.</orig>
+            <reg>LYSETTE Monsieur, comme votre fille est là toute habillée dans une chaise, le vais la fane passer ici.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Cui, dey;</orig>
+            <reg>Cui, dey;</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Ta ſians le pouls à Sganarelle.</orig>
+            <reg>Ta siants le pouls à Séganarelle.</reg>
+          </seg>
+          <seg>
+            <orig>Voſtre fille eſt bien malade.</orig>
+            <reg>Votre fille est bien malade.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous le connoiſſez icy.</orig>
+            <reg>Vous le connaissez ici.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CLITANDRE.</orig>
+          <reg>CLITANDRE.</reg>
+        </seg>
+        <seg>
+          <orig>Oüy, par la ſympathie qu’il aentren put &amp; la fille.</orig>
+          <reg>Oui, par la sympathie qu'il alentren put et la fille.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>D iij</orig>
+          <reg> Dijà</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VI.</orig>
+          <reg>SCÈNE VI.</reg>
+        </seg>
+        <seg>
+          <orig>LVCINDE, LYSETTE.</orig>
+          <reg>LUCINDE, LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>CLIYANDEE</orig>
+          <reg>CLIYANDE</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LYSETTE.</orig>
+          <reg>LYSETTE.</reg>
+        </seg>
+        <seg>
+          <orig>SE deux.</orig>
+          <reg>SE deux.</reg>
+        </seg>
+        <seg>
+          <orig>MN G Eenez, Monſieur.</orig>
+          <reg>MN G Eenez, Monsieur.</reg>
+        </seg>
+        <seg>
+          <orig>voila vne chaiſe auprès d’elle.</orig>
+          <reg>voilà une chaise auprès d'elle.</reg>
+        </seg>
+        <seg>
+          <orig>Allons, laiſſez - les-ſa tous</orig>
+          <reg>Allons, laissez - les-sa tous</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Pourquoy?</orig>
+            <reg>Pourquoi?</reg>
+          </seg>
+          <seg>
+            <orig>ie veux demeurer là.</orig>
+            <reg>Ne veux demeurer là.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous mocquez-vous?</orig>
+            <reg>Vous moquez-vous?</reg>
+          </seg>
+          <seg>
+            <orig>Il faut s’eſloigner, vn Medecin a cent choſes a demander, qu’il n’eſt pas honneſte qu’vn homme entende.</orig>
+            <reg>Il faut s'éloigner, un Médecin a cent choses a demander, qu'il n'est pas honnête qu'H homme entende.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Parlant à Lutinde à part.</orig>
+            <reg>Parlant à Lutinde à part.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, Madame, que le rauiſſement où ie me trouue eſt grand:</orig>
+            <reg>Ah, Madame, que le ravissement où tu me trouve est grand:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; que ie ſçay peu par ou vous comancer mon diſcours.</orig>
+            <reg>et que ici sais peu par ou vous comancer mon discours.</reg>
+          </seg>
+          <seg>
+            <orig>Tant-que ie ne vous ay parlé que des yeux, i’'auois, ce me ſembloit, cent choſes à vous dire:</orig>
+            <reg>Tant-ainsi ne vous ai parlé que des yeux, j'avais, ce me semblait, cent choses à vous dire:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; maintenant que i’ay la liberté de vous parler de la façon que ie ſouhaittois, ie demeure interdit:</orig>
+            <reg>et maintenant que j'ai la liberté de vous parler de la façon que ie souhaits, toujours demeure interdit:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; la grande ioye où ie ſuis, eſtouffe toutes mes paroles.</orig>
+            <reg>et la grande joie où on suis, étouffe toutes mes paroles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie puis vous dire la meſme choſe, &amp; ie ſens comme vous des mouuemens de ioye, qui m’empeſchent de pouuoir parIer.</orig>
+            <reg>Je puis vous dire la même chose, et ainsi sens comme vous des mouvements de joie, qui m'empêchent de pouvoir parIer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, Madame!</orig>
+            <reg>Ah, Madame!</reg>
+          </seg>
+          <seg>
+            <orig>que ie ſerois heureux!</orig>
+            <reg>que ici serais heureux!</reg>
+          </seg>
+          <seg>
+            <orig>s’il eſtoit vray que vous ſentiſſiez tout ce que ie ſens, &amp; qu’il me fuſt permis de iuger de voſtre ame par la mienne.</orig>
+            <reg>s'il était vrai que vous sentissiez tout ce que je sens, et qu'il me fût permis de juger de votre âme par la mienne.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, Madame, puis-je au moins croire que ce ſoit à vous a qui ie doiue la penſée de cét heureux ſtratageme, qui me fait jouir de voſtre preſence;</orig>
+            <reg>Mais, Madame, puis-je au moins croire que ce soit à vous a qui personne doive la pensée de cet heureux stratagème, qui me fait jouir de votre présence;</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ENCINDE.</orig>
+            <reg>ENCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Si vous ne m’en deuez pas la penſée, vous m’eſtes redeuable, au moins d’en auoir approuué la propoſition auec beaucoup de ioye.</orig>
+            <reg>Si vous ne m'en devez pas la pensée, vous m'êtes redevable, au moins d'en avoir approuvé la proposition avec beaucoup de joie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE, à Lyſette.</orig>
+            <reg>SGANARELLE, à Lysette.</reg>
+          </seg>
+          <seg>
+            <orig>cne cemble qu’il luy parle de bien prés.</orig>
+            <reg>Une cèmble qu'il avait parle de bien près.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE, à Sganarelle.</orig>
+            <reg>LYSETTE, à Séganarelle.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt qu’il obſerue ſa phiſionnomie, &amp; tous les traits de ſon viſage,</orig>
+            <reg>C'est qu'il observe sa phisionnomie, et tous les traits de son visage,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE, à Lucinde.</orig>
+            <reg>CLITANDRE, à Lucinde.</reg>
+          </seg>
+          <seg>
+            <orig>Serez-vous conſtante.</orig>
+            <reg>Serez-vous constante.</reg>
+          </seg>
+          <seg>
+            <orig>Madame, dans ces bontez que vous me teſmoignez?</orig>
+            <reg>Madame, dans ces bontés que vous me témoignez?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais vous, ſerez-vous ferme dans les reſolutions que vous auet Iiollcreeo.</orig>
+            <reg>Mais vous, serez-vous ferme dans les résolutions que vous auet Jiollcreo.</reg>
+          </seg>
+          <seg>
+            <orig>.</orig>
+            <reg>.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Madame, iuſqu’à la mort.</orig>
+            <reg>Madame, jusqu'à la mort.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’ay point de plus forte enuie que d’eſtre à vous, &amp; ie vais le faire paroiſtre dans ce que vous m’allez voir faire.</orig>
+            <reg>Je n'ai point de plus forte envie que d'être à vous, et tu vais le faire paraître dans ce que vous m'allez voir faire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>1Ic Dleil,ſortie fiaiade;</orig>
+            <reg>1Ic Dil,sortie fiaiade;</reg>
+          </seg>
+          <seg>
+            <orig>elle me ſemble vn peu plus gaye.</orig>
+            <reg>elle me semble un peu plus gaie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt que i’ay deſia fait agir ſur elle vn de ces remedes, que mon art m’enſeigne.</orig>
+            <reg>C'est que j'ai déjà fait agir sur elle un de ces remèdes, que mon art m'enseigne.</reg>
+          </seg>
+          <seg>
+            <orig>Comme l’Eſprit a grand empire ſur le corps, &amp; que c’eſt de luy bien ſouuent que procedent les maladies, ma couieuinio tit de courir à guerir les eſprits auant que de venir au corps.</orig>
+            <reg>Comme l'Esprit a grand empire sur le corps, et que c'est de même bien souvent que procèdent les maladies, ma couieuinio tit de courir à guérir les esprits avant que de venir au corps.</reg>
+          </seg>
+          <seg>
+            <orig>I’ay donc obſerué ſes regards, les traits de ſon viſage, &amp; les lignes de ſes deux mains:</orig>
+            <reg>J'ai donc observé ses regards, les traits de son visage, et les lignes de ses deux mains:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; par la ſcience que le Ciel m’a donnée, i’ay reconnu que c’eſtoit de l’eſprit qu’elle eſtoit malade, &amp; que tout ſon mal ne venoit que d’vne imagination déreglée, d’vn deſir depraué de vouloir eſtre mariée.</orig>
+            <reg>et par la science que le Ciel m'a donnée, j'ai reconnu que c'était de l'esprit qu'elle était malade, et que tout son mal ne venait que d'une imagination déréglée, d'un désir dépravé de vouloir être mariée.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy ie ne voy rien de plus extrauagat &amp; de plus ridicule, que Ceteb enun f'ndmmmmases</orig>
+            <reg>Pour moi ici ne vois rien de plus extravagat et de plus ridicule, que Ceteb un s'ndmmmmases</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Voila vn habile homme!</orig>
+            <reg>Voilà un habile homme!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Et l’ay eu, &amp; auray pour luy, D V toute ma vie, vne auerſion efſroy abie.</orig>
+            <reg>Et l'ai eu, et aurai pour lui, D V toute ma vie, une aversion eusroi abie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>vonla vn grand Medecin.</orig>
+            <reg>vonlà un grand Medecin.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, comme il faut flatter l’imagination des malades, &amp; que i’ay veu en elle de l’alienation d’eſprit:</orig>
+            <reg>Mais, comme il faut flatter l'imagination des malades, et que j'ai vu en elle de l'aliénation d'esprit:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; meſme, qu’il y auoit du peril à ne luy pas donner vn prompt ſecours;</orig>
+            <reg>et même, qu'il y avait du péril à ne le pas donner un prompt secours;</reg>
+          </seg>
+          <seg>
+            <orig>ie I’ay priſe par ſon foible, &amp; luy ay dit que i’étois venu icy pour vous la demander en mariage.</orig>
+            <reg>Ce J'ai prise par son faible, et lui ai dit que j'étais venu ici pour vous la demander en mariage.</reg>
+          </seg>
+          <seg>
+            <orig>Soudain ſon viſage a change, ſon teint s’eſt eſclaircy, ſes yeux ſe ſont animez:</orig>
+            <reg>Soudain son visage a change, son teint s'est éclairci, ses yeux se sont animés:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſi vous voulez pour quelques iours l'entretenir daris cette erreur, vous verrez que nous la tireTOnd enou die ert.</orig>
+            <reg>et si vous voulez pour quelques jours l'entretenir daris cette erreur, vous verrez que nous la tireTOnd en die ert.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Ouy da, ie le veux bien.</orig>
+            <reg>Oui da, Seigneur le veux bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Apres nous ferons agir d’autres remedes pour le guern entierement de cette fantaiſie.</orig>
+            <reg>Après nous ferons agir d'autres remèdes pour le guern entièrement de cette fantaisie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, cela eſt le mieux du monde.</orig>
+            <reg>Oui, cela est le mieux du monde.</reg>
+          </seg>
+          <seg>
+            <orig>Hé bien, ma fille, voila Monſieur qui a enuie de t’eſpoufer, &amp; ie luy ay dit que ie le voulois bien.</orig>
+            <reg>Hé bien, ma fille, voilà Monsieur qui a envie de t'épouser, et ie lui ai dit que que le voulais bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Helas, eſt-il poſſible?</orig>
+            <reg>Hélas, est-il possible?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy.</orig>
+            <reg>Oui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, codedepoir.</orig>
+            <reg>Mais, codepoir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Quy , ouy.</orig>
+            <reg>Qui , oui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, vous eſtes dans les ſehtimens d’eſtre mon mary?</orig>
+            <reg>Quoi, vous êtes dans les sehtiments d'être mon mari?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, Madame.</orig>
+            <reg>Oui, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>EVCIIVDE.</orig>
+            <reg>EUCIIVDE.</reg>
+          </seg>
+          <seg>
+            <orig>Et mon pere y conſent?</orig>
+            <reg>Et mon père y consent?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DGANARLLLE.</orig>
+            <reg>DGANARLLLE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy;</orig>
+            <reg>Oui;</reg>
+          </seg>
+          <seg>
+            <orig>ma fille.</orig>
+            <reg>ma fille.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, que ie ſuis heureuſe, ſi cela eſt veritable!</orig>
+            <reg>Ah, que personne suis heureuse, si cela est véritable!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>N’en doutez point, Madame, ce n’eſt pus d'uuiouu mſij que ie vous aime, &amp; que ie brûle de me voir voſtre mary, ie ne ſuis venu icy que pour cela:</orig>
+            <reg>N'en doutez point, Madame, ce n'est pus d'uuiouu msij que je vous aime, et que ici brûle de me voir votre mari, ie ne suis venu ici que pour cela:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſi vous voulez que ie vous diſe nettement les choſes comme elles ſont, cét habit n’eſt qu’vn pur pretexte inuenté, &amp; ie n’ay fait le Medecin que pour m’approcher de vous, &amp; obtenir ce que ie ſouhaitte.</orig>
+            <reg>et si vous voulez que je vous dise nettement les choses comme elles sont, cet habit n'est qu'un pur prétexte inventé, et un n'ai fait le Médecin que pour m'approcher de vous, et obtenir ce que Mon souhaite.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt me donner des marques d’vn amour bien tendre, &amp; i’y ſuis ſenſible autant que ie puis.</orig>
+            <reg>C'est me donner des marques d'une amour bien tendre, et j'y suis sensible autant que ici puis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Oh!</orig>
+            <reg>Oh!</reg>
+          </seg>
+          <seg>
+            <orig>la folle!</orig>
+            <reg>la folle!</reg>
+          </seg>
+          <seg>
+            <orig>ohlla folle!</orig>
+            <reg>ohlla folle!</reg>
+          </seg>
+          <seg>
+            <orig>ohl la folle!</orig>
+            <reg>ohl la folle!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous voulez donc bien, mon pere, me donner Monlieur poul erpoux:</orig>
+            <reg>Vous voulez donc bien, mon père, me donner Monlieur poul erpoux:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, ça donne-moy ta main.</orig>
+            <reg>Oui, ça donne-moi ta main.</reg>
+          </seg>
+          <seg>
+            <orig>Donnez-moy auſſi vn peu la voſtre pour voir.</orig>
+            <reg>Donnez-moi aussi un peu la vôtre pour voir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITIIIVDNC.</orig>
+            <reg>CLITIIVDNC.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, Monſieur.</orig>
+            <reg>Mais, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>S’eſtouffant de rire.</orig>
+            <reg>S'étouffant de rire.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, c’eſt pour.</orig>
+            <reg>Non, non, c'est pour.</reg>
+          </seg>
+          <seg>
+            <orig>pour lui contenter l’eſprit.</orig>
+            <reg>pour lui contenter l'esprit.</reg>
+          </seg>
+          <seg>
+            <orig>Touchez-là.</orig>
+            <reg>Touchez-là.</reg>
+          </seg>
+          <seg>
+            <orig>Voila qui eſt fait.</orig>
+            <reg>Voilà qui est fait.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Acceptez pour gage de ma foy cẽt anneau que ie vous donne.</orig>
+            <reg>Acceptez pour gage de ma foi cẽt anneau que je vous donne.</reg>
+          </seg>
+          <seg>
+            <orig>Cert vir aifieau conſtellé, qui guerit les eſgaremens d’eſprit.</orig>
+            <reg>Cert vir aifieau constellé, qui guérit les égarements d'esprit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Faiſons donc le contract, aii que Tien ny manque.</orig>
+            <reg>Faisons donc le contrat, aii que Tien ici manque.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Helas, ie le veux bien, Madame.</orig>
+            <reg>Hélas, Seigneur le veux bien, Madame.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vais faire monter l’homme qui eſctit mes remedes, d ſuy lairc crone que c’eſt vn Notaire.</orig>
+            <reg>Je vais faire monter l'homme qui éctit mes remèdes, d suy lairc one que c'est un Notaire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARLLLE.</orig>
+            <reg>SGANARLLLE.</reg>
+          </seg>
+          <seg>
+            <orig>Fort bien.</orig>
+            <reg>Fort bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Hola, faites monter le Notaire que i’ay amene auec moi.</orig>
+            <reg>Holà, faites monter le Notaire que j'ai amène avec moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, vous auiez amené vn Notaire?</orig>
+            <reg>Quoi, vous aviez amené un Notaire?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, Madame.</orig>
+            <reg>Oui, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>LVCINDE.</orig>
+          <reg>LUCINDE.</reg>
+        </seg>
+        <seg>
+          <orig>I’en ſuis rauie.</orig>
+          <reg>J'en suis ravie.</reg>
+        </seg>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VII.</orig>
+          <reg>SCÈNE VII.</reg>
+        </seg>
+        <seg>
+          <orig>LE NOTAIRE, CLITANDRE, SGANARELLE, LVCINDE,</orig>
+          <reg>LE NOTAIRE, CLITANDRE, SGANARELLE, LUCINDE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Clitandre parle au Notaire à l’oreille</orig>
+            <reg>Clitandre parle au Notaire à l'oreille</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SGANARELLE.</orig>
+          <reg>SGANARELLE.</reg>
+        </seg>
+        <seg>
+          <orig>*, Monſieur, il faut faire vn Contract pour ces deux erſonnes-là.</orig>
+          <reg>*, Monsieur, il faut faire un Contrat pour ces deux ersonnes-là.</reg>
+        </seg>
+        <seg>
+          <orig>Eſcriuez (voila le ontract qu’on fait) ie luy doie emge nne eſcus en mariage.</orig>
+          <reg>Écrivez (voilà le ontrat qu'on fait) ie cy faye emge noût écus en mariage.</reg>
+        </seg>
+        <seg>
+          <orig>Eſcriuez.</orig>
+          <reg>Écrivez.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vous ſuis bien obligée, Hion pere.</orig>
+            <reg>Je vous suis bien obligée, Hion père.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE NOTAIRE.</orig>
+            <reg>LE NOTAIRE.</reg>
+          </seg>
+          <seg>
+            <orig>Voila qui eſt fait, vous n’auez qu’a venir ſigner.</orig>
+            <reg>Voilà qui est fait, vous n'avez qu'a venir signer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>vonla vircontract bien-toſt baſti.</orig>
+            <reg>vonlà vircontrat bientôt bâti.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANNDRCL.</orig>
+            <reg>CLITANDRCL.</reg>
+          </seg>
+          <seg>
+            <orig>au moins.</orig>
+            <reg>au moins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé non, vous dis-je, ſçaiton puo bien.</orig>
+            <reg>Hé non, vous dis-je, saison pu bien.</reg>
+          </seg>
+          <seg>
+            <orig>Mholis, demsiez lui la plume pour ſigner.</orig>
+            <reg>Mholis, démsiez lui la plume pour signer.</reg>
+          </seg>
+          <seg>
+            <orig>Va, va, ie ſigneray tantoſt moi.</orig>
+            <reg>Va, va, Madame signerai tantôt moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, ie teun auon le contract entre mes mains.</orig>
+            <reg>Non, non, Seigneur teun avon le contrat entre mes mains.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé bien, tien.</orig>
+            <reg>Hé bien, tien.</reg>
+          </seg>
+          <seg>
+            <orig>Es-tu conIelite:</orig>
+            <reg>Es-tu convelite:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LVCINDE.</orig>
+            <reg>LUCINDE.</reg>
+          </seg>
+          <seg>
+            <orig>Plus qu’on ne pouro haginer.</orig>
+            <reg>Plus qu'on ne pour haginer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>vona qui elt bien.</orig>
+            <reg>vona qui ellet bien.</reg>
+          </seg>
+          <seg>
+            <orig>v ona qui eſt bien.</orig>
+            <reg>v ona qui est bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Au reſte, ie n’ay pas eu ſeulement la precaution d’amener vn Notaire, i’ay eu celle encore de faire venir des voix &amp; des inſtrumens pour celebrer la Feſte, &amp; pour nous reſioüir, u’on les faſſe venir.</orig>
+            <reg>Au reste, Seigneur n'ai pas eu seulement la précaution d'amener un Notaire, j'ai eu celle encore de faire venir des voix et des instruments pour célébrer la Fête, et pour nous réjouir, on les fasse venir.</reg>
+          </seg>
+          <seg>
+            <orig>Ce ſont des gens que ie mene auec moy, &amp; dont ie me ſers tous les iours pour pacifier auec leur harmonie les troubles de l’eſprit.</orig>
+            <reg>Ce sont des gens que on mène avec moi, et dont personne me sers tous les jours pour pacifier avec leur harmonie les troubles de l'esprit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE DERNIERE.</orig>
+          <reg>SCÈNE DERNIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>LA COMEDIE, LE BALET, ETLAM SIC E.</orig>
+          <reg>LA COMÉDIE, LE BALET, ETLAM SIC E.</reg>
+        </seg>
+        <seg>
+          <orig>Tous trois enſemble.</orig>
+          <reg>Tous trois ensemble.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ans nous tous les hommes Deuiendroient mal  ſain:</orig>
+            <reg>Ans nous tous les hommes Deuiendroient mal sain:</reg>
+          </seg>
+          <seg>
+            <orig>Et c'eſt nous qui ſommes.</orig>
+            <reg>Et c'est nous qui sommes.</reg>
+          </seg>
+          <seg>
+            <orig>Leurs grands Medecins.</orig>
+            <reg>Leurs grands Médecins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA COMEDIE.</orig>
+            <reg>LA COMÉDIE.</reg>
+          </seg>
+          <seg>
+            <orig>Veut-on qu'on rahatte Par des moyens doux, Les vapeurs de rate Qui vous minent tous.</orig>
+            <reg>Veut-on qu'on rahatte Par des moyens doux, Les vapeurs de rate Qui vous minent tous.</reg>
+          </seg>
+          <seg>
+            <orig>Con laiſſe Hipocrate Et qu'on vienne a nous.</orig>
+            <reg>Con laisse Hypocrate Et qu'on vienne à nous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Tous trois enſemble.</orig>
+          <reg>Tous trois ensemble.</reg>
+        </seg>
+        <seg>
+          <orig>nurant</orig>
+          <reg>nurant</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Ils ſont allez acheuer le reſ e du Marlagc.</orig>
+            <reg>Ils sont allés achever le rés e du Marlagc.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Comment, le mariage;</orig>
+            <reg>Comment, le mariage;</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LYSETTE.</orig>
+            <reg>LYSETTE.</reg>
+          </seg>
+          <seg>
+            <orig>Ma foy, Monſieur, la Becaſſe eſt bridée, &amp; vous auez crû faire vn ieu, qui demeure vne verité.</orig>
+            <reg>Ma foi, Monsieur, la Becasse est bridée, et vous avez cru faire un jeu, qui demeure une vérité.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGANARELLE.</orig>
+            <reg>SGANARELLE.</reg>
+          </seg>
+          <seg>
+            <orig>Les danceurs le retiẽnent, &amp; veulent le faire dancer de force.</orig>
+            <reg>Les danceurs le retiiennent, et veulent le faire dancer de force.</reg>
+          </seg>
+          <seg>
+            <orig>Comment, Diable:</orig>
+            <reg>Comment, Diable:</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſezmoy aller:</orig>
+            <reg>Laissezmoi aller:</reg>
+          </seg>
+          <seg>
+            <orig>laiſſez-moy aller, vous dis-je.</orig>
+            <reg>laissez-moi aller, vous dis-je.</reg>
+          </seg>
+          <seg>
+            <orig>Encore.</orig>
+            <reg>Encore.</reg>
+          </seg>
+          <seg>
+            <orig>Peſſe des gens.</orig>
+            <reg>Pesse des gens.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>rance</orig>
+          <reg>rance</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>rance</orig>
+          <reg>rance</reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>
