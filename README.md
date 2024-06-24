@@ -17,6 +17,8 @@ pip install -r requirements.txt
 
 Run scripts in the order of the numbering.
 
+To run the NER script, you need to download the `final-model.pt` [here](https://huggingface.co/pjox/dalembert-classical-fr-ner/tree/main) and put it in a directory called `models`.
+
 
 ## How to cite
 
