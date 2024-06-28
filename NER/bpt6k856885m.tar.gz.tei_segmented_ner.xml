@@ -1,0 +1,4217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L'Impromptu de la Garnison de Namur, comédie</title>
+        <author/>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb39325256x"/>
+          <author>
+            <persName/>
+          </author>
+          <title>L'Impromptu de la Garnison de Namur, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1694" cert="high" resp="BNF">1694</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>L’IM.</orig>
+          <reg>L'IM.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>L’IMPROMPTU DE LA GARNISON DE CYMUR, ESMEDIL.</orig>
+          <reg>L'IMPROMPTU DE LA GARNISON DE <placeName>CYMUR</placeName>, ESMEDIL.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE PREMIER.</orig>
+          <reg>ACTE PREMIER.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE I.</orig>
+          <reg>SCÈNE I.</reg>
+        </seg>
+        <seg>
+          <orig>MARTON, CLIEHEDRE, MERLIN.</orig>
+          <reg>MÁRTON, CLIEHÉDRE, MERLIN.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ue demandez-vous ici, Monſieur?</orig>
+            <reg>Que demandez-vous ici, Monsieur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Ce que je demande, Marton.</orig>
+            <reg>Ce que je demande, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous me connoiſſez donc à ce que je voi.</orig>
+            <reg>Vous me connaissez donc à ce que je vois.</reg>
+          </seg>
+          <seg>
+            <orig>A CLIT</orig>
+            <reg>À CLIT</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Si je te connois!</orig>
+            <reg>Si je te connais!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>ah!</orig>
+            <reg>ah!</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt vous, Monſieur Clitandre?</orig>
+            <reg>c'est vous, <persName>Monsieur Clitandre</persName></reg>
+          </seg>
+          <seg>
+            <orig>Vous étiez Abbé à Paris &amp; un éveillé petit collet, je ne ſay ce que vous étes avec une épée.</orig>
+            <reg>Vous étiez <persName>Abé</persName> à <placeName>Paris</placeName> et un éveillé petit collet, je ne sai ce que vous êtes avec une épée.</reg>
+          </seg>
+          <seg>
+            <orig>Vous étes de nôtre nouvelle Garniſon apparemment.</orig>
+            <reg>Vous êtes de notre nouvelle <persName>Garnison</persName> apparemment.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce à moi que vous venez rendre viſite?</orig>
+            <reg>Est-ce à moi que vous venez rendre visite?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut te parler naturellement :</orig>
+            <reg>Il faut te parler naturellement :</reg>
+          </seg>
+          <seg>
+            <orig>le jour que nous priſmes poſſeſſion de la Ville, ta Maîtreſſe me parut toute charmante:</orig>
+            <reg>le jour que nous prîmes possession de la Ville, ta Maîtresse me parut toute charmante:</reg>
+          </seg>
+          <seg>
+            <orig>je cherchai l’occaſion de te parler :</orig>
+            <reg>je cherchai l'occasion de te parler :</reg>
+          </seg>
+          <seg>
+            <orig>Heureux, ſi, puis que cette Place eſt nôtre Conquête, le Cœur de ta Maîtreſſe pouvoit devenir la mienne!</orig>
+            <reg>Heureux, si, puis que cette Place est notre Conquête, le Cœur de ta Maîtresse pouvait devenir la mienne!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BLHTON.</orig>
+            <reg>
+              <persName>BLHTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Comment Diantre!</orig>
+            <reg>Comment Diantre!</reg>
+          </seg>
+          <seg>
+            <orig>Vous étes auſſi prompt à prendre de l’amour qu’à prendre des Villes.</orig>
+            <reg>Vous êtes aussi prompt à prendre de l'amour qu'à prendre des Villes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Je veux que tu t’intéreſſes pour moi.</orig>
+            <reg>Je veux que tu t'intéresses pour moi.</reg>
+          </seg>
+          <seg>
+            <orig>Commence par prendre ces dix Louis.</orig>
+            <reg>Commence par prendre ces dix <persName>Louis</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Monſieur, je ne ſuis point intéreſſée.</orig>
+            <reg>Non, Monsieur, je ne suis point intéressée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MER.</orig>
+          <reg>MER.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ma foi!</orig>
+            <reg>Ma foi!</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, cela vaut davantage.</orig>
+            <reg>Monsieur, cela vaut davantage.</reg>
+          </seg>
+          <seg>
+            <orig>Mettez trente piſtoles :</orig>
+            <reg>Mettez trente pistoles :</reg>
+          </seg>
+          <seg>
+            <orig>comme elle n’eſt pas intereſſée, elle en prendra plûtôt trente que dix.</orig>
+            <reg>comme elle n'est pas intéressée, elle en prendra plutôt trente que dix.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Que puis- je faire pour vôtre ſervice?</orig>
+            <reg>Que puis- je faire pour votre service?</reg>
+          </seg>
+          <seg>
+            <orig>quoi que Flamande, j’ai les inclinations Françoiſes, &amp; je ſuis la perſonne de Flandre la plus eniployée.</orig>
+            <reg>quoi que <persName>Flamande</persName>, j'ai les inclinations Françaises, et je suis la personne de <placeName>Flandre</placeName> la plus eniployée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CETTANNVE ERS Il s’agit de me bien mettre dans le cœur de ta Maîtreſſe.</orig>
+            <reg>CETTANNVE ERS Il s'agit de me bien mettre dans le cœur de ta Maîtresse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ce qui m’embaraſſe, c’eſt qu’il y a un certain Eſpagnol qui depuis deux années eſt amoureux de ma Maîtreſſe.</orig>
+            <reg>Ce qui m'embarrasse, c'est qu'il y a un certain Espagnol qui depuis deux années est amoureux de ma Maîtresse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MENLIN.</orig>
+            <reg>
+              <persName>MENLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Cela eſt fort embaraſſant !</orig>
+            <reg>Cela est fort embarrassant !</reg>
+          </seg>
+          <seg>
+            <orig>Il ſera bien difficile à un François de faire déguerpir un Eſpagnol, n’eſt-ce pas?</orig>
+            <reg>Il sera bien difficile à un Français de faire déguerpir un Espagnol, n'est-ce pas?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Voicy ma Maîtréſſe &amp; la vôtre.</orig>
+            <reg>Voici ma <persName>Mai</persName>̂trésse et la vôtre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE II.</orig>
+          <reg>SCÈNE II.</reg>
+        </seg>
+        <seg>
+          <orig>ANGELIQUE, MARTON.</orig>
+          <reg>ANGELIQUE, MÁRTON.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Rien, Mademoiſelle, je l’ay connû en France, c’eſt un Seigneur des plus riches:</orig>
+            <reg>Rien, Mademoiselle, je l'ai connu en <placeName>France</placeName>, c'est un Seigneur des plus riches:</reg>
+          </seg>
+          <seg>
+            <orig>ſa phiſionomie ne me trompe point, il vient de me douner trente piſtoles.</orig>
+            <reg>sa physionomie ne me trompe point, il vient de me douner trente pistoles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Trente piſtoles!</orig>
+            <reg>Trente pistoles!</reg>
+          </seg>
+          <seg>
+            <orig>&amp; dans quelle veuë?</orig>
+            <reg>et dans quelle vue?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAXTON.</orig>
+            <reg>
+              <persName>MAXTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Dans la veuë de me faire plaiſir.</orig>
+            <reg>Dans la vue de me faire plaisir.</reg>
+          </seg>
+          <seg>
+            <orig>Les François ſemblent faits pour l’Amour &amp; pour la Guerre.</orig>
+            <reg>Les Français semblent faits pour l'Amour et pour la Guerre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Les trente piſtoles vous rendent éloquente.</orig>
+            <reg>Les trente pistoles vous rendent éloquente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il me ſouvient que le jour que les Troupes entrérent dans nôtre Ville, vous vous en aviez remarqué un plus que les autres.</orig>
+            <reg>Il me souvient que le jour que les Troupes entrèrent dans notre Ville, vous vous en aviez remarqué un plus que les autres.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, Marton!</orig>
+            <reg>Ah, <persName>Marton</persName></reg>
+          </seg>
+          <seg>
+            <orig>c’eſt juſtement celuy qui te parloit.</orig>
+            <reg>c'est justement celui qui te parlait.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Midll EONV.</orig>
+            <reg>Midll ÉONV.</reg>
+          </seg>
+          <seg>
+            <orig>Ma foy, j’en ſuis bien aiſe.</orig>
+            <reg>Ma foi, j'en suis bien aise.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais que dira-t-on, ſi j’aime déja un François?</orig>
+            <reg>Mais que dira-t-on, si j'aime déjà un Français?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>On dira que vons tite de bongoût.</orig>
+            <reg>On dira que vons tite de bongoût.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez le voici:</orig>
+            <reg>Tenez le voici:</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt François:</orig>
+            <reg>Il est Français:</reg>
+          </seg>
+          <seg>
+            <orig>Il ſait profiter de l’occaſion.</orig>
+            <reg>Il sait profiter de l'occasion.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE III.</orig>
+          <reg>SCÈNE III.</reg>
+        </seg>
+        <seg>
+          <orig>CLITANDRE, MARTON, ANGELIQUE, MERLIN.</orig>
+          <reg>CLITANDRE, MÁRTON, ANGELIQUE, MERLIN.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>’Eſt icy une de ces avantutes qui déconcertent un Cavanler.</orig>
+            <reg>Est icy une de ces avantutes qui déconcertent un Cavanler.</reg>
+          </seg>
+          <seg>
+            <orig>Hé!</orig>
+            <reg>Hé!</reg>
+          </seg>
+          <seg>
+            <orig>hé!</orig>
+            <reg>hé!</reg>
+          </seg>
+          <seg>
+            <orig>comment oſer vous apprendre ce que mon cœur ſent pour vous?</orig>
+            <reg>comment oser vous apprendre ce que mon cœur sent pour vous?</reg>
+          </seg>
+          <seg>
+            <orig>je crains trop de m’attirer vôtre colére, Marton ſera l’interpréte de mon cœur.</orig>
+            <reg>je crains trop de m'attirer votre colère, <persName>Marton</persName> sera l'interprête de mon cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A 5 lia Iaii</orig>
+            <reg>A 5 lia Jaii</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous me faites donc vôtre Plénipotentiaire abſolu.</orig>
+            <reg>Vous me faites donc votre Plénipotentiaire absolu.</reg>
+          </seg>
+          <seg>
+            <orig>Par ma foy!</orig>
+            <reg>Par ma foi!</reg>
+          </seg>
+          <seg>
+            <orig>vous avez raiſon.</orig>
+            <reg>vous avez raison.</reg>
+          </seg>
+          <seg>
+            <orig>Abrégeons les choſes.</orig>
+            <reg>Abrègeons -les choses.</reg>
+          </seg>
+          <seg>
+            <orig>Dites à Mademoiſelle que vous l’aimez:</orig>
+            <reg>Dites à Mademoiselle que vous l'aimez:</reg>
+          </seg>
+          <seg>
+            <orig>Répondez à Monſieur que vous ne le namez pomte vona le réſultat de la converſation.</orig>
+            <reg>Répondez à Monsieur que vous ne le namez pomte vona le résultat de la conversation.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Les François ont la reputation d’étre inconſtans.</orig>
+            <reg>Les Français ont la réputation d'être inconstants.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERETE.</orig>
+            <reg>
+              <persName>MERETE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oh!</orig>
+            <reg>Oh!</reg>
+          </seg>
+          <seg>
+            <orig>Madame, nous ne ſommes pas François par cet endroit là.</orig>
+            <reg>Madame, nous ne sommes pas Français par cet endroit là.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIUL.</orig>
+            <reg>
+              <persName>ANGELIUL</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais comment ferons-nous, Marton ?</orig>
+            <reg>Mais comment ferons-nous, <persName>Marton</persName> ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il faut tromper vôtre Tante &amp; nous débaraſſer de vôtre Eſpagnol, les Eſpagnols gardent mieux les Femmes que les Villes.</orig>
+            <reg>Il faut tromper votre Tante et nous débarrasser de votre Espagnol, les Espagnols gardent mieux les Femmes que les Villes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MENLIN.</orig>
+            <reg>
+              <persName>MENLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais s’il y a des François pour prendre leurs Villes, il y a des Martons pour enlever leurs Femmes.</orig>
+            <reg>Mais s'il y a des Français pour prendre leurs Villes, il y a des Martons pour enlever leurs Femmes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais toi qui fais le raiſonneur, és-tu bon à quelque choſe?</orig>
+            <reg>Mais toi qui fais le raisonneur, es-tu bon à quelque chose?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Tu n’as qu’à me mettre à l’épreuve.</orig>
+            <reg>Tu n'as qu'à me mettre à l'épreuve.</reg>
+          </seg>
+          <seg>
+            <orig>Je m’appelle Merlin afin que tu le ſaches.</orig>
+            <reg>Je m'appelle <persName>Merlin</persName> afin que tu le saches.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Tu és un de ces Merlins?</orig>
+            <reg>Tu ès un de ces <persName>Merlins</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN Tu vois le Chef de la Famille, mon Enfant!</orig>
+            <reg><persName>MERLIN</persName> Tu vois le Chef de la Famille, mon Enfant!</reg>
+          </seg>
+          <seg>
+            <orig>Tout retentit de mon ſavoir faire.</orig>
+            <reg>Tout retentit de mon savoir faire.</reg>
+          </seg>
+          <seg>
+            <orig>Faut-il épuiſer la bourſe d’un Vieillard, c’eſt à Merlin à qui l’on s’adreſſe?</orig>
+            <reg>Faut-il épuiser la bourse d'un Vieillard, c'est à <persName>Merlin</persName> à qui l'on s'adresse?</reg>
+          </seg>
+          <seg>
+            <orig>Voit on des Tantes attrapées par de jeunes Niéces, c’eſt Merlin qui a fait le coup?</orig>
+            <reg>Voit on des Tantes attrapées par de jeunes Nièces, c'est <persName>Merlin</persName> qui a fait le coup?</reg>
+          </seg>
+          <seg>
+            <orig>lot a rheure qu’il eſt j’ay à Paris vingt Garçons qui travaillent en mon abſence.</orig>
+            <reg>lot a rheure qu'il est j'ai à <placeName>Paris</placeName> vingt Garçons qui travaillent en mon absence.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Retirez-vous, nous n’avons pas de temps à perdre.</orig>
+            <reg>Retirez-vous, nous n'avons pas de temps à perdre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENEIV.</orig>
+          <reg>SCENEIV.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN, MARTON.</orig>
+          <reg><persName>MERLIN</persName>, MÁRTON.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>E ſuis heureux, Madame Marton, d’étre employé dans une affaire que O vous prenez ſi fort à cœur.</orig>
+            <reg>E suis heureux, <persName>Madame Marton</persName>, d'être employé dans une affaire que Ô vous prenez si fort à cœur.</reg>
+          </seg>
+          <seg>
+            <orig>A 5</orig>
+            <reg>A 5</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MAR</orig>
+          <reg>
+            <persName>MAR</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mon bonheur eſt grand, Monſieur Merlin, d’avoir à travailler ſous une perſonne comme vous:</orig>
+            <reg>Mon bonheur est grand, <persName>Monsieur Merlin</persName>, d'avoir à travailler sous une personne comme vous:</reg>
+          </seg>
+          <seg>
+            <orig>mes lumiéres ont beſoin des vôtres, Monſieur Merliu.</orig>
+            <reg>mes lumières ont besoin des vôtres, <persName>Monsieur Merliv</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Nous travaillerons à frais communs, &amp; par parentheſe, vous avez receu déja trente piſtoles.</orig>
+            <reg>Nous travaillerons à frais communs, et par parenthèse, vous avez reçu déjà trente pistoles.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut.</orig>
+            <reg>Il faut.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oh!</orig>
+            <reg>Oh!</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur Merlin, je iais vôtre Servante, je les garde.</orig>
+            <reg><persName>Monsieur Merlin</persName>, je jais votre Servante, je les garde.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt ſur nouvcaus hais quon nous emipioye.</orig>
+            <reg>C'est sur nouvcaus hais quon nous emipioie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais vous voyez bien.</orig>
+            <reg>Mais vous voyez bien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oh!</orig>
+            <reg>Oh!</reg>
+          </seg>
+          <seg>
+            <orig>mon Enfant, point de méſintelligence entre des Alliez;</orig>
+            <reg>mon Enfant, point de mésintelligence entre des Alliés;</reg>
+          </seg>
+          <seg>
+            <orig>cela fait nianqueries emteprites, rongeons à nos deſſeins.</orig>
+            <reg>cela fait nianqueries emteprites, rongeons à nos desseins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Qu’eſt-ce que la Tante en queſtion?</orig>
+            <reg>Qu'est-ce que la Tante en question?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt une vieille Fille de mauvaiſe humeur qui ſe croit jolie;</orig>
+            <reg>C'est une vieille Fille de mauvaise humeur qui se croit jolie;</reg>
+          </seg>
+          <seg>
+            <orig>elle veut étre mariée.</orig>
+            <reg>elle veut être mariée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouy!</orig>
+            <reg>Oui!</reg>
+          </seg>
+          <seg>
+            <orig>vous voulez bruſquer les Nôces, Madame nôtre Tante, oh !</orig>
+            <reg>vous voulez brusquer les Nôces, Madame notre Tante, oh !</reg>
+          </seg>
+          <seg>
+            <orig>par ma foy!</orig>
+            <reg>par ma foi!</reg>
+          </seg>
+          <seg>
+            <orig>j'en ſuis bien aiſe.</orig>
+            <reg>j'en suis bien aise.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſe moi moi faire.</orig>
+            <reg>Laisse -moi moi faire.</reg>
+          </seg>
+          <seg>
+            <orig>Je veux attraper ſon bien &amp; la faire mourir fille de plus.</orig>
+            <reg>Je veux attraper son bien et la faire mourir fille de plus.</reg>
+          </seg>
+          <seg>
+            <orig>Un des habits de mon Maître!</orig>
+            <reg>Un des habits de mon Maître!</reg>
+          </seg>
+          <seg>
+            <orig>L’affaire eſt dans le ſac.</orig>
+            <reg>L'affaire est dans le sac.</reg>
+          </seg>
+          <seg>
+            <orig>Venons à l’Eſpagnol.</orig>
+            <reg>Venons à l'Espagnol.</reg>
+          </seg>
+          <seg>
+            <orig>Quel homme eſt-ce ?</orig>
+            <reg>Quel homme est-ce ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MARTON.</orig>
+          <reg>
+            <persName>MÁRTON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>C’eſt un Eſpagnol qui s’appelle Dom Julien Officier de nôtre défunte Garniſon;</orig>
+          <reg>C'est un Espagnol qui s'appelle <persName>Dom Julien</persName> Officier de notre défunte <persName>Garnison</persName></reg>
+        </seg>
+        <seg>
+          <orig>Voicy notre Tante.</orig>
+          <reg>Voici notre Tante.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE V.</orig>
+          <reg>SCÈNE V.</reg>
+        </seg>
+        <seg>
+          <orig>ARAMINTE, MARTON.</orig>
+          <reg><persName>ARAMINTE</persName>, MÁRTON.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN.</orig>
+          <reg>
+            <persName>MERLIN</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ve veut ce Garçon, Marton?</orig>
+            <reg>Ve veut ce Garçon, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il ne veut rien, Madame, c’eſt vous qu’il demande.</orig>
+            <reg>Il ne veut rien, Madame, c'est vous qu'il demande.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouy, Madame, je venois voir, ſi vous étiez viſible;</orig>
+            <reg>Oui, Madame, je venais voir, si vous étiez visible;</reg>
+          </seg>
+          <seg>
+            <orig>puis que vous voilà, je comprens bien qu’ouy.</orig>
+            <reg>puis que vous voilà, je comprends bien qu'oui.</reg>
+          </seg>
+          <seg>
+            <orig>Je vais rendre réponſe.</orig>
+            <reg>Je vais rendre réponse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt le Valet de quelque Officier FraliFrançois, Marton, je ne ſuis point fâchée que les François ſoient icy.</orig>
+            <reg>C'est le Valet de quelque Officier FraliFrançois, <persName>Marton</persName>, je ne suis point fâchée que les Français soient ici.</reg>
+          </seg>
+          <seg>
+            <orig>Nous aurons toûjours nouvelle compagnie.</orig>
+            <reg>Nous aurons toujours nouvelle compagnie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>miu fond Macanie, je les trouve fort jolies gens.</orig>
+            <reg>mive fond Macanie, je les trouve fort jolies gens.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANAMINIE.</orig>
+            <reg>ANAMINIE.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>ma pauvre Marton !</orig>
+            <reg>ma pauvre <persName>Marton</persName> !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Seriez-vous amoureuſe de quelque François?</orig>
+            <reg>Seriez-vous amoureuse de quelque Français?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LARIIAINTE.</orig>
+            <reg>LARIIAINTE.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne ſuis amoureuſe de perſonne en particulier.</orig>
+            <reg>Je ne suis amoureuse de personne en particulier.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>j’entends, vous en voulez à toute la Nation.</orig>
+            <reg>j'entends, vous en voulez à toute la Nation.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez-vous un peu, Madame;</orig>
+            <reg>Tenez-vous un peu, Madame;</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>la belle phiſionomie de Femme!</orig>
+            <reg>la belle physionomie de Femme!</reg>
+          </seg>
+          <seg>
+            <orig>tenez, Madame, vous reſſemblez à l Empereur Ilajan comme deux goutes d’eau.</orig>
+            <reg>tenez, Madame, vous ressemblez à l' <persName>Empereur Ilajan</persName> comme <measure>deux goutes</measure> d'eau.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Eſt il poſſible ?</orig>
+            <reg>Est -il possible ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Si vous vouliez ſeulement faire un petit brin de barbe, vous deviendriez Marquiſe Françoiſe.</orig>
+            <reg>Si vous vouliez seulement faire un petit brin de barbe, vous deviendriez <persName>Marquise Française</persName></reg>
+          </seg>
+          <seg>
+            <orig>Montrez-moy vôtre main, j’ay été Bohémienne.</orig>
+            <reg>Montrez-moi votre main, j'ai été Bohémienne.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que vous étes menacée d’une belle fortune.</orig>
+            <reg>que vous êtes menacée d'une belle fortune.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ſerez Marquiſe, &amp; &amp; Marquite Françoiſe, avant qu’il ſoit vingt-quatre heures Cette ligne s’appeſle une ligne de dignitez.</orig>
+            <reg>Vous serez Marquise, et et <placeName>Marquite Française</placeName>, avant qu'il soit <measure>vingt-quatre heures</measure> Cette ligne s'appêle une ligne de dignités.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>je mavois jamais ouy dire que tu euſſes de ſi beaux talens.</orig>
+            <reg>je mavais jamais ouï dire que tu eusses de si beaux talents.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vôtre Dom Julien, Madame, que vous voulez donner a votre Niéce, ſera pendu, Madame.</orig>
+            <reg>Votre <persName>Dom Julien</persName>, Madame, que vous voulez donner à votre <persName>Nièce</persName>, sera pendu, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Es-tu folle ?</orig>
+            <reg>Es-tu folle ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Madame, il ſera pendu.</orig>
+            <reg>Non, Madame, il fera pendu.</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt pourtant un honnête homme, il mourra innocent ;</orig>
+            <reg>c'est pourtant un honnête homme, il mourra innocent ;</reg>
+          </seg>
+          <seg>
+            <orig>mais pendu, je l’ai condamné à cela, &amp; de tous ceux que i’ay pendus en ma vie, il ne m’en eſt pas échapé un.</orig>
+            <reg>mais pendu, je l'ai condamné à cela, et de tous ceux que j'ai pendus en ma vie, il ne m'en est pas échappé un.</reg>
+          </seg>
+          <seg>
+            <orig>Le voicy!</orig>
+            <reg>Le voici!</reg>
+          </seg>
+          <seg>
+            <orig>ne luy en parlez point Madame.</orig>
+            <reg>neeste en parlez point Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ce ſeroit un beau compliment à luy faire, je n’ay garde.</orig>
+            <reg>Ce serait un beau compliment à lui faire, je n'ai garde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCE</orig>
+          <reg>
+            <persName>SCE</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VI.</orig>
+          <reg>SCÈNE VI.</reg>
+        </seg>
+        <seg>
+          <orig>DOM JULIEN, ARAMINTE, MANPON.</orig>
+          <reg><persName>DOM JULIEN</persName>, <persName>ARAMINTE</persName>, MANPON.</reg>
+        </seg>
+        <seg>
+          <orig>DOM JULIEN.</orig>
+          <reg>
+            <persName>DOM JULIEN</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>7 Ous voyez, Madame, ce que yT'aſſſout peut fane, je reſte icy quand tous les autres vont au Château.</orig>
+          <reg>7 Ous voyez, Madame, ce que yT-assout peut fane, je reste ici quand tous les autres vont au Château.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je ſuis ſurpriſe que vous n’y ſoyez pue avco rcene dampegdie.</orig>
+            <reg>Je suis surprise que vous n'y soyez pue auco reene dampègdie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Avec ſa Compagnie, il y a deux ans qu’il n’y a que trois Soidats.</orig>
+            <reg>Avec sa Compagnie, il y a deux ans qu'il n'y a que trois Soidats.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray que j’ay bien perdu du Mendce</orig>
+            <reg>Il est vrai que j'ai bien perdu du <persName>Mendce</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Les uns ſont morts de faim, les autres de peur, &amp; les autres de maladie.</orig>
+            <reg>Les uns sont morts de faim, les autres de peur, et les autres de maladie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je veux donner tout mon bieu à vôtre</orig>
+            <reg>Je veux donner tout mon bieu à votre</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>votre Niéce.</orig>
+            <reg>votre Nièce.</reg>
+          </seg>
+          <seg>
+            <orig>Il m’eſt deû vingt années de paye &amp; des millions de récompenſe.</orig>
+            <reg>Il m'est de vingt années de paye et des millions de récompense.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>nu nene renouree pounſunc Veuve !</orig>
+            <reg>nu néné renoure pounsunc Veuve !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Croirez-vous un conſeil que je vous veux donner?</orig>
+            <reg>Croirez-vous un conseil que je vous veux donner?</reg>
+          </seg>
+          <seg>
+            <orig>Entrez dans le Chãteau, &amp; tâchez de vous faire tuer.</orig>
+            <reg>Entrez dans le <placeName>Chouteau</placeName>, et tâchez de vous faire tuer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MRJOBISI Vous moquez vous de moy, Madame?</orig>
+            <reg><persName>MROBISI</persName> Vous moquez -vous de moi, Madame?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANAMINTE.</orig>
+            <reg>
+              <persName>ANAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, le plûtot c’eſt le meilleur.</orig>
+            <reg>Non, le plûtot c'est le meilleur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Elle extravague.</orig>
+            <reg>Elle extravague.</reg>
+          </seg>
+          <seg>
+            <orig>Voyons ſa Niéce.</orig>
+            <reg>Voyons sa Nièce.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARAMINTE.</orig>
+          <reg>
+            <persName>ARAMINTE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>On vous conſeille de vous faire tuer de peur d’accideut, &amp; vous ne reconnoiſſez pas les bontez qu’on a pour vous.</orig>
+          <reg>On vous conseille de vous faire tuer de peur d'accideut, et vous ne reconnaissez pas les bontés qu'on a pour vous.</reg>
+        </seg>
+        <seg>
+          <orig>Allez, Monſieur, je romps avec vous tout commerce.</orig>
+          <reg>Allez, Monsieur, je romps avec vous tout commerce.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VII.</orig>
+          <reg>SCÈNE VII.</reg>
+        </seg>
+        <seg>
+          <orig>MARTON, AXAMINTE.</orig>
+          <reg>MÁRTON, AXAMINTE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MARTON.</orig>
+          <reg>
+            <persName>MÁRTON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ivat, Madame, préparez-vous v drecevon un Marquis de conſé quence.</orig>
+          <reg>Juat, Madame, préparez-vous drevon un Marquis de consé quence.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce un joly homme?</orig>
+            <reg>Est-ce un joli homme?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le voicy.</orig>
+            <reg>Le voici.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>AC.</orig>
+          <reg>
+            <persName>AC</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE II.</orig>
+          <reg>ACTE II.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN, ARAMINTE, MARTON.</orig>
+          <reg><persName>MERLIN</persName>, <persName>ARAMINTE</persName>, MÁRTON.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN déguiſé.</orig>
+            <reg><persName>MERLIN</persName> déguisé.</reg>
+          </seg>
+          <seg>
+            <orig>E me donne au Diable, Madame, ſi je regrette les Belles de Paris, V puis qu’on trouve en ce Pays-cy des auorables comme vous.</orig>
+            <reg>E me donne au Diable, Madame, si je regrette les Belles de <placeName>Paris</placeName>, V puis qu'on trouve en ce Pays-cy des avorables comme vous.</reg>
+          </seg>
+          <seg>
+            <orig>On!</orig>
+            <reg>On!</reg>
+          </seg>
+          <seg>
+            <orig>pal ſambleu, je veux faire ſouche en Flandre, Madame, cela eſt réſolu.</orig>
+            <reg>pal sambleu, je veux faire souche en <placeName>Flandre</placeName>, Madame, cela est résolu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Voilà un Diſcours des plus obligeans, Monſieur.</orig>
+            <reg>Voilà un Discours des plus obligeants, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>La peſte m’étouffe, tout l’eſprit du monde n’eſt pas à Paris.</orig>
+            <reg>La peste m'étouffe, tout l'esprit du monde n'est pas à <placeName>Paris</placeName></reg>
+          </seg>
+          <seg>
+            <orig>On en trouve en Flandre.</orig>
+            <reg>On en trouve en <placeName>Flandre</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARA</orig>
+          <reg>
+            <persName>ARA</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt déja charmé de moi, Marton.</orig>
+            <reg>Il est déjà charmé de moi, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais que vois-je?</orig>
+            <reg>Mais que vois-je?</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt Marton!</orig>
+            <reg>C'est <persName>Marton</persName></reg>
+          </seg>
+          <seg>
+            <orig>Tu as donc fait banqueroute à la France.</orig>
+            <reg>Tu as donc fait banqueroute à la <placeName>France</placeName></reg>
+          </seg>
+          <seg>
+            <orig>Ali!</orig>
+            <reg>
+              <persName>Ali</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>tu as déſerté, Marton, je te ferai une affaire.</orig>
+            <reg>tu as déserté, <persName>Marton</persName>, je te ferai une affaire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Onu ſonneus, on ne panſt point te les Deſertrices.</orig>
+            <reg>Onu sonnus, on ne pût point te les Désertrices.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Cela ſe devroit.</orig>
+            <reg>Cela se devrait.</reg>
+          </seg>
+          <seg>
+            <orig>Une Fille de ta ci force quaud elle déſerte fait plus de p tort au ſervice de l’Amour que vingt Soldats au ſervice du Roy.</orig>
+            <reg>Une Fille de ta cy force quaud elle dèserte fait plus de tort au service de l'Amour que vingt Soldats au service du Roi.</reg>
+          </seg>
+          <seg>
+            <orig>Mille pardons, ma Princeſſe, où en étions n nous, Marton?</orig>
+            <reg>Mille pardons, ma Princesse, où en étions n nous, <persName>Marton</persName></reg>
+          </seg>
+          <seg>
+            <orig>Tu as là une Maſ̂treſſe incomparable.</orig>
+            <reg>Tu as là une Mastresse incomparable.</reg>
+          </seg>
+          <seg>
+            <orig>Elle eſt ſuperlativement aimable.</orig>
+            <reg>Elle est superlativement aimable.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous aime, u Madame, je meurs, Madame, je vous en avertis, Madame, je vous n prie.</orig>
+            <reg>Je vous aime, nu Madame, je meurs, Madame, je vous en avertis, Madame, je vous prie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Qu’avez vous, Monſieur?</orig>
+            <reg>Qu'avez -vous, Monsieur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>’ay le cœur vivement attaqué.</orig>
+            <reg>’ay le cœur vivement attaqué.</reg>
+          </seg>
+          <seg>
+            <orig>ſuis frappé là, ſur mon honneur, Madaine.</orig>
+            <reg>suis frappé là, sur mon honneur, Madaine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quoi!</orig>
+            <reg>Quoi!</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur?</orig>
+            <reg>Monsieur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il n’y a pas de milieu, il faut que je meure, où que je vous épouſe.</orig>
+            <reg>Il n'y a pas de milieu, il faut que je meure, où que je vous épouse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Que les François ſont preſſans, Marton.</orig>
+            <reg>Que les Français sont pressants, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ils ſont tous comme cela.</orig>
+            <reg>Ils sont tous comme cela.</reg>
+          </seg>
+          <seg>
+            <orig>Dés qu’ils voyent une belle Femme, ils créveroient plûtôt que de ne la pas épouſer.</orig>
+            <reg>Dès qu'ils voient une belle Femme, ils crèveraient plutôt que de ne la pas épouser.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouy, ma Reine!</orig>
+            <reg>Oui, ma Reine!</reg>
+          </seg>
+          <seg>
+            <orig>ce ſont nos mas.</orig>
+            <reg>ce sont nos mas.</reg>
+          </seg>
+          <seg>
+            <orig>niéres.</orig>
+            <reg>
+              <persName>nières</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais vraîmeut, cela eſt extraordinaire.</orig>
+            <reg>Mais vraîmeut, cela est extraordinaire.</reg>
+          </seg>
+          <seg>
+            <orig>Je n’ay pas l’honneur de vous connoître;</orig>
+            <reg>Je n'ai pas l'honneur de vous connaître;</reg>
+          </seg>
+          <seg>
+            <orig>vous venez icy pour la preis' miére fois, &amp; vous voulez déjà que je vous épouſe.</orig>
+            <reg>vous venez ici pour la préis mièvre fois, et vous voulez déjà que je vous épouse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Demandez à Marton, nous autres jeunes gens nous aimons les mariages e de rencontres.</orig>
+            <reg>Demandez à <persName>Marton</persName>, nous autres jeunes gens nous aimons les mariages eu de rencontres.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>AKA</orig>
+          <reg>
+            <persName>ALL</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais cet Amour eſt bien prompt, Monſieur.</orig>
+            <reg>Mais cet Amour est bien prompt, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Que voulez-vous que je vous di ſe, c’eſt un Impromptu de vos char mes &amp; un effet de ma deſtinée.</orig>
+            <reg>Que voulez-vous que je vous di se, c'est un Impromptu de vos char mes et un effet de ma destinée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>S’il diſoit vray, ma pauvre Mar ton.</orig>
+            <reg>S'il disait vrai, ma pauvre <persName>Mar</persName> ton.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON Je croy qu’il eſt ſincére.</orig>
+            <reg><persName>MÁRTON</persName> Je crois qu'il est sincère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il faut qu’il y ait de la deſtinée!</orig>
+            <reg>Il faut qu'il y ait de la destinée!</reg>
+          </seg>
+          <seg>
+            <orig>tout cecy.</orig>
+            <reg>tout ceci.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Se pourroit-il, mon Adorable?</orig>
+            <reg>Se pourrait-il, mon Adorable?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Un peu de trêve, Monſieur le euar jais, je vous en conjure.</orig>
+            <reg>Un peu de trêve, Monsieur le évar jais, je vous en conjure.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ne tirez plus, Monſieur, le cœu de Madame bat la chamade.</orig>
+            <reg>Ne tirez plus, Monsieur, le cœu de Madame bat la chamade.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARA.</orig>
+          <reg>
+            <persName>ARA</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ni.</orig>
+            <reg>ni.</reg>
+          </seg>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je me rends, voilà qui eſt fi</orig>
+            <reg>Je me rends, voilà qui est fi</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>La Place capitule, Monſieur, dreſlolls les Articies.</orig>
+            <reg>La Place capitule, Monsieur, dreslolls les Articies.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il n’eſt pas ſous le Ciel un plus infortuné Mortel, Madame.</orig>
+            <reg>Il n'est pas sous le Ciel un plus infortuné Mortel, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTOI.</orig>
+            <reg>MARTOI.</reg>
+          </seg>
+          <seg>
+            <orig>A qui en avez-vous?</orig>
+            <reg>À qui en avez-vous?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARAMINTE.</orig>
+          <reg>
+            <persName>ARAMINTE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>On ſe rend, Monſieur le Marquis, que voulez-vous de plus?</orig>
+          <reg>On se rend, Monsieur le Marquis, que voulez-vous de plus?</reg>
+        </seg>
+        <seg>
+          <orig>On ſe rend, vous dis-je.</orig>
+          <reg>On se rend, vous dis-je.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MENLIN.</orig>
+            <reg>
+              <persName>MENLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Eh!</orig>
+            <reg>Eh!</reg>
+          </seg>
+          <seg>
+            <orig>çe n’eſt point aſſez, Madame, ce n’eſt point aſſez.</orig>
+            <reg>çe n’est point assez, Madame, ce n’est point assez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Comment donc, Monſieur, on capitule, &amp; vous n’étes pas content.</orig>
+            <reg>Comment donc, Monsieur, on capitule, et vous n'êtes pas content.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce que vous voudriez nous prendre d’aſſaut, de par tous les Diantres?</orig>
+            <reg>Est-ce que vous voudriez nous prendre d'assaut, de par tous les Diantres?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MER</orig>
+          <reg>MER</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt pas cela Marton;</orig>
+            <reg>Ce n'est pas cela <persName>Marton</persName></reg>
+          </seg>
+          <seg>
+            <orig>ma j’ay un Cadet qui voudra étre com plis dans la Cupimavoſſ.</orig>
+            <reg>ma j'ai un Cadet qui voudra être com plis dans la <persName>Cupimavoss</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous avez un Frére qui eſt auſt amoureux de Madame?</orig>
+            <reg>Vous avez un Frère qui est aussit amoureux de Madame?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais jone pourrai jamais voi épouſer deux, comment faudra-t-i faire?</orig>
+            <reg>Mais jone pourrai jamais voi épouser deux, comment faudra-t-y faire?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous ne comprenez pas la choſe;</orig>
+            <reg>Vous ne comprenez pas la chose;</reg>
+          </seg>
+          <seg>
+            <orig>ma Princeſſe, le vieux fou d’Oncle avec ſon Teſtament.</orig>
+            <reg>ma Princesse, le vieux fou <persName>d'Oncle</persName> avec son Testament.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAATON Que parlez-vous d’Oncle, de Teſtament?</orig>
+            <reg>MATON Que parlez-vous d'Oncle, de <persName>Testament</persName></reg>
+          </seg>
+          <seg>
+            <orig>Que voulez-vous dire 2</orig>
+            <reg>Que voulez-vous dire 2</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Expliquez-vous, Monſieur le Mar quis.</orig>
+            <reg>Expliquez-vous, <persName>Monsieur le</persName><persName>Mar quis</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt le Teſtament d’un Oncle mon Adorable, qui fait obſtacle à mot bonheur.</orig>
+            <reg>C'est le Testament d'un Oncle mon Adorable, qui fait obstacle à mot bonheur.</reg>
+          </seg>
+          <seg>
+            <orig>ARA</orig>
+            <reg>
+              <persName>ARA</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Comment?</orig>
+            <reg>Comment?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le maudit Oncle!</orig>
+            <reg>Le maudit <persName>Oncle</persName></reg>
+          </seg>
+          <seg>
+            <orig>C’étoit un Seigneur des plus riches, qui en mourant s’eſt aviſé pour nos pechez de nous faſle les nerſtieis, men Prere &amp; moi.</orig>
+            <reg>C'était un Seigneur des plus riches, qui en mourant s'est avisé pour nos péchés de nous fâle les nerstie, men <persName>Prére</persName> et moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>* Mais je ne voy pas, Monſieur le Marquis, que ce Teſtament ait rien de commun avec vôtre mariage.</orig>
+            <reg>* Mais je ne vois pas, Monsieur le Marquis, que ce Testament ait rien de commun avec votre mariage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ha!</orig>
+            <reg>Ha!</reg>
+          </seg>
+          <seg>
+            <orig>il renferme une condition bien terrible, le maudit Teſtament.</orig>
+            <reg>il renferme une condition bien terrible, le maudit <object>Testament</object></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quelle condition, quoy?</orig>
+            <reg>Quelle condition, quoi?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il ordonne que les Héritiers ſe maB sieron t rieront tous deux en même jour, ſinos celuy qui ſera le plus preſſé, je le dés nentas</orig>
+            <reg>Il ordonne que les Héritiers se maB sieron t ieront tous deux en même jour, sinos celui qui sera le plus pressé, je le dés entas</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ſlais vonla unie ciaule bien extraordi d’e naire.</orig>
+            <reg>slais vonla unie ciaule bien extraordi d'e naire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Madame, feu Monſieur mo Oncle, eſt l’Oncle le plus bizarre &amp; le plus hétéroclite qu’on ait jamais vî</orig>
+            <reg>Madame, feu <persName>Monsieur mo Oncle</persName>, est l'Oncle le plus bizarre et le plus hétéroclite qu'on ait jamais vî</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Hé!</orig>
+            <reg>Hé!</reg>
+          </seg>
+          <seg>
+            <orig>ne pourroit-on point faire caſſe ſon Teſtament, Monſieur le Marquis?</orig>
+            <reg>ne pourrait-on point faire casse son Testament, Monsieur le Marquis?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le faire caſſer, mon Incomparable que c’eſt le Teſtament le plus dur &amp;l ch moins caſſable qu’il y ait en France.</orig>
+            <reg>Le faire casser, mon Incomparable que c'est le Testament le plus dur etl ch moins cassable qu'il y ait en <placeName>France</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Marton, que je ſuis malhe reuſe !</orig>
+            <reg><persName>Marton</persName>, que je suis malhe reuse !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MAR</orig>
+          <reg>
+            <persName>MAR</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Attendez, ne vous affligez point.</orig>
+            <reg>Attendez, ne vous affligez point.</reg>
+          </seg>
+          <seg>
+            <orig>Il me paſſe dans la tête de petites leices quu pourroient bien nous titer d’embarras.</orig>
+            <reg>Il me passe dans la tête de petites leices quu pourraient bien nous titer d'embarras.</reg>
+          </seg>
+          <seg>
+            <orig>Quy :</orig>
+            <reg>Qui :</reg>
+          </seg>
+          <seg>
+            <orig>E R1</orig>
+            <reg>E R1</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Qu’imagines-tu, ma pauvre Marton?</orig>
+            <reg>Qu'imagines-tu, ma pauvre <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Laiſſons-là faire, ma Princeſſe, c’eſt une fille impayable, &amp; qui a des idées tout à fait juſtes.</orig>
+            <reg>Laissons-là faire, ma <persName>Princesse</persName>, c'est une fille impayable, et qui a des idées tout à fait justes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouï, fort bien, juſtement le Contract d’Angelique &amp; de Dom Julien eſt tout dreſſé depuis quinze jours, il n’y a eu que l’impromptu du Siége qui a empêché de le ſigner.</orig>
+            <reg>Ouï, fort bien, justement le Contrat d'Angelique et de <persName>Dom Julien</persName> est tout dressé depuis quinze jours, il n'y a eu que l'impromptu du Siège qui a empêché de le signer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Hé!</orig>
+            <reg>Hé!</reg>
+          </seg>
+          <seg>
+            <orig>bien, Marton!</orig>
+            <reg>bien, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il n’y a pas d’autre moyen, Madame, B 2 vous vous avez une Niéce qu’il faut donner a Cadet, vous épouſerez l’aîné vous, &amp; condition du Teſtament ſera ſuivie.</orig>
+            <reg>Il n'y a pas d'autre moyen, Madame, <persName>B</persName> 2 vous vous avez une <persName>Nièce</persName> qu'il faut donner à <persName>Cadet</persName>, vous épouserez l'aîné vous, et condition du Testament sera suivie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous avez une Niece, ma Cirarmante</orig>
+            <reg>Vous avez une <persName>Nièce</persName>, ma Cirarmante</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouï, Monſieur.</orig>
+            <reg>Ouï, Monsieur.</reg>
+          </seg>
+          <seg>
+            <orig>Mais vôtre Cade n’eſt peut-être pas en ce Pays-cy.</orig>
+            <reg>Mais votre <persName>Cade</persName> n'est peut-être pas en ce Pays-cy.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt allé faire un tour dans mo caroſſe, il va venir me reprendre.</orig>
+            <reg>Il est allé faire un tour dans mo carosse, il va venir me reprendre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quand il viendra qu’on le faſſe e trer, Marton.</orig>
+            <reg>Quand il viendra qu'on le fasse e trer, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Et je vay tout d’un temps cherch vôtre Notaire, Madame, afin d’expédi les choſes.</orig>
+            <reg>Et je vais tout d'un temps cherch votre Notaire, Madame, afin d'expédi les choses.</reg>
+          </seg>
+          <seg>
+            <orig>A M1</orig>
+            <reg>À M1</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>l 2a4 1 Qu’elle a les allures Françoiſes, vôt Martoi Marton, les affaires ne languiſſent point avec elle.</orig>
+            <reg> l2a4 1 Qu'elle a les allures Françaises, vôt <persName>Martoi Marton</persName>, les affaires ne languissent point avec elle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Voilà ma Niéce, Monſieur le Marquis.</orig>
+            <reg>Voilà ma Nièce, Monsieur le Marquis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE II.</orig>
+          <reg>SCÈNE II.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN, ARAMINTE, DOM JULIEN, ANGELIQUE.</orig>
+          <reg><persName>MERLIN</persName>, <persName>ARAMINTE</persName>, <persName>DOM JULIEN</persName>, ANGELIQUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouieu, ion cauer, quer friand morceau;</orig>
+            <reg>Oui,vion caver, quer friand morceau;</reg>
+          </seg>
+          <seg>
+            <orig>mais voilà un Cavalier qui la ſuit, ſi je ne me trompe.</orig>
+            <reg>mais voilà un Cavalier qui la suit, si je ne me trompe.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur le Marquis, c’eſt un Eſpagnol dont je voudrois bien étre débarraſſée.</orig>
+            <reg>Monsieur le Marquis, c'est un Espagnol dont je voudrais bien être débarrassée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je vous en déferai, Madame, ne vous en mettez pas en peine.</orig>
+            <reg>Je vous en déferai, Madame, ne vous en mettez pas en peine.</reg>
+          </seg>
+          <seg>
+            <orig>B LeM</orig>
+            <reg>B LeM</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais rendez moi du moins une ré.</orig>
+            <reg>Mais rendez moi du moins une ré.</reg>
+          </seg>
+          <seg>
+            <orig>ponſe poſitive, Madame, je ſerai con Seig tent.</orig>
+            <reg>ponse positive, Madame, je serai con Seig tent.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que vous prenez mal les mo mens, Monſieur, pour hâter ce mariage que l’on a ſi long-temps differé.</orig>
+            <reg>que vous prenez mal les mo mens, Monsieur, pour hâter ce mariage que l'on a si longtemps différé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>e eis parce qu'oi na tune ditieré, que je preſſe de le conclure, Mademoiſelle</orig>
+            <reg> eis parce qu'oi na tune ditieré, que je presse de le conclure, Mademoiselle</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous me paroiſſez un importun per ſonnage, Seigneur Eſpagnol.</orig>
+            <reg>Vous me paraissez un importun per sonnage, <persName>Seigneur Espagnol</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Tu és Merlin déguiſé, je penſe.</orig>
+            <reg>Tu es <persName>Merlin</persName> déguisé, je pense.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous me ſemblez bien téméraire, Seigneur François, de parler à Dom Julien comme vous faites.</orig>
+            <reg>Vous me semblez bien téméraire, Seigneur Français, de parler à <persName>Dom Julien</persName> comme vous faites.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Savez vous bien, Seigneur Dom Jus lien, puis que Dom Julien y a, qu’il a icy des fenêtres.</orig>
+            <reg>Savez -vous bien, Seigneur <persName>Dom Jus</persName> lien, puis que <persName>Dom Julien</persName> y a, qu'il a ici des fenêtres.</reg>
+          </seg>
+          <seg>
+            <orig>DOM</orig>
+            <reg>
+              <persName>DOM</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DOM JULIEN.</orig>
+            <reg>
+              <persName>DOM JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je n’entends pas ce langage-là, Ocigueul E lajon.</orig>
+            <reg>Je n'entends pas ce langage-là, Ocigueul E lajon.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous ne comprenez pas ce que cela veut dire.</orig>
+            <reg>Vous ne comprenez pas ce que cela veut dire.</reg>
+          </seg>
+          <seg>
+            <orig>Si vous ne ſortez tout à l’heure par la porte, je vous jettetai par la bréche.</orig>
+            <reg>Si vous ne sortez tout à l'heure par la porte, je vous jetai par la brèche.</reg>
+          </seg>
+          <seg>
+            <orig>Entendez vous mieux?</orig>
+            <reg>Entendez -vous mieux?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E enesla Ha, ha, ha, ha.</orig>
+            <reg>E enéla Ha, ha, ha, ha.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MENLIN.</orig>
+            <reg>
+              <persName>MENLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mon petit Ami, Monſieur Julien.</orig>
+            <reg>Mon petit Ami, <persName>Monsieur Julien</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>D.</orig>
+            <reg>D.</reg>
+          </seg>
+          <seg>
+            <orig>JULIEN.</orig>
+            <reg>
+              <persName>JULIEN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>1la, na, hion petie rinn y la fierté vous ſied mal, Seigneur François, c’eſt pourtant l’apanage de nôtre Narion que la fierté.</orig>
+            <reg>1la, na, hion petie rinn y la fierté vous sied mal, Seigneur Français, c'est pourtant l'apanage de notre <persName>Narion</persName> que la fierté.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Par la morbleu, c’eſt trop de patience,ir faut caſſer la tête à cet Animal-là, Madame.</orig>
+            <reg>Par la morbleu, c'est trop de patience,ir faut casser la tête à cet Animal-là, Madame.</reg>
+          </seg>
+          <seg>
+            <orig>Il ſort des lunetes d’aproche.</orig>
+            <reg>Il sort des lunètes d'aproche.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>D.</orig>
+            <reg>D.</reg>
+          </seg>
+          <seg>
+            <orig>JULIEN s’enfuyant.</orig>
+            <reg><persName>JULIEN</persName> s'enfuyant.</reg>
+          </seg>
+          <seg>
+            <orig>Miſericorde.</orig>
+            <reg>Miséricorde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ha, ha, ha, ha</orig>
+            <reg>Ha, ha, ha, ha</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>RATIC</orig>
+          <reg>RATIC</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous portez des piſtolets, Monſieur le Marquis.</orig>
+            <reg>Vous portez des pistolets, Monsieur le Marquis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Madame, ce n’eſt qu’une lunette d’aproche avec quoy j’ay fait mourir de peur vingt Eſpagnols en ma vie Il ne faut pas d’autres armes avec ces gens-la.</orig>
+            <reg>Non, Madame, ce n'est qu'une lunette d'approche avec quoi j'ai fait mourir de peur vingt Espagnols en ma vie Il ne faut pas d'autres armes avec ces gens-la.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE III.</orig>
+          <reg>SCÈNE III.</reg>
+        </seg>
+        <seg>
+          <orig>MARTON, MERLIN, ARA.</orig>
+          <reg>MÁRTON, MERLIN, ARA.</reg>
+        </seg>
+        <seg>
+          <orig>MINTE.</orig>
+          <reg>MINTE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>*Oilà, Monſieur, vôtre Frére qui V arrive.</orig>
+            <reg>*Oilà, Monsieur, votre Frère qui V arrive.</reg>
+          </seg>
+          <seg>
+            <orig>Vôtre Notaire va venir, Midame.</orig>
+            <reg>Votre Notaire va venir, Midame.</reg>
+          </seg>
+          <seg>
+            <orig>A Angelique, L’affaire eſt en bon train, Mademoiſelle.</orig>
+            <reg>À <persName>Angélique</persName>, L'affaire est en bon train, Mademoiselle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>A propos, ma Reine, vôtre Niéce eſt elle riche?</orig>
+            <reg>À propos, ma Reine, votre Nièce est elle riche?</reg>
+          </seg>
+          <seg>
+            <orig>Dans nôtre Famille le, Aînez ne ſont qu’amoureux, mais lles les Cadets ſont intereſſez com me tous les Diables.</orig>
+            <reg>Dans notre Famille le, Aînez ne sont qu'amoureux, mais lles les Cadets sont intéressez com me tous les Diables.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Cela ne fera point d’obſtacle à vôtre bonheur, &amp; je donnerai la moitié de tous llles blens à Ina Nece.</orig>
+            <reg>Cela ne fera point d'obstacle à votre bonheur, et je donnerai la moitié de tous l' blens à <persName>Ina Nece</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que vous avez l’ame belle, Je me donne au Diable, vous meritiez de naître en pleine Cour de France.</orig>
+            <reg>que vous avez l'âme belle, Je me donne au Diable, vous méritiez de naître en pleine Cour de <placeName>France</placeName></reg>
+          </seg>
+          <seg>
+            <orig>Oh, il faut que dans vôtre Famille il y ait eu quelque échapée de François;</orig>
+            <reg>Oh, il faut que dans votre Famille il y ait eu quelque échappée de Français;</reg>
+          </seg>
+          <seg>
+            <orig>vous étes de boune lace iur Mla parole, mon Adorable!</orig>
+            <reg>vous êtes de boune la jur Mla parole, mon Adorable!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Sérieuſement, Monſieur le Marquis, remarquez vous dans mes maniéres.</orig>
+            <reg>Sérieusement, Monsieur le Marquis, remarquez vous dans mes manières.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Voicy mon Cadet, ma Princeſſe.</orig>
+            <reg>Voici mon Cadet, ma Princesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CEN IV.</orig>
+          <reg>CEN IV.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN, CLITANDRE.</orig>
+          <reg>MERLIN, CLITANDRE.</reg>
+        </seg>
+        <seg>
+          <orig>ARAMINTE, ANGELIQUE.</orig>
+          <reg><persName>ARAMINTE</persName>, ANGELIQUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Pprochez, mon Frére Cadet.</orig>
+            <reg>Prochez, mon Frère <persName>Cadet</persName></reg>
+          </seg>
+          <seg>
+            <orig>Approchez, &amp; remerciez moy bien fort, vous étes plus heureux que ſage.</orig>
+            <reg>Approchez, et remerciez -moi bien fort, vous êtes plus heureux que sage.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, voilà une fortune que je vous ay ménagée.</orig>
+            <reg>Tenez, voilà une fortune que je vous ai ménagée.</reg>
+          </seg>
+          <seg>
+            <orig>Le cœur vous en dit-il ?</orig>
+            <reg>Le cœur vous en dit-il ?</reg>
+          </seg>
+          <seg>
+            <orig>Voyez, il n’eſt point icy queſtion de bagatelle, il s’agit d’épouſer au moins.</orig>
+            <reg>Voyez, il n'est point ici question de bagatelle, il s'agit d'épouser au moins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous étes mon Aîné, Monſieur, j’ay toûlours fait aveuglément ce que vous avez ſouhaité;</orig>
+            <reg>Vous êtes mon Aîné, Monsieur, j'ai toujours fait aveuglément ce que vous avez souhaité;</reg>
+          </seg>
+          <seg>
+            <orig>rien ne m’a jamais tant fait de plaifir que ce que vous m’ordonnez aujourd’hui de faire.</orig>
+            <reg>rien ne m'a jamais tant fait de plaisir que ce que vous m'ordonnez aujourd'hui de faire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ils ſont bien apris nos Cadets, vos Niécés ſont-elles auſſi bien inſtruites, Madame?</orig>
+            <reg>Ils sont bien appris nos Cadets, vos <persName>Nie</persName>́cés sont-elles aussi bien instruites, Madame?</reg>
+          </seg>
+          <seg>
+            <orig>ARA</orig>
+            <reg>
+              <persName>ARA</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Parlez, ma Niéce, ce jeune Seigneur vous conviendra-teil?</orig>
+            <reg>Parlez, ma Nièce, ce jeune Seigneur vous conviendra-teil?</reg>
+          </seg>
+          <seg>
+            <orig>Népondez.</orig>
+            <reg>Népondez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Quand vous me commandez, Madame, je ne ſai jamais qu’obéir :</orig>
+            <reg>Quand vous me commandez, Madame, je ne sais jamais qu'obéir :</reg>
+          </seg>
+          <seg>
+            <orig>mais aujourd’hni, je vous l’avoue, j’obeirai ſans repugnance.</orig>
+            <reg>mais aujourd'hni, je vous l'avoue, j'obéir sans répugnance.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MERLIN.</orig>
+          <reg>
+            <persName>MERLIN</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Voilà des Enfans bien nez.</orig>
+          <reg>Voilà des Enfants bien nés.</reg>
+        </seg>
+        <seg>
+          <orig>Ah!</orig>
+          <reg>Ah!</reg>
+        </seg>
+        <seg>
+          <orig>qu’ils feront un heureux ménage!</orig>
+          <reg>qu'ils feront un heureux ménage!</reg>
+        </seg>
+        <seg>
+          <orig>Ils ont une complaiſance aveugle;</orig>
+          <reg>Ils ont une complaisance aveugle;</reg>
+        </seg>
+        <seg>
+          <orig>procédons aux Contracts, ma Keine.</orig>
+          <reg>procédons aux Contrats, ma <persName>Eyne</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Voicy Monſieur Griffon mon Notaire.</orig>
+            <reg>Voici <persName>Monsieur Griffon</persName> mon Notaire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCE</orig>
+          <reg>
+            <persName>SCE</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE V.</orig>
+          <reg>SCÈNE V.</reg>
+        </seg>
+        <seg>
+          <orig>Mr.</orig>
+          <reg>Mr.</reg>
+        </seg>
+        <seg>
+          <orig>GRIFFON, MERLIN, ARAMINTE, MANTON.</orig>
+          <reg>GRIFFON, MERLIN, <persName>ARAMINTE</persName>, MANTON.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mr.</orig>
+            <reg>Mr.</reg>
+          </seg>
+          <seg>
+            <orig>GRIFFON.</orig>
+            <reg>GRIFFON.</reg>
+          </seg>
+          <seg>
+            <orig>Ur ce que Madame Marton m’a dit de vôtre part, Madame, je ſuis an pius vilte accouru pour vous rendre mes petits ſervices.</orig>
+            <reg>OUr ce que <persName>Madame Marton</persName> m'a dit de votre part, Madame, je suis an pius vilte accouru pour vous rendre mes petits services.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il s’agit de faire deux Contracts de mariage, Monſieur Griffon.</orig>
+            <reg>Il s'agit de faire deux Contrats de mariage, <persName>Monsieur Griffon</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mr.</orig>
+            <reg>Mr.</reg>
+          </seg>
+          <seg>
+            <orig>GRIFFON.</orig>
+            <reg>GRIFFON.</reg>
+          </seg>
+          <seg>
+            <orig>Il y en a déja un tout fait, Monſieur, celui de Dom Julieu peut ſervir, Ma demoiſelle Marton m’a dit de changer ſeulement le nom &amp; de mettre celuy de Monſieur Clitandre.</orig>
+            <reg>Il y en a déjà un tout fait, Monsieur, celui de <persName>Dom Julieu</persName> peut servir, Ma <persName>demoiselle Marton</persName> m'a dit de changer seulement le nom et de mettre celui de <persName>Monsieur Clitandre</persName></reg>
+          </seg>
+          <seg>
+            <orig>Cela eſt fait.</orig>
+            <reg>Cela est fait.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>FMERLIN.</orig>
+            <reg>FMERLIN.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’elle eſt vive, Madame, cette Marton.</orig>
+            <reg>Qu'elle est vive, Madame, cette <persName>Marton</persName></reg>
+          </seg>
+          <seg>
+            <orig>ANAARAMINTE.</orig>
+            <reg>
+              <persName>ANARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il faut ajoûter, Monſieur Griffon, que je donne à ma Niéce la moitié de mon pien en faveur de ce marſage.</orig>
+            <reg>Il faut ajouter, <persName>Monsieur Griffon</persName>, que je donne à ma <persName>Nièce</persName> la moitié de mon pien en faveur de ce marsage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mr.</orig>
+            <reg>Mr.</reg>
+          </seg>
+          <seg>
+            <orig>GRIFFON.</orig>
+            <reg>GRIFFON.</reg>
+          </seg>
+          <seg>
+            <orig>Cera ne ſera pas bien difficile, Madame.</orig>
+            <reg>Cera ne sera pas bien difficile, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Ma chere Tante!</orig>
+            <reg>Ma chère Tante!</reg>
+          </seg>
+          <seg>
+            <orig>que je vous ay d’obligation.</orig>
+            <reg>que je vous ai d'obligation.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>je vous avois plen dit mor, que vous aviez une bonne Tante.</orig>
+            <reg>je vous avais plen dit mór, que vous aviez une bonne Tante.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>luir.</orig>
+            <reg>luir.</reg>
+          </seg>
+          <seg>
+            <orig>Omnen, les Frauçois ſont de grands Epouſeurs, vous voyez co nme la pratique donne déja.</orig>
+            <reg>Omnen, les Frauçois sont de grands Épouseurs, vous voyez co mme la pratique donne déjà.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mr.</orig>
+            <reg>Mr.</reg>
+          </seg>
+          <seg>
+            <orig>GRIFFON.</orig>
+            <reg>GRIFFON.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, ce ne ſont pas les Notaires à qui ils rone le pauegagneren ee pays ci.</orig>
+            <reg>Monsieur, ce ne sont pas les Notaires à qui ils rone le pavegagneren ce pays cy.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il faut bien que tout le monde vive, Mr.</orig>
+            <reg>Il faut bien que tout le monde vive, Mr.</reg>
+          </seg>
+          <seg>
+            <orig>Griffon.</orig>
+            <reg>Griffon.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Mr.</orig>
+            <reg>Mr.</reg>
+          </seg>
+          <seg>
+            <orig>GRIFFON.</orig>
+            <reg>GRIFFON.</reg>
+          </seg>
+          <seg>
+            <orig>Voilà qui eſt fait, il n’y a rien qu’a ſigner.</orig>
+            <reg>Voilà qui est fait, il n'y a rien qu'a signer.</reg>
+          </seg>
+          <seg>
+            <orig>a.</orig>
+            <reg>a.</reg>
+          </seg>
+          <seg>
+            <orig>ii4x</orig>
+            <reg>ji4x</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Donnez viſte Monſieur Griffon, dépêchons;</orig>
+            <reg>Donnez vite <persName>Monsieur Griffon</persName>, dépêchons;</reg>
+          </seg>
+          <seg>
+            <orig>Allez tôt ia Niéce:</orig>
+            <reg>Allez tôt ja <persName>Nièce</persName></reg>
+          </seg>
+          <seg>
+            <orig>hatezvotle Mlonncare</orig>
+            <reg>hâtezvotle <persName>Mlonncare</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Je ſigne aveuglément, mon Frére, mais.</orig>
+            <reg>Je signe aveuglément, mon Frère, mais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ile, ngne promptement, Cadet, ſigne.</orig>
+            <reg>Ile, ngne promptement, Cadet, signe.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACTE II.</orig>
+          <reg>ACTE II.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>ARAMINTE, RICOCHET, MERLIN, LA VERDURE.</orig>
+          <reg><persName>ARAMINTE</persName>, <persName>RICOCHET</persName>, <persName>MERLIN</persName>, LA VERDURE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ue veut encore ce petit Coquin-nir.</orig>
+            <reg>Que veut encore ce petit Coquin-nir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>RI</orig>
+          <reg>
+            <persName>RI</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>RICOCHET.</orig>
+            <reg>
+              <persName>RICOCHET</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt un grand pendart qui demande ce Monſieur la, ma Marraine.</orig>
+            <reg>C'est un grand pendard qui demande ce Monsieur la, ma Marraine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Comment, Diantre, c’eſt un de mes Sergens.</orig>
+            <reg>Comment, Diantre, c'est un de mes Sergents.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’eſt ce qu’il y a Monſieur de la Verdure?</orig>
+            <reg>Qu'est ce qu'il y a <persName>Monsieur de la Verdure</persName></reg>
+          </seg>
+          <seg>
+            <orig>Que Diable venezvous faire icy, quand vous me ſavez en bonne fortune?</orig>
+            <reg>Que Diable venezvous faire ici, quand vous me savez en bonne fortune?</reg>
+          </seg>
+          <seg>
+            <orig>Vous avez bonne grace de me venir détourner.</orig>
+            <reg>Vous avez bonne grâce de me venir détourner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA VERDURE.</orig>
+            <reg>LA VERDURE.</reg>
+          </seg>
+          <seg>
+            <orig>Parqué, mon Colonel, je vous demande bien pardon;</orig>
+            <reg>Parqué, mon Colonel, je vous demande bien pardon;</reg>
+          </seg>
+          <seg>
+            <orig>mais on va bailler une atraque;</orig>
+            <reg>mais on va bailler une atraque;</reg>
+          </seg>
+          <seg>
+            <orig>le Regiment eſt commandé pour ça, eſt ce que vous voudriois qu’il y allât ſans vous?</orig>
+            <reg>le Regiment est commandé pour ça, est ce que vous voudriais qu'il y allât sans vous?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mon Regiment eſt commandé?</orig>
+            <reg>Mon Regiment est commandé?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA VERDURE.</orig>
+            <reg>LA VERDURE.</reg>
+          </seg>
+          <seg>
+            <orig>Ouy, Palſangué, il l’eſt.</orig>
+            <reg>Oui, Palsangué, il l'est.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERDITG.</orig>
+            <reg>MERDITG.</reg>
+          </seg>
+          <seg>
+            <orig>Ah tête!</orig>
+            <reg>Ah tête!</reg>
+          </seg>
+          <seg>
+            <orig>ah mort!</orig>
+            <reg>ah mort!</reg>
+          </seg>
+          <seg>
+            <orig>ah ſang !</orig>
+            <reg>ah sang !</reg>
+          </seg>
+          <seg>
+            <orig>mon Regiment eſt commandé, &amp; je m’amuſe à la bagatelle.</orig>
+            <reg>mon Regiment est commandé, et je m'amuse à la bagatelle.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu, Madame, je n’arriverois pas aſſez tot.</orig>
+            <reg>Adieu, Madame, je n'arriverais pas assez tôt.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quoi !</orig>
+            <reg>Quoi !</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur le Marquis, vous me quittez.</orig>
+            <reg>Monsieur le Marquis, vous me quittez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>* Je ſuis François, Madame, &amp; la gloire m’appelle.</orig>
+            <reg>* Je suis Français, Madame, et la gloire m'appelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARAMINTE.</orig>
+          <reg>
+            <persName>ARAMINTE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Eh!</orig>
+          <reg>Eh!</reg>
+        </seg>
+        <seg>
+          <orig>vous préferez la gloire à l’amour, Monſieur le Marquis.</orig>
+          <reg>vous préférez la gloire à l'amour, Monsieur le Marquis.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MERLIN.</orig>
+          <reg>
+            <persName>MERLIN</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>L’amour aura ſon tour;</orig>
+          <reg>L'amour aura son tour;</reg>
+        </seg>
+        <seg>
+          <orig>je vay revenir, Madame, dans le moment même.</orig>
+          <reg>je vais revenir, Madame, dans le moment même.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCEN II.</orig>
+          <reg>SCEN II.</reg>
+        </seg>
+        <seg>
+          <orig>MARTON, ARAMINTE, LA VERDURE, ANGELIQUE.</orig>
+          <reg>MÁRTON, ARAMINTE, LA VERDURE, ANGELIQUE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>y Oilà un Marquis qui aime bien la gloire;</orig>
+            <reg>y Oilà un Marquis qui aime bien la gloire;</reg>
+          </seg>
+          <seg>
+            <orig>Comment il court a prés!</orig>
+            <reg>Comment il court a près!</reg>
+          </seg>
+          <seg>
+            <orig>ARA</orig>
+            <reg>
+              <persName>ARA</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>le le ſuivrai par tout.</orig>
+            <reg>le le suivrai par tout.</reg>
+          </seg>
+          <seg>
+            <orig>Marton, ne me quitte pas.</orig>
+            <reg><persName>Marton</persName>, ne me quitte pas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA VERDURE.</orig>
+            <reg>LA VERDURE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous;</orig>
+            <reg>Vous;</reg>
+          </seg>
+          <seg>
+            <orig>Morgué, où eſt-ce que vous voulez aller;</orig>
+            <reg>Morgué, où est-ce que vous voulez aller;</reg>
+          </seg>
+          <seg>
+            <orig>Alte là, s’il vous plait, les perſonnes de la Ville à l’aſſaut du Château, teſtigué, queu ménàge.</orig>
+            <reg>Alte là, s'il vous plaît, les personnes de la Ville à l'assaut du Château, testigué, queu ménàge.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANGELIQUE.</orig>
+            <reg>ANGELIQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Cela ne ſeroſt pas dans la blenſeance, il a raiſon, ma Tante.</orig>
+            <reg>Cela ne serôt pas dans la blenseance, il a raison, ma Tante.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le peult iograt;</orig>
+            <reg>Le peult igrat;</reg>
+          </seg>
+          <seg>
+            <orig>qui me quitte pour la gloire;</orig>
+            <reg>qui me quitte pour la gloire;</reg>
+          </seg>
+          <seg>
+            <orig>tout autre qu’un François ne feroit pas une action comme celle-là, Marton.</orig>
+            <reg>tout autre qu'un Français ne ferait pas une action comme celle-là, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARION.</orig>
+            <reg>
+              <persName>MARION</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ne vous allarmez point;</orig>
+            <reg>Ne vous alarmez point;</reg>
+          </seg>
+          <seg>
+            <orig>Vous allez le voir revenir triomphant, Madame.</orig>
+            <reg>Vous allez le voir revenir triomphant, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA VERDURE.</orig>
+            <reg>LA VERDURE.</reg>
+          </seg>
+          <seg>
+            <orig>Luy, morgué, vous ne le reverrez point, il a beau dire.</orig>
+            <reg>Lui, morgué, vous ne le reverrez point, il a beau dire.</reg>
+          </seg>
+          <seg>
+            <orig>ARA</orig>
+            <reg>
+              <persName>ARA</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>je ne muotonui poine.</orig>
+            <reg>je ne muotonvi poine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA VERDURE.</orig>
+            <reg>LA VERDURE.</reg>
+          </seg>
+          <seg>
+            <orig>S’il en revient, la peſte m’étouffe, il ſera tué ſur ma parole.</orig>
+            <reg>S'il en revient, la peste m'étouffe, il sera tué sur ma parole.</reg>
+          </seg>
+          <seg>
+            <orig>Je m’en vais Penterrer, cerdieeur.</orig>
+            <reg>Je m'en vais Penterrer, cerdieeur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE III.</orig>
+          <reg>CÈNE III.</reg>
+        </seg>
+        <seg>
+          <orig>ARAMINTE, MARTON.</orig>
+          <reg><persName>ARAMINTE</persName>, MÁRTON.</reg>
+        </seg>
+        <seg>
+          <orig>ANGELIQUE.</orig>
+          <reg>ANGELIQUE.</reg>
+        </seg>
+        <seg>
+          <orig>D A RATATM ARAMINIE.</orig>
+          <reg>D A RATATM ARAMINIE.</reg>
+        </seg>
+        <seg>
+          <orig>L ſera tué, Marton.</orig>
+          <reg><persName>L</persName> sera tué, <persName>Marton</persName></reg>
+        </seg>
+        <seg>
+          <orig>T ANGELIQUE.</orig>
+          <reg> ANGELIQUE.</reg>
+        </seg>
+        <seg>
+          <orig>Ma chere Tante !</orig>
+          <reg>Ma chère Tante !</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>EBAEXMIAC IE.</orig>
+            <reg>EBAÊMIAC IE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous étes bien contente vous, ma Niéce, on ne vous abandonne point pour courir aprés la gloire.</orig>
+            <reg>Vous êtes bien contente -vous, ma <persName>Nièce</persName>, on ne vous abandonne point pour courir après la gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne ſuis pas commandé, Madame, mon Regiment eſt de la Garniſon.</orig>
+            <reg>Je ne suis pas commandé, Madame, mon Regiment est de la Garnison.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE DERNIERE.</orig>
+          <reg>SCÈNE DERNIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>MERLIN, CLITANDRE, ARAMINTE, MARTON.</orig>
+          <reg>MERLIN, CLITANDRE, <persName>ARAMINTE</persName>, MÁRTON.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CEATANDAL.</orig>
+            <reg>CEATANDAL.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’y a t-il, Monſieur Jolicœur?</orig>
+            <reg>Qu'y a -t-il, <persName>Monsieur Jolicœur</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le Château Capitule, Monſieur.</orig>
+            <reg>Le <placeName>Château Capitule</placeName>, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>Le Château Capitule !</orig>
+            <reg>Le <placeName>Château Capitule</placeName> !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MEKLIN.</orig>
+            <reg>
+              <persName>MELIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Monſieur le Marquis vôtre Frére m’envoye vous le dire.</orig>
+            <reg>Monsieur le Marquis votre Frère m'envoie vous le dire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il n’ira point à l’aſſaut, je reſpire, Marton.</orig>
+            <reg>Il n'ira point à l'assaut, je respire, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Madame, il n’ira poiur à l’aſſaut;</orig>
+            <reg>Non, Madame, il n'ira poiur à l'assaut;</reg>
+          </seg>
+          <seg>
+            <orig>l’aſſaut;</orig>
+            <reg>l'assaut;</reg>
+          </seg>
+          <seg>
+            <orig>le voilà qui part pour l’Allemague.</orig>
+            <reg>le voilà qui part pour <persName>l'Allemague</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A RAMINTE.</orig>
+            <reg>À RAMINTE.</reg>
+          </seg>
+          <seg>
+            <orig>Comment?</orig>
+            <reg>Comment?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANGRE.</orig>
+            <reg>CLITANGRE.</reg>
+          </seg>
+          <seg>
+            <orig>mon Prere va en Aſlemagne;</orig>
+            <reg>mon <persName>Prère</persName> va en <placeName>Aslémagne</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oüi, Monſieur, la gloire l’y appelle.</orig>
+            <reg>Oui, Monsieur, la gloire l'y appelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oh!</orig>
+            <reg>Oh!</reg>
+          </seg>
+          <seg>
+            <orig>pour le coup elle a beau l’appelvon, iene partila point qu’il ne m’ait épouſéé.</orig>
+            <reg>pour le coup elle a beau l'appeléon, iene partila point qu'il ne m'ait épousé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il ne peut vons épouſer Qu'a on retour, il m'a dit de faire temt le contract tout prêt.</orig>
+            <reg>Il ne peut vons épouser Qu'a on retour, il m'a dit de faire temps le contrat tout prêt.</reg>
+          </seg>
+          <seg>
+            <orig>Il vous épouſera en repaſſant, Madame.</orig>
+            <reg>Il vous épousera en repassant, Madame.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARAMINTE.</orig>
+            <reg>
+              <persName>ARAMINTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il ne m’épouſera qu’en repaſſant!</orig>
+            <reg>Il ne m'épousera qu'en repassant!</reg>
+          </seg>
+          <seg>
+            <orig>je ſuis trahie &amp; j’en mourrai.</orig>
+            <reg>Je suis trahie et j'en mourrai.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CLITANDRE.</orig>
+            <reg>CLITANDRE.</reg>
+          </seg>
+          <seg>
+            <orig>5 Suivons-là pour la conſoler.</orig>
+            <reg>5 Suivons-là pour la consoler.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Hé!</orig>
+            <reg>Hé!</reg>
+          </seg>
+          <seg>
+            <orig>bien, Marton.</orig>
+            <reg>bien, <persName>Marton</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Tu n’expédies pas mal une intrigue.</orig>
+            <reg>Tu n'expédies pas mal une intrigue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Nous faiſons tout en impromptu, nous dutres, M amle tur dis:</orig>
+            <reg>Nous faisons tout en impromptu, nous dutres, <persName>M amle</persName> tur dis:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARTON.</orig>
+            <reg>
+              <persName>MÁRTON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ol je t’aile, &amp; le moyen de s’en défendre.</orig>
+            <reg>ol je t'aile, et le moyen de s'en défendre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERLIN.</orig>
+            <reg>
+              <persName>MERLIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Encore autre impromptu, je t’épouſe, &amp; vivent les François, Marton, il n’y a ni Vines n Femmes qui leur reſiſtent.</orig>
+            <reg>Encore autre impromptu, je t'épouse, et vivent les Français, <persName>Marton</persName>, il n'y a ni <persName>Vines</persName> n Femmes qui leur résistent.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>FIN.</orig>
+          <reg>FIN.</reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>

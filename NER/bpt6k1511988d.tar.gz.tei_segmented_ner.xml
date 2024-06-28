@@ -1,0 +1,4503 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Grapinian, ou Arlequin procureur, comédie</title>
+        <author>Fatouville, Anne Mauduit de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30419731n"/>
+          <author>
+            <persName>Fatouville, Anne Mauduit de</persName>
+          </author>
+          <title>Grapinian, ou Arlequin procureur, comédie</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1684" cert="high" resp="BNF">1684</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>A TARIS, Chez C.</orig>
+          <reg>À TARIS, Chez Ç.</reg>
+        </seg>
+        <seg>
+          <orig>Blageart, Court-neuve du Palais, au Dauphin.</orig>
+          <reg><persName>Blageart</persName>, Court-neuve du Palais, au Dauphin.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M.</orig>
+          <reg>
+            <persName>M</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>DC.</orig>
+          <reg>DC.</reg>
+        </seg>
+        <seg>
+          <orig>LXXXIV.</orig>
+          <reg>LXXXIV.</reg>
+        </seg>
+        <seg>
+          <orig>AVEC PRIVILEGE DU ROY.</orig>
+          <reg>AVEC PRIVILÈGE DU ROY.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>M ONSIEUR, Quand on a eu la penſée de faire imprimer cette Comédie, j'ay ſongé à meſme temps à vous la dédier,</orig>
+          <reg>M ONSIEUR, Quand on a eu la pensée de faire imprimer cette Comédie, j'ai songé à même temps à vous la dédier,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>GRAPINIAN A M ** FAMEUX PROCUREUR.</orig>
+          <reg>GRAPINIAN À M * FAMEUX PROCUREUR.</reg>
+        </seg>
+        <seg>
+          <orig>ne pouvant paroiſtre en public avec une protection plus illuſtre que la vostre.</orig>
+          <reg>ne pouvant paraître en public avec une protection plus illustre que la vôtre.</reg>
+        </seg>
+        <seg>
+          <orig>e ſçay bien que ſi je vous euſſe conſulté ſur cette petite Piece, vous y auriez, ajoüté des traits ſinguliers.</orig>
+          <reg>Je sais bien que si je vous eusse consulté sur cette petite Pièce, vous y auriez, ajouté des traits singuliers.</reg>
+        </seg>
+        <seg>
+          <orig>qui luy auroient fait atteindre ce point de perfection, ſi defficile a trouver en toutes choſes.</orig>
+          <reg>qui était auraient fait atteindre ce point de perfection, si déficile à trouver en toutes choses.</reg>
+        </seg>
+        <seg>
+          <orig>Je connois voſtre grand talent dans les Affaires, &amp; la penétration que vous avez dans toutes les Procédures, qui ſont néceſſaires poun empeſ cher qu'elles ne finiſſent.</orig>
+          <reg>Je connais votre grand talent dans les Affaires, et la pénétration que vous avez dans toutes les Procédures, qui sont nécessaires poun empes cher qu'elles ne finissent.</reg>
+        </seg>
+        <seg>
+          <orig>Une longue ſuite d’années vous a découvert des biais, que le Public admire, &amp; dont ceux de nos Confreres, qui exercent la Profeß on avec honneur, vous ſeront eternellement obligez;</orig>
+          <reg>Une longue suite d'années vous a découvert des biais, que le Public admire, et dont ceux de nos Confrères, qui exercent la Profess on avec honneur, vous seront éternellement obligez;</reg>
+        </seg>
+        <seg>
+          <orig>car non ſeulement vous nous avez, appris à tirer les Pieces des Sacs de nos Parties, pour les remettre à leurs Adverſaimoomrrun pouvonnen Oyits nous avez donné d’utiles Lecons ſur les adreſſes dont nous devons nous ſervir pour les engager dans de mauvais Procés;</orig>
+          <reg>car non seulement vous nous avez, appris à tirer les Pièces des Sacs de nos Parties, pour les remettre à leurs Adversaimoomrun pouvonnen Ois nous avez donné d'utiles Lecons sur les adresses dont nous devons nous servir pour les engager dans de mauvais Procès;</reg>
+        </seg>
+        <seg>
+          <orig>mais encore, nous ſçavons par vous les moyens de les ſurprendre par des Projets captieux, &amp; par des Accommodemens ſimulez, en leur faiſant ſigner des Articles, qui dans la ſuite ſont la cauſe de leur ruine.</orig>
+          <reg>mais encore, nous savons par vous les moyens de les surprendre par des Projets captieux, et par des Accommodements simulez, en leur faisant signer des Articles, qui dans la suite sont la cause de leur ruine.</reg>
+        </seg>
+        <seg>
+          <orig>Enfin tout ce qu’il y a de plus ſubtil dans l’Art lucratif des Fripohreriis yueſt à vos lumieres que nous le devons.</orig>
+          <reg>Enfin tout ce qu'il y a de plus subtil dans l'Art lucratif des Fripohriis yvest à vos lumières que nous le devons.</reg>
+        </seg>
+        <seg>
+          <orig>Je ne parle point de toutes vos délicateſſes à bien ménager les fauſſetez.</orig>
+          <reg>Je ne parle point de toutes vos délicatesses à bien ménager les faussetés.</reg>
+        </seg>
+        <seg>
+          <orig>le ne dis rien des dépoſts que vous avez niez, des dates de Contracts que vous avez changées des noms veritables que vous avez, trouvé moyen d’effacer, pour y écrire celuy de quelques Perſonnes ſages, qui en vous ouvrant leur Bource, vous engageoient à les protéger.</orig>
+          <reg>le ne dis rien des dépôts que vous avez niez, des dates de Contrats que vous avez changées des noms véritables que vous avez, trouvé moyen d'effacer, pour y écrire celui de quelques Personnes sages, qui en vous ouvrant leur Bource, vous engageaient à les protéger.</reg>
+        </seg>
+        <seg>
+          <orig>Ce n'eſt pas par des louanges ſi peu conſidérables, que je veux faire éclater voſtre gloire.</orig>
+          <reg>Ce n'est pas par des louanges si peu considérables, que je veux faire éclater votre gloire.</reg>
+        </seg>
+        <seg>
+          <orig>Elle a des endroits plus ſolides pour ſe ſoütenir elle-meſme;</orig>
+          <reg>Elle a des endroits plus solides pour se sourtenir elle-même;</reg>
+        </seg>
+        <seg>
+          <orig>&amp; cette quantité de Cliens, que vous avez, mis en chemiſe, prennent ſoin de la publier tous les jours.</orig>
+          <reg>et cette quantité de Cliens, que vous avez, mis en chemise, prennent soin de la publier tous les jours.</reg>
+        </seg>
+        <seg>
+          <orig>Ce qui me touche ſenſiblement, c'eſt qu’on vous ait oſté les moyens de continuer l’exercice de ce talent admirable, que vous faiſiez valoir depuis tant d’années;</orig>
+          <reg>Ce qui me touche sensiblement, c'est qu'on vous ait ôté les moyens de continuer l'exercice de ce talent admirable, que vous faisiez valoir depuis tant d'années;</reg>
+        </seg>
+        <seg>
+          <orig>mais, MONSIEUR, telle eſt l’ingratitude du Siecle, &amp; l’inustice des Hommes, qui perſécutent le mérité, qui ne peuvent ſoufrir la vertu.</orig>
+          <reg>mais, MONSIEUR, telle est l'ingratitude du Siècle, et l'intice des Hommes, qui persécutent le mérité, qui ne peuvent soufrir la vertu.</reg>
+        </seg>
+        <seg>
+          <orig>Dißipez, vostre chagrin par la lecturé de mes Galanteries;</orig>
+          <reg>Dissipez, votre chagrin par la lecturé de mes Galanteries;</reg>
+        </seg>
+        <seg>
+          <orig>je vais paroiſtre dans mon Etude, comme vous eſtiez dans la voſtre;</orig>
+          <reg>je vais paraître dans mon Étude, comme vous étiez dans la vôtre;</reg>
+        </seg>
+        <seg>
+          <orig>&amp; le manége que  feray avec mes Parties, vous divertira peut-eſtre par le ſouvenir de ce que vous faïſiez autrefois.</orig>
+          <reg>et le manège que ferai avec mes Parties, vous divertira peut-être par le souvenir de ce que vous faïsiez autrefois.</reg>
+        </seg>
+        <seg>
+          <orig>Je m'eſt meray heureux, ſi ayant déja réjouy tant de Plaideurs, qui, comme vous ſçavez, rient à leurs dépens, je puis deſennuyer un Homme außi illustre que vous, dont l’eſtime me ſera plus glorieuſe, que celle que j'ay acquiſe dans tout le Royaume.</orig>
+          <reg>Je m'est merai heureux, si ayant déjà réjoui tant de Plaideurs, qui, comme vous savez, rient à leurs dépens, je puis désennuyer un Homme aussi illustre que vous, dont l'estime me sera plus glorieuse, que celle que j'ai acquise dans tout le Royaume.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt le deſſein que je me propoſe pour vous témoigner que je ſuis de tout mon cœur,</orig>
+          <reg>C'est le dessein que je me propose pour vous témoigner que je suis de tout mon cœur,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MONSIEUR,</orig>
+          <reg>MONSIEUR,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Voſtre tres-humble &amp; tres;</orig>
+          <reg>Votre très-humble et très;</reg>
+        </seg>
+        <seg>
+          <orig>obeïſſant Serviteur,</orig>
+          <reg>obéissant Serviteur,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>GRAPINIA</orig>
+          <reg>GRAPINIA</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>UN PLAIDEUR Alo un alleleo</orig>
+          <reg>UN PLAIDEUR Alo un allèleo</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ib pn L'y a environ un an &amp; demy que les Comédiens Italiens repréſenterent une Piece intitulée, La Matrone d'Epheſe, ou Arlequin Procureur.</orig>
+          <reg>Ib pen L'y a environ un an et demi que les Comédiens Italiens représentèrent une Pièce intitulée, La <persName>Matrone</persName><persName>d'Éphèse</persName>, ou <persName>Arlequin</persName> Procureur.</reg>
+        </seg>
+        <seg>
+          <orig>Comme le ſuccés en fut fortgrand, ils la joüerent pres de trois mois, &amp; le bruit qu’elle fit alla ſi loin, que mes Amis de la Province m’écrivirent pluſieurs fois pour me prier de la leur envoyer, ſi elle eſtoit imprimée.</orig>
+          <reg>Comme le succès en fut fortgrand, ils la jouèrent pres de trois mois, et le bruit qu'elle fit alla si loin, que mes Amis de la Province m'écrivirent plusieurs fois pour me prier de la leur envoyer, si elle était imprimée.</reg>
+        </seg>
+        <seg>
+          <orig>L’utilité que le Public en peut tirer, me fit employer toute ſorte de moyens pour l’avoir.</orig>
+          <reg>L'utilité que le Public en peut tirer, me fit employer toute sorte de moyens pour l'avoir.</reg>
+        </seg>
+        <seg>
+          <orig>Enfin apres beaucoup d’intrigues, on me la remit toute entiere entre les mains, avec la Lettre dédicatoire;</orig>
+          <reg>Enfin après beaucoup d'intrigues, on me la remit toute entière entre les mains, avec la Lettre dédicatoire;</reg>
+        </seg>
+        <seg>
+          <orig>mais comme les deux premiers Actes ſont Italiens, &amp; que leurs agrémens dépendent de la Repréſentation, on m’a conſeillé de faire imprimer le troiſiéme ſeul, qui eſt la Comédie d’Arlequin Procureur.</orig>
+          <reg>mais comme les deux premiers Actes sont Italiens, et que leurs agrémens dépendent de la Représentation, on m'a conseillé de faire imprimer le troisième seul, qui est la Comédie <persName>d'Arlequin</persName> Procureur.</reg>
+        </seg>
+        <seg>
+          <orig>On l’attribuë à quatre ou cinq diférentes Perſonnes;</orig>
+          <reg>On l'attribue à quatre ou cinq diférentes Personnes;</reg>
+        </seg>
+        <seg>
+          <orig>mais de quelque endroit qu’elle vienne, les Italiens n’en ont guére repréſenté de meilleures;</orig>
+          <reg>mais de quelque endroit qu'elle vienne, les Italiens n'en ont guère représenté de meilleures;</reg>
+        </seg>
+        <seg>
+          <orig>car ſans parler du caractere de la Matrone, &amp; de celuy du Grand-Preſtre de Diane, qui profane l’Autel de la Déeſſe par ſon avarice, celuy du Procureur eſt incomparable.</orig>
+          <reg>car sans parler du caractère de la <persName>Matrone</persName>, et de celui du <persName>Grand-Prêtre de Diane</persName>, qui profane l'Autel de la Déesse par son avarice, celui du Procureur est incomparable.</reg>
+        </seg>
+        <seg>
+          <orig>Arlequin qui le repréſente ſous le nom de Grapinian, ne dit qu’une fort petite partie des tours qui ſe font parmy ſes Confreres;</orig>
+          <reg><persName>Arlequin</persName> qui le représente sous le nom de Grapinian, ne dit qu'une fort petite partie des tours qui se font parmi ses Confrères;</reg>
+        </seg>
+        <seg>
+          <orig>&amp; me trouvant un jour à cette Comédie pres d’un Procureur, je le vis en colere contre l’Autheur de la Piece, aſſurant qu’il n’entendoit pas le Palais, &amp; qu’un Clerc de trois mois en diroit dix fois davantage.</orig>
+          <reg>et me trouvant un jour à cette Comédie pres d'un Procureur, je le vis en colère contre l'Auteur de la Pièce, assurant qu'il n'entendait pas le Palais, et qu'un Clerc de trois mois en dirait dix fois davantage.</reg>
+        </seg>
+        <seg>
+          <orig>Son dépit doit faire juger des galanteries de ceux de ſa Profeſſion, quand ils ſont de mauvaiſe foy.</orig>
+          <reg>Son dépit doit faire juger des galanteries de ceux de sa Profession, quand ils sont de mauvaise foi.</reg>
+        </seg>
+        <seg>
+          <orig>Ce qu’on croit devoir ajoûter icy, eſt qu’on n’a jamais eu le moindre deſſein de joüer aucun Procureur en particulier;</orig>
+          <reg>Ce qu'on croit devoir ajouter ici, est qu'on n'a jamais eu le moindre dessein de jouer aucun Procureur en particulier;</reg>
+        </seg>
+        <seg>
+          <orig>mais on m’a dit qu’on avoit pris en ge néral les friponneries qu’on a faites autrefois, &amp; qu’on fait peuteſtre encore aujourd’huy.</orig>
+          <reg>mais on m'a dit qu'on avait pris en ge néral les friponneries qu'on a faites autrefois, et qu'on fait peutestre encore aujourd'hui.</reg>
+        </seg>
+        <seg>
+          <orig>Arlequin dans ſon Etude, &amp; ſa converſation avec fes Cliens, découvre l’adreſſe de pluſieurs Procureurs, qui parlant à leurs Parties, ſongent plutoſt à attraper leur argent, qu’à défendre leurs intéreſts.</orig>
+          <reg><persName>Arlequin</persName> dans son Étude, et sa conversation avec fes Cliens, découvre l'adresse de plusieurs Procureurs, qui parlant à leurs Parties, songent plutôt à attraper leur argent, qu'à défendre leurs intérêts.</reg>
+        </seg>
+        <seg>
+          <orig>Nous autres Plaideurs, nous pouvons auſſi penſer que ce que nous voyons ſur le Théatre, ſe paſſe comme on nous le repréſente, &amp; nous devons nous tenir ſur nos gardes avec d’autres Grapinians plus dangereux, qui nous peuvent faire des tours bien plus violens que ceux qu’on nous montre à l’Hôtel de Bourgogne.</orig>
+          <reg>Nous autres Plaideurs, nous pouvons aussi penser que ce que nous voyons sur le Théâtre, se passe comme on nous le représente, et nous devons nous tenir sur nos gardes avec d'autres Grapiniants plus dangereux, qui nous peuvent faire des tours bien plus violents que ceux qu'on nous montre à l'Hôtel <placeName>de Bourgogne</placeName></reg>
+        </seg>
+        <seg>
+          <orig>En effet, en voicy un qui peut eſtre raconté.</orig>
+          <reg>En effet, en voici un qui peut être raconté.</reg>
+        </seg>
+        <seg>
+          <orig>Il y a quelque temps qu’un ancien Procureur, qui autant qu’il avoit pû, avoit exercé la Profeſſion avec toute l’exactitude imaginable, ſe trouvant avec un de ſes Amis, &amp; parlant de certaines petites facilitez qui ſe pratiquent dans les Affaires, dit, qu’eſtant Procureur d’un grand Seigneur dont tout le Bien eſtoit ſaiſy, &amp; ayant obtenu pluſieurs Proviſions pour luy, il en voulut avoir une nouvelle de vingt mille francs.</orig>
+          <reg>Il y a quelque temps qu'un ancien Procureur, qui autant qu'il avait pu, avait exercé la Profession avec toute l'exactitude imaginable, se trouvant avec un de ses Amis, et parlant de certes petites facilités qui se pratiquent dans les Affaires, dit, qu'étant Procureur d'un grand Seigneur dont tout le Bien était saisi, et ayant obtenu plusieurs Provisions pour lui, il en voulut avoir une nouvelle de vingt mille francs.</reg>
+        </seg>
+        <seg>
+          <orig>Je le confirmay dans cette penſée, ajoûta ce Procureur, &amp; je n’avois garde de m’y oppoſer, puis que j’avois part au Gâteau.</orig>
+          <reg>Je le confirmai dans cette pensée, ajouta ce Procureur, et je n'avais garde de m'y opposer, puis que j'avais part au Gâteau.</reg>
+        </seg>
+        <seg>
+          <orig>Je fis donc la demande, &amp; on m’en debouta, parce que le plus ancien Procureur des Creanciers ſaiſiſſans, &amp; celuy qui pourſuivoit les Criées, ſe défendirent en Gens d’honneûr;</orig>
+          <reg>Je fis donc la demande, et on m'en débouta, parce que le plus ancien Procureur des Créanciers saisissants, et celui qui poursuivait les Criées, se défendirent en Gens d'honneurer;</reg>
+        </seg>
+        <seg>
+          <orig>mais je fus bien ſur.</orig>
+          <reg>mais je fus bien sur.</reg>
+        </seg>
+        <seg>
+          <orig>pris, quand apres avoir perdu ma Cauſe, ces deux meſmes Procureurs me trouvant le lendemain à la Grand’ Chambre, me tirerent à part, &amp; me dirent tout-bas à l’oreille, qu’il ne tenoit qu’à moy d’avoir les vingt mille francs que je voulois.</orig>
+          <reg>pris, quand après avoir perdu ma Causse, ces deux mêmes Procureurs me trouvant le lendemain à la Grand Chambre, me tirèrent à part, et me dirent tout-bas à l'oreille, qu'il ne tenait qu'à moi d'avoir les vingt mille francs que je voulais.</reg>
+        </seg>
+        <seg>
+          <orig>Je leur demanday le moyen.</orig>
+          <reg>Je leur demandai le moyen.</reg>
+        </seg>
+        <seg>
+          <orig>Pour un habile Homme comme vous, reprit l’un, s’y prend-on de la ſorte?</orig>
+          <reg>Pour un habile Homme comme vous, reprit l'un, s'y prend-on de la sorte?</reg>
+        </seg>
+        <seg>
+          <orig>Hé, morbleu, mon Amy, continua l’autre, radotez-vous, &amp; n’entendezvous plus le Palais?</orig>
+          <reg>Hé, morbleu, mon Ami, continua l'autre, radotez-vous, et n'entendez pluseze Palais?</reg>
+        </seg>
+        <seg>
+          <orig>Ne faut il pas que tout vive?</orig>
+          <reg>Ne faut il pas que tout vive?</reg>
+        </seg>
+        <seg>
+          <orig>Il n’y a qu’un mot à cela, cent Piſtoles à chacun, &amp; nous vous allons paſſer voſtre Proviſion.</orig>
+          <reg>Il n'y a qu'un mot à cela, cent <persName>Pistoles</persName> à chacun, et nous vous allons passer votre Provision.</reg>
+        </seg>
+        <seg>
+          <orig>Vous voyez bien, ajoûta-t-il, qu’on ſe met à la raiſon, &amp; qu’il n’y a perſonne au monde aſſez ſtupide, qui refuſe dix-huit mille francs pour une ſi petite ſomme.</orig>
+          <reg>Vous voyez bien, ajouta-t-il, qu'on se met à la raison, et qu'il n'y a personne au monde assez stupide, qui refuse dix-huit mille francs pour une si petite somme.</reg>
+        </seg>
+        <seg>
+          <orig>Et alors ſe prenant tous deux à rire, ils me toucherent dans la main, &amp; me dirent que ma maniere d’agir les avoit ſurpris.</orig>
+          <reg>Et alors se prenant tous deux à rire, ils me touchèrent dans la main, et me dirent que ma manière d'agir les avait surpris.</reg>
+        </seg>
+        <seg>
+          <orig>Je leur demanday fi ma procédure n’eſtoit pas réguliere.</orig>
+          <reg>Je leur demandai fi ma procédure n'était pas régulière.</reg>
+        </seg>
+        <seg>
+          <orig>Non, me dirent ils, elle ne l’eſtoit pas, puis que vous avez manqué voſtre Cauſe.</orig>
+          <reg>Non, me dirent ils, elle ne l'était pas, puis que vous avez manqué votre <persName>Causse</persName></reg>
+        </seg>
+        <seg>
+          <orig>On agit toûjours régulierement, quand on obtient ce qu’on pourſuit, de quelque façon qu’on l’attrape.</orig>
+          <reg>On agit toujours régulièrement, quand on obtient ce qu'on poursuit, de quelque façon qu'on l'attrape.</reg>
+        </seg>
+        <seg>
+          <orig>Mais, Meſſieurs, leur rẽpartis-je, que diront vos Parties, s’ils découvrent la choſe?</orig>
+          <reg>Mais, Messieurs, leur rempartis-je, que diront vos Parties, s'ils découvrent la chose?</reg>
+        </seg>
+        <seg>
+          <orig>N’entrez point dans ce détail, reprirent-ils, chacun ſçait ſon meſtier.</orig>
+          <reg>N'entrez point dans ce détail, reprirent-ils, chacun Sait son métier.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt à dire, ajoûtay-je, que vous me vendez tous deux leurs intéreſts pour deux cens Piſtoles.</orig>
+          <reg>C'est à dire, ajoutai-je, que vous me vendez tous deux leurs intérêts pour deux cens <persName>Pistoles</persName></reg>
+        </seg>
+        <seg>
+          <orig>Ma reflexion les fit éclater de rire, &amp; ils me demanderent depuis quand j’eſtois devenu ſi ſcrupuleux, &amp; qu’ils voyoient bien que ſur mes vieux jours je voulois faire ſemblant d’avoir de la conſcience.</orig>
+          <reg>Ma réflexion les fit éclater de rire, et ils me demandèrent depuis quand j'étais devenu si scrupuleux, et qu'ils voyaient bien que sur mes vieux jours je voulais faire semblant d'avoir de la conscience.</reg>
+        </seg>
+        <seg>
+          <orig>Ha, vieux Pecheur, dirent- ils, tu mourras dans ton peché auſſi-bien que les autres.</orig>
+          <reg>Ha, vieux Pécheur, dirent- ils, tu mourras dans ton péché aussi-bien que les autres.</reg>
+        </seg>
+        <seg>
+          <orig>Enfin je leur donnay deux cens Piſtoles, &amp; ils m’accorderent dix-huit mille francs, dont je tiray ma part en Homme d’honneur.</orig>
+          <reg>Enfin je leur donnai deux cents <persName>Pistoles</persName>, et ils m'accordèrent dix-huit mille francs, dont je tirai ma part en Homme d'honneur.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>I Ar Grace &amp; Privilege du Roy, donné à Verſailles le 17.</orig>
+            <reg>I Ar Grâce et Privilège du Roi, donné à <placeName>Versailles</placeName> le 17.</reg>
+          </seg>
+          <seg>
+            <orig>jour de Decembre 1683.</orig>
+            <reg>jour de <date>Décembre 1683</date></reg>
+          </seg>
+          <seg>
+            <orig>Signé, Par le Roy en ſon Conſeil, D’ALENCE';</orig>
+            <reg>Signé, Par le Roi en son Conseil, D'ALENCE';</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt permis au Sieur Darennes de faire imprimer une Comédie intitulée La Matrone d’Epheſe, où Arlequin Procureur, par tel Imprimeur ou Libraire qu’il voudra choiſir, pendant le temps de ſix années, à compter du jour qu’elle ſera achevée d’imprimer pour la premiere fois;</orig>
+            <reg>Il est permis au <persName>Sieur Darennes</persName> de faire imprimer une Comédie intitulée La Matrone <persName>d'Éphése</persName>, où <persName>Arlequin</persName> Procureur, par tel Imprimeur ou Libraire qu'il voudra choisir, pendant le temps de six années, à compter du jour qu'elle sera achevée d'imprimer pour la première fois;</reg>
+          </seg>
+          <seg>
+            <orig>Et défenſes ſont faites à toutes autres Perſonnes de l’imprimer, faire imprimer, vendre &amp; debiter, fans le conſentement de l’Expoſant, ou de ceux qui auront droit de luy, à peine aux Contreve.</orig>
+            <reg>Et défenses sont faites à toutes autres Personnes de l'imprimer, faire imprimer, vendre et débiter, sans le consentement de l'Exposant, ou de ceux qui auront droit de lui, à peine aux Contreve.</reg>
+          </seg>
+          <seg>
+            <orig>nans de trois mille livres d’amende, confiſcation des Exemplaires contrefaits, &amp; de tous dépens, dommages &amp; intereſts, aitiii que plus au long il eſt porté par ledit Privilege.</orig>
+            <reg>nans de trois mille livres d'amende, confiscation des Exemplaires contrefaits, et de tous dépens, dommages et intérêts, aiti que plus au long il est porté par ledit Privilège.</reg>
+          </seg>
+          <seg>
+            <orig>Regiſtré ſur le Livre de la Communauté le 4.</orig>
+            <reg>Registré sur le Livre de la Communauté le 4.</reg>
+          </seg>
+          <seg>
+            <orig>Janvier 1684.</orig>
+            <reg>
+              <date>Janvier 1684</date>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Signé, ANGOT, Syndic.</orig>
+            <reg>Signé, ANGOT, Syndic.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Ledit Sieur Darennes a cedé ſon Privilege à C.</orig>
+          <reg>Ledit <persName>Sieur Darennes</persName> a cédé son Privilège à <persName>Ç</persName></reg>
+        </seg>
+        <seg>
+          <orig>Blageart Imprimeur-Libraire, pour en joüir ſuivant l’accord fait entr’eux.</orig>
+          <reg><persName>Blageart</persName> Imprimeur-Libraire, pour en jouir suivant l'accord fait entr'eux.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Achevé d’impr'mer le 5.</orig>
+          <reg>Achevé d'imprimer le 5.</reg>
+        </seg>
+        <seg>
+          <orig>jour de fanvier1684.</orig>
+          <reg>jour de <date>fanvier1684</date></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>NE PLAIDEUSE.</orig>
+          <reg>NE PLAIDEUSE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>N MARQUIS.</orig>
+          <reg> MARQUIS.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ARLEQUIN PROCUREUR COMEDIE.</orig>
+          <reg>ARLEQUIN PROCUREUR COMÉDIE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE I.</orig>
+          <reg>SCÈNE I.</reg>
+        </seg>
+        <seg>
+          <orig>COQUINIERE, GRAPINIAN.</orig>
+          <reg>COQUINIERE, GRAPINIAN.</reg>
+        </seg>
+        <seg>
+          <orig>COQUINIERE.</orig>
+          <reg>COQUINIERE.</reg>
+        </seg>
+        <seg>
+          <orig>2 Eseς OVS ne ferez jamais rien dans nôtre Meſtier, ſi vous n’avez a voſtre diſpoſition un Notaire, un Sergent, &amp; un Greffier;</orig>
+          <reg>2 Eseς OUS ne ferez jamais rien dans notre Métier, si vous n'avez a toujours disposition un Notaire, un Sergent, et un Greffier;</reg>
+        </seg>
+        <seg>
+          <orig>mais un jeune Procureur, qui a ces trois cordes à ſon Arc, peut tout riſquer &amp; tout entreprendre.</orig>
+          <reg>mais un jeune Procureur, qui a ces trois cordes à son Arc, peut tout risquer et tout entreprendre.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Voila trois dangereuſes Beſtes à gouverner.</orig>
+            <reg>Voilà trois dangereuses Bêtes à gouverner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, j’en ſuis bien venu a bout ſans miracle.</orig>
+            <reg>Hé, j'en suis bien venu a bout sans miracle.</reg>
+          </seg>
+          <seg>
+            <orig>Dans toute ſorte deProfeſſions, il y a des Eſprits revéches &amp; farouches, qui vont toujours droit, &amp; qui ſe ſont fait un calus de l’honneur de leur Mêtier.</orig>
+            <reg>Dans toute sorte deProfessions, il y a des Esprits revèches et farouches, qui vont toujours droit, et qui se sont fait un calus de l'honneur de leur Métier.</reg>
+          </seg>
+          <seg>
+            <orig>Fy, ce n’eſt pas ces Gens-là qu’il faut chercher, ce ſont des Brutaux qui ne ſont bons à rien;</orig>
+            <reg>Fi, ce n'est pas ces Gens-là qu'il faut chercher, ce sont des Brutaux qui ne sont bons à rien;</reg>
+          </seg>
+          <seg>
+            <orig>mais il y en a d’autres plus humains, &amp; plus ſociables, qu'on peut aprivoiſer avec de l’argent.</orig>
+            <reg>mais il y en a d'autres plus humains, et plus sociables, qu'on peut apprivaiser avec de l'argent.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt à ceux-là qu’on doit s’adreſſer, &amp; c’eſt ſur leur avidité qu’il faut regler le ſuccés de toutes les Affaires.</orig>
+            <reg>C'est à ceux-là qu'on doit s'adresser, et c'est sur leur avidité qu'il faut régler le succès de toutes les Affaires.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Bonne morale!</orig>
+            <reg>Bonne morale!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A i COQUINIERE.</orig>
+          <reg>A À JOQUINIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>Un Homme qui voudroit faire ſon Meſtier dans l’ordre, n’auroit pas mille écus de profit au bout de l’an.</orig>
+          <reg>Un Homme qui voudrait faire son Métier dans l'ordre, n'aurait pas mille écus de profit au bout de l'an.</reg>
+        </seg>
+        <seg>
+          <orig>Autrefois nous avions plus de Pratiques que nous ne voulions;</orig>
+          <reg>Autrefois nous avions plus de Pratiques que nous ne voulions;</reg>
+        </seg>
+        <seg>
+          <orig>mais à preſent il les faut aller chercher;</orig>
+          <reg>mais à présent il les faut aller chercher;</reg>
+        </seg>
+        <seg>
+          <orig>&amp; encore ſi un Procureur n’eſt alerte, il ne gagne pas pour déſrayer ſa Maiſon.</orig>
+          <reg>et encore si un Procureur n'est alerte, il ne gagne pas pour désrayer sa Maison.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray qu’on ne plaide plus qu’a ſon corps dercildance</orig>
+            <reg>Il est vrai qu'on ne plaide plus qu'a son corps dercildance</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IINIERE.</orig>
+            <reg>IINIÈRE.</reg>
+          </seg>
+          <seg>
+            <orig>Mr Grapinian, je m’aſſure que vous n’avez pas trente ans.</orig>
+            <reg><persName>Mr Grapinian</persName>, je m'assure que vous n'avez pas trente ans.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>lell a l lalla lvs Hé, environ.</orig>
+            <reg>lell a l lalla lus , environ.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>O UINIERE.</orig>
+            <reg>Ô OÙINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Le pel age pour bien travailler !</orig>
+            <reg>Le pel age pour bien travailler !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ho, laiſſez-moy faire.</orig>
+            <reg>Ho, laissez-moi faire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut que vous ſoyez une Balourde, ſi apres les Préceptes que je vay vous donner, vous n’avez dans quatre ans ruiné cent Familles, &amp; acquis dix MaiIons dans l'aris.</orig>
+            <reg>Il faut que vous soyez une <persName>Balourde</persName>, si après les Prèceptes que je vais vous donner, vous n'avez dans quatre ans ruiné cent Familles, et acquis une BaiIons dans l'aris.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>3RAPINIAN.</orig>
+            <reg>3RAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Dix Maiſons dans Paris!</orig>
+            <reg>Dix Maisons dans <placeName>Paris</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, dix Maiſons dans Paris;</orig>
+            <reg>Oui, dix Maisons dans <placeName>Paris</placeName></reg>
+          </seg>
+          <seg>
+            <orig>&amp; par deſſus cela, un bon Carroſſe pour võtre Periilllo.</orig>
+            <reg>et par -dessus cela, un bon Carrosse pour votre <persName>Périilllo</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>L’habile Homme!</orig>
+            <reg>L'habile Homme!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Tel que vous me voyez, à l’âge de quarante ans, j’avois déja amaſſé deux cens mille livres de bon Bien;</orig>
+            <reg>Tel que vous me voyez, à l'âge de quarante ans, j'avais déjà amassé deux cens mille livres de bon Bien;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſi en ce tempsla, les Femmes de Procureur euſſent oſé porter de la dorure ſur leurs Habits, &amp; avoir des Carroſſes, la mienne en auroit eu a bonnes enſeignes;</orig>
+            <reg>et si en ce tempsla, les Femmes de Procureur eussent osé porter de la dorure sur leurs Habits, et avoir des Carrosses, la mienne en aurait eu a bonnes enseignes;</reg>
+          </seg>
+          <seg>
+            <orig>mais la mode n’en eſtoit pas encore venuë.</orig>
+            <reg>mais la mode n'en était pas encore venue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>M’Coquiniere, de grûce, donnez-moy de bonnes Inſtructions pour ne plus aller a pied.</orig>
+            <reg>M'Coquinière, de grûce, donnez-moi de bonnes Instructions pour ne plus aller à pied.</reg>
+          </seg>
+          <seg>
+            <orig>Je ſçay déja tout le petit Manége de l’Etude;</orig>
+            <reg>Je sais déjà tout le petit Manège de l'Eude;</reg>
+          </seg>
+          <seg>
+            <orig>mais je ne ſçay pas encore les coups de Maiſtre, qui font aller en Carroſſe.</orig>
+            <reg>mais je ne sais pas encore les coups de Maître, qui font aller en Carrosse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Doucement, doucement, on ne va pas ſi viſte dans noſtre Meſtier.</orig>
+            <reg>Doucement, doucement, on ne va pas si vite dans notre Métier.</reg>
+          </seg>
+          <seg>
+            <orig>Dites-moy auparavant, aimez vous bien l’argent?</orig>
+            <reg>Dites-moi auparavant, aimez -vous bien l'argent?</reg>
+          </seg>
+          <seg>
+            <orig>Vous ſentez-vous d’humeur a tout faire pour en amaſſer?</orig>
+            <reg>Vous sentez-vous d'humeur a tout faire pour en amasser?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Malepeſte, ſi j’aime l’archt.</orig>
+            <reg>Malepeste, si j'aime l'archaît.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Bon, tant-mieux, vous voila deja à demy Procureur.</orig>
+            <reg>Bon, tant-mieux, vous voilà déjà à demi Procureur.</reg>
+          </seg>
+          <seg>
+            <orig>Mon Fils, attachetoy aux Saiſies réelles, aux Préferences de deniers;</orig>
+            <reg>Mon Fils, attachetoy aux Saisies réelles, aux Préférences de deniers;</reg>
+          </seg>
+          <seg>
+            <orig>remue Ciel &amp; Terre pour eſtre Procureur des bonnes Directions;</orig>
+            <reg>remue Ciel et Terre pour être Procureur des bonnes Directions;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; ſur tout, ne t’endors jamais turmaeConſignation;</orig>
+            <reg>et sur tout, ne t'endors jamais turmaeConsignation;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt le vray Patrimoine des Procureurs.</orig>
+            <reg>c'est le vrai Patrimoine des Procureurs.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’on ne vous voye que rarement aux Audiances;</orig>
+            <reg>Qu'on ne vous voit que rarement aux Audiances;</reg>
+          </seg>
+          <seg>
+            <orig>apliquezvous aux Procés par écrit, &amp; multipliez ſi adroitement les Incidens, &amp; la Procédure, qu’uncAffaire blanchiſſe dans voſtre Etude, avant que d’eſtre jugée.</orig>
+            <reg>apliquezvous aux Procès par écrit, et multipliez si adroitement les Incidents, et la Procédure, qu'uncAffaire blanchisse dans votre Étude, avant que d'être jugée.</reg>
+          </seg>
+          <seg>
+            <orig>Sur tout, prenez garde de ne conſentir jamais à aucun Arreſt définitif, c’eſt la peſte des Etudes.</orig>
+            <reg>Sur tout, prenez garde de ne consentir jamais à aucun Arrest définitif, c'est la peste des Éudes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>On voit bien que vous l’entendez.</orig>
+            <reg>On voit bien que vous l'entendez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Dans noſtre Meſtier, le vray talent &amp; le grand gain, c’eſt de beaucoup ccrire.</orig>
+            <reg>Dans notre Métier, le vrai talent et le grand gain, c'est de beaucoup ccrire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Mais que dire en tant d’Ecritures?</orig>
+            <reg>Mais que dire en tant d'Écritures?</reg>
+          </seg>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Que dire?</orig>
+            <reg>Que dire?</reg>
+          </seg>
+          <seg>
+            <orig>Le pauvre Homme!</orig>
+            <reg>Le pauvre Homme!</reg>
+          </seg>
+          <seg>
+            <orig>Il faut dire des ſottiſes, des impertinences, des ſupoſitions, des fauſſetez;</orig>
+            <reg>Il faut dire des sottises, des impertinences, des supositions, des faussetés;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; quand on eſt à bout, on a recours aux invectives, &amp; aux injures.</orig>
+            <reg>et quand on est à bout, on a recours aux invectives, et aux injures.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Cent lencemure, velde</orig>
+            <reg>Cent lencemure, velde</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Tu vois que je te parle en Pere, &amp; que je te decouvre les entrailles de noſtre Profeſſion.</orig>
+            <reg>Tu vois que je te parle en Père, et que je te découvre les entrailles de notre Profession.</reg>
+          </seg>
+          <seg>
+            <orig>Que je ſeray conſole en mourant, ſi je te vois ſuivre le bon chemin où je te meus!</orig>
+            <reg>Que je serai console en mourant, si je te vois suivre le bon chemin où je te meus!</reg>
+          </seg>
+          <seg>
+            <orig>Voila, mon Fils, les Preceptes les plus ſolides que mon honneur &amp; ma conſcience m’obligent de te donner, ſi tu veux ẽtablir ta fortune.</orig>
+            <reg>Voilà, mon Fils, les Préceptes les plus solides que mon honneur et ma conscience m'obligent de te donner, si tu veux ẽtablir ta fortune.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Mr Coquiniere;</orig>
+            <reg>
+              <persName>Mr Coquinière</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>la, franchement, dites-moy combien voſtre Etude me vaudra-t-elle par an?</orig>
+            <reg>la, franchement, dites-moi combien votre Étude me vaudra-elle par an?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, cela n’ira pas loin de deux iiie fralles;</orig>
+            <reg>Hé, cela n'ira pas loin de deux jiie fralles;</reg>
+          </seg>
+          <seg>
+            <orig>la Maiſon défrayee.</orig>
+            <reg>la Maison défraie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Deux mille francs deux mille francs!</orig>
+            <reg>Deux mille francs deux mille francs!</reg>
+          </seg>
+          <seg>
+            <orig>Vous vous nis queuyrs n’eſt pas là dequoy avoir un Habit d’Eté pour maFemme.</orig>
+            <reg>Vous vous nis queurir n'est pas là dequoy avoir un Habit d'Été pour maFemme.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne veux point de voſtre claendue.</orig>
+            <reg>Je ne veux point de votre clendue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>COQUINIERE.</orig>
+            <reg>COQUINIERE.</reg>
+          </seg>
+          <seg>
+            <orig>Voſtre Femme le porte donc bien haut!</orig>
+            <reg>Votre Femme le porte donc bien haut!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Haut, comme les autres Procureuſes.</orig>
+            <reg>Haut, comme les autres Procureuses.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>COQUINIERE.</orig>
+          <reg>COQUINIERE.</reg>
+        </seg>
+        <seg>
+          <orig>He, mon Dieu, doucement, les deux mille francs ne ſont que le courant de l’Etude;</orig>
+          <reg>He, mon Dieu, doucement, les deux mille francs ne sont que le courant de l'Etude;</reg>
+        </seg>
+        <seg>
+          <orig>mais le tour du Baſton, &amp; le ſçavoir faire, valent encore mille bonnes Piſtoles par an.</orig>
+          <reg>mais le tour du Bâton, et le savoir faire, valent encore mille bonnes <persName>Pistoles</persName> par an.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ha, ſi cela eſt, l’Affaire change de face.</orig>
+            <reg>Ha, si cela est, l'Affaire change de face.</reg>
+          </seg>
+          <seg>
+            <orig>Hé-bien, M Coquiniere, retenez pour vous le courant de l’Etude, &amp; vendez-moy le tour du Baſton, &amp; le ſçavoir fairc.</orig>
+            <reg>Hé-bien, <persName>M Oquinière</persName>, retenez pour vous le courant de l'Etude, et vendez-moi le tour du Bâton, et le savoir fairc.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>COQUINIERE.</orig>
+          <reg>COQUINIERE.</reg>
+        </seg>
+        <seg>
+          <orig>L’un ne va pas ſans l’autre;</orig>
+          <reg>L'un ne va pas sans l'autre;</reg>
+        </seg>
+        <seg>
+          <orig>&amp; puis que vous avez ſigné le Contract, vous aurez le tout enſemble.</orig>
+          <reg>et puis que vous avez signé le Contrat, vous aurez le tout ensemble.</reg>
+        </seg>
+        <seg>
+          <orig>He, que vous me remercirez avant qu’il ſoit un an!</orig>
+          <reg>He, que vous me remercirez avant qu'il soit un an!</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Que je feray de mal avant qu’il ſoit ſix mois!</orig>
+            <reg>Que je ferai de mal avant qu'il soit six mois!</reg>
+          </seg>
+          <seg>
+            <orig>Un Chien enrage n’eſt pas ſi dangereux qu’un jeun e Procureur.</orig>
+            <reg>Un Chien enrage n'est pas si dangereux qu'un jeun eu Procureur.</reg>
+          </seg>
+          <seg>
+            <orig>Malheur à coun quicemberone lous ma coupe.</orig>
+            <reg>Malheur à coun quicembérone lous ma coupe.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE II.</orig>
+          <reg>SCÈNE II.</reg>
+        </seg>
+        <seg>
+          <orig>LA MATRONE, GRAPINIAN.</orig>
+          <reg>LA MATRONE, GRAPINIAN.</reg>
+        </seg>
+        <seg>
+          <orig>A MATRONE.</orig>
+          <reg>À <persName>MATRONE</persName></reg>
+        </seg>
+        <seg>
+          <orig>E’-bien?</orig>
+          <reg>E'bien?</reg>
+        </seg>
+        <seg>
+          <orig>eſtes-vous i content de la Char ge que jevous ay achetée?</orig>
+          <reg>êtes-vous y content de la <persName>Char ge</persName> que jevous ai achetée?</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je viens d’eſtre inſtruit par un vieux Routier qui m’a donné de bonnes leçons.</orig>
+            <reg>Je viens d'être instruit par un vieux Routier qui m'a donné de bonnes leçons.</reg>
+          </seg>
+          <seg>
+            <orig>Il m'a découvert i ſqu’aux entrailles de la Profeſſion.</orig>
+            <reg>Il m'a découvert y squ'aux entrailles de la Profession.</reg>
+          </seg>
+          <seg>
+            <orig>A préſent que vcy clair, je feray merVLiS.</orig>
+            <reg>À présent que vci clair, je ferai merULiS.</reg>
+          </seg>
+          <seg>
+            <orig>EMMMRII</orig>
+            <reg>EMMRII</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>4 21 LA MATRONE.</orig>
+            <reg>4 21 LA MATRONE.</reg>
+          </seg>
+          <seg>
+            <orig>iincriu Mn Be Mais quand prétendezvous m’épouſer?</orig>
+            <reg>jincriv <persName>Mn Be</persName> Mais quand prétendezvous m'épouser?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ne vous mettez en peine de rien.</orig>
+            <reg>Ne vous mettez en peine de rien.</reg>
+          </seg>
+          <seg>
+            <orig>En cinq ou ſix mois paſſez dans aà Charge, je batray bien du Païs.</orig>
+            <reg>En cinq ou six mois passez dans à <persName>Charge</persName>, je batrai bien du Pays.</reg>
+          </seg>
+          <seg>
+            <orig>De la maniere que j’ay le cœur fait, Fripon autant qu’on peut l’eſtre, je ſuis aſſuré que dans ces ſix mois j’auray amaſſé dequoy vous donner de la dorure par deſſus la teſte, avec un Carroſſe aubout.</orig>
+            <reg>De la manière que j'ai le cœur fait, <persName>Fripon</persName> autant qu'on peut l'être, je suis assuré que dans ces six mois j'aurai amassé dequoy vous donner de la dorure par -dessus la tête, avec un Carrosse aubout.</reg>
+          </seg>
+          <seg>
+            <orig>Ce ſera le moyen de faire bombance en nous mariant.</orig>
+            <reg>Ce sera le moyen de faire bombance en nous mariant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>b- LA MATRONE.</orig>
+            <reg>b- LA MATRONE.</reg>
+          </seg>
+          <seg>
+            <orig>Et vous me tiendrez parole quand vous aurez acquis tant de Bien?</orig>
+            <reg>Et vous me tiendrez parole quand vous aurez acquis tant de Bien?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous la tiendray de reſte.</orig>
+            <reg>Je vous la tiendrai de reste.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, il faut que acheve de dicter une Piece qui eſt fort preſſée.</orig>
+            <reg>Allez, il faut que achève de dicter une Pièce qui est fort pressée.</reg>
+          </seg>
+          <seg>
+            <orig>A ſon Clerc.</orig>
+            <reg>À son Clerc.</reg>
+          </seg>
+          <seg>
+            <orig>Prenez le rôle que vous avez commencé tantoſt.</orig>
+            <reg>Prenez le rôle que vous avez commencé tantôt.</reg>
+          </seg>
+          <seg>
+            <orig>Je me ſouviens de l’endroit où nous ſommes demeurez.</orig>
+            <reg>Je me souviens de l'endroit où nous sommes demeurez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>21I 22NE III.</orig>
+          <reg>21I 2NE III.</reg>
+        </seg>
+        <seg>
+          <orig>AVNM ARLEQUIN dans ſon Etude, qui dicte à un de ſes Clercs.</orig>
+          <reg>AUNM ARLEQUIN dans son Étude, qui dicte à un de ses Clercs.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN dicte.</orig>
+            <reg><persName>GRAPINIAN</persName> dicte.</reg>
+          </seg>
+          <seg>
+            <orig>hèiel.</orig>
+            <reg>hériel.</reg>
+          </seg>
+          <seg>
+            <orig>IU I pour faire connoiſtre la chicane de la Demandereſſe, il repete, la Chicane de la Demandereſſe, produit quatre Pieces, produit quatre Picces, ſous la Cotte G.</orig>
+            <reg>IV I pour faire connaître la chicane de la Demanderesse, il répète, la Chicane de la Demanderesse, produit quatre Pièces, produit quatre Picces, sous la Cotte G.</reg>
+          </seg>
+          <seg>
+            <orig>leſquelles.</orig>
+            <reg>lesquelles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>On n’écrit pas doucement;</orig>
+            <reg>On n'écrit pas doucement;</reg>
+          </seg>
+          <seg>
+            <orig>mais c’eſt que vous dietez tropvne, &amp; qu'on ne peut vous ſuivre.</orig>
+            <reg>mais c'est que vous dietez tropUne, et qu'on ne peut vous suivre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>On ne peut me ſuivre?</orig>
+            <reg>On ne peut me suivre?</reg>
+          </seg>
+          <seg>
+            <orig>Oh ne vous y trõpez pas;</orig>
+            <reg>Oh ne vous y trommes pas;</reg>
+          </seg>
+          <seg>
+            <orig>a nie veux point de Clerc ceans, qu’il ne faſſe quatre-vingts rôles de Groſſes par jour.</orig>
+            <reg>a nie veux point de Clerc ans, qu'il ne fasse quatre-vingts rôles de Grosses par jour.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ne pouvez me ſuivre?</orig>
+            <reg>Vous ne pouvez me suivre?</reg>
+          </seg>
+          <seg>
+            <orig>Voyons, s’il vous plaiſt, comment vous vous y prenez.</orig>
+            <reg>Voyons, s'il vous plaît, comment vous vous y prenez.</reg>
+          </seg>
+          <seg>
+            <orig>Il regarde le Papier où le Clerc a écrit, &amp; le jettant ſur le Bureau, il dit, Comment diable?</orig>
+            <reg>Il regarde le Papier où le Clerc a écrit, et le jetant sur le Bureau, il dit, Comment diable?</reg>
+          </seg>
+          <seg>
+            <orig>Je ne m’etonne pas ſi vous allez ſi doucement;</orig>
+            <reg>Je ne m'étonne pas si vous allez si doucement;</reg>
+          </seg>
+          <seg>
+            <orig>vous mettez quatre mots à une ligne;</orig>
+            <reg>vous mettez quatre mots à une ligne;</reg>
+          </seg>
+          <seg>
+            <orig>voila le moyen de faire une bonne Maiſon.</orig>
+            <reg>voilà le moyen de faire une bonne Maison.</reg>
+          </seg>
+          <seg>
+            <orig>Que cela ne vous arrive plus.</orig>
+            <reg>Que cela ne vous arrive plus.</reg>
+          </seg>
+          <seg>
+            <orig>Je ne veux pas qu’on mette plus de deux mots &amp; une virgule a chaque ligne.</orig>
+            <reg>Je ne veux pas qu'on mette plus de deux mots et une virgule a chaque ligne.</reg>
+          </seg>
+          <seg>
+            <orig>Peſtci De ce train-la, vous envoyeriez bien toſt le Procureur à l’Hôpital.</orig>
+            <reg><persName>Pestci</persName> De ce train-la, vous envoyeriez bien tôt le Procureur à l'Hôpital.</reg>
+          </seg>
+          <seg>
+            <orig>Quatre mots a une ligné!</orig>
+            <reg>Quatre mots à une ligné!</reg>
+          </seg>
+          <seg>
+            <orig>Fy, c’eſt ſe moquer.</orig>
+            <reg>Fi, c'est se moquer.</reg>
+          </seg>
+          <seg>
+            <orig>Quatre mots à une ligne;</orig>
+            <reg>Quatre mots à une ligne;</reg>
+          </seg>
+          <seg>
+            <orig>Quand il eſt a ſon Bureau, il dit, A-t-on envoyé enlever les Meubles de ce Maître à dancer?</orig>
+            <reg>Quand il est à son Bureau, il dit, A-t-on envoyé enlever les Meubles de ce Maître à dancer?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Monſieur.</orig>
+            <reg>Non, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt- ce qu’il prétend payer ſon terme en gambades?</orig>
+            <reg>Est- ce qu'il prétend payer son terme en gambades?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il dit qu’il ne peut tirer un double de ſes EcoHe18.</orig>
+            <reg>Il dit qu'il ne peut tirer un double de ses ÉcoHe18.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE IV GRAPINIAN.</orig>
+          <reg>SCÈNE IV GRAPINIAN.</reg>
+        </seg>
+        <seg>
+          <orig>Un Voleur de grand Chemin.</orig>
+          <reg>Un Voleur de grand Chemin.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Oüy, Monſieur.</orig>
+            <reg>Oui, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR à Grapinian.</orig>
+            <reg>LE VOLEUR à <persName>Grapinian</persName></reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, je ſuis voſtre Perviteur.</orig>
+            <reg>Monsieur, je suis votre Perviteur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN ſe levant de ſa Chaiſe.</orig>
+            <reg><persName>GRAPINIAN</persName> se levant de sa Chaise.</reg>
+          </seg>
+          <seg>
+            <orig>Monneur jujs rais le voſtre.</orig>
+            <reg>Monneur jujets rais le vôtre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Un petit mot, Monſieur, s’il vous plaiſt.</orig>
+            <reg>Un petit mot, Monsieur, s'il vous plaît.</reg>
+          </seg>
+          <seg>
+            <orig>GRAPINIAN s’approchant de luy.</orig>
+            <reg>GRAPINIAN s'approchant de Seigneur.</reg>
+          </seg>
+          <seg>
+            <orig>De quoy s’agit-il pour voſtre ſervice?</orig>
+            <reg>De quoi s'agit-il pour votre service?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Comme vous eſtes le plus honneſte Homme de tous les Procureurs, je viens à vous, pour vous prier de m’aider de voſtre bon conſeil, dans une petite bagatelle qui m’eſt arrivée.</orig>
+            <reg>Comme vous êtes le plus honnête Homme de tous les Procureurs, je viens à vous, pour vous prier de m'aider de votre bon conseil, dans une petite bagatelle qui m'est arrivée.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SIIINCIANT.</orig>
+            <reg>SIINCIANT.</reg>
+          </seg>
+          <seg>
+            <orig>Dites, Monſieur.</orig>
+            <reg>Dites, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>En paſſant ſur le grand chemin, j’ay rencontre un Homme monte ſur une Mazete, C’eſtoit un Marchand qui venoit de la Foire.</orig>
+            <reg>En passant sur le grand chemin, j'ai rencontre un Homme monte sur une Mazète, C'était un Marchand qui venait de la Foire.</reg>
+          </seg>
+          <seg>
+            <orig>En paſſant, il m’a heurté rudement.</orig>
+            <reg>En passant, il m'a heurté rudement.</reg>
+          </seg>
+          <seg>
+            <orig>Il heurte Grapinian, qui fait trois ou quatre pas, &amp; ſe toüchant le coude, il répond, Aſſez, Monſieur.</orig>
+            <reg>Il heurte <persName>Grapinian</persName>, qui fait trois ou quatre pas, et se toüchant le coude, il répond, Assez, Monsieur.</reg>
+          </seg>
+          <seg>
+            <orig>LE VOLEUR continuë.</orig>
+            <reg>LE VOLEUR continue.</reg>
+          </seg>
+          <seg>
+            <orig>Moy me ſentant heurté, je luy ay dit, Que veut celuy-là avec ſa Roſſe?</orig>
+            <reg>Moi me sentant heurté, je lui ai dit, Que veut celui-là avec sa <persName>Rosse</persName></reg>
+          </seg>
+          <seg>
+            <orig>Cet Homme prenant le party de ſon Cheval, met pied à terre, &amp; ſe jette à mon col.</orig>
+            <reg>Cet Homme prenant le parti de son Cheval, met pied à terre, et se jette à mon col.</reg>
+          </seg>
+          <seg>
+            <orig>Nous nous batons, &amp; je le terraſſe.</orig>
+            <reg>Nous nous battons, et je le terrasse.</reg>
+          </seg>
+          <seg>
+            <orig>Comme il n’eſtoit pas le lus fort, il s’échape de</orig>
+            <reg>Comme il n'était pas le lus fort, il s'échappe de</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Ii y pouvoit bien avoir environ vingt Piſtoles.</orig>
+            <reg>Ji y pouvait bien avoir environ vingt <persName>Pistoles</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Hom, hom.</orig>
+            <reg>Hom, hom.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>voyant qu’il avoit gagne au pied, je ramaſſe l’argent, je monte ſur ſon Cheval, &amp; je ſuis revenu comme ſi de rien n’eſtoit.</orig>
+            <reg>voyant qu'il avait gagne au pied, je ramasse l'argent, je monte sur son Cheval, et je suis revenu comme si de rien n'était.</reg>
+          </seg>
+          <seg>
+            <orig>A cette heure on m’a dit que ce Coquin-là, Monſieur, (Grapinian fait une revérence,) fait informer contre moy, comme contre un Voleur de grand chemin.</orig>
+            <reg>À cette heure on m'a dit que ce Coquin-là, Monsieur, (<persName>Grapinan</persName> fait une révérence,) fait informer contre moi, comme contre un Voleur de grand chemin.</reg>
+          </seg>
+          <seg>
+            <orig>Voyez s’il y a la moindre apparence.</orig>
+            <reg>Voyez s'il y a la moindre apparence.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous prie de me dire, où peut bien aller cette Afſaire-là?</orig>
+            <reg>Je vous prie de me dire, où peut bien aller cette Afsaire-là?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ma foy, ſi cette Affaire eſt menẽe un peu chaudement, elle pourroit bien aller tout droit à la Greve.</orig>
+            <reg>Ma foi, si cette Affaire est mène un peu chaudement, elle pourrait bien aller tout droit à la <persName>Greve</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>EMIOLEUR.</orig>
+            <reg>EMIOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Diable!</orig>
+            <reg>Diable!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>* RAPINIAN.</orig>
+            <reg>* RAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>herquumd-t-il vu l’action?</orig>
+            <reg>herquumd-t-il vu l'action?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLLON Non Monſieur.</orig>
+            <reg>LE VOLON Non Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>GRAPINIAN.</orig>
+          <reg>GRAPINIAN.</reg>
+        </seg>
+        <seg>
+          <orig>Tant-mieux.</orig>
+          <reg>Tant-mieux.</reg>
+        </seg>
+        <seg>
+          <orig>Il faut cõmencer par faire mettre le Cheval ſous la clef;</orig>
+          <reg>Il faut commencer par faire mettre le Cheval sous la clef;</reg>
+        </seg>
+        <seg>
+          <orig>car ſi ce Marchand vient A i a le découvrir, n’ayant point de Témoins, il ne manquera jamais de le faire interroger ſur Faits &amp; Articles, &amp; vous ſeriez perdu.</orig>
+          <reg>car si ce Marchand vient À j' a jamais découvrir, n'ayant point de Témoins, il ne manquera jamais de le faire interroger sur Faits et Articles, et vous seriez perdu.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, Monſieur, il n’y a rien a craindre;</orig>
+            <reg>Hé, Monsieur, il n'y a rien a craindre;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt une Roſſe, qui ne peut pas deſſerrer les dents.</orig>
+            <reg>c'est une <persName>Rosse</persName>, qui ne peut pas desserrer les dents.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ne vous fiez-pas à cela.</orig>
+            <reg>Ne vous fiez-pas à cela.</reg>
+          </seg>
+          <seg>
+            <orig>Nous voyons tous les jours un Témoin muet, faire bravement rouer ſonTroilnile.</orig>
+            <reg>Nous voyons tous les jours un Témoin muet, faire bravement rouer sonTroinile.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>leite.</orig>
+            <reg>leite.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ca, ça, il ne faut point perdre de temps, &amp; il former le premier.</orig>
+            <reg>Ça, ça, il ne faut point perdre de temps, et il former le premier.</reg>
+          </seg>
+          <seg>
+            <orig>Les Témoins ieront diablement chers cette annee.</orig>
+            <reg>Les Témoins jeront diablement chers cette année.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Pourquoy?</orig>
+            <reg>Pourquoi?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt qu’on ne leur fait plus de quartier, &amp; qu’on en pend autant qu’on en trouve;</orig>
+            <reg>C'est qu'on ne leur fait plus de quartier, et qu'on en pend autant qu'on en trouve;</reg>
+          </seg>
+          <seg>
+            <orig>cela eſt facheux.</orig>
+            <reg>cela est fâcheux.</reg>
+          </seg>
+          <seg>
+            <orig>Cependant il en faut avoir, à quelque prix que ce IOit.</orig>
+            <reg>Cependant il en faut avoir, à quelque prix que ce JOit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Ma foy, Monſieur, vous aurez bien de la peine, car il ily avoit perreme fur le chemin.</orig>
+            <reg>Ma foi, Monsieur, vous aurez bien de la peine, car il y avait perreme fur le chemin.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Bon, bon.</orig>
+            <reg>Bon, bon.</reg>
+          </seg>
+          <seg>
+            <orig>Nous y en ſcrons bien trouver.</orig>
+            <reg>Nous y en scrons bien trouver.</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt un peu de temps ſans rien dire, &amp; apres il continue de la ſorte.</orig>
+            <reg>Il est un peu de temps sans rien dire, et après il continue de la sorte.</reg>
+          </seg>
+          <seg>
+            <orig>Je ſonge qu’il y a deux bas.</orig>
+            <reg>Je songe qu'il y a deux bas.</reg>
+          </seg>
+          <seg>
+            <orig>Normans qui travaillẽt ordinairement pour moy, mais ils ſont un peu batus de l’oyſeau, &amp; ils ſortent d’une Affaire, ouſans moy, (vous m’entendez bien, ) ils ne ſe rembarqueront qu'a bonnes enſeignes.</orig>
+            <reg>Normand qui travaillient ordinairement pour moi, mais ils sont un peu battus de l'oiseau, et ils sortent d'une Affaire, ousans moi, (vous m'entendez bien, ) ils ne se rembarqueront qu'a bonnes enseignes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, Monſieur, ſortons d’Affaires;</orig>
+            <reg>Tenez, Monsieur, sortons d'Affaires;</reg>
+          </seg>
+          <seg>
+            <orig>voila une Bource de vingt Piſtoles.</orig>
+            <reg>voilà une Bource de vingt Pistoles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Cela n’eſt tout-au-plus que pour un Temoin, &amp; HIOIERCGA.</orig>
+            <reg>Cela n'est tout-au-plus que pour un Temoin, et HIOIERCGA.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>jen’ay plus d’argent,</orig>
+            <reg>j'ai plus d'argent,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>N’avez-vous pas quelques Nippes, quelques Bijoux, quelque vieux Diamant?</orig>
+            <reg>N'avez-vous pas quelques Nippes, quelques Bijoux, quelque vieux Diamant?</reg>
+          </seg>
+          <seg>
+            <orig>En ces occaſions-cy, il ſe faut ſaigner.</orig>
+            <reg>En ces occasions-cy, il se faut saigner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, Monſieur, voila un Diamant de trente Louis, &amp; une Montre, qui en peut bien valoir douze;</orig>
+            <reg>Tenez, Monsieur, voilà un Diamant de trente <persName>Louis</persName>, et une Montre, qui en peut bien valoir douze;</reg>
+          </seg>
+          <seg>
+            <orig>ajuſtez l’Affaire.</orig>
+            <reg>ajustez l'Affaire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je pourray bien pour l’amour de vous, avancer encore cinq ou ſix Piſtores, ee puis tous compte.</orig>
+            <reg>Je pourrai bien pour l'amour de vous, avancer encore cinq ou six <persName>Pistores</persName>, ce puis tous compte.</reg>
+          </seg>
+          <seg>
+            <orig>rez a la fin.</orig>
+            <reg>rez a la fin.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, faites;</orig>
+            <reg>Monsieur, faites;</reg>
+          </seg>
+          <seg>
+            <orig>je m’abandonne entre vos mains, je me remẽts à VOtre diſcrétion.</orig>
+            <reg>je m'abandonne entre vos mains, je me remens à VOtre discrétion.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, laiſſez-moy faire;</orig>
+            <reg>Allez, laissez-moi faire;</reg>
+          </seg>
+          <seg>
+            <orig>ce ſera un grand hazard, ſi avec mes deux Têmoins, je n’envoye voſtre Iviar ciald dul Calcres.</orig>
+            <reg>ce sera un grand hasard, si avec mes deux <persName>Te</persName>̂moins, je n'envoie votre <persName>Jéviar</persName> cia r <persName>Cialcres</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu, Monſieur.</orig>
+            <reg>Adieu, Monsieur.</reg>
+          </seg>
+          <seg>
+            <orig>Il s’en va, &amp; Grapinianl appelle.</orig>
+            <reg>Il s'en va, et <persName>Grapinianl</persName> appelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, Monſieur.</orig>
+            <reg>Monsieur, Monsieur.</reg>
+          </seg>
+          <seg>
+            <orig>un petit mot.</orig>
+            <reg>un petit mot.</reg>
+          </seg>
+          <seg>
+            <orig>Vous avezla une Brandebourg remarquable;</orig>
+            <reg>Vous avezla une <placeName>Brandebourg</placeName> remarquable;</reg>
+          </seg>
+          <seg>
+            <orig>ſi voſtre Partie la reconnoit, il ne manquera jamais de vous faire arreſter.</orig>
+            <reg>si votre Partie la reconnaît, il ne manquera jamais de vous faire arrêter.</reg>
+          </seg>
+          <seg>
+            <orig>Croyezmoy, evitons les malheurs, laiſſez-moy voſtre Brandebourg;</orig>
+            <reg>Croyezmoi, évitons les malheurs, laissez-moi votre <placeName>Brandebourg</placeName></reg>
+          </seg>
+          <seg>
+            <orig>les Archers ſont alerte, &amp; je ſerois fâchẽ qu’on vous priſt au ſortir d’icy.</orig>
+            <reg>les Archers sont alerte, et je serais fâchẽ qu'on vous prît au sortir d'ici.</reg>
+          </seg>
+          <seg>
+            <orig>Il luy oſte ſa Drandebourg.</orig>
+            <reg>Il était ôte sa <persName>Drandebourg</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE VOLEUR.</orig>
+            <reg>LE VOLEUR.</reg>
+          </seg>
+          <seg>
+            <orig>Au moins, prenez garde qu’elle ne ſe perdê.</orig>
+            <reg>Au moins, prenez garde qu'elle ne se perdêmes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>N’ayez pas peur;</orig>
+            <reg>N'ayez pas peur;</reg>
+          </seg>
+          <seg>
+            <orig>je m’en vay la faire parapher ne varietur.</orig>
+            <reg>je m'en vais la faire parapher ne variétur.</reg>
+          </seg>
+          <seg>
+            <orig>Le Voleur s’en eſtant allé, Grapinian continuë.</orig>
+            <reg>Le Voleur s'en étant allé, <persName>Grapinian</persName> continue.</reg>
+          </seg>
+          <seg>
+            <orig>Vingt Piſtoles, un Diamant, une Montre, une Brandebourg.</orig>
+            <reg>Vingt Pistoles, un Diamant, une Montre, une Brandebourg.</reg>
+          </seg>
+          <seg>
+            <orig>Ne vaut-il pas autant que je profite de cela, qu’un Prevoſt?</orig>
+            <reg>Ne vaut-il pas autant que je profite de cela, qu'un Prévôt?</reg>
+          </seg>
+          <seg>
+            <orig>Auſſibien ce Coquin-la ſe va faire roüer au premier jour.</orig>
+            <reg>Aussibien ce Coquin-la se va faire rouer au premier jour.</reg>
+          </seg>
+          <seg>
+            <orig>Eſtant retourné à ſon Bureau, il dit.</orig>
+            <reg>Étant retourné à son Bureau, il dit.</reg>
+          </seg>
+          <seg>
+            <orig>Ces Marchands de Vin m’ont-ils envoyé les deux demy muids qu’ils m’avoient promis?</orig>
+            <reg>Ces Marchands de Vin m'ont-ils envoyé les deux demi muids qu'ils m'avaient promis?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, Monſieur.</orig>
+            <reg>Non, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRAPINIAN.</orig>
+            <reg>
+              <persName>JRAPINIAN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>22i?</orig>
+            <reg>22i?</reg>
+          </seg>
+          <seg>
+            <orig>Hé-bien, bien, leur Affaire ira comme je boiray.</orig>
+            <reg>Hé-bien, bien, leur Affaire ira comme je boirai.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE IV GRAPINIAN, MARAUDIN Sergent.</orig>
+          <reg>SCÈNE IV GRAPINIAN, MARAUDIN Sergent.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Onſieur Grapinian EVZeſt-il icy?</orig>
+            <reg><persName>Onsieur Grapinian</persName> EUZest-il ici?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ha morbleu, Mr Maraudin, vous m’avez penſé perdre.</orig>
+            <reg>Ha morbleu, <persName>M Araudin</persName>, vous m'avez pensé perdre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Comment?</orig>
+            <reg>Comment?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>D</orig>
+          <reg/>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous avois prié de faire un Commandement datté de l’an 1647.</orig>
+            <reg>Je vous avais prié de faire un Commandement datté de l'an <date>1647</date></reg>
+          </seg>
+          <seg>
+            <orig>pour cette finuire qui eſt ſur le Bureau.</orig>
+            <reg>pour cette finuire qui est sur le Bureau.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Tie-Dien, ne Pajeje pas d’abord fait?</orig>
+            <reg>Tie-Dien, ne Paje pas d'abord fait?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>De par tous les Diables, oüy, vous l’avez fait;</orig>
+            <reg>De par tous les Diables, oui, vous l'avez fait;</reg>
+          </seg>
+          <seg>
+            <orig>mais au lieu de le datter d’un jour utile, vous l’avez datte d’un Dimanche.</orig>
+            <reg>mais au lieu de le dater d'un jour utile, vous l'avez datte 'un Dimanche.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray que je n’avois point d’Almanach de l’an 1647.</orig>
+            <reg>Il est vrai que je n'avais point d'Almanach de l'an <date>1647</date></reg>
+          </seg>
+          <seg>
+            <orig>&amp; j’ay mis la datte à la bouleveue.</orig>
+            <reg>et j'ai mis la datte à la bouleveue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Que-diable n’en veniez vous prendre un chez moy?</orig>
+            <reg>Que-diable n'en veniez -vous prendre un chez moi?</reg>
+          </seg>
+          <seg>
+            <orig>Vous ſçavez que en ay de plus de cent ans de ſuite.</orig>
+            <reg>Vous savez que en ai de plus de cent ans de suite.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Une autre fois je ſéray plus circonſpect.</orig>
+            <reg>Une autre fois je sérai plus circonspect.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Cependant ſi les Juges D I découvrent ce petit manége, ils ne manqueront pas de dire que je ſuis un Fripon;</orig>
+            <reg>Cependant si les Juges D I découvrent ce petit manège, ils ne manqueront pas de dire que je suis un Fripon;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; vous ſçavez dans voſtre conſcience, que ce que j’en ay fait, n’eſt que pour vous obliger, &amp; pour faire gagner ma Partie;</orig>
+            <reg>et vous savez dans votre conscience, que ce que j'en ai fait, n'est que pour vous obliger, et pour faire gagner ma Partie;</reg>
+          </seg>
+          <seg>
+            <orig>car ſans cela, Il ſifle, le Procés eſtoit flambẽ.</orig>
+            <reg>car sans cela, Il sifle, le Procès était flambẽ.</reg>
+          </seg>
+          <seg>
+            <orig>A propos, M'Maraudin, ſouvenez-vous que dans le Decret de ces rraureiit as de Bois, j'Occupe pour neuf Perſonnes, ſous le nomdes Procureurs que je vous ay nommez ce matin.</orig>
+            <reg>À propos, <persName>M'Maraudin</persName>, souvenez-vous que dans le Décret de ces ravreiit as de Bois, j'Occupe pour neuf Personnes, sous le nomdes Procureurs que je vous ai nommez ce matin.</reg>
+          </seg>
+          <seg>
+            <orig>Que les Significations aillent alipeudanerai?</orig>
+            <reg>Que les Significations aillent alipeudanerai?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ne vous en mettez pas en peine, je feray ma Charge.</orig>
+            <reg>Ne vous en mettez pas en peine, je ferai ma Charge.</reg>
+          </seg>
+          <seg>
+            <orig>De ce train-là, vous allez lalrc Mſſe Donne Maiſon.</orig>
+            <reg>De ce train-là, vous allez laleurc <persName>Msse Donne Maison</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Les cinq ou ſix premieres années, on travaille un peu chaudement à ſes affaires.</orig>
+            <reg>Les cinq ou six premières années, on travaille un peu chaudement à ses affaires.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>D iij</orig>
+          <reg> Dijà</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN.</orig>
+            <reg>
+              <persName>MARAUDIN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Caetre le Hedre.</orig>
+            <reg>Caètre le Hèdre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Bon, bon, guare le heurt.</orig>
+            <reg>Bon, bon, guare le heurt.</reg>
+          </seg>
+          <seg>
+            <orig>Mon Amy, il n’y a rien de tel que d’établir ſa fortune;</orig>
+            <reg>Mon Ami, il n'y a rien de tel que d'établir sa fortune;</reg>
+          </seg>
+          <seg>
+            <orig>apres on ſe fait des riiilisy orr tuene de ſe faire Marguillier.</orig>
+            <reg>après on se fait des riilisy orr tuène de se faire Marguillier.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MANAODIN.</orig>
+            <reg>MANANDIN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, Marguillier!</orig>
+            <reg>Vous, <persName>Marguillier</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy-dea, Marguillier.</orig>
+            <reg>Oui-dea, <persName>Marguillier</persName></reg>
+          </seg>
+          <seg>
+            <orig>C’eſt un tres-bon Vernis ſur la réputation d’un Procureur.</orig>
+            <reg>C'est un très-bon <persName>Vernis</persName> sur la réputation d'un Procureur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARAUDIN en s’en allant.</orig>
+            <reg><persName>MARAUDIN</persName> en s'en allant.</reg>
+          </seg>
+          <seg>
+            <orig>O le franc Scelerat, le Iralle Seclerat :</orig>
+            <reg>Ô le franc <persName>Scélérat</persName>, le <persName>Jralle</persName><persName>Seclerat</persName> :</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN ſeul.</orig>
+            <reg>GRAPINIAN seul.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut que je me défaſſe de ce Fripon-là, il gaſteroit toutes mes affaires.</orig>
+            <reg>Il faut que je me défasse de ce Fripon-là, il gâterait toutes mes affaires.</reg>
+          </seg>
+          <seg>
+            <orig>Voyez un peu quelle brutalité;</orig>
+            <reg>Voyez un peu quelle brutalité;</reg>
+          </seg>
+          <seg>
+            <orig>datter une Fauſſeté d’un Dimanche!</orig>
+            <reg>datter une Fausseté d'un Dimanche!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE V LE MARQUIS, GRAPINIAN, UN PAGE, UN CLERC.</orig>
+          <reg>SCÈNE V LE MARQUIS, GRAPINIAN, UN PAGE, UN CLERC.</reg>
+        </seg>
+        <seg>
+          <orig>LE CLERC.</orig>
+          <reg>
+            <persName>LE CLERC</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Onſieur, un Page vEdemande à vous parler.</orig>
+          <reg>Onsieur, un Page vÉdemande à vous parler.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Un Page!</orig>
+            <reg>Un Page!</reg>
+          </seg>
+          <seg>
+            <orig>La mode en eſt dõc revenuë?</orig>
+            <reg>La mode en est do revenuë?</reg>
+          </seg>
+          <seg>
+            <orig>Ces Gens-là ont-ils des Affaires?</orig>
+            <reg>Ces Gens-là ont-ils des Affaires?</reg>
+          </seg>
+          <seg>
+            <orig>N’eſtce pas plûtoſt quelque mauvais Train qu’on a délogé?</orig>
+            <reg>N'est pas plutôt quelque mauvais Train qu'on a délogé?</reg>
+          </seg>
+          <seg>
+            <orig>Faites le venir.</orig>
+            <reg>Faites le venir.</reg>
+          </seg>
+          <seg>
+            <orig>ſeul.</orig>
+            <reg>seul.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt peut-eſtre auſſi quelque Enfant de bonne Maiſon, qui voyant qu’il n’y a plus rien à ſaire avec les Gens de qualité, me vient demander une place dans mon Etude, mais je n’en ay point a luy donner.</orig>
+            <reg>C'est peut-être aussi quelque Enfant de bonne Maison, qui voyant qu'il n'y a plus rien à zaïre avec les Gens de qualité, me vient demander une place dans mon Étude, mais je n'en ai point a lui donner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PAGE.</orig>
+            <reg>LE PAGE.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur, c’eſt Mr le Marquis de Grimouche, qui demande à vous parler.</orig>
+            <reg>Monsieur, c'est <persName>Mr le Marquis de Grimouche</persName>, qui demande à vous parler.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Qul:</orig>
+            <reg>Qul:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PAGE.</orig>
+            <reg>LE PAGE.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous dis que Mr le Marquis de Grimouche deſſiaiide à vous parler.</orig>
+            <reg>Je vous dis que <persName>Mr le Marquis de Grimouche</persName> dessiaiide à vous parler.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Si c’eſt pour peu de temps, qu’il vienne.</orig>
+            <reg>Si c'est pour peu de temps, qu'il vienne.</reg>
+          </seg>
+          <seg>
+            <orig>ſeul.</orig>
+            <reg>seul.</reg>
+          </seg>
+          <seg>
+            <orig>Viſites de Marquis n’achalandent guëres une Etude;</orig>
+            <reg>Visites de Marquis n'achalandent guère une Étude;</reg>
+          </seg>
+          <seg>
+            <orig>car outre qu’ils ſont ignorans en Affaires.</orig>
+            <reg>car outre qu'ils sont ignorants en Affaires.</reg>
+          </seg>
+          <seg>
+            <orig>ils empeſchent un Procureur de faire les ſiennes.</orig>
+            <reg>ils empêchent un Procureur de faire les siennes.</reg>
+          </seg>
+          <seg>
+            <orig>LE MARQUIS paroiſt.</orig>
+            <reg>LE MARQUIS paraît.</reg>
+          </seg>
+          <seg>
+            <orig>Ha, bonjour, Mr Grapinian;</orig>
+            <reg>Ha, bonjour, <persName>Mr Grapinian</persName></reg>
+          </seg>
+          <seg>
+            <orig>bonjour, M' Grapinian.</orig>
+            <reg>bonjour, <persName>M' Grapinian</persName></reg>
+          </seg>
+          <seg>
+            <orig>Que je ſuis gros de vous voir!</orig>
+            <reg>Que je suis gros de vous voir!</reg>
+          </seg>
+          <seg>
+            <orig>Je me fais un vray plaiſir de vous embraſſer, &amp; ſans une groſſe Affaire qui m’a un peu dérangé, je n’aurois pas eſté ſi longtemps ſans vous dire, que je ſuis, morbleu, tout a vous.</orig>
+            <reg>Je me fais un vrai plaisir de vous embrasser, et sans une grosse Affaire qui m'a un peu dérangé, je n'aurais pas été si longtemps sans vous dire, que je suis, morbleu, tout a vous.</reg>
+          </seg>
+          <seg>
+            <orig>Sans contredit, vous n’avez pas un meilleur Amy, &amp; plus chaud que moy.</orig>
+            <reg>Sans contredit, vous n'avez pas un meilleur Ami, et plus chaud que moi.</reg>
+          </seg>
+          <seg>
+            <orig>En diſant cela, il le tient par la lmain, &amp; luy ſecoue le bras.</orig>
+            <reg>En disant cela, il le tient par la lamain, et Ah secoue le bras.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ny plus eſtropiant.</orig>
+            <reg>Ni plus estropiant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Dieu ſçait comme je m’en explique.</orig>
+            <reg>Dieu serait comme je m'en explique.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous feriez bien mieux de vous expliquer de certains Frais qui me ſont encore dûs.</orig>
+            <reg>Vous feriez bien mieux de vous expliquer de certains Frais qui me sont encore dus.</reg>
+          </seg>
+          <seg>
+            <orig>Vous autres Gens de qualité, quand vous avez frapé deux coups ſur l’épaule du Procureur, vous croyez que c’eſt de l’argent comptant, &amp; qu’un peu de bienveillance acquite vos debtes.</orig>
+            <reg>Vous autres Gens de qualité, quand vous avez frappé deux coups sur l'épaule du Procureur, vous croyez que c'est de l'argent comptant, et qu'un peu de bienveillance acquite vos débtes.</reg>
+          </seg>
+          <seg>
+            <orig>En luy montrant ſes Clercs.</orig>
+            <reg>En Elle montrant ses Clercs.</reg>
+          </seg>
+          <seg>
+            <orig>Mr le Marquis, on ne nourrit pas quatre Clercs avec des complimens;</orig>
+            <reg>Mr le Marquis, on ne nourrit pas quatre Clercs avec des compliments;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; n’ous autres Procureurs, nous n’ecrivons que pour toucher de l’argent.</orig>
+            <reg>et n'ous autres Procureurs, nous n'écrivons que pour toucher de l'argent.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>– Ho, je le ſçay-bien, je le ſçay-bien;</orig>
+            <reg>– Ho, je le sais-bien, je le sçay-bien;</reg>
+          </seg>
+          <seg>
+            <orig>mais, Dieumercy, M' Grapinian, je ne vous dois plus rien.</orig>
+            <reg>mais, Dieumerci, <persName>M' Grapinian</persName>, je ne vous dois plus rien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ne me devez plus rien!</orig>
+            <reg>Vous ne me devez plus rien!</reg>
+          </seg>
+          <seg>
+            <orig>Et cette Requeſte de ſalvation de trente rôles, qui me la payera?</orig>
+            <reg>Et cette Requête de salvation de trente rôles, qui me la payera?</reg>
+          </seg>
+          <seg>
+            <orig>Vous ſçavez que j’y ay paſſé deux nuits.</orig>
+            <reg>Vous savez que j'y ai passé deux nuits.</reg>
+          </seg>
+          <seg>
+            <orig>à ſes Clercs.</orig>
+            <reg>à ses Clercs.</reg>
+          </seg>
+          <seg>
+            <orig>Hola, où eſt la Requeſte de Mr le Marquis?</orig>
+            <reg>Holà, où est la Requête de Mr le Marquis?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>La voila, Monſieur.</orig>
+            <reg>La voilà, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Comme les Gens de qualité n’ont pas plus d’argent qu’il ne leur en faut, &amp; que d’ailleurs vous me faites l’honneur de m’aimer, je ne prendray que vingt ſols du róle.</orig>
+            <reg>Comme les Gens de qualité n'ont pas plus d'argent qu'il ne leur en faut, et que d'ailleurs vous me faites l'honneur de m'aimer, je ne prendrai que vingt sols du rèle.</reg>
+          </seg>
+          <seg>
+            <orig>Il y a trente róles, ce n’eſt que trente francs.</orig>
+            <reg>Il y a trente rèles, ce n'est que trente francs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>S’il n’y a que cela, bien que le Jeu m’ait un peu coulé a fond, j’ay encore dequoy vous payer.</orig>
+            <reg>S'il n'y a que cela, bien que le Jeu 'ait un peu coulé a fond, j'ai encore dequoy vous payer.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, M' Grapinian, voila une Piece de quatre Piſtoles, prenez dix Ecus, &amp; me rendez quat orze francs.</orig>
+            <reg>Tenez, <persName>M' Grapinian</persName>, voilà une Pièce de quatre Pistoles, prenez dix Écus, et me rendez quat orze francs.</reg>
+          </seg>
+          <seg>
+            <orig>Grapinian tenant la Piece, ſonge, &amp; le Marquis continué.</orig>
+            <reg><persName>Grapinian</persName> tenant la Pièce, songe, et le Marquis continué.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>vous doiloes,</orig>
+            <reg>vous doiloes,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je ſonge qu’il ne vous faut rien rendre.</orig>
+            <reg>Je songe qu'il ne vous faut rien rendre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Il ne me faut rien rendre?</orig>
+            <reg>Il ne me faut rien rendre?</reg>
+          </seg>
+          <seg>
+            <orig>Ne m’avez-vous pas die qu’il fie vous falloit que vingt ſols du róle?</orig>
+            <reg>Ne m'avez-vous pas die qu'il fie vous fallait que vingt sols du rèle?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy.</orig>
+            <reg>Oui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>De voſtre propre aveu, la Requeſte n’a que trente róles, qui font trente livres.</orig>
+            <reg>De votre propre aveu, la Requeste n'a que trente rèles, qui font <measure>trente livres</measure></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Celd clc vlay.</orig>
+            <reg>Celd clc vlai.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous en donne quarante-quatre.</orig>
+            <reg>Je vous en donne quarante-quatre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>’en demeure d’accord.</orig>
+            <reg>’en demeure d’accord.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Il me ſemble donc que je compte juſte, quand je vous en demande quatorze.</orig>
+            <reg>Il me semble donc que je compte juste, quand je vous en demande quatorze.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous comptez bien, mais vous redemandez mal.</orig>
+            <reg>Vous comptez bien, mais vous redemandez mal.</reg>
+          </seg>
+          <seg>
+            <orig>Quand je fis voſtre Requeſte, le Raporteur eſtoit ſi haſte de juger.</orig>
+            <reg>Quand je fis votre Requête, le Rapporteur était si hâte de juger.</reg>
+          </seg>
+          <seg>
+            <orig>que je fus contraint d’entaſſer vos raiſons les unes ſur les autres, &amp; obligé de metre en trente rôles, ce qu’on ne pouvoit dire qu’en quarante-quatre.</orig>
+            <reg>que je fus contraint d'entasser vos raisons les unes sur les autres, et obligé de metre en trente rôles, ce qu'on ne pouvait dire qu'en quarante-quatre.</reg>
+          </seg>
+          <seg>
+            <orig>Préſentement que l’Affaire eſt jugée, &amp; que nous avons loiſir d’étendre nos Defences, je m’en vais faire ajouter les quatorze rôles, qui manquent.</orig>
+            <reg>Présentement que l'Affaire est jugée, et que nous avons loisir d'étendre nos Défences, je m'en vais faire ajouter les quatorze rôles, qui manquent.</reg>
+          </seg>
+          <seg>
+            <orig>Aux Clercs.</orig>
+            <reg>Aux Clercs.</reg>
+          </seg>
+          <seg>
+            <orig>Hola, vous autres, brochez moy viſte quatorze rôles de Groſſe, pour achever la Requeſte de Mrle Marquis.</orig>
+            <reg>Holà, vous autres, brochez moi vite quatorze rôles de Grosse, pour achever la Requête de <persName>Mrle Marquis</persName></reg>
+          </seg>
+          <seg>
+            <orig>Je penſe qu’il y en a la de tous faits.</orig>
+            <reg>Je pense qu'il y en a la de tous faits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Mon pauvre Mr Grapiman, puis que mon Affaire eſt jugée, pourquoy y ajouter encore queique choſe?</orig>
+            <reg>Mon pauvre <persName>Mr Grapiman</persName>, puis que mon Affaire est jugée, pourquoi y ajouter encore que chose?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt pas par intereſt ce que j’en fais, mais pour mon honneur;</orig>
+            <reg>Ce n'est pas par intérêt ce que j'en fais, mais pour mon honneur;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; je ne veux pas qu’il ſorte une paire d’Ecriture de mon Etude, ſans y avoir donné la derniere main.</orig>
+            <reg>et je ne veux pas qu'il sorte une paire d'Écriture de mon Etude, sans y avoir donné la dernière main.</reg>
+          </seg>
+          <seg>
+            <orig>Attendez, cela va eſtre fait cout-a-Ineurc.</orig>
+            <reg>Attendez, cela va été fait coût-a-Ineurc.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Non, mon Amy, je ne puis pas, je cours ce ſoir le Bal;</orig>
+            <reg>Non, mon Ami, je ne puis pas, je cours ce soir le Bal;</reg>
+          </seg>
+          <seg>
+            <orig>j’eſtois venu pour vous parler d’une Affaire, mais ce ſera pour unẽ autre fois.</orig>
+            <reg>j'étais venu pour vous parler d'une Affaire, mais ce sera pour un autre fois.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu, noſtre Amy.</orig>
+            <reg>Adieu, notre Ami.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-donc un de vos Gens pour emporter la Atquelte.</orig>
+            <reg>Laissez-donc un de vos Gens pour emporter la Atquelte.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Un de mes Gens?</orig>
+            <reg>Un de mes Gens?</reg>
+          </seg>
+          <seg>
+            <orig>Quoy.</orig>
+            <reg>Quoi.</reg>
+          </seg>
+          <seg>
+            <orig>irois moy ſeul dans les Rues avec trois Laquais?</orig>
+            <reg>irais moi seul dans les <persName>Rues</persName> avec trois Laquais?</reg>
+          </seg>
+          <seg>
+            <orig>Hé vous vous moquez, M' Grapinian, on me croiroit à l’Hôpital.</orig>
+            <reg>Hé vous vous moquez, <persName>M' Grapinian</persName>, on me croirait à l'Hôpital.</reg>
+          </seg>
+          <seg>
+            <orig>Laquais, rais courner inoſr Carroſſe.</orig>
+            <reg>Laquais, rais courner inosr Carrosse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN au Laquais.</orig>
+            <reg><persName>GRAPINIAN</persName> au Laquais.</reg>
+          </seg>
+          <seg>
+            <orig>Prens-garde qu’il ne verſe.</orig>
+            <reg>Prends-garde qu'il ne verse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu, noſtre Amy.</orig>
+            <reg>Adieu, notre Ami.</reg>
+          </seg>
+          <seg>
+            <orig>He, un peu de part à vos bonnes graces.</orig>
+            <reg>He, un peu de part à vos bonnes grâces.</reg>
+          </seg>
+          <seg>
+            <orig>Je ſuis morDleu code a Vous.</orig>
+            <reg>Je suis morDleu code a Vous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous la prẽdrez quand vous reviendrez.</orig>
+            <reg>Vous la prendrez quand vous reviendrez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE MARQUIS.</orig>
+            <reg>LE MARQUIS.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, oüy.</orig>
+            <reg>Oui, oui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE VI.</orig>
+          <reg>SCÈNE VI.</reg>
+        </seg>
+        <seg>
+          <orig>GRAPINIAN LE CHAPELIER.</orig>
+          <reg>GRAPINIAN LE CHAPELIER.</reg>
+        </seg>
+        <seg>
+          <orig>LE CHAPELIER.</orig>
+          <reg>LE CHAPELIER.</reg>
+        </seg>
+        <seg>
+          <orig>Onjour, Mr GrapiD'’hian.</orig>
+          <reg>Onjour, <persName>Mr GrapiD'hian</persName></reg>
+        </seg>
+        <seg>
+          <orig>GRAPINIAN à ſes Cleres.</orig>
+          <reg>GRAPINIAN à ses Cleres.</reg>
+        </seg>
+        <seg>
+          <orig>Qu’on prenne demain quinze Apointemens ſur ces quinze Doſſiers.</orig>
+          <reg>Qu'on prenne demain quinze Appointements sur ces quinze Dossiers.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Hé-bien, mon Affaire eſt-elle jugée?</orig>
+            <reg>Hé-bien, mon Affaire est-elle jugée?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Non.</orig>
+            <reg>Non.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Comment, non!</orig>
+            <reg>Comment, non!</reg>
+          </seg>
+          <seg>
+            <orig>&amp; pour quoy?</orig>
+            <reg>et pour quoi?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Parce que voſtre Affaire ne vaut pas le Diable, &amp; que je n’y veus pas travailler.</orig>
+            <reg>Parce que votre Affaire ne vaut pas le Diable, et que je n'y veux pas travailler.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Mon Affaire ne vaut pas le Diable!</orig>
+            <reg>Mon Affaire ne vaut pas le Diable!</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt bien autre choſe que cela.</orig>
+            <reg>C'est bien autre chose que cela.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous dis qu’elle ne vaut pas le Diable, ce qu’on appelle, pas le DIDIC.</orig>
+            <reg>Je vous dis qu'elle ne vaut pas le Diable, ce qu'on appelle, pas le DIDIC.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Que deviendra donc le Chapeau de Caſtor que ay donné au Secretaire de mon Raporteur?</orig>
+            <reg>Que deviendra donc le Chapeau de <persName>Castor</persName> que ai donné au Secretaire de mon Rapporteur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Un Chapeau de Caſtori Vray Caſtor?</orig>
+            <reg>Un Chapeau de Castori Vrai Castor?</reg>
+          </seg>
+          <seg>
+            <orig>En s'élevant.</orig>
+            <reg>En s'élevant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Et des meilleurs qui ſe faſſent.</orig>
+            <reg>Et des meilleurs qui se fassent.</reg>
+          </seg>
+          <seg>
+            <orig>Voila le pareil que je raporte chez moy.</orig>
+            <reg>Voilà le pareil que je rapporte chez moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN le prenant entre ſes mains, &amp; le maniant.</orig>
+            <reg><persName>GRAPINIAN</persName> le prenant entre ses mains, et le maniant.</reg>
+          </seg>
+          <seg>
+            <orig>A propos de voſtre Affaire;</orig>
+            <reg>À propos de votre Affaire;</reg>
+          </seg>
+          <seg>
+            <orig>n’eſt-ce pas un Patiſſier avec qui vous avez eu du bruit dans là Ruë?</orig>
+            <reg>n'est-ce pas un Patissier avec qui vous avez eu du bruit dans là Rue?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L CLAPELIER.</orig>
+            <reg>
+              <persName>LLAPELIÈR</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouy, Monſieur.</orig>
+            <reg>Oui, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Qui vous a dit des injures?</orig>
+            <reg>Qui vous a dit des injures?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, Monſieur.</orig>
+            <reg>Oui, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Et qui vous à frapé?</orig>
+            <reg>Et qui vous à frappé?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, Monſieur.</orig>
+            <reg>Oui, Monsieur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous avez rendu voſtre Plainte?</orig>
+            <reg>Vous avez rendu votre Plainte?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Vrayment!</orig>
+            <reg>Vraiment!</reg>
+          </seg>
+          <seg>
+            <orig>je le crois.</orig>
+            <reg>je le crois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Préſentement que je l’ay en teſte, je vous dis que je la gagneray.</orig>
+            <reg>Présentement que je l'ai en tête, je vous dis que je la gagnerai.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-moy ſeulement quaon clitores pour commencer les Informations.</orig>
+            <reg>Laissez-moi seulement quaon clitores pour commencer les Informations.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Tres-volontiers.</orig>
+            <reg>Très-volontiers.</reg>
+          </seg>
+          <seg>
+            <orig>Mais au moins, Monſieur, que je n’en aye pas le démenty.</orig>
+            <reg>Mais au moins, Monsieur, que je n'en aie pas le démenti.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez-moy pour le plus grand Fripon de tous les Procureurs, ſi je ne vous</orig>
+            <reg>Tenez-moi pour le plus grand Fripon de tous les Procureurs, si je ne vous</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ne vous embaraſſez point.</orig>
+            <reg>Ne vous embarrassez point.</reg>
+          </seg>
+          <seg>
+            <orig>Allez-vous-en, vous dis-je;</orig>
+            <reg>Allez-vous-en, vous dis-je;</reg>
+          </seg>
+          <seg>
+            <orig>je m'en vais luy faire bannir ſa Boutique à perpetuité.</orig>
+            <reg>je m'en vais toujours faire bannir sa Boutique à perpétuité.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Il’ert poul dil Troinme qui.</orig>
+            <reg>Il’ert poul dil Troinme qui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous dis encore un cõup, que j’ay voſtre Af.</orig>
+            <reg>Je vous dis encore un commup, que j'ai votre <persName>Af</persName></reg>
+          </seg>
+          <seg>
+            <orig>faire en teſte, &amp; qu’elle n’en ſortira pas.</orig>
+            <reg>faire en tête, et qu'elle n'en sortira pas.</reg>
+          </seg>
+          <seg>
+            <orig>Seul.</orig>
+            <reg>Seul.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt un Pérou que l’Etude d’un Procureur.</orig>
+            <reg>C'est un <placeName>Pérou</placeName> que l'Etude d'un Procureur.</reg>
+          </seg>
+          <seg>
+            <orig>Aux Clercs.</orig>
+            <reg>Aux Clercs.</reg>
+          </seg>
+          <seg>
+            <orig>A-t-on achea cette Requelte.</orig>
+            <reg>A-t-on acha cette Requelte.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CLERC.</orig>
+            <reg>
+              <persName>LE CLERC</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il y en a déja deux cens roles de faits.</orig>
+            <reg>Il y en a déjà deux cens rôles de faits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Achevez le reſte en diligence, car on dit que les Parties ſont en termes d’accommodement.</orig>
+            <reg>Achevez le reste en diligence, car on dit que les Parties sont en termes d'accommodement.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Je voudrois bien vous parrer , e Mvous plehe.</orig>
+            <reg>Je voudrais bien vous parrer , e Ûvous plehe.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Tres-volontiers.</orig>
+            <reg>Très-volontiers.</reg>
+          </seg>
+          <seg>
+            <orig>E.</orig>
+            <reg>E.</reg>
+          </seg>
+          <seg>
+            <orig>voyant un Garçon qui porte queimt enert.</orig>
+            <reg>voyant un Garçon qui porte queimt enert.</reg>
+          </seg>
+          <seg>
+            <orig>Approchez, mon Enfant.</orig>
+            <reg>Approchez, mon Enfant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>On m’a dit, Monſieur, que vous eſtiez Procureur contre moy dans une petite Affaire qui m’eſt arri vec.</orig>
+            <reg>On m'a dit, Monsieur, que vous étiez Procureur contre moi dans une petite Affaire qui m'est arry ec.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Qui eſt voſtre Partie?</orig>
+            <reg>Qui est votre Partie?</reg>
+          </seg>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt un Chapelier.</orig>
+            <reg>C'est un Chapelier.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, il ne fait que de ſortir d’icy.</orig>
+            <reg>Tenez, il ne fait que de sortir d'ici.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Ha, Monſieur, c’eſt un mechant Homme.</orig>
+            <reg>Ha, Monsieur, c'est un méchant Homme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Bon, a qui le dites-vous?</orig>
+            <reg>Bon, à qui le dites-vous?</reg>
+          </seg>
+          <seg>
+            <orig>n’ay jamais veu un Homme plus endiablé, &amp; plus acharne au Proces.</orig>
+            <reg>n'ai jamais vu un Homme plus endiablé, et plus acharne au Proces.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Il ſe vante par tout qu’il me fera faire Amende MonOraDlc.</orig>
+            <reg>Il se vante par tout qu'il me fera faire Amende MonOraDlc.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Il fera bien pis, ſi je ne l’en empeſche;</orig>
+            <reg>Il fera bien pis, si je ne l'en empêche;</reg>
+          </seg>
+          <seg>
+            <orig>mais je ne veux pas qu’il pouſſe à bout un honneſte Homme comme vous.</orig>
+            <reg>mais je ne veux pas qu'il pousse à bout un honnête Homme comme vous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN touchant le Paſté.</orig>
+            <reg>GRAPINIAN touchant le Pasté.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt toûjours quelque choſe;</orig>
+            <reg>C'est toujours quelque chose;</reg>
+          </seg>
+          <seg>
+            <orig>mais, noſtre Amy, le Criminel va diablement viſte, &amp; il y a déja bien du papier brouillé.</orig>
+            <reg>mais, notre Ami, le <persName>Criminel</persName> va diablement vite, et il y a déjà bien du papier brouillé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Je m’en vais vous rendre lur le champ tout ce que vous avez débourſé.</orig>
+            <reg>Je m'en vais vous rendre lur le champ tout ce que vous avez déboursé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ne ſçauriez mieux dire.</orig>
+            <reg>Vous ne sauriez mieux dire.</reg>
+          </seg>
+          <seg>
+            <orig>Ecoutez, je ne ſuis pas un Tyran, &amp; je vous en ſortiray pour peu de choſe.</orig>
+            <reg>Écoutez, je ne suis pas un Tyran, et je vous en sortirai pour peu de chose.</reg>
+          </seg>
+          <seg>
+            <orig>LE PATISSIER ouvrant ſa Bourſe, &amp; la luy préſentant.</orig>
+            <reg>LE PÂTISSIER ouvrant sa Bourse, et la vie présentant.</reg>
+          </seg>
+          <seg>
+            <orig>Tenez, Monſieur, prenez.</orig>
+            <reg>Tenez, Monsieur, prenez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ha, vous me comblez.</orig>
+            <reg>Ha, vous me comblez.</reg>
+          </seg>
+          <seg>
+            <orig>Puis que vous en agiſſez ainſy, je ne prendray que vingt écus.</orig>
+            <reg>Puis que vous en agissez ains, je ne prendrai que vingt écus.</reg>
+          </seg>
+          <seg>
+            <orig>Vous voyez que ce n’eſt que le papier.</orig>
+            <reg>Vous voyez que ce n'est que le papier.</reg>
+          </seg>
+          <seg>
+            <orig>que vous tiriez l’Affaire eh longueur.</orig>
+            <reg>que vous tiriez l'Affaire est longueur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Je vous vais mettre avec mes l'enſionnaires.</orig>
+            <reg>Je vous vais mettre avec mes l'ensionnaires.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Qui fone vos PeiOſnaires?</orig>
+            <reg>Qui fone vos PéiOsnaires?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ce ſont de bonnes Gens comme vous, qui me donnent tous les ans quelque choſe pour les laiſſer en repos;</orig>
+            <reg>Ce sont de bonnes Gens comme vous, qui me donnent tous les ans quelque chose pour les laisser en repos;</reg>
+          </seg>
+          <seg>
+            <orig>les uns mille fracs, les autres quatre cens livres, les autres dix Piſtoles, qui plus, qui moins, ſuivant que l’Affaire eſt de conſéquence.</orig>
+            <reg>les uns mille fracs, les autres <measure>quatre cens livres</measure>, les autres dix <persName>Pistoles</persName>, qui plus, qui moins, suivant que l'Affaire est de conséquence.</reg>
+          </seg>
+          <seg>
+            <orig>Voyezvous ce gros Sac, C’eſt contre un Homme de la premiere qualité, que je laiſſe jouir de tout lon Bien à la barbe de ſes Creanciers.</orig>
+            <reg>Voyezvous ce gros Sac, C'est contre un Homme de la première qualité, que je laisse jouir de tout lon Bien à la barbe de ses Créanciers.</reg>
+          </seg>
+          <seg>
+            <orig>Ce ſeroit une terrible choſe, ſi nous faiſions tout le mal que nous pouvons faire!</orig>
+            <reg>Ce serait une terrible chose, si nous faisions tout le mal que nous pouvons faire!</reg>
+          </seg>
+          <seg>
+            <orig>Il faut eſtre humain en certaines occaſions, &amp; ne pas pouſſer des Gens qui s’aident, qui viennent au devant de vous, &amp; qui vous lient les mains, en vous donnant quelque choſe pour les laiſſer en repos.</orig>
+            <reg>Il faut être humain en certaines occasions, et ne pas pousser des Gens qui s'aident, qui viennent au devant de vous, et qui vous lient les mains, en vous donnant quelque chose pour les laisser en repos.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Dieu vous conſerve.</orig>
+            <reg>Dieu vous conserve.</reg>
+          </seg>
+          <seg>
+            <orig>M' Grapinian, pour tous ceux à qui vous rendez ſervice.</orig>
+            <reg><persName>M' Grapinian</persName>, pour tous ceux à qui vous rendez service.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous eſtes bien heureux d’eſtre tombé entre mes draceinas.</orig>
+            <reg>Vous êtes bien heureux d'être tombé entre mes draceinas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE PATISSIER.</orig>
+            <reg>LE PÂTISSIER.</reg>
+          </seg>
+          <seg>
+            <orig>Pourveu que vous tiriez l’Affaire en longueur.</orig>
+            <reg>Pourvu que vous tiriez l'Affaire en longueur.</reg>
+          </seg>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, je vous promets, foy d’Homme d’honneur, que d’un an d’icy on ne fera une pance d’a contre vous.</orig>
+            <reg>Allez, je vous promets, foi d'Homme d'honneur, que d'un an d'ici on ne fera une pance d'a contre vous.</reg>
+          </seg>
+          <seg>
+            <orig>Seul.</orig>
+            <reg>Seul.</reg>
+          </seg>
+          <seg>
+            <orig>Vingt écus!</orig>
+            <reg>Vingt écus!</reg>
+          </seg>
+          <seg>
+            <orig>Si cela continue, il me faudra un Cofre fort.</orig>
+            <reg>Si cela continue, il me faudra un <persName>Cofre</persName> fort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>3 ii</orig>
+          <reg>3 ji</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VIII.</orig>
+          <reg>SCÈNE VIII.</reg>
+        </seg>
+        <seg>
+          <orig>GRAPINIAN, UNE PLAIDEUSE.</orig>
+          <reg>GRAPINIAN, UNE PLAIDEUSE.</reg>
+        </seg>
+        <seg>
+          <orig>LA PLAIDEUSE entrant.</orig>
+          <reg>LA PLAIDEUSE entrant.</reg>
+        </seg>
+        <seg>
+          <orig>A, bon Dieu, je  Eſuis perdue, je ſuis ruinée.</orig>
+          <reg>À, bon Dieu, je Es perdue, je suis ruinée.</reg>
+        </seg>
+        <seg>
+          <orig>Ha, voleur de Grapinian, je t'etrangleray.</orig>
+          <reg>Ha, voleur de <persName>Grapinian</persName>, je t'étranglerai.</reg>
+        </seg>
+        <seg>
+          <orig>Les Clercs courent pour la retenir.</orig>
+          <reg>Les Clercs courent pour la retenir.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIAPINIAN.</orig>
+            <reg>
+              <persName>CIAPINIAN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>A qui en veut cette Fole?</orig>
+            <reg>À qui en veut cette Fole?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>quin, apres m’avoir ruinée?</orig>
+            <reg>quin, après m'avoir ruinée?</reg>
+          </seg>
+          <seg>
+            <orig>Tu m’avois dit que ma Cauſe eſtoit bonne, &amp; je viens de la perdre avec dépens.</orig>
+            <reg>Tu m'avais dit que ma <persName>Causse</persName> était bonne, et je viens de la perdre avec dépens.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>qu’elle ne fuſt bonne, mais tres-bonne, &amp; une des meilleures de mon Etude.</orig>
+            <reg>qu'elle ne fût bonne, mais très-bonne, et une des meilleures de mon Étude.</reg>
+          </seg>
+          <seg>
+            <orig>a part.</orig>
+            <reg>à part.</reg>
+          </seg>
+          <seg>
+            <orig>J’en ay déja touche plus de huit cens francs.</orig>
+            <reg>J'en ai déjà touche plus de huit cens francs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt donc par cet endroit que tu la trouves bonne?</orig>
+            <reg>C'est donc par cet endroit que tu la trouves bonne?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ha, que de babil!</orig>
+            <reg>Ha, que de babil!</reg>
+          </seg>
+          <seg>
+            <orig>Si vous n’eſtiez pas ſi emportee, je vous ferois voir au doigt &amp; a l’œil, que vous gagnez voſtre Cauſe, en perdant voſtre Proces;</orig>
+            <reg>Si vous n'étiez pas si emporte, je vous ferais voir au doigt et à l'œil, que vous gagnez votre Causse, en perdant votre Proces;</reg>
+          </seg>
+          <seg>
+            <orig>mais comme je ſuis un Fripon, un Coquin.</orig>
+            <reg>mais comme je suis un Fripon, un Coquin.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais faites-moy donc comprendre par où je IEERISOT</orig>
+            <reg>Mais faites-moi donc comprendre par où je <persName>JERISOT</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>N’eſt-ce pas un coup de vray Amy, d’avoir tiré la principale Piece de voſtre Sac, pour en faire un Moyen infaillible de Requeſte Civile contre l’Arreſt d’aujourd’huy?</orig>
+            <reg>N'est-ce pas un coup de vrai Ami, d'avoir tiré la principale Pièce de votre Sac, pour en faire un Moyen infaillible de Requête Civile contre l'Arrêt d'aujourd'hui?</reg>
+          </seg>
+          <seg>
+            <orig>Vous pleurez préſentement;</orig>
+            <reg>Vous pleurez présentement;</reg>
+          </seg>
+          <seg>
+            <orig>mais que vous rirez dans cinq ou ſix ans d’icy, quand la Requeſte Civile ſera gagnée, &amp; qu’il y aura de bons gros dommages &amp; intereſts, qui excéderont deux fois la ſomme qu’on vous doibt!</orig>
+            <reg>mais que vous rirez dans cinq ou six ans d'ici, quand la Requête Civile sera gagnée, et qu'il y aura de bons gros dommages et intérêts, qui excéderont deux fois la somme qu'on vous doibt!</reg>
+          </seg>
+          <seg>
+            <orig>On ſçait bien qu’il n’y aura rien à perdre pour moy;</orig>
+            <reg>On naît bien qu'il n'y aura rien à perdre pour moi;</reg>
+          </seg>
+          <seg>
+            <orig>mais alors le Procureur ne ſera plus un Fripon.</orig>
+            <reg>mais alors le Procureur ne sera plus un Fripon.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt unc choſe pitoyable, de voir comme on traite les Gens d’honneur de noſtre Profeſſion.</orig>
+            <reg>C'est un chose pitoyable, de voir comme on traite les Gens d'honneur de notre Profession.</reg>
+          </seg>
+          <seg>
+            <orig>Nous avons beau travailler nuit &amp; jour, paſſer les nuits à écrire, avancer noſtré argent, perdre noſtre temps;</orig>
+            <reg>Nous avons beau travailler nuit et jour, passer les nuits à écrire, avancer nostré argent, perdre notre temps;</reg>
+          </seg>
+          <seg>
+            <orig>apres tout cela, bon, les Procureurs ſont encore des Fripons.</orig>
+            <reg>après tout cela, bon, les Procureurs sont encore des Fripons.</reg>
+          </seg>
+          <seg>
+            <orig>Voila en un ſeul mot toute la récompenſe de nos peines.</orig>
+            <reg>Voilà en un seul mot toute la récompense de nos peines.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mr Grapinian, je ne veux point tater de Requeſte Civile.</orig>
+            <reg><persName>Mr Grapinian</persName>, je ne veux point tâter de Requête Civile.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Que vous eſtes fole!</orig>
+            <reg>Que vous êtes sole!</reg>
+          </seg>
+          <seg>
+            <orig>Sans Requeſte Civile, les Affaires n’ont point de gouſt;</orig>
+            <reg>Sans Requête Civile, les Affaires n'ont point de goût;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt la Roquembole du Proces.</orig>
+            <reg>c'est la <event>Roquembole du Proces</event></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Gardez voſtre Ragouſt pour quelqu’autre Plaideuſe.</orig>
+            <reg>Gardez votre Ragoût pour quelque autre Plaideuse.</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, je veux m’accommoder, &amp; pãſſer une Tranſaction qui termine toutes mes Affaircs.</orig>
+            <reg>Pour moi, je veux m'accommoder, et puisser une Transaction qui termine toutes mes Affaircs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Toutes vos Affaires!</orig>
+            <reg>Toutes vos Affaires!</reg>
+          </seg>
+          <seg>
+            <orig>Le depuis quand plaidezvous, ne vous en déplaiſe?</orig>
+            <reg>Le depuis quand plaidezvous, ne vous en déplaise?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Depuis treize ans;</orig>
+            <reg>Depuis treize ans;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; me voila, Dieu mercy &amp; vous, auſſi avancée que le premier jour.</orig>
+            <reg>et me voilà, Dieu merci et vous, aussi avancée que le premier jour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, il n’y a que treize ans?</orig>
+            <reg>Quoi, il n'y a que treize ans?</reg>
+          </seg>
+          <seg>
+            <orig>On voit bien que vous n’eſtes qu’une Novice.</orig>
+            <reg>On voit bien que vous n'êtes qu'une Novice.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, allez, il faut u joir plelede vous.</orig>
+            <reg>Allez, allez, il faut joir plelede vous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, Mr Grapinian, je veux m’accommoder.</orig>
+            <reg>Non, <persName>Mr Grapinian</persName>, je veux m'accommoder.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ce nie fera pas de moſ avis toûjours.</orig>
+            <reg>Ce nie fera pas de mos avis toujours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Et pourquoy?</orig>
+            <reg>Et pourquoi?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Parce qu’un Procureur qui ſçait ſon meſtier, ne H conſent jamais aucun ACCOOChCIIC.</orig>
+            <reg>Parce qu'un Procureur qui sait son métier, ne H consent jamais aucun ACCOOChCIIC.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais.</orig>
+            <reg>Mais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, cela eſt contre les Statuts de nôtre Communauté.</orig>
+            <reg>Mais, cela est contre les Statuts de notre Communauté.</reg>
+          </seg>
+          <seg>
+            <orig>Malepeſté, je m’attircrois tous mes Confreres à dos, s’ils ſçavoient quà mon age euſſe cõſenty une Tranſaction.</orig>
+            <reg>Malepesté, je m'attircrais tous mes Confreres à dos, s'ils savaient quà mon âme eusse cõsenty une Transaction.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt tout ce que pourroit faire un de nos Anciens à l’agonie, encore y penſeroit-il à deux fois;</orig>
+            <reg>C'est tout ce que pourrait faire un de nos Anciens à l'agonie, encore y penserait-il à deux fois;</reg>
+          </seg>
+          <seg>
+            <orig>ouy.</orig>
+            <reg>oui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>ioy, ſi je vous priois de m endrener dile?</orig>
+            <reg>joi, si je vous priais de m endrener dile?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Vous auriez beau me prier, je ne le pourrois pas faire en conſcience.</orig>
+            <reg>Vous auriez beau me prier, je ne le pourrais pas faire en conscience.</reg>
+          </seg>
+          <seg>
+            <orig>Donnez-moy ſeulement quatre cens cinquante livres pour la conſignation de la Requeſte civile, &amp; allez vous mettre au Lit pour vous repoſer, car vous eſtes bien échaufée.</orig>
+            <reg>Donnez-moi seulement <measure>quatre cents cinquante livres</measure> pour la consignation de la Requeste civile, et allez vous mettre au Lit pour vous reposer, car vous êtes bien échauffée.</reg>
+          </seg>
+          <seg>
+            <orig>à part.</orig>
+            <reg>à part.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut avoüer que je n’ay guere de fiel!</orig>
+            <reg>Il faut avouer que je n'ai guère de fiel!</reg>
+          </seg>
+          <seg>
+            <orig>Un H ij autre que moy, apres les injures.</orig>
+            <reg>Un H aj autre que moi, après les injures.</reg>
+          </seg>
+          <seg>
+            <orig>Mais je mets tout cela lous les pleds.</orig>
+            <reg>Mais je mets tout cela lous les pleds.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Juſte Ciel!</orig>
+            <reg>Juste Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>bailler encore quatre cens cinquante livres!</orig>
+            <reg>bailler encore <measure>quatre cens cinquante livres</measure></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Le teſips de la ſcecolte viendra.</orig>
+            <reg>Le témips de la scolte viendra.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>On a beau ſe fâcher contre ces boureaux de li bcureurs, ils attrapent toûjours voſtre argent.</orig>
+            <reg>On a beau se fâcher contre ces boureaux de li bcureurs, ils attrapent toujours votre argent.</reg>
+          </seg>
+          <seg>
+            <orig>à part.</orig>
+            <reg>à part.</reg>
+          </seg>
+          <seg>
+            <orig>Dans le dépit où je ſuis, je donnerois volontiers tout mon Bien à quelque honneſte Homme, qui m’en feroit jouir en patience le reſte de mes jours.</orig>
+            <reg>Dans le dépit où je suis, je donnerais volontiers tout mon Bien à quelque honnête Homme, qui m'en ferait jouir en patience le reste de mes jours.</reg>
+          </seg>
+          <seg>
+            <orig>A la ſui n faudra que je me mârie.</orig>
+            <reg>À la su n audra que je me mârie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>*RAPINIAN.</orig>
+            <reg>*RAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Avreccremone ne, colibieſ avez-vous de Bien?</orig>
+            <reg>Avreccémone ne, colibies avez-vous de Bien?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Combien j’ay.</orig>
+            <reg>Combien j'ai.</reg>
+          </seg>
+          <seg>
+            <orig>Ne leſçavez-vous pas?</orig>
+            <reg>Ne lesçavez-vous pas?</reg>
+          </seg>
+          <seg>
+            <orig>J’ay trois cens mille bonnes livres, &amp; vous en avez tous les Papiers.</orig>
+            <reg>J'ai trois cens mille bonnes livres, et vous en avez tous les Papiers.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>H iij</orig>
+          <reg>H Hijà</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN à part.</orig>
+            <reg>GRAPINIAN à part.</reg>
+          </seg>
+          <seg>
+            <orig>Trois cens mille livres!</orig>
+            <reg>Trois cens mille livres!</reg>
+          </seg>
+          <seg>
+            <orig>Peſte, quelle aubaine!</orig>
+            <reg>Peste, quelle aubaine!</reg>
+          </seg>
+          <seg>
+            <orig>Mademoiſelle, je ſuis vôtre Homme;</orig>
+            <reg>Mademoiselle, je suis votre Homme;</reg>
+          </seg>
+          <seg>
+            <orig>vous ne ſçauriez mieux faire que de m'épouſer.</orig>
+            <reg>vous ne sauriez mieux faire que de m'épouser.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, voüs épouſer!</orig>
+            <reg>Oui, vouds épouser!</reg>
+          </seg>
+          <seg>
+            <orig>Et on dit que vous eſtes marie avec la Matrõne?</orig>
+            <reg>Et on dit que vous êtes marie avec la <persName>Matro</persName>̃ne?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt qu’en attendant mieux.</orig>
+            <reg>Ce n'est qu'en attendant mieux.</reg>
+          </seg>
+          <seg>
+            <orig>Quel âge avez-vous?</orig>
+            <reg>Quel âge avez-vous?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>J’ay environ quatrevilists aiis.</orig>
+            <reg>J'ai environ quatrevilits aiis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, morbleu, touchezlà.</orig>
+            <reg>Hé, morbleu, touchezlà.</reg>
+          </seg>
+          <seg>
+            <orig>Pour trois ou quatre ans qu’il vous reſte encore a vivre, il faut vous Ies Iaire paici joyeuſcment.</orig>
+            <reg>Pour trois ou quatre ans qu'il vous reste encore a vivre, il faut vous Ies Jaire paici joyeuscment.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, Mr Grapinian, ſi.</orig>
+            <reg>Mais, <persName>Mr Grapinian</persName>, si.</reg>
+          </seg>
+          <seg>
+            <orig>là Matrone reprend la Charge?</orig>
+            <reg>là <persName>Matrone</persName> reprend la Charge?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>l’y ay mis bon ordre.</orig>
+            <reg>l'y ai mis bon ordre.</reg>
+          </seg>
+          <seg>
+            <orig>Le Contract n’eſt pas fait en fayeur de mariage;</orig>
+            <reg>Le Contrat n'est pas fait en faiseur de mariage;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt une Vente pure &amp; ſimple, où j’ay fait mettre, compté, nombré, e 5 payé des deniers dudit s' Grapinian.</orig>
+            <reg>c'est une Vente pure et simple, où j'ai fait mettre, compté, nombré, e 5 payé des deniers dudit <persName>s' Grapinian</persName></reg>
+          </seg>
+          <seg>
+            <orig>Peſte!</orig>
+            <reg>Peste!</reg>
+          </seg>
+          <seg>
+            <orig>cela tient comme teigne.</orig>
+            <reg>cela tient comme teigne.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mais, Mr Grapinian.</orig>
+            <reg>Mais, <persName>Mr Grapinian</persName></reg>
+          </seg>
+          <seg>
+            <orig>m’aimerez-vous du bon du cœur?</orig>
+            <reg>m'aimerez-vous du bon du cœur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Si je vous aimeray!</orig>
+            <reg>Si je vous aimerai!</reg>
+          </seg>
+          <seg>
+            <orig>Peut-on haïr une Femme qui donne trois cens LA MATRONE qui l’entend parler de la ſorte.</orig>
+            <reg>Peut-on haïr une Femme qui donne trois cens LA MATRONE qui l'entend parler de la sorte.</reg>
+          </seg>
+          <seg>
+            <orig>Tu l’adoreras, perfide, traître!</orig>
+            <reg>Tu l'adoreras, perfide, traître!</reg>
+          </seg>
+          <seg>
+            <orig>mille livres?</orig>
+            <reg>mille livres?</reg>
+          </seg>
+          <seg>
+            <orig>Je vous adoreray.</orig>
+            <reg>Je vous adorerai.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN ſe tournant vers ſa vieille Plaideuſe, luy met une Fontange, &amp; ayant pris ſon Eventail, il l’évente.</orig>
+            <reg><persName>GRAPINIAN</persName> se tournant vers sa vieille <persName>Plaideuse</persName>, était met une <persName>Fontange</persName>, et ayant pris son Éventail, il l'évente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Ha, le joly cœur de Femme!</orig>
+          <reg>Ha, le joli cœur de Femme!</reg>
+        </seg>
+        <seg>
+          <orig>Allons, je vous veux mettre ſur un bon pied pour voſtre argent.</orig>
+          <reg>Allons, je vous veux mettre sur un bon pied pour votre argent.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE VIII.</orig>
+          <reg>SCÈNE VIII.</reg>
+        </seg>
+        <seg>
+          <orig>GRAPINIAN, LA PLAIDEUSE, LE CHAPELIER, LE PATISSIER, M' LE BAILLY.</orig>
+          <reg>GRAPINIAN, LA PLAIDEUSE, LE CHAPELIER, LE PÂTISSIER, M' LE BAILLY.</reg>
+        </seg>
+        <seg>
+          <orig>LE CHAPELIER arreſtant Grapinian par le bras.</orig>
+          <reg>LE CHAPELIER arrêtant <persName>Grapinian</persName> par le bras.</reg>
+        </seg>
+        <seg>
+          <orig>96 Monſieur le Fripon.</orig>
+          <reg>96 <persName>Monsieur le Fripon</persName></reg>
+        </seg>
+        <seg>
+          <orig>LE PATISSIER.</orig>
+          <reg>LE PÂTISSIER.</reg>
+        </seg>
+        <seg>
+          <orig>Allons, Mr Grapinian, de bonne grace, ſans vous faire preſſer, rendezmoy mes vingt ecus.</orig>
+          <reg>Allons, <persName>Mr Grapinian</persName>, de bonne grâce, sans vous faire presser, rendezmoi mes vingt écus.</reg>
+        </seg>
+        <seg>
+          <orig>DiaSiei vos Penſions ſont trop cheres.</orig>
+          <reg>DiaSie vos Pensions sont trop chères.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Hé, Meſſieurs, ne me perdez pas;</orig>
+            <reg>Hé, Messieurs, ne me perdez pas;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt aujourd’huy le jour de mes Nôces.</orig>
+            <reg>c'est aujourd'hui le jour de mes Nôces.</reg>
+          </seg>
+          <seg>
+            <orig>Je feray plutoſt vos Arfai vol gratis.</orig>
+            <reg>Je ferai plutôt vos <persName>Arfai</persName> vol gratis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, Fripon, tu veux que nous t’aidiõs à tromPer ule relilie s</orig>
+            <reg>Quoi, <persName>Fripon</persName>, tu veux que nous t'aidiõs à tromPer ule relilie s</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Voila de bien honneſtes Gens!</orig>
+            <reg>Voilà de bien honnêtes Gens!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut tout-à-l’heure que la juſtice en ſoit faite.</orig>
+            <reg>Il faut tout-à-l’heure que la justice en soit faite.</reg>
+          </seg>
+          <seg>
+            <orig>Don.</orig>
+            <reg>
+              <persName>Don</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>vond d propex M le Bailly.</orig>
+            <reg>vond d propex <persName>M le Bailly</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY.</orig>
+            <reg>LE BAILLY.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’eſt-ce-cy, mes Enfans?</orig>
+            <reg>Qu'est-ce-cy, mes Enfants?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Ce n’eſt pas grand' choſe;</orig>
+            <reg>Ce n'est pas grand' ose;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt un Procureur qu’il faut faire pendre, Tripon s enc end.</orig>
+            <reg>c'est un Procureur qu'il faut faire pendre, <persName>Tripon</persName> s enc end.</reg>
+          </seg>
+          <seg>
+            <orig>Minique</orig>
+            <reg>Minique</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LA PLAIDEUSE.</orig>
+            <reg>LA PLAIDEUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Cera s'en va lans dire.</orig>
+            <reg>Cera s'en va lans dire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY.</orig>
+            <reg>LE BAILLY.</reg>
+          </seg>
+          <seg>
+            <orig>B Il y a donc un grand deſordre dans cette Profeſſion?</orig>
+            <reg>B Il y a donc un grand désordre dans cette Profession?</reg>
+          </seg>
+          <seg>
+            <orig>J’en cherche un, qui fait plus de mal luy ſeul, que tous les autres enſemble.</orig>
+            <reg>J'en cherche un, qui fait plus de maliblé seul, que tous les autres ensemble.</reg>
+          </seg>
+          <seg>
+            <orig>Noſtre Greffe n’eſt remply que de Plaintes &amp; d’Informations contre luy.</orig>
+            <reg>Notre Greffe n'est rempli que de Plaintes et d'Informations contre lui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>Franchement, M le Bailly, il y a bien des Fripons dans noſtre Mêtier;</orig>
+            <reg>Franchement, <persName>M le Bailly</persName>, il y a bien des Fripons dans notre Métier;</reg>
+          </seg>
+          <seg>
+            <orig>il n’en faut ainſi que trois ou quatre pour décrier tous les autres.</orig>
+            <reg>il n'en faut ainsi que trois ou quatre pour décrier tous les autres.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY.</orig>
+            <reg>LE BAILLY.</reg>
+          </seg>
+          <seg>
+            <orig>Celuy que je cherche, Sur pono Plu, Grapian, Gramian.</orig>
+            <reg>Celui que je cherche, Sur pono <persName>Plu</persName>, <persName>Grapian</persName>, <persName>Gramian</persName></reg>
+          </seg>
+          <seg>
+            <orig>115H I5.</orig>
+            <reg>115H I5.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRAFTNIAN.</orig>
+            <reg>
+              <persName>JRAFTNIAN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ouf.</orig>
+            <reg>Ouf.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>Grapinian?</orig>
+            <reg>
+              <persName>Grapinian</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY .</orig>
+            <reg>LE BAILLY .</reg>
+          </seg>
+          <seg>
+            <orig>Juſtement, c’eſt celuylà.</orig>
+            <reg>Justement, c'est celuilà.</reg>
+          </seg>
+          <seg>
+            <orig>quii I 1</orig>
+            <reg>quii I 1</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHAPELIER.</orig>
+            <reg>LE CHAPELIER.</reg>
+          </seg>
+          <seg>
+            <orig>de vona, Momcur.</orig>
+            <reg>de vona, <persName>Momcur</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY.</orig>
+            <reg>LE BAILLY.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, c’eſt là ce fameux Fripon dont tout le monde ſe plaint?</orig>
+            <reg>Quoi, c'est là ce fameux <persName>Fripon</persName> dont tout le monde se plaint?</reg>
+          </seg>
+          <seg>
+            <orig>Il tuuo qui tois pendu ſur le champ.</orig>
+            <reg>Il tuuo qui tais pendu sur le champ.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRAPINIAN.</orig>
+            <reg>GRAPINIAN.</reg>
+          </seg>
+          <seg>
+            <orig>He, Momneur, pour l’honneur du Corps.</orig>
+            <reg>He, Momneur, pour l'honneur du Corps.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE BAILLY.</orig>
+            <reg>LE BAILLY.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt pour l’honneur du Corps qu’il te faut pendre tout-a-l’heure, pour chatier un Scélerat, qui deſ-honore Meſſieurs les Procureurs.</orig>
+            <reg>C'est pour l'honneur du Corps qu'il te faut pendre tout-là-l'heure, pour châtier un Scélerat, qui des-honore Messieurs les Procureurs.</reg>
+          </seg>
+          <seg>
+            <orig>La Potence eſt dreſſée, qu’on I menc.</orig>
+            <reg>La Potence est dressée, qu'on I Jenc.</reg>
+          </seg>
+          <seg>
+            <orig>El f2 vn</orig>
+            <reg>El f2 un</reg>
+          </seg>
+        </ab>
+      </sp>
+    </body>
+  </text>
+</TEI>

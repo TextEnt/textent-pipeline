@@ -1,0 +1,2625 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alphée et Aréthuse : tragédie, représentée devant Sa Majesté à Fontainebleau au mois d'octobre 1686 / mise en musique par M. de Boësset,... ; et en vers par M. Boucher</title>
+        <author>Boucher</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb301374615"/>
+          <author>
+            <persName>Boucher</persName>
+          </author>
+          <title>Alphée et Aréthuse : tragédie, représentée devant Sa Majesté à Fontainebleau au mois d'octobre 1686 / mise en musique par M. de Boësset,... ; et en vers par M. Boucher</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1686" cert="high" resp="BNF">1686</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>A PARIS, Par CHRISTOPHE BALLARD, ſeul Imprimeur du Roy pour la Muſique, ruë Saint Jean de Beauvais, au Mont-Parnaſſe.</orig>
+          <reg>À <placeName>PARIS</placeName>, Par <persName>CHRISTOPHE BALARD</persName>, seul Imprimeur du Roi pour la Musique, <placeName>rue Saint Jean de Beauvais</placeName>, au <placeName>Mont-Parnasse</placeName></reg>
+        </seg>
+        <seg>
+          <orig>M.</orig>
+          <reg>
+            <persName>M</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>DC.</orig>
+          <reg>DC.</reg>
+        </seg>
+        <seg>
+          <orig>LXXXVI.</orig>
+          <reg>LXXXVI.</reg>
+        </seg>
+        <seg>
+          <orig>174</orig>
+          <reg>174</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PERSONNAGES DU PROLOGUE.</orig>
+            <reg>PERSONNAGES DU PROLOGUE.</reg>
+          </seg>
+          <seg>
+            <orig>1 ITER.</orig>
+            <reg>1 ITER.</reg>
+          </seg>
+          <seg>
+            <orig>INON.</orig>
+            <reg>
+              <persName>JNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>L’AMOUR.</orig>
+            <reg>L'AMOUR.</reg>
+          </seg>
+          <seg>
+            <orig>UN PLAISIR.</orig>
+            <reg>UN PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>SECOND PLAISIR, Cœur des Divinitez Celestes, les Jeux &amp; tes Piuiſtrs mnnocents.</orig>
+            <reg>SECOND PLAISIR, Cœur des Divinités Célestes, les Jeux et tes Pivistrs mnocents.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>TICSLOCCL LE THEATRE REPRESENTE le Ciel ouvert, Jupiter dans la Gloire environné des Divinitez, des Jeux &amp; des Plaiſirs.</orig>
+          <reg>TICSLOCCL LE -THÉÂTRE REPRÉSENTE le Ciel ouvert, <persName>Jupiter</persName> dans la Gloire environné des Divinités, des Jeux et des Plaisirs.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IPITER.</orig>
+            <reg>
+              <persName>IPITER</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>U volez-vous, Plaiſirs &amp; Jeux, Qui vous chaſſe des Cieux, Quel employ voulez-vous prendre?</orig>
+            <reg>V volez-vous, Plaisirs et Jeux, Qui vous chasse des Cieux, Quel emploi voulez-vous prendre?</reg>
+          </seg>
+          <seg>
+            <orig>A quel plus grand honneur pourriez-vous bien pretendre, Que de divertir les Dieux?</orig>
+            <reg>À quel plus grand honneur pourriez-vous bien prétendre, Que de divertir les Dieux?</reg>
+          </seg>
+          <seg>
+            <orig>„*80 Trouverez-vous ſur la Terre &amp; ſur l’Onde, Un plus aimable ſejour, Et ſi vous parteZ ſans l’Amour, Que ferez-vous dans le monde.</orig>
+            <reg>„*80 Trouverez-vous sur la Terre et sur l'Onde, Un plus aimable séjour, Et si vous partez sans l'Amour, Que ferez-vous dans le monde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PLAISIR.</orig>
+            <reg>PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>Dans l’Empire des Lis, nous nous arreſterons, Et tout les jours nous y ferons Les plaiſirs d’une Cour, à nulle autre ſemblable;</orig>
+            <reg>Dans l'Empire <orgName>des Lis</orgName>, nous nous arrêterons, Et tout les jours nous y ferons Les plaisirs d'une Cour, à nulle autre semblable;</reg>
+          </seg>
+          <seg>
+            <orig>La Sageſſe nous conduira, Et noſtre Commerce ſera Innocent, &amp; tout agreable, Et ſi l’Amour vient aprés nous, Pour troubler te repos des Ames, Nous prendrons ſoin de détourner ſes coups Et déteindre ſes flâmes.</orig>
+            <reg>La Sagesse nous conduira, Et notre Commerce sera Innocent, et tout agréable, Et si l'Amour vient après nous, Pour troubler te repos des Ames, Nous prendrons soin de détourner ses coups Et déteindre ses flammes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L’AMOUR.</orig>
+            <reg>L'AMOUR.</reg>
+          </seg>
+          <seg>
+            <orig>Mon pouvoir eſt trop grand, ne vous y trompez pas.</orig>
+            <reg>Mon pouvoir est trop grand, ne vous y trompez pas.</reg>
+          </seg>
+          <seg>
+            <orig>Dans les champs, &amp; dans les villes, S’ans moy vous avez peu d’appas, Sans moy, vous eſtes inutiles;</orig>
+            <reg>Dans les champs, et dans les villes, S'ans moi vous avez peu d'appas, Sans moi, vous êtes inutiles;</reg>
+          </seg>
+          <seg>
+            <orig>AlleZ languir dans les Paldis, Allez dans les bras de la Paix.</orig>
+            <reg>Allez languir dans les Paldis, Allez dans les bras de la Paix.</reg>
+          </seg>
+          <seg>
+            <orig>Vous faire voir comme des ombres vaines;</orig>
+            <reg>Vous faire voir comme des ombres vaines;</reg>
+          </seg>
+          <seg>
+            <orig>Allez vous meſler aux ennuis, Aae uetompugner les peines, Sans moy les plus beaux jours, ſont de fâcheuſes nuits.</orig>
+            <reg>Allez -vous mêler aux ennuis, Ave uetompugner les peines, Sans moi les plus beaux jours, sont de fâcheuses nuits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur repete les trois derniers Vers.</orig>
+            <reg>Le Chœur répète les trois derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Allez vous meſter aux ennuis, Allez, accompagner les peines, Sans moy les plus beaux jours, ſont de fâcheuſes nuits.</orig>
+            <reg>Allez -vous méter aux ennuis, Allez, accompagner les peines, Sans moi les plus beaux jours, sont de fâcheuses nuits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SECOND PLAISIR.</orig>
+            <reg>SECOND PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>Sans vous conduits pas la Sageſſe, Nous allons briller &amp; charmer, Nous avons pour nous faire aimer Et dequoy chaſſer la triſſeſſe;</orig>
+            <reg>Sans vous conduits pas la Sagesse, Nous allons briller et charmer, Nous avons pour nous faire aimer Et dequoy chasser la trissesse;</reg>
+          </seg>
+          <seg>
+            <orig>Sans vous conduits par la Sageſſe CheZ le plus Grand des Mortels, Nous allons pour jamais établir l’allegreſſe, Nous allons dreſſer des Autels, Meuu ſeueité, qui doit combler ſa vie, Malgré les ſoins de l’envie, Et ſans les folaſtres amours;</orig>
+            <reg>Sans vous conduits par la Sagesse CheZ le plus Grand des Mortels, Nous allons pour jamais établir l'allégresse, Nous allons dresser des Autels, Meu seueité, qui doit combler sa vie, Malgré les soins de l'envie, Et sans les folâtres amours;</reg>
+          </seg>
+          <seg>
+            <orig>Ctuuouneney vons ullons, luy donner de beaux jours.</orig>
+            <reg><persName>Ctuounèney</persName> vons ouvllons, lui donner de beaux jours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur repete ces deux derniers Vers.</orig>
+            <reg>Le Chœur répète ces deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Et ſans les folaſtres amours, Nous allons, nous allons, luy donner de beaux jours.</orig>
+            <reg>Et sans les folâtres amours, Nous allons, nous allons, lui donner de beaux jours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ON.</orig>
+            <reg>ON.</reg>
+          </seg>
+          <seg>
+            <orig>Si ce Mortel incomparable.</orig>
+            <reg>Si ce Mortel incomparable.</reg>
+          </seg>
+          <seg>
+            <orig>Ne meritoit pas tant que nous, Et s’il n’eſtoit pas tout aimable, Jeux, Plaiſirs, nous ſerions jaloux;</orig>
+            <reg>Ne méritait pas tant que nous, Et s'il n'était pas tout aimable, Jeux, Plaisirs, nous serions jaloux;</reg>
+          </seg>
+          <seg>
+            <orig>Mais ſa gloire égale à la noſtre, Qui fait noſtre joye &amp; la Voſtre, Le rend digne de vos emplois;</orig>
+            <reg>Mais sa gloire égale à la vôtre, Qui fait notre joie et la Votre, Le rend digne de vos emplois;</reg>
+          </seg>
+          <seg>
+            <orig>Jeux innocens, Plaiſirs tranquiles, Tous les Dieux vous donnent leurs voix;</orig>
+            <reg>Jeux innocents, Plaisirs tranquiles, Tous les Dieux vous donnent leurs voix;</reg>
+          </seg>
+          <seg>
+            <orig>A lez, &amp; vous rendeZ faciles Pour les Plaitrs an plus ſage des Roys.</orig>
+            <reg>À lez, et vous rendez faciles Pour les Plaits an plus sage des Rois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>DU PROLOGUE.</orig>
+          <reg>DU PROLOGUE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>PERSONNAGES 3 E E LA TRAGEDIE.</orig>
+          <reg>PERSONNAGES 3 E LA TRAGÉDIE.</reg>
+        </seg>
+        <seg>
+          <orig>LPHE’E, Berger, Amant d’Arethuſe.</orig>
+          <reg><persName>LPHÉPE</persName>, Berger, Amant <persName>d'Arethuse</persName></reg>
+        </seg>
+        <seg>
+          <orig>ARETHUSE, Nymphe de Diane, aimée d’Alphée, &amp; du Dieu Faunus.</orig>
+          <reg><persName>ARETHUSE</persName>, Nymphe de <persName>Diane</persName>, aimée <persName>d'Alphée</persName>, et du Dieu <persName>Faunus</persName></reg>
+        </seg>
+        <seg>
+          <orig>CIRCE, d’Alphée.</orig>
+          <reg><persName>CIRCE</persName>, <persName>d'Alphée</persName></reg>
+        </seg>
+        <seg>
+          <orig>Magicienne, amoureuſe</orig>
+          <reg>Magicienne, amoureuse</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>DIVINITEZ.</orig>
+            <reg>DIVINITÉ.</reg>
+          </seg>
+          <seg>
+            <orig>AUNUS.</orig>
+            <reg>
+              <persName>AUNUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>L’AMOUR.</orig>
+            <reg>L'AMOUR.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TROUPPES.</orig>
+            <reg>TROUPPES.</reg>
+          </seg>
+          <seg>
+            <orig>NYMPHES de Diane.</orig>
+            <reg>NYMPHES de <persName>Diane</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>H ERGERS.</orig>
+          <reg>H HRGERS.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>RINTEE ET P T IINDIIIOJE TRAGEDIE.</orig>
+          <reg><persName>RINTE</persName> ET P T IINDIIIOJE -TRAGÉDIE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>RCTE TREMIER.</orig>
+          <reg>RCTE TREMIER.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>DIANE, NYMPHES, CHASSEURS.</orig>
+          <reg>DIANE, NYMPHES, CHASSEURS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>NFIN le calme eſt en ces lieux, Ne craignons plus rien mes Compagnes, B L’Amour n’habite plus nos charmantes Campagnes, Jupiter le retient pour jamais dans les Cieux;</orig>
+            <reg>NAFIN le calme est en ces lieux, Ne craignons plus rien mes Compagnes, B L'Amour n'habite plus nos charmantes Campagnes, <persName>Jupiter</persName> le retient pour jamais dans les Cieux;</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt en ma faveur qu’il l’arreſte, C’eſt pour moy, c’est pour vous, qu’il contraint les Amours, Que toute la Trouppe s’appreste A goûter un repos qui doit durer toûjours.</orig>
+            <reg>C'est en ma faveur qu'il l'arrête, C'est pour moi, c'est pour vous, qu'il contraint les Amours, Que toute la Troupe s'apprête A goûter un repos qui doit durer toujours.</reg>
+          </seg>
+          <seg>
+            <orig>64130 Courons en liberté, les Vallons &amp; les Plaines, Ne craignons ny Mortels, ny Dieux, L’abſence de l'Amour rend nostre ſort heureux, Chaſſons, courons, plus nous aurons de peines, Plus nous aurons de ſenſibles plaiſirs;</orig>
+            <reg>64130 Courons en liberté, les Vallons et les Plaines, Ne craignons ni Mortels, notre Dieux, L'absence de l'Amour rend quelque sort heureux, Chassons, Chassons, plus nous aurons de peines, Plus nous aurons de sensibles plaisirs;</reg>
+          </seg>
+          <seg>
+            <orig>Courons en liberté les Vallons &amp; les Plaines, N'eſcoutons ny vœux ny ſoûpirs.</orig>
+            <reg>Courons en liberté les <persName>Vallons</persName> et les <persName>Plaines</persName>, N'écoutons assez vœux toujours soupirs.</reg>
+          </seg>
+          <seg>
+            <orig>Chaſſons, courons, plus nous aurons de peines, Plus nous aurons de ſenſibles plaiſirs.</orig>
+            <reg>Chassons, courons, plus nous aurons de peines, Plus nous aurons de sensibles plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le enceur lepete.</orig>
+            <reg>Le enceur lepète.</reg>
+          </seg>
+          <seg>
+            <orig>Courons en liberté les Vallons &amp; les Plaines, N’eſcoutons ny vœux ny ſoûpirs.</orig>
+            <reg>Courons en liberté les <persName>Vallons</persName> et les <persName>Plaines</persName>, N'écoutons assez vœux toujours soupirs.</reg>
+          </seg>
+          <seg>
+            <orig>Chaſſons, courons, plus nous aurons de peines, Plus nous aurons de ſenſibles plaiſirs.</orig>
+            <reg>Chassons, courons, plus nous aurons de peines, Plus nous aurons de sensibles plaisirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Les Nymphes &amp; les Chaſſeurs danſent.</orig>
+          <reg>Les Nymphes et les Chasseurs dansent.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE SECONDE.</orig>
+          <reg>SCÈNE SECONDE.</reg>
+        </seg>
+        <seg>
+          <orig>DIANE, NIMTHES, CHASSEURS, ARETHUSE.</orig>
+          <reg>DIANE, NIMTHÉS, CHASSEURS, ARETHUSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Mon ſecours, chaſte Déeſſe, L’Amour eſt revenu, j’ay veu briller ſes feux, Pour me bleſſer de ſes traits dangereux, Le Cruel me pourſuit ſans ceſſe.</orig>
+            <reg>Mon secours, chaste Déesse, L'Amour est revenu, j'ai vu briller ses feux, Pour me blesser de ses traits dangereux, Le Cruel me poursuit sans cesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>8 Le Dieu Faunus, &amp; le Berger Alphée Amoureux &amp; jaloux, ſont toûjours ſur mes pas:</orig>
+            <reg>8 Le Dieu Faunus, et le Berger <persName>Alphée</persName> Amoureux et jaloux, sont toujours sur mes pas:</reg>
+          </seg>
+          <seg>
+            <orig>Ie fuis en vain ſi vous ne m’aidez pas, Déeſſe à mon ſecours, je ſuis embaraſſée,</orig>
+            <reg>Je fuis en vain si vous ne m'aidez pas, Déesse à mon secours, je suis embarrassée,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy, Iupiter m’auroit trahie!</orig>
+            <reg>Quoi, <persName>Jupiter</persName> m'aurait trahie!</reg>
+          </seg>
+          <seg>
+            <orig>Aprés m’avoir promis une éternelle paix!</orig>
+            <reg>Après m'avoir promis une éternelle paix!</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>voudroit-il troubler le repos de ma vie!</orig>
+            <reg>voudrait-il troubler le repos de ma vie!</reg>
+          </seg>
+          <seg>
+            <orig>Et voudroit il enfin me l’oſter pour jamais.</orig>
+            <reg>Et voudrait -il enfin me l'ôter pour jamais.</reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe, je ſuis ſurpriſe Du ſujet de voſtre frayeur, Vous en ſeriez bien-toſt remiſe, Si voſtre vanité flattoit moins voſtre cœur.</orig>
+            <reg><persName>Arethuse</persName>, je suis surprise Du sujet de votre frayeur, Vous en seriez bientôt remise, Si votre vanité flattait moins votre cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, je ne ſuis pas ſi vaine Ny ſi foible que vous penſeZ Cependant je dois craindre &amp; l’Amour &amp; ſa haine, Et je crains ſeulement de ne pas craindre aſſez:</orig>
+            <reg>Non, non, je ne suis pas si vaine Ni si faible que vous pensez Cependant je dois craindre et l'Amour et sa haine, Et je crains seulement de ne pas craindre assez:</reg>
+          </seg>
+          <seg>
+            <orig>Si je reſiſte à ſa puïſſance Si je l’irrite contre moy, Sans vostre divine aſſistance Pouttuy je xuruer coſere toy;</orig>
+            <reg>Si je résiste à sa puissance Si je l'irrite contre moi, Sans votre divine assistance Poutuie je xurver cosère toi;</reg>
+          </seg>
+          <seg>
+            <orig>Pourray-je garder l’innocence Si je l’irrite contre moy.</orig>
+            <reg>Pourrai-je garder l'innocence Si je l'irrite contre moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Regbions à l'Amour, repouſſons tous ſes traits, Meſpriſons ce qu’il peut promettre, Il est honteux de ſe ſoümettre Quand on peut ſurmonter l’ennemy de la Paix.</orig>
+            <reg>Regions à l'Amour, repoussons tous ses traits, Mesprisons ce qu'il peut promettre, Il est honteux de se soumettre Quand on peut surmonter l'ennemi de la Paix.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur des Chaſſeurs &amp; des Nymphes repete.</orig>
+            <reg>Le Chœur des Chasseurs et des Nymphes répète.</reg>
+          </seg>
+          <seg>
+            <orig>Reſistons à l’Amour, repouſſons tous ſes traits, Meſpriſons ce qu’il peut promettre, Il est honteux de ſe ſoûmettre Quand on peut ſurmonter l’ennemy de la Paix.</orig>
+            <reg>Résistons à l'Amour, repoussons tous ses traits, Méprisons ce qu'il peut promettre, Il est honteux de se soumettre Quand on peut surmonter l'ennemi de la Paix.</reg>
+          </seg>
+          <seg>
+            <orig>Les Chaſſeurs &amp; les Nymphes recommencent à danſer.</orig>
+            <reg>Les Chasseurs et les Nymphes recommencent à danser.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE'ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>DIANE, ARETHUSE, NYMPHES, CHASSEURS, CIRCE'.</orig>
+          <reg>DIANE, ARETHUSE, NYMPHES, CHASSEURS, <persName>CIRCE</persName>'.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE'.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>ES Dieux ont renvoyé l'Amour Pour troubler le repos de ce charmant ſéjour;</orig>
+            <reg>ES Dieux ont renvoyé l'Amour Pour troubler le repos de ce charmant séjour;</reg>
+          </seg>
+          <seg>
+            <orig>Il ſe ſert de toutes ſes armes, Ses traits volent par tout de meſme que ſes feux, Comme moy vous tremblez aux premieres allarmes, Que faire contre un Dieu qui ſoumet tous les Dieux</orig>
+            <reg>Il se sert de toutes ses armes, Ses traits volent par tout de même que ses feux, Comme moi vous tremblez aux premières alarmes, Que faire contre un Dieu qui soumet tous les Dieux</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Circé, voſtre crainte m’eſtonne Voſtre Art ſeroit-il impuiſſant Contre la force d’vn Enfant Qui n’a que celle qu’on luy donne:</orig>
+            <reg><persName>Circé</persName>, votre crainte m'étonne Votre Art serait-il impuissant Contre la force d'un Enfant Qui n'a que celle qu'on lui donne:</reg>
+          </seg>
+          <seg>
+            <orig>Par un laſche conſentement Qu'on peut refuſer aisément.</orig>
+            <reg>Par un lâche consentement Qu'on peut refuser aisément.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE’.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>vous avouerez le contraire, S’il vous ſouvient d'Andimion;</orig>
+            <reg>vous avouerez le contraire, S'il vous souvient d'Andimion;</reg>
+          </seg>
+          <seg>
+            <orig>Vous euſtes de la paſſion Dés que ce Chaſſeur ſçeut vous plaire;</orig>
+            <reg>Vous eûtes de la passion Dès que ce Chasseur Sut vous plaire;</reg>
+          </seg>
+          <seg>
+            <orig>Ahj que l’on conſent aisément Quand l’Amour agit pour l’Amant.</orig>
+            <reg>Ahj que l'on consent aisément Quand l'Amour agit pour l'Amant.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur repete ces deux derniers Vers.</orig>
+            <reg>Le Chœur répète ces deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que l'on conſent aisement Quand l’Amour agit pour l’Amant.</orig>
+            <reg>que l'on consent aisément Quand l'Amour agit pour l'Amant.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Si j’ay connû l’Amour, ſi j’ay ſenty ſa flame, I’ay ſçeu l’eſteindre pour toûjours.</orig>
+            <reg>Si j'ai connu l'Amour, si j'ai senti sa flamme, J'ai su l'éteindre pour toujours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE’.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>DAimout puſſe &amp; ne oiam sunipo que les beaux jours, Il pourroit bien encore s’emparer de voſtre ame:</orig>
+            <reg>DAimout pusse et ne oiam sunipo que les beaux jours, Il pourrait bien encore s'emparer de votre âme:</reg>
+          </seg>
+          <seg>
+            <orig>Et lors vous diriez librement Qu’on accorde ſans peine un doux conſentement.</orig>
+            <reg>Et lors vous diriez librement Qu'on accorde sans peine un doux consentement.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ne cherchons point à nous inſtruire, Plus on connoiſt l’Amour, plus il eſt dangereux, Et tors qu'ut nous fiuit le mieux C’eſt lors qu’il peut le plus nous nuire.</orig>
+            <reg>Ne cherchons point à nous instruire, Plus on connaît l'Amour, plus il est dangereux, Et tors qu'ut nous fiuit le mieux C'est lors qu'il peut le plus nous nuire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur repete les deux derniers Vers.</orig>
+            <reg>Le Chœur répète les deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Et lors qu’il nous flate le mieux C’eſt lors qu’il peut le plus nous nuire.</orig>
+            <reg>Et lors qu'il nous flatte le mieux C'est lors qu'il peut le plus nous nuire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ne cherchons point à le connaiſtre,</orig>
+            <reg>Ne cherchons point à le connaître,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Fuïons un redoutable Maiſtre,</orig>
+            <reg>Fuirons un redoutable Maître,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARE IIIVSE.</orig>
+            <reg>ARE IIVISE.</reg>
+          </seg>
+          <seg>
+            <orig>Fuïons l’Amour &amp; les Amants,</orig>
+            <reg>Fuirons l'Amour et les Amants,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETF DIANE.</orig>
+            <reg>ARETF DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Fuïons la honte de nous rendre Pui peut un ſeul moment attendre N'attend pas les heureux moments.</orig>
+            <reg>Fuirons la honte de nous rendre Pui vi un seul moment attendre N'attend pas les heureux moments.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE QVATRIE'ME.</orig>
+          <reg>SCÈNE QUTATRIE'ME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE’ ſeule.</orig>
+            <reg><persName>CIRCE</persName> seule.</reg>
+          </seg>
+          <seg>
+            <orig>N vain mon cœur s’eſt allarmé, LAlphée aime &amp; n'eſt pas aimé, Eſt-il une douceur égale A celle d'eſtre ſans Rivale;</orig>
+            <reg> vain Notre cœur s'est alarmé, <persName>LAlphée</persName> aime et n'est pas aimé, Est-il une douceur égale À celle d'être sans Rivale;</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il un plaiſit plus charmant Que d’avoir un Cœur ſans partage, Eſt-il un plus cruel tourment Que d’aimer un Amant volage.</orig>
+            <reg>Est-il un plaisit plus charmant Que d'avoir un Cœur sans partage, Est-il un plus cruel tourment Que d'aimer un Amant volage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CINQVIE’ME.</orig>
+          <reg>SCÈNE CINQUIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>IRCE’, ALPHE’E.</orig>
+          <reg><persName>JRCE</persName>, <persName>ALPHÉÉPE</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Fantoſmes formez-vous, coupez-luy le chemin Qui le meine vers Arethuſe.</orig>
+            <reg>Fantômes formez-vous, coupez-lui le chemin Qui le mène vers <persName>Arethuse</persName></reg>
+          </seg>
+          <seg>
+            <orig>Faites-le revenir, qu’il parle, qu’il s’excuſe, C’eſt aſſez pour m'oſter les armes de la main.</orig>
+            <reg>Faites-le revenir, qu'il parle, qu'il s'excuse, C'est assez pour m'ôter les armes de la main.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE’.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>H!</orig>
+            <reg>H!</reg>
+          </seg>
+          <seg>
+            <orig>je le voy, cét impoſteur!</orig>
+            <reg>je le vois, cet imposteur!</reg>
+          </seg>
+          <seg>
+            <orig>Il cherche à m’éviter, ſon crime eſt volontaire, uccuurois qu'il ſe fit un paiifinut me plaire:</orig>
+            <reg>Il cherche à m'éviter, son crime est volontaire, uccuurois qu'il se fit un paiifinut me plaire:</reg>
+          </seg>
+          <seg>
+            <orig>Pour tenir l’amour dans mon cœur Ie voudrois qu’il voulût meriter ma douceur:</orig>
+            <reg>Pour tenir l'amour dans mon cœur Je voudrais qu'il voulut mériter ma douceur:</reg>
+          </seg>
+          <seg>
+            <orig>Mais il ne veut que ma colere.</orig>
+            <reg>Mais il ne veut que ma colère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous m’attaquez, encor, vous voulez me contraindre, Ne connoißez-vous pas mon cœur.</orig>
+            <reg>Vous m'attaquez, encor, vous voulez me contraindre, Ne connaissez-vous pas mon cœur.</reg>
+          </seg>
+          <seg>
+            <orig>Il est aſſujetty ſous les Loix d’un Vainqueur, Qui ne permet pas de vous craindre;</orig>
+            <reg>Il est assujetti sous les Lois d'un Vainqueur, Qui ne permet pas de vous craindre;</reg>
+          </seg>
+          <seg>
+            <orig>Si vos charmes ſont forts, ſon pouvoir eſt plus grand, Et vous le ſçavez par vous-meſme.</orig>
+            <reg>Si vos charmes sont forts, son pouvoir est plus grand, Et vous le savez par vous-même.</reg>
+          </seg>
+          <seg>
+            <orig>Regardez-moy, Circé, d’un air indifferent, Et me laiſſez en paix chercher celle que j’aime.</orig>
+            <reg>Regardez-moi, <persName>Circé</persName>, d'un air indifférent, Et me laissez en paix chercher celle que j'aime.</reg>
+          </seg>
+          <seg>
+            <orig>CIRCE'</orig>
+            <reg>
+              <persName>CIRCE</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE’.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je ſuis donc un Objet indigne de tes feux, Ma bonté, mon amour, ne touchent point ton amé, Quunu fe ciua me vanger, je puis ce que je veux;</orig>
+            <reg>Je suis donc un Objet indigne de tes feux, Ma bonté, mon amour, ne touchent point ton amé, Quun se civa me venger, je puis ce que je veux;</reg>
+          </seg>
+          <seg>
+            <orig>Craints, ingrat, craints l’effet d’une fatale flame.</orig>
+            <reg>Craints, ingrat, craints l'effet d'une fatale flamme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A LPHE’E.</orig>
+            <reg>À <persName>LPHÉE</persName></reg>
+          </seg>
+          <seg>
+            <orig>Si vous forcez la volonté Piattez-vons a un peu d'eſperance.</orig>
+            <reg>Si vous forcez la volonté Piattez-vons à un peu d'espérance.</reg>
+          </seg>
+          <seg>
+            <orig>Mais ſi vous me laiſſez, en pleine liberté, Ne vous promettez rien de mon obeïſſance.</orig>
+            <reg>Mais si vous me laissez, en pleine liberté, Ne vous promettez rien de mon obéissance.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>RCE’.</orig>
+            <reg>RÉÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Ta fierté, ton meſpris, meritent mon courroux, napourron te pomendes coupo, Ie pourrois me vanger, &amp; je devrois le faire:</orig>
+            <reg>Ta fierté, ton mépris, méritent mon courroux, napourron te pomendes coupo, Je pourrais me venger, et je devrais le faire:</reg>
+          </seg>
+          <seg>
+            <orig>Mais helas!</orig>
+            <reg>Mais hélas!</reg>
+          </seg>
+          <seg>
+            <orig>mon amour me parle en ta faveur.</orig>
+            <reg>mon amour me parle en ta faveur.</reg>
+          </seg>
+          <seg>
+            <orig>Ingrat!</orig>
+            <reg>Ingrat!</reg>
+          </seg>
+          <seg>
+            <orig>je crains de luy déplaire, Ie ne pino puonb eumue mon cœur.</orig>
+            <reg>je crains de Seigneur déplaire, Je ne pino puonb eumue mon cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puis ſans changer, vous eſtre favorable.</orig>
+            <reg>Je ne puis sans changer, vous être favorable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>RCE'.</orig>
+            <reg>RÉÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Change une fois pour ne jamais changer.</orig>
+            <reg>Change une fois pour ne jamais changer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puis conſentir à me rendre coupable.</orig>
+            <reg>Je ne puis consentir à me rendre coupable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>RCE’.</orig>
+            <reg>RÉÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Deſgage-toy pour t’engager.</orig>
+            <reg>Dégage-toi pour t'engager.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie ne ſçaurois bruſler d’une flame nouvelle,</orig>
+            <reg>Je ne saurais brûler d'une flamme nouvelle,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CE'.</orig>
+            <reg><persName>CE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puis plus t’abandonner.</orig>
+            <reg>Je ne puis plus t'abandonner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHEE.</orig>
+            <reg>
+              <persName>ÀLPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Plûtoſt mourir, qu’eſtre infidelle.</orig>
+            <reg>Plutôt mourir, qu'être infidèle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE'.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Plûtoſt mourir, que de te pardonner.</orig>
+            <reg>Plutôt mourir, que de te pardonner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du premier Acte.</orig>
+          <reg>Fin du premier Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>IICTESECONVO SCENE PREMIERE.</orig>
+          <reg>IICTESECONVO SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, TROUPE DE FAUNES.</orig>
+          <reg>FAUNUS, TROUPE DE FAUNES.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>FAUNUS.</orig>
+            <reg>
+              <persName>FAUNUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ON, je ne ſuis plus propre à nos Ieux ordinaires, Ie ne puis plus demeurer avec vous.</orig>
+            <reg>ON, je ne suis plus propre à nos Jeux ordinaires, Je ne puis plus demeurer avec vous.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-moy ſoüpirer en des lieux ſolitaires, Ie ſuis Amant, je ſuis Ialoux.</orig>
+            <reg>Laissez-moi soupirer en des lieux solitaires, Je suis Amant, je suis Jaloux.</reg>
+          </seg>
+          <seg>
+            <orig>Ialoux ſans eſtre aimé de la Nymphe que j’aime, Et comme mon amour, mon dépit eſt extréme.</orig>
+            <reg>Jaloux sans être aimé de la Nymphe que j'aime, Et comme mon amour, mon dépit est extrême.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;u La honte du refus me met au deſeſpoir, Quand je ſçay qu’un mortel a ſur moy l’avantage.</orig>
+            <reg>etu La honte du refus me met au désespoir, Quand je sais qu'un mortel a sur moi l'avantage.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>que l’Amour exerce un injuſte pouvoir, Qu’il me fait un cruel outrage, Qu’il m'impoſe une dure loy.</orig>
+            <reg>que l'Amour exerce un injuste pouvoir, Qu'il me fait un cruel outrage, Qu'il m'impose une dure loi.</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>qui peut mourir, eſt plus heureux que moy.</orig>
+            <reg>qui peut mourir, est plus heureux que moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>N FAUNE.</orig>
+            <reg> FAUNE.</reg>
+          </seg>
+          <seg>
+            <orig>N’augmenteZ pas voſtre peine Quand vous pouvez vous guerir, Vous ceſſerez de ſouffrir En quittant une Inhumaine:</orig>
+            <reg>N'augmenteZ pas votre peine Quand vous pouvez vous guérir, Vous cesserez de souffrir En quittant une Inhumaine:</reg>
+          </seg>
+          <seg>
+            <orig>L'Amant qui briſe ſa chaine Paſſe du mal au plaiſir.</orig>
+            <reg>L'Amant qui brise sa chaine Passe du mal au plaisir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Faune &amp; le Chœur repetent ce Couplet.</orig>
+            <reg>Le <persName>Faune</persName> et le Chœur répètent ce Couplet.</reg>
+          </seg>
+          <seg>
+            <orig>N’augmentez pas voſtre peine Quand vous pouvez vous guerir, Vous ceſſereZ de ſouffrir En quiirans mle Inimimaine.</orig>
+            <reg>N'augmentez pas toujours peine Quand vous pouvez vous guérir, Vous cessez de souffrir En quiirants mêle Inimaine.</reg>
+          </seg>
+          <seg>
+            <orig>L’Amant qui briſe ſa chaine Paſſe du mal au plaiſir.</orig>
+            <reg>L'Amant qui brise sa chaine Passe du mal au plaisir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE SECONDE.</orig>
+          <reg>SCÈNE SECONDE.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, FAUNES, CIRCE’,</orig>
+          <reg>FAUNUS, FAUNES, CIRCE’,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE’.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>J Ous n’avez pas ſujet de vous tant allarmer, V Alphée eſt mal traité, ſa diſgrace eſt certaine, Arethuſe le fuit, profitez de ſa haine:</orig>
+            <reg> Jus n'avez pas sujet de vous tant alarmer, V Alphée est mal traité, sa disgrâce est certaine, <persName>Arethuse</persName> le fuit, profitez de sa haine:</reg>
+          </seg>
+          <seg>
+            <orig>Songez à vous en faire aimer.</orig>
+            <reg>Songez à vous en faire aimer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur repete.</orig>
+            <reg>Le Chœur répète.</reg>
+          </seg>
+          <seg>
+            <orig>Vous n’avez pas ſujet de vous tant allarmer, Alphée eſt mal traité, ſa diſgrace eſt certaine, Arcinuje ie ſuii, propiez de ja haine, SongeZ à vous en faire aimer,</orig>
+            <reg>Vous n'avez pas sujet de vous tant alarmer, <persName>Alphée</persName> est mal traité, sa disgrâce est certaine, <persName>Arcinuje</persName> ie suii, propiez de ja haine, Songez à vous en faire aimer,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE'.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe eſt belle, elle est fiere, Cela doit-il vous rebuter?</orig>
+            <reg><persName>Arethuse</persName> est belle, elle est fière, Cela doit-il vous rebuter?</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, l’Amant qui perſevere Se fait toſt ou tard écouter:</orig>
+            <reg>Non, non, l'Amant qui persévère Se fait tôt ou tard écouter:</reg>
+          </seg>
+          <seg>
+            <orig>Par ma voix l’Amour vous conſeille, Preſſez, parlez de voſtre ardeur, Quand vous aurez touché l’oreille Vous pourrez bien toucher le cœur.</orig>
+            <reg>Par ma voix l'Amour vous conseille, Pressez, parlez de votre ardeur, Quand vous aurez touché l'oreille Vous pourrez bien toucher le cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNUS.</orig>
+            <reg>UNUS.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt ſe promettre l’impoſſible Que de pretendre un ſort plus doux;</orig>
+            <reg>C'est se promettre l'impossible Que de prétendre un sort plus doux;</reg>
+          </seg>
+          <seg>
+            <orig>On purte uvnuiues coups Quand on trouve un cœur inſenſible, Ie craindrois bien moins des Rivaux Qu'une indifferente Maiſtreſſe:</orig>
+            <reg>On purte uvnuiues coups Quand on trouve un cœur insensible, Je craindrais bien moins des Rivaux Qu'une indifférente Maîtresse:</reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, le plus cruel des maux, Eſt d'aimer un Cœur ſans tendreſſe.</orig>
+            <reg>Pour moi, le plus cruel des maux, Est d'aimer un Cœur sans tendresse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IRCE'.</orig>
+            <reg>
+              <persName>JRCE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Amant, perſeverez, Soupire.</orig>
+            <reg>Amant, persévérez, Soupire.</reg>
+          </seg>
+          <seg>
+            <orig>Armez-vous d’un grand zele, Employez-bien voſtre loiſir, Forcez un Cœur rebelle Vous trouverez la Gloire &amp; le Plaiſir.</orig>
+            <reg>Armez-vous d'un grand zèle, Employez-bien vôtre loisir, Forcez un Cœur rebelle Vous trouverez la Gloire et le Plaisir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S.</orig>
+            <reg>S.</reg>
+          </seg>
+          <seg>
+            <orig>Non, je n’ay pas aſſez de charmes Tour preuenare à jorter un cuur, Si vous ne me preſteZ des armes Ie trouveray ma honte &amp; mon mal-heur.</orig>
+            <reg>Non, je n'ai pas assez de charmes Tour preuenare à jorter un cuvr, Si vous ne me prêtez des armes Je trouverai ma honte et mon malheur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>I RCE’.</orig>
+            <reg>I RÉÉ.</reg>
+          </seg>
+          <seg>
+            <orig>I'entreprendray pour vous, ce que je me refuſe, Ie veux bien vous aider du pouvoir de mon Art, Ne vous en ſerveZ pas trop tard:</orig>
+            <reg>J'entreprendrai pour vous, ce que je me refuse, Je veux bien vous aider du pouvoir de mon Art, Ne vous en serveZ pas trop tard:</reg>
+          </seg>
+          <seg>
+            <orig>Rendez-vous auprés d’Arethuſe, Pour vous, je mettray dans ſon cœur Et la tendreſſe, &amp; la douceur.</orig>
+            <reg>Rendez-vous auprès <persName>d'Arethuse</persName>, Pour vous, je mettrai dans son cœur Et la tendresse, et la douceur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AUNE.</orig>
+            <reg>AUNE.</reg>
+          </seg>
+          <seg>
+            <orig>Une injuste reſistance auſeroit voſtre malheur;</orig>
+            <reg>Une injuste résistance auseroit votre malheur;</reg>
+          </seg>
+          <seg>
+            <orig>Allez forcer l’indifference, Où dégager vostre cœur</orig>
+            <reg>Allez forcer l'indifférence, Où dégager votre cœur</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AUNE.</orig>
+            <reg>AUNE.</reg>
+          </seg>
+          <seg>
+            <orig>AlleZ, Allez, ParteZ, vollez, Le temps vous preſſe:</orig>
+            <reg>Allez, Allez, Partez, vollez, Le temps vous presse:</reg>
+          </seg>
+          <seg>
+            <orig>Vne Maiſtreſſe A des moments Pour estre tendre A ſes Amants, ui ſçait les prendre En don attendre Vn heureux temps.</orig>
+            <reg>Une Maîtresse A des moments Pour être tendre À ses Amants, ui sait les prendre En don attendre Un heureux temps.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Cœur repete.</orig>
+            <reg>Le Cœur répète.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, Allez, Partez, vollez, Le temps vous preſſe:</orig>
+            <reg>Allez, Allez, Partez, vollez, Le temps vous presse:</reg>
+          </seg>
+          <seg>
+            <orig>Vne Maistreſſe A des moments Pour eſtre tendre A ſes Amants ui ſçait les prendre En doit attendre Vn heureux temps.</orig>
+            <reg>Une Maîtresse À des moments Pour être tendre À ses Amants ui sait les prendre En doit attendre Un heureux temps.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E'.</orig>
+            <reg><persName>E</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe apprendra devant la fin du jour, Que je faits mon pouvoir du pouvoir de l'Amour.</orig>
+            <reg><persName>Arethuse</persName> apprendra devant la fin du jour, Que je faits mon pouvoir du pouvoir de l'Amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE’ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, TROUPE DE FAUNES.</orig>
+          <reg>FAUNUS, TROUPE DE FAUNES.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>FAUNUS.</orig>
+            <reg>
+              <persName>FAUNUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Llons, puis qu’il le faut, &amp; que Circé comA mande, Eſperons tout de jon ſécours, La reſistance la plus grande Doit ceder au pouvoir qui contraint les Amours.</orig>
+            <reg>Llons, puis qu'il le faut, et que <persName>Circé</persName> comA mande, Esperons tout de jon sécours, La résistance la plus grande Doit céder au pouvoir qui contraint les Amours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN FAUNE.</orig>
+            <reg>UN FAUNE.</reg>
+          </seg>
+          <seg>
+            <orig>Demeurez, Arethuſe vient, Ree teſſaronenes pas par trop ut promptitude</orig>
+            <reg>Demeurez, <persName>Arethuse</persName> vient, Re tessaronènes pas par trop ut promptitude</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AUNUS.</orig>
+            <reg>
+              <persName>AUNUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Non, ſa cruauté la retient, Et je la voy toûjours dans ſon inquietude.</orig>
+            <reg>Non, sa cruauté la retient, Et je la vois toujours dans son inquiétude.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE QVATRIE'ME.</orig>
+          <reg>SCÈNE QUTATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, LES FAUNES, ARETHUSE.</orig>
+          <reg>FAUNUS, LES FAUNES, ARETHUSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>E ceſſereZ-vous point de me perfecuter, NN Faut-il, cruel Amour, en tous lieux me pourſuivre?</orig>
+            <reg>E cesserez-vous point de me persécuter, N Faut-il, cruel Amour, en tous lieux me poursuivre?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Quel malheur est celuy devivre Quand on ne peut vous éviter.</orig>
+            <reg>Quel malheur est celui devivre Quand on ne peut vous éviter.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il une rigueur plus grande que la vostre?</orig>
+            <reg>Est-il une rigueur plus grande que la vôtre?</reg>
+          </seg>
+          <seg>
+            <orig>Ie fuis, je me deſrobe aux tranſports d’un Amant, Et preſque au meſme moment Vous m’en faites trouver un autre.</orig>
+            <reg>Je fuis, je me dérobe aux transports d'un Amant, Et presque au même moment Vous m'en faites trouver un autre.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>qu’il est faſcheux de charmer Quand on n’a pas deſſein d’aimer.</orig>
+            <reg>qu'il est fâcheux de charmer Quand on n'a pas dessein d'aimer.</reg>
+          </seg>
+          <seg>
+            <orig>488.</orig>
+            <reg>488.</reg>
+          </seg>
+          <seg>
+            <orig>Nartuques puis nu dum ton preſt à ſe deffendre Si vous ne ſçavez le ſurprendre, Vous vous efforcerez en vain, Ie crains, je fuis, ouvrez-moy le chemin.</orig>
+            <reg>Nartuques puis nu dum ton prêt à se défendre Si vous ne savez le surprendre, Vous vous efforcerez en vain, Je crains, je fuis, ouvrez-moi le chemin.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AUNUS.</orig>
+            <reg>
+              <persName>AUNUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>L’Amour veut que je vous arreste Pour rendre hommage à vos appas, Aydez au bonheur qu’il m’apreſte, CraigneZ-moy, mais ne fuïeZ pas.</orig>
+            <reg>L'Amour veut que je vous arrête Pour rendre hommage à vos appas, Aydez au bonheur qu'il m'apprête, Craignez-moi, mais ne fuinez pas.</reg>
+          </seg>
+          <seg>
+            <orig>Banniſſez la rigueur, eſcouteZ la tendreſſe, SongeZ à choiſir un Amant, Songez dans le meſme moment Qu'un Dieu peut faire une Déeſſe.</orig>
+            <reg>Bannissez la rigueur, écoutez la tendresse, Songez à choisir un Amant, Songez dans le même moment Qu'un Dieu peut faire une Déesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puis aspirer à ce ſuprême honneur S’il faut qu’il m'en couſte mon cœur.</orig>
+            <reg>Je ne puis aspirer à ce suprême honneur S'il faut qu'il m'en coûte mon cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NUS.</orig>
+            <reg>NUS.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ſeriez beaucoup plus heureuſe, Si vous eſtiez ambitieuſe.</orig>
+            <reg>Vous seriez beaucoup plus heureuse, Si vous étiez ambitieuse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>I’ay de tamvition, mais je n'ay point d’amour.</orig>
+            <reg>J'ai de tamvition, mais je n'ai point d'amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNUS.</orig>
+            <reg>UNUS.</reg>
+          </seg>
+          <seg>
+            <orig>Vous pourriez, en avoir ſans le faire connaiſtre.</orig>
+            <reg>Vous pourriez, en avoir sans le faire connaître.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETHUSE.</orig>
+            <reg>
+              <persName>ÉTHUSE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>I'aymerois mieux perdre le jour Que de me uonner un Maiſtre Durez chere liberté, L’honneur d’eſtre immortelle N’eſt pas ma felicité.</orig>
+            <reg>J'aimerais mieux perdre le jour Que de me ouvonner un Maître Durez chère liberté, L'honneur d'être immortelle N'est pas ma félicité.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>US.</orig>
+            <reg>US.</reg>
+          </seg>
+          <seg>
+            <orig>CeſſeZ Liberté cruelle, CedeZ aux plus doux plaiſirs, Cedez aux tendres deſirs.</orig>
+            <reg>Cessez Liberté cruelle, Cédez aux plus doux plaisirs, Cédés aux tendres désirs.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETHUSE.</orig>
+            <reg>
+              <persName>ÉTHUSE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Durez Liberté charmante.</orig>
+            <reg>Durez Liberté charmante.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S.</orig>
+            <reg>S.</reg>
+          </seg>
+          <seg>
+            <orig>Ceſſez cruelle Liberté.</orig>
+            <reg>Cessez cruelle Liberté.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Durez, Rigueur innocente.</orig>
+            <reg>Durez, Rigueur innocente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S.</orig>
+            <reg>S.</reg>
+          </seg>
+          <seg>
+            <orig>CeſſeZ, injuſte Cruauté.</orig>
+            <reg>Cessez, injuste Cruauté.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur repete pour Faunus.</orig>
+            <reg>Le Chœur répète pour Faunus.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſſez, cruelle Liberté, Ceſſez, injuſte Cruauté.</orig>
+            <reg>C'estsez, cruelle Liberté, Cessez, injuste Cruauté.</reg>
+          </seg>
+          <seg>
+            <orig>Faunus &amp; Arethuſe ſe retirent ſeparément, Arethuſe et rencontrée pal Aſphée, qui la faſt retourner.</orig>
+            <reg><persName>Faunus</persName> et <persName>Arethuse</persName> se retirent séparément, <persName>Arethuse</persName> et rencontrée pal <persName>Asphée</persName>, qui la fât retourner.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CINQVIEME.</orig>
+          <reg>SCÈNE CINQUIÈME.</reg>
+        </seg>
+        <seg>
+          <orig>ARETHUSE, ALPHE’E, Troupe de Bergers.</orig>
+          <reg>ARETHUSE, <persName>ALPHÉE</persName>, Troupe de Bergers.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>E ſerez-vous toûjours cruelle, MNe ſentirez-vous point mes feux;</orig>
+            <reg>E serez-vous toujours cruelle, MNe sentirez-vous point mes feux;</reg>
+          </seg>
+          <seg>
+            <orig>Pour le prix d’une ardeur fidelle Seray-je toujours mal-heureux.</orig>
+            <reg>Pour le prix d'une ardeur fidèle Serai-je toujours malheureux.</reg>
+          </seg>
+          <seg>
+            <orig>Ne Croyez-pas une injuſte Déeſſe Que le Dépit rend contraire à l’Amour:</orig>
+            <reg>Ne Croyez-pas une injuste Déesse Que le Dépit rend contraire à l'Amour:</reg>
+          </seg>
+          <seg>
+            <orig>Elle n’a pas toûjours condamné la tendreſſe Elle en attend peut-eſtre le retour.</orig>
+            <reg>Elle n'a pas toujours condamné la tendresse Elle en attend peut-être le retour.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ne pourrez paſſer la vie Sans reſſentir les tourmens amoureux;</orig>
+            <reg>Vous ne pourrez passer la vie Sans ressentir les tourments amoureux;</reg>
+          </seg>
+          <seg>
+            <orig>Il faut y ſuccomber, par force, ou par envie:</orig>
+            <reg>Il faut y succomber, par force, ou par envie:</reg>
+          </seg>
+          <seg>
+            <orig>Et le plûtoſt eſt le mieux.</orig>
+            <reg>Et le plutôt est le mieux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Uous m’effrayez?</orig>
+            <reg>Uous m'effrayez?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ly ſestis pre erotre Si vous aimeZ le plaiſir &amp; la gloire.</orig>
+            <reg>Lis sestis pré erotre Si vous aimez le plaisir et la gloire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ETHUSE.</orig>
+            <reg>
+              <persName>ÉTHUSE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je trouve l’un &amp; l’autre en conſervant mon cœur.</orig>
+            <reg>Je trouve l'un et l'autre en conservant mon cœur.</reg>
+          </seg>
+          <seg>
+            <orig>Sur l’exemple d’une Déeſſe.</orig>
+            <reg>Sur l'exemple d'une Déesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHEE.</orig>
+            <reg>
+              <persName>ÀLPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous vous trompeZ, vostre injuſte rigueur N’eſt qu’une honteuſe foibleſſe,</orig>
+            <reg>Vous vous trompez, votre injuste rigueur N'est qu'une honteuse faiblesse,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>oi mon tœur n'eſt pas aßez fort, Pour refiſter à cette guerré, Je fuïray par toute la terre, Plutost que de changer mon Sort.</orig>
+            <reg>oi mon tœur n'est pas assez fort, Pour résister à cette guerré, Je fuirai par toute la terre, Plutôt que de changer mon Sort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Je vous ſuivray par tout ſans ceſſe.</orig>
+            <reg>Je vous suivrai par tout sans cesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Et moy je vous fuïray toûjours.</orig>
+            <reg>Et moi je vous fuirai toujours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>A mon ſecours Dieu des Amours.</orig>
+            <reg>À mon secours Dieu des Amours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>A mon ſecours, chaſte Déeſſe.</orig>
+            <reg>À mon secours, chaste Déesse.</reg>
+          </seg>
+          <seg>
+            <orig>Alphée &amp; Arethuſe repetent leurs deux derniers Vers, &amp; le Chœur repete aprés eux.</orig>
+            <reg><persName>Alphée</persName> et <persName>Arethuse</persName> répètent leurs deux derniers Vers, et le Chœur répète après eux.</reg>
+          </seg>
+          <seg>
+            <orig>Les Bergers danſent.</orig>
+            <reg>Les Bergers dansent.</reg>
+          </seg>
+          <seg>
+            <orig>Fin du ſecond Acte.</orig>
+            <reg>Fin du second Acte.</reg>
+          </seg>
+          <seg>
+            <orig>&amp;M</orig>
+            <reg>ETM</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ICTE TROISIE’ME SCENE PREMIERE.</orig>
+          <reg>ICTE TROISIE’ME SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, CIRCE', TROUPE DE FAVNES.</orig>
+          <reg>FAUNUS, CIRCE', TROUPE DE FAUNES.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A AVNVS.</orig>
+            <reg>A <persName>AUNUS</persName></reg>
+          </seg>
+          <seg>
+            <orig>AST EZ-vous, forcez Arethuſe, D’avoir pour moy de la douceur:</orig>
+            <reg>AST EZ-vous, forcez <persName>Arethuse</persName>, D'avoir pour moi de la douceur:</reg>
+          </seg>
+          <seg>
+            <orig>g N'attendez-pas que mon cœur vous accuſe De la perte de mon bon-heur.</orig>
+            <reg>g N'attendez-pas que mon cœur vous accuse De la perte de mon bonheur.</reg>
+          </seg>
+          <seg>
+            <orig>82 Ie crains, j’ay de l’impatience Par qui mon cœur eſt agité;</orig>
+            <reg>82 Je crains, j'ai de l'impatience Par qui mon cœur est agité;</reg>
+          </seg>
+          <seg>
+            <orig>Tant que j’auray peu d’esperance, I'auray peu de tranquilité.</orig>
+            <reg>Tant que j'aurai peu d'espérance, J'aurai peu de tranquillité.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE'.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ſuis pour vous, je ſuis ſincere, Ie feray tout en faveur de vos feux:</orig>
+            <reg>Je suis pour vous, je suis sincère, Je ferai tout en faveur de vos feux:</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-moy faire.</orig>
+            <reg>Laissez-moi faire.</reg>
+          </seg>
+          <seg>
+            <orig>Mes charmes ſeront vains, ou vous ſereZ heureux Ie ſuis pour vous, je ſuis ſincere, LaiſſeS-moy jaire</orig>
+            <reg>Mes charmes seront vains, ou vous serez heureux Je suis pour vous, je suis sincère, LaisseS-moi jaire</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE SECONDE.</orig>
+          <reg>SCÈNE SECONDE.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNVS, CIRCE’, Troupes de Faunes &amp; de Demons.</orig>
+          <reg>FAUNS, CIRCE', Troupes de Faunes et de Démons.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IN DEMON.</orig>
+            <reg>IN DEMON.</reg>
+          </seg>
+          <seg>
+            <orig>Ous le viſage d’un Amour Brillant comme l’Aſtre du Iour Ie me ſuis approché de la fiere Arethuſe, Elle m'a pris d’abord pour quelque Monſtre affreux, Elle a tremblé de peur, elle a paru confuſe, ependant mes regards ont arreſté ſes yeux;</orig>
+            <reg>Ous le visage d'un Amour Brillant comme l'Astre du Jour Je me suis approché de la fière <persName>Arethuse</persName>, Elle m'a pris d'abord pour quelque Monstre affreux, Elle a tremblé de peur, elle a paru confuse, eut mes regards ont arrêté ses yeux;</reg>
+          </seg>
+          <seg>
+            <orig>I’ay folaſtré, j’ay badine prés d’elle, I'ay ſoupiré, j’ay ry, chanté, Elle a pris de ma main le Bouquet enchanté, EspereZ de la voir moins cruelle.</orig>
+            <reg>J'ai folâtré, j'ai badine près d'elle, J'ai soupiré, j'ai ri, chanté, Elle a pris de ma main le Bouquet enchanté, Espérez de la voir moins cruelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>RAGEDIE.</orig>
+          <reg>RAGEDIE.</reg>
+        </seg>
+        <seg>
+          <orig>Le Chœur repete le dernier Vers, &amp; les Faunes &amp; les Demons danſent une Chaconne.</orig>
+          <reg>Le Chœur répète le dernier Vers, et les Faunes et les Demons dansent une Chaconne.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LE CHOEUR DES FAUNES.</orig>
+            <reg>LE CHOEUR DES FAUNES.</reg>
+          </seg>
+          <seg>
+            <orig>Profitez du pouvoir du charme Qui combat l’injuſte vigueur.</orig>
+            <reg>Profitez du pouvoir du charme Qui combat l'injuste vigueur.</reg>
+          </seg>
+          <seg>
+            <orig>Il est doux d’approcher un Cœur Qui s’attendrit &amp; ſe deſarme.</orig>
+            <reg>Il est doux d'approcher un Cœur Qui s'attendrit et se désarme.</reg>
+          </seg>
+          <seg>
+            <orig>Il eſt doux d’entrer dans un Cœur Quand il eſt ſans crainte &amp; ſans armes.</orig>
+            <reg>Il est doux d'entrer dans un Cœur Quand il est sans crainte et sans armes.</reg>
+          </seg>
+          <seg>
+            <orig>Profitez du pouvoir du charme Qui combat l’injuſte rigueur.</orig>
+            <reg>Profitez du pouvoir du charme Qui combat l'injuste rigueur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IE'.</orig>
+            <reg><persName>IE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe vient en ces lieux, Iamais elle ne fût ſi belle;</orig>
+            <reg><persName>Arethuse</persName> vient en ces lieux, Jamais elle ne fût si belle;</reg>
+          </seg>
+          <seg>
+            <orig>Ne ſouffrez point icy de témoins que vos yeux.</orig>
+            <reg>Ne souffrez point ici de témoins que vos yeux.</reg>
+          </seg>
+          <seg>
+            <orig>Enſemble SFAUNUS.</orig>
+            <reg>Ensemble SFAUNUS.</reg>
+          </seg>
+          <seg>
+            <orig>Faunes CIRCE’.</orig>
+            <reg>Faunes CIRCE’.</reg>
+          </seg>
+          <seg>
+            <orig>Demons retirez vous.</orig>
+            <reg>Demons retirez -vous.</reg>
+          </seg>
+          <seg>
+            <orig>FAUNES, DEMONS, ſe retirant avec Circé.</orig>
+            <reg>FAUNES, DÉMONS, se retirant avec <persName>Circé</persName></reg>
+          </seg>
+          <seg>
+            <orig>Voſtre plaiſir eſt un plaiſir pour nous.</orig>
+            <reg>Votre plaisir est un plaisir pour nous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE’ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, ARETHUSE.</orig>
+          <reg>FAUNUS, ARETHUSE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHUSE.</orig>
+            <reg>ARETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>S Oucis naiſſans, preſſante inquietude, Que me preparez-vous, que voulez-vous de moy?</orig>
+            <reg>S <persName>Oucis</persName> naissants, pressante inquiétude, Que me préparés-vous, que voulez-vous de moi?</reg>
+          </seg>
+          <seg>
+            <orig>Faut-il ſortir d’une douce habitude Pour prendre une nouvelle loy.</orig>
+            <reg>Faut-il sortir d'une douce habitude Pour prendre une nouvelle loi.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne crains plus, je ne ſuis plus farouche, Faunus m’approche, &amp; je l’attends;</orig>
+            <reg>Je ne crains plus, je ne suis plus farouche, <persName>Faunus</persName> m'approche, et je l'attends;</reg>
+          </seg>
+          <seg>
+            <orig>Efoeo que jouumour me touche, Expliquez-vous, ſoucis naiſſants.</orig>
+            <reg>Efoeo que jouumour me touche, Expliquez-vous, soucis naissants.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Les ſouhaits amoureux n’ont rien que d’agreable, Ouvrez leur voſtre cœur, ne vous en laſſez pas.</orig>
+            <reg>Les souhaits amoureux n'ont rien que d'agréable, Ouvrez leur vie cœur, ne vous en lassez pas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>RETHUSE.</orig>
+            <reg>RETHUSE.</reg>
+          </seg>
+          <seg>
+            <orig>Que me conſeillez-vous;</orig>
+            <reg>Que me conseillez-vous;</reg>
+          </seg>
+          <seg>
+            <orig>helas!</orig>
+            <reg>hélas!</reg>
+          </seg>
+          <seg>
+            <orig>Que ce conſeil eſt redoutable.</orig>
+            <reg>Que ce conseil est redoutable.</reg>
+          </seg>
+          <seg>
+            <orig>Soucis naiſſans, charmes, ſecrets, Surprenante tendreſſe, Ie ne ſçay plus ce que je fais:</orig>
+            <reg>Soucis naissants, charmes, secrets, Surprenante tendresse, Je ne sais plus ce que je fais:</reg>
+          </seg>
+          <seg>
+            <orig>Ma fierté ceſſe.</orig>
+            <reg>Ma fierté cesse.</reg>
+          </seg>
+          <seg>
+            <orig>Soucis naiſſans, charmes ſecrets, Ie ne ſçay plus ce que je fais.</orig>
+            <reg>Soucis naissants, charmes secrets, Je ne sais plus ce que je fais.</reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>mon cœur ſoûpire, Soucis naiſſans, charmes, ſecrets, L'Amour me tient ſous ſon empire, Ie ne ſçay plus ce que je fais.</orig>
+            <reg>mon cœur soupire, Soucis naissants, charmes, secrets, L'Amour me tient sous son empire, Je ne sais plus ce que je fais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NUS.</orig>
+            <reg>NUS.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-vous conduire Par des ſoucis doux &amp; charmants;</orig>
+            <reg>Laissez-vous conduire Par des soucis doux et charmants;</reg>
+          </seg>
+          <seg>
+            <orig>As auront ſoin de vou inſtruire Du bonheur des parfaits Amants.</orig>
+            <reg>As auront soin de vou instruire Du bonheur des parfaits Amants.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez-vous conduire, Laiſſez-vous inſtruire.</orig>
+            <reg>Laissez-vous conduire, Laissez-vous instruire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>FAUNUS &amp; ARETHUSE enſemble.</orig>
+            <reg><persName>FAUNUS</persName> et <persName>ARETHUSE</persName> ensemble.</reg>
+          </seg>
+          <seg>
+            <orig>Au.</orig>
+            <reg>Au.</reg>
+          </seg>
+          <seg>
+            <orig>que lt piamin eſt doux D'eſtre auprés de vous.</orig>
+            <reg>que lt piamin est doux D'être auprès de vous.</reg>
+          </seg>
+          <seg>
+            <orig>L ſeule S</orig>
+            <reg>L seule S</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE QVATRIE'ME.</orig>
+          <reg>SCÈNE QUTATRIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>FAUNUS, ARETHUSE, DIANE, Chaſſeurs, Nymphes.</orig>
+          <reg>FAUNUS, ARETHUSE, DIANE, Chasseurs, Nymphes.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Vay-je entendu, malheureuſe Arethuſe, Vous renoncez à mes aimables Loix, Ie connois ce qui vous abuſe, Et je veux vous ſauver une ſeconde fois.</orig>
+            <reg>Vais-je entendu, malheureuse <persName>Arethuse</persName>, Vous renoncez à mes aimables Lois, Je connais ce qui vous abuse, Et je veux vous sauver une seconde fois.</reg>
+          </seg>
+          <seg>
+            <orig>Donnez-moy ce Bouquet, ces fleurs ſont enchantées, Et pour voſtre malheur vous les avez portées:</orig>
+            <reg>Donnez-moi ce Bouquet, ces fleurs sont enchantées, Et pour notre malheur vous les avez portées:</reg>
+          </seg>
+          <seg>
+            <orig>Donnez-moy ce Bouquet, que j’en rompe les nœuds, Vous reſiſtez.</orig>
+            <reg>Donnez-moi ce Bouquet, que j'en rompe les nœuds, Vous résistez.</reg>
+          </seg>
+          <seg>
+            <orig>le charme opere.</orig>
+            <reg>le charme opère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE.</orig>
+            <reg>ARETHÉS.</reg>
+          </seg>
+          <seg>
+            <orig>v vsrre jecours me deſeſpere.</orig>
+            <reg> usrre jecours me désespère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S.</orig>
+            <reg>S.</reg>
+          </seg>
+          <seg>
+            <orig>Vous m’allez rendre malheureux.</orig>
+            <reg>Vous m'allez rendre malheureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>feilt&amp; anx pleus cel ornement funeste, Si vous ſenteZ encor les flâmes de l’amour, Estouffez ce qui vous en reste Et triompheZ à vostre tour.</orig>
+            <reg>feiltet anx pleus cel ornement funeste, Si vous sentez encor les flammes de l'amour, Étouffez ce qui vous en reste Et triomphés à votre tour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur repete ces quatre derniers Vers.</orig>
+            <reg>Le Chœur répète ces quatre derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>fetlez umto preuo vus ornement funeste, Si vous ſentez encor les flâmes de l’amour, Estouffez ce qui vous en reste Et triomphez à vostre tour.</orig>
+            <reg>fetlez umto prévo vus ornement funeste, Si vous sentez encor les flammes de l'amour, Étouffez ce qui vous en reste Et triomphez à vôtre tour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE à Diane, Vous me ſauvez!</orig>
+            <reg>ARETHÊE à <persName>Diane</persName>, Vous me sauvez!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IVNVS à Diane.</orig>
+            <reg>IVNVS à <persName>Diane</persName></reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>vous me perdeZ, crüelle!</orig>
+            <reg>vous me perdez, cruelle!</reg>
+          </seg>
+          <seg>
+            <orig>Il ſe retire.</orig>
+            <reg>Il se retire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE à Diane.</orig>
+            <reg>ARETHÉSE à <persName>Diane</persName></reg>
+          </seg>
+          <seg>
+            <orig>Je vous ſeray toüjours fidelle.</orig>
+            <reg>Je vous serai toujours fidèle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ENE CINQUTE’ME.</orig>
+          <reg>ENE CINQUTE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>DIANE, ARETHUSE, Nymphes, Chaſſeurs.</orig>
+          <reg>DIANE, ARETHUSE, Nymphes, Chasseurs.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Une Nymphe.</orig>
+            <reg>Une Nymphe.</reg>
+          </seg>
+          <seg>
+            <orig>Ourage, l’Amour eſt vaincu, ATriomphons, goûtons la victoire Sans avoir combatu;</orig>
+            <reg>Ôurage, l'Amour est vaincu, <persName>ATriomphons</persName>, goûtons la victoire Sans avoir combattu;</reg>
+          </seg>
+          <seg>
+            <orig>Diane en a toute la gloire, Vivons en paix, N’aimons jamais.</orig>
+            <reg><persName>Diane</persName> en a toute la gloire, Vivons en paix, N'aimons jamais.</reg>
+          </seg>
+          <seg>
+            <orig>Courage Nous avons l’avantage De ne dépendre que de Nous:</orig>
+            <reg>Courage Nous avons l'avantage De ne dépendre que de Nous:</reg>
+          </seg>
+          <seg>
+            <orig>Les plaiſirs les plus doux Sont noſtre partage.</orig>
+            <reg>Les plaisirs les plus doux Sont notre partage.</reg>
+          </seg>
+          <seg>
+            <orig>Courage Nous avons l’avantage De ne dépendre que de nous.</orig>
+            <reg>Courage Nous avons l'avantage De ne dépendre que de nous.</reg>
+          </seg>
+          <seg>
+            <orig>Ies Nymphes &amp; les Chaſſeurs danſent.</orig>
+            <reg>Jes Nymphes et les Chasseurs dansent.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>E ij</orig>
+          <reg>E ij</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE SIXIE’ME.</orig>
+          <reg>SCÈNE SIXIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>DIARE, ARCE TTINVJE, ALPHE’E, Chaſſeurs, Nymphes, Bergers.</orig>
+          <reg>DIARE, ARCE TTINVE, <persName>ALPHÉE</persName>, Chasseurs, Nymphes, Bergers.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AEPHEE.</orig>
+            <reg>
+              <persName>AEPHEE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>E viens vous demander, ou la vie, ou la mort, INe vous contraignez, point, dispoſez de mon ſort,</orig>
+            <reg>E viens vous demander, ou la vie, ou la mort, INe vous contraignez, point, disposez de mon sort,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE.</orig>
+            <reg>ARETHÉS.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il poſſible D’attendrir un Cœur inſenſible.</orig>
+            <reg>Est-il possible D'attendrir un Cœur insensible.</reg>
+          </seg>
+          <seg>
+            <orig>Et peut-on eſtre conſtant Lors qu’on voit tant D’indifference Galls tuperaince.</orig>
+            <reg>Et peut-on être constant Lors qu'on voit tant D'indifférence Gals tuperaince.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>mon respect, mon amour, mes ſoûpirs, Ne toucheront jamais voſtre ame;</orig>
+            <reg>mon respect, mon amour, mes soupirs, Ne toucheront jamais votre âme;</reg>
+          </seg>
+          <seg>
+            <orig>Cruelle, il faut recompenſer ma flâme, Ou me reduire aux derniers déplaiſirs</orig>
+            <reg>Cruelle, il faut récompenser ma flamme, Ou me réduire aux derniers déplaisirs</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE, ARETHVSE enſemble.</orig>
+            <reg>DIANE, ARETHUSE ensemble.</reg>
+          </seg>
+          <seg>
+            <orig>Est-il poſſible D’attendrir un Cœur inſenſible.</orig>
+            <reg>Est-il possible D'attendrir un Cœur insensible.</reg>
+          </seg>
+          <seg>
+            <orig>Le Cœur repete tout le Couplet.</orig>
+            <reg>Le Cœur répète tout le Couplet.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-il poſſible D’attendrir un Cœur inſenſible.</orig>
+            <reg>Est-il possible D'attendrir un Cœur insensible.</reg>
+          </seg>
+          <seg>
+            <orig>Et peut-on eſtre conſtant Lors qu’on voit tant D’indifference Sans esperance.</orig>
+            <reg>Et peut-on être constant Lors qu'on voit tant D'indifférence Sans espérance.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SENDSETTIE'ME.</orig>
+          <reg>SENDSETTIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>DIANE ARETHVSE, ALPHE’E, Nyymphes, Chaneurs, bergers, Circé.</orig>
+          <reg><persName>DIANE ARETHUSE</persName>, <persName>ALPHÉE</persName>, Nymphes, Chaneurs, bergers, <persName>Circé</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE' à Alphée.</orig>
+            <reg><persName>CIRCE</persName>' a <persName>Alphée</persName></reg>
+          </seg>
+          <seg>
+            <orig>L n'eſt pas poſſible pour toy, Tant que tu pourras eſtre inſenſible pour moy.</orig>
+            <reg> L'est pas possible pour toi, Tant que tu pourras être insensible pour moi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPMEE.</orig>
+            <reg>ÀLPME.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt à celle que j’aime à ſoulager ma peine, Et je ne vous demande rien.</orig>
+            <reg>C'est à celle que j'aime à soulager ma peine, Et je ne vous demande rien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE’.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Son cœur eſt tout remply de haine, Cumour occupe tout le mien.</orig>
+            <reg>Son cœur est tout rempli de haine, <persName>Cumour</persName> occupe tout le mien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E’.</orig>
+            <reg>ALPHÉL'É.</reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe inſenſible, ingrate &amp; furieuſe, Sera toûjours Maistreſſe de mon cœur.</orig>
+            <reg><persName>Arethuse</persName> insensible, ingrate et furieuse, Sera toujours Maîtresse de mon cœur.</reg>
+          </seg>
+          <seg>
+            <orig>Et Circé toûjours amoureuſe, N’aura jamais de part à mon ardeur:</orig>
+            <reg>Et <persName>Circé</persName> toujours amoureuse, N'aura jamais de part à mon ardeur:</reg>
+          </seg>
+          <seg>
+            <orig>L'Amour le veut ainſi, je n’y puis contredire:</orig>
+            <reg>L'Amour le veut ainsi, je n'y puis contredire:</reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe, Circé, conſentez comme moy, Chacun ſe doit faire une loy Du penchant que l’amour inſpire.</orig>
+            <reg><persName>Arethuse</persName>, <persName>Circé</persName>, consentez comme moi, Chacun se doit faire une loi Du penchant que l'amour inspire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E, DIANE &amp; ARETHVSE enſemble.</orig>
+            <reg><persName>ALPHÉ</persName>, <persName>DIANE</persName> et <persName>ARETHUSE</persName> ensemble.</reg>
+          </seg>
+          <seg>
+            <orig>Chacun ſe doit faire une loy Qui ſoit agreable pour ſoy.</orig>
+            <reg>Chacun se doit faire une loi Qui soit agréable pour soi.</reg>
+          </seg>
+          <seg>
+            <orig>me Eneeur repete ces deux derniers Vers.</orig>
+            <reg>me Éneeur répète ces deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Chacun ſe doit faire une loy Qui ſoit agreable pour ſoy.</orig>
+            <reg>Chacun se doit faire une loi Qui soit agréable pour soi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>OPIINE.</orig>
+            <reg>
+              <persName>OPINE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Arethuſe, il eſt temps de craindre L'Amour s’approche trop de vous:</orig>
+            <reg><persName>Arethuse</persName>, il est temps de craindre L'Amour s'approche trop de vous:</reg>
+          </seg>
+          <seg>
+            <orig>S'il vous touche une fois, que vous ſereZ à plaindre?</orig>
+            <reg>S'il vous touche une fois, que vous serez à plaindre?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE.</orig>
+            <reg>ARETHÉS.</reg>
+          </seg>
+          <seg>
+            <orig>He bten, fuions pour éviter ſes coups.</orig>
+            <reg>He bten, fuyons pour éviter ses coups.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie vous aime, je ne puis vivre Abſent de vos divins appas:</orig>
+            <reg>Je vous aime, je ne puis vivre Absent de vos divins appas:</reg>
+          </seg>
+          <seg>
+            <orig>Il faut vous ſuivre.</orig>
+            <reg>Il faut vous suivre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ROC.</orig>
+            <reg>ROC.</reg>
+          </seg>
+          <seg>
+            <orig>Ingrat, tu cours à ton trépas.</orig>
+            <reg>Ingrat, tu cours à ton trépas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE fuïant.</orig>
+            <reg>ARETHÊE fuirant.</reg>
+          </seg>
+          <seg>
+            <orig>Diane, ſauvez-moy d’un Amant qui me preſſe, L’Amour s’est declaré pour luy,</orig>
+            <reg><persName>Diane</persName>, sauvez-moi d'un Amant qui me presse, L'Amour s'est déclaré pour lui,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GIRCE’.</orig>
+            <reg><persName>GIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Il faut qu’il periſſe aujourd’huy.</orig>
+            <reg>Il faut qu'il périsse aujourd'hui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARETHVSE.</orig>
+            <reg>ARETHÉS.</reg>
+          </seg>
+          <seg>
+            <orig>Sauvez-moy, puiſſante Deeſſe, I'aime bien mieux perdre le jour, Que de me rendre au pouvoir de l’Amour.</orig>
+            <reg>Sauvez-moi, puissante Déesse, J'aime bien mieux perdre le jour, Que de me rendre au pouvoir de l'Amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Deſipne conſante &amp; fidelle, Tu mouras, pour eſtre immortelle.</orig>
+            <reg>Desipne consante et fidèle, Tu mouras, pour être immortelle.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur repete cos deur derniers Vers.</orig>
+            <reg>Le Chœur répète cos de derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Nymphe conſtante &amp; fidelle, Tu mouras, pour eſtre immortelle,</orig>
+            <reg>Nymphe constante et fidèle, Tu mouras, pour être immortelle,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>La terre s’ouvre, Arttiiuie diiparoiſt, &amp; l’on voit dans le moment jaillir une Fontaine.</orig>
+            <reg>La terre s'ouvre, Arttiiuie diiparoist, et l'on voit dans le moment jaillir une Fontaine.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE HUITIE’ME.</orig>
+          <reg>CÈNE HUITIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ALPHE’E, CIRCE’, Troupes de Bergers &amp; de Demons.</orig>
+          <reg>ALPHE’E, CIRCE, Troupes de Bergers et de Démons.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>J’En eſt fait, je perds tout espoir, LArethuſe, tu m'és ravie!</orig>
+            <reg>J'En est fait, je perds tout espoir, <persName>LArethuse</persName>, tu m'avez ravie!</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’auray plus de plaiſir de te voir, Ie n’auray plus le plaiſir dans la vie.</orig>
+            <reg>Je n'aurai plus de plaisir de te voir, Je n'aurai plus le plaisir dans la vie.</reg>
+          </seg>
+          <seg>
+            <orig>Venez Bergers, meſler vos pleurs Aux larmes que je vais reſpandre:</orig>
+            <reg>Venez Bergers, mêler vos pleurs Aux larmes que je vais répandre:</reg>
+          </seg>
+          <seg>
+            <orig>Venez partager les douleurs, D’un Cœur toüjours fidelle &amp; tendre.</orig>
+            <reg>Venez partager les douleurs, D'un Cœur toujours fidèle et tendre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ERGER.</orig>
+            <reg>ÉRGER.</reg>
+          </seg>
+          <seg>
+            <orig>Partageons les douleurs D’un Cœur fidelle &amp; tendre;</orig>
+            <reg>Partageons les douleurs D'un Cœur fidèle et tendre;</reg>
+          </seg>
+          <seg>
+            <orig>Il demande des pleurs, On n’en peut trop répandre.</orig>
+            <reg>Il demande des pleurs, On n'en peut trop répandre.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur des Bergers repete ce Couplet.</orig>
+            <reg>Le Chœur des Bergers répète ce Couplet.</reg>
+          </seg>
+          <seg>
+            <orig>Partageons les douleurs Dun cuur ſaeue &amp; tendre;</orig>
+            <reg>Partageons les douleurs Dun cuvr saeue et tendre;</reg>
+          </seg>
+          <seg>
+            <orig>Il demande des pleurs, On n’en peut trop répandre.</orig>
+            <reg>Il demande des pleurs, On n'en peut trop répandre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CIRCE’.</orig>
+            <reg><persName>CIRCE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Tout me brave en ces lieux, Tout m’est injurieux, Que faut-il que je faſſe?</orig>
+            <reg>Tout me brave en ces lieux, Tout m'est injurieux, Que faut-il que je fasse?</reg>
+          </seg>
+          <seg>
+            <orig>L’incertitude m’embaraſſe, Sortons de cét eſtat faſcheux Ma patience eſt laſſe.</orig>
+            <reg>L'incertitude m'embarrasse, Sortons de cet état fâcheux Ma patience est lasse.</reg>
+          </seg>
+          <seg>
+            <orig>Demons, qui ſecondez mon art, Venez en diligence, Tour mne fuſe vengeance On punit toûjours trop tard.</orig>
+            <reg>Demons, qui secondez mon art, Venez en diligence, Tour m use vengeance On punit toujours trop tard.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur des Demons repete ces deux derniers Vers.</orig>
+            <reg>Le Chœur des Demons répète ces deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Pour une juſte vengeance On punit toujours trop tara.</orig>
+            <reg>Pour une juste vengeance On punit toujours trop tara.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ALPHE’E.</orig>
+            <reg>
+              <persName>ALPHÉE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Frappez, je n’aime plus la vie, Tout mon bonheur depend de voſtre barbarie.</orig>
+            <reg>Frappez, je n'aime plus la vie, Tout mon bonheur dépend de votre barbarie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CENE NEUFIE’ME &amp; derniere.</orig>
+          <reg>CÈNE NEUFIE'ME et dernière.</reg>
+        </seg>
+        <seg>
+          <orig>AMLTIEEJ OIRCE, LAMOVR, Troupes de Bergers &amp; de Demons.</orig>
+          <reg>AMLTIEEJ IRCE, LAMOUR, Troupes de Bergers et de Demons.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L’AMOVR.</orig>
+            <reg>L'AMOUR.</reg>
+          </seg>
+          <seg>
+            <orig>E n'eſt pas aux Demons à te donner la mort, Ie ſuis ſeul Maiſtre de ton ſort:</orig>
+            <reg>ELLE n'est pas aux Demons à te donner la mort, Je suis seul Maître de ton sort:</reg>
+          </seg>
+          <seg>
+            <orig>Tu vas Alphée avoir la rtvompenſe, Que peut meriter ta conſtance;</orig>
+            <reg>Tu vas <persName>Alphée</persName> avoir la rtvompense, Que peut mériter ta constance;</reg>
+          </seg>
+          <seg>
+            <orig>Perds ſans regret la lumiere des Cieux, Tu rejoindras Arethuſe en ces lieux.</orig>
+            <reg>Perds sans regret la lumière des Cieux, Tu rejoindras <persName>Arethuse</persName> en ces lieux.</reg>
+          </seg>
+          <seg>
+            <orig>Alphée diſparoiſt comme Arethuſe, il eſt metamorphoſé en un Fleuye qui va ſe meſler à la Fontaine.</orig>
+            <reg><persName>Alphée</persName> disparaît comme <persName>Arethuse</persName>, il est métamorphosé en un Fleuye qui va se mêler à la Fontaine.</reg>
+          </seg>
+          <seg>
+            <orig>Le Chœur des Bergers repete ces deux derniers Vers.</orig>
+            <reg>Le Chœur des Bergers répète ces deux derniers Vers.</reg>
+          </seg>
+          <seg>
+            <orig>Perds ſans regret la lumiere des Cieux, Tu rejoindras Arethuſe en ces lieux.</orig>
+            <reg>Perds sans regret la lumière des Cieux, Tu rejoindras <persName>Arethuse</persName> en ces lieux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Vn Demon à Circé.</orig>
+            <reg>Un Démon à <persName>Circé</persName></reg>
+          </seg>
+          <seg>
+            <orig>D’un Ingrat trop aime vous eſtes deſgagée, Voſtre vengeance vient du plus puiſſant des Dieux.</orig>
+            <reg>D'un Ingrat trop aime vous êtes dégagée, Votre vengeance vient du plus puissant des Dieux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CE’.</orig>
+            <reg><persName>CE</persName>'.</reg>
+          </seg>
+          <seg>
+            <orig>Non, non, je ne ſuis pas vangée Puis qu’il perit pour eſtre heureux.</orig>
+            <reg>Non, non, je ne suis pas vengée Puis qu'il périt pour être heureux.</reg>
+          </seg>
+        </ab>
+      </sp>
+    </body>
+  </text>
+</TEI>
