@@ -1,0 +1,4051 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Achile et Polixene , tragedie en musique, representée par l'Academie royale de musique</title>
+        <author>Campistron, Jean Galbert de</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb36116411s"/>
+          <author>
+            <persName>Campistron, Jean Galbert de</persName>
+          </author>
+          <title>Achile et Polixene , tragedie en musique, representée par l'Academie royale de musique</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1688" cert="high" resp="BNF">1688</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A ANVERS, hez HENRY van DUNVALDT, Libraire au Marche aux Oeufs, aux trois Moines.</orig>
+            <reg>A ANVERS, hé <persName>HENRY van DUNVALDT</persName>, Libraire au Marque aux Oeufs, aux trois Moines.</reg>
+          </seg>
+          <seg>
+            <orig>1688.</orig>
+            <reg>
+              <date>1688</date>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACI EUR.</orig>
+          <reg>ACY EUR.</reg>
+        </seg>
+        <seg>
+          <orig>DU PROLOGUE.</orig>
+          <reg>DU PROLOGUE.</reg>
+        </seg>
+        <seg>
+          <orig>MERCURE.</orig>
+          <reg>MERCURE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MELPOMENE, Muſe de la Tragedie.</orig>
+          <reg>MELPOMENE, Muse de la Tragédie.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>TERPSICORE, Muſe de la Muſique.</orig>
+          <reg>TERPSICORE, Muse de la Musique.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>YHACIEI Mujo aet Cvunvate.</orig>
+          <reg><persName>YHACIEI</persName> Mujo aet Cunevate.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Toupe de Genies qui ſuivent Melpomene.</orig>
+          <reg>Toupe de Génies qui suivent <persName>Melpomene</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Genies qui ſuivent Terpſicore.</orig>
+          <reg>Troupe de Génies qui suivent <persName>Terpsicore</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Toupe de Genies qui ſuivent Thalie.</orig>
+          <reg>Toupe de Génies qui suivent <persName>Thalie</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>UPITER.</orig>
+          <reg>OÙPITER.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>a lu d d</orig>
+          <reg>a lu d</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Le Theatre repreſente unlieu propre à donner des ſpectacles, &amp; qui peut conveuir à la Tragedie &amp; à la Comedie;</orig>
+          <reg>Le Theatre représente unlieu propre à donner des spectacles, et qui peut convuir à la Tragédie et à la Comédie;</reg>
+        </seg>
+        <seg>
+          <orig>Ce lieu n’a plus la magniſicence qu’il paroiſt avoir ed autrefois, il eſt méme preſque détruit &amp; ruine.</orig>
+          <reg>Ce lieu n'a plus la magnisicence qu'il paraît avoir ed autrefois, il est même presque détruit et ruine.</reg>
+        </seg>
+        <seg>
+          <orig>On y von Mripomene, Ierpneore Q’Anmn Jans aucune ſuite Meroure deſcend du Ciel,</orig>
+          <reg>On y von Mripomène, Jerpneore Q’Anmn Jans aucune suite <persName>Meroure</persName> descend du Ciel,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MERCURE, MELPOMENE.</orig>
+          <reg>MERCURE, MELPOMENE.</reg>
+        </seg>
+        <seg>
+          <orig>– TERPSICORE, THALIE.</orig>
+          <reg>Ce THÉRPSICORE, THALIE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERCURE.</orig>
+            <reg>MERCURE.</reg>
+          </seg>
+          <seg>
+            <orig>Cavantes Sœurs, arblttes de la Scene, Quel accident funeſte a fait ceſſet vos leux?</orig>
+            <reg>Cavantes Sœurs, arblttes de la Scène, Quel accident funeste a fait cesset vos leux?</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne voy plus lcy vôtre appareil prompeux, Et je ne reconnols qu’a peine, Thalie, &amp; Melpomeue;</orig>
+            <reg>Je ne vois plus lu votre appareil prompeux, Et je ne reconnols qu'a peine, <persName>Thalie</persName>, et <persName>Melpomève</persName></reg>
+          </seg>
+          <seg>
+            <orig>Et vons dout les charmans Concerts, En ces lleux autreſois, raitonnoient dans les Airs Quel trouble, ou quelle indifference Cauſe aujourd'huy votre ſilence!</orig>
+            <reg>Et vons dout les charmants Concerts, En ces lleux autres, raitonnaient dans les Airs Quel trouble, ou quelle indifférence Causse aujourd'hui votre silence!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE Ignorez.</orig>
+            <reg>MELPOMENE Ignorés.</reg>
+          </seg>
+          <seg>
+            <orig>vous, que le plus grand des Rols Etendant chaque jour ſes conquêtes Et ſigna’ant ſon bras, par de nouveaux fxploira A negligé nos plus ſuperbes Fêtes!</orig>
+            <reg>vous, que le plus grand des Rols Étendant chaque jour ses conquêtes Et signa son bras, par de nouveaux fxploira A négligé nos plus superbes Fêtes!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>THALIE.</orig>
+            <reg>
+              <persName>THALIE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>nepuls ce fatal moment.</orig>
+            <reg>nepuls ce fatal moment.</reg>
+          </seg>
+          <seg>
+            <orig>Nor Suectacles privez de leur magnificence, Nelçautoient plus avoir l’eclat &amp; l’agrement Qu’ils ne dev oient qu’à la preſence.</orig>
+            <reg>Nor Suectacles privez de leur magnificence, Nelçautoient plus avoir l'éclat et l'agrément Qu'ils ne dev aient qu'à la présence.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TERPSICORE.</orig>
+            <reg>TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>La trlſteſſe reque en ces lieux, Nous rougiſtons de ne pouvoir lui pleire;</orig>
+            <reg>La trlstesse reque en ces lieux, Nous rougistons de ne pouvoir lui pleire;</reg>
+          </seg>
+          <seg>
+            <orig>Hetis?</orig>
+            <reg>Hétis?</reg>
+          </seg>
+          <seg>
+            <orig>ne ſçaurlons.</orig>
+            <reg>ne saurons.</reg>
+          </seg>
+          <seg>
+            <orig>nous rien taire Digne de jaroitre à ſes yeux !</orig>
+            <reg>nous rien taire Digne de jaroitre à ses yeux !</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE, THALIE, TERPSICORE.</orig>
+            <reg>MELPOMENE, THALIE, TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>FHélas!</orig>
+            <reg>FHélas!</reg>
+          </seg>
+          <seg>
+            <orig>ne ſçaurions-nous rlen ſalre Digne de paroitre a ſes yeux ?</orig>
+            <reg>ne saurions-nous ren salre Digne de paraître à ses yeux ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERCURE.</orig>
+            <reg>MERCURE.</reg>
+          </seg>
+          <seg>
+            <orig>Terminez vos regrets, que vôtre douleur ceſſe.</orig>
+            <reg>Terminez vos regrets, que votre douleur cesse.</reg>
+          </seg>
+          <seg>
+            <orig>Dani vôtre ſort lupltei slimereſſe, Et veut ley revoir, dés ce iême moment vn ſpectacle charmant, Qu'un changement ſa vorable Redonne à cea tiiſtes lleux Tout ce qu’lls ont eſt d’aimable, en loiddo lire vcenelo.</orig>
+            <reg>Dani votre sort luplite limeresse, Et veut ley revoir, dès ce iême moment un spectacle charmant, Qu'un changement sa vorable Redonne à ce tiistes lois Tout ce qu'lls ont est d'aimable, en loisdo lire vcenelo.</reg>
+          </seg>
+          <seg>
+            <orig>Du Souveraln des Dieux.</orig>
+            <reg>Du Souvern des Dieux.</reg>
+          </seg>
+          <seg>
+            <orig>Ce lieu deſert &amp; détruit reprend tout d’un coup ſa premiere magnificence.</orig>
+            <reg>Ce lieu désert et détruit reprend tout d'un coup sa première magnificence.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE.</orig>
+            <reg>MELPOMENE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, ſecourables Genies, C Si neceſſalies à nos eux, Hâtez-vour, ſecondez not vœux;</orig>
+            <reg>Vous, secourables Génies, Ç Si nécessalies à nos eux, Hâtez-vour, secondez not vœux;</reg>
+          </seg>
+          <seg>
+            <orig>Venez, &amp; piêtez-nous vos graces infinies.</orig>
+            <reg>Venez, et piêtez-nous vos grâces infinies.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>d dl d</orig>
+          <reg> dl d</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Le Theatre repreſente unlieu propre à donner des ſpectacles, &amp; qui peut convenir à la Tagedie &amp; à la Comedie;</orig>
+          <reg>Le Théâtre représente unlieu propre à donner des spectacles, et qui peut convenir à la Tagédie et à la Comédie;</reg>
+        </seg>
+        <seg>
+          <orig>Ce lieu n’a plus la magniſicence qu’il paroiſt avoir eu autreſois, il eſt méme priſque détruit &amp; ruine.</orig>
+          <reg>Ce lieu n'a plus la magnisicence qu'il paraît avoir eu autresois, il est même prisque détruit et ruine.</reg>
+        </seg>
+        <seg>
+          <orig>On 3 vuit Meipomene, Ierpſivre Qu Inaſie ſauaucune ſuite Meroure deſcend du Ciel,</orig>
+          <reg>On 3 vit Meipomène, Jerpsivre Quel <persName>Inasie</persName> saucune suite <persName>Meroure</persName> descend du Ciel,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MERCURE.</orig>
+          <reg>MERCURE.</reg>
+        </seg>
+        <seg>
+          <orig>MELPOMENE.</orig>
+          <reg>MELPOMENE.</reg>
+        </seg>
+        <seg>
+          <orig>TERPSICORE, THALIE.</orig>
+          <reg>TERPSICORE, THALIE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERCURE.</orig>
+            <reg>MERCURE.</reg>
+          </seg>
+          <seg>
+            <orig>Cavantes Sœure, arbitres de la Scene, Quel areident tuneſte a fait ceſſer vos leux!</orig>
+            <reg>Cavantes Sœure, arbitres de la Scène, Quel areident tuneste a fait cesser vos leux!</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne voy plus lcy vôtre arpareil prompeux, Et le ne reconnois qu’a peine.</orig>
+            <reg>Je ne vois plus lcy votre arpareil prompeux, Et le ne reconnais qu'a peine.</reg>
+          </seg>
+          <seg>
+            <orig>Thalie, &amp; Melpomene;</orig>
+            <reg><persName>Thalie</persName>, et <persName>Melpomene</persName></reg>
+          </seg>
+          <seg>
+            <orig>Et vous dont les charmans Concerts, En ces lleur autrefois, raiſonuoient dans les Aiis;</orig>
+            <reg>Et vous dont les charmands Concerts, En ces leur autrefois, raisonvaient dans les Ajis;</reg>
+          </seg>
+          <seg>
+            <orig>Quel trouble, ou quelle indifference Cauſe aujourd’huy vôtre ſilence!</orig>
+            <reg>Quel trouble, ou quelle indifférence Cause aujourd'hui votre silence!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE Ignorez-vous, que le plus grand des ſtols Etendant chaque jour ſes conquêtes Et ſigna'ant ſon bras, par de nouveanx fxploita ?</orig>
+            <reg>MELPOMENE Ignorés-vous, que le plus grand des stols Étendant chaque jour ses conquêtes Et signaant son bras, par de nouveanx fploita ?</reg>
+          </seg>
+          <seg>
+            <orig>negligé nos plus ſupeibes Fêtes!</orig>
+            <reg>négligé nos plus supeibes Fêtes!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>THALIE.</orig>
+            <reg>
+              <persName>THALIE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Depuls ce ſatal moment, Nos Spectacles priuez de leur magni ficence, Ne ſçauroient plus avoir l’eelat &amp; l'agrement Qu’ils ne dev oient qu’a ſa pteſence,</orig>
+            <reg>Dépuls ce satal moment, Nos Spectacles privez de leur magny ficence, Ne sauraient plus avoir l'celât et l'agrément Qu'ils ne dev aient qu'a sa ptesence,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TERPSICORE.</orig>
+            <reg>TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>La tilſteſſe regne en ces lieux, Nous rougiſtons de ne pouvoir lui plelte;</orig>
+            <reg>La tilstesse règne en ces lieux, Nous rougistons de ne pouvoir lui plelte;</reg>
+          </seg>
+          <seg>
+            <orig>Helis?</orig>
+            <reg>Hélis?</reg>
+          </seg>
+          <seg>
+            <orig>ne ſçauriots-nous tien faire Digne de jaroître à ſes yeux?</orig>
+            <reg>ne sauriots-nous tien faire Digne de jaroître à ses yeux?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE, THALIE.</orig>
+            <reg>MELPOMENE, THALIE.</reg>
+          </seg>
+          <seg>
+            <orig>TERPSICORE.</orig>
+            <reg>TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>fHlélat!</orig>
+            <reg>fHlélat!</reg>
+          </seg>
+          <seg>
+            <orig>ne ſçaurlons-nous rlen ſaire Digne de paroitre a ſes yeus?</orig>
+            <reg>ne saurons-nous rlen zaïre Digne de paraître à ses yeus?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERCURE.</orig>
+            <reg>MERCURE.</reg>
+          </seg>
+          <seg>
+            <orig>Tetmlnez vos regréts, que vôtre douleur ceſſe.</orig>
+            <reg>Tetmlnez vos regrêts, que votre douleur cesse.</reg>
+          </seg>
+          <seg>
+            <orig>Dans vôtre fort luplter s’in eteſſe, Et veut ley revoir, dés ce intme moment vn ſpectacle charmant, Qu'un changemient fotorable Redonne à ces triſtes lieux Tout ce qu’lla ont eu d’aimable?</orig>
+            <reg>Dans votre fort luplter s'in etesse, Et veut ley revoir, dès ce intomme moment un spectacle charmant, Qu'un changement fotorable Redonne à ces tristes lieux Tout ce qu'lla ont eu d'aimable?</reg>
+          </seg>
+          <seg>
+            <orig>Oul Perinte ille veeaolo Du Souverain des Dleuz.</orig>
+            <reg>Oul Perinte ille veaolo Du Souverain des Dleus.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Ce lieu deſert &amp; détruit reprend tout d’un coup ſa premiere mognificence.</orig>
+            <reg>Ce lieu désert et détruit reprend tout d'un coup sa première mognificence.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE.</orig>
+            <reg>MELPOMENE.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, ſecoutables Genies, CSi neceſſaires à nos eux, Hâtez-vous, ſecondez nos vœux;</orig>
+            <reg>Vous, secoutables Génies, CSi nécessaires à nos eux, Hâtez-vous, secondez nos vœux;</reg>
+          </seg>
+          <seg>
+            <orig>venta, &amp; prêtez-nous vos graces infinies.</orig>
+            <reg>venta, et prêtez-nous vos grâces infinies.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE, TERPSICORE.</orig>
+            <reg>MELPOMENE, TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>Animez d’une ardeur nouvelle, Venez remplir nos deſis, Et faites que nos plaiſirs Muvane nourcmmide uvoue zdle.</orig>
+            <reg>Animez d'une ardeur nouvelle, Venez remplir nos désis, Et faites que nos plaisirs Muvane nourcmide uvoue zdle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Chœur de Genies.</orig>
+            <reg>Chœur de Génies.</reg>
+          </seg>
+          <seg>
+            <orig>Animez d'une ardeur nouvelle Nous venons remplir vos delirs, dauus nous ſldion qua vus pimnno Devront leur charme à nôire zéle.</orig>
+            <reg>Animez d'une ardeur nouvelle Nous venons remplir vos délirs, dauus nous sldion qua vus pimno Devront leur charme à nôire zèle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>THALIE.</orig>
+            <reg>
+              <persName>THALIE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous qui ſçavez ſi bien, par une heureuſe adreſſe Ommei ls none cnagtms, damime me toms facbeus, Favorilez mes Soeurs, &amp; uielez dans leure leux quelques traits de votre allegreſſe.</orig>
+            <reg>Vous qui savez si bien, par une heureuse adresse Omi lois none cnagtms, damime me toms facbus, Favorilez mes Soeurs, et uielez dans lèvre leux quelques traits de votre allégresse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MELPOMENE, THALIE, TERPSICORE.</orig>
+            <reg>MELPOMENE, THALIE, TERPSICORE.</reg>
+          </seg>
+          <seg>
+            <orig>Que nos leur vont avoit de charmies!</orig>
+            <reg>Que nos leur vont avait de charmiez!</reg>
+          </seg>
+          <seg>
+            <orig>Tous nos chant vont inſpirer l’Amout, Venez tous, rendez.</orig>
+            <reg>Tous nos chant vont inspirer l'Amout, Venez tous, rendez.</reg>
+          </seg>
+          <seg>
+            <orig>luy les armes, Il eſt doux dann cet heureux ſejous.</orig>
+            <reg>Ne les armes, Il est doux dann cet heureux séjous.</reg>
+          </seg>
+          <seg>
+            <orig>Que nos leux vont avolr de charmes!</orig>
+            <reg>Que nos leux vont avolr de charmes!</reg>
+          </seg>
+          <seg>
+            <orig>rous nas emis vous impherpaiuou Ce n’eſt plus le temps des allaimes, ces Plaifirs ſont euſin de retour, Que nos leux vont Avoir de charmes!</orig>
+            <reg>rous nas émis vous impherpaiuou Ce n'est plus le temps des allaimes, ces Plaifirs sont eusin de retour, Que nos leux vont Avoir de charmes!</reg>
+          </seg>
+          <seg>
+            <orig>Tous nus chants vont iuſpiret l'Amous.</orig>
+            <reg>Tous nus chants vont juspiret <persName>l'Amous</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MERCURE.</orig>
+            <reg>MERCURE.</reg>
+          </seg>
+          <seg>
+            <orig>luplter va patoitte, Redoubiez vos eftoits pour plaiſe à vone Mante.</orig>
+            <reg>luplter va pataitte, Redoubiez vos es pour plaise vone <persName>Mante</persName></reg>
+          </seg>
+          <seg>
+            <orig>Chœur.</orig>
+            <reg>Chœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Chœur.</orig>
+            <reg>Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Iupiter ve paroître.</orig>
+            <reg><persName>Jupiter</persName> vue paraître.</reg>
+          </seg>
+          <seg>
+            <orig>Redoub ons nos effortt pour plaire à noire Mattre.</orig>
+            <reg>Redoub ons nos effortt pour plaire à noire Mattre.</reg>
+          </seg>
+          <seg>
+            <orig>Dans ce moment Jupiter paroiſt dans ſonChar.</orig>
+            <reg>Dans ce moment <persName>Jupiter</persName> paraît dans sonChar.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IPITER.</orig>
+            <reg>
+              <persName>IPITER</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il ne manque aux apprêts de la Fête nouvelle, Que Mereute à ſoit préparet, Que le choix du Heros qu'on y doit celebrer, Le ſoin de le choiſit aupres de vous m'appelle.</orig>
+            <reg>Il ne manque aux apprêts de la Fête nouvelle, Que Mèreute à soit préparet, Que le choix du Héros qu'on y doit célébrer, Le soin de le choisit auprès de vous m'appelle.</reg>
+          </seg>
+          <seg>
+            <orig>Renouvellez dans vos leux Le ſouvenir de l’invincible Achile, Et raprellez dans une Cour tranquile, L’H’ſtoire &amp; les Combats de ce Guertier fameux.</orig>
+            <reg>Renouvelez dans vos leux Le souvenir de l'invincible <persName>Achille</persName>, Et raprellez dans une Cour tranquille, L'HIstoire et les Combats de ce Guertier fameux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MELPGRENE, TERPOPGORE,</orig>
+          <reg>MELPGRENE, TERPOPGORE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>THALSE.</orig>
+            <reg>THALSE.</reg>
+          </seg>
+          <seg>
+            <orig>Renouvellone du nos letx, Le ſouv enh de lhrincibn Aemie:</orig>
+            <reg>Renouvelone du nos letx, Le souv enh de lhrincibn Emie:</reg>
+          </seg>
+          <seg>
+            <orig>Et roppellons dens une Cour uiauquile L’Hiſtoire de les Combats de et daenier fautm.</orig>
+            <reg>Et roppelons dens une Cour uiauquille L'Histoire de les Combats de <persName>et</persName> daenier fautm.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UTESER.</orig>
+            <reg>OUTESER.</reg>
+          </seg>
+          <seg>
+            <orig>I 6 Comatebious vee ieunue plus grand Roy du monO Formez ſut luy tous les Portraits De vos Heros les plus pat faits, L.</orig>
+            <reg>I 6 Comactebious ve jeunue plus grand Roi du mon Formés sut lui jours les Portraits De vos Héros les plus pat faits, L.</reg>
+          </seg>
+          <seg>
+            <orig>Sa valeur, ſa bonté, ſa lageſſe profonde, Vous prêteront d’inimitables traits.</orig>
+            <reg>Sa valeur, sa bonté, sa lagesse profonde, Vous prêteront d'inimitables traits.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A 4</orig>
+          <reg>A 4</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Chœur.</orig>
+          <reg>Chœur.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Chœur.</orig>
+            <reg>Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Conſaerons tous nos leux au plus grand Roy du monde, Sa valeur, ſa bonté, ſa ſageſſe profonde Nous prêteront d’inimitables traits, Conſacrons tous nos leux au plus grand Roy du monde.</orig>
+            <reg>Consérons tous nos leux au plus grand Roi du monde, Sa valeur, sa bonté, sa sagesse profonde Nous prêteront d'inimitables traits, Cons tous nos leux au plus grand Roi du monde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A</orig>
+          <reg/>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Sourc ffr ationale de France</orig>
+          <reg>Sourc ffr ationale de <placeName>France</placeName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTEURS DE LA TRACEDIE.</orig>
+          <reg>ACTEURS DE LA TRACEDIE.</reg>
+        </seg>
+        <seg>
+          <orig>AXCHILE, Roy de Theſſalie.</orig>
+          <reg><persName>AXCHILE</persName>, <func>Roi de Thessalie</func></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>PATROCLE, Amy d’Achile.</orig>
+          <reg><persName>PATROCLE</persName>, Ami d'Achille.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>DIONEDE, L’un des Chefs de l’Armée des Grecs.</orig>
+          <reg>DIONEDE, L'un des Chefs de l'Armée des Grecs.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENUS.</orig>
+            <reg>
+              <persName>VENUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Les Graces, les Amours, &amp;les Plaiſirs qui ſuivins VINUS.</orig>
+            <reg>Les Grâces, les Amours, etles Plaisirs qui suivins <persName>VINUS</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ARCAS, Confdeut d’Achile.</orig>
+          <reg><persName>ARCAS</persName>, Confdut d'Achille.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>AGAMEMNON, Roy de Myeene, &amp; d’Argo, Chef de tous les Grecs.</orig>
+          <reg><persName>AGAMEMNON</persName>, <func>Roi de Myeène</func>, et d'Argo, Chef de tous les Grecs.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>PRIAM, Roy de Troye.</orig>
+          <reg><persName>PRIAM</persName>, <func>Roi de Troie</func></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>A</orig>
+          <reg/>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>AN</orig>
+          <reg>
+            <persName>AN</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANDROMAQUE, veuve d’Hector fils de Priam.</orig>
+            <reg><persName>ANDROMAQUE</persName>, veuve <persName>d'Hector</persName> fils de <persName>Priam</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>POLIAENE, fille de Priam.</orig>
+          <reg><persName>POLIANE</persName>, fille de <persName>Priam</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>BRIBEES, Princeſſe Priſonniere d’Achile.</orig>
+          <reg>BRIBES, Princesse Prisonnière d'Achille.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>JURONO</orig>
+          <reg>
+            <persName>JURONO</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>La Hayne, la Diſcorde, la Fureur, l'Envie.</orig>
+          <reg>La Haine, la Discorde, la Fureur, l'Envie.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Suite de la Diſcorde.</orig>
+          <reg>Suite de la Discorde.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Troyens.</orig>
+          <reg>Troupe de Troyens.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Trcupe de Troyennes.</orig>
+          <reg>Trcupe de <placeName>Troyennes</placeName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Troupe de Theſſaliens.</orig>
+          <reg>Troupe de Thessaliens.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACHI</orig>
+          <reg>ACHY</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACHILE, TRAGEDIE.</orig>
+          <reg><persName>ACHILE</persName>, TRAGÉDIE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE PREMIER.</orig>
+          <reg>ACTE PREMIER.</reg>
+        </seg>
+        <seg>
+          <orig>Le Theatre repreſente l’Iſte de Tenede, ou Achille s’eſt retiré auprés de ſes Vaiſſeaux, depuis ſa querelle avec Agamemnon.</orig>
+          <reg>Le Théâtre représente l'Ite de <persName>Ténède</persName>, ou <persName>Achille</persName> s'est retiré auprès de ses Vaisseaux, depuis sa querelle avec <persName>Agamemnon</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>DoAvon IliM Eo ACHILE, PATROCLE.</orig>
+          <reg>DoAvon IliM Eo <persName>ACHILE</persName>, <persName>PATROCLE</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PATROCLE.</orig>
+            <reg>
+              <placeName>PATROCLE</placeName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>On, je ne ſçaurois plus me talre, Ie vous dois un conſeil ſiticere;</orig>
+            <reg>On, je ne saurais plus me talère, Je vous dois un conseil sitice;</reg>
+          </seg>
+          <seg>
+            <orig>Ne rougiſtez-vous point d’un indigne repos?</orig>
+            <reg>Ne rougistez-vous point d'un indigne repos?</reg>
+          </seg>
+          <seg>
+            <orig>Quand les Grecs agitez de mortelles allatmes,</orig>
+            <reg>Quand les Grecs agités de mortelles allatmes,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A 8 Implorent à genoux le ſecours de vos armes, Contre Hector, aprét vous, le plus grand des Heros.</orig>
+          <reg>A 8 Implorent à genoux le secours de vos armes, Contre <persName>Hector</persName>, après vous, le plus grand des Héros.</reg>
+        </seg>
+        <seg>
+          <orig>Tantôt ce guerrler tertible, Des Grecs épouventez, embraſe les Vaiſſeaux;</orig>
+          <reg>Tantôt ce guerrler tertible, Des Grecs épouventez, embrase les Vaisseaux;</reg>
+        </seg>
+        <seg>
+          <orig>Taniôt ſon bras invincible, Fait rougir de leur ſang, &amp; la terre &amp; les eaux,j .</orig>
+          <reg>Taniôt son bras invincible, Fait rougir de leur sang, et la terre et les eaux,je.</reg>
+        </seg>
+        <seg>
+          <orig>Il court de victoire en victoire.</orig>
+          <reg>Il court de victoire en victoire.</reg>
+        </seg>
+        <seg>
+          <orig>52i Chaque lour, le bruit de la gloire, Va remplir l'Vnlvers &amp; vole juſqu’à vous, Dei nomeuts qu'u oonen, nentes vous poirt jaloux?</orig>
+          <reg>52i Chaque lour, le bruit de la gloire, Va remplir l'Univers et vole jusqu'à vous, Di nomeuts qu'u oon, nentes vous poirt jaloux?</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie vois avec plaiſir les pertes de la Gtece, La valeus d’Hector m';</orig>
+            <reg>Je vois avec plaisir les pertes de la <placeName>Gtèce</placeName>, La valeus d'Hector m';</reg>
+          </seg>
+          <seg>
+            <orig>vangé, Le fier Agameninon conroitra ſa foibleſſe, Et ſe repentira de m’avoir outrage.</orig>
+            <reg>vengé, Le fier <persName>Agameninon</persName> controitra sa faiblesse, Et se repentira de m'avoir outrage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PATROCLE.</orig>
+            <reg>
+              <placeName>PATROCLE</placeName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Dequoy ſert à ce Roy cour able D’avoir oſe vous ravir Briſes ?</orig>
+            <reg>Dequoy sert à ce Roi cour able D'avoir ose vous ravir <persName>Brises</persName> ?</reg>
+          </seg>
+          <seg>
+            <orig>Son attentat reçoit un digne prix, ( Et pour luy Brilels paroiſt inexorable, Quand un nva ponant vient toueſer nas alnours, Si l’oblet de nos vœux luy reſiſte icûjours, Eſt-il de plus douce vengeance Que de voir ce tival aimer ſans eſperance!</orig>
+            <reg>Son attentat reçoit un digne prix, ( Et pour moi Brilels paraît inexorable, Quand un néva ponant vient toueser nas alours, Si l'oblet de nos vœux était résiste icujours, Est-il de plus douce vengeance Que de voir ce tival aimer sans espérance!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Connoy mieux les raiſon de mon luſle coutrous, Ce n'eſt point ſeulement par un déplt jaloux, Que je tefuſe aux Grees un ſecours neceſlaire, Ils ont marqué trop de méprl pour moy, Ils m’ont laiſſe ſublr la vlolente Loy De leur Chef temeraire.</orig>
+            <reg>Connoi mieux les raison de mon lûle coutrous, Ce n'est point seulement par un déplt jaloux, Que je tefuse aux <persName>Grees</persName> un secours neceslaire, Ils ont marqué trop de méprl pour moi, Ils m'ont laisse sublr la vlolente Loi De leur Chef téméraire.</reg>
+          </seg>
+          <seg>
+            <orig>Non, jamais leurs malheurs ne ſ̧auroieut m’émouvoir, Lauts Volſſeaux embraſez, leurs Troupes fugluves;</orig>
+            <reg>Non, jamais leurs malheurs ne sauraient m'émouvoir, Lauts Volsseaux embrasés, leurs Troupes fugluves;</reg>
+          </seg>
+          <seg>
+            <orig>Leur Camp détruit, tout leuts Rois ſans pouvolr, Leura Lauis corps épais fur ces ſanglantes rives Scroient encor des obyets impulſſans, vourlempeuuteurmeeuel laccueopelen</orig>
+            <reg>Leur Camp détruit, tout luts Rois sans pouvolr, <persName>Leura Lavis</persName> corps épais fur ces sanglantes rives Scraient encor des objets impulssants, vourlempeuuteurmeeuel lacueopelen</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PATROCLE.</orig>
+            <reg>
+              <placeName>PATROCLE</placeName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>* Eh bien!</orig>
+            <reg>* Eh bien!</reg>
+          </seg>
+          <seg>
+            <orig>d'un œll content regardez nos allarmes;</orig>
+            <reg>d'un œll content regardez nos alarmes;</reg>
+          </seg>
+          <seg>
+            <orig>Mais quand vous nous meptilez tous, Du moins accordez moy ces armes que Vilcain prepara pour vous;</orig>
+            <reg>Mais quand vous nous meptilez tous, Du moins accordez moi ces armes que <persName>Vilcain</persName> prépara pour vous;</reg>
+          </seg>
+          <seg>
+            <orig>I'irai combatre Hector, &amp; me combler de gloire, Ic reimponeray la ticone s Où j’capireray ſous ces coups.</orig>
+            <reg>J'irai combattre <persName>Hector</persName>, et me combler de gloire, Ic reimponeray la ticomone s Où j'apirera sous ces coups.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Qu'oſes.</orig>
+            <reg>Qu'oses.</reg>
+          </seg>
+          <seg>
+            <orig>tu propoſer Dieurſque viens-je d'entendie?</orig>
+            <reg>tu proposer Dieursque viens-je d'entendie?</reg>
+          </seg>
+          <seg>
+            <orig>Ie commenre à trembler pour la premlere fois, Quand je ſonge au combat que tu veux entreprendre,</orig>
+            <reg>Je commenre à trembler pour la premère fois, Quand je songe au combat que tu veux entreprendre,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PAT ROCLE.</orig>
+            <reg>PAT ROCLE.</reg>
+          </seg>
+          <seg>
+            <orig>Au nom d’une amitié qui fut toſjours ſi tendre, Perinettez moy d’imiter vos exploits.</orig>
+            <reg>Au nom d'une amitié qui fut toujours si tendre, Périnettez moi d'imiter vos exploits.</reg>
+          </seg>
+          <seg>
+            <orig>Ie connois les perils uu mon deſſein m’engasc.</orig>
+            <reg>Je connais les périls u mon dessein m'engasc.</reg>
+          </seg>
+          <seg>
+            <orig>Tout ſenible m’onnoncer les ſers ou le trepas, Mait ſi j’en croy mon courare, Ce ſuperbe entemy ne tilomphera pas,</orig>
+            <reg>Tout sénible m'onnoncer les sers ou le trépas, Mait si j'en crois mon courare, Ce superbe entemi ne tilomphera pas,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>D'une vaine teneur je n'oy plus l’ame attelnte, Va combattre;</orig>
+            <reg>D'une vaine teneur je n'ois plus l'âme attelte, Va combattre;</reg>
+          </seg>
+          <seg>
+            <orig>le Ciel prendra ſoin de ton fort, Puiſque ton cœur eſt ſant erainte,,, Ton bras ne ſera que trop fort.</orig>
+            <reg>le Ciel prendra soin de ton fort, Puisque ton cœur est sant erainte, Ton bras ne sera que trop fort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PATROCLE.</orig>
+            <reg>
+              <placeName>PATROCLE</placeName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie coure aſſurer ma memoire.</orig>
+            <reg>Je coure assurer ma mémoire.</reg>
+          </seg>
+          <seg>
+            <orig>I'ay tous les tentimens &amp; les ſoins des Heros , Non, les jours les plus doux paſſen dans le repos Ne valent pas un juur marque par la victoire.</orig>
+            <reg>J'ai tous les tentiments et les soins des Héros , Non, les jours les plus doux passen dans le repos Ne valent pas un juur marque par la victoire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACHILE.</orig>
+          <reg>
+            <persName>ACHILE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>SCENE SECONDE,</orig>
+          <reg>SCÈNE SECONDE,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE, ſeul.</orig>
+            <reg><persName>ÀCHILE</persName>, seul.</reg>
+          </seg>
+          <seg>
+            <orig>Atrocle va combattre?</orig>
+            <reg><persName>Atrocle</persName> va combattre?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; j'ay pſt conſentir Qu’il courut aux dangers qui menaſſent ſa vie!</orig>
+            <reg>et j'ai pût consentir Qu'il courut aux dangers qui menacent sa vie!</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>je de vois l’empécher de partlr, Hélas de qu'ela regrets ſa moit leroit ſirivie?</orig>
+            <reg>je de vois l'empêcher de partla <persName>Réglas</persName> de qu'ellea regrets sa moit lerait sirivie?</reg>
+          </seg>
+          <seg>
+            <orig>Si le ſort lirlté pour accabler mon cœur Le ſaiſoit expirer ſous le fer d’un vainqueur.</orig>
+            <reg>Si le sort lirlté pour accabler mon cœur Le saisait expirer sous le fer d'un vainqueur.</reg>
+          </seg>
+          <seg>
+            <orig>Prevenez juſtes Dieux, mon deſeſpoir funeſte!</orig>
+            <reg>Prévenez justes Dieux, mon désespoir funeste!</reg>
+          </seg>
+          <seg>
+            <orig>Cét amy genereur, eſt le ſeul qui me reſte, Conſervez ſes jours par plué!</orig>
+            <reg>Cet ami généreur, est le seul qui me reste, Conservez ses jours par plué!</reg>
+          </seg>
+          <seg>
+            <orig>On m’a privé de l'objet que j'adore, Ce ſeroit trop d’horreur de me prlver encore De P'objer de mon amitie.</orig>
+            <reg>On m'a privé de l'objet que j'adore, Ce serait trop d'horreur de me prêver encore <persName>De P'objer</persName> de mon amitié.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>e MbA MB.</orig>
+          <reg>Je MA MB.</reg>
+        </seg>
+        <seg>
+          <orig>ACHILE, DIOMEDE.</orig>
+          <reg><persName>ACHILE</persName>, DIOMEDE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>I DIOMEDE.</orig>
+            <reg>I DIOMEDE.</reg>
+          </seg>
+          <seg>
+            <orig>E répondrez-vous point aux deſtu de la Grece?</orig>
+            <reg>E répondrez-vous point aux destu de la <placeName>Grèce</placeName></reg>
+          </seg>
+          <seg>
+            <orig>Il ſaut qu’en ſa faveur voire colere ceſſe, eſſe ne peut tans vous miompner det Troyens, En vain nous aſſiegeons leur ville, Nos Dleux ſont moine forts que les ſiens, Sa priſe eſt reſeivée à la valeur d’Achile.</orig>
+            <reg>Il saut qu'en sa faveur voire colère cesse, esse ne peut tans vous miompner de <placeName>Troyens</placeName>, En vain nous assiégeons leur ville, Nos Dleux sont moine forts que les siens, Sa prise est reseivée à la valeur <persName>d'Achille</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>De quel employ vous chargez-voue!</orig>
+            <reg>De quel emploi vous chargez-voue!</reg>
+          </seg>
+          <seg>
+            <orig>N emciez pas de nem moncounoui, Dlomede, Je veunacherer ma vangeance:</orig>
+            <reg> Nemciez pas de ne moncounoui, Dlomede, Je veunacherer ma vengeance:</reg>
+          </seg>
+          <seg>
+            <orig>Vos Rois &amp; vos Peuples ingian, olent encor pour moy li même indillerence, S'ils n’avolent beſoln de mon bras.</orig>
+            <reg>Vos Rois et vos Peuples ingian, olent encor pour moi li même indillerence, S'ils n'avolent besoln de mon bras.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEDE.</orig>
+            <reg>
+              <persName>DIOMEDE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quoy!</orig>
+            <reg>Quoi!</reg>
+          </seg>
+          <seg>
+            <orig>leur prompt repentir ne peut vous ſatis-ſaire!</orig>
+            <reg>leur prompt repentir ne peut vous satî-zaïre!</reg>
+          </seg>
+          <seg>
+            <orig>Acui</orig>
+            <reg>Acui</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A CHILE.</orig>
+            <reg>À CHILE.</reg>
+          </seg>
+          <seg>
+            <orig>Ils ont pris trop de ſoin d'attirer ma coleis.</orig>
+            <reg>Ils ont pris trop de soin d'attirer ma colis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEDE.</orig>
+            <reg>
+              <persName>DIOMEDE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Mais pouvez vous, aimer un ſi triſte ſejour, Et languit en ces lieux dans une vle obſcurt.</orig>
+            <reg>Mais pouvez -vous, aimer un si triste séjour, Et languit en ces lieux dans une veule obscurt.</reg>
+          </seg>
+          <seg>
+            <orig>t.</orig>
+            <reg>t.</reg>
+          </seg>
+          <seg>
+            <orig>Vous ià qui les Deſtins promettoient chaque jout Quelque glorleuſe avanture.</orig>
+            <reg>Vous jà qui les Destins promettaient chaque jout Quelque glorleuse aventure.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Malgré mes cruels déplaiſirs, La béeſſe de Cytheie En faveur de Thetis ma mere Interromut mes iegren, &amp; ſuſpend mes ſoſtpin, Cette charmante Déeſſe vient en ces lleux tous lesjouss, Ie vols avee elle ſans ceſſe Let glaces, les plaiſts, les jeus cc les amoura;</orig>
+            <reg>Malgré mes cruels déplaisirs, La béesse de <persName>Cysthéie</persName> En faveur de <persName>Thétis</persName> ma mère Interromut mes iegren, et suspend mes sostpin, Cette charmante Déesse vient en ces lleux tous lesjouss, Je vols ave elle sans cesse Let glaces, les plaîts, les jeus ç les ca;</reg>
+          </seg>
+          <seg>
+            <orig>Leur preſence eſt d’un grand ſecouta Contre la plus ſombre triteſſe,</orig>
+            <reg>Leur présence est d'un grand secouta Contre la plus sombre tritesse,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMREE.</orig>
+            <reg>DIOMRE.</reg>
+          </seg>
+          <seg>
+            <orig>Oeſt poun ierris nos ennemis Qu’on prend ces ſoins mon els à votre gloire, Songez que de vars ſoul depend nôtee vlctoire, Et que tout notre loit en vos malns eſt remls, Faut-il que vôtre cœur ſe Ilvre A lamour des vains plaiſiis?</orig>
+            <reg>Oest poun jerris nos ennemis Qu'on prend ces soins mon ès à votre gloire, Songez que de vars soul dépend nôtee vlctoire, Et que tout notre loit en vos malns est remls, Faut-il que votre cœur se Ilvre A lamour des vains plaisiis?</reg>
+          </seg>
+          <seg>
+            <orig>Quelque douceur que l'on gonte à les ſuivie, vn Hleros doit ſoimez de plus uobles delite.</orig>
+            <reg>Quelque douceur que l'on gonte à les suivie, un Héros doit soimez de plus obles délite.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE La Déeſſe paroiſt?</orig>
+            <reg><persName>ACHILE</persName> La Déesse paraît?</reg>
+          </seg>
+          <seg>
+            <orig>&amp; oda ſa pieſence Donne à ces lieux millé beaures, I'admire ſes bien-faits, j’admire ſa puiſſines, Trop heureux de joliir, ſur tes bords écaitez DO plaiſlis innocens qui me ſont preſenter,</orig>
+            <reg>et oda sa pies Donne à ces lieux millé beaures, J'admire ses bienfaits, j'admire sa puissines, Trop heureux de joliir, sur tes bords écaitez DO plaislis innocents qui me sont présenter,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACHILE, SCENE QUATRIB'ME.</orig>
+          <reg><persName>ACHILE</persName>, SCÈNE QUATRIB'ME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENUS, ACHILE.</orig>
+            <reg><persName>VENUS</persName>, <persName>ACHILE</persName></reg>
+          </seg>
+          <seg>
+            <orig>Venus paroiſt en l'air avec l’amour;</orig>
+            <reg><persName>Venus</persName> paraît en l'air avec l'amour;</reg>
+          </seg>
+          <seg>
+            <orig>elle eſt accompagnée des Graces, &amp; des Plaiſirs:</orig>
+            <reg>elle est accompagnée des Grâces, et des Plaisirs:</reg>
+          </seg>
+          <seg>
+            <orig>le nüage qui les porte deſcend juſques au bas du Amounnonuu en juinomtuu Ouuungeſe va perdre dans les Airi.</orig>
+            <reg>le nuage qui les porte descend jusques au bas du <persName>Amounonu</persName> en juinomtu Ouvunges va perdre dans les Airi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ENUS.</orig>
+            <reg>ENUS.</reg>
+          </seg>
+          <seg>
+            <orig>Abandonne leà Cieux, je deſcends ſur la Terres Pour finir de tes maur le déplorable cours, En vain l’injuſte ſoit t'a déclaté la gueire, Eſpere tout de mon ſecouts.</orig>
+            <reg>Abandonne le Cieux, je descends sur la Terres Pour finir de tes maur le déplorable cours, En vain l'injuste soit t'a déclaté la guère, Espere tout de mon secouts.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, Oivinitez almables, * Du plus grand des Heros chirmez le triſle cœus, Ef faites iuccéder à ſa vive douleur oophame de pur greables.</orig>
+            <reg>Vous, Oivinitez almables, * Du plus grand des Héros chirmez le trisle cœus, Ef faites iuccéder à sa vive douleur oophame de pur gréables.</reg>
+          </seg>
+          <seg>
+            <orig>* La Danſe de ce Divertiſſement à eſtéfaite par Monſieur de Leſtang.</orig>
+            <reg>* La Danse de ce Divertissement à estéfaite par <persName>Monsieur de Létang</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>OSDENSANGVISME.</orig>
+            <reg>OSDENSANGUISME.</reg>
+          </seg>
+          <seg>
+            <orig>ACHILE, LES GRACES, LES PLAISIRS.</orig>
+            <reg><persName>ACHILE</persName>, LES GRACES, LES PLAISIRS.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNE DES GRACES.</orig>
+            <reg>UNE DES GRACES.</reg>
+          </seg>
+          <seg>
+            <orig>Rand Heros, le Ciel vous eſt propice, Vos tertus ſe ſontrendre.</orig>
+            <reg>Rand Héros, le Ciel vous est propice, Vos tertus se sontrendre.</reg>
+          </seg>
+          <seg>
+            <orig>juſtice.</orig>
+            <reg>justice.</reg>
+          </seg>
+          <seg>
+            <orig>Tout conſpire aulourd’huy A finir voite ennuy.</orig>
+            <reg>Tout conspire aulourd'hui A finir cette ennui.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN PLATSIR.</orig>
+            <reg>UN PLATSIR.</reg>
+          </seg>
+          <seg>
+            <orig>cquiouscvauie vos eflarmes,</orig>
+            <reg>cquiouscvauie vos élarmes,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Sla lareun en ouront plus de charmes;</orig>
+            <reg>Sla lareun en ouront plus de charmes;</reg>
+          </seg>
+          <seg>
+            <orig>VLa Danſe de ce Divertiſſement à eſte faite pur.</orig>
+            <reg>VLa Danse de ce Divertissement à este faite pur.</reg>
+          </seg>
+          <seg>
+            <orig>Monſieur de Leſtang.</orig>
+            <reg>
+              <persName>Monsieur de Létang</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>TiepaPreparezvôtre cœur Au plus paifait tonheur.</orig>
+            <reg>TiepaPreparezvôtre cœur Au plus paifait tonheur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DEUX GRACES ET UN PLAISIR.</orig>
+            <reg>DEUX GRACES ET UN PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>quel mortel oſa jamais pretendte Les ſoins qu’iey nous venons vous rendre!</orig>
+            <reg>quel mortel osa jamais prétendte Les soins qu'ie nous venons vous rendre!</reg>
+          </seg>
+          <seg>
+            <orig>Quil veut les merlter Na quea vous ſmiter.</orig>
+            <reg>Quil veut les merlter Na que vous smiter.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNE DES GRACES.</orig>
+            <reg>UNE DES GRACES.</reg>
+          </seg>
+          <seg>
+            <orig>C'eſt pour vous que venus nous oppelle, Profitez de nôtre ardeur fidelle, Vous auiez en ce ſeux Tous les plaiſirs des Dieux.</orig>
+            <reg>C'est pour vous que venus nous opelle, Profitez de notre ardeur fidèle, Vous aviez en ce seux Tous les plaisirs des Dieux.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN PLAISIR.</orig>
+            <reg>UN PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>C'eſt en vain que la haine &amp; l'envle sont d’accord pour froubler tolte vis, Par notte heureur ſecours Vous en trlompherez todjours.</orig>
+            <reg>C'est en vain que la haine et l'envle sont d'accord pour froubler tolte vis, Par notte heureur secours Vous en tromphérez todjours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DEUX GRACES ET UN PLAISIR.</orig>
+            <reg>DEUX GRACES ET UN PLAISIR.</reg>
+          </seg>
+          <seg>
+            <orig>Fuiſſicevou pbt nodioins lavonore.</orig>
+            <reg>Fuissicevou pt nodioins lavonore.</reg>
+          </seg>
+          <seg>
+            <orig>Ne paſſer que des louis agreables!</orig>
+            <reg>Ne passer que des louis agréables!</reg>
+          </seg>
+          <seg>
+            <orig>Eſt.</orig>
+            <reg>Est.</reg>
+          </seg>
+          <seg>
+            <orig>il rien de ſi dour Que de vivre avec nous s</orig>
+            <reg>il rien de si dour Que de vivre avec nous s</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SCENE SIXIEME.</orig>
+            <reg>SCÈNE SIXIÈME.</reg>
+          </seg>
+          <seg>
+            <orig>ACHILE, LES GRACES, LES PLAISIRS, ARCAS.</orig>
+            <reg><persName>ACHILE</persName>, LES GRACES, LES PLAISIRS, <persName>ARCAS</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAS.</orig>
+            <reg>
+              <persName>ARCAS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>O Deplomble coup du ſort!</orig>
+            <reg>Ô Ôplomble coup du sort!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie fremis par le!</orig>
+            <reg>Je frémis par le!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAS.</orig>
+            <reg>
+              <persName>ARCAS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Pattocle eſt mort.</orig>
+            <reg><persName>Pattocle</persName> est mort.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACHI</orig>
+          <reg>ACHY</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ciel!</orig>
+            <reg>Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>quelle aſſreuſe nouvelle!</orig>
+            <reg>quelle assreuse nouvelle!</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez,moy, ſuyez de ces lleux, Vos appos, vos Concerts, &amp; tous les ſoins des Dieux Ne ſçauroient plus ciler mi mitene mortelle.</orig>
+            <reg>Laissez,moy, suivez de ces lleux, Vos appos, vos Concerts, et tous les soins des Dieux Ne sauraient plus ciler mi mitene mortelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENSSSETIEME.</orig>
+          <reg>SCENSETIEME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE, ARCAS.</orig>
+            <reg><persName>ACHILE</persName>, <persName>ARCAS</persName></reg>
+          </seg>
+          <seg>
+            <orig>N Ourons vanger cét amy que je pers, Que de ſang &amp; de morus tous ces champs ſoient couveres!</orig>
+            <reg> NOurons venger cet ami que je perds, Que de sang et de morus tous ces champs soient couverez!</reg>
+          </seg>
+          <seg>
+            <orig>Que ſon fier vainqueur perlſie!</orig>
+            <reg>Que son fier vainqueur perlsie!</reg>
+          </seg>
+          <seg>
+            <orig>Ie dois à P'amitté cejuſte ſacrifice.</orig>
+            <reg>Je dois à <persName>P'amitté</persName> cejuste sacrifice.</reg>
+          </seg>
+          <seg>
+            <orig>Manes de ce Guetrler dont je pleure le ſort, Ie yous promete uné prompie vangeance, I'en atteſte des Dieux la ſuptéme puiſſance, Ie cours chercher Hectoi, je coure hâter ſa morte Dans l'eternelle nuit fon ombre ve vous ſuivte, Ou moy même aujourd’huy je ceſſeray de vlvre,</orig>
+            <reg>Manes de ce Guetrler dont je pleure le sort, Je yous prometé uné prompie vengeance, J'en atteste des Dieux la suptéme puissance, Je cours chercher <persName>Hectoi</persName>, je coure hâter sa morte Dans l'éternelle nuit son ombre venge vous suivte, Ou moi -même aujourd'hui je cesserai de vlvre,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du premier Aſte,</orig>
+          <reg>Fin du premier <persName>Aste</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE SECOND.</orig>
+          <reg>ACTE SECOND.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Theatre repreſente le Camp des Grecs devant Troye;</orig>
+            <reg>Le Théâtre représente le Camp des Grecs devant <placeName>Troie</placeName></reg>
+          </seg>
+          <seg>
+            <orig>ćette ſuperbe Ville paroit dans I'eſoignoment.</orig>
+            <reg>ćette superbe Ville parait dans <persName>J'esoignoment</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE PREMIERE.</orig>
+          <reg>SCÈNE PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>AGAMEMNON, DIOMEDE.</orig>
+          <reg>AGAMEMNON, DIOMEDE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEDE.</orig>
+            <reg>
+              <persName>DIOMEDE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vis qu’Achile combat, nous allons triompher, Nôtre victoire eſt certaine, Ceſlez de le haïr, hâtez-vous d’étouffer Le malhéureur Amour qui cauſe vôtre haine.</orig>
+            <reg>Vis qu'Achille combat, nous allons triompher, Notre victoire est certaine, Céslez de le haïr, hâtez-vous d'étouffer Le malhéureur Amour qui cause votre haine.</reg>
+          </seg>
+          <seg>
+            <orig>Vous devez rendre à ee HeroLe charmant oujet de ſa flanie.</orig>
+            <reg>Vous devez rendre à ce HéroLe charmant oujet de sa flanie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A e a m a d see.</orig>
+            <reg>A À a m à d zée.</reg>
+          </seg>
+          <seg>
+            <orig>Ah, a’ij faut à ce prir aſſute ſon repos, Dieux !</orig>
+            <reg>Ah, aj faut à ce prir assute son repos, Dieux !</reg>
+          </seg>
+          <seg>
+            <orig>qu’il en coſtera de tourmens à moneme!</orig>
+            <reg>qu'il en côtera de tourments à monème!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEHE.</orig>
+            <reg>DIOMEHÉ.</reg>
+          </seg>
+          <seg>
+            <orig>Si vous pouvlez fléchir la çruelle beauté, Bont votreteas cu camhantey Pexcuſetols une inſuſtles Qui finit oit votre ſort rigoureux:</orig>
+            <reg>Si vous pouvlez fléchir la çruelle beauté, Bont votreteas ç amhantey Pexcusets une insutles Qui finit oit votre sort rigoureux:</reg>
+          </seg>
+          <seg>
+            <orig>Mals je dois condamner un ſuneſte caprice Qui vous seud tout enſemble injuſte &amp; malheureux</orig>
+            <reg>Mals je dois condamner un suneste caprice Qui vous seud tout ensemble injuste et malheureux</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGAMEMNON.</orig>
+            <reg>
+              <persName>AGAMEMNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray que j'attaque un eour inexorable, ie ne puis flechir ſa rigueur;</orig>
+            <reg>Il est vrai que j'attaque un eour inexorable, tu ne puis fléchir sa rigueur;</reg>
+          </seg>
+          <seg>
+            <orig>Mais contez-vous pour rien la flateuſe douceut De rendre un ilval miſerable!</orig>
+            <reg>Mais contez-vous pour rien la flatteuse doucut De rendre un ilval misérable!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEDE.</orig>
+            <reg>
+              <persName>DIOMEDE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le malheur d'un rival flate-t'il vôtte enpuy, Quand vous eſtes encor plus malheureux que luy!</orig>
+            <reg>Le malheur d'un rival flatte-t'-il vôtte enpui, Quand vous êtes encor plus malheureux que lui.</reg>
+          </seg>
+          <seg>
+            <orig>RoppelRappellez vôtre coutage, Que la talſon vous degege 8e dea iistq ameules</orig>
+            <reg>RopelRappelez votre coutage, Que la talson vous degege 8e dea jitq ameules</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGAMEMNON.</orig>
+            <reg>
+              <persName>AGAMEMNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>que peut de la ralſon le tilſte &amp; vain ſeceurs Contie les tralts vainqueurs d’une beauté cruelle!</orig>
+            <reg>que peut de la ralson le tilste et vain seceurs Contie les tralts vainqueurs d'une beauté cruelle!</reg>
+          </seg>
+          <seg>
+            <orig>Quaod l’Amout à nos yeux vlent l'oſtut tous lerſouus Avec quelque grace nouvelle.</orig>
+            <reg>Quaod l'Amout à nos yeux vlent l'ôtut tous lersouus Avec quelque grâce nouvelle.</reg>
+          </seg>
+          <seg>
+            <orig>Ranimons toutefols mon courage abatu.</orig>
+            <reg>Ranimons toutefols mon courage abattu.</reg>
+          </seg>
+          <seg>
+            <orig>C'eſt noi rrii trop long-temps une vaine teudreſſe, auimanious ma foloſsne Ter un deruler effoit digne de ma vertu.</orig>
+            <reg>C'est noi ri trop longtemps une vaine teudresse, auimanious ma folossne Ter un deruler effait digne de ma vertu.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMEDE.</orig>
+            <reg>
+              <persName>DIOMEDE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Achile eſt trlomphant, Je le vols qui s’avance Suluy de nos Soſdats, charmez de ſi valeur.</orig>
+            <reg><persName>Achile</persName> est tromphant, Je le vols qui s'avance Sului de nos Sosdats, charmés de si valeur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACAASANON Flolgnons.</orig>
+            <reg><persName>ACASANON</persName> Flolgnons.</reg>
+          </seg>
+          <seg>
+            <orig>nous, evitons la preſence, Ie ne lçaurou encor repondre de mon eœur.</orig>
+            <reg>nous, évitons la présence, Je ne laurou encor répondre de mon eœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MeidOO.</orig>
+            <reg>
+              <persName>MeidOO</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ACHILE, CHETS ET SOLDATS</orig>
+            <reg><persName>ACHILE</persName>, CHÉTS ET SOLDATS</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GRECS.</orig>
+            <reg>GRECS.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S Gbœur.</orig>
+            <reg>
+              <persName>S Gbœur</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Verilet tetilble, Soyez toulours invinclble.</orig>
+            <reg>Vérilet tetilble, Soyez toulours invinclble.</reg>
+          </seg>
+          <seg>
+            <orig>Que vos 'x plolu Faſſent trembler tous les Rolt Ciel equitable;</orig>
+            <reg>Que vos 'x plolu Fassent trembler tous les Rolt Ciel équitable;</reg>
+          </seg>
+          <seg>
+            <orig>Sois luy toujours favorable, Que ſon ronheur .</orig>
+            <reg>Soisblé toujours favorable, Que son ronheur .</reg>
+          </seg>
+          <seg>
+            <orig>Soit egal à ſa valeur Guertlen terrlelẽ &amp;o4.</orig>
+            <reg>Soit égal à sa valeur Guertlen terrlement et4.</reg>
+          </seg>
+          <seg>
+            <orig>*La Danſe de ce d'vertiſſement à eſté faite par Mr.</orig>
+            <reg>*La Danse de ce d'évertissement à doute faite par Mr.</reg>
+          </seg>
+          <seg>
+            <orig>Pecoure.</orig>
+            <reg>Pecoure.</reg>
+          </seg>
+          <seg>
+            <orig>Quelle allerteſſe!</orig>
+            <reg>Quelle allertesse!</reg>
+          </seg>
+          <seg>
+            <orig>Quel irlouphe pour la Giece!</orig>
+            <reg>Quel irlouphe pour la <placeName>Gièce</placeName></reg>
+          </seg>
+          <seg>
+            <orig>Ses ennemle Luy ſeront blen-tot ſoumle.</orig>
+            <reg>Ses ennemle Lui seront blen-tôt soumle.</reg>
+          </seg>
+          <seg>
+            <orig>Guetdler tetrible soyez tpâjours lnvinclble, Que vos erulolte Faſſent trembler tout les Rois.</orig>
+            <reg>Guetler tetrible soyez tpâjours lnvinclble, Que vos erulolte Fassent trembler tout les Rois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DEUX CAPITAINES GRECE.</orig>
+            <reg>DEUX CAPITAINES GRÈCE.</reg>
+          </seg>
+          <seg>
+            <orig>Venez tous à l'envy ſecondes nôtte atdeur, Honnoiez votre heureux hetenſeur, Celebrez ſe victoire, Chantez là valeur &amp; ſe ploire.</orig>
+            <reg>Venez tous à l'envi secondes nôtte atdeur, Honnoyez votre heureux hétendeur, Clébrez se victoire, Chantez là valeur et se ploire.</reg>
+          </seg>
+          <seg>
+            <orig>que tous nos Rois Charmez de ſes Explolts colent ſoſuls à les loiz.</orig>
+            <reg>que tous nos Rois Charmés de ses Explolts colent sosuls à les lois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Chœur.</orig>
+            <reg>Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>suivons, ſuivons ſans ceſſe Ce Hero, ce fameux valnqueur, C’eſt à ſon bras, que la Grece Doit ſa fozce &amp; ſon bonheut.</orig>
+            <reg>suivons, suivons sans cesse Ce <persName>Hero</persName>, ce fameux valnqueur, C'est à son bras, que la <placeName>Grèce</placeName> Doit sa fozce et son bonheut.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Chœur.</orig>
+            <reg>Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Chantous la valeur &amp; ſa plojre Du Hleros qui nous a ſauvez, Qu’il jouiſle, apres ſe victolre Des honneurs éclatans à luy ſeul relervez;</orig>
+            <reg>Chantous la valeur et sa plojère Du Héros qui nous a sauvez, Qu'il jouisle, après se victolre Des honneurs éclatants à lui seul relevez;</reg>
+          </seg>
+          <seg>
+            <orig>Chamons là valeur &amp; la glolre un Helos quinous Alauvez.</orig>
+            <reg>Chamons là valeur et la glolère un <persName>Hélos</persName> quinous <persName>Alauvez</persName></reg>
+          </seg>
+          <seg>
+            <orig>De ſts heuteux travaus theuſtons la memolte, Conſacrons.</orig>
+            <reg>De sts heuteux travaus theutons la mémolte, Consacrons.</reg>
+          </seg>
+          <seg>
+            <orig>luy des jours qu’il nous a conlervez, Chantons la valeur &amp; la gloire Du Heros qui nous a ſaurez.</orig>
+            <reg>eux des jours qu'il nous a conlervez, Chantons la valeur et la gloire Du Héros qui nous a saurez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGHILE.</orig>
+            <reg>AGHILE.</reg>
+          </seg>
+          <seg>
+            <orig>Allez, que chaeun coure ou ſon devolr l'appelle, Vos ſoins pour moy ferolent trop de jaloux, E domes ennenils la vangeance cruelle Ne pourant m’accables tetomberoit ſur vous.</orig>
+            <reg>Allez, que chaeun coure ou son dévolr l'appelle, Vos soins pour moi ferolent trop de jaloux, dômes ennenils la vengeance cruelle Ne pourrant m'accables tomberait sur vous.</reg>
+          </seg>
+          <seg>
+            <orig>SCENE</orig>
+            <reg>SCÈNE</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACHILE, SCENE TROISIE'ME.</orig>
+          <reg><persName>ACHILE</persName>, SCÈNE TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ARCAS, PRIAM, ANDROMACl.</orig>
+          <reg><persName>ARCAS</persName>, PRIAM, ANDROMACl.</reg>
+        </seg>
+        <seg>
+          <orig>Ponlaune</orig>
+          <reg>
+            <persName>Ponlaune</persName>
+          </reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARGAS.</orig>
+            <reg>
+              <persName>ARGAS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Unes, marchez ſans défionce, Les Grecs vous ont donné leur ſoy.</orig>
+            <reg>Unes, marchez sans défionce, Les Grecs vous ont donné leur soi.</reg>
+          </seg>
+          <seg>
+            <orig>Achile eſt gencreur, cralgnen iuoins ia preſence, A qu’unomue, dicenes Succéde à vbue eſſtoy.</orig>
+            <reg><persName>Achille</persName> est gencreur, cralgnen juoins ja présence, A unomue, dicenes Succède à vbue esstoy.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SCENB QUATRIBME.</orig>
+            <reg>SCENB QUATRIBME.</reg>
+          </seg>
+          <seg>
+            <orig>PRIAM, ANDROMAQUE, POLIXENE.</orig>
+            <reg>PRIAM, ANDROMAQUE, POLIXENE.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>H PRIAM.</orig>
+            <reg>H PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Eſtes infortenez du plus beau ſaus du monde, Pollxene, ma ſne, &amp; vous reuve d’Hector, Melen vcs pleurs aux mieru, &amp; s ’il ſe peut encor.</orig>
+            <reg>Êtes infortenez du plus beau saus du monde, <persName>Pollxène</persName>, ma sne, et vous reve <persName>d'Hector</persName>, Melen us pleurs aux mierv, et s 'il se peut encor.</reg>
+          </seg>
+          <seg>
+            <orig>Que tour redouble ley noue douleur profonde.</orig>
+            <reg>Que tour redouble lei noue douleur profonde.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>u du de yveau ucdncos, POLIXENE.</orig>
+            <reg>Uu du de yveau ucdncos, POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Pulſſons.</orig>
+            <reg>Pulssons.</reg>
+          </seg>
+          <seg>
+            <orig>nou attendelr le coeus De ce ſuperbe vainqueur!</orig>
+            <reg>nou attendelr le cœur a ce superbe vainqueur!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SGBNE ENNQVIEME.</orig>
+            <reg>SGBNE ENQUIEME.</reg>
+          </seg>
+          <seg>
+            <orig>ACHILE, ARCAS, PRIAM, ANDROMAQUE, POLIXENE.</orig>
+            <reg><persName>ACHILE</persName>, <persName>ARCAS</persName>, PRIAM, ANDROMAQUE, POLIXENE.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Ous voyes, Guerrler in domptable, Vn Roy qui ſut long teure le plus pulſſant de Rois;</orig>
+            <reg>Ous voyez, Guerrler in domptable, Un Roi qui sut long ture le plus pulssant de Rois;</reg>
+          </seg>
+          <seg>
+            <orig>c'eſt ce même Prlam, qui louoit ſous le loix Des Troyeur reuummes, l'Empire redoutable;</orig>
+            <reg>c'est ce même <persName>Prlam</persName>, qui louait sous le lois Des Troyeur revummes, l'Empire redoutable;</reg>
+          </seg>
+          <seg>
+            <orig>C'eſt luy que le dernier de vos fameur Explolu, viens de rendre plus miſerable, Qu’il ne ſut heuieux auueſois.</orig>
+            <reg>C'est lui que le dernier de vos fameur Explolu, viens de rendre plus misérable, Qu'il ne sut hévieux auvesais.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGHILE.</orig>
+            <reg>AGHILE.</reg>
+          </seg>
+          <seg>
+            <orig>Le ſort ne peut changer l’auguſte caractere, Donit les Dleux vous ont retêtu, Ie le reſpecte en vous, je plyns votre ventu, Ie ſens expirer mia colere, du deme du teuu duddo puel pure euu sltot que je les vols ou valncus ou ſoumis.</orig>
+            <reg>Le sort ne peut changer l'auguste caractère, Donit les Dleux vous ont retêtu, Je le respecte en vous, je plins votre ventu, Je sens expirer mia colère, du dème du trou duddo puel pure eu soltôt que je les vols ou valncus ou soumis.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANDROMAQUE.</orig>
+            <reg>ANDROMAQUE.</reg>
+          </seg>
+          <seg>
+            <orig>I'ay perdu mon époux dons un combat ſuneſle, voire uoleur me l’e rary Mon amour, ches les morte, l'aurolt deja ſurvy.</orig>
+            <reg>J'ai perdu mon époux dons un combat sunèle, voire oleur me l'e rari Mon amour, chez les morte, l'aurolt déjà survi.</reg>
+          </seg>
+          <seg>
+            <orig>Sant les ſoins que je doia au ſeul ſih qui me reſte, Vous le ſçavent, Dleux que j'atteſte.</orig>
+            <reg>Sant les soins que je doia au seul sih qui me reste, Vous le savent, Dleux que j'atteste.</reg>
+          </seg>
+          <seg>
+            <orig>Au ſort de eet euſunt, mon ſorz eſt aſſeiry i Ie l’ay perdu cet épour que l'adore, Et pour comble d'honeut, je ſtay q'’il eſt encore Indigne.</orig>
+            <reg>Au sort de cet eusunt, mon sorz est asseiry y Ie j'ai perdu cet épour que l'adore, Et pour comble d'honeut, je stay je sais il est encore Indigne.</reg>
+          </seg>
+          <seg>
+            <orig>nent prlré, par des ordres cruels D'un drolt que le trepai donne à tous les mortel:</orig>
+            <reg>nent prlré, par des ordres cruels D'un drolt que le trepai donne à tous les mortel:</reg>
+          </seg>
+          <seg>
+            <orig>Souſſrez què je le rende auy murs qui l'ont vd nalire, Qu’un ſuperbe Tombeau laſſe du moins connolue La ſplendeur de ſon ſans, ſon ſort &amp; mon amour:</orig>
+            <reg>Soussés qu ' un rende avi murs qui l'ont voit nalire, Qu'un superbe Tombeau lasse du moins connue La splendeur de son sans, son sort et mon amour:</reg>
+          </seg>
+          <seg>
+            <orig>Ce Tombeaui ſervii de Temple à voire glolre, Puis que tout l’aveult y verie quelque lour Lhiſtoire de nos maux &amp; de votre victolm, .</orig>
+            <reg>Ce Tombeaui servi de Temple à voire glolre, Puis que tout l'aveult y vérie quelque lour Lhistoire de nos maux et de votre victolm, .</reg>
+          </seg>
+          <seg>
+            <orig>4</orig>
+            <reg/>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGEILE.</orig>
+            <reg>
+              <persName>AGEILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quels regrets!</orig>
+            <reg>Quels regrets!</reg>
+          </seg>
+          <seg>
+            <orig>quele triſtes accei!</orig>
+            <reg>quele tristes accei!</reg>
+          </seg>
+          <seg>
+            <orig>Dleux!</orig>
+            <reg>Dleux!</reg>
+          </seg>
+          <seg>
+            <orig>que ſa douleur eſt tendre!</orig>
+            <reg>que sa douleur est tendre!</reg>
+          </seg>
+          <seg>
+            <orig>Que ſes ſoupirs ſout puiſſans!</orig>
+            <reg>Que ses soupirs sout puissants!</reg>
+          </seg>
+          <seg>
+            <orig>Que je ſouſſre à les entendre!</orig>
+            <reg>Que je soussre à les entendre!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>PE i</orig>
+          <reg><persName>PE</persName> y</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Par vos ſacrez Ayeux, par le nom de Thedle, Laiſlez, moy reclſelllir le cendies de mon file.</orig>
+            <reg>Par vos sacrés Aïeux, par le nom de <persName>Thédle</persName>, Laislez, moi reclselllir le cendies de mon file.</reg>
+          </seg>
+          <seg>
+            <orig>Pour m’accorder la grace que j'eſpere Souvenez-tous de votte Pere, Et ſonſes que l'Amour il eut toûjours pour vous Ie ſentols pour mon fils une égale tendteſſe;</orig>
+            <reg>Pour m'accorder la grâce que j'espère Souvenez-tous de votte Père, Et sonses que l'Amour il eut toujours pour vous Je sentols pour mon fils une égale tendtesse;</reg>
+          </seg>
+          <seg>
+            <orig>Ah t jugez pat l’excés de cet Amour ſi doux Quel doit étre aujour d’huy l’excés de ina iuſteſſe.</orig>
+            <reg>Ah t jugez pat l'excès de cet Amour si doux Quel doit être aujour d'hui l'excès de ina justesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Que pourrojrle eſperer du ſecoura de nies pleur, Si mon Pere &amp; ma Soour vous trouvent luſterible!</orig>
+            <reg>Que pourrojrle espérer du secoura de nies pleur, Si mon Père et ma Sœur vous trouvent lustérible!</reg>
+          </seg>
+          <seg>
+            <orig>Si vous mépriſez leuis douleurs, A mes plainies, helas!</orig>
+            <reg>Si vous méprisez levis douleurs, À mes plainies, hélas!</reg>
+          </seg>
+          <seg>
+            <orig>lereravous plus ſenſible;</orig>
+            <reg>lereravous plus sensible;</reg>
+          </seg>
+          <seg>
+            <orig>Sorty du ſang des Dieux imitez leur bonté, as ſer ſcuyna scuuci eu ſavondle, N’augmenter-polut l’exces de nôtre adreiſité Par untefus impitorable.</orig>
+            <reg>Sorty du sang des Dieux imitez leur bonté, as ser scuyna scuci eu savondle, N'augmenter-polut l'excès de notre adreisité Par untefus impitorable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGHALE.</orig>
+            <reg>AGHALE.</reg>
+          </seg>
+          <seg>
+            <orig>Que peut on reſuſer au pouvoir de voe yeux!</orig>
+            <reg>Que peut on ressuser au pouvoir de voe yeux!</reg>
+          </seg>
+          <seg>
+            <orig>Vous pouvez tout en ees lieux.</orig>
+            <reg>Vous pouvez tout en ces lieux.</reg>
+          </seg>
+          <seg>
+            <orig>Raſſurez-vous, calmez la douleur qui vous preſſe, Emuortez daia vos iurs ce Heros glorieux, Ne cralgnez-point.</orig>
+            <reg>Rassurez-vous, calmez la douleur qui vous presse, Emuortez daia vos jurs ce Héros glorieux, Ne cralgnez-point.</reg>
+          </seg>
+          <seg>
+            <orig>les eſforts de la Gtece, I'arréteray ſes deſſelns furieux;</orig>
+            <reg>les esforts de la <placeName>Grèce</placeName>, J'arrêterai ses desselns furieux;</reg>
+          </seg>
+          <seg>
+            <orig>Sulvez paiueur qui vous anime, Rien ne jous troublera dans ce loin leglilme;</orig>
+            <reg>Sulvez paiveur qui vous anime, Rien ne jou troublera dans ce loin léglilme;</reg>
+          </seg>
+          <seg>
+            <orig>le he vals ſonger déſormals Qu'à vous donnet uné éteinelle paix.</orig>
+            <reg>le hé us songer désormals Qu'à vous donnet uné éteinelle paix.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du ſecond Acte.</orig>
+          <reg>Fin du second Acte.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENB PREMIERE.</orig>
+          <reg>SCENB PREMIÈRE.</reg>
+        </seg>
+        <seg>
+          <orig>ACHILE, ARCAS.</orig>
+          <reg><persName>ACHILE</persName>, <persName>ARCAS</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>En eſt ſatt, cher Arcas, j’adore Polizene luoy qu’il en coſte enſin, le veux la poſſeder, C’eſt toy que f'ay cholſi pour l'alles demandet, Coute à Troye, Il eſt temps de ſoulages ma pelne,</orig>
+            <reg>En est satt, cher <persName>Arcas</persName>, j'adore <persName>Polisène</persName> luoi qu'il en côte ensin, le veux la posséder, C'est toi que s'ai choli pour l'allés demandet, Coute à <placeName>Troie</placeName>, Il est temps de soulages ma pelne,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAL Son Pere à vôtre Amour voudra.</orig>
+            <reg><persName>ARCAL</persName> Son Père à votre Amour voudra.</reg>
+          </seg>
+          <seg>
+            <orig>t’il l'accorées!</orig>
+            <reg>t'il l'accorées!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ieu suop euuniou dde desemeues d M.</orig>
+            <reg>Jeu suop évuniou dde desemeues d <persName>M</persName></reg>
+          </seg>
+          <seg>
+            <orig>Et de me volt devenir ſon épour;</orig>
+            <reg>Et de me volt devenir son épour;</reg>
+          </seg>
+          <seg>
+            <orig>L'amitié que ce nœud fera naitte entre noue soutiendia deſormais ſon Thone &amp; ſa fauille,</orig>
+            <reg>L'amitié que ce nœud fera naite entre noue soutiendia désormais son <persName>Thone</persName> et sa faville,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAt.</orig>
+            <reg>ARCAt.</reg>
+          </seg>
+          <seg>
+            <orig>luſte Ciel!</orig>
+            <reg>luste Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>dee Troyens vous devenez l’appuy?</orig>
+            <reg>dee Troyens vous devenez l'appui?</reg>
+          </seg>
+          <seg>
+            <orig>Loin de les accabler vous voulez les deſendre?</orig>
+            <reg>Loin de les accabler vous voulez les désendre?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Contte un Peuple abatu, que pourolt-je entte-preudre Aprés ce que mon bras vlent de ſaire aujourd'huy!</orig>
+            <reg>Contte un Peuple abattu, que pourolt-je entte-preudre Après ce que mon bras vlent de zaïre aujourd'hui!</reg>
+          </seg>
+          <seg>
+            <orig>Hector ſeul meritoit la ploire De mourls par mes coups, reſte des Troyens apres cette vlctolre Eſt indigue de mon couttoux,</orig>
+            <reg><persName>Hector</persName> seul méritait la ploire De mourls par mes coups, reste des Troyens après cette vlctolre Est indigue de mon coutoux,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>didymxa ulv and alxl dMo.</orig>
+          <reg>didymxa ulv and axl dMo.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>vand apres un cruel tourment IL'aymen ſuccede P Aux tendres deſirs d’un Amant, Que le trouble qui precede Ce bleu heurcux moinent Eſt dour &amp; charmant!</orig>
+            <reg>vand après un cruel tourment IL'aimen succède P Aux tendres désirs d'un Amant, Que le trouble qui précède Ce leu heurcux moinent Est dour et charmant!</reg>
+          </seg>
+          <seg>
+            <orig>Mals on vlent en ces Lleux, ma ſurpriſt eſt estémel C'eſt Agame.</orig>
+            <reg>Mals on veulent en ces Lleux, ma surprît est estémel C'est <persName>Agame</persName></reg>
+          </seg>
+          <seg>
+            <orig>nnon luy-mſme.</orig>
+            <reg>nnon lui-mensme.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SLENDEGME.</orig>
+          <reg>SLENDEGME.</reg>
+        </seg>
+        <seg>
+          <orig>ACHILE, AGAMEMNON.</orig>
+          <reg><persName>ACHILE</persName>, <persName>AGAMEMNON</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGANEMNON.</orig>
+            <reg>
+              <persName>AGANEMNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>IE ne ſçaurois plus long-temps Conſecrer cohire vous mes chagrlns &amp; ma halne, M Amtes lu euplonsseicens ( Vn mouvement plus doux pres de vous me tamene:</orig>
+            <reg>JE ne saurais plus longtemps Consecrer cohire vous mes chagrîns et ma halne, <persName>M Amtes</persName> lu euplonsseicens ( Un mouvement plus doux pres de vous me tamène:</reg>
+          </seg>
+          <seg>
+            <orig>Avec les jours d’Hector nos perils ſont paſſez, Troye a perdu le bras qui pouvoit la deiendre.</orig>
+            <reg>Avec les jours d'Hector nos périls sont passez, <placeName>Troie</placeName> a perdu le bras qui pouvait la deviendre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>I'er falt mon det olr, c’eſt aſſet, Vons n’avez point de graces à me rendre:</orig>
+            <reg>J'er fallt mon dét ol, c'est asset, Vons n'avez point de grâces à me rendre:</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’ay point cil ſervir ceux qul m'ont outrage.</orig>
+            <reg>Je n'ai point cil servir ceux qu 'ont outrage.</reg>
+          </seg>
+          <seg>
+            <orig>Et c'eſt fetroele ſeul que mon bras a vaugé.</orig>
+            <reg>Et c'est fétroèle seul que mon bras a vaugé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACAMEMNON.</orig>
+            <reg>
+              <persName>ACAMEMNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>vâtre colere dure encore, Elle éclate dans vos diſcours:</orig>
+            <reg>votre colère dure encore, Elle éclate dans vos discours:</reg>
+          </seg>
+          <seg>
+            <orig>Il faut pour en finir le coure Vous rendre la beauté qui vous aime toſſours, Et que vôtre cœur adore.</orig>
+            <reg>Il faut pour en finir le coure Vous rendre la beauté qui vous aime tossours, Et que votre cœur adore.</reg>
+          </seg>
+          <seg>
+            <orig>neues, chamant oblet, reroyez votre amant.</orig>
+            <reg>névés, chamant oblet, reroyez votre amant.</reg>
+          </seg>
+          <seg>
+            <orig>SCE</orig>
+            <reg>
+              <persName>SCE</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A ACAMEMNON.</orig>
+            <reg>A <persName>ÀCAMEMNON</persName></reg>
+          </seg>
+          <seg>
+            <orig>Mes reſpecte, mes ſouplre, les maiques de ma ſlame N’ont falt qu’allumer ſon courtoux;</orig>
+            <reg>Mes respecte, mes souplre, les maiques de ma slame N'ont sal allumer son courtoux;</reg>
+          </seg>
+          <seg>
+            <orig>Ses conſtantes rigueur m’ont appils que ſon ame Ne peut brſler que pour vous.</orig>
+            <reg>Ses constantes rigueur m'ont appils que son âme Ne peut brsler que pour vous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIOMRDE.</orig>
+            <reg>
+              <placeName>DIOMRDE</placeName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Louïſſez du bouheur que l'amour vous preſente, Que voite ardeur s’augmente Dè moment en moment!</orig>
+            <reg>Louissez du bouheur que l'amour vous présente, Que voite ardeur s'augmente Dées moment en moment!</reg>
+          </seg>
+          <seg>
+            <orig>queven un plaur enamaus Aprés une ablence cruelle De ieuouver ſa Maltreſſe fidelle!</orig>
+            <reg>queven un plaur enamaus Après une ablence cruelle De ieuouver sa Maltresse fidèle!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE CINQUIEME.</orig>
+          <reg>SCÈNE CINQUIÈME.</reg>
+        </seg>
+        <seg>
+          <orig>ACHILE, BRISEIS.</orig>
+          <reg>ACHILE, BRISEIS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISESS.</orig>
+            <reg>BRISES.</reg>
+          </seg>
+          <seg>
+            <orig>Vel triſte acceüll, Dieux?</orig>
+            <reg>Vel triste accevll, Dieux?</reg>
+          </seg>
+          <seg>
+            <orig>qu'eſt ce que le voy?</orig>
+            <reg>qu'est ce que le vois?</reg>
+          </seg>
+          <seg>
+            <orig>auu iy cuol bmen ?</orig>
+            <reg>auu ji cuol bmen ?</reg>
+          </seg>
+          <seg>
+            <orig>Nſies Vuux mus Achile?</orig>
+            <reg>Nysies Vuux mus <persName>Achille</persName></reg>
+          </seg>
+          <seg>
+            <orig>Pouvez-vouz me tevoir, &amp; demeuler tranquie Qu'eſt devenu l'Amour dont vous brûllez pour moy?</orig>
+            <reg>Pouvez-vouz me tevoir, et demeuler tranquie Qu'est devenu l'Amour dont vous brûllez pour moi?</reg>
+          </seg>
+          <seg>
+            <orig>Vous ne répondez-point?</orig>
+            <reg>Vous ne répondez-point?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRI</orig>
+            <reg>BRY</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Helas ACHILE.</orig>
+            <reg>Hélas <persName>ACHILE</persName></reg>
+          </seg>
+          <seg>
+            <orig>B a</orig>
+            <reg>B a</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>que me teur dite Ce tegard, ce ſoſpir echapé malgre vous!</orig>
+            <reg>que me teur dite Ce tegard, ce sospir échappé malgré vous!</reg>
+          </seg>
+          <seg>
+            <orig>Ah que mon deſin ſera dour cle en encorpon inoy que tous tamiouple?</orig>
+            <reg>Ah que mon désin sera dour clé en encorpon inoi que tous tamiouple?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>AGHILE.</orig>
+            <reg>AGHILE.</reg>
+          </seg>
+          <seg>
+            <orig>o Clel!</orig>
+            <reg>ô Clel!</reg>
+          </seg>
+          <seg>
+            <orig>que le ſuis malheureur!</orig>
+            <reg>que le suis malheureur!</reg>
+          </seg>
+          <seg>
+            <orig>Dans quel temps venez-vous m'accables de vos larIDet que ne ſuls.</orig>
+            <reg>Dans quel temps venez-vous m'accables de vos larIDet que ne suls.</reg>
+          </seg>
+          <seg>
+            <orig>le à mon gré le maitte de mes vœur!</orig>
+            <reg>le à mon gré le maite de mes vœur!</reg>
+          </seg>
+          <seg>
+            <orig>Ie hnron blen-or vos mortens dAines.</orig>
+            <reg>Je hannron blen-or vos morts dAines.</reg>
+          </seg>
+          <seg>
+            <orig>Mals un charme fatal.</orig>
+            <reg>Mals un charme fatal.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>Perſide, c’eſt aſſer.</orig>
+            <reg>Perside, c'est asser.</reg>
+          </seg>
+          <seg>
+            <orig>Ie voy toute mon infortune, Vn autre Amour te rend ma tendreſſo importune, Ie te ſatlgue enſin par mes ſolns empreſſea?</orig>
+            <reg>Je vois toute mon infortune, Un autre Amour te rend ma tendresso importune, Je te satlgue ensin par mes solns empressea?</reg>
+          </seg>
+          <seg>
+            <orig>L.</orig>
+            <reg>L.</reg>
+          </seg>
+          <seg>
+            <orig>e brult de ceute amour nourelle Eſtols venu juſques à moy, Mals le n’ay pa le croire &amp; ſoupçonner ta ſoy, I'ay cil toncdeur trop grand pour n'ure pas fidele.</orig>
+            <reg>eut brult de cute amour nourelle Étols venu jusqu' à moi, Mals le n'ai pay le croire et soupçonner ta soi, J'ai cil toncdeur trop grand pour n'ure pas fidèle.</reg>
+          </seg>
+          <seg>
+            <orig>C'en eſt donc fait?</orig>
+            <reg>C'en est donc fait?</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne doit plus peuſtr A I'hymen qul faiſoit toute mon eſperance, A ce luprême honneur il me faut renoncer, D’un Amour ſi par falt, fuueſte recompenſe!</orig>
+            <reg>Je ne doit plus peustr A J'hymen qul faisait toute mon espérance, À ce luprême honneur il me faut renoncer, D'un Amour si par fallt, fuueste récompense!</reg>
+          </seg>
+          <seg>
+            <orig>Dleur!</orig>
+            <reg>Dleur!</reg>
+          </seg>
+          <seg>
+            <orig>quelle eſt ma douleur?</orig>
+            <reg>quelle est ma douleur?</reg>
+          </seg>
+          <seg>
+            <orig>Ie céde à ſon effort.</orig>
+            <reg>Je cède à son effort.</reg>
+          </seg>
+          <seg>
+            <orig>Cruel, peux.</orig>
+            <reg>Cruel, peux.</reg>
+          </seg>
+          <seg>
+            <orig>tu la voir avec indifference!</orig>
+            <reg>tu la voir avec indifférence!</reg>
+          </seg>
+          <seg>
+            <orig>Et ne ſçali-tu pas que ma mort sultra de prés ton Inconſtaucel</orig>
+            <reg>Et ne sçali-tu pas que ma mort sultra de près ton Inconstaucel</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puls entendre vne plainte ſi tendte.</orig>
+            <reg>Je ne puls entendre une plainte si tendte.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ſouffre autant que vous les Dleux m'en ſont témolns, Faut.</orig>
+            <reg>Je souffre autant que vous les Dleux m'en sont témolns, Faut.</reg>
+          </seg>
+          <seg>
+            <orig>il vous lumoler ma viel Ordonnea, ce ſera le plus doux de mes ſoinDe ſatie faire à vone envle?</orig>
+            <reg>il vous lumoler ma viel Ordonnea, ce sera le plus doux de mes soinDe satie faire à vonè le?</reg>
+          </seg>
+          <seg>
+            <orig>Mals calmez vos tranſporis &amp; ne m’affligez plue Par dez reproches ſuperſus, vous eonnoiſſes mon cœur incapable de feindre, Ie ſuls moins criminel que le ne ſies à plaindie, Du ſort &amp; de l’Amour l’indiſpenſible loy M emiune miems duganoj.</orig>
+            <reg>Mals calmez vos transporis et ne m'affligés plue Par de reproches supersus, vous eonnaisses mon cœur incapable de feindre, Je suls moins criminel que le ne sies à plaindie, Du sort et de l'Amour l'indispensible loi M emiune miems duganoj.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SGENB STATEME.</orig>
+          <reg>SGENB STATEME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>Vel Amant m'eſt ravy?</orig>
+            <reg><persName>Vel</persName> Amant m'est ravi?</reg>
+          </seg>
+          <seg>
+            <orig>ſa valeur, ſa nobleſſe L elevent au deſſus du teſte des mortels, La vlclolre le ſuli lant ceſſe, Ee ſus moludres vertua merltent des Autele, Pans lę haut rang où ſon deſtin l’appelle I eut eſte patfait, s’il eut eſté fidelle.</orig>
+            <reg>sa valeur, sa noblesse L' lèvent au dessus du tête des mortel, La vlclolre le suli lant cesse, Ee sus moludres vertua merltent des Autele, Pans lę haut rang où son destin l'appelle I eut este fait, s'il eut été fidèle.</reg>
+          </seg>
+          <seg>
+            <orig>Mais n’eſt-il pas quęlqua moyen De dltoumner l'Hrmen dùſon cœur ſe prepate?</orig>
+            <reg>Mais n'est-il pas quęlqua moyen De dltoumner l'Hrmen dùson cœur se prépatte?</reg>
+          </seg>
+          <seg>
+            <orig>Ahi falſom que luuon couite luy ſe declaie.</orig>
+            <reg>Ahjet fallom que luon couite lui se déclaie.</reg>
+          </seg>
+          <seg>
+            <orig>Elle haït tout le ſang Troyen, Et ne ſouffilra pasque cet hymen funeſte Sauvę ain peuyle qu’eſle deteſte.</orig>
+            <reg>Elle hait tout le sang Troyen, Et ne souffilra <date>pâque</date> cet hymen funeste Sauv ain peuyle esle deteste.</reg>
+          </seg>
+          <seg>
+            <orig>Tulſſante Reyne des cleux!</orig>
+            <reg>Tulssante Reine des cleux!</reg>
+          </seg>
+          <seg>
+            <orig>Eſeoutez.</orig>
+            <reg>Éseoutez.</reg>
+          </seg>
+          <seg>
+            <orig>moy, dalgnez jetjer les yeur Sur le malheut qul me menuſſe, Prevencs mi honte &amp; ma moit, En prennant pliſe de mon ſort.</orig>
+            <reg>moi, dalgnez jetier les y Sur le malheut qul me menusse, Prévencs mi honte et ma moit, En prennant plise de mon sort.</reg>
+          </seg>
+          <seg>
+            <orig>Des pe-ſides Troyens vous conſondrez l'audire, Mes vœux lont exaucez, lunon deſeend des cleur, Es pour nie ſecourlr s’opproche de ces lieun</orig>
+            <reg>Des pé-sides Troyens vous consondrez l'audire, Mes vœux lont exaucez, lunon des des cleur, Es pour nie secourr s'opproche de ces lieun</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Junon deſcend ſur ſon Char.</orig>
+          <reg><persName>Junon</persName> descend sur son Char.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE SEPTIF'ME.</orig>
+          <reg>SCÈNE SEPTIF'ME.</reg>
+        </seg>
+        <seg>
+          <orig>duens s RloBra</orig>
+          <reg>duens s EloBra</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNON.</orig>
+            <reg>
+              <persName>UNON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Alme tes deplaiſlre, ne verſe plus de larmes, LHymen qui cauſe tes ellarmes Ne lere ſamais aclieyé.</orig>
+            <reg>Alme tes deplaislre, ne verse plus de larmes, LHymen qui cause tes élarmes Ne le samais aclieyé.</reg>
+          </seg>
+          <seg>
+            <orig>En vain Prlam eroit ſon paü ſauré, Son Throne doit tomber, &amp; de toute ſa gloire Il ne reſtera rlen qu'une giſte memole.</orig>
+            <reg>En vain <placeName>Prlam</placeName> erait son paü sauré, Son <placeName>Throne</placeName> doit tomber, et de toute sa gloire Il ne restera ren qu'une gîte mémole.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vals éroquer des Enſer Là hayne, le Fureur, la Diccorde &amp; l’Envle, Leur preſence ſera ſuivle De cent prodlzes dlrera Sortez de la nult inſurnale Nolres divluitez, vos antres ſont ourera Dans le tenops qu’elles ſorteut des Enſers, ious le Tuoatre eſt obſeures.</orig>
+            <reg>Je vals éroquer des Enser Là haine, le Fureur, la Diccorde et l'Envle, Leur présence sera suivle De cent prodses dléra Sortez de la nult insurnale Nolres divluités, vos antres sont ourera Dans le tenops qu'elles sorteut des Ensers, jous le Tuatre est obsures.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ERISEIS L'Horreur deleur Selour, ſe répand caus les Alu:</orig>
+            <reg>ERISEIS L'Horreur déleur Selour, se répand caus les Alu:</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NON.</orig>
+            <reg>NON.</reg>
+          </seg>
+          <seg>
+            <orig>Volez, portez par tout voire rage fatele, veſez dans tous les Cœurs vôtie monel polſou, Chaſſte la Palx de cette tene, Et faites y reyner la Guerre, La vangeance, &amp; la Tralllon.</orig>
+            <reg>Volez, portez par tout voire rage fatele, vez dans tous les Cœurs vôtie monel polsou, Chasste la Palx de cette tene, Et faites y reiner la Guerre, La vengeance, et la Tralllon.</reg>
+          </seg>
+          <seg>
+            <orig>Verlez dans tous les Coours voſtre mortel polſon.</orig>
+            <reg>Verlez dans tous les Coours votre mortel polson.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIe.</orig>
+            <reg>
+              <persName>BRISEIe</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Favorable Deeſſe Taitene le ſucces de ves ſoins.</orig>
+            <reg>Favorable Déesse Taitène le succès de vez soins.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>NON.</orig>
+            <reg>NON.</reg>
+          </seg>
+          <seg>
+            <orig>uu vusla da dss duva sss yesasesms usese De l'effet de ina proieſſe.</orig>
+            <reg>Uu vûla da dss duva suss yesases usée De l'effet de ina proiesse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>* La danſe des Furies a eſtt ſiue par Mr.</orig>
+            <reg>* La danse des Furies a est siue par Mr.</reg>
+          </seg>
+          <seg>
+            <orig>Le Paug.</orig>
+            <reg>
+              <persName>Le Paug</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENB HUITIBME.</orig>
+          <reg>SCENB HUITIBME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>vnon pout moy vient de ſte deelaref, Elle a Sit à mes y eux celater ſa puiſſanc, It doy tout eſperer De ſa divlne aſtiſtance.</orig>
+            <reg>un pout moi vient de sainte délaref, Elle a Sit à mes y eux celater sa puissanc, It dois tout espérer De sa divlne astistance.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Onentend un bruit de Haut-bois &amp; de Flûtes.</orig>
+            <reg>Onentend un bruit de Haut-bois et de Flûtes.</reg>
+          </seg>
+          <seg>
+            <orig>Maie quel bruit hermonleux Se fait entendre dans ces lieux!</orig>
+            <reg>Maie quel bruit hermonleux Se fait entendre dans ces lieux!</reg>
+          </seg>
+          <seg>
+            <orig>Aur le voy les Berges que lhorleur de la Guenrs Avoit chaſſez de cetus teue, La treve les r’appgle à leur premierdeleer, Et deja leurs chanſons annoncent leur retont.</orig>
+            <reg>Aur le vois les Berges que lhorleur de la <persName>Guenrs</persName> Avait chassez de cet sue, La trouve les rappgle à leur premierdeleter, Et déjà leurs chansons annoncent leur retont.</reg>
+          </seg>
+          <seg>
+            <orig>Que leurs chante irrlient la peles Et la douleur que je ſens!</orig>
+            <reg>Que leurs chante irrient la peles Et la douleur que je sens!</reg>
+          </seg>
+          <seg>
+            <orig>13 Fuyons, je ne puis voit leuts plalſirs Innocens Fuls-qu’ils ſont dûs à Polizene.</orig>
+            <reg>13 Fuyons, je ne puis voit luts plalsirs Inocents Fuls-qu'ils sont dus à <persName>Polizene</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCE</orig>
+          <reg>
+            <persName>SCE</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENENEUFVIE'ME.</orig>
+          <reg>SCENENEUFVIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>TROUPE DE BERGERS ET DE DEROERES.</orig>
+          <reg>TROUPE DE BERGERS ET DE DEROURES.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN BERGER.</orig>
+            <reg>UN BERGER.</reg>
+          </seg>
+          <seg>
+            <orig>Prés tant de trouble &amp; de larmes * vn doux repos ſu ccéde à nos allarmes, Bouinell eſeldeis Le genereux Vainqueur qui nous donne la paix,</orig>
+            <reg>Près tant de trouble et de larmes * un doux repos su cède à nos alarmes, <persName>Bouinel</persName> élis Le généreux Vainqueur qui nous donne la paix,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN BERGER, ET UME BERGERE.</orig>
+            <reg>UN BERGER, ET UME BERGÈRE.</reg>
+          </seg>
+          <seg>
+            <orig>Cet heureux jour doit nous charmer, louio Von enaupe mine ſseuis vons renaſſse, Recommençons d'aymer En les toyant paroitre.</orig>
+            <reg>Cet heureux jour doit nous charmer, louio Von enaupe mine scevis vons renassse, Recommençons d'aimer En les toyant paraître.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TROIS BERGERS.</orig>
+            <reg>TROIS BERGERS.</reg>
+          </seg>
+          <seg>
+            <orig>Cherchons avec empreſſement Ces rettaiis, ces lieux paiſibles Que le Ciel a fait ſeulement Pour le plaſir des cours ſenſibles,</orig>
+            <reg>Cherchons avec empressement Ces retaiis, ces lieux paisibles Que le Ciel a fait seulement Pour le plasir des cours sensibles,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN BERGER, ET UME BERGERE.</orig>
+            <reg>UN BERGER, ET UME BERGÈRE.</reg>
+          </seg>
+          <seg>
+            <orig>Triſles bocages Reprener vos ſellillages, ſervez nous roujours D'azlle à nos Amours.</orig>
+            <reg>Trisles bocages Reprener vos sellillages, servez nous roujours D'azlle à nos Amours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>* La danſe de ce divertiſſement a eſté fait par Mr.</orig>
+            <reg>* La danse de ce divertissement a été fait par Mr.</reg>
+          </seg>
+          <seg>
+            <orig>P cours.</orig>
+            <reg> Pours.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN BERGER, ET UNE BEROERE.</orig>
+            <reg>UN BERGER, ET UNE BEROURE.</reg>
+          </seg>
+          <seg>
+            <orig>Paix adotable Scyez toujours durable, Sans vous helas!</orig>
+            <reg>Paix adotable Scyez toujours durable, Sans vous hélas!</reg>
+          </seg>
+          <seg>
+            <orig>Ces lieux n'ont point d’appas.</orig>
+            <reg>Ces lieux n'ont point d'appas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Pain aconoſe, Ac.</orig>
+            <reg>Pain aconose, Ac.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Aprés tant de trouble &amp; de larmes Vn doux repos ſuccéde à nos allarmes, Beniſſons à lamais Le genereux Vainqueur qui nous donne la Paiz.</orig>
+            <reg>Après tant de trouble et de larmes Un doux repos succède à nos alarmes, Bénissons à lamais Le généreux Vainqueur qui nous donne la <placeName>Paiz</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du troiſiéme Acte.</orig>
+          <reg>Fin du troisième Acte.</reg>
+        </seg>
+        <seg>
+          <orig>Le Theatre repreſente le magnifique Falais de AviRus.</orig>
+          <reg>Le Théâtre représente le magnifique Falais de <persName>AviRus</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCERS EREMIERE.</orig>
+          <reg>SCERS EREMIÈRE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE, ſeul.</orig>
+            <reg>POLIXENE, seul.</reg>
+          </seg>
+          <seg>
+            <orig>Nſin je me voy ſeule, &amp; je puis ſans contrainte, Faire éclater les divers mouvemens Dont mon anie eſt atteiute, Et connoitre du moins quels ſont mes ſentimens.</orig>
+            <reg>Nsin je me vois seule, et je puis sans contrainte, Faire éclater les divers mouvements Dont mon anie est atteivte, Et connaître du moins quels sont mes sentiments.</reg>
+          </seg>
+          <seg>
+            <orig>Depuis l’inſtant fatal ou l'invincible Achile A daigné par ſes ſoins ſoulager nôtre ennuy, te lujs cent fois moins tranquile, Et je ſonne toujours à Iny.</orig>
+            <reg>Depuis l'instant fatal ou l'invincible <persName>Achille</persName> A daigné par ses soins soulager notre ennui, te lujet cent fois moins tranquille, Et je sonne toujours à Inui.</reg>
+          </seg>
+          <seg>
+            <orig>Seroit ce qu’en effet una indigne foibleſſe Me previeudroit en ſa faveur?</orig>
+            <reg>Serait ce qu'en effet una indigne faiblesse Me previeudroit en sa faveur?</reg>
+          </seg>
+          <seg>
+            <orig>Nou, non, je nie ſouvlen ſans ceſſe Des maux que m'a eauſe ſa ſuneſte veleus, Et le vainqueur d’Hector, le vangeur de la Grers Ne peut avolr aucun droit ſur mon cœur.</orig>
+            <reg>No, non, je nie souvlen sans cesse Des maux que m'a eauze sa suneste veleus, Et le vainqueur d'Hector, le vengeur de la <persName>Grèrs</persName> Ne peut avolr aucun droit sur mon cœur.</reg>
+          </seg>
+          <seg>
+            <orig>C'en eſt fait je trlomphe, &amp; dés ce moment même Ie ne veux plus m'en ſouvenir.</orig>
+            <reg>C'en est fait je tromphe, et dès ce moment même Je ne veux plus m'en souvenir.</reg>
+          </seg>
+          <seg>
+            <orig>Tuiſſe, grands Dieux, vôtre pouvoir ſuprême Me condamner &amp; me punir!</orig>
+            <reg>Tuisse, grands Dieux, votre pouvoir suprême Me condamner et me punir!</reg>
+          </seg>
+          <seg>
+            <orig>Si jamais.</orig>
+            <reg>Si jamais.</reg>
+          </seg>
+          <seg>
+            <orig>Clel!</orig>
+            <reg>
+              <persName>Clél</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>que fais-je!</orig>
+            <reg>que fais-je!</reg>
+          </seg>
+          <seg>
+            <orig>&amp; quel manſpoit m’inſplre?</orig>
+            <reg>et quel manspait m'insplre?</reg>
+          </seg>
+          <seg>
+            <orig>Malheurenſe, qu'allois.</orig>
+            <reg>Malheurense, qu'allais.</reg>
+          </seg>
+          <seg>
+            <orig>je dire?</orig>
+            <reg>je dire?</reg>
+          </seg>
+          <seg>
+            <orig>Doit-je faire un ſerment pour ie le pas tenir?</orig>
+            <reg>Doit-je faire un serment pour venir le pas tenir?</reg>
+          </seg>
+          <seg>
+            <orig>Ie ſouffre trop dans les cruels combats.</orig>
+            <reg>Je souffre trop dans les cruels combats.</reg>
+          </seg>
+          <seg>
+            <orig>Qu’il m'en coſte pour me défendte!</orig>
+            <reg>Qu'il m'en côte pour me défendte!</reg>
+          </seg>
+          <seg>
+            <orig>Et je trouve mille appas A me rendre.</orig>
+            <reg>Et je trouve mille appas À me rendre.</reg>
+          </seg>
+          <seg>
+            <orig>Mats puils je avouei tans honte, Que l’Amour tienumonte!</orig>
+            <reg>Mats puils je avouei tans honte, Que l'Amour tiennonte!</reg>
+          </seg>
+          <seg>
+            <orig>N'éN’écouteray.</orig>
+            <reg>N'éN'écouterai.</reg>
+          </seg>
+          <seg>
+            <orig>Je plus uy raiſon ny devoir?</orig>
+            <reg>Je plus ui raison était devoir?</reg>
+          </seg>
+          <seg>
+            <orig>Contre ce Dieu leur forte eſt impuiſſante , Eſt il un cœur qui a'exempte De reconnoltte ſon pouvoir!</orig>
+            <reg>Contre ce Dieu leur forte est impuissante , Est il un cœur qui a'exempte De reconnoltte son pouvoir!</reg>
+          </seg>
+          <seg>
+            <orig>Ie luy céde aiourd'huy, Tous mes efferts ſont vaine.</orig>
+            <reg>Je te cède aiourd'hui, Tous mes efferts sont vaine.</reg>
+          </seg>
+          <seg>
+            <orig>Ie ne puis reſiſter à l'ardeur qui m’enflame;</orig>
+            <reg>Je ne puis résister à l'ardeur qui m'enflamme;</reg>
+          </seg>
+          <seg>
+            <orig>Mais de moins, ſi lAmour anpole de ion amne, Cur en laveur au plus bland des numaino.</orig>
+            <reg>Mais de moins, si lAmour anpole de ion amne, Cur en laveur au plus bland des numaino.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE SECONDE.</orig>
+          <reg>SCÈNE SECONDE.</reg>
+        </seg>
+        <seg>
+          <orig>ANDROMAQUE- POLIXENE.</orig>
+          <reg>ANDROMAQUE- POLIXENE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>I AN DROMAQUE.</orig>
+            <reg>I AN DROMAQUE.</reg>
+          </seg>
+          <seg>
+            <orig>HI ma ſœur, ſȩavez.</orig>
+            <reg>HI ma sœur, savez.</reg>
+          </seg>
+          <seg>
+            <orig>vous qu'Achile Se flate qu’iin hy men tranquile Avant la fin du jour doit vous nuir tous deux!</orig>
+            <reg>vous qu'Achille Se flatte qu'yin hy men tranquille Avant la fin du jour doit vous nuir tous deux!</reg>
+          </seg>
+          <seg>
+            <orig>Souffrirez-vous que ce meud s’accompliſſe!</orig>
+            <reg>Souffrirez-vous que ce meud s'accomplisse!</reg>
+          </seg>
+          <seg>
+            <orig>Et pouvez vous ſans injuſtice De ce fier ennemy ſavoriſer les vœux?</orig>
+            <reg>Et pouvez -vous sans injustice De ce fier ennemi savoriser les vœux?</reg>
+          </seg>
+          <seg>
+            <orig>Auriez-vous oublié que ſa veleur barbate Iyun frere tant aymé pour jamaie vous ſepare!</orig>
+            <reg>Auriez-vous oublié que sa veleur barbate Iiun frère tant aimé pour jamaie vous sépare!</reg>
+          </seg>
+          <seg>
+            <orig>D auiſere la teneus ce Pamour des moitels 3 Cette ſanglante mort, ceite affreuſe victoire Toûjouts preſente à ma memoite A condamme mes yeux A des pleurs cternels.</orig>
+            <reg>D avisère la teneus ce Pamour des moitels 3 Cette sanglante mort, ce affreuse victoire Toujouts présente à ma mémoite A condamme mes yeux À des pleurs cternels.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce de moy que mon ſort doit dependre?</orig>
+            <reg>Est-ce de moi que mon sort doit dépendre?</reg>
+          </seg>
+          <seg>
+            <orig>Priam ſeul en peut diſpoſer.</orig>
+            <reg><persName>Priam</persName> seul en peut disposer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANEROMAQUE.</orig>
+            <reg>ANEROMAQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Par ce détour croyez-vous m'abuſer?</orig>
+            <reg>Par ce détour croyez-vous m'abuser?</reg>
+          </seg>
+          <seg>
+            <orig>Non, noa, je cominence à comprendre Qneh ſont vos ſentimens ſecrets, Vos yeux timides &amp; diſtralts Ne me les font que trop eutendre,</orig>
+            <reg>Non, nous, je continence à comprendre Qh sont vos sentiments secrets, Vos yeux timides et distralts Ne me les font que trop eutendre,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>haromtouoemo unonos que ioupçonfiez-voue?</orig>
+            <reg>haromtouoemo unonos que ioupçonfiez-voue?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ANDRGMAQUE.</orig>
+            <reg>ANDRGMAQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Que loln de ſeconder ma haine Vous veriez ſans peine Ce ſuneſte ennemy devenir vôtre époux.</orig>
+            <reg>Que loln de seconder ma haine Vous vériez sans peine Ce suneste ennemi devenir votre époux.</reg>
+          </seg>
+          <seg>
+            <orig>Vous voulez jouïr de la gloire De triompher de ſa fierté,  en diremeuol eltode Pour vôtre vanité.</orig>
+            <reg>Vous voulez jouir de la gloire De triompher de sa fierté, en diremuol eltode Pour votre vanité.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Quand je voy ce Heror digne de mon eſtime, centis poun ine, danmoule plus pulant Eſt-ce un grand crime De m’en applaudir en ſecret!</orig>
+            <reg>Quand je vois ce <persName>Héror</persName> digne de mon estime, centis poun ine, danmoule plus pulant Est-ce un grand crime De m'en applaudir en secret!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADDROMAQUE.</orig>
+            <reg>ADROMAQUE.</reg>
+          </seg>
+          <seg>
+            <orig>Aprés un tel aveu je n'ay plus rien à craindre, C'eſt le dernier malheur que je puis redouter Helasf que me ſert de me plaindre?</orig>
+            <reg>Après un tel aveu je n'ai plus rien à craindre, C'est le dernier malheur que je puis redouter Hélasf que me sert de me plaindre?</reg>
+          </seg>
+          <seg>
+            <orig>Perſonne ne veut m'écoutes.</orig>
+            <reg>Personne ne veut m'écoutes.</reg>
+          </seg>
+          <seg>
+            <orig>Cher époux dont l'illuſtre vie Fut ſi digne d’envie, Tout ion ſang te trahit pour plaire à ton Vainqueur, Ie pleure en valn ta mort, triſte effet de ſes armes, Ie voy mépriſer mes larmes Et par ton Pere &amp; par ta ſœur:</orig>
+            <reg>Cher époux dont l'illustre vie Fut si digne d'envie, Tout ion sang te trahit pour plaire à ton Vainqueur, Je pleure en valn ta mort, triste effet de ses armes, Je vois mépriser mes larmes Et par ton Père et par ta sœur:</reg>
+          </seg>
+          <seg>
+            <orig>Mais leur exemple au moine ne peut rien ſur mon ame, Ie ſens encor la mêmeflame Et la même douleur.</orig>
+            <reg>Mais leur exemple au moine ne peut rien sur mon âme, Je sens encor la mêmeflame Et la même douleur.</reg>
+          </seg>
+          <seg>
+            <orig>Le ſeul eſpoir dont mon cœur eſt flaté, Ceſt qu’en donnant toujours des pleurs à ta memoiIe reudray ma tidelité Auſſi faineuſe que ta gloire,</orig>
+            <reg>Le seul espoir dont mon cœur est flatté, Ç 'en donnant toujours des pleurs à ta mémoiIe revdrai ma tidélité Aussi faineuse que ta gloire,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE'ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE, ſeule.</orig>
+            <reg>POLIXENE, seule.</reg>
+          </seg>
+          <seg>
+            <orig>Vel reproche fatalt Je tougls de l'entendre, il me fait ſouvenit des conſeils de Caſſandre, Elle me prédit chaque lour Que ſi jamais inon cœur s’abandonne à l’Amour Ma foibieue Iera ſuivie D'éfernelles douleurs;</orig>
+            <reg>Vel reproche fatalt Je tougls de l'entendre, il me fait souvenit des conseils de <persName>Cassandre</persName>, Elle me prédit chaque lour Que si jamais inon cœur s'abandonne à l'Amour Ma faibieue Iera suivie D'éfernelles douleurs;</reg>
+          </seg>
+          <seg>
+            <orig>Elle m'annonce enfin de ſi cruela maſhieure Qu’ils pourront me courer la vie:</orig>
+            <reg>Elle m'annonce enfin de si cruela mashieure Qu'ils pourront me courer la vie:</reg>
+          </seg>
+          <seg>
+            <orig>N'importe, je ne puïs changet de ſentiment, Mon cœur eſt occupé d’un objet tiop charmant, Malgré les conſeils qu’on me donne D’une plus vive ardeur je me ſens enflamer, Vn cœur que le peril eſtonne N’eſt pas digne d’aimer.</orig>
+            <reg>N'importe, je ne puais changet de sentiment, Mon cœur est occupé d'un objet tiop charmant, Malgré les conseils qu'on me donne D'une plus vive ardeur je me sens enflamer, Un cœur que le péril étonne N'est pas digne d'aimer.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE QUATRIEME.</orig>
+          <reg>SCÈNE QUATRIÈME.</reg>
+        </seg>
+        <seg>
+          <orig>PRIAM, POLIXENE, ARCAS ſuite de PRIAM &amp; d’ARCAS.</orig>
+          <reg>PRIAM, POLIXENE, <persName>ARCAS</persName> suite de PRIAM et d'ARCAS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>M PRIAM.</orig>
+            <reg>
+              <persName>M PRIAM</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>A fille, il n'eſt plus tempe de répandte des pleura, volcy le jour heureux qui finit nos malheurs:</orig>
+            <reg>À fille, il n'est plus tempe de répandte des pleura, volci le jour heureux qui finit nos malheurs:</reg>
+          </seg>
+          <seg>
+            <orig>Le ſier Achile rend les atmes A tes charmes, Et malgté tous les Greca jaloux de ton honheur.</orig>
+            <reg>Le sier <persName>Achille</persName> rend les atmes A tes charmes, Et malgté tous les Greca jaloux de ton honheur.</reg>
+          </seg>
+          <seg>
+            <orig>4 Il te donne aujourd’huy ſon Empire &amp; ſon Cœur,</orig>
+            <reg>4 Il te donne aujourd'hui son Empire et son Cœur,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAS.</orig>
+            <reg>
+              <persName>ARCAS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Hinceſſe, ce Heros ne cherche qu'a vous plairg Vous avez en vos mains &amp; ſi vle &amp; ſa mort;</orig>
+            <reg>Hincesse, ce Héros ne cherche qu'a vous plaig Vous avez en vos mains et si veule et sa mort;</reg>
+          </seg>
+          <seg>
+            <orig>C'eſt à vous de regler ſon ſort;</orig>
+            <reg>C'est à vous de régler son sort;</reg>
+          </seg>
+          <seg>
+            <orig>Il a déja l'aveu de vôtre Pere, Mais pour aſfûrer ſon bonheur, Il veut ſçavoir ſi vôtre cœur toumci dems ne ſela pas coutraire,</orig>
+            <reg>Il a déjà l'aveu de votre Père, Mais pour asfûrer son bonheur, Il veut savoir si votre cœur toumci dems ne sela pas coutraire,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Qeit anez que is Egoy in oruome c’obeir, Ie connois mon devoir, ſe nè le pule trahit.</orig>
+            <reg>Qit anez que is Égoi in orvome c'obéir, Je connais mon devoir, se né le pule trahit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Quel changement ſavotable Flate aujourd’huy mes deſirs!</orig>
+            <reg>Quel changement savotable <persName>Flate</persName> aujourd'hui mes désirs!</reg>
+          </seg>
+          <seg>
+            <orig>Aiuois.</orig>
+            <reg>Aivais.</reg>
+          </seg>
+          <seg>
+            <orig>le ciſ moulcour endor capable De ſentir quelques plaiſirs?</orig>
+            <reg>le cis moulcour endor capable De sentir quelques plaisirs?</reg>
+          </seg>
+          <seg>
+            <orig>Malgré ce changement un chagrin legitime nã trouble la douceur &amp;e s’oppoſe à ſa paix;</orig>
+            <reg>Malgré ce changement un chagrin légitime nôtre trouble la douceur été s'oppose à sa paix;</reg>
+          </seg>
+          <seg>
+            <orig>Mais le ſoin de l'Etat eſt le leul qui m'anime, Et je preſere à tout le bien de mes Sujets.</orig>
+            <reg>Mais le soin de l'État est le leul qui m'anime, Et je présère à tout le bien de mes Sujets.</reg>
+          </seg>
+          <seg>
+            <orig>Vous, que vôtre ſort intereſſe Dani cet evenem eut leureur, Peuples, montrez vôtre allegreſſe, Par los leux les plus pompens,</orig>
+            <reg>Vous, que votre sort intéresse <persName>Dani</persName> cet événement eut leureur, Peuples, montrez votre allégresse, Par los leux les plus pompents,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCE</orig>
+          <reg>
+            <persName>SCE</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE CINQUIEME.</orig>
+          <reg>SCÈNE CINQUIÈME.</reg>
+        </seg>
+        <seg>
+          <orig>POLIXENE, ARCAS, TROUPE DE TROYENS ET DE TROYENNRS.</orig>
+          <reg>POLIXENE, <persName>ARCAS</persName>, TROUPE DE TROYENS ET DE -THROYENNRS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN TRGYEN.</orig>
+            <reg>UN TRGYEN.</reg>
+          </seg>
+          <seg>
+            <orig>Os beaux yeux, adorable Princeſſe, » Ont détruit les deſſeins de la Grece, Vn ſeul de vos regdrdꝰ a rangé ſous vos loix Vn Heros dont le noin fait trembler touiſes Rois.</orig>
+            <reg>Os beaux yeux, adorable Princesse, " Ont détruit les desseins de la <placeName>Grèce</placeName>, Un seul de vos regdrd à rangé sous vos lois Un Héros dont le noin fait trembler touises Rois.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Vos beaux yeux, auniable Irinceſſe, ac.</orig>
+            <reg>Vos beaux yeux, auniable <persName>Irincesse</persName>, ac.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UNE TROYENNE.</orig>
+            <reg>UNE TROYENNE.</reg>
+          </seg>
+          <seg>
+            <orig>Que ne peuvent point vos charmes!</orig>
+            <reg>Que ne peuvent point vos charmes!</reg>
+          </seg>
+          <seg>
+            <orig>Tout leur eſt ſoumis, dia diacemama nu dlimen A nos amemis Que ne peuvent point vos charmes, Torvouuponnnute,</orig>
+            <reg>Tout leur est soumis, dia diacema nu dlimen A nos amemis Que ne peuvent point vos charmes, Torvouuponnnute,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Qre m peuvent vos charmes!</orig>
+            <reg>Qre m peuvent vos charmes!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DEUX TROTENS.</orig>
+            <reg>DEUX TROTENS.</reg>
+          </seg>
+          <seg>
+            <orig>Que l’amôur el puillanr lur les ecruai :</orig>
+            <reg>Que l'amôur elle puillanr lur les ecruai :</reg>
+          </seg>
+          <seg>
+            <orig>I enchalee  Peins Les plus redoriddles vain, ueurt.</orig>
+            <reg>I enchalée Peins Les plus redoridèles vain, uteurt.</reg>
+          </seg>
+          <seg>
+            <orig>** --4 La Danſe de ce divertiſſement à eſté fatte par Mr.</orig>
+            <reg>** --4 La Danse de ce divertissement à été fatte par Mr.</reg>
+          </seg>
+          <seg>
+            <orig>Pecourt.</orig>
+            <reg>
+              <persName>Pécourt</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>UNS TROVENNE.</orig>
+            <reg>UNS TROUENNE.</reg>
+          </seg>
+          <seg>
+            <orig>Qu'aprés une grande victoire Vn Guerrjer eſt heureux, Heigait melet aux charmes de la glore L9 daik anuuement des plaiſirs amoureur.</orig>
+            <reg>Qu'après une grande victoire Un Guerrier est heureux, Héigait mèlet aux charmes de la glore L9 daik anuement des plaisirs amoureur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>2 UNE TROYENNE.</orig>
+            <reg>2 UNE TROYENNE.</reg>
+          </seg>
+          <seg>
+            <orig>vous nioigeieue buin de comeis iejour.</orig>
+            <reg>vous nioigeieue buin de coméis toujours.</reg>
+          </seg>
+          <seg>
+            <orig>leux chirmans, revenez dans cette auguſte Cour.</orig>
+            <reg>leux chirmants, revenez dans cette auguste Cour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN TROYEN, La Pair ramelne ier l'abondance, Faites voir vôtre magificence, Par vos chants redoublez, celebrez ce grand jour, Et de vôtre bonheur reudez grace à l’Amour,</orig>
+            <reg>UN TROYEN, La <persName>Pair</persName> ramelne jer l'abondance, Faites voir votre magificence, Par vos chants redoublés, célébrez ce grand jour, Et de votre bonheur reudez grâce à l'Amour,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>La Paix rameine iey l'abondance, faiſons von nons mſuneenes, Tar nos chants redou blez, celebrons ce grand jour, Et de noue bonheur rendone grace à l’Ainous,</orig>
+            <reg>La Paix ramène menti l'abondance, faisons von nons msuneenes, Tar nos chants redou lez, célébrons ce grand jour, Et de noue bonheur rendone grâce à l'Ainous,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fin du quatriíme Ade.</orig>
+          <reg>Fin du quatrime Ade.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TRAGEDIE.</orig>
+            <reg>TRAGÉDIE.</reg>
+          </seg>
+          <seg>
+            <orig>ACTE CINQUIE'ME.</orig>
+            <reg>ACTE CINQUIE'ME.</reg>
+          </seg>
+          <seg>
+            <orig>Le Theatre repreſente l’avenuë &amp; le Temple d EsFesalay</orig>
+            <reg>Le Théâtre représente l'avenue et le <placeName>Temple d EsFesalay</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>J iivi l iuurl n De</orig>
+          <reg><persName>Jivi</persName> lu jourl n De</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>H, que lur moy l'Amour regne avee violence?</orig>
+            <reg>H, que lur moi l'Amour règne ave violence?</reg>
+          </seg>
+          <seg>
+            <orig>Que de tranſports puiſſans mon cœur eſt agite.</orig>
+            <reg>Que de transports puissants mon cœur est agite.</reg>
+          </seg>
+          <seg>
+            <orig>Mais j'apperçoy la divine beauté Qui cauſe mon impatlence, Son Pere la couduit, &amp; vient ſur ces Autels Eniendee &amp; conſirmez nc ſermens iautuele.</orig>
+            <reg>Mais j'aperçois la divine beauté Qui cause mon impatlence, Son Père la couduit, et vient sur cette Autels Eniendée et consirmés n sermens cole.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACHILE, ARCAS, POLIXENE, CHOEUR DE GRECS DE LA SUITE D'ACHILE, CHOEUR DE IROIENS ET DE FILLES TROYENNES QUI SUIVENZ PRIAMET POLIXENE.</orig>
+          <reg><persName>ACHILE</persName>, <persName>ARCAS</persName>, POLIXENE, CHOEUR DE GRECS DE LA SUITE <persName>D'ACHILE</persName>, CHOEUR DE JROIENS ET DE FILLES TROYENNES QUI SUIVENZ PRIAMET POLIXENE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHIL’E.</orig>
+            <reg>
+              <persName>ACHIL'E</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Rinceſſe enſin le Ciel feponcu mou aiunte;</orig>
+            <reg>Rincesse ensin le Ciel féponcu mou aiunte;</reg>
+          </seg>
+          <seg>
+            <orig>Il aſſure à mon cœur les plaiſirs les plus doux, Alil que mon lort doit falre de jaloux!</orig>
+            <reg>Il assure à mon cœur les plaisirs les plus doux, <persName>Alil</persName> que mon lort doit falère de jaloux!</reg>
+          </seg>
+          <seg>
+            <orig>Si l'Hymen dont l’eſpoir m’enchante N’eſt pus un ſupplice pour vous.</orig>
+            <reg>Si l'Hymen dont l'espoir m'enchante N'est pus un supplice pour vous.</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>Quoy?</orig>
+            <reg>Quoi?</reg>
+          </seg>
+          <seg>
+            <orig>ce tranſport ne ſert qu’à vous confondre?</orig>
+            <reg>ce transport ne sert qu'à vous confondre?</reg>
+          </seg>
+          <seg>
+            <orig>Craignez-vous de me répondre) Tourquoy tourner vos yeur de tomes parts?</orig>
+            <reg>Craignez-vous de me répondre) Tourquoi tourner vos yeur de tomes parts?</reg>
+          </seg>
+          <seg>
+            <orig>N’oſez-voris ſur moy ſeul arreter vos tegarde!</orig>
+            <reg>N'osez-voris sur moi seul arrêter vos tegarde!</reg>
+          </seg>
+          <seg>
+            <orig>Parler, beauté charmante, Le don de votre cœur ſuivre t’il vôire ſoy</orig>
+            <reg>Parler, beauté charmante, Le don de votre cœur suivre t'il vôire soi</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Hélas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>plus je vous voy, Ei plus mon trouble s’augmente</orig>
+            <reg>plus je vous vois, Ei plus mon trouble s'augmente</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ns en Ma faveu Erpliquer ce profond ſilencet</orig>
+            <reg>ns en Ma faveu Erpliquer ce profond silencet</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXSNE.</orig>
+            <reg>POLIXSNE.</reg>
+          </seg>
+          <seg>
+            <orig>Vn Heros tel que vous, quan dil donne ſon eœus, N'eſt-il pas aſſuré de la reconnoiſſance?</orig>
+            <reg>Un Héros tel que vous, quan dil donne son eœus, N'est-il pas assuré de la reconnaissance?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>D'en eſt nop;</orig>
+            <reg>D'en est nop;</reg>
+          </seg>
+          <seg>
+            <orig>ves bontez pallent mon elbeninee.</orig>
+            <reg>vez bontés pallent mon elbeninee.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE TROISIE'ME.</orig>
+          <reg>SCÈNE -TROISIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ACHILE, PRIAM, POLIXENE, ARCRS, TROUPEDE GRECS, TROUPHDE TROYENS REBETROTANNEO.</orig>
+          <reg>ACHILE, PRIAM, POLIXENE, ARCRS, TROUPEDE GRECS, TROUPHÉ TROYENS REBETROTANNE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>» Ommençons à joüir en ee lour Des plaiſirs que la paix nous rameine Let Fux de la haitte Cedent à ceux de l’Amour.</orig>
+            <reg>" Ommençons à jouir en ce lour Des plaisirs que la paix nous ramène Let Fux de la haite Cédent à ceux de l'Amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM, ACHILE, POLIXENE.</orig>
+            <reg>PRIAM, ACHILE, POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Commençons à jouïr en ce jour Des planita que in pain hous mmeme Les feux de la haine Cadent àceux de l'Amour.</orig>
+            <reg>Commençons à jouir en ce jour Des planita que in pain ous même Les feux de la haine Cadent àceux de l'Amour.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE.</orig>
+            <reg>
+              <persName>ACHILE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Peuples ſoumia à mes loir, Secondez les tranſports de mon ame;</orig>
+            <reg>Peuples soumia à mes loir, Secondez les transports de mon âme;</reg>
+          </seg>
+          <seg>
+            <orig>loigner vos voir Pour chanter les beautez de l'Objet qui m'enſlime,</orig>
+            <reg>loigner vos voir Pour chanter les beautés de l'Objet qui m'enslime,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Peüples ſoumis à mes loint, vous jouïſſez d'un ſon tranquile, Ioignez vos voix Pour charuer les vertus &amp; le bonheur d'Achlle.</orig>
+            <reg>Peüples soumis à mes loint, vous jouissez d'un son tranquille, Joignez vos voix Pour charuer les vertus et le bonheur d'Achille.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Que tous ces lieux tetentiſſent Du nom de ces heureux époux, 1 Que l’Amont &amp; l’tiymen les uniſſent De leurs nœuds les plus doux.</orig>
+            <reg>Que tous ces lieux tentissent Du nom de ces heureux époux, 1 Que l'Amont et l'timen les unissent De leurs nœuds les plus doux.</reg>
+          </seg>
+          <seg>
+            <orig>* La Danſe de ce Divertiſſement à eſtífaite par Monſieur Leſtang.</orig>
+            <reg>* La Danse de ce Divertissement à estífaite par <persName>Monsieur Létang</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN GRBC.</orig>
+            <reg>UN GRBC.</reg>
+          </seg>
+          <seg>
+            <orig>Ah que vos chaines ſont belles!</orig>
+            <reg>Ah que vos chaines sont belles!</reg>
+          </seg>
+          <seg>
+            <orig>Tendres Amans, que vous ſerez heureur!</orig>
+            <reg>Tendres Amants, que vous serez heureur!</reg>
+          </seg>
+          <seg>
+            <orig>Seuls dignes l'un de l'autre, &amp; pleine des mêmes ſeur, Egalement charmes, égelemeni fidelles, Tendres Amant, que vous ſerez henreur,</orig>
+            <reg>Seuls dignes l'un de l'autre, et pleine des mêmes sûr, Également charmes, égelemeni fidèles, Tendres Amant, que vous serez henreur,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Tendies Amans, que vous ſerez heureur!</orig>
+            <reg>Tendies Amants, que vous serez heureur!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>UN GaEC, ET DEUX TROTENNES.</orig>
+            <reg>UN GaC, ET DEUX TROTENNES.</reg>
+          </seg>
+          <seg>
+            <orig>Chacun de vous connoit le prlx de ce qu’il alme, Et luy conſuere tous ſes vœux, Gnaeun de ſon Amour rait la gloire ſuprême, Tendies Amans, que vous ſerez heuseus!</orig>
+            <reg>Chacun de vous connaît le près de ce qu'il alâme, Et tu consuère tous ses vœux, Gnaeun de son Amour rait la gloire suprême, Tendies Amants, que vous serez heus!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Cnœur.</orig>
+            <reg>Le Cnœur.</reg>
+          </seg>
+          <seg>
+            <orig>Tendres Amans, que vous ſerez heureur</orig>
+            <reg>Tendres Amants, que vous serez heureur</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>PRIAM.</orig>
+            <reg>PRIAM.</reg>
+          </seg>
+          <seg>
+            <orig>Ne perdons plus de precieux momens, Allons ſur les Autels conſacrer les Serment D'une paix éternelle.</orig>
+            <reg>Ne perdons plus de précieux momens, Allons sur les Autels consacrer les Serment D'une paix éternelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ACHILE, POLIXENE.</orig>
+            <reg><persName>ACHILE</persName>, POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>Ne perdons plus de precleux momens, Allous ſur les Autels conſacrer les Sermens, D'une paix éternelle, Et d’ui.</orig>
+            <reg>Ne perdons plus de precleux Dents, Allous sur les Autels consacrer les Serments, D'une paix éternelle, Et d'ui.</reg>
+          </seg>
+          <seg>
+            <orig>Amour tendre &amp; fidele.</orig>
+            <reg>Amour tendre et fidèle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCE</orig>
+          <reg>
+            <persName>SCE</persName>
+          </reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>TRAGEDIE.</orig>
+          <reg>TRAGÉDIE.</reg>
+        </seg>
+        <seg>
+          <orig>SCENE QUATRIFME.</orig>
+          <reg>SCÈNE QUATRIFME.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>ve vols jerc'en eſt fait, &amp; mon patſait Amiant Eſpouſe en ee moment Sa nouvelle Maitreſſe.</orig>
+            <reg>ve vols jerc'en est fait, et mon patsait Amiant Épouse en ce moment Sa nouvelle Maîtresse.</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Iunon, eſt-ce ainſi que tu tient ta promeſſe!</orig>
+            <reg><persName>Junon</persName>, est-ce ainsi que tu tient ta promesse!</reg>
+          </seg>
+          <seg>
+            <orig>Eſt-ce ainſ que tu rompa ces funeſtes litne, Oul vont cauſer ma mort &amp; lauver les Troyene?</orig>
+            <reg>Est-ce ains que tu rompa ces funestes litne, Oul vont causer ma mort et lauver les <persName>Troyène</persName></reg>
+          </seg>
+          <seg>
+            <orig>vn ſuſte deſeſpoir m’anime, Mon Amour outragé demande une vistime, Courons l’immoler ou perlr;</orig>
+            <reg>un suste désespoir m'anime, Mon Amour outragé demande une vistime, Courons l'immoler ou perlrer;</reg>
+          </seg>
+          <seg>
+            <orig>si mes traulpoits ſaloux me font commeftre un crlmePour l'expier je ſuis prète à mourls.</orig>
+            <reg>si mes traulpoits saloux me font commeftre un crlmePour l'expier je suis prête à mourls.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SCENECINQUIE'MR.</orig>
+            <reg>SCENCINQUIE'MR.</reg>
+          </seg>
+          <seg>
+            <orig>BRISEIS, Chœur de Grecs qui ſortent en deſordre du Temple d’Apollon, ARCAS.</orig>
+            <reg>BRISEIS, Chœur de Grecs qui sortent en désordre du <placeName>Temple d'Apollon</placeName>, <persName>ARCAS</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Le Chœur.</orig>
+            <reg>Le Chœur.</reg>
+          </seg>
+          <seg>
+            <orig>Vyons une mort certaine, Nous n'avons plus de deffenſeur.</orig>
+            <reg>Vions une mort certaine, Nous n'avons plus dé senseur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>On courenvous;</orig>
+            <reg>On courenvous;</reg>
+          </seg>
+          <seg>
+            <orig>quene iesteur Loin de ces lleux vous entraſne 3</orig>
+            <reg>quène jeteur Loin de ces loin vous entrasne 3</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Achile ne vit plus.</orig>
+            <reg><persName>Achille</persName> ne vit plus.</reg>
+          </seg>
+          <seg>
+            <orig>ARCAS.</orig>
+            <reg>
+              <persName>ARCAS</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEII.</orig>
+            <reg>BRISEII.</reg>
+          </seg>
+          <seg>
+            <orig>Ciel!</orig>
+            <reg>Ciel!</reg>
+          </seg>
+          <seg>
+            <orig>quel eſt ſon valnqueur?</orig>
+            <reg>quel est son valnqueur?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>AR</orig>
+          <reg>AR</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ARCAS.</orig>
+            <reg>
+              <persName>ARCAS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Lindigne raviſſeur d’Hlelene Auesannaons aimue ſiole</orig>
+            <reg><persName>Lindigne</persName> ravisseur <persName>d'Hlelene Auesannaons</persName> aimue siole</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BRISEIS.</orig>
+            <reg>BRISEIS.</reg>
+          </seg>
+          <seg>
+            <orig>Quey aimauorauoporaueaeas de la mont</orig>
+            <reg>Quei aimavorauoporaveaeas de la mont</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE SIXIE'ME TOLIAEND, ERISEIS.</orig>
+          <reg>SCÈNE SIIXIE'ME TOLIAND, ERISEIS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE.</orig>
+            <reg>POLIXENE.</reg>
+          </seg>
+          <seg>
+            <orig>leux!</orig>
+            <reg>leux!</reg>
+          </seg>
+          <seg>
+            <orig>quel horrible ſpectace!</orig>
+            <reg>quel horrible spectace!</reg>
+          </seg>
+          <seg>
+            <orig>Le perſide Parla triomphe ſant obſtsele, Iljoilit de ſon crime, &amp; ne me permer peD'embraſſer mon époux mè:</orig>
+            <reg>Le perside <persName>Parla</persName> triomphe sant obstèle, Iljoilit de son crime, et ne me permer péD'embrasser mon époux mèle:</reg>
+          </seg>
+          <seg>
+            <orig>ne aprés ſon trépas, D'uq chux iontel l'ay vl hioper Acllle, I'ay retlé le treit dont il eſtoit percé, Helus!</orig>
+            <reg>ne après son trépas, D'uq chux iontel l'ai vl hioper <persName>Acllle</persName>, J'ai retlé le treit dont il était percé, Hélus!</reg>
+          </seg>
+          <seg>
+            <orig>dans les douleurs dont mon cœur eſt preſſe Ce trait ſacal peur m’eſtre niile.</orig>
+            <reg>dans les douleurs dont mon cœur est presse Ce trait sacal peur m'être niile.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>BAISSIS Ie vay preſſer nos Cheſt &amp; nos Soldats, De vanser le meurtré d’Achile.</orig>
+            <reg>BAISSIS Je vay presser nos Chest et nos Soldats, De vanser le meurtré d'Achille.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, daut mon deſeſvoir le conduiray leurs paSur les remnparts de vôtre vllle.</orig>
+            <reg>Oui, daut mon desesvoir le conduirai leurs paySur les remnparts de votre vll.</reg>
+          </seg>
+          <seg>
+            <orig>Puiſſe le juſte Ciel ſe dechret pour nous!</orig>
+            <reg>Puisse le juste Ciel se déchret pour nous!</reg>
+          </seg>
+          <seg>
+            <orig>Et puiſſent auſour d’huy les Teoy ens peris tous.</orig>
+            <reg>Et puissent ausour d'hui les Teoi ens péris tous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE SEPTIE'ME.</orig>
+          <reg>SCÈNE SEPTIE'ME.</reg>
+        </seg>
+        <seg>
+          <orig>ET DERNIERE.</orig>
+          <reg>ET DERNIÈRE.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>POLIXENE A punir les Troyens, cours hlier la vangeance Deun Heros qu’ou vlent d’immoler Laiſſe, moy ſeule icy, ne vien plus me troublePar ton odieuſe preſence.</orig>
+            <reg>POLIXENE A punir les Troyens, cours hlier la vengeance Deun Héros qu'ou vlent d'immoler Laisse, moi seule ici, ne viens plus me troublePar ton odieuse présence.</reg>
+          </seg>
+          <seg>
+            <orig>Par c&amp; ſoins éclatans va prouver ton Amour, Pourſuy Paris, fais luy ravit le jour, Au Heros que iu perds l’on te verra lurvivre, Depuis qu’il ne vit plus, rleu ne plaiſt à mes veux, vne ſanglante mort va finir en ces lieux Les horribles tourmens ou lu pene me livie, Ah!</orig>
+            <reg>Par ciel soins éclatants va prouver ton Amour, Poursui <placeName>Paris</placeName>, fais deux ravit le jour, Au Héros que ju perds l'on te verra lurvivre, Depuis qu'il ne vit plus, rleu ne plaît à mes veux, une sanglante mort va finir en ces lieux Les horribles tourments où lu pene me livie, Ah!</reg>
+          </seg>
+          <seg>
+            <orig>n’eſt il pas moins glorieux De le vanger que de le ſuivre;</orig>
+            <reg>n'est il pas moins glorieux De le venger que de le suivre;</reg>
+          </seg>
+          <seg>
+            <orig>Mais quels tuſtes obleis viennenr s’oſttir à moy?</orig>
+            <reg>Mais quels tûtes obleis viennenr s'ôttir à moi?</reg>
+          </seg>
+          <seg>
+            <orig>Dieux:</orig>
+            <reg>Dieux:</reg>
+          </seg>
+          <seg>
+            <orig>quel ſaiſiſſement!</orig>
+            <reg>quel saisissement!</reg>
+          </seg>
+          <seg>
+            <orig>quels tranſporllilquel effroyt Ali!</orig>
+            <reg>quels transporllilquel effrait <persName>Ali</persName></reg>
+          </seg>
+          <seg>
+            <orig>je voy mon Epour ſur l’inſernile rivs I'enteuds les crls de ſon ombre plaintive, Elle m'appelle, elle mie tend les bras, Clel!</orig>
+            <reg>je vois mon Épour sur l'insernile rivs J'enteuds les crois de son ombre plaintive, Elle m'appelle, elle mie tend les bras, <persName>Clél</persName></reg>
+          </seg>
+          <seg>
+            <orig>je voy dans ſes yeux éclater ſa colere Chere ombre, attends, je vais te lacleſaire S'il ne faut pour te plaire Que caurr au trépes.</orig>
+            <reg>je vois dans ses yeux éclater sa colère Chère ombre, attends, je vais te laclesaire S'il ne faut pour te plaire Que caur au trépes.</reg>
+          </seg>
+          <seg>
+            <orig>Quelloil d’uns Amour Etendre!</orig>
+            <reg>Quelloil d'uns Amour Étendre!</reg>
+          </seg>
+          <seg>
+            <orig>I'eprouve enfin tous les malſſurs Que Caſſandie cenuio apt me de leſ(mreur voulût eu vain i efaire entcng Et toy qul ieint encorqu, uux de mion Il bu At paſle, dans mes mains pu eciner mar Funtite trait, ſicopt.</orig>
+            <reg>J'éprouve enfin tous les malssurs Que <persName>Cassandie</persName> cenvio apt me de les (mreur voulut eu ici y éfaire entng Et toi qu' ieint encor, ouvux de myon Il bu At pâle, dans mes mains pu eciner mar Funtite trait, sicopt.</reg>
+          </seg>
+          <seg>
+            <orig>iudu Que ton ſecours me ſeie u Si tu franchimon cœur d’une attci .</orig>
+            <reg>iudu Que ton secours me seie u Si tu franchimon cœur d'une attci .</reg>
+          </seg>
+          <seg>
+            <orig>elle, lls-avagte Ihy-même au deuant dett q upTiop Top heureux ſi tu m'es fidelle.</orig>
+            <reg>elle, l'avagte Ihy-même au devant dét upT opTiop Top heureux si tu m'es fidèle.</reg>
+          </seg>
+          <seg>
+            <orig>C'en eſt taii, le ſucais rdpoud à mon attente, Ie n'ay plus guere à ſouſſtir, Ie ſens quels vais mourlr .</orig>
+            <reg>C'en est taii, le suçais rdpoud -à mon attente, Je n'ai plus guère à sousstir, Je sens quels vais mourlir .</reg>
+          </seg>
+          <seg>
+            <orig>Et e'eſt aſſez pour me rendre contente.</orig>
+            <reg>Et ép'est assez pour me rendre contente.</reg>
+          </seg>
+          <seg>
+            <orig>Reçoy mon Sant aprés mes pleurs Acuile;</orig>
+            <reg>Reçois mon Sant après mes pleurs Acuile;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt à toy que ſe me ſacrifie;</orig>
+            <reg>c'est à toi que se me sacrifie;</reg>
+          </seg>
+          <seg>
+            <orig>Sans tor ſe dételte la vle.</orig>
+            <reg>Sans tor se dételte la vle.</reg>
+          </seg>
+          <seg>
+            <orig>Ouy je le juie.</orig>
+            <reg>Oui je le juie.</reg>
+          </seg>
+          <seg>
+            <orig>helas.</orig>
+            <reg>hélas.</reg>
+          </seg>
+          <seg>
+            <orig>je ſtiiſonne.</orig>
+            <reg>je stiisonne.</reg>
+          </seg>
+          <seg>
+            <orig>i meuse.</orig>
+            <reg>y meuse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Fu du cinquiéme, &amp; dernler Ade.</orig>
+          <reg>Fu du cinquième, et dernler <persName>Ade</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Source gallica.</orig>
+          <reg>Source galica.</reg>
+        </seg>
+        <seg>
+          <orig>bnf.</orig>
+          <reg>bnf.</reg>
+        </seg>
+        <seg>
+          <orig>fr (Bibliothèque nationale de France</orig>
+          <reg>fr (<orgName>Bibliothèque nationale de France</orgName></reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>

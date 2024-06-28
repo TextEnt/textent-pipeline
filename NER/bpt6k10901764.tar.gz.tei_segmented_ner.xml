@@ -1,0 +1,2601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adonis, tragédie francoyse</title>
+        <author>Le Breton, Guillaume</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb447296114"/>
+          <author>
+            <persName>Le Breton, Guillaume</persName>
+          </author>
+          <title>Adonis, tragédie francoyse</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1606" cert="high" resp="BNF">1606</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <seg>
+          <orig>ADONIS TRAGEDIE FRANCOYSE DE GABRIEL LE BRETON Niuernois, Seigneur de la Fon.</orig>
+          <reg>ADONIS TRAGÉDIE FRANÇOISE DE <persName>GABRIEL LE BRETON</persName><persName>Nivernais</persName>, Seigneur de la <persName>Fon</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Reueu &amp; corrigé de nouueau par le meſme Autheur.</orig>
+          <reg>Reût et corrigé de nouveau par le même Auteur.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>TRES-HAVTE ET TRES-EXCELLENTE DAME MADAME DE!</orig>
+          <reg>TRÈS-HAUTE ET TRÈS-EXCELLENTE DAME MADAME DE!</reg>
+        </seg>
+        <seg>
+          <orig>Sainct Phale, Ducheſſe de Bempitan, et.</orig>
+          <reg><persName>Saint Phale</persName>, <func>Duchesse de Bempitan</func>, et.</reg>
+        </seg>
+        <seg>
+          <orig>2</orig>
+          <reg/>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ADAME, ayant ya ſingulier deſir de faire cognoiſtre à * noſtre France, combien i’hot nore vos vertus &amp; graces diuines, i’ay longuement douſi ie deuoy faire cetort à voſtre excelnce, à ceſt autheur, &amp; à moy-meſme de aulguer ce liuret ſous l’emprunt du beau ſie de voſtre nom glorieux:</orig>
+          <reg>ADAME, ayant ya singulier désir de faire connaître à * nôtre <placeName>France</placeName>, combien j'hot nore vos vertus et grâces divines, j'ai longuement douy ainsi devoi faire cetort à votre excelnce, à cet auteur, et à moi-même de aulguer ce livret sous l'emprunt du beau sième de votre nom glorieux:</reg>
+        </seg>
+        <seg>
+          <orig>à voſtre ex lleuce pour ne vous diſtraire de vos grai &amp; vertueuſes occupations à ce Poë eleel bien qu’il ſoit conſumé de 1ouë lincts en toutes bonnes lettres, &amp; qu’il Iemporté pluſieurs verdes couronne de iler pour le prix par luy merité ſur le Dle Theatre françois, ſi n’a-il iamais voueſtie mis au nombre de ceux qui ſe hut ẽt cquerit bruit par l’impreſſion, &amp; a moy, ne puis ſans rougir prendre à intereſt au ded’vn mienamy ce lequoy peureſt- ce dequoy peut eſtre ie fineroy bien d moy, ſi prenoy la peine de chercher, confermant en cecy à l’vne des loir Platon, qui deffend de puiſer au puin ſon voiſin, que premierement on t creuſé en terre iuſques à l’argille.</orig>
+          <reg>à votre ex luce pour ne vous distraire de vos gray et vertueuses occupations à ce <persName>Poè eleel</persName> bien qu'il soit consumé de 1oue lincts en toutes bonnes lettres, et qu'il Jemporté plusieurs verdes couronne de iler pour le prix par mieux mérité sur le <persName>Dègle</persName> Théâtre français, si n'a-il jamais vouestie mis au nombre de ceux qui se hut endre cquerit bruit par l'impression, et à moi, ne puis sans rougir prendre à intérêt au de dire ce lequoy à- ce dequoy peut m ie fineroy mien moy, si nô lapeine de chercher, aimoi peut -à vne des loir <persName>Platon</persName>, qui défend de puiser au puin son voisin, si prenait en ceci au n' une des largille'</reg>
+        </seg>
+        <seg>
+          <orig>A m’euſt-il eſté mieux ſeant &amp; honteſte foüiller en mon cabinet, &amp; y recheu entre mes inuentions, celles qui ſe gal enla poudre il y a pres de neuf ans, n me deffiant bien que ie n’y euſſe rien ni ué qui peut approcher à la grace &amp; ba naifue d’vn ADONIS qui fut le ches gnon du ſeu ROy CHARLES dhem memoire, ie l’ay choiſi pour vous en hi preſent, l’eſtimant quaſi comme vne d mienne, tant pource qu’entre amis, con londit, tous biens doiuent eſtre çomm qu’auſſi que le Sieur le Breton s’en al me l’a laiſſé comme en depoſt, auec p pouuoir d’enfaire &amp; diſpoſer à ma vot té.</orig>
+          <reg>À m'eut-il été mieux séant et honteste foüiller en mon cabinet, et y rechevu entre mes inventions, celles qui se gal enla poudre il y a pres de neuf ans, n me défiant bien que je n'y eusse rien ni usse qui peut approcher à la grâce et ba naïve d'un ADONIS qui fut le chez gnon du ROi <persName>CHARLES</persName> d' mémoire, je l'ai choisi pour vous en hi present, l'estimant quasi comme une d mienne, tant pource qu' amis, con londit, tous biens doivent être çomm baussi que leSieur le Do yuen en me la laissé le en Bo, ale ur lenfaire et disposer ma .</reg>
+        </seg>
+        <seg>
+          <orig>Et m’aſſeure qu’il m’en ſçaura fonl gré, &amp; en ſera incité de vous donner ea re ſa Tullie, ſa Charite, ſa Didon, ſa De thee, &amp; le reſte de ſes belles Poëſies, tient cachees au grand regret de tous bons eſprits:</orig>
+          <reg>Et m'assure qu'il m'en saura fonl gré, et en sera incité de vous donner ea re sa <persName>Tullie</persName>, sa <persName>Charite</persName>, sa <persName>Didon</persName>, sa <persName>De thé</persName>, et le reste de ses belles <persName>Poe</persName>̈sies, tient cachées au grand regret de tous bons esprits:</reg>
+        </seg>
+        <seg>
+          <orig>Et d’autant Madame, q' voy, qu’en ceſte grandeur honorable, ſages, belles, &amp; vertueuſes de touté la P ce, vous ne deſdaignez-pas les humi Muſes pour douces &amp; agreables con gnes:</orig>
+          <reg>Et d'autant Madame, q vois, qu'en cette grandeur honorable, sages, belles, et vertueuses de touté la <persName>P</persName> ce, vous ne dédaignez-pas les humi Uses pour douces et agréables con nés:</reg>
+        </seg>
+        <seg>
+          <orig>i’eſpere qu’à mon humble priere ne refuſerez d’authoriſer ce labeur, &amp; pourle voir d’vn bon œil vous luy di</orig>
+          <reg>j'espère qu'à mon humble prière ne refuserez d'autoriser ce labeur, et pourle voir d'un bon œil vous lui di</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IADAME, ie ſupplie le Createur vous onner en treſparfaite ſanté treſlongue &amp; reſ-heureuſe vie.</orig>
+            <reg>JADAME, votre supplie le Créateur vous onner en tréparfaite santé treslongue et résheureuse vie.</reg>
+          </seg>
+          <seg>
+            <orig>De Paris ce3.</orig>
+            <reg>De <placeName>Paris</placeName> ce3.</reg>
+          </seg>
+          <seg>
+            <orig>Nou.</orig>
+            <reg>Nov.</reg>
+          </seg>
+          <seg>
+            <orig>1578.</orig>
+            <reg>
+              <date>1578</date>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>De V.</orig>
+          <reg>De V.</reg>
+        </seg>
+        <seg>
+          <orig>E.</orig>
+          <reg>E.</reg>
+        </seg>
+        <seg>
+          <orig>Treſ-humble &amp; treſ obeiſſant ſeruiteur, D’AMBOYSE.</orig>
+          <reg>Très-humble et très obéissant serviteur, <persName>D'AMBOISE</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ES ENTRE-PARLEVRS.</orig>
+          <reg>ES ENTRE-PARLEURS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Veyous ſert deſormais Oreades cbeſſesſaQuebreſſer par les bois?</orig>
+            <reg>Veyous sert désormais <persName>Oreades</persName> cbessessaQuebresser par les bois?</reg>
+          </seg>
+          <seg>
+            <orig>CHARIIINIſtre ſupport.</orig>
+            <reg>CHARIINIstre support.</reg>
+          </seg>
+          <seg>
+            <orig>CHARLES veſtre Adouis vostre mignon ſ mort, Changeant aux Fliſez vos foreſts embrageuſus.</orig>
+            <reg><persName>CHARLES</persName> vêtre Adouis votre mignon s mort, Changeant aux Flisez vos forêts embrageus.</reg>
+          </seg>
+          <seg>
+            <orig>Sechez vostrefueillage, ô plantes ſoureilleuſu, De bleu, de noir, ruiſſeaux tapiſſez voſtre borl, Nymphes, chaſſeurs rompez comme moy vοſtre εx Quitiez voſtre equippage &amp; vos toyles nouenſa.</orig>
+            <reg>Séchez vostrefueillage, ô plantes soureilleusu, De bleu, de noir, ruisseaux tapissez votre borl, Nymphes, chasseurs rompez comme mo vοstre y vôtre equippage et vos toiles nouensa.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu Nyœphes adieu, &amp; iamais n’eſpertz De faire voſtre queſte aux Françoyſes foreſti:</orig>
+            <reg>Adieu <persName>Nyœphes</persName> adieu, et jamais n'esperts De faire votre quête aux Françaises forêti:</reg>
+          </seg>
+          <seg>
+            <orig>Maisnon ne vou bougez car le docte BRIIOR En ſaueur de Venus pauure deſconſortee.</orig>
+            <reg>Maisnon ne vou bougez car le docte <persName>BRIOR</persName> En saveur de <persName>Venus</persName> pauvre desconsorte.</reg>
+          </seg>
+          <seg>
+            <orig>Malgré Mars le ialoux &amp; l’orgueilleux Platm, Venge io Adonis de l’onde Acherentee.</orig>
+            <reg>Malgré <persName>Mars</persName> le jaloux et l'orgueilleux <persName>Platm</persName>, Venge jo Adon de onde Achèrente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>E.</orig>
+            <reg>E.</reg>
+          </seg>
+          <seg>
+            <orig>D’AMBOYSE, Sine temport temous.</orig>
+            <reg>D'AMBOISE, Sine temport témous.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACTE PREMIER.</orig>
+          <reg>ACTE PREMIER.</reg>
+        </seg>
+        <seg>
+          <orig>VENVS, ADONIS.</orig>
+          <reg><persName>VENUS</persName>, ADONIS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VINVS.</orig>
+            <reg>
+              <persName>VINUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ous Princes quirauis en l'or de vos chaſleaux, Couurez d'armesla terre &amp; la mer de baſteaux, Qui faites moins de cas de la maſſe ſeruile, Du vulguaire ignorant, que d’vne bourbe vile.</orig>
+            <reg>Ous Princes quirauis en l'or de vos châleaux, Couvrez d'armesla terre et la mer de basteaux, Qui faites moins de cas de la masse servile, Du vulguaire ignorant, que d'une bourbe vile.</reg>
+          </seg>
+          <seg>
+            <orig>Qui branſlez, qui virez qui touruez en vos mams, Et voulez que chacun vos grandeurs idolaſtre, S’il aduient quelqueſois que ſortune maraſtee.</orig>
+            <reg>Qui branlez, qui virez qui tourvez en vos mamps, Et voulez que chacun vos grandeurs idolâtre, S'il advient quelques que sortune maraste.</reg>
+          </seg>
+          <seg>
+            <orig>Eſelatant deſius vous ſon horrible meſchef, D vn imſane licol vous empeſtre le chef, Si vous portez enfin aux estrangeres riues Ommir honteuſement vos couronnes captiues, Neflimez pour cela qu’vn changement diuers.</orig>
+            <reg>Eselatant desius vous son horrible mèches, D ampsane licol vous empêtre le chef, Si vous portez enfin aux étrangères rives Omir honteusement vos couronnes captives, Neflimez pour cela qu'un changement divers.</reg>
+          </seg>
+          <seg>
+            <orig>Pouſſe des hommes ſeuls les eſtats à l’enuers, Aueiel comme ca bas(ie te dis à l'eſpreuue) De mon propre malheur l’inconstance ſe treuue, Quand l’arcadic oiſeau celeste meſtager, Deſpouilla ma chair nuë au Phrigien berger, Qui encore n’auoittiré daus les Pergames, Oſfenſant Menelas, les Argoliques flammes, I-cquis la pomme d'or augré de mon veuloir,</orig>
+            <reg>Pousse des hommes seuls les états à l'envers, Aviel comme ca bas(ie te dis à l'épreuve) De mon propre malheur l'inconstance se trouve, Quand l'arcadic oiseau céleste métager, Despouilla ma chair nue au Phrigien berger, Qui encore n'auoittiré daus les <persName>Pergames</persName>, Osfensant <persName>Menelas</persName>, les Argoliques flammes, Icolis la pomme d'or augré de mon veuloir,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Hi'auois ſur Ianon dequoy me preualoin I'aymille ſois marché parla voye lactee, Viſitant des hauts Dieux la ſale frcquentee, Ou i’eſtois bien venue, ou chacun ſe leuant, En ſigne de faueur me couroit au deuant, Mille ſeux conſacrez teſmoigneut ma hauteſſe, Et l’eau, la terre, l’air me conſeſſoient deeſſe, Sans vnmary vilain, vn manæuure boiteux, Qui m’a banny du ciel en ceſt exil honteux:</orig>
+          <reg>Hi'avais sur <persName>Janon</persName> dequoy me preualoin J'aimille sois marché parla voie lacté, Visitant des hauts Dieux la sale frcquentee, Ou j'étais bien venue, ou chacun se levant, En signe de faveur me courait au devant, Mille seux consacrez témoigneut ma hautesse, Et l'eau, la terre, l'air me consessaient déesse, Sans vnmary vil, un manævre boiteux, Qui m'a banni du ciel en cet exil honteux:</reg>
+        </seg>
+        <seg>
+          <orig>Außije ne deuois entrer en mariage, Auec cet importun qui me comble de rage, Pallas en ſit reſus &amp; le grand Iupiter, Auſſi toſt qu’il naſquit le faſſant culbuter, Les hanches luycaſſe, dont encores il chope, Que fuſt.</orig>
+          <reg>Aussije ne devais entrer en mariage, Avec cet importun qui me comble de rage, <persName>Pallas</persName> en sit ressus et le grand <persName>Jupiter</persName>, Aussi tôt qu'il nasquit le sassant culbuter, Les hanches luicasse, dont encor il chope, Que fût.</reg>
+        </seg>
+        <seg>
+          <orig>il au tombeau le malheureux cydape Cet enorme bastard meſchant &amp; vitieux Ne ceſſe de monſtrer ſon cœur pernitieux, Ore de ſon marteau ſous les roches moiſies, Il bat pour eſtonner le, ſimples ſantaſies Des peuples idiots:</orig>
+          <reg>il au tombeau le malheureux cydape Cet énorme bâtard méchant et vitieux Ne cesse de montrer son cœur pernitieux, Ore de son marteau sous les roches moisies, Il bat pour étonner le, simples santaisies Des peuples idiots:</reg>
+        </seg>
+        <seg>
+          <orig>ſon orage tortu, Ore pour aſſonnner la guerriere vertu, Du plus vaillant Troyen, il trempe vne cuiraſſe, Ore dedans l’horreur de ſacauerne baſſe, Il haſte contre moy ſos forgerons mutius, Et me tend en ſurſaut des chainons Aymaethins Tandis qu’auecques Mars ie me ſuis endorme.</orig>
+          <reg>son orage tortu, Ore pour assonner la guerrière vertu, Du plus vaillant Troyen, il trempe une cuirasse, Ore dedans l'horreur de sacaverne basse, Il hâte contre moi sos forgerons mutius, Et me tend en sursaut des chaînons Aimaéthins Tandis qu'avec <persName>Mars</persName> je me suis endorme.</reg>
+        </seg>
+        <seg>
+          <orig>C’et comment il remplit de ſa propre inſamie.</orig>
+          <reg>C'et comment il remplit de sa propre insamie.</reg>
+        </seg>
+        <seg>
+          <orig>Ia bouche des mortels, c’eſt comment ſaus ra ſou Il honu St de broquars la celeſte maiſon, Vn mary vertueux qui aime bien ſa ſemme, Si d’auenture il void qu’elle merite blaſme, En propos &amp; conſeil la ſtait bien cornger, Et ne met follement ſon honueur en danger.</orig>
+          <reg>Ia bouche des mortels, c'est comment saus ra sou Il honu St de broquars la celeste maison, Un mari vertueux qui aime bien sa semme, Si d'aventure il voit qu'elle mérite blâme, En propos et conseil la stait bien cornger, Et ne met follement son honueur en danger.</reg>
+        </seg>
+        <seg>
+          <orig>Ie creue de deſpit &amp; l’ardeur qui m’empire, Rendmon fiel tant eſmeu que ie bouillonne d'irt.</orig>
+          <reg>Je crève dé dépit et l'ardeur qui m'empire, <persName>Rendmon</persName> fiel tant ému que ie bouillonne d'irt.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Apres auoir esté priſe de guet à pens, Pour apprester aux Dieux à rire àmes deſpens Cmel ſouſſle charbon à la ſumeuſetrongne, Quand tu me procuras vne telle vergongne, Ie n’auois le moyen de ſeulement cacher Les membres plus ſecrets de ma tremblante chair, Or puis qu’il m’a braße tels indignes eſcornes.</orig>
+          <reg>Après avoir été prise de guet à pens, Pour apprêter aux Dieux à rire à dépens Cmel soussle charbon à la sumeusetrongne, Quand tu me procuras une telle vergongne, Je n'avais le moyen de seulement cacher Les membres plus secrets de ma tremblante chair, Or puis qu'il m'a brasse tels indignes écornes.</reg>
+        </seg>
+        <seg>
+          <orig>Ie loy feray porter deſſas le front des cornes, Et ne s'enfaudra rien, aduienne que pourra.</orig>
+          <reg>Je lois ferai porter dessas le front des cornes, Et ne s'enfaudra rien, advienne que pourra.</reg>
+        </seg>
+        <seg>
+          <orig>Ainſi de ſes abus l’amende il me fera.</orig>
+          <reg>Ainsi de ses abus l'amende il me fera.</reg>
+        </seg>
+        <seg>
+          <orig>Toutesfou il ne faut que la flechs pouſſee Par la main de mon ſils me bleſſe la penſee, Dequelque amour diuin, ie veux humamement, Pour vn teune garçon ſangloiter mon tourment, I'Aurore deuant iour en la terre deualle, Aſin de receuoir les baiſers de cephale:</orig>
+          <reg>Toutesfou il ne faut que la fléchs poussée Par la main de mon sils me blesse la pensée, Dequelque amour divin, ils veux hummement, Pour un teune garçon sanglaiter mon tourment, J'Aurore devant jour en la terre devalle, Asin de recevoir les baisers de cephale:</reg>
+        </seg>
+        <seg>
+          <orig>La Iune d’autre part reſueille ſon pasteur, Quand il est plus eſtraint d'vnſommeil enchĩteur.</orig>
+          <reg>La June d'autre part réveille son pasteur, Quand il est plus étraint d'unsommeil enchinteur.</reg>
+        </seg>
+        <seg>
+          <orig>Man qu'est-te que i’entens?</orig>
+          <reg>Man qu'est-te que j'entends?</reg>
+        </seg>
+        <seg>
+          <orig>helas ou ie me trompe, Ou bien c’eſt Adonis qui entonne ſa trompe, Pur aller aux ſoreſts.</orig>
+          <reg>hélas ou belle me trompe, Ou bien c'est <persName>Adonis</persName> qui entonne sa trompe, Pur aller aux sorêts.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADONIS.</orig>
+            <reg>
+              <persName>ADONIS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Amenez, ces limiers, Iu à coop veuez ieſt, &amp; marchez les prenieri</orig>
+            <reg>Amenez, ces limiers, <persName>Ju</persName> à co vez jest, et marchez les prenier</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENVS.</orig>
+            <reg>
+              <persName>VENUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ne diſou-ie pas bien:</orig>
+            <reg>Ne disou-je pas bien:</reg>
+          </seg>
+          <seg>
+            <orig>Venus infortunee, Mamenant tu vetras combienlu destinee, Coniure contre toy de peuible tigueur, Adoηη mon iuignon pes delices mon cæur, Mon eις, vore mon æur, &amp; ma douce eſperdce, N’aur qyve point iaman l'euture touyſſante, De tes embraſſemeus?</orig>
+            <reg>Venus infortunée, Mamenant tu vétras combienlu destine, Conjure contre toi de peuible tigueur, Adoñ mon juignon pès délices mon cæur, Mon e, vore mon æur, et ma douce esperdce, N'aur qive point jaman l'euture touissante, De tes embrassemeus?</reg>
+          </seg>
+          <seg>
+            <orig>n’ay-ie pas merité, Seule d’auoir le fruit de ta ieune beaute?</orig>
+            <reg>n'ai-je pas mérité, Seule d'avoir le fruit de ta jeune beauté?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADONIS.</orig>
+            <reg>
+              <persName>ADONIS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quel propos eſt cecy' quelle doute nouuelle O mere des amours, vous entre eu la ceruelle.</orig>
+            <reg>Quel propos est ceci quelle doute nouvelle Ô mère des amours, vous entre eu la cervelle.</reg>
+          </seg>
+          <seg>
+            <orig>Comment?</orig>
+            <reg>Comment?</reg>
+          </seg>
+          <seg>
+            <orig>viſtes vous oncq’vn autre ſeu pipeus EmbraCer dedans moy ſa flambante vapeur, Siie vais à l'eibas n’eu ſoyez point ſeſches.</orig>
+            <reg>vîtes vous oncq’un autre seu pipeus EmbraCer dedans moi sa flambante vapeur, Siie vais à <object>l'eibas</object> n'eu soyez point sesches.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>*ESYS· Ie crains mon doux ſouy quelque Nymphe cachu Hoſteſſe des buiſſons qui te tendant ſes laz Vueille participer à mon bien &amp; ſoulas.</orig>
+            <reg>*ESYS Je crains mon doux soui quelque Nymphe cachu Hôtesse des buissons qui te tendant ses laz Veuveille participer à mon bien et soûlas.</reg>
+          </seg>
+          <seg>
+            <orig>Amour eſt foupçonneux &amp; raremens chomius Qu’il n’ait à ſes coſtez vne crainte voiſine.</orig>
+            <reg>Amour est soupçonneux et rarements chomius Qu'il n'ait à ses côtés une crainte voisine.</reg>
+          </seg>
+          <seg>
+            <orig>En quoy t'ay-ie deſpla?</orig>
+            <reg>En quoi t'ai-je dépla?</reg>
+          </seg>
+          <seg>
+            <orig>comment ay-ie peché Pour te voir ſi ſouvent de ven ſein arache?</orig>
+            <reg>comment ai-je péché Pour te voir si souvent de ven sein arache?</reg>
+          </seg>
+          <seg>
+            <orig>A bon droit ie miudis ces obſcuresramees Et ces bois où ſe ſont les ſureurs allumces D'Echo lababillarde.</orig>
+            <reg>À bon droit Seigneur miudis ces obscuresramées Et ces bois où se sont les sûresurs allumées D'Écho lababillarde.</reg>
+          </seg>
+          <seg>
+            <orig>Ou groſſe ce dit on Conçeut ſartinement ſon veneur Caliſthou.</orig>
+            <reg>Ou grosse ce dit on Conçut sartinement son veneur <persName>Calistou</persName></reg>
+          </seg>
+          <seg>
+            <orig>Puiſhez vous à l’iuſtant perdre vos ſueilles verles Puißiez vous ô foreſts chauues &amp; deſcouneries Eſprouuer les hiuers d’vn Aquillon grondant, Puis que vous jauiſſez mon deſir, &amp; pondans Iangaiſſante d'ennuy à toute heuce ie paſme.</orig>
+            <reg>Puishez -vous à l'iustant perdre vos seuilles verles Puissiez -vous ô forêts chauves et découneries Éprouver les hivers d'un Aquillon grondant, Puis que vous jissez mon désir, et pondant Jangaissante d'ennui à toute heuce té mème.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>APONIS.</orig>
+            <reg>APONIS.</reg>
+          </seg>
+          <seg>
+            <orig>Decſſene penſez qu’vne ſeconde ſomme Me face chanceller à ſa denotien, En vous &amp; non ailleurs gist mon affeclion Pourtans ne craignez point ceste ſorest proſende.</orig>
+            <reg>Decssene pensez qu'une seconde somme Me face chanceler à sa denotien, En vous et non ailleurs gît mon affeclion Pourtants ne craignez point cette sorêt prosende.</reg>
+          </seg>
+          <seg>
+            <orig>Oune voit qu’ou Soleil eſilurer tous lemonde Qui des moindres flambeaux eſtouſſela ſplendeur.</orig>
+            <reg>Ôune voit qu'ou Soleil esilurer tous lemonde Qui des moindres flambeaux estoussela splendeur.</reg>
+          </seg>
+          <seg>
+            <orig>Autre que vous auſii n’eſchanfſera l’ardeur Demon tœur obligé, quelque eſſort qu’en me dõne Ie ciel rit vons voyant, laterre ſe couronne Deroſes &amp; d’œillets pour micux veus careſſer:</orig>
+            <reg>Autre que vous ausi n'échanfsera l'ardeur Démon tœur obligé, quelque essort qu'en me donne Je ciel rit ouvons voyant, laterre se couronne Déroses et d'œillets pour micux vus caresser:</reg>
+          </seg>
+          <seg>
+            <orig>He dieux pourroit-ie bien en oubly vous laiſſer?</orig>
+            <reg>He dieux pourrait-je bien en oubli vous laisser?</reg>
+          </seg>
+          <seg>
+            <orig>Mau quey le ſeul pluſir à la chaſſeme mane.</orig>
+            <reg>Mau quei le seul plusir à la chasseme mane.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENVS.</orig>
+            <reg>
+              <persName>VENUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Cbaſſe!</orig>
+            <reg>Cbasse!</reg>
+          </seg>
+          <seg>
+            <orig>le ſeul motiſde mon eſtrange peine, Chaſſe quime deſtruit &amp; choſſe lomg de moy, Teut le contintement que i'eſperede i9y.</orig>
+            <reg>le seul motisde mon étrange peine, Chasse qui détruit et chosse lomg de moi, Teut le contintement que j'esperede i9y.</reg>
+          </seg>
+          <seg>
+            <orig>Iame vois eſleuer ſur la trouſe diuine, Tuvois cet œil miguardde couleur hebenine Et l'or enamouré de ces paſſe fillons Qui pourroyent xn rocher ſendre en mille ſillons, In vois de mon ſemn blanc l'enfleure rondeleite Ta voithelastu vois mon bras qui ne ſocbaitte Qu’à te faucriſerd’accoler à loſſir, C uſt la qu’il te faudrout chercher quelque plaiſir.</orig>
+            <reg>Ime vois élever sur la trouse divine, Tuvais cet œil miguardde couleur hébenine Et l'or enamouré de ces passe sillons Qui pourraient xn rocher sendre en mille sillons, In vois de mon semn blanc l'enfleure rondeleite Ta voithélastu vois mon bras qui ne socbaite Qu'à te faucriserdaccoler à lossir, Ç ust la qu'il te faudrout chercher quelque plaisir.</reg>
+          </seg>
+          <seg>
+            <orig>Cot que tu deuerois, ſi ie merite grace, Imployer tes deſtins, tes cſlors &amp; ta chaſſe.</orig>
+            <reg>Cot que tu deverais, si ici mérite grâce, Imployer tes destins, tes clors et ta chasse.</reg>
+          </seg>
+          <seg>
+            <orig>Iel qui penſe tremper la beste enoelopant En ſon ſillé tendu ſounent il ſe repent De l'auoir entrepru Car ſon malheur extreſme Cuidant ſurprendre autty le capriue luy meſme.</orig>
+            <reg>Jel qui pense tremper la bête enoeloppant En son sillé tendu sounent il se repent De l'avoir entrepru Car son malheur extrême Cuidant surprendre auty le caprive au mesme.</reg>
+          </seg>
+          <seg>
+            <orig>Intre les animaux que vaiure ſorma De cernes les aucuns, les autres elle arma D'y ne dent furieuſe où ſe cache la foudre, Afinde terraſſer homme &amp; clnens ſur la poudre.</orig>
+            <reg>Intre les animaux que vaivre sorma De cernes les aucuns, les autres elle arma D'y ne dent furieuse où se cache la foudre, Afinde terrasser homme et clents sur la poudre.</reg>
+          </seg>
+          <seg>
+            <orig>Qu vn ſinistre malheur de mon aiſe taleux Texpeſaſt nonchallant à laναgο deνleux, Que ie te viſſe mort en peurſuin aui les courſes Du ſanglier eſeumeux ou des ſumantes ourſes.</orig>
+            <reg>Qu' int sinistre malheur de mon aise taleux Texpesast nonchallant à lagg deleux, Que ie te visse mort en peursvin aui les courses Du sanglier eseumeux ou des sumantes ourses.</reg>
+          </seg>
+          <seg>
+            <orig>Diex empeſchuez ee mal.</orig>
+            <reg><persName>Diex</persName> empêchuez ce mal.</reg>
+          </seg>
+          <seg>
+            <orig>Mignentun yrus peins.</orig>
+            <reg>Mignentun yrus peins.</reg>
+          </seg>
+          <seg>
+            <orig>sus queec pourpre beau à ma leure ſoit joint.</orig>
+            <reg>sus queec pourpre beau à ma lèvre soit joint.</reg>
+          </seg>
+          <seg>
+            <orig>Embraſſe moy mon ſili &amp; doucement me jerre.</orig>
+            <reg>Embrasse -moi mon sili et doucement me jerre.</reg>
+          </seg>
+          <seg>
+            <orig>Comme fait ſon rameau vn ameureux lierre.</orig>
+            <reg>Comme fait son rameau un ameureux lierre.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADONIS.</orig>
+            <reg>
+              <persName>ADONIS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Qui d'vn amy parfait yeut emporter le pris.</orig>
+            <reg>Qui d'un ami parfait yeut emporter le pris.</reg>
+          </seg>
+          <seg>
+            <orig>Doit auoir quelque, ſois ſes amours à meſpris, Et retoindre ſoudain:</orig>
+            <reg>Doit avoir quelque, sois ses amours à mépris, Et retoindre soudain:</reg>
+          </seg>
+          <seg>
+            <orig>car à la contiuue I’amour bien que ſeruant peu à peu diminue.</orig>
+            <reg>car à la contive J'amour bien que servant peu à peu diminue.</reg>
+          </seg>
+          <seg>
+            <orig>On eſtime bien ſort le Priu-tems retourné Pource qu’il n’eſt touſiours prodiguement orné Des ſes bouquets nouueaux &amp; plaiſante verdure, Et mons à deſplaſir, plaſir qui touſiours dure, Pardeunez moy Veuus ſi de vous me diſtrez.</orig>
+            <reg>On estime bien sort le Priu-tems retourné Pource qu'il n'est toujours prodiguement orné Des ses bouquets nouveaux et plaisante verdure, Et mons à déplasir, plasir qui toujours dure, Pardeunez moi Veuus si de vous me distrez.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ENVS.</orig>
+            <reg>ENUS.</reg>
+          </seg>
+          <seg>
+            <orig>Me deſdaigner ainſi, ce ſont ce ſont lestrez D’vncourage ſelon endurcy plus que marbre.</orig>
+            <reg>Me dédaigner ainsi, ce sont ce sont lestrez D'uncourage selon endurci plus que marbre.</reg>
+          </seg>
+          <seg>
+            <orig>Veux-tu donc imiter le nalurel de I’arbre, Qui pour te mettre au iour ſon e torce ſendit Et dedans tes boyax ſa rudeſſe eſpandit?</orig>
+            <reg>Veux-tu donc imiter le nalurel de J'arbre, Qui pour te mettre au jour son e torce sendit Et dedans tes boiax sa rudesse épandit?</reg>
+          </seg>
+          <seg>
+            <orig>Ture de ta beauté tant le venin m'altere I’ay laiſié les coupeaux d’Erice &amp; de Cythere.</orig>
+            <reg>Ture de ta beauté tant le venin m'altère J'ai laisié les coupeaux d'Érice et de <persName>Cysthère</persName></reg>
+          </seg>
+          <seg>
+            <orig>Et les champs Gnydiens mon terrois precieux Quittant aux unmortels le nectar &amp; le cieux, Tues mou doux nectir, tu es mon Imbroſie, Odroye moy ce don, ohange de ſantaſie, Differant à demain puiſque Phæbus panché Sur la mer Eſpagnole eſt à demy conché.</orig>
+            <reg>Et les <persName>champs Gnydiens</persName> mon terrais précieux Quittant aux unmortels le nectar et le cieux, Tues mou doux nectir, tu es mon Imbrosie, Odroie moi ce don, ohange de santaisie, Différant à demain puisque <persName>Phæbus</persName> penché Sur la <placeName>mer Espagnole</placeName> est à demi conché.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADONIS.</orig>
+            <reg>
+              <persName>ADONIS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Baſte, c'eſttrop parléie le veux ma deeſſe, Retouruons accomplir la douceur flatereſſe, De cefeu couſlumier qui nous ſuis pas à pas, At rauit nos eſprits aumiel de ſes apus.</orig>
+            <reg>Bâte, c'esttrop parléie le veux ma déesse, Retourvons accomplir la douceur flatteresse, De cefeu coutumier qui nous suis pas à pas, At ravit nos esprits aumiel de ses apus.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACTE SECOND.</orig>
+          <reg>ACTE SECOND.</reg>
+        </seg>
+        <seg>
+          <orig>MARS, DIANE.</orig>
+          <reg><persName>MARS</persName>, DIANE.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MARS.</orig>
+          <reg>
+            <persName>MARS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Omment?</orig>
+          <reg>Omment?</reg>
+        </seg>
+        <seg>
+          <orig>eſt-ce la foy paillarde cyberee Eft-ce la fermeté que tu m’auois iuree?</orig>
+          <reg>est-ce la foi paillarde cyberee Est-ce la fermeté que tu m'avais jure?</reg>
+        </seg>
+        <seg>
+          <orig>Mediſou-tu tela quand d’vn baiſer larrou Tu paantipameimanume mtan giron?</orig>
+          <reg>Medisou-tu tela quand d'un baiser larrou Tu paantipameimanume mtan giron?</reg>
+        </seg>
+        <seg>
+          <orig>Quænd ie laiſſois tomber, ô ſimpleſſe trop laſche, Ates pieds blandiſſant mon ire &amp; mon rudache Iiſerable putain cauſe de tout eſmoy.</orig>
+          <reg>Quænd ie laissais tomber, ô simplesse trop lâche, Ates pieds blandissant mon ire et mon rudache Jisérable put cause de tout émoi.</reg>
+        </seg>
+        <seg>
+          <orig>Ta temotqueras doncq à ceſte heure de moy?</orig>
+          <reg>Ta témotqueras donc à cette heure de moi?</reg>
+        </seg>
+        <seg>
+          <orig>Non non ne penſe pas que ma main ſoit retiue, Ny qu’elle ſoit encore deſſous Othus captiue, Iay le bras, i’ay la main, i’ay l’eſcuvougiſſant Dei corps enſenglantez que i’allayt apißant Quid l’orgueil terre-né du Grant Enceliade Oſa contre les cieux preſenter l’eſcalade Tandu qu'vn mont gibel ſa flamme romira I houneur Odriſien ce monde remplira Ie ſaule Dieu commun qui heiſe les marailles Clespreus &amp; deſſens, qui donue le, batailles Animanc au combat le guercier cu larcy Ians pitié ſans amour &amp; qui de mon ſourcy Peux faire tresbucher la Cyme de Nrdope la Iharce m’obeis,, le Tartare çal ppe apres mon chae dose &amp; comme touibillons IIe ſuiuent loing lu tour les plasſ tus Gelems, Ius dequoy me ſent-il degoidis les arinees 1</orig>
+          <reg>Non non ne pense pas que ma main soit rétive, Ny qu'elle soit encore dessous <persName>Otus</persName> captive, Ja le bras, j'ai la main, j'ai l'escuvougissant Dei corps ensenglantez que j'allait apissant Quids l'orgueil terre-né du Grant <persName>Enceliade</persName> Osa contre les cieux présenter l'escalade Tandu qu'Han mont gibel aux flamme romira I Jouneur Odrisien ce monde remplira Je saule Dieu commun qui hérise les marailles <persName>Clespreus</persName> etade, et de le, batailles Animanc au combat le guercier cv larcy Ians pitié sans amour , qui de on sourcy Peux faire trébucher la Cyme de <persName>Nrdope</persName> la Iharce obéis, le Tartare çal apres mon qui dose et ' touibillons E suiuent loing lu tour les plass tus Gelems, Qui ne m sent-il degoidis les ai 1</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>De commander aux Roys de vendre leurs ſomuet Et les temples vamqueurs de palmes vu brarer Si d’vnſoble gargon te ne me pais venger:</orig>
+          <reg>De commander aux Rois de vendre leurs somuet Et les temples vamqueurs de palmes vu brarer Si d'Hsoble gargon te ne me pais venger:</reg>
+        </seg>
+        <seg>
+          <orig>Mais dequoy me ſert-il ſouſler en ma poitrine Ies Syluques labeurs, le meurtre, la rapmne Et rompre les accors de chacun élement Si vn homme mortel me braue telement?</orig>
+          <reg>Mais dequoy me sert-il soûler en ma poitrine Jes Syluques labeurs, le meurtre, la rapmène Et rompre les accors de chacun élement Si un homme mortel me brave telément?</reg>
+        </seg>
+        <seg>
+          <orig>Que ſert-il de ſicher ou me plaiſt la victoire, Si vu petit chaſſeur triomphe de ma gloure.</orig>
+          <reg>Que sert-il de sicher ou me plaît la victoire, Si vu petit chasseur triomphe de ma gloure.</reg>
+        </seg>
+        <seg>
+          <orig>Encore ſi Mereure eſtoit men cοrτinαl Ou le Dieu rayonnant de flame pied chenal Oirceluy qui des caux bride la violence.</orig>
+          <reg>Encore si Mèreure était men cοrτinαl Ou le Dieu rayonnant de flamme pied chenal Oircelui qui des caux bride la violence.</reg>
+        </seg>
+        <seg>
+          <orig>I’aurois moins de regret &amp; prendrois patienct.</orig>
+          <reg>J'aurais moins de regret et prendrais patienct.</reg>
+        </seg>
+        <seg>
+          <orig>O monſtre ſeminmn ennem de repes Malheureux eſt celuy qui croit à tes prepes Qui j’approche de toy &amp; quite fait hommege Car conme d'vnnoyer ſeulement ion vmbrag?</orig>
+          <reg>Ô montre seminmenn ennem de repes Malheureux est celui qui croit à tes prépes Qui j'approche de toi et quite fait homme Car conme d'unnoyer seulement ion vmbrag?</reg>
+        </seg>
+        <seg>
+          <orig>EHιriste &amp; veneneux, tes ſilles d'.</orig>
+          <reg>EHriste et vénéneux, tes silles d'.</reg>
+        </seg>
+        <seg>
+          <orig>cheloTrompent le pelerin fardant vn pen leer reix, Mais au beſointu ſcais milles ruſes ſecrettes.</orig>
+          <reg>chéloTrompent le pèlerin fardant un pen le reix, Mais au besointu scais milles ruses secrètes.</reg>
+        </seg>
+        <seg>
+          <orig>Pour mieux enſorceler nos ames indiſerestes.</orig>
+          <reg>Pour mieux ensorceler nos âmes indiserestes.</reg>
+        </seg>
+        <seg>
+          <orig>Ce chenu compaignon de l’or mieux aſpne Ores eftraint en nenuds.</orig>
+          <reg>Ce chenu compagnon de l'or mieux âne Ores éftraint en nenuds.</reg>
+        </seg>
+        <seg>
+          <orig>Or doucement moe Flottant deſſus le col, à treſſes vagabondes Noyent noſtre raiſon en l'erreur de ſes eudes, De tes yeux larmoyaus il ſort vne liqueur Aincois vn reagal qui perce noſire cæur.</orig>
+          <reg>Or doucement moie Flottant dessus le col, à tresses vagabondes Noient notre raison en l'erreur de ses édes, De tes yeux larmoyaus il sort une liqueur Aincais un reagal qui perce nos cæur.</reg>
+        </seg>
+        <seg>
+          <orig>.</orig>
+          <reg/>
+        </seg>
+        <seg>
+          <orig>Ainſi le caut ſerpent ammal à deux vies.</orig>
+          <reg>Ainsi le caut serpent amal à deux vies.</reg>
+        </seg>
+        <seg>
+          <orig>Pleure deſſas le Nil ſes mortelles enaies.</orig>
+          <reg>Pleure dessas le <placeName>Nil</placeName> ses mortelles enaies.</reg>
+        </seg>
+        <seg>
+          <orig>Tonparler ton marcher par fraude ſoregest.</orig>
+          <reg>Tonparler ton marcher par fraude soregest.</reg>
+        </seg>
+        <seg>
+          <orig>Ce n’eſt point le ccrail qui tes leures rosgiſt Ny la rermaſle ſleur du mois de May cences?</orig>
+          <reg>Ce n'est point le ccrail qui tes leur rosgist Ni la rermâle sleur du <date>mois de May</date> cences?</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt le ſang que tubois inhumamne ſanſac.</orig>
+          <reg>C'est le sang que tubais inhumamne sansac.</reg>
+        </seg>
+        <seg>
+          <orig>Ce beau ſein meſuré qui deßouz ton çolles.</orig>
+          <reg>Ce beau sein mesuré qui devouz ton çolles.</reg>
+        </seg>
+        <seg>
+          <orig>Enſle prodigieux deux montaignes de las</orig>
+          <reg>Ensle prodigieux deux montagnes de las</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ceupables des malheurs que ſur nous il aſſimble, Tremlle, vient &amp; reuient &amp; palisi tout enſemble, Ie peintre ingenieux qui voudraretirer Touimaux en vn tableau s’en voyſe fgurer Ce monßtre I'erncen &amp; ſon portaic linfame 2 Car rien ne ſemble tant à tout mal que la ſen me.</orig>
+          <reg>ceupables des malheurs que sur nous il assimble, Tremlle, vient et revient et palisi tout ensemble, Je peintre ingénieux qui voudraretirer Touimaux en un tableau s'en voise fgurer Ce montre J'erncen et son portaic linfame 2 Car rien ne semble tant à tout mal que la sen me.</reg>
+        </seg>
+        <seg>
+          <orig>Pous mes auant-coureurs mal aduiſez corbeaux.</orig>
+          <reg>Pous mes avant-coureurs mal avisez corbeaux.</reg>
+        </seg>
+        <seg>
+          <orig>Chontres Listoniens prophetes des tombeaux, l’eus rages mon appuy qui me crettez la teſte, Pour vn plumage blanc de foudre &amp; de iempeſte.</orig>
+          <reg>Chontres Listoniens prophètes des tombeaux, l'eus rages mon appui qui me crettez la tête, Pour un plumage blanc de foudre et de iempeste.</reg>
+        </seg>
+        <seg>
+          <orig>Teyrebelle diſcort au double couflelas:</orig>
+          <reg>Téirebelle discort au double coufflelas:</reg>
+        </seg>
+        <seg>
+          <orig>Ious inſernaux demons:</orig>
+          <reg>Jous insernaux démons:</reg>
+        </seg>
+        <seg>
+          <orig>Vous acharnez debats, oy martel ſoupçonneux qui iamais ne ſommeilles Ayant vn pied dreſſé &amp; le chef plain d’oreilles Ieus terreurs, vous horreurs, ioy crainte iãs peumõ.</orig>
+          <reg>Vous acharnez débats, oi martel soupçonneux qui jamais ne sommeilles Ayant un pied ressé et le chef plain d'oreilles Jeus terreurs, vous horreurs, joi crainte jant peumõ.</reg>
+        </seg>
+        <seg>
+          <orig>Etout cela qui boit les eaux du froit Strimon, E qui tient d'Erimant la plus proſonde roche Inez, tonnez, hurlez, accompaignez mon ceche Tuut bouillant de couroux.</orig>
+          <reg>Etout cela qui boit les eaux du froit <persName>Strimon</persName>, <persName>E</persName> qui tient d'Erimant la plus prosonde roche Inés, tonnés, hurlez, accompagnez mon cèche Tuût bouillant de courroux.</reg>
+        </seg>
+        <seg>
+          <orig>Auſi-tost qu’vn oyſean Pay, i’yray trouuer ce braue damoiſeau, Ee preudray de ſon ſang l’honneur de mon trothee.</orig>
+          <reg>Aussitôt qu'un oisean Pay, j'irai trouver ce brave damoiseau, Ée preudray de son sang l'honneur de mon trothée.</reg>
+        </seg>
+        <seg>
+          <orig>Ionme on voit quelques fois vne greſle Niphee laadroyer, dißiper les ſapius &amp; buiſſens Ileſpoir iauniſſant des prochaiues moiſſoνs.</orig>
+          <reg>Ionme on voit quelques fois grêle <persName>Nyphée</persName> laadroyer, dissiper les sapius et buissens Ilespoir jaunissant des prochaiues moissoces.</reg>
+        </seg>
+        <seg>
+          <orig>auiiſle laboureur ſe rompant le viſage muire ſon eſtomach fait vn ſecond Orage, Acomme vne tigreſſe au Caſpien rocher Dant perdu ſes fans ne ceſſe de chercher luu legere beauconp que ſon macy Zephire.</orig>
+          <reg>auiisle laboureur se rompant le visage muire son estomacach fait second Orage, Acomme une tigresse au <persName>Caspien</persName> rocher Dant perdu ses fans ne cesse de chercher luu légère beaucon que son macy <persName>Zéphire</persName></reg>
+        </seg>
+        <seg>
+          <orig>fin prená le volleur, &amp; ſoudain le deſclure Imille &amp; mille parts, non aatremens auſai veux enragement contenter mon ſeucy.</orig>
+          <reg>fin prenait le volleur, et soudain le déclure Imille et mille parts, non aatremens auzay veux enragement contenter mon seuci.</reg>
+        </seg>
+        <seg>
+          <orig>en ne m’empeſchera que brulent ie ne volle I le negeux Caucas, ſur les glaces du Pole, Abiſnes d’enſer, au monde ſans couleur.</orig>
+          <reg>en ne m'empêchera que brûlent ie ne volle I lé geux Caucas, sur les glaces du <persName>Pole</persName>, Abînes d'enser, au monde sans couleur.</reg>
+        </seg>
+        <seg>
+          <orig>Et ſi le noir Iupin I'oppoſe àma deuleur, Sa femme, ſa maiſon, ſes trougueallesportieres, Ses vrnes &amp; fureurs ne demourront entieres Ie fractaſſera iout.</orig>
+          <reg>Et si le noir <persName>Jupin</persName> J'oppose àma dévuleur, Sa femme, sa maison, ses trougueallesportieres, Ses vrnes et fureurs ne demourront entières Je fractassera jout.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Hé Mars mal conſoté.</orig>
+            <reg>Hé <persName>Mars</persName> mal consoté.</reg>
+          </seg>
+          <seg>
+            <orig>Il vaudroit beaucoup mieux dedans ton æil ſile Receuoir le ſommeil qu'eſchauffer les tenebres Deſanglots importuns &amp; deplaintes fanebres.</orig>
+            <reg>Il vaudrait beaucoup mieux dedans ton æil síle Récevoir le sommeil qu'échauffer les ténèbres Desanglots importuns et déplaintes fanèbres.</reg>
+          </seg>
+          <seg>
+            <orig>Ainſi voit onen van le thoreau moins puiſſane Se cather és ſablons loin du pré verdiſſont, Et cedant au vainqueur ſon amante cornue Eſionner de ſes cris le deſert &amp; la nue.</orig>
+            <reg>Ainsi voit on van le thoreau moins puissane Se cather ès sablons loin du pré verdissont, Et cédant au vainqueur son amante cornue Esionner de ses cris le désert et la nue.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARS.</orig>
+            <reg>
+              <persName>MARS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>O parques, ê fuſeaux, ó deftin maltiſſs, O chaos enfermé dont mon mal eſt iſſa.</orig>
+            <reg>Ô parques, êtes fuseaux, 5 destin maltisss, Ô chaos enfermé dont mon mal est issa.</reg>
+          </seg>
+          <seg>
+            <orig>Lai helas quel conſeil?</orig>
+            <reg>Lai hélas quel conseil?</reg>
+          </seg>
+          <seg>
+            <orig>que maintenant le dome Or qu’onme ſaict en tort ſi lajehement eaora.</orig>
+            <reg>que maintenant le dôme Or qu'onme sait en tort si lajehément eaora.</reg>
+          </seg>
+          <seg>
+            <orig>Que ie preſſe le lit &amp; le mol trane ſam Sans rien eſfectuer de mon prem er deſſain?</orig>
+            <reg>Que était presse le lit et le mol trane sam Sans rien éfectuer de mon prem er dessain?</reg>
+          </seg>
+          <seg>
+            <orig>T nautre iouyra de ant ceste auit ſombre Du ſolide plaſir &amp; ie n’auray que l'ombre Que i'endurece oeι) Ie ſeroninſencé De langus ſuc la pl ime aνα εἰς tαυr bleße C’eſtaſſame aux Peſſon decaudec deſſoasterre Εt ακx ουn, caετne qoι di Ous ioae geim Aune ſarg.</orig>
+            <reg> Tautre jouira de ant cette avit sombre Du solide plas et été n'aurai que l'ombre Que j'endure oe) Je seroninsencé De langus suc la pl âme a longue tαυr blesse C'estassame aux Pesson décaudec dessoasterre , caετne ioae geim Aune sarg.</reg>
+          </seg>
+          <seg>
+            <orig>aime brot totpe le renpan.</orig>
+            <reg>aime brot totpe le renpan.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Mettom pour qu quetenpste.</orig>
+            <reg>Mettom pour qu' quetenpste.</reg>
+          </seg>
+          <seg>
+            <orig>beποα ειιιες</orig>
+            <reg>beποα été</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Et ſi ta le permets que ton ame ſe plonge Partrop legerement en ce courroux amer, Srau-tu pas que Venus eſt ſille de la mer Pariure, variable, inconstante incertaine, Qu ſe tourne ſouuent à la premiere halaine.</orig>
+          <reg>Et si ta le permets que ton âme se plonge Partrop légèrement en ce courroux amer, Srav-tu pas que <persName>Venus</persName> est sille de la mer Pariure, variable, inconstante incertaine, Qu ' une souvent à la première halaine.</reg>
+        </seg>
+        <seg>
+          <orig>Donques tu deſirois estre ſeul fauocy.</orig>
+          <reg>Donc tu désirais être seul favoci.</reg>
+        </seg>
+        <seg>
+          <orig>Vient-sà qui fut premier d’Ecycine cheri?</orig>
+          <reg>Vient-à qui fut premier <persName>d'Écicine</persName> chéri?</reg>
+        </seg>
+        <seg>
+          <orig>Ne fiſſe pas Vulcan qui le foudremartelle, Anquel elle promiſt vne ſoy mutuelle, Et que iamais ſon cœur n’aymeroit changement, Toutesſois nous voyons conme fidellement Hle a depuis ce iour ſa promeße gardee.</orig>
+          <reg>Ne fisse pas <persName>Vulcan</persName> qui le foudremartelle, Anquel elle promît une soi mutuelle, Et que jamais son cœur n'aimerait changement, Toutessais nous voyons commè fidellement Hle a depuis ce jour sa promée gardée.</reg>
+        </seg>
+        <seg>
+          <orig>omtueien mapanmi pigtonsgdides Ltantres Idiens és foreſts, ſur le mont.</orig>
+          <reg>omptueien mapanmi pigtonsgides Ltantres Idiens ès forêts, sur le mont.</reg>
+        </seg>
+        <seg>
+          <orig>Oi à ſes appetus l’impudente ſemont Anchiſe le bouuier, maintenant elle eurage Apres ſon Adouis qui la tient en ſeruage.</orig>
+          <reg>Oui à ses appétus l'impudente semont Anchise le bouvier, maintenant elle eurage Après son Adouis qui la tient en servage.</reg>
+        </seg>
+        <seg>
+          <orig>Et toy meſme qui fais ainſi le faſpiſant Iu ſiais bienſi le for de Iemmos est peſant:</orig>
+          <reg>Et toi même qui fais ainsi le faspisant <persName>Ju</persName> siais biensi le for de <persName>Iemmos</persName> est pesant:</reg>
+        </seg>
+        <seg>
+          <orig>Vue ſalle putain imite la fortune Se monſtrant ſoniliere &amp; tan oſt importune Ele chaſje les vus les auir' elle reçoit Et les mieux accomplis volage elle decoit Iamais l’enfant aiſlé ne ſe ſaoule de larmes Nyle braue ſoldas de ſanglantes alarmes, Ies abeilles de fleurs &amp; la ſemme touſiouri Deſire pratiquer de nouuelles amours.</orig>
+          <reg>Vue salle putain imite la fortune Se montrant sonilière et tan ost importune Éle chas les vus les avir elle reçoit Et les mieux accomplis volage elle déçoit Jamais l'enfant aisé ne se saoule de larmes Nyle brave soldas de sanglantes alarmes, Jés abeilles de fleurs et la semme toujours Desire pratiquer de nouvelles amours.</reg>
+        </seg>
+        <seg>
+          <orig>Aiſi fauça Iadis Heleine Therapnee A l’Atride mineur ſa parolle donnee.</orig>
+          <reg>Ai sauda Jadis <persName>Hèleine</persName> Therapnee A l'Atride mineur sa parole donne.</reg>
+        </seg>
+        <seg>
+          <orig>De la vindrent außti mille &amp; mille combars Ia Troyenne cite ſuſt renuerſee à b.</orig>
+          <reg>De la vindrent aussi mille et mille combars Ia <persName>Troyenne</persName> cite sût renversée à b.</reg>
+        </seg>
+        <seg>
+          <orig>us Hector meſme teiguit ſa poulciere natalle brefde là proceda la ruine totale De l'empire aſien taut ce mortel brandon.</orig>
+          <reg>us <persName>Hector</persName> mesme teiguit sa poulciere natalle brefde là proceda la ruine totale De l'empire asien taut ce mortel brandon.</reg>
+        </seg>
+        <seg>
+          <orig>Enfarcine les mors do vioil Iaomeden Or l’humain iugement merite quelque exeuſe Mau ie ue ſeay pourquoy ceſte fureus t’abaſe Ni le Roy Stigien, ni le diυncουτταr, Ni monfrere Phœbus à l’ombre d’vn laurier.</orig>
+          <reg>Enfarcine les mors do vioil Jaoméden Or l'humain jugement mérite quelque exeuse Mau ie se pourrai pourquoi cette fureus t'abase Ni le Roi Stigien, ni le diυncουτταr, Ni monfrere <persName>Phœbus</persName> à l'ombre d'vn laurier.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARS.</orig>
+            <reg>
+              <persName>MARS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Iupiter encela nous ſert de porte enſeigne, A qui de meſines dards la poitrine encor ſeigue</orig>
+            <reg><persName>Jupiter</persName> encela nous sert de porte enseigne, À qui de mesines dards la poitrine encor seigue</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Iupiter en celanous menſtre euidemmeent Qu’estant mal aduerti ſon pouuoir il démeut!</orig>
+            <reg><persName>Jupiter</persName> en canous menstre évidemmeent Qu'étant mal averti son pouvoir il démeut!</reg>
+          </seg>
+          <seg>
+            <orig>Pere pardonne moy, n’est-ce pas villenie Que tu plames au ciel vne troppe inſinie D’adulteres flambeaux, afin qu’il ſoit pole Comme le monde bas de ce feu dißtolu.</orig>
+            <reg>Père pardonne moi, n'est-ce pas villénie Que tu plames au ciel troppe insinie D'adultères flambeaux, afin qu'il soit pôle Comme le monde bas de ce feu disstolu.</reg>
+          </seg>
+          <seg>
+            <orig>Icymalgré Iunon l’ourſe Menalienne Là prend ſur l’Ocean flamme Oebdienne Des freres inuoquezt:</orig>
+            <reg>Icimalgré <persName>Junon</persName> l'ourse <persName>Ménalienne</persName> Là prend sur l'Océan flamme Oebdienne Des frères invoquezt:</reg>
+          </seg>
+          <seg>
+            <orig>&amp; là reluit encor Le thoreau qui rauit la fille d’Agenor.</orig>
+            <reg>et là reluit encor <persName>Lé</persName> thoreau qui ravit la fille d'Agénor.</reg>
+          </seg>
+          <seg>
+            <orig>O pure chasteté, ô vertu ſans macule, Et-ce doncq' en ce point que chacun te reculle, Mais face Iupiter an ciel ce qu’il voudra Ce pendant que l’obſeur des bous m’apartiendra I'efpere de punir griefuement ceſte peste.</orig>
+            <reg>Ô pure chasteté, ô vertu sans macule, Et-ce donc en ce point que chacun te reculle, Mais face <persName>Jupiter</persName> an ciel ce qu'il voudra Ce pendant que l'obseur des bous m'appartiendra J'efère de punir griefuement cette peste.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MARS.</orig>
+            <reg>
+              <persName>MARS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>O Race Iahoyde, ôlumiere celeste, Sœur du grand Apollon, &amp; l'œil des palles nuicti, Tu me veux ſoulager en mes trisles ennuils.</orig>
+            <reg>Ô Race <persName>Iahoide</persName>, ôlumiere céleste, Sœur du grand <persName>Apollon</persName>, et l'œil des palles nuicti, Tu me veux soulager en mes trisles ennuils.</reg>
+          </seg>
+          <seg>
+            <orig>Humble ie te ſapply montaignere pacelle Par le laune carquois pendant à ton aiſſelle.</orig>
+            <reg>Humble assez te sappli montagne pacelle Par le laune carquois pendant à ton aisselle.</reg>
+          </seg>
+          <seg>
+            <orig>Par tes fermes garrots, par ta virginité Denne moy qu'Adonis ordement enſanté, Et ſallement nourry tombe mort ſur le ſable, Aeton eſprouua ton courroux implacable Calidon s’en repend.</orig>
+            <reg>Par tes fermes garrots, par ta virginité Denne moi qu'Adonis ordement ensanté, Et sallement nourri tombe mort sur le sable, <persName>Aéton</persName> éprouva ton courroux implacable <persName>Calidon</persName> s'en repend.</reg>
+          </seg>
+          <seg>
+            <orig>Niobe le ſentit &amp; pour ſa fauce langue en roc ſe conuertit.</orig>
+            <reg><persName>Niobe</persName> le sentit et pour sa fauce langue en roc se convertit.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>DIANE.</orig>
+            <reg>DIANE.</reg>
+          </seg>
+          <seg>
+            <orig>Graliue arme- puiſſant tareques te m’inuite Dimaisr lemguon ſelon ſon demerise.</orig>
+            <reg><persName>Gralive</persName> arme- puissant tareques te m'inuite Dimaisr léguon selon son demerise.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>ACTE TROISIESME.</orig>
+          <reg>ACTE -TROISIÈME.</reg>
+        </seg>
+        <seg>
+          <orig>MONTAN.</orig>
+          <reg>
+            <persName>MONTAN</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>SILVIN, ADONIS, VENVS.</orig>
+          <reg><persName>SILVIN</persName>, ADONIS, <persName>VENUS</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CVPIDON.</orig>
+            <reg>
+              <persName>CUPIDON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>sſez &amp; trop long temps ſor lenagse Aclec De Pallas veille nuit l'hiſtoire rechĺius Garde ſes uoirs luboux &amp; paliſſan</orig>
+            <reg>ssez et trop long temps sor lénagse <persName>Aclec De Pallas</persName> veille nuit l'histoire rechius Garde ses uoirs luboux et palissan</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>rameaux, Dele ne vante plus tes eſclairans iumeaux:</orig>
+            <reg>rameaux, Dele ne vante plus tes éclairants jumeaux:</reg>
+          </seg>
+          <seg>
+            <orig>Et ſous l’ardeur du vin ô Menades rougies, Pardonnez à Bacchus &amp; quitiez ſes Orgies:</orig>
+            <reg>Et sous l'ardeur du vin ô <persName>Ménades</persName> rougies, Pardonnez à <persName>Bacchus</persName> et quitiés ses Orgies:</reg>
+          </seg>
+          <seg>
+            <orig>Le peuple Cyprien à chanter mieux apris Honore à meilleur droit l’eſcumiere Cypris Mere de l’vniuers Ayne-ris, Cyteride, Deeſſe de beauté qui iamais ne ſe ride, Qui gouuerne la terre &amp; le ciel radieux, Ia ſaincte volupté des hommes &amp; des Dieux, Alme donne-plaiſir la nourrice fecende De tout cela qui nage és aluſmes de l’onde Qui gronde ſus l’obſeur des boſcages ramez Et couppe l’air hautain d’auirons emplumez Icy le mol Lephire auec ſes aiſlerettes Arroſe de Nectar les ioyeuſes fleurettes Inuitant au ſerain leurs doux Bigarremens Vous diriez que ce ſont perles ou diamans Eſmeraudes, rubis, Agates, &amp; iacinthes Tant ſe vent embaſine les a viuement peintes, Iey le laboureur ſans beſche manier, Des dons de Triptoleme enrichit ſon grenier.</orig>
+            <reg>Le peuple Cychien à chanter mieux appris Honore à meilleur droit l'escumiere <persName>Cypris</persName> Mère de l'univers Aitris, <persName>Cystéride</persName>, Déesesse de beauté qui jamais ne se ride, Qui gouverne la terre et le ciel radieux, Ia sainte volupté des hommes et des Dieux, <persName>Alâme</persName> donne-plaisir la nourrice fecende De tout cela qui nage é lus ès aonde Qui me sus obseur de boscages ramez Et couppe l' on dauirons emplumez le <persName>mol</persName><persName>Lephire</persName> auec ses y Arrose de a les ioyeuses fleurettes Inuitant au serain eur doux Es Vous diriez que ce sont perles ou diamans Mes, rubis, a, et iacinthes Tant se vent embasine les a viuement et, y le laboureur sans bêche manier, Des dons de <persName>Triptoleme</persName> enrichit son grenier.</reg>
+          </seg>
+          <seg>
+            <orig>Sans coutre, ny ratheau, &amp; ſans getter ſemence Il poſſede gaillard le vray cor d'abondance Parmi le champ fleuri ſouz les vers Aubeſpins Gambadent fà &amp; là lei cheureaux &amp; lapins, Les Biches &amp; les Cerſs, à lateſte ſuperbe, Se voyant raieunis folaſtrent deſſus l’herbe.</orig>
+            <reg>Sans coutre, ni ratheau, et sans getter semence Il possède gaillard le vrai cor d'abondance Parmi le champ fleuris sous les vers Aubespins <persName>Gambadent</persName> fà et là le cheureaux et lapins, Les <persName>Biches</persName> et les <persName>Cerss</persName>, à lateste superbe, Se voyant rajeunis folâtrent dessus l'herbe.</reg>
+          </seg>
+          <seg>
+            <orig>Iy d’amour laſcif gaſeuillent les ruiſſeaux Io ſont, bras à bras collez les arbriſieaux Et en tous mois de l’an, leurs branches maquerelles, Souſtiennent les baiſers des volantes femelles Tarins &amp; roßignol, linotes, ou pinfons, Iauint rummiagepana nmaureuſes chanſons.</orig>
+            <reg>Iy d'amour lascif gaseuillent les ruisseaux Joù sont, bras à bras collés les arbrisieaux Et en tous mois de l'an, leurs branches maquerelles, Soutiennent les baisers des volantes femelles Tarins et roqignol, linotes, ou pinsons, Javint rummiagepana naureuses chansons.</reg>
+          </seg>
+          <seg>
+            <orig>Cela fait que du cœur tout ſoucy ie m’arrache.</orig>
+            <reg>Cela fait que du cœur tout souci même m'arrache.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S1L.</orig>
+            <reg>S1L.</reg>
+          </seg>
+          <seg>
+            <orig>Auverger plusherbu, la couleuure ſe cadhe.</orig>
+            <reg>Auverger plusherbu, la couleuure se cadhe.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONTAN.</orig>
+            <reg>
+              <persName>MONTAN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Me plaindray-ie du mal qu’ore ie ne ſens point?</orig>
+            <reg>Me plaindrai-je du mal qu'ore ie ne sens point?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SIL.</orig>
+            <reg>SIL.</reg>
+          </seg>
+          <seg>
+            <orig>Il u'eſttemps de douloir, que la douleur nous point.</orig>
+            <reg>Il u'ests de douloir, que la douleur nous point.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONTAN.</orig>
+            <reg>
+              <persName>MONTAN</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Feleſ qui ſans peril du peril ſe lamente.</orig>
+            <reg>Feles qui sans péril du péril se lamente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S1L.</orig>
+            <reg>S1L.</reg>
+          </seg>
+          <seg>
+            <orig>Pœyo leperileſegeſte egvente.</orig>
+            <reg><persName>Pœyo</persName> lepérileségeste égente.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Voire mauil faadroit yiure touſieurs en pens</orig>
+            <reg>Voire mavil faadrait yivre toujours en pens</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S1L.</orig>
+            <reg>S1L.</reg>
+          </seg>
+          <seg>
+            <orig>Ia crainte nous deſſent contre le ſort trompeur.</orig>
+            <reg>Ia crainte nous dessent contre le sort trompeur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Rienne peut contre nous ſa puiſſance diuerſe.</orig>
+            <reg><persName>Rienne</persName> peut contre nous sa puissance diverse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>611.</orig>
+            <reg>611.</reg>
+          </seg>
+          <seg>
+            <orig>Des pallais ſourciller æ les couppeaux il renvoie.</orig>
+            <reg>Des pallais sourciller æ les couppeaux il renvoie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Ia caſe du pasteur ne le redoutte pas.</orig>
+            <reg>Ia case du pasteur ne le redoute pas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SIL.</orig>
+            <reg>SIL.</reg>
+          </seg>
+          <seg>
+            <orig>Dupasteur &amp; de Royil tallonne lespas.</orig>
+            <reg>Dupâteur et de <persName>Royil</persName> tallonne lespas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Qi tombe de plus haut plus de peine il endere.</orig>
+            <reg>Qi tombe de plus haut plus de peine il endère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>11L.</orig>
+            <reg>11L.</reg>
+          </seg>
+          <seg>
+            <orig>Chacon eſgalloment trouue ſa peine dure.</orig>
+            <reg>Chacon égalloment trouve sa peine dure.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Ιεααιιιεεετε πειιιεέςβετεſtιmεst ven</orig>
+            <reg>Ιεααιιιεεετε πειιιεέςβετεstιmεst ven</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S1E.</orig>
+            <reg>S1E.</reg>
+          </seg>
+          <seg>
+            <orig>Narci en est ieſmoin &amp; lechaſſor corne.</orig>
+            <reg><persName>Narci</persName> en est imoin et léchassor corne.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>La deité nous ayme &amp; tiont le ſort enbride.</orig>
+            <reg>La déité nous aime et tiont le sort enbride.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S11.</orig>
+            <reg>S111.</reg>
+          </seg>
+          <seg>
+            <orig>Ibausne peut garder le yaillans Eacide.</orig>
+            <reg><persName>Ibausne</persName> peut garder le yaillants <persName>Éacide</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Qui priuera Venus de ſon gentil Adon?</orig>
+            <reg>Qui privera <persName>Venus</persName> de son gentil Adon?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>511.</orig>
+            <reg>511.</reg>
+          </seg>
+          <seg>
+            <orig>Qelque piteux haſard que moim?</orig>
+            <reg>Qelque piteux hasard que moim?</reg>
+          </seg>
+          <seg>
+            <orig>uous ettendon.</orig>
+            <reg>uous ettendon.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Iuſiours nous ſorpronnons quand plus aiſes noui ſommes, Ceſt vn vice commun à la race des hommes.</orig>
+            <reg>Jusjours nous sorpronnons quand plus aises nouvi sommes, Cest un vice commun à la race des hommes.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>811.</orig>
+            <reg>811.</reg>
+          </seg>
+          <seg>
+            <orig>Comme ſouuentesſois vu naure eſtranger pr le ſlots Adrians vole promps &amp; leger, Ie ciel meſme ſe rit, la mer est ioute calme De ſes trauaox paſſez il emporte la palme, Pole ne ſe monslre à ſes væux diſcordant, I iriton, ſont pour loy, Neptuææ &amp; ſon trident,</orig>
+            <reg>Comme souventessais vu naure étranger près le slots Afriants vole promps et léger, Je ciel même se rit, la mer est joute calme De ses travaox passez il emporte la palme, <persName>Pol</persName> ne se monslère à ses væux discordant, I iriton, sont pour loi, <persName>Neptuæ</persName> et son trident,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Etteus aflres benins, luy ſemblent ſaire eſcerue Tandis en vn clin d'œil vient la tempeſte forte.</orig>
+          <reg>Etteus afflres bénins, lui semblent zaïre escerue Tandis en un clin d'œil vient la tempête forte.</reg>
+        </seg>
+        <seg>
+          <orig>Meſlee de frimats, de ſeux, &amp; de glacons, Qui pert le mannier en diuerſes facons, Elle rauiſt aux yeux le iour &amp; les eſtoilles, Elle caſſe la hune, elle briſe les voilles, Ie nauire en morceaux vegue de toutes pars, Adoncques les rochers hideuſement eſpars:</orig>
+          <reg>Mêlée de frimats, de seux, et de glaçons, Qui pert le mannier en diverses façons, Elle ravit aux yeux le jour et les étoilles, Elle casse la hune, elle brise les voilles, Je navire en morceaux végue de toutes pars, Adoncques les rochers hideusement épars:</reg>
+        </seg>
+        <seg>
+          <orig>Ou morts, ou demy morts blanchiſſent ſur l'arens Tel eſt l’eſtat douteuxde ceſte vie humaine, Qui vient &amp; s’en reua comme vn ſlot agité.</orig>
+          <reg>Ou morts, ou demi morts blanchissent sur l'arts Tel est l'état douteuxde cette vie humaine, Qui vient et s'en reva comme un sot agité.</reg>
+        </seg>
+        <seg>
+          <orig>Nul ne ſe doit fier à la ſelicité, S’il voit qu’a bonne ſin ſes aſſaires procedent:</orig>
+          <reg>Nul ne se doit fier à la selicité, S'il voit qu'a bonne sin ses assaires procèdent:</reg>
+        </seg>
+        <seg>
+          <orig>Car miſere &amp; plaiſir l’vn à l’autre ſuccedent:</orig>
+          <reg>Car misère et plaisir l'Hommes à l'autre succèdent:</reg>
+        </seg>
+        <seg>
+          <orig>Ie mal eſt plus certain, &amp; ne ſaut qu’vn monqu, Pour changer not plaiſirs en penible ieurment, Or bien que tous les dieux ſe facent recognoſſre Propices enuers nous, qui s’oſeroit promettre Vn demain aſſeuré meſme ſouuent la nuict Apres le iour heureux dommageable nous ſait.</orig>
+          <reg>Je mal est plus certain, et ne saut qu'un monqu, Pour changer not plaisirs en pénible jeurment, Ô bien que tous les dieux se facent reconnossre Propices envers nous, qui s'oserait promettre Un demain asseuré même souvent la nuit Apres le jour heureux dommageable nous sait.</reg>
+        </seg>
+        <seg>
+          <orig>Ie doubte de ma part Ie tremble ie friſſonne, N’as-tu pas emendu comme la voix ſelom De nos cluens aboyans ceſte nuit retentoit, Quand le Cirinien ſon ardeur alentoit.</orig>
+          <reg>Je doute de ma part Je tremble on frissonne, N'as-tu pas emendu comme la voix selom De nos cluments aboyants cette nuit retentait, Quand le Cirinien son ardeur alentait.</reg>
+        </seg>
+        <seg>
+          <orig>Ne voys tu le ſoleil à la face plombee, Conduire ce mAin ſa charetté courbee:</orig>
+          <reg>Ne vois tu le soleil à la face plombée, Conduire ce mAin sa chareté courbe:</reg>
+        </seg>
+        <seg>
+          <orig>Au ventre pluuieux des nuaux obſcurcis?</orig>
+          <reg>Au ventre pluvieux des nuaux obscurcis?</reg>
+        </seg>
+        <seg>
+          <orig>Sommes nous aucuglez, ſommes nous endurcu?</orig>
+          <reg>Sommes nous aucuglez, sommes nous endurcu?</reg>
+        </seg>
+        <seg>
+          <orig>Voulons nous perſistant en ce vouloir proſane Ericine ſeruir, &amp; meſpriſer Diane?</orig>
+          <reg>Voulons nous persistant en ce vouloir prosane <persName>Ericine</persName> servir, et mépriser <persName>Diane</persName></reg>
+        </seg>
+        <seg>
+          <orig>Nos dogues eſperdus, nos rets entrebreuillez, Nos corps, &amp; nos eſpicux terniſſent enreullez Que veut dire cela?</orig>
+          <reg>Nos dogues éperdus, nos rets entrebreuillez, Nos corps, et nos épicux ternissent enreullez Que veut dire cela?</reg>
+        </seg>
+        <seg>
+          <orig>ne ſont-ce pas les marquei, Pour iugerle deſſain des menaſſantes Parqrest Vn vigneron cegnoit le pere bromien, Tunautonnier meüillé le mol Saturnien, Iy Pallas ny Ceres ne ſe veulent trompees Du ruſtre qui les aime &amp; les vierges Napees.</orig>
+          <reg>ne sont-ce pas les marquei, Pour jugerle dessain des menaçantes Parqrêt V vigneron cegnait le père bromien, Tunautonnier meüillé le mol Saturnien, Ii <persName>Pallasrit</persName><persName>Ceres</persName> ne se veulent trompes Du rustre qui les aime et les vierges Napes.</reg>
+        </seg>
+        <seg>
+          <orig>haſſeurs nous oublions nous &amp; noſtie devoir.</orig>
+          <reg>hasseurs nous oublions nous et nostie devoir.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>ADONIS.</orig>
+            <reg>
+              <persName>ADONIS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Haſtez vous mes amis.</orig>
+            <reg>Hâtez -vous mes amis.</reg>
+          </seg>
+          <seg>
+            <orig>Il nous ſaut receuoir Pluſirs en nos labeurs.</orig>
+            <reg>Il nous saut recevoir Plusirs en nos labeurs.</reg>
+          </seg>
+          <seg>
+            <orig>Grimpez ſur ces mõtagnes.</orig>
+            <reg>Grimpez sur ces montagnes.</reg>
+          </seg>
+          <seg>
+            <orig>Deſcendez aux Vallons, courez par ces campagnes Pauironnez ſoudain las bois Idaliens.</orig>
+            <reg>Descendez aux Vallons, courez par ces campagnes Pavironnés soudain las bois Idaliens.</reg>
+          </seg>
+          <seg>
+            <orig>mn porte ſur ſon dos les rets &amp; les liens, auire d’vn fort eſpicu la dextre ſe muniſſe, mnacun joibanigem inte uu tataite Li ſera moins hardy ſon are debandera.</orig>
+            <reg>mn porte sur son dos les rets et les liens, avire d'un fort espicu la dextre se munisse, mnacun joibanigem inte u tataite <persName>Li</persName> sera moins hardi son are débandera.</reg>
+          </seg>
+          <seg>
+            <orig>Ade vaine frayeur la beſte eſtancera.</orig>
+            <reg>Ade vaine frayeur la bête étancera.</reg>
+          </seg>
+          <seg>
+            <orig>Erceluy de qui l’ame à gros bouillons eſcume, aſſaudra corps à corps le Lion quand il fume, Imié de deſpit:</orig>
+            <reg>Ercelui de qui l'âme à gros bouillons écume, assaudra corps à corps le Lion quand il fume, Imié de dépit:</reg>
+          </seg>
+          <seg>
+            <orig>Sus baſtez vous enfans Di que le iour nouueau de ſes rais eſchaiſſans, Tace les odeurs qu’vne iambe ſauuage mprime ſautelant parmy le gay fleurage:</orig>
+            <reg>Sus bâtez vous enfants Di que le jour nouveau de ses rais eschaissans, Tace les odeurs qu'une jambe sauvage mprime sautelant parmi le gai fleurage:</reg>
+          </seg>
+          <seg>
+            <orig>1z l’occaſion ear la trace ſe pert, Abaſant le naſeau du limier plus expert Deſſez moy ces leurons &amp; d’houlcines aiguës, Lonenez en chemin leurs voltes ambiguës Ifn de les induire à ceſt œuure entrepris rompez leur ieune groin au ſang du lieure pris.</orig>
+            <reg>1z l'occasion épar la trace se pert, Abasant le naseau du limier plus expert Des moi ces leurons et d'houlcines aigues, Lonenez en chemin leurs voltes ambigues Ifnf de les induire à cette œuvre entrepris rompez leur jeune groin au sang du lièvre pris.</reg>
+          </seg>
+          <seg>
+            <orig>Pel murmure quel vent furieux ſe deiborde, Pi tellement eſmeut la ciuille diſcorde, Ei cheſnesheriſſez, &amp; les fait esbranler?</orig>
+            <reg>Pel murmure quel vent furieux se déiborde, <persName>Pi</persName> tellement émut la civille discorde, Ei chesnesherissez, et les fait ébranler?</reg>
+          </seg>
+          <seg>
+            <orig>Rel orage mutin eſcarmouche dans l’air.</orig>
+            <reg>Rel orage mutin escarmouche dans l'air.</reg>
+          </seg>
+          <seg>
+            <orig>Prout-ce point hel as quelque mauuais indice?</orig>
+            <reg>Prout-ce point hél as quelque mauvais indice?</reg>
+          </seg>
+          <seg>
+            <orig>Pous veulez ô Dieux qu’a ce coup ie periſſe O moins que mon treſpas ne ſoit tant abbregé O dieux permettez moy que ie prenne congí, De l’œil ambroſien, de la bouche ſuccree, De la diue à qui i’ay mon ame conſacres, Si ie ſuis preuenu des ſiniſtres destins, O couſtaux, ô taillis, ô fleuues argentins, Dites en ma faueur, aux graces immortelles Que mort ſouz le cercueil i’auray memoire d'ellt Mourir?</orig>
+            <reg>Pous veulez ô Dieux qu'a ce coup ie promisse Ô moins que mon trépas ne soit tant abrégé Ô dieux permettez moi que sans prenne congoût, De l'œil ambrosien, de la bouche succre, De la dive à qui j'ai mon âme consacres, Si tu suis prévenu des sinistres destins, Ô coustaux, taillis, ô fleuves argents, Dites en ma faveur, aux grâces immortelles Que mort souz le cercueil j'aurai mémoire d'ellt Mourir?</reg>
+          </seg>
+          <seg>
+            <orig>helas!</orig>
+            <reg>hélas!</reg>
+          </seg>
+          <seg>
+            <orig>pourquoy ay-ie ſediieux Prouoquétant ſoit peu la vengeance desciur, En moy l’ambuion n’exerce ſon cmpire Iabandonne la court de mon pere Qynire Abhorrans des palais, les enragez.</orig>
+            <reg>pourquoi ai-je sédiieux Prouoquétant soit peu la vengeance desciur, En moi l'ambuion n'exerce son cmpire Jabandonne la court de mon père Qinire Abhorrants des palais, les enragez.</reg>
+          </seg>
+          <seg>
+            <orig>Demous, Ie ficquente les bois, les rochers, &amp; les monti, Il eſt vray que Cypris commande à ma ieneſé.</orig>
+            <reg>Demous, Je ficquente les bois, les rochers, et les monty, Il est vrai que <persName>Cypris</persName> commande à ma ienes.</reg>
+          </seg>
+          <seg>
+            <orig>He!</orig>
+            <reg>He!</reg>
+          </seg>
+          <seg>
+            <orig>dieu qui n’aymeroit vne telle deeſſe.</orig>
+            <reg>dieu qui n'aimerait une telle déesse.</reg>
+          </seg>
+          <seg>
+            <orig>Mais on n’attend que moy, Maisl’a rωn reſm E les chiens accouplez m’appellent mainines</orig>
+            <reg>Mais on n'attend que moi, Maisl'a ramn rém È les chiens accouplez m'appellent mainines</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CVPIDON.</orig>
+            <reg>
+              <persName>CUPIDON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>O ledos, s lateste, é main appeſantie dupiter au ſecours, ma mere me chaſtie,</orig>
+            <reg>Ô ledos, s lateste, é main appesantie dupiter au secours, ma mère me châtie,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TENVS.</orig>
+            <reg>TENUS.</reg>
+          </seg>
+          <seg>
+            <orig>Fapois bomefin!</orig>
+            <reg>Fapais bomefin!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>SVTIDON.</orig>
+            <reg>SUTIDON.</reg>
+          </seg>
+          <seg>
+            <orig>Heluie vousſeppli.</orig>
+            <reg>Héluie vousseppli.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Eapetit impudent.</orig>
+            <reg>Eapétit impudent.</reg>
+          </seg>
+          <seg>
+            <orig>VINVS.</orig>
+            <reg>
+              <persName>VINUS</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>EVFIDON.</orig>
+            <reg>
+              <persName>EUFIDON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Metez teus eneubly.</orig>
+            <reg>Métez tu eneubli.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENVS.</orig>
+            <reg>
+              <persName>VENUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Peste, rage, malheur, du haut &amp; bus repaire.</orig>
+            <reg>Peste, rage, malheur, du haut et bus repaire.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CVPIDON.</orig>
+            <reg>
+              <persName>CUPIDON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie vous requiers pardon à deux genoux mamere.</orig>
+            <reg>Je vous requiers pardon à deux genoux mamère.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>VENVS.</orig>
+            <reg>
+              <persName>VENUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>La tiran deſloyal ma tropſimple bonté, Eſt cauſe je le vois de ton impieté.</orig>
+            <reg>La tyran déloyal ma tropsimple bonté, Est cause je le vois de ton impiété.</reg>
+          </seg>
+          <seg>
+            <orig>Tun'es point mon enfant, ie n’ay point ſouuenaueu D'auoir iamais conceu tel, horrible ſemence.</orig>
+            <reg>Tun'es point mon enfant, je n'ai point souvenaveu D'avoir jamais conçu tel, horrible semence.</reg>
+          </seg>
+          <seg>
+            <orig>lleſſer ainſi ta mere &amp; la traiter ainſi?</orig>
+            <reg>llesser ainsi ta mère et la traiter ainsi?</reg>
+          </seg>
+          <seg>
+            <orig>Iua te ſis iamais, c’eſt le cahos noircy, Iurongnes le filet des fatales quenouilles.</orig>
+            <reg>Jua te sis jamais, c'est le cahos noirci, Jurongnès le filet des fatales quenouilles.</reg>
+          </seg>
+          <seg>
+            <orig>A pillerles citez, iu ſaccages, in brouilles, A conuertis en ſang les vagues de la mer, Anſi qu’vn ſeu gregeoistu peux l’onde allumer, Ia n'entend que ſouſpirs quelque part ou tu volles Da meſchant vouloir deſſous belles parolles, u paaures animaux piequez de tafureur lempliſſont en bramant leur çauerned horreur, mui ſ’vniuer, ſe plaint on m’appelle, on m'inuoque, tpour te pardonner on dit que ie me mocque.</orig>
+            <reg>À piller citez, ju saccages, in brouilles, A convertis en sang les vagues de la mer, Ansi qu'un seu grègeaistu peux l'onde allumer, Ia n'entend que soupirs quelque part ou tu volles Da méchant vouloir dessous belles paroles, paaures animaux piequez de tafureur lemplissont en bramant leur çauerned horreur, vniuer, se plaint on appelle, on m'invoque, tpour te pardonner on dit que ie me mocque.</reg>
+          </seg>
+          <seg>
+            <orig>a ſolle que ie ſaus, ſolle ſuu-ie vrayment le voir tamauuaistié croiſtre ſi longucment.</orig>
+            <reg>a solle que ie saus, solle suais-je vraiment le voir tamauaistié croître si longucment.</reg>
+          </seg>
+          <seg>
+            <orig>Ienſant a mesſait à bon droit on eſtime uulpableiles parens.</orig>
+            <reg>Jensant à messait à bon droit on estime uulpableiles parents.</reg>
+          </seg>
+          <seg>
+            <orig>Car à eux eſt le crime 2 Qu'ils peuuent corriger.</orig>
+            <reg>Car à eux est le crime 2 Qu'ils peuvent corriger.</reg>
+          </seg>
+          <seg>
+            <orig>Voyez ce faux garpon Voyez comment il ſçait faindre ſa paſtion!</orig>
+            <reg>Voyez ce faux garpon Voyez comment il sait feindre sa pastion!</reg>
+          </seg>
+          <seg>
+            <orig>Sçait iltirer de l’eau d’vne tuile ſeichee.</orig>
+            <reg>Sait -iltirer de l'eau d'une tuile seichée.</reg>
+          </seg>
+          <seg>
+            <orig>Que maudit ſoit le iour que ie ſus acçouchee D'vn veninſi farde:</orig>
+            <reg>Que maudit soit le jour que je sus acçouchee D'un veninsi farde:</reg>
+          </seg>
+          <seg>
+            <orig>va t’en poiſoninſect:</orig>
+            <reg>va -t-en poisoninsect:</reg>
+          </seg>
+          <seg>
+            <orig>Neme croiſe les bras, va i’en d’icy, c’eſt ſaict.</orig>
+            <reg><persName>Neme</persName> croisse les bras, va j'en d'ici, c'est sait.</reg>
+          </seg>
+          <seg>
+            <orig>Retiretoydicy, de peur que ta ſacelle, Par ſa contagion encor ne m’enſorcelle.</orig>
+            <reg>Retiretoidici, de peur que ta sacelle, Par sa contagion encor ne m'ensorcelle.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CVPIDON.</orig>
+            <reg>
+              <persName>CUPIDON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Quil chemin eſt meilleur, où prendray-ie mue A qui d’oreſnauant auray-je men recouri?</orig>
+            <reg>Quil chemin est meilleur, où prendrai-je mue À qui d'oresnavant aurai-je men recouri?</reg>
+          </seg>
+          <seg>
+            <orig>Qui plus me pignera ma cheuelure rouſſe, Qui derera mes traits, qui fourbira ma trouſſe!</orig>
+            <reg>Qui plus me pignera ma chevelure rousse, Qui déréra mes traits, qui fourbira ma trousse!</reg>
+          </seg>
+          <seg>
+            <orig>Tu dois bien Cupidon tes plumes arracher.</orig>
+            <reg>Tu dois bien <persName>Cupidon</persName> tes plumes arracher.</reg>
+          </seg>
+          <seg>
+            <orig>Que feray-ie pauuret, ou m’iray-ie cacher.</orig>
+            <reg>Que ferai-je pauvret, ou m'irai-je cacher.</reg>
+          </seg>
+          <seg>
+            <orig>Ia raiſon me deffaut, Mes ſens ſont du tout me Ià le pere tonuant ſe ſouuient de ſes cornes.</orig>
+            <reg>Ia raison me défaut, Mes sens sont du tout me Ià le père tonvant se souvient de ses cornes.</reg>
+          </seg>
+          <seg>
+            <orig>Si ie retourne au ciel ie m’en repentiray, Et demes ennemis la ſable ie ſeray, Ie n’oſerois ſonder les campagnes humides Où mon traict violent perce les Nereides:</orig>
+            <reg>Si grande retourne au ciel ie m'en repentirai, Et dèmes ennemis la sable était serai, Je n'oserais sonder les campagnes humides Où mon traict violent perce les Nérides:</reg>
+          </seg>
+          <seg>
+            <orig>Là Phouques, &amp; Dauphins en ma flamerotil Ianguiſſent au giron de la froide Thetis.</orig>
+            <reg>Là <persName>Phouques</persName>, et <persName>Dauphins</persName> en ma flammerotil Janguissent au giron de la froide <persName>Thétis</persName></reg>
+          </seg>
+          <seg>
+            <orig>De Buiſſon en Buiſſonie tray nerois ma peine Auecques les moigneaux.</orig>
+            <reg>De <persName>Buisson</persName> en <persName>Buissonie</persName> trai nerais ma peine Avecques les moigneaux.</reg>
+          </seg>
+          <seg>
+            <orig>Mais quoy la tamt plaine D’amoureuſe piié, les herbes &amp; les fleuri, Le chant des oyſelets ſouſpire mes chaleurs.</orig>
+            <reg>Mais quoi la tamt plaine D'amoureuse piié, les herbes et les fleuri, Le chant des oiselets soupire mes chaleurs.</reg>
+          </seg>
+          <seg>
+            <orig>Ce groſtier element coutre moy ſe deſpute.</orig>
+            <reg>Ce grôtier élément coutre moi se députe.</reg>
+          </seg>
+          <seg>
+            <orig>L’air m’eſt iniurieux, l’onde m’eſt interdite.</orig>
+            <reg>L'air m'est injurieux, l'onde m'est interdite.</reg>
+          </seg>
+          <seg>
+            <orig>Terre creueton ſein des hommes le tombeau Precipitant dedans mon corps &amp; mon flambe qieupy les auevale pentes</orig>
+            <reg>Terre crueton sein des hommes le tombeau Précipitant dedans mon corps et mon flambe qieupi les avevale pentes</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Que ie plonge mon vol deſſous les riues mortes.</orig>
+          <reg>Que quelque plonge mon vol dessous les rives mortes.</reg>
+        </seg>
+        <seg>
+          <orig>Hé que fera bluton qui m’a veu triompher Tenaillant ſa poictrine és tenebres d’enſer?</orig>
+          <reg>Hé que fera bluton qui m'a vu triompher Tenaillant sa poitrine ès ténèbres d'enser?</reg>
+        </seg>
+        <seg>
+          <orig>Que me dira Minos :</orig>
+          <reg>Que me dira <persName>Minos</persName> :</reg>
+        </seg>
+        <seg>
+          <orig>he que feront les ymbres Entre les mirthes vers deſplorant mes encombres Qui pour ſe deſister d’vne triſte priſon Ont ſouffert le couſteau, la corde, au la poiſon?</orig>
+          <reg>hé que feront les ymbres Entre les mirthes vers déplorant mes encombres Qui pour se désister d'une triste prison Ont souffert le coûteau, la corde, au la poison?</reg>
+        </seg>
+        <seg>
+          <orig>Or bien tout eſt bandé.</orig>
+          <reg>Or bien tout est bandé.</reg>
+        </seg>
+        <seg>
+          <orig>Tout m’annonce la guerre, I'homme, les dieux, les cieux, les enfers, &amp; laterre Surprendront vn aueugle en miſere reduit, Qui par le vueil d’vn autre incenſé ſe conduit.</orig>
+          <reg>Tout m'annonce la guerre, J'homme, les dieux, les cieux, les enfers, et laterre Surprendront un aveugle en misère réduit, Qui par le veuil d'un autre incensé se conduit.</reg>
+        </seg>
+        <seg>
+          <orig>O mere ſauue moy, tu ſçais que mon eſſence Naſquiſi de toy Diane, &amp; lant toy n'apuiſſance.</orig>
+          <reg>Ô mère sauve moi, tu sais que mon essence Nasquisi de toi <persName>Diane</persName>, et lant toi n'appuissance.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE QVATRIES, SILVIN, MONTAN,</orig>
+          <reg>ACTE QUATRIES, SILVIN, MONTAN,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>S1L.</orig>
+          <reg>S1L.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Predges certains â vengeance duixe, Vne vague froideur par le corpi i chemine, Maperruque ſe dreſſe en la meſme fuQue le dos irrité d’vn ſauuage heriſſon.</orig>
+            <reg>Predges certains â vengeance duixe, Une vague froideur par le corpi y chemine, Maperruque se dresse en la même fuQue le dos irrité d'un sauvage hérisson.</reg>
+          </seg>
+          <seg>
+            <orig>Mon œil eſt eiblouy, le courage me flotte, Ie n’ay vaine ny necf qui de peur ne tremblottt, Comme le flot eſmu, iappe ſe courtouſſant Bien que l’air appaiſé ſoit demy languiſſaut, Et que le nort oyſif repoſe ſes querelles:</orig>
+            <reg>Mon œil est eiblouy, le courage me flotte, Je n'ai vaine ni necf qui de peur ne tremblott, Comme le flot ému, jappe se courtoussant Bien que l'air apaisé soit demi languissaut, Et que le nort oysif repose ses querelles:</reg>
+          </seg>
+          <seg>
+            <orig>Amſi ie ſens encor les aitaintes bourrelles D’vne peur vehemente en mes os ſe renger, Orque ie ſous abſent du perilleux danger.</orig>
+            <reg>Amsi grands sens encor les aitaintes bourrelles D'une peur véhémente en mes os se renger, Orque de sous absent du périlleux danger.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Nenten-ie pas syluin?</orig>
+            <reg>Nent-je pas siluin?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>S1L.</orig>
+            <reg>S1L.</reg>
+          </seg>
+          <seg>
+            <orig>O mort eſpouuentable.</orig>
+            <reg>Ô mort espouuentable.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Qui le fait retourner!</orig>
+            <reg>Qui le fait retourner!</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Opauure miſerable!</orig>
+            <reg>Opauvre misérable!</reg>
+          </seg>
+          <seg>
+            <orig>81L.</orig>
+            <reg>81L.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>D'eù procede syluin tel ſoucieux eſmoy, Pæle ſoudainement quel mal quel deſaroy.</orig>
+            <reg>D'éù procède syluin tel soucieux émoi, Pæle soudainement quel mal quel désaroi.</reg>
+          </seg>
+          <seg>
+            <orig>Eſt aduenu depuis qu’en ces plaines couchees Nous trauaillons en vain les mutes repenchees?</orig>
+            <reg>Est avenu depuis qu'en ces plaines couches Nous travaillons en vain les mutes répenchées?</reg>
+          </seg>
+          <seg>
+            <orig>Iaima me cele rien.</orig>
+            <reg>Iaima me cèle rien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Toaſiours le malhereux S1L.</orig>
+            <reg>Toasjours le malhéreux S1L.</reg>
+          </seg>
+          <seg>
+            <orig>Se haſte de ſtauoir ſon ennuy rigoureux Montan ne t’enquiers plus, &amp; lis en mon viſage Sans plus m'interreguer le ſurplus du dommage.</orig>
+            <reg>Se hâte de stavoir son ennui rigoureux Montan ne t'enquiers plus, et lis en mon visage Sans plus m'interréguer le surplus du dommage.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MONT.</orig>
+            <reg>MONT.</reg>
+          </seg>
+          <seg>
+            <orig>Coute moy ce hazard.</orig>
+            <reg>Coute moi ce hasard.</reg>
+          </seg>
+          <seg>
+            <orig>Ton propos attendu Iat que plus ie ſoupronne &amp; me rend eſperda.</orig>
+            <reg>Ton propos attendu Iat que plus grands soupronne et me rend éperda.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>811.</orig>
+            <reg>811.</reg>
+          </seg>
+          <seg>
+            <orig>Nouauions ià deſia la campagne ſuiuie, Vulieure deuant nous recommandoit ſa vie Aſon pied tournoy ant au miliç des abois, Ions dit le Paphien, Aſſaillons les grandi bois, Iconde moy Syluin il y a plus de grace De rompre l'ennomy qui plus fort nous menaſſe:</orig>
+            <reg>Novions jà déjà la campagne suivie, <persName>Vulieure</persName> devant nous recommandait sa vie Ason pied tournoi ant au miliç des abois, Ions dit le Paphien, Assaillons les grandi bois, Iconde moi <persName>Syluin</persName> il y a plus de grâce De rompre l'ennomi qui plus fort nous menasse:</reg>
+          </seg>
+          <seg>
+            <orig>A gens effeminez ceste chaſſe appartient, Cherchons autre gibier, quelle crainte nous tient, L nſi prompt &amp; hardi par la ſorest prochaine compagnon de ſes pas à l’inſtant il me maine E ne ceſſe iamais qu’il ne ſoit paruenu Lapart ou s’embuchoit le danger incognu.</orig>
+            <reg>À gens efféminez cette chasse appartient, Cherchons autre gibier, quelle crainte nous tient, L ' prompt et hardi par la sotest prochaine compagnon de ses pas à l'instant il me maine E ne cesse jamais qu'il ne soit parvenu <persName>Lapart</persName> ou s'embûchait le danger inconnu.</reg>
+          </seg>
+          <seg>
+            <orig>O des pauures humains eſperance peu cauté Entore de frayeur mon ſain paſte treſſante.</orig>
+            <reg>Ô des pauvres humains espérance peu cauté Entore de frayeur mon sainte pas très.</reg>
+          </seg>
+          <seg>
+            <orig>Eien auant dans le bois vn vallon eſcarté Solitaire, muſſard, remply d’obſcurité, Où des mou refr oidis les rauines s’eſtanchent Nourrit de ſon limon les ſaulles qui ſe penchen uit</orig>
+            <reg>Eien avant dans le bois un vallon écarté Solitaire, mussard, rempli d'obscurité, Où des mou refr oidis les ravines s'étanchent Nourrit de son limon les saulles qui se penchen uit</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Le puplier herculin les cannes, &amp;roſiaux Et couue pareſſeux la ſange de ces eaux De là ſort vn ſanglier, vn ſanglier qui demeure Romflant dedans mes yeux iuſque à tempi que ie Le rocher Garamant ny le ſablon mortel (mord Des Arabes deſerts n’enfante rien de tel.</orig>
+          <reg>Le puplier herculin les cannes, etrosiaux Et couve paresseux la sanglier de ces eaux De là sort un sanglier, un sanglier qui demeure Romflant dedans mes yeux jusqu' à tempi que tu Le rocher Garamantagez le sablon mortel (mord Des Arabe déserts n'enfante rien de tel.</reg>
+        </seg>
+        <seg>
+          <orig>Il diſupe les chiens, il tempeſte, il les roue Il rondles cheſnes vieux &amp; ſemble qu’il ſeioce, De ſes naſeaux ouuerts ſort vn rouge tiſon, Qui bruſle les rameaux la terre &amp; le gaſon.</orig>
+          <reg>Il disupe les chiens, il tempête, il les roue Il rondles chaînes vieux et semble qu'il seioce, De ses naseaux ouverts sort un rouge tison, Qui brûle les rameaux la terre et le gazon.</reg>
+        </seg>
+        <seg>
+          <orig>Si la ce fat trouué le fameux pegaſee.</orig>
+          <reg>Si la ce fat trouvé le fameux pégase.</reg>
+        </seg>
+        <seg>
+          <orig>Il n’eut onques tenu la Iainetant priſee.</orig>
+          <reg>Il n'eut onques tenu la <persName>Jainétant</persName> prisée.</reg>
+        </seg>
+        <seg>
+          <orig>Et le beau Cropien pour iamais endormi Fut alle rencontrer Pyrithoys ſon amy Adonis qui de loin voit apprecher la beſte Aduance le pied gauche &amp; ſur l’autre i’areſte, Il ſe plante debont, &amp; brandit aſſeuré Contre le porc fameux, ſon trenchant aceré, Lequel exempt du coup à costé ſe deuoye Et naurant Adonis mort à terre l’onuoye.</orig>
+          <reg>Et le beau <persName>Cropien</persName> pour jamais endormi Fut allé rencontrer <persName>Pyrithoys</persName> son ami <persName>Adonis</persName> qui de loin voit apprêcher la bête Aduance le pied gauche et sur l'autre j'arête,Il se plante debont, et brandit assuré Contre le porc fameux, son trenchant aceré, Lequel exempt du coup à côté se dévoie Et naurant <persName>Adonis</persName> se à terre l'onvoie.</reg>
+        </seg>
+        <seg>
+          <orig>Ie pourſuis le meurtrier, mais de moy ſe mocquaut Plus viste qu’vn eſcair, il ſe pert quant &amp; quan O ciel tout eft mortel, &amp; la ſœur filandiere Faittreibucher nos iours en l’eternelle biere.</orig>
+          <reg>Je poursuis le meurtrier, mais de moi se moquaut Plus vite qu'un écair, il se pert quant et quan Ô ciel tout est mortel, et la sœur filandière <persName>Faittreibucher</persName> nos jours en l'éternelle bière.</reg>
+        </seg>
+        <seg>
+          <orig>Tout ce qu’on voit icyquelque fois perira, Et cela qui naſquit à la parfinmourra, Comme iadus ſonnoit la guiterre d’Orſec.</orig>
+          <reg>Tout ce qu'on voit iciquelque fois périra, Et cela qui nasquit à la parfinmourra, Comme jadus sonnait la guiterre <persName>d'Orsec</persName></reg>
+        </seg>
+        <seg>
+          <orig>Voyez que ſert humains l’amitié d’vne fee, Voyez quel infortune, Apprenez apprenez, Et d’amour ineſgal vos cœurs n’eſpoiconnez.</orig>
+          <reg>Voyez que sert humains l'amitié d'une fée, Voyez quel infortune, Apprenez apprenez, Et d'amour inégal vos cœurs n'espoiconnez.</reg>
+        </seg>
+        <seg>
+          <orig>Autre qu'vn dieu marry tranſporté de firie.</orig>
+          <reg>Autre qu'un dieu marri transporté de syrie.</reg>
+        </seg>
+        <seg>
+          <orig>N’acauſé ceſte mort, ô cheſte, ô venerie, O rhets eutrenouez, ô temeraire ardeur.</orig>
+          <reg>N'acausé cette mort, ô chête, ô vénerie, Ô rhets eutrenouez, ô téméraire ardeur.</reg>
+        </seg>
+        <seg>
+          <orig>O duſens aueuglé charmereſſe grandeur.</orig>
+          <reg>Ô dus aveuglé charmeresse grandeur.</reg>
+        </seg>
+        <seg>
+          <orig>Las qu’il euſt mieux vals ſeuz la verte foigere</orig>
+          <reg>Las qu'il eût mieux vals seuz la verte faigère</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Tourtiſer &amp; ſeruir vue belle Bergere, Que mettre en ſi haut lieu ſon deſir impuiſſant.</orig>
+          <reg>Tourtiser et servir vue belle Bergère, Que mettre en si haut lieu son désir impuissant.</reg>
+        </seg>
+        <seg>
+          <orig>Phaëton heritier du char reſplendiſſant En ce point abuſa de la torche Febee, Ieciel en ſut trouble, &amp; la terre enſlambee.</orig>
+          <reg><persName>Phaéton</persName> héritier du char resplendissant En ce point abusa de la torche <persName>Febe</persName>, <persName>Jéciel</persName> en sut trouble, et la terre enslambe.</reg>
+        </seg>
+        <seg>
+          <orig>Dueillement außi du plus haut de Iunon Irare cheut en l’eau qui porte encore ſon nom.</orig>
+          <reg>Dueillement aussi du plus haut de <persName>Junon Irare</persName> chut en l'eau qui porte encore son nom.</reg>
+        </seg>
+        <seg>
+          <orig>Il n’eſt que de raſer de ſes ailes la terre, Craignant des immortels les dards &amp; le tonnerre, Souuent ces feux diuins par la mort ſont finus, Iaqnihęle ſcait, &amp; toypauure Adonis.</orig>
+          <reg>Il n'est que de raser de ses ailes la terre, Craignant des immortels les dards et le tonnerre, Souvent ces feux divins par la mort sont sinus, <persName>Iaqnihę</persName>le sait, et toipauvre <persName>Adonis</persName></reg>
+        </seg>
+        <seg>
+          <orig>Enſez vous mes paneaux, &amp; vous limiers &amp; dogues Rempliſſez vos foreſts de vos hurlemens rogues, Abbayez, lamentez &amp; d'vn cry plus trenchans Tacontez aux taillis cest eſclandre meſchant.</orig>
+          <reg>Ensez vous mes peneaux, et vous limiers et dogues Remplissez vos forêts de vos hurlements rogues, Abayez, lamentez et d'autre cri plus trenchants Tacontés aux taillis cet esclandre méchant.</reg>
+        </seg>
+        <seg>
+          <orig>Heriſſez vous le poil, rompez vos aiſles doubles.</orig>
+          <reg>Hérissez -vous le poil, rompez vos ailes doubles.</reg>
+        </seg>
+        <seg>
+          <orig>Pmez l’eſcume aux dents, &amp; le ſang aux yeux troubles Toas petits Amoureaux, vous eſquadrons guerriers Au peignãt vn cœur faint en la peas des lauriers Pour mieux viſer apres la poictrine mortelle, Exercοz iour &amp; nuict voſtre pointe fidelle:</orig>
+          <reg>Pllez l'écume aux dents, et le sang aux yeux troubles Toeus petits Amoureaux, vous équadrons guerriers Au peignant un cœur saint en la peas des lauriers Pour mieux viser après la poitrine mortelle, Exercés jour et nuit votre pointe fidèle:</reg>
+        </seg>
+        <seg>
+          <orig>Quide fruict, &amp; de ſleurs comblez vn beau conſin Vos bustes, vos moiſſons maintenant prennent fin.</orig>
+          <reg>Quide fruit, et de sleurs comblés un beau consin Vos bûtes, vos moissons maintenant prennent fin.</reg>
+        </seg>
+        <seg>
+          <orig>Auallez en criant voſtre plume accroupie Comme vn poucinet d'Aouſt qui de chaleur pepie.</orig>
+          <reg>Avallez en criant votre plume accroupie Comme un poucinet d'Août qui de chaleur pépie.</reg>
+        </seg>
+        <seg>
+          <orig>Oa ſi vous aymez mieux vanger vn iouuenceau Ameureux de Cyprine accablez ce pourceau.</orig>
+          <reg>Ôa si vous aimez mieux venger un iouuenceau Ameureux de <persName>Cyprine</persName> accablez ce pourceau.</reg>
+        </seg>
+        <seg>
+          <orig>Plui il eſt furieux, plus aurez vous de gloire plus aura de credit voſtre fleche notoire, Velez porte-carquou, &amp; par l’air ſouſtenus.</orig>
+          <reg>Plui il est furieux, plus aurez -vous de gloire plus aura de crédit votre flèche notoire, Velez porte-carquou, et par l'air soutenus.</reg>
+        </seg>
+        <seg>
+          <orig>Alez à tire d’aiſle annoncer à Venus Qu'auecque ſon Adon morte eſt ſon eſperanes:</orig>
+          <reg>Alez à tire d'aisle annoncer à <persName>Venus</persName> Qu'avec son <persName>Adon</persName> morte est son espéranes:</reg>
+        </seg>
+        <seg>
+          <orig>Tandu nous gemirons c'eſte truelle oſfente.</orig>
+          <reg>Tandu nous gémirons c'este truelle ôfente.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>ACTE CIN 'IES VENVS, L'OMBRE D’ADONIS.</orig>
+          <reg>ACTE CIN 'IES <persName>VENUS</persName>, L'OMBRE D'ADONIS.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>A Donis és tu mort?</orig>
+            <reg>À <persName>Donis</persName> ès tu mort?</reg>
+          </seg>
+          <seg>
+            <orig>helas cher Adore M’as-tu donc aux regrets &amp; plearis bandonnee Ou es-tu mon Adon?</orig>
+            <reg>hélas cher <persName>Adore</persName> M'as-tu donc aux regrets et plearis bandonnée Ou es-tu mon <persName>Adon</persName></reg>
+          </seg>
+          <seg>
+            <orig>out’irayieδæAdouis, Adonis reſpons mon amy cher (da Teſpons s’il te ſouuient de nostre douce ſlams Iaitu ne me dis mot, &amp; ces roches ſans ame Ces antres &amp; ces bous ont quelque impreſſion Redoublant les accens de mon affliction.</orig>
+            <reg>out'iraiieæAdouis, <persName>Adonis</persName> réponds mon ami cher (da <persName>Tespons</persName> s'il te souvient de notre douce slams Jaitu ne me dis mot, et ces roches sans âme Ces antres et ces bous ont quelque impression Redoublant les accents de mon affliction.</reg>
+          </seg>
+          <seg>
+            <orig>Ha pauure ie te vois, ie vois ton beau corſege, Paſle mort &amp; tranſi qui meſure l’herbage, Sans honneur &amp; vigueur de ſon long eſtendu.</orig>
+            <reg>Ha pauvre ici te vois, une vois ton beau corse, Pâle mort et transi qui mesure l'herbage, Sans honneur et vigueur de son long étendu.</reg>
+          </seg>
+          <seg>
+            <orig>Ie voi le ſanz pourpré ſur l’areſne eſpandu.</orig>
+            <reg>Je vois le sanz pourpré sur l'arène épandu.</reg>
+          </seg>
+          <seg>
+            <orig>Ciel ingrat, oel ialonx, indigue de lamiere, Maiſon de cruauté, deſloyale tenniere De monstres, de br gans, aſſaßins, &amp; voleurs, Et magavin farcy de cent m'lle malheurs.</orig>
+            <reg>Ciel ingrat, oel jalonx, indigue de lamière, Maison de cruauté, déloyale tennière De monstres, de br gans, assassins, et voleurs, Et magavin farci de cent m'lle malheurs.</reg>
+          </seg>
+          <seg>
+            <orig>Tu ai doncques vecſe ceste maudite peste Pour me donner eunuy.</orig>
+            <reg>Tu ai donc vecse cette maudite peste Pour me donner eunui.</reg>
+          </seg>
+          <seg>
+            <orig>I’inuoque, ie t’atteste O riuiere de Stix &amp; ton Roy ſouterra n, Qui garrote Saturne en ceut chaines d’airain, Dieux mutins qui trompez des hommes le couragt Lequel est-ce de vous qui u’a fait cest outrage?</orig>
+            <reg>J'invoque, Seigneur t'atteste Ô riuiere de <persName>Stix</persName> et ton Roi souterra nôtre, Qui garrote <persName>Saturne</persName> en cut chaines d'airain, Dieux mutins qui trompez des hommes le couragt Lequel est-ce de vous qui u’ de vous cest outrage?</reg>
+          </seg>
+          <seg>
+            <orig>O combien à grand tort ſur vos diuins autels Fume iourn ellement l'effrande des mortels.</orig>
+            <reg>Ô combien à grand tort sur vos divins autels Fume journ ellement l'effrande des mortels.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Qui meſpriſe le Ciel pour aimer en la terre?</orig>
+          <reg>Qui méprise le Ciel pour aimer en la terre?</reg>
+        </seg>
+        <seg>
+          <orig>Eſt-ce toy babillard ſerf de tes appetits, Qui menas paſſager les Iheſſales brebis?</orig>
+          <reg>Est-ce toi babillard serf de tes appétits, Qui menas passager les Ihessales brebis?</reg>
+        </seg>
+        <seg>
+          <orig>Ou toy larvon vollant à la plante legere, Ailanthude courrier maquereau de ton pere?</orig>
+          <reg>Ou toi larvon vollant à la plante légère, <persName>Ailanthude</persName> courrier maquereau de ton père?</reg>
+        </seg>
+        <seg>
+          <orig>O toy Dieu carnaſiier de courroux allumé, Que i’uy d’vn ſeul clin d’œil ſi ſounent deſarmé?</orig>
+          <reg>Ô toi Dieu carnasiier de courroux allumé, Que j'hui d'un seul clin d'œil si sounent désarmé?</reg>
+        </seg>
+        <seg>
+          <orig>Mau eſt-ce toy Minerue est-ce toy Proſerpine.</orig>
+          <reg>Mau est-ce toi <persName>Minerve</persName> est-ce toi <persName>Proserpine</persName></reg>
+        </seg>
+        <seg>
+          <orig>Qui repaiſt ton ardeur d’innocente rapine, Qui vierge te faignant aunes pourtant lelit Du ſecret Orion &amp; du ieune H ypolu?</orig>
+          <reg>Qui repaît ton ardeur d'innocente rapine, Qui vierge te faignant aunes pourtant lelit Du secret <persName>Orion</persName> et du jeune <persName>H</persName> ypolu?</reg>
+        </seg>
+        <seg>
+          <orig>Dites qui c’eſt de vous, que rien on ne me celle, De peur que ma ſureur iuſtement criminelle Nuijfametauyquimramue.</orig>
+          <reg>Dites qui c'est de vous, que rien on ne me celle, De peur que ma fureur justement criminelle Nuijfametauyquimramue.</reg>
+        </seg>
+        <seg>
+          <orig>Cſſe ceſſe Venus ta grand temerité, Vou-tupas ce chartier phœbus par le nuage Ioyeux de ton eſmoy reluire dauantage Vois-tu la trahiſonna ſens iu mamtenant!</orig>
+          <reg>Censse cesse <persName>Venus</persName> ta grand témérité, Vou-tupas ce chartier phœbus par le nuage Joyeux de ton émoi reluire davantage Vois-tu la trahisonna sens ju mamtenant!</reg>
+        </seg>
+        <seg>
+          <orig>Oregret ô douleur, mon cœur empoiſonnan.</orig>
+          <reg>Oregret ô douleur, mon cœur empoisonnan.</reg>
+        </seg>
+        <seg>
+          <orig>Approche toy du corps miſerable derſſe, Approche toy de luy &amp; lamante ſans ceſſe Ce deſaſtre malin couppe toyler cheueux, Et rienſinon la mort ne reprennent tes yeux, Iſchauſſe en ton giron amante malheureuſe De ſouſpirs redoublez ceſte image amoureuſe Dayſe la pour iamais, &amp; ce corps treſpaſsé Soit pitoyiblement de tes bras enlaßé Si quelque eſprit erraut ſur les leures habite, Si quelque viſbuſer en ſa bouche palpite Ite le fait cueillir.</orig>
+          <reg>Approche toi du corps misérable dersse, Approche toi de même et lamante sans cesse Ce désastre malin couppe toiler cheveux, Et riensinon la mort ne reprennent tes yeux, Ischausse en ton giron amante malheureuse De soupirs redoublés cette image amoureuse Dayse la pour jamais, et ce corps trespassé Soit pitoyiblement de tes bras enlassé Si quelque esprit erraut sur les esprit habite, Si quelque visbuser en sa bouche palpite Ite le fait cueillir.</reg>
+        </seg>
+        <seg>
+          <orig>Helas mon cherAdon Qù ſont de tes beaux yux l’ra &amp; l’autre brandon Ou ſont ces mots dorez ou ſont ses cheueux creſpes M auou ſont maint enant mille amou reuſes gueſpes, Où ſont mille beautez, où ſout ccs doux aitraiſts Que mon fils de ſa main auout meſme pourtraict Si auant que partir à Dieu ien'ay peu dire Au corail rougiſſant cauſe de ſon martire, Cent ſois apreita mortie le rebaiſeray, Ceut fois &amp; cent encor ie te racolleray.</orig>
+          <reg>Hélas mon <persName>cherAdon</persName> Qù sont de tes beaux yux l'rats l'autre brandon Ou sont ces mots dorés ou sont ses cheveux crêpes M avou sont maint enant mille amou reuses guêpes, sont mille beautés, où sout s doux aitraists Que mon fils de sa main aut même pourtraict Si avant que partir à Dieu yen à peu dire Au corail rougissant cause de son martyre, Ita sois Cent soi le apaiserai, Ceut fois et cent encor ie te racolerai.</reg>
+        </seg>
+        <seg>
+          <orig>Ie preſſeray tes yeux ie baiſeray ta bouche.</orig>
+          <reg>Je presserai tes yeux On baiserai ta bouche.</reg>
+        </seg>
+        <seg>
+          <orig>Adonis tu me fuis, &amp; me ſembles farouche plus que deuant tamort, cruelle qu’ay-ie faict?</orig>
+          <reg><persName>Adonis</persName> tu me fuis, et me sembles farouche plus que devant tort, cruelle qu'ai-je fait?</reg>
+        </seg>
+        <seg>
+          <orig>Trop tardie recognois ma coulpe &amp; mon forfait.</orig>
+          <reg>Trop tardie reconnais ma coulpe et mon forfait.</reg>
+        </seg>
+        <seg>
+          <orig>C’est moy qui t’ay perdu.</orig>
+          <reg>C'est moi qui t'ai perdu.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt moyie le confeſſe, Q'apuny te tuant la fiere chaſſereſſe.</orig>
+          <reg>C'est moiie le confesse, QU'apuni te tuant la fière chasseresse.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>L’OMBRE D'ADONIS.</orig>
+          <reg>L'OMBRE D'ADONIS.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Mon ame, mes amours, mon cœur &amp; mou ſony.</orig>
+          <reg>Mon âme, mes amours, mon cœur et mou sony.</reg>
+        </seg>
+        <seg>
+          <orig>Ie vieus pour vous reuoir du manoir obſeurc).</orig>
+          <reg>Je vieus pour vous revoir du manoir obseurc).</reg>
+        </seg>
+        <seg>
+          <orig>Ne gemiſſez, point tant, appaiſez ie vous prie Ceſle plainte &amp; ces pleurs, appaiſez vous ma vie.</orig>
+          <reg>Ne gémissez, point tant, apaisez ie vousprie Cesle plainte et ces pleurs, appaisez vous ma vie.</reg>
+        </seg>
+        <seg>
+          <orig>D’vn ſeul point ie vous veux ſeulement requerir.</orig>
+          <reg>D'un seul point Dieux vous veux seulement requérir.</reg>
+        </seg>
+        <seg>
+          <orig>Ne me faictes Venus, encor vn coup mourir.</orig>
+          <reg>Ne me faites <persName>Venus</persName>, encor un coup mourir.</reg>
+        </seg>
+        <seg>
+          <orig>La parque a retrenché ma ieuneſſe prem ere Et au creux Auernal ma peine priſonniere Boit les flots Letheens, mau vos tristes clameurs Fout que mort vne fou vne autre ſois ie meurs, Pardonuez ma deeſſe à ces dures complaites, Et ne terniſſez plus ces deux lumieres ſaintes A force de pleurer.</orig>
+          <reg>La parque a retrenché ma jeunesse première ère Et au ciel Auernal ma peine prisonnière Boit les flots Letheens, mau vos tristes clameurs Fout que mort fou vne autre sois ainsi mûres, Pardonuez ma déesse à ces dures complaites, Et ne ternissez plus ces deux lumières saintes A force de pleurer.</reg>
+        </seg>
+        <seg>
+          <orig>Car ie ſuis trop heureux Puiſque vous daignez bien me nommer l’amoureux De vos perfections nyles tardes anuces, Ny du ſort inconſtant lesmains plus fortunees Ne me pouuoient offrir plus de coutentement, Puis que ie meurs pour vous ie meurs heureuſemeni.</orig>
+          <reg>Car ie suis trop heureux Puisque vous daignez bien me nommer l'amoureux De vos perfections niles tardes anuces, Ni du sort inconstant lesmains plus fortunes Ne me pouvaient offrir plus de coutentement, Puis que sans meurs pour vousie urs heureusement.</reg>
+        </seg>
+        <seg>
+          <orig>cependant n’oubliez la terre Paphienne, Seiour de mes ayeulx.</orig>
+          <reg>cependant n'oubliez la terre Paphienne, Séjour de mes aieulx.</reg>
+        </seg>
+        <seg>
+          <orig>Et touſiours vous ſouaienne Du mont Idalien &amp; de ſes prez ſleuris, Qui paiſible michoyent nos amours &amp; nos ritt.</orig>
+          <reg>Et toujours vous soujenne Du <placeName>mont Idalien</placeName> et de ses près sleuris, Qui paisible michaient nos amours et nos ritt.</reg>
+        </seg>
+        <seg>
+          <orig>Quend à moyie m'eu-vou en la nuiet eternelle, Où le nocher Caron tous les hommes appelle.</orig>
+          <reg>Quend à moiie m'eu-vou en la nuiet éternelle, Où le nocher Caron tous les hommes appelle.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>V ENVS.</orig>
+            <reg>V VNUS.</reg>
+          </seg>
+          <seg>
+            <orig>Iu amy tu t’en vas.</orig>
+            <reg>Ju ami tu t'en vas.</reg>
+          </seg>
+          <seg>
+            <orig>Ias il eſt ià part,:</orig>
+            <reg>Jas il est jà part,:</reg>
+          </seg>
+          <seg>
+            <orig>Etce ſon doucereux, s’eſt en rien conuerty.</orig>
+            <reg>Etce son doucereux, s'est en rien converti.</reg>
+          </seg>
+          <seg>
+            <orig>Eftrange &amp; dure loy que les hommes deſcendeus Si toſt dans le ſepulchre, &amp; leur aage deſpendent Saus eſpoir de retour, ô fanebre destin On couppe tous les ans les mauues &amp; le thin, Ies mauues &amp; le thin leur verdure reprennent Maus les hommes s’en vont, &amp; iamais ne reuiennent.</orig>
+            <reg>Étrange et dure loi que les hommes descendeus Si tôt dans le sépulcre, et leur âge dépendent Saus espoir de retour, ô fanebre destin On couppe tous les ans les mauves et le trin, Jes mauves et le thin leur verdure reprennent Maus les hommes s'en vont, et jamais ne reviennent.</reg>
+          </seg>
+          <seg>
+            <orig>Maudit ſoit le ſerpent, que l’aſne ſoit maudit Qui au ſerpent ruſé la iouuence vendit, Ie vou bien que c’eſt faicl Adieu bouche vermeille Adieu front delicat de blancheur nompareille, Ade eleueux creſpez.</orig>
+            <reg>Maudit soit le serpent, que l'âne soit maudit Qui au serpent rusé la iouuence vendit, Je vou bien que c'est faicl Adieu bouche vermeille Adieu front délicat de blancheur nompareille, Ade leveux crêpez.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu flãbeaux germains Adieu ſourcils voutez, Adieu bras, Adieu mains, Hen que voſtre vigueur deſia ſoit effaces Lounez moybelles mains entore vne embraſſee.</orig>
+            <reg>Adieu flambeaux germains Adieu sourcils voûtez, Adieu bras, Adieu mains, Hen que votre vigueur déjà soit effaces Lougnez moibelles mains entore une embrassée.</reg>
+          </seg>
+          <seg>
+            <orig>Adieu bel eſtomach dont l'amoureux pouuoir Afut en mon eſprit ſes ardeurs conceuoir, Adieu pieds ad eu pas, adieu iambe longuette Adien plaiſir.</orig>
+            <reg>Adieu bel estomacach dont l'amoureux pouvoir Afut en mon esprit ses ardeurs concevoir, Adieu pieds ad eu pas, adieu jambe longuette Adien plaisir.</reg>
+          </seg>
+          <seg>
+            <orig>paſſé que triſte ie regrette.</orig>
+            <reg>passé que triste ici regrette.</reg>
+          </seg>
+          <seg>
+            <orig>Heureuſe fat Hero qui tomba du chaſteau Lur Ieander noyé &amp; el qui d'vn couſteau Ilatant fin à ſon mal mourut auec Pirame:</orig>
+            <reg>Heureuse fat Hero qui tomba du <placeName>château Lur Jeander</placeName> noyé et <persName>el</persName> qui d'un couteau Ilatant fin à son mal mourut avec <persName>Pyrame</persName></reg>
+          </seg>
+          <seg>
+            <orig>Iau pour ne mourir poine te ſons au font de l’ame I'ne dernelle mort &amp; la diuinité Us ſoiure mon amy m’oſle la liberté.</orig>
+            <reg>Jau pour ne mourir poine te sons au font de l'âme J'ne dernelle mort et la divinité Us soivre mon ami m'ôle la liberté.</reg>
+          </seg>
+          <seg>
+            <orig>Loyent tant qu'elles voudront les portes Tenarees.</orig>
+            <reg>Loient tant qu'elles voudront les portes Ténarées.</reg>
+          </seg>
+          <seg>
+            <orig>II mes piedi à mes pleurs eſtroitement ſerrees Puſiours, touſiour, Veuus en miſere viura I quelque part qu’elle aille vn enfer la ſuiura.</orig>
+            <reg>II mes piedi à mes pleurs étroitement serrées Pusiours, toujours, Toujours en misère vivra I quelque part qu'elle aille un enfer la suivrez.</reg>
+          </seg>
+          <seg>
+            <orig>es yeux distilleront vn oudeyant Cocite,</orig>
+            <reg>es yeux distilleront un oudeyant Cocite,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Acheron ſlotiera dins mon ame deſpite Et en mon cœur eſpru bouillera Phlege on.</orig>
+          <reg>Acheron slotiera dins mon âme dépite Et en mon cœur épru bouillera <persName>Phlège</persName> on.</reg>
+        </seg>
+        <seg>
+          <orig>Sonme ie porteray les enfers de Pluton, Sus douc arrachez moy ces ſleurettes pendantes Fichez moy des chardons, &amp; des ronces mordames Tout à l'entour du chef faites moy tout expres En beu de ma couronne vn chapeau de Cyprez?</orig>
+          <reg>Sonme ici porterai les enfers de <persName>Pluton</persName>, Sus douc arrachés moi ces sleurettes pendantes Fichez moi des chardons, et des ronces mordames Tout à l'entour du chef faites moi tout exprès En bu de ma couronne un chapeau de <persName>Cyprès</persName></reg>
+        </seg>
+        <seg>
+          <orig>Mes plaiſirs ſont fanez ainſi comme la branhe De Bacchus ſans appuy contre terre ſe penche.</orig>
+          <reg>Mes plaisirs sont fanez ainsi comme la branhe De <persName>Bacchus</persName> sans appui contre terre se penche.</reg>
+        </seg>
+        <seg>
+          <orig>Ie veux que deſormau, mes cygnes blancluſiaus Veſtent lenoir babit des oyſeaux croasans.</orig>
+          <reg>Je veux que désormau, mes connes blanclusiaus Vent lenoir babit des oiseaux croasants.</reg>
+        </seg>
+        <seg>
+          <orig>Ie veux que mes pigeons ſe tramſorment en pies Et mes petits anours en ſanglantes Harpies, Mes graces deſormais ſans graces deuiendront, Et comme trois ſureurs aux hommes epprendruu Ia rage, les forſaus, les deteſtables œuures Semant de tous coslez milles noires couleumren Deſſous mon pred naistra en lieu de blons eſpu Vne fiere moiſſon de crappaux, &amp; d’aſps Et moy qu’on vanommnant mere de tout le monde Seray de l’vmuers la pernice feconde:</orig>
+          <reg>Je veux que mes pigeons se tramsorment en pies Et mes petits anours en sanglantes Harpies, Mes grâces désormais sans grâces deviendront, Et comme trois fureurs aux hommes épprendru Ia rage, les forsaus, les détestables œuvres Semant de tous côlez milles noires couleumren Dessous mon préd naîtra en lieu de blons espuLons fière moisson de crois, et d'asps Et moi qu'on vanonnant mère de tout le monde Va de nmuers la pernice féconde:</reg>
+        </seg>
+        <seg>
+          <orig>Hymen le doux Hymen plus ne m acostera Cerbere deuant moy cruel deuoreraTous aumaux viuans, &amp; ma belle ceinture Qui ſouloit aquoiſer desondes le murmure Sus donc ie veux moy meſme aitainte de ſureul Rompre l’iuoire blanc de mon viſage tendre, Ie te veux Adonis derechef faire entendre Mou ſoucy violent E ſi tu ne me vois Eſ.</orig>
+          <reg>Hymen le doux Hymen plus ne m acôtera Cerbère devant moi cruel dévoreraTous auma viuans, et ma belle ceinture Qui soûlait aquoiser désondes le murmure Sus donc tu ne me même aitainte de sûreul Rompre l'yvoire blanc de mon visage tendre, Je te veux <persName>Adonis</persName> derechef faire entendre Mou soucy violent E si tu ne me vois Es.</reg>
+        </seg>
+        <seg>
+          <orig>utetous au moins ma gemniſſmme voix.</orig>
+          <reg>utetous au moins ma gémnissamme voix.</reg>
+        </seg>
+        <seg>
+          <orig>Apollon &amp; Diane out ceste mort braſſee, Mauie leur garderay vne ſourde penſee Tamort ſe ven cera, Ie le iure &amp; promets, Adieu man Adonis, adieu denc à tamaus.</orig>
+          <reg><persName>Apollon</persName> et <persName>Diane</persName> out cette mort brassée, <placeName>Mavie</placeName> leur garderai toujours sourde pensée Tamort se ven cera, Je le jure et promets, Adieu man <persName>Adonis</persName>, adieu denc à tamaus.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>FIN.</orig>
+          <reg>FIN.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>PARADOXE DV MESME AVTHEVR.</orig>
+          <reg>PARADOXE DU MÊME AUTHÉVR.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Que les Dames doyuent marcher le ſein deſcouuert.</orig>
+          <reg>Que les Dames doivent marcher le sein découvert.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>E ne ſcaypar quelle malice, On dit auiourd huy que c’et vice De menstrer le ſe nrondilet.</orig>
+          <reg>E ne scaypar quelle malice, On dit aujourd' hui que c'et vice De menstrer le se nrondilet.</reg>
+        </seg>
+        <seg>
+          <orig>Veu qu’au premier tempi d'innocére RdIa ſenme n’euſi onc congnoiſſance Ni de robbe, ni de collet.</orig>
+          <reg>Veu qu'au premier tempi d'innocère RédIa senme n'eusi onc connaissance Ni de obe, ni de collet.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Elle cheminoit toute nue Dans les prez ſur l’herbe menue.</orig>
+          <reg>Elle cheminait toute nue Dans les prez sur l'herbe menue.</reg>
+        </seg>
+        <seg>
+          <orig>Partant auec ſon amoureux:</orig>
+          <reg>Partant avec son amoureux:</reg>
+        </seg>
+        <seg>
+          <orig>blaſmerons nous les Damoiſelles, Qui commencent par les mammelles A ramener le temps heureux?</orig>
+          <reg>blâmerons nous les Damoiselles, Qui commencent par les mammelles A ramener le temps heureux?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Il faut çacher la main ſauuage Tainte de ſang &amp; de carnage, It couurir la bouche qui ment:</orig>
+          <reg>Il faut çacher la main sauvage Tainte de sang et de carnage, It couvrir la bouche qui ment:</reg>
+        </seg>
+        <seg>
+          <orig>Mais vne poitrine gentille, Et le blanc tetin d’vne fille Ne ſe dont chacher nullement.</orig>
+          <reg>Mais une poitrine gentille, Et le blanc tétin d'une fille Ne se dont chacher nullement.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Il faut captiuer ſan, lumiere</orig>
+          <reg>Il faut captiver san, lumière</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Au noir cachot d'vne taniere Ie ſerpent &amp; l'ours affamé:</orig>
+          <reg>Au noir cachot d'une tanière Je serpent et l'ours affamé:</reg>
+        </seg>
+        <seg>
+          <orig>Mais vu beau ſem qui ſe deſcouure N’a le venin de la couleuure Tour eſtre prus ou renſerme.</orig>
+          <reg>Mais vu beau sem qui se découvre N'a le venin de la couleuvre Tour être prus ou renserme.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Fol eft l'vſurier qui reſerre Ses facultez deſſous la terre Et tient ſon or enſeueli:</orig>
+          <reg>Fol eut l'usurier qui réserre Ses facultés dessous la terre Et tient son or enseveli:</reg>
+        </seg>
+        <seg>
+          <orig>Mais les pucelles liberales Euentent deux pommes eſgales, Al iuoire le mieux poli.</orig>
+          <reg>Mais les pucelles libérales Évent deux pommes égales, <persName>Al</persName> yvoire le mieux poli.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Tout auſi toſt que nos decſſes Voulurent monſtrer les richeſſes De leur estomac precieux, Amour aueugle de nature Ne volla plus à l’auanture Et ſe debenda les deux yeux.</orig>
+          <reg>Tout aussi tôt que nos décès Voulurent montrer les richesses De leur estomac précieux, Amour aveugle de nature Ne volla plus à l'aventure Et se débenda les deux yeux.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Il rougit ceste double fraize Comme charbons de ſa fournaiſe, Deux ſoufflets furent les tetons, Qui de chaude vapeur s'enflerent Et dedans nos ames ſouſſlerent Le feu miguard que nous ſentons.</orig>
+          <reg>Il rougit cette double fraise Comme charbons de sa fournaise, Deux soufflets furent les tétons, Qui de chaude vapeur s'enflèrent Et dedans nos âmes soûlèrent Le feu miguard que nous sentons.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Dhæbus de beautéſeolexemple Aſin que mieux on le contemple En tourneyant fait ſon deuoir.</orig>
+          <reg>Dhæbus de beautéseolexemple Asin que mieux on le contemple En tourneyant fait son devoir.</reg>
+        </seg>
+        <seg>
+          <orig>Et puis apres la nuit farouche Bien quelle ſoit à demi louche Se veut encore faire voir.</orig>
+          <reg>Et puis après la nuit farouche Bien quelle soit à demi louche Se veut encore faire voir.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Qααnd Aquιlonpar l'argallepe</orig>
+          <reg>Qααnd Aqulonpar l'argalepe</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Et qu'en Ianuier il enueloppe Fhiiiieu inpaſie bandeau, Tous ſes plaiſirs elle abandonne, Ele gemit pleure, &amp; friſſonns Comme vnpriſonnier au cordeau.</orig>
+          <reg>Et qu'en <date>Janvier</date> il enveloppe Fhiiiieu inpasie bandeau, Tous ses plaisirs elle abandonne, Éle gémit pleure, et frissonns Comme imprisonnier au cordeau.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Mais quand Zephire la courtiſe, Iuy deſpouillant ſa robbegriſe Pleimo de cent mille glaçons, Ele eſt du ſoleil penetree, Elle enfante d’vn ventres Antant de fleuri &amp; de moyſſont.</orig>
+          <reg>Mais quand <persName>Zéphire</persName> la courtise, Jui dépouillant sa robegrise Plémo de cent mille glaçons, Éle est du soleil pénétrée, Elle enfante d'un ventres Antant de fleuri et de moissont.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Dequoy ſeruentamumagui Iant de couleurs &amp; de fleurages U lœil humain en eſt abſent?</orig>
+          <reg>Dequoy serventamumagui Jant de couleurs et de fleurages V lœil humain en est absent?</reg>
+        </seg>
+        <seg>
+          <orig>I'æil voit premier ſar ſon eſpine Ianboyer la roſe diuine Rela main toudhie &amp; le nez ſent.</orig>
+          <reg>J'æil voit premier sar son épine Janboyer la rose divine Rela main toudhie et le nez sent.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Poui honteuſement traittee Deuaut les dieux fut garroitee:</orig>
+          <reg>Poui honteusement traite Deud les dieux fut garroite:</reg>
+        </seg>
+        <seg>
+          <orig>Auecques Mars ſon fauori, Prompiement acçourut Ieuneſſe, Eu vient deſtacher ſa maiſtreſſs In deſpit du coqu mari.</orig>
+          <reg>Avec <persName>Mars</persName> son favori, Prompiement acçourut Jeunesse, Eu vient détacher sa maîtres In dépit du coqu mari.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Pour eternelle recompente La mere d’amour à iouuence Preſenta ces deux noms charuus.</orig>
+          <reg>Pour éternelle récompente La mère d'amour à iouuence Presenta ces deux noms charuus.</reg>
+        </seg>
+        <seg>
+          <orig>De là viens que les dames belles Quandon leur taſte les mammelles Ont ſouuenance de Venus.</orig>
+          <reg>De là viens que les dames belles Quandon leur tâte les mammelles Ont souvenance de <persName>Venus</persName></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>clobes germains l'honneur de monde où laſource d’amour abonde, Rompez colets &amp; veſtements:</orig>
+          <reg>clobes germains l'honneur de monde où lasource d'amour abonde, Rompez collets et vêtements:</reg>
+        </seg>
+        <seg>
+          <orig>Tetins de ſingulier merite, Qui paiſſez la bouche petite, Repaiſſez l'œil de vos amants.</orig>
+          <reg>Tetins de singulier mérite, Qui paissez la bouche petite, Repaissez l'œil de vos amants.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MAS HONRA QE VID</orig>
+          <reg>MAS HONRA QE VID</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>L'AMOVR MERCENAIRE.</orig>
+            <reg>L'AMOUR MERCENAIRE.</reg>
+          </seg>
+          <seg>
+            <orig>A vertud'vn perſonnage, L Nle Prin-temps deſonaage, Sa beauté ny ſon parler, Ny ſeruent que de riſee, A la femelle ruſee Qui nous veut emmarteller.</orig>
+            <reg>À vertud'Un personnage, L Île Printemps désonaage, Sa beauté ni son parler, Ni servent que de risée, À la femelle ruse Qui nous veut emarteller.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>C'est peu que faire des carmes Il faut auec autres charmes Tenter l’amoureux guerdon:</orig>
+          <reg>C'est peu que faire des carmes Il faut avec autres charmes Tenter l'amoureux guerdon:</reg>
+        </seg>
+        <seg>
+          <orig>Qui veut emporter la roſe Des dames, qu’il ſe propoſe Ieur faire quelque biau don.</orig>
+          <reg>Qui veut emporter la rose Des dames, qu'il se propose Jeur faire quelque biau don.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Iadis amour pour maistreſſe, Choiſit madame richeſſe:</orig>
+          <reg>Jadis amour pour maîtresse, Choisit madame richesse:</reg>
+        </seg>
+        <seg>
+          <orig>Ayant les palles couleurs, Etiura dés l’heure meſme Qu'à iamais il ſeroit bleſme, Et l’amant plain de paſleurs.</orig>
+          <reg>Ayant les palles couleurs, Etiura dès l'heure même Qu'à jamais il serait blême, Et l'amant plain de pâleurs.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Lors il quitta les aubades, Ia dance, les maſcharades, Iameſique, &amp; les festins,</orig>
+          <reg>Lors il quitta les aubades, Ia dance, les mascharades, <persName>Iamesique</persName>, et les festins,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Et plus luypluſt vne bource Que la murmurante ſource Des ruſſeleti argentins.</orig>
+          <reg>Et plus luyplust une bource Que la murmurante source Des russeleti argentins.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Depuis il apprist la cure De iaunir ſa cheueleure Sonare, ſon aiſle, &amp; ſes traicti.</orig>
+          <reg>Depuis il apprît la cure De jaunir sa cheveleure <persName>Sonare</persName>, son aile, et ses traiti.</reg>
+        </seg>
+        <seg>
+          <orig>Meſme Venus la doree, Fuſt de l’or enamouree, Changeant à l'or ſer attraicts.</orig>
+          <reg>Même <persName>Venus</persName> la dorée, Fût de l'or enamoure, Changeant à l'or serait attraits.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Iupiter qui ſetransforme En mainte ioyeuſe forme:</orig>
+          <reg><persName>Jupiter</persName> qui settranforme En mainte joyeuse forme:</reg>
+        </seg>
+        <seg>
+          <orig>Repounonduoir credit Au giron d’vnepucelle, Mais pour iouyr de la belle In pluye d’or ſe fondit.</orig>
+          <reg>Répounonduoir crédit Au giron d'unepucelle, Mais pour jouir de la belle In pluie d'or se fondit.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ayant done amplenoties Que l’amour &amp; l’auarics Ont enſemble coniuré.</orig>
+          <reg>Ayant donce amplenoties Que l'amour et l'avarics Ont ensemble conjuré.</reg>
+        </seg>
+        <seg>
+          <orig>Souz la faueur de fortune, Ie feis ſonner la pecuns, Tendant au but deſiré.</orig>
+          <reg>Souz la faveur de fortune, Je feis sonner la pécuns, Tendant au but désiré.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Comme ſoudain les auettes, Se viennent ſor les branchettes Poſer au bruit de l’airain, Außi toſt &amp; plus encore, I’mpiteuſe que i’adore, Arreſta ſon œil ſerain.</orig>
+          <reg>Comme soudain les auettes, Se viennent sot les branchettes Poser au bruit de l'air, Aussi tôt et plus encore, J'mpiteuse que j'adore, Arrêta son œil serain.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Elle qui couroit deſpite Plus que la tempeſte vue Se uini ferne pres de moy,</orig>
+          <reg>Elle qui courait dépite Plus que la tempête vue Se ini ferne pres de moi,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>En feu ſe tourna ſa glace, Sa rigueur en humble grace Me tiraus de tout eſmoy.</orig>
+          <reg>En feu se tourna sa glace, Sa rigueur en humble grâce Me tiraus de tout émoi.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ià deſia ceſte mignomo Ainſi que l’or me reſonne Dans le poing ſans me mocquer, Entendant vnſi doux ſigne, Me fit cognoiſtre à ſa mine, Qu'elle eut bien voulu choquer.</orig>
+          <reg> desya ceste mignomo Ainsi que or me resonne Dans le poing sans me mocquer, Entendant vnsi doux signe, Me fit cognoistre sa mineà Qu'elle eut bien voulu moquer.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Iamais vn cheual d’Eſpaigne Ne frappa mieux la campaigne Des quatre pieds bondiſſant Quand ſon oreille guerriere Oyt la ſimence premiere Du clatron retentiſſant.</orig>
+          <reg>Jamais un cheval d'Espagne Ne frappa mieux la campagne Des <measure>quatre pieds</measure> bondissant Quand son oreille guerrière Oit la simence première Du clatron retentissant.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ie la vis toute ſaiſiD’ardeur &amp; de freneſie, Sauter apres ce metal, Puis rouge, puis palliſſante, Puis doucement languiſſante, Monſtrer ſon ſein de cristal.</orig>
+          <reg>Je la vis toute saisiD'ardeur et de frénésie, Sauter après ce métal, Puis rouge, puis pallissante, Puis doucement languissante, Montrer son sein de cristal.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ie la vu ſaine &amp; malade, Ie vis dedans ſon œillade Flamboyer vne liqueur, Comme la lumiere blonde, Qui fretille deſſus l’onde Quand la mer est en douceur.</orig>
+          <reg>Je la vu saine et malade, Je vis dedans son œillade Flamboyer une liqueur, Comme la lumière blonde, Qui fretille dessus l'onde Quand la mer est en douceur.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ie la vis à demy folle Perdre l’ame &amp; la parolle, Souſpirant eutre les draps:</orig>
+          <reg>Je la vis à demi folle Perdre l'âme et la parole, Souspirant eutre les draps:</reg>
+        </seg>
+        <seg>
+          <orig>Seibelles maini me ſlatterent, Seideux leures me ſoufflerent:</orig>
+          <reg>Seibelles maini me slattèrent, Seideux lèvres me soufflèrent:</reg>
+        </seg>
+        <seg>
+          <orig>E la vie &amp; le treſpas.</orig>
+          <reg>E la vie et le trépas.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Point ne fallut de vinaigre, Pour me rendre plus allaigre, Plus refait ou diligent:</orig>
+          <reg>Point ne fallut de vinaigre, Pour me rendre plus allaigre, Plus refait ou diligent:</reg>
+        </seg>
+        <seg>
+          <orig>Ie Jaoulay ma conuoitiſe, Ie prins de la marchandiſe Pour le prus de mon argent.</orig>
+          <reg>Ie Joulai ma convoitise, Je prins de la marchandise Pour le prus de mon argent.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Mais, las, vn nocher auare, Courant à lInde barbare, Qu'elquefois jetrompe jon, Et charge tant ſon nauire Quil ne le ſçauroit conduire Eis'abiſme dans le port.</orig>
+          <reg>Mais, las, un nocher avare, Courant à lInde barbare, Qu'ellequefois jetrompe jon, Et charge tant son navire Quil ne le saurait conduire Eis'abîme dans le port.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>O volonté tropgoulué, O paſtion diſſolue, O deſordonné flambeau:</orig>
+          <reg>Ô volonté tropgoulué, Ô pastion dissolue, Ô desordonné flambeau:</reg>
+        </seg>
+        <seg>
+          <orig>Plus l’hydropique met peine, De ſuccer vne fontaine, Plu il creuſe ſon tombeau.</orig>
+          <reg>Plus l'hydropique met peine, De succer une fontaine, <persName>Plu</persName> il creuse son tombeau.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Qui ſont ſes bommes fidelles Qui iurent aux damoiſelles De ſe porter chastement, An’oſent venir aux priſes Quand elles ſon en chemiſes Pour ne rompre leur ſerment?</orig>
+          <reg>Qui sont ses bommes fidèles Qui jurent aux damoiselles De se porter chastement, An'osent venir aux prises Quand elles son en chemises Pour ne rompre leur serment?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Hommos derace benite, Race de Dieu fauorite Vous meritez paradus.</orig>
+          <reg>Hommos dérace bénite, Race de Dieu favorite Vous méritez paradus.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Si i'euſſe fait enla ſorte Ma peau ne fut ainſi morte Ni mes pieds tant engourdus.</orig>
+          <reg>Si j'eusse fait enla sorte Ma peau ne fut ainsi morte Ni mes pieds tant engourdus.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>I'ay perdu ma ſorte vine, Perſonne chez moy n’arriue Qui ne me donne friſſon:</orig>
+            <reg>J'ai perdu ma sorte vine, Personne chez moi n'arrive Qui ne me donne frisson:</reg>
+          </seg>
+          <seg>
+            <orig>Ainſi priue de courage Se cache le cerf ſauuage, Sans cornes dans le buiſſon.</orig>
+            <reg>Ainsi prive de courage Se cache le cerf sauvage, Sans cornes dans le buisson.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>Ily agranddifference Entre Mars le porte-lance Et Cupidon l’amoureux.</orig>
+          <reg>Ili agranddifférence Entre <persName>Mars</persName> le porte-lance Et <persName>Cupidon</persName> l'amoureux.</reg>
+        </seg>
+        <seg>
+          <orig>Mari enrichit ſon gendarme, Cupidon le ſien deſarme, De ſon aigent doucereux.</orig>
+          <reg>Mari enrichit son gendarme, <persName>Cupidon</persName> le sien désarme, De son aigent doucereux.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Elle chante la mauuaiſe Et ie lauguis en malaiſe M’approchant du pas dernier.</orig>
+          <reg>Elle chante la mauvaise Et ie lauguis en malaise M'approchant du pas dernier.</reg>
+        </seg>
+        <seg>
+          <orig>Elle rid, ie me conſomme, Ell' a ſi bien ſait en ſome Que ie n’ay pas vn denier,</orig>
+          <reg>Elle rid, Seigneur me consomme, Ell a si bien sait en some Que je n'ai pas un denier,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Neſt-cepaigrande miſere, Qu'vne beſte paſſagere, N’eſt point ſans comparaiſon:</orig>
+          <reg>Nest-cepaigrande misère, Qu'une bête passagère, N'est point sans comparaison:</reg>
+        </seg>
+        <seg>
+          <orig>Si digne de mener paistre, Que l’homme qui ſe dit maiſtre Des animaux ſans raiſon?</orig>
+          <reg>Si digne de mener paître, Que l'homme qui se dit maître Des animaux sans raison?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Iaiumot dans la prairie, Au prompt cheual ſe marie D'm amour ſimboliſa,</orig>
+          <reg>Jaimot dans la prairie, Au prompt cheval se marie D'm amour symbolisa,</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Ia vache parmy la trouppe Au thoreau donne ſa crouppe Sans auoir aucun preſent.</orig>
+          <reg>Ia vache parmi la troupe Au thoreau donne sa croupe Sans avoir aucun présent.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Mais la femme plus rebelle De langueur &amp; de cauſelle, Son amoureux entretient:</orig>
+          <reg>Mais la femme plus rebelle De langueur et de causelle, Son amoureux entretient:</reg>
+        </seg>
+        <seg>
+          <orig>Efrrmna aire le l’oſe, Dix mille fois vne choſe, Que touſiours elle retient.</orig>
+          <reg>Efrmna aire le l'ose, Dix mille fois une chose, Que toujours elle retient.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Lor mnt inoje togneuë, Qui iamais ne dinunue IhaliEpremr;</orig>
+          <reg>Lor mennt inoît togneuë, Qui jamais ne dinunue IhaliEpremr;</reg>
+        </seg>
+        <seg>
+          <orig>onihiaſiti.</orig>
+          <reg>onihiasiti.</reg>
+        </seg>
+        <seg>
+          <orig>Teutesfois la femme ſotte Puis nous vend &amp; puis nous oſte, Ie qu’on luy peut augmenter.</orig>
+          <reg>Teutefois la femme sotte Puis nous vend et puis nous ôte, Je qu'on lui peut augmenter.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>Qu'elle iustice commande D’achepter à ſomme grande, Ie baiſer qu’on nous depart.</orig>
+          <reg>Qu'elle justice commande D'achepter à somme grande, Je baiser qu'on nous départ.</reg>
+        </seg>
+        <seg>
+          <orig>Puis que la ſemme baiſee D'vne douceur diuiſee Rroit la meilleure part?</orig>
+          <reg>Puis que la semme baise D'une douceur divise Roit la meilleure part?</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Or ſçais-tu quoy ma mignarde, Ton œil azuré me darde, Quelque rayon eſcarté, Secourant ma maladie:</orig>
+            <reg>Or sais-tu quoi ma mignarde, Ton œil azuré me darde, Quelque rayon écarté, Secourant ma maladie:</reg>
+          </seg>
+          <seg>
+            <orig>Et meren, ie te ſupplie Mon argent, ou ma ſanté.</orig>
+            <reg>Et méren, <persName>Seigneur</persName> te supplie Mon argent, ou ma santé.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>FIN.</orig>
+          <reg>FIN.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>1AS HONRA QVE VIDI.</orig>
+          <reg>1AS HONRA QUE VIDI.</reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>

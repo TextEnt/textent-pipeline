@@ -1,0 +1,2347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Precieuses ridicules. Comedie. Representée au Petit Bourbon</title>
+        <author>Molière</author>
+        <respStmt>
+          <resp>Acquisition &amp; transformation by</resp>
+          <persName>
+            <forename>Thibault</forename>
+            <surname>Clérice</surname>
+            <idno type="orcid">0000-0003-1852-9204</idno>
+          </persName>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Gabay</surname>
+            <idno type="orcid">0000-0001-9094-4475</idno>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="images" n=""/>
+      </extent>
+      <publicationStmt>
+        <publisher>COLaF</publisher>
+        <authority>Inria</authority>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <date when="2024-06-13"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30958864b"/>
+          <author>
+            <persName>Molière</persName>
+          </author>
+          <title>Les Precieuses ridicules. Comedie. Representée au Petit Bourbon</title>
+          <pubPlace key="FR">Grenoble</pubPlace>
+          <publisher>[s.n.]</publisher>
+          <date when="1660" cert="high" resp="BNF">1660</date>
+        </bibl>
+        <msDesc>
+          <!-- ToDo: Deal with this
+          <msIdentifier>
+            <country key="FR"/>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>YF-5877</idno>
+            <altIdentifier>
+              <idno type="ark">bpt6k1281160s</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>Texte imprimé</p>
+            </objectDesc>
+          </physDesc>
+        -->
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="YALTAi" version="1.0.0">
+          <label>YALTAi</label>
+          <ref target="https://github.com/PonteIneptique/yaltai"/>
+        </application>
+        <application ident="Kraken" version="5.2.5">
+          <label>Kraken</label>
+          <ref target="https://github.com/mittagessen/kraken"/>
+        </application>
+        <!-- Add LADaS and Weights ? -->
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <sp>
+        <ab>
+          <seg>
+            <orig>LES PERSONNAGES LA GRANGE, (Amans rebutez DV CROISY, C GORGIRVS, Bon Bourgeois.</orig>
+            <reg>LES PERSONNAGES LA GRANGE, (Amands rebutez DU CROISY, Ç ORGIRUS, Bon Bourgeois.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON, fille ( Precieuſes de Gorgibus.</orig>
+            <reg><persName>MAGDELON</persName>, fille ( Précieuses de <persName>Gorgibus</persName></reg>
+          </seg>
+          <seg>
+            <orig>Ridicules CATHOS, Niece de Gorgibus.</orig>
+            <reg>Ridicules <persName>CATHOS</persName>, Nièce de <persName>Gorgibus</persName></reg>
+          </seg>
+          <seg>
+            <orig>C MAROTTE, Seruante des Pre cieuſes Ridicules.</orig>
+            <reg>Ç <persName>MAROTTE</persName>, Servante des Pre cieuses Ridicules.</reg>
+          </seg>
+          <seg>
+            <orig>ALMONZE, Laquais des Precieu ſes Ridicules.</orig>
+            <reg>ÀLMONZE, Laquais des Précieu ses Ridicules.</reg>
+          </seg>
+          <seg>
+            <orig>LE MARQVIS DE MASCARILIE Valet de la Grange.</orig>
+            <reg>LE MARQUIS DE <persName>MASCARILIE</persName> Valet de la Grange.</reg>
+          </seg>
+          <seg>
+            <orig>LE VICOMTE DE IODELET Valet de du Croiſy.</orig>
+            <reg>LE <func>VICOMTE DE JODELET</func> Valet de du <persName>Croisy</persName></reg>
+          </seg>
+          <seg>
+            <orig>DEVX PORTEVRS de chaiſe.</orig>
+            <reg>DEUX PORTEURS de chaise.</reg>
+          </seg>
+          <seg>
+            <orig>VOESINES.</orig>
+            <reg>VOESINES.</reg>
+          </seg>
+          <seg>
+            <orig>A RIUIEVLES les rencheries que celles-là, &amp; deux hommes traitez auec plus de mépris que nous?</orig>
+            <reg>À RIUIEULES les renchéries que celles-là, et deux hommes traité auec plus de mépris que nous?</reg>
+          </seg>
+          <seg>
+            <orig>à peine ont-elles pû ſe reſoudre à nous faire donner des ſieges.</orig>
+            <reg>à peine ont-elles pu se résoudre à nous faire donner des sièges.</reg>
+          </seg>
+          <seg>
+            <orig>Ie n’ay iamais veu tant parler à l’oreille qu’elles ont fait entre-elles;</orig>
+            <reg>Je n'ai jamais vu tant parler à l'oreille qu'elles ont fait entre-elles;</reg>
+          </seg>
+          <seg>
+            <orig>tant bailler;</orig>
+            <reg>tant bailler;</reg>
+          </seg>
+          <seg>
+            <orig>tant ſe froter les yeux, &amp; demander tant de fois;</orig>
+            <reg>tant se frotter les yeux, et demander tant de fois;</reg>
+          </seg>
+          <seg>
+            <orig>qu’elle heure eſt il;</orig>
+            <reg>qu'elle heure est -il;</reg>
+          </seg>
+          <seg>
+            <orig>ont-elles répondu que ouy, &amp; non, à tout ce que ſous auons pû leur dire?</orig>
+            <reg>ont-elles répondu que oui, et non, à tout ce que sous avons pu leur dire?</reg>
+          </seg>
+          <seg>
+            <orig>Et ne m’auoüerez pas enfin que quand nous aurions eſté les dernieres perſonnes du monde, on ne pouuoit nous faire pis qu’elles ont fait?</orig>
+            <reg>Et ne m'auoüerez pas enfin que quand nous aurions été les dernières personnes du monde, on ne pouvait nous faire pis qu'elles ont fait?</reg>
+          </seg>
+          <seg>
+            <orig>DV CROISI.</orig>
+            <reg>DU CROISY.</reg>
+          </seg>
+          <seg>
+            <orig>Il me ſemble que vous prenez la choſe fort à cœur.</orig>
+            <reg>Il me semble que vous prenez la chose fort à cœur.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>A I 4 LES PRECI EVSES LA GRANGE.</orig>
+          <reg>À I 4 LES PRECY EUSES LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>Sans doute ie l’y prens, &amp; de telle façon que ie veuy me vanger de cette imperti.</orig>
+          <reg>Sans doute ici l'y prends, et de telle façon que ie tu me venger de cette imperti.</reg>
+        </seg>
+        <seg>
+          <orig>nence.</orig>
+          <reg>nence.</reg>
+        </seg>
+        <seg>
+          <orig>Ie connoy ce qui nous a fait mépriſer.</orig>
+          <reg>Je connais ce qui nous a fait mépriser.</reg>
+        </seg>
+        <seg>
+          <orig>L’air precieux n’a pas ſeulement infecté Paris, il s’eſt auſſi ré pandu dans les Prouinces &amp; nos Donzel les ridicules en ont humé leut bonne part.</orig>
+          <reg>L'air précieux n'a pas seulement infecté <placeName>Paris</placeName>, il s'est aussi ré cendu dans les <persName>Provinces</persName> et nos <persName>Donzel</persName> les ridicules en ont humé leut bonne part.</reg>
+        </seg>
+        <seg>
+          <orig>En vn mot c’eſt vn ambigû de Precieuſe &amp; de Coquette que leur perſonne.</orig>
+          <reg>En un mot c'est un ambigu de <persName>Précieuse</persName> et de <persName>Coquette</persName> que leur personne.</reg>
+        </seg>
+        <seg>
+          <orig>Ie voy ce qu’il faut eſtre, pour en eſtre bien receu, &amp; ſi vous m’en croyez, nous leur ioüe rons tous deux vne piece, qu leur fera voir leur ſottiſe, &amp; pourra leur apprendre à connoiſtre vn peu mieux leur monRIDICVLES.</orig>
+          <reg>Je vois ce qu'il faut être, pour en être bien reçu, et si vous m'en croyez, nous leur joue rons tous deux autre pièce, qu leur fera voir leur sottise, et pourra leur apprendre à connaître un peu mieux leur monRIDICVLES.</reg>
+        </seg>
+        <seg>
+          <orig>DV CROISI.</orig>
+          <reg>DU CROISY.</reg>
+        </seg>
+        <seg>
+          <orig>Et comment encore?</orig>
+          <reg>Et comment encore?</reg>
+        </seg>
+        <seg>
+          <orig>LA GRANGE.</orig>
+          <reg>LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>I'ay vn certain valet nommé Maſcarille, qui paſſe au ſentiment de beaucoup de gens pour vne maniere de bel-eſprit, car il n’y a rien à meilleur marché que le bel eſprit maintenant.</orig>
+          <reg>J'ai un certain valet nommé <persName>Mascarille</persName>, qui passe au sentiment de beaucoup de gens pour une manière de belesprit, car il n'y a rien à meilleur marché que le bel esprit maintenant.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt vn extrauagant, qui s’eſt mis dans la teſte de vouloir faire l’homme de condition.</orig>
+          <reg>C'est un extravagant, qui s'est mis dans la tête de vouloir faire l'homme de condition.</reg>
+        </seg>
+        <seg>
+          <orig>Il ſe pique ordinairement de galanterie, &amp; de vers, &amp; dedaigne les autres valets iuſqu’à les appeller brutaux.</orig>
+          <reg>Il se pique ordinairement de galanterie, et de vers, et dedaigne les autres valets jusqu'à les appeler brutaux.</reg>
+        </seg>
+        <seg>
+          <orig>DV CROISI.</orig>
+          <reg>DU CROISY.</reg>
+        </seg>
+        <seg>
+          <orig>Et bien qu’en pretendez vous faire?</orig>
+          <reg>Et bien qu'en prétendez -vous faire?</reg>
+        </seg>
+        <seg>
+          <orig>A iij</orig>
+          <reg>À jijà</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE II.</orig>
+          <reg>SCÈNE II.</reg>
+        </seg>
+        <seg>
+          <orig>GORGIBVS, DV CROISI, LA GRANGE.</orig>
+          <reg><persName>GORGIBUS</persName>, DU CROISY, LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>GORGIBVS.</orig>
+          <reg>
+            <persName>GORGIBUS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>T bien vous auez veu ma n niece, &amp; ma fille, les affaires itont-elles bien?</orig>
+          <reg>T bien vous avez vu ma n nièce, et ma fille, les affaires itont-elles bien?</reg>
+        </seg>
+        <seg>
+          <orig>quel eſt le reſultat de cette viſite?</orig>
+          <reg>quel est le résultat de cette visite?</reg>
+        </seg>
+        <seg>
+          <orig>LES PRÈCIEVSES de la faueur que vous nou auez faite, &amp; demeurons vos tres.</orig>
+          <reg>LES PRÈCIEVSES de la faveur que vous nou vez faite, et demeurons vos très.</reg>
+        </seg>
+        <seg>
+          <orig>humbles ſeruiteurs.</orig>
+          <reg>humbles serviteurs.</reg>
+        </seg>
+        <seg>
+          <orig>JORGIBVS.</orig>
+          <reg>JORGIBUS.</reg>
+        </seg>
+        <seg>
+          <orig>Oüais, il ſemble qu’ils ſortent mal ſatisfaits d’icy, d’où pourroit venir ce mécontentement?</orig>
+          <reg>Ouais, il semble qu'ils sortent mal satisfaits d'ici, d'où pourrait venir ce mécontentement?</reg>
+        </seg>
+        <seg>
+          <orig>il faut ſçauoir vn peu ce que c’eſt.</orig>
+          <reg>il faut sçauoir un peu ce que c'est.</reg>
+        </seg>
+        <seg>
+          <orig>Hola.</orig>
+          <reg>Holà.</reg>
+        </seg>
+        <seg>
+          <orig>12 LESPRECIEVSES MAGDELON.</orig>
+          <reg>12 LESPRECIEVSES MAGDELON.</reg>
+        </seg>
+        <seg>
+          <orig>Et quelle eſtime, mon pere, voulez-vous que nous faſſions du procedé irregulier de ces Sendiia.</orig>
+          <reg>Et quelle estime, mon père, voulez-vous que nous fassions du procédé irrégulier de ces <persName>Sendia</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le moyen, mon oncle, qu’vne fille vn peu raiſonnable ſe puſt accommoder de leur perſonnes</orig>
+            <reg>Le moyen, mon oncle, qu'une fille un peu raisonnable se pût accommoder de leur personnes</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>GORGIBVS.</orig>
+            <reg>
+              <persName>GORGIBUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Et qu’y trouuëz-vous à re dire?</orig>
+            <reg>Et qu'y trouvez-vous à ré dire?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>GORGIBVS, Et par où veux tu donc qu’ils débutent, par le concubinaje?</orig>
+          <reg><persName>GORGIBUS</persName>, Et par où veux tu donc qu'ils débutent, par le concubinaje?</reg>
+        </seg>
+        <seg>
+          <orig>n’eſt-ce pas vn procedé, dont vous auez ſujet de vous loüer tous deux, auſſi bien que moy ?</orig>
+          <reg>n'est-ce pas un procédé, dont vous avez sujet de vous louer tous deux, aussi bien que moi ?</reg>
+        </seg>
+        <seg>
+          <orig>eſt.</orig>
+          <reg>est.</reg>
+        </seg>
+        <seg>
+          <orig>il rien de plus obligeant que cela?</orig>
+          <reg>il rien de plus obligeant que cela?</reg>
+        </seg>
+        <seg>
+          <orig>&amp; ce lien ſacré où ils aſpirent n’eſt-il pas vn témoignage de l’honneſteté de leurs intentions?</orig>
+          <reg>et ce lien sacré où ils aspirent n'est-il pas un témoignage de l'honnêteté de leurs intentions?</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Mon pere, voyla ma couſine, qui vous dira, auſſi bien que moy, que le mariage ne doit iamais arriuer, qu’apres les autres auantures.</orig>
+          <reg>Mon père, voilà ma cousine, qui vous dira, aussi bien que moi, que le mariage ne doit jamais arriver, qu'après les autres aventures.</reg>
+        </seg>
+        <seg>
+          <orig>Il faut qu’vn amant, pour eſtre agreable, ſçache débiter les beaux ſentimens;</orig>
+          <reg>Il faut qu'un amant, pour être agréable, sache débiter les beaux sentiments;</reg>
+        </seg>
+        <seg>
+          <orig>pouſſer le doux, le tendre, &amp; le paſſionné, &amp; que ſa recherche ſoit dans les formes.</orig>
+          <reg>pousser le doux, le tendre, et le passionné, et que sa recherche soit dans les formes.</reg>
+        </seg>
+        <seg>
+          <orig>Premierement il doit voir au Temple, ou à la promenade, ou dans quelque ceremonie publique la perſonne dont il deuient amoureux;</orig>
+          <reg>Premièrement il doit voir au Temple, ou à la promenade, ou dans quelque cérémonie publique la personne dont il devient amoureux;</reg>
+        </seg>
+        <seg>
+          <orig>ou bien eſtre conduit fatalement chez elle, par vn parent, ou vn amy, &amp; fortir de là tout réueur &amp; melancholique.</orig>
+          <reg>ou bien été conduit fatalement chez elle, par un parent, ou un ami, et sortir de là tout rêveur et mélancolique.</reg>
+        </seg>
+        <seg>
+          <orig>Il cache vn temps, ſa paſſion à l’objet ayme, &amp; cependant Iuy rend pluſieurs viſites, où l’on ne manque iamais de mettre ſur le tapis vne queſtion ga lante, qui exerce les eſprits de l’aſſemblée.</orig>
+          <reg>Il cache un temps, sa passion à l'objet aime, et cependant <persName>Jui</persName> rend plusieurs visites, où l'on ne manque jamais de mettre sur le tapis une question ga lante, qui exerce les esprits de l'assemblée.</reg>
+        </seg>
+        <seg>
+          <orig>Le iour de la declaration arriue, qui ſe doit fai.</orig>
+          <reg>Le jour de la déclaration arrive, qui se doit fay.</reg>
+        </seg>
+        <seg>
+          <orig>re ordinairement dans vne allée de quelque jardin, tandis que la compagnie s’eſt vn peu éloignée, &amp; cette declaration eſt ſuiuie d’vn prompt couroux, qui paroiſt à noſtre rougeur, &amp; qui pour vn temps bannit l’amant de noſtre preſence.</orig>
+          <reg>re ordinairement dans une allée de quelque jardin, tandis que la compagnie s'est un peu éloignée, et cette déclaration est suivie d'un prompt courroux, qui paraît à notre rougeur, et qui pour un temps bannit l'amant de notre présence.</reg>
+        </seg>
+        <seg>
+          <orig>En ſuite il arouue moyen de nous appaiſer;</orig>
+          <reg>En suite il arouve moyen de nous apaiser;</reg>
+        </seg>
+        <seg>
+          <orig>de nous accouſtumer inſenſiblement au diſcours de ſa paſſion, &amp; de tirer de nous Ide cet aueu qui fait tant de pelne.</orig>
+          <reg>de nous accoutumer insensiblement au discours de sa passion, et de tirer de nous Ide cet aveu qui fait tant de pelne.</reg>
+        </seg>
+        <seg>
+          <orig>Apres cela viennent les auantures;</orig>
+          <reg>Après cela viennent les aventures;</reg>
+        </seg>
+        <seg>
+          <orig>les riuaux qui ſe jettent à la trauerſe d’vne inclihation établie, les perſecutions des peres, les jalouſies conceuës ſur de fauſſes apparences, les plaintes, les deſeſpoirs, les enleuemens, &amp; ce qui s’enſuit.</orig>
+          <reg>les rivaux qui se jettent à la traverse d'une inclihation établie, les persécutions des pères, les jalousies conçues sur de fausses apparences, les plaintes, les désespoirs, les enlèvements, et ce qui s'ensuit.</reg>
+        </seg>
+        <seg>
+          <orig>Voyla comme les choſes ſe traitent dans les belles manieres, &amp; ce ſont des regles, dont en bonne galanterie on ne ſçauroit ſe diſpenſer;</orig>
+          <reg>Voilà comme les choses se traitent dans les belles manières, et ce sont des règles, dont en bonne galanterie on ne saurait se dispenser;</reg>
+        </seg>
+        <seg>
+          <orig>mais en venir de but en blanc à l’vnion conjugale!</orig>
+          <reg>mais en venir de but en blanc à l'exion conjugale!</reg>
+        </seg>
+        <seg>
+          <orig>ne faire l’amour qu’en faiſant le contract du mariage, &amp; prendre juſtement le Roman par la queuë!</orig>
+          <reg>ne faire l'amour qu'en faisant le contract du mariage, et prendre justement le Roman par la queue!</reg>
+        </seg>
+        <seg>
+          <orig>Encore vn coup mon pere, il ne ſe peut rien de plus Marchand que ce procedé, &amp; i’ay mal au cœur de la ſeule viſion que cela me fait.</orig>
+          <reg>Encore un coup mon père, il ne se peut rien de plus <persName>Marchand</persName> que ce procédé, et j'ai mal au cœur de la seule vision que cela me fait.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>BY 18 LES PRECIEVSES HORGIBVS.</orig>
+          <reg>BY 18 LES PRÉCIEUSES HORGIBUS.</reg>
+        </seg>
+        <seg>
+          <orig>Quel diable de jargon entens-je icy?</orig>
+          <reg>Quel diable de jargon entends-je ici?</reg>
+        </seg>
+        <seg>
+          <orig>voicy bien du hau Riyie.</orig>
+          <reg>voici bien du <placeName>hau</placeName><placeName>Riie</placeName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>En effet, mon oncle, ma couſine donne dans le vray de la choſe.</orig>
+            <reg>En effet, mon oncle, ma cousine donne ans le vrai de la chose.</reg>
+          </seg>
+          <seg>
+            <orig>Le moyen de bien receuoir des gens qui ſont tout à fait incongrus en galenterie?</orig>
+            <reg>Le moyen de bien recevoir des gens qui sont tout à fait incongrus en galenterie?</reg>
+          </seg>
+          <seg>
+            <orig>ie m’en vais gager qu’ils n’ont iamais veu la carte de tendre, &amp; que billets doux, petits ſoins, billets galans, &amp; jolis vers, ſont des terres inconnuës pour eux.</orig>
+            <reg>Ce m'en vais gager qu'ils n'ont jamais vu la carte de tendre, et que billets doux, petits soins, billets galants, et jolis vers, sont des terres inconnues pour eux.</reg>
+          </seg>
+          <seg>
+            <orig>Ne voyez.</orig>
+            <reg>Ne voyez.</reg>
+          </seg>
+          <seg>
+            <orig>vous pas A que toute leur perſoune mat que cela, &amp; qu’ils n’ont poin cẽt air, qui donne d’abord bon ne opinion des geti?</orig>
+            <reg>vous pas A que toute leur persoune mat que cela, et qu'ils n'ont poin content air, qui donne d'abord bon ne opinion des géti?</reg>
+          </seg>
+          <seg>
+            <orig>e Vve viſite amoureuſe auec vne jambe toute vnie;</orig>
+            <reg> Ève visite amoureuse était une jambe toute vnie;</reg>
+          </seg>
+          <seg>
+            <orig>vn chapeau deſarmé de plumes;</orig>
+            <reg>Un chapeau désarmé de plumes;</reg>
+          </seg>
+          <seg>
+            <orig>vne teſte ir reguliere en cheueux, &amp; vn habit qui ſouffre vne indigence de rubans!</orig>
+            <reg>une tête ir régulière en cheveux, et un habit qui souffre une indigence de rubans!</reg>
+          </seg>
+          <seg>
+            <orig>mon Dieu quels amans ſont-ce là!</orig>
+            <reg>mon Dieu quels amants sont-ce là!</reg>
+          </seg>
+          <seg>
+            <orig>quelle frugalité d’ajuſtement, &amp; quelle ſechereſſe de conuerſation!</orig>
+            <reg>quelle frugalité d'ajustement, et quelle sécheresse de conversation!</reg>
+          </seg>
+          <seg>
+            <orig>on n’y dure point, on n’y tient pas.</orig>
+            <reg>on n'y dure point, on n'y tient pas.</reg>
+          </seg>
+          <seg>
+            <orig>l’ay remarqué encore que leurs rabats ne ſont pas de la bonne faiſeuſe, &amp; qu’il s’en faut plus d’vn grand demy-pié, que leurs hauts de chauſſes, ne ſoient aſſez larges.</orig>
+            <reg>l'ai remarqué encore que leurs rabats ne sont pas de la bonne faiseuse, et qu'il s'en faut plus d'un grand demi-pié, que leurs hauts de chausses, ne soient assez larges.</reg>
+          </seg>
+          <seg>
+            <orig>1 RIDICVLE Sa 21 pour décrier le plus beau Roman du monde ?</orig>
+            <reg>1 RIDICULE Sa 21 pour décrier le plus beau Roman du monde ?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>ll eſt vray, mon oncle, qu’vne oreille vn peu delicate pâtit ſorieuſement à entendre prononcer ces mots-là, &amp; le nom de Polixene, que ma couſine rana choiſi, &amp; celuy d’Aminthe, que ie me ſuis donné, ont vne grace, dont il faut que vous demeuriez d’accord.</orig>
+            <reg>ll est vrai, mon oncle, qu'une oreille un peu délicate pâtit sorieusement à entendre prononcer ces mots-là, et le nom de <persName>Polixène</persName>, que ma couine ran choisi, et celui d'Aminthe, que sans me suis donné, ont une grâce, dont il faut que vous demeuriez d'accord.</reg>
+          </seg>
+          <seg>
+            <orig>RIDICVLES.</orig>
+            <reg>RIDICULES.</reg>
+          </seg>
+          <seg>
+            <orig>23 monde de Paris, où nous ne faiſans que d’arriuer.</orig>
+            <reg>23 monde de <placeName>Paris</placeName>, où nous ne faisant que d'arriver.</reg>
+          </seg>
+          <seg>
+            <orig>Laiſſez nous faire à loiſir le tiſſu de noſtre Roman, &amp; n’en preſſez point tant la concluſion.</orig>
+            <reg>Laissez nous faire à loisir le tissu de notre Roman, et n'en pressez point tant la conclusion.</reg>
+          </seg>
+          <seg>
+            <orig>GORGIBVS.</orig>
+            <reg>
+              <persName>GORGIBUS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il n’en faut point douter elles ſont acheuëes.</orig>
+            <reg>Il n'en faut point douter elles sont achevées.</reg>
+          </seg>
+          <seg>
+            <orig>Encore vn coup.</orig>
+            <reg>Encore un coup.</reg>
+          </seg>
+          <seg>
+            <orig>je n’entens rien à toutes ces baliuernes, ie veux eſtre maiſtre abſoluj, &amp; pour trancher toutes ſortes de diſcours, ou vous ſerez mariées toutes deux, auant qu’il ſoit peu, où, ma foy, vous ſerez religieuſes, i’en fais vn bon ſerment.</orig>
+            <reg>je n'entends rien à toutes ces balivernes, Elle veux être maître absoluj, et pour trancher toutes sortes de discours, ou vous serez mariées toutes deux, avant qu'il soit peu, où, ma foi, vous serez religieuses, j'en fais un bon serment.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>SCENE V.</orig>
+          <reg>SCÈNE V.</reg>
+        </seg>
+        <seg>
+          <orig>9 CATHOS.</orig>
+          <reg>9 <placeName>CATHOS</placeName></reg>
+        </seg>
+        <seg>
+          <orig>On Dieu, ma chere;</orig>
+          <reg>On Dieu, ma chère;</reg>
+        </seg>
+        <seg>
+          <orig>Lv2 que ton pere à la forme enfoncée dans la matiere!</orig>
+          <reg>Luv2 que ton père à la forme enfoncée dans la matière!</reg>
+        </seg>
+        <seg>
+          <orig>que ton amtemgence elt epanſe, &amp; qu’il fait ſombre dans ſon ames</orig>
+          <reg>que ton amtemgence ellet épanse, et qu'il fait sombre dans son âmes</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Que veux-tu, ma chere, i'ent ſuis en confuſion pour luy.</orig>
+            <reg>Que veux-tu, ma chère, j'ent suis en confusion pour lui.</reg>
+          </seg>
+          <seg>
+            <orig>I’ay peine à me perſuader que ie puiſſe eſtre veritablement ſa fille, &amp; ie croy que quelque auanture, vn iour, mne viendra deueloper vne naiſſance plus illuſtre.</orig>
+            <reg>J'ai peine à me persuader que je puisse être véritablement sa fille, et personne crois que quelque aventure, un jour, m viendra développer une naissance plus illustre.</reg>
+          </seg>
+          <seg>
+            <orig>CAAHOS.</orig>
+            <reg>
+              <persName>CAHOS</persName>
+            </reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>RIDICVLES.</orig>
+          <reg>RIDICULES.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAROTTE.</orig>
+            <reg>
+              <persName>MAROTTE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Par ma foy, ie ne ſçay point quelle beſte c’eſt là, il faut parler Chreſtien, ſi vous voulez que ie vous entende.</orig>
+            <reg>Par ma foi, Madame ne sais point quelle bête c'est là, il faut parler Chrétien, si vous voulez que ie votre entende.</reg>
+          </seg>
+          <seg>
+            <orig>4 LES PRECIEYSES MASCARILLE.</orig>
+            <reg>4 LES PRECIEYSES MASCARILLE.</reg>
+          </seg>
+          <seg>
+            <orig>Doucement, tien 2 vo pour le ſoufflet.</orig>
+            <reg>Doucement, tien 2 vo pour le soufflet.</reg>
+          </seg>
+          <seg>
+            <orig>On obr tout de moy, quand on prend de la bonne façon, A lez, venez me reprendre t toſt, pour aller au Louure petit coucher.</orig>
+            <reg>On obr tout de moi, quand on prend de la bonne façon, A lez, venez me reprendre t tôt, pour aller au <placeName>Louvre</placeName> petit coucher.</reg>
+          </seg>
+          <seg>
+            <orig>NIDICVLES.</orig>
+            <reg>NIDICULES.</reg>
+          </seg>
+          <seg>
+            <orig>MASCARLLLE.</orig>
+            <reg>
+              <persName>MASCARLLLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>38 Quelque vol de mon cœur, quelque aſſaſſinat de ma franchiſe.</orig>
+            <reg>38 Quelque vol de mon cœur, quelque assassinat de ma franchise.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vois icy des yeux qui ont la mine d’eſtre de fort mauuais garçons, de faire inſulte aux libertez, &amp; de traiter vne ame de Turc à More.</orig>
+            <reg>Je vois ici des yeux qui ont la mine d'être de fort mauvais garçons, de faire insulte aux libertés, et de traiter une âme de Turc à <persName>More</persName></reg>
+          </seg>
+          <seg>
+            <orig>Comment Diable, d’abord qu’on les approche, ils ſe mettent ſur leur garde meurtriere?</orig>
+            <reg>Comment Diable, d'abord qu'on les approche, ils se mettent sur leur garde meurtrière?</reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>par ma foy ie m’en deffie, &amp; 2o --- is in envais gagner au pied, où le veux caution bourgeoiſe.</orig>
+            <reg>par ma foi on m'en défie, et 2o -- is in envais gagner au pied, où le veux caution bourgeoise.</reg>
+          </seg>
+          <seg>
+            <orig>qu’ils ne me feront pointde mal, MAGDELON.</orig>
+            <reg>qu'ils ne me feront point mal, MAGDELON.</reg>
+          </seg>
+          <seg>
+            <orig>Ma chere, c’eſt le caractere enjoüé.</orig>
+            <reg>Ma chère, c'est le caractère enjoué.</reg>
+          </seg>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie vois bien que c’eſt vn Amilcar.</orig>
+            <reg>Je vois bien que c'est un <persName>Amilcar</persName></reg>
+          </seg>
+          <seg>
+            <orig>D ij 40 LES PRETIEVSES MAGDELON.</orig>
+            <reg>D ij 40 LES PRÉTIEUSES MAGDELON.</reg>
+          </seg>
+          <seg>
+            <orig>0 Ne craignez rien, nos yeur n’ont point de mauuais deſſeins &amp; voſtre cœur peut dormir en aſſeurance, ſur leur preud’ho mie.</orig>
+            <reg>0 Ne craignez rien, nos yeur n'ont point de mauvais desseins et votre cœur peut dormir en assurance, sur leur prud'ho mie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Mais de grace, Monſieur, ne ſoyez pas inexorable à ce fauteüil qui vous tend le bras, ily?</orig>
+          <reg>Mais de grâce, Monsieur, ne soyez pas inexorable à ce fauteil qui vous tend le bras, ili?</reg>
+        </seg>
+        <seg>
+          <orig>vn quart d’heure, contentez vn peu l’enuie qu’il a de vous embraſſer.</orig>
+          <reg>un quart d'heure, contentez un peu l'envie qu'il a de vous embrasser.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Apres s’eſtre peigné, &amp; auoit ajuſté ſes canons.</orig>
+          <reg>Après s'être peigné, et avait ajusté ses canons.</reg>
+        </seg>
+        <seg>
+          <orig>Et bien, Meſdames, que di tes-vous de Paris?</orig>
+          <reg>Et bien, Mesdames, que di tes-vous de <placeName>Paris</placeName></reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Helas qu’en pourrions-nous dire ?</orig>
+          <reg>Hélas qu'en pourrions-nous dire ?</reg>
+        </seg>
+        <seg>
+          <orig>il faudroit eſtre l'antipode de la raiſon, pour ne pas confeſſer que Paris eſt le grand bureau des merueilles, le centre du bon gouſt, du bel eſprit, e de la galantene,</orig>
+          <reg>il faudrait être l'antipode de la raison, pour ne pas confesser que <placeName>Paris</placeName> est le grand bureau des merveilles, le centre du bon goût, du bel esprit, elle de la galantène,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, ie tiens que hors de Paris, il n’y a point de ſalut, pour les honneſtes gens.</orig>
+            <reg>Pour moi, Seigneur tiens que hors de <placeName>Paris</placeName>, il n'y a point de salut, pour les honnêtes gens.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>D iij</orig>
+          <reg> Dijà</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Helas!</orig>
+            <reg>Hélas!</reg>
+          </seg>
+          <seg>
+            <orig>nous ne ſommes pas encores connuës;</orig>
+            <reg>nous ne sommes pas encore connues;</reg>
+          </seg>
+          <seg>
+            <orig>mais nous ſommes en paſſe de l’eſtre, &amp; nous auons vne amie particu.</orig>
+            <reg>mais nous sommes en passe de l'être, et nous avons un amie particu.</reg>
+          </seg>
+          <seg>
+            <orig>liere, qui lious a promis d'amener icy tous ces Meſſieurs du recüeil des pieces choiſies,</orig>
+            <reg>lière, qui lious a promis d'amener ici tous ces Messieurs du recueil des pièces choisies,</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>C’eſt moy qui feray voſtre affaire mieux que perſonne.</orig>
+          <reg>C'est moi qui ferai votre affaire mieux que personne.</reg>
+        </seg>
+        <seg>
+          <orig>ils me rendent tous viſite, &amp; le puis dire que ie ne me leue jamais, ſans vne demy douzaine de beaux eſprits.</orig>
+          <reg>ils me rendent tous visite, et le puis dire que ieans me lève jamais, sans une demi douzaine de beaux esprits.</reg>
+        </seg>
+        <seg>
+          <orig>44 LES PRECIEVSES veut eſtre qu' beau monde.</orig>
+          <reg>44 LES PRÉCIEUSES veut être qu' beau monde.</reg>
+        </seg>
+        <seg>
+          <orig>Ce ſont eux qu’i donnent le branle à la reputation dans Paris &amp; vous ſçauez qu’il y en a tel dont il ne faut que la ſeule frequentation, pour vous donner bruit de connoiſſeuſe, quand il n’y auroit rien autre choſe que cela.</orig>
+          <reg>Ce sont eux qu'y donnent le branle à la réputation dans <placeName>Paris</placeName> et vous savez qu'il y en a tel dont il ne faut que la seule fréquentation, pour vous donner bruit de connaisse, quand il n'y aurait rien autre chose que cela.</reg>
+        </seg>
+        <seg>
+          <orig>Mais pour moy ce que ie conſidere particuliere.</orig>
+          <reg>Mais pour moi ce que ici considère particulière.</reg>
+        </seg>
+        <seg>
+          <orig>ment, c’eſt que par le moyen de ces viſites ſpirituellles, on eſt inſtruite de cent choſes:</orig>
+          <reg>ment, c'est que par le moyen de ces visites spirituelles, on est instruite de cent choses:</reg>
+        </seg>
+        <seg>
+          <orig>qu’il faut ſçauoir de neceſſité, &amp; qui ſont de l’eſſence du beleſprit.</orig>
+          <reg>qu'il faut savoir de nécessité, et qui sont de l'essence du belesprit.</reg>
+        </seg>
+        <seg>
+          <orig>On apprend par-là, chaque iour, les petites nouuelles galantes;</orig>
+          <reg>On apprend par-là, chaque jour, les petites nouvelles galantes;</reg>
+        </seg>
+        <seg>
+          <orig>les jolis commerces de Proſe &amp; de Vers.</orig>
+          <reg>les jolis commerces de <persName>Prose</persName> et de <persName>Vers</persName></reg>
+        </seg>
+        <seg>
+          <orig>On ſçait à point nommé, vn tel a composé la plus jolie piece du monde, ſur tel ſujet;</orig>
+          <reg>On sais à point nommé, un tel a composé la plus jolie pièce du monde, sur tel sujet;</reg>
+        </seg>
+        <seg>
+          <orig>Vne telle?</orig>
+          <reg>Une telle?</reg>
+        </seg>
+        <seg>
+          <orig>RIDICVLES.</orig>
+          <reg>RIDICULES.</reg>
+        </seg>
+        <seg>
+          <orig>45 fait des paroles ſur vn tel airs Celuy-cy a fait non Madrigal ſur vne iouïſſance;</orig>
+          <reg>45 fait des paroles sur un tel airs Celui-cy a fait non <persName>Madrigal</persName> sur une jouissance;</reg>
+        </seg>
+        <seg>
+          <orig>Celuy-là a composé des Stances ſur vne nfidelité;</orig>
+          <reg>Celui-là a composé des Stances sur une nfidélité;</reg>
+        </seg>
+        <seg>
+          <orig>Monſieur vn tel écriuit hier au ſoir vn ſizain à Mademoiſelle vne telle, dont elle luy a enuoyé la réponce, ce matin ſur les huit heures;</orig>
+          <reg>Monsieur un tel écrivit hier au soir un sizain à Mademoiselle une telle, dont elle lui a envoyé la réponse, ce matin sur les <measure>huit heures</measure></reg>
+        </seg>
+        <seg>
+          <orig>Vn tel Auteur a fait vn tel deſſein;</orig>
+          <reg>Un tel Auteur a fait un tel dessein;</reg>
+        </seg>
+        <seg>
+          <orig>Celuy-là en eſt à la troiſiéme Partie de ſon Romant;</orig>
+          <reg>Celui-là en est à la troisième Partie de son Romant;</reg>
+        </seg>
+        <seg>
+          <orig>Cet autre met ſes ouurages ſous la preſſe:</orig>
+          <reg>Cet autre met ses ouvrages sous la presse:</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt-là ce qui vous fait valoir dans les compagnies, &amp; ſi l’on ignore ces choſes, ie ne donnerois pas vn clou de tout l’eſprit qu’on peut auoir.</orig>
+          <reg>C'est-là ce qui vous fait valoir dans les compagnies, et si l'on ignore ces choses, toujours ne donnerais pas un clou de tout l'esprit qu'on peut avoir.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>En effet ie trouue que c’eſt rencherir ſur le ridicule, qu’vne perſonne ſe pique d’eſprit ne ſçachẽ pes, iuſqu'au mo dre petit quatrain, qui ſe fa chaque iour, &amp; pour moy i'a rois toutes les hontes du mo de, s’il falloit qu’on vinſt à n demander, ſi i’aurois veu que que choſe de nouuena, que n’aurois pas veu.</orig>
+          <reg>En effet ie trouve que c'est renchérir sur le ridicule, qu'une personne se pique d'esprit ne sçachẽ pes, jusqu'au mo dre petit quatrain, qui se fa que jour, et pour moi j'a rois toutes les hontes du mo de, s'il fallait qu'on vinst à n' aurai, vu que chose de que que chose de nouvena, que n'aurais pas vu.</reg>
+        </seg>
+        <seg>
+          <orig>eſcrime vn peu quaed ie veux, vvous verrez cofpir de ma facon dans les belles Ruelles de Paris, deux cens Chanſons, autant de Sonnets, quatre cens rames, &amp; plus de mille mdrigaux, ſans compter les Enygmes &amp; les Portraits.</orig>
+          <reg>escrime un peu quaedll , veux, vvous verrez cofir de ma façon dans les belles Ruelles de <placeName>Paris</placeName>, deux cens Chansons, autant de Sonnets, quatre cens rames, et plus de mille mdrigaux, sans compter les Enygmes et les Portraits.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie vous auouë, que ie ſuis furieuſement pour les Portraits;</orig>
+          <reg>Je vous avoue, que ici suis furieusement pour les Portraits;</reg>
+        </seg>
+        <seg>
+          <orig>ie ne vois rien de ſi galand, que cela.</orig>
+          <reg>Ne ne vois rien de si galant, que cela.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Les Portraits ſont difficiles, &amp; demandent vn eſprit profond.</orig>
+          <reg>Les Portraits sont difficiles, et demandent un esprit profond.</reg>
+        </seg>
+        <seg>
+          <orig>Vous en verrez de ma maniere, qui ne vous déplairont pas.</orig>
+          <reg>Vous en verrez de ma manière, qui ne vous déplairont pas.</reg>
+        </seg>
+        <seg>
+          <orig>2 E CATHOS.</orig>
+          <reg>2 E ATHOS.</reg>
+        </seg>
+        <seg>
+          <orig>Pour moy, i’ayme terri</orig>
+          <reg>Pour moi, j'aime terri</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>plaire, au moins ſi vous le faites imprimer.</orig>
+          <reg>plaire, au moins si vous le faites imprimer.</reg>
+        </seg>
+        <seg>
+          <orig>L 8 MASCARILLE.</orig>
+          <reg> 8 <placeName>MASCARILLE</placeName></reg>
+        </seg>
+        <seg>
+          <orig>le vous en promets à chacuievn, &amp; des mieux reliez.</orig>
+          <reg>le vous en promets à chacuie, et des mieux reliez.</reg>
+        </seg>
+        <seg>
+          <orig>Celà eſt au deſſous de ma conditon;</orig>
+          <reg>Celà est au dessous de ma conditon;</reg>
+        </seg>
+        <seg>
+          <orig>mais ie le fais ſeulement, pour donner à gagner aux Libraires qui me perſecutent.</orig>
+          <reg>mais était le fais seulement, pour donner à gagner aux Libraires qui me persécutent.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie m’imagine que le plaiſir eſt grand de ſe voir imprime.</orig>
+          <reg>Je m'imagine que le plaisir est grand de se voir imprime.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Sans doute;</orig>
+          <reg>Sans doute;</reg>
+        </seg>
+        <seg>
+          <orig>mais à propos, il faut que ie vous die vn impromptu, que ie fis hier chez vne Ducheſſe de mes amies, que ie fus viſiter;</orig>
+          <reg>mais à propos, il faut que je vous die un impromptu, que je fis hier chez une Duchesse de mes amies, que deux fus visiter;</reg>
+        </seg>
+        <seg>
+          <orig>Car ie ſuis dia</orig>
+          <reg>Car ici suis dia</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>antumdie, que cels ne ſeln rien.</orig>
+            <reg>antumdie, que cels ne seln rien.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>mon Dieu, que dites.</orig>
+            <reg>mon Dieu, que dites.</reg>
+          </seg>
+          <seg>
+            <orig>vous!</orig>
+            <reg>vous!</reg>
+          </seg>
+          <seg>
+            <orig>ce ſont-là de ces ſortes de choſes, qui ne ſe peuuent payer.</orig>
+            <reg>ce sont-là de ces sortes de choses, qui ne se peuvent payer.</reg>
+          </seg>
+          <seg>
+            <orig>RIDICVLES.</orig>
+            <reg>RIDICULES.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>8 Eh, ie ne l’ay pas tout à fait mauuais.</orig>
+            <reg>8 Eh, <persName>Seigneur</persName> ne l'ai pas tout à fait mauvais.</reg>
+          </seg>
+          <seg>
+            <orig>MASCARILLE, Mais n’admirez vous pas auſſi, ie n'y prenois pas garde?</orig>
+            <reg><persName>MASCARILLE</persName>, Mais n'admirez -vous pas aussi, il n'y prenais pas garde?</reg>
+          </seg>
+          <seg>
+            <orig>Ie n'y prenois pas garde, ie m’apperceuois pas de cela, façon de parler naturelle, Ie n'y prenois pas garde.</orig>
+            <reg>Je n'y prenais pas garde, on m'apperceuois pas de cela, façon de parler naturelle, Je n'y prenais pas garde.</reg>
+          </seg>
+          <seg>
+            <orig>Tandis que ſans ſonger à mal.</orig>
+            <reg>Tandis que sans songer à mal.</reg>
+          </seg>
+          <seg>
+            <orig>Tandis qu’innocemment, ſans malice, comme vn pauure mouton.</orig>
+            <reg>Tandis qu'innocemment, sans malice, comme un pauvre mouton.</reg>
+          </seg>
+          <seg>
+            <orig>Ie vous regarde;</orig>
+            <reg>Je vous regarde;</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt à dire, ie m’amuſe à vous conſide.</orig>
+            <reg>c'est -à -dire, Seigneur m'amuse à vous considède.</reg>
+          </seg>
+          <seg>
+            <orig>rer, ie vous obſerue, ie vous contemple.</orig>
+            <reg>rer, Seigneur vous observe, je vous contemple.</reg>
+          </seg>
+          <seg>
+            <orig>Voſtre œil en Tapinois.</orig>
+            <reg>Votre œil en Tapinais.</reg>
+          </seg>
+          <seg>
+            <orig>Que vous ſemble de ce mot, Tapinois, n’eſt-il pas bien choiſi?</orig>
+            <reg>Que vous semble de ce mot, <persName>Tapinais</persName>, n'est-il pas bien choisi?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>B ist</orig>
+          <reg> Bît</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILIE.</orig>
+            <reg>
+              <persName>MASCARILIE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie veux vous dire l’air que j’ay fait deſſus.</orig>
+            <reg>Je veux vous dire l'air que j'ai fait dessus.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous auez apris la munque?</orig>
+            <reg>Vous avez appris la munque?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Moy, point du tout?</orig>
+            <reg>Moi, point du tout?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Et comment donc cela ſe peut-il.</orig>
+            <reg>Et comment donc cela se peut-il.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILIE.</orig>
+            <reg>
+              <persName>MASCARILIE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Les gens de qualité ſçauent</orig>
+            <reg>Les gens de qualité savent</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Eſcoutez ſi vous trouuerez I’air à voſtre gouſt, hem, hem, ſeeb là, là, là, là, là.</orig>
+          <reg>Écoutez si vous trouverez J'air à votre goût, hé, rem, seeb là, là, là, là, là.</reg>
+        </seg>
+        <seg>
+          <orig>La brutalité de la ſaiſon a furieuſement outragé de la delicateſſe de ma voix;</orig>
+          <reg>La brutalité de la saison a furieusement outragé de la délicatesse de ma voix;</reg>
+        </seg>
+        <seg>
+          <orig>mais il n’importe, c’eſt à la Caualiere.</orig>
+          <reg>mais il n'importe, c'est à la <persName>Cavalière</persName></reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>Il chante.</orig>
+            <reg>Il chante.</reg>
+          </seg>
+          <seg>
+            <orig>Oh, oh, ie n'y prenois pas.</orig>
+            <reg>Oh, oh, Madame n'y prenais pas.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt-là ſçauoir le fin des choſes, le grand fin, le fin du fin.</orig>
+            <reg>C'est-là sçauoir le fin des choses, le grand fin, le fin du fin.</reg>
+          </seg>
+          <seg>
+            <orig>Tout eſt merueilleux, ie vous aſſeure;</orig>
+            <reg>Tout est merveilleux, <persName>Seigneur</persName> vous assure;</reg>
+          </seg>
+          <seg>
+            <orig>ie ſuis entouſiaſmé de l’air &amp; des paroles.</orig>
+            <reg>Il suis entousiasmé de l'air et des paroles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>RIDICVLES.</orig>
+          <reg>RIDICULES.</reg>
+        </seg>
+        <seg>
+          <orig>dans vn jeuſne effroyable de diuertiſſement.</orig>
+          <reg>dans un jeune effroyable de divertissement.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie m’offre à vous mener l’vn de ces iours à la Comedie, ſi vous voulez, auſſi bien on en doit ioüer vne nouueile, que ie ſeray bien-ayſe que nous voyons enſemble.</orig>
+          <reg>Je m'offre à vous mener l'un de ces jours à la Comédie, si vous voulez, aussi bien on en doit jouer une nouveile, que personne serai bien-ayse que nous voyons ensemble.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Cela n’eſt pas de refus.</orig>
+          <reg>Cela n'est pas de refus.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Mais ie vous demande d’applaudir comme il faut quand nous ſerons-la.</orig>
+          <reg>Mais ici vous demande d'applaudir comme il faut quand nous serons-la.</reg>
+        </seg>
+        <seg>
+          <orig>Car ie me ſuis engagé de faire valoir la Piece, &amp; l’Autheur m’en eſt venu prier encore, ce matin.</orig>
+          <reg>Car ie me suis engagé de faire valoir la Pièce, et l'Auteur m'en est venu prier encore, ce matin.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt la couſtume icy, qu’à nous autres gens de condition, les Auteurs viennent lire leurs Pieces nouuelles pour nous eſtgager à les trouuer belles, &amp; leur donner de la reputation, &amp; ie vous laiſſe à penſer, ſi quand nous diſons quelque choſe, le Parterre oſe nous contredire.</orig>
+          <reg>C'est la coutume ici, qu'à nous autres gens de condition, les Auteurs viennent lire leurs Pièces nouvelles pour nous étgager à les trouver belles, et leur donner de la réputation, et ainsi vous laisse à penser, si quand nous disons quelque chose, le Parterre ose nous contredire.</reg>
+        </seg>
+        <seg>
+          <orig>Pour moy, i ſuis fort exact, &amp; quand i’ay promis à quelque Poëte, ie crie touſiours, voyla qui eſt beau, deuant que les chandelles ſoient allumées.</orig>
+          <reg>Pour moi, j' a fort exact, et quand j'ai promis à quelque Poète, apprendre crie toujours, voilà qui est beau, devant que les chandelles soient allumées.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ne m'en parlez point, c’eſt vn admirable lieu que Paris;</orig>
+            <reg>Ne m'en parlez point, c'est un admirable lieu que <placeName>Paris</placeName></reg>
+          </seg>
+          <seg>
+            <orig>il s’y paſſe cent choſes tous les iours, qu’on ignore dans les Prouinces, quelque ſpirituelle qu’on puinoduont.</orig>
+            <reg>il s'y passe cent choses tous les jours, qu'on ignore dans les Provinces, quelque spirituelle qu'on puinoduont.</reg>
+          </seg>
+          <seg>
+            <orig>OATHOS.</orig>
+            <reg>ÔATHOS.</reg>
+          </seg>
+          <seg>
+            <orig>C’eſt aſſez puiſque nous ſom1e3 KIDICVLES.</orig>
+            <reg>C'est assez puisque nous som1e3 KIDICVLES.</reg>
+          </seg>
+          <seg>
+            <orig>61 mes inſtruittes, nous ferons noſtre deuoir de nous récrier comme il faut ſur ce qu’on dira.</orig>
+            <reg>61 mes instruites, nous ferons notre devoir de nous récrier comme il faut sur ce qu'on dira.</reg>
+          </seg>
+          <seg>
+            <orig>MAS CARILLE.</orig>
+            <reg>
+              <persName>MAS CARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie ne ſçay ſi ie me trompe, mais vous auez toute la mine d’auoir fait quelque Comedie.</orig>
+            <reg>Je ne sais si belle me trompe, mais vous avez toute la mine d'avoir fait quelque Comédie.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Eh!</orig>
+            <reg>Eh!</reg>
+          </seg>
+          <seg>
+            <orig>il pourroit eſtre quelque choſe de ce que vous dites.</orig>
+            <reg>il pourrait être quelque chose de ce que vous dites.</reg>
+          </seg>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>ma foy, il faudra que nous la voyons.</orig>
+            <reg>ma foi, il faudra que nous la voyons.</reg>
+          </seg>
+          <seg>
+            <orig>Entre nous, i’en ay composé vne que, ie veux faire repreſenter.</orig>
+            <reg>Entre nous, j'en ai composé une que, je veux faire représenter.</reg>
+          </seg>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Hé, à quels Comediens la donnerez-vous?</orig>
+            <reg>Hé, à quels Comédients la donnerez-vous?</reg>
+          </seg>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Belle demande!</orig>
+            <reg>Belle demande!</reg>
+          </seg>
+          <seg>
+            <orig>aux grands Comediens.</orig>
+            <reg>aux grands Comédients.</reg>
+          </seg>
+          <seg>
+            <orig>Il n’y a qu’eux qui oient capables de faire valoit les choſes.</orig>
+            <reg>Il n'y a qu'eux qui aient capables de faire valait les choses.</reg>
+          </seg>
+          <seg>
+            <orig>Les autres ſont des ignorans qui, recitent comme l'on parle.</orig>
+            <reg>Les autres sont des ignorants qui, récitent comme l'on parle.</reg>
+          </seg>
+          <seg>
+            <orig>Ils?</orig>
+            <reg>Ils?</reg>
+          </seg>
+          <seg>
+            <orig>ne ſçauent pas faire ronfler les vers &amp; s’arreſter au bel endroit, &amp; le moyen de connoiſtre où eſt le beau Vers, ſi le Comedien ne s’yar.</orig>
+            <reg>ne sçauent les faire ronfler les vers et s'arrêter au bel endroit, et le bel de <persName>et</persName> le moyen au bel Endroit, et le <persName>Comedien</persName> où est yary</reg>
+          </seg>
+          <seg>
+            <orig>reite;</orig>
+            <reg>reite;</reg>
+          </seg>
+          <seg>
+            <orig>ce ne vous auertit par là qu’il faut faire le brou-hahâ.</orig>
+            <reg>ce ne vous avertit par là qu'il faut faire le brou-hahâ.</reg>
+          </seg>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>En effet, il y a maniere de fa re ſentir aux Auditeurs les beautez d’vn ouurage, &amp; les choſes ne valent que ce qu’on les fait valoir.</orig>
+            <reg>En effet, il y a manière de fa re sentir aux Auditeurs les beautés d'un ouvrage, et les choses ne valent que ce qu'on les fait valoir.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Que vous ſemble de ma petite-oye?</orig>
+          <reg>Que vous semble de ma petite-oie?</reg>
+        </seg>
+        <seg>
+          <orig>la trouuez.</orig>
+          <reg>la trouvez.</reg>
+        </seg>
+        <seg>
+          <orig>vous cont gruante à l’habit?</orig>
+          <reg>vous cont gruante à l'habit?</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Tout à fait.</orig>
+          <reg>Tout à fait.</reg>
+        </seg>
+        <seg>
+          <orig>RIDICVLES.</orig>
+          <reg>RIDICULES.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Le ruban eſt bien choiſi.</orig>
+          <reg>Le ruban est bien choisi.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>63 Furieuſement bien.</orig>
+          <reg>63 Furieusement bien.</reg>
+        </seg>
+        <seg>
+          <orig>C’eſt Perdrigeon tout pur.</orig>
+          <reg>C'est <persName>Perdrigeon</persName> tout pur.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Que dites-vous de mes canons?</orig>
+          <reg>Que dites-vous de mes canons?</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ils ont tout à fait bon air.</orig>
+          <reg>Ils ont tout à fait bon air.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie puis me vanter au moins, qu’ils ont vn grand quartier, plus que tous ceux qu’on fait.</orig>
+          <reg>Je puis me vanter au moins, qu'ils ont un grand quartier, plus que tous ceux qu'on fait.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Il faut auoüer, que ie n’ay iamais veu porter ſi haut l’elegance de l’ajuſtement.</orig>
+          <reg>Il faut auoüer, que ici n'ai jamais vu porter si haut l'élégance de l'ajustement.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Attachèz vn peu ſur ces gans la reflexion de voſtre odorat.</orig>
+          <reg>Attachés un peu sur ces gans la réflexion de votre odorat.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ils ſentent terriblement bon.</orig>
+          <reg>Ils sentent terriblement bon.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie n’ay iamais reſpiré vne edeur mieux conditionnée.</orig>
+          <reg>Je n'ai jamais respiré une édeur mieux conditionnée.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Et celle-là?</orig>
+          <reg>Et celle-là?</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Elle eſt tout à fait de qualité no lubime en cis couonx dellcieuſement.</orig>
+          <reg>Elle est tout à fait de qualité nô lubime en cis couonx dellcieusement.</reg>
+        </seg>
+        <seg>
+          <orig>ſympathiſons vous &amp; moy, i’ay vne delicateſſe furieuſe pour tout ce que ie porte, &amp; iuſqu’à mes chauſſettes, ie ne puis rien ſouffrir, qui ne ſoit de la bonne ouuriere.</orig>
+          <reg>sympathisons vous et moi, j'ai une délicatesse furieuse pour tout ce que ie porte, et jusqu'à mes chaussettes, ie ne puis rien souffrir, qui ne soit de la bonne ouvrière.</reg>
+        </seg>
+        <seg>
+          <orig>66 LES PRECIEVSES ie m’en vais crier au meurtre.</orig>
+          <reg>66 LES PRÉCIEUSES ie m'en vais crier au meurtre.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Il faut auoüer qu’il dit les choſes d’vne maniere particuliere MAGDELON.</orig>
+          <reg>Il faut auoüer qu'il dit les choses d'une manière particulière MAGDELON.</reg>
+        </seg>
+        <seg>
+          <orig>Il a vn tour admirable dans l'eſprit.</orig>
+          <reg>Il a un tour admirable dans l'esprit.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOIS.</orig>
+          <reg>CATHOIS.</reg>
+        </seg>
+        <seg>
+          <orig>Vous auez plus de peur que de mal, &amp; voſtre cœur cre auant qu’on l’écorche.</orig>
+          <reg>Vous avez plus de peur que de mal, et votre cœur cre avant qu'on l'écorche.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Comment Diable?</orig>
+          <reg>Comment Diable?</reg>
+        </seg>
+        <seg>
+          <orig>il eſt écorché, depuis la teſte iuſqu’aur pieds.</orig>
+          <reg>il est écorché, depuis la tête jusqu'aur <measure>pieds</measure></reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Il y a quelque temps que nous ne nous fonmnes veus, &amp; ie ſuis rauy de cette auanture.</orig>
+          <reg>Il y a quelque temps que nous ne nous fonmnes vus, et tu suis ravi de cette aventure.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Le voicy.</orig>
+            <reg>Le voici.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>C’eſt pouſſer vos ciuilitez iuſqu’aux derniers confins de la faterie.</orig>
+            <reg>C'est pousser vos civilités jusqu'aux derniers confins de la faterie.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Cette journée doit eſtre marquée dans noſtre Almanach, toine vno jamitée bien heueuſe.</orig>
+            <reg>Cette journée doit être marquée dans notre Almanach, toine un jamitée bien heuse.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Allons, petit garçon, faut.</orig>
+            <reg>Allons, petit garçon, faut.</reg>
+          </seg>
+          <seg>
+            <orig>il toûjours vous repeter les choats:</orig>
+            <reg>il toujours vous répéter les choats:</reg>
+          </seg>
+          <seg>
+            <orig>voyez- vous pas qu'i lauc le ſurcroiſt d’vn fauteüil?</orig>
+            <reg>voyez- vous pas qu'y lauc le surcroît d'un fauteüil?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ne vous eſtonnez pas de voir le Vicomte de la ſorte, il ne fait que ſortir d'vne maiadie, qui luy a rendu le viſage paſle comme vous le voyez.</orig>
+          <reg>Ne vous étonnez pas de voir le Vicomte de la sorte, il ne fait que sortir d'une maiadie, qui lui a rendu le visage pâle comme vous le voyez.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IODELET.</orig>
+            <reg>
+              <persName>JODELT</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ce ſont fruicts des veilles de 72 LES PRECIEVSES la Cour, &amp; des fatigues de la Ouelre</orig>
+            <reg>Ce sont fruits des veilles de 72 LES PRÉCIEUSES la Cour, et des fatigues de la <persName>Ouelre</persName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE Sçauez-vous, mes Dames que vous voyez dans le Vicom.</orig>
+            <reg><persName>MASCARILLE</persName> Savez-vous, mes Dames que vous voyez dans le <persName>Vicom</persName></reg>
+          </seg>
+          <seg>
+            <orig>te vn des vaillans hommes du ſie cle?</orig>
+            <reg>te un des vaillants hommes du siè le?</reg>
+          </seg>
+          <seg>
+            <orig>c’eſt vn braue à troit poiles.</orig>
+            <reg>c'est un brave à troit poiles.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IODELET.</orig>
+            <reg>
+              <persName>JODELT</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Vous ne m’en deuez rien, Marquis, &amp; nous ſçauons ce que vous ſçauez faire auſſi.</orig>
+            <reg>Vous ne m'en devez rien, Marquis, et nous savons ce que vous savez faire aussi.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>TODELET.</orig>
+            <reg>TODELT.</reg>
+          </seg>
+          <seg>
+            <orig>Et dans des lieux où il faiſoit fort chaud.</orig>
+            <reg>Et dans des lieux où il faisait fort chaud.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Les regardant toutes deux.</orig>
+            <reg>Les regardant toutes deux.</reg>
+          </seg>
+          <seg>
+            <orig>Oüy, mais non pas ſi chaud qu’icy.</orig>
+            <reg>Oui, mais non pas si chaud qu'ici.</reg>
+          </seg>
+          <seg>
+            <orig>u’icy.</orig>
+            <reg>u’icy.</reg>
+          </seg>
+          <seg>
+            <orig>Hay, hay, hay.</orig>
+            <reg>Hais, haï, ha.</reg>
+          </seg>
+          <seg>
+            <orig>IODELET.</orig>
+            <reg>
+              <persName>JODELT</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Noſtre connoiſſance s’eſt faite à l’Armée, &amp; la premiere fois que nous nous vîmes, il commandoit vn Regiment de cauutrie ſur les Galeres de Malthe.</orig>
+            <reg>Notre connaissance s'est faite à l'Armée, et la première fois que nous nous vîmes, il commandait un Regiment de cavutrie sur les <placeName>Galères de Malte</placeName></reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il eſt vray:</orig>
+            <reg>Il est vrai:</reg>
+          </seg>
+          <seg>
+            <orig>mais vous eſtiez pourtant dans Iaploy auant que i’y fuſſe, &amp; ie me ſouuiens peit veſtois que petit Officier encor, que vous commandiez deux mille Cheuaux.</orig>
+            <reg>mais vous étiez pourtant dans <persName>Iapploi</persName> avant que j'y fusse, et je me souviens peit vestois que petit Officier encor, que vous commandiez deux mille Chevaux.</reg>
+          </seg>
+          <seg>
+            <orig>74 LES PRECIEVSES pendre l’épée au croc.</orig>
+            <reg>74 LES PRÉCIEUSES pendre l'épée au croc.</reg>
+          </seg>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Pour moy, i’ay vn furieuy tendre pour les hommes d’éée.</orig>
+            <reg>Pour moi, j'ai un furieui tendre pour les hommes d'éée.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ie les ayme auſſi:</orig>
+            <reg>Je les aime aussi:</reg>
+          </seg>
+          <seg>
+            <orig>mais ie veux que l’Eſprit aſſaiſonne la brauoure.</orig>
+            <reg>mais ici veux que l'Esprit assaisonne la bravoure.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Te ſouuient il, Vicomte, de cette demy-lune que nous em portâmes ſur les ennemis a Siege d’Arras?</orig>
+          <reg>Te souvient -il, Vicomte, de cette demi-lune que nous em portâmes sur les ennemis a <event>Siège d'Aras</event></reg>
+        </seg>
+        <seg>
+          <orig>IODELET Que veux-tu dire auec ta demy-lune?</orig>
+          <reg><persName>JODELT</persName> Que veux-tu dire avec ta demi-lune?</reg>
+        </seg>
+        <seg>
+          <orig>c’eſtoit bien vne l ne toute entiere.</orig>
+          <reg>c'était bien une l ne toute entière.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ie penſe que tu as raiſon.</orig>
+          <reg>Je pense que tu as raison.</reg>
+        </seg>
+        <seg>
+          <orig>IODELET.</orig>
+          <reg>
+            <persName>JODELT</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Il m'en doit bien ſouuenir, foy;</orig>
+          <reg>Il m'en doit bien souvenir, foi;</reg>
+        </seg>
+        <seg>
+          <orig>i’y fut bleſſé à la jambe d’vn coup de grenade, dont ie porte encore les marques.</orig>
+          <reg>j'y fut blessé à la jambe d'un coup de grenade, dont ie porte encore les marques.</reg>
+        </seg>
+        <seg>
+          <orig>Tâtez vn peu, de grace, vous ſentirez quel coup c’eſtoit là.</orig>
+          <reg>Tâtez un peu, de grâce, vous sentirez quel coup c'était là.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Il eſt vray, que la cicatrice eſt grande.</orig>
+          <reg>Il est vrai, que la cicatrice est grande.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Donnez moy vn peu voſtre main, &amp; tâtez oeluy-cy:</orig>
+          <reg>Donnez -moi un peu votre main, et tâtez oelui-cy:</reg>
+        </seg>
+        <seg>
+          <orig>là, iuſtement au derriere de la teſte.</orig>
+          <reg>là, justement au derrière de la tête.</reg>
+        </seg>
+        <seg>
+          <orig>Y eſtes-vous?</orig>
+          <reg>Y Y-vous?</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Oüy, ie ſens quelque choſe.</orig>
+          <reg>Oui, Seigneur sens quelque chose.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>C’eſt vn coup de mouſquet, que ie receus la derniere campagne que i’ay faite, IODELET.</orig>
+          <reg>C'est un coup de mousquet, que ici reçus la dernière campagne que j'ai faite, <persName>JODELT</persName></reg>
+        </seg>
+        <seg>
+          <orig>Voicy vn autre coup, qui me ça de part en part à l’atta</orig>
+          <reg>Voici un autre coup, qui me ça de part en part à l'atta</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ayons donc les violons pous danſer.</orig>
+            <reg>Ayons donc les violons pous danser.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>IODELET.</orig>
+          <reg>
+            <persName>JODELT</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ma foy c’eſt bien aduiſé.</orig>
+          <reg>Ma foi c'est bien avisé.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELOI.</orig>
+          <reg>MAGDELOI.</reg>
+        </seg>
+        <seg>
+          <orig>Pour cela nous y conlentons;</orig>
+          <reg>Pour cela nous y conlentons;</reg>
+        </seg>
+        <seg>
+          <orig>mais il faut donc quel12 78 LES PRECIEVSE5 que ſurcroiſt de compagnte.</orig>
+          <reg>mais il faut donc quel12 78 LES PRECIEUSE5 que surcroît de compagnte.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Hola Champagne, Picard, Bourguignon, Caſcaret, Baſque, la Verdure, Lorain, Pro vencal, la Violette.</orig>
+          <reg>Hola <placeName>Champagne</placeName>, Picard, Bourguignon, <persName>Cascaret</persName>, Basque, la Verdure, <persName>Lorain</persName>, <persName>Pro</persName> vencal, la Violette.</reg>
+        </seg>
+        <seg>
+          <orig>Au Diable ſoient tous les Laquais.</orig>
+          <reg>Au Diable soient tous les Laquais.</reg>
+        </seg>
+        <seg>
+          <orig>Ie ne penſe pas qu’il;</orig>
+          <reg>Je ne pense pas qu'il;</reg>
+        </seg>
+        <seg>
+          <orig>ait gentil-homme en France plus mal ſeruy que moy.</orig>
+          <reg>ait gentilhomme en <placeName>France</placeName> plus mal servi que moi.</reg>
+        </seg>
+        <seg>
+          <orig>Ces canailles me laihent toujour ſeul.</orig>
+          <reg>Ces canailles me laihent toujour seul.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Almanzor, dites aux gens de Monſieur qu’ils aillent querit des picions, &amp; nous faites ve nir ces Meſſieurs &amp; ces Damé d’icy-prés, pour peupler la ſe litude de noſtre bal.</orig>
+          <reg><persName>Almanzor</persName>, dites aux gens de Monsieur qu'ils aillent quérit des picions, et nous faites ve nir ces Messieurs et ces <persName>Damé</persName> d'ici-près, pour peupler la se litude de notre bal.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>IODELET.</orig>
+          <reg>
+            <persName>JODELT</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Mais toy meſme, Marquis, ue t’en ſemble?</orig>
+          <reg>Mais toi -même, Marquis, ue t'en semble?</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Moy, ie dis que nos libertez auront peine à ſortir d’icy les brayes nettes.</orig>
+          <reg>Moi, Se dis que nos libertés auront peine à sortir d'ici les braies nettes.</reg>
+        </seg>
+        <seg>
+          <orig>Au moins, pour niey yie reçois d’eſtranges ſecouſſes, &amp; mon cœur ne tient plus qu’à vn filet.</orig>
+          <reg>Au moins, pour nie yie reçois d'étranges secousses, et mon cœur ne tient plus qu'à un filet.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>RIDICVLES.</orig>
+          <reg>RIDICULES.</reg>
+        </seg>
+        <seg>
+          <orig>gnées que i’y ay faites ces iours pancz.</orig>
+          <reg>gnées que j'y ai faites ces jours pans.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Que Diable eſt ce-là?</orig>
+          <reg>Que Diable est ce-là?</reg>
+        </seg>
+        <seg>
+          <orig>ie fais toûjours bien le premier vers:</orig>
+          <reg>Il fais toujours bien le premier vers:</reg>
+        </seg>
+        <seg>
+          <orig>mais i’ay peine à faire les autres.</orig>
+          <reg>mais j'ai peine à faire les autres.</reg>
+        </seg>
+        <seg>
+          <orig>Ma foy cecy eſt vn peu trop preſſé, ie vous feray vn impromptu à loiſir, que vous trouuerez le plus beau du monde,</orig>
+          <reg>Ma foi ceci est un peu trop pressé, je vous ferai un impromptu à loisir, que vous trouverez le plus beau du monde,</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>IODELET.</orig>
+            <reg>
+              <persName>JODELT</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Il a de l’eſpit comme vn Demon.</orig>
+            <reg>Il a de l'espit comme un Démon.</reg>
+          </seg>
+          <seg>
+            <orig>RIDICVLES.</orig>
+            <reg>RIDICULES.</reg>
+          </seg>
+          <seg>
+            <orig>MAGPELON.</orig>
+            <reg>MAGPELON.</reg>
+          </seg>
+          <seg>
+            <orig>6 Ill a tout a fait la taille élecante.</orig>
+            <reg>6 Ill a tout a fait la taille élecante.</reg>
+          </seg>
+          <seg>
+            <orig>CATHOS.</orig>
+            <reg>
+              <persName>CATHOS</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Et a la mine de dancer propſement.</orig>
+            <reg>Et à la mine de dancer proprement.</reg>
+          </seg>
+          <seg>
+            <orig>MASCARIDLE.</orig>
+            <reg>
+              <persName>MASCARIDLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ayans pris Magdelon.</orig>
+            <reg>Ayant pris <persName>Magédelon</persName></reg>
+          </seg>
+          <seg>
+            <orig>Ma franchiſe va dancer la courante auſſi bien que mes pieds.</orig>
+            <reg>Ma franchise va dancer la courante aussi bien que mes pieds.</reg>
+          </seg>
+          <seg>
+            <orig>En cadance, Violons, en cadance.</orig>
+            <reg>En cadance, Violons, en cadance.</reg>
+          </seg>
+          <seg>
+            <orig>O quels ignorans:</orig>
+            <reg>Ô quels ignorants:</reg>
+          </seg>
+          <seg>
+            <orig>il n’y a pas moyen de dancer auec eux.</orig>
+            <reg>il n'y a pas moyen de dancer avec eux.</reg>
+          </seg>
+          <seg>
+            <orig>Le Diable vous emporte, ne ſçauriez-vous joüer en meſure?</orig>
+            <reg>Le Diable vous emporte, ne sauriez-vous jouer en mesure?</reg>
+          </seg>
+          <seg>
+            <orig>Là, là, là, là, là, là, là, là Ferme, ô Violons de villag e.</orig>
+            <reg>Là, là, là, là, là, là, là, là Ferme, ô Violons de villag .</reg>
+          </seg>
+          <seg>
+            <orig>IODELET.</orig>
+            <reg>
+              <persName>JODELT</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Dançons en ſuite.</orig>
+            <reg>Dançons en suite.</reg>
+          </seg>
+          <seg>
+            <orig>2 Hola, ne preſſez pas ſi fort la cadance, ie ne fais que ſortir de maladie.</orig>
+            <reg>2 Holà, ne pressez pas si fort la cadance, Madame ne fais que sortir de maladie.</reg>
+          </seg>
+          <seg>
+            <orig>11 2</orig>
+            <reg>11 2</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Endurer vn affront comme celuy-la en noſtre preſence?</orig>
+            <reg>Endurer un affront comme celui-la en notre présence?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>MASCARILLE.</orig>
+          <reg>
+            <persName>MASCARILLE</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ce n’eſt rien, ne laiſſons pas d’acheuer.</orig>
+          <reg>Ce n'est rien, ne laissons pas d'achever.</reg>
+        </seg>
+        <seg>
+          <orig>Nous nous connoiſſons il y a long-temps, &amp; entre amis on ne va pas ſe piquer pour ſi peu de choſe.</orig>
+          <reg>Nous nous connaissons il y a longtemps, et entre amis on ne va pas se piquer pour si peu de chose.</reg>
+        </seg>
+        <seg>
+          <orig>21</orig>
+          <reg>21</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE XV.</orig>
+          <reg>SCÈNE XV.</reg>
+        </seg>
+        <seg>
+          <orig>DV CROISY, LA – RAN GE, MASCARILLE IODELET, MAGDE LON, CATHOS.</orig>
+          <reg>DU CROISY, LA Â RAN GE, <persName>MASCARILLLE</persName> IGDELET, MAGDE LON, <persName>CATHOS</persName></reg>
+        </seg>
+        <seg>
+          <orig>LA GRANGE.</orig>
+          <reg>LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>ſont hous A foy, marauts, vous ne vous rirez pas de nous, ie mus MAGDELON.</orig>
+          <reg>sont hous A foi, marauds, vous ne vous rirez pas de nous, ie aussi <persName>MAGDELON</persName></reg>
+        </seg>
+        <seg>
+          <orig>Quelle eſt donc cette audace de venir nous troubler de la ſorte dans noſtre maiſon?</orig>
+          <reg>Quelle est donc cette audace de venir nous troubler de la sorte dans notre maison?</reg>
+        </seg>
+        <seg>
+          <orig>DVCROISY.</orig>
+          <reg>DUCROISY.</reg>
+        </seg>
+        <seg>
+          <orig>Comment, mes Dames, nous endurerons que nos laquais ſoient mieux receus que nous?</orig>
+          <reg>Comment, mes Dames, nous endurerons que nos quais soient mieux reçus que nous?</reg>
+        </seg>
+        <seg>
+          <orig>qu’ils viennent vous faire l’amour à nos dépens, &amp; vous MAGDELON.</orig>
+          <reg>qu'ils viennent vous faire l'amour à nos dépens, et vous MAGDELON.</reg>
+        </seg>
+        <seg>
+          <orig>Vos laquais!</orig>
+          <reg>Vos laquais!</reg>
+        </seg>
+        <seg>
+          <orig>A LA GRANGE.</orig>
+          <reg>À LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>Oüy, nos laquais, &amp; cela n’eſt ny beau, ny honneſte, de nous les débaucher comme vous faites.</orig>
+          <reg>Oui, nos laquais, et cela n'est ni beau, ni honnête, de nous les débaucher comme vous faites.</reg>
+        </seg>
+        <seg>
+          <orig>MAGDELON.</orig>
+          <reg>
+            <persName>MAGDELON</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>O Ciel, quelle inſolence!</orig>
+          <reg>Ô Ciel, quelle insolence!</reg>
+        </seg>
+        <seg>
+          <orig>411 planter, &amp; de nous ſupplanter auec nos propres habits.</orig>
+          <reg>411 planter, et de nous supplanter avec nos propres habits.</reg>
+        </seg>
+        <seg>
+          <orig>MASCARIILLE.</orig>
+          <reg>MASCARIILLE.</reg>
+        </seg>
+        <seg>
+          <orig>Ofortune, quelle eſt ton in- conſtance:</orig>
+          <reg>Ofortune, quelle est ton in- constance:</reg>
+        </seg>
+        <seg>
+          <orig>DY CROISY.</orig>
+          <reg>DY CROISY.</reg>
+        </seg>
+        <seg>
+          <orig>Viſte qu'on leur oſte iuſqu'à la moindre choſe.</orig>
+          <reg>Vite qu'on leur ôte jusqu'à la moindre chose.</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>LA GRANGE.</orig>
+          <reg>LA GRANGE.</reg>
+        </seg>
+        <seg>
+          <orig>Qu’on emporte toutes ces, hardes, dépéchez.</orig>
+          <reg>Qu'on emporte toutes ces, hardes, dépéchez.</reg>
+        </seg>
+        <seg>
+          <orig>Maintenant, mes Dames, en l’eſtat qu’ils, ſont, vous pouuez continuer vos amours auec eux tant qu’il vous plaira, nous vous laiſſons toute ſorte de liberté pour cela, &amp; nous vous proteſtons, Monſieur, &amp; moy, que nous n’en ſerons aucunement jaloux.</orig>
+          <reg>Maintenant, mes Dames, en l'état qu'ils, sont, vous pouvez continuer vos amours avec eux tant qu'il vous plaira, nous vous laissons toute sorte de liberté pour cela, et nous vous protestons, Monsieur, et moi, que nous n'en serons aucunement jaloux.</reg>
+        </seg>
+        <seg>
+          <orig>CATHOS.</orig>
+          <reg>
+            <persName>CATHOS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>Ah!</orig>
+          <reg>Ah!</reg>
+        </seg>
+        <seg>
+          <orig>quelle confuſiont –</orig>
+          <reg>quelle confusiont</reg>
+        </seg>
+      </p>
+      <p>
+        <seg>
+          <orig>SCENE XVI.</orig>
+          <reg>SCÈNE XVI.</reg>
+        </seg>
+        <seg>
+          <orig>CORGIBVS, MAS CARIL LEMAGDELON.</orig>
+          <reg>CORGIBUS, MAS CARYL LEMAGDELON.</reg>
+        </seg>
+        <seg>
+          <orig>GORGIBVS.</orig>
+          <reg>
+            <persName>GORGIBUS</persName>
+          </reg>
+        </seg>
+        <seg>
+          <orig>H!</orig>
+          <reg>H!</reg>
+        </seg>
+        <seg>
+          <orig>coquines, que vous 22 eſtes, vous nous mettez, dans de beaux draps blancs, à ce que ie voy, &amp; ie viens d’aprendlede vencs anaires vra paient,;</orig>
+          <reg>coquines, que vous 22 êtes, vous nous mettez, dans de beaux draps blancs, à ce que je vois, et ainsi viens d'aprendlede vencs anaires vra paient,;</reg>
+        </seg>
+        <seg>
+          <orig>de ces Meſſieurs qui ſortent.</orig>
+          <reg>de ces Messieurs qui sortent.</reg>
+        </seg>
+      </p>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah lmon ere c'eſt ona nioca  DP, ECLVVPRN DO ſanglante qu’il nous ont faite.</orig>
+            <reg>Ah lémon ère c'est ona nioca DP, ECLUPRN DO sanglante qu'il nous ont faite.</reg>
+          </seg>
+          <seg>
+            <orig>14 LES PRETIEVSES que vous leur auez fait, &amp; ce pendãt mal-heureux qué ie ſui il faut que ie boiue l’affront.</orig>
+            <reg>14 LES PRETIEUSES que vous leur avez fait, et ce pendãt mal-heureux ce point malheureux il faut que ici boive l'affront.</reg>
+          </seg>
+          <seg>
+            <orig>MAGDELON.</orig>
+            <reg>
+              <persName>MAGDELON</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Ah!</orig>
+            <reg>Ah!</reg>
+          </seg>
+          <seg>
+            <orig>Ie vous jure que nous en ſerons vangées, ou que ie mour.</orig>
+            <reg>Je vous jure que nous en serons vengées, ou que personne mour.</reg>
+          </seg>
+          <seg>
+            <orig>ray en la peine.</orig>
+            <reg>rai en la peine.</reg>
+          </seg>
+          <seg>
+            <orig>Et vous marauts, oſez vous vous tenir icy apres voſtre inſolence?</orig>
+            <reg>Et vous marauts, osez -vous vous tenir ici après votre insolence?</reg>
+          </seg>
+        </ab>
+      </sp>
+      <sp>
+        <ab>
+          <seg>
+            <orig>MASCARILLE.</orig>
+            <reg>
+              <persName>MASCARILLE</persName>
+            </reg>
+          </seg>
+          <seg>
+            <orig>Traiter comme cela vn Marquis?</orig>
+            <reg>Traiter comme cela un Marquis?</reg>
+          </seg>
+          <seg>
+            <orig>Voyla ce que c’eſt que du monde, la moindre diſgrace nous fait mépriſer de ceux LC All I qui nous cneniroient.</orig>
+            <reg>Voilà ce que c'est que du monde, la moindre disgrâce nous fait mépriser de ceux LC Ll I qui nous cneniraient.</reg>
+          </seg>
+          <seg>
+            <orig>Allons jons camarade, allons chercher ſortune autre part;</orig>
+            <reg>Allons jons camarade, allons chercher sortune autre part;</reg>
+          </seg>
+          <seg>
+            <orig>ie vois bien qu’on n’ayme icy que la vaine apparance, &amp; qu’on n’y conſidere point la vertu toute nuë.</orig>
+            <reg>Ne vois bien qu'on n'aime ici que la vaine apparance, et qu'on n'y considère point la vertu toute nue.</reg>
+          </seg>
+          <seg>
+            <orig>Ils ſortent tous deux.</orig>
+            <reg>Ils sortent tous deux.</reg>
+          </seg>
+          <seg>
+            <orig>dont ie vous veux payer.</orig>
+            <reg>dont ici vous veux payer.</reg>
+          </seg>
+          <seg>
+            <orig>Et vous pendardes, ie ne ſçay qui me tient que ię ne vous en faſſe autant;</orig>
+            <reg>Et vous pendardes, Madame ne sais qui me tient que ię ne vous en fasse autant;</reg>
+          </seg>
+          <seg>
+            <orig>nous allons ſeruir de fable &amp; de riſee à tout le monde;</orig>
+            <reg>nous allons servir de fable et de risée à tout le monde;</reg>
+          </seg>
+          <seg>
+            <orig>&amp; voyla ce que vous vous eſtes attiré par vos extravagan.</orig>
+            <reg>et voilà ce que vous vous êtes attiré par vos extravagan.</reg>
+          </seg>
+          <seg>
+            <orig>ces.</orig>
+            <reg>ces.</reg>
+          </seg>
+          <seg>
+            <orig>Allez vous cacher vilaines allez vous cacher pour iamais Et vous qui eſtes cauſes de leur folie, ſottes bille-veſées, pernicieux amuſemens des eſprits oizifs, Romans, Vers, ChanLeuie y u oinets, &amp; Sonnettes puiſſiez, cous eſtre à tous les Mables.</orig>
+            <reg>Allez vous cacher vilaines allez vous cacher pour jamais Et vous qui êtes causes de leur folie, sottes bille-vesées, pernicieux amusements des esprits oignifs, Romans, Vers, ChanLeuie y oinets, et Sonnettes puissiez, cous être tous les Mables.</reg>
+          </seg>
+        </ab>
+      </sp>
+      <p>
+        <seg>
+          <orig>FIN.</orig>
+          <reg>FIN.</reg>
+        </seg>
+      </p>
+    </body>
+  </text>
+</TEI>
