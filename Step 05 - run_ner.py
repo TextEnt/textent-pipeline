@@ -54,10 +54,12 @@ def recognize(xml_doc, debug: bool = True):
             final_text = etree.XML("<reg xmlns=\"http://www.tei-c.org/ns/1.0\">"+"".join(spans_xml)+"</reg>")
             reg.getparent().replace(reg, final_text)
             #print("NODE: ", etree.tostring(reg))
-        except Exception as E:
-            print("IS NOT TAGGED: ", sentence)
-            print(E)
-            raise E
+        except:
+            continue
+        #except Exception as E:
+        #    print("IS NOT TAGGED: ", sentence)
+        #    print(E)
+        #    raise E
         pbar.update(1)
     return xml_doc
         

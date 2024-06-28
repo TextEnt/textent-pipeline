@@ -140,7 +140,7 @@ def normalise(xml_doc, batch_size: int = BATCH_SIZE, debug: bool = True):
 
     pbar = tqdm.tqdm(total=len(regs))
     #remove some signs at the beginning of the line to avoid crash
-    clean_start = re.compile(r"^([\s\-\(\)'\"]+)")
+    clean_start = re.compile(r"^([\s\-\–\(\)'\"]+)")
 
     #processing the origs
     for orig in origs:
