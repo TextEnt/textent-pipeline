@@ -4,7 +4,7 @@ import os
 import time
 
 def download_one_page(url):
-    # try to download the image 5 times before returning the error code
+    # try to download the image 10 times before returning the error code
     image = requests.get(url)
     tried = 1
     time_to_wait = 40
@@ -21,42 +21,62 @@ def download_one_page(url):
 
 
 def download_books(output_folder, urls):
-    # create a directory for each book
-    # download each page of each book
-    # if not http 200, return the error code
-    cpt_books = 0
-    for url in urls:
-        book_name = url.split('/')[-1]
+    number_of_try = 100
+    for i in range(number_of_try):
         try:
-            os.mkdir(output_folder + '/' + book_name)
-        except FileExistsError:
-            print("Folder " + output_folder + '/' + book_name + " already exists.")
-        cpt_pages = 1
-        current_url = url+"/f"+str(cpt_pages)+".highres"
-        print("Downloading " + current_url + "...")
-        http_code, image = download_one_page(current_url)
-        if(http_code != 200):
-            return http_code
-        new_url = url+"/f"+str(cpt_pages+1)+".highres"
-        print("Downloading " + new_url + "...")
-        http_code, new_image = download_one_page(new_url)
-        if(http_code != 200):
-            return http_code
-        # no proper error code, must download until content stay the same
-        while image.content != new_image.content:
-            with open(output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg', 'wb') as f:
-                f.write(image.content)
-            cpt_pages += 1
-            image = new_image
-            new_url = url+"/f"+str(cpt_pages+1)+".highres"
-            print("Downloading " + new_url + "...")
-            http_code, new_image = download_one_page(new_url)
-            if(http_code != 200):
-                return http_code
-        with open(output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg', 'wb') as f:
-                f.write(image.content)
-        cpt_books += 1
-        print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+            # create a directory for each book
+            # download each page of each book
+            # if not http 200, return the error code
+            try:
+                with open("downloaded_books.txt", "r") as file:
+                    print("Remove previously downloaded books from the list.")
+                    downloaded_books = file.read().split()
+                    urls = [url for url in urls if url not in downloaded_books]
+            except FileNotFoundError:
+                print("No previously downloaded books.")
+            print("Remaining books to download: " + str(len(urls)))
+            cpt_books = 0
+            for url in urls:
+                book_name = url.split('/')[-1]
+                try:
+                    os.mkdir(output_folder + '/' + book_name)
+                except FileExistsError:
+                    print("Folder " + output_folder + '/' + book_name + " already exists.")
+                cpt_pages = 1
+                current_url = url+"/f"+str(cpt_pages)+".highres"
+                print("Downloading " + current_url + "...")
+                http_code, image = download_one_page(current_url)
+                if(http_code != 200):
+                    return http_code
+                new_url = url+"/f"+str(cpt_pages+1)+".highres"
+                print("Downloading " + new_url + "...")
+                http_code, new_image = download_one_page(new_url)
+                if(http_code != 200):
+                    return http_code
+                # no proper error code, must download until content stay the same
+                while image.content != new_image.content:
+                    output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
+                    with open(output_filename, 'wb') as f:
+                        f.write(image.content)
+                    cpt_pages += 1
+                    image = new_image
+                    new_url = url+"/f"+str(cpt_pages+1)+".highres"
+                    print("Downloading " + new_url + "...")
+                    http_code, new_image = download_one_page(new_url)
+                    if(http_code != 200):
+                        return http_code
+                output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
+                with open(output_filename, 'wb') as f:
+                        f.write(image.content)
+                cpt_books += 1
+                print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                with open("downloaded_books.txt", "a") as file:
+                    file.write(url+"\n")
+        except Exception as e:
+            print("Error while downloading books: " + str(e))
+            print("Try number " + str(i))
+            print("Retrying (max " + str(number_of_try) + " times in total)...")
+
     return 200
 
 def get_books_urls(input_metadata):
