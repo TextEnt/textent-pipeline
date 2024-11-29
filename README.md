@@ -12,7 +12,8 @@ virtualenv -p python3.9 env
 
 Install packages
 ```bash
-pip install -r requirements.txt
+pip install piptools
+pip-sync
 ```
 
 Run scripts in the order of the numbering.
