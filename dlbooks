@@ -1,4 +1,5 @@
 #!/bin/bash
 # usage : ./dlbooks [metadata file] [output folder]
+# example : ./dlbooks metadata.tsv books
 
 MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run download-books $1 $2
