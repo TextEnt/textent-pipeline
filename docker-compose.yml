@@ -1,0 +1,12 @@
+services:
+  # must pass metadata file and output folder
+  # for example 
+  # MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run download-books metadata.tsv books
+  download-books:
+    build:
+      context: .
+    user: ${MY_UID}:${MY_GID}
+    volumes:
+      - .:/host
+    working_dir: /host
+    entrypoint: ["python", "-u", "/app/download-books.py"]

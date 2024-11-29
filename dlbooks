@@ -1,0 +1,4 @@
+#!/bin/bash
+# usage : ./dlbooks [metadata file] [output folder]
+
+MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run download-books $1 $2
