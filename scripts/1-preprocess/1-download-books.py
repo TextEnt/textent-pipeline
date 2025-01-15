@@ -37,41 +37,42 @@ def download_books(output_folder, urls):
             print("Remaining books to download: " + str(len(urls)))
             cpt_books = 0
             for url in urls:
-                book_name = url.split('/')[-1]
-                try:
-                    os.mkdir(output_folder + '/' + book_name)
-                except FileExistsError:
-                    print("Folder " + output_folder + '/' + book_name + " already exists.")
-                cpt_pages = 1
-                current_url = url+"/f"+str(cpt_pages)+".highres"
-                print("Downloading " + current_url + "...")
-                http_code, image = download_one_page(current_url)
-                if(http_code != 200):
-                    return http_code
-                new_url = url+"/f"+str(cpt_pages+1)+".highres"
-                print("Downloading " + new_url + "...")
-                http_code, new_image = download_one_page(new_url)
-                if(http_code != 200):
-                    return http_code
-                # no proper error code, must download until content stay the same
-                while image.content != new_image.content:
-                    output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
-                    with open(output_filename, 'wb') as f:
-                        f.write(image.content)
-                    cpt_pages += 1
-                    image = new_image
+                if "gallica.bnf.fr" in url:
+                    book_name = url.split('/')[-1]
+                    try:
+                        os.mkdir(output_folder + '/' + book_name)
+                    except FileExistsError:
+                        print("Folder " + output_folder + '/' + book_name + " already exists.")
+                    cpt_pages = 1
+                    current_url = url+"/f"+str(cpt_pages)+".highres"
+                    print("Downloading " + current_url + "...")
+                    http_code, image = download_one_page(current_url)
+                    if(http_code != 200):
+                        return http_code
                     new_url = url+"/f"+str(cpt_pages+1)+".highres"
                     print("Downloading " + new_url + "...")
                     http_code, new_image = download_one_page(new_url)
                     if(http_code != 200):
                         return http_code
-                output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
-                with open(output_filename, 'wb') as f:
-                        f.write(image.content)
-                cpt_books += 1
-                print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
-                with open("downloaded_books.txt", "a") as file:
-                    file.write(url+"\n")
+                    # no proper error code, must download until content stay the same
+                    while image.content != new_image.content:
+                        output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
+                        with open(output_filename, 'wb') as f:
+                            f.write(image.content)
+                        cpt_pages += 1
+                        image = new_image
+                        new_url = url+"/f"+str(cpt_pages+1)+".highres"
+                        print("Downloading " + new_url + "...")
+                        http_code, new_image = download_one_page(new_url)
+                        if(http_code != 200):
+                            return http_code
+                    output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
+                    with open(output_filename, 'wb') as f:
+                            f.write(image.content)
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
         except Exception as e:
             print("Error while downloading books: " + str(e))
             print("Try number " + str(i))
