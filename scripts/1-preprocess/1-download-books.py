@@ -79,10 +79,10 @@ def download_books(output_folder, urls):
 
     return 200
 
-def get_books_urls(input_metadata):
+def get_books_urls(input_metadata, column):
     # extract the last token of each line as URL except first line
     with open(input_metadata, 'r') as metadata_file:
-        urls = list(set([line.split()[-1] for line in metadata_file.readlines()[1:]]))
+        urls = list(set([line.split()[column] for line in metadata_file.readlines()[1:]]))
     return urls
 
 parser = argparse.ArgumentParser(description='Download books from a metadata file.')
@@ -92,12 +92,16 @@ parser.add_argument('output', metavar='OUT', type=str,
                     help='folder where files are stored')
 args = parser.parse_args()
 
-urls = get_books_urls(args.input)
+column = -1
+urls = get_books_urls(args.input, column)
+
 try:
     os.mkdir(args.output)
 except FileExistsError:
     print("Folder " + args.output + " already exists.")
+
 ret = download_books(args.output, urls)
+
 if ret != 200:
     print("HTTP code " + str(ret) + " returned.")
 else:
