@@ -90,10 +90,11 @@ parser.add_argument('input', metavar='IN', type=str,
                     help='source metadata file')
 parser.add_argument('output', metavar='OUT', type=str, 
                     help='folder where files are stored')
+parser.add_argument('column', metavar='COL', type=int, 
+                    help='column containing URL in metadata file')
 args = parser.parse_args()
 
-column = -1
-urls = get_books_urls(args.input, column)
+urls = get_books_urls(args.input, args.column)
 
 try:
     os.mkdir(args.output)
