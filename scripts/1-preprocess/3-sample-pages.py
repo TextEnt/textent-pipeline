@@ -25,4 +25,4 @@ for i in range(0, n_books, step):
     # copy one random page from the book to the destiation folder
     pages = os.listdir(args.input + '/' + book)
     page = random.choice(pages)
-    os.system('cp ' + args.input + '/' + book + '/' + page + ' ' + args.output + '/' + book + '_' + page)
+    os.system('cp -v ' + args.input + '/' + book + '/' + page + ' ' + args.output + '/' + book + '_' + page)
