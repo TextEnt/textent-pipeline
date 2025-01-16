@@ -1,0 +1,5 @@
+#!/bin/bash
+# usage : ./samplepages books-folder pages-folder number
+# example : ./samplepages books pages 100
+
+MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run sample-pages $1 $2 $3

@@ -1,4 +1,6 @@
 services:
+
+  # service to download books
   # must pass metadata file and output folder
   # for example 
   # MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run download-books metadata.tsv books
@@ -10,3 +12,16 @@ services:
       - .:/host
     working_dir: /host
     entrypoint: ["python", "-u", "/app/1-download-books.py"]
+
+  # service to sample pages from books
+  # must pass input folder, output folder and the total number of samples
+  # for example 
+  # MY_UID="$(id -u)" MY_GID="$(id -g)" docker compose run sample-pages books-folder pages-folder 500
+  sample-pages:
+    build:
+      context: .
+    user: ${MY_UID}:${MY_GID}
+    volumes:
+      - .:/host
+    working_dir: /host
+    entrypoint: ["python", "-u", "/app/3-sample-pages.py"]
