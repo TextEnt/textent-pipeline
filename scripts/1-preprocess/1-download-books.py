@@ -77,8 +77,7 @@ def download_books(output_folder, urls):
                     with open("downloaded_books.txt", "a") as file:
                         file.write(url+"\n")
                 else:
-                    print("not a gallica book, must update the download script")
-                    print("book url : "+url)
+                    print("(unable to download) book url : "+url)
         except Exception as e:
             print("Error while downloading books: " + str(e))
             print("Try number " + str(i))
