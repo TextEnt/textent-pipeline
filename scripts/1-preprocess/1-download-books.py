@@ -20,6 +20,9 @@ def download_one_page(url):
     return 200, image
 
 
+def download_gallica(output_folder, url):
+    
+
 def download_books(output_folder, urls):
     number_of_try = 100
     for i in range(number_of_try):
@@ -38,6 +41,10 @@ def download_books(output_folder, urls):
             cpt_books = 0
             for url in urls:
                 if "gallica.bnf.fr" in url:
+                    download_gallica(output_folder, url)
+
+
+
                     book_name = url.split('/')[-1]
                     try:
                         os.mkdir(output_folder + '/' + book_name)
@@ -69,6 +76,9 @@ def download_books(output_folder, urls):
                     output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
                     with open(output_filename, 'wb') as f:
                             f.write(image.content)
+
+
+
                     cpt_books += 1
                     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
                     with open("downloaded_books.txt", "a") as file:
