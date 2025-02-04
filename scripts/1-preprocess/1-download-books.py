@@ -96,15 +96,16 @@ def download_erara(output_folder, url):
         print("Folder " + book_folder + " already exists.")
     for i, img_url in enumerate(images):
         print("Downloading "+img_url+" from "+url)
-        img_response = requests.get(img_url, stream=True)
-        if img_response.status_code == 200:
+        #img_response = requests.get(img_url, stream=True)
+        status_code, img_response = download_one_page(img_url)
+        if status_code == 200:
             img_path = os.path.join(book_folder, f"{i+1}.jpg")
             with open(img_path, "wb") as file:
                 for chunk in img_response.iter_content(1024):
                     file.write(chunk)
         else:
-            print(f"Failed to download {img_url}, error code {img_response.status_code}")
-            return img_response.status_code
+            print(f"Failed to download {img_url}, error code {status_code}")
+            return status_code
 
     return 200
     
