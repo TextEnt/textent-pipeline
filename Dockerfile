@@ -10,6 +10,7 @@ COPY scripts/1-preprocess/3-sample-pages.py $BUILD
 
 WORKDIR $BUILD
 
+RUN apk update && apk add poppler-utils
 RUN pip install -r requirements_docker.txt
 
 CMD ["sh"]
