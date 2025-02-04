@@ -108,6 +108,49 @@ def download_erara(output_folder, url):
             return status_code
 
     return 200
+
+def download_one_page_numelyo(base_url, i):
+    # try to download JPG name schema, if 404 try TIF name schema
+    url = base_url+f"/web_JPG{i:08d}.jpg"
+    image = requests.get(url)
+    if image.status_code != 404:
+        if image.status_code == 200:
+            return 200, image
+        # image exist, but timeout or other, retry
+        return download_one_page(url)
+    # the JPG named image does not exist, try TIF format
+    url = base_url+f"/web_TIF{i:08d}.jpg"
+    if image.status_code != 404:
+        if image.status_code == 200:
+            return 200, image
+        # image exist, but timeout or other, retry
+        return download_one_page(url)
+    return 404, None
+
+
+def download_numelyo(output_folder, url):
+    base_url = url.replace("f_view", "f_eserv")
+    status_code = 200
+    i = 1
+    book_folder = output_folder+"/numelyo_"+url.split("/")[4].split(":")[0]+"_"+url.split("/")[4].split(":")[1]
+    try:
+        os.mkdir(book_folder)
+    except FileExistsError:
+        print("Folder " + book_folder + " already exists.")
+    while status_code != 404:
+        print(f"Downloading {base_url} page {i}")
+        status_code, img_response = download_one_page_numelyo(base_url, i)
+        if status_code==404:
+            print(f"Done downloading {i-1} pages")
+            return 200
+        if status_code == 200:
+            img_path = os.path.join(book_folder, f"{i}.jpg")
+            with open(img_path, "wb") as file:
+                for chunk in img_response.iter_content(1024):
+                    file.write(chunk)
+        else:
+            print(f"Failed to download {img_url}, error code {status_code}")
+            return status_code
     
 
 def download_books(output_folder, urls):
@@ -138,6 +181,14 @@ def download_books(output_folder, urls):
                 elif "doi" in url and "e-rara" in url:
                     proper_url = reformat_erara_url(url)
                     ret_code = download_erara(output_folder, proper_url)
+                    if ret_code != 200:
+                        return ret_code
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
+                elif "https://numelyo.bm-lyon.fr" in url:
+                    ret_code = download_numelyo(output_folder, url)
                     if ret_code != 200:
                         return ret_code
                     cpt_books += 1
