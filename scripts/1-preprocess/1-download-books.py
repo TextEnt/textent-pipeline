@@ -120,16 +120,7 @@ def numelyo_title_contains_404(image):
 
 
 def download_one_page_numelyo(base_url, i):
-    # try to download JPG name schema, if 404 try TIF name schema
-    url = base_url+f"/web_JPG{i:08d}.jpg"
-    image = requests.get(url)
-    if not numelyo_title_contains_404(image):
-        if image.status_code == 200:
-            print(url)
-            return 200, image
-        # image exist, but timeout or other, retry
-        return download_one_page(url)
-    # the JPG named image does not exist, try TIF format
+    # try TIF format
     url = base_url+f"/web_TIF{i:08d}.jpg"
     image = requests.get(url)
     if not numelyo_title_contains_404(image):
@@ -138,6 +129,16 @@ def download_one_page_numelyo(base_url, i):
             return 200, image
         # image exist, but timeout or other, retry
         return download_one_page(url)
+    # not TIF, try JPG
+    url = base_url+f"/web_JPG{i:08d}.jpg"
+    image = requests.get(url)
+    if not numelyo_title_contains_404(image):
+        if image.status_code == 200:
+            print(url)
+            return 200, image
+        # image exist, but timeout or other, retry
+        return download_one_page(url)
+    
     return 404, None
 
 
