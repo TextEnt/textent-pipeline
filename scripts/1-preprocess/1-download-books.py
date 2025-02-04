@@ -165,7 +165,7 @@ def download_numelyo(output_folder, url):
     
 
 def download_books(output_folder, urls):
-    number_of_try = 100
+    number_of_try = 2
     for i in range(number_of_try):
         try:
             # create a directory for each book
