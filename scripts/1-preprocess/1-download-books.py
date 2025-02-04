@@ -110,14 +110,18 @@ def download_erara(output_folder, url):
     return 200
 
 def numelyo_title_contains_404(image):
-    soup = BeautifulSoup(image.text, "html.parser")
-    title = soup.title.string if soup.title else ""
-    return "404 Not Found" in title
+    try:
+        soup = BeautifulSoup(image.text, "html.parser")
+        title = soup.title.string if soup.title else ""
+        return "404 Not Found" in title
+    except Exception as e:
+        # yeah ... probably an image ...
+        return False
+
 
 def download_one_page_numelyo(base_url, i):
     # try to download JPG name schema, if 404 try TIF name schema
     url = base_url+f"/web_JPG{i:08d}.jpg"
-    print(f"trying {url}")
     image = requests.get(url)
     if not numelyo_title_contains_404(image):
         if image.status_code == 200:
@@ -127,7 +131,6 @@ def download_one_page_numelyo(base_url, i):
         return download_one_page(url)
     # the JPG named image does not exist, try TIF format
     url = base_url+f"/web_TIF{i:08d}.jpg"
-    print(f"trying {url}")
     image = requests.get(url)
     if not numelyo_title_contains_404(image):
         if image.status_code == 200:
