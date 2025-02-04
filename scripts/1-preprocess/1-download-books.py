@@ -209,32 +209,32 @@ def download_books(output_folder, urls):
             print("Remaining books to download: " + str(len(urls)))
             cpt_books = 0
             for url in urls:
-                # if "gallica.bnf.fr" in url:
-                #     ret_code = download_gallica(output_folder, url)
-                #     if ret_code != 200:
-                #         return ret_code
-                #     cpt_books += 1
-                #     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
-                #     with open("downloaded_books.txt", "a") as file:
-                #         file.write(url+"\n")
-                # elif "doi" in url and "e-rara" in url:
-                #     proper_url = reformat_erara_url(url)
-                #     ret_code = download_erara(output_folder, proper_url)
-                #     if ret_code != 200:
-                #         return ret_code
-                #     cpt_books += 1
-                #     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
-                #     with open("downloaded_books.txt", "a") as file:
-                #         file.write(url+"\n")
-                # elif "https://numelyo.bm-lyon.fr" in url:
-                #     ret_code = download_numelyo(output_folder, url)
-                #     if ret_code != 200:
-                #         return ret_code
-                #     cpt_books += 1
-                #     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
-                #     with open("downloaded_books.txt", "a") as file:
-                #         file.write(url+"\n")
-                if "https://tolosana.univ-toulouse.fr" in url:
+                if "gallica.bnf.fr" in url:
+                    ret_code = download_gallica(output_folder, url)
+                    if ret_code != 200:
+                        return ret_code
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
+                elif "doi" in url and "e-rara" in url:
+                    proper_url = reformat_erara_url(url)
+                    ret_code = download_erara(output_folder, proper_url)
+                    if ret_code != 200:
+                        return ret_code
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
+                elif "https://numelyo.bm-lyon.fr" in url:
+                    ret_code = download_numelyo(output_folder, url)
+                    if ret_code != 200:
+                        return ret_code
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
+                elif "https://tolosana.univ-toulouse.fr" in url:
                     ret_code = download_tolosana(output_folder, url)
                     if ret_code != 200:
                         return ret_code
