@@ -136,16 +136,16 @@ def download_books(output_folder, urls):
                     with open("downloaded_books.txt", "a") as file:
                         file.write(url+"\n")
                 elif "doi" in url and "e-rara" in url:
-                    url = reformat_erara_url(url)
-                    ret_code = download_erara(output_folder, url)
+                    proper_url = reformat_erara_url(url)
+                    ret_code = download_erara(output_folder, proper_url)
                     if ret_code != 200:
                         return ret_code
                     cpt_books += 1
                     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
                     with open("downloaded_books.txt", "a") as file:
                         file.write(url+"\n")
-                # else:
-                #     print("(unable to download) book url : "+url)
+                else:
+                    print("(unable to download) book url : "+url)
         except Exception as e:
             print("Error while downloading books: " + str(e))
             print("Try number " + str(i))
