@@ -2,6 +2,7 @@ import requests
 import argparse
 import os
 import time
+from bs4 import BeautifulSoup
 
 def download_one_page(url):
     # try to download the image 10 times before returning the error code
@@ -52,6 +53,61 @@ def download_gallica(output_folder, url):
     output_filename = output_folder + '/' + book_name + '/' + str(cpt_pages) + '.jpg'
     with open(output_filename, 'wb') as f:
             f.write(image.content)
+    return 200
+
+def reformat_erara_url(url):
+    if "https://" in url:
+        return url
+    if "doi:" in url:
+        url = "https://www.doi.org/"+url.split(":")[1]
+        return url
+    return "https://"+url
+
+def download_erara(output_folder, url):
+    print(url)
+    response = requests.get(url)
+    if response.status_code != 200:
+        print("Error code "+str(response.status_code)+" while downloading "+url)
+        return response.status_code
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    links = [a['href'] for a in soup.find_all('a', href=True) if "i3f" in a['href'] and "index.html" not in a['href']]
+    if len(links) != 1:
+        print("Error extracting iiif manifest from erara page")
+        return 0
+    i3f_manifest_url = "https://www.e-rara.ch"+links[0]
+    print("manifest url: "+i3f_manifest_url)
+    response = requests.get(i3f_manifest_url)
+    if response.status_code != 200:
+        print("Error code "+str(response.status_code)+" while downloading "+url)
+        return response.status_code
+    manifest = response.json()
+    images = []
+    try:
+        canvases = manifest["sequences"][0]["canvases"]
+        images = [canvas["images"][0]["resource"]["@id"] for canvas in canvases]
+    except (KeyError, IndexError) as e:
+        print(f"Error extracting images: {e}")
+        return 0
+    book_folder = output_folder+"/doi_"+url.split("/")[3]+"_"+url.split("/")[4]+"_"+i3f_manifest_url.split("/")[5]
+    try:
+        os.mkdir(book_folder)
+    except FileExistsError:
+        print("Folder " + book_folder + " already exists.")
+    for i, img_url in enumerate(images):
+        print("Downloading "+img_url+" from "+url)
+        img_response = requests.get(img_url, stream=True)
+        if img_response.status_code == 200:
+            img_path = os.path.join(book_folder, f"{i+1}.jpg")
+            with open(img_path, "wb") as file:
+                for chunk in img_response.iter_content(1024):
+                    file.write(chunk)
+        else:
+            print(f"Failed to download {img_url}, error code {img_response.status_code}")
+            return img_response.status_code
+
+    return 200
+    
 
 def download_books(output_folder, urls):
     number_of_try = 100
@@ -71,13 +127,24 @@ def download_books(output_folder, urls):
             cpt_books = 0
             for url in urls:
                 if "gallica.bnf.fr" in url:
-                    download_gallica(output_folder, url)
+                    ret_code = download_gallica(output_folder, url)
+                    if ret_code != 200:
+                        return ret_code
                     cpt_books += 1
                     print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
                     with open("downloaded_books.txt", "a") as file:
                         file.write(url+"\n")
-                else:
-                    print("(unable to download) book url : "+url)
+                elif "doi" in url and "e-rara" in url:
+                    url = reformat_erara_url(url)
+                    ret_code = download_erara(output_folder, url)
+                    if ret_code != 200:
+                        return ret_code
+                    cpt_books += 1
+                    print("=== Downloaded " + str(cpt_books) + " books out of " + str(len(urls)) + " ===")
+                    with open("downloaded_books.txt", "a") as file:
+                        file.write(url+"\n")
+                # else:
+                #     print("(unable to download) book url : "+url)
         except Exception as e:
             print("Error while downloading books: " + str(e))
             print("Try number " + str(i))
