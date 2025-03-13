@@ -16,8 +16,11 @@ from rtk.task import KrakenAltoCleanUpCommand, YALTAiCommand, KrakenRecognizerCo
 from rtk import utils
 import glob
 from sys import argv
+import time
 
-folders = glob.glob("/home/thibault/dev/colaf-theatre/todo/books/*")
+start = time.time()
+
+folders = glob.glob("images/*")
 
 if len(argv) == 2:
     num_workers = int(argv[1])
@@ -28,44 +31,49 @@ for i in range(0, len(folders), 4):
     batch = [
         file
         for folder in folders[i:i+4]
-        for file in glob.glob(f"{folder}/*.jpg")
+        for file in glob.glob(f"{folder}/*.png")
     ]
+    startYalt = time.time()
     # Apply YALTAi
-    print("[Task] Segment")
+    print("[Task] Segment, size of batch ", len(batch))
     yaltai = YALTAiCommand(
         batch,
-        binary="yaltaienv/bin/yaltai",
-        device="cuda:0",
-        yoloV5_model="LADaS.pt",
+        binary="env/bin/yaltai",
+        device="cpu",
+        yolo_model="models/ladas-1280-l.pt",
         verbose=True,
-        raise_on_error=True,
+        raise_on_error=False,
         allow_failure=False,
-        multiprocess=num_workers,  # GPU Memory // 5gb
-        check_content=False
+        multiprocess=30,  # GPU Memory // 5gb
+        check_content=False,
+        line_model = "models/blla.mlmodel"
     )
     yaltai.process()
+    endYalt = time.time()
+    print("[Time] Yaltai: ", endYalt - startYalt)
+    print("Yaltai output files len ", len(yaltai.output_files)) 
 
     # Clean-up the relative filepath of Kraken Serialization
     print("[Task] Clean-Up Serialization")
     cleanup = KrakenAltoCleanUpCommand(yaltai.output_files)
     cleanup.process()
-
+    
+    startKrak = time.time()
     # Apply Kraken
     print("[Task] OCR")
     kraken = KrakenRecognizerCommand(
         yaltai.output_files,
-        binary="krakenv/bin/kraken",
-        device="cuda",
-        model="long-s.mlmodel",
-        multiprocess=14,  # GPU Memory // 3gb
+        binary="env/bin/kraken",
+        #binary="yaltaienv/bin/kraken",
+        device="cpu",
+        model="models/catmus-print-fondue-large.mlmodel",
+        multiprocess=30,  # GPU Memory // 3gb
         check_content=True  # Required ?
     )
     kraken.process()
+    endKrak = time.time()
+    print("[Time] Kraken: ", endKrak - startKrak)
+    
 
-    print("[Task] Extract")
-    task = ExtractZoneAltoCommand(
-        kraken.output_files,
-        zones=None,
-        fmt="tei"
-    )
-    task.process()
+end = time.time()
+print("[Time] total: ", end - start)
