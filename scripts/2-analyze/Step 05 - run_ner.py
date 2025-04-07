@@ -9,7 +9,10 @@ import html
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 tagger_path = os.path.join("models","final-model.pt")
+print("tagger path: ", tagger_path)
 tagger = SequenceTagger.load(tagger_path)
+print("tagger loaded")
+# tagger = SequenceTagger.load("pjox/dalembert-classical-fr-ner")
 
 TAGGED_ENTITY = "<{label}  xmlns=\"http://www.tei-c.org/ns/1.0\">{entity}</{label}>"
 
@@ -95,6 +98,7 @@ def TEIsation(xml_doc):
 
 if __name__ == "__main__":
     parser = etree.XMLParser(remove_blank_text=True)
+    print("parser loaded")
     files = glob.glob("origReg/**/*", recursive=True)
     for file in files:
         print(file)
